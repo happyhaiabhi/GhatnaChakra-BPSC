@@ -1,0 +1,12 @@
+{
+  "name": "ghatna-chakra-bpsc-quiz",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Static BPSC quiz app with Firebase cross-device sync",
+  "scripts": {
+    "test": "node tests/test_quiz_webapp.js"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

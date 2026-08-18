@@ -1,0 +1,20 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    match /users/{userId}/data/{dataKey} {
+      allow read: if isOwner(userId);
+      allow create, update: if isOwner(userId)
+        && dataKey in ['gc_mistakes', 'gc_bookmarks', 'gc_skips', 'gc_history', 'gc_archive']
+        && request.resource.data.keys().hasOnly(['payload', 'updatedAt'])
+        && request.resource.data.payload is string
+        && request.resource.data.payload.size() < 900000
+        && request.resource.data.updatedAt is number;
+      allow delete: if isOwner(userId);
+    }
+  }
+}

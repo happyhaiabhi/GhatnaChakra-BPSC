@@ -1,0 +1,3197 @@
+{
+  "subject": "Physics",
+  "chapters": [
+    {
+      "chapter_name": "Measurement/Unit",
+      "questions": [
+        {
+          "q": "Angstrom is a unit of",
+          "options": {
+            "A": "Wavelength",
+            "B": "Energy",
+            "C": "Frequency",
+            "D": "Velocity",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Wavelength is measured in angstroms. 1 angstrom = 10-10 metre The symbol of angstrom is Å.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "'Light-year' is a unit of :",
+          "options": {
+            "A": "Time",
+            "B": "Distance",
+            "C": "Speed of Light",
+            "D": "Force",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The distance travelled by light in one year is called one light year (light year). Light year is a unit of astronomical distance, used to estimate the distance between stars and planets. 1 light year = 9.46 × 1015 metres.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Light year is a unit of—",
+          "options": {
+            "A": "Distance",
+            "B": "Time",
+            "C": "Age",
+            "D": "Intensity of light",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The distance travelled by light in one year is called one light year (light year). Light year is a unit of astronomical distance, used to estimate the distance between stars and planets. 1 light year = 9.46 × 1015 metres.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Re-Exam), (Pre) 2020"
+        },
+        {
+          "q": "A light-year is related to -",
+          "options": {
+            "A": "Energy",
+            "B": "Speed",
+            "C": "Distance",
+            "D": "Intensity",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The distance travelled by light in one year is called one light year (light year). Light year is a unit of astronomical distance, used to estimate the distance between stars and planets. 1 light year = 9.46 × 1015 metres.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "In the following which is a fundamental physical quantity?",
+          "options": {
+            "A": "Force",
+            "B": "Velocity",
+            "C": "Electric current",
+            "D": "Work",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Length, mass, time, thermodynamic temperature, electric current, luminous intensity and amount of substance are the seven fundamental physical quantities. The units of fundamental quantities are completely independent of each other, and none of these can be converted into or related to any other unit.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) (Re-Exam) 2020"
+        },
+        {
+          "q": "What is the unit of pressure?",
+          "options": {
+            "A": "Newton / sq. meter",
+            "B": "Newton-meter",
+            "C": "Newton",
+            "D": "Newton/meter",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The force acting per unit area on a surface is called “pressure”. The unit of pressure is newton per square metre, which is called “pascal”.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "The unit of pressure is :",
+          "options": {
+            "A": "kg/cm2",
+            "B": "kg/cm",
+            "C": "kg/mm",
+            "D": "kg/cm3",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The force acting per unit area on a surface is called “pressure”. The unit of pressure is newton per square metre, which is called “pascal”.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "The SI unit of work is",
+          "options": {
+            "A": "Watt",
+            "B": "Newton",
+            "C": "Joule",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The SI unit of work is joule. The unit joule is named after the physicist James Prescott Joule. Work is a scalar quantity. Work is defined as the product of force and displacement. W = F × s",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "What is the unit of measure of magnetic field?",
+          "options": {
+            "A": "Cobalt",
+            "B": "Ampere",
+            "C": "Ohm",
+            "D": "Tesla"
+          },
+          "answer": "D",
+          "explanation": "The SI unit used for measuring the magnetic field is tesla, denoted by 'T'. Magnetic force is produced due to the interaction of magnetic fields, whereas the magnetic field shows the distribution of magnetic influence around a magnetic body.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam (Pre) 2024"
+        },
+        {
+          "q": "What is measured in hertz?",
+          "options": {
+            "A": "Frequency",
+            "B": "Energy",
+            "C": "Heat",
+            "D": "Quality",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The SI unit of frequency is hertz; that is, frequency is measured in hertz. It is denoted by the symbol Hz. A normal human being can hear sound frequencies roughly from 20 Hz to 20,000 Hz.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "Frequency is measured in :",
+          "options": {
+            "A": "hertz",
+            "B": "metre/second",
+            "C": "radian",
+            "D": "watt",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The SI unit of frequency is hertz; that is, frequency is measured in hertz. It is denoted by the symbol Hz. A normal human being can hear sound frequencies roughly from 20 Hz to 20,000 Hz.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "The unit of electric current is -",
+          "options": {
+            "A": "Coulomb",
+            "B": "Volt",
+            "C": "Watt",
+            "D": "Ampere",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The SI unit of electric current is Ampere. 1 Coulomb/second is equal to 1 Ampere. It is a scalar quantity.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "The unit of electric power is :",
+          "options": {
+            "A": "Ampere",
+            "B": "Volt",
+            "C": "Coulomb",
+            "D": "Watt",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Electric power (P) = V × I q w t q t w Second Jule Watt × = = = Therefore, the SI unit of electric power is watt (W).",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "The unit of electric power is—",
+          "options": {
+            "A": "Ampere",
+            "B": "Volt",
+            "C": "Coulomb",
+            "D": "Watt",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Electric power (P) = V × I q w t q t w Second Jule Watt × = = = Therefore, the SI unit of electric power is watt (W).",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre.) 2019"
+        },
+        {
+          "q": "Which of the following is equivalent to tesla ?",
+          "options": {
+            "A": "Ampere per Newton",
+            "B": "Newton per Coulomb",
+            "C": "Newton per ampere-second",
+            "D": "Newton per ampere metre"
+          },
+          "answer": "D",
+          "explanation": "Tesla (T) is the SI unit of magnetic flux density. Magnetic flux density is a measure of the magnetic field. Among the given options, Newton/(Ampere-metre) is equivalent to tesla. tesla = . m wb Amp m N 2 = .sec m volt 2 =",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "‘Ohm-metre’ is unit of :",
+          "options": {
+            "A": "Resistance",
+            "B": "Conductance",
+            "C": "Resistivity",
+            "D": "Charge",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Electrical resistivity indicates the ability of a substance to oppose the flow of electric current. Substances with low resistivity allow electric current to pass easily. Its SI unit is ohm-metre (Ω·m). Electrical resistivity: (ρ) = R A l where— R = electrical resistance of the material [in ohm (Ω)] l = length of the material in the direction of current (in metre) A = cross-sectional area perpendicular to the direction of current (in square metre)",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) (Re-Exam) 2020"
+        },
+        {
+          "q": "Which physical quantity is represented by the ratio of momentum and velocity of the body?",
+          "options": {
+            "A": "Velocity",
+            "B": "Acceleration",
+            "C": "Mass",
+            "D": "Force"
+          },
+          "answer": "C",
+          "explanation": "If the mass of an object is m and its velocity is v, then its momentum is × M P V = So, the ratio of momentum to velocity is: M m V P V V = =",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Which one of the following quantities does not have unit?",
+          "options": {
+            "A": "Stress",
+            "B": "Force",
+            "C": "Strain",
+            "D": "Pressure",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The ratio of the change in dimension of an object to its original dimension is called strain. Strain is a dimensionless quantity; therefore, it has no unit.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "Force is the product of –",
+          "options": {
+            "A": "Mass and velocity",
+            "B": "Mass and acceleration",
+            "C": "Weight and velocity",
+            "D": "Weight and acceleration"
+          },
+          "answer": "B",
+          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = ( ) t M F V u = - m a = where a t v u = -",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Which is the correct formula to find the acceleration?",
+          "options": {
+            "A": "a = (v-u)/t",
+            "B": "a = u + vt",
+            "C": "a = (v + u ) / t",
+            "D": "a = (v + u ) / 2"
+          },
+          "answer": "A",
+          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = ( ) t M F V u = - m a = where a t v u = -",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Which one of the following is a scalar quantity?",
+          "options": {
+            "A": "Force",
+            "B": "Pressure",
+            "C": "Velocity",
+            "D": "Acceleration",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Quantities that require both magnitude and direction are called vector quantities. Examples—force, velocity, displacement, acceleration, momentum, etc. Quantities that require only magnitude (not direction) are called scalar quantities. Examples—volume, pressure, speed, distance, etc.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "Which of the following is not a vector quantity?",
+          "options": {
+            "A": "Displacement",
+            "B": "Velocity",
+            "C": "Force",
+            "D": "Volume"
+          },
+          "answer": "D",
+          "explanation": "Quantities that require both magnitude and direction are called vector quantities. Examples—force, velocity, displacement, acceleration, momentum, etc. Quantities that require only magnitude (not direction) are called scalar quantities. Examples—volume, pressure, speed, distance, etc.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Current density is",
+          "options": {
+            "A": "a scalar quantity",
+            "B": "a vector quantity",
+            "C": "dimensionless",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The current flowing through unit cross-sectional area is called current density. It is a vector quantity, and its direction is the same as the direction of current. Its SI unit is A/m².",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which of the following is not a vector quantity?",
+          "options": {
+            "A": "Speed",
+            "B": "Velocity",
+            "C": "Torque",
+            "D": "Displacement",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Among the given options, speed is a scalar quantity.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Measuring instrument and Scales",
+      "questions": [
+        {
+          "q": "Which meter is used to measure the distance travelled by a vehicle known as.'",
+          "options": {
+            "A": "Ammeter",
+            "B": "Speedometer",
+            "C": "Chronometer",
+            "D": "Odometer"
+          },
+          "answer": "D",
+          "explanation": "An odometer is used to measure the distance travelled by a vehicle. Chronometer is used to measure time. Speedometer is used to measure speed. Ammeter is used to measure electric current.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. (Pre) 2024"
+        },
+        {
+          "q": "Which instrument is used to measure humidity?",
+          "options": {
+            "A": "Hydrometer",
+            "B": "Hygrometer",
+            "C": "Pyrometer",
+            "D": "Lactometer",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "A hygrometer is an instrument used to measure the relative humidity of the atmosphere. A hydrometer is used to measure the relative density of liquids.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Measuring instruments and scales SONAR technology uses –",
+          "options": {
+            "A": "X-rays",
+            "B": "Infrared waves",
+            "C": "Microwaves",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "SONAR (Sound Navigation and Ranging) is a technology used for ocean exploration and mapping. In this technique, ultrasonic waves are used. Ultrasonic waves are high-frequency sound waves. Their frequency is greater than 20 kHz (kilohertz).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. 2024"
+        },
+        {
+          "q": "Which of the following is not correctly matched?",
+          "options": {
+            "A": "Voltmeter - Potential difference",
+            "B": "Ammeter - Electric current",
+            "C": "Potentiometer- Electromotive force",
+            "D": "Galvanometer - Electric resistance",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "A galvanometer is used to detect a small (low) electric current. Electric resistance is measured by an ohmmeter. A voltmeter measures potential difference, and an ammeter measures electric current. A potentiometer does not measure the electromotive force (EMF) of a cell directly; rather, it determines the correct EMF by comparing it with a standard cell.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "The device to measure electric current is –",
+          "options": {
+            "A": "Voltmeter",
+            "B": "Ammeter",
+            "C": "Voltameter",
+            "D": "Potentiometer",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "A galvanometer is used to detect a small (low) electric current. Electric resistance is measured by an ohmmeter. A voltmeter measures potential difference, and an ammeter measures electric current. A potentiometer does not measure the electromotive force (EMF) of a cell directly; rather, it determines the correct EMF by comparing it with a standard cell.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018 65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "The optical instrument used to view extremely small objects is -",
+          "options": {
+            "A": "Microscope",
+            "B": "Electroscope",
+            "C": "Spectroscope",
+            "D": "Stethoscope",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Extremely small objects are seen with a microscope. It is an optical instrument that helps us view tiny objects clearly. In it, two convex lenses are used.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "What does an audiometer measure?",
+          "options": {
+            "A": "Altitude",
+            "B": "Atmospheric pressure",
+            "C": "Heart rate",
+            "D": "Sound intensity",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "An audiometer is a medical instrument mainly used to test a person’s hearing ability (auditory capacity). Through headphones, it produces sound signals at different frequencies and checks the minimum level at which the patient can hear. The level is indicated on the decibel scale, but it is calibrated relative to the average human hearing threshold, not as a direct measurement of an external sound source. Therefore, an audiometer is used to assess hearing sensitivity, not to measure the physical intensity of an outside sound source directly.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "Time is measured in a clock by-",
+          "options": {
+            "A": "Quartz crystal",
+            "B": "Diamond crystal",
+            "C": "Lead",
+            "D": "Steel"
+          },
+          "answer": "A",
+          "explanation": "In clocks, the quartz crystal provides the frequency standard (oscillator) for time measurement; the actual time counting is done by the counter/divider circuit. The quartz crystal used in clocks is silicon dioxide. Quartz is a piezoelectric material. Hence, the most appropriate option is (a).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "1 zepto is equal to –",
+          "options": {
+            "A": "10-25",
+            "B": "1025",
+            "C": "10-21",
+            "D": "10-22",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "1 zepto is equal to 10-21.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "One micron is equal to –",
+          "options": {
+            "A": "1/10 mm",
+            "B": "1/100 mm",
+            "C": "1/1000 mm",
+            "D": "1/10,000 mm"
+          },
+          "answer": "C",
+          "explanation": "1 micron = 10-6 m = 10-6 × 103 mm = 10-3 mm = mm 1000 1",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "A distance of 1 km means –",
+          "options": {
+            "A": "100 m",
+            "B": "1000 cm",
+            "C": "1000 m",
+            "D": "100 cm"
+          },
+          "answer": "C",
+          "explanation": "1 km. distance = 1000 metres 100 m. = 1 hectometre 1000 cm. = 1 decametre 100 cm. = 1 metre",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "One picogram is equal to –",
+          "options": {
+            "A": "10–6 gram",
+            "B": "10–9 gram",
+            "C": "10–12 gram",
+            "D": "10–15 gram"
+          },
+          "answer": "C",
+          "explanation": "One picogram is equal to 10-12 gram.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "The time period of a pendulum clock is –",
+          "options": {
+            "A": "1 second",
+            "B": "2 seconds",
+            "C": "1 minute",
+            "D": "1 hour",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The time period (oscillation period) of a pendulum clock is 2 seconds. A pendulum is a body suspended from a fixed point. Under the effect of gravity, it oscillates back and forth about its mean position.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Mechanics",
+      "questions": [
+        {
+          "q": "The potential energy of a freely falling body continuously decreasing",
+          "options": {
+            "A": "The Principle of conservation of energy is violated",
+            "B": "The Principle of conservation of energy is not violated.",
+            "C": "Gravitational force is violated.",
+            "D": "Gravitational force is not violated."
+          },
+          "answer": "B",
+          "explanation": "Assuming air resistance to be negligible, only gravitational force acts on a freely falling body. The decrease in potential energy is not a violation of the law of conservation of energy; rather, it is a normal example of conversion of energy from one form (potential) to another form (kinetic).Hence, statement (b) is correct. Similarly, gravitational force is a conservative force. When the body moves in the direction of gravitational force (downward), the decrease in its potential energy occurs exactly as expected by the law of gravitation. There is no violation of gravitational force or its laws. Hence, statement (d) is also correct. This phenomenon violates neither the law of conservation of energy nor the law of gravitation. The Bihar Public Service Commission has considered option (b) as the correct answer for this question",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre.) 2025"
+        },
+        {
+          "q": "Which of the following makes use of Newton’s Third Law of Motion?",
+          "options": {
+            "A": "Archery",
+            "B": "Space rocket",
+            "C": "Venturimeter",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Newton’s Third Law of Motion states that “For every action, there is an equal and opposite reaction.” Thus, both archery and space rockets use Newton’s third law of motion.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (Class 11th-12th) 15-12-2023"
+        },
+        {
+          "q": "Who is the first person to define speed?",
+          "options": {
+            "A": "Galileo",
+            "B": "Newton",
+            "C": "Kepler",
+            "D": "Ptolemy",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Galileo was the first to define uniform linear motion. According to him, the distance covered per unit time is called speed. Later, Newton formulated the laws of motion to describe the motion of bodies and objects.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "According to Newton's second law of motion, the acceleration of an object is directly proportional to-",
+          "options": {
+            "A": "The inverse of the object's mass",
+            "B": "The force acting on the object",
+            "C": "Mass of the object",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "According to Newton’s second law of motion, the acceleration of an object is directly proportional to the force applied on it. As per Newton’s second law, the acceleration of an object depends on the net force acting on the object and the mass of the object. × F m a = Force = Mass × Acceleration",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "The working principle of a washing machine is :",
+          "options": {
+            "A": "Reverse osmosis",
+            "B": "Diffusion",
+            "C": "Centrifugation",
+            "D": "Dialysis",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "A washing machine works on the principle of centrifugation. The reaction force that is equal in magnitude to the centripetal force but opposite in direction (i.e., outward from the center) is called centrifugal force. A cloth-washing machine, a machine used to separate butter from milk, etc., work on the principle of centrifugal force.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "The force required to keep an object at a constant velocity is-",
+          "options": {
+            "A": "Net force",
+            "B": "Frictional force",
+            "C": "Gravitational force",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "To keep an object moving with constant velocity is the resultant/net force becomes zero when the forces are balanced. Many forces may act on an object, but if these forces are balanced, then the resultant/net force becomes zero. That is why the object continues to move with constant velocity. Net force is the resultant force; when balanced, it becomes zero. The tendency of a body to resist any change in its state of rest or motion is defined as inertia.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "Ball bearings are used to convert static friction into",
+          "options": {
+            "A": "Rolling friction",
+            "B": "Drag",
+            "C": "Sliding friction",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Ball bearings are used to convert static friction into rolling friction. When a circular object (ball bearing/ball) rolls on a surface, the force that opposes its motion is called rolling friction.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "A goalkeeper in a game of football pulls his hands backwards after holding the ball shot at the goal. This enables the goalkeeper to",
+          "options": {
+            "A": "Decrease the rate of change of momentum",
+            "B": "Exert large force on the ball",
+            "C": "Increase the force exerted by the ball on hands",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "By pulling his hands backward, the goalkeeper increases the time taken to stop the ball. By increasing the time, he reduces the force acting on the ball (rate of change of momentum).",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Centripetal force is responsible far",
+          "options": {
+            "A": "Independent motion of the object in space",
+            "B": "Keep the body moving along the circular path",
+            "C": "Fly the object along a straight line",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "In uniform circular motion, speed remains constant, but direction changes. The force required to change the direction/ velocity is called centripetal force. For example, if a person rotates a stone tied to a string, centripetal force acts on it.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which of the following energy changes involves frictional force?",
+          "options": {
+            "A": "Kinetic energy to heat energy",
+            "B": "Potential energy to sound energy",
+            "C": "Chemical energy to heat energy",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Frictional force acts both in stationary and in moving conditions. The coefficients related to friction are called the coefficient of static friction and the coefficient of kinetic friction. In a stationary condition, there is no displacement; hence no work is done and no energy conversion takes place. But in a moving condition, motion occurs against friction, due to which energy is lost in the form of heat. In other words, kinetic energy is converted into heat energy.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "A bus is moving along a straight path and takes a sharp turn to the right side suddenly, the passengers in the bus will",
+          "options": {
+            "A": "Bend towards right side",
+            "B": "Fall in the forward direction",
+            "C": "Bend towards left side",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "When the bus turns sharply to the right at high speed, the inertia of the bus changes, but the inertia of the passengers still remains towards the straight direction; therefore, the passengers lean to the left.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "For a body moving with constant speed in a horizontal circle, which of the following remains constant?",
+          "options": {
+            "A": "Velocity",
+            "B": "Acceleration",
+            "C": "Centripetal force",
+            "D": "Kinetic energy",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "When a body is moving with uniform speed in a horizontal circle, its kinetic energy K mv 2 1 2 = b l remains constant. When a body moves in a horizontal circle, only the direction of velocity, acceleration, and force keeps changing continuously at every instant, but there is no change in their magnitudes. The capacity of an object to do work due to its motion is called its kinetic energy.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "The 'Theory of Relativity' is presented by which scientist?",
+          "options": {
+            "A": "Albert Einstein",
+            "B": "Isaac Newton",
+            "C": "Stephen Hawking",
+            "D": "Marie Curie",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The “Theory of Relativity”, was proposed by Albert Einstein. According to this theory, E = mc², where E is energy, m is mass, and c is the speed of light.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "If force is expressed in Newtons and distance in meters, then work done will be expressed in—",
+          "options": {
+            "A": "Joules",
+            "B": "kgwt (kilogram weight)",
+            "C": "kg wt m (kgwtm)",
+            "D": "watts",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The process of applying force on an object and displacing it in the direction of the force is called work. It is a scalar quantity. Work = force × displacement in the direction of force. If force is in Newton and distance is in metre, then the work done is expressed in joule. The SI unit of work is joule.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "We apply a force of 200 Newtons on a wooden box and push it on the floor at constant velocity. The marginal friction force will be -",
+          "options": {
+            "A": "200 N",
+            "B": "100 N",
+            "C": "300 N",
+            "D": "400 N"
+          },
+          "answer": "A",
+          "explanation": "Constant velocity means that the rate of change of velocity, i.e., acceleration, is zero. According to Newton’s laws of motion, if the acceleration of an object is zero, then the net force acting on it is also zero. Here, the two main horizontal forces are: 1. Applied forward force = 200 N 2. Backward kinetic frictional force (limiting frictional force exerted by the floor on the wooden box) Since the net force is zero; hence kinetic frictional force = 200 N. Therefore, in this situation, the backward frictional force (limiting frictional force) acting on the box is 200 N, equal to the applied force but in the opposite direction.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) Exam., 2025"
+        },
+        {
+          "q": "A pair of Oxen exerts a force of 140 Newtons while ploughing the field. The field ploughed is 15 metres long. The work done in ploughing the length of the field is:",
+          "options": {
+            "A": "1900 J",
+            "B": "2000 J",
+            "C": "2100 J",
+            "D": "2200 J"
+          },
+          "answer": "C",
+          "explanation": "In physics, the work done (Work) by a constant force is given as follows when force and displacement are in the same direction: W = F × s Where: • F = applied force (in N) • s = displacement / distance (in m) • W = work done (in J) Given in the question: • F = 140 N • Length of the field (displacement) = 15 m • The oxen pull the plough along the length of the field. Therefore, force and displacement are in the same direction, so: W = 140 × 15 = 2100 J Hence, the work done in pulling the plough through a length of 15 m is 2100 J.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "If the mass of the car is 1500 kg, what work must be done to increase the velocity of the car from 30 kmph to 60kmph ?",
+          "options": {
+            "A": "156650 J",
+            "B": "156250 J",
+            "C": "800 J",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Given, Mass of car (m) = 1500 kg Initial speed (u) = 30 km per hour = 30 × 18 5 3 25 = m/s Final speed (v) = 60 km per hour = 60 × 18 5 3 50 = m/s Required work = change in kinetic energy ( ) mv mu m v u 2 1 2 1 2 1 2 1 1500 3 50 3 25 2 1 1500 9 2500 9 625 2 1 1500 9 1875 – – × × – × × – × × 2 2 2 2 2 2 = = = = = b b b b l l l l ; E = 156250 Joule",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Motion Under Gravity",
+      "questions": [
+        {
+          "q": "A truck starts from rest down a hill with a constant acceleration. It achieves 400 meters in 20 seconds. If the weight of the truck is 7 tons then what will be the force acting on it?",
+          "options": {
+            "A": "11000 N",
+            "B": "12000 N",
+            "C": "13000 N",
+            "D": "14000 N"
+          },
+          "answer": "D",
+          "explanation": "For motion with uniform acceleration, the equation is: s = ut + ½at² Here, since u = 0: s = ½at² So, 400 = ½ × a × (20)² 400 = ½ × a × 400 400 = 200a a= / m s 200 400 2 2 = Therefore, the acceleration of the truck is: a = 2 m/s² Now, according to Newton’s second law of motion: F = ma Mass = 7 tonnes = 7000 kg So, F = ma = 7000 × 2 = 14000 N Thus, the force acting on the truck will be 14000 N.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre.) 2025"
+        },
+        {
+          "q": "If the spinning speed of the earth increases, then the weight of the body at the equator will",
+          "options": {
+            "A": "Increase",
+            "B": "Decrease",
+            "C": "Remain same",
+            "D": "Doubled",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "On a rotating body, at the equator, a centrifugal force acts. This force acts against gravitational force, due to which a decrease in weight is observed at the equator. Note–At the equator, the centrifugal effect arises due to rotation.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "The weight of an object when measured on the Earth's surface is 100 N. What will be its weight when measured on the Moon's surface?",
+          "options": {
+            "A": "1.67 N",
+            "B": "100 N",
+            "C": "10 N",
+            "D": "16.7 N",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Compared to the Earth, gravity on the Moon is about 1/6 as much. Therefore, an object’s weight on the Moon is 1/6 of its weight on Earth. = Weight = ( ) Weight on Earth 6 1 = (1/6) × 100 = 16.7 N",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Two objects of different masses falling freely near the surface of the Moon would",
+          "options": {
+            "A": "have different accelerations",
+            "B": "undergo a change in their inertia",
+            "C": "have same velocity at any instant",
+            "D": "experience forces of same magnitude"
+          },
+          "answer": "C",
+          "explanation": "In free fall, the acceleration g is independent of mass. The relation for velocity is v = u + gt, so velocity depends not only on initial velocity (u) and time (t). Hence, if two objects are released together from the same point (neglecting air resistance) under identical initial conditions (e.g., u = 0), then at any instant their velocities will be the same.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "You are standing in an elevator. The force exerted by your weight on the floor of the elevator",
+          "options": {
+            "A": "will be zero when the lift goes up with an acceleration of 9.8 m/s2.",
+            "B": "will be zero when the lift comes down with an acceleration of 9.8 m/s2.",
+            "C": "Zero when the lift moves in any direction with an acceleration of 9.8 m/s2.",
+            "D": "will not be affected by the change in the rate of acceleration of the lift."
+          },
+          "answer": "B",
+          "explanation": "When the elevator comes downward with acceleration 9.8 m/s², the person exerts no pressure on the lift floor because Earth’s gravitational acceleration is 9.8 m/s². Hence, at that time, the force exerted by the person on the floor becomes zero.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "The acceleration due to gravity on the Earth's surface is approximately -",
+          "options": {
+            "A": "6.4 m/s2",
+            "B": "10 m/s2",
+            "C": "9.8 m/s2",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The acceleration due to gravity on the Earth’s surface is approximately 9.8 m/s²; it is denoted by g. Acceleration due to gravity is an example of a vector quantity.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "If a feather, a rubber ball and a wooden ball are falling freely simultaneously from the same height in the vacuum then",
+          "options": {
+            "A": "The feather will reach the ground first",
+            "B": "The rubber ball will reach the ground first",
+            "C": "The wooden ball will reach the ground first",
+            "D": "All three will reach the ground together",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In vacuum, air resistance is zero. Therefore, if a feather, a rubber ball and a wooden ball are dropped freely together from the same height, all three will reach the ground at the same time, because their final velocity ( ) v gh 2 = will be independent of their masses.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "There is no atmosphere on the surface of the moon because",
+          "options": {
+            "A": "It is closer to Earth",
+            "B": "Escape velocity of gas molecules is less than RMS velocity",
+            "C": "It revolves around Earth",
+            "D": "It gets light from Sun"
+          },
+          "answer": "B",
+          "explanation": "The Moon’s escape velocity is low, so the RMS speed of gas molecules becomes equal to or greater than it, so they escape into space. Hence, an atmosphere like Earth’s is not found on the Moon.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        },
+        {
+          "q": "When a stone is brought from the surface of the moon to the earth, then :",
+          "options": {
+            "A": "Its mass will change",
+            "B": "Its weight will change, but mass will not change",
+            "C": "Both weight and mass will change",
+            "D": "Neither mass nor weight will change"
+          },
+          "answer": "B",
+          "explanation": "When a stone is brought to Earth from the Moon, its mass remains constant, but its weight increases because gravitational acceleration on Earth is greater than on the Moon.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "If the distance between two objects is doubled, what happens to the gravitational force between them?",
+          "options": {
+            "A": "It halves",
+            "B": "It becomes one-quarter",
+            "C": "It quadruples",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The law of gravitation follows the inverse-square law. The gravitational force (F) is directly proportional to the masses of the two objects (m1 and m2) and inversely proportional to the square of the distance (r) between them. F r Gm m F r 1 2 1 2 2 \\ = ( ) F F r r F F r r F F r r F F F k F 2 4 4 4 2 1 1 2 2 2 2 1 1 2 1 2 2 1 1 2 1 2 2 1 2 1 \\ \\ \\ \\ = Therefore, if the distance between two objects is doubled, the gravitational force between them becomes one-fourth.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Physical Properties of Materials",
+      "questions": [
+        {
+          "q": "When a film of soap appears on water during the day, it shows beautiful colors. The reason for this phenomenon is-",
+          "options": {
+            "A": "Diffraction of light",
+            "B": "Refraction of light",
+            "C": "Polarization of light",
+            "D": "Interference of light",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "During the day, the soap film on water appears beautiful and colorful due to interference of light waves.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "The conversion of a solid directly into gas is called as :",
+          "options": {
+            "A": "Sublimation",
+            "B": "Condensation",
+            "C": "Evaporation",
+            "D": "Boiling",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Sublimation is the process in which a solid changes directly into the gaseous state without changing into a liquid. The direct change from gas to solid is called deposition; for example, in winter, water vapor changes directly into ice (solid).",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Which of the following do spray bottles used as window or household cleaners or perfume sprayers work on?",
+          "options": {
+            "A": "Capillary action",
+            "B": "Bernoulli's principle",
+            "C": "Pascal's Law",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Such spray bottles as window or household cleaner or perfume sprayers work on Bernoulli’s principle. Bernoulli’s principle was given by the Swiss mathematician Daniel Bernoulli.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (11th-12th) 26.08.2023"
+        },
+        {
+          "q": "A piece of ice is floating in a beaker containing water up to its brim. When the whole of the ice melts -",
+          "options": {
+            "A": "the water will spill on the floor",
+            "B": "the water level will come down in the beaker",
+            "C": "the water level will first fall and then it will spill out of the beaker",
+            "D": "the water level will not change",
+            "E": "none of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "A floating piece of ice displaces water equal to its own weight. After melting, the melted water corresponds to the same displaced amount; therefore, the water level does not change.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Spherical form of a raindrop is due to –",
+          "options": {
+            "A": "Density of liquid",
+            "B": "Surface tension",
+            "C": "Atmospheric pressure",
+            "D": "Gravitational force"
+          },
+          "answer": "B",
+          "explanation": "The spherical form of a raindrop is due to surface tension. Surface tension is the result of molecular attraction. Raindrops and drops of molten metal are spherical because their surface tends to contract to the minimum surface area, and for a given volume, a sphere has the minimum surface area.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "The highest viscosity among the following is of :",
+          "options": {
+            "A": "water",
+            "B": "air",
+            "C": "blood",
+            "D": "honey",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The thicker a fluid is, the higher its viscosity. The viscosity of honey and glycerin is higher than that of water. In the given options, the order of viscosity is as follows— honey > blood > water > air.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Food gets cooked faster in a pressure cooker because -",
+          "options": {
+            "A": "water starts boiling at low temperature due to high pressure",
+            "B": "water starts boiling at high temperature due to high pressure",
+            "C": "water starts boiling at low temperature due to low pressure",
+            "D": "water starts boiling at high temperature due to low pressure",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Food gets cooked faster in a pressure cooker because, due to high pressure, water starts boiling at a higher temperature inside it. In open utensils, water boils at 100°C, whereas in a pressure cooker the boiling temperature (boiling point) becomes about 120°C.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Optics",
+      "questions": [
+        {
+          "q": "The wavelength of the visible spectrum is in the range :",
+          "options": {
+            "A": "1300 Å - 3900 Å",
+            "B": "3900 Å - 7600 Å",
+            "C": "7800 Å - 8200 Å",
+            "D": "8500 Å - 9800 Å",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "It is difficult to define an exact boundary of the visible spectrum (light), because it depends on factors such as a person’s age, eyesight, distance of the light source, intensity, etc. Generally, its range is considered to be 320 nanometers to 860 nanometers. [In Angstrom (Å), this will be 3200 Å to 8600 Å.] The US space agency (NASA) has stated its range as 380 to 700 nanometers (nm). In the NCERT textbook, the range is written as 400 to 700 nanometers. Therefore, as per the options given in the question, candidates can choose the nearest correct answer within this range.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "The visible range of solar radiation is-",
+          "options": {
+            "A": "100-400 nm",
+            "B": "400-700 nm",
+            "C": "740-10000 nm",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "It is difficult to define an exact boundary of the visible spectrum (light), because it depends on factors such as a person’s age, eyesight, distance of the light source, intensity, etc. Generally, its range is considered to be 320 nanometers to 860 nanometers. [In Angstrom (Å), this will be 3200 Å to 8600 Å.] The US space agency (NASA) has stated its range as 380 to 700 nanometers (nm). In the NCERT textbook, the range is written as 400 to 700 nanometers. Therefore, as per the options given in the question, candidates can choose the nearest correct answer within this range.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The amount of light flux produced by an isotropic source of 2 candela is -",
+          "options": {
+            "A": "2π lumen",
+            "B": "4π lumens",
+            "C": "8π lumens",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The SI unit of luminous flux (light flux) is lumen. Luminous flux is denoted by F. F = 4πI = 4π × 2 = 8π lumen Thus, the luminous flux produced by an isotropic source of 2 candela is 8π lumen.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (11th-12th) 26.08.2023"
+        },
+        {
+          "q": "Choose the correct statement.",
+          "options": {
+            "A": "Wavelength of red light is less than violet light",
+            "B": "Wavelength of red light is more than violet light",
+            "C": "Wavelength of violet light is more than green light",
+            "D": "Wavelength of violet light is more than yellow light",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Violet light has the shortest wavelength and the highest frequency, whereas red light has the longest wavelength and the lowest frequency.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "The speed of light, will be minimum while passing through",
+          "options": {
+            "A": "Water",
+            "B": "Vacuum",
+            "C": "Air",
+            "D": "Glass",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In the medium having a higher refractive index, the speed of light is minimum. Among glass, vacuum, water and air, glass has the highest refractive index; therefore, the speed of light is minimum in glass.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "Dispersion of light is possible by :",
+          "options": {
+            "A": "Prism",
+            "B": "Convex lens",
+            "C": "Concave lens",
+            "D": "Simple mirror",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "When the Sun’s white light passes through a prism, after refraction it bends towards the base of the prism and gets separated into its constituent colors. This process is called dispersion of light.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) (Re. Exam) 2020"
+        },
+        {
+          "q": "Though water is transparent to visible light, it is not possible to see distant objects in fog which consists of fine drops of water. This is so because :",
+          "options": {
+            "A": "fine drops of water are opaque to visible light",
+            "B": "most of the light is scattered to create apparent opacity",
+            "C": "light rays suffer total internal reflection and are unable to reach the observer’s eyes",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Distant objects cannot be seen through fog composed of fine water droplets because the fog droplets scatter light. As light passes through the fog, the tiny droplets scatter it, due to which the contrast of distant objects decreases and an opaque haziness is produced.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (Class 9th-10th) 08-12-2023"
+        },
+        {
+          "q": "Monochromatic light enters from one medium to the other. Which one of the following properties does not change?",
+          "options": {
+            "A": "Frequency",
+            "B": "Amplitude",
+            "C": "Velocity",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "When monochromatic light enters from one medium to the other, its wavelength changes, but its frequency does not change.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (Class 9th–10th) 08-12-2023"
+        },
+        {
+          "q": "Light is made of seven colours. What is the method of separating the colours?",
+          "options": {
+            "A": "The colours can be separated by a prism",
+            "B": "The colours can be separated by a filter",
+            "C": "The colours can be separated by plants",
+            "D": "The colours cannot be separated"
+          },
+          "answer": "A",
+          "explanation": "Incident white light is split by a prism into coloured bands, which are the seven colors—violet, indigo, blue, green, yellow, orange, and red.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "How does the white light produce in the tube?",
+          "options": {
+            "A": "By heating up the copper wire",
+            "B": "By heating up the filament",
+            "C": "By accelerating the atoms",
+            "D": "By oscillating the molecules"
+          },
+          "answer": "B",
+          "explanation": "In a fluorescent tube, mercury vapor at low pressure is present. When electric current is passed through the filaments at the ends, the mercury vapor emits invisible ultraviolet rays. These ultraviolet rays strike the fluorescent coating (phosphor layer) on the inner surface of the tube, which then emits visible light.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "On what does the light in a tube light depend?",
+          "options": {
+            "A": "Gas in the tube",
+            "B": "Solid metal (phosphor) in the tube",
+            "C": "Liquid in the tube",
+            "D": "Tube glass"
+          },
+          "answer": "B",
+          "explanation": "In a tube light, tungsten filaments are present at both ends of the glass tube, and mercury vapor at low pressure is filled inside. When the switch is turned on, electrons are emitted from the tungsten filament and ionize mercury vapor molecules, producing a luminous discharge. Some of the emitted radiation has very small wavelengths and is not visible to us. To convert this invisible radiation into visible light, the inner surface of the tube is coated with a fluorescent (phosphor) substance, which converts invisible radiation into visible light.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "Which of the following does not change when light travels from one medium to another?",
+          "options": {
+            "A": "Velocity",
+            "B": "Wavelength",
+            "C": "Frequency",
+            "D": "Refractive index",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "When a light wave goes from air to glass, or from one medium to another, its frequency remains the same, but its wavelength and speed change.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "The nature of radiation of light is-",
+          "options": {
+            "A": "Like wave",
+            "B": "Like particle",
+            "C": "Like both of wave and particle",
+            "D": "Like neither of wave nor of particle"
+          },
+          "answer": "C",
+          "explanation": "Light radiation shows properties of both waves and particles; that is, it has both wave-like and particle-like characteristics.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "A beam of blue light was used to obtain diffraction pattern using a diffraction grating. If yellow light is used by replacing the blue light",
+          "options": {
+            "A": "diffraction pattern becomes narrower and crowded together.",
+            "B": "diffraction pattern does not change",
+            "C": "diffraction pattern becomes broader and farther apart",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "If yellow light is used instead of blue light, in a diffraction grating then since yellow light has a longer wavelength than blue light, the diffraction pattern becomes broader and the fringes become more widely spaced.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O, 2024"
+        },
+        {
+          "q": "Sky is blue because –",
+          "options": {
+            "A": "Blue color in the sunlight is more than other colors",
+            "B": "Short waves are scattered more than long waves by atmosphere",
+            "C": "Blue color is more absorbing to eyes",
+            "D": "Atmosphere absorbs long wavelength more than short wavelength"
+          },
+          "answer": "B",
+          "explanation": "The sky appears blue because Rayleigh scattering of the Sun’s white light occurs in the atmosphere. Small atmospheric particles scatter shorter wavelengths more than longer wavelengths. Since blue and violet have shorter wavelengths, they scatter more; however, violet is less visible to us, so mainly the scattered blue light reaches our eyes. Therefore, the sky looks blue.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "The phenomenon due to which the sky appears blue",
+          "options": {
+            "A": "Reflection of light",
+            "B": "Dispersion of light",
+            "C": "Scattering of light",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The sky appears blue because Rayleigh scattering of the Sun’s white light occurs in the atmosphere. Small atmospheric particles scatter shorter wavelengths more than longer wavelengths. Since blue and violet have shorter wavelengths, they scatter more; however, violet is less visible to us, so mainly the scattered blue light reaches our eyes. Therefore, the sky looks blue.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "Twinkling of stars during the night time can be explained by -",
+          "options": {
+            "A": "Refraction of light",
+            "B": "Reflection of light",
+            "C": "Polarization of light",
+            "D": "Interference of light",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The twinkling of stars at night is due to refraction of starlight as it passes through different layers of the Earth’s atmosphere.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Which of the following is responsible for production of shadow ?",
+          "options": {
+            "A": "Polarisation",
+            "B": "Rectilinear propagation of light",
+            "C": "Diffraction",
+            "D": "Interference"
+          },
+          "answer": "B",
+          "explanation": "For the formation of a shadow, rectilinear propagation of light is necessary. A shadow is formed when an object blocks a part of the light.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        },
+        {
+          "q": "Large number of thin strips of black paint are made on the surface of a convex lens of focal length 20 cm to catch the image of a white horse. The image will be :",
+          "options": {
+            "A": "A horse of less brightness",
+            "B": "A zebra of black stripes",
+            "C": "A horse of black stripes",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "A large number of thin black strips are drawn on the surface of a convex lens of focal length 20 cm. to farm the image of a white horse. This blocks a large partion of the lens and allows light rays to pass through Only a Small partion. This reduces the effective aperture of the lens and makes the image of the horse less bright.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The focal length of a convex lens is fL = 10 cm. On immersing in water, it will act as a :",
+          "options": {
+            "A": "convex lens of fL = 10 cm",
+            "B": "concave lens of fL = 10 cm",
+            "C": "convex lens of fL > 10 cm",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "When a 10 cm convex lens is immersed in water, its focal length increases by 10 cm, and it still behaves like a convex lens-lens maker’s formula ( ) f R R 1 1 1 1 1 2 n n = - - : D Where the refractive index of the lens (µ) and the refractive index of the medium, (µ1) and R1 and R2 are the radii of curvature of the lens. f = 10 cm, R1 = R2 = 10 cm, (µ = 1, µ 1 = 1.33) Since the refractive index of water (µ1) is greater than the refractive index of air (µ), the value of (µ – µ 1) decreases and the focal length increases- ( ') f 1 a n n -",
+          "exam": "BPSC",
+          "year": "B.P.S.C. School Teacher (Class 9-10) 08-12-2023"
+        },
+        {
+          "q": "The vision defect 'nearsightedness' is known as.",
+          "options": {
+            "A": "Hypermetropia",
+            "B": "Presbyopia",
+            "C": "Glaucoma",
+            "D": "Cataract",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The defect of short-sightedness is called Myopia (Myopia). A person suffering from this defect can see nearby objects easily, but cannot see distant objects. This problem occurs due to a decrease in the focal length of the eye lens, an increase in the curvature of the lens, and an increase in the power of the lens. To correct it, a concave lens (Concave Lens) of suitable focal length is used.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Myopia is a disease in which a person is unable to see -",
+          "options": {
+            "A": "Distant objects clearly",
+            "B": "Nearby objects clearly",
+            "C": "Nearby and distant objects clearly",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The defect of short-sightedness is called Myopia (Myopia). A person suffering from this defect can see nearby objects easily, but cannot see distant objects. This problem occurs due to a decrease in the focal length of the eye lens, an increase in the curvature of the lens, and an increase in the power of the lens. To correct it, a concave lens (Concave Lens) of suitable focal length is used.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (11th-12th) 15-12-2023"
+        },
+        {
+          "q": "Nearsightedness can be treated by using which of the following?",
+          "options": {
+            "A": "Convex lens",
+            "B": "Concave lens",
+            "C": "Convex-concave lens",
+            "D": "Concavo-convex lens",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The defect of short-sightedness is called Myopia (Myopia). A person suffering from this defect can see nearby objects easily, but cannot see distant objects. This problem occurs due to a decrease in the focal length of the eye lens, an increase in the curvature of the lens, and an increase in the power of the lens. To correct it, a concave lens (Concave Lens) of suitable focal length is used.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "What is the defect of vision in which a person cannot see distant objects clearly, but can see nearby objects clearly?",
+          "options": {
+            "A": "Myopia",
+            "B": "Hyperopia",
+            "C": "Presbyopia",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The defect of short-sightedness is called Myopia (Myopia). A person suffering from this defect can see nearby objects easily, but cannot see distant objects. This problem occurs due to a decrease in the focal length of the eye lens, an increase in the curvature of the lens, and an increase in the power of the lens. To correct it, a concave lens (Concave Lens) of suitable focal length is used.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O, 2024"
+        },
+        {
+          "q": "The image formed by a concave mirror is real, inverted and of the same size as that of the object. The position of the object should be",
+          "options": {
+            "A": "at the focus",
+            "B": "at the center of curvature",
+            "C": "between the focus and center of curvature",
+            "D": "beyond the center of curvature"
+          },
+          "answer": "B",
+          "explanation": "If the object is placed at the center of curvature, then the image formed by a concave mirror is real, inverted, and of the same size as that of the object. Note that if the reflecting surface of a spherical mirror is concave, it is called a concave mirror. M D P E F A B A B",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "As the diameter of the objective lens of a telescope increases, the resolution of telescope",
+          "options": {
+            "A": "Remains same",
+            "B": "Depends on focal length of lens",
+            "C": "Increases",
+            "D": "Decreases"
+          },
+          "answer": "C",
+          "explanation": "When the diameter of a telescope’s objective lens increases, the resolution of the telescope increases, because resolution is directly proportional to the diameter (D) of the objective lens. Resolving power is the ability of an objective lens to distinguish between two very closely spaced objects.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Re-Exam(Pre) 2024"
+        },
+        {
+          "q": "If the power of a glass lens is +2 diopters, its focal length will be :",
+          "options": {
+            "A": "2000 cm",
+            "B": "100 cm",
+            "C": "50 cm",
+            "D": "2 cm"
+          },
+          "answer": "C",
+          "explanation": "The SI unit of lens power is m-1 (dioptre), denoted by the symbol D. If the focal length (f) is expressed in meters, then 1 D = 1 m-1. Thus, the lens whose focal length is 1 m has power of lense 1 D. The power of a converging (convex) lens is positive (+) and the power of a diverging (concave) lens is negative (–). Focal length (f) = 1 / Power of lense (D) = 1/2 = 0.5 meter or 50 cm",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Used in solar furnace -",
+          "options": {
+            "A": "Plane mirror",
+            "B": "Concave mirror",
+            "C": "Convex mirror",
+            "D": "Concave lens",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "A solar furnace is a device used to produce very high temperatures. A concave mirror is used in it.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "The focal distance ofa plane mirror is:",
+          "options": {
+            "A": "–1cm",
+            "B": "+1 cm",
+            "C": "2 cm",
+            "D": "Infinity"
+          },
+          "answer": "D",
+          "explanation": "The focal length of a mirror is the distance between the pole and the principal focus. A plane mirror can be treated as a special case of a spherical mirror where the radius of curvature becomes infinite (∞). For a spherical mirror, f = R / 2 → ∞ / 2 = ∞ If R = ∞, then f = ∞. Therefore, the focal length of a plane mirror is considered infinite, and its optical power is zero.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "In a barber's shop, two plane mirrors are placed",
+          "options": {
+            "A": "Parallel to each other",
+            "B": "Perpendicular to each other",
+            "C": "At an angle of 45 degree",
+            "D": "At an angle of 60 degree",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A plane mirror is a thin, flat, smooth sheet of glass with a shiny silver coating on one side. The image formed by a plane mirror is virtual and erect. The image size is equal to the object size. The image of an object forms behind the mirror at the same distance as the object is placed in front of the mirror. In barber shops, plane mirrors are used and are kept parallel to each other.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "In big showrooms and departmental stores, the vigilance mirror used is a -",
+          "options": {
+            "A": "Plane mirror",
+            "B": "Convex mirror",
+            "C": "Concave mirror",
+            "D": "Combination of concave mirror and convex mirror",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "A convex mirror is a spherical mirror in which reflection takes place from the convex surface. Convex mirrors are used as rear-view mirrors in vehicles to see the traffic coming from behind. They are also used as vigilance mirrors in large showrooms and departmental stores.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "Reading glasses are made from which type of lenses?",
+          "options": {
+            "A": "Concave",
+            "B": "Convex",
+            "C": "Plain",
+            "D": "None of these"
+          },
+          "answer": "B",
+          "explanation": "Reading glasses are generally made from convex lenses. Such lenses are useful in hypermetropia (long-sightedness) and in age-related defective near vision called presbyopia. With increasing age, the power of accommodation of the human eye decreases. In most persons, the near point shifts farther away. Without corrective spectacles, they find it difficult to see nearby objects clearly and comfortably. This defect is called presbyopia. In hypermetropia also, a person cannot see nearby objects, but the reason is different—for example, the eyeball may be shorter than normal or the lens may have less focusing power, due to which the image forms behind the retina.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "A person standing in front of a mirror finds his image bigger than himself. This implies that the mirror is-",
+          "options": {
+            "A": "Concave",
+            "B": "Plane",
+            "C": "Convex",
+            "D": "Cylindrical with bulging outwards",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A concave mirror can produce an image larger than the object.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "What type of lens is used in magnifying glass?",
+          "options": {
+            "A": "Concave lens",
+            "B": "Plano-concave lens",
+            "C": "Convex lens",
+            "D": "Convex mirror",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "A magnifying glass uses a convex lens. A convex lens is converging in nature.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Heat and Thermodynamics",
+      "questions": [
+        {
+          "q": "Energy consumed in a home is 250 units then the total energy in Joules will be:",
+          "options": {
+            "A": "8 × 106",
+            "B": "9 × 105",
+            "C": "9 × 108",
+            "D": "105"
+          },
+          "answer": "C",
+          "explanation": "Electricity consumption is measured in “units”. 1 unit = 1 kilowatt-hour (1 kWh) 1 kWh = 1000 joule/sec × 3600 seconds = 3,600,000 joule = 3.6 × 106 joule The Totale energy Consumed from 250 units of energy will be- Total energy = 250 × 3.6 × 106 joule = 900 × 106 joule = 9 × 108 joule",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The temperature point at which the solid, liquid and gaseous states may stay together is known as",
+          "options": {
+            "A": "Boiling point",
+            "B": "Melting point",
+            "C": "Freezing point",
+            "D": "Triple point",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The fixed temperature and pressure at which a substance remains in equilibrium in all three states (solid, liquid, and gas) at the same time is called the triple point. Example: Triple point of water—Temperature = 0.01°C and pressure = 611 Pa",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "The boiling point of liquids at higher altitudes -",
+          "options": {
+            "A": "increases",
+            "B": "Decreases",
+            "C": "Remains the same",
+            "D": "Increases and then Decreases",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "When pressure increases, the boiling point of a liquid increases, and when pressure decreases, the boiling point decreases. Pressure and boiling point are directly proportional. Therefore, the boiling point decreases with altitude because atmospheric pressure decreases with height.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Water is an excellent cooling agent because of its",
+          "options": {
+            "A": "low boiling point",
+            "B": "high boiling point",
+            "C": "high specific heat",
+            "D": "low specific heat",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Water is an excellent cooling agent because of its high specific heat. This means a large amount of heat is required to raise its temperature, and similarly a large amount of heat must be removed to cool it. Therefore, water does not heat up quickly and does not cool down quickly, which makes it a good cooling agent.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "A Room can be cooling is done by –",
+          "options": {
+            "A": "Flow of water",
+            "B": "Release of compressed gas",
+            "C": "Cooking gas",
+            "D": "Melting the solid"
+          },
+          "answer": "B",
+          "explanation": "When a compressed gas is released, the temperature decreases and the room becomes cool. In an air conditioner, a compressed gas is used.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "The poorest conductor of heat among the following is :",
+          "options": {
+            "A": "Copper",
+            "B": "Lead",
+            "C": "Mercury",
+            "D": "Zinc",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Any substance through which heat does not flow is called a poor conductor (insulator); e.g., wood, glass, etc. All metals are good conductors of heat, but compared to other metals, lead and mercury have relatively low (poor) thermal conductivity. The thermal conductivity of lead is about 34.7 W/ mK, whereas the thermal conductivity of mercury is about 8.3 W/mK.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Compared to a burn due to air at 100°C, the burn due to steam at 100°C is",
+          "options": {
+            "A": "Less dangerous due to high latent heat of evaporation",
+            "B": "More dangerous due to high latent heat of evaporation",
+            "C": "Less dangerous due to low latent heat of evaporation",
+            "D": "More dangerous due to low latent heat of evaporation"
+          },
+          "answer": "B",
+          "explanation": "Compared to burning in air at 100°C, burning in steam at 100°C is more dangerous due to the high latent heat of vaporisation. The latent heat of a substance is the amount of heat that is absorbed or released by its unit mass during a change of state.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam(Pre) 2024"
+        },
+        {
+          "q": "How does a steam engine work?",
+          "options": {
+            "A": "From water",
+            "B": "From heat",
+            "C": "From sound",
+            "D": "From oil"
+          },
+          "answer": "B",
+          "explanation": "A steam engine is a type of heat engine, which is used to perform mechanical work using steam (heat). Steam engines are mostly external combustion engines. The Rankine cycle is used in a steam engine. The steam engine was invented by James Watt.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "What causes cooling in an air conditioner?",
+          "options": {
+            "A": "By compressing and releasing gas",
+            "B": "By evaporation of water",
+            "C": "By compressing water",
+            "D": "By compressing a solid"
+          },
+          "answer": "A",
+          "explanation": "An air-conditioner generally has an air-cooling unit and an air-heating unit. The air-heating unit increases heating when the air temperature falls below a fixed point, and when the temperature becomes higher, the air-cooling unit brings the air to the set level through cooling. The air-cooling unit is a compressor-type mechanical refrigeration unit.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "A fan produces a feeling of comfort during the hot weather because-",
+          "options": {
+            "A": "Fan supplies cool air.",
+            "B": "Our body radiates more heat in air.",
+            "C": "Conductivity of air increases.",
+            "D": "Our perspiration evaporates rapidly",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In summer, the evaporation of sweat from our body due to the fan makes us feel comfortable.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "By opening the door of a refrigerator kept in a room -",
+          "options": {
+            "A": "You can cool the room by a few degrees.",
+            "B": "You can cool it to the temperature of a refrigerator.",
+            "C": "You can eventually heat the room up a bit.",
+            "D": "You can neither heat nor cool the room."
+          },
+          "answer": "C",
+          "explanation": "If the refrigerator door is kept open in a room, the room temperature increases, and as a result, the room becomes slightly warmer.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "If the door of the refrigerator is left open for a few hours, then the room temperature will",
+          "options": {
+            "A": "decrease",
+            "B": "increase",
+            "C": "remain the same",
+            "D": "decrease only in the vicinity of the refrigerator",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "If the refrigerator door is kept open in a room, the room temperature increases, and as a result, the room becomes slightly warmer.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "The maximum density of water is at—",
+          "options": {
+            "A": "100°C",
+            "B": "4°C",
+            "C": "0°C",
+            "D": "−4°C"
+          },
+          "answer": "B",
+          "explanation": "The density of water is maximum at 4°C, and its volume is minimum.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997–98"
+        },
+        {
+          "q": "In winter when you touch a log of wood and a rod of iron, you will feel that rod of iron is colder than wood because –",
+          "options": {
+            "A": "The heat of rod of iron is less than the heat of log of wood",
+            "B": "In comparison to wood, iron is good conductor of heat",
+            "C": "In comparison to wood, iron is bad conductor of heat",
+            "D": "The rod of iron is heavier than the log of wood"
+          },
+          "answer": "B",
+          "explanation": "Iron is a good conductor of heat, whereas wood is a poor conductor (insulator). In a cold morning, iron conducts heat away from our hand quickly, so it feels colder than wood. Wood conducts heat slowly, so it feels comparatively less cold.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Heat transfer that does not require a medium is called",
+          "options": {
+            "A": "Radiation",
+            "B": "Reflection",
+            "C": "Conduction",
+            "D": "Convection"
+          },
+          "answer": "A",
+          "explanation": "In radiation, no medium is required for heat transfer. In solids and liquids, a material medium is required; heat transfer occurs by conduction in solids and by convection in liquids.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "The value of 50oC in Fahrenheit scale is :",
+          "options": {
+            "A": "104oF",
+            "B": "122oF",
+            "C": "100oF",
+            "D": "75oF",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The relation between Celsius and Fahrenheit is given by the following formula— F C 5 9 32 0 0 = + F 5 9 50 32 5 45 32 × 0 0 & + = + 90 32 122 0 = + = Therefore, 50°C = 122°F on the Fahrenheit scale.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "The value of 40 degrees Celsius in Fahrenheit scale is :",
+          "options": {
+            "A": "104º F",
+            "B": "100º F",
+            "C": "102º F",
+            "D": "75º F",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Where F 5 9 C 32 o o ` = + C = Celsius temperature and F = Fahrenheit temperature F = (9/5)C + 32 F = (9/5) × 40 + 32 = 72 + 32 = 104°F Therefore, 40°C = 104°F on the Fahrenheit scale.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Wave Motion",
+      "questions": [
+        {
+          "q": "The time period of a pendulum –",
+          "options": {
+            "A": "Depends on the mass",
+            "B": "Depends on its length",
+            "C": "Depends on time",
+            "D": "Depends on temperature"
+          },
+          "answer": "B",
+          "explanation": "The time period of a simple pendulum depends on the length of the pendulum. T 2 g l r = Here π and g are constants. The time period is proportional to the square root of the length (l).",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "What is the distance between two successive crests or successive troughs called?",
+          "options": {
+            "A": "Amplitude",
+            "B": "Wavelength",
+            "C": "Frequency",
+            "D": "None of these"
+          },
+          "answer": "B",
+          "explanation": "When a simple periodic wave passes through a medium, the same pattern repeats after a fixed distance (for example, the distance between two successive crests or troughs). This distance is called the wavelength.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "The velocity of electromagnetic waves is :",
+          "options": {
+            "A": "3 × 108 ms–1",
+            "B": "3 × 107 ms–1",
+            "C": "3 × 106 ms–1",
+            "D": "3 × 105 ms–1",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Waves that do not require a material medium for propagation are called electromagnetic waves. Their speed in vacuum is equal to the speed of light, i.e., approximately 3×108 ms-1.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Cosmic rays –",
+          "options": {
+            "A": "Are charged particles",
+            "B": "Are uncharged particles",
+            "C": "Can be charged as well as uncharged",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Cosmic rays are not a part of the electromagnetic spectrum. They are high-energy charged particles that travel through space at nearly the speed of light.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Which of the following rays are used in the diagnosis of intestinal diseases :",
+          "options": {
+            "A": "X-rays",
+            "B": "α-rays",
+            "C": "β-rays",
+            "D": "γ-rays"
+          },
+          "answer": "A",
+          "explanation": "X-rays are a type of electromagnetic radiation. They are used in medicine for the diagnosis of intestinal diseases.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "One of the properties associated with X-rays is that they can be deflected by",
+          "options": {
+            "A": "Both electric and magnetic fields together",
+            "B": "Electric fields only",
+            "C": "Magnetic fields only",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "X-rays are electromagnetic waves. They cannot be deflected by electric or magnetic fields because they do not consist of charged particles. They were discovered by Röntgen.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam(Pre) 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Sound",
+      "questions": [
+        {
+          "q": "Shrillness of sound is determined by",
+          "options": {
+            "A": "velocity of sound",
+            "B": "amplitude of sound",
+            "C": "wavelength of sound",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Frequency determines the shrillness or pitch of sound. If the frequency of vibration is high, the sound is more shrill and its pitch is higher. If the frequency is low, the pitch is low. Generally, a female voice has a higher frequency and is more shrill than a male voice. It is noteworthy that frequency and wavelength are inversely proportional. Therefore, it is also true that the shrillness of sound depends on its wavelength. For example, the smaller the wavelength, the higher the frequency, and the sound becomes more shrill.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "When a sound wave passes from one medium to another, the quantity that remains unchanged is—",
+          "options": {
+            "A": "frequency",
+            "B": "amplitude",
+            "C": "wavelength",
+            "D": "speed",
+            "E": "none of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Sound travels from one place to another in the form of waves. A sound wave is a longitudinal mechanical wave. When sound passes from one medium to another, its speed and wavelength change, but its frequency does not change.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. Re-exam (Pre) 2020"
+        },
+        {
+          "q": "Sound wave in air is –",
+          "options": {
+            "A": "Transverse",
+            "B": "Longitudinal",
+            "C": "Electromagnetic",
+            "D": "Polarized",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Sound waves are called mechanical waves because they require a material medium (solid, liquid, or gas/air) for propagation. In air or gas, sound waves are longitudinal because the particles of the medium oscillate along the direction of wave propagation.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "An example of longitudinal wave is :",
+          "options": {
+            "A": "Radio wave",
+            "B": "Sound wave",
+            "C": "X-ray",
+            "D": "Gamma ray",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Sound waves are called mechanical waves because they require a material medium (solid, liquid, or gas/air) for propagation. In air or gas, sound waves are longitudinal because the particles of the medium oscillate along the direction of wave propagation.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) (Re. Exam) 2020"
+        },
+        {
+          "q": "Before playing the orchestra in a musical concert, a sitarist tries to adjust the tension and pluck the string suitably. By doing so, he/she is adjusting",
+          "options": {
+            "A": "frequency of the sitar string with the frequency of other musical instruments",
+            "B": "amplitude of sound",
+            "C": "intensity of sound",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Before an orchestra performance, a sitar player tries to adjust the string tension and tune the string properly. By doing so, he adjusts the frequency of the sitar string with the frequency of other musical instruments. Note that equalization is a process used to balance the frequency components within an electronic signal so that it matches the frequency components of other instruments.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "A noise level of 100 decibels would correspond to",
+          "options": {
+            "A": "just audible sound",
+            "B": "ordinary conversation",
+            "C": "sound from a noisy street",
+            "D": "noise from a machine shop",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "A sound level of 100 decibels corresponds to the noise intensity level of a machine shop. The intensity level of sound is measured in decibels (dB). The World Health Organization (WHO) has fixed the outdoor living-area noise level during daytime at 50–55 dB, while inside bedrooms at night the noise level is 30 dB.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "Ultrasonic waves-",
+          "options": {
+            "A": "are sound waves with a frequency less than 20 kHz",
+            "B": "are sound waves with a frequency greater than 20 kHz",
+            "C": "are sound waves with a frequency between 20 Hz and 20 kHz",
+            "D": "are electromagnetic waves",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Sound waves with a frequency greater than 20 kHz are called ultrasonic waves. Humans cannot hear this sound; however, some animals (dogs, cat, bat, etc.) can hear it. Ultrasonic waves can be produced using Galton's whistle.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "The hearing frequency range of a cat is",
+          "options": {
+            "A": "20 Hz to 20 kHz",
+            "B": "20 Hz to 50 kHz",
+            "C": "45 Hz to 64 kHz",
+            "D": "10 Hz to 100 kHz",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "A cat’s hearing frequency range is approximately 45 Hz to 64 kHz. Note that sound waves can be divided into three categories on the basis of frequency range—Audible waves (20 Hz–20,000 Hz), Infrasonic waves (less than 20 Hz), and Ultrasonic waves (more than 20,000 Hz/20 kHz). Animals like dolphins and bats use ultrasonic waves for echolocation.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO 2022"
+        },
+        {
+          "q": "In which medium, the speed of sound is maximum?",
+          "options": {
+            "A": "Water",
+            "B": "Steel",
+            "C": "Air",
+            "D": "Hydrogen"
+          },
+          "answer": "B",
+          "explanation": "The speed of sound depends on the nature of the medium. The speed of sound also depends on atmospheric conditions such as temperature, humidity, etc. The speed of sound in different media is as follows- Medium Temperature (°C) Speed of sound (m/s) Dry air 0 330–332 Dry air 25 346 Hydrogen 25 1284 Distilled water 25 1498 Seawater 25 1531 Steel 25 5960 Aluminium 25 6420 Iron 25 5950 Glass (flint) 25 3980",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The velocity of sound in air is approximately-",
+          "options": {
+            "A": "10 km/sec",
+            "B": "10 mile/min",
+            "C": "330 m/sec",
+            "D": "3 × 1010/sec"
+          },
+          "answer": "C",
+          "explanation": "The speed of sound depends on the nature of the medium. The speed of sound also depends on atmospheric conditions such as temperature, humidity, etc. The speed of sound in different media is as follows- Medium Temperature (°C) Speed of sound (m/s) Dry air 0 330–332 Dry air 25 346 Hydrogen 25 1284 Distilled water 25 1498 Seawater 25 1531 Steel 25 5960 Aluminium 25 6420 Iron 25 5950 Glass (flint) 25 3980",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "In which of the following is the speed of sound the highest?",
+          "options": {
+            "A": "Steel",
+            "B": "Water",
+            "C": "Air",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The speed of sound depends on the nature of the medium. The speed of sound also depends on atmospheric conditions such as temperature, humidity, etc. The speed of sound in different media is as follows- Medium Temperature (°C) Speed of sound (m/s) Dry air 0 330–332 Dry air 25 346 Hydrogen 25 1284 Distilled water 25 1498 Seawater 25 1531 Steel 25 5960 Aluminium 25 6420 Iron 25 5950 Glass (flint) 25 3980",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Electric Current",
+      "questions": [
+        {
+          "q": "In which of the following ways can 1 volt be expressed?",
+          "options": {
+            "A": "1 Joule per Coulomb",
+            "B": "1 Coulomb Joule",
+            "C": "1 Joule-Coulomb",
+            "D": "1 Joule-Coulomb second"
+          },
+          "answer": "A",
+          "explanation": "One volt is defined as the work/energy (in joules) per coulomb of electric charge.1 volt = 1 joule/coulomb. Hence, option (a) is the correct answer.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) 2005"
+        },
+        {
+          "q": "Electrical energy can be generated from:",
+          "options": {
+            "A": "Iron",
+            "B": "Aluminum",
+            "C": "Copper",
+            "D": "Uranium"
+          },
+          "answer": "D",
+          "explanation": "Electric power can be generated from water (hydropower), coal, uranium through nuclear reactions, wind power, and other methods. Uranium is used in nuclear reactors to produce electricity through nuclear fission.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "The element commonly used in a nuclear reactor to generate electricity from nuclear fission is-",
+          "options": {
+            "A": "Radium",
+            "B": "Plutonium",
+            "C": "Uranium",
+            "D": "Deuterium",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Electric power can be generated from water (hydropower), coal, uranium through nuclear reactions, wind power, and other methods. Uranium is used in nuclear reactors to produce electricity through nuclear fission.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Which metal can be used for producing electricity?",
+          "options": {
+            "A": "Uranium",
+            "B": "Iron",
+            "C": "Copper",
+            "D": "Aluminium"
+          },
+          "answer": "A",
+          "explanation": "Electric power can be generated from water (hydropower), coal, uranium through nuclear reactions, wind power, and other methods. Uranium is used in nuclear reactors to produce electricity through nuclear fission.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "If a bulb of 100 watts burns for 10 hours, the expenditure of electricity will be –",
+          "options": {
+            "A": "0.1 unit",
+            "B": "1 unit",
+            "C": "10 units",
+            "D": "100 units"
+          },
+          "answer": "B",
+          "explanation": "If a 100-watt bulb burns for 10 hours, then one unit of electricity will be consumed— Unit (in kWh) = 100 × 10 watt-hour = 1000 watt-hour = 1 kilowatt-hour = 1 unit",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "The total resistance of a circuit having two parallel resistors is 1.403 kilo-ohm. If one of the resistors is 2.0 kilo-ohm, then the other resistor will be",
+          "options": {
+            "A": "1.403 kilo-ohm",
+            "B": "2.0 kilo-ohm",
+            "C": "3.403 kilo-ohm",
+            "D": "4.70 kilo-ohm",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Total resistance (R) = 1.403 kilohm For two resistors R1 and R2 connected in parallel, the equivalent resistance is: R1 R2 A B Req 1/R = 1/R1 + 1/R2 R = 1.403 kilohms R1 = 2.0 kilohms Substituting the values: 1.403 1 2.0 1 R 1 2 = + = 0.7128 = 0.5 + R 1 2 = R 1 2 = 0.7128 – 0.5 R 1 2 = 0.2128 Hence R2 = 0.2128 1 Therefore, R2 = 4.70 kilohms Hence, option (d) is correct.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "In a common dry cell, electrolyte is –",
+          "options": {
+            "A": "Zinc",
+            "B": "Sulphuric acid",
+            "C": "Ammonium chloride",
+            "D": "Manganese dioxide"
+          },
+          "answer": "C",
+          "explanation": "In a common dry cell, ammonium chloride or zinc chloride is used as the electrolyte, and manganese dioxide is used as the cathode material.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "An electron of mass M kg and charge e coulomb travels from rest through a potential difference of V volts. The final energy in joules would be :",
+          "options": {
+            "A": "eV",
+            "B": "M eV",
+            "C": "V e",
+            "D": "MeV"
+          },
+          "answer": "A",
+          "explanation": "Given an electron: Mass = M kg Charge = e Potential difference = V Final energy = eV One MeV (mega-electron volt) is equal to 1.6 × 10-13 joules.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        },
+        {
+          "q": "Which of the following is the correct match?",
+          "options": {
+            "A": "Electric motor → Electrical energy to mechanical energy",
+            "B": "Safety fuses → Heating effect of electric current",
+            "C": "Electric generator → Electromagnetic induction",
+            "D": "More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "An electric motor converts electrical energy into mechanical energy. A safety fuse works on the heating effect of electric current. An electric generator is based on electromagnetic induction. Hence, all the given matches are correct.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. -2024"
+        },
+        {
+          "q": "Turbines and Dynamos are used to convert which energy to electrical energy?",
+          "options": {
+            "A": "Chemical energy",
+            "B": "Solar energy",
+            "C": "Mechanical energy",
+            "D": "Magnetic energy"
+          },
+          "answer": "C",
+          "explanation": "To obtain electricity using a turbine and dynamo, mechanical energy is converted into electrical energy.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "‘Dynamo’ is a device, which converts :",
+          "options": {
+            "A": "Chemical energy into electrical energy",
+            "B": "Electrical energy into mechanical energy",
+            "C": "Mechanical energy into electrical energy",
+            "D": "Electrical energy into chemical energy"
+          },
+          "answer": "C",
+          "explanation": "To obtain electricity using a turbine and dynamo, mechanical energy is converted into electrical energy.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "An AC current can be produced by -",
+          "options": {
+            "A": "Choke coil",
+            "B": "Dynamo",
+            "C": "Transformer",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "AC (Alternating Current) can be generated by a dynamo. A dynamo works on the principle of electromagnetic induction and converts mechanical energy into electrical energy.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "In electrical motor :",
+          "options": {
+            "A": "Heat is converted into electrical energy",
+            "B": "Electrical energy is converted into heat",
+            "C": "Electrical energy is converted into mechanical energy",
+            "D": "Mechanical energy is converted into electrical energy",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "An electric motor is a device that converts electrical energy into mechanical energy. Its operation is based on Fleming’s left-hand rule.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "A photoelectric cell is a device which",
+          "options": {
+            "A": "converts light energy into electric energy",
+            "B": "converts electric energy into light energy",
+            "C": "stores light energy",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "A photoelectric cell is an electronic device that converts light energy into electrical energy. It is also called an Electric Eye or a Phototube. Note that a photoelectric cell works on the principle of the photoelectric effect. A photoelectric cell consists of an evacuated glass tube in which two electrodes are fitted—an emitter and a collector.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Solar cell is a device that converts light energy into electrical energy. We obtain the highest output of energy during noon when the sun is just above our head, because :",
+          "options": {
+            "A": "The density of light radiation is maximum when Sun rays are falling vertically",
+            "B": "The heat produced is highest in the noon",
+            "C": "The sun is nearest to the earth at noon",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "At noon, the Sun’s rays fall vertically on the solar collector; therefore, the density of the incident light radiation received is maximum. Hence, solar energy production is maximum at noon.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. 2024"
+        },
+        {
+          "q": "The magnetic needle points to –",
+          "options": {
+            "A": "East",
+            "B": "West",
+            "C": "North",
+            "D": "Sky"
+          },
+          "answer": "C",
+          "explanation": "A magnetic needle points towards the north direction. It aligns itself according to the Earth’s magnetic poles (north and south). Therefore, the needle is attracted towards the Earth’s north magnetic pole and indicates the north direction.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "The paramagnetic theory of magnetism applies to –",
+          "options": {
+            "A": "Nickel",
+            "B": "Mercury",
+            "C": "Iron",
+            "D": "Platinum",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Paramagnetism is a form of magnetism in which some materials are weakly attracted by an externally applied magnetic field and produce an induced magnetic field in the same direction as the applied field. Platinum is a paramagnetic substance.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "Bulbs used in street lighting are connected in-",
+          "options": {
+            "A": "Both in series and parallel order",
+            "B": "In parallel order",
+            "C": "In series order",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "All bulbs used in street lighting are connected in parallel. This is done because if bulbs are connected in series, their brightness decreases. Therefore, to obtain higher brightness, each bulb is connected in parallel.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "What is the device to protect equipment from the electric shock?",
+          "options": {
+            "A": "Generator",
+            "B": "Fuse",
+            "C": "Motor",
+            "D": "Current controller"
+          },
+          "answer": "B",
+          "explanation": "A fuse is a safety device connected in series in an electric circuit. It is made of a thin wire or a metal strip with limited current-carrying capacity. When excessive current flows due to overload or short-circuit, the fuse wire heats up and melts, breaking the circuit. Thus, current flow stops and electrical appliances are protected from damage due to excess current.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The wire generally used for installation of safety fuse is made of which material?",
+          "options": {
+            "A": "Tin",
+            "B": "Lead",
+            "C": "Nickel",
+            "D": "An alloy of tin and lead"
+          },
+          "answer": "D",
+          "explanation": "A fuse is a small piece of wire. It is made of a tin–lead (Sn– Pb) alloy. It has a low melting point and high resistance. Due to short-circuiting, overloading, voltage surge, etc., when the current in the circuit exceeds the specified limit, the fuse melts and breaks. This prevents damage to electrical/ electronic equipment and helps avoid possible accidents.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "An electric fuse works on the :",
+          "options": {
+            "A": "Heating effect of current",
+            "B": "Chemical effect of current",
+            "C": "Magnetic effect of current",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "An electric fuse works on the heating effect of electric current. When current passes through a resistor or an appliance, resistance is encountered and heat is produced in the process; this is called the heating (thermal) effect. A fuse is a safety device that protects electric circuits and components from possible damage.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3, July-2024"
+        },
+        {
+          "q": "Due to temperature variation along a conductor, potential variation occurs along it. This phenomenon is known as :",
+          "options": {
+            "A": "Thomson effect",
+            "B": "Joule effect",
+            "C": "Seebeck effect",
+            "D": "Peltier effect",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "When the two ends of a conductor are kept at different temperatures and an electric current flows through it, heat is evolved or absorbed along the length of the conductor; this is known as the Thomson effect.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "What does the speed of the fan depend on?",
+          "options": {
+            "A": "Voltage",
+            "B": "Metal",
+            "C": "Aluminum in the fan",
+            "D": "Iron in the fan"
+          },
+          "answer": "A",
+          "explanation": "The speed of a fan can be controlled by voltage. Voltage control is the most popular method for speed control of induction-motor-driven fans such as table fans. Fan speed can also be controlled by resistance/rheostat control, capacitor control, and power-electronic regulators (triac regulators).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "The material commonly used to make the core of an electromagnet is :",
+          "options": {
+            "A": "Soft iron",
+            "B": "Stainless steel",
+            "C": "Aluminum",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The core of an electromagnet is made of soft iron (a magnetic material). Electromagnets are used in making electric bells, loudspeakers, and telegraph devices.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. School Teacher 7.12.2023"
+        },
+        {
+          "q": "High voltage grids are used to transmit electricity because-",
+          "options": {
+            "A": "The current is higher.",
+            "B": "The power loss is higher.",
+            "C": "The resistance is lower.",
+            "D": "The heat loss is lower."
+          },
+          "answer": "D",
+          "explanation": "Electric transmission: high-voltage grids are used to increase efficiency and reduce heat loss. According to Ohm's law, a lower current results in lower resistive loss. For a fixed power (P = VI), keeping current low requires a high value of voltage.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "The number of neutral points around a bar magnet placed in the Earth's magnetic field, with its north pole pointing towards the geographic north, is :",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "5",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A bar magnet Placed in the Earth's magnetic field with its North Pole pointing towards geographic North, has 2 neutral points around it.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "Which of the following metals is used as filament in lighting bulbs?",
+          "options": {
+            "A": "Iron",
+            "B": "Molybdenum",
+            "C": "Silver",
+            "D": "Tungsten"
+          },
+          "answer": "D",
+          "explanation": "Generally, the resistivity of alloys is higher than that of the pure metals from which they are made. Also, the rate of change of resistivity with change in temperature is comparatively low. Therefore, they do not oxidize quickly at high temperatures. For this reason, they are used in common electrical heating devices like electric presses, toasters, etc. For making filaments of incandescent lamps, only tungsten is used, whereas copper and aluminium are used to make wires for electric transmission.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Electricity consumption bill is based on the measurement of – 1. Watt 2. Voltage 3. Ohm 4. Ampere Select your answer from the following codes -",
+          "options": {
+            "A": "Only 1",
+            "B": "1 and 2",
+            "C": "2 and 3",
+            "D": "1 and 4"
+          },
+          "answer": "A",
+          "explanation": "The amount of electrical energy used in a home or industry is measured by an energy meter. This measurement is done in kilowatt-hour (kWh), which is commonly called a “unit”.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "What phenomenon occurs during lightning?",
+          "options": {
+            "A": "Electric charging",
+            "B": "Electrical discharge",
+            "C": "Accumulation of electric charge",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Lightning is a natural phenomenon produced by the discharge of electricity (electrostatic discharge) through the atmosphere between two electrically charged regions.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. March, 2024"
+        },
+        {
+          "q": "Which of the following represents a non-ohmic resistance?",
+          "options": {
+            "A": "Copper",
+            "B": "Torch bulb",
+            "C": "Nichrome",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Materials that do not follow Ohm’s law are defined as non-ohmic resistors. A torch bulb represents non-ohmic resistance. Therefore, option (b) is the correct answer. Non-ohmic resistance is also called non-linear resistance. Major examples include torch bulbs, semiconductor materials, thermistors, electrolytes, etc.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "The magnetic field lines around a straight currentcarrying conductor are",
+          "options": {
+            "A": "Parallel lines",
+            "B": "Many points",
+            "C": "Concentric circles",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Around a straight current-carrying conductor, the magnetic field lines are in the form of concentric circles. To determine the direction of magnetic field lines, the right-hand thumb rule is used. If the direction of current flowing in the conductor is reversed, the direction of magnetic field lines also changes.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Conductivity",
+      "questions": [
+        {
+          "q": "Which term in the following does NOT denote the electric power in electric circuit?",
+          "options": {
+            "A": "IR²",
+            "B": "I²R",
+            "C": "VI",
+            "D": "V²/R"
+          },
+          "answer": "A",
+          "explanation": "Electrical work done per unit time, or electrical energy consumed per unit time, in an electric circuit is called electric power (P). In a simple ohmic circuit with steady current (D.C.), the correct formulas of electric power are— 1. P = VI, where 2. P = I2 RV = Potential difference 3. P = V2 / R I - Current R – Resistance From Ohm’s law, V = IR. Hence, among the given options, IR² (I × R²) does not represent electric power correctly.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C.(Pre) 2025"
+        },
+        {
+          "q": "Which of the following is the resistance of the wire ?",
+          "options": {
+            "A": "R = IV",
+            "B": "R V 2 1 =",
+            "C": "R I V =",
+            "D": "R V I ="
+          },
+          "answer": "C",
+          "explanation": "According to Ohm’s law, the resistance (R) of a wire is equal to the ratio of the potential difference across the wire to the electric current (I) flowing through it- R =V/I.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "Which of the following terms does NOT represent electric power in a circuit?",
+          "options": {
+            "A": "VI",
+            "B": "IR²",
+            "C": "I²R",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Among the given options, IR² does not represent electric power in a circuit. Electric power is the rate of conversion of electrical energy. It is defined as the rate of transfer of energy in an electric circuit, or the rate of doing work in an electric circuit. Electric power can be represented by P. The SI unit of electric power is watt. Mathematically, electric power is expressed as the product of potential difference and current in a circuit: P = V × I P V× R V R V 2 = = or, P = IR × I I R V a = : D = I²R V IR ` = ] g",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher Recruitment Exam - 3 July, 2024"
+        },
+        {
+          "q": "In short circuit, the value of electric current in a time circuit:",
+          "options": {
+            "A": "Do not change",
+            "B": "Very low",
+            "C": "Increases very high",
+            "D": "Continuously changing"
+          },
+          "answer": "C",
+          "explanation": "The term used in the question, When a short circuit occurs, a very large current flows through the wires. As a result, excessive heating may occur, wires may melt, the fuse may blow, or even a fire may occur.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) Exam, 2025"
+        },
+        {
+          "q": "Semiconductors are materials that have the following properties -",
+          "options": {
+            "A": "Electrical conductivity is higher than that of metals",
+            "B": "Electrical conductivity is lower than that of metals",
+            "C": "Electrical conductivity is zero",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Semiconductors are substances whose electrical conductivity is less than that of conductors, but greater than that of insulators. For example, silicon (Si) and germanium (Ge) are semiconductors.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. March, 2024"
+        },
+        {
+          "q": "Which one of the following metals is used as a semiconductor in transistors?",
+          "options": {
+            "A": "Copper",
+            "B": "Germanium",
+            "C": "Graphite",
+            "D": "Silver"
+          },
+          "answer": "B",
+          "explanation": "The electrical resistance of some materials like silicon and germanium lies between that of conductors and insulators; such materials are called semiconductors. They generally conduct electricity, but when small amounts of impurities are added, their conductivity increases and they become n-type and p-type semiconductors, which are used in transistors.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "On heating, the resistance of a semiconductor :",
+          "options": {
+            "A": "Increases",
+            "B": "Decreases",
+            "C": "Remains same",
+            "D": "first increases and then decreases",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Semiconductors are solid substances whose resistivity is greater than that of conductors but less than that of insulators. The resistance of a semiconductor decreases when temperature increases.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "The characteristic of a superconductor is –",
+          "options": {
+            "A": "High permeability",
+            "B": "Low permeability",
+            "C": "Zero permeability",
+            "D": "Infinite permeability"
+          },
+          "answer": "C",
+          "explanation": "In 1911, the Dutch physicist H. K. Onnes (1853–1926) studied the effect of temperature on resistance. He cooled some metal samples to a few kelvins and measured their electrical resistance. He found that at a very low temperature (around 4.2 K), the electrical resistance of mercury becomes zero. Later, it was found that many elements and compounds behave similarly at low temperatures. Such substances are called superconductors. Since superconductors show no resistance, there is no loss of energy when current flows through them. Therefore, superconductors can be used efficiently for transmitting electricity from one place to another. Another essential property of superconductors is that they prevent magnetic flux from entering their interior The magnetic field/flux is confined to the surface, i.e., their magnetic permeability is zero.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Lenz’s law is derived from the law of conservation of",
+          "options": {
+            "A": "Magnetism",
+            "B": "Momentum",
+            "C": "Charge",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "Lenz’s law is based on the law of conservation of energy. It ensures that in the process of electromagnetic induction, energy is neither created nor destroyed. The induced current always opposes the change due to which it is produced. Hence, Lenz’s law is based on energy conservation.",
+          "exam": "BPSC",
+          "year": "BPSC (Tre-3) July–2024"
+        },
+        {
+          "q": "The process of charging a conductor by bringing it near another charged conductor, without making any contact, is called–",
+          "options": {
+            "A": "Induction",
+            "B": "Conduction",
+            "C": "Convection",
+            "D": "Radiation",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The process of charging a conductor by bringing it near another charged conductor without making contact is defined as induction.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "Which of the following liquids is a bad conductor of electricity?",
+          "options": {
+            "A": "Salted water",
+            "B": "Orange juice",
+            "C": "Lemon juice",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Lemon juice, salted water, and orange juice contain dissolved ions, due to which these solutions show conductivity. All of these are conductors of electricity. Therefore, among the given options, (d) is the correct answer.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The conductivity of a strong electrolyte",
+          "options": {
+            "A": "Decreases on dilution",
+            "B": "Does not change with dilution",
+            "C": "Increases slightly on dilution",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "A strong electrolyte has high conductivity. Strong electrolytes ionize completely in water. When a strong electrolyte is diluted, the number of ions per unit volume decreases; therefore, its conductivity decreases. Examples of strong electrolytes are NaCl, KCl, etc.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Nuclear Physics",
+      "questions": [
+        {
+          "q": "The principle of atomic bomb is based on –",
+          "options": {
+            "A": "Nuclear fusion",
+            "B": "Nuclear fission",
+            "C": "Above both",
+            "D": "Above none"
+          },
+          "answer": "B",
+          "explanation": "The principle of an atomic bomb is based on nuclear fission. Nuclear fission means the splitting of a heavy nucleus such as Uranium-235 and Plutonium-239 into two or more lighter nuclei. In this process, a very large amount of energy and additional neutrons are released.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Nuclear fission occurs due to the collision of—",
+          "options": {
+            "A": "Proton",
+            "B": "Electron",
+            "C": "Neutron",
+            "D": "Both (a) and (b)",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Nuclear fission occurs due to the collision of neutrons. When neutrons are fired at atoms of a heavy element, the heavy element splits into lighter elements, as a result of which a very large amount of energy is released.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (C.D.P.O.) (Pre) 2018"
+        },
+        {
+          "q": "Hydrogen bomb based on the principle of :",
+          "options": {
+            "A": "Controlled fusion reaction",
+            "B": "Uncontrolled fusion reaction",
+            "C": "Controlled fission reaction",
+            "D": "Uncontrolled fission reaction",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "A hydrogen bomb is based on an uncontrolled nuclear fusion reaction, in which two or more small nuclei combine to form a larger nucleus, releasing a huge amount of energy.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "D2O is used in nuclear reactors-'",
+          "options": {
+            "A": "As an engine",
+            "B": "As a source of deuterons",
+            "C": "As a moderator",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "D2O is made of two atoms of deuterium (D) and one atom of oxygen (O). D2O is known as heavy water. In nuclear reactors, heavy water (D2O) is used as a moderator.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. School Teacher/Headmaster 09.12.2023"
+        },
+        {
+          "q": "Which of the following is not an electromagnetic wave?",
+          "options": {
+            "A": "Gamma ray",
+            "B": "Alpha ray",
+            "C": "X-ray",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Electromagnetic waves include radio, microwave, infrared, visible, ultraviolet, X-rays, and gamma rays. Alpha rays are not included under electromagnetic waves. Alpha rays are a type of ionizing radiation.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. School Teacher/Headmaster 10.12.2023"
+        },
+        {
+          "q": "Which of the following is a positively charged particle emitted by a radioactive element?",
+          "options": {
+            "A": "Cathode ray",
+            "B": "Beta ray",
+            "C": "Alpha ray",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "An alpha particle is made up of two protons and two neutrons. High-energy electrons are known as beta particles. Clearly, an alpha particle is positively charged due to the presence of protons, whereas a beta particle is negatively charged due to the presence of electrons. Cathode rays are a stream of electrons emitted from the negative electrode (cathode) in a discharge tube containing gas at low pressure. A radioactive substance emits alpha, beta and gamma rays.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Radioactive substance emits –",
+          "options": {
+            "A": "Alpha rays",
+            "B": "Beta rays",
+            "C": "Gamma rays",
+            "D": "All the above"
+          },
+          "answer": "D",
+          "explanation": "An alpha particle is made up of two protons and two neutrons. High-energy electrons are known as beta particles. Clearly, an alpha particle is positively charged due to the presence of protons, whereas a beta particle is negatively charged due to the presence of electrons. Cathode rays are a stream of electrons emitted from the negative electrode (cathode) in a discharge tube containing gas at low pressure. A radioactive substance emits alpha, beta and gamma rays.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Which of the following has a negative charge?",
+          "options": {
+            "A": "X-rays",
+            "B": "Alpha rays",
+            "C": "Beta rays",
+            "D": "Gamma rays"
+          },
+          "answer": "C",
+          "explanation": "An alpha particle is made up of two protons and two neutrons. High-energy electrons are known as beta particles. Clearly, an alpha particle is positively charged due to the presence of protons, whereas a beta particle is negatively charged due to the presence of electrons. Cathode rays are a stream of electrons emitted from the negative electrode (cathode) in a discharge tube containing gas at low pressure. A radioactive substance emits alpha, beta and gamma rays.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "The critical mass of a fissile material will be -",
+          "options": {
+            "A": "One kilogram equivalent",
+            "B": "Minimum mass required for chain reaction",
+            "C": "Rest mass equivalent to 1010Joules",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The critical mass of a fissile material is the minimum amount of fissile material that will support a self-sustaining chain reaction. At this mass, the neutrons released as products of one fission reaction can cause fission in neighboring atoms.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (9th-10th) 26.08.2023"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Technology",
+      "questions": [
+        {
+          "q": "For which word, the letter 'G' has been used in '2G Spectrum'?",
+          "options": {
+            "A": "Global",
+            "B": "Government",
+            "C": "Generation",
+            "D": "Google"
+          },
+          "answer": "C",
+          "explanation": "2G is the second generation of wireless communication technology. In 2G spectrum, the letter ‘G’ is used for “Generation”, i.e., “second generation”.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The quality of a printer is determined as",
+          "options": {
+            "A": "words per inch",
+            "B": "strike per inch",
+            "C": "dots per inch",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The quality of a printer is determined by “dots per inch”. It is expressed as dpi (dots per inch).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. School Teacher (Class 11th-12th) 15-12-2023"
+        },
+        {
+          "q": "Which of the following are computer languages? 1. Cobra 2. Python 3. Squirrel 4. Java Choose the correct answer using the code given below.",
+          "options": {
+            "A": "1, 2 and 3 only",
+            "B": "1 and 2 only",
+            "C": "Only 3 and 4",
+            "D": "All of the above"
+          },
+          "answer": "D",
+          "explanation": "In the given options, Cobra, Python, Squirrel and Java are computer languages. Python is a high-level programming language for general purposes. Squirrel is a high-level programming language. This language is used for video games and memory bandwidth.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which one of the following is not the language of computer?",
+          "options": {
+            "A": "BASIC",
+            "B": "C",
+            "C": "FAST",
+            "D": "FORTRAN"
+          },
+          "answer": "C",
+          "explanation": "BASIC, C and FORTRAN are computer languages, but FAST is not a computer language.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which of the following technologies will be enabled by the 5G mobile communication networks? 1. Internet of Things 2. Edge Computing 3. Network Slicing Select the correct answer using the codes given below.",
+          "options": {
+            "A": "1, 2 and 3",
+            "B": "1 and 2 only",
+            "C": "2 and 3 only",
+            "D": "1 and 3 only"
+          },
+          "answer": "A",
+          "explanation": "5G (fifth generation) is the latest mobile communication technology, through which the use of technologies and devices such as the Internet of Things (IoT), edge computing, network slicing, cloud computing, artificial intelligence, etc. will become easier. IoT (Internet of Things) is a network that connects those objects which are capable of storing and transforming data. Edge computing is an extension of cloud computing, in which data is analyzed at the local level.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "What is the full form of GPT in ChatGPT, recently seen in the news?",
+          "options": {
+            "A": "Glutamic Pyruvic Transaminase",
+            "B": "GUID Partition Table",
+            "C": "Grooved Pegboard Test",
+            "D": "Generative Pre-Trained Transformer"
+          },
+          "answer": "D",
+          "explanation": "ChatGPT is an Artificial Intelligence (AI)-based language model. It has been developed by OpenAI. It is capable of understanding and responding in human-like language. The full form of GPT is—Generative Pre-trained Transformer.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Name of the first 3D printed humanoid robot in India is :",
+          "options": {
+            "A": "Indro",
+            "B": "Robcop",
+            "C": "Mitra",
+            "D": "Manav"
+          },
+          "answer": "D",
+          "explanation": "‘Manav’ is India’s first indigenous 3D (three-dimensional) printed humanoid robot. Manav is a two-foot-tall humanoid robot and looks like a big toy. It has 21 sensors. There are two cameras in its eye sockets and two microphones on both sides of its head. This robot, made by Diwakar Vaish, was unveiled at IIT Bombay Techfest 2014–2015.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Space",
+      "questions": [
+        {
+          "q": "What is true of the GSLV-F15 mission by ISRO?",
+          "options": {
+            "A": "It carried the NVS-02 satellite",
+            "B": "It marked ISRO's 101st launch from Sriharikota",
+            "C": "It marked ISRO's 100th launch from Sriharikota",
+            "D": "More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "On 29 January 2025, ISRO launched GSLV-F15 from Satish Dhawan Space Centre, Sriharikota, as the 100th launch mission from Sriharikota. Through this launch vehicle, the NVS-02 navigation satellite for the NavIC system was placed into a Geosynchronous Transfer Orbit (GTO). The launch and satellite injection into GTO were successful; however, during the later orbit-raising process, the oxidizer valve did not open. Therefore, the satellite could not reach the intended geosynchronous orbit and remained in an elliptical orbit. Now it is not operational. Since both options (a) and (c) are correct, the correct answer is option (d).",
+          "exam": "BPSC",
+          "year": "71st B. P. S. C. (Pre.) Exam. 2025"
+        },
+        {
+          "q": "The name of the lander, a part of the Chandrayaan-2 spacecraft recently launched by India, is -",
+          "options": {
+            "A": "Vikram",
+            "B": "Pragyan",
+            "C": "Rover",
+            "D": "Satish",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "It was launched on 22 July 2019 by GSLV Mk III-M1 from Satish Dhawan Space Centre, Sriharikota (Andhra Pradesh). The name of its lander is Vikram. Chandrayaan-3 was launched on 14 July 2023 by GSLV Mk III (LVM3-M4) from Satish Dhawan Space Centre, Sriharikota (Andhra Pradesh).",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Satellites are used for-",
+          "options": {
+            "A": "Generate energy",
+            "B": "Television",
+            "C": "Radio",
+            "D": "Light"
+          },
+          "answer": "B",
+          "explanation": "Satellites are used in many different fields, including communication, broadcasting, and meteorology. An artificial satellite is an electronic device sent for a specific purpose, which orbits the Earth or any other celestial body, whereas a natural satellite is a celestial body in space that revolves around a planet.",
+          "exam": "BPSC",
+          "year": "B.P.S.C.C.D.P.O. (Pre) 2005",
+          "note": "⚠ No officially verified answer for this question. Television broadcasting is the standard textbook answer intended here, though satellites are of course also used for communication, weather and other purposes."
+        },
+        {
+          "q": "When was Insat-2A launched?",
+          "options": {
+            "A": "February 4, 1975",
+            "B": "May 18, 1974",
+            "C": "July 10, 1992",
+            "D": "April 19, 1975"
+          },
+          "answer": "C",
+          "explanation": "INSAT-2A was launched on 10 July 1992 from French Guiana.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C. (Pre) 1992"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Scientists & Inventions",
+      "questions": [
+        {
+          "q": "Who was the inventor of Radar?",
+          "options": {
+            "A": "Robert Watson",
+            "B": "Fleming",
+            "C": "Bush Wall",
+            "D": "Austin"
+          },
+          "answer": "A",
+          "explanation": "Scottish physicist Robert Watson developed the first experimental radar (RADAR—Radio Detection and Ranging) system in 1935. During World War II, this system was used to give warning before air attacks.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "Sir C.V. Raman received Nobel Prize for physics in the year :",
+          "options": {
+            "A": "1928",
+            "B": "1930",
+            "C": "1932",
+            "D": "1950"
+          },
+          "answer": "B",
+          "explanation": "Dr. Chandrasekhara Venkata Raman was the first Indian to receive the Nobel Prize in Physics. He received this award in 1930.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997"
+        },
+        {
+          "q": "Raman effect is due to Sir C.V. Raman. Which of the following statements is correct about the 'Raman effect'?",
+          "options": {
+            "A": "The Raman effect is an example of elastic scattering of light.",
+            "B": "The frequency of scattered light increases and decreases after scattering.",
+            "C": "The frequency of incident light can only decrease after scattering.",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "In elastic scattering of light, the frequency of the photon remains unchanged; however, in the Raman effect, the frequency of light after scattering may increase or decrease.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. 2024"
+        },
+        {
+          "q": "Einstein got the Nobel Prize for :",
+          "options": {
+            "A": "Relativity",
+            "B": "Bose-Einstein condensation",
+            "C": "Mass-energy equivalence",
+            "D": "Photoelectric effect",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Albert Einstein was honoured for his services to theoretical physics, especially for his discovery of the law of the photoelectric effect. He was awarded the Nobel Prize in Physics for 1921, and he received the prize in 1922.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Name the scientist who said that matter can be converted into energy—",
+          "options": {
+            "A": "Boyle",
+            "B": "Lavoisier",
+            "C": "Avogadro",
+            "D": "Einstein",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Einstein explained that mass and energy are not two separate forms; they can be converted into each other. In this context, he established a relation between mass and energy, known as Einstein’s mass–energy equation. According to this, mass (matter) can be converted into energy, and energy can again be converted into mass. E = mc²; Where E is energy, m is mass, and c is the speed of light.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2018"
+        },
+        {
+          "q": "Who was the scientist who discovered the telescope?",
+          "options": {
+            "A": "Newton",
+            "B": "James Watt",
+            "C": "Humphry Davy",
+            "D": "Galileo"
+          },
+          "answer": "D",
+          "explanation": "The telescope was invented by Galileo.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2002"
+        },
+        {
+          "q": "Who invented the aeroplane at the beginning of this century?",
+          "options": {
+            "A": "Wright Brothers",
+            "B": "James Watt",
+            "C": "Humphry Davy",
+            "D": "Von Brown"
+          },
+          "answer": "A",
+          "explanation": "The Wright Brothers invented the aeroplane.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Modern telephone uses of –",
+          "options": {
+            "A": "Radio waves",
+            "B": "Sound waves",
+            "C": "Visible light",
+            "D": "A magnet"
+          },
+          "answer": "A",
+          "explanation": "Modern telephone communication uses radio waves. Radio waves are produced due to the rapid acceleration of electric charges in conductors. Radio waves are also used in radio and television communication systems. Modern telephones operate through different systems, including fixed line, cellular, satellite, and internet-based devices.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Miscellaneous",
+      "questions": [
+        {
+          "q": "Which of the following was NOT the outcome of Science, Technology and Innovation Policy 2020?",
+          "options": {
+            "A": "One Nation, One Subscription",
+            "B": "Research and Innovation Excellence Framework (RIEF)",
+            "C": "Atal Innovation Mission",
+            "D": "More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Among the given options, “One Nation, One Subscription” and the Research and Innovation Excellence Framework (RIEF) were proposed initiatives in the Science, Technology and Innovation Policy 2020, whereas the Atal Innovation Mission began in 2016.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "On a rainy day—",
+          "options": {
+            "A": "The dry bulb and wet bulb thermometers show the same reading.",
+            "B": "The dry bulb thermometer shows a lower reading than the wet bulb thermometer.",
+            "C": "The dry bulb thermometer shows a higher reading than the wet bulb thermometer.",
+            "D": "More than one of the above.",
+            "E": "None of the above."
+          },
+          "answer": "C",
+          "explanation": "On a rainy day, the dry bulb thermometer shows a higher reading than the wet bulb thermometer, because the wet bulb experiences evaporative cooling.",
+          "exam": "BPSC",
+          "year": "BPSC School Teacher/Headmaster 10.12.2023"
+        },
+        {
+          "q": "Which of the following statements are true about Akashteer?",
+          "options": {
+            "A": "Akashteer is the core of the Indian Army’s air defence system.",
+            "B": "It integrates seamlessly with India’s wider C4ISR system.",
+            "C": "It reflects a strategic shift from passive defence to active and rapid counter-action.",
+            "D": "More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Akashteer is the main command-and-control system of the Army’s air defence setup, through which different air defence units, radars, and weapon systems are connected as a network. It functions in integration with India’s larger C4ISR (Command, Control, Communications, Computers, Intelligence, Surveillance and Reconnaissance) ecosystem and enables coordinated working among the three services. It automatically monitors the low-altitude airspace and efficiently controls ground-based air defence weapon systems, thereby shifting India’s strategy from passive defence to active and rapid counter-action. Therefore, option (d) is correct.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "A sudden rise in the barometric height indicates",
+          "options": {
+            "A": "Coming of storm or cyclone",
+            "B": "Possibility of rain",
+            "C": "Dry weather",
+            "D": "Extremely dry weather",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "A barometer is an instrument that measures atmospheric pressure and helps in weather forecasting. A sudden rise in the barometer reading indicates extremely dry weather, whereas a sudden fall indicates stormy conditions. A gradual fall in the barometer reading suggests the possibility of rainfall.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "Quartz crystals used in clocks are :",
+          "options": {
+            "A": "Sodium silicate",
+            "B": "Silicon dioxide",
+            "C": "Germanium oxide",
+            "D": "Titanium dioxide",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Quartz crystals used in watches are silicon dioxide (SiO2). In nature, some forms are found as rock crystal and rhinestone. However, those used commercially are generally manmade. Quartz crystals are also used in radio and television.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Which of the following is the value of the solar constant ?",
+          "options": {
+            "A": "1.6 kW/m2",
+            "B": "1.4 kW/m2",
+            "C": "1.2 kW/m2",
+            "D": "1.8 kW/m2"
+          },
+          "answer": "B",
+          "explanation": "The solar constant is the amount of solar energy received per second per unit area at the upper boundary of the Earth’s atmosphere. It is also defined as the flux density of solar radiation. It is not a truly constant value, because it can vary with time. According to NASA, the solar constant is about 1.361 kW/m², and it keeps varying between 1.360 and 1.367 kW/m². Therefore, the nearest option (b) is correct.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "'God particle' is :",
+          "options": {
+            "A": "Neutrino",
+            "B": "Higgs Boson",
+            "C": "Meson",
+            "D": "Positron",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Higgs boson is a fundamental particle. It was first proposed in 1964, and its experimental confirmation was achieved on 14 March 2013. Outside the scientific community and in the media, this particle is often referred to by the nickname “God Particle”. The scientists associated with the Higgs boson discovery—Britain’s Peter W. Higgs and Belgium’s François Englert—were awarded the 2013 Nobel Prize in Physics.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Which of the following is a non-contact force ?",
+          "options": {
+            "A": "Magnetic force",
+            "B": "Frictional force",
+            "C": "Impact force",
+            "D": "None of these"
+          },
+          "answer": "A",
+          "explanation": "Magnetic force is an example of a non-contact force, whereas frictional force and impact force are examples of contact forces. In non-contact forces, objects are unlikely to come into direct contact with each other.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "In 2012, a highly publicized 'God particle' was discovered at the CERN European Laboratory. The scientific name of this particle is:",
+          "options": {
+            "A": "Higgs electron",
+            "B": "Higgs boson",
+            "C": "A quark",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "In 2012, through experiments at the Large Hadron Collider in the CERN European Laboratory, the ‘Higgs boson’, popularly called the ‘God particle’, was discovered. This hypothesis was presented in 1964 by Nobel Prize–winning scientist Peter Higgs. The particle was named the Higgs boson after Higgs and the Indian scientist Satyendra Nath Bose.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. B.A.O. 2024"
+        },
+        {
+          "q": "The technique of chromatography is used to –",
+          "options": {
+            "A": "Identify coloured substances",
+            "B": "Determine the structure of substances",
+            "C": "Dry distillation of colouring substances",
+            "D": "Separate the substances from a mixture"
+          },
+          "answer": "D",
+          "explanation": "Chromatography is used to separate different substances from a mixture. The technique is mainly used for the separation of vitamins and proteins. In the beginning, chromatography techniques were used to separate substances on the basis of their colour.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98",
+          "note": "⚠ No officially verified answer for this question. Chromatography is used to separate substances from a mixture."
+        },
+        {
+          "q": "Which of the following photoelectric devices is most suitable for digital applications?",
+          "options": {
+            "A": "Photo diode",
+            "B": "Photovoltaic cell",
+            "C": "Photoemitter",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "A photovoltaic cell is generally called a solar cell. It is a non-mechanical device that converts sunlight directly into electricity, whereas a photodiode is a detector of light signals. Therefore, for digital applications (switching/controlling), a photodiode is used. It is notable that solar light is made up of photons. These photons contain different amounts of energy corresponding to different wavelengths of the solar spectrum. Photovoltaic cells are made of semiconductor materials. When photons strike these cells, they transfer energy to them. A photo-emissive device converts electrical energy into light energy, such as LEDs and other light emitters.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which of the following photoelectric devices is most suitable for digital applications?",
+          "options": {
+            "A": "Photo-voltaic cell",
+            "B": "Photo-emissive cell",
+            "C": "Photo diode",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "A photovoltaic cell is generally called a solar cell. It is a non-mechanical device that converts sunlight directly into electricity, whereas a photodiode is a detector of light signals. Therefore, for digital applications (switching/controlling), a photodiode is used. It is notable that solar light is made up of photons. These photons contain different amounts of energy corresponding to different wavelengths of the solar spectrum. Photovoltaic cells are made of semiconductor materials. When photons strike these cells, they transfer energy to them. A photo-emissive device converts electrical energy into light energy, such as LEDs and other light emitters.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (9th -10th) 26.08.2023"
+        },
+        {
+          "q": "Which of the following statements is false regarding LED (light-emitting diode)?",
+          "options": {
+            "A": "LED light sources consume less energy.",
+            "B": "LEDs last longer than light bulbs.",
+            "C": "LEDs use mercury, which is harmful to humans.",
+            "D": "LEDs are used in traffic signal lights.",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "LED (Light Emitting Diode) is a semiconductor device that produces light when electric current flows through it. Materials such as gallium phosphide and indium gallium nitride (InGaN), etc., are used in its composition. Mercury (Hg) is not used in it.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Reactance of a capacitor is :",
+          "options": {
+            "A": "Directly proportional to frequency",
+            "B": "Inversely proportional to sq. root of frequency",
+            "C": "Inversely proportional to frequency",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The reactance of a capacitor is inversely proportional to frequency. ( ( ) ) X C X FC i r f f 1 2 1 1 c c c a 3 ~ r r ~ = = =",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam 2024"
+        },
+        {
+          "q": "The credit for research and development in space science goes to—",
+          "options": {
+            "A": "S. S. Bhatnagar",
+            "B": "V. Sarabhai",
+            "C": "S. Z. Qasim",
+            "D": "C. V. Raman"
+          },
+          "answer": "B",
+          "explanation": "In India, the main source of inspiration for research and development in space science was the renowned space scientist Dr. Vikram Sarabhai. Dr. V. Sarabhai was the first Chairman of the Indian National Committee for Space Research (INCOSPAR), formed in 1962. In place of INCOSPAR, the Indian Space Research Organisation (ISRO) was formed in 1969.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C.(Pre) 1992"
+        },
+        {
+          "q": "The father of the Indian program in atomic energy is—",
+          "options": {
+            "A": "S. A. Bose",
+            "B": "H. J. Bhabha",
+            "C": "S. Chandrasekhar",
+            "D": "S. S. Bhatnagar"
+          },
+          "answer": "B",
+          "explanation": "Dr. Homi Jehangir Bhabha is the father of the Indian atomic energy program. In India, on 10 August 1948, the Atomic Energy Commission was constituted under the chairmanship of Dr. Homi Jehangir Bhabha.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C.(Pre) 1992"
+        },
+        {
+          "q": "In using nuclear power for peaceful purposes, India is far ahead of which country?",
+          "options": {
+            "A": "China",
+            "B": "Pakistan",
+            "C": "France",
+            "D": "England"
+          },
+          "answer": "B",
+          "explanation": "Pakistan, which conducted nuclear tests following India's nuclear tests. However, Pakistan’s nuclear program is focused on developing nuclear weapons, whereas the main objective of India’s nuclear program is its peaceful use through nuclear power generation. India passed the Atomic Energy Act in 1948 and clearly declared that nuclear research would be used for peaceful progress. In terms of nuclear power generation and other nuclear applications that improve human life (such as medical uses, food preservation, etc.), India is far ahead of Pakistan.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C.(Pre) 1994"
+        },
+        {
+          "q": "The name of the tank manufactured in India is—",
+          "options": {
+            "A": "Indra",
+            "B": "Arjun",
+            "C": "Mahabali",
+            "D": "Kailash"
+          },
+          "answer": "B",
+          "explanation": "Among the given options, the tank manufactured in India is Arjun. It was developed for the Indian Army by the Combat Vehicles Research and Development Establishment (CVRDE) of the Defence Research and Development Organisation (DRDO). It is a third-generation main battle tank.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C.(Pre) 1992"
+        },
+        {
+          "q": "When was the first Indian satellite Aryabhata launched?",
+          "options": {
+            "A": "10th July, 1992",
+            "B": "19th April, 1975",
+            "C": "1st November, 1966",
+            "D": "2nd December, 1975"
+          },
+          "answer": "B",
+          "explanation": "India’s first satellite ‘Aryabhata’ was launched on 19 April 1975 from Kapustin Yar using the Soviet Kosmos-3M rocket. The satellite was named after the ancient Indian mathematician Aryabhata.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000-01"
+        },
+        {
+          "q": "ISRO is the abbreviation of—",
+          "options": {
+            "A": "Indian Satellite Research Organisation",
+            "B": "Indian Scientific Research Organisation",
+            "C": "Indian Space Research Organisation",
+            "D": "International Scientific Research Organisation",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "ISRO is the abbreviation of the Indian Space Research Organisation. It is India’s space agency. It was formed on 15 August 1969. Its headquarters are in Bengaluru.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. Re-Exam (Pre), 2020"
+        }
+      ]
+    }
+  ]
+}
