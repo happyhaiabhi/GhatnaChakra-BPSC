@@ -1,0 +1,669 @@
+{
+  "subject": "Society & Demography",
+  "chapters": [
+    {
+      "chapter_name": "Population and Urbanization",
+      "questions": [
+        {
+          "q": "Consider the following statements: (1) The proportion of the young population (0-19 years) in Bihar is projected to decline significantly by 2041. (2) Bihar's demographic dividend is expected to peak around 2041. (3) The elderly population (60 + years) in Bihar is ex pected to rise more sharply than in India. Select the correct answer using the codes given below:",
+          "options": {
+            "A": "l and 2 are correct",
+            "B": "1and 3 are correct",
+            "C": "2and 3 are correct",
+            "D": "More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to Bihar Economic Survey, 2024-25, Bihar’s population share in the 0–19 age group was about 49.4% in 2011, which is estimated to decline to about 30.1% by 2041. Therefore, a significant decline in the proportion of youth population up to 2041 is recorded. The population share of the working-age group (20–59 years) is estimated to increase from about 43.2% in 2011 to about 58.3% in 2041. The proportion of the elderly population is not expected to rise faster in Bihar (11.6%) than in India (15.9%); rather, it is expected to increase at a relatively slower pace.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The state which is third in India by population and twelfth by area is—",
+          "options": {
+            "A": "Maharashtra",
+            "B": "Madhya Pradesh",
+            "C": "Karnataka",
+            "D": "Bihar"
+          },
+          "answer": "D",
+          "explanation": "Bihar was the third-largest state in India by population and the 12th largest by area. After the formation of Telangana, Bihar’s rank by area became 13th. It is noteworthy that after Jammu and Kashmir was declared a Union Territory, Bihar’s rank by area again became 12th. Note that in the context of all States/Union Territories, Bihar stands 13th by area.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "The population of Bihar in India is",
+          "options": {
+            "A": "Maximum",
+            "B": "Second to the maximum",
+            "C": "Third to the maximum",
+            "D": "Fourth to the maximum"
+          },
+          "answer": "B",
+          "explanation": "According to the 1991 Census, the population of undivided Bihar (including Jharkhand) was 8.637 crore, which was the highest after Uttar Pradesh’s population (13.91 crore). Thus, in 1991 Bihar was the second most populous state in India. According to the 2001 Census, Bihar was the third most populous state in India. In the 2011 Census as well, Bihar holds the third position.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C. (Pre) 1992"
+        },
+        {
+          "q": "According to the 1991 Census, which state is considered the second largest state in India based on population?",
+          "options": {
+            "A": "West Bengal",
+            "B": "Maharashtra",
+            "C": "Bihar",
+            "D": "Uttar Pradesh"
+          },
+          "answer": "C",
+          "explanation": "According to the 1991 Census, the population of undivided Bihar (including Jharkhand) was 8.637 crore, which was the highest after Uttar Pradesh’s population (13.91 crore). Thus, in 1991 Bihar was the second most populous state in India. According to the 2001 Census, Bihar was the third most populous state in India. In the 2011 Census as well, Bihar holds the third position.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre), 1999"
+        },
+        {
+          "q": "According to the Census 2011, in terms of population, Bihar State stands at which position in the country?",
+          "options": {
+            "A": "First",
+            "B": "Second",
+            "C": "Third",
+            "D": "Fourth",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "According to the 1991 Census, the population of undivided Bihar (including Jharkhand) was 8.637 crore, which was the highest after Uttar Pradesh’s population (13.91 crore). Thus, in 1991 Bihar was the second most populous state in India. According to the 2001 Census, Bihar was the third most populous state in India. In the 2011 Census as well, Bihar holds the third position.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre), 2016"
+        },
+        {
+          "q": "Bihar is the ____ largest State of India according to Census 2001.",
+          "options": {
+            "A": "Second",
+            "B": "Third",
+            "C": "Fourth",
+            "D": "Fifth"
+          },
+          "answer": "B",
+          "explanation": "According to the Census, 2001, Bihar was the third most populous state in India. As per the Census 2011 as well, Bihar holds the third position. In this order, Uttar Pradesh and Maharashtra rank first and second respectively. On the basis of the final data of the Census, 2011, the five most populous states are as follows—Uttar Pradesh (19,98,12,341), Maharashtra (11,23,74,333), Bihar (10,40,99,452), West Bengal (9,12,76,115) and Andhra Pradesh (8,45,80,777).",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "In terms of the country's population, what is the rank of the state of Bihar (according to the 2011 Census)?",
+          "options": {
+            "A": "Third",
+            "B": "Fifth",
+            "C": "Thirteenth",
+            "D": "Second",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to the Census, 2001, Bihar was the third most populous state in India. As per the Census 2011 as well, Bihar holds the third position. In this order, Uttar Pradesh and Maharashtra rank first and second respectively. On the basis of the final data of the Census, 2011, the five most populous states are as follows—Uttar Pradesh (19,98,12,341), Maharashtra (11,23,74,333), Bihar (10,40,99,452), West Bengal (9,12,76,115) and Andhra Pradesh (8,45,80,777).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. C.D.P.O. (Pre), 2018"
+        },
+        {
+          "q": "What is the present population of Gaya district of Bihar?",
+          "options": {
+            "A": "234000",
+            "B": "598000",
+            "C": "320000",
+            "D": "780000"
+          },
+          "answer": "",
+          "explanation": "According to the Census of India, 2011, the population of Gaya district is about 44 lakh (43,91,418), which does not match any of the given options. Therefore, a proper answer to this question cannot be given. Due to the non-availability of authentic data regarding the present population, the Bihar Public Service Commission deleted this question.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which state has the lowest literacy rate according to the 2001 Census Report?",
+          "options": {
+            "A": "Arunachal Pradesh",
+            "B": "Madhya Pradesh",
+            "C": "Bihar",
+            "D": "Haryana"
+          },
+          "answer": "C",
+          "explanation": "According to the Census 2001, Bihar is the state with the lowest literacy rate in India. In this context, as per the final data of the Census, 2011 as well, Bihar (61.8%) is the state with the lowest literacy rate.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Which of the following districts of Bihar has the highest percentage of Scheduled Tribe population in 2011 census ?",
+          "options": {
+            "A": "Katihar",
+            "B": "Jamui",
+            "C": "Purnia",
+            "D": "Banka"
+          },
+          "answer": "A",
+          "explanation": "According to the Census, 2011, the districts of Bihar having the highest percentages of Scheduled Tribe population were, in order—West Champaran (6.35%), Katihar (5.86%), Jamui (4.48%), Banka (4.44%) and Purnia (4.27%). Therefore, among the given districts, Katihar has the highest percentage of Scheduled Tribe population.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "According to the year 2002 the, birth rate of Bihar (per 1000) is –",
+          "options": {
+            "A": "7.9",
+            "B": "30.9",
+            "C": "20.9",
+            "D": "26.6"
+          },
+          "answer": "B",
+          "explanation": "At the time of the question, the birth rate in Bihar was 30.9 (per thousand). According to the ‘Sample Registration System’ (SRS) Bulletin, 2023, issued in September, 2025 by the Office of the Registrar General and Census Commissioner of India, the birth rate in Bihar in the year 2023 has been recorded as 25.8 (per thousand).",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "The infant mortality rate of Bihar state is –",
+          "options": {
+            "A": "More than Jharkhand",
+            "B": "Equal to Jharkhand",
+            "C": "Less than Jharkhand",
+            "D": "Equal to all India"
+          },
+          "answer": "A",
+          "explanation": "At the time of the question, the infant mortality rate in Bihar was 54 per thousand live births, which was higher than that of Jharkhand (46) and also higher than the all-India level (53). On the basis of the SRS Bulletin, 2023 issued in September 2025, the infant mortality rate in Bihar in the year 2023 is 23 per thousand live births, which is lower than the infant mortality rate of Jharkhand (29 per thousand) and the all-India level (25 per thousand).",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "Which one of the following groups of districts in Bihar indicates the correct descending order of population density as per the 2001 census?",
+          "options": {
+            "A": "Darbhanga, Samastipur, Siwan, Saran",
+            "B": "Siwan, Saran, Darbhanga, Samastipur",
+            "C": "Saran, Darbhanga, Samstipur, Siwan",
+            "D": "Darbhanga, Saran, Samastipur, Siwan"
+          },
+          "answer": "",
+          "explanation": "According to the Census of 2001 and 2011, the population density of the above districts is as follows— District 2001 2011 Darbhanga 1446 1728 Saran 1230 1496 Siwan 1223 1501 Samastipur 1169 1467 Therefore, none of the given options is correct.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "The largest populated city is –",
+          "options": {
+            "A": "Dhanbad",
+            "B": "Gaya",
+            "C": "Jamshedpur",
+            "D": "Ranchi"
+          },
+          "answer": "C",
+          "explanation": "At the time of the question, among the cities given in the options, the largest city was Jamshedpur. According to the final data of the Census 2011, the largest district of Bihar is Patna (5,838,465).",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Which of the following districts recorded the highest growth of population during 2001-11?",
+          "options": {
+            "A": "Kishanganj",
+            "B": "Araria",
+            "C": "Madhepura",
+            "D": "Khagaria",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "During 2001–11, the five districts of Bihar with the highest population growth rates, respectively, were Madhepura (31.12%), Kishanganj (30.40%), Araria (30.25%), Khagaria (30.19%), and East Champaran (29.43%). Hence, Madhepura recorded the highest population growth during 2001–2011.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Which of the following districts recorded the highest population growth rate in the decade of 2001-11?",
+          "options": {
+            "A": "Gopalganj",
+            "B": "Katihar",
+            "C": "Vaishali",
+            "D": "Kishanganj",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Among the options given in the above question, during 2001–2011 the highest population growth rate was recorded in Kishanganj (30.40%), while during the same period the population growth rate of Gopalganj was 19.02%, that of Katihar was 28.35%, and that of Vaishali was 28.57%.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. C.D.P.O. (Pre) 2022"
+        },
+        {
+          "q": "Of the following the largest district in Bihar is –",
+          "options": {
+            "A": "Patna",
+            "B": "Gaya",
+            "C": "Darbhanga",
+            "D": "Samastipur"
+          },
+          "answer": "B",
+          "explanation": "According to Census 2011, the area of the concerned districts is as follows— Patna 3,202.00 sq km Gaya 4,976.00 sq km Samastipur 2,904.00 sq km Darbhanga 2,279.00 sq km Note— In terms of area, the largest district of Bihar is West Champaran (5,228 sq km).",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "What is the percentage of Bihar's population in the total population of India?",
+          "options": {
+            "A": "9.33%",
+            "B": "10.21%",
+            "C": "16.44%",
+            "D": "8.04%"
+          },
+          "answer": "D",
+          "explanation": "According to the final Census, 2001 data, Bihar’s population was 82.99 million, which was 8.07% of India’s total population of 1,028.7 million, which is closest to option (d). According to the final Census, 2011 data, this proportion is 8.6% (104,099,452).",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "What is the percentage of Bihar's population relative to the total population of India?",
+          "options": {
+            "A": "8.58%",
+            "B": "10.10%",
+            "C": "12.25%",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "According to Census 2011, India’s total population is 1,210,854,977, while Bihar’s population is 104,099,452, which is approximately 8.6% of India’s population and is closest to option (a). Hence, option (a) may be considered the correct answer.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. Teacher (11th-12th) 26.08.2023"
+        },
+        {
+          "q": "According to the Indian Census, 2011, in which state is the literacy percentage for both males and females the lowest?",
+          "options": {
+            "A": "Arunachal Pradesh",
+            "B": "Andhra Pradesh",
+            "C": "Bihar",
+            "D": "Jammu and Kashmir",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "According to the Census 2011, among the given options as well as among all Indian states, Bihar has the lowest literacy percentage for both males and females. Bihar’s overall literacy rate is 61.8 percent, in which the male literacy rate is 71.2 percent and the female literacy rate is 51.5 percent.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Name the districts of Bihar which had the lowest rural female literacy rate in 2001 and 2011 respectively?",
+          "options": {
+            "A": "Kishanganj and Madhepura",
+            "B": "Supaul and Saharsa",
+            "C": "Supaul and Madhepura",
+            "D": "Kishanganj and Saharsa",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the Census, 2001, among the given districts, Supaul had the lowest rural female literacy rate, which was 25.79 percent. According to the Census 2011, Kishanganj’s rural female literacy rate is 40.52 percent. Saharsa’s rural female literacy rate is 36.4 percent, Madhepura’s rural female literacy rate is 37.67 percent, and Supaul’s rural female literacy rate is 37.07 percent. Thus, among the given options, the lowest rural female literacy rate in 2001 and 2011 was in Supaul and Saharsa respectively.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Re. Exam) 2020"
+        },
+        {
+          "q": "Which district of Bihar has the highest literacy rate?",
+          "options": {
+            "A": "Rohtas",
+            "B": "Purnia",
+            "C": "Bhagalpur",
+            "D": "Patna",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to the Census 2011, Rohtas district of Bihar has the highest literacy rate, which is 73.37 percent. The district with the highest male literacy rate (82.88%) and the highest female literacy rate (62.97%) is also Rohtas.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. C.D.P.O. (Pre), 2018"
+        },
+        {
+          "q": "Among the states of India, Bihar ranks in terms of lowest literacy rate (2011 Census):'",
+          "options": {
+            "A": "First",
+            "B": "Second",
+            "C": "Third",
+            "D": "Fourth",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to the final data of the Census, 2011, Kerala’s literacy rate is 94.0 percent, which is the highest in India, whereas Bihar’s literacy rate is 61.8 percent, which is the lowest in India. Clearly, in terms of the lowest literacy rate, Bihar ranks first.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "What is the female literacy rate of Bihar as per the Census 2011 of India?",
+          "options": {
+            "A": "61.80%",
+            "B": "71.25%",
+            "C": "50.50%",
+            "D": "51.50%",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "According to the Census of India 2011, the female literacy rate in Bihar is 51.5 percent, and the male literacy rate is 71.2 percent.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "What is the rank of Bihar from top among 36 States/ Union Territories of India in terms of female literacy rate in 2011?",
+          "options": {
+            "A": "35",
+            "B": "36",
+            "C": "33",
+            "D": "34",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the Census, 2011, Bihar is the state with the lowest literacy rate, which is 61.8 percent. Bihar also has the lowest male and female literacy rates. Thus, as per the Census 2011, in terms of female literacy, Bihar is in the 35th position, that is, the lowest position.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "The literacy level in Bihar is about –",
+          "options": {
+            "A": "30%",
+            "B": "34%",
+            "C": "38%",
+            "D": "45%"
+          },
+          "answer": "C",
+          "explanation": "According to the Census 1991, Bihar’s literacy rate was 37.49 percent. Therefore, the nearest answer is option (c). According to the final data of the Census 2011, Bihar’s literacy rate is 61.8 percent. It is the state with the lowest literacy rate in India.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C. (Pre) 1992"
+        },
+        {
+          "q": "The percentage of literacy in Bihar is-",
+          "options": {
+            "A": "42.85",
+            "B": "37.25",
+            "C": "52.51",
+            "D": "43.56"
+          },
+          "answer": "",
+          "explanation": "According to the Census 1991 data, Bihar’s literacy rate was 37.49 percent.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre), 2000"
+        },
+        {
+          "q": "According to the 2011 Census, which district of Bihar has more women than men?",
+          "options": {
+            "A": "Gopalganj",
+            "B": "Begusarai",
+            "C": "Patna",
+            "D": "Siwan",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to the 2011 Census, in Gopalganj district of Bihar, the female population is higher than the male population, i.e., 1021 females per 1000 males. As per the 2011 Census, Bihar’s sex ratio is 918 and the population density is 1106 persons per sq. km.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre)2021"
+        },
+        {
+          "q": "What is the sex ratio in Bihar State as per the Census of India, 2011?",
+          "options": {
+            "A": "893",
+            "B": "916",
+            "C": "918",
+            "D": "925",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "According to the 2011 Census, in Gopalganj district of Bihar, the female population is higher than the male population, i.e., 1021 females per 1000 males. As per the 2011 Census, Bihar’s sex ratio is 918 and the population density is 1106 persons per sq. km.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "What is the sex ratio in Bihar as per the Census 2011 of India ?",
+          "options": {
+            "A": "918",
+            "B": "916",
+            "C": "933",
+            "D": "922"
+          },
+          "answer": "A",
+          "explanation": "According to the 2011 Census, in Gopalganj district of Bihar, the female population is higher than the male population, i.e., 1021 females per 1000 males. As per the 2011 Census, Bihar’s sex ratio is 918 and the population density is 1106 persons per sq. km.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "The district of Bihar which has recorded the highest sex ratio as per the 2011 Census is :",
+          "options": {
+            "A": "Siwan",
+            "B": "Gopalganj",
+            "C": "Saran",
+            "D": "Kishanganj",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the 2011 Census, the sex ratio of the given districts is as follows— District — Sex Ratio Gopalganj — 1021 Siwan — 988 Saran — 954 Kishanganj — 950 From the above data, it is clear that among the given districts, and also among all districts of Bihar, Gopalganj has the highest sex ratio.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "The total population in the reorganised State of Bihar is:",
+          "options": {
+            "A": "64.434 million",
+            "B": "86.374 million",
+            "C": "72.325 million",
+            "D": "70.562 million"
+          },
+          "answer": "B",
+          "explanation": "According to the 1991 Census, the population of undivided Bihar (including Jharkhand) was about 86.374 million. Therefore, the nearest option will be (b). As per the final figures of Census 2011, it is 104,099,452.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "What is the ratio of rural-urban population in Bihar?",
+          "options": {
+            "A": "40 : 60",
+            "B": "20 : 80",
+            "C": "50 : 50",
+            "D": "80 : 20"
+          },
+          "answer": "D",
+          "explanation": "According to the 1991 Census, the total population of undivided Bihar was about 8.637 crore, out of which the rural population was about 7.502 crore and the urban population about 1.135 crore. Thus, 13.14% of the total population lived in towns/cities. Therefore, the nearest answer is 80 : 20. On the basis of final Census 2011 figures, 88.7% of Bihar’s population is rural and 11.3% is urban.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which one of the following pairs of tribe and district is not correct?",
+          "options": {
+            "A": "Santhal-Banka",
+            "B": "Munda-Jamui",
+            "C": "Oraon-Supaul",
+            "D": "Kharwar-Bhagalpur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Santhal tribe is mainly found in Banka, the Uraon/Oraon tribe in Supaul, and the Kharwar tribe mainly in Bhagalpur, whereas the Munda tribe does not have its major concentration in Jamui. In Jamui district, mainly the Santhal, Kharwar, Kora, Mudi Kora, Mahli, and Kol tribes are found. The highest concentration of the Munda tribe in Bihar is in Katihar, West Champaran, Kishanganj, Purnia, and Araria districts. In its final answer key, the Bihar Public Service Commission considered option (b) as the correct answer. Note— As per Census 2011 data, the total population of the Munda (including Patar) tribe in Jamui district of Bihar is only 61.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Numerically, the largest Scheduled Tribe of Bihar is -",
+          "options": {
+            "A": "Munda",
+            "B": "Santhal",
+            "C": "Gond",
+            "D": "Kora",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the 2011 Census, the top five tribes of Bihar by population are, in order: Santhal, Gond, Tharu, Oraon, and Kharwar. Therefore, numerically, the largest Scheduled Tribe in Bihar is Santhal. As per the 2011 Census, the literacy rate among tribes in Bihar is 51.1%.",
+          "exam": "BPSC",
+          "year": "B.P.S.C, C.D.P.O. (Pre), 2018"
+        },
+        {
+          "q": "Least populated district in Bihar is–",
+          "options": {
+            "A": "Godda",
+            "B": "Gumla",
+            "C": "Araria",
+            "D": "Lohardaga"
+          },
+          "answer": "D",
+          "explanation": "According to the 1991 Census, the least populous district of Bihar was Lohardaga. According to the 2011 Census, the most populous district of Bihar is Patna (5,838,465) and the least populous district is Sheikhpura (636,342).",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Munda tribe mostly resides in –",
+          "options": {
+            "A": "Madhya Pradesh",
+            "B": "Uttar Pradesh",
+            "C": "Assam",
+            "D": "Bihar"
+          },
+          "answer": "D",
+          "explanation": "At the time of the question, option (d) was the correct answer. As per Census, 2011, the total population of the Munda tribe (including Patar) in Bihar is 14,028.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C. (Pre) 1992"
+        },
+        {
+          "q": "Choose the correct order of the following districts of Bihar as per the ascending decadal population growth (2001-2011).",
+          "options": {
+            "A": "Kishanganj < Madhepura < Siwan",
+            "B": "Siwan < Kishanganj < Madhep",
+            "C": "Madhepura < Kishanganj < Siwan",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Between 2001 and 2011, among the given options, Siwan, Kishanganj and Madhepura recorded the highest decadal population growth rates. The decadal growth rate recorded in 2011 as compared to 2001 was 22.70% in Siwan, 30.40% in Kishanganj, and 31.12% in Madhepura.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "How many districts of Bihar had less than 10 lakh population in 2011?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the 2011 Census, 3 districts of Bihar had a population of less than 10 lakh: Sheohar (656,246), Sheikhpura (636,342) and Arwal (700,843). As per Census 2011, 35 districts of Bihar had a population of more than 10 lakh, in which Patna (5,838,465) was the highest and Lakhisarai (1,000,912) was the lowest.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Re- Exam) 2020"
+        },
+        {
+          "q": "As per the Census, 2011, the child sex ratio in Bihar was:",
+          "options": {
+            "A": "935",
+            "B": "934",
+            "C": "933",
+            "D": "932",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to Census 2011, the child sex ratio (population in the age group 0–6 years) in Bihar was 935.",
+          "exam": "BPSC",
+          "year": "65th B.P.C.S. (Pre) 2019"
+        },
+        {
+          "q": "According to Census 2001, .............. percent of India’s population lives in the state of Bihar.",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "answer": "A",
+          "explanation": "In terms of population, Bihar is the third most populous state in India. As per Census, 2001, the total population of Bihar was 82,998,509. Therefore, about 8.07% of India’s total population lived in Bihar. As per Census 2011, about 8.60% (104,099,452) of India’s population lives in Bihar.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "According to Census 2001, what is the total population of Bihar?",
+          "options": {
+            "A": "82,998,509",
+            "B": "76,210,007",
+            "C": "96,878,627",
+            "D": "80,176,197"
+          },
+          "answer": "A",
+          "explanation": "In terms of population, Bihar is the third most populous state in India. As per Census, 2001, the total population of Bihar was 82,998,509. Therefore, about 8.07% of India’s total population lived in Bihar. As per Census 2011, about 8.60% (104,099,452) of India’s population lives in Bihar.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The growth rate of the population of Bihar during 1981-91 decade is –",
+          "options": {
+            "A": "19.76%",
+            "B": "21.33%",
+            "C": "23.54%",
+            "D": "24.06%"
+          },
+          "answer": "",
+          "explanation": "According to the 1991 Census, Bihar recorded a decadal population increase of about 23.38% during 1981–1991. On the other hand, in the decade 2001–2011, the population growth rate was 25.42%, which was lower than 28.62% in the 1991–2001 decade.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "What is the proportion of the urban population in Bihar according to the 1991 Census?",
+          "options": {
+            "A": "13.14%",
+            "B": "14.13%",
+            "C": "10.03%",
+            "D": "23.17%"
+          },
+          "answer": "A",
+          "explanation": "In 1991, the total population of undivided Bihar (including Jharkhand) was 8.637 crore, out of which the rural population was 7.502 crore and the urban population was 1.135 crore. Clearly, the percentage of urban population in 1991 was 13.14%",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000 41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "On the basis of the density of population, Bihar ranks –",
+          "options": {
+            "A": "First in India",
+            "B": "Second in India",
+            "C": "Third in India",
+            "D": "Fourth in India"
+          },
+          "answer": "C",
+          "explanation": "According to the Census 2011, Bihar’s population density is 1106 persons per sq km. From the viewpoint of states, it stands first, while in the combined list of states and Union Territories it stands sixth. In this context, Delhi ranks first (11,320 persons per sq km). India’s population density is 382 persons per sq km. In 2001, Bihar’s population density was 881 persons per sq km, whereas as per the 1991 Census, Bihar (497 persons per sq. km.) was in the third position.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "The order of Bihar according to population density in India is –",
+          "options": {
+            "A": "Second",
+            "B": "Third",
+            "C": "Eighth",
+            "D": "Ninth"
+          },
+          "answer": "B",
+          "explanation": "According to the Census 2011, Bihar’s population density is 1106 persons per sq km. From the viewpoint of states, it stands first, while in the combined list of states and Union Territories it stands sixth. In this context, Delhi ranks first (11,320 persons per sq km). India’s population density is 382 persons per sq km. In 2001, Bihar’s population density was 881 persons per sq km, whereas as per the 1991 Census, Bihar (497 persons per sq. km.) was in the third position.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Which district of Bihar has recorded the highest density of population (per sq. km) as per the 2011 Census?",
+          "options": {
+            "A": "Sheohar",
+            "B": "Vaishali",
+            "C": "Patna",
+            "D": "Darbhanga",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "As per the 2011 Census, the population density of the given districts is as follows— District Population density (Per sq. km.) Sheohar 1880 Vaishali 1717 Patna 1823 Darbhanga 1728 From the above figures, it is clear that among the given districts—and overall in Bihar—the district with the highest population density is Sheohar. After that come Patna (1823) and Darbhanga (1728).",
+          "exam": "BPSC",
+          "year": "65th B.P.C.S. (Pre) 2019"
+        },
+        {
+          "q": "According to the Economic Survey of Bihar 2021-22, what is the level of urbanization in the State at present?",
+          "options": {
+            "A": "11.6%",
+            "B": "22.4%",
+            "C": "15.3%",
+            "D": "18.6%",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "According to the Bihar Economic Survey, 2021–2022, the present level of urbanization in the state is 15.3%, whereas as per Census, 2011, the level of urbanization in the state is 11.3%. According to the Bihar Economic Review, 2022–2023, the level of urbanization in Bihar rose to 16.2% in 2022.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "Choose the correct order of the following districts of Bihar as per the ascending level of urbanization.",
+          "options": {
+            "A": "Nalanda < Munger < Patna",
+            "B": "Nalanda < Patna < Munger",
+            "C": "Patna < Munger < Nalanda",
+            "D": "Munger < Nalanda < Patna",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to the Bihar Economic Survey, 2023–2024, in 2022, the order of the given districts in terms of increasing urbanization level is as follows: Nalanda (26.2%) < Munger (28.3%) < Patna (44.3%).",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        }
+      ]
+    }
+  ]
+}

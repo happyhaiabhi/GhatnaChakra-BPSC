@@ -1,0 +1,430 @@
+{
+  "subject": "Infrastructure & Industry",
+  "chapters": [
+    {
+      "chapter_name": "Transportation System",
+      "questions": [
+        {
+          "q": "The total length of National Highways in Bihar is:",
+          "options": {
+            "A": "3410 km.",
+            "B": "3587 km.",
+            "C": "4595 km.",
+            "D": "4707 km.",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "According to the Bihar Economic Survey, 2015–16, the length of National Highways in Bihar increased from 3410 km. in 2001 to 4595 km in 2015. As per the Bihar Economic Survey, 2024–25 (status as of September, 2024), the total length of National Highways in Bihar is 6130 km, while according to the Annual Report, 2024–25 issued by the Ministry of Road Transport and Highways, Government of India, the length of National Highways in Bihar was 6132 km as of 31 December, 2024.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "The total length of National Highways in Bihar is –",
+          "options": {
+            "A": "1913 km.",
+            "B": "1088 km.",
+            "C": "1313 km.",
+            "D": "1371 km."
+          },
+          "answer": "",
+          "explanation": "According to the Bihar Economic Survey, 2015–16, the length of National Highways in Bihar increased from 3410 km. in 2001 to 4595 km in 2015. As per the Bihar Economic Survey, 2024–25 (status as of September, 2024), the total length of National Highways in Bihar is 6130 km, while according to the Annual Report, 2024–25 issued by the Ministry of Road Transport and Highways, Government of India, the length of National Highways in Bihar was 6132 km as of 31 December, 2024.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "The road length per lakh of population in Bihar is",
+          "options": {
+            "A": "lowest",
+            "B": "second lowest",
+            "C": "highest",
+            "D": "second highest",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "According to the Ministry of Road Transport and Highways, as on 31 March, 2019, in National Highways (per lakh population), Bihar’s road length ranks fifth from the bottom.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Which of the following National Highways connects Chhapra and Gopalganj?",
+          "options": {
+            "A": "National Highway No. 77",
+            "B": "National Highway No. 84",
+            "C": "National Highway No. 85",
+            "D": "National Highway No. 80",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "At the time of the question, National Highway No. 85 connected Chhapra–Siwan–Gopalganj, whereas National Highway 77 connected Hajipur–Sitamarhi–Sonbarsa, National Highway 84 connected Ara–Buxar, and National Highway 80 connected Mokama–Rajmahal–Farakka.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Match List-I (Characteristics of National Highways) with List-II (Numbers of National Highways) and select the correct answer using the codes given below the lists: List-I List-II (Characteristics of (Numbers of National Highways) National Highways) A. National Highway that 1. National Highway passes through Bihar No. 12 B. National Highway that 2. National Highway does not pass through No. 87 Bihar C. National Highway having 3. National Highway maximum length in Bihar No. 2 D. Proposed National 4. National Highway Highway not to serve No. 31 Bihar. Codes : A B C D",
+          "options": {
+            "A": "3 1 4 2",
+            "B": "4 2 3 1",
+            "C": "1 3 2 4",
+            "D": "2 4 1 3"
+          },
+          "answer": "A",
+          "explanation": "At the time of the question, the main stretch of National Highway No. 87 connected Rampur (Uttar Pradesh) to Jeolikote (Uttarakhand) and National Highway No. 12 connected Jabalpur (Madhya Pradesh) to Jaipur (Rajasthan)— these did not pass through Bihar. National Highway No. 2 also passed through Bihar, but its length was 202 km, whereas at present, the longest National Highway passing through Bihar is National Highway No. 27 (East–West/E.W.), whose length is 487 km.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Which one is not located on National Highway-2 (NH-2)?",
+          "options": {
+            "A": "Aurangabad",
+            "B": "Sasaram",
+            "C": "Mohania",
+            "D": "Patna"
+          },
+          "answer": "D",
+          "explanation": "At the time of the question, under National Highway-2 (NH- 2), Bihar included Mohania, Sasaram, Aurangabad and Dehri-on-Sone, whereas NH-2 did not pass through Patna",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The National Highway that passes through Bihar is",
+          "options": {
+            "A": "N.H. No. 3",
+            "B": "N.H. No. 8",
+            "C": "N.H. No. 22",
+            "D": "N.H. No. 23"
+          },
+          "answer": "D",
+          "explanation": "National Highway No. 23 connected Chas of the then undivided Bihar with Ranchi, Gumla and Thethaitangar. According to the Annual Report, 2024–25 issued by the Ministry of Road Transport and Highways, as on 31 December, 2024, the total number of National Highways passing through Bihar is 56, and their total length in Bihar is 6132 km. The length of National Highway No. 27 (East– West/E.W.) in Bihar is 487 km.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "In Bihar, air services are provided by",
+          "options": {
+            "A": "Only Indian Airlines",
+            "B": "Only Sahara Airlines",
+            "C": "Only Royal Nepal Airlines",
+            "D": "Indian Airlines, Sahara Airlines and Royal Nepal Airlines"
+          },
+          "answer": "",
+          "explanation": "At present, air services in Bihar are provided by several airlines, including Air India, Air India Express, IndiGo, SpiceJet, Nepal Airlines, etc. Since none of the options given in the question were correct, the Bihar Public Service Commission excluded this question from evaluation.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Patna International Airport is directly connected with",
+          "options": {
+            "A": "Kathmandu (Nepal), New Delhi, Kolkata, Mumbai, Lucknow, Varanasi and Ranchi",
+            "B": "Bengaluru, Hyderabad and Dhaka",
+            "C": "Islamabad, Dhaka and Bengaluru",
+            "D": "Washington, Dhaka and Chennai"
+          },
+          "answer": "",
+          "explanation": "Lok Nayak Jayaprakash Narayan International Airport, Patna, is directly connected to Ahmedabad, Bengaluru, Kolkata, Chennai, Hyderabad, Mumbai, Lucknow, Pune, New Delhi, etc. On this basis, none of the options is correct. Therefore, the Bihar Public Service Commission excluded this question from evaluation.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The East Central Railway zone headquarters is located at-",
+          "options": {
+            "A": "Patna",
+            "B": "Hajipur",
+            "C": "Muzaffarpur",
+            "D": "Katihar"
+          },
+          "answer": "B",
+          "explanation": "The headquarters of the East Central Railway zone is located at Hajipur. It includes the Sonpur, Samastipur, Danapur, Pandit Deen Dayal Upadhyaya and Dhanbad divisions.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "The most powerful locomotive of India, manufactured at Madhepura Locomotive Factory. The power of the electric rail engine is-",
+          "options": {
+            "A": "9000 HP",
+            "B": "10000 HP",
+            "C": "11000 HP",
+            "D": "12000 HP",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The power of India’s most powerful electric locomotive manufactured at the Madhepura Electric Locomotive Factory is 12,000 horsepower (HP).",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre), 2018"
+        },
+        {
+          "q": "Which of the following global companies bagged the contract for setting up of locomotive factories in Bihar?",
+          "options": {
+            "A": "Siemens and Alstom",
+            "B": "GE and Alstom",
+            "C": "Lombardy",
+            "D": "Nissan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The global company GE (United States) and the French company Alstom were awarded the contract to establish locomotive factories in Bihar. GE set up its factory at Marhaura in Saran district, while Alstom established its factory at Madhepura.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO 2018"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Industries and Factories",
+      "questions": [
+        {
+          "q": "Bihar State (before separation) had how many 'Industrial Area Development Authorities'?",
+          "options": {
+            "A": "Six, viz., Adityapur, Bokaro, Patna, Ranchi, Darbhanga and Muzaffarpur",
+            "B": "Five, viz., Adityapur, Bokaro, Darbhanga, Muzaffarpur and Patna",
+            "C": "Seven, viz., Adityapur, Bokaro, Patna, Darbhanga, Muzaffarpur, Ranchi and Bhojpur",
+            "D": "Four, viz., Adityapur Muzaffarpur, Bhojpur and Khagaria"
+          },
+          "answer": "A",
+          "explanation": "At the time of the question, option (a) was the correct answer. For industrial development in Bihar, the Bihar Industrial Area Development Authority (BIADA) has created 9 clusters. These are as follows—(1) Begusarai, (2) Bhagalpur, Saharsa and Purnia, (3) Gaya, (4) Patna, (5) Darbhanga, (6) Hajipur, (7) Muzaffarpur, (8) Bihta, (9) Motipur.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "In Bihar, Dalmianagar is famous for—",
+          "options": {
+            "A": "Silk",
+            "B": "Cement",
+            "C": "Leather",
+            "D": "Jute"
+          },
+          "answer": "B",
+          "explanation": "In Bihar, Dalmianagar is mainly famous for cement. In addition, chemical and other industries are also established there.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Heavy Machine Manufacturing Plant in Bihar is situated at –",
+          "options": {
+            "A": "Jamshedpur",
+            "B": "Bokaro",
+            "C": "Barauni",
+            "D": "Ranchi"
+          },
+          "answer": "D",
+          "explanation": "In undivided Bihar, the Heavy Machine Building Plant of “Heavy Engineering Corporation Limited” was established at Ranchi in 1958. Heavy Engineering Corporation Limited manufactures capital equipment and machinery for coresector industries.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "Which one of the following pairs of industry and place is not correctly matched?",
+          "options": {
+            "A": "Oil refinery–Barauni",
+            "B": "Cement–Banjari",
+            "C": "Fertilizer–Bhaurahi",
+            "D": "Wagon and engineering–Bhagalpur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bharat Wagon and Engineering Ltd. had two units located at Muzaffarpur and Mokama. Freight wagons and engineering products were manufactured here. In August, 2017, the Cabinet Committee on Economic Affairs, chaired by Prime Minister Narendra Modi, approved the proposal of the Ministry of Railways to close Bharat Wagon and Engineering Ltd., a public sector enterprise under the Ministry of Railways.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Match List-I with List-II - List -I List - II A. Vaishali 1. Silk Textile B. Bhagalpur 2. Gold C. Jamui 3. Rail Coach Factory D. Madhepura 4. Floriculture Give the correct answer by using the given code. A B C D",
+          "options": {
+            "A": "2 3 4 1",
+            "B": "3 4 1 2",
+            "C": "4 1 2 3",
+            "D": "1 2 3 4"
+          },
+          "answer": "",
+          "explanation": "The correct matching is as follows— List–I List–II Vaishali Floriculture Bhagalpur Silk textiles Jamui Gold Madhepura Electric Locomotive Factory Note—In the given question, Madhepura has been matched with “Railway coach factory”, which is incorrect. Madhepura has an Electric Locomotive Factory.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "The belt of Jute Industry in Bihar is located in (i) North-West plain of Bihar (ii) North-East plain of Bihar (iii) Middle-south plain of Bihar (iv) Damodar Valley region Select the correct answer from the following codes -",
+          "options": {
+            "A": "i and ii",
+            "B": "ii only",
+            "C": "ii and iii",
+            "D": "i and iii"
+          },
+          "answer": "B",
+          "explanation": "According to the 2023–24 data, Bihar is India’s secondlargest jute-producing state. The top four jute-producing districts in Bihar are, respectively: Katihar, Kishanganj, Araria and Madhepura. Katihar, Kishanganj and Araria have large jute factories. The jute industry is a raw-materialoriented industry. Since this industry requires clean water and abundant, cheap labour, these conditions are widely available in these regions; therefore, the jute industry is mainly concentrated here. On the map of Bihar, these industrial locations lie in the North-Eastern Bihar Plain.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Most significant oil refinery of Bihar is -",
+          "options": {
+            "A": "Singhbhum",
+            "B": "Rudrasagar",
+            "C": "Barauni",
+            "D": "Ranchi"
+          },
+          "answer": "C",
+          "explanation": "An oil refinery is located at Barauni in Bihar. At Ranchi, the heavy machinery industry has been set up, and in East Singhbhum, the steel industry has been established.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Which type of industries has potential and prospects in Bihar?",
+          "options": {
+            "A": "Oil refinery",
+            "B": "Forest-based industry",
+            "C": "Sand-mining industry",
+            "D": "Agro-based industry",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "In Bihar, there are prospects and possibilities for agro-based industries, forest-based industries, the sand-mining industry, and oil refineries, along with industries related to metal work, chemicals, plastics, electrical goods, leather, etc.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "With whose cooperation was the Barauni Refinery established in Bihar?",
+          "options": {
+            "A": "Germany",
+            "B": "South Korea",
+            "C": "Soviet Russia",
+            "D": "France",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The Barauni Refinery of Indian Oil Corporation Limited in Bihar was dedicated to the nation in 1965. Established in 1964, this refinery was built with the cooperation of the Soviet Union (present-day Russia), with limited participation from Romania.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre), 2020"
+        },
+        {
+          "q": "The steel plant centre in Bihar is located in –",
+          "options": {
+            "A": "Dhanbad",
+            "B": "Ranchi",
+            "C": "Mithila",
+            "D": "Patna"
+          },
+          "answer": "A",
+          "explanation": "The Bokaro Steel Plant was earlier in the Dhanbad district of Bihar. Now Bokaro has become a separate district. At present, it is located in the state of Jharkhand.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "A steel factory in Bihar -",
+          "options": {
+            "A": "is in Darbhanga.",
+            "B": "is in Gaya.",
+            "C": "is in Hazaribagh.",
+            "D": "is in Jamshedpur."
+          },
+          "answer": "D",
+          "explanation": "Jamshedji Nusserwanji Tata established an iron and steel plant in Jamshedpur in 1907. At the time of this question, Jamshedpur was a part of Bihar. At present, it is in the state of Jharkhand.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre), 1994"
+        },
+        {
+          "q": "Which of the following is a silk textile producing centre in Bihar?",
+          "options": {
+            "A": "Motipur",
+            "B": "Bajari",
+            "C": "Bhagalpur",
+            "D": "Dalmianagar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In Bihar, Bhagalpur is known as the 'Silk City'. This city is situated on the southern bank of the Ganga River. Bhagalpur is world-famous for sericulture, the production of silk yarn, and silk-based products.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Which district of Bihar is known as 'Silk City'?",
+          "options": {
+            "A": "Katihar",
+            "B": "Bhojpur",
+            "C": "Bhagalpur",
+            "D": "Banka",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In Bihar, Bhagalpur is known as the 'Silk City'. This city is situated on the southern bank of the Ganga River. Bhagalpur is world-famous for sericulture, the production of silk yarn, and silk-based products.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "Which of the following is a centre of the textile industry in Bihar?",
+          "options": {
+            "A": "Gaya",
+            "B": "Bhagalpur",
+            "C": "Patna",
+            "D": "Munger",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Among the given options, the centres of the textile industry in Bihar are Bhagalpur, Patna and Gaya. The textile industry in Bihar includes handloom, silk and jute industries. Therefore, since more than one option is correct, the correct answer is option (e).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO 2022"
+        },
+        {
+          "q": "First Sugar Mill was set up in Bihar at –",
+          "options": {
+            "A": "Marhaura",
+            "B": "Bettiah",
+            "C": "Motihari",
+            "D": "Patna"
+          },
+          "answer": "A",
+          "explanation": "The first modern sugar mill (using the vacuum-pan process) was set up in 1904 at Marhaura (Saran district), whereas the first sugar factory in Bihar based on traditional techniques was started in 1840 at Bettiah.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Where is the office of the Commissioner of Industries of Bihar located?",
+          "options": {
+            "A": "Patna",
+            "B": "Gaya",
+            "C": "Hajipur",
+            "D": "Muzaffarpur"
+          },
+          "answer": "A",
+          "explanation": "The office of the Commissioner of Industries, Bihar is located in Patna.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Kapilansh Dhatu Udyog has been set up in",
+          "options": {
+            "A": "Rajpur in Buxar district",
+            "B": "Ranipur in Buxar district",
+            "C": "Rajpur in Gaya district",
+            "D": "Tamkuha in West Champaran district",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Kapilansh Metal Industry was established in Rajpur of Buxar district in Bihar. Kapilansh Metal Industry Private Limited is a leading and well-established manufacturer in India of centrifugal cast-iron pipes and fittings.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "Which is the prominent financial institution to give industrial financial aid in Bihar –",
+          "options": {
+            "A": "World Bank",
+            "B": "BISCOMAN",
+            "C": "Bihar State Financial Corporation",
+            "D": "State Bank of India"
+          },
+          "answer": "C",
+          "explanation": "For providing industrial financial assistance in Bihar, the Bihar State Financial Corporation was established in 1954.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Two statements are given below, in which one is Assertion (A) and the other is Reason (R). Read both carefully- Assertion (A) : South Bihar is more developed than North Bihar. Reason (R) : Industries have developed in South Bihar. In reference to the above two statements, which of the following is correct?",
+          "options": {
+            "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+            "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+            "C": "(A) is true, but (R) is false.",
+            "D": "(A) is false, but (R) is true."
+          },
+          "answer": "D",
+          "explanation": "At present, South Bihar is more developed than North Bihar, but before the year 2000, South Bihar (that is, present-day Jharkhand) was less developed than North Bihar. The underdevelopment of southern Bihar was the main issue behind the creation of a separate Jharkhand state. The then South Bihar was a mineral-rich region; therefore, mineralbased industries developed comparatively more there. Jamshedpur, Dhanbad and Bokaro were major industrial towns of the then South Bihar.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        }
+      ]
+    }
+  ]
+}

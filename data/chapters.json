@@ -1,0 +1,1649 @@
+[
+  {
+    "key": "history",
+    "label": "History",
+    "emoji": "🏛️",
+    "file": "data/history.json",
+    "chapters": [
+      {
+        "name": "Stone Age",
+        "count": 6
+      },
+      {
+        "name": "Indus Valley Civilization",
+        "count": 13
+      },
+      {
+        "name": "Vedic Age",
+        "count": 10
+      },
+      {
+        "name": "Buddhism",
+        "count": 23
+      },
+      {
+        "name": "Jain Religion",
+        "count": 10
+      },
+      {
+        "name": "Shaiva and Bhagavata Religion",
+        "count": 2
+      },
+      {
+        "name": "Sixth Century B.C.E. — Political Conditions",
+        "count": 23
+      },
+      {
+        "name": "Greek Invasion",
+        "count": 1
+      },
+      {
+        "name": "Mauryan Empire",
+        "count": 26
+      },
+      {
+        "name": "Post Mauryan Period",
+        "count": 9
+      },
+      {
+        "name": "Gupta and Post-Gupta Period",
+        "count": 31
+      },
+      {
+        "name": "Architecture in Ancient India",
+        "count": 11
+      },
+      {
+        "name": "South India (Chola, Chalukya, Pallava and Sangam Period)",
+        "count": 12
+      },
+      {
+        "name": "Ancient Literature and Literary Figures",
+        "count": 22
+      },
+      {
+        "name": "Pre-Medieval Period",
+        "count": 9
+      },
+      {
+        "name": "Muslim Invasion of India",
+        "count": 2
+      },
+      {
+        "name": "Delhi Sultanate : Slave Dynasty",
+        "count": 10
+      },
+      {
+        "name": "Khilji Dynasty",
+        "count": 14
+      },
+      {
+        "name": "Tughluq Dynasty",
+        "count": 7
+      },
+      {
+        "name": "Lodi Dynasty",
+        "count": 1
+      },
+      {
+        "name": "Vijayanagara Empire",
+        "count": 8
+      },
+      {
+        "name": "Delhi Sultanate : Administration",
+        "count": 5
+      },
+      {
+        "name": "Delhi Sultanate : Art and Architecture",
+        "count": 3
+      },
+      {
+        "name": "Delhi Sultanate : Literature",
+        "count": 7
+      },
+      {
+        "name": "Provincial Dynasties of North India and the Deccan Region",
+        "count": 1
+      },
+      {
+        "name": "Bhakti and Sufi Movement",
+        "count": 4
+      },
+      {
+        "name": "Mughal Dynasty : Babur",
+        "count": 3
+      },
+      {
+        "name": "Humayun and Sher Shah",
+        "count": 10
+      },
+      {
+        "name": "Akbar",
+        "count": 6
+      },
+      {
+        "name": "Jahangir",
+        "count": 4
+      },
+      {
+        "name": "Shahjahan",
+        "count": 3
+      },
+      {
+        "name": "Aurangzeb",
+        "count": 2
+      },
+      {
+        "name": "Mughal Administration",
+        "count": 6
+      },
+      {
+        "name": "Music and Painting of the Mughal Period",
+        "count": 5
+      },
+      {
+        "name": "Mughal Literature",
+        "count": 6
+      },
+      {
+        "name": "Mughal Period : Miscellaneous",
+        "count": 5
+      },
+      {
+        "name": "Sikh Sect",
+        "count": 2
+      },
+      {
+        "name": "Maratha State and Confederacy",
+        "count": 6
+      },
+      {
+        "name": "Disintegration of the Mughal Empire",
+        "count": 3
+      },
+      {
+        "name": "Advent of European Companies",
+        "count": 10
+      },
+      {
+        "name": "East India Company And Nawab Of Bengal",
+        "count": 5
+      },
+      {
+        "name": "Regional States : Punjab And Mysore",
+        "count": 6
+      },
+      {
+        "name": "Governor/Governor-General/ Viceroy",
+        "count": 28
+      },
+      {
+        "name": "Economic Impact of British Rule on India",
+        "count": 10
+      },
+      {
+        "name": "Revolt of 1857",
+        "count": 25
+      },
+      {
+        "name": "Other Civil Uprising",
+        "count": 27
+      },
+      {
+        "name": "Development of Education In Modern India",
+        "count": 15
+      },
+      {
+        "name": "Development of Press In Modern India",
+        "count": 14
+      },
+      {
+        "name": "Social and Religious Movement",
+        "count": 34
+      },
+      {
+        "name": "Political Organisations Established Before Congress",
+        "count": 7
+      },
+      {
+        "name": "Indian National Congress",
+        "count": 34
+      },
+      {
+        "name": "Moderates And Extremists In Congress",
+        "count": 15
+      },
+      {
+        "name": "Revolutionary Movement In India",
+        "count": 21
+      },
+      {
+        "name": "Revolutionary Activities Outside India",
+        "count": 18
+      },
+      {
+        "name": "Partition of Bengal and Swadeshi Movement",
+        "count": 13
+      },
+      {
+        "name": "Congress : Banaras, Calcutta and Surat Session",
+        "count": 3
+      },
+      {
+        "name": "Formation Of Muslim League",
+        "count": 4
+      },
+      {
+        "name": "Morley-Minto Reforms",
+        "count": 1
+      },
+      {
+        "name": "Delhi Durbar And Change Of Capital",
+        "count": 2
+      },
+      {
+        "name": "Lucknow Session Of Congress",
+        "count": 4
+      },
+      {
+        "name": "Home Rule League Movement",
+        "count": 3
+      },
+      {
+        "name": "Gandhi And His Early Movement",
+        "count": 34
+      },
+      {
+        "name": "Peasant Movement And Kisan Sabha",
+        "count": 14
+      },
+      {
+        "name": "Trade Union And Communist Party",
+        "count": 7
+      },
+      {
+        "name": "Rowlatt Act And Jallianwala Bagh Massacre",
+        "count": 9
+      },
+      {
+        "name": "Khilafat Movement",
+        "count": 4
+      },
+      {
+        "name": "Non-Cooperation Movement",
+        "count": 10
+      },
+      {
+        "name": "Formation of Swaraj Party (1923)",
+        "count": 7
+      },
+      {
+        "name": "Simon Commission (1927)",
+        "count": 5
+      },
+      {
+        "name": "Lahore Session of Congress, Proposal of Complete Independence (1929)",
+        "count": 7
+      },
+      {
+        "name": "Civil Disobedience Movement",
+        "count": 12
+      },
+      {
+        "name": "Gandhi-Irwin Pact",
+        "count": 5
+      },
+      {
+        "name": "Round Table Conference",
+        "count": 8
+      },
+      {
+        "name": "Communal Award And Poona Pact",
+        "count": 4
+      },
+      {
+        "name": "Congress Socialist Party (1934)",
+        "count": 3
+      },
+      {
+        "name": "Provincial Election and Formation of Cabinet (1937)",
+        "count": 1
+      },
+      {
+        "name": "Tripuri Crisis of Congress",
+        "count": 2
+      },
+      {
+        "name": "Indian Princely States",
+        "count": 3
+      },
+      {
+        "name": "Second World War",
+        "count": 1
+      },
+      {
+        "name": "Demand For Pakistan",
+        "count": 8
+      },
+      {
+        "name": "Individual Satyagraha -1940",
+        "count": 4
+      },
+      {
+        "name": "Cripps Mission (1942)",
+        "count": 3
+      },
+      {
+        "name": "Quit India Movement",
+        "count": 15
+      },
+      {
+        "name": "Subhas Chandra Bose And Azad Hind Fauj",
+        "count": 19
+      },
+      {
+        "name": "Cabinet Mission Plan",
+        "count": 6
+      },
+      {
+        "name": "Formation of Interim Government (1946)",
+        "count": 5
+      },
+      {
+        "name": "Partition Of India And Independence",
+        "count": 9
+      },
+      {
+        "name": "Constitutional Development Of India",
+        "count": 16
+      },
+      {
+        "name": "Modern History : Miscellaneous",
+        "count": 52
+      },
+      {
+        "name": "Magazines, Books And Their Authors",
+        "count": 44
+      },
+      {
+        "name": "Art And Culture",
+        "count": 20
+      },
+      {
+        "name": "Historical Scenario",
+        "count": 175
+      }
+    ],
+    "total": 1142
+  },
+  {
+    "key": "polity_governance",
+    "label": "Polity & Governance",
+    "emoji": "⚖️",
+    "file": "data/polity_governance.json",
+    "chapters": [
+      {
+        "name": "The Constitutional Development of India",
+        "count": 7
+      },
+      {
+        "name": "Important Committees of the Constituent Assembly",
+        "count": 2
+      },
+      {
+        "name": "Source of Constitution",
+        "count": 7
+      },
+      {
+        "name": "Parts of Indian Constitution and Articles",
+        "count": 7
+      },
+      {
+        "name": "Schedules",
+        "count": 15
+      },
+      {
+        "name": "The Preamble",
+        "count": 12
+      },
+      {
+        "name": "The Governance System",
+        "count": 8
+      },
+      {
+        "name": "State and Union Territories",
+        "count": 8
+      },
+      {
+        "name": "The Citizenship",
+        "count": 3
+      },
+      {
+        "name": "Fundamental Rights",
+        "count": 18
+      },
+      {
+        "name": "Directive Principles of State Policy",
+        "count": 10
+      },
+      {
+        "name": "Fundamental Duties",
+        "count": 5
+      },
+      {
+        "name": "The President",
+        "count": 22
+      },
+      {
+        "name": "The Vice-President",
+        "count": 7
+      },
+      {
+        "name": "Council of Ministers",
+        "count": 9
+      },
+      {
+        "name": "The Attorney General and the CAG",
+        "count": 5
+      },
+      {
+        "name": "Order of Precedence",
+        "count": 2
+      },
+      {
+        "name": "Lok Sabha",
+        "count": 34
+      },
+      {
+        "name": "Rajya Sabha",
+        "count": 15
+      },
+      {
+        "name": "Parliamentary Committees",
+        "count": 4
+      },
+      {
+        "name": "Parliamentary Act",
+        "count": 2
+      },
+      {
+        "name": "Supreme Court",
+        "count": 18
+      },
+      {
+        "name": "The Governor",
+        "count": 6
+      },
+      {
+        "name": "The State Legislature and Council of Ministers",
+        "count": 12
+      },
+      {
+        "name": "The High Court and Subordinate Courts",
+        "count": 5
+      },
+      {
+        "name": "Centre State Relations",
+        "count": 2
+      },
+      {
+        "name": "Emergency Provision",
+        "count": 6
+      },
+      {
+        "name": "The Finance Commission",
+        "count": 7
+      },
+      {
+        "name": "Planning Commission/Niti Aayog",
+        "count": 10
+      },
+      {
+        "name": "Election Commission",
+        "count": 7
+      },
+      {
+        "name": "Political Parties",
+        "count": 5
+      },
+      {
+        "name": "Constitutional Amendments",
+        "count": 9
+      },
+      {
+        "name": "Official Language",
+        "count": 2
+      },
+      {
+        "name": "Panchayati Raj and Community Development",
+        "count": 45
+      },
+      {
+        "name": "Special Provisions for Certain Classes",
+        "count": 4
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 37
+      },
+      {
+        "name": "Political Scenario",
+        "count": 43
+      }
+    ],
+    "total": 420
+  },
+  {
+    "key": "geography_environment",
+    "label": "Geography & Environment",
+    "emoji": "🌍",
+    "file": "data/geography_environment.json",
+    "chapters": [
+      {
+        "name": "Area",
+        "count": 1
+      },
+      {
+        "name": "Latitudinal and Longitudinal Expansion",
+        "count": 3
+      },
+      {
+        "name": "Standard Time",
+        "count": 4
+      },
+      {
+        "name": "Bordering Countries",
+        "count": 4
+      },
+      {
+        "name": "Natural Region of India",
+        "count": 5
+      },
+      {
+        "name": "Northern Mountainous Region",
+        "count": 9
+      },
+      {
+        "name": "Mountain ranges and Hills of South and Central India",
+        "count": 7
+      },
+      {
+        "name": "Mountain Peaks",
+        "count": 5
+      },
+      {
+        "name": "Snowline and Glacier",
+        "count": 5
+      },
+      {
+        "name": "Plateaus",
+        "count": 5
+      },
+      {
+        "name": "Coastal Region",
+        "count": 2
+      },
+      {
+        "name": "Island Groups of The Arabian Sea",
+        "count": 4
+      },
+      {
+        "name": "States/Union Territories of India",
+        "count": 15
+      },
+      {
+        "name": "Species and Tribes",
+        "count": 9
+      },
+      {
+        "name": "Ganga Drainage System",
+        "count": 6
+      },
+      {
+        "name": "Brahmaputra Drainage System",
+        "count": 5
+      },
+      {
+        "name": "South Indian Rivers",
+        "count": 10
+      },
+      {
+        "name": "Other Rivers",
+        "count": 16
+      },
+      {
+        "name": "Cities Located on the Bank of River",
+        "count": 4
+      },
+      {
+        "name": "Waterfalls and Lakes",
+        "count": 6
+      },
+      {
+        "name": "Monsoon",
+        "count": 10
+      },
+      {
+        "name": "Rainfall",
+        "count": 7
+      },
+      {
+        "name": "Winter Rainfall",
+        "count": 1
+      },
+      {
+        "name": "Natural Disaster",
+        "count": 2
+      },
+      {
+        "name": "Black Soils",
+        "count": 4
+      },
+      {
+        "name": "Alluvial Soil",
+        "count": 3
+      },
+      {
+        "name": "Soil : Miscellaneous",
+        "count": 7
+      },
+      {
+        "name": "Soil Erosion and Conservation",
+        "count": 2
+      },
+      {
+        "name": "Natural Vegetation",
+        "count": 12
+      },
+      {
+        "name": "Irrigation and Canals",
+        "count": 5
+      },
+      {
+        "name": "Bhakra Nangal Dam",
+        "count": 2
+      },
+      {
+        "name": "Dam at the River Cauvery",
+        "count": 1
+      },
+      {
+        "name": "Nagarjuna Sagar Dam",
+        "count": 1
+      },
+      {
+        "name": "Hirakud Dam",
+        "count": 1
+      },
+      {
+        "name": "Damodar Valley Project",
+        "count": 2
+      },
+      {
+        "name": "Miscellaneous Projects",
+        "count": 3
+      },
+      {
+        "name": "Agriculture",
+        "count": 2
+      },
+      {
+        "name": "Green Revolution",
+        "count": 7
+      },
+      {
+        "name": "Rabi Crops",
+        "count": 5
+      },
+      {
+        "name": "Kharif Crops",
+        "count": 6
+      },
+      {
+        "name": "Cotton",
+        "count": 2
+      },
+      {
+        "name": "Sugarcane",
+        "count": 3
+      },
+      {
+        "name": "Oil Seeds",
+        "count": 2
+      },
+      {
+        "name": "Coffee",
+        "count": 1
+      },
+      {
+        "name": "Tea and Rubber",
+        "count": 5
+      },
+      {
+        "name": "Agriculture : Miscellaneous",
+        "count": 10
+      },
+      {
+        "name": "Animal Husbandry",
+        "count": 1
+      },
+      {
+        "name": "Rock System",
+        "count": 2
+      },
+      {
+        "name": "Iron ore",
+        "count": 4
+      },
+      {
+        "name": "Copper",
+        "count": 6
+      },
+      {
+        "name": "Mica",
+        "count": 2
+      },
+      {
+        "name": "Coal",
+        "count": 9
+      },
+      {
+        "name": "Petroleum and Natural Gas",
+        "count": 1
+      },
+      {
+        "name": "Miscellaneous : Minerals",
+        "count": 2
+      },
+      {
+        "name": "Thermal",
+        "count": 2
+      },
+      {
+        "name": "Hydroelectric",
+        "count": 1
+      },
+      {
+        "name": "Energy : Miscellaneous",
+        "count": 9
+      },
+      {
+        "name": "Iron and Steel Industry",
+        "count": 5
+      },
+      {
+        "name": "Miscellaneous : Industry",
+        "count": 16
+      },
+      {
+        "name": "Road Transport",
+        "count": 6
+      },
+      {
+        "name": "Rail Transport",
+        "count": 5
+      },
+      {
+        "name": "Water/Air Transport",
+        "count": 9
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 29
+      },
+      {
+        "name": "General Introduction",
+        "count": 4
+      },
+      {
+        "name": "Solar System",
+        "count": 2
+      },
+      {
+        "name": "Sun",
+        "count": 4
+      },
+      {
+        "name": "Venus",
+        "count": 3
+      },
+      {
+        "name": "Earth",
+        "count": 9
+      },
+      {
+        "name": "Jupiter",
+        "count": 1
+      },
+      {
+        "name": "Saturn",
+        "count": 1
+      },
+      {
+        "name": "Uranus, Neptune and Pluto",
+        "count": 2
+      },
+      {
+        "name": "Latitudes",
+        "count": 2
+      },
+      {
+        "name": "Longitude",
+        "count": 2
+      },
+      {
+        "name": "International Date Lines",
+        "count": 3
+      },
+      {
+        "name": "Day & Night",
+        "count": 2
+      },
+      {
+        "name": "Geological History",
+        "count": 8
+      },
+      {
+        "name": "Rock",
+        "count": 5
+      },
+      {
+        "name": "Volcano",
+        "count": 5
+      },
+      {
+        "name": "Earthquake",
+        "count": 1
+      },
+      {
+        "name": "Continents",
+        "count": 5
+      },
+      {
+        "name": "World Mountain",
+        "count": 9
+      },
+      {
+        "name": "Arid Regions/Deserts",
+        "count": 7
+      },
+      {
+        "name": "Grasslands",
+        "count": 3
+      },
+      {
+        "name": "Countries and Their Borders",
+        "count": 6
+      },
+      {
+        "name": "Land-locked Countries",
+        "count": 1
+      },
+      {
+        "name": "Capital Cities of the World",
+        "count": 1
+      },
+      {
+        "name": "Geographical Sobriquets",
+        "count": 3
+      },
+      {
+        "name": "Hydrosphere",
+        "count": 4
+      },
+      {
+        "name": "Delta",
+        "count": 1
+      },
+      {
+        "name": "Important Seas of the World",
+        "count": 1
+      },
+      {
+        "name": "Ocean Currents",
+        "count": 5
+      },
+      {
+        "name": "Salinity of the Ocean",
+        "count": 3
+      },
+      {
+        "name": "High Tide and Low Tide",
+        "count": 1
+      },
+      {
+        "name": "Rivers of the World",
+        "count": 4
+      },
+      {
+        "name": "Towns and Cities along River Banks",
+        "count": 4
+      },
+      {
+        "name": "Landforms by Rivers",
+        "count": 3
+      },
+      {
+        "name": "Islands",
+        "count": 6
+      },
+      {
+        "name": "Lakes and Waterfall",
+        "count": 3
+      },
+      {
+        "name": "Straits",
+        "count": 4
+      },
+      {
+        "name": "Canals",
+        "count": 2
+      },
+      {
+        "name": "Coral Reefs",
+        "count": 1
+      },
+      {
+        "name": "Atmosphere",
+        "count": 2
+      },
+      {
+        "name": "Insolation",
+        "count": 1
+      },
+      {
+        "name": "Winds",
+        "count": 1
+      },
+      {
+        "name": "Forests",
+        "count": 3
+      },
+      {
+        "name": "World Climate",
+        "count": 2
+      },
+      {
+        "name": "Soils",
+        "count": 2
+      },
+      {
+        "name": "Major Tribes of the World",
+        "count": 7
+      },
+      {
+        "name": "Languages",
+        "count": 2
+      },
+      {
+        "name": "Agriculture and Livestock",
+        "count": 5
+      },
+      {
+        "name": "Minerals-coal",
+        "count": 5
+      },
+      {
+        "name": "Iron Ores",
+        "count": 4
+      },
+      {
+        "name": "Gold",
+        "count": 4
+      },
+      {
+        "name": "Aluminium",
+        "count": 1
+      },
+      {
+        "name": "Tin",
+        "count": 1
+      },
+      {
+        "name": "Petroleum",
+        "count": 3
+      },
+      {
+        "name": "Uranium",
+        "count": 2
+      },
+      {
+        "name": "Minerals : Miscellaneous",
+        "count": 1
+      },
+      {
+        "name": "Cities and Industries",
+        "count": 1
+      },
+      {
+        "name": "Transports",
+        "count": 1
+      },
+      {
+        "name": "Ports and Harbours",
+        "count": 2
+      },
+      {
+        "name": "Environment & Ecology",
+        "count": 67
+      },
+      {
+        "name": "General Geographical Scenario",
+        "count": 39
+      },
+      {
+        "name": "Forests and Vegetation",
+        "count": 7
+      },
+      {
+        "name": "Mineral Resources",
+        "count": 19
+      },
+      {
+        "name": "Wildlife and Bird Sanctuaries",
+        "count": 10
+      },
+      {
+        "name": "Rivers, Lakes and Waterfalls",
+        "count": 33
+      }
+    ],
+    "total": 696
+  },
+  {
+    "key": "economy_development",
+    "label": "Economy & Development",
+    "emoji": "💹",
+    "file": "data/economy_development.json",
+    "chapters": [
+      {
+        "name": "Nature of Indian Economy",
+        "count": 13
+      },
+      {
+        "name": "National Income",
+        "count": 14
+      },
+      {
+        "name": "Agriculture and Allied Sector",
+        "count": 16
+      },
+      {
+        "name": "Industrial Sector",
+        "count": 11
+      },
+      {
+        "name": "Tertiary Sector",
+        "count": 5
+      },
+      {
+        "name": "Fiscal Policy & Revenue",
+        "count": 45
+      },
+      {
+        "name": "Planning",
+        "count": 26
+      },
+      {
+        "name": "Money and Banking",
+        "count": 41
+      },
+      {
+        "name": "Human Development",
+        "count": 4
+      },
+      {
+        "name": "Employment & Welfare Scheme",
+        "count": 24
+      },
+      {
+        "name": "Poverty & Unemployment",
+        "count": 8
+      },
+      {
+        "name": "International Trade",
+        "count": 16
+      },
+      {
+        "name": "External Debt",
+        "count": 10
+      },
+      {
+        "name": "International Organisation",
+        "count": 17
+      },
+      {
+        "name": "Population",
+        "count": 24
+      },
+      {
+        "name": "India Urbanisation",
+        "count": 4
+      },
+      {
+        "name": "World Population & Urbanisation",
+        "count": 3
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 33
+      },
+      {
+        "name": "General Economic Scenario",
+        "count": 47
+      },
+      {
+        "name": "Government Schemes",
+        "count": 11
+      },
+      {
+        "name": "Agriculture and Irrigation",
+        "count": 39
+      },
+      {
+        "name": "Energy Resources",
+        "count": 8
+      }
+    ],
+    "total": 419
+  },
+  {
+    "key": "general_science",
+    "label": "General Science",
+    "emoji": "🔬",
+    "file": "data/general_science.json",
+    "chapters": [
+      {
+        "name": "Measurement/Unit",
+        "count": 24
+      },
+      {
+        "name": "Measuring instrument and Scales",
+        "count": 13
+      },
+      {
+        "name": "Mechanics",
+        "count": 17
+      },
+      {
+        "name": "Motion Under Gravity",
+        "count": 10
+      },
+      {
+        "name": "Physical Properties of Materials",
+        "count": 7
+      },
+      {
+        "name": "Optics",
+        "count": 34
+      },
+      {
+        "name": "Heat and Thermodynamics",
+        "count": 17
+      },
+      {
+        "name": "Wave Motion",
+        "count": 6
+      },
+      {
+        "name": "Sound",
+        "count": 11
+      },
+      {
+        "name": "Electric Current",
+        "count": 31
+      },
+      {
+        "name": "Conductivity",
+        "count": 12
+      },
+      {
+        "name": "Nuclear Physics",
+        "count": 9
+      },
+      {
+        "name": "Technology",
+        "count": 7
+      },
+      {
+        "name": "Space",
+        "count": 4
+      },
+      {
+        "name": "Scientists & Inventions",
+        "count": 8
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 46
+      },
+      {
+        "name": "Atomic Structure",
+        "count": 24
+      },
+      {
+        "name": "Change, Solution",
+        "count": 36
+      },
+      {
+        "name": "Inorganic Chemistry",
+        "count": 18
+      },
+      {
+        "name": "Properties, Uses",
+        "count": 39
+      },
+      {
+        "name": "Alloys",
+        "count": 6
+      },
+      {
+        "name": "A. Carbon and its Various Forms",
+        "count": 14
+      },
+      {
+        "name": "B. Hydrogen and its Various Forms",
+        "count": 6
+      },
+      {
+        "name": "C. Sulphur, Nitrogen, Halogen, Inert gases",
+        "count": 5
+      },
+      {
+        "name": "Acid, Base and Salt",
+        "count": 14
+      },
+      {
+        "name": "A. Hydrocarbons",
+        "count": 8
+      },
+      {
+        "name": "B. Alcohol",
+        "count": 2
+      },
+      {
+        "name": "C. Polymer",
+        "count": 6
+      },
+      {
+        "name": "D. Organic Acid",
+        "count": 7
+      },
+      {
+        "name": "E. Explosive Substance",
+        "count": 3
+      },
+      {
+        "name": "F. The Fuel",
+        "count": 10
+      },
+      {
+        "name": "Medicine etc.",
+        "count": 16
+      },
+      {
+        "name": "Detergents and Soap",
+        "count": 5
+      },
+      {
+        "name": "The Fertilizers",
+        "count": 2
+      },
+      {
+        "name": "Subdivisions of Biology",
+        "count": 9
+      },
+      {
+        "name": "Evolution of Life",
+        "count": 8
+      },
+      {
+        "name": "Taxonomy",
+        "count": 19
+      },
+      {
+        "name": "Cell",
+        "count": 7
+      },
+      {
+        "name": "Heredity",
+        "count": 7
+      },
+      {
+        "name": "Biofertilizers",
+        "count": 3
+      },
+      {
+        "name": "I. Skeletal and Muscle System",
+        "count": 16
+      },
+      {
+        "name": "II. Digestive System",
+        "count": 12
+      },
+      {
+        "name": "III. Vitamins and Nutrition",
+        "count": 24
+      },
+      {
+        "name": "IV. Respiratory System",
+        "count": 5
+      },
+      {
+        "name": "V. Circulatory System",
+        "count": 20
+      },
+      {
+        "name": "VI. Excretory System",
+        "count": 4
+      },
+      {
+        "name": "VII. Nervous System",
+        "count": 7
+      },
+      {
+        "name": "Endocrine System",
+        "count": 10
+      },
+      {
+        "name": "Embryo Development",
+        "count": 3
+      },
+      {
+        "name": "I. Photosynthesis",
+        "count": 15
+      },
+      {
+        "name": "II. Plant Nutrition",
+        "count": 19
+      },
+      {
+        "name": "III. Plant Reproduction",
+        "count": 8
+      },
+      {
+        "name": "Plants of Economic Importance",
+        "count": 18
+      },
+      {
+        "name": "I. Viral Disease",
+        "count": 9
+      },
+      {
+        "name": "II. Bacterial Disease",
+        "count": 6
+      },
+      {
+        "name": "III. Fungal Disease",
+        "count": 1
+      },
+      {
+        "name": "IV. Other Parasitic Disease",
+        "count": 6
+      },
+      {
+        "name": "V. Deficiency, Non-Contagious and Other Disease",
+        "count": 8
+      },
+      {
+        "name": "Biotechnology",
+        "count": 7
+      }
+    ],
+    "total": 728
+  },
+  {
+    "key": "general_mental_ability",
+    "label": "General Mental Ability",
+    "emoji": "🧮",
+    "file": "data/general_mental_ability.json",
+    "chapters": [
+      {
+        "name": "Number System",
+        "count": 23
+      },
+      {
+        "name": "Simplification",
+        "count": 16
+      },
+      {
+        "name": "Cube Root",
+        "count": 6
+      },
+      {
+        "name": "Decimal and Fraction",
+        "count": 5
+      },
+      {
+        "name": "Age",
+        "count": 7
+      },
+      {
+        "name": "Percentage",
+        "count": 27
+      },
+      {
+        "name": "L.C.M. & H.C.F.",
+        "count": 6
+      },
+      {
+        "name": "Profit-Loss and Discount",
+        "count": 14
+      },
+      {
+        "name": "Average",
+        "count": 16
+      },
+      {
+        "name": "Partnership",
+        "count": 4
+      },
+      {
+        "name": "Ratio, Proportion and Mixture",
+        "count": 9
+      },
+      {
+        "name": "Time and Work",
+        "count": 11
+      },
+      {
+        "name": "Pipe and Tanks",
+        "count": 2
+      },
+      {
+        "name": "Interest",
+        "count": 8
+      },
+      {
+        "name": "Time, Speed and Distance",
+        "count": 17
+      },
+      {
+        "name": "Area and Perimeter",
+        "count": 23
+      },
+      {
+        "name": "Volume",
+        "count": 12
+      },
+      {
+        "name": "Geometry",
+        "count": 10
+      },
+      {
+        "name": "Algebra",
+        "count": 61
+      },
+      {
+        "name": "Trigonometry",
+        "count": 7
+      },
+      {
+        "name": "Statistics",
+        "count": 7
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 47
+      },
+      {
+        "name": "Reasoning, Coding and Decoding",
+        "count": 15
+      },
+      {
+        "name": "Clocks",
+        "count": 8
+      },
+      {
+        "name": "Series Test",
+        "count": 12
+      },
+      {
+        "name": "Direction Test",
+        "count": 7
+      },
+      {
+        "name": "Blood Relations",
+        "count": 5
+      },
+      {
+        "name": "Missing Numbers",
+        "count": 5
+      },
+      {
+        "name": "Venn Diagram",
+        "count": 6
+      }
+    ],
+    "total": 396
+  },
+  {
+    "key": "current_affairs",
+    "label": "Current Affairs",
+    "emoji": "📰",
+    "file": "data/current_affairs.json",
+    "chapters": [
+      {
+        "name": "National Events",
+        "count": 172
+      },
+      {
+        "name": "International Events",
+        "count": 173
+      },
+      {
+        "name": "Award",
+        "count": 57
+      },
+      {
+        "name": "Important Days",
+        "count": 13
+      },
+      {
+        "name": "Books",
+        "count": 8
+      },
+      {
+        "name": "Major Sports",
+        "count": 18
+      },
+      {
+        "name": "Tennis",
+        "count": 9
+      },
+      {
+        "name": "Cricket",
+        "count": 15
+      },
+      {
+        "name": "Football",
+        "count": 3
+      },
+      {
+        "name": "Hockey",
+        "count": 2
+      },
+      {
+        "name": "Athletics",
+        "count": 11
+      },
+      {
+        "name": "Wrestling",
+        "count": 2
+      },
+      {
+        "name": "Sports-Miscellaneous",
+        "count": 8
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 19
+      },
+      {
+        "name": "Current Events: Bihar",
+        "count": 40
+      }
+    ],
+    "total": 550
+  },
+  {
+    "key": "society_demography",
+    "label": "Society & Demography",
+    "emoji": "👥",
+    "file": "data/society_demography.json",
+    "chapters": [
+      {
+        "name": "Population and Urbanization",
+        "count": 49
+      }
+    ],
+    "total": 49
+  },
+  {
+    "key": "art_culture_literature",
+    "label": "Art, Culture & Literature",
+    "emoji": "🎭",
+    "file": "data/art_culture_literature.json",
+    "chapters": [
+      {
+        "name": "Art and Culture",
+        "count": 15
+      },
+      {
+        "name": "Books and Authors",
+        "count": 14
+      }
+    ],
+    "total": 29
+  },
+  {
+    "key": "infrastructure_industry",
+    "label": "Infrastructure & Industry",
+    "emoji": "🏗️",
+    "file": "data/infrastructure_industry.json",
+    "chapters": [
+      {
+        "name": "Transportation System",
+        "count": 12
+      },
+      {
+        "name": "Industries and Factories",
+        "count": 19
+      }
+    ],
+    "total": 31
+  },
+  {
+    "key": "miscellaneous",
+    "label": "Miscellaneous",
+    "emoji": "🧩",
+    "file": "data/miscellaneous.json",
+    "chapters": [
+      {
+        "name": "Miscellaneous",
+        "count": 23
+      }
+    ],
+    "total": 23
+  }
+]

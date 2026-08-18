@@ -1,0 +1,405 @@
+{
+  "subject": "Art, Culture & Literature",
+  "chapters": [
+    {
+      "chapter_name": "Art and Culture",
+      "questions": [
+        {
+          "q": "Which of the following is the only UNESCO World Heritage Site present in Bihar State of India?",
+          "options": {
+            "A": "Mahabodhi Temple",
+            "B": "Buddhist Monastery in Nalanda",
+            "C": "Ancient site of Vikramashila Monastery",
+            "D": "Tomb of Sher Shah Suri",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "In the UNESCO World Heritage List, both the Archaeological Site of Nalanda Mahavihara at Nalanda (in 2016) and the Mahabodhi Temple Complex at Bodh Gaya (in 2002) are included.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "In which of the following cities did Japanese build a World Peace Stupa?",
+          "options": {
+            "A": "Deo",
+            "B": "Rajgir",
+            "C": "Gaya",
+            "D": "Bodhgaya"
+          },
+          "answer": "B",
+          "explanation": "The ‘World Peace Stupa’, situated on the Ratnagiri hill (about 400 metres high) in Rajgir, was constructed in 1969 by a Japanese Buddhist monk, Nipponzan Myohoji.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Where is the 'Vishwa Shanti Stupa', said to be the highest in the world, located in Bihar?",
+          "options": {
+            "A": "Vaishali",
+            "B": "Nalanda",
+            "C": "Rajgir",
+            "D": "Patna"
+          },
+          "answer": "C",
+          "explanation": "The ‘World Peace Stupa’, situated on the Ratnagiri hill (about 400 metres high) in Rajgir, was constructed in 1969 by a Japanese Buddhist monk, Nipponzan Myohoji.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre), 2008"
+        },
+        {
+          "q": "The original meaning of the word 'Vihar' is -",
+          "options": {
+            "A": "Buddhist monastery",
+            "B": "Land of Angels",
+            "C": "Arya Pradesh",
+            "D": "The Land of Greenery"
+          },
+          "answer": "A",
+          "explanation": "The residence of Buddhist monks is called a Vihar (monastery). In ancient Sanskrit, Prakrit and Pali literature, there is no mention of any region named Bihar. Toward the end of the 12th century, due to the large number of Buddhist viharas in this region (especially around Odantapuri), it came to be called Vihar, which later became Bihar.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre), 2001"
+        },
+        {
+          "q": "Who used the caves of Barabar as their shelter-house?",
+          "options": {
+            "A": "Ajivakas",
+            "B": "Tharus",
+            "C": "Jains",
+            "D": "Tantrikas"
+          },
+          "answer": "A",
+          "explanation": "In the Mauryan period, the art of carving caves to make dwellings developed. During the time of Ashoka and his grandson Dasharatha, shelters were carved out in the Barabar and Nagarjuni hills for the followers of the Ajivakas sect.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Mahabodhi Temple has been built at Bodh Gaya where-",
+          "options": {
+            "A": "Gautama Buddha was born",
+            "B": "Gautama Buddha received enlightenment",
+            "C": "Gautama Buddha gave his first sermon",
+            "D": "Gautama Buddha passed away"
+          },
+          "answer": "B",
+          "explanation": "At Bodh Gaya, after six years of penance, Buddha attained enlightenment at the age of 35 on the night of Vaishakh Purnima under a peepal tree. Construction of the temple at this site was started by Emperor Ashoka in the third century BCE; however, its present form was built in the 5th–6th century CE. This temple is entirely made of bricks. In 2002, UNESCO included it in the list of World Heritage Sites.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Chandragupta’s palace situated at Pataliputra is mainly made up of –",
+          "options": {
+            "A": "Bricks",
+            "B": "Stones",
+            "C": "Wood",
+            "D": "Clays"
+          },
+          "answer": "C",
+          "explanation": "Excavations at Bulandibagh and Kumrahar near Patna (Pataliputra) in Bihar have revealed remains of huge wooden buildings of the Mauryan period. The credit for bringing these to light goes to Mr. Spooner. Bulandibagh yielded remains of the city fortification, while Kumrahar yielded remains of the royal palace.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which is the oldest church in Bihar?",
+          "options": {
+            "A": "Padri Ki Haveli",
+            "B": "Luke's Church",
+            "C": "Stephen's Church",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Padri ki Haveli, also known as St. Mary’s Church, is the oldest church in Bihar. It was originally built in Patna in 1713. Its present structure was constructed in 1772.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Which is the unique festival of Bihar?",
+          "options": {
+            "A": "Deepavali",
+            "B": "Bisu",
+            "C": "Vinayak Chaturthi",
+            "D": "Chhath Puja"
+          },
+          "answer": "D",
+          "explanation": "Chhath Puja is the most important festival of Bihar, and it is called the Mahaparv of Bihar. It is observed on the sixth day of the bright fortnight of the Kartik month, exactly six days after Diwali. On this festival, Surya Dev (Sun God) and Chhathi Maiya are worshipped, and Arghya is offered—first at sunset and the second at sunrise. Diwali, also called the festival of lights, is a major Hindu festival celebrated on the new moon day of the Kartik month. Vishu is the traditional New Year festival of Kerala. It is celebrated on the first day of the Malayalam month Medam and is considered a symbol of good luck for the coming year. Vinayak Chaturthi is celebrated by Hindus across India, including Maharashtra, on the Shukla Chaturthi of the month of Bhadrapada on the occasion of Lord Vinayak’s (Ganesha’s) birth.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "'Surya Temple' is situated in which of the following cities?",
+          "options": {
+            "A": "Gaya",
+            "B": "Bodhgaya",
+            "C": "Deo",
+            "D": "Ranchi"
+          },
+          "answer": "C",
+          "explanation": "Surya Temple is situated in Deo (Aurangabad district). It is believed that the famous Chhath festival of Bihar began from the pond situated in front of the Sun Temple.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "The famous animal fair of Bihar is held on Kartik Purnima -",
+          "options": {
+            "A": "In Gaya",
+            "B": "In Madhubani",
+            "C": "In Bhagalpur",
+            "D": "In Sonpur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bihar’s famous animal fair is organized every year on the occasion of Kartik Purnima at Sonpur (at the confluence of the Ganga and Gandak rivers). It is considered the largest animal fair in Asia.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re.Exam) (Pre), 2020"
+        },
+        {
+          "q": "What is the name of the one month long cattle fair organized at the confluence of Ganga and Gandak rivers ?",
+          "options": {
+            "A": "Katihar Mela",
+            "B": "Sonepur Mela",
+            "C": "Purnia Mela",
+            "D": "More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Bihar’s famous animal fair is organized every year on the occasion of Kartik Purnima at Sonpur (at the confluence of the Ganga and Gandak rivers). It is considered the largest animal fair in Asia.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "In the context of Indian handicrafts, what is ‘Sujini’ in Bihar?",
+          "options": {
+            "A": "A type of glassware",
+            "B": "A metal craft",
+            "C": "A type of embroidery",
+            "D": "A type of clay pottery"
+          },
+          "answer": "D",
+          "explanation": "In the context of Indian handicrafts, ‘Sujini’ is a type of embroidery, which has also received a GI tag. Sujini embroidery is also known as Sujani. It originated from Bhusura village in Bihar. Notably, it was initially considered a form of making quilts and blankets, in which old saris and dhotis were used as a creative canvas. The cloth was folded three or four times, and then simple stitches were applied on the used fabrics to give them a new look.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "In which district of Bihar, the world's tallest (251 m) statue of Mother Sita will be constructed?",
+          "options": {
+            "A": "Madhubani",
+            "B": "Sitamarhi",
+            "C": "Bodh Gaya",
+            "D": "Patna",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "On 13 February, 2022, the National Coordinator of the Ramayan Research Council and Mahamandaleshwar of the Juna Akhara, Swami Virendranand Ji Maharaj, announced the installation of the world’s tallest statue (251 feet) of Mata Sita at Sitamarhi. Along with the statue, a digital museum, a research institute, and a study center based on the life of Mata Sita will also be constructed. Note—The Ramayan Research Council has shown the height of the statue as 251 feet in its gallery, whereas some sources have erroneously mentioned its height as 251 meters.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
+        },
+        {
+          "q": "'Nava Nalanda Mahavihara' is famous for what?",
+          "options": {
+            "A": "Xuanzang Memorial",
+            "B": "Birthplace of Mahavira",
+            "C": "Pali Research Institute",
+            "D": "Museum"
+          },
+          "answer": "C",
+          "explanation": "‘Nava Nalanda Mahavihara’ is a modern center of Buddhist studies, which was established by the Government of Bihar in 1951 at Nalanda. A large number of students from Sri Lanka, Japan, Korea, Tibet, Bhutan, and other countries/ regions come here for research in Pali and Buddhist studies.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre), 2008"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Books and Authors",
+      "questions": [
+        {
+          "q": "Among the following Newspapers of Bihar, which was the first one to get published?",
+          "options": {
+            "A": "Patna Harkara",
+            "B": "Bihar Bandhu",
+            "C": "Akhbar-e-Bihar",
+            "D": "Bihar Herald"
+          },
+          "answer": "A",
+          "explanation": "Among the given options, Patna Harkara started publication first. The newspapers/journals given in the options and their years of publication are as follows— Patna Harkara - 1855 Akhbar-e-Bihar - 1856 Bihar Bandhu - 1872 Bihar Herald - 1874 It is noteworthy that Noor-ul-Anwar, published from Ara in 1853, was the first newspaper of Bihar.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The hundred years of Indian National Congress in Bihar was edited by",
+          "options": {
+            "A": "K. K. Dutta",
+            "B": "P. N. Ojha",
+            "C": "A. R. Desai",
+            "D": "B. B. Mishra"
+          },
+          "answer": "B",
+          "explanation": "One Hundred Years of the Indian National Congress in Bihar, 1885–1985 (History of Indian National Congress in Bihar, 1885–1985) is an edited work by P. N. Ojha.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "On 22nd March, 2018 who unveiled the book, Neel Ke Dhabbe on the occasion of 106th Bihar Day in Patna?",
+          "options": {
+            "A": "Vice President Shri Venkaiah Naidu",
+            "B": "Prime Minister Shri Narendra Modi",
+            "C": "Home Minister Shri Rajnath Singh",
+            "D": "Speaker Smt. Sumitra Mahajan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "On 22 March, 2018, on the occasion of the 106th Foundation Day of Bihar, at a ceremony held at the historic Gandhi Maidan in Patna, the then Vice President M. Venkaiah Naidu released four books centred on the life and ideas of Mahatma Gandhi. Among the books released was the novel ‘Neel Ke Dhabbe’ written by Vindhyachal Prasad.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Who was the author of 'Mahatma Gandhi and Bihar, Some Reminiscences'?",
+          "options": {
+            "A": "Dr. Rajendra Prasad",
+            "B": "J. P. Narayan",
+            "C": "Karpoori Thakur",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The author of Mahatma Gandhi and Bihar, Some Reminiscences was Dr. Rajendra Prasad, the first President of India.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "'The author of 'Rajneeti Ratnakar' is:'",
+          "options": {
+            "A": "Chandeshwar",
+            "B": "Vidyapati",
+            "C": "Jyotirishwar",
+            "D": "Haribrahma Dev",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The author of the book ‘Rajniti Ratnakar’ is considered to be Chandeshwar. Vidyapati composed Padavali, Kirtilata, Purush Pariksha, Bhu-Parikrama, Likhanavali and Kirtipataka. Vidyapati was given the titles ‘Maithil Kokil’ and ‘Abhinav Jayadev’.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre), 2016"
+        },
+        {
+          "q": "Who highlighted the plight of the farmers of Champaran by writing under pseudonyms such as 'Dukhi', 'Dukhi Atma', 'Dukhi Hriday'?",
+          "options": {
+            "A": "Pir Muhammad Munis",
+            "B": "Rajendra Prasad",
+            "C": "Sahajanand Saraswati",
+            "D": "S.N. Sinha"
+          },
+          "answer": "A",
+          "explanation": "Pir Muhammad Munis, writing under the pen names ‘Dukhi’, ‘Dukhi Atma’ and ‘Dukhi Hriday’, highlighted the plight of the Champaran peasants by writing ‘Champaran Mein Andher’ (13 March, 1916), ‘Champaran Ki Durdasha’ (10 April, 1917) and ‘Dukhi Hriday’ (February, 1916). He also wrote articles on Mahatma Gandhi in Champaran, Hindu- Muslim unity, etc.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre), 2015"
+        },
+        {
+          "q": "Swami Sahajanand Saraswati published a magazine named-",
+          "options": {
+            "A": "Jankranti",
+            "B": "Hunkar",
+            "C": "Krishak Samachar",
+            "D": "Vidrohi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Swami Sahajanand Saraswati (1889–1950) is called the father of the peasant movement in India. He was an intellectual, writer, social reformer and peasant leader. Swami Sahajanand Saraswati was a Dandi sannyasi of the Dashnami Sannyasi Akhara of the Adi Shankaracharya tradition. He also published a magazine named ‘Hunkar’.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Who wrote ‘Kisan Kya Karein’?",
+          "options": {
+            "A": "Swami Sahajanand Saraswati",
+            "B": "Karyanand Sharma",
+            "C": "Baba Ramchandra",
+            "D": "All of the above",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The book ‘Kisan Kya Karein’ was written by Swami Sahajanand Saraswati, a renowned peasant leader of the twentieth century.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "Who was the Editor of Searchlight newspaper in Bihar?",
+          "options": {
+            "A": "Abdul Bari",
+            "B": "Lambodar Mukherjee",
+            "C": "Murli Manohar Prasad",
+            "D": "Ramananda Chatterjee",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "In Bihar, the publication of the Searchlight newspaper was started from Patna in 1918 by Dr. Sachchidanand Sinha. It began in 1918 as an English twice-weekly newspaper. In 1920 it became a thrice-weekly newspaper, and from 1930 it began to be published as a daily. Dr. Rajendra Prasad was one of the founders of this newspaper. Murli Manohar Prasad remained the editor of the Searchlight newspaper for a long period.",
+          "exam": "BPSC",
+          "year": "65th B.P.C.S. (Pre) 2019"
+        },
+        {
+          "q": "Which of the following newspapers was published from Patna?",
+          "options": {
+            "A": "Indian Nation",
+            "B": "Punjab Kesari",
+            "C": "Prabhakar",
+            "D": "Dawn"
+          },
+          "answer": "A",
+          "explanation": "In 1931, Maharaja Kameshwar Singh of Darbhanga founded “The Indian Nation”. It was published from Patna.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) Exam 2001"
+        },
+        {
+          "q": "The editor of 'Bihari', a leading newspaper of Bihar, was –",
+          "options": {
+            "A": "Babu G. Prasad",
+            "B": "Babu Ram Prasad",
+            "C": "Babu Gopal Prasad",
+            "D": "Babu Maheshwar Prasad"
+          },
+          "answer": "D",
+          "explanation": "The editor of the prominent Bihar newspaper “Bihari” was Babu Maheshwar Prasad.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Who published “Motherland”?",
+          "options": {
+            "A": "Rajendra Prasad",
+            "B": "Muhammad Shafi",
+            "C": "Mazharul Haque",
+            "D": "Braj Kishore Prasad",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The weekly paper “Motherland” was started by Maulana Mazharul Haque from “Sadaqat Ashram”, Patna.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "The Bihar Herald was started in 1872 by –",
+          "options": {
+            "A": "Munshi Surajmal",
+            "B": "Rai Roshan Lal",
+            "C": "Babu Guru Prasad Sen",
+            "D": "Krishna Bhatt",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In 1874 A.D., “Bihar Herald” (Behar Herald) was established as an English-language weekly newspaper by Guru Prasad Sen. It was the first English newspaper published from Patna. Note—The mention of the year 1872 in the given question is erroneous; it should be 1874.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Re- Exam) 2020"
+        },
+        {
+          "q": "Which was the first English newspaper published from Patna?",
+          "options": {
+            "A": "The Indian Nation",
+            "B": "Bihar Herald",
+            "C": "The Mirror",
+            "D": "Hindu Patriot",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "In 1874 A.D., “Bihar Herald” (Behar Herald) was established as an English-language weekly newspaper by Guru Prasad Sen. It was the first English newspaper published from Patna. Note—The mention of the year 1872 in the given question is erroneous; it should be 1874.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. C.D.P.O. (Pre) 2018"
+        }
+      ]
+    }
+  ]
+}
