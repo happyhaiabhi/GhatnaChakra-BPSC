@@ -1872,6 +1872,10 @@ function applyBook(book){
   if(tag)tag.textContent=book.tag||book.title||'Quiz';
   if(name)name.textContent=book.title||'Ghatna Chakra';
   document.documentElement.style.setProperty('--book-accent',book.color||'#c9a84c');
+  // Update browser tab title for Crown book
+  if(book.id==='crown'){
+    document.title='Crown Bihar General Studies — Quiz';
+  }
 }
 
 // Build SUBJECTS_CONFIG from the active book's chapters index.
