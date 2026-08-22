@@ -99,6 +99,36 @@ const ev = code => w.eval(code);
   assert.equal(d.querySelectorAll('#question-area .match-paper').length, 0);
   assert.equal(d.querySelectorAll('#question-area .opt-btn').length, 4);
 
+  // Assertion–reason and numbered-statement stems use structured cards/rows.
+  w.__structuredQ = {
+    q:'Given below are two statements.\nAssertion (A): Plants release oxygen.\nReason (R): Photosynthesis produces oxygen.\nChoose the correct answer.',
+    question_type:'Assertion and Reason — Standard Relationship Evaluation',
+    options:{A:'Both are true and R explains A',B:'Both are true but R does not explain A',C:'A is true but R is false',D:'A is false but R is true'},
+    answer:'A'
+  };
+  ev(`quiz=[toInternalQuestion(window.__structuredQ,'test',0,'Structured')]; state={current:0,answers:[null],visited:[true],marked:[false]}; shuffledOptionOrders=[['A','B','C','D']]; renderQuestion();`);
+  assert.equal(d.querySelectorAll('#question-area .ar-card').length, 2, 'assertion and reason render as two cards');
+  assert.deepEqual([...d.querySelectorAll('#question-area .ar-label')].map(x=>x.textContent), ['Assertion (A)','Reason (R)']);
+  assert.equal(d.querySelector('#question-area .question-type-pill').textContent, 'Assertion–Reason');
+
+  w.__structuredQ = {
+    q:'Consider the following statements:\n1. Mercury is a planet.\n2. Venus is a planet.\n3. Pluto is a dwarf planet.\nWhich of the statements given above are correct?',
+    options:{A:'1 only',B:'1 and 2 only',C:'1, 2 and 3',D:'2 and 3 only'},
+    answer:'C'
+  };
+  ev(`quiz=[toInternalQuestion(window.__structuredQ,'test',1,'Structured')]; state={current:0,answers:[null],visited:[true],marked:[false]}; shuffledOptionOrders=[['A','B','C','D']]; renderQuestion();`);
+  assert.equal(d.querySelectorAll('#question-area .statement-row').length, 3, 'numbered statements render as rows');
+  assert.match(d.querySelector('#question-area .structured-instruction').textContent,/Which of the statements/);
+  assert.equal(d.querySelector('#question-area .question-type-pill').textContent, 'Numbered Statements');
+
+  // Multiple accepted answers remain selectable, scoreable, and readable.
+  w.__structuredQ = {q:'Select both correct letters.',options:{A:'Alpha',B:'Beta',C:'Gamma',D:'Delta'},answer:['A','D']};
+  ev(`quiz=[toInternalQuestion(window.__structuredQ,'test',2,'Structured')]; state={current:0,answers:[null],visited:[true],marked:[false]}; shuffledOptionOrders=[['A','B','C','D']]; renderQuestion();`);
+  w.selectOption('A');w.selectOption('D');
+  assert.equal(d.querySelectorAll('#question-area .opt-btn.selected').length,2,'both accepted options can be selected');
+  assert.equal(ev(`isQuestionCorrect(quiz[0],state.answers[0])`),true,'array answer scores by set equality');
+  assert.match(d.querySelector('#question-area .exp-correct-ans').textContent,/A \+ D/,'array answer label lists both keys');
+
   // Navigation, wrong/skipped tracking, dashboard, bank and archive flows.
   ev(`const qs=allQuestions.filter(x=>x.chapter==='Environment & Ecology').slice(0,2); selectedChapters=new Set(['Environment & Ecology']); startQuiz('bookmarks',qs);`);
   const firstCorrect = ev('quiz[0].correctKey');
@@ -118,6 +148,17 @@ const ev = code => w.eval(code);
   w.showMistakeScreen(); assert(d.getElementById('mistake-screen').classList.contains('active'));
   w.showSkipScreen(); assert(d.getElementById('skip-screen').classList.contains('active'));
   w.showBookmarkScreen(); assert(d.getElementById('bookmark-screen').classList.contains('active'));
+  assert(d.querySelector('#bookmark-list .question-type-pill'),'bookmark item shows a type pill');
+  const bookmarkAllChip=d.querySelector('#bookmark-type-filters .bank-filter-chip[data-type="all"]');
+  assert(bookmarkAllChip,'bookmark taxonomy includes an All chip');
+  assert.match(bookmarkAllChip.textContent,/All\s+\d+/,'All chip includes its count');
+  ev(`addToBookmarks(toInternalQuestion(window.__structuredQ,'test',2,'Structured')); showBookmarkScreen();`);
+  w.setBankTypeFilter('bookmark','Multiple Correct');
+  assert.equal(d.querySelectorAll('#bookmark-list .bank-item').length,1,'type chip filters the bookmark bank');
+  w.practiceFromBookmarks();
+  assert.equal(ev('quiz.length'),1,'Practice uses only the active bank type');
+  assert.equal(ev(`getQuestionType(quiz[0])`),'Multiple Correct');
+  ev(`removeFromBookmarks('test_2',false)`);
   w.clearAllMistakes();
   assert.equal(Object.keys(JSON.parse(w.localStorage.getItem('gc_mistakes'))).length, 0);
   w.showArchiveScreen(); assert(d.getElementById('archive-screen').classList.contains('active'));
@@ -207,19 +248,32 @@ const ev = code => w.eval(code);
     assert(d.querySelector(`#books-grid .book-card[data-book="${id}"]`), `${id} book card present`);
   });
 
+  // Imported stems without explicit taxonomy are detected from their text.
+  await w.openBook('ancient_india');
+  await tick(10);
+  await w.toggleSubjectCard('ancient_india');
+  await tick(5);
+  ev(`const q=allQuestions.find(x=>x.question.includes('List- 1 (Dynasty)')); selectedChapters=new Set([q.chapter]); startQuiz('bookmarks',[q]);`);
+  assert.equal(d.querySelectorAll('#question-area .match-list-row').length,4,'List-1/List-2 uses the match table');
+  ev(`const q=allQuestions.find(x=>x.question.includes('Ahar Civilization')); selectedChapters=new Set([q.chapter]); startQuiz('bookmarks',[q]);`);
+  assert.equal(d.querySelectorAll('#question-area .lettered-row').length,4,'lettered combo stem uses labelled rows');
+  assert.equal(d.querySelector('#question-area .question-type-pill').textContent,'Lettered List');
 
   // Extra source fields such as `asset` must survive mapping and render as images.
   await w.openBook('physics');
   await tick(10);
   await w.toggleSubjectCard('physics');
   await tick(5);
-  const assetQ = ev(`allQuestions.find(x=>x.asset)`);
+  const assetQ = ev(`allQuestions.find(x=>x.asset&&Object.values(x.options).some(value=>String(value).includes('[Diagram')))`);
   assert(assetQ && assetQ.asset, 'physics question asset field preserved');
-  ev(`selectedChapters=new Set([allQuestions.find(x=>x.asset).chapter]); const q=allQuestions.find(x=>x.asset); startQuiz('bookmarks',[q]);`);
+  w.__assetUid=assetQ.uid;
+  ev(`const q=allQuestions.find(x=>x.uid===window.__assetUid); selectedChapters=new Set([q.chapter]); startQuiz('bookmarks',[q]);`);
   const img = d.querySelector('#question-area .q-asset-img');
   assert(img, 'question image rendered');
   assert(String(img.getAttribute('src')).includes(String(assetQ.asset).split('/').pop()), 'image src uses asset filename');
   assert(String(img.getAttribute('src')).startsWith('books/physics/'), 'image resolved under the active book');
+  assert([...d.querySelectorAll('#question-area .opt-text')].every((el,index)=>el.textContent===`Figure (${String.fromCharCode(97+index)})`), 'diagram placeholders become Figure (a), Figure (b), etc.');
+  assert(!d.querySelector('#question-area .exp-correct-ans').textContent.includes('asset:'),'correct-answer display also hides the asset placeholder');
 
   assert.equal(consoleErrors.length, 0, consoleErrors.join('\n'));
   console.log(JSON.stringify({
@@ -229,7 +283,7 @@ const ev = code => w.eval(code);
     questions:4441,
     subjectFilesFetched:actualFiles.length,
     matchCandidatesParsed:'49/50',
-    tested:['dashboard','subject/chapter loading','quiz rendering','match layouts','fallback','selection','navigation','scoring','results/review','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
+    tested:['dashboard','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
   }, null, 2));
   dom.window.close();
 })().catch(err=>{
