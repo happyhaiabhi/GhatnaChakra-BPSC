@@ -1,0 +1,2099 @@
+{
+  "source_files": {
+    "questions.js": {
+      "records": 343
+    },
+    "questions_complete.js": {
+      "records": 867
+    },
+    "quiz_v5 - Copy.html": {
+      "available": false,
+      "note": "Not present in workspace or repository; existing app schema was used for output structure."
+    }
+  },
+  "authoritative_source": "questions_complete.js",
+  "containment": {
+    "questions.js_records_in_questions_complete": 343,
+    "questions_js_is_subset": true
+  },
+  "source_records": 1210,
+  "duplicate_records": 343,
+  "unique_records": 867,
+  "valid_imported_questions": 867,
+  "unverified_questions": 0,
+  "subjects": 1,
+  "chapters": 44,
+  "assets": [],
+  "question_type_counts": {
+    "Correct Statement — Single Correct": 2,
+    "Data Interpretation — Single Correct": 1,
+    "Figure/Diagram/Formula — Single Correct": 5,
+    "Fill in the Blank — Single Correct": 7,
+    "List and Code — Correct Combination": 2,
+    "Negative/Exception MCQ — Single Correct": 42,
+    "Numerical/Calculation — Single Correct": 15,
+    "Ordering/Ranking — Correct Sequence": 3,
+    "Standard MCQ — Direct Factual/Conceptual, Single Correct": 790
+  },
+  "discarded_records": 0,
+  "duplicate_details": [
+    {
+      "duplicate_id": 1,
+      "kept_id": 1,
+      "question": "Which inscriptions provide information about the Pala rulers?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 2,
+      "kept_id": 2,
+      "question": "The earliest source for the history of Bihar is-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 3,
+      "kept_id": 3,
+      "question": "Which inscriptions belong to the Mauryas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 4,
+      "kept_id": 4,
+      "question": "Which text provides information regarding the mahajanapadas in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 5,
+      "kept_id": 5,
+      "question": "Which aspect has been covered by the Arthashastra of Kautilya?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 6,
+      "kept_id": 6,
+      "question": "The Panchobha copper plate inscription belongs to",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 7,
+      "kept_id": 7,
+      "question": "Story depicted on brick wall of Vishnu temple at Aphsad (Gaya)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 8,
+      "kept_id": 8,
+      "question": "Remains of monumental fire-burnt brick buildings of Kushan period found at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 9,
+      "kept_id": 9,
+      "question": "Ashokan inscriptions in Bihar were written in which script?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 10,
+      "kept_id": 10,
+      "question": "Who excavated the Nalanda Mahavihara at Baragaon?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 11,
+      "kept_id": 11,
+      "question": "The first neolithic culture in Bihar was found at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 12,
+      "kept_id": 12,
+      "question": "The Aphsad inscription of Gaya district provides information regarding-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 13,
+      "kept_id": 13,
+      "question": "Excavations at Saraitila in Nalanda have yielded-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 14,
+      "kept_id": 14,
+      "question": "Which Jaina canon gives account of Lichhavis of Vaishali?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 15,
+      "kept_id": 15,
+      "question": "Buddhist canons Digha Nikaya and Vinaya Pitaka give account of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 16,
+      "kept_id": 16,
+      "question": "Which Buddhist text throws light on political history of Bihar under Guptas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 17,
+      "kept_id": 17,
+      "question": "Which Veda mentions Kikatas as earliest inhabitant of Magadha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 18,
+      "kept_id": 18,
+      "question": "Remains of which period found at Chirand (Saran) and Chechar (Vaishali)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 19,
+      "kept_id": 19,
+      "question": "Chalcolithic age remains have been found at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 20,
+      "kept_id": 20,
+      "question": "Evidences of first appearance of human beings in Bihar are found at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 21,
+      "kept_id": 21,
+      "question": "Punch-marked coins found in abundance in Bihar were made of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 22,
+      "kept_id": 22,
+      "question": "Early stone age site excavated at Paisara is in district of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 23,
+      "kept_id": 23,
+      "question": "From which neolithic site were antler bone tools unearthed?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 24,
+      "kept_id": 24,
+      "question": "Which type of pottery belongs to neolithic period?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 25,
+      "kept_id": 25,
+      "question": "Ivory female-dancing figure with articulate limbs discovered at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 26,
+      "kept_id": 26,
+      "question": "80-pillared hall belonging to Mauryan period excavated at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 27,
+      "kept_id": 27,
+      "question": "Large Buddhist monastery at Antichak (Bhagalpur) identified with-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 28,
+      "kept_id": 28,
+      "question": "Which of the following rulers did not issue a large number of coins?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 29,
+      "kept_id": 29,
+      "question": "Which text provides crucial information about Aryan expansion in North Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 30,
+      "kept_id": 30,
+      "question": "Which of the following Buddhist texts were compiled in Ceylon?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 31,
+      "kept_id": 31,
+      "question": "The Aryans arrived in Bihar during-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 32,
+      "kept_id": 32,
+      "question": "Which factor was responsible for the spread of the Aryans in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 33,
+      "kept_id": 33,
+      "question": "Which text mentions geographical area of Bihar for the first time?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 34,
+      "kept_id": 34,
+      "question": "The word Vratya in Atharvaveda refers to people of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 35,
+      "kept_id": 35,
+      "question": "Which was an important state in later Vedic period in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 36,
+      "kept_id": 36,
+      "question": "Last ruler of Nanda dynasty and contemporary of Alexander?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 37,
+      "kept_id": 37,
+      "question": "Bimbisara married to-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 38,
+      "kept_id": 38,
+      "question": "Which of the following mahajanapadas was NOT in modern Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 39,
+      "kept_id": 39,
+      "question": "Anga Mahajanapada was situated in which regions of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 40,
+      "kept_id": 40,
+      "question": "First capital of Magadha Mahajanapada was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 41,
+      "kept_id": 41,
+      "question": "Which ruling clan was NOT part of Vajji republic?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 42,
+      "kept_id": 42,
+      "question": "Capital of Lichchavi was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 43,
+      "kept_id": 43,
+      "question": "Which river demarcated Magadha and Anga mahajanapadas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 44,
+      "kept_id": 44,
+      "question": "Which Mahajanapada in Bihar was a union of eight ruling clans?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 45,
+      "kept_id": 45,
+      "question": "Patna and Gaya districts were part of which mahajanapada?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 46,
+      "kept_id": 46,
+      "question": "Capital of Anga mahajanapada was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 47,
+      "kept_id": 47,
+      "question": "According to Mahabharata, first dynasty to rule Magadha was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 48,
+      "kept_id": 48,
+      "question": "Which ruler of Magadha was contemporary of Alexander?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 49,
+      "kept_id": 49,
+      "question": "Ajatashatru built fort at Patali anticipating war with?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 50,
+      "kept_id": 50,
+      "question": "Which ruler permanently made Pataliputra capital of Magadha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 51,
+      "kept_id": 51,
+      "question": "Last ruler of Nanda dynasty was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 52,
+      "kept_id": 52,
+      "question": "Founder of Nanda dynasty was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 53,
+      "kept_id": 53,
+      "question": "Which ruler of Magadha claimed to be 'ekarat' (sole sovereign)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 54,
+      "kept_id": 54,
+      "question": "Bimbisara and Ajatashatru belonged to which dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 55,
+      "kept_id": 55,
+      "question": "State annexed by Bimbisara after defeating Brahmadatta?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 56,
+      "kept_id": 56,
+      "question": "Second ruler of Haryanka dynasty was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 57,
+      "kept_id": 57,
+      "question": "Ajatashatru used Rathamusala and Mahasilakantaka against?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 58,
+      "kept_id": 58,
+      "question": "Last ruler of Haryanka dynasty was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 59,
+      "kept_id": 59,
+      "question": "Dynasty established after fall of Haryanka dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 60,
+      "kept_id": 60,
+      "question": "Which ruler established capital at Vaishali?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 61,
+      "kept_id": 61,
+      "question": "Which ruler of Magadha destroyed Pradyotas of Avanti?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 62,
+      "kept_id": 62,
+      "question": "Who sent minister Vassakara to sow dissension among Licchavis?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 63,
+      "kept_id": 63,
+      "question": "Which ruler gifted Venuvana (Bamboo-garden) to Buddha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 64,
+      "kept_id": 64,
+      "question": "Who is considered the real founder of Magadha dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 65,
+      "kept_id": 65,
+      "question": "Both Gautama Buddha and Mahavira died during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 66,
+      "kept_id": 66,
+      "question": "First ruler of Magadha to conquer Kalinga?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 67,
+      "kept_id": 67,
+      "question": "Which ruler made Pataliputra capital of Magadha for the first time?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 68,
+      "kept_id": 68,
+      "question": "Rise of Magadha dynasty began during?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 69,
+      "kept_id": 69,
+      "question": "Who was a contemporary of Gautama Buddha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 70,
+      "kept_id": 70,
+      "question": "Which is NOT part of early Jaina literature?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 71,
+      "kept_id": 71,
+      "question": "Concept of Anuvrata advocated by-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 72,
+      "kept_id": 72,
+      "question": "Who is credited with carrying Jainism to south India?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 73,
+      "kept_id": 73,
+      "question": "With which religion is Kaivalya associated?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 74,
+      "kept_id": 74,
+      "question": "Relics of Buddha are preserved in a-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 75,
+      "kept_id": 75,
+      "question": "Meaning of 'Buddha' is-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 76,
+      "kept_id": 76,
+      "question": "At which place did Gautama meet five Brahmanas after enlightenment?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 77,
+      "kept_id": 77,
+      "question": "Gautama gained enlightenment on banks of river-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 78,
+      "kept_id": 78,
+      "question": "Famous Buddha disciple Sariputra was born in-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 79,
+      "kept_id": 79,
+      "question": "Famous Mahabodhi temple at Bodh Gaya built where-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 80,
+      "kept_id": 80,
+      "question": "Birth place of 12th Jaina tirthankara was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 81,
+      "kept_id": 81,
+      "question": "President of first Jaina Council?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 82,
+      "kept_id": 82,
+      "question": "First Jaina council held during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 83,
+      "kept_id": 83,
+      "question": "First Jaina council held at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 84,
+      "kept_id": 84,
+      "question": "Mahavira died at which place?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 85,
+      "kept_id": 85,
+      "question": "Mahavira's mother Trishala was a princess of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 86,
+      "kept_id": 86,
+      "question": "Mahavira's father Siddhartha was related to-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 87,
+      "kept_id": 87,
+      "question": "Kundagrama (birthplace of Mahavira) is situated in-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 88,
+      "kept_id": 88,
+      "question": "First Buddhist council held at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 89,
+      "kept_id": 89,
+      "question": "First Buddhist council held during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 90,
+      "kept_id": 90,
+      "question": "President of first Buddhist Council?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 91,
+      "kept_id": 91,
+      "question": "Second Buddhist council held at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 92,
+      "kept_id": 92,
+      "question": "Second Buddhist council held during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 93,
+      "kept_id": 93,
+      "question": "President of second Buddhist Council?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 94,
+      "kept_id": 94,
+      "question": "Third Buddhist council held at-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 95,
+      "kept_id": 95,
+      "question": "Third Buddhist council held during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 96,
+      "kept_id": 96,
+      "question": "President of third Buddhist Council?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 97,
+      "kept_id": 97,
+      "question": "Founder of Ajivika sect?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 98,
+      "kept_id": 98,
+      "question": "Doctrine of Sasvatavada was given by-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 99,
+      "kept_id": 99,
+      "question": "Founder of Maurya dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 100,
+      "kept_id": 100,
+      "question": "Who helped Chandragupta Maurya in ascending throne of Magadha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 101,
+      "kept_id": 101,
+      "question": "Greek ambassador Megasthenes lived in court of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 102,
+      "kept_id": 102,
+      "question": "During reign of which Maurya king did a 12-year drought occur?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 103,
+      "kept_id": 103,
+      "question": "Prime minister of Chandragupta Maurya?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 104,
+      "kept_id": 104,
+      "question": "Who earned the title 'Liberator of India'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 105,
+      "kept_id": 105,
+      "question": "When did Ashoka invade Kalinga?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 106,
+      "kept_id": 106,
+      "question": "Arthasastra is a treatise on-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 107,
+      "kept_id": 107,
+      "question": "Which edict mentions personal name of Ashoka?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 108,
+      "kept_id": 108,
+      "question": "'Dharmashoka' name found in which inscription?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 109,
+      "kept_id": 109,
+      "question": "Successors in Western and Eastern halves after Ashoka's death?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 110,
+      "kept_id": 110,
+      "question": "Which edict shows Ashoka's reverence for Buddhism?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 111,
+      "kept_id": 111,
+      "question": "Last ruler of Maurya dynasty in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 112,
+      "kept_id": 112,
+      "question": "Book written by Megasthenes?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 113,
+      "kept_id": 113,
+      "question": "Successor of Bindusara?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 114,
+      "kept_id": 114,
+      "question": "Which Maurya king won victory over Kalinga?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 115,
+      "kept_id": 115,
+      "question": "Kautilya was political advisor to-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 116,
+      "kept_id": 116,
+      "question": "Important evidence of Maurya period found at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 117,
+      "kept_id": 117,
+      "question": "Edict in which Ashoka claims himself emperor of Magadha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 118,
+      "kept_id": 118,
+      "question": "Caves at Barabar Hills devoted for?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 119,
+      "kept_id": 119,
+      "question": "Who claimed Pataliputra city affairs conducted by body of 30 members?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 120,
+      "kept_id": 120,
+      "question": "Greek ambassador Deimachus visited Magadha during reign of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 121,
+      "kept_id": 121,
+      "question": "Ptolemy Phillandelphus sent Dionysius as ambassador to which Mauryan court?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 122,
+      "kept_id": 122,
+      "question": "Who built Gopika Kuha Bhawan in Nagarjuni Hills near Gaya?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 123,
+      "kept_id": 123,
+      "question": "Mauryan palace excavated at Kumrahar chiefly made of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 124,
+      "kept_id": 124,
+      "question": "Capital of Kalinga (Prachyapatha) during Ashoka's 5 provinces was?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 125,
+      "kept_id": 125,
+      "question": "Which Ashokan edict NOT found in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 126,
+      "kept_id": 126,
+      "question": "In which district of Bihar Ashokan edicts found?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 127,
+      "kept_id": 127,
+      "question": "Which war made Ashoka abandon physical conquest for cultural conquest?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 128,
+      "kept_id": 128,
+      "question": "Which major rock edict mentions Dhammaghosha replacing Bherighosa?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 129,
+      "kept_id": 129,
+      "question": "Author of Arthashastra?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 130,
+      "kept_id": 130,
+      "question": "Which source mentions administration of Pataliputra?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 131,
+      "kept_id": 131,
+      "question": "Which dynasty ruled Magadha after fall of Nandas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 132,
+      "kept_id": 132,
+      "question": "Megasthenes was ambassador of-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 133,
+      "kept_id": 133,
+      "question": "Ajivika fortune teller Pingalavatsa lived in court of which Maurya king?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 134,
+      "kept_id": 134,
+      "question": "Central court of Mauryas situated at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 135,
+      "kept_id": 135,
+      "question": "Ashoka's Dhamma was-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 136,
+      "kept_id": 136,
+      "question": "Palace of Chandragupta Maurya situated at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 137,
+      "kept_id": 137,
+      "question": "Yakshini statue of Maurya period excavated from?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 138,
+      "kept_id": 138,
+      "question": "According to Buddhist tradition, Ashoka constructed how many stupas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 139,
+      "kept_id": 139,
+      "question": "Which dynasty ruled Magadha after Maurya empire?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 140,
+      "kept_id": 140,
+      "question": "Which Buddhist scholar from Pataliputra adorned Kanishka's court?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 141,
+      "kept_id": 141,
+      "question": "Capital of Shungas was at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 142,
+      "kept_id": 142,
+      "question": "Capital of Kanvas was at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 143,
+      "kept_id": 143,
+      "question": "Power of Kanvas was put to end by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 144,
+      "kept_id": 144,
+      "question": "Dynasty established after fall of Shunga dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 145,
+      "kept_id": 145,
+      "question": "First Brahmana state in Magadha established by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 146,
+      "kept_id": 146,
+      "question": "Greeks attacked Pataliputra during rule of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 147,
+      "kept_id": 147,
+      "question": "Founder of Shunga dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 148,
+      "kept_id": 148,
+      "question": "Gargi Samhita mentions Greek attack on Pataliputra during reign of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 149,
+      "kept_id": 149,
+      "question": "Who defeated the Hunas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 150,
+      "kept_id": 150,
+      "question": "Aryabhatta related to which place?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 151,
+      "kept_id": 151,
+      "question": "Gupta period coins found from?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 152,
+      "kept_id": 152,
+      "question": "Founder of Nalanda University?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 153,
+      "kept_id": 153,
+      "question": "Which Gupta ruler is known as 'Napoleon of India'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 154,
+      "kept_id": 154,
+      "question": "Which Gupta ruler married Kumaradevi, a Lichchavi princess?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 155,
+      "kept_id": 155,
+      "question": "Capital of Guptas was at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 156,
+      "kept_id": 156,
+      "question": "Which Gupta ruler is referred to as 'Lichchavidauhitrah'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 157,
+      "kept_id": 157,
+      "question": "Which ruler credited for consolidation of Gupta empire?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 158,
+      "kept_id": 158,
+      "question": "Nalanda University established by which dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 159,
+      "kept_id": 159,
+      "question": "Which Gupta ruler allowed Ceylonese king to build monastery in Bodh Gaya?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 160,
+      "kept_id": 160,
+      "question": "Nalanda University famous for?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 161,
+      "kept_id": 161,
+      "question": "Governor of Tirabhukti (modern Darbhanga) was?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 162,
+      "kept_id": 162,
+      "question": "How long did Chinese pilgrim Fa-hien stay in Pataliputra?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 163,
+      "kept_id": 163,
+      "question": "Mahabodhi temple in Bodhgaya established during reign of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 164,
+      "kept_id": 164,
+      "question": "Coronation of Chandragupta I took place at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 165,
+      "kept_id": 165,
+      "question": "Founder of Later Guptas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 166,
+      "kept_id": 166,
+      "question": "Later Gupta ruler who defeated Maukhari king Ishanavarman?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 167,
+      "kept_id": 167,
+      "question": "Later Gupta ruler who organized Ashvamedha Yajna?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 168,
+      "kept_id": 168,
+      "question": "Last ruler of Later Guptas?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 169,
+      "kept_id": 169,
+      "question": "Samudragupta's achievements mentioned in which inscription?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 170,
+      "kept_id": 170,
+      "question": "Who was NOT one of nine jewels of Chandragupta II's court?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 171,
+      "kept_id": 171,
+      "question": "In Sanskrit plays of Gupta period, women and sudras speak-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 172,
+      "kept_id": 172,
+      "question": "Titles Mahendraditya, Mahendra-Simha, Ashvamedha-Mahendra assumed by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 173,
+      "kept_id": 173,
+      "question": "Which statement about Gupta coins' obverse and reverse is correct?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 174,
+      "kept_id": 174,
+      "question": "Who is NOT associated with repair of Sudarshan lake in Gupta period?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 175,
+      "kept_id": 175,
+      "question": "Which is NOT a work of Kalidasa?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 176,
+      "kept_id": 176,
+      "question": "In Gupta period, king's share of product known as?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 177,
+      "kept_id": 177,
+      "question": "Royal writs of land grants in post-Gupta period known as?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 178,
+      "kept_id": 178,
+      "question": "Which ruler adorned with title 'Maharajadhiraja'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 179,
+      "kept_id": 179,
+      "question": "Which ruler defeated Huna ruler Mihira Kula?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 180,
+      "kept_id": 180,
+      "question": "Largest grant of villages to temples and brahmanas by-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 181,
+      "kept_id": 181,
+      "question": "Who was Harshavardhan's representative in Magadha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 182,
+      "kept_id": 182,
+      "question": "Which Maukhari ruler known as 'Lord of Magadha'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 183,
+      "kept_id": 183,
+      "question": "Which university in Bihar was famous during Harshavardhan's reign?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 184,
+      "kept_id": 184,
+      "question": "Which author stayed in Bihar and provided firsthand info about Bakhtiyar Khalji's attacks?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 185,
+      "kept_id": 185,
+      "question": "Author of Akbarnama?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 186,
+      "kept_id": 186,
+      "question": "Which book provides account of land revenue in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 187,
+      "kept_id": 187,
+      "question": "Arabic and Persian inscriptions in Bihar predominantly found in?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 188,
+      "kept_id": 188,
+      "question": "Bhabua inscription belonged to which ruler?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 189,
+      "kept_id": 189,
+      "question": "Author of 'Corpus of Arabic and Persian Inscriptions of Bihar'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 190,
+      "kept_id": 190,
+      "question": "To which ruler did the Bodhgaya inscription belong?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 191,
+      "kept_id": 191,
+      "question": "Which inscription mentions tax called 'turushkadanda'?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 192,
+      "kept_id": 192,
+      "question": "Definite proof of minting of coins in Bihar comes from?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 193,
+      "kept_id": 193,
+      "question": "Bedibun inscription was issued by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 194,
+      "kept_id": 194,
+      "question": "Narsimhadeva was king of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 195,
+      "kept_id": 195,
+      "question": "Who founded the independent Karnata dynasty in Mithila?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 196,
+      "kept_id": 196,
+      "question": "Who founded the famous Odantapura Vihara?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 197,
+      "kept_id": 197,
+      "question": "Founder of Pala dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 198,
+      "kept_id": 198,
+      "question": "Who founded Vikramshila Mahavihara near Kahalgaon (Bhagalpur)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 199,
+      "kept_id": 199,
+      "question": "Last great king of Karnata dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 200,
+      "kept_id": 200,
+      "question": "How many years did Nanyadeva rule?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 201,
+      "kept_id": 201,
+      "question": "Which Pala king established friendly relations with Balaputradeva (king of Suvarnadvipa)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 202,
+      "kept_id": 202,
+      "question": "Who built Sonapura Vihara in north Bengal?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 203,
+      "kept_id": 203,
+      "question": "Munger Copper Plate inscription belongs to which Pala king?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 204,
+      "kept_id": 204,
+      "question": "First important victory of Bakhtiyar Khalji in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 205,
+      "kept_id": 205,
+      "question": "Who destroyed Nalanda University?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 206,
+      "kept_id": 206,
+      "question": "First ruler of Delhi Sultanate to invade Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 207,
+      "kept_id": 207,
+      "question": "Capital of Bihar during Tughlaq reign?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 208,
+      "kept_id": 208,
+      "question": "Where was Bakhtiyar Khalji buried?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 209,
+      "kept_id": 209,
+      "question": "Who established Turkish rule in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 210,
+      "kept_id": 210,
+      "question": "Which ruler established mint-town at Tirhut (Tughlaqabad-urf-Tirhut)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 211,
+      "kept_id": 211,
+      "question": "Which Sultan ended rule of Karnata dynasty?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 212,
+      "kept_id": 212,
+      "question": "Which Sultan met celebrated saint Ahmad Chiramposh of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 213,
+      "kept_id": 213,
+      "question": "Shrine of Malik Ibrahim Baya situated in?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 214,
+      "kept_id": 214,
+      "question": "Who defeated Karnata dynasty ruler Harisimha Deva?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 215,
+      "kept_id": 215,
+      "question": "Muhammad bin Tughlaq changed a place's name to Tughlaqpur. Which place?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 216,
+      "kept_id": 216,
+      "question": "Which Sultan constructed fort and Jama Masjid in Darbhanga?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 217,
+      "kept_id": 217,
+      "question": "Which Sultan of Delhi conclusively controlled Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 218,
+      "kept_id": 218,
+      "question": "In 14th century, Firoz helped establish rule of which dynasty in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 219,
+      "kept_id": 219,
+      "question": "Founder of Nuhani dynasty in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 220,
+      "kept_id": 220,
+      "question": "Who administered Bihar after Babar removed Mahmud Lodhi?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 221,
+      "kept_id": 221,
+      "question": "Who was deputed by Sikander Lodhi in 1495-96 as head of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 222,
+      "kept_id": 222,
+      "question": "Sur dynasty established by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 223,
+      "kept_id": 223,
+      "question": "Who conferred title 'Sher Khan' on Sher Shah?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 224,
+      "kept_id": 224,
+      "question": "Sher Khan's father Hasan Khan was Jagirdar of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 225,
+      "kept_id": 225,
+      "question": "Who reconstructed Patna in medieval times?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 226,
+      "kept_id": 226,
+      "question": "Patna was made provincial capital of Bihar by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 227,
+      "kept_id": 227,
+      "question": "Tomb of Sher Shah situated in?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 228,
+      "kept_id": 228,
+      "question": "Which text refers to fort construction in Patna by Sher Shah?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 229,
+      "kept_id": 229,
+      "question": "Sher Khan appointed caretaker of which ruler of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 230,
+      "kept_id": 230,
+      "question": "Sher Shah defeated Humayun in which battles?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 231,
+      "kept_id": 231,
+      "question": "Which place considered as administrative laboratory of Sher Shah?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 232,
+      "kept_id": 232,
+      "question": "Last Afghan ruler of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 233,
+      "kept_id": 233,
+      "question": "Which work was NOT taken up by Sher Shah?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 234,
+      "kept_id": 234,
+      "question": "Akbar merged Bihar and Bengal in Mughal empire in-",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 235,
+      "kept_id": 235,
+      "question": "Governor of Bihar during Akbar's reign?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 236,
+      "kept_id": 236,
+      "question": "First Mughal ruler to be sworn in Patna?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 237,
+      "kept_id": 237,
+      "question": "Which Mughal ruler made his grandson subedar of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 238,
+      "kept_id": 238,
+      "question": "First Mughal Prince to be governor of Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 239,
+      "kept_id": 239,
+      "question": "Governor of Bihar during Shah Jahan's reign?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 240,
+      "kept_id": 240,
+      "question": "Governor of Bihar appointed by Jahangir in 1621 AD?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 241,
+      "kept_id": 241,
+      "question": "Raja Man Singh appointed governor of Bihar by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 242,
+      "kept_id": 242,
+      "question": "Last governor of Bihar during Akbar's reign?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 243,
+      "kept_id": 243,
+      "question": "Nur Jahan passed through Darbhanga during governorship of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 244,
+      "kept_id": 244,
+      "question": "Which governor of Bihar attacked Kukradesh and arrested Durjan Sal?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 245,
+      "kept_id": 245,
+      "question": "Who constructed famous Sangi Masjid (Pathar-ki-Masjid)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 246,
+      "kept_id": 246,
+      "question": "According to Peter Mundy, one of the best governors of Bihar during Mughal rule?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 247,
+      "kept_id": 247,
+      "question": "Who built Shahi Idgah in Patna City?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 248,
+      "kept_id": 248,
+      "question": "Due to Allahwardi Khan's role, Shuja was defeated in battle of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 249,
+      "kept_id": 249,
+      "question": "Which European traveller visited the Guighu Factory?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 250,
+      "kept_id": 250,
+      "question": "Dewan of Bihar when Prince Azim was governor?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 251,
+      "kept_id": 251,
+      "question": "Who made grant of Madad-i-Mash land to Pir Damaria family?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 252,
+      "kept_id": 252,
+      "question": "Prince Parvez was son of which Mughal emperor?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 253,
+      "kept_id": 253,
+      "question": "Daud Khan defeated by Akbar in battle of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 254,
+      "kept_id": 254,
+      "question": "EIC proclaimed Diwani rights of Bengal, Bihar and Orissa during reign of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 255,
+      "kept_id": 255,
+      "question": "Who became deputy Nawab of Bihar after Battle of Plassey (1757)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 256,
+      "kept_id": 256,
+      "question": "First British traveller to visit Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 257,
+      "kept_id": 257,
+      "question": "Which Nawab of Bengal transferred capital from Murshidabad to Munger?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 258,
+      "kept_id": 258,
+      "question": "In which year did Dutch establish first factory in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 259,
+      "kept_id": 259,
+      "question": "In which year did Danes establish factory in Patna?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 260,
+      "kept_id": 260,
+      "question": "British established first trading centre in Bihar at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 261,
+      "kept_id": 261,
+      "question": "First to oppose British rule in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 262,
+      "kept_id": 262,
+      "question": "Revenue Council of Patna established in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 263,
+      "kept_id": 263,
+      "question": "When did EIC replace Dhiraj Narayan with Shitab Rai as naib Diwan?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 264,
+      "kept_id": 264,
+      "question": "Golghar in Patna constructed during reign of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 265,
+      "kept_id": 265,
+      "question": "First English magistrate of Patna?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 266,
+      "kept_id": 266,
+      "question": "Who gave monopoly in saltpetre trade to British in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 267,
+      "kept_id": 267,
+      "question": "Mir Qasim established ordnance factory at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 268,
+      "kept_id": 268,
+      "question": "Battle of Buxar fought on?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 269,
+      "kept_id": 269,
+      "question": "Commander of British army in Battle of Buxar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 270,
+      "kept_id": 270,
+      "question": "Who emerged victorious in Battle of Buxar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 271,
+      "kept_id": 271,
+      "question": "Who was appointed naib Diwan of Bihar by Robert Clive?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 272,
+      "kept_id": 272,
+      "question": "Who controlled English factory in Patna in 1763?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 273,
+      "kept_id": 273,
+      "question": "Shah Alam II gave Diwani rights in 1765 in return for amount of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 274,
+      "kept_id": 274,
+      "question": "Which is NOT related to Wahabi movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 275,
+      "kept_id": 275,
+      "question": "Wahabi movement started in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 276,
+      "kept_id": 276,
+      "question": "Centres for Wahabi Movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 277,
+      "kept_id": 277,
+      "question": "Which statement is NOT true about Wahabi movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 278,
+      "kept_id": 278,
+      "question": "Reason for Kol uprising?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 279,
+      "kept_id": 279,
+      "question": "Who led the Kol revolt?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 280,
+      "kept_id": 280,
+      "question": "Who led the Bhumij revolt?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 281,
+      "kept_id": 281,
+      "question": "Who participated in revolt of Tana Bhagat?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 282,
+      "kept_id": 282,
+      "question": "Tana Bhagat movement was essentially a _____ movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 283,
+      "kept_id": 283,
+      "question": "HO uprising caused by occupation of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 284,
+      "kept_id": 284,
+      "question": "Kol uprising began in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 285,
+      "kept_id": 285,
+      "question": "Leader of Ho tribals movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 286,
+      "kept_id": 286,
+      "question": "Bhumij revolt started in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 287,
+      "kept_id": 287,
+      "question": "Reason for Munda revolt?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 288,
+      "kept_id": 288,
+      "question": "Term 'ulgulan' means?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 289,
+      "kept_id": 289,
+      "question": "What created by British to pacify Santhal Uprising?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 290,
+      "kept_id": 290,
+      "question": "Which region mainly affected by Santhal uprising?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 291,
+      "kept_id": 291,
+      "question": "Reason of Bhumij revolt was?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 292,
+      "kept_id": 292,
+      "question": "Santhal uprising was led by?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 293,
+      "kept_id": 293,
+      "question": "Which statement is true?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 294,
+      "kept_id": 294,
+      "question": "Kunwar Singh was the King of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 295,
+      "kept_id": 295,
+      "question": "Leader of revolt of 1857 in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 296,
+      "kept_id": 296,
+      "question": "Who established arms factory at Jagdishpur?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 297,
+      "kept_id": 297,
+      "question": "Who established parallel government in Jagdishpur?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 298,
+      "kept_id": 298,
+      "question": "Head of parallel government established by Amar Singh?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 299,
+      "kept_id": 299,
+      "question": "Which region in Bihar was UNAFFECTED by 1857 revolt?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 300,
+      "kept_id": 300,
+      "question": "Rulers of which state denied entry to Kunwar Singh?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 301,
+      "kept_id": 301,
+      "question": "Kunwar Singh fought last war against which English captain?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 302,
+      "kept_id": 302,
+      "question": "Leader of Patna uprising in 1857?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 303,
+      "kept_id": 303,
+      "question": "Amar Singh died on?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 304,
+      "kept_id": 304,
+      "question": "Who arrested Amar Singh?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 305,
+      "kept_id": 305,
+      "question": "Kunwar Singh tried to meet which leader in October 1857?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 306,
+      "kept_id": 306,
+      "question": "First major incident of 1857 revolt in Patna occurred on?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 307,
+      "kept_id": 307,
+      "question": "During 1857, Kunwar Singh represented state of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 308,
+      "kept_id": 308,
+      "question": "Pir Ali convicted and hanged on?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 309,
+      "kept_id": 309,
+      "question": "Which Rajgir Pargana leader declared himself Raja during 1857?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 310,
+      "kept_id": 310,
+      "question": "Where in Bihar did revolt of 1857 start comprehensively?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 311,
+      "kept_id": 311,
+      "question": "When did Kunwar Singh die?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 312,
+      "kept_id": 312,
+      "question": "Muhammad Hussain Khan led revolt of 1857 in Bihar at?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 313,
+      "kept_id": 313,
+      "question": "Which English officer invited Kunwar Singh to meet at Patna?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 314,
+      "kept_id": 314,
+      "question": "When did Danapur sepoys revolt against Company?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 315,
+      "kept_id": 315,
+      "question": "Who engaged in guerilla war against British during 1857?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 316,
+      "kept_id": 316,
+      "question": "Amar Singh initiated guerilla war in hills of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 317,
+      "kept_id": 317,
+      "question": "Sepoys removed from districts during 1857 revolt?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 318,
+      "kept_id": 318,
+      "question": "Commissioner of Patna when 1857 revolt started?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 319,
+      "kept_id": 319,
+      "question": "Zamindars of which places helped Company during 1857?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 320,
+      "kept_id": 320,
+      "question": "Kunwar Singh captured which district on March 25, 1858?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 321,
+      "kept_id": 321,
+      "question": "Ruler of which place gave Kunwar Singh robe of honour and 12,000 rupees?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 322,
+      "kept_id": 322,
+      "question": "Kunwar Singh helped Nana Saheb in war of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 323,
+      "kept_id": 323,
+      "question": "Sheikh Bhikari was related to?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 324,
+      "kept_id": 324,
+      "question": "Who invited Gandhiji to West Champaran?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 325,
+      "kept_id": 325,
+      "question": "Which Government Act separated Orissa from Bihar province?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 326,
+      "kept_id": 326,
+      "question": "Non-cooperation resolution in Bihar passed under leadership of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 327,
+      "kept_id": 327,
+      "question": "Bihar and Orissa separated from Bengal in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 328,
+      "kept_id": 328,
+      "question": "Who was NOT related to Champaran Satyagraha?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 329,
+      "kept_id": 329,
+      "question": "Popular belief in Bihar during Non-cooperation 1920-22 about Gandhi?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 330,
+      "kept_id": 330,
+      "question": "Swarajist Movement period started in Bihar in which year?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 331,
+      "kept_id": 331,
+      "question": "All India Congress Session of December 1922 held in?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 332,
+      "kept_id": 332,
+      "question": "Which movement called first Civil Disobedience Movement?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 333,
+      "kept_id": 333,
+      "question": "Patna Yuvak Sangh formed in?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 334,
+      "kept_id": 334,
+      "question": "Where was Anushilan Committee Branch established in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 335,
+      "kept_id": 335,
+      "question": "When did British prince visit Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 336,
+      "kept_id": 336,
+      "question": "Who formed Bihar Provincial Kisan Sabha (BPKS)?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 337,
+      "kept_id": 337,
+      "question": "Champaran Satyagraha was against?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 338,
+      "kept_id": 338,
+      "question": "Refusal to pay Chaukidari tax in Bihar was part of?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 339,
+      "kept_id": 339,
+      "question": "In Bihar, who led boycott of Simon Commission?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 340,
+      "kept_id": 340,
+      "question": "Non-cooperation Movement by Gandhi was against?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 341,
+      "kept_id": 341,
+      "question": "Bihar Socialist Party established when?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 342,
+      "kept_id": 342,
+      "question": "Leader of Salt Satyagraha in Bihar?",
+      "source": "questions.js"
+    },
+    {
+      "duplicate_id": 343,
+      "kept_id": 343,
+      "question": "Salt Revolt in Patna started from which date?",
+      "source": "questions.js"
+    }
+  ]
+}

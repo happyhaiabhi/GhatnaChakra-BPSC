@@ -11,6 +11,17 @@
     "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions."
   },
   {
+    "id": "crown",
+    "title": "Crown",
+    "subtitle": "Bihar General Studies · Curated Practice",
+    "tag": "CROWN",
+    "emoji": "👑",
+    "color": "#d4af37",
+    "dataDir": "books/crown/data",
+    "chaptersFile": "chapters.json",
+    "description": "44 chapters · 867 verified questions"
+  },
+  {
     "id": "ssc_sample",
     "title": "SSC Practice Set",
     "subtitle": "Staff Selection Commission · Sample",
