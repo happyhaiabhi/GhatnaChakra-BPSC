@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <meta name="description" content="Chapter-wise BPSC Prelims practice with 4,441 corrected Ghatna Chakra PYQs across 12 subjects.">
 <title>Ghatna Chakra BPSC — 4,441 PYQ Quiz</title>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@500;600&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg:#080c12; --bg2:#0d1219; --surface:#111720; --surface2:#17202e; --surface3:#1d2a3a;
   --border:#1f2e40; --border2:#263547;
-  --gold:#c9a84c; --gold2:#f0c96a; --gold-dim:rgba(201,168,76,0.12); --gold-glow:rgba(201,168,76,0.25);
+  --gold:#c9a84c; --gold2:#f0c96a; --gold-dim:rgba(201,137,123,0.12); --gold-glow:rgba(201,137,123,0.25);
   --blue:#3b82f6; --blue-dim:rgba(59,130,246,0.14);
   --green:#22c55e; --green-dim:rgba(34,197,94,0.12);
   --red:#ef4444; --red-dim:rgba(239,68,68,0.12);
@@ -50,11 +50,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 #result-screen{min-height:100vh;flex-direction:column;align-items:center;padding:16px;overflow-y:auto;}
 
 .bg-grid{position:fixed;inset:0;pointer-events:none;z-index:0;
-  background-image:linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);
+  background-image:linear-gradient(rgba(201,137,123,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,137,123,0.03) 1px,transparent 1px);
   background-size:40px 40px;}
 .bg-radial{position:fixed;inset:0;pointer-events:none;z-index:0;
   background:radial-gradient(ellipse 80% 60% at 60% 20%,rgba(59,130,246,0.06) 0%,transparent 60%),
-             radial-gradient(ellipse 60% 50% at 20% 80%,rgba(201,168,76,0.05) 0%,transparent 60%);}
+             radial-gradient(ellipse 60% 50% at 20% 80%,rgba(201,137,123,0.05) 0%,transparent 60%);}
 
 /* TOP NAV */
 .top-navbar{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;padding:0 16px;height:56px;flex-shrink:0;}
@@ -72,7 +72,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 
 /* STATS HERO */
 .stats-hero{width:100%;max-width:960px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px 24px;display:flex;align-items:center;justify-content:space-around;position:relative;overflow:hidden;}
-.stats-hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(201,168,76,0.06) 0%,transparent 60%);}
+.stats-hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(201,137,123,0.06) 0%,transparent 60%);}
 .sh-item{text-align:center;flex:1;position:relative;z-index:1;}
 .sh-item+.sh-item{border-left:1px solid var(--border);}
 .sh-val{font-family:'JetBrains Mono',monospace;font-size:1.8rem;font-weight:700;color:var(--gold);line-height:1;}
@@ -141,8 +141,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .toggle-slider::before{content:'';position:absolute;height:14px;width:14px;left:2px;bottom:2px;background:var(--text3);border-radius:50%;transition:0.2s;}
 .toggle input:checked+.toggle-slider{background:var(--gold-dim);border-color:var(--gold);}
 .toggle input:checked+.toggle-slider::before{transform:translateX(16px);background:var(--gold);}
-.start-btn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a0e14;font-family:'Cinzel',serif;font-size:0.9rem;font-weight:700;border:none;border-radius:10px;padding:12px 24px;cursor:pointer;letter-spacing:0.5px;transition:all 0.2s;box-shadow:0 4px 20px rgba(201,168,76,0.3);width:100%;max-width:280px;}
-.start-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(201,168,76,0.4);}
+.start-btn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0a0e14;font-family:'Cinzel',serif;font-size:0.9rem;font-weight:700;border:none;border-radius:10px;padding:12px 24px;cursor:pointer;letter-spacing:0.5px;transition:all 0.2s;box-shadow:0 4px 20px rgba(201,137,123,0.3);width:100%;max-width:280px;}
+.start-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(201,137,123,0.4);}
 
 /* DASHBOARD */
 .dashboard-card{width:100%;max-width:960px;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
@@ -195,7 +195,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .question-area{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:0;}
 .q-header{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
 .q-num{font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);padding:3px 10px;border-radius:5px;flex-shrink:0;}
-.q-exam-tag{font-size:0.6rem;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:3px 8px;border-radius:4px;flex-shrink:0;}
+.q-exam-tag{font-size:0.6rem;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:3px 8px;border-radius:4px;flex-shrink:0;}
 .q-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:22px 24px;margin-bottom:14px;}
 .q-text{font-size:0.92rem;line-height:1.7;color:var(--text);font-weight:400;white-space:pre-wrap;}
 .q-asset{margin:14px 0 0;padding:0;}
@@ -242,7 +242,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .nav-action-btn{padding:8px 14px;border-radius:8px;font-size:0.78rem;font-weight:600;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;transition:all 0.15s;}
 .btn-prev{background:var(--surface2);color:var(--text2);border:1px solid var(--border);}
 .btn-prev:hover{border-color:var(--border2);color:var(--text);}
-.btn-next{background:var(--gold);color:#0a0e14;}
+.btn-next{background:var(--gold);color:#ffffff;}
 .btn-next:hover{background:var(--gold2);}
 .btn-submit-all{background:var(--green);color:#fff;}
 .btn-submit-all:hover{opacity:0.9;}
@@ -334,7 +334,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 /* RESULT */
 .result-wrap{width:100%;max-width:800px;display:flex;flex-direction:column;gap:18px;}
 .result-header{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:28px 32px;text-align:center;position:relative;overflow:hidden;}
-.result-header::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(201,168,76,0.06) 0%,transparent 60%);}
+.result-header::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(201,137,123,0.06) 0%,transparent 60%);}
 .res-eyebrow{font-size:0.6rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--text3);margin-bottom:8px;display:block;}
 .res-score{font-family:'JetBrains Mono',monospace;font-size:3.2rem;font-weight:700;line-height:1;}
 .res-grade{font-size:0.72rem;color:var(--text3);margin-top:6px;}
@@ -344,7 +344,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .res-stat-lbl{font-size:0.6rem;color:var(--text3);margin-top:3px;text-transform:uppercase;letter-spacing:0.8px;}
 .result-actions{display:flex;gap:10px;flex-wrap:wrap;}
 .res-btn{padding:10px 20px;border-radius:9px;font-size:0.8rem;font-weight:600;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;transition:all 0.15s;}
-.res-btn-primary{background:var(--gold);color:#0a0e14;}
+.res-btn-primary{background:var(--gold);color:#ffffff;}
 .res-btn-secondary{background:var(--surface);border:1px solid var(--border);color:var(--text2);}
 .res-btn-secondary:hover{border-color:var(--border2);color:var(--text);}
 .res-btn-wrong{background:var(--red-dim);border:1px solid var(--red);color:var(--red);}
@@ -358,7 +358,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .review-item.show{display:block;}
 .rev-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;}
 .rev-num{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--text3);}
-.rev-exam{font-size:0.58rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;}
+.rev-exam{font-size:0.58rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;}
 .rev-correct-badge{font-size:0.62rem;padding:2px 8px;border-radius:4px;font-weight:700;}
 .rev-correct-badge.correct{background:var(--green-dim);color:var(--green);}
 .rev-correct-badge.wrong{background:var(--red-dim);color:var(--red);}
@@ -437,7 +437,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .modal-field input::placeholder{color:var(--text3);}
 .modal-footer{padding:12px 20px;background:var(--surface2);border-top:1px solid var(--border);display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;}
 .modal-btn{padding:8px 16px;border-radius:8px;font-size:0.76rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all 0.15s;border:none;}
-.modal-btn-primary{background:var(--gold);color:#0a0e14;}
+.modal-btn-primary{background:var(--gold);color:#ffffff;}
 .modal-btn-primary:hover{background:var(--gold2);}
 .modal-btn-secondary{background:var(--surface3);color:var(--text2);border:1px solid var(--border);}
 .modal-btn-secondary:hover{border-color:var(--border2);}
@@ -452,7 +452,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 #books-screen{align-items:center;}
 .books-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px 40px;position:relative;z-index:2;width:100%;max-width:1000px;margin:0 auto;}
 .books-logo{font-family:'Cinzel',serif;font-size:2rem;font-weight:700;letter-spacing:1px;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:6px;text-align:center;}
-.books-tagline{color:var(--text3);font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:28px;text-align:center;}
+.books-tagline{color:var(--text3);font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;text-align:center;}
+.books-date{color:var(--text3);font-size:.82rem;letter-spacing:.4px;margin-bottom:26px;text-align:center;font-weight:600;}
 .books-grid{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
 .book-card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;cursor:pointer;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;overflow:hidden;display:flex;flex-direction:column;gap:10px;}
 .book-card::before{content:'';position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(135deg,var(--book-accent,var(--gold)),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;pointer-events:none;transition:opacity .18s ease;}
@@ -479,10 +480,229 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 #sync-toast{position:fixed;bottom:76px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 18px;border-radius:20px;font-size:0.72rem;z-index:9998;opacity:0;transition:opacity 0.3s;pointer-events:none;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,0.3);}
 
 </style>
+<style>
+/* ════════════════════════════════════════════════════════════════
+   Botanical Bloom theme — soft, minimalist, flower-inspired
+   (light = garden morning · dark = night garden)
+   ════════════════════════════════════════════════════════════════ */
+:root{
+  --shadow:0 10px 32px rgba(126,110,120,0.10);
+  --shadow-soft:0 6px 20px rgba(126,110,120,0.08);
+  --flower:#C9897B; --flower2:#E0AE9E; --lavender:#A88FB8; --sage:#9CBFA9;
+}
+html[data-theme="light"]{
+  --bg:#FBF7F2; --bg2:#F6EEE8; --surface:#FFFFFF; --surface2:#FBF3EE; --surface3:#F5E7E6;
+  --border:#EBD9D4; --border2:#E0C6BF; --border3:#D6B7AF;
+  --gold:#C9897B; --gold2:#E0AE9E; --gold-dim:rgba(201,137,123,0.12); --gold-glow:rgba(201,137,123,0.18);
+  --blue:#7C87C8; --blue-dim:rgba(124,135,200,0.12);
+  --green:#76A98B; --green-dim:rgba(118,169,139,0.12);
+  --red:#DE7F7F; --red-dim:rgba(222,127,127,0.12);
+  --purple:#A68FC4; --purple-dim:rgba(166,143,196,0.12);
+  --orange:#E5A56F; --orange-dim:rgba(229,165,111,0.12);
+  --cyan:#7FB9B0; --cyan-dim:rgba(127,185,176,0.12);
+  --text:#4E4456; --text2:#847688; --text3:#9C8BA0;
+  --opt-bg:#FBF4F0; --opt-hover:#F4E8E3;
+  --opt-selected-bg:rgba(124,135,200,0.10); --opt-selected-border:#7C87C8;
+  --shadow:0 12px 32px rgba(126,110,120,0.10);
+  --shadow-soft:0 6px 20px rgba(126,110,120,0.07);
+}
+html[data-theme="dark"]{
+  --bg:#201B24; --bg2:#2A2330; --surface:#312839; --surface2:#382E41; --surface3:#413551;
+  --border:#4A3D52; --border2:#574A62; --border3:#6A5A76;
+  --gold:#E2AF9E; --gold2:#F0C7B6; --gold-dim:rgba(226,175,158,0.14); --gold-glow:rgba(226,175,158,0.18);
+  --blue:#A2ABDC; --blue-dim:rgba(162,171,220,0.14);
+  --green:#8FBF9F; --green-dim:rgba(143,191,159,0.14);
+  --red:#E98A8A; --red-dim:rgba(233,138,138,0.14);
+  --purple:#C5A8DE; --purple-dim:rgba(197,168,222,0.16);
+  --orange:#E6B083; --orange-dim:rgba(230,176,131,0.14);
+  --cyan:#89C7BF; --cyan-dim:rgba(137,199,191,0.14);
+  --text:#F2EBF1; --text2:#C8BCCB; --text3:#9F8FA7;
+  --opt-bg:#332B3B; --opt-hover:#3C3247;
+  --opt-selected-bg:rgba(162,171,220,0.14); --opt-selected-border:#A2ABDC;
+  --shadow:0 12px 34px rgba(0,0,0,0.28);
+  --shadow-soft:0 6px 20px rgba(0,0,0,0.22);
+}
+
+/* keep all screens above the decorative background layers */
+.screen{position:relative;z-index:1;}
+
+/* typography */
+body,.screen,.setup-main,.quiz-body,.question-area,.result-wrap,.books-wrap,
+.bank-list,.modal-body,.review-list,.palette-panel,.quiz-bottombar,.quiz-topbar{font-family:'Nunito',system-ui,sans-serif!important;}
+button,input,textarea,select,.opt-btn,.nav-btn-pill,.topbar-btn,.nav-action-btn,.bank-btn,.rflt-btn,.res-btn,.modal-btn{font-family:'Nunito',system-ui,sans-serif!important;}
+.nav-brand-name,.books-logo,.book-title,.dashboard-header h3,.modal-header-title,.cp-subject-name,.res-grade,.review-header h3,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif!important;letter-spacing:0.2px;}
+.sc-name{font-family:'Nunito',system-ui,sans-serif!important;font-weight:800;}
+.sh-val,.ds-val,.topbar-timer,.q-num,.q-stat-item,.res-score,.pal-btn{font-family:'JetBrains Mono',monospace!important;}
+
+/* backgrounds */
+body{background:var(--bg);color:var(--text);}
+.bg-grid{background-image:radial-gradient(circle,rgba(201,137,123,0.10) 1px,transparent 1px);background-size:28px 28px;opacity:.55;}
+html[data-theme="dark"] .bg-grid{background-image:radial-gradient(circle,rgba(226,175,158,0.08) 1px,transparent 1px);opacity:.5;}
+.bg-radial{background:
+  radial-gradient(ellipse 70% 52% at 12% 4%,rgba(224,174,158,0.20) 0%,transparent 58%),
+  radial-gradient(ellipse 62% 50% at 92% 12%,rgba(168,143,184,0.16) 0%,transparent 60%),
+  radial-gradient(ellipse 58% 46% at 20% 92%,rgba(156,191,169,0.16) 0%,transparent 60%),
+  radial-gradient(ellipse 50% 44% at 86% 88%,rgba(127,185,176,0.14) 0%,transparent 60%);}
+html[data-theme="dark"] .bg-radial{background:
+  radial-gradient(ellipse 70% 52% at 12% 4%,rgba(226,175,158,0.10) 0%,transparent 58%),
+  radial-gradient(ellipse 62% 50% at 92% 12%,rgba(168,143,184,0.10) 0%,transparent 60%),
+  radial-gradient(ellipse 58% 46% at 20% 92%,rgba(143,191,159,0.08) 0%,transparent 60%),
+  radial-gradient(ellipse 50% 44% at 86% 88%,rgba(137,199,191,0.08) 0%,transparent 60%);}
+.bg-flowers{position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:url('css/floral-pattern.svg');background-size:520px 520px;opacity:.34;
+  transition:opacity .3s ease;}
+html[data-theme="dark"] .bg-flowers{opacity:.16;}
+.top-navbar,.quiz-topbar,.quiz-bottombar{background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
+.top-navbar{overflow-x:auto;scrollbar-width:thin;padding-bottom:6px;height:auto;min-height:56px;}
+.top-navbar::-webkit-scrollbar{height:3px;}
+.nav-spacer{min-width:12px;}
+
+/* surfaces: softer, rounder, calmer */
+.stats-hero,.dashboard-card,.subject-card,.book-card,.config-panel,.q-card,.explanation,.review-item,.modal-box,.bank-item,.loading-panel{border-radius:22px!important;box-shadow:var(--shadow-soft);}
+.subject-card,.book-card,.dashboard-card,.stats-hero{border-color:var(--border);}
+.subject-card:hover,.book-card:hover{border-color:var(--border3);box-shadow:var(--shadow);}
+.subject-card.expanded{border-color:var(--gold);box-shadow:0 12px 30px var(--gold-glow);}
+.stats-hero::before{background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(201,137,123,0.08) 0%,transparent 60%);}
+.dashboard-header{border-radius:20px 20px 0 0;}
+.q-card{box-shadow:var(--shadow-soft);}
+
+/* primary actions: petal gradient instead of brass */
+.sc-start-mini,.start-btn,.btn-next,.modal-btn-primary,.res-btn-primary{color:#FFFFFF!important;background:linear-gradient(135deg,var(--gold),var(--gold2))!important;box-shadow:0 8px 22px var(--gold-glow);}
+.sc-start-mini:hover,.start-btn:hover,.btn-next:hover,.modal-btn-primary:hover,.res-btn-primary:hover{box-shadow:0 10px 26px var(--gold-glow);transform:translateY(-1px);}
+.btn-submit-all{background:var(--green)!important;color:#fff!important;}
+.btn-mark{color:var(--purple)!important;}
+.btn-explain{color:var(--orange)!important;}
+.nav-badge-pill{border-radius:999px;}
+
+/* options: soft petal cards */
+.opt-btn{border-radius:14px!important;border-color:var(--border)!important;}
+.opt-btn:hover{background:var(--opt-hover)!important;border-color:var(--border3)!important;}
+.opt-btn.selected{border-color:var(--opt-selected-border)!important;background:var(--opt-selected-bg)!important;}
+.opt-btn.correct{border-color:var(--green)!important;background:var(--green-dim)!important;}
+.opt-btn.wrong{border-color:var(--red)!important;background:var(--red-dim)!important;}
+
+/* status colours in light mode */
+html[data-theme="light"] .q-text{color:var(--text);}
+html[data-theme="light"] .opt-btn.selected .opt-text{color:var(--blue);}
+html[data-theme="light"] .opt-btn.correct .opt-text{color:var(--green);}
+html[data-theme="light"] .opt-btn.wrong .opt-text{color:var(--red);}
+
+/* nav pills */
+.nav-btn-pill,.topbar-btn,.nav-switch-book{border-radius:999px!important;background:color-mix(in srgb,var(--surface2) 85%,transparent);}
+.nav-btn-pill:hover,.nav-switch-book:hover{border-color:var(--gold);color:var(--gold);}
+.theme-toggle{border-radius:50%;background:var(--surface2);border-color:var(--border);color:var(--text2);}
+
+/* modal */
+.modal-overlay{background:rgba(74,58,72,0.42);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);}
+.modal-box{border-color:var(--border);box-shadow:0 24px 70px rgba(74,58,72,0.24);}
+.modal-header{background:color-mix(in srgb,var(--surface2) 86%,transparent);}
+.modal-footer{border-radius:0 0 20px 20px;}
+
+/* book selection */
+.books-logo{background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.books-tagline{letter-spacing:2.6px;color:var(--text3);}
+.book-card:hover{box-shadow:var(--shadow);}
+.book-card::after{content:'🌷';position:absolute;right:-12px;bottom:-14px;font-size:5.2rem;opacity:.07;pointer-events:none;transform:rotate(-12deg);}
+html[data-theme="dark"] .book-card::after{opacity:.05;}
+
+/* dashboard / stats */
+.sh-item+.sh-item{border-left-color:var(--border);}
+.ds-val{font-weight:700;}
+
+/* question palette */
+.pal-btn.current{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
+.pal-btn.answered{border-color:var(--green);color:var(--green);background:var(--green-dim);}
+.pal-btn.marked{border-color:var(--purple);color:var(--purple);background:var(--purple-dim);}
+.pal-btn.answered-marked{border-color:var(--purple);color:var(--purple);}
+.pal-dot.gold{background:var(--gold);}
+.pal-dot.r{background:var(--surface3);border-color:var(--border2);}
+.pal-dot.g{background:var(--green);}
+.pal-dot.p{background:var(--purple);}
+
+/* result */
+.res-score{font-family:'Cormorant Garamond',serif!important;font-weight:700;}
+.res-grade{color:var(--gold);}
+.rflt-btn.active{background:var(--gold-dim);color:var(--gold);border-color:var(--gold);}
+.review-item{border-left-width:5px;background:color-mix(in srgb,var(--surface) 90%,transparent);}
+
+/* inputs and toggles */
+.cp-input,.modal-field input{border-radius:12px;border-color:var(--border);background:color-mix(in srgb,var(--surface2) 80%,transparent);color:var(--text);}
+.toggle-slider::before{background:var(--gold);}
+.toggle input:checked+.toggle-slider{background:var(--gold-dim);border-color:var(--gold);}
+
+/* links & focus */
+.modal-link{color:var(--blue);}
+a{color:var(--blue);}
+::selection{background:rgba(201,137,123,0.22);}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:6px;}
+::-webkit-scrollbar{width:6px;}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:6px;}
+
+/* dashboard insights: soft progress ring + weekly chart */
+.dashboard-insight{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;padding:14px 16px;border-top:1px solid var(--border);background:color-mix(in srgb,var(--surface2) 55%,transparent);}
+.dash-ring-wrap{position:relative;width:104px;height:104px;flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.dash-ring-svg{width:104px;height:104px;transform:rotate(-90deg);}
+.dash-ring-track{fill:none;stroke:var(--surface3);stroke-width:11;}
+.dash-ring-fill{fill:none;stroke:url(#dashRingGrad);stroke-width:11;stroke-linecap:round;transition:stroke-dasharray .6s ease;}
+.dash-ring-label{position:absolute;text-align:center;}
+.dash-ring-pct{font-family:'JetBrains Mono',monospace;font-size:1.15rem;font-weight:700;color:var(--gold);line-height:1;}
+.dash-ring-cap{font-size:.52rem;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-top:2px;}
+.dash-weekly{display:flex;flex-direction:column;gap:4px;min-width:0;}
+.dw-head{display:flex;align-items:center;justify-content:space-between;font-size:.6rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3);}
+.dw-head em{font-style:normal;color:var(--gold);}
+.dw-chart{display:flex;align-items:flex-end;gap:7px;height:70px;padding-top:6px;}
+.dw-day{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;}
+.dw-bar-wrap{width:100%;max-width:34px;height:48px;display:flex;align-items:flex-end;background:color-mix(in srgb,var(--surface3) 45%,transparent);border-radius:999px;overflow:hidden;}
+.dw-bar{width:100%;background:linear-gradient(180deg,var(--gold),var(--gold2));border-radius:999px;min-height:2px;transition:height .4s ease;}
+.dw-day-label{font-size:.5rem;color:var(--text3);text-transform:uppercase;}
+.dw-empty{font-size:.66rem;color:var(--text3);padding:14px 0;text-align:center;}
+
+/* bloom review */
+.bloom-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.bloom-theory{font-size:.7rem;color:var(--text2);background:var(--gold-dim);border:1px solid var(--gold);border-radius:12px;padding:9px 12px;line-height:1.5;}
+.bloom-item{border-left:5px solid var(--gold);}
+.bloom-item.due-today{border-left-color:var(--green);}
+.bloom-src{font-size:.58rem;letter-spacing:.5px;text-transform:uppercase;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--surface3);color:var(--text3);border:1px solid var(--border);}
+.bloom-src.mistake{background:var(--red-dim);color:var(--red);border-color:var(--red);}
+.bloom-src.skip{background:var(--purple-dim);color:var(--purple);border-color:var(--purple);}
+.bloom-due{font-size:.62rem;color:var(--text3);}
+.bloom-interval{font-size:.6rem;color:var(--text2);background:var(--surface3);border:1px solid var(--border);padding:2px 8px;border-radius:999px;}
+
+/* bank search + note */
+.bank-search-wrap{display:flex;align-items:center;gap:8px;width:100%;}
+.bank-search{flex:1;background:color-mix(in srgb,var(--surface2) 85%,transparent);border:1px solid var(--border);border-radius:999px;color:var(--text);padding:9px 14px;font-size:.78rem;font-family:'Nunito',sans-serif;outline:none;transition:border-color .15s;}
+.bank-search:focus{border-color:var(--gold);}
+.bank-search::placeholder{color:var(--text3);}
+.bank-note{margin-top:9px;background:color-mix(in srgb,var(--surface2) 70%,transparent);border:1px dashed var(--border2);border-radius:10px;padding:9px 11px;font-size:.75rem;line-height:1.55;color:var(--text2);}
+.bank-note b{color:var(--gold);display:block;font-size:.6rem;letter-spacing:.6px;text-transform:uppercase;margin-bottom:3px;}
+.bank-note-btn{font-size:.62rem;background:transparent;border:1px solid var(--border2);color:var(--text3);padding:2px 9px;border-radius:999px;cursor:pointer;font-family:'Nunito',sans-serif;transition:all .15s;white-space:nowrap;}
+.bank-note-btn:hover{border-color:var(--gold);color:var(--gold);}
+
+/* pomodoro / focus */
+.focus-embed{font-family:'JetBrains Mono',monospace;font-size:2.4rem;font-weight:700;color:var(--gold);text-align:center;line-height:1;padding:18px 0 10px;}
+.focus-mode-chips{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;}
+.focus-chip{font-size:.68rem;font-weight:700;background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:7px 14px;border-radius:999px;cursor:pointer;font-family:'Nunito',sans-serif;transition:all .15s;}
+.focus-chip.active{background:var(--gold-dim);color:var(--gold);border-color:var(--gold);}
+.focus-actions{display:flex;justify-content:center;gap:10px;margin:8px 0 4px;flex-wrap:wrap;}
+.focus-hint{font-size:.72rem;color:var(--text3);text-align:center;padding:4px 6px 0;}
+.focus-caption{font-size:.62rem;color:var(--text3);text-align:center;letter-spacing:1px;text-transform:uppercase;}
+
+html[data-theme="dark"] .dw-bar{background:linear-gradient(180deg,var(--gold),var(--gold2));}
+html[data-theme="dark"] .dash-ring-track{stroke:var(--surface3);}
+html[data-theme="dark"] .bloom-theory{background:var(--gold-dim);}
+html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 70%,transparent);}
+@media(max-width:600px){
+  .stats-hero{padding:14px 12px;}
+  .books-tagline{letter-spacing:1.8px;}
+  .bg-flowers{background-size:420px 420px;}
+  .dashboard-insight{grid-template-columns:1fr;justify-items:center;}
+  .dash-weekly{width:100%;}
+}
+</style>
 </head>
 <body>
 <div class="bg-grid"></div>
 <div class="bg-radial"></div>
+<div class="bg-flowers" aria-hidden="true"></div>
 
 <!-- BOOK SELECTION SCREEN -->
 <div class="screen active" id="books-screen">
@@ -497,6 +717,16 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
   <div class="books-wrap">
     <div class="books-logo">Ghatna Chakra</div>
     <div class="books-tagline">Choose a book to begin</div>
+    <div class="books-date" id="books-date">🌿 Bloom one chapter at a time 🌿</div>
+    <script>
+      (function(){
+        var el=document.getElementById('books-date');
+        try{
+          var today=new Date().toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+          el.textContent='🌸 '+today+' · Bloom one chapter at a time';
+        }catch(e){}
+      })();
+    </script>
     <div class="books-grid" id="books-grid">
       <div style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:.85rem;padding:40px;">Loading books…</div>
     </div>
@@ -512,10 +742,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <span class="nav-brand-name" id="nav-book-name">Ghatna Chakra</span>
     </div>
     <div class="nav-spacer"></div>
+    <button class="nav-btn-pill bloom-nav-btn" onclick="showBloomScreen()" title="Spaced-repetition review for mistakes and skips">&#x1F337; <span class="nav-btn-label">Bloom</span> <span class="nav-badge-pill" id="bloom-badge" style="background:var(--gold);color:#fff;">0</span></button>
     <button class="nav-btn-pill" onclick="showMistakeScreen()">&#x1F534; <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
     <button class="nav-btn-pill" onclick="showBookmarkScreen()">&#x1F516; <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
     <button class="nav-btn-pill" onclick="showSkipScreen()">&#x23ED; <span class="nav-btn-label">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
     <button class="nav-btn-pill" onclick="showArchiveScreen()">&#x1F5C3; <span class="nav-btn-label">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
+    <button class="nav-btn-pill" onclick="openFocusModal()" title="Pomodoro / focus timer">&#x1F345; <span class="nav-btn-label">Focus</span></button>
     <button class="nav-btn-pill sync-btn-wrap" id="sync-nav-btn" onclick="openSyncModal()" style="position:relative;">☁ <span class="nav-btn-label">Sync</span><div class="sync-dot offline" id="sync-status-dot" title="Sync Off"></div></button>
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" title="Toggle theme">&#x2600;&#xFE0F;</button>
   </div>
@@ -567,6 +799,31 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 </div>
 <div id="sync-toast"></div>
 
+<!-- FOCUS / POMODORO MODAL -->
+<div class="modal-overlay hidden" id="focus-modal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-header-icon">&#x1F345;</span>
+      <span class="modal-header-title">Focus Timer</span>
+      <button class="modal-close" onclick="closeFocusModal()">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="focus-caption" id="focus-caption">Ready when you are</div>
+      <div class="focus-embed" id="focus-display">25:00</div>
+      <div class="focus-mode-chips">
+        <button class="focus-chip active" id="focus-chip-25" onclick="setFocusMode('25')">&#x1F4A1; 25 min focus</button>
+        <button class="focus-chip" id="focus-chip-15" onclick="setFocusMode('15')">&#x2698; 15 min sprint</button>
+        <button class="focus-chip" id="focus-chip-5" onclick="setFocusMode('5')">&#x1F331; 5 min break</button>
+      </div>
+      <div class="focus-actions">
+        <button class="modal-btn modal-btn-primary" id="focus-start-btn" onclick="toggleFocusTimer()">Start</button>
+        <button class="modal-btn modal-btn-secondary" onclick="resetFocusTimer()">Reset</button>
+      </div>
+      <div class="focus-hint">Keep the tab open and let the timer run beside your quiz. The soft alarm will nudge you between focus and rest.</div>
+    </div>
+  </div>
+</div>
+
   <div class="setup-main" id="setup-main">
     <div class="stats-hero">
       <div class="sh-item"><div class="sh-val" id="sh-subjects">12</div><div class="sh-lbl">Subjects</div></div>
@@ -583,6 +840,20 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
         <div class="ds-cell"><div class="ds-val" id="dash-attempted" style="color:var(--blue)">0</div><div class="ds-lbl">Attempted</div></div>
         <div class="ds-cell"><div class="ds-val" id="dash-sessions" style="color:var(--green)">0</div><div class="ds-lbl">Sessions</div></div>
         <div class="ds-cell"><div class="ds-val" id="dash-mistakes" style="color:var(--red)">0</div><div class="ds-lbl">Mistakes</div></div>
+      </div>
+      <div class="dashboard-insight">
+        <div class="dash-ring-wrap">
+          <svg class="dash-ring-svg" viewBox="0 0 104 104" aria-hidden="true">
+            <defs><linearGradient id="dashRingGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="var(--gold)"/><stop offset="100%" stop-color="var(--gold2)"/></linearGradient></defs>
+            <circle class="dash-ring-track" cx="52" cy="52" r="42"></circle>
+            <circle class="dash-ring-fill" id="dash-ring-fill" cx="52" cy="52" r="42" stroke-dasharray="0 264" stroke-dashoffset="0"></circle>
+          </svg>
+          <div class="dash-ring-label"><div class="dash-ring-pct" id="dash-ring-pct">--</div><div class="dash-ring-cap">Accuracy</div></div>
+        </div>
+        <div class="dash-weekly">
+          <div class="dw-head"><span>Last 7 days</span><em id="dw-total">0 Qs</em></div>
+          <div class="dw-chart" id="weekly-chart"></div>
+        </div>
       </div>
     </div>
     <div class="section-heading">Choose a Subject</div>
@@ -665,6 +936,21 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
   </div>
 </div>
 
+<!-- BLOOM REVIEW SCREEN -->
+<div class="screen" id="bloom-screen" style="flex-direction:column;align-items:center;padding:16px;min-height:100vh;">
+  <div style="width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px;">
+    <div class="bloom-head">
+      <button onclick="backToSetup()" style="background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 12px;border-radius:8px;font-size:0.75rem;cursor:pointer;font-family:'Nunito',sans-serif;flex-shrink:0;">&#x2190; Back</button>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--text);margin:0;">&#x1F337; Bloom Review</h2>
+      <span id="bloom-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
+      <button onclick="practiceFromBloom()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'Nunito',sans-serif;flex-shrink:0;">Practice</button>
+    </div>
+    <div class="bloom-theory">&#x1F331; Mistakes and skipped questions gently return after <b>1 &#x2192; 3 &#x2192; 7 &#x2192; 21 days</b>. Answer correctly to let the flower bloom; miss one and it comes back tomorrow.</div>
+    <div id="bloom-type-filters" class="bank-type-filters" aria-label="Filter bloom review by source"></div>
+    <div id="bloom-list" class="bank-list"></div>
+  </div>
+</div>
+
 <!-- MISTAKE SCREEN -->
 <div class="screen" id="mistake-screen" style="flex-direction:column;align-items:center;padding:16px;min-height:100vh;">
   <div style="width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px;">
@@ -673,9 +959,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F534; Mistakes</h2>
       <span id="mistake-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllMistakes()" style="background:var(--red-dim);border:1px solid var(--red);color:var(--red);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
-      <button onclick="practiceFromMistakes()" style="background:var(--gold);color:#0a0e14;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
+      <button onclick="practiceFromMistakes()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
-    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers</div>
+    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
+    <div class="bank-search-wrap"><input class="bank-search" id="bank-search-mistake" placeholder="&#x1F50D; Search mistakes..." value="" oninput="setBankSearch('mistake',this.value)"></div>
     <div id="mistake-type-filters" class="bank-type-filters" aria-label="Filter mistakes by question type"></div>
     <div id="mistake-list" class="bank-list"></div>
   </div>
@@ -689,8 +976,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F516; Bookmarks</h2>
       <span id="bookmark-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllBookmarks()" style="background:var(--cyan-dim);border:1px solid var(--cyan);color:var(--cyan);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
-      <button onclick="practiceFromBookmarks()" style="background:var(--gold);color:#0a0e14;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
+      <button onclick="practiceFromBookmarks()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
+    <div class="bank-search-wrap"><input class="bank-search" id="bank-search-bookmark" placeholder="&#x1F50D; Search bookmarks or notes..." value="" oninput="setBankSearch('bookmark',this.value)"></div>
     <div id="bookmark-type-filters" class="bank-type-filters" aria-label="Filter bookmarks by question type"></div>
     <div id="bookmark-list" class="bank-list"></div>
   </div>
@@ -704,9 +992,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x23ED; Skipped</h2>
       <span id="skip-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllSkips()" style="background:var(--purple-dim);border:1px solid var(--purple);color:var(--purple);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
-      <button onclick="practiceFromSkips()" style="background:var(--gold);color:#0a0e14;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
+      <button onclick="practiceFromSkips()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
-    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers</div>
+    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
+    <div class="bank-search-wrap"><input class="bank-search" id="bank-search-skip" placeholder="&#x1F50D; Search skipped questions..." value="" oninput="setBankSearch('skip',this.value)"></div>
     <div id="skip-type-filters" class="bank-type-filters" aria-label="Filter skipped questions by question type"></div>
     <div id="skip-list" class="bank-list"></div>
   </div>
@@ -720,9 +1009,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F5C3; Archive</h2>
       <span id="archive-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllArchive()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Clear All</button>
-      <button onclick="practiceFromArchive()" style="background:var(--gold);color:#0a0e14;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
+      <button onclick="practiceFromArchive()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Questions mastered (5&#xD7; correct) or manually cleared</div>
+    <div class="bank-search-wrap"><input class="bank-search" id="bank-search-archive" placeholder="&#x1F50D; Search archive..." value="" oninput="setBankSearch('archive',this.value)"></div>
     <div id="archive-type-filters" class="bank-type-filters" aria-label="Filter archived questions by question type"></div>
     <div id="archive-list" class="bank-list"></div>
   </div>
@@ -768,14 +1058,37 @@ const getBookmarks=()=>LS.get(sk('gc_bookmarks'),{});let saveBookmarks=b=>LS.set
 const getSkips=()=>LS.get(sk('gc_skips'),{});let saveSkips=s=>LS.set(sk('gc_skips'),s);
 const getArchive=()=>LS.get(sk('gc_archive'),{});let saveArchive=a=>LS.set(sk('gc_archive'),a);
 const MASTERY=5;
-
-function archiveQuestion(q,fromBank){const arc=getArchive();arc[q.uid]={q,fromBank,archivedAt:new Date().toISOString()};saveArchive(arc);updateAllBadges();}
-function addToMistakes(wr){const b=getMistakes();wr.forEach(r=>{const p=b[r.q.uid]||{};b[r.q.uid]={q:r.q,userKey:r.userKey,addedAt:p.addedAt||new Date().toISOString(),times:(p.times||0)+1,correctCount:p.correctCount||0};});saveMistakes(b);updateAllBadges();}
-function addToBookmarks(q){const b=getBookmarks();if(b[q.uid])return;b[q.uid]={q,addedAt:new Date().toISOString()};saveBookmarks(b);updateAllBadges();}
+const BLOOM_INTERVALS=[0,1,3,7,21];
+const DAY_MS=86400000;
+const nowISO=()=>new Date().toISOString();
+function scheduleBloom(entry,correctCount){
+  entry.correctCount=correctCount;
+  entry.lastReviewedAt=nowISO();
+  if(correctCount>=MASTERY)return 'archive';
+  const days=BLOOM_INTERVALS[Math.min(correctCount,BLOOM_INTERVALS.length-1)]||1;
+  entry.nextReviewAt=new Date(Date.now()+days*DAY_MS).toISOString();
+  return 'keep';
+}
+function archiveQuestion(q,fromBank){const arc=getArchive();arc[q.uid]={q,fromBank,archivedAt:nowISO()};saveArchive(arc);updateAllBadges();}
+function addToMistakes(wr){const b=getMistakes(),sk=getSkips();let sc=false;wr.forEach(r=>{const p=b[r.q.uid]||{},base={q:r.q,userKey:r.userKey,source:'mistake',addedAt:p.addedAt||nowISO(),times:(p.times||0)+1};if(p.nextReviewAt){base.correctCount=0;base.lastReviewedAt=nowISO();base.nextReviewAt=new Date(Date.now()+DAY_MS).toISOString();}else{base.correctCount=p.correctCount||0;base.nextReviewAt=nowISO();}b[r.q.uid]=base;if(sk[r.q.uid]){delete sk[r.q.uid];sc=true;}});saveMistakes(b);if(sc)saveSkips(sk);updateAllBadges();}
+function addToBookmarks(q){const b=getBookmarks();if(b[q.uid])return;b[q.uid]={q,addedAt:nowISO(),note:''};saveBookmarks(b);updateAllBadges();}
 function removeFromBookmarks(uid,arc=true){const b=getBookmarks();if(arc&&b[uid])archiveQuestion(b[uid].q,'bookmark');delete b[uid];saveBookmarks(b);updateAllBadges();}
-function addToSkips(qs){const b=getSkips();qs.forEach(q=>{const p=b[q.uid]||{};b[q.uid]={q,addedAt:p.addedAt||new Date().toISOString(),times:(p.times||0)+1,correctCount:p.correctCount||0};});saveSkips(b);updateAllBadges();}
-function processCorrectAnswers(cr){const m=getMistakes(),s=getSkips();let mc=false,sc=false;cr.forEach(r=>{const uid=r.q.uid;if(m[uid]){m[uid].correctCount=(m[uid].correctCount||0)+1;if(m[uid].correctCount>=MASTERY){archiveQuestion(r.q,'mistake');delete m[uid];}mc=true;}if(s[uid]){s[uid].correctCount=(s[uid].correctCount||0)+1;if(s[uid].correctCount>=MASTERY){archiveQuestion(r.q,'skip');delete s[uid];}sc=true;}});if(mc)saveMistakes(m);if(sc)saveSkips(s);}
-function updateAllBadges(){document.getElementById('mistake-badge').textContent=Object.keys(getMistakes()).length;document.getElementById('bookmark-badge').textContent=Object.keys(getBookmarks()).length;document.getElementById('skip-badge').textContent=Object.keys(getSkips()).length;document.getElementById('archive-badge').textContent=Object.keys(getArchive()).length;}
+function addToSkips(qs){const b=getSkips();qs.forEach(q=>{const p=b[q.uid]||{},base={q,source:'skip',addedAt:p.addedAt||nowISO(),times:(p.times||0)+1};if(p.nextReviewAt){base.correctCount=0;base.lastReviewedAt=nowISO();base.nextReviewAt=new Date(Date.now()+DAY_MS).toISOString();}else{base.correctCount=p.correctCount||0;base.nextReviewAt=nowISO();}b[q.uid]=base;});saveSkips(b);updateAllBadges();}
+function processCorrectAnswers(cr){const m=getMistakes(),s=getSkips();let mc=false,sc=false;cr.forEach(r=>{const uid=r.q.uid;if(m[uid]){m[uid].userKey=r.userKey;const next=(m[uid].correctCount||0)+1;if(scheduleBloom(m[uid],next)==='archive'){archiveQuestion(r.q,'mistake');delete m[uid];}mc=true;}if(s[uid]){const next=(s[uid].correctCount||0)+1;if(scheduleBloom(s[uid],next)==='archive'){archiveQuestion(r.q,'skip');delete s[uid];}sc=true;}});if(mc)saveMistakes(m);if(sc)saveSkips(s);}
+function updateAllBadges(){
+  ['mistake','bookmark','skip','archive'].forEach(k=>{const el=document.getElementById(k+'-badge');if(el)el.textContent=Object.keys({mistake:getMistakes,bookmark:getBookmarks,skip:getSkips,archive:getArchive}[k]()).length;});
+  const bloom=document.getElementById('bloom-badge');if(bloom)bloom.textContent=getBloomDue().length;
+}
+function bloomEntryDue(entry){
+  const t=Date.parse(entry&&entry.nextReviewAt||entry&&entry.addedAt||0);
+  return Number.isFinite(t)&&t<=Date.now();
+}
+function getBloomDue(){
+  const out=[];
+  Object.entries(getMistakes()).forEach(([uid,e])=>{if(bloomEntryDue(e))out.push(Object.assign({uid,source:'mistake'},e));});
+  Object.entries(getSkips()).forEach(([uid,e])=>{if(bloomEntryDue(e))out.push(Object.assign({uid,source:'skip'},e));});
+  return out.sort((a,b)=>Date.parse(a.nextReviewAt||a.addedAt||0)-Date.parse(b.nextReviewAt||b.addedAt||0));
+}
 
 function buildSubjectsGrid(){
   const grid=document.getElementById('subjects-grid');grid.innerHTML='';
@@ -932,12 +1245,34 @@ function updateHeroCounts(){
 }
 
 function buildDashboard(){
-  const h=getHistory(),mistakes=Object.keys(getMistakes()).length;
-  const ta=h.reduce((s,e)=>s+e.correct+e.wrong,0),tc=h.reduce((s,e)=>s+e.correct,0);
+  const h=getHistory()||[],mistakes=Object.keys(getMistakes()).length;
+  const ta=h.reduce((s,e)=>s+(e.correct||0)+(e.wrong||0),0),tc=h.reduce((s,e)=>s+(e.correct||0),0);
   const acc=ta>0?Math.round(tc/ta*100):0;
   document.getElementById('dash-accuracy').textContent=ta>0?acc+'%':'--';
   document.getElementById('dash-attempted').textContent=ta;document.getElementById('dash-sessions').textContent=h.length;document.getElementById('dash-mistakes').textContent=mistakes;
   document.getElementById('dash-meta').textContent=h.length?'Last: '+new Date(h[0].date).toLocaleDateString():'No sessions yet';
+  const pctEl=document.getElementById('dash-ring-pct'),ring=document.getElementById('dash-ring-fill'),C=2*Math.PI*42;
+  if(pctEl)pctEl.textContent=ta>0?acc+'%':'--';
+  if(ring){ring.style.strokeDasharray=C;ring.style.strokeDashoffset=C*(1-Math.min(100,acc)/100);}
+  buildWeeklyChart(h);
+}
+function buildWeeklyChart(h){
+  h=h||[];
+  const days=[];
+  const now=new Date();
+  const localKey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  for(let i=6;i>=0;i--){const d=new Date(now);d.setDate(now.getDate()-i);days.push({key:localKey(d),label:d.toLocaleDateString(undefined,{weekday:'narrow'}),correct:0,wrong:0});}
+  const map=new Map(days.map(d=>[d.key,d]));
+  h.forEach(e=>{const key=localKey(new Date(e.date));const day=map.get(key);if(day){day.correct+=Number(e.correct)||0;day.wrong+=Number(e.wrong)||0;}});
+  const total=days.reduce((s,d)=>s+d.correct+d.wrong,0);
+  const dwTotal=document.getElementById('dw-total');if(dwTotal)dwTotal.textContent=total.toLocaleString()+' Qs';
+  const chart=document.getElementById('weekly-chart');if(!chart)return;
+  const max=Math.max(1,...days.map(d=>d.correct+d.wrong));
+  if(total===0){chart.innerHTML='<div class="dw-empty">Complete a quiz to grow this garden 🌱</div>';return;}
+  chart.innerHTML=days.map(d=>{
+    const n=d.correct+d.wrong,height=Math.max(n?10:2,Math.round(n/max*100));
+    return `<div class="dw-day"><div class="dw-bar-wrap"><div class="dw-bar" title="${d.correct} correct · ${d.wrong} wrong" style="height:${height}%"></div></div><div class="dw-day-label">${d.label}</div></div>`;
+  }).join('');
 }
 
 function practiceFromBank(bank,mode){
@@ -947,40 +1282,113 @@ function practiceFromBank(bank,mode){
   selectedChapters=new Set(pool.map(q=>q.chapter));startQuiz(mode,pool);
 }
 
-const bankTypeFilters={mistake:'all',bookmark:'all',skip:'all',archive:'all'};
+// ════════════════════════════════════════════════════════════════
+// BLOOM REVIEW — spaced repetition for mistakes and skips
+// ════════════════════════════════════════════════════════════════
+function bloomFilteredDue(){
+  const active=bankTypeFilters.bloom||'all';
+  const due=getBloomDue().filter(e=>active==='all'||e.source===active);
+  const q=(bankSearch.bloom||'').trim().toLowerCase();
+  return q?due.filter(e=>bankSearchText(e).includes(q)):due;
+}
+function renderBloomTypeFilters(items){
+  const counts={all:items.length,mistake:0,skip:0};
+  items.forEach(e=>{counts[e.source]=(counts[e.source]||0)+1;});
+  const active=bankTypeFilters.bloom;
+  const chips=[['all','All',counts.all],['mistake','&#x1F534; Mistakes',counts.mistake],['skip','&#x23ED; Skipped',counts.skip]];
+  const el=document.getElementById('bloom-type-filters');if(!el)return;
+  el.innerHTML=chips.map(([value,label,count])=>`<button class="bank-filter-chip ${active===value?'active':''}" data-type="${value}" onclick="setBankTypeFilter('bloom','${value}')">${label} <span class="bank-filter-count">${count}</span></button>`).join('');
+}
+function bloomDueLabel(e){
+  const t=Date.parse(e.nextReviewAt||e.addedAt||0);
+  if(!Number.isFinite(t))return 'Due today';
+  const diff=t-Date.now();
+  if(diff<=0)return 'Due today';
+  const days=Math.ceil(diff/DAY_MS);
+  return days<=1?'Today':'In '+days+' days';
+}
+function bloomItemHtml(e){
+  const q=e.q||{},questionType=getQuestionType(q),streak=Number(e.correctCount)||0;
+  const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<streak?'filled':''}"></div>`).join('');
+  return `<div class="bank-item bloom-item ${bloomEntryDue(e)?'due-today':''}"><div class="bank-item-top"><span class="bloom-src ${e.source}">${e.source==='mistake'?'Mistake':'Skip'}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="bloom-interval">Next: ${escapeHtml(bloomDueLabel(e))}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(q.chapter||'')}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">bloom mastery</span></div></div>`;
+}
+function showBloomScreen(){
+  const all=getBloomDue(),visible=bloomFilteredDue();
+  renderBloomTypeFilters(all);
+  const countLbl=document.getElementById('bloom-count-lbl');if(countLbl)countLbl.textContent=`${visible.length} of ${all.length} due`;
+  const list=document.getElementById('bloom-list');
+  if(!list)return;
+  list.innerHTML=visible.length?visible.map(bloomItemHtml).join(''):`<div style="padding:30px;text-align:center;color:var(--text3);font-size:0.82rem;">${BANK_EMPTY_HTML.bloom}</div>`;
+  showScreen('bloom-screen');
+}
+function practiceFromBloom(){
+  const entries=bloomFilteredDue();
+  const pool=entries.map(e=>e.q).filter(Boolean);
+  if(!pool.length){alert('No bloom questions due yet. Your flowers are resting 🌷');return;}
+  selectedChapters=new Set(pool.map(q=>q.chapter));
+  startQuiz('bloom',pool);
+}
+
+const bankTypeFilters={mistake:'all',bookmark:'all',skip:'all',archive:'all',bloom:'all'};
+const bankSearch={mistake:'',bookmark:'',skip:'',archive:''};
 const BANK_EMPTY_HTML={
   mistake:'No mistakes yet! \uD83C\uDF89',
   bookmark:'No bookmarks yet! Tap \uD83D\uDD16 during a quiz.',
   skip:'No skipped questions. &#x2705;',
-  archive:'Archive is empty. \uD83C\uDFC6'
+  archive:'Archive is empty. \uD83C\uDFC6',
+  bloom:'Nothing is due today. 🌸 Check back tomorrow — your flowers are resting.'
 };
 
 function bankQuestionType(entry){return getQuestionType(entry&&entry.q||{});}
+function bankSearchText(entry){
+  const q=entry&&entry.q||{};
+  return [q.question,q.stem,q.chapter,q.explanation,q.note,entry.note,JSON.stringify(q),...Object.values(q.options||{})].join(' ').toLowerCase();
+}
 function filteredBank(bank,bankType){
   const active=bankTypeFilters[bankType]||'all';
-  return Object.fromEntries(Object.entries(bank).filter(([,entry])=>active==='all'||bankQuestionType(entry)===active));
+  const q=(bankSearch[bankType]||'').trim().toLowerCase();
+  return Object.fromEntries(Object.entries(bank).filter(([,entry])=>{
+    if(active!=='all'&&bankQuestionType(entry)!==active)return false;
+    if(q&&!bankSearchText(entry).includes(q))return false;
+    return true;
+  }));
+}
+function setBankSearch(bankType,value){
+  bankSearch[bankType]=value||'';
+  ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen})[bankType]?.();
 }
 function renderBankTypeFilters(bankType,items){
   const counts=new Map();items.forEach(entry=>{const type=bankQuestionType(entry);counts.set(type,(counts.get(type)||0)+1);});
   if(bankTypeFilters[bankType]!=='all'&&!counts.has(bankTypeFilters[bankType]))bankTypeFilters[bankType]='all';
   const active=bankTypeFilters[bankType];
   const chips=[['all','All',items.length],...[...counts.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([type,count])=>[type,type,count])];
-  document.getElementById(`${bankType}-type-filters`).innerHTML=chips.map(([value,label,count])=>`<button class="bank-filter-chip ${active===value?'active':''}" data-type="${escapeHtml(value)}" onclick="setBankTypeFilter('${bankType}',this.dataset.type)">${escapeHtml(label)} <span class="bank-filter-count">${count}</span></button>`).join('');
+  const el=document.getElementById(`${bankType}-type-filters`);if(!el)return;
+  el.innerHTML=chips.map(([value,label,count])=>`<button class="bank-filter-chip ${active===value?'active':''}" data-type="${escapeHtml(value)}" onclick="setBankTypeFilter('${bankType}',this.dataset.type)">${escapeHtml(label)} <span class="bank-filter-count">${count}</span></button>`).join('');
 }
 function setBankTypeFilter(bankType,type){
   bankTypeFilters[bankType]=type||'all';
-  ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen})[bankType]?.();
+  ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen,bloom:showBloomScreen})[bankType]?.();
+}
+function editBookmarkNote(uid){
+  const b=getBookmarks();
+  if(!b[uid])return;
+  const current=b[uid].note||'';
+  const val=window.prompt('Add or edit your note for this bookmark:',current);
+  if(val===null)return;
+  b[uid].note=String(val).trim();
+  saveBookmarks(b);showBookmarkScreen();
 }
 function bankItemHtml(e,bankType){
   const q=e.q||{},questionType=getQuestionType(q);
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<(e.correctCount||0)?'filled':''}"></div>`).join('');
   const date=e.addedAt?new Date(e.addedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div></div>`;
+  const noteHtml=bankType==='bookmark'?`<div class="bank-note">${e.note?`<b>Your note</b>${bookText(e.note)}`:'<b>Personal note</b>Jot down why this matters to you.'}<button class="bank-note-btn" data-uid="${escapeHtml(q.uid)}" onclick="editBookmarkNote(this.dataset.uid)">${e.note?'Edit note':'Add note'}</button></div>`:'';
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div>${noteHtml}</div>`;
 }
 function archiveItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),from=String(e.fromBank||'archive').toLowerCase();
   const date=e.archivedAt?new Date(e.archivedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
 }
 function renderBankScreen(bankType,bank,screenId,itemRenderer){
   const allItems=Object.values(bank),visible=Object.values(filteredBank(bank,bankType));
@@ -1011,11 +1419,47 @@ function showArchiveScreen(){
 function practiceFromArchive(){practiceFromBank(filteredBank(getArchive(),'archive'),'archive');}
 function clearAllArchive(){if(confirm('Permanently delete all archived questions?')){saveArchive({});updateAllBadges();showArchiveScreen();}}
 
+// ════════════════════════════════════════════════════════════════
+// FOCUS / POMODORO TIMER
+// ════════════════════════════════════════════════════════════════
+let focusTimerInterval=null,focusRunning=false,focusMode='25',focusTotal=25*60,focusRemaining=25*60;
+function fmtFocus(s){const m=Math.floor(s/60),sec=s%60;return `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;}
+function updateFocusUI(){
+  const disp=document.getElementById('focus-display'),cap=document.getElementById('focus-caption'),btn=document.getElementById('focus-start-btn');
+  if(disp)disp.textContent=fmtFocus(focusRemaining);
+  if(cap)cap.textContent=focusRunning?'Focus session — stay with one question at a time':focusRemaining<focusTotal?'Paused — take a breath':'Ready when you are';
+  if(btn)btn.textContent=focusRunning?'Pause':'Start';
+}
+function setFocusMode(mode){
+  clearInterval(focusTimerInterval);focusRunning=false;focusMode=mode;focusTotal=parseInt(mode,10)*60;focusRemaining=focusTotal;
+  ['25','15','5'].forEach(m=>{const el=document.getElementById('focus-chip-'+m);if(el)el.classList.toggle('active',m===mode);});
+  updateFocusUI();
+}
+function toggleFocusTimer(){
+  if(focusRunning){clearInterval(focusTimerInterval);focusRunning=false;updateFocusUI();return;}
+  focusRunning=true;focusTimerInterval=setInterval(()=>{
+    if(focusRemaining<=0){
+      clearInterval(focusTimerInterval);focusRunning=false;focusBeep();
+      const next=focusMode==='5'?'25':'5';
+      setFocusMode(next);
+      const cap=document.getElementById('focus-caption');
+      if(cap)cap.textContent=(next==='5'?'Focus session done — take a 5-minute break 🌿':'Break over — ready for another focus sprint 🌱');
+      return;
+    }
+    focusRemaining--;updateFocusUI();
+  },1000);
+  updateFocusUI();
+}
+function resetFocusTimer(){clearInterval(focusTimerInterval);focusRunning=false;focusTotal=parseInt(focusMode,10)*60;focusRemaining=focusTotal;updateFocusUI();}
+function openFocusModal(){document.getElementById('focus-modal')?.classList.remove('hidden');updateFocusUI();}
+function closeFocusModal(){clearInterval(focusTimerInterval);focusRunning=false;document.getElementById('focus-modal')?.classList.add('hidden');updateFocusUI();}
+function focusBeep(){try{const ctx=new (window.AudioContext||window.webkitAudioContext)();const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=659;g.gain.value=0.08;o.connect(g);g.connect(ctx.destination);o.start();setTimeout(()=>{o.stop();ctx.close();},550);}catch(e){}}
+
 function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
 
 function startQuiz(mode,customPool){
   let pool;
-  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'){pool=shuffle([...customPool]);}
+  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'){pool=shuffle([...customPool]);}
   else{let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));if(document.getElementById('toggle-shuffle')?.checked)base=shuffle(base);const n=Math.min(parseInt(document.getElementById('num-questions')?.value)||base.length,base.length);pool=base.slice(0,n);}
   if(!pool.length){alert('No questions found!');return;}
   quiz=pool;const selectedList=Array.from(selectedChapters).join(', ');quizMeta={mode,subjectId:currentSubjectId,chapter:selectedList,startTime:new Date()};
@@ -1023,8 +1467,8 @@ function startQuiz(mode,customPool){
   const doSO=document.getElementById('toggle-shuffle-opts')?.checked||false;shuffledOptionOrders=quiz.map(q=>{const keys=Object.keys(q.options||{});return doSO?shuffle([...keys]):keys;});
   const mins=parseInt(document.getElementById('timer-mins')?.value||0);totalSecs=mins*60;
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'Practice';
-  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
-  const t=document.documentElement.getAttribute('data-theme')||'dark';const qBtn=document.getElementById('theme-btn-q');if(qBtn)qBtn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';
+  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
+  const t=document.documentElement.getAttribute('data-theme')||'light';const qBtn=document.getElementById('theme-btn-q');if(qBtn)qBtn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';
   showScreen('quiz-screen');renderQuestion();renderPalette();updateStats();clearInterval(timerInterval);paused=false;
   document.getElementById('pause-btn').textContent='Pause';document.getElementById('timer-display').classList.remove('urgent');
   if(totalSecs>0)startTimer();else document.getElementById('timer-display').textContent='\u221E';
@@ -1385,7 +1829,7 @@ function renderQuestion(){
   else optHtml=optionKeys.map(key=>{const value=options[key];if(value==null||value==='')return '';let cls='opt-btn';if(answerHasKey(answered,key))cls+=' selected';const text=optionDisplayText(value,key);return `<button class="${cls}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(text)}"><span class="opt-text">${escapeHtml(text)}</span></button>`;}).join('');
   const isMulti=questionCorrectKeys(q).length>1;
   const isLast=(i===quiz.length-1);
-  const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#0a0e14;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
+  const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
   document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
@@ -1459,7 +1903,7 @@ function goHome(){clearInterval(timerInterval);showScreen('setup-screen');buildD
 function confirmHome(){const ans=state.answers?.filter(a=>!isSkippedAnswer(a)).length||0;if(ans>0&&!confirm('Exit quiz? Progress will be lost.'))return;backToSetup();}
 
 function applyTheme(t){document.documentElement.setAttribute('data-theme',t);[document.getElementById('theme-btn'),document.getElementById('theme-btn-q'),document.getElementById('theme-btn-books')].forEach(btn=>{if(btn)btn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';});localStorage.setItem('gc_theme',t);}
-function toggleTheme(){const cur=document.documentElement.getAttribute('data-theme')||'dark';applyTheme(cur==='dark'?'light':'dark');}
+function toggleTheme(){const cur=document.documentElement.getAttribute('data-theme')||'light';applyTheme(cur==='dark'?'light':'dark');}
 
 document.addEventListener('keydown',function(e){
   const qs=document.getElementById('quiz-screen');if(!qs||!qs.classList.contains('active'))return;if(paused)return;if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;
@@ -1952,7 +2396,7 @@ async function renderBooksScreen(){
   if(!grid)return;
   if(!BOOKS.length){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;color:var(--red);font-size:.85rem;padding:40px;">No books found. Check books/books.json.</div>';return;}
   grid.innerHTML=BOOKS.map(b=>`
-    <div class="book-card" data-book="${b.id}" style="--book-accent:${b.color||'#c9a84c'};" onclick="openBook('${b.id}')">
+    <div class="book-card" data-book="${b.id}" style="--book-accent:${b.color||'#C9897B'};" onclick="openBook('${b.id}')">
       ${b.tag?`<span class="book-pill">${b.tag}</span>`:''}
       <div class="book-emoji">${b.emoji||'\uD83D\uDCD8'}</div>
       <div class="book-title">${b.title||b.id}</div>
@@ -2001,7 +2445,10 @@ async function loadBooksManifest(){
 }
 
 function init(){
-  const saved=localStorage.getItem('gc_theme')||'dark';applyTheme(saved);
+  const saved=localStorage.getItem('gc_theme');
+  let theme=saved||'light';
+  if(!saved&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)theme='dark';
+  applyTheme(theme);
   // Lightweight placeholder until a book is chosen.
   buildSubjectsGrid();buildDashboard();updateAllBadges();
   loadBooksManifest().then(()=>{

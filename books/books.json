@@ -5,7 +5,7 @@
     "subtitle": "Bihar Public Service Commission · Prelims PYQ",
     "tag": "BPSC Pre PYQ",
     "emoji": "📜",
-    "color": "#c9a84c",
+    "color": "#C9897B",
     "dataDir": ".",
     "chaptersFile": "data/chapters.json",
     "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions."
@@ -16,7 +16,7 @@
     "subtitle": "Bihar General Studies · Curated Practice",
     "tag": "CROWN",
     "emoji": "👑",
-    "color": "#d4af37",
+    "color": "#D8A06E",
     "dataDir": "books/crown/data",
     "chaptersFile": "chapters.json",
     "description": "7 subjects · 44 chapters · 867 verified questions"
@@ -27,7 +27,7 @@
     "subtitle": "Staff Selection Commission · Sample",
     "tag": "SSC Sample",
     "emoji": "📘",
-    "color": "#4a90d9",
+    "color": "#7C87C8",
     "dataDir": "books/ssc_sample/data",
     "chaptersFile": "chapters.json",
     "description": "A starter book showing how to add more question banks. Replace its JSON files with your own content."
@@ -38,7 +38,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "PHYSICS",
     "emoji": "⚛️",
-    "color": "#4ea3ff",
+    "color": "#6FA3C8",
     "dataDir": "books/physics/data",
     "chaptersFile": "chapters.json",
     "description": "17 chapters · 1,731 verified questions"
@@ -49,7 +49,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "CHEMISTRY",
     "emoji": "🧪",
-    "color": "#46d6a8",
+    "color": "#7FB9B0",
     "dataDir": "books/chemistry/data",
     "chaptersFile": "chapters.json",
     "description": "19 chapters · 757 verified questions"
@@ -60,7 +60,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "BIOLOGY",
     "emoji": "🧬",
-    "color": "#7ed957",
+    "color": "#96BF8D",
     "dataDir": "books/biology/data",
     "chaptersFile": "chapters.json",
     "description": "29 chapters · 1,601 verified questions"
@@ -71,7 +71,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "ANCIENT",
     "emoji": "🏛️",
-    "color": "#c9a84c",
+    "color": "#C9897B",
     "dataDir": "books/ancient_india/data",
     "chaptersFile": "chapters.json",
     "description": "15 chapters · 1,342 verified questions"
@@ -82,7 +82,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "MEDIEVAL",
     "emoji": "🏰",
-    "color": "#d4845a",
+    "color": "#C98C74",
     "dataDir": "books/medieval_india/data",
     "chaptersFile": "chapters.json",
     "description": "25 chapters · 931 verified questions"
@@ -93,7 +93,7 @@
     "subtitle": "Purvavalokan 2026 · English",
     "tag": "MODERN",
     "emoji": "📜",
-    "color": "#b07cd9",
+    "color": "#A88FB8",
     "dataDir": "books/modern_india/data",
     "chaptersFile": "chapters.json",
     "description": "55 chapters · 2,732 verified questions"
