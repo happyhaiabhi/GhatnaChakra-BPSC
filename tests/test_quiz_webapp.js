@@ -283,6 +283,43 @@ const ev = code => w.eval(code);
   assert(bookmarkStem.textContent.includes("visited 'Bhimbetka Caves'"), 'bookmarked question retains the complete sentence');
   ev(`removeFromBookmarks(window.__bhimbetkaQ.uid,false); showBookmarkScreen();`);
 
+  // Regression: PDF-extracted ligature glyphs (ﬁ/ﬂ and the ﬀ family) each carry
+  // a spurious trailing space. Word continuations must join back together,
+  // genuine boundaries where the ligature ends a standalone word must not.
+  assert.equal(ev(`normalizeBookText('the archaeologists ﬁ rst visited')`), 'the archaeologists first visited', 'ﬁ rst joins into "first"');
+  assert.equal(ev(`normalizeBookText('signiﬁ cant')`), 'significant', 'signiﬁ cant joins into "significant"');
+  assert.equal(ev(`normalizeBookText('ofﬁ cers')`), 'officers', 'ofﬁ cers joins into "officers"');
+  assert.equal(ev(`normalizeBookText('inﬂ uence')`), 'influence', 'inﬂ uence joins into "influence"');
+  assert.equal(ev(`normalizeBookText('the ﬂ ag')`), 'the flag', 'ﬂ expands to "fl"');
+  assert.equal(ev(`normalizeBookText('the oﬃ ce')`), 'the office', 'oﬃ ce joins into "office"');
+  assert.equal(ev(`normalizeBookText('Suﬁ saint')`), 'Sufi saint', 'Suﬁ saint keeps its word boundary');
+  assert.equal(ev(`normalizeBookText('Suﬁ order')`), 'Sufi order', 'Suﬁ order keeps its word boundary');
+  assert.equal(ev(`normalizeBookText('Khaﬁ Khan')`), 'Khafi Khan', 'Khaﬁ Khan keeps its word boundary');
+  assert.equal(ev(`normalizeBookText('Raﬁ Ahmed')`), 'Rafi Ahmed', 'Raﬁ Ahmed keeps its word boundary');
+  assert.equal(ev(`normalizeBookText('Suﬁ sm')`), 'Sufism', 'Suﬁ sm joins into "Sufism"');
+  assert.equal(ev(`normalizeBookText('Raﬁ q')`), 'Rafiq', 'Raﬁ q joins into "Rafiq"');
+  assert.equal(ev(`normalizeBookText('Raﬁ que')`), 'Rafique', 'Raﬁ que joins into "Rafique"');
+  assert.equal(ev(`normalizeBookText('Shaﬁ que')`), 'Shafique', 'Shaﬁ que joins into "Shafique"');
+  assert.equal(ev(`normalizeBookText('Kalinga oﬀ ered stiﬀ resistance')`), 'Kalinga offered stiff resistance', 'ﬀ joins continuations but keeps "stiff resistance" apart');
+
+  // The Bhimbetka fixture itself: the source stem carries the ﬁ ligature with
+  // the spurious space; the rendered surfaces must show plain joined words.
+  assert.equal(ev('window.__bhimbetkaQ.question.includes("\\uFB01")'), true, 'source fixture retains the ﬁ ligature glyph');
+  assert.equal(bqt(d.querySelector('#question-area .q-text')).includes('\uFB01'), false, 'rendered stem leaves no ligature glyph');
+  assert(bqt(d.querySelector('#question-area .q-text')).includes('first visited'), 'stem shows joined "first visited"');
+  assert(bqt(d.querySelector('#question-area .q-text')).includes('significance'), 'stem shows joined "significance"');
+  assert.equal(bookmarkStem.textContent.includes('\uFB01'), false, 'bookmarked question leaves no ligature glyph');
+  assert(bookmarkStem.textContent.includes('first visited'), 'bookmarked question shows joined "first visited"');
+
+  // Regression: parenthesized numbered-statement stems ("(1) …" / "(2) …") were
+  // not detected as Numbered Statements and fell back to a run-on Direct MCQ.
+  ev(`const q=allQuestions.find(x=>x.question.startsWith('With reference to the cultural heritage of Uttar')); selectedChapters=new Set([q.chapter]); startQuiz('bookmarks',[q]);`);
+  assert.equal(d.querySelector('#question-area .question-type-pill').textContent, 'Numbered Statements', '(1)/(2) stem classified as Numbered Statements');
+  assert.equal(d.querySelectorAll('#question-area .statement-row').length, 2, 'two labelled statement rows render');
+  assert.deepEqual([...d.querySelectorAll('#question-area .statement-label')].map(x=>x.textContent), ['1.','2.'], 'rows carry numeric labels');
+  assert(d.querySelector('#question-area .structured-intro').textContent.includes('Uttar Pradesh'), 'stem intro introduces the statements');
+  assert.match(d.querySelector('#question-area .structured-instruction').textContent, /Select the correct answer/, 'trailing code instruction split out of the last row');
+
   // Extra source fields such as `asset` must survive mapping and render as images.
   await w.openBook('physics');
   await tick(10);

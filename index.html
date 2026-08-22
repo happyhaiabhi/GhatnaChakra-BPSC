@@ -1039,13 +1039,40 @@ function escapeHtml(value){
 // A blank line (two newlines) stays a real paragraph break. A hyphenated word
 // split across a wrap joins back together without an added space. Always run
 // the result through escapeHtml before inserting it into the HTML.
+// PDF extraction also leaves the ligature glyphs ﬁ (U+FB01) and ﬂ (U+FB02),
+// and their ﬀ/ﬃ/ﬄ relatives (U+FB00/U+FB03/U+FB04), each followed by a
+// spurious space ("ﬁ rst" for "first", "signiﬁ cant" for "significant",
+// "oﬃ ce" for "office"). The space is removed so the word rejoins, except
+// where the ligature ends a known standalone word and the next word is
+// genuinely separate ("Suﬁ saint" stays "Sufi saint", "Khaﬁ Khan" stays
+// "Khafi Khan", "stiﬀ resistance" stays "stiff resistance"), while true
+// one-word continuations still join ("Suﬁ sm" -> "Sufism", "Raﬁ que" ->
+// "Rafique"). Finally the glyphs expand to plain ASCII letter pairs.
+const LIGATURE_EXPANSIONS={'\uFB00':'ff','\uFB01':'fi','\uFB02':'fl','\uFB03':'ffi','\uFB04':'ffl'};
+const LIGATURE_BOUNDARY_NAMES={
+  fi:new Set(['sufi','rafi','khafi','shafi','aufi','kashifi','mustarfi']),
+  ff:new Set(['buff','off','staff','stiff','scoff'])
+};
+const LIGATURE_FOLLOWING_WORDS=new Set(['saint','saints','sage','sages','mystic','mystics','order','sect','sects','silsilah','silsila','khan','ahmed','ahmad','ahamad','kidwai','kalam','naqshbandi','associated','examine','wrote','translated','tradition','pantheism','or','with','called','as','sandstone','resistance','background']);
+function keepLigatureBoundary(before,ligature,next){
+  const expansion=LIGATURE_EXPANSIONS[ligature];
+  const names=LIGATURE_BOUNDARY_NAMES[expansion];
+  if(!names||!names.has((before+expansion).toLowerCase()))return false;
+  if(/^\d/.test(next))return true;      // "Mustarﬁ 2." — a numbered row follows
+  if(/^-+$/.test(next))return true;     // "Suﬁ - 1." — a dash introduces a list
+  return LIGATURE_FOLLOWING_WORDS.has(next.toLowerCase().replace(/[^a-z].*$/,''));
+}
 function normalizeBookText(value){
   let text=String(value??'').replace(/\r\n?/g,'\n');
   text=text.replace(/([A-Za-z\u00C0-\u024F])-\n(?=[A-Za-z\u00C0-\u024F])/g,'$1');
   text=text.replace(/([^\n])\n(?=[^\n])/g,'$1 ');
   text=text.replace(/^\n(?=[^\n])/,'');
   text=text.replace(/(?<=[^\n])\n$/,'');
-  return text;
+  text=text.replace(/([A-Za-z]*)([\uFB00-\uFB04]) (?=\S)/g,(whole,before,ligature,offset,string)=>{
+    const next=string.slice(offset+whole.length).match(/^\S+/)[0];
+    return before+ligature+(keepLigatureBoundary(before,ligature,next)?' ':'');
+  });
+  return text.replace(/[\uFB00-\uFB04]/g,ligature=>LIGATURE_EXPANSIONS[ligature]);
 }
 function bookText(value){
   return escapeHtml(normalizeBookText(value));
@@ -1128,9 +1155,11 @@ function parseAssertionReason(question){
 
 function parseSequentialRows(question,kind){
   const text=String(question||'').replace(/\r/g,'').trim();
-  const markerRe=kind==='letter'?/(^|\n|\s)([A-D])[.)]\s+/g:/(^|\n|\s)(\d{1,2})[.)]\s+/g;
+  // Markers accept "1.", "1)" and the parenthesized "(1)" convention (likewise
+  // for letters); a parenthesized marker must close with a parenthesis.
+  const markerRe=kind==='letter'?/(^|\n|\s)(?:\(([A-D])\)|([A-D])[.)])\s+/g:/(^|\n|\s)(?:\((\d{1,2})\)|(\d{1,2})[.)])\s+/g;
   const matches=[];let match;
-  while((match=markerRe.exec(text))!==null)matches.push({label:match[2].toUpperCase(),start:match.index+match[1].length,contentStart:markerRe.lastIndex});
+  while((match=markerRe.exec(text))!==null)matches.push({label:(match[2]||match[3]).toUpperCase(),start:match.index+match[1].length,contentStart:markerRe.lastIndex});
   const firstLabel=kind==='letter'?'A':'1';let sequence=[];
   for(let start=0;start<matches.length;start++){
     if(matches[start].label!==firstLabel)continue;
