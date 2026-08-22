@@ -1,0 +1,32 @@
+{
+ "book": "General Science (PREVIEW 2026 – English version of the Purvavalokan series; 7th part of an 8-part General Studies series)",
+ "short_book_name": "General Science Part-7 2026 (26121-C)",
+ "source_language": "English",
+ "output_language": "English (same as source)",
+ "subjects": [
+  {
+   "subject": "Physics",
+   "file": "subjects/physics.json",
+   "chapters": 17,
+   "questions": 1731
+  },
+  {
+   "subject": "Chemistry",
+   "file": "subjects/chemistry.json",
+   "chapters": 19,
+   "questions": 757
+  },
+  {
+   "subject": "Biology",
+   "file": "subjects/biology.json",
+   "chapters": 29,
+   "questions": 1601
+  }
+ ],
+ "totals": {
+  "subjects": 3,
+  "chapters": 65,
+  "verified_questions": 4089,
+  "unverified_questions": 3
+ }
+}

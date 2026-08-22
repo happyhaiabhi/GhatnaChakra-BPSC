@@ -1,0 +1,800 @@
+{
+ "method": "Questions were fingerprinted by normalized question text + exact option text (exact duplicates) and by normalized question text alone (near duplicates). All duplicate source occurrences are retained in the verified bank; this report only documents them.",
+ "exact_duplicate_groups": [],
+ "near_duplicate_groups": [
+  {
+   "occurrences": [
+    {
+     "page": 14,
+     "qnum": 25
+    },
+    {
+     "page": 587,
+     "qnum": 8
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 15,
+     "qnum": 33
+    },
+    {
+     "page": 16,
+     "qnum": 39
+    },
+    {
+     "page": 22,
+     "qnum": 8
+    },
+    {
+     "page": 27,
+     "qnum": 49
+    },
+    {
+     "page": 153,
+     "qnum": 54
+    },
+    {
+     "page": 154,
+     "qnum": 59
+    },
+    {
+     "page": 321,
+     "qnum": 97
+    },
+    {
+     "page": 429,
+     "qnum": 27
+    },
+    {
+     "page": 444,
+     "qnum": 53
+    },
+    {
+     "page": 493,
+     "qnum": 117
+    },
+    {
+     "page": 663,
+     "qnum": 17
+    },
+    {
+     "page": 750,
+     "qnum": 133
+    }
+   ],
+   "distinct_option_sets": 12,
+   "question_preview": "Which one of the following is not correctly matched ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 16,
+     "qnum": 40
+    },
+    {
+     "page": 16,
+     "qnum": 41
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is not the unit of heat?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 22,
+     "qnum": 10
+    },
+    {
+     "page": 255,
+     "qnum": 103
+    },
+    {
+     "page": 315,
+     "qnum": 57
+    },
+    {
+     "page": 318,
+     "qnum": 80
+    },
+    {
+     "page": 336,
+     "qnum": 10
+    },
+    {
+     "page": 408,
+     "qnum": 15
+    },
+    {
+     "page": 462,
+     "qnum": 13
+    },
+    {
+     "page": 495,
+     "qnum": 139
+    },
+    {
+     "page": 500,
+     "qnum": 175
+    },
+    {
+     "page": 733,
+     "qnum": 14
+    }
+   ],
+   "distinct_option_sets": 10,
+   "question_preview": "Which of the following is not correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 23,
+     "qnum": 19
+    },
+    {
+     "page": 282,
+     "qnum": 44
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following pair is not correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 26,
+     "qnum": 40
+    },
+    {
+     "page": 689,
+     "qnum": 31
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one is not correctly matched ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 30,
+     "qnum": 3
+    },
+    {
+     "page": 31,
+     "qnum": 5
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is not a vector quantity?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 62,
+     "qnum": 8
+    },
+    {
+     "page": 190,
+     "qnum": 178
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following statement is not correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 69,
+     "qnum": 58
+    },
+    {
+     "page": 69,
+     "qnum": 59
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Diffusion of light in the atmosphere takes place due to :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 71,
+     "qnum": 74
+    },
+    {
+     "page": 71,
+     "qnum": 77
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "The Sky appears blue due to –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 89,
+     "qnum": 26
+    },
+    {
+     "page": 422,
+     "qnum": 52
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is used as an antifreeze\nfor the automobile engines ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 92,
+     "qnum": 49
+    },
+    {
+     "page": 138,
+     "qnum": 102
+    },
+    {
+     "page": 512,
+     "qnum": 12
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Which of the following statements is not true?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 97,
+     "qnum": 78
+    },
+    {
+     "page": 97,
+     "qnum": 79
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Food gets cooked faster in a pressure cooker because –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 100,
+     "qnum": 96
+    },
+    {
+     "page": 389,
+     "qnum": 50
+    },
+    {
+     "page": 478,
+     "qnum": 16
+    },
+    {
+     "page": 558,
+     "qnum": 139
+    },
+    {
+     "page": 653,
+     "qnum": 43
+    }
+   ],
+   "distinct_option_sets": 5,
+   "question_preview": "Which one of the following statements is not correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 145,
+     "qnum": 1
+    },
+    {
+     "page": 211,
+     "qnum": 327
+    },
+    {
+     "page": 239,
+     "qnum": 16
+    },
+    {
+     "page": 299,
+     "qnum": 19
+    },
+    {
+     "page": 358,
+     "qnum": 82
+    },
+    {
+     "page": 366,
+     "qnum": 17
+    },
+    {
+     "page": 367,
+     "qnum": 19
+    },
+    {
+     "page": 367,
+     "qnum": 20
+    },
+    {
+     "page": 386,
+     "qnum": 31
+    },
+    {
+     "page": 407,
+     "qnum": 11
+    },
+    {
+     "page": 407,
+     "qnum": 12
+    },
+    {
+     "page": 429,
+     "qnum": 28
+    },
+    {
+     "page": 499,
+     "qnum": 169
+    },
+    {
+     "page": 546,
+     "qnum": 45
+    },
+    {
+     "page": 549,
+     "qnum": 72
+    },
+    {
+     "page": 551,
+     "qnum": 82
+    },
+    {
+     "page": 659,
+     "qnum": 84
+    },
+    {
+     "page": 742,
+     "qnum": 76
+    },
+    {
+     "page": 745,
+     "qnum": 95
+    }
+   ],
+   "distinct_option_sets": 19,
+   "question_preview": "Which one of the following pairs is not correctly\nmatched :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 145,
+     "qnum": 2
+    },
+    {
+     "page": 378,
+     "qnum": 18
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is not correct :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 168,
+     "qnum": 10
+    },
+    {
+     "page": 168,
+     "qnum": 11
+    },
+    {
+     "page": 168,
+     "qnum": 13
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Which of the following is not an output device ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 179,
+     "qnum": 93
+    },
+    {
+     "page": 179,
+     "qnum": 95
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is not a web browser?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 188,
+     "qnum": 164
+    },
+    {
+     "page": 188,
+     "qnum": 166
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is not a computer hardware ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 188,
+     "qnum": 165
+    },
+    {
+     "page": 188,
+     "qnum": 167
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is not a hardware ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 189,
+     "qnum": 176
+    },
+    {
+     "page": 190,
+     "qnum": 177
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "CPU stands for –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 278,
+     "qnum": 13
+    },
+    {
+     "page": 315,
+     "qnum": 58
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 280,
+     "qnum": 27
+    },
+    {
+     "page": 307,
+     "qnum": 8
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following statements is incorrect ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 309,
+     "qnum": 25
+    },
+    {
+     "page": 357,
+     "qnum": 79
+    },
+    {
+     "page": 507,
+     "qnum": 3
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Which one of the following statements is correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 337,
+     "qnum": 18
+    },
+    {
+     "page": 337,
+     "qnum": 19
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Milk is an example of :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 367,
+     "qnum": 21
+    },
+    {
+     "page": 679,
+     "qnum": 19
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following pairs is incorrectly\nmatched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 369,
+     "qnum": 34
+    },
+    {
+     "page": 369,
+     "qnum": 37
+    },
+    {
+     "page": 369,
+     "qnum": 38
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Dry ice is –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 387,
+     "qnum": 37
+    },
+    {
+     "page": 387,
+     "qnum": 38
+    },
+    {
+     "page": 387,
+     "qnum": 40
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Baking soda is –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 399,
+     "qnum": 3
+    },
+    {
+     "page": 399,
+     "qnum": 5
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is not a Natural polymer?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 411,
+     "qnum": 2
+    },
+    {
+     "page": 411,
+     "qnum": 3
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is not an explosive :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 429,
+     "qnum": 25
+    },
+    {
+     "page": 665,
+     "qnum": 39
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "The antibiotic among the following is :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 440,
+     "qnum": 29
+    },
+    {
+     "page": 755,
+     "qnum": 170
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Carbon dating is used to determine the age of :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 443,
+     "qnum": 45
+    },
+    {
+     "page": 450,
+     "qnum": 94
+    },
+    {
+     "page": 557,
+     "qnum": 130
+    },
+    {
+     "page": 695,
+     "qnum": 80
+    }
+   ],
+   "distinct_option_sets": 4,
+   "question_preview": "Which one of the following pairs is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 445,
+     "qnum": 54
+    },
+    {
+     "page": 445,
+     "qnum": 55
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Chemically ‘Vermillion’ is –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 448,
+     "qnum": 79
+    },
+    {
+     "page": 448,
+     "qnum": 80
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "In dry cell, which of the following are used as electrolytes?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 541,
+     "qnum": 6
+    },
+    {
+     "page": 549,
+     "qnum": 70
+    },
+    {
+     "page": 551,
+     "qnum": 84
+    },
+    {
+     "page": 722,
+     "qnum": 72
+    },
+    {
+     "page": 742,
+     "qnum": 75
+    }
+   ],
+   "distinct_option_sets": 5,
+   "question_preview": "Which of the following pairs is not correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 547,
+     "qnum": 55
+    },
+    {
+     "page": 547,
+     "qnum": 56
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "In human body, vitamin A is stored in –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 581,
+     "qnum": 63
+    },
+    {
+     "page": 581,
+     "qnum": 64
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "An antigen is a substance which :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 612,
+     "qnum": 19
+    },
+    {
+     "page": 612,
+     "qnum": 22
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Photosynthesis occurs in :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 622,
+     "qnum": 2
+    },
+    {
+     "page": 622,
+     "qnum": 4
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is a plant hormone?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 655,
+     "qnum": 58
+    },
+    {
+     "page": 656,
+     "qnum": 59
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "AIDS is caused by :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 703,
+     "qnum": 5
+    },
+    {
+     "page": 704,
+     "qnum": 6
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following is not correctly matched?\nCrop Disease"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 746,
+     "qnum": 103
+    },
+    {
+     "page": 746,
+     "qnum": 104
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Indian Veterinary Research Institute is located at :"
+  }
+ ]
+}
