@@ -1,0 +1,78 @@
+[
+  {
+    "key": "physics",
+    "label": "Physics",
+    "emoji": "⚛️",
+    "file": "physics.json",
+    "chapters": [
+      {
+        "name": "1. Measurement/Unit",
+        "count": 61
+      },
+      {
+        "name": "2. Measuring instruments and Scales",
+        "count": 53
+      },
+      {
+        "name": "3. Mechanics",
+        "count": 46
+      },
+      {
+        "name": "4. Motion under Gravity",
+        "count": 43
+      },
+      {
+        "name": "5. Physical properties of matter",
+        "count": 57
+      },
+      {
+        "name": "6. Optics",
+        "count": 161
+      },
+      {
+        "name": "7. Heat and Thermodynamics",
+        "count": 98
+      },
+      {
+        "name": "8. Wave motion",
+        "count": 49
+      },
+      {
+        "name": "9. Sound",
+        "count": 58
+      },
+      {
+        "name": "10. Electric current",
+        "count": 103
+      },
+      {
+        "name": "11. Conductivity",
+        "count": 26
+      },
+      {
+        "name": "12. Nuclear Physics",
+        "count": 97
+      },
+      {
+        "name": "13. Computer and Information Technology",
+        "count": 401
+      },
+      {
+        "name": "14. Space",
+        "count": 190
+      },
+      {
+        "name": "15. Defence Technology",
+        "count": 115
+      },
+      {
+        "name": "16. Scientists & Inventions",
+        "count": 60
+      },
+      {
+        "name": "17. Miscellaneous",
+        "count": 113
+      }
+    ]
+  }
+]

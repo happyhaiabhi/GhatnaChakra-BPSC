@@ -1,0 +1,67 @@
+{
+  "subject": "General Awareness",
+  "chapters": [
+    {
+      "chapter_name": "Indian Polity",
+      "questions": [
+        {
+          "q": "Who is known as the Father of the Indian Constitution?",
+          "options": {
+            "A": "Mahatma Gandhi",
+            "B": "Jawaharlal Nehru",
+            "C": "Dr. B. R. Ambedkar",
+            "D": "Sardar Vallabhbhai Patel"
+          },
+          "answer": "C",
+          "explanation": "Dr. B. R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution and is regarded as its chief architect.",
+          "exam": "SSC",
+          "year": "SSC CGL 2022"
+        },
+        {
+          "q": "Which article of the Indian Constitution abolishes untouchability?",
+          "options": {
+            "A": "Article 14",
+            "B": "Article 15",
+            "C": "Article 17",
+            "D": "Article 19"
+          },
+          "answer": "C",
+          "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form.",
+          "exam": "SSC",
+          "year": "SSC CHSL 2021"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Basic Science",
+      "questions": [
+        {
+          "q": "What is the chemical symbol for Gold?",
+          "options": {
+            "A": "Go",
+            "B": "Au",
+            "C": "Ag",
+            "D": "Gd"
+          },
+          "answer": "B",
+          "explanation": "Gold's chemical symbol Au comes from its Latin name 'Aurum'.",
+          "exam": "SSC",
+          "year": "SSC CGL 2020"
+        },
+        {
+          "q": "Which planet is known as the Red Planet?",
+          "options": {
+            "A": "Venus",
+            "B": "Jupiter",
+            "C": "Mars",
+            "D": "Saturn"
+          },
+          "answer": "C",
+          "explanation": "Mars appears red due to iron oxide (rust) on its surface, earning it the nickname 'Red Planet'.",
+          "exam": "SSC",
+          "year": "SSC MTS 2022"
+        }
+      ]
+    }
+  ]
+}

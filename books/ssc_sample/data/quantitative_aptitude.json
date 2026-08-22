@@ -1,0 +1,36 @@
+{
+  "subject": "Quantitative Aptitude",
+  "chapters": [
+    {
+      "chapter_name": "Number System",
+      "questions": [
+        {
+          "q": "What is the smallest prime number?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "answer": "C",
+          "explanation": "2 is the smallest prime number. It is also the only even prime number.",
+          "exam": "SSC",
+          "year": "SSC CGL 2021"
+        },
+        {
+          "q": "The LCM of two numbers is 12 and their HCF is 2. If one number is 6, what is the other number?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "12"
+          },
+          "answer": "B",
+          "explanation": "Product of two numbers = HCF × LCM = 2 × 12 = 24. If one number is 6, the other is 24 ÷ 6 = 4.",
+          "exam": "SSC",
+          "year": "SSC CHSL 2022"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "key": "general_awareness",
+    "label": "General Awareness",
+    "emoji": "🌍",
+    "file": "general_awareness.json",
+    "chapters": [
+      { "name": "Indian Polity", "count": 2 },
+      { "name": "Basic Science", "count": 2 }
+    ]
+  },
+  {
+    "key": "quantitative_aptitude",
+    "label": "Quantitative Aptitude",
+    "emoji": "🔢",
+    "file": "quantitative_aptitude.json",
+    "chapters": [
+      { "name": "Number System", "count": 2 }
+    ]
+  }
+]

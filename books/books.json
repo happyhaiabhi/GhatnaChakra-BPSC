@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bpsc_ghatna_chakra",
+    "title": "BPSC Ghatna Chakra",
+    "subtitle": "Bihar Public Service Commission · Prelims PYQ",
+    "tag": "BPSC Pre PYQ",
+    "emoji": "📜",
+    "color": "#c9a84c",
+    "dataDir": ".",
+    "chaptersFile": "data/chapters.json",
+    "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions."
+  },
+  {
+    "id": "ssc_sample",
+    "title": "SSC Practice Set",
+    "subtitle": "Staff Selection Commission · Sample",
+    "tag": "SSC Sample",
+    "emoji": "📘",
+    "color": "#4a90d9",
+    "dataDir": "books/ssc_sample/data",
+    "chaptersFile": "chapters.json",
+    "description": "A starter book showing how to add more question banks. Replace its JSON files with your own content."
+  },
+  {
+    "id": "physics",
+    "title": "Physics",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "PHYSICS",
+    "emoji": "⚛️",
+    "color": "#4ea3ff",
+    "dataDir": "books/physics/data",
+    "chaptersFile": "chapters.json",
+    "description": "17 chapters · 1,731 verified questions"
+  },
+  {
+    "id": "chemistry",
+    "title": "Chemistry",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "CHEMISTRY",
+    "emoji": "🧪",
+    "color": "#46d6a8",
+    "dataDir": "books/chemistry/data",
+    "chaptersFile": "chapters.json",
+    "description": "19 chapters · 757 verified questions"
+  },
+  {
+    "id": "biology",
+    "title": "Biology",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "BIOLOGY",
+    "emoji": "🧬",
+    "color": "#7ed957",
+    "dataDir": "books/biology/data",
+    "chaptersFile": "chapters.json",
+    "description": "29 chapters · 1,601 verified questions"
+  },
+  {
+    "id": "ancient_india",
+    "title": "Ancient India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "ANCIENT",
+    "emoji": "🏛️",
+    "color": "#c9a84c",
+    "dataDir": "books/ancient_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "15 chapters · 1,342 verified questions"
+  },
+  {
+    "id": "medieval_india",
+    "title": "Medieval India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "MEDIEVAL",
+    "emoji": "🏰",
+    "color": "#d4845a",
+    "dataDir": "books/medieval_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "25 chapters · 931 verified questions"
+  },
+  {
+    "id": "modern_india",
+    "title": "Modern India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "MODERN",
+    "emoji": "📜",
+    "color": "#b07cd9",
+    "dataDir": "books/modern_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "55 chapters · 2,732 verified questions"
+  }
+]

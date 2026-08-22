@@ -87,6 +87,40 @@ Then open `http://localhost:8000/`. No build step is required.
 
 Google sign-in is intended for the authorized GitHub Pages/custom domain. If local sign-in is needed, ensure `localhost` remains in Firebase Authentication’s authorized domains.
 
+## Multiple books
+
+The app opens on a **book-selection landing page**. Each book uses the exact same quiz interface, engine, banks (mistakes/bookmarks/skips/archive), dashboard, and sync — but points at its own question data and keeps its progress completely separate.
+
+The list of books lives in [`books/books.json`](books/books.json):
+
+```json
+{
+  "id": "bpsc_ghatna_chakra",
+  "title": "BPSC Ghatna Chakra",
+  "subtitle": "Bihar Public Service Commission · Prelims PYQ",
+  "tag": "BPSC Pre PYQ",
+  "emoji": "📜",
+  "color": "#c9a84c",
+  "dataDir": ".",
+  "chaptersFile": "data/chapters.json",
+  "description": "..."
+}
+```
+
+- `chaptersFile` is the repository-relative path to the book's chapter index.
+- Each subject's `file` inside that index is also repository-relative.
+- If `file` is a bare filename (no `/`), it is resolved relative to `dataDir`.
+- The first book in the list is the **legacy book**: it keeps the original `gc_*` local/Firestore keys so existing users never lose progress. Every other book's progress is stored under per-book namespaced keys (e.g. `gc_history__book_<id>`), so books never mix.
+
+### Add a new book
+
+1. Create a folder for its data, e.g. `books/my_book/data/`.
+2. Add a `chapters.json` in the same format as [`data/chapters.json`](data/chapters.json) (subjects with `key`, `label`, `emoji`, `file`, and `chapters`).
+3. Add one JSON file per subject in the same format as the existing subject files.
+4. Append an entry to `books/books.json`.
+
+A working starter example lives in [`books/ssc_sample/`](books/ssc_sample/).
+
 ## Main features
 
 - Subject and chapter selection
