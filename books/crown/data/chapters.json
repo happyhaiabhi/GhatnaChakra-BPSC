@@ -1,9 +1,9 @@
 [
   {
-    "key": "bihar_general_studies",
-    "label": "Bihar General Studies",
-    "emoji": "👑",
-    "file": "bihar_general_studies.json",
+    "key": "ancient_history",
+    "label": "Ancient History of Bihar",
+    "emoji": "🏛️",
+    "file": "ancient_history.json",
     "chapters": [
       {
         "name": "Sources of Ancient History",
@@ -28,7 +28,15 @@
       {
         "name": "The Gupta Empire",
         "count": 35
-      },
+      }
+    ]
+  },
+  {
+    "key": "medieval_history",
+    "label": "Medieval History of Bihar",
+    "emoji": "🏰",
+    "file": "medieval_history.json",
+    "chapters": [
       {
         "name": "Sources of Medieval History",
         "count": 10
@@ -52,7 +60,15 @@
       {
         "name": "Bihar in 18th Century",
         "count": 20
-      },
+      }
+    ]
+  },
+  {
+    "key": "modern_history",
+    "label": "Modern History of Bihar",
+    "emoji": "📜",
+    "file": "modern_history.json",
+    "chapters": [
       {
         "name": "Civil Rebellion & Tribal Uprisings",
         "count": 20
@@ -64,7 +80,15 @@
       {
         "name": "Freedom Movement in Bihar",
         "count": 20
-      },
+      }
+    ]
+  },
+  {
+    "key": "geography",
+    "label": "Geography of Bihar",
+    "emoji": "🗺️",
+    "file": "geography.json",
+    "chapters": [
       {
         "name": "Physical Geography of Bihar",
         "count": 25
@@ -80,7 +104,15 @@
       {
         "name": "Natural Resources of Bihar",
         "count": 27
-      },
+      }
+    ]
+  },
+  {
+    "key": "economy",
+    "label": "Economy of Bihar",
+    "emoji": "💰",
+    "file": "economy.json",
+    "chapters": [
       {
         "name": "Agriculture in Bihar",
         "count": 25
@@ -88,26 +120,6 @@
       {
         "name": "Transportation and Communication",
         "count": 10
-      },
-      {
-        "name": "Bihar Executive - Governor & Council",
-        "count": 13
-      },
-      {
-        "name": "Bihar Public Service Commission",
-        "count": 5
-      },
-      {
-        "name": "Bihar Administrative Structure",
-        "count": 5
-      },
-      {
-        "name": "Bihar Local Governance & Panchayat",
-        "count": 20
-      },
-      {
-        "name": "Census of Bihar 2011",
-        "count": 15
       },
       {
         "name": "Economy: An Overview",
@@ -144,7 +156,43 @@
       {
         "name": "Human Development",
         "count": 25
+      }
+    ]
+  },
+  {
+    "key": "governance",
+    "label": "Governance & Administration",
+    "emoji": "🏛️",
+    "file": "governance.json",
+    "chapters": [
+      {
+        "name": "Bihar Executive - Governor & Council",
+        "count": 13
       },
+      {
+        "name": "Bihar Public Service Commission",
+        "count": 5
+      },
+      {
+        "name": "Bihar Administrative Structure",
+        "count": 5
+      },
+      {
+        "name": "Bihar Local Governance & Panchayat",
+        "count": 20
+      },
+      {
+        "name": "Census of Bihar 2011",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "key": "culture",
+    "label": "Culture & Social Aspects",
+    "emoji": "🎭",
+    "file": "culture.json",
+    "chapters": [
       {
         "name": "Education of Bihar",
         "count": 10
