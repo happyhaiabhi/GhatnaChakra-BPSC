@@ -1,0 +1,410 @@
+{
+ "book": "Indian History (PREVIEW 2026)",
+ "source_hierarchy": [
+  {
+   "subject": "Ancient History of India",
+   "source_part": "I. Ancient History of India",
+   "chapters": [
+    {
+     "chapter_name": "1. Stone Age",
+     "pages": "B009–B016"
+    },
+    {
+     "chapter_name": "2. Indus Valley Civilization",
+     "pages": "B017–B032"
+    },
+    {
+     "chapter_name": "3. Vedic Age",
+     "pages": "B032–B048"
+    },
+    {
+     "chapter_name": "4. Buddhism",
+     "pages": "B048–B070"
+    },
+    {
+     "chapter_name": "5. Jain Religion",
+     "pages": "B071–B081"
+    },
+    {
+     "chapter_name": "6. Shaiva, Bhagavata Religion",
+     "pages": "B081–B087"
+    },
+    {
+     "chapter_name": "7. Sixth century B.C.E - Political Condition",
+     "pages": "B087–B096"
+    },
+    {
+     "chapter_name": "8. Greek Invasion",
+     "pages": "B096–B098"
+    },
+    {
+     "chapter_name": "9. Maurya Empire",
+     "pages": "B098–B119"
+    },
+    {
+     "chapter_name": "10. Post-Mauryan Period",
+     "pages": "B119–B130"
+    },
+    {
+     "chapter_name": "11. Gupta and Post-Gupta Period",
+     "pages": "B130–B156"
+    },
+    {
+     "chapter_name": "12. Architecture in Ancient India",
+     "pages": "B156–B170"
+    },
+    {
+     "chapter_name": "13. South India (Chola, Chalukya, Pallava and Sangam Period)",
+     "pages": "B170–B183"
+    },
+    {
+     "chapter_name": "14. Ancient Literature and Litterateur",
+     "pages": "B183–B195"
+    },
+    {
+     "chapter_name": "15. Early-Medieval Period",
+     "pages": "B195–B203"
+    }
+   ]
+  },
+  {
+   "subject": "Medieval History of India",
+   "source_part": "II. Medieval History of India",
+   "chapters": [
+    {
+     "chapter_name": "1. Muslim Invasion of India",
+     "pages": "B204–B210"
+    },
+    {
+     "chapter_name": "2. Delhi Sultanate: Slave Dynasty",
+     "pages": "B210–B217"
+    },
+    {
+     "chapter_name": "3. Khalji Dynasty",
+     "pages": "B217–B223"
+    },
+    {
+     "chapter_name": "4. Tughluq Dynasty",
+     "pages": "B223–B230"
+    },
+    {
+     "chapter_name": "5. Lodi Dynasty",
+     "pages": "B230–B232"
+    },
+    {
+     "chapter_name": "6. Vijayanagara Empire",
+     "pages": "B232–B239"
+    },
+    {
+     "chapter_name": "7. Delhi Sultanate: Administration",
+     "pages": "B239–B244"
+    },
+    {
+     "chapter_name": "8. Delhi Sultanate: Art and Architecture",
+     "pages": "B244–B247"
+    },
+    {
+     "chapter_name": "9. Delhi Sultanate: Literature",
+     "pages": "B247–B253"
+    },
+    {
+     "chapter_name": "10. Delhi Sultanate : Miscellaneous",
+     "pages": "B253–B257"
+    },
+    {
+     "chapter_name": "11. Provincial Dynasty of North India and Deccan Province",
+     "pages": "B257–B263"
+    },
+    {
+     "chapter_name": "12. Bhakti and Sufi Movement",
+     "pages": "B263–B278"
+    },
+    {
+     "chapter_name": "13. Mughal Dynasty : Babur",
+     "pages": "B278–B283"
+    },
+    {
+     "chapter_name": "14. Humayun and Sher Shah",
+     "pages": "B283–B288"
+    },
+    {
+     "chapter_name": "15. Akbar",
+     "pages": "B288–B300"
+    },
+    {
+     "chapter_name": "16. Jahangir",
+     "pages": "B300–B305"
+    },
+    {
+     "chapter_name": "17. Shah Jahan",
+     "pages": "B305–B309"
+    },
+    {
+     "chapter_name": "18. Aurangzeb",
+     "pages": "B309–B313"
+    },
+    {
+     "chapter_name": "19. Mughal Administration",
+     "pages": "B313–B319"
+    },
+    {
+     "chapter_name": "20. Music and Paintings of Mughal Period",
+     "pages": "B319–B322"
+    },
+    {
+     "chapter_name": "21. Mughal Literature",
+     "pages": "B322–B326"
+    },
+    {
+     "chapter_name": "22. Mughal Period : Miscellaneous",
+     "pages": "B326–B334"
+    },
+    {
+     "chapter_name": "23. Sikh Sect",
+     "pages": "B334–B337"
+    },
+    {
+     "chapter_name": "24. Maratha State and Confederacy",
+     "pages": "B337–B343"
+    },
+    {
+     "chapter_name": "25. Disintegration of the Mughal Empire",
+     "pages": "B343–B347"
+    }
+   ]
+  },
+  {
+   "subject": "Modern History of India",
+   "source_part": "III. Modern History of India",
+   "chapters": [
+    {
+     "chapter_name": "1. Advent of European Companies",
+     "pages": "B348–B358"
+    },
+    {
+     "chapter_name": "2. East India Company and Nawab of Bengal",
+     "pages": "B358–B363"
+    },
+    {
+     "chapter_name": "3. Regional States: Punjab and Mysore",
+     "pages": "B363–B368"
+    },
+    {
+     "chapter_name": "4. Governor/Governor General/ Viceroy",
+     "pages": "B368–B389"
+    },
+    {
+     "chapter_name": "5. Economic Impact of British Rule on India",
+     "pages": "B389–B397"
+    },
+    {
+     "chapter_name": "6. Revolt of 1857",
+     "pages": "B397–B412"
+    },
+    {
+     "chapter_name": "7. Other Civil Uprisings",
+     "pages": "B412–B427"
+    },
+    {
+     "chapter_name": "8. Development of Education in Modern India",
+     "pages": "B427–B434"
+    },
+    {
+     "chapter_name": "9. Development of Press in Modern India",
+     "pages": "B435–B446"
+    },
+    {
+     "chapter_name": "10. Social Religious Movement",
+     "pages": "B446–B469"
+    },
+    {
+     "chapter_name": "11. Political Organisation Established before Congress",
+     "pages": "B469–B474"
+    },
+    {
+     "chapter_name": "12. Indian National Congress",
+     "pages": "B474–B486"
+    },
+    {
+     "chapter_name": "13. Moderates and Extremists in Congress",
+     "pages": "B486–B492"
+    },
+    {
+     "chapter_name": "14. Revolutionary Movement in India",
+     "pages": "B492–B505"
+    },
+    {
+     "chapter_name": "15. Revolutionary Activities Outside India",
+     "pages": "B505–B511"
+    },
+    {
+     "chapter_name": "16. Partition of Bengal and Swadeshi Movement",
+     "pages": "B511–B517"
+    },
+    {
+     "chapter_name": "17. Congress: Banaras, Culcutta, and Surat Session",
+     "pages": "B517–B520"
+    },
+    {
+     "chapter_name": "18. Formation of Muslim League (1906)",
+     "pages": "B520–B522"
+    },
+    {
+     "chapter_name": "19. Morley-Minto Reforms",
+     "pages": "B522–B524"
+    },
+    {
+     "chapter_name": "20. Delhi Durbar and Change of Capital",
+     "pages": "B524–B525"
+    },
+    {
+     "chapter_name": "21. Lucknow Session of Congress (The Lucknow Pact)",
+     "pages": "B525–B527"
+    },
+    {
+     "chapter_name": "22. Home Rule League Movement",
+     "pages": "B527–B529"
+    },
+    {
+     "chapter_name": "23. Gandhi and His Early Movement",
+     "pages": "B529–B545"
+    },
+    {
+     "chapter_name": "24. Peasant Movement and Kisan Sabha",
+     "pages": "B545–B550"
+    },
+    {
+     "chapter_name": "25. Trade Union and Communist Party",
+     "pages": "B551–B553"
+    },
+    {
+     "chapter_name": "26. Rowlatt Act and Jallianwala Bagh Massacre (1919)",
+     "pages": "B553–B559"
+    },
+    {
+     "chapter_name": "27. Khilafat Movement",
+     "pages": "B559–B562"
+    },
+    {
+     "chapter_name": "28. Non-Cooperation Movement",
+     "pages": "B562–B570"
+    },
+    {
+     "chapter_name": "29. Formation of Swaraj Party (1923)",
+     "pages": "B571–B574"
+    },
+    {
+     "chapter_name": "30. Simon Commission (1927)",
+     "pages": "B575–B578"
+    },
+    {
+     "chapter_name": "31. Lahore Session of Congress, Proposal of Complete Independence (1929)",
+     "pages": "B578–B581"
+    },
+    {
+     "chapter_name": "32. Civil Disobedience Movement",
+     "pages": "B581–B587"
+    },
+    {
+     "chapter_name": "33. Gandhi-Irwin Pact",
+     "pages": "B587–B589"
+    },
+    {
+     "chapter_name": "34. Karachi Session of Congress (1931)",
+     "pages": "B589–B590"
+    },
+    {
+     "chapter_name": "35. Round Table Conference",
+     "pages": "B590–B593"
+    },
+    {
+     "chapter_name": "36. Communal Award And Poona Pact (1932)",
+     "pages": "B593–B597"
+    },
+    {
+     "chapter_name": "37. Congress Socialist Party (1934)",
+     "pages": "B597–B599"
+    },
+    {
+     "chapter_name": "38. Provincial Election and Formation of Cabinet (1937)",
+     "pages": "B600–B602"
+    },
+    {
+     "chapter_name": "39. Tripuri Crisis of Congress (1939)",
+     "pages": "B602–B604"
+    },
+    {
+     "chapter_name": "40. Indian Princely States",
+     "pages": "B604–B605"
+    },
+    {
+     "chapter_name": "41. Second World War",
+     "pages": "B605–B607"
+    },
+    {
+     "chapter_name": "42. Demand for Pakistan",
+     "pages": "B607–B609"
+    },
+    {
+     "chapter_name": "43. Individual Satyagraha (1940)",
+     "pages": "B610–B611"
+    },
+    {
+     "chapter_name": "44. Cripps Mission (1942)",
+     "pages": "B611–B612"
+    },
+    {
+     "chapter_name": "45. Quit India Movement",
+     "pages": "B612–B623"
+    },
+    {
+     "chapter_name": "46. Subhash Chandra Bose and Azad Hind Fauj",
+     "pages": "B623–B630"
+    },
+    {
+     "chapter_name": "47. Cabinet Mission Plan (1946)",
+     "pages": "B630–B633"
+    },
+    {
+     "chapter_name": "48. Constituent Assembly (1946)",
+     "pages": "B633–B635"
+    },
+    {
+     "chapter_name": "49. Formation of Interim Government (1946)",
+     "pages": "B635–B637"
+    },
+    {
+     "chapter_name": "50. Partition of India and Independence",
+     "pages": "B637–B645"
+    },
+    {
+     "chapter_name": "51. Constitutional Development of India",
+     "pages": "B645–B658"
+    },
+    {
+     "chapter_name": "52. Modern History : Miscellaneous",
+     "pages": "B658–B707"
+    },
+    {
+     "chapter_name": "53. Magazines, Books And Their Authors",
+     "pages": "B707–B734"
+    },
+    {
+     "chapter_name": "54. Art and Culture",
+     "pages": "B734–B756"
+    },
+    {
+     "chapter_name": "55. Award",
+     "pages": "B756–B760"
+    }
+   ]
+  }
+ ],
+ "classification_notes": [
+  "The source book divides Indian History into three parts (I. Ancient History of India, II. Medieval History of India, III. Modern History of India) as shown on the printed INDEX page (physical PDF page 3).",
+  "Subjects, chapters and their order mirror the printed index exactly; question numbering resets at every chapter.",
+  "A few printed chapter headings differ slightly from the index wording (e.g. index \"Social Religious Movement\" vs printed \"Socio-Religious Movements\"; index \"Congress: Banaras, Culcutta...\" vs printed \"Congress: Benaras, Calcutta...\"). The index names are used as chapter_name (mirroring the source index) and the differences are documented here.",
+  "All 95 chapter boundaries were located from the printed chapter-title lines in the body (sourced, not inferred).",
+  "No external taxonomy was imposed; questions were classified exactly once into the source unit containing them."
+ ]
+}

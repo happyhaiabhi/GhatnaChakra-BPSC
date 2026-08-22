@@ -1,0 +1,885 @@
+{
+ "method": "Questions fingerprinted by normalized question text + exact option text (exact duplicates) and by normalized question text alone (near duplicates). All duplicate source occurrences are retained; this report documents them.",
+ "exact_duplicate_groups": [
+  {
+   "occurrences": [
+    {
+     "page": 61,
+     "qnum": 92
+    },
+    {
+     "page": 468,
+     "qnum": 148
+    }
+   ],
+   "question_preview": "Who advocated ‘Neo-Buddhism’?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 210,
+     "qnum": 40
+    },
+    {
+     "page": 216,
+     "qnum": 31
+    },
+    {
+     "page": 340,
+     "qnum": 23
+    }
+   ],
+   "question_preview": "Below are two statements, one of which is an Assertion"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 321,
+     "qnum": 16
+    },
+    {
+     "page": 741,
+     "qnum": 51
+    }
+   ],
+   "question_preview": "The Raga which is sung early in the morning, is–"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 426,
+     "qnum": 88
+    },
+    {
+     "page": 550,
+     "qnum": 34
+    }
+   ],
+   "question_preview": "The Tebhaga Movement was started in 1946 from\nBengal under the leadership of :"
+  }
+ ],
+ "near_duplicate_groups": [
+  {
+   "occurrences": [
+    {
+     "page": 24,
+     "qnum": 30
+    },
+    {
+     "page": 89,
+     "qnum": 2
+    },
+    {
+     "page": 96,
+     "qnum": 59
+    },
+    {
+     "page": 137,
+     "qnum": 35
+    },
+    {
+     "page": 246,
+     "qnum": 14
+    },
+    {
+     "page": 253,
+     "qnum": 4
+    },
+    {
+     "page": 275,
+     "qnum": 77
+    },
+    {
+     "page": 330,
+     "qnum": 21
+    },
+    {
+     "page": 334,
+     "qnum": 42
+    },
+    {
+     "page": 374,
+     "qnum": 31
+    },
+    {
+     "page": 381,
+     "qnum": 85
+    },
+    {
+     "page": 381,
+     "qnum": 88
+    },
+    {
+     "page": 425,
+     "qnum": 80
+    },
+    {
+     "page": 681,
+     "qnum": 139
+    },
+    {
+     "page": 689,
+     "qnum": 181
+    },
+    {
+     "page": 709,
+     "qnum": 12
+    },
+    {
+     "page": 710,
+     "qnum": 14
+    },
+    {
+     "page": 739,
+     "qnum": 41
+    },
+    {
+     "page": 740,
+     "qnum": 44
+    },
+    {
+     "page": 750,
+     "qnum": 112
+    }
+   ],
+   "distinct_option_sets": 20,
+   "question_preview": "Which of the following is not correctly matched –"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 27,
+     "qnum": 61
+    },
+    {
+     "page": 188,
+     "qnum": 28
+    },
+    {
+     "page": 305,
+     "qnum": 34
+    },
+    {
+     "page": 355,
+     "qnum": 44
+    },
+    {
+     "page": 381,
+     "qnum": 83
+    },
+    {
+     "page": 444,
+     "qnum": 62
+    },
+    {
+     "page": 462,
+     "qnum": 114
+    },
+    {
+     "page": 466,
+     "qnum": 136
+    },
+    {
+     "page": 682,
+     "qnum": 141
+    },
+    {
+     "page": 688,
+     "qnum": 172
+    },
+    {
+     "page": 714,
+     "qnum": 41
+    },
+    {
+     "page": 745,
+     "qnum": 79
+    }
+   ],
+   "distinct_option_sets": 12,
+   "question_preview": "Which one of the following is not correctly matched ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 81,
+     "qnum": 61
+    },
+    {
+     "page": 690,
+     "qnum": 183
+    },
+    {
+     "page": 702,
+     "qnum": 248
+    },
+    {
+     "page": 720,
+     "qnum": 92
+    }
+   ],
+   "distinct_option_sets": 4,
+   "question_preview": "Which one of the following statements is not correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 109,
+     "qnum": 69
+    },
+    {
+     "page": 109,
+     "qnum": 70
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following scripts of ancient India was\nwritten from right to left?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 113,
+     "qnum": 106
+    },
+    {
+     "page": 113,
+     "qnum": 108
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "The division of Mauryan society into seven classes is\nparticularly mentioned in -:"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 114,
+     "qnum": 115
+    },
+    {
+     "page": 114,
+     "qnum": 116
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who was the author of ‘Indica’?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 121,
+     "qnum": 10
+    },
+    {
+     "page": 126,
+     "qnum": 53
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "With reference to the invaders in ancient India, which\none of the following is the correct chronological order?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 125,
+     "qnum": 43
+    },
+    {
+     "page": 362,
+     "qnum": 28
+    },
+    {
+     "page": 708,
+     "qnum": 3
+    },
+    {
+     "page": 713,
+     "qnum": 37
+    },
+    {
+     "page": 714,
+     "qnum": 43
+    },
+    {
+     "page": 717,
+     "qnum": 63
+    },
+    {
+     "page": 728,
+     "qnum": 166
+    }
+   ],
+   "distinct_option_sets": 7,
+   "question_preview": "Which one of the following pairs is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 149,
+     "qnum": 136
+    },
+    {
+     "page": 155,
+     "qnum": 180
+    },
+    {
+     "page": 194,
+     "qnum": 87
+    },
+    {
+     "page": 196,
+     "qnum": 11
+    },
+    {
+     "page": 241,
+     "qnum": 8
+    },
+    {
+     "page": 255,
+     "qnum": 12
+    },
+    {
+     "page": 280,
+     "qnum": 12
+    },
+    {
+     "page": 326,
+     "qnum": 1
+    },
+    {
+     "page": 375,
+     "qnum": 36
+    },
+    {
+     "page": 381,
+     "qnum": 90
+    },
+    {
+     "page": 384,
+     "qnum": 109
+    },
+    {
+     "page": 387,
+     "qnum": 127
+    },
+    {
+     "page": 387,
+     "qnum": 128
+    },
+    {
+     "page": 425,
+     "qnum": 82
+    },
+    {
+     "page": 462,
+     "qnum": 111
+    },
+    {
+     "page": 473,
+     "qnum": 26
+    },
+    {
+     "page": 500,
+     "qnum": 63
+    },
+    {
+     "page": 686,
+     "qnum": 165
+    },
+    {
+     "page": 701,
+     "qnum": 246
+    },
+    {
+     "page": 712,
+     "qnum": 27
+    },
+    {
+     "page": 712,
+     "qnum": 33
+    },
+    {
+     "page": 714,
+     "qnum": 44
+    },
+    {
+     "page": 725,
+     "qnum": 138
+    }
+   ],
+   "distinct_option_sets": 23,
+   "question_preview": "Which one of the following pairs is NOT correctly\nmatched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 163,
+     "qnum": 50
+    },
+    {
+     "page": 634,
+     "qnum": 8
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following statements is correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 167,
+     "qnum": 82
+    },
+    {
+     "page": 241,
+     "qnum": 9
+    },
+    {
+     "page": 324,
+     "qnum": 17
+    },
+    {
+     "page": 335,
+     "qnum": 7
+    },
+    {
+     "page": 443,
+     "qnum": 60
+    }
+   ],
+   "distinct_option_sets": 5,
+   "question_preview": "Which of the following pairs is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 190,
+     "qnum": 52
+    },
+    {
+     "page": 263,
+     "qnum": 40
+    },
+    {
+     "page": 271,
+     "qnum": 48
+    },
+    {
+     "page": 393,
+     "qnum": 29
+    },
+    {
+     "page": 443,
+     "qnum": 59
+    },
+    {
+     "page": 462,
+     "qnum": 113
+    },
+    {
+     "page": 500,
+     "qnum": 64
+    },
+    {
+     "page": 660,
+     "qnum": 7
+    },
+    {
+     "page": 696,
+     "qnum": 216
+    },
+    {
+     "page": 698,
+     "qnum": 224
+    },
+    {
+     "page": 715,
+     "qnum": 49
+    },
+    {
+     "page": 752,
+     "qnum": 127
+    }
+   ],
+   "distinct_option_sets": 12,
+   "question_preview": "Which of the following pairs is not correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 198,
+     "qnum": 23
+    },
+    {
+     "page": 198,
+     "qnum": 24
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who founded the Vikramshila University ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 261,
+     "qnum": 27
+    },
+    {
+     "page": 267,
+     "qnum": 13
+    },
+    {
+     "page": 332,
+     "qnum": 30
+    },
+    {
+     "page": 380,
+     "qnum": 82
+    },
+    {
+     "page": 381,
+     "qnum": 89
+    },
+    {
+     "page": 464,
+     "qnum": 121
+    },
+    {
+     "page": 466,
+     "qnum": 140
+    },
+    {
+     "page": 570,
+     "qnum": 49
+    },
+    {
+     "page": 713,
+     "qnum": 36
+    },
+    {
+     "page": 714,
+     "qnum": 40
+    },
+    {
+     "page": 714,
+     "qnum": 45
+    },
+    {
+     "page": 715,
+     "qnum": 50
+    }
+   ],
+   "distinct_option_sets": 12,
+   "question_preview": "Which one of the following is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 303,
+     "qnum": 18
+    },
+    {
+     "page": 303,
+     "qnum": 19
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Mughal painting reached its zenith under :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 323,
+     "qnum": 4
+    },
+    {
+     "page": 323,
+     "qnum": 5
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who wrote Humayun Nama?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 338,
+     "qnum": 7
+    },
+    {
+     "page": 338,
+     "qnum": 8
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Where was the capital of Shivaji?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 367,
+     "qnum": 24
+    },
+    {
+     "page": 444,
+     "qnum": 65
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is correctly matched?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 372,
+     "qnum": 15
+    },
+    {
+     "page": 418,
+     "qnum": 35
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "The revolt of Vellore occurred during the regime of\nwhich Governor?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 388,
+     "qnum": 130
+    },
+    {
+     "page": 445,
+     "qnum": 68
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Match the following and select the correct answer from\nthe codes given below :"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 408,
+     "qnum": 68
+    },
+    {
+     "page": 408,
+     "qnum": 69
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who was the Governor-General of India during the\nrevolt of 1857?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 441,
+     "qnum": 46
+    },
+    {
+     "page": 441,
+     "qnum": 47
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following was a journal brought out\nby Abul Kalam Azad?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 456,
+     "qnum": 65
+    },
+    {
+     "page": 456,
+     "qnum": 67
+    },
+    {
+     "page": 456,
+     "qnum": 68
+    }
+   ],
+   "distinct_option_sets": 3,
+   "question_preview": "Who was the founder of ‘Prarthana Samaj’?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 480,
+     "qnum": 43
+    },
+    {
+     "page": 480,
+     "qnum": 44
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who was the ﬁ rst woman president of the Indian\nNational Congress?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 510,
+     "qnum": 36
+    },
+    {
+     "page": 510,
+     "qnum": 39
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "What was Kamagatamaru?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 519,
+     "qnum": 13
+    },
+    {
+     "page": 519,
+     "qnum": 14
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which one of the following statements is not correct\nabout Dadabhai Naoroji?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 541,
+     "qnum": 76
+    },
+    {
+     "page": 583,
+     "qnum": 18
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which event occurred ﬁ rst?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 568,
+     "qnum": 37
+    },
+    {
+     "page": 569,
+     "qnum": 45
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who led cultivators in Bihar during the Non-\ncooperation Movement?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 572,
+     "qnum": 13
+    },
+    {
+     "page": 684,
+     "qnum": 153
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Choose the correct chronological order of the following\nevents :\n(i) Lucknow Pact\n(ii) Formation of Swaraj Party\n(iii) J"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 622,
+     "qnum": 69
+    },
+    {
+     "page": 622,
+     "qnum": 70
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "In which of the following districts of Uttar Pradesh,\nparallel Government was established during Quit India\nMovement?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 631,
+     "qnum": 8
+    },
+    {
+     "page": 631,
+     "qnum": 10
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Who among the following was not a member of the\nCabinet Mission?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 637,
+     "qnum": 16
+    },
+    {
+     "page": 637,
+     "qnum": 18
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "When did Muslim League observe ‘Direct Action\nDay’ ?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 678,
+     "qnum": 125
+    },
+    {
+     "page": 687,
+     "qnum": 169
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following is NOT correctly matched?\nEvent Year"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 682,
+     "qnum": 143
+    },
+    {
+     "page": 726,
+     "qnum": 147
+    }
+   ],
+   "distinct_option_sets": 2,
+   "question_preview": "Which of the following pairs is correct?"
+  },
+  {
+   "occurrences": [
+    {
+     "page": 745,
+     "qnum": 80
+    },
+    {
+     "page": 746,
+     "qnum": 86
+    },
+    {
+     "page": 748,
+     "qnum": 96
+    },
+    {
+     "page": 750,
+     "qnum": 110
+    },
+    {
+     "page": 751,
+     "qnum": 118
+    }
+   ],
+   "distinct_option_sets": 5,
+   "question_preview": "Match the following –"
+  }
+ ]
+}

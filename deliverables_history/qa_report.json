@@ -1,0 +1,480 @@
+{
+ "pdf": {
+  "detected_page_count": 760,
+  "pages_processed": 760,
+  "pages_skipped": 0,
+  "source_files": [
+   "Preview_Indian_History_Part_2_2026_26116_C_E_Book_Merged-1-8.pdf (pages 1–8)",
+   "Preview_Indian_History_Part_2_2026_26116_C_E_Book_Merged-9-203.pdf (pages 9–203)",
+   "Preview_Indian_History_Part_2_2026_26116_C_E_Book_Merged-204-347.pdf (pages 204–347)",
+   "Preview_Indian_History_Part_2_2026_26116_C_E_Book_Merged-348-760.pdf (pages 348–760)"
+  ],
+  "extraction_method": "pdfminer.six character-level extraction with two-column visual reading order, watermark/header removal, symbol cleanup, Ans.-split merging, and question-boundary reconstruction via expected question-number sequences per chapter."
+ },
+ "totals": {
+  "total_source_question_occurrences": 5006,
+  "verified_questions_emitted": 5005,
+  "unverified_questions_excluded": 1,
+  "verified_questions_with_assets": 8
+ },
+ "subjects": [
+  {
+   "subject": "Ancient History of India",
+   "chapters": [
+    {
+     "chapter": "1. Stone Age",
+     "questions": 51
+    },
+    {
+     "chapter": "2. Indus Valley Civilization",
+     "questions": 96
+    },
+    {
+     "chapter": "3. Vedic Age",
+     "questions": 114
+    },
+    {
+     "chapter": "4. Buddhism",
+     "questions": 151
+    },
+    {
+     "chapter": "5. Jain Religion",
+     "questions": 63
+    },
+    {
+     "chapter": "6. Shaiva, Bhagavata Religion",
+     "questions": 31
+    },
+    {
+     "chapter": "7. Sixth century B.C.E - Political Condition",
+     "questions": 61
+    },
+    {
+     "chapter": "8. Greek Invasion",
+     "questions": 7
+    },
+    {
+     "chapter": "9. Maurya Empire",
+     "questions": 149
+    },
+    {
+     "chapter": "10. Post-Mauryan Period",
+     "questions": 79
+    },
+    {
+     "chapter": "11. Gupta and Post-Gupta Period",
+     "questions": 183
+    },
+    {
+     "chapter": "12. Architecture in Ancient India",
+     "questions": 100
+    },
+    {
+     "chapter": "13. South India (Chola, Chalukya, Pallava and Sangam Period)",
+     "questions": 96
+    },
+    {
+     "chapter": "14. Ancient Literature and Litterateur",
+     "questions": 88
+    },
+    {
+     "chapter": "15. Early-Medieval Period",
+     "questions": 73
+    }
+   ]
+  },
+  {
+   "subject": "Medieval History of India",
+   "chapters": [
+    {
+     "chapter": "1. Muslim Invasion of India",
+     "questions": 40
+    },
+    {
+     "chapter": "2. Delhi Sultanate: Slave Dynasty",
+     "questions": 39
+    },
+    {
+     "chapter": "3. Khalji Dynasty",
+     "questions": 34
+    },
+    {
+     "chapter": "4. Tughluq Dynasty",
+     "questions": 45
+    },
+    {
+     "chapter": "5. Lodi Dynasty",
+     "questions": 12
+    },
+    {
+     "chapter": "6. Vijayanagara Empire",
+     "questions": 48
+    },
+    {
+     "chapter": "7. Delhi Sultanate: Administration",
+     "questions": 31
+    },
+    {
+     "chapter": "8. Delhi Sultanate: Art and Architecture",
+     "questions": 15
+    },
+    {
+     "chapter": "9. Delhi Sultanate: Literature",
+     "questions": 43
+    },
+    {
+     "chapter": "10. Delhi Sultanate : Miscellaneous",
+     "questions": 28
+    },
+    {
+     "chapter": "11. Provincial Dynasty of North India and Deccan Province",
+     "questions": 42
+    },
+    {
+     "chapter": "12. Bhakti and Sufi Movement",
+     "questions": 99
+    },
+    {
+     "chapter": "13. Mughal Dynasty : Babur",
+     "questions": 28
+    },
+    {
+     "chapter": "14. Humayun and Sher Shah",
+     "questions": 33
+    },
+    {
+     "chapter": "15. Akbar",
+     "questions": 83
+    },
+    {
+     "chapter": "16. Jahangir",
+     "questions": 34
+    },
+    {
+     "chapter": "17. Shah Jahan",
+     "questions": 27
+    },
+    {
+     "chapter": "18. Aurangzeb",
+     "questions": 27
+    },
+    {
+     "chapter": "19. Mughal Administration",
+     "questions": 31
+    },
+    {
+     "chapter": "20. Music and Paintings of Mughal Period",
+     "questions": 25
+    },
+    {
+     "chapter": "21. Mughal Literature",
+     "questions": 33
+    },
+    {
+     "chapter": "22. Mughal Period : Miscellaneous",
+     "questions": 42
+    },
+    {
+     "chapter": "23. Sikh Sect",
+     "questions": 21
+    },
+    {
+     "chapter": "24. Maratha State and Confederacy",
+     "questions": 46
+    },
+    {
+     "chapter": "25. Disintegration of the Mughal Empire",
+     "questions": 25
+    }
+   ]
+  },
+  {
+   "subject": "Modern History of India",
+   "chapters": [
+    {
+     "chapter": "1. Advent of European Companies",
+     "questions": 63
+    },
+    {
+     "chapter": "2. East India Company and Nawab of Bengal",
+     "questions": 29
+    },
+    {
+     "chapter": "3. Regional States: Punjab and Mysore",
+     "questions": 28
+    },
+    {
+     "chapter": "4. Governor/Governor General/ Viceroy",
+     "questions": 134
+    },
+    {
+     "chapter": "5. Economic Impact of British Rule on India",
+     "questions": 53
+    },
+    {
+     "chapter": "6. Revolt of 1857",
+     "questions": 98
+    },
+    {
+     "chapter": "7. Other Civil Uprisings",
+     "questions": 90
+    },
+    {
+     "chapter": "8. Development of Education in Modern India",
+     "questions": 46
+    },
+    {
+     "chapter": "9. Development of Press in Modern India",
+     "questions": 73
+    },
+    {
+     "chapter": "10. Social Religious Movement",
+     "questions": 157
+    },
+    {
+     "chapter": "11. Political Organisation Established before Congress",
+     "questions": 30
+    },
+    {
+     "chapter": "12. Indian National Congress",
+     "questions": 87
+    },
+    {
+     "chapter": "13. Moderates and Extremists in Congress",
+     "questions": 40
+    },
+    {
+     "chapter": "14. Revolutionary Movement in India",
+     "questions": 92
+    },
+    {
+     "chapter": "15. Revolutionary Activities Outside India",
+     "questions": 42
+    },
+    {
+     "chapter": "16. Partition of Bengal and Swadeshi Movement",
+     "questions": 37
+    },
+    {
+     "chapter": "17. Congress: Banaras, Culcutta, and Surat Session",
+     "questions": 26
+    },
+    {
+     "chapter": "18. Formation of Muslim League (1906)",
+     "questions": 12
+    },
+    {
+     "chapter": "19. Morley-Minto Reforms",
+     "questions": 5
+    },
+    {
+     "chapter": "20. Delhi Durbar and Change of Capital",
+     "questions": 12
+    },
+    {
+     "chapter": "21. Lucknow Session of Congress (The Lucknow Pact)",
+     "questions": 10
+    },
+    {
+     "chapter": "22. Home Rule League Movement",
+     "questions": 14
+    },
+    {
+     "chapter": "23. Gandhi and His Early Movement",
+     "questions": 107
+    },
+    {
+     "chapter": "24. Peasant Movement and Kisan Sabha",
+     "questions": 38
+    },
+    {
+     "chapter": "25. Trade Union and Communist Party",
+     "questions": 18
+    },
+    {
+     "chapter": "26. Rowlatt Act and Jallianwala Bagh Massacre (1919)",
+     "questions": 40
+    },
+    {
+     "chapter": "27. Khilafat Movement",
+     "questions": 17
+    },
+    {
+     "chapter": "28. Non-Cooperation Movement",
+     "questions": 52
+    },
+    {
+     "chapter": "29. Formation of Swaraj Party (1923)",
+     "questions": 22
+    },
+    {
+     "chapter": "30. Simon Commission (1927)",
+     "questions": 23
+    },
+    {
+     "chapter": "31. Lahore Session of Congress, Proposal of Complete Independence (1929)",
+     "questions": 23
+    },
+    {
+     "chapter": "32. Civil Disobedience Movement",
+     "questions": 45
+    },
+    {
+     "chapter": "33. Gandhi-Irwin Pact",
+     "questions": 11
+    },
+    {
+     "chapter": "34. Karachi Session of Congress (1931)",
+     "questions": 8
+    },
+    {
+     "chapter": "35. Round Table Conference",
+     "questions": 25
+    },
+    {
+     "chapter": "36. Communal Award And Poona Pact (1932)",
+     "questions": 25
+    },
+    {
+     "chapter": "37. Congress Socialist Party (1934)",
+     "questions": 17
+    },
+    {
+     "chapter": "38. Provincial Election and Formation of Cabinet (1937)",
+     "questions": 17
+    },
+    {
+     "chapter": "39. Tripuri Crisis of Congress (1939)",
+     "questions": 13
+    },
+    {
+     "chapter": "40. Indian Princely States",
+     "questions": 10
+    },
+    {
+     "chapter": "41. Second World War",
+     "questions": 6
+    },
+    {
+     "chapter": "42. Demand for Pakistan",
+     "questions": 19
+    },
+    {
+     "chapter": "43. Individual Satyagraha (1940)",
+     "questions": 8
+    },
+    {
+     "chapter": "44. Cripps Mission (1942)",
+     "questions": 10
+    },
+    {
+     "chapter": "45. Quit India Movement",
+     "questions": 74
+    },
+    {
+     "chapter": "46. Subhash Chandra Bose and Azad Hind Fauj",
+     "questions": 46
+    },
+    {
+     "chapter": "47. Cabinet Mission Plan (1946)",
+     "questions": 21
+    },
+    {
+     "chapter": "48. Constituent Assembly (1946)",
+     "questions": 11
+    },
+    {
+     "chapter": "49. Formation of Interim Government (1946)",
+     "questions": 18
+    },
+    {
+     "chapter": "50. Partition of India and Independence",
+     "questions": 51
+    },
+    {
+     "chapter": "51. Constitutional Development of India",
+     "questions": 76
+    },
+    {
+     "chapter": "52. Modern History : Miscellaneous",
+     "questions": 286
+    },
+    {
+     "chapter": "53. Magazines, Books And Their Authors",
+     "questions": 218
+    },
+    {
+     "chapter": "54. Art and Culture",
+     "questions": 162
+    },
+    {
+     "chapter": "55. Award",
+     "questions": 37
+    }
+   ]
+  }
+ ],
+ "question_types": {
+  "Multiple Correct": 25,
+  "Standard MCQ": 3751,
+  "Chronological Order": 175,
+  "Statement-Based with Code": 174,
+  "Statement-Based (Correct Statement)": 193,
+  "Match the Following": 275,
+  "Correctly Matched Pairs": 59,
+  "Assertion and Reason": 67,
+  "Standard MCQ (Negative)": 102,
+  "Statement-Based (Incorrect Statement)": 54,
+  "Incorrectly Matched Pairs": 102,
+  "Fill in the Blank": 7,
+  "Diagram/Figure-Based": 8,
+  "Code-Based": 11,
+  "Statement-Based (Count)": 2
+ },
+ "answer_distribution_by_key": {
+  "*": 93,
+  "A": 1193,
+  "B": 1320,
+  "C": 1280,
+  "D": 1049,
+  "E": 44,
+  "multi(A+B)": 6,
+  "multi(A+C)": 3,
+  "multi(A+D)": 1,
+  "multi(B+C)": 6,
+  "multi(B+D)": 3,
+  "multi(C+D)": 7
+ },
+ "options_count_distribution": {
+  "4": 4617,
+  "5": 388
+ },
+ "explanations": {
+  "present": 5005,
+  "absent_in_source": 0,
+  "cross_references_resolved_to_full_text": 0
+ },
+ "notes_retained": 108,
+ "assets": [
+  "assets/p0090_q07_mahajanapadas_map.png",
+  "assets/p0104_q32_ashoka_empire_map.png",
+  "assets/p0220_q14_malik_kafur_route_map.png",
+  "assets/p0231_q03_lodi_map.png",
+  "assets/p0290_q09_akbar_empire_map.png",
+  "assets/p0306_q01_shahjahan_empire_map.png",
+  "assets/p0312_q17_aurangzeb_kingdom_map.png",
+  "assets/p0338_q02_maratha_kingdom_map.png"
+ ],
+ "duplicates": {
+  "exact_duplicate_groups": 4,
+  "near_duplicate_groups": 35,
+  "all_occurrences_retained": true
+ },
+ "source_fidelity_notes": [
+  "Option markers normalized to uppercase A–E; genuine uppercase markers in the source (e.g. \"(C) H.D. Sankalia\") are handled.",
+  "Option labels printed out of order on two pages were restored to canonical A–D with notes (page 582 Q5; page 502 Q71 has a repeated-(a)/(b) typo, reconstructed with a note).",
+  "One question (page 758 Q15) has corrupted option labels (a) missing, (c) duplicated) and is reported as unverified.",
+  "The source uses ligatures (ﬁ ﬂ ﬀ ﬃ ﬆ); these are preserved as valid Unicode.",
+  "Question numbers with missing periods (\"100.In\", \"18 In\") and standalone numbers (map question \"1.\") are handled."
+ ]
+}
