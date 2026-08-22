@@ -975,12 +975,12 @@ function bankItemHtml(e,bankType){
   const q=e.q||{},questionType=getQuestionType(q);
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<(e.correctCount||0)?'filled':''}"></div>`).join('');
   const date=e.addedAt?new Date(e.addedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${escapeHtml(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div></div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div></div>`;
 }
 function archiveItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),from=String(e.fromBank||'archive').toLowerCase();
   const date=e.archivedAt?new Date(e.archivedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${escapeHtml(questionCorrectAnswerLabel(q))}</div></div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
 }
 function renderBankScreen(bankType,bank,screenId,itemRenderer){
   const allItems=Object.values(bank),visible=Object.values(filteredBank(bank,bankType));
@@ -1034,6 +1034,22 @@ function startQuiz(mode,customPool){
 function escapeHtml(value){
   return String(value??'').replace(/[&<>\"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[ch]));
 }
+// Soft line wraps left over from PDF extraction must not force artificial row
+// breaks. A single newline is treated as a page-width wrap and becomes a space.
+// A blank line (two newlines) stays a real paragraph break. A hyphenated word
+// split across a wrap joins back together without an added space. Always run
+// the result through escapeHtml before inserting it into the HTML.
+function normalizeBookText(value){
+  let text=String(value??'').replace(/\r\n?/g,'\n');
+  text=text.replace(/([A-Za-z\u00C0-\u024F])-\n(?=[A-Za-z\u00C0-\u024F])/g,'$1');
+  text=text.replace(/([^\n])\n(?=[^\n])/g,'$1 ');
+  text=text.replace(/^\n(?=[^\n])/,'');
+  text=text.replace(/(?<=[^\n])\n$/,'');
+  return text;
+}
+function bookText(value){
+  return escapeHtml(normalizeBookText(value));
+}
 
 function questionAssetList(q){
   const out=[];
@@ -1083,7 +1099,7 @@ function questionCorrectAnswerLabel(q){
 }
 function optionDisplayText(value,key){
   const raw=String(value??'').trim();
-  return /^\[\s*(?:diagram|figure|image|formula)\b[\s\S]*\]$/i.test(raw)?`Figure (${String(key).toLowerCase()})`:raw;
+  return /^\[\s*(?:diagram|figure|image|formula)\b[\s\S]*\]$/i.test(raw)?`Figure (${String(key).toLowerCase()})`:normalizeBookText(raw);
 }
 
 function splitTrailingInstruction(value){
@@ -1174,7 +1190,7 @@ function getQuestionType(q){
 
 function renderRowStem(parsed,kind,baseClass){
   const listClass=kind==='number'?'statement-list':'lettered-list',rowClass=kind==='number'?'statement-row':'lettered-row',labelClass=kind==='number'?'statement-label':'lettered-label',textClass=kind==='number'?'statement-text':'lettered-text';
-  return `<div class="${baseClass} structured-stem ${kind==='number'?'numbered-stem':'lettered-stem'}">${parsed.intro?`<div class="structured-intro">${escapeHtml(parsed.intro)}</div>`:''}<div class="${listClass}">${parsed.rows.map(row=>`<div class="${rowClass}"><span class="${labelClass}">${escapeHtml(row.label)}.</span><span class="${textClass}">${escapeHtml(row.text)}</span></div>`).join('')}</div>${parsed.instruction?`<div class="structured-instruction">${escapeHtml(parsed.instruction)}</div>`:''}</div>`;
+  return `<div class="${baseClass} structured-stem ${kind==='number'?'numbered-stem':'lettered-stem'}">${parsed.intro?`<div class="structured-intro">${bookText(parsed.intro)}</div>`:''}<div class="${listClass}">${parsed.rows.map(row=>`<div class="${rowClass}"><span class="${labelClass}">${escapeHtml(row.label)}.</span><span class="${textClass}">${bookText(row.text)}</span></div>`).join('')}</div>${parsed.instruction?`<div class="structured-instruction">${bookText(parsed.instruction)}</div>`:''}</div>`;
 }
 function renderQuestionStem(q,context){
   const baseClass=context==='review'?'rev-q':context==='bank'?'bank-q':'q-text';
@@ -1186,10 +1202,10 @@ function renderQuestionStem(q,context){
     const numbered=!assertion&&parseNumberedStatements(q&&q.question);
     const lettered=!assertion&&!numbered&&parseLetteredStem(q&&q.question,q&&q.options);
     if(assertion){
-      stemHtml=`<div class="${baseClass} structured-stem assertion-reason-stem">${assertion.intro?`<div class="structured-intro">${escapeHtml(assertion.intro)}</div>`:''}<div class="assertion-reason-grid"><div class="ar-card assertion-card"><span class="ar-label">Assertion (A)</span><div class="ar-text">${escapeHtml(assertion.assertion)}</div></div><div class="ar-card reason-card"><span class="ar-label">Reason (R)</span><div class="ar-text">${escapeHtml(assertion.reason)}</div></div></div>${assertion.instruction?`<div class="structured-instruction">${escapeHtml(assertion.instruction)}</div>`:''}</div>`;
+      stemHtml=`<div class="${baseClass} structured-stem assertion-reason-stem">${assertion.intro?`<div class="structured-intro">${bookText(assertion.intro)}</div>`:''}<div class="assertion-reason-grid"><div class="ar-card assertion-card"><span class="ar-label">Assertion (A)</span><div class="ar-text">${bookText(assertion.assertion)}</div></div><div class="ar-card reason-card"><span class="ar-label">Reason (R)</span><div class="ar-text">${bookText(assertion.reason)}</div></div></div>${assertion.instruction?`<div class="structured-instruction">${bookText(assertion.instruction)}</div>`:''}</div>`;
     }else if(numbered)stemHtml=renderRowStem(numbered,'number',baseClass);
     else if(lettered)stemHtml=renderRowStem(lettered,'letter',baseClass);
-    else stemHtml=`<div class="${baseClass}">${escapeHtml(q&&q.question||'')}</div>`;
+    else stemHtml=`<div class="${baseClass}">${bookText(q&&q.question||'')}</div>`;
   }
   return{html:stemHtml+renderQuestionAsset(q),matchData:match,type:getQuestionType(q)};
 }
@@ -1300,9 +1316,9 @@ function parseMatchQuestion(question,options){
 }
 
 function renderMatchQuestion(match){
-  const heads=`<div class="match-list-heads"><div class="match-list-head">List - I${match.leftTitle?`<span class="match-list-title">(${escapeHtml(match.leftTitle)})</span>`:''}</div><div class="match-list-head">List - II${match.rightTitle?`<span class="match-list-title">(${escapeHtml(match.rightTitle)})</span>`:''}</div></div>`;
-  const rows=match.rows.map(row=>`<div class="match-list-row"><div class="match-cell"><span class="match-cell-label">${escapeHtml(row.leftLabel)}.</span><span class="match-cell-text">${escapeHtml(row.leftText)}</span></div><div class="match-cell"><span class="match-cell-label">${escapeHtml(row.rightLabel)}.</span><span class="match-cell-text">${escapeHtml(row.rightText)}</span></div></div>`).join('');
-  return `<div class="match-paper"><div class="match-prompt">${escapeHtml(match.prompt)}</div>${heads}<div class="match-list-rows">${rows}</div></div>`;
+  const heads=`<div class="match-list-heads"><div class="match-list-head">List - I${match.leftTitle?`<span class="match-list-title">(${bookText(match.leftTitle)})</span>`:''}</div><div class="match-list-head">List - II${match.rightTitle?`<span class="match-list-title">(${bookText(match.rightTitle)})</span>`:''}</div></div>`;
+  const rows=match.rows.map(row=>`<div class="match-list-row"><div class="match-cell"><span class="match-cell-label">${escapeHtml(row.leftLabel)}.</span><span class="match-cell-text">${bookText(row.leftText)}</span></div><div class="match-cell"><span class="match-cell-label">${escapeHtml(row.rightLabel)}.</span><span class="match-cell-text">${bookText(row.rightText)}</span></div></div>`).join('');
+  return `<div class="match-paper"><div class="match-prompt">${bookText(match.prompt)}</div>${heads}<div class="match-list-rows">${rows}</div></div>`;
 }
 
 function renderMatchOptions(match,optionKeys,answered){
@@ -1311,8 +1327,8 @@ function renderMatchOptions(match,optionKeys,answered){
   const rows=optionKeys.map(key=>{
     const item=match.codeRows.find(row=>row.key===key);if(!item)return'';
     const cls='opt-btn match-code-row'+(answerHasKey(answered,key)?' selected':'');
-    const cells=item.codes?item.codes.map(code=>`<span class="match-code-value">${escapeHtml(code)}</span>`).join(''):`<span class="match-code-free">${escapeHtml(item.value)}</span>`;
-    return `<button class="${cls}" style="--match-cols:${labels.length}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(item.value)}"><span class="match-option-key">(${escapeHtml(key.toLowerCase())})</span>${cells}</button>`;
+    const cells=item.codes?item.codes.map(code=>`<span class="match-code-value">${escapeHtml(code)}</span>`).join(''):`<span class="match-code-free">${bookText(item.value)}</span>`;
+    return `<button class="${cls}" style="--match-cols:${labels.length}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${bookText(item.value)}"><span class="match-option-key">(${escapeHtml(key.toLowerCase())})</span>${cells}</button>`;
   }).join('');
   return header+rows;
 }
@@ -1324,7 +1340,7 @@ function renderMatchReviewOptions(match,optionKeys,correctKey,userKey,isCorrect)
     const item=match.codeRows.find(row=>row.key===key);if(!item)return'';
     let cls='match-code-row match-review-code-row';
     if(answerHasKey(correctKey,key))cls+=' correct-ans';else if(answerHasKey(userKey,key)&&!isCorrect)cls+=' user-wrong';
-    const cells=item.codes?item.codes.map(code=>`<span class="match-code-value">${escapeHtml(code)}</span>`).join(''):`<span class="match-code-free">${escapeHtml(item.value)}</span>`;
+    const cells=item.codes?item.codes.map(code=>`<span class="match-code-value">${escapeHtml(code)}</span>`).join(''):`<span class="match-code-free">${bookText(item.value)}</span>`;
     return `<div class="${cls}" style="--match-cols:${labels.length}"><span class="match-option-key">(${escapeHtml(key.toLowerCase())})</span>${cells}</div>`;
   }).join('');
   return header+rows;
@@ -1342,7 +1358,7 @@ function renderQuestion(){
   const isLast=(i===quiz.length-1);
   const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#0a0e14;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
-  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+escapeHtml(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${escapeHtml(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${escapeHtml(q.note)}</div>`:''}</div>`;
+  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
   else{document.getElementById('btn-next').style.display='';document.getElementById('btn-submit').style.display='none';}
   const bookmarks=getBookmarks(),bBtn=document.getElementById('btn-bookmark');
@@ -1402,7 +1418,7 @@ function buildReview(filter){
     const optKeys=shuffledOptionOrders[idx]||Object.keys(q.options||{}),correctKeys=questionCorrectKeys(q);
     const presentation=renderQuestionStem(q,'review'),matchData=presentation.matchData;
     const optHtml=matchData?renderMatchReviewOptions(matchData,optKeys,correctKeys,userKey,isCorrect):optKeys.map(k=>{const value=q.options[k];if(value==null||value==='')return '';let cls='rev-opt';if(correctKeys.includes(k))cls+=' correct-ans';else if(answerHasKey(userKey,k)&&!isCorrect)cls+=' user-wrong';return `<div class="${cls}">${escapeHtml(optionDisplayText(value,k))}</div>`;}).join('');
-    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${escapeHtml(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${escapeHtml(q.note)}</div>`:''}</div>`;
+    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${bookText(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   }).join('');
 }
 

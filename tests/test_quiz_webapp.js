@@ -259,6 +259,30 @@ const ev = code => w.eval(code);
   assert.equal(d.querySelectorAll('#question-area .lettered-row').length,4,'lettered combo stem uses labelled rows');
   assert.equal(d.querySelector('#question-area .question-type-pill').textContent,'Lettered List');
 
+  // Regression: imported book prose carries soft PDF line wraps. They must be
+  // collapsed to spaces (blank-line paragraph breaks and hyphen joins excepted)
+  // in the live quiz, its explanation, and every review/bank surface.
+  assert.equal(ev(`normalizeBookText('first line\\nsecond line\\n\\nnew paragraph')`), 'first line second line\n\nnew paragraph', 'blank-line paragraph break preserved');
+  assert.equal(ev(`normalizeBookText('devel-\\nopment')`), 'development', 'hyphenated wrap rejoins without a space');
+  assert.equal(ev(`normalizeBookText('line1\\r\\nline2\\rline3')`), 'line1 line2 line3', 'CRLF/CR normalized then wrapped');
+  ev(`const q=allQuestions.find(x=>x.question.includes("visited 'Bhimbetka Caves'")&&x.question.includes('rock paintings')); window.__bhimbetkaQ=q; selectedChapters=new Set([q.chapter]); startQuiz('bookmarks',[q]);`);
+  assert.equal(ev('window.__bhimbetkaQ.question.includes("\\n")'), true, 'source fixture retains soft newlines');
+  const bqt=q=>q.textContent;
+  assert.equal(bqt(d.querySelector('#question-area .q-text')).includes('\n'), false, 'question stem renders without soft newlines');
+  assert(bqt(d.querySelector('#question-area .q-text')).includes("visited 'Bhimbetka Caves'"), 'complete sentence preserved in stem');
+  assert(bqt(d.querySelector('#question-area .q-text')).includes('rock paintings'), 'rock paintings preserved in stem');
+  assert.equal(bqt(d.querySelector('#question-area .exp-body')).includes('\n'), false, 'explanation renders without soft newlines');
+  w.toggleBookmark();
+  const bmKey = ev('sk("gc_bookmarks")');
+  assert(JSON.parse(w.localStorage.getItem(bmKey))[ev('window.__bhimbetkaQ.uid')], 'Bhimbetka question bookmarked');
+  w.showBookmarkScreen();
+  assert(d.getElementById('bookmark-screen').classList.contains('active'));
+  const bookmarkStem=d.querySelector('#bookmark-list .bank-q');
+  assert(bookmarkStem,'bookmarked question renders on the Bookmarks screen');
+  assert.equal(bookmarkStem.textContent.includes('\n'), false, 'bookmarked question has no soft newlines');
+  assert(bookmarkStem.textContent.includes("visited 'Bhimbetka Caves'"), 'bookmarked question retains the complete sentence');
+  ev(`removeFromBookmarks(window.__bhimbetkaQ.uid,false); showBookmarkScreen();`);
+
   // Extra source fields such as `asset` must survive mapping and render as images.
   await w.openBook('physics');
   await tick(10);
