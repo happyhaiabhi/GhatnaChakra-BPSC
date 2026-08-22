@@ -22,8 +22,8 @@ SUBJECTS = [
     ("deliverables_history/subjects/modern_history_of_india.json",   "modern_india",   "Modern India",   "📜", "#b07cd9"),
 ]
 
-# Fields the quiz app does not use — dropped to keep the banks small.
-DROP_Q_FIELDS = {"type", "type_detail", "source_page"}
+# Keep every source field except obvious duplicates of the normalized keys.
+DROP_Q_FIELDS = set()
 
 def main():
     books = json.loads(BOOKS_JSON.read_text(encoding="utf-8")) if BOOKS_JSON.exists() else []
@@ -39,6 +39,9 @@ def main():
         dest_dir = BOOKS_DIR / book_id / "data"
         if dest_dir.exists(): shutil.rmtree(dest_dir.parent)
         dest_dir.mkdir(parents=True)
+        dest_assets = dest_dir.parent / "assets"
+        dest_assets.mkdir(parents=True, exist_ok=True)
+        src_asset_dirs = [src.parent.parent / "assets", ROOT / "deliverables" / "assets", ROOT / "deliverables_history" / "assets"]
 
         # Normalise: only fields the app consumes.
         clean_chapters = []
@@ -46,7 +49,7 @@ def main():
         for c in data.get("chapters", []):
             qs = []
             for q in c.get("questions", []) or []:
-                qs.append({
+                kept = {
                     "q": q.get("q") or q.get("question") or "",
                     "options": q.get("options") or {},
                     "answer": q.get("answer") or q.get("correct_option") or "A",
@@ -56,7 +59,16 @@ def main():
                     **{k: v for k, v in q.items() if k not in
                        {"q", "question", "options", "answer", "correct_option",
                         "explanation", "exam", "year", *DROP_Q_FIELDS}},
-                })
+                }
+                qs.append(kept)
+                asset = kept.get("asset") or kept.get("image")
+                if asset:
+                    name = Path(asset).name
+                    for folder in src_asset_dirs:
+                        cand = folder / name
+                        if cand.exists():
+                            shutil.copy2(cand, dest_assets / name)
+                            break
                 q_count += 1
             clean_chapters.append({
                 "chapter_name": c.get("chapter_name") or c.get("name") or "General",
