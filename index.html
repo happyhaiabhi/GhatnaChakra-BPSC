@@ -198,6 +198,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .q-exam-tag{font-size:0.6rem;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,168,76,0.3);padding:3px 8px;border-radius:4px;flex-shrink:0;}
 .q-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:22px 24px;margin-bottom:14px;}
 .q-text{font-size:0.92rem;line-height:1.7;color:var(--text);font-weight:400;}
+.q-asset{margin:14px 0 0;padding:0;}
+.q-asset img{display:block;max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border);background:#fff;padding:8px;}
+.rev-q .q-asset,.bank-q .q-asset{margin-top:10px;}
 .options-grid{display:flex;flex-direction:column;gap:9px;margin-bottom:16px;}
 .opt-btn{display:flex;align-items:flex-start;padding:13px 18px;background:var(--opt-bg);border:1.5px solid transparent;border-radius:10px;cursor:pointer;transition:background 0.15s,border-color 0.15s,transform 0.1s;text-align:left;width:100%;font-family:'DM Sans',sans-serif;}
 .opt-btn:hover{background:var(--opt-hover);border-color:var(--border2);transform:translateX(3px);}
@@ -843,12 +846,32 @@ function startFromCard(subjId,e){
   setTimeout(()=>startQuiz(),100);
 }
 
+function toInternalQuestion(q,subjId,idx,chName){
+  // Keep every source field (asset/image/type/note/etc.) and overlay the
+  // normalized keys the quiz engine already uses.
+  const options=q.options||{};
+  const answerKey=q.answer||q.correct_option||q.correctKey||'A';
+  return Object.assign({},q,{
+    uid:q.uid||`${subjId}_${idx}`,
+    _subjectId:subjId,
+    chapter:chName,
+    exam:q.exam||'',
+    year:q.year||'',
+    question:q.q||q.question||'',
+    options,
+    correctKey:answerKey,
+    correctAnswer:options?.[answerKey]||q.correct_answer||q.correctAnswer||'',
+    explanation:q.explanation||'',
+    note:q.note||''
+  });
+}
+
 function processData(data,subjId){
   allQuestions=[];chapterMap={};let idx=0;
   (data.chapters||[]).forEach(ch=>{
     const chName=ch.chapter_name||ch.name||'General';chapterMap[chName]=[];
     (ch.questions||[]).forEach(q=>{
-      const internal={uid:`${subjId}_${idx++}`,_subjectId:subjId,chapter:chName,exam:q.exam||'',year:q.year||'',question:q.q||q.question||'',options:q.options||{},correctKey:q.answer||q.correct_option||'A',correctAnswer:q.options?.[q.answer||q.correct_option]||q.correct_answer||'',explanation:q.explanation||'',note:q.note||''};
+      const internal=toInternalQuestion(q,subjId,idx++,chName);
       allQuestions.push(internal);chapterMap[chName].push(internal);
     });
   });
@@ -925,6 +948,35 @@ function startQuiz(mode,customPool){
 function escapeHtml(value){
   return String(value??'').replace(/[&<>\"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[ch]));
 }
+
+function questionAssetList(q){
+  const out=[];
+  const add=value=>{
+    if(!value)return;
+    if(Array.isArray(value)){value.forEach(add);return;}
+    if(typeof value==='object'){add(value.src||value.url||value.path||value.asset||value.image);return;}
+    const s=String(value).trim();
+    if(s)out.push(s);
+  };
+  add(q&&q.asset);add(q&&q.image);add(q&&q.image_url);add(q&&q.images);add(q&&q.figure);
+  return [...new Set(out)];
+}
+
+function resolveAssetUrl(src){
+  if(!src)return '';
+  if(/^(https?:)?\/\//i.test(src)||src.startsWith('data:')||src.startsWith('blob:'))return src;
+  const clean=String(src).replace(/^\.\//,'');
+  const dir=((currentBook&&currentBook.dataDir)||bookDataDir||'').replace(/\/data\/?$/,'').replace(/\/$/,'');
+  if(dir&&dir!=='.')return dir+'/'+clean;
+  return clean;
+}
+
+function renderQuestionAsset(q){
+  const urls=questionAssetList(q).map(resolveAssetUrl).filter(Boolean);
+  if(!urls.length)return '';
+  return urls.map(url=>`<figure class="q-asset"><img class="q-asset-img" src="${escapeHtml(url)}" alt="Question figure" loading="lazy"></figure>`).join('');
+}
+
 
 function parseMatchCode(value,labels){
   const raw=String(value||'').replace(/[–—]/g,'-').trim();
@@ -1070,7 +1122,8 @@ function renderQuestion(){
   let optHtml='';
   if(matchData)optHtml=renderMatchOptions(matchData,optionKeys,answered);
   else optHtml=optionKeys.map(key=>{const text=q.options[key];if(!text)return '';let cls='opt-btn';if(answered===key)cls+=' selected';return `<button class="${cls}" onclick="selectOption('${escapeHtml(key)}')"><span class="opt-text">${escapeHtml(text)}</span></button>`;}).join('');
-  const questionHtml=matchData?renderMatchQuestion(matchData):`<div class="q-text">${escapeHtml(q.question)}</div>`;
+  const assetHtml=renderQuestionAsset(q);
+  const questionHtml=(matchData?renderMatchQuestion(matchData):`<div class="q-text">${escapeHtml(q.question)}</div>`)+assetHtml;
   const isLast=(i===quiz.length-1);
   const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#0a0e14;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span>${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${questionHtml}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${q.correctAnswer?('&#x2713; '+escapeHtml(q.correctAnswer)):'No verified answer'}</span></div><div class="exp-body">${escapeHtml(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${escapeHtml(q.note)}</div>`:''}</div>`;
@@ -1128,7 +1181,7 @@ function buildReview(filter){
     const optKeys=shuffledOptionOrders[idx]||Object.keys(q.options);
     const matchData=parseMatchQuestion(q.question,q.options);
     const optHtml=matchData?renderMatchReviewOptions(matchData,optKeys,q.correctKey,userKey,isCorrect):optKeys.map(k=>{if(!q.options[k])return '';let cls='rev-opt';if(k===q.correctKey)cls+=' correct-ans';else if(k===userKey&&!isCorrect)cls+=' user-wrong';return `<div class="${cls}">${escapeHtml(q.options[k])}</div>`;}).join('');
-    const questionHtml=matchData?renderMatchQuestion(matchData):`<div class="rev-q">${escapeHtml(q.question)}</div>`;
+    const questionHtml=(matchData?renderMatchQuestion(matchData):`<div class="rev-q">${escapeHtml(q.question)}</div>`)+renderQuestionAsset(q);
     return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span>${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${questionHtml}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${escapeHtml(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${escapeHtml(q.note)}</div>`:''}</div>`;
   }).join('');
 }
@@ -1325,7 +1378,7 @@ async function ensureSyncQuestionCatalog(){
       (data.chapters||[]).forEach(ch=>{
         const chName=ch.chapter_name||ch.name||'General';
         (ch.questions||[]).forEach(q=>{
-          const internal={uid:`${subj.id}_${idx++}`,_subjectId:subj.id,chapter:chName,exam:q.exam||'',year:q.year||'',question:q.q||q.question||'',options:q.options||{},correctKey:q.answer||q.correct_option||'A',correctAnswer:q.options?.[q.answer||q.correct_option]||q.correct_answer||'',explanation:q.explanation||'',note:q.note||''};
+          const internal=toInternalQuestion(q,subj.id,idx++,chName);
           catalog[internal.uid]=internal;
         });
       });

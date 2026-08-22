@@ -207,6 +207,20 @@ const ev = code => w.eval(code);
     assert(d.querySelector(`#books-grid .book-card[data-book="${id}"]`), `${id} book card present`);
   });
 
+
+  // Extra source fields such as `asset` must survive mapping and render as images.
+  await w.openBook('physics');
+  await tick(10);
+  await w.toggleSubjectCard('physics');
+  await tick(5);
+  const assetQ = ev(`allQuestions.find(x=>x.asset)`);
+  assert(assetQ && assetQ.asset, 'physics question asset field preserved');
+  ev(`selectedChapters=new Set([allQuestions.find(x=>x.asset).chapter]); const q=allQuestions.find(x=>x.asset); startQuiz('bookmarks',[q]);`);
+  const img = d.querySelector('#question-area .q-asset-img');
+  assert(img, 'question image rendered');
+  assert(String(img.getAttribute('src')).includes(String(assetQ.asset).split('/').pop()), 'image src uses asset filename');
+  assert(String(img.getAttribute('src')).startsWith('books/physics/'), 'image resolved under the active book');
+
   assert.equal(consoleErrors.length, 0, consoleErrors.join('\n'));
   console.log(JSON.stringify({
     status:'PASS',
