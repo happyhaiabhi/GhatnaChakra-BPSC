@@ -417,6 +417,33 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .modal-status.err{background:var(--red-dim);color:var(--red);border:1px solid var(--red);}
 .modal-status.info{background:var(--blue-dim);color:var(--blue);border:1px solid var(--blue);}
 .sync-pull-bar{background:var(--orange-dim);border:1px solid var(--orange);border-radius:8px;padding:10px 14px;font-size:0.73rem;color:var(--orange);display:none;align-items:center;gap:8px;flex-wrap:wrap;width:100%;max-width:960px;}
+/* ===== BOOK SELECTION SCREEN ===== */
+#books-screen{align-items:center;}
+.books-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px 40px;position:relative;z-index:2;width:100%;max-width:1000px;margin:0 auto;}
+.books-logo{font-family:'Cinzel',serif;font-size:2rem;font-weight:700;letter-spacing:1px;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:6px;text-align:center;}
+.books-tagline{color:var(--text3);font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:28px;text-align:center;}
+.books-grid{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
+.book-card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;cursor:pointer;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;overflow:hidden;display:flex;flex-direction:column;gap:10px;}
+.book-card::before{content:'';position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(135deg,var(--book-accent,var(--gold)),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;pointer-events:none;transition:opacity .18s ease;}
+.book-card:hover{transform:translateY(-4px);border-color:var(--border2);box-shadow:0 12px 30px rgba(0,0,0,.35);}
+.book-card:hover::before{opacity:1;}
+.book-emoji{font-size:2.6rem;line-height:1;}
+.book-title{font-family:'Cinzel',serif;font-size:1.15rem;font-weight:700;color:var(--text);line-height:1.25;}
+.book-subtitle{font-size:.72rem;color:var(--text3);letter-spacing:.5px;}
+.book-desc{font-size:.78rem;color:var(--text2);line-height:1.5;flex:1;}
+.book-stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px;}
+.book-stat{font-size:.7rem;color:var(--text3);}
+.book-stat b{color:var(--text);font-weight:600;}
+.book-open{margin-top:6px;align-self:flex-start;font-size:.78rem;font-weight:600;color:var(--book-accent,var(--gold));display:flex;align-items:center;gap:6px;}
+.book-card:hover .book-open{gap:10px;}
+.book-pill{position:absolute;top:16px;right:16px;font-size:.58rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;padding:4px 9px;border-radius:20px;color:var(--book-accent,var(--gold));background:color-mix(in srgb,var(--book-accent,var(--gold)) 14%,transparent);border:1px solid color-mix(in srgb,var(--book-accent,var(--gold)) 35%,transparent);}
+@media(max-width:600px){.books-grid{grid-template-columns:1fr;}.books-logo{font-size:1.6rem;}}
+
+/* "Switch book" pill in top navbar */
+.nav-switch-book{display:inline-flex;align-items:center;gap:6px;background:var(--surface2);border:1px solid var(--border);color:var(--text2);font-size:.72rem;padding:7px 12px;border-radius:20px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s;white-space:nowrap;}
+.nav-switch-book:hover{border-color:var(--gold);color:var(--gold);}
+@media(max-width:720px){.nav-switch-book .nav-switch-label{display:none;}}
+
 .sync-pull-bar.show{display:flex;}
 #sync-toast{position:fixed;bottom:76px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 18px;border-radius:20px;font-size:0.72rem;z-index:9998;opacity:0;transition:opacity 0.3s;pointer-events:none;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,0.3);}
 
@@ -426,12 +453,32 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 <div class="bg-grid"></div>
 <div class="bg-radial"></div>
 
-<!-- SETUP SCREEN -->
-<div class="screen active" id="setup-screen">
+<!-- BOOK SELECTION SCREEN -->
+<div class="screen active" id="books-screen">
   <div class="top-navbar">
     <div class="nav-brand">
-      <span class="nav-brand-tag">BPSC Pre PYQ</span>
+      <span class="nav-brand-tag">Quiz Library</span>
       <span class="nav-brand-name">Ghatna Chakra</span>
+    </div>
+    <div class="nav-spacer"></div>
+    <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn-books" title="Toggle theme">&#9728;&#xFE0F;</button>
+  </div>
+  <div class="books-wrap">
+    <div class="books-logo">Ghatna Chakra</div>
+    <div class="books-tagline">Choose a book to begin</div>
+    <div class="books-grid" id="books-grid">
+      <div style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:.85rem;padding:40px;">Loading books…</div>
+    </div>
+  </div>
+</div>
+
+<!-- SETUP SCREEN -->
+<div class="screen" id="setup-screen">
+  <div class="top-navbar">
+    <button class="nav-switch-book" onclick="showBooksScreen()" title="Switch book">&#x1F4DA; <span class="nav-switch-label">Switch Book</span></button>
+    <div class="nav-brand" onclick="showBooksScreen()" style="cursor:pointer;" title="Switch book">
+      <span class="nav-brand-tag" id="nav-book-tag">BPSC Pre PYQ</span>
+      <span class="nav-brand-name" id="nav-book-name">Ghatna Chakra</span>
     </div>
     <div class="nav-spacer"></div>
     <button class="nav-btn-pill" onclick="showMistakeScreen()">&#x1F534; <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
@@ -646,30 +693,44 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 </div>
 
 <script>
-const SUBJECTS_CONFIG=[
-  {id:'ancient_history',         name:'Ancient History',           icon:'\uD83C\uDFDB\uFE0F', file:'data/ancient_history.json'},
-  {id:'medieval_history',        name:'Medieval History',          icon:'\uD83C\uDFF0', file:'data/medieval_history.json'},
-  {id:'modern_history',          name:'Modern History',            icon:'\uD83D\uDCDC', file:'data/modern_history.json'},
-  {id:'polity_governance',       name:'Polity & Governance',       icon:'\u2696\uFE0F', file:'data/polity_governance.json'},
-  {id:'geography_environment',   name:'Geography & Environment',   icon:'\uD83C\uDF0D', file:'data/geography_environment.json'},
-  {id:'economy_development',     name:'Economy & Development',     icon:'\uD83D\uDCC8', file:'data/economy_development.json'},
-  {id:'physics',                 name:'Physics',                    icon:'\u269B\uFE0F', file:'data/physics.json'},
-  {id:'chemistry',               name:'Chemistry',                  icon:'\uD83E\uDDEA', file:'data/chemistry.json'},
-  {id:'biology',                 name:'Biology',                    icon:'\uD83E\uDDEC', file:'data/biology.json'},
-  {id:'general_mental_ability',  name:'General Mental Ability',    icon:'\uD83E\uDDE0', file:'data/general_mental_ability.json'},
-  {id:'current_affairs',         name:'Current Affairs',           icon:'\uD83D\uDCF0', file:'data/current_affairs.json'},
-  {id:'bihar_special',           name:'Bihar Special',             icon:'\uD83D\uDDFA\uFE0F', file:'data/bihar_special.json'},
-];
+// ===== MULTI-BOOK SUPPORT =====
+// Books are defined in books/books.json. The first book keeps its original
+// localStorage/Firestore keys so existing users never lose progress. Every
+// other book gets namespaced keys, keeping its progress separate.
+let BOOKS=[];
+const LEGACY_BOOK_ID='bpsc_ghatna_chakra';
+let currentBook=null;          // active book manifest object
+let SUBJECTS_CONFIG=[];        // rebuilt per book from that book's chapters.json
+let currentChaptersIndex=[];   // raw chapters.json for the active book
+let bookDataDir='data';        // base path for the active book's data files
+
+function sk(baseKey){
+  if(!currentBook||currentBook.id===LEGACY_BOOK_ID)return baseKey;
+  return baseKey+'__book_'+currentBook.id;
+}
+function bookFilePath(file){
+  // Subject "file" paths are always repository-root-relative (matching the
+  // existing BPSC data/chapters.json convention). If a book's chapters index
+  // uses bare filenames, they are resolved against the book's dataDir.
+  if(/^(https?:)?\/\//.test(file))return file;
+  let clean=String(file).replace(/^\.\//,'');
+  if(bookDataDir&&bookDataDir!=='.'&&!clean.includes('/'))clean=bookDataDir.replace(/\/$/,'')+'/'+clean;
+  return clean;
+}
+function resolveBookChaptersUrl(book){
+  const dir=book.dataDir&&book.dataDir!=='.'?book.dataDir.replace(/\/$/,'')+'/':'';
+  return dir+book.chaptersFile;
+}
 
 let currentSubjectId=null,selectedChapters=new Set(),allQuestions=[],chapterMap={},subjectDataCache={};
 let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[];
 
 const LS={get:(k,d={})=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(d));}catch(e){return d;}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
-const getHistory=()=>LS.get('gc_history',[]);let saveHistory=h=>LS.set('gc_history',h);
-const getMistakes=()=>LS.get('gc_mistakes',{});let saveMistakes=m=>LS.set('gc_mistakes',m);
-const getBookmarks=()=>LS.get('gc_bookmarks',{});let saveBookmarks=b=>LS.set('gc_bookmarks',b);
-const getSkips=()=>LS.get('gc_skips',{});let saveSkips=s=>LS.set('gc_skips',s);
-const getArchive=()=>LS.get('gc_archive',{});let saveArchive=a=>LS.set('gc_archive',a);
+const getHistory=()=>LS.get(sk('gc_history'),[]);let saveHistory=h=>LS.set(sk('gc_history'),h);
+const getMistakes=()=>LS.get(sk('gc_mistakes'),{});let saveMistakes=m=>LS.set(sk('gc_mistakes'),m);
+const getBookmarks=()=>LS.get(sk('gc_bookmarks'),{});let saveBookmarks=b=>LS.set(sk('gc_bookmarks'),b);
+const getSkips=()=>LS.get(sk('gc_skips'),{});let saveSkips=s=>LS.set(sk('gc_skips'),s);
+const getArchive=()=>LS.get(sk('gc_archive'),{});let saveArchive=a=>LS.set(sk('gc_archive'),a);
 const MASTERY=5;
 
 function archiveQuestion(q,fromBank){const arc=getArchive();arc[q.uid]={q,fromBank,archivedAt:new Date().toISOString()};saveArchive(arc);updateAllBadges();}
@@ -719,7 +780,7 @@ async function toggleSubjectCard(subjId){
   card.classList.add('expanded');currentSubjectId=subjId;selectedChapters.clear();
   if(!subjectDataCache[subjId]){
     document.getElementById('sc-chlist-'+subjId).innerHTML='<div style="padding:20px;text-align:center;font-size:0.75rem;color:var(--text3);">&#x23F3; Loading...</div>';
-    try{const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);const resp=await fetch(subj.file);if(!resp.ok)throw new Error();const data=await resp.json();subjectDataCache[subjId]=data;}
+    try{const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);const resp=await fetch(bookFilePath(subj.file));if(!resp.ok)throw new Error();const data=await resp.json();subjectDataCache[subjId]=data;}
     catch(err){document.getElementById('sc-chlist-'+subjId).innerHTML='<div style="padding:20px;text-align:center;font-size:0.75rem;color:var(--red);">&#x26A0; Failed to load. Run from a local server.</div>';return;}
   }
   processData(subjectDataCache[subjId],subjId);renderChapterList(subjId);updateHeroCounts();
@@ -1076,9 +1137,10 @@ function filterReview(filter,btn){document.querySelectorAll('.rflt-btn').forEach
 
 function showScreen(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');}
 function backToSetup(){clearInterval(timerInterval);showScreen('setup-screen');buildDashboard();}
+function goHome(){clearInterval(timerInterval);showScreen('setup-screen');buildDashboard();}
 function confirmHome(){const ans=state.answers?.filter(a=>a!==null).length||0;if(ans>0&&!confirm('Exit quiz? Progress will be lost.'))return;backToSetup();}
 
-function applyTheme(t){document.documentElement.setAttribute('data-theme',t);[document.getElementById('theme-btn'),document.getElementById('theme-btn-q')].forEach(btn=>{if(btn)btn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';});localStorage.setItem('gc_theme',t);}
+function applyTheme(t){document.documentElement.setAttribute('data-theme',t);[document.getElementById('theme-btn'),document.getElementById('theme-btn-q'),document.getElementById('theme-btn-books')].forEach(btn=>{if(btn)btn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';});localStorage.setItem('gc_theme',t);}
 function toggleTheme(){const cur=document.documentElement.getAttribute('data-theme')||'dark';applyTheme(cur==='dark'?'light':'dark');}
 
 document.addEventListener('keydown',function(e){
@@ -1092,8 +1154,12 @@ document.addEventListener('keydown',function(e){
 // ════════════════════════════════════════════════════════════════
 // SIMPLE GOOGLE ACCOUNT SYNC — Firebase stores progress; GitHub Pages hosts UI
 // ════════════════════════════════════════════════════════════════
-const SYNC_DATA_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive'];
-const SYNC_ACTIVE_BANK_KEYS=['gc_mistakes','gc_bookmarks','gc_skips'];
+const SYNC_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive'];
+const SYNC_ACTIVE_BANK_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips'];
+// Resolve the active book's namespaced keys at call time.
+function syncDataKeys(){return SYNC_BASE_KEYS.map(k=>sk(k));}
+function syncActiveBankKeys(){return SYNC_ACTIVE_BANK_BASE_KEYS.map(k=>sk(k));}
+function isHistoryKey(key){return key===sk('gc_history');}
 const FIREBASE_CFG={
   apiKey:'AIzaSyB5vVuyG2NbMdTUOY78NlZ702mlkmmPuFA',
   authDomain:'mcq-practise-ff181.firebaseapp.com',
@@ -1105,7 +1171,7 @@ const _pushTimers={};
 
 function getSyncConfig(){return LS.get('gc_sync_cfg',null);}
 function saveSyncConfig(value){LS.set('gc_sync_cfg',value);}
-function defaultSyncValue(key){return key==='gc_history'?[]:{};}
+function defaultSyncValue(key){return isHistoryKey(key)?[]:{};}
 function readSyncLocal(key){return LS.get(key,defaultSyncValue(key));}
 function isPlainObject(value){return !!value&&typeof value==='object'&&!Array.isArray(value);}
 function dateNumber(value,fallback){const n=Date.parse(value||'');return Number.isFinite(n)?n:fallback;}
@@ -1148,7 +1214,7 @@ function mergeBankObjects(localValue,cloudValue){
 }
 
 function mergeSyncValue(key,localValue,cloudValue){
-  return key==='gc_history'?mergeHistory(localValue,cloudValue):mergeBankObjects(localValue,cloudValue);
+  return isHistoryKey(key)?mergeHistory(localValue,cloudValue):mergeBankObjects(localValue,cloudValue);
 }
 
 // Archive entries are deletion tombstones. They prevent an older device from
@@ -1157,7 +1223,7 @@ function reconcileArchivedItems(){
   const archived=readSyncLocal('gc_archive');
   const archivedIds=new Set(Object.keys(isPlainObject(archived)?archived:{}));
   const changed=[];
-  SYNC_ACTIVE_BANK_KEYS.forEach(key=>{
+  syncActiveBankKeys().forEach(key=>{
     const bank=readSyncLocal(key);let dirty=false;
     archivedIds.forEach(uid=>{if(Object.prototype.hasOwnProperty.call(bank,uid)){delete bank[uid];dirty=true;}});
     if(dirty){LS.set(key,bank);changed.push(key);}
@@ -1168,10 +1234,10 @@ function reconcileArchivedItems(){
 function refreshProgressUI(){updateAllBadges();buildDashboard();}
 function updateLastSyncLabel(){
   const el=document.getElementById('sync-last-time');if(!el)return;
-  const stamp=localStorage.getItem('gc_last_sync');
+  const stamp=localStorage.getItem(sk('gc_last_sync'));
   el.textContent=stamp?new Date(stamp).toLocaleString():'Not yet';
 }
-function markSyncSuccess(){localStorage.setItem('gc_last_sync',new Date().toISOString());updateLastSyncLabel();}
+function markSyncSuccess(){localStorage.setItem(sk('gc_last_sync'),new Date().toISOString());updateLastSyncLabel();}
 
 function setSyncStatus(status){
   syncStatus=status;
@@ -1228,7 +1294,7 @@ function payloadByteLength(value){
 // needs each question UID and its progress metadata. Omitting the duplicated
 // `q` object keeps even all 4,441 skips well below Firestore's 1 MiB limit.
 function compactSyncValue(key,value){
-  if(key==='gc_history')return Array.isArray(value)?value:[];
+  if(isHistoryKey(key))return Array.isArray(value)?value:[];
   if(!isPlainObject(value))return {};
   const compact={};
   Object.entries(value).forEach(([uid,item])=>{
@@ -1247,7 +1313,7 @@ async function ensureSyncQuestionCatalog(){
   syncQuestionCatalogPromise=Promise.all(SUBJECTS_CONFIG.map(async subj=>{
     let data=subjectDataCache[subj.id];
     if(!data){
-      const response=await fetch(subj.file);
+      const response=await fetch(bookFilePath(subj.file));
       if(!response.ok)throw new Error(`Could not load ${subj.name} while restoring synced progress.`);
       data=await response.json();subjectDataCache[subj.id]=data;
     }
@@ -1269,8 +1335,8 @@ async function ensureSyncQuestionCatalog(){
   return syncQuestionCatalogPromise;
 }
 
-async function hydrateLocalSyncBanks(keys=SYNC_DATA_KEYS){
-  const targets=keys.filter(key=>key!=='gc_history').filter(key=>{
+async function hydrateLocalSyncBanks(keys){keys=keys||syncDataKeys();
+  const targets=keys.filter(key=>!isHistoryKey(key)).filter(key=>{
     const value=readSyncLocal(key);
     return Object.values(isPlainObject(value)?value:{}).some(item=>isPlainObject(item)&&!item.q);
   });
@@ -1292,17 +1358,18 @@ async function hydrateLocalSyncBanks(keys=SYNC_DATA_KEYS){
 function cloudRef(key){return fbDb.collection('users').doc(fbUserId).collection('data').doc(key);}
 
 async function readAllFromCloud(){
+  const wanted=new Set(syncDataKeys());
   const remote={};
   const snapshot=await fbDb.collection('users').doc(fbUserId).collection('data').get();
   snapshot.forEach(doc=>{
-    if(!SYNC_DATA_KEYS.includes(doc.id))return;
+    if(!wanted.has(doc.id))return;
     const data=doc.data();if(!data||typeof data.payload!=='string')return;
     try{remote[doc.id]=JSON.parse(data.payload);}catch(error){console.warn('Ignored invalid cloud payload:',doc.id);}
   });
   return remote;
 }
 
-async function writeKeysToCloud(keys=SYNC_DATA_KEYS){
+async function writeKeysToCloud(keys){keys=keys||syncDataKeys();
   if(!fbDb||!fbUserId)throw new Error('Not signed in');
   const batch=fbDb.batch();
   keys.forEach(key=>{
@@ -1318,7 +1385,7 @@ async function synchronizeAll(showToast=false){
   setSyncStatus('syncing');
   try{
     const remote=await readAllFromCloud();
-    SYNC_DATA_KEYS.forEach(key=>LS.set(key,mergeSyncValue(key,readSyncLocal(key),remote[key]??defaultSyncValue(key))));
+    syncDataKeys().forEach(key=>LS.set(key,mergeSyncValue(key,readSyncLocal(key),remote[key]??defaultSyncValue(key))));
     reconcileArchivedItems();
     await hydrateLocalSyncBanks();
     await writeKeysToCloud();
@@ -1389,7 +1456,7 @@ function showSignedOutUI(){
 function setupRealtimeListeners(){
   syncListeners.forEach(unsubscribe=>unsubscribe());syncListeners=[];
   if(!fbDb||!fbUserId)return;
-  SYNC_DATA_KEYS.forEach(key=>{
+  syncDataKeys().forEach(key=>{
     const unsubscribe=cloudRef(key).onSnapshot(async doc=>{
       if(!doc.exists||(doc.metadata&&doc.metadata.hasPendingWrites))return;
       try{
@@ -1412,7 +1479,7 @@ function setupRealtimeListeners(){
 }
 
 function cloudPushKey(key){
-  if(!fbDb||!fbUserId||!SYNC_DATA_KEYS.includes(key))return;
+  if(!fbDb||!fbUserId||!syncDataKeys().includes(key))return;
   clearTimeout(_pushTimers[key]);
   _pushTimers[key]=setTimeout(async()=>{
     setSyncStatus('syncing');
@@ -1426,11 +1493,11 @@ function cloudPushKey(key){
 }
 
 const _saveHistory0=saveHistory,_saveMistakes0=saveMistakes,_saveBookmarks0=saveBookmarks,_saveSkips0=saveSkips,_saveArchive0=saveArchive;
-saveHistory=value=>{_saveHistory0(value);cloudPushKey('gc_history');};
-saveMistakes=value=>{_saveMistakes0(value);cloudPushKey('gc_mistakes');};
-saveBookmarks=value=>{_saveBookmarks0(value);cloudPushKey('gc_bookmarks');};
-saveSkips=value=>{_saveSkips0(value);cloudPushKey('gc_skips');};
-saveArchive=value=>{_saveArchive0(value);cloudPushKey('gc_archive');};
+saveHistory=value=>{_saveHistory0(value);cloudPushKey(sk('gc_history'));};
+saveMistakes=value=>{_saveMistakes0(value);cloudPushKey(sk('gc_mistakes'));};
+saveBookmarks=value=>{_saveBookmarks0(value);cloudPushKey(sk('gc_bookmarks'));};
+saveSkips=value=>{_saveSkips0(value);cloudPushKey(sk('gc_skips'));};
+saveArchive=value=>{_saveArchive0(value);cloudPushKey(sk('gc_archive'));};
 
 async function syncNow(){
   if(!fbUserId){openSyncModal();return;}
@@ -1474,22 +1541,58 @@ function updateSyncNavBtn(connected){
   const dot=button.querySelector('.sync-dot');if(dot){dot.className='sync-dot '+(connected?'synced':'offline');dot.title=connected?'Synced ✓':'Sync off';}
 }
 
+let _authListenerRegistered=false;
 async function initSyncOnLoad(){
   const config=getSyncConfig();if(!config||!config.userId){showSignedOutUI();return;}
   setSyncStatus('syncing');
   if(!await initFirebase()){setSyncStatus('error');return;}
-  fbAuth.onAuthStateChanged(async user=>{
-    if(user){await finishGoogleSignIn(user,false);}
-    else{fbUserId=null;setSyncStatus('offline');updateSyncNavBtn(false);showSignedOutUI();}
-  });
+  if(!_authListenerRegistered){
+    _authListenerRegistered=true;
+    fbAuth.onAuthStateChanged(async user=>{
+      if(user){await finishGoogleSignIn(user,false);}
+      else{fbUserId=null;setSyncStatus('offline');updateSyncNavBtn(false);showSignedOutUI();}
+    });
+  }else if(fbAuth.currentUser){
+    // Already signed in from a previous book — sync the newly opened book.
+    finishGoogleSignIn(fbAuth.currentUser,false);
+  }
 }
 
 
+// Configure the running app for a chosen book: point data paths at its folder,
+// rebuild SUBJECTS_CONFIG from its chapters.json, and reset all caches/state.
+function applyBook(book){
+  currentBook=book;
+  bookDataDir=book.dataDir||'data';
+  currentChaptersIndex=[];
+  SUBJECTS_CONFIG=[];
+  subjectDataCache={};
+  syncQuestionCatalog=null;syncQuestionCatalogPromise=null;
+  currentSubjectId=null;selectedChapters=new Set();
+  allQuestions=[];chapterMap={};
+  quiz=[];state={};quizMeta={};
+  clearInterval(timerInterval);timerInterval=null;
+  // Brand the app with this book
+  const tag=document.getElementById('nav-book-tag'),name=document.getElementById('nav-book-name');
+  if(tag)tag.textContent=book.tag||book.title||'Quiz';
+  if(name)name.textContent=book.title||'Ghatna Chakra';
+  document.documentElement.style.setProperty('--book-accent',book.color||'#c9a84c');
+}
+
+// Build SUBJECTS_CONFIG from the active book's chapters index.
+function subjectsFromChapterIndex(index){
+  return (index||[]).map(s=>({id:s.key,name:s.label||s.key,icon:s.emoji||'\uD83D\uDCD8',file:bookFilePath(s.file)}));
+}
+
 async function loadBankOverview(){
+  if(!currentBook)return;
   try{
-    const response=await fetch('data/chapters.json');
+    const response=await fetch(resolveBookChaptersUrl(currentBook));
     if(!response.ok)throw new Error('chapters.json could not be loaded');
     const index=await response.json();
+    currentChaptersIndex=index;
+    SUBJECTS_CONFIG=subjectsFromChapterIndex(index);
+    buildSubjectsGrid();
     const totalChapters=index.reduce((sum,subject)=>sum+(subject.chapters||[]).length,0);
     const totalQuestions=index.reduce((sum,subject)=>sum+(subject.chapters||[]).reduce((s,ch)=>s+(Number(ch.count)||0),0),0);
     document.getElementById('sh-subjects').textContent=index.length.toLocaleString();
@@ -1505,7 +1608,81 @@ async function loadBankOverview(){
   }catch(error){console.error('Failed to load bank overview:',error);}
 }
 
-function init(){const saved=localStorage.getItem('gc_theme')||'dark';applyTheme(saved);buildSubjectsGrid();buildDashboard();updateAllBadges();loadBankOverview();initSyncOnLoad();}
+// ----- Book selection screen -----
+function bookStats(book){
+  // Quick counts from the book's chapters index for the landing card.
+  return fetch(resolveBookChaptersUrl(book)).then(r=>r.ok?r.json():[]).then(index=>{
+    const subjects=(index||[]).length;
+    const chapters=(index||[]).reduce((sum,s)=>sum+(s.chapters||[]).length,0);
+    const questions=(index||[]).reduce((sum,s)=>sum+(s.chapters||[]).reduce((a,ch)=>a+(Number(ch.count)||0),0),0);
+    return {subjects,chapters,questions};
+  }).catch(()=>({subjects:0,chapters:0,questions:0}));
+}
+
+async function renderBooksScreen(){
+  const grid=document.getElementById('books-grid');
+  if(!grid)return;
+  if(!BOOKS.length){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;color:var(--red);font-size:.85rem;padding:40px;">No books found. Check books/books.json.</div>';return;}
+  grid.innerHTML=BOOKS.map(b=>`
+    <div class="book-card" data-book="${b.id}" style="--book-accent:${b.color||'#c9a84c'};" onclick="openBook('${b.id}')">
+      ${b.tag?`<span class="book-pill">${b.tag}</span>`:''}
+      <div class="book-emoji">${b.emoji||'\uD83D\uDCD8'}</div>
+      <div class="book-title">${b.title||b.id}</div>
+      <div class="book-subtitle">${b.subtitle||''}</div>
+      <div class="book-desc">${b.description||''}</div>
+      <div class="book-stats" id="book-stats-${b.id}"></div>
+      <div class="book-open">Open book &#x2192;</div>
+    </div>`).join('');
+  // Fill counts asynchronously without blocking the grid.
+  BOOKS.forEach(async b=>{
+    const el=document.getElementById('book-stats-'+b.id);if(!el)return;
+    const st=await bookStats(b);
+    el.innerHTML=`<span class="book-stat"><b>${st.subjects}</b> subjects</span><span class="book-stat"><b>${st.chapters}</b> chapters</span><span class="book-stat"><b>${st.questions.toLocaleString()}</b> questions</span>`;
+  });
+}
+
+function showBooksScreen(){
+  clearInterval(timerInterval);
+  showScreen('books-screen');
+  renderBooksScreen();
+}
+
+async function openBook(bookId){
+  const book=BOOKS.find(b=>b.id===bookId);if(!book)return;
+  // Tear down any realtime listeners attached to the previous book.
+  if(typeof syncListeners!=='undefined'&&syncListeners.length){try{syncListeners.forEach(u=>u&&u());}catch(e){}syncListeners=[];}
+  applyBook(book);
+  buildSubjectsGrid();buildDashboard();updateAllBadges();
+  try{await loadBankOverview();}catch(e){console.error(e);}
+  showScreen('setup-screen');
+  // Re-initialise sync for the newly selected book using the same Google account.
+  if(getSyncConfig()&&getSyncConfig().userId){initSyncOnLoad();}
+  else{showSignedOutUI();setSyncStatus('offline');updateSyncNavBtn(false);}
+  try{localStorage.setItem('gc_last_book',book.id);}catch(e){}
+}
+
+async function loadBooksManifest(){
+  try{
+    const r=await fetch('books/books.json');
+    if(!r.ok)throw new Error('books.json http '+r.status);
+    BOOKS=await r.json();
+  }catch(error){
+    console.error('Failed to load books manifest:',error);
+    BOOKS=[];
+  }
+}
+
+function init(){
+  const saved=localStorage.getItem('gc_theme')||'dark';applyTheme(saved);
+  // Lightweight placeholder until a book is chosen.
+  buildSubjectsGrid();buildDashboard();updateAllBadges();
+  loadBooksManifest().then(()=>{
+    renderBooksScreen();
+    // Remember the last book and reopen it for convenience.
+    let lastId=null;try{lastId=localStorage.getItem('gc_last_book');}catch(e){}
+    if(lastId&&BOOKS.some(b=>b.id===lastId)){openBook(lastId);}
+  });
+}
 init();
 </script>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2d08688bd7ed97b',t:'MTc4NzA1MTk4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>

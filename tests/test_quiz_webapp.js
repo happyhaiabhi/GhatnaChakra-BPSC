@@ -37,6 +37,11 @@ const ev = code => w.eval(code);
 
 (async()=>{
   await tick(25);
+  // The app now opens on a book-selection landing screen. Open the BPSC book.
+  assert(d.getElementById('books-screen').classList.contains('active'), 'book selection screen shown first');
+  await w.openBook('bpsc_ghatna_chakra');
+  await tick(10);
+  assert(d.getElementById('setup-screen').classList.contains('active'), 'BPSC book opens to setup screen');
   assert.equal(d.querySelectorAll('.subject-card').length, 12, '12 subject cards');
   assert.equal(d.getElementById('sh-subjects').textContent, '12');
   assert.equal(d.getElementById('sh-chapters').textContent, '391');
@@ -51,7 +56,8 @@ const ev = code => w.eval(code);
     assert.equal(d.getElementById(`sc-pill-q-${subject.key}`).textContent, `${expected} Qs`, `${subject.key} question count`);
   }
   const expectedFiles = chapterIndex.map(s=>s.file).sort();
-  const actualFiles = [...new Set(fetches.filter(x=>x!=='data/chapters.json'))].sort();
+  const expectedSet = new Set(expectedFiles);
+  const actualFiles = [...new Set(fetches.filter(x=>expectedSet.has(x)))].sort();
   assert.deepEqual(actualFiles, expectedFiles, 'all 12 subject files fetched');
 
   // Exact reference match question: book table, code matrix, selection, result review.
@@ -169,6 +175,37 @@ const ev = code => w.eval(code);
   assert.equal(Object.keys(JSON.parse(cloudStore.gc_mistakes.payload)).length,0,'archive tombstone removed stale active mistake');
   ev(`showSignedInUI({name:'Test User',email:'test@example.com',photo:''})`);
   assert.notEqual(d.getElementById('sync-now-btn').style.display,'none');
+
+  // Multi-book support: switching books loads a different bank and keeps each
+  // book's progress in its own namespace.
+  await w.openBook('ssc_sample');
+  await tick(10);
+  assert.equal(d.getElementById('setup-screen').classList.contains('active'), true, 'SSC book opens setup');
+  assert.equal(ev('SUBJECTS_CONFIG.length'), 2, 'SSC has 2 subjects');
+  assert.equal(d.getElementById('sh-questions').textContent, '6', 'SSC has 6 questions');
+  assert.equal(d.getElementById('nav-book-name').textContent, 'SSC Practice Set');
+  // Snapshot BPSC's stored history before touching SSC.
+  const bpscRawBefore = ev(`localStorage.getItem('gc_history')`);
+  await w.toggleSubjectCard('general_awareness');
+  await tick(5);
+  assert.equal(d.querySelectorAll('#sc-chlist-general_awareness .ch-row').length, 2, 'GA has 2 chapters');
+  ev(`saveHistory([{date:new Date().toISOString(),correct:1,wrong:0}]);`);
+  assert.equal(ev(`getHistory().length`), 1, 'SSC history written to SSC namespace');
+  assert.equal(ev(`!!localStorage.getItem('gc_history__book_ssc_sample')`), true, 'SSC progress is namespaced');
+  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'legacy BPSC key untouched by SSC write');
+  await w.openBook('bpsc_ghatna_chakra');
+  await tick(10);
+  assert.equal(ev(`localStorage.getItem('gc_history__book_ssc_sample')?1:0`), 1, 'SSC data retained after switching away');
+  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'BPSC storage stays separate from SSC');
+  assert.equal(ev('SUBJECTS_CONFIG.length'), 12, 'back to BPSC 12 subjects');
+  // The book-selection landing screen is reachable and lists both books.
+  w.showBooksScreen();
+  await tick(5);
+  assert(d.getElementById('books-screen').classList.contains('active'));
+  assert(d.querySelectorAll('#books-grid .book-card').length >= 7, 'all book cards shown (BPSC + 6 imported + sample)');
+  ['physics','chemistry','biology','ancient_india','medieval_india','modern_india'].forEach(id=>{
+    assert(d.querySelector(`#books-grid .book-card[data-book="${id}"]`), `${id} book card present`);
+  });
 
   assert.equal(consoleErrors.length, 0, consoleErrors.join('\n'));
   console.log(JSON.stringify({
