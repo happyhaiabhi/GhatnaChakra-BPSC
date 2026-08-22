@@ -1,0 +1,3067 @@
+{
+  "subject": "Ancient History",
+  "chapters": [
+    {
+      "chapter_name": "Stone Age",
+      "questions": [
+        {
+          "q": "The earliest evidence of animal Husbandry and agriculture in India has come from:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Anjira",
+            "B": "Damb Sadat",
+            "C": "Kili Gul Muhammad",
+            "D": "Mehrgarh",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The earliest evidence of animal husbandry and agriculture in the Indian subcontinent has been found at Mehrgarh (present-day Pakistan). On the basis of the latest discoveries, the earliest site with evidence of agriculture in the Indian subcontinent is Lahuradewa, located in Sant Kabir Nagar district of Uttar Pradesh. Evidence of rice has been found here dating to the period between about 8000 BCE and 7000 BCE. It is noteworthy that before this latest discovery, Mehrgarh was considered the earliest agricultural site in the Indian subcontinent, where evidence of wheat has been found, while Koldihwa (on the bank of the Belan River, Prayagraj district) is considered the site with the earliest evidence of rice.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Which one of the following periods is also known as the Chalcolithic Age?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Old Stone Age",
+            "B": "New Stone Age",
+            "C": "Copper Stone Age",
+            "D": "Iron Age"
+          },
+          "answer": "C",
+          "explanation": "The Copper–Stone Age is also called the Chalcolithic period. Cultures in which stone tools are found in use along with copper tools are generally called Chalcolithic cultures.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Which river valley in India was the first human fossil obtained from?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ganga River",
+            "B": "Yamuna Valley",
+            "C": "Narmada Valley",
+            "D": "Tapi Valley",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In India, the first evidence of a human fossil was found at the archaeological site of Hathnora (Sehore, Madhya Pradesh), located in the Narmada Valley. It was discovered in 1982 by Arun Sonakia, a palaeontologist of the Geological Survey of India.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "Which of the following states is the Bhimbetka site located in?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chhattisgarh",
+            "B": "Madhya Pradesh",
+            "C": "Tamil Nadu",
+            "D": "Punjab"
+          },
+          "answer": "B",
+          "explanation": "The Bhimbetka archaeological site remained a centre of human activities from the Early Stone Age to the historical period. It is located in Raisen district of Madhya Pradesh. Hundreds of examples of prehistoric paintings have been found in the caves of Bhimbetka. The main themes of the rock paintings include collective dance, outlined human figures, hunting, animals and birds, war, and daily activities of ancient human life. So far, about 750 rock shelters have been identified here, and paintings have been found in about 500 of them.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2009"
+        },
+        {
+          "q": "Match List - I with List - II and choose the correct answer using the codes given below the lists. List - I List - II (Neolithic Site) (Locations) A. Utnoor 1. Tamil Nadu B. Chirand 2. Kashmir C. Gufkral 3. Telangana D. Paiyampalli 4. Bihar A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "4 2 1 3",
+            "B": "3 1 4 2",
+            "C": "3 4 2 1",
+            "D": "2 1 3 4"
+          },
+          "answer": "C",
+          "explanation": "List-I List-II (Neolithic Site) (Locations) Utnoor Telangana Chirand Bihar Gufkral Kashmir Paiyampalli Tamil Nadu",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "Match List I with List II and choose the correct answer using the code given below the lists. List - I List - II (Chalcolithic Site) (Rivers of Chalcolithic Civilization Sites) A. Ahar 1. Tapti B. Kayatha 2. Narmada C. Savalda 3. Kali Sindh D. Malwa 4. Banas Code: A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "1 3 2 4",
+            "B": "2 1 4 3",
+            "C": "4 3 1 2",
+            "D": "2 4 1 3"
+          },
+          "answer": "C",
+          "explanation": "List - I List - II (Chalcolithic site) (River of Chalcolithic Civilization sites) Ahar — Banas Kayatha — Kali Sindh Savalda — Tapti Malwa — Narmada",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant ) 2019"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Indus Valley Civilization",
+      "questions": [
+        {
+          "q": "Indus Civilization existed in:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Prehistoric age",
+            "B": "Proto-historic age",
+            "C": "Historic age",
+            "D": "Post-historic age"
+          },
+          "answer": "B",
+          "explanation": "The historical period is determined on the basis of the knowledge of a decipherable script. The period before the knowledge of writing is called the prehistoric period. In Indian history, the period from about 3000 BC to 600 BC is considered protohistoric. The Indus Civilization belongs to the protohistoric period because writing was known here, but it has not been deciphered so far.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "What is the most significant feature of the Indus Valley Civilization?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Burnt brick buildings",
+            "B": "First true arches",
+            "C": "Buildings of worship",
+            "D": "Art and architecture",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The main feature of the Indus Valley Civilization is considered to be town planning. Here, cities and towns were established according to a fixed plan. Among the buildings made of burnt bricks, the Great Bath and the Granary of Mohenjodaro. Their surfaces were made of burnt bricks and were joined with gypsum. Buildings made of burnt bricks, planned architecture, and advanced trade and commerce were the major characteristics of this civilization. It is noteworthy that, unlike ancient civilizations such as Mesopotamia and Egypt, clear evidence of places of worship is not found in the Harappan Civilization. Similarly, the first true arch in India is seen in Balban’s tomb. Therefore, option (e) is the correct answer.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre.) 2017"
+        },
+        {
+          "q": "Which city is known as 'Mini Harappa'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Lothal",
+            "B": "Desalpur",
+            "C": "Sohgaura",
+            "D": "Kotdiji"
+          },
+          "answer": "A",
+          "explanation": "Lothal was one of the southernmost cities of the ancient Harappan/Indus Civilization. It is also known as “Mini Harappa”. It is located in the present-day state of Gujarat. Its initial excavation was carried out under the direction of Prof. S. R. Rao.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2009"
+        },
+        {
+          "q": "Which of the following is a Harappan port?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Alexandria",
+            "B": "Lothal",
+            "C": "Mahasthangarh",
+            "D": "Nagapattinam"
+          },
+          "answer": "B",
+          "explanation": "The Harappan town of Lothal is located on the bank of the Bhogava River in Ahmedabad district of Gujarat. It was a Harappan-period port, from where evidence of a dockyard has been found.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Which of the following is a Harappan site in Gujarat?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Lothal",
+            "B": "Dabarkot",
+            "C": "Kalibanga",
+            "D": "Rakhigarhi",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Lothal is in Gujarat, Kalibangan is in Rajasthan, Dabarkot is in Balochistan (Pakistan), and Rakhigarhi is in Haryana.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Which is the oldest civilization in the world?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Indus Valley Civilization",
+            "B": "Chinese Civilization",
+            "C": "Egyptian Civilization",
+            "D": "Mesopotamian Civilization (Iraq)"
+          },
+          "answer": "D",
+          "explanation": "The Mesopotamian Civilization (Iraq) is considered the oldest civilization in the world. This civilization developed in present-day Iraq and the surrounding regions. The Egyptian Civilization developed in the Nile Valley and is considered to be later than the Mesopotamian Civilization.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Re-Exam (Pre) 2024"
+        },
+        {
+          "q": "Which of the following animals was not known to the people of the Indus Valley Civilization?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Bull",
+            "B": "Horse",
+            "C": "Elephant",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Among the given options, the people of the Indus Valley Civilization were familiar with the bull and the elephant, but scholars differ regarding the presence of the horse. It is difficult to determine with certainty whether the bones obtained from various Harappan sites belong to the wild ass/ onager (Equus hemionus khur) or to the domesticated horse (Equus caballus). Evidence of the horse, or other animals of the same group, has been reported from Rangpur, Rana Ghundai, Lothal, Surkotada, Kuntasi and Kalibangan. A scholar reported that among the so-called horse remains found from Surkotada, six were genuine horse remains dating to around 2000 BCE, i.e., around the middle of the last part of the third millennium BCE. In 1974, J.P. Joshi and A.K. Sharma of the Archaeological Survey of India reported that horse bones were found at every level here between 2100– 1700 BCE. However, Ramsharan Sharma, Romila Thapar, Mando, etc., do not accept this. Similarly, the teeth claimed to be of a horse by Brigadier E.J. Ross from the Early Harappan site of Rana Ghundai are considered inauthentic by Zauner. Therefore, regarding the horse, it would be appropriate to say that its presence in the Harappan Civilization cannot be completely denied, though its use must have been extremely limited. The Bihar Public Service Commission accepted option (b) as the answer.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which among the following Harappan sites was terracotta of a 'plough' was found?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Dholavira",
+            "B": "Banawali",
+            "C": "Kalibangan",
+            "D": "Lothal",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Among the given options, terracotta replicas connected with a plough have been found from the Indus Valley sites of Banawali (Haryana) and Kalibangan (Rajasthan). According to the Archaeological Survey of India, at Kalibangan, along with a ploughed field from the early phase, a terracotta plough (replica/model) was also found. In addition, a terracotta plough (replica/model) has also been found from the ancient site of Banawali located in Fatehabad district of Haryana.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "In which of the following Harappan cities, furrows of ploughed fields have been found?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalibangan",
+            "B": "Dholavira",
+            "C": "Mohenjo-Daro",
+            "D": "Lothal",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A terracotta replica/model of a plough has been found from Banawali located in Fatehabad district of Haryana. Evidence of a dockyard has been found from Lothal, situated near the Gulf of Khambhat (on the bank of the Bhogava River). Evidence of ploughed fields has been found from Kalibangan located on the bank of the Ghaggar River in Hanumangarh district of Rajasthan. From Dholavira (Gujarat), a wooden signboard containing 10 large-sized signs of the Harappan script has been found.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "At which Harappan site do we find evidence of a ploughed field?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalibangan (Rajasthan)",
+            "B": "Lothal (Gujarat)",
+            "C": "Banawali (Haryana)",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "A terracotta replica/model of a plough has been found from Banawali located in Fatehabad district of Haryana. Evidence of a dockyard has been found from Lothal, situated near the Gulf of Khambhat (on the bank of the Bhogava River). Evidence of ploughed fields has been found from Kalibangan located on the bank of the Ghaggar River in Hanumangarh district of Rajasthan. From Dholavira (Gujarat), a wooden signboard containing 10 large-sized signs of the Harappan script has been found.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "Who among the following was not associated with the excavation of Harappa and Mohenjodaro?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "R. D. Banerjee",
+            "B": "K.N. Dikshit",
+            "C": "M.S. Vats",
+            "D": "V.A. Smith"
+          },
+          "answer": "D",
+          "explanation": "In 1921, Dayaram Sahni started large-scale excavation work at Harappa. From 1926–27 to 1933–34, Madho Sarup Vats remained associated with the excavation work at Harappa. Mohenjodaro was first discovered in 1922 by Rakhaldas Banerjee, who drew attention to its archaeological importance. Besides them, some other scholars—K.N. Dikshit, Ernest Mackay, Aurel Stein, A.N. Ghosh, J.P. Joshi, etc.—also made important contributions to the study of this civilization. Thus, it is clear that V.A. Smith was not associated with the excavation work related to the Harappan Civilization; rather, he was famous as an Indologist and historian.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2015"
+        },
+        {
+          "q": "Which colour was commonly used in the Harappan Pottery?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Red",
+            "B": "Blue-grey",
+            "C": "Yellow",
+            "D": "Blue"
+          },
+          "answer": "A",
+          "explanation": "The people of Harappa produced earthen pots on a large scale, and traces of red colour are found on them. In the Harappan civilization, the potter’s wheel was also used to make pottery. On the basis of design, these pots were of two categories— plain (without design) pots and painted pottery. Sand was mixed with the clay used for making pottery; after firing, it took on a light brownish-red colour. The upper portion of these pots was coated with red paint, and the lower portion was decorated with various designs in black colour.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "According to the report of the IIT Kharagpur study group, continuous low rainfall for how many years was the cause of the fall of the Indus Valley Civilization?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "600 years",
+            "B": "700 years",
+            "C": "800 years",
+            "D": "900 years",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "According to a report released in 2018 by a study team of the Indian Institute of Technology, Kharagpur, the Indus Valley Civilization declined due to a drought that continued for 900 years. It is noteworthy that scholars like Aurel Stein also considered climatic change to be a major reason for the decline of the Harappan civilization.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Vedic Age",
+      "questions": [
+        {
+          "q": "Which one of the following is not related to the Rigvedic period?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Gargi",
+            "B": "Ghosha",
+            "C": "Apala",
+            "D": "Vishvavara"
+          },
+          "answer": "A",
+          "explanation": "Ghosha, Apala, and Vishvavara are all female of hymns or mantras in the Rigveda, and are therefore considered to belong to the Rigvedic era. In contrast, Gargi is a philosopher of the post-Vedic/Upanishadic era, not the Rigvedic era.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "Which city served as the capital of the ancient kingdom of Magadha during the early Vedic period?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Rajagriha",
+            "C": "Champa",
+            "D": "Vaishali"
+          },
+          "answer": "B",
+          "explanation": "During the Early Vedic period, Rajagriha (present-day Rajgir) served as the capital of the ancient Magadha empire. The first dynasty of Magadha was the Brihadratha dynasty. Brihadratha is mentioned in the Rigveda.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which Mandala of the Rig Veda is completely dedicated to ‘Soma’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Seventh Mandala",
+            "B": "Eighth Mandala",
+            "C": "Ninth Mandala",
+            "D": "Tenth Mandala"
+          },
+          "answer": "C",
+          "explanation": "There are a total of 10 Mandalas in the Rigveda. All 114 hymns (suktas) of the Ninth Mandala are dedicated to Soma. Soma was the main drink of the Aryans, which was obtained from the Mujavant peak. In the Tenth Mandala of the Rigveda, the origin of the four varnas is mentioned.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "To whom is the ninth Mandala of the Rigveda Samhita completely dedicated?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Indra and his elephant",
+            "B": "Urvashi and heaven",
+            "C": "Deities related to plants and herbs",
+            "D": "Soma and the deity named after this drink"
+          },
+          "answer": "D",
+          "explanation": "There are a total of 10 Mandalas in the Rigveda. All 114 hymns (suktas) of the Ninth Mandala are dedicated to Soma. Soma was the main drink of the Aryans, which was obtained from the Mujavant peak. In the Tenth Mandala of the Rigveda, the origin of the four varnas is mentioned.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Gayatri Mantra is found in which book?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Upanishad",
+            "B": "Bhagavad Gita",
+            "C": "Rig Veda",
+            "D": "Yajurveda"
+          },
+          "answer": "C",
+          "explanation": "The Gayatri Mantra is mentioned in the Rigveda. Its composer is Vishwamitra. This mantra is described in the Third Mandala of the Rigveda. It is dedicated to Savitr (the Sun deity).",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "In which phase was the concept of untouchability was clearly put?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rigvedic phase",
+            "B": "Later Vedic phase",
+            "C": "Later Gupta phase",
+            "D": "Dharmashastra phase"
+          },
+          "answer": "D",
+          "explanation": "In the period of the Dharmashastras (during the Sutra period), apart from the four varnas (Brahmin, Kshatriya, Vaishya and Shudra), many other castes also emerged in society—such as Ambashtha, Ugra, Nishad, Magadh, Vaidehak, Rathakar, etc.—as a result of anuloma and pratiloma marriages. Panini mentioned two types of Shudras—Niravasita and Aniravasita. Among these, the first type of Shudras was considered untouchable.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "When did the use of iron begin in the Indian subcontinent?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Around 9000 years ago",
+            "B": "Around 12000 years ago",
+            "C": "Around 6000 years ago",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "There are differences of opinion among scholars about the beginning of iron use in the Indian subcontinent. Some scholars believe that the Hittites were the first in the world to begin using iron, and only after that did its use spread to other countries. However, excavations at the Ban Chiang archaeological site in Thailand have yielded cast iron, dated approximately to 1600–1200 BCE. In India, iron has been found from the Doab area of Noh (Rajasthan) along with Black-and-Red Ware, and its probable date is considered around 1400 BCE. The earliest clear references to this metal are found in texts of the Later Vedic period (about 1000–600 BCE.). In the Atharvaveda, iron is mentioned as “Shyama Ayas” (dark metal), and there is also a reference to an iron ploughshare. Excavations at Atranjikhera (Uttar Pradesh) have yielded the earliest agricultural iron tools along with remains of wheat, barley, and rice. Archaeologists have dated it to around 1000 BCE., which is accepted by most scholars.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Boghaz-Koi is important because:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "It was an important trading centre between Central Asia and Tibet",
+            "B": "Inscriptions were found which mentioned the names of Vedic Gods and goddesses",
+            "C": "Original texts of the Vedas were composed here",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Some inscriptions from Boghazkoi (Asia Minor) dating to the 14th century B.C. have been found. These inscriptions mention kings whose names were similar to Aryan names, and they invoked the gods Indra, Mitra, Varuna, and Nasatya as witnesses to treaties and for protection.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Famous Battle of ‘Ten Kings’ was fought on the bank of the river:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ganges",
+            "B": "Brahmaputra",
+            "C": "Kaveri",
+            "D": "Parushni"
+          },
+          "answer": "D",
+          "explanation": "The Dasarajna War (Battle of Ten Kings) was fought on the bank of the Parushni River (modern Ravi River), in which Sudas, the king of the Bharatas, won.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997"
+        },
+        {
+          "q": "Which ancient Indian text, composed during the Later Vedic period, contains philosophical hymns and discussions on cosmology and ethics?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Yajurveda",
+            "B": "Upanishads",
+            "C": "Rigveda",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The Upanishads, composed during the Later Vedic period, include philosophical dialogues and discussions on cosmology and ethics. The Upanishads are ancient Indian texts written in Sanskrit, roughly between 700 BCE. and 300 BCE.",
+          "exam": "BPSC",
+          "year": "BPSC (Tre-3) July, 2024"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Buddhism",
+      "questions": [
+        {
+          "q": "Where was Gautam a Buddha born?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "In Kundagram",
+            "B": "In Pataliputra",
+            "C": "In Lumbini",
+            "D": "In Vaishali"
+          },
+          "answer": "C",
+          "explanation": "Gautama Buddha was born in 563 B.C. in the Lumbini grove near Kapilavastu. He attained enlightenment at Bodh Gaya (Bihar) on the night of Vaishakha Purnima. He delivered his first sermon (Dharmachakra Pravartana) at Rishipattana or Mrigdava (Sarnath) near Kashi, and he passed away at Kushinagar; this passing away is called Mahaparinirvana in Buddhist literature.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "At which place did Mahatma Buddha give his first ‘Dhammachakkhapavattana’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Lumbini",
+            "B": "Sarnath",
+            "C": "Pataliputra",
+            "D": "Vaishali"
+          },
+          "answer": "B",
+          "explanation": "Gautama Buddha was born in 563 B.C. in the Lumbini grove near Kapilavastu. He attained enlightenment at Bodh Gaya (Bihar) on the night of Vaishakha Purnima. He delivered his first sermon (Dharmachakra Pravartana) at Rishipattana or Mrigdava (Sarnath) near Kashi, and he passed away at Kushinagar; this passing away is called Mahaparinirvana in Buddhist literature.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Where did Gautama Buddha give his first sermon?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Sarnath",
+            "C": "Gaya",
+            "D": "Vaishali",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Gautama Buddha was born in 563 B.C. in the Lumbini grove near Kapilavastu. He attained enlightenment at Bodh Gaya (Bihar) on the night of Vaishakha Purnima. He delivered his first sermon (Dharmachakra Pravartana) at Rishipattana or Mrigdava (Sarnath) near Kashi, and he passed away at Kushinagar; this passing away is called Mahaparinirvana in Buddhist literature.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Who got enlightenment in Bodh Gaya?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Mahavir Swami",
+            "B": "Gautam Buddha",
+            "C": "Samdhar Swami",
+            "D": "Parshvanath Swami",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Gautama Buddha was born in 563 B.C. in the Lumbini grove near Kapilavastu. He attained enlightenment at Bodh Gaya (Bihar) on the night of Vaishakha Purnima. He delivered his first sermon (Dharmachakra Pravartana) at Rishipattana or Mrigdava (Sarnath) near Kashi, and he passed away at Kushinagar; this passing away is called Mahaparinirvana in Buddhist literature.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Four important events of Buddha’s life and there related four places are mentioned below. Match Schedule- I and Schedule- II and select the correct answer from the codes given below - Schedule - I Schedule - II A. Birth 1. Sarnath B. Enlightenment 2. Bodh Gaya C. First preaching 3. Lumbini D. Death 4. Kushinagar Code : A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "1 2 4 3",
+            "B": "2 3 1 4",
+            "C": "3 2 1 4",
+            "D": "None of the above."
+          },
+          "answer": "C",
+          "explanation": "The correct matching is as follows— Schedule-I Schedule-II Birth Lumbini Enlightenment Bodh Gaya First Preaching Sarnath Death Kushinagar",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which Buddhist council was not held in Bihar?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Second",
+            "B": "First",
+            "C": "Third",
+            "D": "Fourth"
+          },
+          "answer": "D",
+          "explanation": "The First Buddhist Council was held in the Saptaparni Caves near Rajagriha (modern Rajgir) soon after the Buddha's Mahaparinirvana. The Second Buddhist Council was held in the ancient city of Vaishali. The Third Buddhist Council was held in Pataliputra (modern Patna) under the patronage of Emperor Ashoka. The Fourth Buddhist Council was probably held in Kundalvan, Kashmir. The Fourth Buddhist Council is the only one that was not held in Bihar. Therefore, the correct option is (d).",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "In which city was the first Buddhist council held during the reign of Ajatashatru?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rajgriha",
+            "B": "Magadha",
+            "C": "Pataliputra",
+            "D": "Kashmir"
+          },
+          "answer": "A",
+          "explanation": "The First Buddhist Council was held immediately after the death of Buddha in the Saptaparni Cave at Rajgriha (Rajgir). At that time, Ajatashatru was the ruler of Magadha. This council was presided over by Mahakassapa (Mahakashyapa), and Buddha’s chief disciples Ananda and Upali were also present. In it, Buddha’s teachings were compiled and divided into two Pitakas—Sutta and Vinaya. Ananda and Upali were considered the authorities on Dhamma and Vinaya respectively.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "Who was the chairman of the First Buddhist Council?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vasumitra",
+            "B": "Mahakashyapa",
+            "C": "Sangharaksha",
+            "D": "Parshva",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The First Buddhist Council was held immediately after the death of Buddha in the Saptaparni Cave at Rajgriha (Rajgir). At that time, Ajatashatru was the ruler of Magadha. This council was presided over by Mahakassapa (Mahakashyapa), and Buddha’s chief disciples Ananda and Upali were also present. In it, Buddha’s teachings were compiled and divided into two Pitakas—Sutta and Vinaya. Ananda and Upali were considered the authorities on Dhamma and Vinaya respectively.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Where was the First Buddhist Council convened?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Rajagriha",
+            "C": "Amaravati",
+            "D": "Kanganhalli",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The First Buddhist Council was held immediately after the death of Buddha in the Saptaparni Cave at Rajgriha (Rajgir). At that time, Ajatashatru was the ruler of Magadha. This council was presided over by Mahakassapa (Mahakashyapa), and Buddha’s chief disciples Ananda and Upali were also present. In it, Buddha’s teachings were compiled and divided into two Pitakas—Sutta and Vinaya. Ananda and Upali were considered the authorities on Dhamma and Vinaya respectively.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-exam) (Pre) 2021"
+        },
+        {
+          "q": "After the Mahaparinirvana of Lord Buddha, the first Buddhist council was held at:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rajgriha (Rajgir)",
+            "B": "Gaya",
+            "C": "Pataliputra",
+            "D": "Vaishali",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The First Buddhist Council was held immediately after the death of Buddha in the Saptaparni Cave at Rajgriha (Rajgir). At that time, Ajatashatru was the ruler of Magadha. This council was presided over by Mahakassapa (Mahakashyapa), and Buddha’s chief disciples Ananda and Upali were also present. In it, Buddha’s teachings were compiled and divided into two Pitakas—Sutta and Vinaya. Ananda and Upali were considered the authorities on Dhamma and Vinaya respectively.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "A Buddhist Council during the reign of Kanishka was held at –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Magadha",
+            "B": "Pataliputra",
+            "C": "Kashmir",
+            "D": "Rajgriha"
+          },
+          "answer": "C",
+          "explanation": "The fourth and final Buddhist Council was held during the reign of the Kushan ruler Kanishka at Kundalvan in Kashmir. It was presided over by Vasumitra, and Ashvaghosha was its vice-president. Here, difficult portions of Buddhist texts were examined properly, and commentaries were written on each Pitaka. Kanishka got these engraved on copper plates and kept them in a stupa. These commentaries written on the Tripitaka are called “Vibhasha Shastra.” It is noteworthy that the First Buddhist Council was held immediately after Buddha’s death in the Saptaparni Cave at Rajgriha. At that time, Ajatashatru was the ruler of Magadha. It was presided over by Mahakassapa (Mahakashyapa). The Second Buddhist Council was held at Vaishali about 100 years after Buddha’s death during the reign of Kalashoka. Its president was Acharya Sabbakami.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Which of the following rulers convened the Fourth Buddhist Council in Kashmir?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ashoka",
+            "B": "Ajatashatru",
+            "C": "Kanishka",
+            "D": "Kalashoka",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The fourth and final Buddhist Council was held during the reign of the Kushan ruler Kanishka at Kundalvan in Kashmir. It was presided over by Vasumitra, and Ashvaghosha was its vice-president. Here, difficult portions of Buddhist texts were examined properly, and commentaries were written on each Pitaka. Kanishka got these engraved on copper plates and kept them in a stupa. These commentaries written on the Tripitaka are called “Vibhasha Shastra.” It is noteworthy that the First Buddhist Council was held immediately after Buddha’s death in the Saptaparni Cave at Rajgriha. At that time, Ajatashatru was the ruler of Magadha. It was presided over by Mahakassapa (Mahakashyapa). The Second Buddhist Council was held at Vaishali about 100 years after Buddha’s death during the reign of Kalashoka. Its president was Acharya Sabbakami.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre.) 2020"
+        },
+        {
+          "q": "A Buddhist Council during the reign of Ashoka was held at –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Magadha",
+            "B": "Pataliputra",
+            "C": "Samastipur",
+            "D": "Rajgriha"
+          },
+          "answer": "B",
+          "explanation": "According to the Sinhalese traditions—Dipavamsa and Mahavamsa—the Third Buddhist Council was held at Pataliputra during Ashoka’s reign under the chairmanship of Moggaliputta Tissa.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Where was the third Buddhist Council held?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Taxila",
+            "B": "Sarnath",
+            "C": "Bodh Gaya",
+            "D": "Pataliputra"
+          },
+          "answer": "D",
+          "explanation": "According to the Sinhalese traditions—Dipavamsa and Mahavamsa—the Third Buddhist Council was held at Pataliputra during Ashoka’s reign under the chairmanship of Moggaliputta Tissa.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Where did Mahatma Buddha’s ‘Mahaparinirvana’ take place?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Lumbini",
+            "B": "Bodh Gaya",
+            "C": "Kushinagar",
+            "D": "Kapilvastu"
+          },
+          "answer": "C",
+          "explanation": "Gautama Buddha delivered his first sermon at Sarnath. After that, he went to Kapilavastu, Rajgriha, Vaishali and the Kosala kingdom for the propagation of Buddhism. Buddhism was propagated the most in the Kosala kingdom. King Prasenjit of Kosala also became a disciple of Buddha along with his family. While preaching, Buddha reached Pava, the capital of the Mallas. There he stayed in the mango grove of a blacksmith named Chunda. Chunda offered him Sukaramaddava to eat; as a result, he suffered from raktatisara (bloody diarrhoea) and severe pain. Even after this suffering, he reached Kushinara (Kasia), the capital of the Malla republic. Here, in 483 B.C., at the age of 80, he passed away. In Buddhist texts, this event is called Mahaparinirvana.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011 47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Tripitakas are the sacred books of the:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Jains",
+            "B": "Hindus",
+            "C": "Parsees",
+            "D": "Buddhists",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Tripitaka is the most important among Buddhist scriptures. After Buddha’s death, his teachings were compiled and divided into three parts; these are collectively called the Tripitaka. These are— 1. Vinaya Pitaka (rules related to the Sangha and a collection of conduct related to daily life), 2. Sutta Pitaka (a collection of sermons delivered by Gautama Buddha and his chief disciples), and 3. Abhidhamma Pitaka (philosophical doctrines of Buddhism).",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "Which of the following represents a fundamental difference between Mahayana Buddhism and Hinayana Buddhism?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Emphasis on non-violence",
+            "B": "Casteless society",
+            "C": "Worship of idols of gods and goddesses",
+            "D": "Worship of Stupas"
+          },
+          "answer": "C",
+          "explanation": "Followers of the Hinayana sect of Buddhism were not idol worshippers, whereas in the Mahayana sect, Buddha began to be regarded as a deity and the worship of his idols started. This represents the fundamental difference between the two sects of Buddhism.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant) 2019"
+        },
+        {
+          "q": "The ‘Bodhi Vriksha’ in Bodh Gaya belongs to which generation of its family?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Third",
+            "B": "Fourth",
+            "C": "Fifth",
+            "D": "Sixth"
+          },
+          "answer": "C",
+          "explanation": "The present Bodhi Tree located at the Mahabodhi Temple is not the original tree under which Gautama Buddha attained enlightenment. According to Hiuen Tsang, the original tree was destroyed in the 7th century by Emperor Shashanka. After this, several other trees were planted at this place and were also destroyed over time. The present tree that we see is a fifth-generation tree, which was got planted by Alexander Cunningham. This tree is fully protected, and only the leaves that fall from it may be touched and picked up. According to another account, this tree was planted successively—twice by Emperor Ashoka, once by Pushyamitra Shunga, once by the King of Burma, and finally by Cunningham. Hence, it becomes a sixth-generation tree. The Tourism Department website of the Government of Bihar mentions it as a fifth-generation tree. Due to the dispute in facts, the Bihar Public Service Commission excluded this question from evaluation.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008",
+          "note": "⚠ No officially verified answer for this question. The Bihar Tourism Department's own website describes the present Bodhi Tree as fifth-generation, matching option (c); a rival account (counting differently) puts it at sixth-generation (option d) — the question was excluded by BPSC due to this factual dispute."
+        },
+        {
+          "q": "The Chinese traveler 'Sung yun' visited India in -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "515 AD to 520 AD",
+            "B": "525 AD to 529 AD",
+            "C": "545 AD to 552 AD",
+            "D": "592 AD to 597 AD",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Chinese traveller ‘Sung-yun’ came to India in 518 A.D. After three years of travel, he returned to China with copies of Buddhist texts.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Gautama Buddha was elevated to the position of God during the period of:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ashoka",
+            "B": "Kanishka",
+            "C": "Chandragupta Vikramaditya",
+            "D": "Harsha"
+          },
+          "answer": "B",
+          "explanation": "In the reign of Kanishka, at the Fourth Buddhist Council, Buddhism got clearly divided into two distinct and independent sects—Hinayana and Mahayana. In the Mahayana branch, Buddha was regarded as a deity and began to be worshipped. Along with this, the worship of many Bodhisattvas also started.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "The teachers from whom Buddha first attempted to gain enlightenment after the Mahabhinishkramana were:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kaundinya and Kaladeva",
+            "B": "Ananda and Ashvaghosha",
+            "C": "Alara Kalama and Rudraka Ramaputra",
+            "D": "Sariputta and Nagasena"
+          },
+          "answer": "C",
+          "explanation": "After the Mahabhinishkramana, in search of knowledge, Lord Buddha reached the hermitage of Alara Kalama and took initiation from him. He practised austerities there, but he was not satisfied. Alara Kalama was a teacher of Sankhya philosophy and was famous for his spiritual powers; therefore, Buddha first attempted to gain knowledge from Alara Kalama and Rudraka Ramaputra.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "Which one of the following is not common between Buddhism and Jainism?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Ahimsa",
+            "B": "Indifference to Vedas",
+            "C": "Self-mortification",
+            "D": "Rejection of Rituals"
+          },
+          "answer": "C",
+          "explanation": "Avoidance of extremes of self-mortification (tapas) and sensual indulgence, and the adoption of the Middle Path, is followed only in Buddhism, not in Jainism. However, disbelief in the authority of the Vedas, denial of the efficacy of rituals, and prohibition of violence against living beings are found in both religions.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Nalanda University was a great center of knowledge of -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Buddhism",
+            "B": "Jainism",
+            "C": "Vaishnavism",
+            "D": "Sankhya"
+          },
+          "answer": "A",
+          "explanation": "Nalanda University was world-famous for the study of Buddhist philosophy. Around the middle of the fifth century A.D., during the Gupta period, Nalanda came into existence. Kumaragupta I first donated to the Nalanda Buddhist monastery, and later Gupta rulers such as Buddhagupta, Tathagatagupta, and Baladitya also made donations to the monastery.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Jain Religion",
+      "questions": [
+        {
+          "q": "Where was Mahavira Swami born?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kundagram",
+            "B": "Pataliputra",
+            "C": "Magadha",
+            "D": "Vaishali"
+          },
+          "answer": "A",
+          "explanation": "Mahavira Swami was born at Kundagrama or Kundalpur (near Vaishali) around 599 B.C. His mother Trishala was the sister of Chetaka, the chief of the Licchavi republican state of Vaishali, and his father Siddhartha was the head of the confederation of the Jnatrika Kshatriyas. His elder brother was Nandivardhana. In some old editions of National Council of Educational Research and Training books, Mahavira’s birth year is mentioned as 540 B.C. On this basis, many other publishers also printed the same year in their books, creating confusion. The correct birth year of Mahavira is 599 B.C., because Mahavira belonged to a period earlier than Gautama Buddha. Gautama Buddha was born in 563 B.C. In the newer editions of National Council of Educational Research and Training, Mahavira’s birth year is now published as 599 B.C.",
+          "exam": "BPSC",
+          "year": "53rd to 55thB.P.S.C. (Pre) 2011 47th B.P.S.C. (Pre) 2005 42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "The first disciple of Lord Mahavira was –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Jamali",
+            "B": "Yashoda",
+            "C": "Bipin",
+            "D": "Prabhash"
+          },
+          "answer": "A",
+          "explanation": "Lord Mahavira was born in 599 B.C. to Siddhartha, a feudatory of the Kshatriya lineage. His wife’s name was Yashoda, and they had a daughter named Priyadarshana. That daughter was married to Jamali, who later became a follower of Mahavira Swami. He was Mahavira’s first disciple.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "The salvation place of Mahavira, the Propounder of Jain religion, is located at -:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maner",
+            "B": "Rajgir",
+            "C": "Pavapuri",
+            "D": "Jalan Port",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The place of salvation (nirvana) of Mahavira Swami—the real propounder of Jainism or the 24th Tirthankara—is located at Pavapuri. Pavapuri, situated in Nalanda district of Bihar, is a major pilgrimage site for Jains. Lord Mahavira gave up his body at Pavapuri in Bihar in 527 B.C., at the age of 72 years. In the given question, instead of “propounder of Jainism,” the wording “real propounder of Jainism” should be used, because as the propounder of Jainism, the name of Adinath or Rishabhdev is mentioned.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "Mahavira Jain breathed his last at –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rajgir",
+            "B": "Ranchi",
+            "C": "Pavapuri",
+            "D": "Samastipur"
+          },
+          "answer": "C",
+          "explanation": "The place of salvation (nirvana) of Mahavira Swami—the real propounder of Jainism or the 24th Tirthankara—is located at Pavapuri. Pavapuri, situated in Nalanda district of Bihar, is a major pilgrimage site for Jains. Lord Mahavira gave up his body at Pavapuri in Bihar in 527 B.C., at the age of 72 years. In the given question, instead of “propounder of Jainism,” the wording “real propounder of Jainism” should be used, because as the propounder of Jainism, the name of Adinath or Rishabhdev is mentioned.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Which of the following is the earliest holy book of Jainism?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Twelve Angas",
+            "B": "Twelve Upangas",
+            "C": "Fourteen Purvas",
+            "D": "Fourteen Uppurva"
+          },
+          "answer": "C",
+          "explanation": "The “14 Purvas” (Purva) are the earliest Jain texts. During the time of the last Nanda king, Sambhuta Vijay and Bhadrabahu were the heads of the Sangha. Bhadrabahu was the last person who knew the 14 Purvas given by Mahavira.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Triratna or Three Jewels, i.e., right knowledge, right faith and right action are related to which of the following?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Buddhism",
+            "B": "Hinduism",
+            "C": "Jainism",
+            "D": "Christianity",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In Jainism, three means are described as necessary for liberation—right knowledge (samyak Gyan), right faith (samyak darshan), and right conduct (samyak charitra). These three are collectively called “Triratna” in Jainism.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre.) 2020"
+        },
+        {
+          "q": "‘Ajivaka’, sect was founded by:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Anand",
+            "B": "Rahulabhadra",
+            "C": "Makkhali Gosala",
+            "D": "Upali"
+          },
+          "answer": "C",
+          "explanation": "Makkhali Gosala was initially a disciple of Mahavira, but later, due to differences, he gave up Mahavira’s discipleship. Various sources mention Ajivika teachers named Nandavachchha and Kissankichcha, who were active even before Makkhaliputta Gosala. This implies that the Ajivika sect existed even before Gosala. Probably, it was Gosala who made this sect popular. Therefore, by tradition, he came to be regarded as the propounder of the Ajivika sect.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Who was the chairman of the first Jain Sangiti convened in Pataliputra?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vasumitra",
+            "B": "Sthiramati",
+            "C": "Sthulabhadra",
+            "D": "Sudharman",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The first Jain Council (assembly) at Pataliputra was held in the 4th century B.C., and Sthulabhadra presided over it. In this council, the 12 Angas of Jainism were compiled.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Who of the following kings was strongly inclined towards Jainism?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Dasaratha",
+            "B": "Brihadrath",
+            "C": "Kharavel",
+            "D": "Huvishk",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kharavela, the Chedi-dynasty ruler of Kalinga, was one of the greatest emperors of ancient Indian history. An undated inscription of his has been found in the Hathigumpha (Elephant Cave) of the Udayagiri hill, located about three miles from Bhubaneswar in the state of Odisha (Orissa). This inscription is the main source for understanding the history of Kharavela. He had a strong inclination towards Jainism. The Hathigumpha inscription is in the Prakrit language.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "The place where Mahavira attained complete spiritual knowledge (Kaivalya) is -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kundagram",
+            "B": "Vaishali",
+            "C": "Gaya",
+            "D": "Jrimbhikagrama"
+          },
+          "answer": "D",
+          "explanation": "After 12 years of severe penance and spiritual practice, Mahavira Swami attained Kaivalya (perfect knowledge) under a sal tree on the bank of the Rijupalika River near Jrimbhikagrama. As a result, he came to be known as a “Kevalin”.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Shaiva and Bhagavata Religion",
+      "questions": [
+        {
+          "q": "Who contributed the most to the development of the Bhagavata sect?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Persian",
+            "B": "Indo-Greek people",
+            "C": "Kushan",
+            "D": "Gupta"
+          },
+          "answer": "D",
+          "explanation": "The Bhagavata or Vaishnava religion reached its peak during the reign of the Gupta kings. The Gupta rulers were followers of Vaishnavism and probably adopted it as their state religion. Most rulers assumed the title “Paramabhagavata”. Garuda, the vehicle of Vishnu, was the royal emblem of the Guptas.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Nathpanthis, Siddhas and Yogis made devotional religion popular in",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Northern India",
+            "B": "Southern India",
+            "C": "Eastern India",
+            "D": "Western India"
+          },
+          "answer": "A",
+          "explanation": "The Nathpanthis, Siddhas and Yogis popularized the Bhakti religion in North India. Using simple reasoning and argument, they criticized the ritualistic practices of orthodox religion, other artificial aspects, and the social system of that time. They supported renunciation of the world. According to them, contemplation of the formless Supreme Truth and the experience of becoming one with it is the path to liberation. For this, they emphasized the need to give rigorous training to the mind and body through practices such as yogic postures, pranayama, and contemplation/meditation.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Sixth Century B.C.E. — Political Conditions",
+      "questions": [
+        {
+          "q": "Who founded Pataliputra?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Udayin",
+            "B": "Ashoka",
+            "C": "Bimbisara",
+            "D": "Mahapadmananda"
+          },
+          "answer": "A",
+          "explanation": "Pataliputra was founded by Ajatashatru by building a fort at Pataligram, at the confluence of the Ganga and Son rivers. Udayin shifted the capital of the Magadha Empire from Rajgriha to Pataliputra. The Bihar Public Service Commission accepted option (a) as the answer, which is incorrect.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008",
+          "note": "⚠ No officially verified answer for this question. BPSC's official answer key accepted option (a) 'Udayin'. Strictly, Pataliputra was actually founded by Ajatashatru (not listed as an option) — Udayin only later shifted the Magadhan capital there from Rajgriha."
+        },
+        {
+          "q": "Which ruler first made Pataliputra his capital?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta Maurya",
+            "B": "Ashoka the Great",
+            "C": "Chandragupta Vikramaditya",
+            "D": "Kanishka"
+          },
+          "answer": "A",
+          "explanation": "Pataliputra was founded by Ajatashatru by building a fort at Pataligram, at the confluence of the Ganga and Son rivers. Udayin shifted the capital of the Magadha Empire from Rajgriha to Pataliputra. The Bihar Public Service Commission accepted option (a) as the answer, which is incorrect.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) Exam 1997",
+          "note": "⚠ No officially verified answer for this question. BPSC's official answer key accepted option (a) 'Chandragupta Maurya' as the first ruler to make Pataliputra his capital. Strictly, it was Udayin who first shifted the Magadhan capital to Pataliputra (not listed as an option)."
+        },
+        {
+          "q": "Which ruler moved his capital to Pataliputra?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bimbisara",
+            "B": "Ajatashatru",
+            "C": "Udayin",
+            "D": "Chandragupta Maurya",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Pataliputra was founded by Ajatashatru by building a fort at Pataligram, at the confluence of the Ganga and Son rivers. Udayin shifted the capital of the Magadha Empire from Rajgriha to Pataliputra. The Bihar Public Service Commission accepted option (a) as the answer, which is incorrect.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
+        },
+        {
+          "q": "Which of the following kings founded Patliputra?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Shishunaga",
+            "B": "Bimbisara",
+            "C": "Ajatashatru",
+            "D": "Udayin"
+          },
+          "answer": "C",
+          "explanation": "Pataliputra was founded by Ajatashatru by building a fort at Pataligram, at the confluence of the Ganga and Son rivers. Udayin shifted the capital of the Magadha Empire from Rajgriha to Pataliputra. The Bihar Public Service Commission accepted option (a) as the answer, which is incorrect.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "By which ruler was Patliputra was chosen as the capital for the first time?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ajatashatru",
+            "B": "Kalashoka",
+            "C": "Udayin",
+            "D": "Kanishka"
+          },
+          "answer": "C",
+          "explanation": "Pataliputra was founded by Ajatashatru by building a fort at Pataligram, at the confluence of the Ganga and Son rivers. Udayin shifted the capital of the Magadha Empire from Rajgriha to Pataliputra. The Bihar Public Service Commission accepted option (a) as the answer, which is incorrect.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "In ancient times, the area to the south of the Ganga was known as",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Anarta",
+            "B": "Takshashila",
+            "C": "Chola",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "In ancient times, the region south of the Ganga River was known as Magadha. Taxila was located between the Indus and Jhelum rivers. Chola was located south of the Godavari River. Anarta was a Vedic-period state in ancient India.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "In which century did the first Magadhan Empire rise?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Fourth Century B.C.",
+            "B": "Sixth Century B.C.",
+            "C": "Second Century B.C.",
+            "D": "First Century B.C."
+          },
+          "answer": "B",
+          "explanation": "The real founder of the first Magadha Empire was King Bimbisara (approx 544-492 BCE). He was the founder of the Haryanka dynasty. Magadha rose to prominence in the 6th century BCE.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "Which of the following great rulers founded the \"Haryanka Vansh\" in ancient Bihar ?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bimbisara",
+            "B": "Brihadrath",
+            "C": "Ajatashatru",
+            "D": "More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The first Magadha Empire flourished in the 6th century BCE. The true architect of this empire’s greatness was King Bimbisara (approx 544-492 BCE). He belonged to the Haryanka dynasty.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "What was the Prakrit name of Rajgir, the capital of Magadha?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Grahraj",
+            "B": "Rajagriha",
+            "C": "Pataliputra",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The Prakrit name of Rajgir, the capital of Magadha, was Rajgriha. In ancient times, there were continuous conflicts among the Mahajanapadas, and ultimately Magadha emerged as the largest empire. The first ruling dynasty of Magadha was the Haryanka dynasty. This dynasty was founded by Bimbisara.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "Match List I with List II and select the correct answer using the codes given below the lists. List - I List - II (Mahajanapada) (Capitals of Mahajanapadas) A. Malla 1. Taxila B. Anga 2. Kaushambi C. Gandhara 3. Champa D. Vatsa 4. Kushinara Code:",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "A-4, B-3, C-1, D-2",
+            "B": "A-1, B-2, C-4, D-3",
+            "C": "A-3, B-1, C-2, D-4",
+            "D": "A-2, B-3, C-4, D-1"
+          },
+          "answer": "A",
+          "explanation": "The correct matching is as follows— Mahajanapada - Capital Malla - Kushinara(Kushinagar) Anga - Champa Gandhara - Taxila Vatsa - Kaushambi",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "By whom was the first republic of the world was established in Vaishali –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maurya",
+            "B": "Nanda",
+            "C": "Gupta",
+            "D": "Licchavi"
+          },
+          "answer": "D",
+          "explanation": "In the 6th century BCE, the world’s first republican system existed at Vaishali. In fact, while monarchies prevailed among the Mahajanapadas in the 6th century, republican governance was prevalent in two states—Vajji and Malla. Vajji was a confederation of eight states, in which the Licchavi of Vaishali were the most powerful.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "Where was the world’s first republican system in the sixth century BC?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vaishali",
+            "B": "Athens",
+            "C": "Sparta",
+            "D": "Pataliputra"
+          },
+          "answer": "A",
+          "explanation": "In the 6th century BCE, the world’s first republican system existed at Vaishali. In fact, while monarchies prevailed among the Mahajanapadas in the 6th century, republican governance was prevalent in two states—Vajji and Malla. Vajji was a confederation of eight states, in which the Licchavi of Vaishali were the most powerful.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "Which one was the capital of Magadha?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Vaishali",
+            "C": "Girivraj (Rajagriha)",
+            "D": "Champa"
+          },
+          "answer": "C",
+          "explanation": "According to the Puranas, the first dynasty to rule Magadha was the Brihadratha dynasty. Jarasandha, the son of Brihadratha (the first king of this dynasty), made Rajgriha (Girivraja) his capital. According to Buddhist texts, the first powerful ruler of Magadha was Bimbisara, who belonged to the Haryanka dynasty. He died in 492 BCE, after which Ajatashatru became the ruler of Magadha. Udayin, the son of Ajatashatru, shifted the capital from Rajgriha to Pataliputra.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011 47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Which was the first capital of the ancient Mahajanapada Magadh?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Vaishali",
+            "C": "Champa",
+            "D": "Anga",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "According to the Puranas, the first dynasty to rule Magadha was the Brihadratha dynasty. Jarasandha, the son of Brihadratha (the first king of this dynasty), made Rajgriha (Girivraja) his capital. According to Buddhist texts, the first powerful ruler of Magadha was Bimbisara, who belonged to the Haryanka dynasty. He died in 492 BCE, after which Ajatashatru became the ruler of Magadha. Udayin, the son of Ajatashatru, shifted the capital from Rajgriha to Pataliputra.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre.) 2020"
+        },
+        {
+          "q": "What was the name of the dynasty of Ajatashatru?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maurya",
+            "B": "Haryanka",
+            "C": "Nanda",
+            "D": "Gupta"
+          },
+          "answer": "B",
+          "explanation": "Ajatashatru (492–460 BCE), the ruler of Magadha, ascended the throne after killing his father Bimbisara, the founder of the Haryanka dynasty. He too was killed by his son Udayin (different from Udayana, the Vatsa king of Kaushambi).",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011 B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "The list of sixteen Mahajanapadas is available in –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Mahabharata",
+            "B": "Anguttar Nikaya",
+            "C": "Chandogya Upanishad",
+            "D": "Samyukta Nikaya"
+          },
+          "answer": "B",
+          "explanation": "In the Buddhist text Anguttara Nikaya, a list of 16 Mahajanapadas is available. These are: (1) Anga, (2) Magadha, (3) Kashi, (4) Kosala, (5) Vajji, (6) Malla, (7) Chedi, (8) Vatsa, (9) Kuru, (10) Panchala, (11) Matsya, (12) Shurasena, (13) Ashmaka, (14) Avanti, (15) Gandhara, and (16) Kamboja. Among these, only Ashmaka was located in South India. In the Buddhist text Digha Nikaya, only 12 Mahajanapadas are mentioned. The Jain text Bhagavati Sutra also gives a list of 16 Mahajanapadas, but the names differ slightly there.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "Pradyota was the king of–",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kasi",
+            "B": "Kosala",
+            "C": "Magadha",
+            "D": "Avanti",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "During Buddha’s time, the king of Avanti was Chandapradyota. The Vatsa king Udayana married his daughter Vasavadatta, which is mentioned in the play Swapnavasavadatta written by Bhasa. Ancient Avanti was mainly the region of modern Malwa, and it had two parts: the capital of Northern Avanti was Ujjayini, and the capital of Southern Avanti was Mahishmati.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO 2018"
+        },
+        {
+          "q": "Who was the physician of Magadha ruler Bimbisara?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Shilabhadra",
+            "B": "Vijayasena",
+            "C": "Jivaka",
+            "D": "Manu",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jivaka was the physician of Magadha ruler Bimbisara. Bimbisara also sent him to treat Avanti king Chandapradyota.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre)-2022"
+        },
+        {
+          "q": "Which dynasty did ruled over Magadha after the Nanda Dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maurya",
+            "B": "Shunga",
+            "C": "Gupta",
+            "D": "Kushana"
+          },
+          "answer": "A",
+          "explanation": "The Nanda dynasty in Magadha was established after ending the Shishunaga dynasty. There were a total of 9 kings in the Nanda dynasty. In the later period of the Nandas, the people turned against the rulers due to forcible collection of money and heavy taxes even on small items, and an atmosphere of hatred and discontent spread everywhere. Taking advantage of this situation, Chandragupta Maurya, with the help of Chanakya, killed Dhanananda and ended the Nanda dynasty. Thus, immediately after the Nandas, the Maurya dynasty was established in Magadha. After that, the Shungas, Kanvas, Guptas, etc. ruled. Therefore, as per the question, the nearest correct answer is option (a).",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Kaling king Kharavel was related to-",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Mahameghavahan Dynasty",
+            "B": "Chedi Dynasty",
+            "C": "Satavahan Dynasty",
+            "D": "Rath-Bhojak Dynasty",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The founder of the Chedi dynasty of Kalinga was a person named Mahameghavahana. Therefore, this dynasty also came to be known as the Mahameghavahana dynasty. The most powerful ruler of this dynasty was Kharavela.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "King Kharavela is related to –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pillar inscription of Girnar",
+            "B": "Pillar inscription of Junagarh",
+            "C": "Hathigumpha inscription",
+            "D": "Sarnath inscription"
+          },
+          "answer": "C",
+          "explanation": "The Chedi ruler of Kalinga, Kharavela, was one of the greatest emperors of ancient Indian history. An undated inscription of him has been found from the “Hathigumpha” cave on the Udayagiri hill in Bhubaneswar, Odisha. It gives a chronological account of events from Kharavela’s childhood, education, coronation, and the events of the first thirteen years of his reign. This inscription is the main source for knowing Kharavela’s history.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Gorathagiri in the Barabar Hills was conquered by",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rajaraja Chola",
+            "B": "Kharavela",
+            "C": "Menander",
+            "D": "Pushyamitra Shunga",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Kharavela, the ruler of the Chedi dynasty, conquered Gorathagiri situated in the Barabar hill range. Kharavela’s Hathigumpha inscription is related to the great ruler Kharavela of the Chedi dynasty/Mahameghavahana dynasty. In this inscription, the word “Maharaja” is mentioned for the first time.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "The capital of Anga Janapada was-",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Champa",
+            "B": "Ramagrama",
+            "C": "Kapilvastu",
+            "D": "Kundagram"
+          },
+          "answer": "A",
+          "explanation": "The present districts of Bhagalpur and Munger in southern Bihar were included in the Anga Mahajanapada. Its capital was Champa. In the Mahabharata and the Puranas, the ancient name of Champa is found as Malini. According to the Digha Nikaya, the plan for building this city was prepared by the architect Mahagovinda.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Greek Invasion",
+      "questions": [
+        {
+          "q": "Which one of the following rulers of Magadha was the contemporary of Alexander, the Great?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Mahapadmananda",
+            "B": "Dhanananda",
+            "C": "Sukalpa",
+            "D": "Chandragupta Maurya"
+          },
+          "answer": "B",
+          "explanation": "The last ruler of the Nanda dynasty was Dhanananda, who was a contemporary of Alexander. Greek writers called him Agrammes. Xenophon describes him as a very wealthy person. Bhaddasala was his commander-in-chief.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Mauryan Empire",
+      "questions": [
+        {
+          "q": "Who recognized Sandrokottos as Chandragupta Maurya?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "William Jones",
+            "B": "V. Smith",
+            "C": "R. K. Mukherjee",
+            "D": "D. R. Bhandarkar"
+          },
+          "answer": "A",
+          "explanation": "William Jones was the first scholar who identified Sandrokottas (Sandrocottus) with the Mauryan ruler Chandragupta Maurya. Appian and Plutarch described Chandragupta Maurya as Androkottas/Androcottus, while Justin, Strabo, and Arrian mentioned him as Sandrokottas (Sandrocottus). Plutarch and Justin also mention the meeting between Chandragupta Maurya and Alexander the Great.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "The first empire was established by which ruler in India?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta Maurya",
+            "B": "Ashoka",
+            "C": "Kanishka",
+            "D": "Chandragupta-II Vikramaditya",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Chandragupta Maurya is counted among the great rulers of India. He was the first emperor of the Mauryan Empire. He was the first emperor who established his rule over a vast territory, and the extent of his empire was larger than the British Indian Empire. The boundary of his empire touched Iran. He was the first to politically unify India.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "Who was the founder of the Maurya Empire?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bindusara",
+            "B": "Brihadratha",
+            "C": "Ashoka",
+            "D": "Chandragupta Maurya"
+          },
+          "answer": "D",
+          "explanation": "The Maurya dynasty was founded by Chandragupta Maurya. Its period was 321–184 BCE. After this, the Kushana dynasty, the Gupta dynasty, and the Vardhana dynasty ruled ancient India.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C Re-Exam (Pre) 2024"
+        },
+        {
+          "q": "Who amongst the following Mauryan rulers did conquered the Deccan?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ashoka",
+            "B": "Chandragupta",
+            "C": "Bindusara",
+            "D": "Kunala"
+          },
+          "answer": "B",
+          "explanation": "Chandragupta Maurya, the founder of the Mauryan Empire, conquered South India (the Deccan). In this regard, information is obtained from Ashoka’s inscriptions, and from Jain and Tamil sources. Ashoka’s inscriptions are found at many places in the southern region, but Ashoka carried out only the Kalinga conquest. Therefore, the credit for conquest in the south has to be given to Chandragupta Maurya, because Bindusara’s conquests are highly doubtful and he is not remembered in history as a conqueror. Jain and Tamil sources also confirm Chandragupta Maurya’s southern conquest.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "Chandragupta Maurya figures prominently in the book of –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bhasa",
+            "B": "Sudraka",
+            "C": "Vishakhadatta",
+            "D": "Ashvaghosha"
+          },
+          "answer": "C",
+          "explanation": "Detailed information about Chandragupta Maurya is obtained from Vishakhadatta’s 'Mudrarakshasa'. In this work, Chandragupta is considered the son of Mahapadma Nanda (another name—Nanda). In Mudrarakshasa, Chandragupta is also called “Vrishala” and “Kulheen.” In the 18th century CE, Dhundhiraj wrote a commentary on Mudrarakshasa.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "Megasthenes was the ambassador of -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Seleucus",
+            "B": "Alexander",
+            "C": "Darius",
+            "D": "Greeks",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Megasthenes was a Greek ambassador sent by Seleucus Nicator to the royal court of Chandragupta Maurya. Earlier, he had served as Seleucus’s envoy in the royal court of the satrap of Arachosia.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "In how many categories did Megasthenes divide the Indian society?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Four",
+            "B": "Five",
+            "C": "Six",
+            "D": "Seven"
+          },
+          "answer": "D",
+          "explanation": "In his book Indica, Megasthenes divided Indian society into seven categories—(1) Philosophers, (2) Farmers, (3) Herders, (4) Craftsmen and businessmen, (5) Warriors, (6) Inspectors, and (7) Ministers and preachers. Megasthenes does not mention the prevalence of slavery in Indian society. In the Mauryan period, no person could marry outside his caste, nor could he adopt an occupation different from it.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2003"
+        },
+        {
+          "q": "The description of the administration of Pataliputra is available in?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Divyavadana",
+            "B": "Arthashastra",
+            "C": "Indica",
+            "D": "Ashoka’s inscriptions"
+          },
+          "answer": "C",
+          "explanation": "The administration of the city of Pataliputra is found in Megasthenes’ Indica. Megasthenes mentions six committees, each consisting of five members, of the municipal council of Pataliputra. He calls the city officials Astynomoi.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "Match List I with List II List-I List-II Event Place Connected with person A. Chola Gangam Lake 1. Chandragupta Maurya B. Appointment of 2. Harshavardhan Dharma Mahamatra C. Assembly at Prayag 3. Rajendra I D. Sudarshan Lake 4. Ashoka Select the correct answer using the codes given below: A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "3 4 2 1",
+            "B": "1 4 2 3",
+            "C": "3 4 1 2",
+            "D": "2 3 1 4"
+          },
+          "answer": "A",
+          "explanation": "The correct matching is as follows - Event/Place Connected with Persons Chola Gangam Lake - Rajendra I Appointment of Dharma Mahamatra - Ashoka Assembly at Prayag - Harshavardhana Sudarshan Lake - Chandragupta Maurya",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "The inscription which proves Chandragupta’s sway over western India is:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalinga Rock Inscription",
+            "B": "Girnar Rock Inscription of Ashoka",
+            "C": "Junagarh Rock Inscription of Rudradaman",
+            "D": "Sopara Rock Inscription of Ashoka"
+          },
+          "answer": "C",
+          "explanation": "From the Junagadh inscription of Rudradaman I (150 CE), it is known that Pushyagupta, the provincial governor of Chandragupta Maurya in Saurashtra, had Sudarshana Lake constructed there, and later Tushaspa, described as a Yavana ruler in Ashoka’s time, built canals connected with this reservoir. This province has been referred to as Anarta and Surashtra. This provides evidence of Chandragupta Maurya’s overlordship over western India.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "In which inscription is Kalinga victory is mentioned?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maski Inscription",
+            "B": "Rudradaman Inscription",
+            "C": "Junagarh Inscription",
+            "D": "Hathigumpha Inscription",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The mention of Ashoka’s Kalinga conquest is found in Ashoka’s 13th Major Rock Edict. The Hathigumpha inscription is an autobiographical account of the Chedi king Kharavela. This cave is located on the Udayagiri hill near Bhubaneswar.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "Which one territory of the following was not a part of Ashoka’s empire?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Afghanistan",
+            "B": "Bihar",
+            "C": "Sri Lanka",
+            "D": "Kalinga"
+          },
+          "answer": "C",
+          "explanation": "Sri Lanka was not included in Ashoka’s empire. Ashoka’s Second Rock Edict indicates that Ashoka’s authority in India extended everywhere except Chola, Pandya, Satiyaputta, Keralaputta, and Tamraparni (Sri Lanka). These states were called Pratyanta, i.e., frontier/border states.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "The only pillar on which Ashoka declares himself as the emperor of Magadha –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Minor pillar of Maski",
+            "B": "Rummindei pillar",
+            "C": "Queen pillar",
+            "D": "Bhabru pillar"
+          },
+          "answer": "D",
+          "explanation": "In the Bhabru (Bairat) rock inscription, Ashoka described himself as the Emperor of Magadha—(Priyadasi laja Magadhe sanghe abhivadetoonam aaha apaba dhatam cha …). This inscription also establishes Ashoka as a follower of Buddhism.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "The central point in Ashoka's Dhamma is -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Loyalty to the king",
+            "B": "Peace and non-violence",
+            "C": "Respect for elders",
+            "D": "Religious tolerance",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Ashoka’s Dhamma (Dharma) was a moral code. Through his second and seventh pillar edicts, Ashoka conveys the message—“Apasinave bahukayane daya dane, sache sochaye madave sadhave cha.” That is, do less wrongdoing, do welfare, show compassion and charity, speak the truth, live with purity, maintain gentleness in nature, and uphold goodness. Thus, the basic message of Ashoka’s Dhamma includes peace and nonviolence, respect for elders, and religious tolerance. Therefore, the correct answer is option (e).",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "The name by which Ashoka is referred to in his inscriptions is :",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chakravarti",
+            "B": "Dharmadeva",
+            "C": "Dharmakirti",
+            "D": "Priyadarshi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In most of Ashoka’s inscriptions, he is addressed with titles such as Devanampiya, Devanampiya Piyadashi (Beloved of the Gods / pleasant to look at), and Raja, etc. In the Puranas, he is called Ashokvardhana.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "Language used in the inscriptions of Ashoka is:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sanskrit",
+            "B": "Prakrit",
+            "C": "Pali",
+            "D": "Hindi"
+          },
+          "answer": "B",
+          "explanation": "Ashoka’s history is known mainly from his inscriptions. His inscriptions can be classified into three categories—(1) Rock Edicts, (2) Pillar Edicts, and (3) Cave Inscriptions. The Rock Edicts are a group of 14 different edicts, found at eight different places—(1) Shahbazgarhi, (2) Mansehra, (3) Kalsi, (4) Girnar, (5) Dhauli, (6) Jaugada, (7) Erragudi, and (8) Sopara. Most of Ashoka’s inscriptions are written in the Prakrit language and Brahmi script; only two—Shahbazgarhi and Mansehra—are in Kharosthi script (not Brahmi). A broken inscription written in Aramaic was found from Taxila; a bilingual inscription (Greek and Syriac) was found from a place called Sherekhuna; and an Ashokan inscription written in Aramaic was also found from Laghman.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "The script written on Ashoka's Pillars is",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Brahmi",
+            "B": "Samaritan",
+            "C": "Pali",
+            "D": "Sanskrit"
+          },
+          "answer": "A",
+          "explanation": "Ashoka’s history is known mainly from his inscriptions. His inscriptions can be classified into three categories—(1) Rock Edicts, (2) Pillar Edicts, and (3) Cave Inscriptions. The Rock Edicts are a group of 14 different edicts, found at eight different places—(1) Shahbazgarhi, (2) Mansehra, (3) Kalsi, (4) Girnar, (5) Dhauli, (6) Jaugada, (7) Erragudi, and (8) Sopara. Most of Ashoka’s inscriptions are written in the Prakrit language and Brahmi script; only two—Shahbazgarhi and Mansehra—are in Kharosthi script (not Brahmi). A broken inscription written in Aramaic was found from Taxila; a bilingual inscription (Greek and Syriac) was found from a place called Sherekhuna; and an Ashokan inscription written in Aramaic was also found from Laghman.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Re-Exam 2024"
+        },
+        {
+          "q": "Which one of the following scripts was written from right to left in ancient India?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Brahmi",
+            "B": "Nandanagari",
+            "C": "Sharada",
+            "D": "Kharosthi"
+          },
+          "answer": "D",
+          "explanation": "In ancient India, the Kharoshthi script was written from right to left. The credit for reading it is given to scholars such as Prinsep (1835 A.D.), Grotefend (1836 A.D.), Lassen (1838 A.D.), etc. It was mainly a script of north-western India.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) 2005"
+        },
+        {
+          "q": "Which one of the following scripts of ancient India was written from right to left?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Brahmi",
+            "B": "Sharada",
+            "C": "Kharosthi",
+            "D": "Nandanagari",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "In ancient India, the Kharoshthi script was written from right to left. The credit for reading it is given to scholars such as Prinsep (1835 A.D.), Grotefend (1836 A.D.), Lassen (1838 A.D.), etc. It was mainly a script of north-western India.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "The inscriptions of Ashoka were read for the first time by -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "James Prinsep",
+            "B": "Buhler",
+            "C": "Robert Sewell",
+            "D": "Codrington"
+          },
+          "answer": "A",
+          "explanation": "The credit for reading Ashoka’s inscriptions (Brahmi script) for the first time goes to James Prinsep. He succeeded in reading Ashoka’s Delhi–Topra inscription in 1837 A.D.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant) 2019"
+        },
+        {
+          "q": "Who first deciphered the Brahmi script ?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "A. Cunningham",
+            "B": "A.H. Dani",
+            "C": "Buhler",
+            "D": "James Prinsep"
+          },
+          "answer": "D",
+          "explanation": "The credit for reading Ashoka’s inscriptions (Brahmi script) for the first time goes to James Prinsep. He succeeded in reading Ashoka’s Delhi–Topra inscription in 1837 A.D.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "Which ruler had made Pataliputra the capital of his empire for the first time?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta Maurya",
+            "B": "Ashoka the Great",
+            "C": "Chandragupta Vikramaditya",
+            "D": "Kanishka"
+          },
+          "answer": "A",
+          "explanation": "In fact, Pataliputra was founded by Udayin, a ruler of the Haryanka dynasty, at the confluence of the Ganga and Son rivers, and he shifted his capital from Rajagriha to Pataliputra. However, since Udayin is not given in the options, Chandragupta Maurya is the correct answer.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "Who was the last ruler of the Mauryan dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ashoka",
+            "B": "Samudragupta",
+            "C": "Brihadratha",
+            "D": "Pushyamitra"
+          },
+          "answer": "C",
+          "explanation": "The last Mauryan ruler was Brihadratha. He was killed by his commander Pushyamitra Shunga in 184 B.C. The founder of the Maurya dynasty was Chandragupta Maurya. Chandragupta Maurya is counted among the great rulers of India. He was an emperor who established his rule over a vast region of India.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "The last Mauryan emperor was:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Jaloka",
+            "B": "Avanti Verma",
+            "C": "Nandi Vardhana",
+            "D": "Brihadratha"
+          },
+          "answer": "D",
+          "explanation": "The last Mauryan ruler was Brihadratha. He was killed by his commander Pushyamitra Shunga in 184 B.C. The founder of the Maurya dynasty was Chandragupta Maurya. Chandragupta Maurya is counted among the great rulers of India. He was an emperor who established his rule over a vast region of India.",
+          "exam": "BPSC",
+          "year": "48th to 52nd B.P.S.C. (Pre) 2008"
+        },
+        {
+          "q": "The decline of the Mauryan Empire was largely due to the economic consequences of Ashoka's policy. Who believed in this fact?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Romila Thapar",
+            "B": "D. N. Jha",
+            "C": "V. A. Smith",
+            "D": "H. C. Raychaudhuri",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The noted historian Romila Thapar believes that the Mauryan Empire declined due to the economic consequences of Ashoka’s policy.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2022"
+        },
+        {
+          "q": "The most famous centre of learning during the Mauryan period was:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vaishali",
+            "B": "Nalanda",
+            "C": "Taxila",
+            "D": "Ujjain"
+          },
+          "answer": "C",
+          "explanation": "Vaishali is currently a district of Bihar. In ancient times, Vaishali was associated with Buddhism and Jainism. In the 6th century B.C., it was a major republican state under the Vajji confederacy. Mahavira was born at Kundagram in Vaishali. Nalanda was an important centre of Buddhist education. The first Buddhist monastery here was established in the Gupta period. Taxila was a major centre of Hindu and Buddhist education in the Mauryan period. Students came here to study from across the world.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Post Mauryan Period",
+      "questions": [
+        {
+          "q": "Consider the following dynasties of Ancient India: 1. Shunga 2. Maurya 3. Kushana 4. Kanva Which of the following is the correct chronological order of their rule?",
+          "question_type": "Chronological Order — Correct Sequence",
+          "options": {
+            "A": "1-2-3-4",
+            "B": "2-1-4-3",
+            "C": "2-3-1-4",
+            "D": "2-1-3-4"
+          },
+          "answer": "B",
+          "explanation": "Scholars consider the Mauryan Empire to have lasted from approximately 321 BCE to 184 BCE. The Shunga Dynasty is believed to have lasted from approximately 184 BCE to 73 BCE. The Kanva Dynasty spanned approximately 73 BCE to 28 BCE. The Kushan Empire is believed to have existed between the first and third centuries CE. Therefore, the correct chronological order of the dynasties of ancient India is as follows: Maurya → Shunga → Kanva → Kushan",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "Epigraphic records (Inscriptions) suggest that in ancient India, the rulers of Bihar had contact with –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Burma",
+            "B": "Thailand",
+            "C": "Cambodia",
+            "D": "Java-Sumatra"
+          },
+          "answer": "D",
+          "explanation": "The Pala ruler Devapala was a follower of Buddhism. In inscriptions he is called ‘Paramasaugata’. At the request of Balaputradeva, the Shailendra ruler of Java, Devapala donated five villages for building a Buddhist monastery at Nalanda.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Who was the king of Suvarnabhumi who established a Buddhist monastery in Nalanda and requested Devapala through his messenger to donate five villages for its maintenance?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Dharanindra",
+            "B": "Sangramadhananjaya",
+            "C": "Balaputradeva",
+            "D": "Chudamani Varman",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The Pala ruler Devapala was a follower of Buddhism. In inscriptions he is called ‘Paramasaugata’. At the request of Balaputradeva, the Shailendra ruler of Java, Devapala donated five villages for building a Buddhist monastery at Nalanda.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Match List I with List II List-I List-II Places in Ancient Presently in which India State a. Karmasuvarna 1. Maharashtra b. Pragjyotish 2. Gujarat c. Girnar 3. West Bengal d. Pratishthan 4. Assam Select the correct answer using the codes given below: A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "3 4 2 1",
+            "B": "4 3 1 2",
+            "C": "3 2 4 1",
+            "D": "4 2 1 3"
+          },
+          "answer": "A",
+          "explanation": "Archaeological and historical accounts describe Karnasuvarna as an ancient city, believed to be located in present-day Murshidabad district, West Bengal. Ancient Sanskrit literature uses the names Pragjyotisha and Kamarupa to refer to ancient Assam and its surrounding region. Mount Girnar and its associated ancient religious and historical sites lie in the modern-day state of Gujarat. Pratishthan (Paithan) is a town in Chhatrapati Sambhajinagar (formerly Aurangabad) district of Maharashtra state, located on the banks of the Godavari River.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "Which inscription tells about the various achievements of Rudradaman-I?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Junagadh",
+            "B": "Bhitari",
+            "C": "Nasik",
+            "D": "Sanchi"
+          },
+          "answer": "A",
+          "explanation": "An inscription of Rudradaman I has been found at Junagadh (Gujarat). The same rock on which it is engraved also contains a copy of Ashoka’s fourteen major rock edicts and an inscription of Skandagupta. It is written in pure Sanskrit and in the Brahmi script. It throws light on Rudradaman’s various achievements",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "According to the rock inscription in Sanskrit, composed around the second century CE, Sudarshan Lake, an artificial reservoir, was repaired by",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Harsha",
+            "B": "Kanishka",
+            "C": "Rudradaman",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The Junagadh inscription of Rudradaman I (130–150 CE) has been found from Girnar Hill in Gujarat. This Sanskrit inscription is among the early Sanskrit inscriptions. From it, we get information about the construction and reconstruction of the dam of Sudarshana Lake.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "Who among the following first issued gold coins on a large scale?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pushyamitra Shunga",
+            "B": "Menander",
+            "C": "Vima Kadphises",
+            "D": "Gautamiputra Satakarni",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The introduction of gold coinage on a large scale by the Kushana rulers was their most important contribution to the Indian subcontinent. Vima Kadphises is credited with starting the circulation of gold coins.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "In pre-Gupta times, a large number of lead coins were issued by the",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Satavahanas",
+            "B": "Shakas",
+            "C": "Kushanas",
+            "D": "Mauryas",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "In the pre-Gupta period, a large number of lead coins were issued by the Satavahana rulers. It may be noted that the Satavahana dynasty was founded by Simuka. Their actual capital was Pratishthana (Paithan). In the Puranas, this dynasty is called Andhrabhritya or of Andhra origin.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) 2022"
+        },
+        {
+          "q": "Which dynasty ruled over India after the Shunga dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Satavahana",
+            "B": "Kushana",
+            "C": "Kanva",
+            "D": "Gupta"
+          },
+          "answer": "C",
+          "explanation": "The last Shunga king, Devabhuti, was killed through the conspiracies of his minister Vasudeva. The new dynasty founded by Vasudeva came to be known as the Kanva or Kanvayana dynasty. Like the Shungas, it was also a Brahmin dynasty.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Gupta and Post-Gupta Period",
+      "questions": [
+        {
+          "q": "Which Gupta ruler assumed the throne after killing his elder brother?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Shri Gupta",
+            "B": "Samudragupta",
+            "C": "Chandragupta II",
+            "D": "Skandagupta",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "After Samudragupta, his son Ramagupta became the ruler. However, since he could not effectively resist the Shaka invasions, his brother Chandragupta II killed Ramagupta, married his wife Dhruvadevi, and achieved victory over the Shakas.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre)-2022"
+        },
+        {
+          "q": "Who is called ‘the Napoleon of Ancient India’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta Maurya",
+            "B": "Pushyamitra",
+            "C": "Kanishka",
+            "D": "Samudragupta"
+          },
+          "answer": "D",
+          "explanation": "Historian Vincent Smith, impressed by Samudragupta’s valour and conquests, gave him the title ‘Indian Napoleon’ in his work The Early History of India. Samudragupta’s conquests are described in the Prayag-Prashasti. Its author was Harishena.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "The Gupta emperor who defeated the ‘Hunas’ was:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Samudragupta",
+            "B": "Chandragupta- II",
+            "C": "Skandagupta",
+            "D": "Ramagupta"
+          },
+          "answer": "C",
+          "explanation": "The first Huna invasion of India took place during the reign of the Gupta emperor Skandagupta (around 455 CE), and they were badly defeated by him. This invasion was only a raid and had no major direct impact on the country; however, indirectly it accelerated the decline of the Gupta Empire. After Skandagupta’s death, in the late 5th century and the beginning of the 6th century, the Hunas captured several regions in the north-west.",
+          "exam": "BPSC",
+          "year": "53rd to 55th B.P.S.C. (Pre) 2011"
+        },
+        {
+          "q": "Who was the founder of Nalanda University?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta Vikramaditya",
+            "B": "Kumaragupta",
+            "C": "Dharmapal",
+            "D": "Pushyagupta"
+          },
+          "answer": "B",
+          "explanation": "According to Hiuen Tsang, the founder of Nalanda University was ‘Shakraditya’, who established it due to his great devotion to Buddhism. Shakraditya is identified with the Gupta ruler Kumaragupta I (415–455 CE). Kumaragupta’s famous title was ‘Mahendraditya’. Nalanda was a renowned Buddhist centre and university. It was located near Rajgir in southern Bihar. Even today, its ruins are scattered far and wide around the village of Bargaon. In the mid-5th century, during the Gupta period, Nalanda University came into existence. Kumaragupta I was the first to donate to the Nalanda Buddhist Vihara, and later Gupta rulers such as Buddhagupta and Baladitya also made donations to this vihara.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Nalanda University was founded during the dynasty of",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Maurya",
+            "B": "Kushan",
+            "C": "Gupta",
+            "D": "Pala"
+          },
+          "answer": "C",
+          "explanation": "According to Hiuen Tsang, the founder of Nalanda University was ‘Shakraditya’, who established it due to his great devotion to Buddhism. Shakraditya is identified with the Gupta ruler Kumaragupta I (415–455 CE). Kumaragupta’s famous title was ‘Mahendraditya’. Nalanda was a renowned Buddhist centre and university. It was located near Rajgir in southern Bihar. Even today, its ruins are scattered far and wide around the village of Bargaon. In the mid-5th century, during the Gupta period, Nalanda University came into existence. Kumaragupta I was the first to donate to the Nalanda Buddhist Vihara, and later Gupta rulers such as Buddhagupta and Baladitya also made donations to this vihara.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Who among the following was not an Acharya in the Nalanda Vishvavidyalaya?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Kautilya",
+            "B": "Nagarjuna",
+            "C": "Shilabhadra",
+            "D": "Shantarakshita"
+          },
+          "answer": "A",
+          "explanation": "Kautilya (Chanakya) is considered to have been a teacher of the 4th-3rd centuries BCE, a prime minister during the reigns of the Mauryan emperors Chandragupta Maurya and Bindusara, and author of the Arthashastra. According to tradition, he was an expert associated with Takshashila, while the systematic development of Nalanda Mahavihara occurred during the Gupta period.",
+          "exam": "BPSC",
+          "year": "71st B.P.S.C. (Pre) 2025"
+        },
+        {
+          "q": "Why was Nalanda University famous in the world?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Medical Science",
+            "B": "Philosophy",
+            "C": "Buddhist Religious Philosophy",
+            "D": "Chemical Science"
+          },
+          "answer": "C",
+          "explanation": "Nalanda University was world-famous for the study of Buddhist philosophy. The Chinese traveller Hiuen Tsang came to India to study there.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "Out of two statements below first is Assertion(A) and second is Reason (R), carefully read both statements. Assertion (A) : Till the end of the twelfth century Nalanda Mahavihara lost its glory. Reason (R) : State protection ceased to be available to the Mahavihara. With respect to the above-mentioned two statements, which of the following is true?",
+          "question_type": "Assertion and Reason — Standard Relationship Evaluation",
+          "options": {
+            "A": "(A) and (R) both are true, and (R) is the correct explanation of (A).",
+            "B": "(A) and (R) both are true, and (R) is not the correct explanation of (A).",
+            "C": "(A) is true, but (R) is false.",
+            "D": "(A) is false, but (R) is true."
+          },
+          "answer": "B",
+          "explanation": "Nalanda was a renowned Buddhist centre and university. It was located near Rajgir (ancient name: Rajgriha) in southern Bihar. The university at Nalanda came into existence in the mid-5th century during the time of the Gupta rulers. In the last decade of the 12th century, as a result of Muslim invasions, this Mahavihara declined. Also, because the Pala rulers of Bengal patronised Vikramashila University, the importance of Nalanda began to diminish.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Consider the following statements : 1. Fa-Hien was a Chinese pilgrim who visited India during the reign of Harsha. 2. Hiuen Tsang was a Chinese Buddhist monk who visited India during the reign of Chandragupta II. Which of the above statements is/are correct?",
+          "question_type": "Multiple Statements — Correct Combination by Code",
+          "options": {
+            "A": "Only 1",
+            "B": "Only 2",
+            "C": "Both 1 and 2",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Fa-Hien was a Chinese traveler, and he visited India during the reign of Chandragupta II. He wrote a detailed account of the life of the people here. In his account, he did not mention the king’s name. The Chinese traveler Hiuen Tsang visited India during the reign of Emperor Harsha. He described the multi-storeyed bronze monastery built by Harsha at Nalanda. In his account, he mentioned that during Harsha’s period the Shudras practiced agriculture. He also mentioned the assembly held at Prayagraj (Prayag) in his travelogue. Therefore, both statement (1) and statement (2) are incorrect.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The famous Chinese pilgrim Fa-Hien visited India during the reign of:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta I",
+            "B": "Chandragupta II",
+            "C": "Ramagupta 08 99",
+            "D": "Srigupta",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Fa-Hien was a Chinese traveler, and he visited India during the reign of Chandragupta II. He wrote a detailed account of the life of the people here. In his account, he did not mention the king’s name. The Chinese traveler Hiuen Tsang visited India during the reign of Emperor Harsha. He described the multi-storeyed bronze monastery built by Harsha at Nalanda. In his account, he mentioned that during Harsha’s period the Shudras practiced agriculture. He also mentioned the assembly held at Prayagraj (Prayag) in his travelogue. Therefore, both statement (1) and statement (2) are incorrect.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre) 2017"
+        },
+        {
+          "q": "The gradual decline of towns was an important feature of which period?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Gupta period",
+            "B": "Pratihara era",
+            "C": "Rashtrakut",
+            "D": "Satavahana era"
+          },
+          "answer": "A",
+          "explanation": "In the Gupta period, towns moved towards gradual decline. Across the entire Ganga valley, many cities that were earlier extremely prosperous were either abandoned in the Gupta age or witnessed considerable disruption in settlement. By the time of Xuanzang’s arrival, even an important city like Pataliputra had turned into a village. Important towns like Mathura, and places such as Kumhrar, Sonpur, Sohgaura, and many significant centers of the Ganga valley in Uttar Pradesh also show clear evidence of decline.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "Which one of the following ports was in use for the North Indian trade during the Gupta period?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalyan",
+            "B": "Tamralipti",
+            "C": "Broach",
+            "D": "Cambay",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "During the Gupta period, Tamralipti in Bengal was a major port, from where North India traded with South-East Asia, China, Lanka, Java, Sumatra, etc. The major port of western India was Bhrigukachchha (Bharuch), from where maritime trade took place with western countries. Besides this, Kalyan and Cambay were also used for North Indian trade.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        },
+        {
+          "q": "Which ruling dynasty donated the maximum villages to temples and Brahmins?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Gupta Dynasty",
+            "B": "Pala Dynasty",
+            "C": "Rashtrakuta",
+            "D": "Pratihara"
+          },
+          "answer": "A",
+          "explanation": "The rulers of the Gupta dynasty gave the maximum number of village grants to temples and Brahmins. The land grants mentioned in Gupta inscriptions make it clear that along with the land grant, the income generated from the village land was also handed over to the recipient.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "What was the land revenue rate in the Gupta age?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Fourth part of the production",
+            "B": "Sixth part of the production",
+            "C": "Eighth part of the production",
+            "D": "Half part of the production"
+          },
+          "answer": "B",
+          "explanation": "In the Gupta period, those who cultivated on state land had to pay a part of their produce (one-sixth of the produce) to the king as tax, which was called Shashthansh (one-sixth). In Gupta inscriptions, this land tax is referred to as ‘Bhagkar’ or ‘Udrang’.",
+          "exam": "BPSC",
+          "year": "42nd B.P.S.C. (Pre) 1997-98"
+        },
+        {
+          "q": "What is the rate of land revenue in the Dharmashastras?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "1/3",
+            "B": "1/4",
+            "C": "1/6",
+            "D": "1/8"
+          },
+          "answer": "C",
+          "explanation": "In almost all Dharmashastra texts, the rate of land revenue was 1/6 (one-sixth of the produce).",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "What type of land was called ‘Aprahata’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Unploughed wild land",
+            "B": "Irrigated land",
+            "C": "Land with dense forests",
+            "D": "Ploughed/cultivated land",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Unploughed wild land (land on which cultivation has not been done) was called ‘Aprahata land’. This is a term of the Gupta-period revenue system.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Consider the types of land according to the Amarkosha: (A) Urvara-fertile (B) Maru-desert (C) Shadvala-grassy (D) Devamatrika-watered by rain Which of the following is correct ?",
+          "question_type": "List and Code — Correct Combination",
+          "options": {
+            "A": "(A) and (B) both",
+            "B": "(C) and (D) both",
+            "C": "(B), (C) and (D)",
+            "D": "More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Amara Singh one of the Navaratnas (nine gems) of Chandragupta II ‘Vikramaditya’, composed the work titled ‘Amarakosha’. Amarakosha gives a list of 12 types of land, including—Urvara (fertile land), Maru (desert land), Ushara (barren land), Aprahata (fallow land), Shadvala/Shadbala (grass land), Pankila (muddy land), Jalaprayanupama (moist land), Kaccha (marshy land/land near water sources), Sharkara (limestone/pebble-bearing land), Sharkaravati (sandy land), Nadimatrika (river-irrigated land) and Devamatrika (rain-fed). Hence, all the matchings given in the options are correct. Therefore, option (d) is the correct answer.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "Who was the author of the famous ‘Allahabad Prashasti’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalidasa",
+            "B": "Harishena",
+            "C": "Ravikirti",
+            "D": "Shudraka",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The author of the famous Allahabad Prashasti was Harishena. On the Ashokan pillar at Allahabad (presentday Prayagraj), Harishena presented a eulogistic account of Samudragupta, which is called the ‘Prayag Prashasti’. In the same Prashasti, Harishena described himself as Sandhivigrahika, Kumaramatya and Dandanayaka. This implies that in the Gupta period, a person could be appointed to more than one post.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2022"
+        },
+        {
+          "q": "In the Puranas, the rulers of which dynasty were called ‘Shriparvatiya’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vakataka",
+            "B": "Ikshvaku",
+            "C": "Shaka",
+            "D": "Kharavela"
+          },
+          "answer": "B",
+          "explanation": "In the Puranas, the rulers of the Ikshvaku dynasty are called ‘Shriparvatiya’ (rulers of the Shriparvata region) and ‘Andhrabhritya’ (servants of the Andhras). Earlier, they were feudatories of the Satavahanas, but after their decline they declared independence. The founder of this dynasty was Shri Shantamula.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. Re -Exam (Pre) 2020"
+        },
+        {
+          "q": "Consider the following about the King “Pravaerasena” : (A) He was the real founder of the Vakataka dynasty. (B) His empire extended from Bundelkhand in the north to Hyderabad in the South. (C) He succeeded his father king Vindhyashakti. (D) He is mentioned in the Puranas. Which of the following statements are correct ?",
+          "question_type": "Multiple Statements — Correct Combination by Code",
+          "options": {
+            "A": "(A) and (B) both",
+            "B": "(A) and (C) both",
+            "C": "(B), (C) and (D)",
+            "D": "More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The Vakataka dynasty was an ancient Indian dynasty that ruled the central and southern parts of India from the 3rd century CE to the end of the 5th century CE / beginning of the 6th century CE. The founder of this dynasty was Vindhyashakti I, whose successor was Pravarasena I, who is also called the real founder of the Vakataka dynasty. During the time of Pravarasena I, the boundaries of the Vakataka kingdom expanded from the Vindhya region in the north (the present Bundelkhand region is included in this) to the Deccan in the south (present Hyderabad also fell within his sphere of influence). Among the Vakataka rulers, he was the first to assume the title of ‘Samrat’ and performed four Ashvamedha sacrifices and other Vedic rituals. In the Puranas, he is referred to as ‘Praveera’. Hence, all four statements are true.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "The Huna King Toramana was defeated by the Aulikara King",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Yasodharman",
+            "B": "Prakashadharman",
+            "C": "Rajyavardhana",
+            "D": "Vishnuvardhana",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Huna king Toramana was defeated by the Aulikara king Prakashadharman. After the death of Skandagupta, the Hunas again attacked the Ganga valley. The leader of this second Huna invasion was Toramana. His inscription has been found engraved on a Varaha (boar) image at Eran in Central India. Two seals of Toramana have been found at Kaushambi. Toramana appointed his son Mihirakula as his successor.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO 2018"
+        },
+        {
+          "q": "Who laid the foundation of the Vardhana Dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pushyabhuti",
+            "B": "Rajyavardhana",
+            "C": "Adityavardhana",
+            "D": "Prabhakarvardhana",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to Banabhatta’s work Harshacharita, the Vardhana dynasty was founded by a person named Pushyabhuti at Thaneshwar/Sthaneshwar. Harshavardhana was the greatest ruler of this dynasty.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre)-2021"
+        },
+        {
+          "q": "Poet Bana was an inhabitant of –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Pataliputra",
+            "B": "Thanesar",
+            "C": "Bhojpur",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "There is considerable disagreement among scholars regarding the birthplace of Banabhatta. According to some scholars, he was born in a village named Pritikuta located on the bank of the Son River in Bihar, while others believe he was born in a village named Pritikut near Kanyakubja (Kannauj) in Uttar Pradesh. His father’s name was Chitrabhanu and his mother’s name was Rajadevi.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which Chinese traveller visited India during Harshavardhana’s rule?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Fa-Hien",
+            "B": "Hiuen-Tsang",
+            "C": "I-Tsing",
+            "D": "Taranath"
+          },
+          "answer": "B",
+          "explanation": "The most important event of Harshavardhana’s time was the arrival of the Chinese traveller Hiuen Tsang in India. His strong desire was to see the places made sacred by the footprints of Gautama Buddha and to study the sacred Buddhist texts, which were available in India in those days. To fulfil this aim, he left Chang'an (Changan), the capital of the Tang rulers, for India in 629 CE. He wrote a book about his Indian journey, known as Si-Yu-Ki.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Chinese traveller Hiuen Tsang studied at the University of –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Taxila",
+            "B": "Vikramashila",
+            "C": "Magadh",
+            "D": "Nalanda"
+          },
+          "answer": "D",
+          "explanation": "In 637 CE, Hiuen Tsang went to Nalanda University. At that time, the Vice-Chancellor there was Acharya Shilabhadra. He stayed at Nalanda for about 15 months and studied Yogashastra under Acharya Shilabhadra. After this, he reached Kanchi via Bengal, Odisha and Dhanyakataka. In the second phase of his journey, Hiuen Tsang again came to Nalanda in 642 CE. Thus, the total period of his stay at Nalanda (combining both visits) was about two years.",
+          "exam": "BPSC",
+          "year": "46th B.P.S.C. (Pre) 2004"
+        },
+        {
+          "q": "During Hiuen-Tsang tour in India the most famous city for the production of cotton clothes was:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Varanasi",
+            "B": "Mathura",
+            "C": "Pataliputra",
+            "D": "Kanchi"
+          },
+          "answer": "B",
+          "explanation": "The Chinese traveller Hiuen Tsang came to India during the time of Harshavardhana (606–647 CE). According to him, Mathura was famous for cotton textiles at that time, whereas Varanasi was famous for silk textiles. He also states that the main reason for the prosperity of Thaneshwar was trade. Bana described the city of Thaneshwar as a “land of wishfulfilment” for guests and a “red land” for merchants. Most of its inhabitants were traders who dealt in various goods. Ujjayini and Kannauj were also very prosperous economically during this period.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Which of the following rulers ruled Assam during the time of Harsha?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Asaf Jahan",
+            "B": "Bhaskar Varman",
+            "C": "Raja Dahir",
+            "D": "More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Among the given options, during Harsha’s time, Bhaskar Varman ruled Assam. Bhaskar Varman was a ruler of the Varman dynasty in Kamarupa (Assam). According to Mukunda Madhava Sharma’s book 'Inscription of Ancient Assam' and the Assam Gazetteer, after Bhaskar Varman, for a few years Avanti Varman became the ruler; Salastambha removed him from the throne and seized the throne.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. (Pre) 2024"
+        },
+        {
+          "q": "Who was the ruler of India during the 7th century CE known for his patronage of Buddhism and support for cultural activities?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Harsha",
+            "B": "Ashoka the Great",
+            "C": "Chandragupta Maurya",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "During the 7th century AD, Harsha (Harshavardhana), a ruler of the Pushyabhuti dynasty, is known for patronizing Buddhism and supporting cultural activities. Harshavardhana ruled from about 606 AD to about 647 AD (about 41 years).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Tre-3) July, 2024"
+        },
+        {
+          "q": "During the Gupta-Vakataka Era, which important school of Indian philosophy developed, focusing on logical reasoning and debate?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vaisheshika",
+            "B": "Mimamsa",
+            "C": "Nyaya",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "In the Gupta–Vakataka age, the school of Indian philosophy that developed with a focus on logical reasoning and debate was Nyaya. The founder of Nyaya philosophy is Gautama. According to Nyaya, knowledge can be valid or invalid. Valid knowledge is called Prama, and invalid knowledge is called Aprama.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. TRE-3 July, 2024"
+        },
+        {
+          "q": "Who among these was the first to explain that the daily sunrise and sunset occur due to the Earth's rotation on its axis?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Aryabhatta",
+            "B": "Bhaskara",
+            "C": "Brahmagupta",
+            "D": "Varahamihira",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Aryabhatta was the first person to explain that the daily sunrise and sunset occur because the Earth rotates on its axis.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "Who among the following is known for his work on medicine during the Gupta period?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sushruta",
+            "B": "Saumilla",
+            "C": "Shudraka",
+            "D": "Shaunaka",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Sushruta is called the “Father of Surgery.” He was from Kashi, and his period is generally considered to be about 1000 BC to 600 BC. Shaunaka was a sage of the Rigvedic period. Shudraka was a Gupta-period playwright. Saumila is a Gupta-period playwright, whom Kalidasa mentions along with Bhasa and Kaviputra. Thus, in the Gupta period, none of the above worked in the field of medicine. However, the Bihar Public Service Commission, in both its preliminary and final answer keys, considered option (a) as the correct answer. Since the Gupta period begins from 275 AD (Sri Gupta), which is about 1000 years after the accepted period of Sushruta (about 1000 BC to 600 BC), it is not reasonable to consider Sushruta as a contemporary of the Gupta period.",
+          "exam": "BPSC",
+          "year": "65th B.P.S.C. (Pre) 2019"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Architecture in Ancient India",
+      "questions": [
+        {
+          "q": "Who used the caves of Barabar as their shelter-house?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ajivakas",
+            "B": "Tharus",
+            "C": "Jains",
+            "D": "Tantrikas"
+          },
+          "answer": "A",
+          "explanation": "In the Mauryan age, the art of cutting hills to make residential caves developed. During the time of Ashoka and his grandson Dasharatha, caves were cut in the Barabar and Nagarjuni hills to provide dwellings for the Ajivikas. In Ashoka’s time, the prominent caves in the Barabar hills included the “Sudama Cave,” “Karna Chaupar,” etc.",
+          "exam": "BPSC",
+          "year": "40th B.P.S.C. (Pre) 1995"
+        },
+        {
+          "q": "In Indian art, the construction of ‘Stupa’, ‘Chaitya’ and ‘Vihara’ is related to which of the following?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ajivika sect",
+            "B": "Vaishnava sect",
+            "C": "Buddhism",
+            "D": "Shaiva sect"
+          },
+          "answer": "C",
+          "explanation": "In Indian architecture, stupa, chaitya and vihara are the major elements of Buddhist architecture. A stupa is a hemispherical memorial structure in which the bodily relics of Gautama Buddha and his close disciples were mainly enshrined. A stupa is a place of worship, but it does not have a separate worship chamber. A chaitya is a prayer hall that includes a worship hall and a stupa; Buddhist monks used to sit in this hall and perform worship. A vihara is the residential monastery of Buddhist monks, used for study, rest and meditation.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The associates of Khajuraho Temple Architecture were –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandela",
+            "B": "Gurjara-Pratihara",
+            "C": "Chahamana",
+            "D": "Paramara"
+          },
+          "answer": "A",
+          "explanation": "The temples built by the Chandela kings at Khajuraho, located in Chhatarpur district of Madhya Pradesh, still testify to the excellence of Chandela architecture. These temples were mainly constructed between the 10th and 11th centuries, i.e., around 950–1050 CE (the main period of the Chandelas, though construction also took place in earlier and later phases). Among the temples here, the Kandariya Mahadeva Temple is the most prominent.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Art of Gandhara style flourished during the reign of –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kushans",
+            "B": "Guptas",
+            "C": "Akbar",
+            "D": "Mauryas"
+          },
+          "answer": "A",
+          "explanation": "The Gandhara school of art developed mainly during the Kushana period. Under this art tradition, a large number of images of Buddha were produced.",
+          "exam": "BPSC",
+          "year": "38th B.P.S.C. (Pre) 1992"
+        },
+        {
+          "q": "The oldest sculpture of Buddha is made in which style?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Gandhara Style",
+            "B": "Mathura Style",
+            "C": "Mauryan Style",
+            "D": "Gupta Style",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "During the Kushana period, a large number of statues of Buddha and Bodhisattvas (both seated and standing) were produced under the Gandhara and Mathura schools. According to V.S. Agrawal, Buddha images were first made at Mathura, where a suitable base for their development existed. According to Xuanzang’s account, the first image of Buddha was made at Kaushambi; however, many scholars credit the Gandhara school with the earliest Buddha image. In its final answer key, the Bihar Public Service Commission accepted option (a) as the correct answer.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. Re-Exam (Pre) 2020"
+        },
+        {
+          "q": "The temple of Deogarh near Jhansi and the sculptures in the temple at Garwha near Allahabad (Prayagraj) are the important remains of the which art?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Mauryan Art",
+            "B": "Gupta Art",
+            "C": "Rashtrakuta Art",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The Dashavatara Temple at Deogarh (presently in Lalitpur district of Uttar Pradesh) is a Gupta-period temple. Similarly, the Garhwa Temple located in the Garhwa fort at Allahabad (Prayagraj) is also of the Gupta period.",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Re-Exam (Pre) 2024 68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The painting of ‘Bodhisattva Padmapani’ is located at",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bagh",
+            "B": "Ellora",
+            "C": "Ajanta",
+            "D": "Badami"
+          },
+          "answer": "C",
+          "explanation": "The painting of Bodhisattva Padmapani (Avalokiteshvara) is located at Ajanta. Notably, this extraordinary mural dates roughly to the mid-5th to 6th century CE and is preserved in the interior of the rock-cut Buddhist monastic complex at Ajanta. It also provides early visual evidence of elaborate crowns worn as indicators of both royal and divine status.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "In which of the following inscriptions is an example of widow-burning mentioned?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Eran stone inscription of Samudragupta",
+            "B": "Eran Pillar Inscription of Buddhagupta",
+            "C": "Eran Pillar Inscription of Bhanugupta",
+            "D": "Eran Varaha Inscription of Toramana",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "An example of widow-burning (Sati) is found in the Eran pillar inscription of Bhanugupta. This inscription mentions that after Goparaja, a minister of Bhanugupta, died in a battle, his wife performed Sati. The inscription is dated to 510 CE. Eran is a historic village located in Sagar district of Madhya Pradesh, situated at the confluence of the Bina and Reuta (Ruta) rivers.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2018"
+        },
+        {
+          "q": "The contributors in the construction of Khajuraho temple architecture were—",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandelas",
+            "B": "Gurjara-Pratiharas",
+            "C": "Chahamanas",
+            "D": "Paramaras"
+          },
+          "answer": "A",
+          "explanation": "The temples built by the Chandela kings at Khajuraho, located in Chhatarpur district of Madhya Pradesh, still testify to the excellence of Chandela architecture. These temples were mainly constructed between the 10th and 11th centuries, i.e., around 950–1050 CE (the main period of the Chandelas, though construction also took place in earlier and later phases). Among the temples here, the Kandariya Mahadeva Temple is the most prominent.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Borobudur is the most amazing stupa in the world and whose magnificent example is its statue and sculpture?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Indo-Tibetan art",
+            "B": "Indo-Cambodian art",
+            "C": "India-Champa Art",
+            "D": "India-Java Art",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Borobudur (Borobudur/Barabudur) Stupa is situated on the island of Java in Indonesia. It is a UNESCO World Heritage Site.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2022"
+        },
+        {
+          "q": "According to Chinese source, Meghavarman, the ruler of Sri Lanka, sent a missionary to which of the following Gupta Kings for permission to build a Buddhist temple at Gaya?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chandragupta I",
+            "B": "Samudragupta",
+            "C": "Chandragupta II",
+            "D": "None of them"
+          },
+          "answer": "B",
+          "explanation": "Meghavarman sent an envoy to Samudragupta seeking permission to build a Buddhist temple at Gaya. Samudragupta granted the Sri Lankan (Ceylonese) Buddhist king Meghavarman permission to build a monastery at Bodh Gaya. - 8",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        }
+      ]
+    },
+    {
+      "chapter_name": "South India (Chola, Chalukya, Pallava and Sangam Period)",
+      "questions": [
+        {
+          "q": "Who was the founder of Chola dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vijayalaya",
+            "B": "Karikal",
+            "C": "Aditya first",
+            "D": "Rajaraja first",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Chola empire was founded by Vijayalaya, who initially was a feudatory chief of the Pallavas. Around 850 CE, he captured Tanjore. The Shaiva temple at Tanjore— Rajarajeshwara (or Brihadishwara) Temple—was built during the reign of Rajaraja I.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2022"
+        },
+        {
+          "q": "The Chola age was most famous for:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Village assemblies",
+            "B": "War with the Rashtrakutas",
+            "C": "Trade with Ceylon",
+            "D": "Advancement of Tamil culture",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The most notable feature of Chola rule is seen in the functioning of autonomous village institutions. In fact, during this period, villages were complete units of local selfgovernment, and village administration was carried out by the villagers themselves.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "Which medieval Indian empire was famous for elaborate local self-government?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chalukya",
+            "B": "Chola",
+            "C": "Solanki",
+            "D": "Parmar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The most notable feature of Chola rule is seen in the functioning of autonomous village institutions. In fact, during this period, villages were complete units of local selfgovernment, and village administration was carried out by the villagers themselves.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "Which dynasty built the Kailasanatha Temple and in which state?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chola, Andhra Pradesh",
+            "B": "Chola, Tamil Nadu",
+            "C": "Pallava, Tamil Nadu",
+            "D": "Pallava, Andhra Pradesh"
+          },
+          "answer": "C",
+          "explanation": "The Kailasanatha (Kailasanathar) Temple is located in Kanchipuram, Tamil Nadu. It was built under the patronage of the Pallava rulers.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant) 2019"
+        },
+        {
+          "q": "Which of the following temples is located in Kanchipuram?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sri Venkateswara Swami Vari Temple",
+            "B": "Sri Padmanabhaswamy Temple",
+            "C": "Arulmigu Ramanathaswamy Temple",
+            "D": "Ekambareswarar Temple"
+          },
+          "answer": "D",
+          "explanation": "Ekambareswarar Temple is located in Kanchipuram. It is dedicated to Mahadeva (Shiva). The temple was built during the period of the Pallava rulers. It is noteworthy that this temple is thousands of years old. Various inscriptions from the Pallava period to the period of the Nayaka rulers have been found here. On the basis of available archaeological evidence, it can be said that the major construction work of this temple was carried out during the times of the Pallavas, the Cholas, and the Vijayanagara rulers.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2009"
+        },
+        {
+          "q": "The Brihadisvara Temple at Thanjavur was constructed by which king?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Rajaraja I",
+            "B": "Rajendra I",
+            "C": "Rajendra II",
+            "D": "Kulottunga I",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Brihadeeswarar Temple is a Hindu temple located in the Thanjavur district of Tamil Nadu, built in the early 11th century. The temple was constructed between 1003 and 1010 CE by the Chola ruler Rajaraja I. It is also known as the Rajarajeshwara Temple. The temple was built in the Dravidian style of architecture.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2018"
+        },
+        {
+          "q": "Which of the following was the capital of the Chera dynasty ?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kuravur/Karur",
+            "B": "Kanchipuram",
+            "C": "Madurai",
+            "D": "More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Chera dynasty ruled the south-western part of South India (present-day Kerala and some parts of Tamil Nadu). According to the Kerala State Gazetteer, the Cheras’ capital Vanchi is also mentioned, which some scholars identify with Karur/Kuruvur. The earliest Chera king whose name is first mentioned in sources was Udayanjeral (Uthiyan Cheral).",
+          "exam": "BPSC",
+          "year": "70th B.P.S.C. Pre-2024"
+        },
+        {
+          "q": "Which of the following dynasties is not mentioned in Sangam literature?",
+          "question_type": "Negative/Exception MCQ — Single Correct",
+          "options": {
+            "A": "Kadamba",
+            "B": "Chera",
+            "C": "Chola",
+            "D": "Pandya"
+          },
+          "answer": "A",
+          "explanation": "Sangam literature provides accounts of the origin and development of the Chola, Chera, and Pandya rulers. Even though fixing the exact reign periods of various kings is difficult, Sangam literature throws sufficient light on political activities from the south of the Krishna River up to the far southern peninsula. The Kadamba dynasty is not mentioned in Sangam literature.",
+          "exam": "BPSC",
+          "year": "41st B.P.S.C. (Pre) 1996"
+        },
+        {
+          "q": "Why was ‘Uraiyur’ famous in Sangam Era?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "An important trade centre of spices",
+            "B": "An important trade centre of cotton",
+            "C": "An important centre of foreign trade",
+            "D": "An important centre of domestic trade"
+          },
+          "answer": "B",
+          "explanation": "Uraiyur was an important Sangam-period city situated on the banks of the Kaveri River in Tiruchirappalli (Tamil Nadu). In the Sangam age, Uraiyur was a major centre for cotton textiles. In the Periplus of the Erythraean Sea, it is mentioned by the name Argaru.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "The attractive doors of the temples of South India are called-",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Shikhar (Peak)",
+            "B": "Gopuram",
+            "C": "Devalay",
+            "D": "Mandapam",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The attractive gateway of South Indian temples is called 'Gopuram'. The Dravidian style flourished during the Pallava, Pandya, and Chola periods. In the Pandya period, temples were comparatively small, but many enclosure walls were built around their courtyards. Their entrance gateways, called gopurams, later became grand, massive structures richly decorated with sculpture. The Chola rulers built magnificent temples as well as huge gopurams.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C. (Pre) 2017"
+        },
+        {
+          "q": "Who established trade relations with Roman Empire?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kushanas",
+            "B": "Cheras",
+            "C": "Western Shakas",
+            "D": "Vakatakas",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "India’s trade with the Roman Empire began during the Sangam period with the Chera state. Many Roman objects have been found from Arikamedu.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Re-Exam) (Pre)-2022"
+        },
+        {
+          "q": "During whose reign did the Persian traveller ‘Abdur Razzaq’ come to India?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Devaraya I",
+            "B": "Krishnadevaraya I",
+            "C": "Devaraya II",
+            "D": "Krishnaraya II",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The Persian envoy Abdur Razzaq came to Vijayanagar during the reign of Devaraya II (tenure: 1422–1446 CE), the most powerful ruler of the Sangama dynasty. In his travel account Matla’ al-Sa‘dayn wa Majma‘ al-Bahrayn, he described the reign of Devaraya II.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Ancient Literature and Literary Figures",
+      "questions": [
+        {
+          "q": "Which of the following Indian Philosophies has given the theory of atom?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Yoga",
+            "B": "Nyaya",
+            "C": "Sankhya",
+            "D": "Vaiseshika",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "According to the Vaiseshika school, the material world is composed of atoms. Maharshi Kanada was the propounder of this school of philosophy.",
+          "exam": "BPSC",
+          "year": "66th B.P.S.C. (Pre) 2020"
+        },
+        {
+          "q": "In Kalidasa's 'Kumarasambhavam', what mythological character's birth story is found?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sanatkumar",
+            "B": "Kartikeya",
+            "C": "Pradyumna",
+            "D": "Abhimanyu"
+          },
+          "answer": "B",
+          "explanation": "Kalidasa’s Sanskrit epic “Kumarasambhava” narrates the birth story of Kumar (also known as Kartikeya/Skanda), the son of Lord Shiva and Goddess Parvati.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. CDPO (Pre) 2005"
+        },
+        {
+          "q": "Who of the following was the writer of Mudrarakshasa?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ashvaghosha",
+            "B": "Vishakhadatta",
+            "C": "Kalidasa",
+            "D": "Bhasa"
+          },
+          "answer": "B",
+          "explanation": "“Mudrarakshasa” was written by Vishakhadatta. This work throws light on Mauryan history, mainly on the life of Chandragupta Maurya.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "What is the name of Megasthenes’ book?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Economics",
+            "B": "Rig Veda",
+            "C": "Purana",
+            "D": "Indica"
+          },
+          "answer": "D",
+          "explanation": "Chandragupta Maurya was a contemporary of Alexander. Foreign writers contemporary to Alexander include Nearchus, Onesicritus, Aristobulus, and Megasthenes, whose accounts provide information about Chandragupta Maurya. Among these foreign writers, Megasthenes is the most important, and his book “Indica” is a major source for Mauryan history. In “Indica”, Megasthenes describes the municipal administration of Pataliputra. According to him, the administration of the city was carried out through committees comprising a total of 30 members. There were 6 committees in all, and each committee had 5 members. One committee was responsible for collecting sales tax. Sales tax was collected as one-tenth of the value. Those who evaded taxes were awarded the death penalty.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Who was the author of ‘Indica’?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Vishnugupta",
+            "B": "Megasthenes",
+            "C": "Deimachus",
+            "D": "Pliny"
+          },
+          "answer": "B",
+          "explanation": "Chandragupta Maurya was a contemporary of Alexander. Foreign writers contemporary to Alexander include Nearchus, Onesicritus, Aristobulus, and Megasthenes, whose accounts provide information about Chandragupta Maurya. Among these foreign writers, Megasthenes is the most important, and his book “Indica” is a major source for Mauryan history. In “Indica”, Megasthenes describes the municipal administration of Pataliputra. According to him, the administration of the city was carried out through committees comprising a total of 30 members. There were 6 committees in all, and each committee had 5 members. One committee was responsible for collecting sales tax. Sales tax was collected as one-tenth of the value. Those who evaded taxes were awarded the death penalty.",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Match List-I and List-II and choose the correct answer using the codes given below the lists: List-I (Book) List-II (Author) A. Brihatsamhita 1. Kalhana B. Mushika Vamsha 2. Bilhana C. Rajatarangini 3. Atula D. Vikramanka- 4. Varahamihira devacharita",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "A-3, B-2, C-1, D-4",
+            "B": "A-2, B-1, C-4, D-3",
+            "C": "A-4, B-2, C-1, D-3",
+            "D": "A-4, B-3, C-1, D-2"
+          },
+          "answer": "D",
+          "explanation": "The correct matching is as follows— List-I (Books) List-II (Authors) Brihatsamhita Varahamihira Mushika Vamsha Atula (Atul) (Mushika dynasty) Rajatarangini Kalhana Vikramankadevacharita Bilhana",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Auditor) 2019"
+        },
+        {
+          "q": "Match List - I with List - II and select the correct answer using the codes given below the lists: List - I List - II (Author) (Books) A. Kautilya 1. Ashtadhyayi B. Panini 2. Arthashastra C. Kamandaka 3. Kumarasambhava D. Kalidasa 4. Nitisara",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "A-2, B-1, C-4 D-3",
+            "B": "A-4, B-3, C-2, D-1",
+            "C": "A-3, B-2, C-1, D-4",
+            "D": "A-1, B-4, C-3, D-2"
+          },
+          "answer": "A",
+          "explanation": "The correct matching is as follows— List-I (Authors) List-II (Books) Kautilya Arthashastra Panini Ashtadhyayi Kamandaka Nitisara Kalidasa Kumarasambhava",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant) 2019"
+        },
+        {
+          "q": "What is the name of Kalhana’s book?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Arthashastra",
+            "B": "Indica",
+            "C": "Purana",
+            "D": "Rajatarangini"
+          },
+          "answer": "D",
+          "explanation": "Kalhana wrote the history of Kashmir in Rajatarangini. He composed this work during the reign of Jayasimha (1128– 1149 AD). Chanakya (Kautilya), the Prime Minister of Chandragupta Maurya, wrote the famous treatise Arthashastra on political science.",
+          "exam": "BPSC",
+          "year": "53rdto 55th B.P.S.C. (Pre) 2011 BPSC (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "Kautilya's Arthashastra is a book based on -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Economic relations",
+            "B": "Principles and practice of statecraft",
+            "C": "Foreign policy",
+            "D": "Wealth accumulation",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Arthashastra, written by Kautilya (Chanakya) during the Mauryan period, is a book on the principles and practice of governance. It explains the Mandala theory of the state, which discusses foreign policy. It also describes the Saptanga theory—Swami, Amatya, Janapada, Durga, Kosha, Danda, and Mitra. The Arthashastra also gives detailed information about the administration of that time, as well as agriculture, crafts, and trade.",
+          "exam": "BPSC",
+          "year": "63rd B.P.S.C (Pre.) 2017"
+        },
+        {
+          "q": "Kautilya’s Arthashastra deals with the aspects of –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Economic life",
+            "B": "Political policies",
+            "C": "Religious life",
+            "D": "Social life"
+          },
+          "answer": "B",
+          "explanation": "Through Kautilya’s Arthashastra, we learn many things about the Mauryan administration. It is not actually a historical text; rather, it is a unique treatise on political science. It mainly focuses on political policies.",
+          "exam": "BPSC",
+          "year": "45th B.P.S.C. (Pre) 2001"
+        },
+        {
+          "q": "Who was the author of the book 'Arthashastra'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Banabhatta",
+            "B": "Kautilya",
+            "C": "Charvaka",
+            "D": "Vishakhadatta"
+          },
+          "answer": "B",
+          "explanation": "Through Kautilya’s Arthashastra, we learn many things about the Mauryan administration. It is not actually a historical text; rather, it is a unique treatise on political science. It mainly focuses on political policies.",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "Which pair correctly matches the kings of the ancient and medieval periods of history with the works written by them?",
+          "question_type": "Pair Evaluation — Correctly Matched Pair",
+          "options": {
+            "A": "Krishnadeva Raya - Samarangana sutradhara",
+            "B": "Mahendravarman - Mattavilasa Prahasana",
+            "C": "Bhojadeva - Manasollasa",
+            "D": "Someshwar - Amukta Malyada"
+          },
+          "answer": "B",
+          "explanation": "The correct pairs are as follows— Mattavilasaprahasana — Mahendravarman I Amuktamalyada — Krishnadeva Raya Samaranganasutradhara — King Bhoja (Paramara dynasty) Manasollasa — Someshwara III",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (Assistant) 2019"
+        },
+        {
+          "q": "Who wrote 'Periplus of the Erythraean Sea'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Ctesias",
+            "B": "Pliny",
+            "C": "Ptolemy",
+            "D": "Strabo",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "'Periplus of the Erythraean Sea is a Greco-Roman work. It describes navigation routes and trade opportunities from the ports of Roman Egypt. It was written around 60 AD by an anonymous merchant. It also mentions the goods imported and exported to and from India.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        },
+        {
+          "q": "The author of ‘Prithviraj Raso’ is –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalhana",
+            "B": "Bilhana",
+            "C": "Jayanaka",
+            "D": "Chand Bardai"
+          },
+          "answer": "D",
+          "explanation": "Chand Bardai, the court poet of the Chauhan ruler Prithviraj III (Rayapithora), composed Prithviraj Raso. In it, the Chauhans are described as having originated from the fire-pit (Agnikunda).",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Who wrote the book 'Prithviraj Raso'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalidas",
+            "B": "Chand Bardai",
+            "C": "Kalhana",
+            "D": "Vishakhadatta"
+          },
+          "answer": "B",
+          "explanation": "Chand Bardai, the court poet of the Chauhan ruler Prithviraj III (Rayapithora), composed Prithviraj Raso. In it, the Chauhans are described as having originated from the fire-pit (Agnikunda).",
+          "exam": "BPSC",
+          "year": "B.P.S.C. (CDPO) (Pre) 2005"
+        },
+        {
+          "q": "The author of ‘Swapnavasavadatta’ is",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kalidasa",
+            "B": "Bhasa",
+            "C": "Bhavabhuti",
+            "D": "Rajashekhara"
+          },
+          "answer": "B",
+          "explanation": "Thirteen plays are attributed to the great poet Bhasa. These were obtained from the Travancore State in 1909 by T. Ganapati Shastri, and were published in 1912. The names of these plays are— (1) Pratijna-Yaugandharayana, (2) Swapnavasavadatta, (3) Urubhanga, (4) Duta-Vakyam, (5) Pancharatram, (6) Balacharita, (7) Duta-Ghatotkacha, (8) Karnabhara, (9) Madhyamavyayoga, (10) Pratimanatakam, (11) Abhisheka- Natakam, (12) Avimarakam, and (13) Charudatta.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "‘Kumarasambhava,’ an epic poem was composed by –",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Banabhatta",
+            "B": "Chand Bardai",
+            "C": "Harishena",
+            "D": "Kalidasa"
+          },
+          "answer": "D",
+          "explanation": "The epic Kumarasambhavam was composed by the great poet Kalidasa. It has 17 cantos (only the first eight cantos were written by Kalidasa; the remaining nine cantos were written by other poets). It contains vivid description of nature and narrates the birth of Kartikeya and the slaying of Tarakasura.",
+          "exam": "BPSC",
+          "year": "44th B.P.S.C. (Pre) 2000"
+        },
+        {
+          "q": "Who wrote the book “Kiratarjuniya”?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bhatti",
+            "B": "Shudraka",
+            "C": "Kalidasa",
+            "D": "Bharavi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The author of Kiratarjuniya is Bharavi. Its plot is taken from the Mahabharata. It describes the battle between Arjuna and Shiva, who appears disguised as a Kirata.",
+          "exam": "BPSC",
+          "year": "67th B.P.S.C. (Pre) 2021"
+        },
+        {
+          "q": "Name the source that is silent about the trade routes of ancient India:",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sangam Literature",
+            "B": "Milindpanho",
+            "C": "Jataka Tales",
+            "D": "All of the above"
+          },
+          "answer": "B",
+          "explanation": "This text, written in the Pali language, describes a dialogue between Nagasena and the Indo-Greek ruler Menander. It does not contain a description of trade routes.",
+          "exam": "BPSC",
+          "year": "39th B.P.S.C. (Pre) 1994"
+        },
+        {
+          "q": "Who wrote the book 'Harshacharita'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Aryabhata",
+            "B": "Banabhatta",
+            "C": "Vishnugupta",
+            "D": "Parimalagupta"
+          },
+          "answer": "B",
+          "explanation": "Harshacharita was written by the famous author Banabhatta. It is a major source for the history of the Vardhana dynasty. It is an akhyayika (a biographical narrative) in which the author presents the life of his contemporary ruler and the ruler’s ancestors.",
+          "exam": "BPSC",
+          "year": "47th B.P.S.C. (Pre) 2005"
+        },
+        {
+          "q": "Match List–I with List–II : List—I List—II A. Charaka 1. Mathematics B. Brahmagupta 2. Medicine C. Varahamihira 3. Playwright D. Vishakhadatta 4. Astrology Select the correct answer using the codes given below. A B C D",
+          "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
+          "options": {
+            "A": "2 1 4 3",
+            "B": "1 2 3 4",
+            "C": "3 2 4 1",
+            "D": "1 4 3 2"
+          },
+          "answer": "A",
+          "explanation": "The correct matching is as follows— Charaka – Medicine Brahmagupta – Mathematics Varahamihira – Astrology Vishakhadatta – Playwright",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Nitisara, an early book of politics, was written by",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Kautilya",
+            "B": "Kamandaka",
+            "C": "Charaka",
+            "D": "None of them"
+          },
+          "answer": "B",
+          "explanation": "Nitisara, composed by Kamandaka, is an important collection of 1,192 verses (shlokas). It is arranged into 34 sections (prakaranas) and 20 chapters or cantos (sargas). It includes the traditional branches of learning: the state, its constituents and protection, the Mandala theory of interstate relations, various kinds of policies, war and peace, diplomacy and wisdom, military organization, and the faults that should be avoided. The appendix lists, for comparison, the contents of Kautilya’s Arthashastra and Kamandaka’s Nitisara.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Pre-Medieval Period",
+      "questions": [
+        {
+          "q": "Who was the founder of the Karnata dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Nanyadeva",
+            "B": "Narasimhadeva",
+            "C": "Vijaydev",
+            "D": "Haridev",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Nanyadeva (1097–1147 CE) was the founder of the Karnat dynasty. He was a great warrior. Nanyadeva established Simraongarh as the capital of the Karnats. The rule of the Karnat dynasty (1097–1325 CE) is called the “Golden Age of Mithila.”",
+          "exam": "BPSC",
+          "year": "56th to 59th B.P.S.C. (Pre) 2014"
+        },
+        {
+          "q": "Who was the last king of the Karnata dynasty?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Harisimha",
+            "B": "Ramsimha",
+            "C": "Matisimha",
+            "D": "Shyamsimha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The last ruler of the Karnat dynasty was Harisimha Deva. He was a patron of art and literature. He initiated the registration system.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C. (Pre) 2016"
+        },
+        {
+          "q": "Consider the following statements regarding the Vikramshila University in Bihar : 1. It was located in the present-day Banka district of Bihar. 2. It was established by King Gopala I of the Pala dynasty. 3. The ‘Vajrayana’ sect of Buddhism flourished here. 4. Other subjects like Astronomy, Logic, Law, Grammar and Philosophy were also taught here. Which of the above statements are incorrect ?",
+          "question_type": "Multiple Statements — Incorrect Combination by Code",
+          "options": {
+            "A": "2 and 3",
+            "B": "1 and 4",
+            "C": "1 and 2",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Vikramshila University (Mahavihara) was founded by the Pala ruler Dharmapala. It was located in the present-day Bhagalpur district of Bihar. Vajrayana, the Tantric branch of Buddhism, had the greatest influence in this university. Besides this, other subjects such as astronomy, logic, law, grammar and philosophy were also taught here. At the end of the 12th century, this university was destroyed by the army of Muhammad bin Bakhtiyar Khilji.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "Which ruler of Bengal founded the ancient University called ‘Vikramshila.’",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Dharamapala",
+            "B": "Gopala",
+            "C": "Devpala",
+            "D": "Mahipala"
+          },
+          "answer": "A",
+          "explanation": "The ancient Buddhist university of Vikramshila was founded by Dharmapala (770–810 CE), a Pala ruler of Bengal. According to the Tibetan scholar Lama Taranatha, by the 10th century, Vikramshila had become an even larger center of learning than Nalanda University.",
+          "exam": "BPSC",
+          "year": "43rd B. P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "Vikramshila University was established by whom?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Gopal",
+            "B": "Dharmapala",
+            "C": "Devapala",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The ancient Buddhist university of Vikramshila was founded by Dharmapala (770–810 CE), a Pala ruler of Bengal. According to the Tibetan scholar Lama Taranatha, by the 10th century, Vikramshila had become an even larger center of learning than Nalanda University.",
+          "exam": "BPSC",
+          "year": "68th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "The founder of Vikramashila Education Center is -",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Devpal",
+            "B": "Dharmpal",
+            "C": "Nayanpal",
+            "D": "Narendra Pal"
+          },
+          "answer": "B",
+          "explanation": "The ancient Buddhist university of Vikramshila was founded by Dharmapala (770–810 CE), a Pala ruler of Bengal. According to the Tibetan scholar Lama Taranatha, by the 10th century, Vikramshila had become an even larger center of learning than Nalanda University.",
+          "exam": "BPSC",
+          "year": "43rd B.P.S.C. (Pre) 1999"
+        },
+        {
+          "q": "The Maithili language was started to develop during the reign of which of the following?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Chero dynasty",
+            "B": "Oiniwar dynasty",
+            "C": "Karnat dynasty",
+            "D": "Pithipatis"
+          },
+          "answer": "C",
+          "explanation": "The development of the Maithili language began during the rule of the Karnat dynasty (11th to 14th centuries CE). The founder of the Karnat dynasty was Nanyadeva.",
+          "exam": "BPSC",
+          "year": "69th B.P.S.C. (Pre) 2023"
+        },
+        {
+          "q": "‘Odantapura’ educational center was located in which state?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Bengal",
+            "B": "Bihar",
+            "C": "Gujarat",
+            "D": "Tamil Nadu",
+            "E": "None of these/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "‘Odantapura’, also called Uddandpura, was a major educational center in ancient times. It was located in the state of Bihar. It was founded by Gopala, the first ruler of the Pala dynasty.",
+          "exam": "BPSC",
+          "year": "60th to 62nd B.P.S.C.(Pre) 2016"
+        },
+        {
+          "q": "Which Sultan was reputed to be 'Akbar of Kashmir'?",
+          "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
+          "options": {
+            "A": "Sultan Shamsuddin Shah",
+            "B": "Sultan Qutbuddin",
+            "C": "Sultan Sikandar",
+            "D": "Sultan Zainul Abidin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Due to his religious tolerance and social reforms, Sultan Zain-ul-Abidin is called the “Akbar of Kashmir.” He had many important Sanskrit texts translated and patronized physicians such as Shri Bhatt and Mansur bin Ahmad.",
+          "exam": "BPSC",
+          "year": "64th B.P.S.C. (Pre) 2018"
+        }
+      ]
+    }
+  ]
+}
