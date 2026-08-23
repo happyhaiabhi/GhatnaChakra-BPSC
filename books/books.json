@@ -97,5 +97,16 @@
     "dataDir": "books/modern_india/data",
     "chaptersFile": "chapters.json",
     "description": "55 chapters · 2,732 verified questions"
+  },
+  {
+    "id": "kgs_test_series",
+    "title": "KGS Test Series",
+    "subtitle": "72nd BPSC Prelims · प्रहार Test Series",
+    "tag": "KGS TESTS",
+    "emoji": "📝",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "15 subjects · 15 chapters · 2,250 questions"
   }
 ]

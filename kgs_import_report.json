@@ -1,0 +1,298 @@
+{
+  "book": "kgs_test_series",
+  "title": "KGS Test Series",
+  "tests": [
+    {
+      "test_number": 1,
+      "subject": "Bihar Special",
+      "file": "test_1.json",
+      "question_paper": "Test 1 Question.pdf",
+      "solution": "Test 1 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 113,
+        "Numerical/Calculation — Single Correct": 6,
+        "Ordering/Ranking — Correct Sequence": 1,
+        "Negative/Exception MCQ — Single Correct": 12,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 11,
+        "Assertion and Reason — Standard Relationship Evaluation": 7
+      }
+    },
+    {
+      "test_number": 2,
+      "subject": "World Geography",
+      "file": "test_2.json",
+      "question_paper": "Test 2 Question.pdf",
+      "solution": "Test 2 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 87,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 22,
+        "Negative/Exception MCQ — Single Correct": 19,
+        "Assertion and Reason — Standard Relationship Evaluation": 20,
+        "Ordering/Ranking — Correct Sequence": 2
+      }
+    },
+    {
+      "test_number": 3,
+      "subject": "Current Affairs",
+      "file": "test_3.json",
+      "question_paper": "Test 3 Question.pdf",
+      "solution": "Test 3 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 135,
+        "Negative/Exception MCQ — Single Correct": 7,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 5,
+        "Numerical/Calculation — Single Correct": 2,
+        "Assertion and Reason — Standard Relationship Evaluation": 1
+      }
+    },
+    {
+      "test_number": 4,
+      "subject": "Indian Geography I",
+      "file": "test_4.json",
+      "question_paper": "Test 4.pdf",
+      "solution": "Test 4 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 106,
+        "Ordering/Ranking — Correct Sequence": 9,
+        "Numerical/Calculation — Single Correct": 4,
+        "Assertion and Reason — Standard Relationship Evaluation": 4,
+        "Negative/Exception MCQ — Single Correct": 15,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 12
+      }
+    },
+    {
+      "test_number": 5,
+      "subject": "Indian Geography II",
+      "file": "test_5.json",
+      "question_paper": "Test 5.pdf",
+      "solution": "Test 5 english.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 114,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 8,
+        "Negative/Exception MCQ — Single Correct": 12,
+        "Numerical/Calculation — Single Correct": 1,
+        "Assertion and Reason — Standard Relationship Evaluation": 14,
+        "Ordering/Ranking — Correct Sequence": 1
+      }
+    },
+    {
+      "test_number": 6,
+      "subject": "Indian Economy",
+      "file": "test_6.json",
+      "question_paper": "Test 6.pdf",
+      "solution": null,
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 0,
+      "unverified": 150,
+      "question_types": {
+        "Numerical/Calculation — Single Correct": 9,
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 109,
+        "Negative/Exception MCQ — Single Correct": 22,
+        "Assertion and Reason — Standard Relationship Evaluation": 6,
+        "Ordering/Ranking — Correct Sequence": 3,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 1
+      }
+    },
+    {
+      "test_number": 7,
+      "subject": "Ancient History",
+      "file": "test_7.json",
+      "question_paper": "Test 7.pdf",
+      "solution": "Test 7 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 112,
+        "Numerical/Calculation — Single Correct": 9,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 12,
+        "Negative/Exception MCQ — Single Correct": 11,
+        "Ordering/Ranking — Correct Sequence": 1,
+        "Assertion and Reason — Standard Relationship Evaluation": 5
+      }
+    },
+    {
+      "test_number": 8,
+      "subject": "Medieval History",
+      "file": "test_8.json",
+      "question_paper": "Test_08_Medieval_History_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+      "solution": "Test_08_Medieval_History_Solution_English_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 116,
+        "Negative/Exception MCQ — Single Correct": 16,
+        "Assertion and Reason — Standard Relationship Evaluation": 8,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 4,
+        "Numerical/Calculation — Single Correct": 5,
+        "Chronological Order — Correct Sequence": 1
+      }
+    },
+    {
+      "test_number": 9,
+      "subject": "Current Affairs",
+      "file": "test_9.json",
+      "question_paper": "Test 9.pdf",
+      "solution": "Test 9 English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 113,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 16,
+        "Negative/Exception MCQ — Single Correct": 6,
+        "Numerical/Calculation — Single Correct": 9,
+        "Assertion and Reason — Standard Relationship Evaluation": 6
+      }
+    },
+    {
+      "test_number": 10,
+      "subject": "Biology + Science & Technology",
+      "file": "test_10.json",
+      "question_paper": "Test - 10 __ Biology + Science and Tech __ Question Paper.pdf",
+      "solution": "Test_10_Biology_+_Science_and_Tech_Solution_English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 119,
+        "Negative/Exception MCQ — Single Correct": 16,
+        "Assertion and Reason — Standard Relationship Evaluation": 3,
+        "Numerical/Calculation — Single Correct": 7,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 5
+      }
+    },
+    {
+      "test_number": 11,
+      "subject": "Modern History I (Arrival of Europeans to 1885)",
+      "file": "test_11.json",
+      "question_paper": "Test_11_Modern_History_1_Arrival_of_Europeans_to_1885_Question_Paper.pdf",
+      "solution": "Test_11_Modern_History_1_Arrival_of_Europeans_to_1885_Solution_English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 113,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 9,
+        "Assertion and Reason — Standard Relationship Evaluation": 8,
+        "Negative/Exception MCQ — Single Correct": 11,
+        "Chronological Order — Correct Sequence": 8,
+        "Numerical/Calculation — Single Correct": 1
+      }
+    },
+    {
+      "test_number": 12,
+      "subject": "Modern History II (1885 to 1947 & onwards)",
+      "file": "test_12.json",
+      "question_paper": "Test_12_Modern_History_2_1885_to_1947_and_onwards_Question_Paper.pdf",
+      "solution": "Test_12_Modern_History_2_1885_to_1947_and_onwards_Solution_English.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 112,
+        "Chronological Order — Correct Sequence": 5,
+        "Ordering/Ranking — Correct Sequence": 1,
+        "Numerical/Calculation — Single Correct": 10,
+        "Negative/Exception MCQ — Single Correct": 16,
+        "Assertion and Reason — Standard Relationship Evaluation": 4,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 2
+      }
+    },
+    {
+      "test_number": 13,
+      "subject": "Physics + Chemistry",
+      "file": "test_13.json",
+      "question_paper": "Test_16_Physics_+_Chemistry_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+      "solution": "Test_16_Physics_+_Chemistry_Solution_English_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 128,
+        "Numerical/Calculation — Single Correct": 8,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 3,
+        "Ordering/Ranking — Correct Sequence": 2,
+        "Assertion and Reason — Standard Relationship Evaluation": 9
+      }
+    },
+    {
+      "test_number": 14,
+      "subject": "Current Affairs (Jan–Apr 2026)",
+      "file": "test_14.json",
+      "question_paper": "Test 14.pdf",
+      "solution": "Test 14 english.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 129,
+        "Negative/Exception MCQ — Single Correct": 2,
+        "Numerical/Calculation — Single Correct": 9,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 6,
+        "Assertion and Reason — Standard Relationship Evaluation": 4
+      }
+    },
+    {
+      "test_number": 15,
+      "subject": "Polity I",
+      "file": "test_15.json",
+      "question_paper": "Test 15.pdf",
+      "solution": "Test 15 english.pdf",
+      "questions_parsed": 150,
+      "questions_written": 150,
+      "answers_found": 150,
+      "unverified": 0,
+      "question_types": {
+        "Standard MCQ — Direct Factual/Conceptual, Single Correct": 87,
+        "Assertion and Reason — Standard Relationship Evaluation": 19,
+        "Numerical/Calculation — Single Correct": 11,
+        "Match the Following — Two-List Matching — Answer-Code Matrix": 15,
+        "Negative/Exception MCQ — Single Correct": 18
+      }
+    }
+  ],
+  "total_questions_parsed": 2250,
+  "total_valid_imported": 2250,
+  "total_unverified": 150,
+  "subjects": 15,
+  "question_type_counts": {
+    "Assertion and Reason — Standard Relationship Evaluation": 118,
+    "Chronological Order — Correct Sequence": 14,
+    "Match the Following — Two-List Matching — Answer-Code Matrix": 131,
+    "Negative/Exception MCQ — Single Correct": 183,
+    "Numerical/Calculation — Single Correct": 91,
+    "Ordering/Ranking — Correct Sequence": 20,
+    "Standard MCQ — Direct Factual/Conceptual, Single Correct": 1693
+  }
+}

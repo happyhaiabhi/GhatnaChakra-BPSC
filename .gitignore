@@ -5,3 +5,10 @@ node_modules/
 # keep only the processed JSON under books/<id>/data/.
 incoming/
 *.zip
+source_pdfs/
+_staging/
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
