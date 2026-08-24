@@ -302,8 +302,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .match-cell-label{font-weight:700;white-space:nowrap;}
 .match-cell-text{overflow-wrap:anywhere;}
 .match-code-caption{font-family:Georgia,'Times New Roman',serif;font-size:.78rem;text-transform:uppercase;letter-spacing:1.4px;color:var(--text3);margin:4px 0 7px 4px;font-weight:700;}
-.options-grid.match-options-grid{gap:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
-.match-code-header,.match-code-row{display:grid;grid-template-columns:48px repeat(var(--match-cols),minmax(42px,1fr));align-items:center;min-width:300px;}
+.options-grid.match-options-grid{gap:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.match-code-header,.match-code-row{display:grid;grid-template-columns:40px repeat(var(--match-cols),minmax(30px,1fr));align-items:center;min-width:0;}
 .match-code-header{padding:8px 16px;background:var(--surface2);border-bottom:1px solid var(--border);color:var(--gold);font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:700;text-align:center;}
 .match-code-row.opt-btn{border:0;border-bottom:1px solid var(--border);border-radius:0;padding:11px 16px;transform:none;text-align:center;background:var(--opt-bg);}
 .match-code-row.opt-btn:last-child{border-bottom:0;}
@@ -327,7 +327,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
   .match-prompt{font-size:.9rem;margin-bottom:12px;}
   .match-list-heads,.match-list-row{grid-template-columns:minmax(145px,1fr) minmax(145px,1fr);column-gap:16px;min-width:330px;}
   .match-list-head{font-size:.83rem}.match-list-title{font-size:.74rem}.match-cell{font-size:.77rem;grid-template-columns:21px minmax(0,1fr);gap:3px;}
-  .match-code-header,.match-code-row{grid-template-columns:40px repeat(var(--match-cols),minmax(38px,1fr));min-width:270px;}
+  .match-code-header,.match-code-row{grid-template-columns:34px repeat(var(--match-cols),minmax(24px,1fr));min-width:0;}
   .match-code-header,.match-code-row.opt-btn{padding-left:10px;padding-right:10px;}
 }
 
@@ -697,6 +697,78 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
   .dashboard-insight{grid-template-columns:1fr;justify-items:center;}
   .dash-weekly{width:100%;}
 }
+
+/* ════════════════════════════════════════════════════════════════
+   NEW FEATURES — super search, chapter filters, attempt history,
+   and extra mobile / iPad (Air M1) fit-to-screen refinements
+   ════════════════════════════════════════════════════════════════ */
+
+/* SUPER SEARCH */
+.search-modal-search{display:flex;gap:8px;position:relative;}
+.search-modal-search .bank-search{flex:1;}
+.search-scope{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+.search-scope select,.chapter-filter-select{background:color-mix(in srgb,var(--surface2) 85%,transparent);border:1px solid var(--border);border-radius:999px;color:var(--text);padding:7px 12px;font-size:.72rem;font-family:'Nunito',sans-serif;outline:none;max-width:100%;}
+.search-scope select:focus,.chapter-filter-select:focus{border-color:var(--gold);}
+.search-scope-label{font-size:.6rem;text-transform:uppercase;letter-spacing:1px;color:var(--text3);font-weight:700;}
+.search-results{max-height:52vh;overflow-y:auto;display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.search-result{border:1px solid var(--border);border-radius:12px;padding:11px 13px;background:var(--surface);cursor:pointer;transition:border-color .15s,background .15s;}
+.search-result:hover{border-color:var(--gold);background:var(--surface2);}
+.search-result .sr-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px;}
+.search-result .sr-q{font-size:.8rem;line-height:1.45;color:var(--text);overflow-wrap:anywhere;}
+.search-result .sr-q mark{background:var(--gold-dim);color:var(--gold);border-radius:3px;padding:0 2px;}
+.search-result .sr-chapter{font-size:.58rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,.3);padding:2px 6px;border-radius:3px;font-weight:700;}
+.search-result .sr-subj{font-size:.58rem;background:var(--blue-dim);color:var(--blue);border:1px solid rgba(59,130,246,.3);padding:2px 6px;border-radius:3px;font-weight:700;}
+.search-empty{text-align:center;color:var(--text3);font-size:.82rem;padding:26px 10px;}
+.search-count{font-size:.66rem;color:var(--text3);margin-left:auto;white-space:nowrap;}
+.search-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
+.search-loading{font-size:.74rem;color:var(--text3);padding:10px 2px;}
+
+/* CHAPTER FILTER for banks */
+.bank-chapter-filter{display:flex;align-items:center;gap:7px;flex-wrap:wrap;width:100%;margin-bottom:4px;}
+.bank-chapter-filter .chapter-filter-select{max-width:100%;}
+
+/* ATTEMPT HISTORY */
+.history-item{border:1px solid var(--border);border-radius:14px;padding:13px 15px;background:var(--surface);display:flex;flex-direction:column;gap:7px;}
+.history-item-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+.history-subj{font-size:.78rem;font-weight:700;color:var(--text);}
+.history-date{font-size:.62rem;color:var(--text3);margin-left:auto;}
+.history-stats{display:flex;gap:10px;flex-wrap:wrap;font-size:.7rem;}
+.history-stat{display:flex;align-items:center;gap:4px;}
+.history-bar{height:6px;border-radius:6px;background:var(--surface3);overflow:hidden;display:flex;}
+.history-bar .hb-c{background:var(--green);} .history-bar .hb-w{background:var(--red);} .history-bar .hb-s{background:var(--text3);}
+.history-actions{display:flex;gap:8px;flex-wrap:wrap;}
+
+/* Mobile / iPad (Air M1) fit-to-screen refinements */
+@viewport{width:device-width;}
+html,body{height:100%;}
+/* keep the quiz bottom bar within the viewport on short phones / iPad split */
+#quiz-screen{height:100vh;height:100dvh;}
+.quiz-bottombar{gap:6px;padding-bottom:calc(10px + env(safe-area-inset-bottom));}
+/* wider tap targets on touch / tablet */
+@media(hover:none) and (pointer:coarse){
+  .nav-action-btn,.topbar-btn,.opt-btn{min-height:44px;}
+  .pal-btn{min-height:40px;}
+  .res-btn,.nav-btn-pill{padding-top:9px;padding-bottom:9px;}
+}
+/* iPad Air M1 portrait (820) and landscape (1184) — keep the palette and
+   question area comfortably within the screen without horizontal scroll */
+@media(min-width:700px) and (max-width:1100px){
+  .palette-panel{width:170px;}
+  .quiz-bottombar .nav-action-btn{padding:9px 14px;font-size:.8rem;}
+  .topbar-btn{padding:6px 12px;}
+}
+/* very small phones */
+@media(max-width:380px){
+  .q-card{padding:14px 11px;}
+  .question-area{padding:10px;}
+  .nav-action-btn{padding:7px 9px;font-size:.7rem;}
+  .q-text{font-size:.86rem;}
+  .opt-text{font-size:.8rem;}
+}
+/* prevent any nested quiz element from forcing page-wide horizontal scroll */
+.quiz-body,.question-area,.q-card,.quiz-topbar{max-width:100%;}
+.quiz-topbar{overflow-x:auto;scrollbar-width:none;}
+.quiz-topbar::-webkit-scrollbar{display:none;}
 </style>
 </head>
 <body>
@@ -707,15 +779,11 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
 <!-- BOOK SELECTION SCREEN -->
 <div class="screen active" id="books-screen">
   <div class="top-navbar">
-    <div class="nav-brand">
-      <span class="nav-brand-tag">Quiz Library</span>
-      <span class="nav-brand-name">Ghatna Chakra</span>
-    </div>
     <div class="nav-spacer"></div>
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn-books" title="Toggle theme">&#9728;&#xFE0F;</button>
   </div>
   <div class="books-wrap">
-    <div class="books-logo">Ghatna Chakra</div>
+    <div class="books-logo">MCQ Practise</div>
     <div class="books-tagline">Choose a book to begin</div>
     <div class="books-date" id="books-date">🌿 Bloom one chapter at a time 🌿</div>
     <script>
@@ -747,6 +815,8 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
     <button class="nav-btn-pill" onclick="showBookmarkScreen()">&#x1F516; <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
     <button class="nav-btn-pill" onclick="showSkipScreen()">&#x23ED; <span class="nav-btn-label">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
     <button class="nav-btn-pill" onclick="showArchiveScreen()">&#x1F5C3; <span class="nav-btn-label">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
+    <button class="nav-btn-pill" onclick="openSuperSearch()" title="Search every question in this book">&#x1F50D; <span class="nav-btn-label">Search</span></button>
+    <button class="nav-btn-pill" onclick="showHistoryScreen()" title="Record of all quiz attempts">&#x1F4D1; <span class="nav-btn-label">History</span></button>
     <button class="nav-btn-pill" onclick="openFocusModal()" title="Pomodoro / focus timer">&#x1F345; <span class="nav-btn-label">Focus</span></button>
     <button class="nav-btn-pill sync-btn-wrap" id="sync-nav-btn" onclick="openSyncModal()" style="position:relative;">☁ <span class="nav-btn-label">Sync</span><div class="sync-dot offline" id="sync-status-dot" title="Sync Off"></div></button>
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" title="Toggle theme">&#x2600;&#xFE0F;</button>
@@ -820,6 +890,33 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
         <button class="modal-btn modal-btn-secondary" onclick="resetFocusTimer()">Reset</button>
       </div>
       <div class="focus-hint">Keep the tab open and let the timer run beside your quiz. The soft alarm will nudge you between focus and rest.</div>
+    </div>
+  </div>
+</div>
+
+<!-- SUPER SEARCH MODAL -->
+<div class="modal-overlay hidden" id="supersearch-modal">
+  <div class="modal-box" style="max-width:620px;">
+    <div class="modal-header">
+      <span class="modal-header-icon">&#x1F50D;</span>
+      <span class="modal-header-title">Super Search</span>
+      <button class="modal-close" onclick="closeSuperSearch()">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="search-modal-search">
+        <input class="bank-search" id="supersearch-input" placeholder="Search every question, option &amp; explanation…" value="" oninput="superSearchInput(event)" autocomplete="off">
+      </div>
+      <div class="search-scope">
+        <span class="search-scope-label">Subject</span>
+        <select id="supersearch-subject" onchange="runSuperSearch()"><option value="">All subjects</option></select>
+        <span class="search-scope-label">Type</span>
+        <select id="supersearch-type" onchange="runSuperSearch()"><option value="">All types</option></select>
+      </div>
+      <div class="search-actions">
+        <button class="modal-btn modal-btn-primary" id="supersearch-practice" onclick="practiceSuperSearch()" style="display:none;">Practice results</button>
+        <span class="search-count" id="supersearch-count"></span>
+      </div>
+      <div class="search-results" id="supersearch-results"><div class="search-empty">Type to search across the entire book. Results appear instantly.</div></div>
     </div>
   </div>
 </div>
@@ -963,6 +1060,7 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-mistake" placeholder="&#x1F50D; Search mistakes..." value="" oninput="setBankSearch('mistake',this.value)"></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-mistake" onchange="setChapterFilter('mistake',this.value)"><option value="">All chapters</option></select></div>
     <div id="mistake-type-filters" class="bank-type-filters" aria-label="Filter mistakes by question type"></div>
     <div id="mistake-list" class="bank-list"></div>
   </div>
@@ -979,6 +1077,7 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
       <button onclick="practiceFromBookmarks()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-bookmark" placeholder="&#x1F50D; Search bookmarks or notes..." value="" oninput="setBankSearch('bookmark',this.value)"></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-bookmark" onchange="setChapterFilter('bookmark',this.value)"><option value="">All chapters</option></select></div>
     <div id="bookmark-type-filters" class="bank-type-filters" aria-label="Filter bookmarks by question type"></div>
     <div id="bookmark-list" class="bank-list"></div>
   </div>
@@ -996,6 +1095,7 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-skip" placeholder="&#x1F50D; Search skipped questions..." value="" oninput="setBankSearch('skip',this.value)"></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-skip" onchange="setChapterFilter('skip',this.value)"><option value="">All chapters</option></select></div>
     <div id="skip-type-filters" class="bank-type-filters" aria-label="Filter skipped questions by question type"></div>
     <div id="skip-list" class="bank-list"></div>
   </div>
@@ -1013,8 +1113,23 @@ html[data-theme="dark"] .bank-note{background:color-mix(in srgb,var(--surface2) 
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Questions mastered (5&#xD7; correct) or manually cleared</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-archive" placeholder="&#x1F50D; Search archive..." value="" oninput="setBankSearch('archive',this.value)"></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-archive" onchange="setChapterFilter('archive',this.value)"><option value="">All chapters</option></select></div>
     <div id="archive-type-filters" class="bank-type-filters" aria-label="Filter archived questions by question type"></div>
     <div id="archive-list" class="bank-list"></div>
+  </div>
+</div>
+
+<!-- ATTEMPT HISTORY SCREEN -->
+<div class="screen" id="history-screen" style="flex-direction:column;align-items:center;padding:16px;min-height:100vh;">
+  <div style="width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px;">
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+      <button onclick="backToSetup()" style="background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 12px;border-radius:8px;font-size:0.75rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">&#x2190; Back</button>
+      <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F4D1; Attempt History</h2>
+      <span id="history-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
+      <button onclick="clearAllAttempts()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Clear All</button>
+    </div>
+    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Every completed quiz is recorded here. Re-open a past attempt to re-practice the exact same questions.</div>
+    <div id="history-list" style="display:flex;flex-direction:column;gap:12px;"></div>
   </div>
 </div>
 
@@ -1330,6 +1445,7 @@ function practiceFromBloom(){
 }
 
 const bankTypeFilters={mistake:'all',bookmark:'all',skip:'all',archive:'all',bloom:'all'};
+const chapterFilters={mistake:'',bookmark:'',skip:'',archive:''};
 const bankSearch={mistake:'',bookmark:'',skip:'',archive:''};
 const BANK_EMPTY_HTML={
   mistake:'No mistakes yet! \uD83C\uDF89',
@@ -1346,12 +1462,25 @@ function bankSearchText(entry){
 }
 function filteredBank(bank,bankType){
   const active=bankTypeFilters[bankType]||'all';
+  const chapter=chapterFilters[bankType]||'';
   const q=(bankSearch[bankType]||'').trim().toLowerCase();
   return Object.fromEntries(Object.entries(bank).filter(([,entry])=>{
     if(active!=='all'&&bankQuestionType(entry)!==active)return false;
+    if(chapter&&(entry.q&&entry.q.chapter)!==chapter)return false;
     if(q&&!bankSearchText(entry).includes(q))return false;
     return true;
   }));
+}
+function populateChapterFilter(bankType,bank){
+  const sel=document.getElementById('chapter-filter-'+bankType);if(!sel)return;
+  const chapters=[...new Set(Object.values(bank).map(e=>e.q&&e.q.chapter).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  const current=sel.value;
+  sel.innerHTML='<option value="">All chapters</option>'+chapters.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  if(chapters.includes(current))sel.value=current;
+}
+function setChapterFilter(bankType,value){
+  chapterFilters[bankType]=value||'';
+  ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen})[bankType]?.();
 }
 function setBankSearch(bankType,value){
   bankSearch[bankType]=value||'';
@@ -1392,6 +1521,7 @@ function archiveItemHtml(e){
 }
 function renderBankScreen(bankType,bank,screenId,itemRenderer){
   const allItems=Object.values(bank),visible=Object.values(filteredBank(bank,bankType));
+  populateChapterFilter(bankType,bank);
   renderBankTypeFilters(bankType,allItems);
   const count=document.getElementById(`${bankType}-count-lbl`);
   count.textContent=visible.length===allItems.length?`${allItems.length} question${allItems.length!==1?'s':''}`:`${visible.length} of ${allItems.length} questions`;
@@ -1418,6 +1548,154 @@ function showArchiveScreen(){
 }
 function practiceFromArchive(){practiceFromBank(filteredBank(getArchive(),'archive'),'archive');}
 function clearAllArchive(){if(confirm('Permanently delete all archived questions?')){saveArchive({});updateAllBadges();showArchiveScreen();}}
+
+// ════════════════════════════════════════════════════════════════
+// ATTEMPT HISTORY — a per-quiz record of every finished attempt
+// ════════════════════════════════════════════════════════════════
+const getAttempts=()=>LS.get(sk('gc_attempts'),[]);let saveAttempts=a=>LS.set(sk('gc_attempts'),a);
+
+function recordAttempt(meta){
+  const attempts=getAttempts();
+  attempts.unshift(Object.assign({id:'att_'+Date.now()+'_'+Math.random().toString(36).slice(2,7),date:new Date().toISOString()},meta));
+  if(attempts.length>50)attempts.pop();
+  saveAttempts(attempts);
+}
+function showHistoryScreen(){
+  const attempts=getAttempts();
+  const list=document.getElementById('history-list');
+  document.getElementById('history-count-lbl').textContent=attempts.length+' attempt'+(attempts.length!==1?'s':'');
+  if(!attempts.length){list.innerHTML='<div class="search-empty">No attempts yet. Finish a quiz and it will be recorded here. 🌱</div>';showScreen('history-screen');return;}
+  list.innerHTML=attempts.map(a=>{
+    const total=a.total||0,c=a.correct||0,w=a.wrong||0,s=a.skip||0,barW=total||1;
+    const pct=total?Math.round(c/total*100):0;
+    const date=new Date(a.date);
+    return `<div class="history-item">
+      <div class="history-item-top">
+        <span class="history-subj">${escapeHtml(a.subject||'Quiz')}</span>
+        ${a.chapter?`<span class="sr-chapter">${escapeHtml(a.chapter)}</span>`:''}
+        <span class="history-date">${escapeHtml(date.toLocaleString())}</span>
+      </div>
+      <div class="history-stats">
+        <span class="history-stat" style="color:var(--gold);">Score: <b>${pct}%</b></span>
+        <span class="history-stat" style="color:var(--green);">&#x2713; ${c}</span>
+        <span class="history-stat" style="color:var(--red);">&#x2717; ${w}</span>
+        <span class="history-stat" style="color:var(--text3);">— ${s}</span>
+        <span class="history-stat" style="color:var(--blue);">&#x23F1; ${escapeHtml(formatDuration(a.durationMs||0))}</span>
+      </div>
+      <div class="history-bar"><div class="hb-c" style="flex:0 0 ${(c/barW*100)}%"></div><div class="hb-w" style="flex:0 0 ${(w/barW*100)}%"></div><div class="hb-s" style="flex:0 0 ${(s/barW*100)}%"></div></div>
+      <div class="history-actions">
+        <button class="modal-btn modal-btn-primary" onclick="redoAttempt('${escapeHtml(a.id)}')">&#x1F504; Re-practice</button>
+      </div>
+    </div>`;
+  }).join('');
+  showScreen('history-screen');
+}
+function clearAllAttempts(){if(confirm('Delete the entire attempt history? This cannot be undone.')){saveAttempts([]);showHistoryScreen();}}
+function redoAttempt(id){
+  const a=getAttempts().find(x=>x.id===id);if(!a)return;
+  const uids=(a.questions||[]).filter(Boolean);
+  if(!uids.length){alert('This attempt has no stored questions to re-practice.');return;}
+  ensureSyncQuestionCatalog().then(catalog=>{
+    const pool=uids.map(uid=>catalog[uid]).filter(Boolean);
+    if(!pool.length){alert('Those questions are not available in the current book.');return;}
+    selectedChapters=new Set(pool.map(q=>q.chapter));
+    currentSubjectId=pool[0]._subjectId||null;
+    processData({chapters:[]},currentSubjectId||'redo');
+    allQuestions=pool;pool.forEach(q=>{if(!chapterMap[q.chapter])chapterMap[q.chapter]=[];chapterMap[q.chapter].push(q);});
+    startQuiz('history',pool);
+  }).catch(()=>{alert('Could not load the questions for this attempt.');});
+}
+
+// ════════════════════════════════════════════════════════════════
+// SUPER SEARCH — instant search across every question in the book
+// ════════════════════════════════════════════════════════════════
+let bookSearchIndex=null,bookSearchIndexPromise=null;
+async function ensureBookSearchIndex(){
+  if(bookSearchIndex)return bookSearchIndex;
+  if(bookSearchIndexPromise)return bookSearchIndexPromise;
+  bookSearchIndexPromise=Promise.all(SUBJECTS_CONFIG.map(async subj=>{
+    let data=subjectDataCache[subj.id];
+    if(!data){
+      try{const resp=await fetch(bookFilePath(subj.file));if(!resp.ok)return[];data=await resp.json();subjectDataCache[subj.id]=data;}
+      catch(e){return[];}
+    }
+    let idx=0;const out=[];
+    (data.chapters||[]).forEach(ch=>{const chName=ch.chapter_name||ch.name||'General';(ch.questions||[]).forEach(q=>{const internal=toInternalQuestion(q,subj.id,idx++,chName);out.push(internal);});});
+    return out.map(q=>({q,subject:subj.name,subjectId:subj.id,chapter:q.chapter,type:getQuestionType(q)}));
+  })).then(arrays=>{const flat=arrays.flat();bookSearchIndex=flat;return flat;}).catch(e=>{bookSearchIndexPromise=null;throw e;});
+  return bookSearchIndexPromise;
+}
+let superSearchState={lastResults:[]};
+function openSuperSearch(){
+  document.getElementById('supersearch-modal').classList.remove('hidden');
+  const sel=document.getElementById('supersearch-subject');
+  if(SUBJECTS_CONFIG.length&&sel.options.length<=1){
+    sel.innerHTML='<option value="">All subjects</option>'+SUBJECTS_CONFIG.map(s=>`<option value="${escapeHtml(s.id)}">${escapeHtml(s.name)}</option>`).join('');
+  }
+  ensureBookSearchIndex().then(idx=>{
+    const types=[...new Set(idx.map(r=>r.type))].sort();
+    const tsel=document.getElementById('supersearch-type');
+    if(tsel.options.length<=1){
+      tsel.innerHTML='<option value="">All types</option>'+types.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('');
+    }
+  }).catch(()=>{});
+  setTimeout(()=>{const i=document.getElementById('supersearch-input');if(i)i.focus();},50);
+}
+function closeSuperSearch(){document.getElementById('supersearch-modal').classList.add('hidden');}
+function superSearchInput(){runSuperSearch();}
+function highlightMatch(text,query){
+  const esc=escapeHtml(text);
+  if(!query)return esc;
+  const q=query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  try{return esc.replace(new RegExp('('+q+')','ig'),'<mark>$1</mark>');}catch(e){return esc;}
+}
+function runSuperSearch(){
+  const input=document.getElementById('supersearch-input');
+  const q=(input?input.value:'').trim().toLowerCase();
+  const subject=document.getElementById('supersearch-subject').value;
+  const type=document.getElementById('supersearch-type').value;
+  const resEl=document.getElementById('supersearch-results');
+  const countEl=document.getElementById('supersearch-count');
+  const practiceBtn=document.getElementById('supersearch-practice');
+  if(!q){resEl.innerHTML='<div class="search-empty">Type to search across the entire book. Results appear instantly.</div>';countEl.textContent='';if(practiceBtn)practiceBtn.style.display='none';return;}
+  ensureBookSearchIndex().then(idx=>{
+    const results=idx.filter(r=>{
+      if(subject&&r.subjectId!==subject)return false;
+      if(type&&r.type!==type)return false;
+      const hay=[r.q.question,r.q.stem,r.chapter,r.q.explanation,r.q.note,r.subject,JSON.stringify(r.q.options||{})].join(' ').toLowerCase();
+      return hay.includes(q);
+    });
+    superSearchState.lastResults=results;
+    if(practiceBtn)practiceBtn.style.display=results.length?'':'none';
+    countEl.textContent=results.length+' result'+(results.length!==1?'s':'');
+    if(!results.length){resEl.innerHTML='<div class="search-empty">No matching questions. Try another keyword.</div>';return;}
+    resEl.innerHTML=results.slice(0,200).map((r,i)=>{
+      const text=bookText(r.q.question||'');
+      const snippet=text.length>220?text.slice(0,220)+'…':text;
+      return `<div class="search-result" onclick="superSearchOpen('${i}')"><div class="sr-top"><span class="sr-subj">${escapeHtml(r.subject)}</span><span class="sr-chapter">${escapeHtml(r.chapter||'')}</span><span class="question-type-pill">${escapeHtml(r.type)}</span></div><div class="sr-q">${highlightMatch(snippet,q)}</div></div>`;
+    }).join('')+(results.length>200?`<div class="search-empty">Showing first 200 of ${results.length}. Narrow your search to see more.</div>`:'');
+  }).catch(()=>{resEl.innerHTML='<div class="search-empty">Search could not load the question bank. Try again.</div>';});
+}
+function superSearchOpen(i){
+  const r=(superSearchState.lastResults||[])[i];if(!r)return;
+  closeSuperSearch();
+  selectedChapters=new Set([r.chapter]);
+  currentSubjectId=r.subjectId;
+  processData({chapters:[]},currentSubjectId||'search');
+  allQuestions=[r.q];if(!chapterMap[r.chapter])chapterMap[r.chapter]=[];chapterMap[r.chapter].push(r.q);
+  startQuiz('supersearch',[r.q]);
+}
+function practiceSuperSearch(){
+  const results=superSearchState.lastResults||[];
+  if(!results.length){alert('No results to practice yet.');return;}
+  closeSuperSearch();
+  const pool=results.map(r=>r.q);
+  selectedChapters=new Set(pool.map(q=>q.chapter));
+  currentSubjectId=pool[0].subjectId||null;
+  processData({chapters:[]},currentSubjectId||'search');
+  allQuestions=pool;pool.forEach(q=>{if(!chapterMap[q.chapter])chapterMap[q.chapter]=[];chapterMap[q.chapter].push(q);});
+  startQuiz('supersearch',pool);
+}
 
 // ════════════════════════════════════════════════════════════════
 // FOCUS / POMODORO TIMER
@@ -1459,7 +1737,7 @@ function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.ra
 
 function startQuiz(mode,customPool){
   let pool;
-  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'){pool=shuffle([...customPool]);}
+  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'||mode==='supersearch'||mode==='history'){pool=shuffle([...customPool]);}
   else{let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));if(document.getElementById('toggle-shuffle')?.checked)base=shuffle(base);const n=Math.min(parseInt(document.getElementById('num-questions')?.value)||base.length,base.length);pool=base.slice(0,n);}
   if(!pool.length){alert('No questions found!');return;}
   quiz=pool;const selectedList=Array.from(selectedChapters).join(', ');quizMeta={mode,subjectId:currentSubjectId,chapter:selectedList,startTime:new Date()};
@@ -1467,7 +1745,7 @@ function startQuiz(mode,customPool){
   const doSO=document.getElementById('toggle-shuffle-opts')?.checked||false;shuffledOptionOrders=quiz.map(q=>{const keys=Object.keys(q.options||{});return doSO?shuffle([...keys]):keys;});
   const mins=parseInt(document.getElementById('timer-mins')?.value||0);totalSecs=mins*60;
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'Practice';
-  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
+  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':mode==='supersearch'?'Super Search':mode==='history'?'Re-practice':chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
   const t=document.documentElement.getAttribute('data-theme')||'light';const qBtn=document.getElementById('theme-btn-q');if(qBtn)qBtn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';
   showScreen('quiz-screen');renderQuestion();renderPalette();updateStats();clearInterval(timerInterval);paused=false;
   document.getElementById('pause-btn').textContent='Pause';document.getElementById('timer-display').classList.remove('urgent');
@@ -1798,7 +2076,8 @@ function renderMatchOptions(match,optionKeys,answered){
   const labels=match.labels;
   const header=`<div class="match-code-header" style="--match-cols:${labels.length}"><span></span>${labels.map(label=>`<span>${escapeHtml(label)}</span>`).join('')}</div>`;
   const rows=optionKeys.map(key=>{
-    const item=match.codeRows.find(row=>row.key===key);if(!item)return'';
+    const item=match.codeRows.find(row=>row.key===key);
+    if(!item){const val=q.options[key];if(val==null||val==='')return'';return `<button class="opt-btn" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(optionDisplayText(val,key))}"><span class="opt-text">${escapeHtml(optionDisplayText(val,key))}</span></button>`;}
     const cls='opt-btn match-code-row'+(answerHasKey(answered,key)?' selected':'');
     const cells=item.codes?item.codes.map(code=>`<span class="match-code-value">${escapeHtml(code)}</span>`).join(''):`<span class="match-code-free">${bookText(item.value)}</span>`;
     return `<button class="${cls}" style="--match-cols:${labels.length}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${bookText(item.value)}"><span class="match-option-key">(${escapeHtml(key.toLowerCase())})</span>${cells}</button>`;
@@ -1874,6 +2153,7 @@ function submitQuiz(){
   if(wr.length)addToMistakes(wr);if(sr.length)addToSkips(sr.map(r=>r.q));if(cr.length)processCorrectAnswers(cr);
   const pct=Math.round(correct/quiz.length*100),skip=quiz.length-correct-wrong;
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'';
+  recordAttempt({subjectId:currentSubjectId,subject:subj?.name||'',chapter:chLabel,mode:quizMeta.mode,correct,wrong,skip,total:quiz.length,pct,durationMs:elapsed,questions:quiz.map(q=>q.uid)});
   document.getElementById('res-eyebrow').textContent=`${subj?.name||''} &#183; ${chLabel.substring(0,50)}`;
   document.getElementById('res-score').textContent=pct+'%';document.getElementById('res-score').style.color=pct>=70?'var(--green)':pct>=50?'var(--gold)':'var(--red)';
   document.getElementById('res-grade').textContent=pct>=80?'\uD83C\uDFC6 Excellent!':pct>=60?'\u2705 Good Performance':pct>=40?'\u26A1 Keep Practicing':'\uD83D\uDCD6 Needs More Practice';
@@ -1921,12 +2201,12 @@ document.addEventListener('keydown',function(e){
 // ════════════════════════════════════════════════════════════════
 // SIMPLE GOOGLE ACCOUNT SYNC — Firebase stores progress; GitHub Pages hosts UI
 // ════════════════════════════════════════════════════════════════
-const SYNC_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive'];
+const SYNC_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive','gc_attempts'];
 const SYNC_ACTIVE_BANK_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips'];
 // Resolve the active book's namespaced keys at call time.
 function syncDataKeys(){return SYNC_BASE_KEYS.map(k=>sk(k));}
 function syncActiveBankKeys(){return SYNC_ACTIVE_BANK_BASE_KEYS.map(k=>sk(k));}
-function isHistoryKey(key){return key===sk('gc_history');}
+function isHistoryKey(key){return key===sk('gc_history')||key===sk('gc_attempts');}
 const FIREBASE_CFG={
   apiKey:'AIzaSyB5vVuyG2NbMdTUOY78NlZ702mlkmmPuFA',
   authDomain:'mcq-practise-ff181.firebaseapp.com',
@@ -1949,7 +2229,7 @@ function mergeHistory(localValue,cloudValue){
   const byId=new Map();
   [...cloud,...local].forEach((entry,index)=>{
     if(!entry||typeof entry!=='object')return;
-    const id=entry.date||`legacy-${index}-${JSON.stringify(entry)}`;
+    const id=entry.id||entry.date||`legacy-${index}-${JSON.stringify(entry)}`;
     byId.set(id,Object.assign({},byId.get(id)||{},entry));
   });
   return [...byId.values()].sort((a,b)=>dateNumber(b.date,0)-dateNumber(a.date,0)).slice(0,200);
@@ -2259,12 +2539,13 @@ function cloudPushKey(key){
   },700);
 }
 
-const _saveHistory0=saveHistory,_saveMistakes0=saveMistakes,_saveBookmarks0=saveBookmarks,_saveSkips0=saveSkips,_saveArchive0=saveArchive;
+const _saveHistory0=saveHistory,_saveMistakes0=saveMistakes,_saveBookmarks0=saveBookmarks,_saveSkips0=saveSkips,_saveArchive0=saveArchive,_saveAttempts0=saveAttempts;
 saveHistory=value=>{_saveHistory0(value);cloudPushKey(sk('gc_history'));};
 saveMistakes=value=>{_saveMistakes0(value);cloudPushKey(sk('gc_mistakes'));};
 saveBookmarks=value=>{_saveBookmarks0(value);cloudPushKey(sk('gc_bookmarks'));};
 saveSkips=value=>{_saveSkips0(value);cloudPushKey(sk('gc_skips'));};
 saveArchive=value=>{_saveArchive0(value);cloudPushKey(sk('gc_archive'));};
+saveAttempts=value=>{_saveAttempts0(value);cloudPushKey(sk('gc_attempts'));};
 
 async function syncNow(){
   if(!fbUserId){openSyncModal();return;}
@@ -2443,6 +2724,14 @@ async function loadBooksManifest(){
     BOOKS=[];
   }
 }
+
+// Keep the sync indicator honest and re-sync when connectivity returns.
+window.addEventListener('online',()=>{
+  const cfg=getSyncConfig();
+  if(cfg&&cfg.userId&&fbUserId){synchronizeAll(false).catch(()=>{});}
+  else if(cfg&&cfg.userId){initSyncOnLoad();}
+});
+window.addEventListener('offline',()=>{if(syncStatus!=='error')setSyncStatus('offline');});
 
 function init(){
   const saved=localStorage.getItem('gc_theme');
