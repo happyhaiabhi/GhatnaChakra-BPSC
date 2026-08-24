@@ -770,6 +770,380 @@ html,body{height:100%;}
 .quiz-body,.question-area,.q-card,.quiz-topbar{max-width:100%;}
 .quiz-topbar{overflow-x:auto;scrollbar-width:none;}
 .quiz-topbar::-webkit-scrollbar{display:none;}
+
+/* SUB-TOPICS STYLES */
+.subtopic-pill{display:inline-flex;align-items:center;gap:4px;font-size:0.6rem;background:var(--purple-dim);color:var(--purple);border:1px solid rgba(166,143,196,0.35);padding:2px 7px;border-radius:10px;font-weight:700;letter-spacing:0.2px;}
+.ch-sub-badge{font-size:0.56rem;background:var(--purple-dim);color:var(--purple);border:1px solid rgba(166,143,196,0.3);padding:2px 6px;border-radius:6px;font-weight:700;margin-left:auto;margin-right:6px;cursor:pointer;transition:all 0.15s;}
+.ch-sub-badge:hover{background:var(--purple);color:#fff;}
+.ch-row-wrap{border-bottom:1px solid rgba(255,255,255,0.03);}
+.ch-row-wrap:last-child{border-bottom:none;}
+.ch-subtopics-list{background:color-mix(in srgb,var(--surface) 92%,transparent);padding:6px 12px 10px 34px;display:flex;flex-direction:column;gap:5px;border-top:1px dashed var(--border);}
+.ch-subtopic-row{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;cursor:pointer;font-size:0.68rem;color:var(--text2);transition:all 0.12s;}
+.ch-subtopic-row:hover{background:var(--surface2);color:var(--text);}
+.ch-subtopic-row.selected{background:var(--purple-dim);color:var(--purple);font-weight:600;}
+.ch-sub-check{width:14px;height:14px;border-radius:3px;border:1.5px solid var(--border2);background:var(--surface);display:flex;align-items:center;justify-content:center;font-size:0.58rem;color:#fff;flex-shrink:0;}
+.ch-subtopic-row.selected .ch-sub-check{background:var(--purple);border-color:var(--purple);}
+.ch-sub-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ch-sub-count{font-size:0.58rem;background:var(--surface3);color:var(--text3);padding:1px 6px;border-radius:6px;font-weight:600;}
+.ch-subtopic-row.selected .ch-sub-count{background:rgba(166,143,196,0.25);color:var(--purple);}
+
+.cp-subtopics-section{display:flex;flex-direction:column;gap:6px;width:100%;margin-top:4px;padding-top:10px;border-top:1px solid var(--border);}
+.cp-subtopics-header{display:flex;align-items:center;justify-content:space-between;}
+.cp-subtopics-title{font-size:0.65rem;color:var(--text3);font-weight:700;text-transform:uppercase;letter-spacing:1px;}
+.cp-subtopic-chips{display:flex;flex-wrap:wrap;gap:6px;}
+.cp-subtopic-chip{display:inline-flex;align-items:center;gap:5px;font-size:0.62rem;background:var(--surface2);border:1px solid var(--border);color:var(--text2);padding:3px 9px;border-radius:12px;cursor:pointer;font-family:'Nunito',sans-serif;font-weight:600;transition:all 0.15s;}
+.cp-subtopic-chip:hover{border-color:var(--border3);color:var(--text);}
+.cp-subtopic-chip.active{background:var(--purple-dim);color:var(--purple);border-color:var(--purple);font-weight:700;}
+
+/* EXPORT PDF MODAL & CONTROLS */
+.export-modal-modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:12px;}
+.export-mode-card{border:1.5px solid var(--border);border-radius:12px;padding:10px;cursor:pointer;text-align:center;transition:all 0.15s;background:var(--surface2);}
+.export-mode-card:hover{border-color:var(--border3);transform:translateY(-1px);}
+.export-mode-card.active{border-color:var(--gold);background:var(--gold-dim);box-shadow:0 4px 14px var(--gold-glow);}
+.export-mode-icon{font-size:1.4rem;margin-bottom:4px;}
+.export-mode-title{font-size:0.75rem;font-weight:700;color:var(--text);font-family:'Nunito',sans-serif;}
+.export-mode-desc{font-size:0.62rem;color:var(--text3);margin-top:2px;line-height:1.2;}
+
+.export-options-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin:10px 0;}
+.export-option-label{display:flex;align-items:center;gap:8px;font-size:0.75rem;color:var(--text2);cursor:pointer;}
+.export-option-label input[type="checkbox"]{accent-color:var(--gold);width:15px;height:15px;}
+.export-summary-box{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;font-size:0.75rem;color:var(--text2);margin-top:6px;}
+
+.res-btn-export,.bank-export-btn{background:var(--surface2)!important;border:1px solid var(--border)!important;color:var(--text2)!important;transition:all 0.15s;}
+.res-btn-export:hover,.bank-export-btn:hover{border-color:var(--gold)!important;color:var(--gold)!important;transform:translateY(-1px);}
+
+/* PRINT / PDF EXPORT STYLESHEET */
+#printable-pdf-document{display:none;}
+
+@media print{
+  @page{ size: A4 portrait; margin: 12mm 14mm 14mm 14mm; }
+
+  html,body{
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 9.5pt !important;
+    line-height: 1.45 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .screen, .top-navbar, .modal-overlay, .bg-grid, .bg-radial, .bg-flowers, #sync-toast, .kb-hint {
+    display: none !important;
+  }
+
+  #printable-pdf-document {
+    display: block !important;
+    width: 100% !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  .pdf-doc-header{
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 8pt;
+    margin-bottom: 12pt;
+    display: flex;
+    flex-direction: column;
+    gap: 4pt;
+  }
+  .pdf-header-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10pt;
+  }
+  .pdf-doc-brand{
+    font-size: 8pt;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    font-weight: 700;
+  }
+  .pdf-doc-title{
+    font-size: 16pt;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+    margin-top: 2pt;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .pdf-doc-subtitle{
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 2pt;
+    font-weight: 600;
+  }
+  .pdf-header-meta-box{
+    text-align: right;
+    font-size: 8pt;
+    color: #475569;
+    display: flex;
+    flex-direction: column;
+    gap: 2pt;
+    flex-shrink: 0;
+  }
+  .pdf-meta-pill{
+    display: inline-block;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    padding: 2pt 6pt;
+    border-radius: 4pt;
+    font-weight: 600;
+  }
+
+  .pdf-result-banner{
+    background: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 6pt;
+    padding: 8pt 12pt;
+    margin-bottom: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .pdf-res-stat{
+    text-align: center;
+  }
+  .pdf-res-stat-val{
+    font-size: 13pt;
+    font-weight: 800;
+    line-height: 1;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .pdf-res-stat-lbl{
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #64748b;
+    margin-top: 2pt;
+    font-weight: 600;
+  }
+
+  .pdf-layout-2col .pdf-questions-list{
+    column-count: 2;
+    column-gap: 16pt;
+  }
+  .pdf-q-item{
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 12pt;
+    padding-bottom: 8pt;
+    border-bottom: 0.5pt solid #e2e8f0;
+  }
+  .pdf-q-top{
+    display: flex;
+    align-items: baseline;
+    gap: 6pt;
+    margin-bottom: 4pt;
+  }
+  .pdf-q-num{
+    font-weight: 800;
+    font-size: 10pt;
+    color: #0f172a;
+    font-family: 'JetBrains Mono', monospace;
+    flex-shrink: 0;
+  }
+  .pdf-q-tags{
+    display: flex;
+    gap: 4pt;
+    flex-wrap: wrap;
+    font-size: 6.5pt;
+    margin-left: auto;
+  }
+  .pdf-tag{
+    border: 0.5pt solid #cbd5e1;
+    padding: 1pt 4pt;
+    border-radius: 3pt;
+    color: #475569;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .pdf-tag-subtopic{
+    background: #faf5ff;
+    border-color: #d8b4fe;
+    color: #6b21a8;
+  }
+  .pdf-q-stem{
+    font-size: 9.5pt;
+    color: #0f172a;
+    line-height: 1.45;
+    margin-bottom: 6pt;
+  }
+  .pdf-q-stem img{
+    max-height: 140pt;
+    max-width: 90%;
+    display: block;
+    margin: 6pt auto;
+    border: 0.5pt solid #cbd5e1;
+    border-radius: 4pt;
+  }
+
+  .pdf-ar-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 4pt;
+    margin: 4pt 0;
+  }
+  .pdf-ar-card{
+    border: 0.75pt solid #cbd5e1;
+    border-radius: 4pt;
+    padding: 4pt 8pt;
+    background: #f8fafc;
+    font-size: 8.5pt;
+  }
+  .pdf-ar-label{
+    font-weight: 700;
+    color: #334155;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2pt;
+  }
+  .pdf-stmt-list{
+    margin: 4pt 0 4pt 12pt;
+    display: flex;
+    flex-direction: column;
+    gap: 2pt;
+  }
+  .pdf-stmt-row{
+    display: flex;
+    gap: 6pt;
+    font-size: 9pt;
+  }
+  .pdf-stmt-label{
+    font-weight: 700;
+    flex-shrink: 0;
+    width: 14pt;
+  }
+  .pdf-match-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4pt 0;
+    font-size: 8.5pt;
+  }
+  .pdf-match-table th, .pdf-match-table td{
+    border: 0.75pt solid #cbd5e1;
+    padding: 3pt 6pt;
+    text-align: left;
+  }
+  .pdf-match-table th{
+    background: #f1f5f9;
+    font-weight: 700;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+  }
+
+  .pdf-options-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3pt 8pt;
+    margin-top: 4pt;
+  }
+  .pdf-opt-row{
+    display: flex;
+    align-items: baseline;
+    gap: 5pt;
+    font-size: 9pt;
+    line-height: 1.35;
+    padding: 2pt 4pt;
+    border-radius: 3pt;
+  }
+  .pdf-opt-marker{
+    font-weight: 700;
+    color: #475569;
+    font-size: 8pt;
+    flex-shrink: 0;
+  }
+  .pdf-opt-row.pdf-user-choice{
+    background: #fee2e2;
+    border-left: 2pt solid #dc2626;
+  }
+  .pdf-opt-row.pdf-correct-choice{
+    background: #dcfce7;
+    border-left: 2pt solid #16a34a;
+    font-weight: 600;
+  }
+
+  .pdf-solution-box{
+    margin-top: 6pt;
+    background: #f8fafc;
+    border: 0.75pt solid #cbd5e1;
+    border-left: 3pt solid #0284c7;
+    border-radius: 3pt;
+    padding: 5pt 8pt;
+    font-size: 8.5pt;
+    line-height: 1.4;
+  }
+  .pdf-sol-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 7.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0369a1;
+    margin-bottom: 3pt;
+  }
+  .pdf-sol-ans{
+    color: #16a34a;
+    font-weight: 800;
+  }
+
+  .pdf-page-break{
+    page-break-before: always;
+    break-before: always;
+  }
+  .pdf-section-title{
+    font-size: 13pt;
+    font-weight: 800;
+    color: #0f172a;
+    border-bottom: 1.5pt solid #0f172a;
+    padding-bottom: 4pt;
+    margin: 14pt 0 10pt 0;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: 0.5px;
+  }
+  .pdf-key-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 4pt;
+    margin-top: 8pt;
+    font-size: 8.5pt;
+    text-align: center;
+  }
+  .pdf-key-cell{
+    border: 0.5pt solid #cbd5e1;
+    border-radius: 3pt;
+    padding: 3pt 2pt;
+    background: #f8fafc;
+  }
+  .pdf-key-qnum{
+    font-size: 7pt;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .pdf-key-ans{
+    font-size: 9pt;
+    font-weight: 800;
+    color: #0f172a;
+    margin-top: 1pt;
+  }
+
+  .pdf-doc-footer{
+    margin-top: 20pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 7pt;
+    color: #94a3b8;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -895,6 +1269,75 @@ html,body{height:100%;}
   </div>
 </div>
 
+
+<!-- EXPORT PDF MODAL -->
+<div class="modal-overlay hidden" id="export-pdf-modal">
+  <div class="modal-box" style="max-width:600px;">
+    <div class="modal-header">
+      <span class="modal-header-icon">&#x1F4C4;</span>
+      <span class="modal-header-title">Export to PDF / Print</span>
+      <button class="modal-close" onclick="closeExportModal()">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div style="font-size:0.75rem;color:var(--text3);margin-bottom:10px;">Create a cleanly formatted, printable document or PDF worksheet for offline study, revision, and exam practice.</div>
+      
+      <div style="margin-bottom:12px;">
+        <label style="font-size:0.65rem;color:var(--text3);font-weight:700;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:4px;">Document Title</label>
+        <input type="text" class="cp-input" id="export-doc-title" style="width:100%;font-size:0.85rem;" placeholder="Document Title">
+      </div>
+
+      <label style="font-size:0.65rem;color:var(--text3);font-weight:700;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:6px;">Format Mode</label>
+      <div class="export-modal-modes">
+        <div class="export-mode-card" id="export-mode-worksheet" onclick="setExportMode('worksheet')">
+          <div class="export-mode-icon">&#x1F4DD;</div>
+          <div class="export-mode-title">Practice Paper</div>
+          <div class="export-mode-desc">Questions + options only. Answer key at end.</div>
+        </div>
+        <div class="export-mode-card active" id="export-mode-solutions" onclick="setExportMode('with_solutions')">
+          <div class="export-mode-icon">&#x1F4D6;</div>
+          <div class="export-mode-title">Study Guide</div>
+          <div class="export-mode-desc">Questions with inline answers &amp; explanations.</div>
+        </div>
+        <div class="export-mode-card" id="export-mode-report" onclick="setExportMode('result_report')">
+          <div class="export-mode-icon">&#x1F4CA;</div>
+          <div class="export-mode-title">Score Report</div>
+          <div class="export-mode-desc">Result score summary, choices &amp; solutions.</div>
+        </div>
+      </div>
+
+      <label style="font-size:0.65rem;color:var(--text3);font-weight:700;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:6px;">Include Content</label>
+      <div class="export-options-grid">
+        <label class="export-option-label">
+          <input type="checkbox" id="export-opt-answers" checked onchange="updateExportSummary()">
+          <span>Include Answer Key</span>
+        </label>
+        <label class="export-option-label">
+          <input type="checkbox" id="export-opt-explanations" checked onchange="updateExportSummary()">
+          <span>Include Explanations</span>
+        </label>
+        <label class="export-option-label">
+          <input type="checkbox" id="export-opt-metadata" checked onchange="updateExportSummary()">
+          <span>Include Tags &amp; Sub-topics</span>
+        </label>
+        <label class="export-option-label">
+          <input type="checkbox" id="export-opt-twocol" onchange="updateExportSummary()">
+          <span>2-Column Layout (Paper-saver)</span>
+        </label>
+      </div>
+
+      <div class="export-summary-box">
+        <span id="export-summary-count">&#x1F4CB; 0 questions ready to export</span>
+        <span id="export-summary-badge" style="font-size:0.65rem;background:var(--gold-dim);color:var(--gold);padding:2px 8px;border-radius:6px;font-weight:700;">A4 Ready</span>
+      </div>
+    </div>
+    <div class="modal-footer" style="display:flex;gap:8px;align-items:center;justify-content:flex-end;">
+      <button class="modal-btn modal-btn-secondary" onclick="downloadPrintableHtml()">&#x1F4E5; Download HTML</button>
+      <button class="modal-btn modal-btn-primary" onclick="executePrint()">&#x1F5A8;&#xFE0F; Print / Save PDF</button>
+      <button class="modal-btn modal-btn-secondary" onclick="closeExportModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
 <!-- SUPER SEARCH MODAL -->
 <div class="modal-overlay hidden" id="supersearch-modal">
   <div class="modal-box" style="max-width:620px;">
@@ -912,9 +1355,12 @@ html,body{height:100%;}
         <select id="supersearch-subject" onchange="runSuperSearch()"><option value="">All subjects</option></select>
         <span class="search-scope-label">Type</span>
         <select id="supersearch-type" onchange="runSuperSearch()"><option value="">All types</option></select>
+        <span class="search-scope-label" id="supersearch-subtopic-lbl" style="display:none;">Sub-topic</span>
+        <select id="supersearch-subtopic" style="display:none;" onchange="runSuperSearch()"><option value="">All sub-topics</option></select>
       </div>
       <div class="search-actions">
         <button class="modal-btn modal-btn-primary" id="supersearch-practice" onclick="practiceSuperSearch()" style="display:none;">Practice results</button>
+        <button class="modal-btn modal-btn-secondary" id="supersearch-export-pdf" onclick="openExportModal('supersearch')" style="display:none;">&#x1F4C4; Export PDF</button>
         <span class="search-count" id="supersearch-count"></span>
       </div>
       <div class="search-results" id="supersearch-results"><div class="search-empty">Type to search across the entire book. Results appear instantly.</div></div>
@@ -1019,6 +1465,7 @@ html,body{height:100%;}
       <button class="res-btn res-btn-primary" id="btn-back-home" onclick="resultBack()">&#x2190; Back to Home</button>
       <button class="res-btn res-btn-wrong" id="btn-retry-wrong" onclick="retryWrong()">Retry Wrong</button>
       <button class="res-btn res-btn-skip" id="btn-retry-skip" onclick="retrySkipped()">Retry Skipped</button>
+      <button class="res-btn res-btn-export" id="btn-export-pdf-result" onclick="openExportModal('result')">&#x1F4C4; Export PDF</button>
     </div>
     <div class="review-list">
       <div class="review-header">
@@ -1042,6 +1489,7 @@ html,body{height:100%;}
       <button onclick="backToSetup()" style="background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 12px;border-radius:8px;font-size:0.75rem;cursor:pointer;font-family:'Nunito',sans-serif;flex-shrink:0;">&#x2190; Back</button>
       <h2 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--text);margin:0;">&#x1F337; Bloom Review</h2>
       <span id="bloom-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
+      <button onclick="openExportModal('bloom')" class="bank-export-btn" style="padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'Nunito',sans-serif;flex-shrink:0;">&#x1F4C4; Export PDF</button>
       <button onclick="practiceFromBloom()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'Nunito',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div class="bloom-theory">&#x1F331; Mistakes and skipped questions gently return after <b>1 &#x2192; 3 &#x2192; 7 &#x2192; 21 days</b>. Answer correctly to let the flower bloom; miss one and it comes back tomorrow.</div>
@@ -1058,11 +1506,12 @@ html,body{height:100%;}
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F534; Mistakes</h2>
       <span id="mistake-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllMistakes()" style="background:var(--red-dim);border:1px solid var(--red);color:var(--red);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
+      <button onclick="openExportModal('mistake')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
       <button onclick="practiceFromMistakes()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-mistake" placeholder="&#x1F50D; Search mistakes..." value="" oninput="setBankSearch('mistake',this.value)"></div>
-    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-mistake" onchange="setChapterFilter('mistake',this.value)"><option value="">All chapters</option></select></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-mistake" onchange="setChapterFilter('mistake',this.value)"><option value="">All chapters</option></select><span class="search-scope-label" style="margin-left:6px;display:none;" id="subtopic-filter-lbl-mistake">Sub-topic</span><select class="chapter-filter-select" id="subtopic-filter-mistake" style="display:none;" onchange="setSubtopicFilter('mistake',this.value)"><option value="">All sub-topics</option></select></div>
     <div id="mistake-type-filters" class="bank-type-filters" aria-label="Filter mistakes by question type"></div>
     <div id="mistake-list" class="bank-list"></div>
   </div>
@@ -1076,10 +1525,11 @@ html,body{height:100%;}
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F516; Bookmarks</h2>
       <span id="bookmark-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllBookmarks()" style="background:var(--cyan-dim);border:1px solid var(--cyan);color:var(--cyan);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
+      <button onclick="openExportModal('bookmark')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
       <button onclick="practiceFromBookmarks()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-bookmark" placeholder="&#x1F50D; Search bookmarks or notes..." value="" oninput="setBankSearch('bookmark',this.value)"></div>
-    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-bookmark" onchange="setChapterFilter('bookmark',this.value)"><option value="">All chapters</option></select></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-bookmark" onchange="setChapterFilter('bookmark',this.value)"><option value="">All chapters</option></select><span class="search-scope-label" style="margin-left:6px;display:none;" id="subtopic-filter-lbl-bookmark">Sub-topic</span><select class="chapter-filter-select" id="subtopic-filter-bookmark" style="display:none;" onchange="setSubtopicFilter('bookmark',this.value)"><option value="">All sub-topics</option></select></div>
     <div id="bookmark-type-filters" class="bank-type-filters" aria-label="Filter bookmarks by question type"></div>
     <div id="bookmark-list" class="bank-list"></div>
   </div>
@@ -1093,11 +1543,12 @@ html,body{height:100%;}
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x23ED; Skipped</h2>
       <span id="skip-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllSkips()" style="background:var(--purple-dim);border:1px solid var(--purple);color:var(--purple);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
+      <button onclick="openExportModal('skip')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
       <button onclick="practiceFromSkips()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-skip" placeholder="&#x1F50D; Search skipped questions..." value="" oninput="setBankSearch('skip',this.value)"></div>
-    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-skip" onchange="setChapterFilter('skip',this.value)"><option value="">All chapters</option></select></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-skip" onchange="setChapterFilter('skip',this.value)"><option value="">All chapters</option></select><span class="search-scope-label" style="margin-left:6px;display:none;" id="subtopic-filter-lbl-skip">Sub-topic</span><select class="chapter-filter-select" id="subtopic-filter-skip" style="display:none;" onchange="setSubtopicFilter('skip',this.value)"><option value="">All sub-topics</option></select></div>
     <div id="skip-type-filters" class="bank-type-filters" aria-label="Filter skipped questions by question type"></div>
     <div id="skip-list" class="bank-list"></div>
   </div>
@@ -1111,11 +1562,12 @@ html,body{height:100%;}
       <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F5C3; Archive</h2>
       <span id="archive-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllArchive()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Clear All</button>
+      <button onclick="openExportModal('archive')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
       <button onclick="practiceFromArchive()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Questions mastered (5&#xD7; correct) or manually cleared</div>
     <div class="bank-search-wrap"><input class="bank-search" id="bank-search-archive" placeholder="&#x1F50D; Search archive..." value="" oninput="setBankSearch('archive',this.value)"></div>
-    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-archive" onchange="setChapterFilter('archive',this.value)"><option value="">All chapters</option></select></div>
+    <div class="bank-chapter-filter"><span class="search-scope-label">Chapter</span><select class="chapter-filter-select" id="chapter-filter-archive" onchange="setChapterFilter('archive',this.value)"><option value="">All chapters</option></select><span class="search-scope-label" style="margin-left:6px;display:none;" id="subtopic-filter-lbl-archive">Sub-topic</span><select class="chapter-filter-select" id="subtopic-filter-archive" style="display:none;" onchange="setSubtopicFilter('archive',this.value)"><option value="">All sub-topics</option></select></div>
     <div id="archive-type-filters" class="bank-type-filters" aria-label="Filter archived questions by question type"></div>
     <div id="archive-list" class="bank-list"></div>
   </div>
@@ -1135,6 +1587,7 @@ html,body{height:100%;}
   </div>
 </div>
 
+<div id="printable-pdf-document" class="printable-pdf-document"></div>
 <script>
 // ===== MULTI-BOOK SUPPORT =====
 // Books are defined in books/books.json. The first book keeps its original
@@ -1165,7 +1618,7 @@ function resolveBookChaptersUrl(book){
   return dir+book.chaptersFile;
 }
 
-let currentSubjectId=null,selectedChapters=new Set(),allQuestions=[],chapterMap={},subjectDataCache={};
+let currentSubjectId=null,selectedChapters=new Set(),selectedSubtopics=new Set(),allQuestions=[],chapterMap={},chapterSubtopicsMap={},subjectSubtopics=new Set(),subjectDataCache={};
 let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[],resultBackTo=null;
 
 const LS={get:(k,d={})=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(d));}catch(e){return d;}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
@@ -1260,43 +1713,159 @@ function renderChapterList(subjId){
   document.getElementById('sc-pill-q-'+subjId).textContent=allQuestions.length+' Qs';
   let html='';
   chs.forEach(name=>{
-    const qs=chapterMap[name];const enc=encodeURIComponent(name);
-    html+=`<div class="ch-row" id="chrow-${subjId}-${enc}" onclick="toggleChapterCard('${subjId}','${enc}')"><div class="ch-check" id="chck-${subjId}-${enc}"></div><span class="ch-name">${name}</span><span class="ch-count">${qs.length}</span></div>`;
+    const qs=chapterMap[name]||[];const enc=encodeURIComponent(name);
+    const subtopics=Array.from(chapterSubtopicsMap[name]||[]);
+    const isSel=selectedChapters.has(name);
+    html+=`<div class="ch-row-wrap" id="chwrap-${subjId}-${enc}">
+      <div class="ch-row ${isSel?'selected':''}" id="chrow-${subjId}-${enc}" onclick="toggleChapterCard('${subjId}','${enc}')">
+        <div class="ch-check" id="chck-${subjId}-${enc}">${isSel?'\u2713':''}</div>
+        <span class="ch-name">${name}</span>
+        ${subtopics.length>0?`<span class="ch-sub-badge" title="${subtopics.length} sub-topics" onclick="toggleChapterSubtopics('${subjId}','${enc}',event)">${subtopics.length} sub-topics &#x25BE;</span>`:''}
+        <span class="ch-count">${qs.length}</span>
+      </div>
+      ${subtopics.length>0?`
+        <div class="ch-subtopics-list" id="chsubs-${subjId}-${enc}" style="display:none;">
+          ${subtopics.map(st=>{
+            const stEnc=encodeURIComponent(st);
+            const count=qs.filter(q=>q.sub_topic===st).length;
+            const stSel=selectedSubtopics.has(st);
+            return `<div class="ch-subtopic-row ${stSel?'selected':''}" id="chsubrow-${subjId}-${stEnc}" onclick="toggleSubtopicCard('${subjId}','${enc}','${stEnc}',event)">
+              <div class="ch-sub-check" id="chsubck-${subjId}-${stEnc}">${stSel?'\u2713':''}</div>
+              <span class="ch-sub-name">${escapeHtml(st)}</span>
+              <span class="ch-sub-count">${count}</span>
+            </div>`;
+          }).join('')}
+        </div>`:''}
+    </div>`;
   });
   chList.innerHTML=html;
 }
 
+function toggleChapterSubtopics(subjId,enc,e){
+  e?.stopPropagation();
+  const drawer=document.getElementById('chsubs-'+subjId+'-'+enc);
+  if(!drawer)return;
+  drawer.style.display=drawer.style.display==='none'?'flex':'none';
+}
+
+function toggleSubtopicCard(subjId,chEnc,stEnc,e){
+  e?.stopPropagation();
+  const chName=decodeURIComponent(chEnc);
+  const stName=decodeURIComponent(stEnc);
+  const row=document.getElementById('chsubrow-'+subjId+'-'+stEnc);
+  const chk=document.getElementById('chsubck-'+subjId+'-'+stEnc);
+  if(selectedSubtopics.has(stName)){
+    selectedSubtopics.delete(stName);
+    row?.classList.remove('selected');
+    if(chk)chk.textContent='';
+  }else{
+    selectedSubtopics.add(stName);
+    row?.classList.add('selected');
+    if(chk)chk.textContent='\u2713';
+    if(!selectedChapters.has(chName)){
+      selectedChapters.add(chName);
+      document.getElementById('chrow-'+subjId+'-'+chEnc)?.classList.add('selected');
+      const parentChk=document.getElementById('chck-'+subjId+'-'+chEnc);
+      if(parentChk)parentChk.textContent='\u2713';
+    }
+  }
+  updateConfigPanel(subjId);
+}
+
+function toggleConfigSubtopic(subjId,stEnc){
+  const stName=decodeURIComponent(stEnc);
+  if(selectedSubtopics.has(stName)){
+    selectedSubtopics.delete(stName);
+  }else{
+    selectedSubtopics.add(stName);
+  }
+  updateConfigPanel(subjId);
+}
+
+function clearConfigSubtopics(subjId){
+  selectedSubtopics.clear();
+  document.querySelectorAll('.ch-subtopic-row.selected').forEach(el=>el.classList.remove('selected'));
+  document.querySelectorAll('.ch-sub-check').forEach(el=>el.textContent='');
+  updateConfigPanel(subjId);
+}
+
 function toggleChapterCard(subjId,enc){
   const name=decodeURIComponent(enc);const row=document.getElementById('chrow-'+subjId+'-'+enc);const chk=document.getElementById('chck-'+subjId+'-'+enc);
-  if(selectedChapters.has(name)){selectedChapters.delete(name);row?.classList.remove('selected');if(chk)chk.textContent='';}
-  else{selectedChapters.add(name);row?.classList.add('selected');if(chk)chk.textContent='\u2713';}
+  if(selectedChapters.has(name)){
+    selectedChapters.delete(name);row?.classList.remove('selected');if(chk)chk.textContent='';
+    // Remove selected subtopics of this chapter
+    const chSubs=Array.from(chapterSubtopicsMap[name]||[]);
+    chSubs.forEach(st=>selectedSubtopics.delete(st));
+    const drawer=document.getElementById('chsubs-'+subjId+'-'+enc);
+    if(drawer){drawer.querySelectorAll('.ch-subtopic-row.selected').forEach(el=>el.classList.remove('selected'));drawer.querySelectorAll('.ch-sub-check').forEach(el=>el.textContent='');}
+  }else{
+    selectedChapters.add(name);row?.classList.add('selected');if(chk)chk.textContent='\u2713';
+  }
   updateConfigPanel(subjId);
 }
 
 function selectAllChapters(subjId,e){
-  e?.stopPropagation();selectedChapters.clear();
+  e?.stopPropagation();selectedChapters.clear();selectedSubtopics.clear();
   Object.keys(chapterMap).forEach(name=>{selectedChapters.add(name);const enc=encodeURIComponent(name);document.getElementById('chrow-'+subjId+'-'+enc)?.classList.add('selected');const chk=document.getElementById('chck-'+subjId+'-'+enc);if(chk)chk.textContent='\u2713';});
+  document.querySelectorAll('.ch-subtopic-row.selected').forEach(el=>el.classList.remove('selected'));
+  document.querySelectorAll('.ch-sub-check').forEach(el=>el.textContent='');
   updateConfigPanel(subjId);
 }
 
 function deselectAllChapters(subjId,e){
   e?.stopPropagation();
   Object.keys(chapterMap).forEach(name=>{const enc=encodeURIComponent(name);document.getElementById('chrow-'+subjId+'-'+enc)?.classList.remove('selected');const chk=document.getElementById('chck-'+subjId+'-'+enc);if(chk)chk.textContent='';});
-  selectedChapters.clear();hideConfigPanel();
+  selectedChapters.clear();selectedSubtopics.clear();
+  document.querySelectorAll('.ch-subtopic-row.selected').forEach(el=>el.classList.remove('selected'));
+  document.querySelectorAll('.ch-sub-check').forEach(el=>el.textContent='');
+  hideConfigPanel();
 }
 
 function updateConfigPanel(subjId){
   if(selectedChapters.size===0){hideConfigPanel();return;}
   const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);
-  const pool=allQuestions.filter(q=>selectedChapters.has(q.chapter));
+  let pool=allQuestions.filter(q=>selectedChapters.has(q.chapter));
+  const availableSubtopics=new Set();
+  pool.forEach(q=>{if(q.sub_topic)availableSubtopics.add(q.sub_topic);});
+  const subtopicList=Array.from(availableSubtopics).sort();
+
+  if(selectedSubtopics.size>0){
+    pool=pool.filter(q=>selectedSubtopics.has(q.sub_topic));
+  }
+
   const chLabel=selectedChapters.size===Object.keys(chapterMap).length?'All Chapters':null;
   const cp=document.getElementById('config-panel');cp.style.display='';
-  cp.innerHTML=`<div class="cp-header"><span class="cp-subject-icon">${subj.icon}</span><div><div class="cp-subject-name">${subj.name}</div><div class="cp-ch-tags">${chLabel?'<span class="cp-ch-tag">\uD83D\uDCDA All Chapters</span>':Array.from(selectedChapters).map(ch=>`<span class="cp-ch-tag">${ch}</span>`).join('')}</div></div></div>
+
+  let subtopicsSectionHtml='';
+  if(subtopicList.length>0){
+    const allActive=selectedSubtopics.size===0;
+    subtopicsSectionHtml=`<div class="cp-subtopics-section">
+      <div class="cp-subtopics-header">
+        <span class="cp-subtopics-title">Sub-topics (${subtopicList.length})</span>
+        <button class="sc-ch-selall" style="font-size:0.6rem;" onclick="clearConfigSubtopics('${subjId}')">All sub-topics</button>
+      </div>
+      <div class="cp-subtopic-chips">
+        <button class="cp-subtopic-chip ${allActive?'active':''}" onclick="clearConfigSubtopics('${subjId}')">All Sub-topics</button>
+        ${subtopicList.map(st=>{
+          const stEnc=encodeURIComponent(st);
+          const count=allQuestions.filter(q=>selectedChapters.has(q.chapter)&&q.sub_topic===st).length;
+          const active=selectedSubtopics.has(st);
+          return `<button class="cp-subtopic-chip ${active?'active':''}" onclick="toggleConfigSubtopic('${subjId}','${stEnc}')"><span>${escapeHtml(st)}</span><span style="font-size:0.55rem;opacity:0.8;">(${count})</span></button>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  cp.innerHTML=`<div class="cp-header"><span class="cp-subject-icon">${subj.icon}</span><div><div class="cp-subject-name">${subj.name}</div><div class="cp-ch-tags">${chLabel?'<span class="cp-ch-tag">\uD83D\uDCDA All Chapters</span>':Array.from(selectedChapters).map(ch=>`<span class="cp-ch-tag">${ch}</span>`).join('')}${selectedSubtopics.size?Array.from(selectedSubtopics).map(st=>`<span class="cp-ch-tag" style="background:var(--purple-dim);color:var(--purple);border-color:var(--purple);">&#x1F4CD; ${st}</span>`).join(''):''}</div></div></div>
   <div class="cp-body">
     <div class="cp-row"><span class="cp-lbl">Questions</span><input type="number" class="cp-input" id="num-questions" value="${pool.length}" min="1" max="${pool.length}" style="width:90px;"><span style="font-size:0.72rem;color:var(--text3);">of ${pool.length}</span><button onclick="document.getElementById('num-questions').value=${pool.length}" style="font-size:0.68rem;background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:4px 9px;border-radius:5px;cursor:pointer;font-family:'DM Sans',sans-serif;">Max</button></div>
     <div class="cp-row"><span class="cp-lbl">Timer</span><input type="number" class="cp-input" id="timer-mins" value="0" min="0" max="180" style="width:70px;"><span style="font-size:0.72rem;color:var(--text3);">mins (0 = no timer)</span></div>
     <div class="cp-row" style="flex-wrap:wrap;gap:12px;"><label class="toggle-wrap"><label class="toggle"><input type="checkbox" id="toggle-shuffle"><span class="toggle-slider"></span></label><span class="toggle-lbl">Shuffle Questions</span></label><label class="toggle-wrap" style="margin-left:4px;"><label class="toggle"><input type="checkbox" id="toggle-shuffle-opts"><span class="toggle-slider"></span></label><span class="toggle-lbl">Shuffle Options</span></label></div>
-    <div class="cp-row"><button class="start-btn" onclick="startQuiz()">Start Quiz &#x2192;</button></div>
+    ${subtopicsSectionHtml}
+    <div class="cp-row" style="gap:10px;margin-top:6px;flex-wrap:wrap;">
+      <button class="start-btn" onclick="startQuiz()">Start Quiz &#x2192;</button>
+      <button class="modal-btn modal-btn-secondary" style="font-size:0.78rem;padding:12px 18px;border-radius:10px;" onclick="openExportModal('setup')">&#x1F4C4; Export PDF Practice Sheet</button>
+    </div>
   </div>`;
   setTimeout(()=>{cp.scrollIntoView({behavior:'smooth',block:'nearest'});},80);
 }
@@ -1327,10 +1896,13 @@ function toInternalQuestion(q,subjId,idx,chName){
   const correctKeys=normalizeAnswerKeys(rawAnswer,options);
   const correctKey=correctKeys.length===1?correctKeys[0]:correctKeys;
   const mappedAnswer=correctKeys.map(key=>options[key]).filter(Boolean).join(' • ');
+  const sub_topic=String(q.sub_topic||q.subtopic||q.topic||q.subTopic||'').trim();
   return Object.assign({},q,{
     uid:q.uid||`${subjId}_${idx}`,
     _subjectId:subjId,
     chapter:chName,
+    sub_topic,
+    topic:sub_topic,
     exam:q.exam||'',
     year:q.year||'',
     question:q.q||q.question||'',
@@ -1344,12 +1916,16 @@ function toInternalQuestion(q,subjId,idx,chName){
 }
 
 function processData(data,subjId){
-  allQuestions=[];chapterMap={};let idx=0;
+  allQuestions=[];chapterMap={};chapterSubtopicsMap={};subjectSubtopics=new Set();selectedSubtopics=new Set();let idx=0;
   (data.chapters||[]).forEach(ch=>{
-    const chName=ch.chapter_name||ch.name||'General';chapterMap[chName]=[];
+    const chName=ch.chapter_name||ch.name||'General';chapterMap[chName]=[];chapterSubtopicsMap[chName]=new Set();
     (ch.questions||[]).forEach(q=>{
       const internal=toInternalQuestion(q,subjId,idx++,chName);
       allQuestions.push(internal);chapterMap[chName].push(internal);
+      if(internal.sub_topic){
+        chapterSubtopicsMap[chName].add(internal.sub_topic);
+        subjectSubtopics.add(internal.sub_topic);
+      }
     });
   });
 }
@@ -1427,7 +2003,7 @@ function bloomDueLabel(e){
 function bloomItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),streak=Number(e.correctCount)||0;
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<streak?'filled':''}"></div>`).join('');
-  return `<div class="bank-item bloom-item ${bloomEntryDue(e)?'due-today':''}"><div class="bank-item-top"><span class="bloom-src ${e.source}">${e.source==='mistake'?'Mistake':'Skip'}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="bloom-interval">Next: ${escapeHtml(bloomDueLabel(e))}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(q.chapter||'')}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">bloom mastery</span></div></div>`;
+  return `<div class="bank-item bloom-item ${bloomEntryDue(e)?'due-today':''}"><div class="bank-item-top"><span class="bloom-src ${e.source}">${e.source==='mistake'?'Mistake':'Skip'}</span><span class="question-type-pill">${escapeHtml(questionType)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}<span class="bloom-interval">Next: ${escapeHtml(bloomDueLabel(e))}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(q.chapter||'')}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">bloom mastery</span></div></div>`;
 }
 function showBloomScreen(){
   const all=getBloomDue(),visible=bloomFilteredDue();
@@ -1458,17 +2034,20 @@ const BANK_EMPTY_HTML={
 };
 
 function bankQuestionType(entry){return getQuestionType(entry&&entry.q||{});}
+const subtopicFilters={mistake:'',bookmark:'',skip:'',archive:'',bloom:''};
 function bankSearchText(entry){
   const q=entry&&entry.q||{};
-  return [q.question,q.stem,q.chapter,q.explanation,q.note,entry.note,JSON.stringify(q),...Object.values(q.options||{})].join(' ').toLowerCase();
+  return [q.question,q.stem,q.chapter,q.sub_topic,q.topic,q.explanation,q.note,entry.note,JSON.stringify(q),...Object.values(q.options||{})].join(' ').toLowerCase();
 }
 function filteredBank(bank,bankType){
   const active=bankTypeFilters[bankType]||'all';
   const chapter=chapterFilters[bankType]||'';
+  const subtopic=subtopicFilters[bankType]||'';
   const q=(bankSearch[bankType]||'').trim().toLowerCase();
   return Object.fromEntries(Object.entries(bank).filter(([,entry])=>{
     if(active!=='all'&&bankQuestionType(entry)!==active)return false;
     if(chapter&&(entry.q&&entry.q.chapter)!==chapter)return false;
+    if(subtopic&&(entry.q&&entry.q.sub_topic)!==subtopic)return false;
     if(q&&!bankSearchText(entry).includes(q))return false;
     return true;
   }));
@@ -1480,8 +2059,37 @@ function populateChapterFilter(bankType,bank){
   sel.innerHTML='<option value="">All chapters</option>'+chapters.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
   if(chapters.includes(current))sel.value=current;
 }
+function populateSubtopicFilter(bankType,bank){
+  const sel=document.getElementById('subtopic-filter-'+bankType);
+  const lbl=document.getElementById('subtopic-filter-lbl-'+bankType);
+  if(!sel)return;
+  const currentChapter=chapterFilters[bankType]||'';
+  const subtopics=[...new Set(Object.values(bank).map(e=>{
+    const q=e.q||{};
+    if(currentChapter&&q.chapter!==currentChapter)return null;
+    return q.sub_topic;
+  }).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+
+  if(subtopics.length===0){
+    sel.style.display='none';
+    if(lbl)lbl.style.display='none';
+    subtopicFilters[bankType]='';
+    return;
+  }
+  sel.style.display='';
+  if(lbl)lbl.style.display='';
+  const current=sel.value;
+  sel.innerHTML='<option value="">All sub-topics</option>'+subtopics.map(st=>`<option value="${escapeHtml(st)}">${escapeHtml(st)}</option>`).join('');
+  if(subtopics.includes(current))sel.value=current;
+  else subtopicFilters[bankType]='';
+}
 function setChapterFilter(bankType,value){
   chapterFilters[bankType]=value||'';
+  subtopicFilters[bankType]='';
+  ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen})[bankType]?.();
+}
+function setSubtopicFilter(bankType,value){
+  subtopicFilters[bankType]=value||'';
   ({mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen})[bankType]?.();
 }
 function setBankSearch(bankType,value){
@@ -1514,16 +2122,16 @@ function bankItemHtml(e,bankType){
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<(e.correctCount||0)?'filled':''}"></div>`).join('');
   const date=e.addedAt?new Date(e.addedAt).toLocaleDateString():'';
   const noteHtml=bankType==='bookmark'?`<div class="bank-note">${e.note?`<b>Your note</b>${bookText(e.note)}`:'<b>Personal note</b>Jot down why this matters to you.'}<button class="bank-note-btn" data-uid="${escapeHtml(q.uid)}" onclick="editBookmarkNote(this.dataset.uid)">${e.note?'Edit note':'Add note'}</button></div>`:'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div>${noteHtml}</div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div>${noteHtml}</div>`;
 }
 function archiveItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),from=String(e.fromBank||'archive').toLowerCase();
   const date=e.archivedAt?new Date(e.archivedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
 }
 function renderBankScreen(bankType,bank,screenId,itemRenderer){
   const allItems=Object.values(bank),visible=Object.values(filteredBank(bank,bankType));
-  populateChapterFilter(bankType,bank);
+  populateChapterFilter(bankType,bank);populateSubtopicFilter(bankType,bank);
   renderBankTypeFilters(bankType,allItems);
   const count=document.getElementById(`${bankType}-count-lbl`);
   count.textContent=visible.length===allItems.length?`${allItems.length} question${allItems.length!==1?'s':''}`:`${visible.length} of ${allItems.length} questions`;
@@ -1587,6 +2195,7 @@ function showHistoryScreen(){
       <div class="history-bar"><div class="hb-c" style="flex:0 0 ${(c/barW*100)}%"></div><div class="hb-w" style="flex:0 0 ${(w/barW*100)}%"></div><div class="hb-s" style="flex:0 0 ${(s/barW*100)}%"></div></div>
       <div class="history-actions">
         <button class="modal-btn modal-btn-secondary" onclick="viewAttemptDetails('${escapeHtml(a.id)}')">&#x1F4CB; Details</button>
+        <button class="modal-btn modal-btn-secondary" onclick="openExportModal('history','${escapeHtml(a.id)}')">&#x1F4C4; PDF</button>
         ${w>0?`<button class="modal-btn modal-btn-secondary" style="color:var(--red);border-color:var(--red);" onclick="retryAttemptSubset('${escapeHtml(a.id)}','wrong')">&#x2717; Retry Wrong (${w})</button>`:''}
         ${s>0?`<button class="modal-btn modal-btn-secondary" style="color:var(--text2);" onclick="retryAttemptSubset('${escapeHtml(a.id)}','skips')">&#8212; Retry Skipped (${s})</button>`:''}
         <button class="modal-btn modal-btn-primary" onclick="redoAttempt('${escapeHtml(a.id)}')">&#x1F504; Re-practice</button>
@@ -1665,6 +2274,7 @@ async function viewAttemptDetails(id){
   document.getElementById('rs-time').textContent=formatDuration(a.durationMs||0);
   document.getElementById('btn-retry-wrong').style.display=wrong>0?'':'none';
   document.getElementById('btn-retry-skip').style.display=skip>0?'':'none';
+  const expBtn=document.getElementById('btn-export-pdf-result');if(expBtn)expBtn.onclick=()=>openExportModal('history',id);
   resetReviewFilter();
   buildReview('all');
   resultBackTo='history';
@@ -1703,7 +2313,7 @@ async function ensureBookSearchIndex(){
     }
     let idx=0;const out=[];
     (data.chapters||[]).forEach(ch=>{const chName=ch.chapter_name||ch.name||'General';(ch.questions||[]).forEach(q=>{const internal=toInternalQuestion(q,subj.id,idx++,chName);out.push(internal);});});
-    return out.map(q=>({q,subject:subj.name,subjectId:subj.id,chapter:q.chapter,type:getQuestionType(q)}));
+    return out.map(q=>({q,subject:subj.name,subjectId:subj.id,chapter:q.chapter,sub_topic:q.sub_topic,type:getQuestionType(q)}));
   })).then(arrays=>{const flat=arrays.flat();bookSearchIndex=flat;return flat;}).catch(e=>{bookSearchIndexPromise=null;throw e;});
   return bookSearchIndexPromise;
 }
@@ -1719,6 +2329,17 @@ function openSuperSearch(){
     const tsel=document.getElementById('supersearch-type');
     if(tsel.options.length<=1){
       tsel.innerHTML='<option value="">All types</option>'+types.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('');
+    }
+    const subtopics=[...new Set(idx.map(r=>r.sub_topic).filter(Boolean))].sort();
+    const stsel=document.getElementById('supersearch-subtopic');
+    const stlbl=document.getElementById('supersearch-subtopic-lbl');
+    if(stsel){
+      if(subtopics.length>0){
+        stsel.style.display='';if(stlbl)stlbl.style.display='';
+        stsel.innerHTML='<option value="">All sub-topics</option>'+subtopics.map(st=>`<option value="${escapeHtml(st)}">${escapeHtml(st)}</option>`).join('');
+      }else{
+        stsel.style.display='none';if(stlbl)stlbl.style.display='none';
+      }
     }
   }).catch(()=>{});
   setTimeout(()=>{const i=document.getElementById('supersearch-input');if(i)i.focus();},50);
@@ -1736,25 +2357,40 @@ function runSuperSearch(){
   const q=(input?input.value:'').trim().toLowerCase();
   const subject=document.getElementById('supersearch-subject').value;
   const type=document.getElementById('supersearch-type').value;
+  const subtopic=document.getElementById('supersearch-subtopic')?.value||'';
   const resEl=document.getElementById('supersearch-results');
   const countEl=document.getElementById('supersearch-count');
   const practiceBtn=document.getElementById('supersearch-practice');
-  if(!q){resEl.innerHTML='<div class="search-empty">Type to search across the entire book. Results appear instantly.</div>';countEl.textContent='';if(practiceBtn)practiceBtn.style.display='none';return;}
+  const exportBtn=document.getElementById('supersearch-export-pdf');
+  if(!q&&!subject&&!type&&!subtopic){resEl.innerHTML='<div class="search-empty">Type to search across the entire book. Results appear instantly.</div>';countEl.textContent='';if(practiceBtn)practiceBtn.style.display='none';if(exportBtn)exportBtn.style.display='none';return;}
   ensureBookSearchIndex().then(idx=>{
     const results=idx.filter(r=>{
       if(subject&&r.subjectId!==subject)return false;
       if(type&&r.type!==type)return false;
-      const hay=[r.q.question,r.q.stem,r.chapter,r.q.explanation,r.q.note,r.subject,JSON.stringify(r.q.options||{})].join(' ').toLowerCase();
-      return hay.includes(q);
+      if(subtopic&&r.sub_topic!==subtopic)return false;
+      if(q){
+        const hay=[r.q.question,r.q.stem,r.chapter,r.sub_topic,r.q.explanation,r.q.note,r.subject,JSON.stringify(r.q.options||{})].join(' ').toLowerCase();
+        if(!hay.includes(q))return false;
+      }
+      return true;
     });
     superSearchState.lastResults=results;
     if(practiceBtn)practiceBtn.style.display=results.length?'':'none';
+    if(exportBtn)exportBtn.style.display=results.length?'':'none';
     countEl.textContent=results.length+' result'+(results.length!==1?'s':'');
     if(!results.length){resEl.innerHTML='<div class="search-empty">No matching questions. Try another keyword.</div>';return;}
     resEl.innerHTML=results.slice(0,200).map((r,i)=>{
       const text=bookText(r.q.question||'');
       const snippet=text.length>220?text.slice(0,220)+'…':text;
-      return `<div class="search-result" onclick="superSearchOpen('${i}')"><div class="sr-top"><span class="sr-subj">${escapeHtml(r.subject)}</span><span class="sr-chapter">${escapeHtml(r.chapter||'')}</span><span class="question-type-pill">${escapeHtml(r.type)}</span></div><div class="sr-q">${highlightMatch(snippet,q)}</div></div>`;
+      return `<div class="search-result" onclick="superSearchOpen('${i}')">
+        <div class="sr-top">
+          <span class="sr-subj">${escapeHtml(r.subject)}</span>
+          <span class="sr-chapter">${escapeHtml(r.chapter||'')}</span>
+          ${r.sub_topic?`<span class="subtopic-pill">&#x1F4CD; ${escapeHtml(r.sub_topic)}</span>`:''}
+          <span class="question-type-pill">${escapeHtml(r.type)}</span>
+        </div>
+        <div class="sr-q">${highlightMatch(snippet,q)}</div>
+      </div>`;
     }).join('')+(results.length>200?`<div class="search-empty">Showing first 200 of ${results.length}. Narrow your search to see more.</div>`:'');
   }).catch(()=>{resEl.innerHTML='<div class="search-empty">Search could not load the question bank. Try again.</div>';});
 }
@@ -1820,9 +2456,15 @@ function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.ra
 function startQuiz(mode,customPool){
   let pool;
   if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'||mode==='supersearch'||mode==='history'){pool=shuffle([...customPool]);}
-  else{let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));if(document.getElementById('toggle-shuffle')?.checked)base=shuffle(base);const n=Math.min(parseInt(document.getElementById('num-questions')?.value)||base.length,base.length);pool=base.slice(0,n);}
+  else{
+    let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));
+    if(selectedSubtopics.size>0)base=base.filter(q=>selectedSubtopics.has(q.sub_topic));
+    if(document.getElementById('toggle-shuffle')?.checked)base=shuffle(base);
+    const n=Math.min(parseInt(document.getElementById('num-questions')?.value)||base.length,base.length);
+    pool=base.slice(0,n);
+  }
   if(!pool.length){alert('No questions found!');return;}
-  quiz=pool;const selectedList=Array.from(selectedChapters).join(', ');quizMeta={mode,subjectId:currentSubjectId,chapter:selectedList,startTime:new Date()};
+  quiz=pool;const selectedList=Array.from(selectedChapters).join(', ');const subtopicList=Array.from(selectedSubtopics).join(', ');quizMeta={mode,subjectId:currentSubjectId,chapter:selectedList,subtopic:subtopicList,startTime:new Date()};
   state={current:0,answers:new Array(quiz.length).fill(null),visited:new Array(quiz.length).fill(false),marked:new Array(quiz.length).fill(false)};state.visited[0]=true;
   const doSO=document.getElementById('toggle-shuffle-opts')?.checked||false;shuffledOptionOrders=quiz.map(q=>{const keys=Object.keys(q.options||{});return doSO?shuffle([...keys]):keys;});
   const mins=parseInt(document.getElementById('timer-mins')?.value||0);totalSecs=mins*60;
@@ -2192,7 +2834,7 @@ function renderQuestion(){
   const isLast=(i===quiz.length-1);
   const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
-  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
   else{document.getElementById('btn-next').style.display='';document.getElementById('btn-submit').style.display='none';}
   const bookmarks=getBookmarks(),bBtn=document.getElementById('btn-bookmark');
@@ -2238,6 +2880,7 @@ function submitQuiz(){
   recordAttempt({subjectId:currentSubjectId,subject:subj?.name||'',chapter:chLabel,mode:quizMeta.mode,correct,wrong,skip,total:quiz.length,pct,durationMs:elapsed,questions:quiz.map(q=>q.uid),results:quiz.map((q,i)=>({uid:q.uid,userKey:state.answers[i]??null}))});
   resultBackTo=null;
   document.getElementById('btn-back-home').innerHTML='&#x2190; Back to Home';
+  const expBtn=document.getElementById('btn-export-pdf-result');if(expBtn)expBtn.onclick=()=>openExportModal('result');
   document.getElementById('res-eyebrow').innerHTML=`${escapeHtml(subj?.name||'')} &#183; ${escapeHtml(chLabel.substring(0,50))}`;
   document.getElementById('res-score').textContent=pct+'%';document.getElementById('res-score').style.color=pct>=70?'var(--green)':pct>=50?'var(--gold)':'var(--red)';
   document.getElementById('res-grade').textContent=pct>=80?'\uD83C\uDFC6 Excellent!':pct>=60?'\u2705 Good Performance':pct>=40?'\u26A1 Keep Practicing':'\uD83D\uDCD6 Needs More Practice';
@@ -2260,7 +2903,7 @@ function buildReview(filter){
     const optKeys=shuffledOptionOrders[idx]||Object.keys(q.options||{}),correctKeys=questionCorrectKeys(q);
     const presentation=renderQuestionStem(q,'review'),matchData=presentation.matchData;
     const optHtml=matchData?renderMatchReviewOptions(matchData,optKeys,correctKeys,userKey,isCorrect):optKeys.map(k=>{const value=q.options[k];if(value==null||value==='')return '';let cls='rev-opt';if(correctKeys.includes(k))cls+=' correct-ans';else if(answerHasKey(userKey,k)&&!isCorrect)cls+=' user-wrong';return `<div class="${cls}">${escapeHtml(optionDisplayText(value,k))}</div>`;}).join('');
-    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${bookText(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${bookText(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   }).join('');
 }
 
@@ -2695,6 +3338,430 @@ async function initSyncOnLoad(){
   }
 }
 
+
+
+// ════════════════════════════════════════════════════════════════
+// EXPORT PDF / PRINTABLE WORKSHEET GENERATOR
+// ════════════════════════════════════════════════════════════════
+let currentExportSource = null;
+let currentExportConfig = {
+  mode: 'with_solutions',
+  includeAnswers: true,
+  includeExplanations: true,
+  includeMetadata: true,
+  twoColumn: false,
+  fontSize: 'standard'
+};
+
+function openExportModal(sourceType, extraParam) {
+  currentExportConfig = {
+    mode: sourceType === 'setup' ? 'worksheet' : (sourceType === 'result' || sourceType === 'history') ? 'result_report' : 'with_solutions',
+    includeAnswers: true,
+    includeExplanations: true,
+    includeMetadata: true,
+    twoColumn: false,
+    fontSize: 'standard'
+  };
+
+  if (sourceType === 'result') {
+    const subj = SUBJECTS_CONFIG.find(s => s.id === currentSubjectId);
+    currentExportSource = {
+      type: 'result',
+      questions: quiz,
+      results: lastResults,
+      title: `${currentBook ? currentBook.title : 'BPSC'} Quiz Result`,
+      subject: subj?.name || 'Quiz',
+      chapter: quizMeta.chapter || '',
+      subtopic: quizMeta.subtopic || '',
+      meta: {
+        pct: Math.round(lastResults.filter(r => r.isCorrect).length / (quiz.length || 1) * 100),
+        correct: lastResults.filter(r => r.isCorrect).length,
+        wrong: lastResults.filter(r => !r.isCorrect && !r.isSkipped).length,
+        skip: lastResults.filter(r => r.isSkipped).length,
+        durationMs: new Date() - quizMeta.startTime
+      }
+    };
+    finishOpenExportModal();
+  } else if (sourceType === 'history') {
+    const a = getAttempts().find(x => x.id === extraParam);
+    if (!a) { alert('Attempt not found.'); return; }
+    buildAttemptResults(a).then(results => {
+      currentExportSource = {
+        type: 'history',
+        questions: results.map(r => r.q),
+        results,
+        title: `${a.subject || 'Quiz'} Attempt Result`,
+        subject: a.subject || 'Quiz',
+        chapter: a.chapter || '',
+        meta: {
+          pct: a.pct ?? Math.round((a.correct || 0) / (results.length || 1) * 100),
+          correct: a.correct ?? results.filter(r => r.isCorrect).length,
+          wrong: a.wrong ?? results.filter(r => !r.isCorrect && !r.isSkipped).length,
+          skip: a.skip ?? results.filter(r => r.isSkipped).length,
+          durationMs: a.durationMs || 0
+        }
+      };
+      finishOpenExportModal();
+    }).catch(() => { alert('Could not load attempt data.'); });
+    return;
+  } else if (['mistake', 'bookmark', 'skip', 'archive', 'bloom'].includes(sourceType)) {
+    let bank;
+    if (sourceType === 'bloom') {
+      const bloomDue = bloomFilteredDue();
+      bank = Object.fromEntries(bloomDue.map(e => [e.uid, e]));
+    } else {
+      bank = filteredBank({
+        mistake: getMistakes,
+        bookmark: getBookmarks,
+        skip: getSkips,
+        archive: getArchive
+      }[sourceType](), sourceType);
+    }
+    const questions = Object.values(bank).map(e => e.q).filter(Boolean);
+    if (!questions.length) { alert('No questions in this filter to export.'); return; }
+    const bankLabel = { mistake: 'Mistakes', bookmark: 'Bookmarks', skip: 'Skipped Questions', archive: 'Archive', bloom: 'Bloom Review' }[sourceType];
+    currentExportSource = {
+      type: sourceType,
+      questions,
+      results: [],
+      title: `${currentBook ? currentBook.title : 'BPSC'} — ${bankLabel} Revision Sheet`,
+      subject: currentBook ? currentBook.title : 'Question Bank',
+      chapter: chapterFilters[sourceType] || 'All Chapters',
+      subtopic: subtopicFilters[sourceType] || ''
+    };
+    finishOpenExportModal();
+  } else if (sourceType === 'setup') {
+    let pool = allQuestions.filter(q => selectedChapters.has(q.chapter));
+    if (selectedSubtopics.size > 0) pool = pool.filter(q => selectedSubtopics.has(q.sub_topic));
+    if (!pool.length) { alert('No questions selected to export.'); return; }
+    const subj = SUBJECTS_CONFIG.find(s => s.id === currentSubjectId);
+    currentExportSource = {
+      type: 'setup',
+      questions: pool,
+      results: [],
+      title: `${subj ? subj.name : 'Practice Paper'} — Practice Worksheet`,
+      subject: subj?.name || 'Practice',
+      chapter: Array.from(selectedChapters).join(', ') || 'All Chapters',
+      subtopic: Array.from(selectedSubtopics).join(', ') || ''
+    };
+    finishOpenExportModal();
+  } else if (sourceType === 'supersearch') {
+    const results = superSearchState.lastResults || [];
+    if (!results.length) { alert('No search results to export.'); return; }
+    const qInput = document.getElementById('supersearch-input')?.value || '';
+    currentExportSource = {
+      type: 'supersearch',
+      questions: results.map(r => r.q),
+      results: [],
+      title: `Search Results — "${qInput}"`,
+      subject: 'Search Collection',
+      chapter: document.getElementById('supersearch-subject')?.value || 'All Subjects',
+      subtopic: document.getElementById('supersearch-subtopic')?.value || ''
+    };
+    finishOpenExportModal();
+  }
+}
+
+function finishOpenExportModal() {
+  if (!currentExportSource) return;
+  const docTitleInput = document.getElementById('export-doc-title');
+  if (docTitleInput) docTitleInput.value = currentExportSource.title || 'Practice Sheet';
+  setExportMode(currentExportConfig.mode);
+  updateExportSummary();
+  document.getElementById('export-pdf-modal')?.classList.remove('hidden');
+}
+
+function closeExportModal() {
+  document.getElementById('export-pdf-modal')?.classList.add('hidden');
+}
+
+function setExportMode(mode) {
+  currentExportConfig.mode = mode;
+  ['worksheet', 'solutions', 'report'].forEach(m => {
+    const id = 'export-mode-' + (m === 'solutions' ? 'solutions' : m === 'report' ? 'report' : 'worksheet');
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('active', (m === 'solutions' && mode === 'with_solutions') || (m === 'report' && mode === 'result_report') || (m === 'worksheet' && mode === 'worksheet'));
+  });
+  updateExportSummary();
+}
+
+function updateExportSummary() {
+  if (!currentExportSource) return;
+  currentExportConfig.title = document.getElementById('export-doc-title')?.value || currentExportSource.title;
+  currentExportConfig.includeAnswers = document.getElementById('export-opt-answers')?.checked ?? true;
+  currentExportConfig.includeExplanations = document.getElementById('export-opt-explanations')?.checked ?? true;
+  currentExportConfig.includeMetadata = document.getElementById('export-opt-metadata')?.checked ?? true;
+  currentExportConfig.twoColumn = document.getElementById('export-opt-twocol')?.checked ?? false;
+
+  const count = (currentExportSource.questions || []).length;
+  const countEl = document.getElementById('export-summary-count');
+  if (countEl) countEl.textContent = `📋 ${count} question${count !== 1 ? 's' : ''} ready to export`;
+}
+
+function buildPrintableDocument(source, config) {
+  const questions = source.questions || [];
+  const results = source.results || [];
+  const title = config.title || source.title || (currentBook ? currentBook.title : 'Practice Question Paper');
+  const subjectName = source.subject || (SUBJECTS_CONFIG.find(s => s.id === currentSubjectId)?.name || 'General Studies');
+  const chapterName = source.chapter || (Array.from(selectedChapters).join(', ') || 'All Chapters');
+  const subtopicName = source.subtopic || '';
+  const isResultReport = config.mode === 'result_report';
+  const isSolutions = config.mode === 'with_solutions' || isResultReport;
+  const isWorksheet = config.mode === 'worksheet';
+  const twoCol = config.twoColumn;
+
+  let resultBannerHtml = '';
+  if (isResultReport && source.meta) {
+    const meta = source.meta;
+    resultBannerHtml = `
+      <div class="pdf-result-banner">
+        <div class="pdf-res-stat"><div class="pdf-res-stat-val" style="color:#b8860b;">${meta.pct ?? (questions.length ? Math.round((meta.correct || 0) / questions.length * 100) : 0)}%</div><div class="pdf-res-stat-lbl">Score</div></div>
+        <div class="pdf-res-stat"><div class="pdf-res-stat-val" style="color:#16a34a;">${meta.correct ?? 0}</div><div class="pdf-res-stat-lbl">Correct</div></div>
+        <div class="pdf-res-stat"><div class="pdf-res-stat-val" style="color:#dc2626;">${meta.wrong ?? 0}</div><div class="pdf-res-stat-lbl">Wrong</div></div>
+        <div class="pdf-res-stat"><div class="pdf-res-stat-val" style="color:#64748b;">${meta.skip ?? 0}</div><div class="pdf-res-stat-lbl">Skipped</div></div>
+        <div class="pdf-res-stat"><div class="pdf-res-stat-val" style="color:#0284c7;">${formatDuration(meta.durationMs || 0)}</div><div class="pdf-res-stat-lbl">Time Taken</div></div>
+      </div>`;
+  }
+
+  const dateStr = new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+
+  let questionsHtml = questions.map((q, idx) => {
+    const res = results[idx] || (results.find && results.find(r => r.q && r.q.uid === q.uid));
+    const userKey = res ? res.userKey : null;
+    const isCorrect = res ? res.isCorrect : false;
+    const isSkipped = res ? res.isSkipped : (userKey == null);
+
+    const qNum = idx + 1;
+    const qType = getQuestionType(q);
+    const correctKeys = questionCorrectKeys(q);
+    const correctLabel = questionCorrectAnswerLabel(q);
+    const options = q.options || {};
+    const optKeys = Object.keys(options);
+
+    const tags = [];
+    if (config.includeMetadata) {
+      if (q.exam) tags.push(`<span class="pdf-tag">${escapeHtml(q.exam + (q.year ? ' ' + q.year : ''))}</span>`);
+      if (q.chapter) tags.push(`<span class="pdf-tag">${escapeHtml(q.chapter)}</span>`);
+      if (q.sub_topic) tags.push(`<span class="pdf-tag pdf-tag-subtopic">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`);
+      tags.push(`<span class="pdf-tag">${escapeHtml(qType)}</span>`);
+    }
+
+    const presentation = renderQuestionStem(q, 'quiz');
+    const matchData = presentation.matchData;
+
+    let optionsHtml = '';
+    if (matchData) {
+      optionsHtml = `
+        <div style="margin-top:6pt;font-weight:700;font-size:7.5pt;text-transform:uppercase;color:#475569;">Answer Codes:</div>
+        <div class="pdf-options-list">
+          ${matchData.codeRows.map(row => {
+            const isUser = isResultReport && answerHasKey(userKey, row.key);
+            const isAns = isSolutions && answerHasKey(correctKeys, row.key);
+            let cls = 'pdf-opt-row';
+            if (isUser && !isCorrect) cls += ' pdf-user-choice';
+            if (isAns) cls += ' pdf-correct-choice';
+            return `<div class="${cls}">
+              <span class="pdf-opt-marker">(${escapeHtml(row.key.toLowerCase())})</span>
+              <span>${row.codes ? row.codes.join(' - ') : bookText(row.value)}</span>
+              ${isUser && !isAns ? '<b style="color:#dc2626;font-size:7.5pt;margin-left:auto;">[\u2717 Your choice]</b>' : ''}
+              ${isAns && isResultReport ? '<b style="color:#16a34a;font-size:7.5pt;margin-left:auto;">[\u2713 Correct]</b>' : ''}
+            </div>`;
+          }).join('')}
+        </div>`;
+    } else {
+      optionsHtml = `<div class="pdf-options-list">
+        ${optKeys.map(k => {
+          const val = options[k];
+          if (val == null || val === '') return '';
+          const isUser = isResultReport && answerHasKey(userKey, k);
+          const isAns = isSolutions && answerHasKey(correctKeys, k);
+          let cls = 'pdf-opt-row';
+          if (isUser && !isCorrect) cls += ' pdf-user-choice';
+          if (isAns) cls += ' pdf-correct-choice';
+          return `<div class="${cls}">
+            <span class="pdf-opt-marker">(${escapeHtml(k)})</span>
+            <span class="pdf-opt-text">${escapeHtml(optionDisplayText(val, k))}</span>
+            ${isUser && !isAns ? '<b style="color:#dc2626;font-size:7.5pt;margin-left:auto;">[\u2717 Your choice]</b>' : ''}
+            ${isAns && isResultReport ? '<b style="color:#16a34a;font-size:7.5pt;margin-left:auto;">[\u2713 Correct]</b>' : ''}
+          </div>`;
+        }).join('')}
+      </div>`;
+    }
+
+    let solBoxHtml = '';
+    if (isSolutions && (config.includeExplanations || config.includeAnswers)) {
+      solBoxHtml = `
+        <div class="pdf-solution-box">
+          <div class="pdf-sol-header">
+            <span>Solution &amp; Explanation</span>
+            ${config.includeAnswers ? `<span class="pdf-sol-ans">&#x2713; Correct: ${bookText(correctLabel || correctKeys.join(', '))}</span>` : ''}
+          </div>
+          ${config.includeExplanations && q.explanation ? `<div style="margin-top:3pt;">${bookText(q.explanation)}</div>` : ''}
+          ${q.note ? `<div style="margin-top:3pt;color:#92400e;font-size:8pt;"><b>Note:</b> ${bookText(q.note)}</div>` : ''}
+        </div>`;
+    }
+
+    return `
+      <div class="pdf-q-item">
+        <div class="pdf-q-top">
+          <span class="pdf-q-num">Q${qNum}.</span>
+          <div class="pdf-q-tags">${tags.join('')}</div>
+        </div>
+        <div class="pdf-q-stem">${presentation.html}</div>
+        ${optionsHtml}
+        ${solBoxHtml}
+      </div>`;
+  }).join('');
+
+  let answerKeyHtml = '';
+  if (isWorksheet && config.includeAnswers) {
+    answerKeyHtml = `
+      <div class="pdf-page-break">
+        <div class="pdf-section-title">Answer Key</div>
+        <div class="pdf-key-grid">
+          ${questions.map((q, idx) => {
+            const correctKeys = questionCorrectKeys(q);
+            return `
+              <div class="pdf-key-cell">
+                <div class="pdf-key-qnum">Q${idx + 1}</div>
+                <div class="pdf-key-ans">${escapeHtml(correctKeys.join('+') || '—')}</div>
+              </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+  }
+
+  let explanationsAppendixHtml = '';
+  if (isWorksheet && config.includeExplanations) {
+    explanationsAppendixHtml = `
+      <div class="pdf-page-break">
+        <div class="pdf-section-title">Detailed Explanations</div>
+        <div style="display:flex;flex-direction:column;gap:10pt;margin-top:10pt;">
+          ${questions.map((q, idx) => {
+            const correctLabel = questionCorrectAnswerLabel(q);
+            if (!q.explanation && !correctLabel) return '';
+            return `
+              <div class="pdf-solution-box" style="page-break-inside:avoid;break-inside:avoid;">
+                <div class="pdf-sol-header">
+                  <span>Question ${idx + 1}</span>
+                  <span class="pdf-sol-ans">&#x2713; Answer: ${bookText(correctLabel)}</span>
+                </div>
+                ${q.explanation ? `<div style="margin-top:3pt;">${bookText(q.explanation)}</div>` : ''}
+                ${q.note ? `<div style="margin-top:3pt;color:#92400e;font-size:8pt;"><b>Note:</b> ${bookText(q.note)}</div>` : ''}
+              </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+  }
+
+  return `
+    <div class="pdf-document ${twoCol ? 'pdf-layout-2col' : ''}">
+      <div class="pdf-doc-header">
+        <div class="pdf-header-top">
+          <div>
+            <div class="pdf-doc-brand">${escapeHtml(currentBook ? currentBook.title : 'MCQ Practise')} &middot; Ghatna Chakra BPSC</div>
+            <div class="pdf-doc-title">${escapeHtml(title)}</div>
+            <div class="pdf-doc-subtitle">${escapeHtml(subjectName)}${chapterName ? ' &middot; ' + escapeHtml(chapterName) : ''}${subtopicName ? ' &middot; &#x1F4CD; ' + escapeHtml(subtopicName) : ''}</div>
+          </div>
+          <div class="pdf-header-meta-box">
+            <span class="pdf-meta-pill">${dateStr}</span>
+            <span class="pdf-meta-pill">${questions.length} Question${questions.length !== 1 ? 's' : ''}</span>
+            <span class="pdf-meta-pill">${isWorksheet ? 'Time: ' + Math.ceil(questions.length * 1.2) + ' mins' : (isResultReport ? 'Result Sheet' : 'Study Guide')}</span>
+          </div>
+        </div>
+      </div>
+      ${resultBannerHtml}
+      <div class="pdf-questions-list">
+        ${questionsHtml}
+      </div>
+      ${answerKeyHtml}
+      ${explanationsAppendixHtml}
+      <div class="pdf-doc-footer">
+        <span>Ghatna Chakra BPSC &middot; MCQ Practise &middot; Prepared on ${dateStr}</span>
+        <span>Page 1 of 1</span>
+      </div>
+    </div>`;
+}
+
+function executePrint() {
+  if (!currentExportSource) return;
+  updateExportSummary();
+  const docHtml = buildPrintableDocument(currentExportSource, currentExportConfig);
+  const container = document.getElementById('printable-pdf-document');
+  if (container) container.innerHTML = docHtml;
+  closeExportModal();
+  if (typeof window.print === 'function') {
+    window.print();
+  }
+}
+
+function downloadPrintableHtml() {
+  if (!currentExportSource) return;
+  updateExportSummary();
+  const docHtml = buildPrintableDocument(currentExportSource, currentExportConfig);
+  const fullHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${escapeHtml(currentExportConfig.title || 'Document')}</title>
+<style>
+body { background: #ffffff !important; color: #0f172a !important; padding: 24px; max-width: 900px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10pt; line-height: 1.45; }
+#printable-pdf-document { display: block !important; }
+.pdf-doc-header { border-bottom: 2px solid #0f172a; padding-bottom: 8pt; margin-bottom: 12pt; display: flex; flex-direction: column; gap: 4pt; }
+.pdf-header-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10pt; }
+.pdf-doc-brand { font-size: 8pt; letter-spacing: 1.5px; text-transform: uppercase; color: #94a3b8; font-weight: 700; }
+.pdf-doc-title { font-size: 16pt; font-weight: 800; color: #0f172a; margin-top: 2pt; }
+.pdf-doc-subtitle { font-size: 9.5pt; color: #475569; margin-top: 2pt; font-weight: 600; }
+.pdf-header-meta-box { text-align: right; font-size: 8pt; color: #475569; display: flex; flex-direction: column; gap: 2pt; }
+.pdf-meta-pill { display: inline-block; background: #f1f5f9; border: 1px solid #cbd5e1; padding: 2pt 6pt; border-radius: 4pt; font-weight: 600; }
+.pdf-result-banner { background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 6pt; padding: 8pt 12pt; margin-bottom: 12pt; display: flex; align-items: center; justify-content: space-around; }
+.pdf-res-stat { text-align: center; }
+.pdf-res-stat-val { font-size: 13pt; font-weight: 800; line-height: 1; }
+.pdf-res-stat-lbl { font-size: 7pt; text-transform: uppercase; letter-spacing: 0.8px; color: #64748b; margin-top: 2pt; font-weight: 600; }
+.pdf-layout-2col .pdf-questions-list { column-count: 2; column-gap: 16pt; }
+.pdf-q-item { margin-bottom: 12pt; padding-bottom: 8pt; border-bottom: 0.5pt solid #e2e8f0; break-inside: avoid; }
+.pdf-q-top { display: flex; align-items: baseline; gap: 6pt; margin-bottom: 4pt; }
+.pdf-q-num { font-weight: 800; font-size: 10pt; color: #0f172a; flex-shrink: 0; }
+.pdf-q-tags { display: flex; gap: 4pt; flex-wrap: wrap; font-size: 6.5pt; margin-left: auto; }
+.pdf-tag { border: 0.5pt solid #cbd5e1; padding: 1pt 4pt; border-radius: 3pt; color: #475569; font-weight: 600; text-transform: uppercase; }
+.pdf-tag-subtopic { background: #faf5ff; border-color: #d8b4fe; color: #6b21a8; }
+.pdf-q-stem { font-size: 9.5pt; color: #0f172a; line-height: 1.45; margin-bottom: 6pt; }
+.pdf-options-list { display: grid; grid-template-columns: 1fr 1fr; gap: 3pt 8pt; margin-top: 4pt; }
+.pdf-opt-row { display: flex; align-items: baseline; gap: 5pt; font-size: 9pt; line-height: 1.35; padding: 2pt 4pt; border-radius: 3pt; }
+.pdf-opt-marker { font-weight: 700; color: #475569; font-size: 8pt; flex-shrink: 0; }
+.pdf-opt-row.pdf-user-choice { background: #fee2e2; border-left: 2pt solid #dc2626; }
+.pdf-opt-row.pdf-correct-choice { background: #dcfce7; border-left: 2pt solid #16a34a; font-weight: 600; }
+.pdf-solution-box { margin-top: 6pt; background: #f8fafc; border: 0.75pt solid #cbd5e1; border-left: 3pt solid #0284c7; border-radius: 3pt; padding: 5pt 8pt; font-size: 8.5pt; line-height: 1.4; }
+.pdf-sol-header { display: flex; align-items: center; justify-content: space-between; font-size: 7.5pt; font-weight: 700; text-transform: uppercase; color: #0369a1; margin-bottom: 3pt; }
+.pdf-sol-ans { color: #16a34a; font-weight: 800; }
+.pdf-page-break { page-break-before: always; margin-top: 20pt; }
+.pdf-section-title { font-size: 13pt; font-weight: 800; color: #0f172a; border-bottom: 1.5pt solid #0f172a; padding-bottom: 4pt; margin: 14pt 0 10pt 0; }
+.pdf-key-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 4pt; margin-top: 8pt; font-size: 8.5pt; text-align: center; }
+.pdf-key-cell { border: 0.5pt solid #cbd5e1; border-radius: 3pt; padding: 3pt 2pt; background: #f8fafc; }
+.pdf-key-qnum { font-size: 7pt; color: #64748b; }
+.pdf-key-ans { font-size: 9pt; font-weight: 800; color: #0f172a; margin-top: 1pt; }
+.pdf-doc-footer { margin-top: 20pt; padding-top: 6pt; border-top: 0.5pt solid #cbd5e1; display: flex; align-items: center; justify-content: space-between; font-size: 7pt; color: #94a3b8; }
+</style>
+</head>
+<body>
+<div id="printable-pdf-document">${docHtml}</div>
+</body>
+</html>`;
+  try {
+    const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = (currentExportConfig.title || 'Question_Paper').replace(/[^a-z0-9_-]+/gi, '_') + '.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  } catch (e) {
+    console.warn('HTML download fallback:', e);
+  }
+}
 
 // Configure the running app for a chosen book: point data paths at its folder,
 // rebuild SUBJECTS_CONFIG from its chapters.json, and reset all caches/state.

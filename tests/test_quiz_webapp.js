@@ -21,6 +21,8 @@ const dom = new JSDOM(html, {
     window.alert = () => {};
     window.confirm = () => true;
     window.HTMLElement.prototype.scrollIntoView = () => {};
+    window.print = () => {};
+    window.HTMLAnchorElement.prototype.click = () => {};
     window.fetch = async url => {
       const rel = String(url).replace(/^\.\//, '');
       fetches.push(rel);
@@ -368,6 +370,109 @@ const ev = code => w.eval(code);
   assert([...d.querySelectorAll('#question-area .opt-text')].every((el,index)=>el.textContent===`Figure (${String.fromCharCode(97+index)})`), 'diagram placeholders become Figure (a), Figure (b), etc.');
   assert(!d.querySelector('#question-area .exp-correct-ans').textContent.includes('asset:'),'correct-answer display also hides the asset placeholder');
 
+  
+  // ════════════════════════════════════════════════════════════════
+  // SUB-TOPICS & EXPORT PDF TESTS
+  // ════════════════════════════════════════════════════════════════
+  // 1. Sub-topics in Crown book
+  await w.openBook('crown');
+  await tick(10);
+  await w.toggleSubjectCard('ancient_history');
+  await tick(5);
+
+  const subBadge = d.getElementById('chwrap-ancient_history-Sources%20of%20Ancient%20History')?.querySelector('.ch-sub-badge');
+  assert(subBadge, 'sub-topic badge shown on chapter with subtopics');
+  assert.match(subBadge.textContent, /sub-topics/, 'badge displays sub-topic count');
+
+  // Expand subtopics drawer
+  w.toggleChapterSubtopics('ancient_history', 'Sources%20of%20Ancient%20History');
+  const drawer = d.getElementById('chsubs-ancient_history-Sources%20of%20Ancient%20History');
+  assert(drawer && drawer.style.display !== 'none', 'sub-topic drawer expands');
+  const subRows = drawer.querySelectorAll('.ch-subtopic-row');
+  assert(subRows.length >= 5, 'chapter has multiple subtopic rows');
+
+  // Select a specific sub-topic: Inscriptions
+  w.toggleSubtopicCard('ancient_history', 'Sources%20of%20Ancient%20History', 'Inscriptions');
+  assert(ev(`selectedSubtopics.has('Inscriptions')`), 'Inscriptions sub-topic selected');
+  assert(ev(`selectedChapters.has('Sources of Ancient History')`), 'parent chapter auto-selected');
+  assert(d.querySelector('.cp-subtopics-section'), 'subtopics section rendered in config panel');
+
+  // Start quiz with sub-topic filter
+  ev(`startQuiz();`);
+  assert(d.getElementById('quiz-screen').classList.contains('active'), 'quiz started for sub-topic');
+  assert(ev(`quiz.every(q => q.sub_topic === 'Inscriptions')`), 'all quiz questions belong to selected sub-topic');
+  const subPill = d.querySelector('#question-area .subtopic-pill');
+  assert(subPill && subPill.textContent.includes('Inscriptions'), 'sub-topic pill rendered on question card');
+
+  // Bookmark a question with subtopic and test bank filter
+  w.toggleBookmark();
+  w.showBookmarkScreen();
+  assert(d.getElementById('bookmark-screen').classList.contains('active'));
+  const bmSubPill = d.querySelector('#bookmark-list .subtopic-pill');
+  assert(bmSubPill && bmSubPill.textContent.includes('Inscriptions'), 'sub-topic pill rendered on bookmark item');
+  const subFilterSel = d.getElementById('subtopic-filter-bookmark');
+  assert(subFilterSel && subFilterSel.style.display !== 'none', 'sub-topic filter dropdown populated on bookmark screen');
+  w.setSubtopicFilter('bookmark', 'Inscriptions');
+  assert.equal(d.querySelectorAll('#bookmark-list .bank-item').length, 1, 'bank filtered by sub-topic');
+
+  // 2. Export PDF Tests
+  // A. Export from Bank Screen
+  w.openExportModal('bookmark');
+  assert(!d.getElementById('export-pdf-modal').classList.contains('hidden'), 'export modal opens from bookmarks');
+  assert(d.getElementById('export-doc-title').value.includes('Bookmark'), 'title preset for bookmarks');
+  w.setExportMode('with_solutions');
+  assert.equal(ev('currentExportConfig.mode'), 'with_solutions', 'mode changed to with_solutions');
+  w.executePrint();
+  const printDoc = d.getElementById('printable-pdf-document');
+  assert(printDoc.innerHTML.includes('pdf-document'), 'printable PDF document generated');
+  assert(printDoc.innerHTML.includes('Inscriptions'), 'sub-topic tag included in printable document');
+  assert(printDoc.innerHTML.includes('pdf-solution-box'), 'solution box included in solutions mode');
+  assert(d.getElementById('export-pdf-modal').classList.contains('hidden'), 'modal closes on execute print');
+
+  // B. Export Practice Worksheet with separate Answer Key
+  w.openExportModal('setup');
+  w.setExportMode('worksheet');
+  const worksheetHtml = ev(`buildPrintableDocument(currentExportSource, currentExportConfig)`);
+  assert(worksheetHtml.includes('pdf-section-title">Answer Key'), 'worksheet mode generates separate Answer Key section');
+  assert(worksheetHtml.includes('pdf-key-grid'), 'answer key grid present');
+
+  // C. Export Result / Score Report
+  ev(`startQuiz('bookmarks', [quiz[0]]);`);
+  w.selectOption(ev(`quiz[0].correctKey`));
+  w.submitQuiz();
+  assert(d.getElementById('result-screen').classList.contains('active'), 'result screen reached');
+  w.openExportModal('result');
+  assert(!d.getElementById('export-pdf-modal').classList.contains('hidden'), 'export modal opens from result screen');
+  assert.equal(ev('currentExportConfig.mode'), 'result_report', 'result export defaults to result_report mode');
+  const reportHtml = ev(`buildPrintableDocument(currentExportSource, currentExportConfig)`);
+  assert(reportHtml.includes('pdf-result-banner'), 'score report contains result banner with score and stats');
+  w.closeExportModal();
+
+  // D. Offline HTML download helper test
+  let htmlBlobTested = false;
+  w.Blob = class { constructor(parts) { htmlBlobTested = parts[0].includes('<!DOCTYPE html>'); } };
+  w.URL = { createObjectURL: () => 'blob:test', revokeObjectURL: () => {} };
+  w.openExportModal('result');
+  w.downloadPrintableHtml();
+  assert(htmlBlobTested, 'downloadPrintableHtml generated valid standalone HTML');
+  w.closeExportModal();
+
+  // E. Super Search with sub-topics & PDF export
+  w.openSuperSearch();
+  await tick(50);
+  ev(`document.getElementById('supersearch-input').value = 'inscription'; runSuperSearch();`);
+  await tick(50);
+  assert(ev(`superSearchState.lastResults.length > 0`), 'super search finds sub-topic matches');
+  assert.notEqual(d.getElementById('supersearch-export-pdf').style.display, 'none', 'export PDF button shown on super search results');
+  w.openExportModal('supersearch');
+  assert(d.getElementById('export-doc-title').value.includes('inscription'), 'search export preset with query');
+  w.closeExportModal();
+  w.closeSuperSearch();
+
+  // Reset back to BPSC book
+  await w.openBook('bpsc_ghatna_chakra');
+  await tick(10);
+
   assert.equal(consoleErrors.length, 0, consoleErrors.join('\n'));
   console.log(JSON.stringify({
     status:'PASS',
@@ -376,7 +481,7 @@ const ev = code => w.eval(code);
     questions:4441,
     subjectFilesFetched:actualFiles.length,
     matchCandidatesParsed:'49/50',
-    tested:['dashboard','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
+    tested:['dashboard','sub-topics (extraction, expandable list, pills, bank/search filtering, quiz scoping)','export PDF (worksheet mode, solution mode, result report mode, answer key appendix, standalone HTML download)','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
   }, null, 2));
   dom.window.close();
 })().catch(err=>{
