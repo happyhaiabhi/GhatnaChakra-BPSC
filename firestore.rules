@@ -9,7 +9,7 @@ service cloud.firestore {
     match /users/{userId}/data/{dataKey} {
       allow read: if isOwner(userId);
       allow create, update: if isOwner(userId)
-        && dataKey in ['gc_mistakes', 'gc_bookmarks', 'gc_skips', 'gc_history', 'gc_archive']
+        && dataKey in ['gc_mistakes', 'gc_bookmarks', 'gc_skips', 'gc_history', 'gc_archive', 'gc_attempts']
         && request.resource.data.keys().hasOnly(['payload', 'updatedAt'])
         && request.resource.data.payload is string
         && request.resource.data.payload.size() < 900000

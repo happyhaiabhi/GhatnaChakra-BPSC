@@ -1556,7 +1556,7 @@ function clearAllArchive(){if(confirm('Permanently delete all archived questions
 // ════════════════════════════════════════════════════════════════
 // ATTEMPT HISTORY — a per-quiz record of every finished attempt
 // ════════════════════════════════════════════════════════════════
-const getAttempts=()=>LS.get(sk('gc_attempts'),[]);const saveAttempts=a=>LS.set(sk('gc_attempts'),a);
+const getAttempts=()=>LS.get(sk('gc_attempts'),[]);let saveAttempts=a=>LS.set(sk('gc_attempts'),a);
 
 function recordAttempt(meta){
   const attempts=getAttempts();
@@ -2205,12 +2205,12 @@ document.addEventListener('keydown',function(e){
 // ════════════════════════════════════════════════════════════════
 // SIMPLE GOOGLE ACCOUNT SYNC — Firebase stores progress; GitHub Pages hosts UI
 // ════════════════════════════════════════════════════════════════
-const SYNC_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive'];
+const SYNC_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips','gc_history','gc_archive','gc_attempts'];
 const SYNC_ACTIVE_BANK_BASE_KEYS=['gc_mistakes','gc_bookmarks','gc_skips'];
 // Resolve the active book's namespaced keys at call time.
 function syncDataKeys(){return SYNC_BASE_KEYS.map(k=>sk(k));}
 function syncActiveBankKeys(){return SYNC_ACTIVE_BANK_BASE_KEYS.map(k=>sk(k));}
-function isHistoryKey(key){return key===sk('gc_history');}
+function isHistoryKey(key){return key===sk('gc_history')||key===sk('gc_attempts');}
 const FIREBASE_CFG={
   apiKey:'AIzaSyB5vVuyG2NbMdTUOY78NlZ702mlkmmPuFA',
   authDomain:'mcq-practise-ff181.firebaseapp.com',
@@ -2233,7 +2233,7 @@ function mergeHistory(localValue,cloudValue){
   const byId=new Map();
   [...cloud,...local].forEach((entry,index)=>{
     if(!entry||typeof entry!=='object')return;
-    const id=entry.date||`legacy-${index}-${JSON.stringify(entry)}`;
+    const id=entry.id||entry.date||`legacy-${index}-${JSON.stringify(entry)}`;
     byId.set(id,Object.assign({},byId.get(id)||{},entry));
   });
   return [...byId.values()].sort((a,b)=>dateNumber(b.date,0)-dateNumber(a.date,0)).slice(0,200);
@@ -2543,12 +2543,13 @@ function cloudPushKey(key){
   },700);
 }
 
-const _saveHistory0=saveHistory,_saveMistakes0=saveMistakes,_saveBookmarks0=saveBookmarks,_saveSkips0=saveSkips,_saveArchive0=saveArchive;
+const _saveHistory0=saveHistory,_saveMistakes0=saveMistakes,_saveBookmarks0=saveBookmarks,_saveSkips0=saveSkips,_saveArchive0=saveArchive,_saveAttempts0=saveAttempts;
 saveHistory=value=>{_saveHistory0(value);cloudPushKey(sk('gc_history'));};
 saveMistakes=value=>{_saveMistakes0(value);cloudPushKey(sk('gc_mistakes'));};
 saveBookmarks=value=>{_saveBookmarks0(value);cloudPushKey(sk('gc_bookmarks'));};
 saveSkips=value=>{_saveSkips0(value);cloudPushKey(sk('gc_skips'));};
 saveArchive=value=>{_saveArchive0(value);cloudPushKey(sk('gc_archive'));};
+saveAttempts=value=>{_saveAttempts0(value);cloudPushKey(sk('gc_attempts'));};
 
 async function syncNow(){
   if(!fbUserId){openSyncModal();return;}
