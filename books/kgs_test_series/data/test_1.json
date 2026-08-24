@@ -95,7 +95,7 @@
           "test_subject": "Bihar Special"
         },
         {
-          "q": "Consider the following districts of Bihar: 1. Madhubani 2. Darbhanga 3. Sitamarhi 4. Samastipur Arrange the above districts in decreasing order of population density as per the Census 2011:",
+          "q": "Consider the following districts of Bihar.  Arrange the above districts in decreasing order of population density as per the Census 2011: 1. Madhubani 2. Darbhanga 3. Sitamarhi 4. Samastipur:",
           "question_type": "Ordering/Ranking — Correct Sequence",
           "options": {
             "A": "1 – 2 – 4 – 3",
