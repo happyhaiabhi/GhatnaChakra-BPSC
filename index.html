@@ -348,6 +348,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .res-btn-secondary{background:var(--surface);border:1px solid var(--border);color:var(--text2);}
 .res-btn-secondary:hover{border-color:var(--border2);color:var(--text);}
 .res-btn-wrong{background:var(--red-dim);border:1px solid var(--red);color:var(--red);}
+.res-btn-skip{background:var(--surface3);border:1px solid var(--border);color:var(--text2);}
 .review-list{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;}
 .review-header{padding:13px 20px;background:var(--surface2);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;}
 .review-header h3{font-family:'Cinzel',serif;font-size:0.85rem;color:var(--text);}
@@ -1015,8 +1016,9 @@ html,body{height:100%;}
       </div>
     </div>
     <div class="result-actions">
-      <button class="res-btn res-btn-primary" onclick="backToSetup()">&#x2190; Back to Home</button>
+      <button class="res-btn res-btn-primary" id="btn-back-home" onclick="resultBack()">&#x2190; Back to Home</button>
       <button class="res-btn res-btn-wrong" id="btn-retry-wrong" onclick="retryWrong()">Retry Wrong</button>
+      <button class="res-btn res-btn-skip" id="btn-retry-skip" onclick="retrySkipped()">Retry Skipped</button>
     </div>
     <div class="review-list">
       <div class="review-header">
@@ -1128,7 +1130,7 @@ html,body{height:100%;}
       <span id="history-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllAttempts()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Clear All</button>
     </div>
-    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Every completed quiz is recorded here. Re-open a past attempt to re-practice the exact same questions.</div>
+    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Every completed quiz is recorded here. Open <b>Details</b> to see the full solution review (correct answers, your wrong answers, skipped questions and explanations), or re-attempt <b>only the wrong / skipped</b> questions.</div>
     <div id="history-list" style="display:flex;flex-direction:column;gap:12px;"></div>
   </div>
 </div>
@@ -1164,7 +1166,7 @@ function resolveBookChaptersUrl(book){
 }
 
 let currentSubjectId=null,selectedChapters=new Set(),allQuestions=[],chapterMap={},subjectDataCache={};
-let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[];
+let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[],resultBackTo=null;
 
 const LS={get:(k,d={})=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(d));}catch(e){return d;}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
 const getHistory=()=>LS.get(sk('gc_history'),[]);let saveHistory=h=>LS.set(sk('gc_history'),h);
@@ -1584,6 +1586,9 @@ function showHistoryScreen(){
       </div>
       <div class="history-bar"><div class="hb-c" style="flex:0 0 ${(c/barW*100)}%"></div><div class="hb-w" style="flex:0 0 ${(w/barW*100)}%"></div><div class="hb-s" style="flex:0 0 ${(s/barW*100)}%"></div></div>
       <div class="history-actions">
+        <button class="modal-btn modal-btn-secondary" onclick="viewAttemptDetails('${escapeHtml(a.id)}')">&#x1F4CB; Details</button>
+        ${w>0?`<button class="modal-btn modal-btn-secondary" style="color:var(--red);border-color:var(--red);" onclick="retryAttemptSubset('${escapeHtml(a.id)}','wrong')">&#x2717; Retry Wrong (${w})</button>`:''}
+        ${s>0?`<button class="modal-btn modal-btn-secondary" style="color:var(--text2);" onclick="retryAttemptSubset('${escapeHtml(a.id)}','skips')">&#8212; Retry Skipped (${s})</button>`:''}
         <button class="modal-btn modal-btn-primary" onclick="redoAttempt('${escapeHtml(a.id)}')">&#x1F504; Re-practice</button>
       </div>
     </div>`;
@@ -1603,6 +1608,83 @@ function redoAttempt(id){
     processData({chapters:[]},currentSubjectId||'redo');
     allQuestions=pool;pool.forEach(q=>{if(!chapterMap[q.chapter])chapterMap[q.chapter]=[];chapterMap[q.chapter].push(q);});
     startQuiz('history',pool);
+  }).catch(()=>{alert('Could not load the questions for this attempt.');});
+}
+
+// Rebuild a lastResults array for a stored attempt. New attempts store each
+// question's outcome ({uid, userKey}); attempts recorded before that (legacy)
+// are reconstructed from the Mistakes / Skips banks that submission updates.
+async function buildAttemptResults(a){
+  const uids=(a.questions||[]).filter(Boolean);
+  const catalog=await ensureSyncQuestionCatalog();
+  const stored=Array.isArray(a.results)?new Map(a.results.filter(r=>r&&r.uid).map(r=>[r.uid,r])):null;
+  const mistakes=getMistakes(),skips=getSkips();
+  let recovered=false;
+  const out=[];
+  uids.forEach(uid=>{
+    const q=catalog[uid];if(!q)return;
+    if(stored&&stored.has(uid)){
+      const userKey=(stored.get(uid)||{}).userKey??null;
+      const isSkipped=isSkippedAnswer(userKey);
+      out.push({q,userKey,isCorrect:!isSkipped&&isQuestionCorrect(q,userKey),isSkipped});
+    }else{
+      recovered=true;
+      const m=mistakes[uid];
+      if(m&&m.q)out.push({q,userKey:m.userKey??null,isCorrect:false,isSkipped:false});
+      else if(skips[uid]&&skips[uid].q)out.push({q,userKey:null,isCorrect:false,isSkipped:true});
+      else out.push({q,userKey:null,isCorrect:true,isSkipped:false});
+    }
+  });
+  out.recovered=recovered;
+  return out;
+}
+
+// Open the same result screen shown right after submission — score, counts,
+// time, question review with correct answers + explanations, and the
+// Retry Wrong / Retry Skipped buttons — for a past attempt.
+async function viewAttemptDetails(id){
+  const a=getAttempts().find(x=>x.id===id);if(!a)return;
+  let results;
+  try{results=await buildAttemptResults(a);}
+  catch(e){alert('Could not load the questions for this attempt.');return;}
+  if(!results.length){alert('This attempt has no stored questions to review.');return;}
+  lastResults=results;
+  shuffledOptionOrders=[];
+  const correct=a.correct??results.filter(r=>r.isCorrect).length;
+  const wrong=a.wrong??results.filter(r=>!r.isCorrect&&!r.isSkipped).length;
+  const skip=a.skip??results.filter(r=>r.isSkipped).length;
+  const pct=a.pct??(results.length?Math.round(correct/results.length*100):0);
+  const date=new Date(a.date).toLocaleString();
+  document.getElementById('res-eyebrow').innerHTML=`${escapeHtml(a.subject||'Quiz')} &#183; ${escapeHtml(String(a.chapter||'').substring(0,50))} &#183; attempt of ${escapeHtml(date)}${results.recovered?' &#183; reconstructed':''}`;
+  document.getElementById('res-score').textContent=pct+'%';
+  document.getElementById('res-score').style.color=pct>=70?'var(--green)':pct>=50?'var(--gold)':'var(--red)';
+  document.getElementById('res-grade').textContent=pct>=80?'\uD83C\uDFC6 Excellent!':pct>=60?'\u2705 Good Performance':pct>=40?'\u26A1 Keep Practicing':'\uD83D\uDCD6 Needs More Practice';
+  document.getElementById('rs-correct').textContent=correct;
+  document.getElementById('rs-wrong').textContent=wrong;
+  document.getElementById('rs-skip').textContent=skip;
+  document.getElementById('rs-time').textContent=formatDuration(a.durationMs||0);
+  document.getElementById('btn-retry-wrong').style.display=wrong>0?'':'none';
+  document.getElementById('btn-retry-skip').style.display=skip>0?'':'none';
+  resetReviewFilter();
+  buildReview('all');
+  resultBackTo='history';
+  document.getElementById('btn-back-home').innerHTML='&#x2190; Back to History';
+  showScreen('result-screen');
+}
+
+// Re-attempt only the wrong (kind='wrong') or only the skipped (kind='skips')
+// questions of a past attempt. Runs like a normal quiz: timer, submission,
+// its own result screen and its own history entry.
+function retryAttemptSubset(id,kind){
+  const a=getAttempts().find(x=>x.id===id);if(!a)return;
+  buildAttemptResults(a).then(results=>{
+    const pool=results.filter(r=>kind==='skips'?r.isSkipped:(!r.isCorrect&&!r.isSkipped)).map(r=>r.q);
+    if(!pool.length){alert(kind==='skips'?'No skipped questions could be recovered for this attempt.':'No wrong questions could be recovered for this attempt.');return;}
+    selectedChapters=new Set(pool.map(q=>q.chapter));
+    currentSubjectId=pool[0]._subjectId||a.subjectId||null;
+    processData({chapters:[]},currentSubjectId||kind);
+    allQuestions=pool;pool.forEach(q=>{if(!chapterMap[q.chapter])chapterMap[q.chapter]=[];chapterMap[q.chapter].push(q);});
+    startQuiz(kind,pool);
   }).catch(()=>{alert('Could not load the questions for this attempt.');});
 }
 
@@ -2153,16 +2235,23 @@ function submitQuiz(){
   if(wr.length)addToMistakes(wr);if(sr.length)addToSkips(sr.map(r=>r.q));if(cr.length)processCorrectAnswers(cr);
   const pct=Math.round(correct/quiz.length*100),skip=quiz.length-correct-wrong;
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'';
-  recordAttempt({subjectId:currentSubjectId,subject:subj?.name||'',chapter:chLabel,mode:quizMeta.mode,correct,wrong,skip,total:quiz.length,pct,durationMs:elapsed,questions:quiz.map(q=>q.uid)});
-  document.getElementById('res-eyebrow').textContent=`${subj?.name||''} &#183; ${chLabel.substring(0,50)}`;
+  recordAttempt({subjectId:currentSubjectId,subject:subj?.name||'',chapter:chLabel,mode:quizMeta.mode,correct,wrong,skip,total:quiz.length,pct,durationMs:elapsed,questions:quiz.map(q=>q.uid),results:quiz.map((q,i)=>({uid:q.uid,userKey:state.answers[i]??null}))});
+  resultBackTo=null;
+  document.getElementById('btn-back-home').innerHTML='&#x2190; Back to Home';
+  document.getElementById('res-eyebrow').innerHTML=`${escapeHtml(subj?.name||'')} &#183; ${escapeHtml(chLabel.substring(0,50))}`;
   document.getElementById('res-score').textContent=pct+'%';document.getElementById('res-score').style.color=pct>=70?'var(--green)':pct>=50?'var(--gold)':'var(--red)';
   document.getElementById('res-grade').textContent=pct>=80?'\uD83C\uDFC6 Excellent!':pct>=60?'\u2705 Good Performance':pct>=40?'\u26A1 Keep Practicing':'\uD83D\uDCD6 Needs More Practice';
   document.getElementById('rs-correct').textContent=correct;document.getElementById('rs-wrong').textContent=wrong;document.getElementById('rs-skip').textContent=skip;document.getElementById('rs-time').textContent=formatDuration(elapsed);
   document.getElementById('btn-retry-wrong').style.display=wrong>0?'':'none';
+  document.getElementById('btn-retry-skip').style.display=skip>0?'':'none';
+  resetReviewFilter();
   buildReview('all');showScreen('result-screen');buildDashboard();
 }
 
-function retryWrong(){const wrong=lastResults.filter(r=>!r.isCorrect&&!r.isSkipped).map(r=>r.q);if(!wrong.length)return;selectedChapters=new Set(wrong.map(q=>q.chapter));startQuiz('wrong',wrong);}
+function retryWrong(){const wrong=lastResults.filter(r=>!r.isCorrect&&!r.isSkipped).map(r=>r.q);if(!wrong.length)return;if(wrong[0]._subjectId)currentSubjectId=wrong[0]._subjectId;selectedChapters=new Set(wrong.map(q=>q.chapter));startQuiz('wrong',wrong);}
+function retrySkipped(){const skipped=lastResults.filter(r=>r.isSkipped).map(r=>r.q);if(!skipped.length)return;if(skipped[0]._subjectId)currentSubjectId=skipped[0]._subjectId;selectedChapters=new Set(skipped.map(q=>q.chapter));startQuiz('skips',skipped);}
+function resultBack(){if(resultBackTo==='history'){resultBackTo=null;showHistoryScreen();}else backToSetup();}
+function resetReviewFilter(){const btns=document.querySelectorAll('.rflt-btn');btns.forEach((b,i)=>b.classList.toggle('active',i===0));}
 
 function buildReview(filter){
   document.getElementById('review-body').innerHTML=lastResults.map((r,idx)=>{
