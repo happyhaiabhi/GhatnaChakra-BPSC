@@ -145,6 +145,38 @@ const ev = code => w.eval(code);
   assert.equal(d.getElementById('rs-skip').textContent, '1');
   assert(Object.keys(JSON.parse(w.localStorage.getItem('gc_mistakes'))).length >= 1);
   assert(Object.keys(JSON.parse(w.localStorage.getItem('gc_skips'))).length >= 1);
+
+  // Attempt history keeps per-question details; Details re-opens the same
+  // result screen (review with answers + explanations) and wrong/skip
+  // subsets can be re-attempted from a past attempt.
+  const attempts=ev('getAttempts()');
+  assert(attempts.length>=1,'attempt recorded in history');
+  assert(Array.isArray(attempts[0].results)&&attempts[0].results.length===2,'per-question results stored');
+  assert.notEqual(d.getElementById('btn-retry-skip').style.display,'none','skip retry offered after submit');
+  await w.viewAttemptDetails(attempts[0].id);
+  await tick(20);
+  assert(d.getElementById('result-screen').classList.contains('active'),'details opens the result screen');
+  assert.equal(d.getElementById('rs-wrong').textContent,'1','details shows wrong count');
+  assert.equal(d.getElementById('rs-skip').textContent,'1','details shows skip count');
+  assert.equal(d.querySelectorAll('#review-body .review-item').length,2,'details shows the full review');
+  assert(d.querySelector('#review-body .rev-correct-badge'),'review marks question outcomes');
+  w.resultBack();
+  assert(d.getElementById('history-screen').classList.contains('active'),'back returns to history');
+  // Legacy attempt (recorded before details were stored) is reconstructed
+  // from the Mistakes / Skips banks.
+  ev('const atts=getAttempts(); delete atts[0].results; saveAttempts(atts);');
+  await w.viewAttemptDetails(attempts[0].id);
+  await tick(20);
+  assert.equal(d.getElementById('rs-wrong').textContent,'1','legacy attempt wrong reconstructed');
+  assert.equal(d.getElementById('rs-skip').textContent,'1','legacy attempt skip reconstructed');
+  w.retryAttemptSubset(attempts[0].id,'wrong');
+  await tick(20);
+  assert(d.getElementById('quiz-screen').classList.contains('active'),'wrong retry starts a quiz');
+  assert.equal(ev('quiz.length'),1,'wrong retry contains only the wrong question');
+  w.retryAttemptSubset(attempts[0].id,'skips');
+  await tick(20);
+  assert(d.getElementById('quiz-screen').classList.contains('active'),'skip retry starts a quiz');
+  assert.equal(ev('quiz.length'),1,'skip retry contains only the skipped question');
   w.showMistakeScreen(); assert(d.getElementById('mistake-screen').classList.contains('active'));
   w.showSkipScreen(); assert(d.getElementById('skip-screen').classList.contains('active'));
   w.showBookmarkScreen(); assert(d.getElementById('bookmark-screen').classList.contains('active'));
@@ -344,7 +376,7 @@ const ev = code => w.eval(code);
     questions:4441,
     subjectFilesFetched:actualFiles.length,
     matchCandidatesParsed:'49/50',
-    tested:['dashboard','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
+    tested:['dashboard','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
   }, null, 2));
   dom.window.close();
 })().catch(err=>{

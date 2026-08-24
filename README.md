@@ -71,6 +71,7 @@ The app automatically merges and synchronizes:
 - skipped questions;
 - archive/mastery removals;
 - quiz history and dashboard statistics.
+- attempt history with full details: re-open any past attempt's result screen (score, correct/wrong/skip, time, and the complete solution review with explanations), or re-attempt **only the wrong** or **only the skipped** questions of that attempt.
 
 A **Sync now** button is available for a manual check. Local progress continues to work while offline and merges after reconnection. On first sign-in, local and cloud records are merged before anything is written, so signing in on a new or empty device does not erase existing cloud progress. Archive entries act as deletion tombstones, preventing an older device from restoring removed/mastered items.
 
