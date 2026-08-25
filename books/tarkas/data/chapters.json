@@ -1,0 +1,294 @@
+[
+  {
+    "key": "modern_history",
+    "label": "Modern History",
+    "emoji": "📜",
+    "file": "modern_history.json",
+    "chapters": [
+      {
+        "name": "Governor-General and Viceroys",
+        "count": 24
+      },
+      {
+        "name": "Pre-1857 and the Revolt of 1857",
+        "count": 24
+      },
+      {
+        "name": "Pre-Congress and Formation of INC",
+        "count": 15
+      },
+      {
+        "name": "Moderates and Extremists Era",
+        "count": 35
+      },
+      {
+        "name": "Gandhian Era",
+        "count": 97
+      },
+      {
+        "name": "Social Reforms",
+        "count": 30
+      },
+      {
+        "name": "Tribal and Peasant Movements",
+        "count": 33
+      },
+      {
+        "name": "Revolutionary Thread",
+        "count": 60
+      },
+      {
+        "name": "Constitutional Acts, Education, Press and Others",
+        "count": 22
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 66
+      }
+    ]
+  },
+  {
+    "key": "ancient_history",
+    "label": "Ancient History",
+    "emoji": "🏛️",
+    "file": "ancient_history.json",
+    "chapters": [
+      {
+        "name": "IVC AND PREHISTORIC",
+        "count": 24
+      },
+      {
+        "name": "MAHAJANPADA",
+        "count": 18
+      },
+      {
+        "name": "MAURYAN",
+        "count": 15
+      },
+      {
+        "name": "BUDDHISM AND JAINISM",
+        "count": 26
+      },
+      {
+        "name": "GUPTAS AND OTHER POST-MAURYAN",
+        "count": 45
+      }
+    ]
+  },
+  {
+    "key": "medieval_history",
+    "label": "Medieval History",
+    "emoji": "🏰",
+    "file": "medieval_history.json",
+    "chapters": [
+      {
+        "name": "Early Medieval Period",
+        "count": 16
+      },
+      {
+        "name": "Sultanate Period",
+        "count": 32
+      },
+      {
+        "name": "Religious Movements",
+        "count": 7
+      },
+      {
+        "name": "Mughal Period",
+        "count": 44
+      },
+      {
+        "name": "Maratha State and Confederacy",
+        "count": 2
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "key": "polity",
+    "label": "Indian Polity",
+    "emoji": "⚖️",
+    "file": "polity.json",
+    "chapters": [
+      {
+        "name": "Indian Union and States",
+        "count": 12
+      },
+      {
+        "name": "Fundamental Rights, DPSP, and Fundamental Duty",
+        "count": 34
+      },
+      {
+        "name": "Parliament and State Legislature",
+        "count": 50
+      },
+      {
+        "name": "Judiciary",
+        "count": 13
+      },
+      {
+        "name": "Panchayati Raj",
+        "count": 22
+      },
+      {
+        "name": "Constitutional and Non-Constitutional Bodies",
+        "count": 9
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 63
+      }
+    ]
+  },
+  {
+    "key": "economy",
+    "label": "Indian Economy",
+    "emoji": "💹",
+    "file": "economy.json",
+    "chapters": [
+      {
+        "name": "Indian Economy",
+        "count": 141
+      },
+      {
+        "name": "Test Your Knowledge",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "key": "world_geography",
+    "label": "World Geography",
+    "emoji": "🌍",
+    "file": "world_geography.json",
+    "chapters": [
+      {
+        "name": "World Geography",
+        "count": 56
+      },
+      {
+        "name": "World Geography - Test Your Knowledge",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "key": "bihar_special",
+    "label": "Bihar Special",
+    "emoji": "🗺️",
+    "file": "bihar_special.json",
+    "chapters": [
+      {
+        "name": "History of Bihar",
+        "count": 98
+      },
+      {
+        "name": "Geography of Bihar",
+        "count": 65
+      },
+      {
+        "name": "Bihar Polity",
+        "count": 28
+      }
+    ]
+  },
+  {
+    "key": "math",
+    "label": "Mathematics",
+    "emoji": "🔢",
+    "file": "math.json",
+    "chapters": [
+      {
+        "name": "BPSC 67th (Set-D)",
+        "count": 10
+      },
+      {
+        "name": "BPSC 67th Cancelled (Set-A)",
+        "count": 53
+      },
+      {
+        "name": "BPSC 68th (Set-B)",
+        "count": 10
+      },
+      {
+        "name": "BPSC 69th (Set-A)",
+        "count": 10
+      },
+      {
+        "name": "BPSC 70th (Set-G)",
+        "count": 9
+      },
+      {
+        "name": "BPSC 70th Re (Set-J)",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "key": "physics",
+    "label": "Physics",
+    "emoji": "⚛️",
+    "file": "physics.json",
+    "chapters": [
+      {
+        "name": "Electricity and Magnetism",
+        "count": 28
+      },
+      {
+        "name": "Heat and Thermodynamics",
+        "count": 20
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 47
+      },
+      {
+        "name": "Nuclear and Modern Physics",
+        "count": 10
+      },
+      {
+        "name": "Optics and Light",
+        "count": 47
+      },
+      {
+        "name": "Units, Measurements and Kinematics",
+        "count": 36
+      }
+    ]
+  },
+  {
+    "key": "biology",
+    "label": "Biology",
+    "emoji": "🧬",
+    "file": "biology.json",
+    "chapters": [
+      {
+        "name": "Human Physiology",
+        "count": 45
+      },
+      {
+        "name": "Diseases and Vectors",
+        "count": 32
+      },
+      {
+        "name": "Vitamins and Minerals",
+        "count": 23
+      },
+      {
+        "name": "Plant Biology",
+        "count": 41
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 34
+      },
+      {
+        "name": "Cell Structure and Function",
+        "count": 18
+      }
+    ]
+  }
+]

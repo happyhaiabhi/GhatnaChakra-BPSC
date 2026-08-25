@@ -125,7 +125,7 @@ The list of books lives in [`books/books.json`](books/books.json):
 3. Add one JSON file per subject in the same format as the existing subject files.
 4. Append an entry to `books/books.json`.
 
-A working starter example lives in [`books/ssc_sample/`](books/ssc_sample/).
+A worked example lives in [`books/tarkas/`](books/tarkas/) — 10 subjects / 53 chapters / 1,743 BPSC Prelims questions adapted from the Priyadarshani Book Series.
 
 ## Main features
 

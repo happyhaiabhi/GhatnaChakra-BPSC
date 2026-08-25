@@ -22,15 +22,15 @@
     "description": "7 subjects · 44 chapters · 867 verified questions"
   },
   {
-    "id": "ssc_sample",
-    "title": "SSC Practice Set",
-    "subtitle": "Staff Selection Commission · Sample",
-    "tag": "SSC Sample",
-    "emoji": "📘",
-    "color": "#7C87C8",
-    "dataDir": "books/ssc_sample/data",
+    "id": "tarkas",
+    "title": "Tarkas",
+    "subtitle": "Priyadarshani Book Series · BPSC PYQ",
+    "tag": "TARKAS",
+    "emoji": "🌺",
+    "color": "#C9897B",
+    "dataDir": "books/tarkas/data",
     "chaptersFile": "chapters.json",
-    "description": "A starter book showing how to add more question banks. Replace its JSON files with your own content."
+    "description": "10 subjects · 53 chapters · 1,743 verified BPSC Prelims questions from the Priyadarshani series."
   },
   {
     "id": "physics",
