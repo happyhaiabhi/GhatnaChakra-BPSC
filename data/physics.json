@@ -223,7 +223,7 @@
             "D": "Newton per ampere metre"
           },
           "answer": "D",
-          "explanation": "Tesla (T) is the SI unit of magnetic flux density. Magnetic flux density is a measure of the magnetic field. Among the given options, Newton/(Ampere-metre) is equivalent to tesla. tesla = . m wb Amp m N 2 = .sec m volt 2 =",
+          "explanation": "Tesla (T) is the SI unit of magnetic flux density. Magnetic flux density is a measure of the magnetic field. Among the given options, Newton/(Ampere-metre) is equivalent to tesla. tesla =. m wb Amp m N 2 =. sec m volt 2 =",
           "exam": "BPSC",
           "year": "70th B.P.S.C. Pre-2024"
         },
@@ -281,7 +281,7 @@
             "D": "Weight and acceleration"
           },
           "answer": "B",
-          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = ( ) t M F V u = - m a = where a t v u = -",
+          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = () t M F V u = - m a = where a t v u = -",
           "exam": "BPSC",
           "year": "45th B.P.S.C. (Pre) 2001"
         },
@@ -295,7 +295,7 @@
             "D": "a = (v + u ) / 2"
           },
           "answer": "A",
-          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = ( ) t M F V u = - m a = where a t v u = -",
+          "explanation": "The rate of change of momentum is called force. If the mass of an object is m, it moves with initial velocity u, and after t seconds it attains velocity v, then: Rate of change of momentum t F P 9 = () t M F V u = - m a = where a t v u = -",
           "exam": "BPSC",
           "year": "45th B.P.S.C. (Pre) 2001"
         },
@@ -566,7 +566,7 @@
             "D": "Gravitational force is not violated."
           },
           "answer": "B",
-          "explanation": "Assuming air resistance to be negligible, only gravitational force acts on a freely falling body. The decrease in potential energy is not a violation of the law of conservation of energy; rather, it is a normal example of conversion of energy from one form (potential) to another form (kinetic).Hence, statement (b) is correct. Similarly, gravitational force is a conservative force. When the body moves in the direction of gravitational force (downward), the decrease in its potential energy occurs exactly as expected by the law of gravitation. There is no violation of gravitational force or its laws. Hence, statement (d) is also correct. This phenomenon violates neither the law of conservation of energy nor the law of gravitation. The Bihar Public Service Commission has considered option (b) as the correct answer for this question",
+          "explanation": "Assuming air resistance to be negligible, only gravitational force acts on a freely falling body. The decrease in potential energy is not a violation of the law of conservation of energy; rather, it is a normal example of conversion of energy from one form (potential) to another form (kinetic). Hence, statement (b) is correct. Similarly, gravitational force is a conservative force. When the body moves in the direction of gravitational force (downward), the decrease in its potential energy occurs exactly as expected by the law of gravitation. There is no violation of gravitational force or its laws. Hence, statement (d) is also correct. This phenomenon violates neither the law of conservation of energy nor the law of gravitation. The Bihar Public Service Commission has considered option (b) as the correct answer for this question",
           "exam": "BPSC",
           "year": "71st B.P.S.C. (Pre.) 2025"
         },
@@ -626,7 +626,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "A washing machine works on the principle of centrifugation. The reaction force that is equal in magnitude to the centripetal force but opposite in direction (i.e., outward from the center) is called centrifugal force. A cloth-washing machine, a machine used to separate butter from milk, etc., work on the principle of centrifugal force.",
+          "explanation": "A washing machine works on the principle of centrifugation. The reaction force that is equal in magnitude to the centripetal force but opposite in direction (i. e., outward from the center) is called centrifugal force. A cloth-washing machine, a machine used to separate butter from milk, etc., work on the principle of centrifugal force.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
         },
@@ -775,7 +775,7 @@
             "D": "400 N"
           },
           "answer": "A",
-          "explanation": "Constant velocity means that the rate of change of velocity, i.e., acceleration, is zero. According to Newton’s laws of motion, if the acceleration of an object is zero, then the net force acting on it is also zero. Here, the two main horizontal forces are: 1. Applied forward force = 200 N 2. Backward kinetic frictional force (limiting frictional force exerted by the floor on the wooden box) Since the net force is zero; hence kinetic frictional force = 200 N. Therefore, in this situation, the backward frictional force (limiting frictional force) acting on the box is 200 N, equal to the applied force but in the opposite direction.",
+          "explanation": "Constant velocity means that the rate of change of velocity, i. e., acceleration, is zero. According to Newton’s laws of motion, if the acceleration of an object is zero, then the net force acting on it is also zero. Here, the two main horizontal forces are: 1. Applied forward force = 200 N 2. Backward kinetic frictional force (limiting frictional force exerted by the floor on the wooden box) Since the net force is zero; hence kinetic frictional force = 200 N. Therefore, in this situation, the backward frictional force (limiting frictional force) acting on the box is 200 N, equal to the applied force but in the opposite direction.",
           "exam": "BPSC",
           "year": "71st B.P.S.C. (Pre) Exam., 2025"
         },
@@ -804,7 +804,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Given, Mass of car (m) = 1500 kg Initial speed (u) = 30 km per hour = 30 × 18 5 3 25 = m/s Final speed (v) = 60 km per hour = 60 × 18 5 3 50 = m/s Required work = change in kinetic energy ( ) mv mu m v u 2 1 2 1 2 1 2 1 1500 3 50 3 25 2 1 1500 9 2500 9 625 2 1 1500 9 1875 – – × × – × × – × × 2 2 2 2 2 2 = = = = = b b b b l l l l ; E = 156250 Joule",
+          "explanation": "Given, Mass of car (m) = 1500 kg Initial speed (u) = 30 km per hour = 30 × 18 5 3 25 = m/s Final speed (v) = 60 km per hour = 60 × 18 5 3 50 = m/s Required work = change in kinetic energy () mv mu m v u 2 1 2 1 2 1 2 1 1500 3 50 3 25 2 1 1500 9 2500 9 625 2 1 1500 9 1875 – – × × – × × – × × 2 2 2 2 2 2 = = = = = b b b b l l l l; E = 156250 Joule",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         }
@@ -853,7 +853,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "D",
-          "explanation": "Compared to the Earth, gravity on the Moon is about 1/6 as much. Therefore, an object’s weight on the Moon is 1/6 of its weight on Earth. = Weight = ( ) Weight on Earth 6 1 = (1/6) × 100 = 16.7 N",
+          "explanation": "Compared to the Earth, gravity on the Moon is about 1/6 as much. Therefore, an object’s weight on the Moon is 1/6 of its weight on Earth. = Weight = () Weight on Earth 6 1 = (1/6) × 100 = 16.7 N",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
         },
@@ -867,7 +867,7 @@
             "D": "experience forces of same magnitude"
           },
           "answer": "C",
-          "explanation": "In free fall, the acceleration g is independent of mass. The relation for velocity is v = u + gt, so velocity depends not only on initial velocity (u) and time (t). Hence, if two objects are released together from the same point (neglecting air resistance) under identical initial conditions (e.g., u = 0), then at any instant their velocities will be the same.",
+          "explanation": "In free fall, the acceleration g is independent of mass. The relation for velocity is v = u + gt, so velocity depends not only on initial velocity (u) and time (t). Hence, if two objects are released together from the same point (neglecting air resistance) under identical initial conditions (e. g., u = 0), then at any instant their velocities will be the same.",
           "exam": "BPSC",
           "year": "69th B.P.S.C. (Pre) 2023"
         },
@@ -911,7 +911,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "D",
-          "explanation": "In vacuum, air resistance is zero. Therefore, if a feather, a rubber ball and a wooden ball are dropped freely together from the same height, all three will reach the ground at the same time, because their final velocity ( ) v gh 2 = will be independent of their masses.",
+          "explanation": "In vacuum, air resistance is zero. Therefore, if a feather, a rubber ball and a wooden ball are dropped freely together from the same height, all three will reach the ground at the same time, because their final velocity () v gh 2 = will be independent of their masses.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -954,7 +954,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "The law of gravitation follows the inverse-square law. The gravitational force (F) is directly proportional to the masses of the two objects (m1 and m2) and inversely proportional to the square of the distance (r) between them. F r Gm m F r 1 2 1 2 2 \\ = ( ) F F r r F F r r F F r r F F F k F 2 4 4 4 2 1 1 2 2 2 2 1 1 2 1 2 2 1 1 2 1 2 2 1 2 1 \\ \\ \\ \\ = Therefore, if the distance between two objects is doubled, the gravitational force between them becomes one-fourth.",
+          "explanation": "The law of gravitation follows the inverse-square law. The gravitational force (F) is directly proportional to the masses of the two objects (m1 and m2) and inversely proportional to the square of the distance (r) between them. F r Gm m F r 1 2 1 2 2 \\ = () F F r r F F r r F F r r F F F k F 2 4 4 4 2 1 1 2 2 2 2 1 1 2 1 2 2 1 1 2 1 2 2 1 2 1 \\ \\ \\ \\ = Therefore, if the distance between two objects is doubled, the gravitational force between them becomes one-fourth.",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         }
@@ -1360,7 +1360,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "When a 10 cm convex lens is immersed in water, its focal length increases by 10 cm, and it still behaves like a convex lens-lens maker’s formula ( ) f R R 1 1 1 1 1 2 n n = - - : D Where the refractive index of the lens (µ) and the refractive index of the medium, (µ1) and R1 and R2 are the radii of curvature of the lens. f = 10 cm, R1 = R2 = 10 cm, (µ = 1, µ 1 = 1.33) Since the refractive index of water (µ1) is greater than the refractive index of air (µ), the value of (µ – µ 1) decreases and the focal length increases- ( ') f 1 a n n -",
+          "explanation": "When a 10 cm convex lens is immersed in water, its focal length increases by 10 cm, and it still behaves like a convex lens-lens maker’s formula () f R R 1 1 1 1 1 2 n n = - -: D Where the refractive index of the lens (µ) and the refractive index of the medium, (µ1) and R1 and R2 are the radii of curvature of the lens. f = 10 cm, R1 = R2 = 10 cm, (µ = 1, µ 1 = 1.33) Since the refractive index of water (µ1) is greater than the refractive index of air (µ), the value of (µ – µ 1) decreases and the focal length increases- (') f 1 a n n -",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher (Class 9-10) 08-12-2023"
         },
@@ -1657,7 +1657,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "B",
-          "explanation": "Any substance through which heat does not flow is called a poor conductor (insulator); e.g., wood, glass, etc. All metals are good conductors of heat, but compared to other metals, lead and mercury have relatively low (poor) thermal conductivity. The thermal conductivity of lead is about 34.7 W/ mK, whereas the thermal conductivity of mercury is about 8.3 W/mK.",
+          "explanation": "Any substance through which heat does not flow is called a poor conductor (insulator); e. g., wood, glass, etc. All metals are good conductors of heat, but compared to other metals, lead and mercury have relatively low (poor) thermal conductivity. The thermal conductivity of lead is about 34.7 W/ mK, whereas the thermal conductivity of mercury is about 8.3 W/mK.",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -1863,7 +1863,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "Waves that do not require a material medium for propagation are called electromagnetic waves. Their speed in vacuum is equal to the speed of light, i.e., approximately 3×108 ms-1.",
+          "explanation": "Waves that do not require a material medium for propagation are called electromagnetic waves. Their speed in vacuum is equal to the speed of light, i. e., approximately 3×108 ms-1.",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -2542,7 +2542,7 @@
             "D": "V²/R"
           },
           "answer": "A",
-          "explanation": "Electrical work done per unit time, or electrical energy consumed per unit time, in an electric circuit is called electric power (P). In a simple ohmic circuit with steady current (D.C.), the correct formulas of electric power are— 1. P = VI, where 2. P = I2 RV = Potential difference 3. P = V2 / R I - Current R – Resistance From Ohm’s law, V = IR. Hence, among the given options, IR² (I × R²) does not represent electric power correctly.",
+          "explanation": "Electrical work done per unit time, or electrical energy consumed per unit time, in an electric circuit is called electric power (P). In a simple ohmic circuit with steady current (D. C.), the correct formulas of electric power are— 1. P = VI, where 2. P = I2 RV = Potential difference 3. P = V2 / R I - Current R – Resistance From Ohm’s law, V = IR. Hence, among the given options, IR² (I × R²) does not represent electric power correctly.",
           "exam": "BPSC",
           "year": "71st B.P.S.C.(Pre) 2025"
         },
@@ -2571,7 +2571,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Among the given options, IR² does not represent electric power in a circuit. Electric power is the rate of conversion of electrical energy. It is defined as the rate of transfer of energy in an electric circuit, or the rate of doing work in an electric circuit. Electric power can be represented by P. The SI unit of electric power is watt. Mathematically, electric power is expressed as the product of potential difference and current in a circuit: P = V × I P V× R V R V 2 = = or, P = IR × I I R V a = : D = I²R V IR ` = ] g",
+          "explanation": "Among the given options, IR² does not represent electric power in a circuit. Electric power is the rate of conversion of electrical energy. It is defined as the rate of transfer of energy in an electric circuit, or the rate of doing work in an electric circuit. Electric power can be represented by P. The SI unit of electric power is watt. Mathematically, electric power is expressed as the product of potential difference and current in a circuit: P = V × I P V× R V R V 2 = = or, P = IR × I I R V a =: D = I²R V IR ` =] g",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher Recruitment Exam - 3 July, 2024"
         },
@@ -2642,7 +2642,7 @@
             "D": "Infinite permeability"
           },
           "answer": "C",
-          "explanation": "In 1911, the Dutch physicist H. K. Onnes (1853–1926) studied the effect of temperature on resistance. He cooled some metal samples to a few kelvins and measured their electrical resistance. He found that at a very low temperature (around 4.2 K), the electrical resistance of mercury becomes zero. Later, it was found that many elements and compounds behave similarly at low temperatures. Such substances are called superconductors. Since superconductors show no resistance, there is no loss of energy when current flows through them. Therefore, superconductors can be used efficiently for transmitting electricity from one place to another. Another essential property of superconductors is that they prevent magnetic flux from entering their interior The magnetic field/flux is confined to the surface, i.e., their magnetic permeability is zero.",
+          "explanation": "In 1911, the Dutch physicist H. K. Onnes (1853–1926) studied the effect of temperature on resistance. He cooled some metal samples to a few kelvins and measured their electrical resistance. He found that at a very low temperature (around 4.2 K), the electrical resistance of mercury becomes zero. Later, it was found that many elements and compounds behave similarly at low temperatures. Such substances are called superconductors. Since superconductors show no resistance, there is no loss of energy when current flows through them. Therefore, superconductors can be used efficiently for transmitting electricity from one place to another. Another essential property of superconductors is that they prevent magnetic flux from entering their interior The magnetic field/flux is confined to the surface, i. e., their magnetic permeability is zero.",
           "exam": "BPSC",
           "year": "39th B.P.S.C. (Pre) 1994"
         },
@@ -2856,7 +2856,7 @@
             "D": "Google"
           },
           "answer": "C",
-          "explanation": "2G is the second generation of wireless communication technology. In 2G spectrum, the letter ‘G’ is used for “Generation”, i.e., “second generation”.",
+          "explanation": "2G is the second generation of wireless communication technology. In 2G spectrum, the letter ‘G’ is used for “Generation”, i. e., “second generation”.",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -3332,7 +3332,7 @@
             "D": "None of the above"
           },
           "answer": "C",
-          "explanation": "The reactance of a capacitor is inversely proportional to frequency. ( ( ) ) X C X FC i r f f 1 2 1 1 c c c a 3 ~ r r ~ = = =",
+          "explanation": "The reactance of a capacitor is inversely proportional to frequency. (()) X C X FC i r f f 1 2 1 1 c c c a 3 ~ r r ~ = = =",
           "exam": "BPSC",
           "year": "70th B.P.S.C Re-Exam 2024"
         },

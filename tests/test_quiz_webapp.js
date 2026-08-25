@@ -211,6 +211,37 @@ const ev = code => w.eval(code);
   assert.equal(d.getElementById('timer-display').textContent, '01:00');
   clearInterval(ev('timerInterval'));
 
+  // Question range selection (e.g. Selecting Q75 to Q150)
+  ev(`selectedChapters=new Set([allQuestions[0].chapter]); updateConfigPanel('physics');`);
+  const totalInCh = ev(`allQuestions.filter(q=>selectedChapters.has(q.chapter)).length`);
+  assert(totalInCh >= 10, 'test chapter has sufficient questions for range test');
+  // Test numeric inputs
+  d.getElementById('q-from').value = '5';
+  d.getElementById('q-to').value = '15';
+  w.onQuestionRangeChange(totalInCh);
+  assert.equal(d.getElementById('q-range-text').value, '5-15');
+  assert.match(d.getElementById('q-range-info').textContent, /Selecting 11 Qs \(Q#5 to Q#15/);
+  w.startQuiz();
+  assert.equal(ev('quiz.length'), 11, 'quiz contains 11 questions from range Q5 to Q15');
+  assert.match(ev('quizMeta.chapter'), /\(Q5–15\)/, 'quiz metadata carries range label');
+
+  // Test custom range text box
+  ev(`updateConfigPanel('physics');`);
+  d.getElementById('q-range-text').value = '10-20';
+  w.onQuestionRangeTextChange(totalInCh);
+  assert.equal(d.getElementById('q-from').value, '10');
+  assert.equal(d.getElementById('q-to').value, '20');
+
+  // Test preset buttons
+  const firstPresetBtn = d.querySelector('.cp-preset-pill');
+  if (firstPresetBtn) {
+    firstPresetBtn.click();
+    const pStart = firstPresetBtn.getAttribute('data-start');
+    const pEnd = firstPresetBtn.getAttribute('data-end');
+    assert.equal(d.getElementById('q-from').value, pStart, 'preset button sets q-from');
+    assert.equal(d.getElementById('q-to').value, pEnd, 'preset button sets q-to');
+  }
+
   // Source text containing markup characters must render as text, not elements.
   ev(`quiz=[{uid:'escape',chapter:'Test',question:'2 < 3 & 4 > 1',options:{A:'<tag>',B:'safe'},correctKey:'B',correctAnswer:'safe',explanation:'Use < and &.',note:''}]; state={current:0,answers:[null],visited:[true],marked:[false]}; shuffledOptionOrders=[['A','B']]; renderQuestion();`);
   assert.equal(d.querySelector('#question-area .q-text').textContent, '2 < 3 & 4 > 1');
@@ -248,6 +279,15 @@ const ev = code => w.eval(code);
   assert(syncedBookmarks.local&&syncedBookmarks.remote,'local and cloud bookmarks merged');
   assert.equal(JSON.parse(cloudStore.gc_history.payload).length,2,'history merged in both directions');
   assert.equal(Object.keys(JSON.parse(cloudStore.gc_mistakes.payload)).length,0,'archive tombstone removed stale active mistake');
+  // Verify compact payload strips duplicated 'q' object and hydration restores it
+  const compactBookmark = ev(`compactSyncValue('gc_bookmarks', { q1: { q: { uid: 'q1', question: 'test' }, addedAt: '2026-08-18' } })`);
+  assert.equal(compactBookmark.q1.q, undefined, 'compact payload omits duplicate q object');
+  assert.equal(compactBookmark.q1.addedAt, '2026-08-18', 'compact payload retains metadata');
+
+  // Verify attempts sync merging
+  const mergedAttempts = ev(`mergeSyncValue('gc_attempts', [{ id: 'att1', date: '2026-08-18T10:00:00Z', total: 10 }], [{ id: 'att2', date: '2026-08-17T10:00:00Z', total: 5 }])`);
+  assert.equal(mergedAttempts.length, 2, 'attempt history merged by ID across devices');
+
   ev(`showSignedInUI({name:'Test User',email:'test@example.com',photo:''})`);
   assert.notEqual(d.getElementById('sync-now-btn').style.display,'none');
 
@@ -516,7 +556,7 @@ const ev = code => w.eval(code);
     questions:4441,
     subjectFilesFetched:actualFiles.length,
     matchCandidatesParsed:'49/50',
-    tested:['dashboard','sub-topics (extraction, expandable list, pills, bank/search filtering, quiz scoping)','export PDF (worksheet mode, solution mode, result report mode, answer key appendix, standalone HTML download)','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','test-series sub-topics (chips, practice, pills, result breakdown)','mistakes/skips A4 PDF export','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
+    tested:['dashboard','question range selection (From Q# / To Q# / custom range text / preset chunk pills)','sub-topics (extraction, expandable list, pills, bank/search filtering, quiz scoping)','export PDF (worksheet mode, solution mode, result report mode, answer key appendix, standalone HTML download)','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','test-series sub-topics (chips, practice, pills, result breakdown)','mistakes/skips A4 PDF export','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
   }, null, 2));
   dom.window.close();
 })().catch(err=>{
