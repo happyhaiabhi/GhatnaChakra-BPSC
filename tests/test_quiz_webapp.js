@@ -266,13 +266,42 @@ const ev = code => w.eval(code);
     gc_archive:{payload:JSON.stringify({old:{q:{uid:'old'},archivedAt:'2026-08-19T00:00:00Z'}})}
   };
   w.__cloudStore=cloudStore;
-  w.__mockDb={
-    collection(){return{doc(){return{collection(){return{
-      get:async()=>({forEach:cb=>Object.entries(cloudStore).forEach(([id,value])=>cb({id,data:()=>value}))}),
-      doc:key=>({key,set:async value=>{cloudStore[key]=value;}})
-    };}};}};},
-    batch(){const writes=[];return{set:(ref,value)=>writes.push([ref.key,value]),commit:async()=>writes.forEach(([key,value])=>{cloudStore[key]=value;})};}
-  };
+  function makeFirestoreMock(store, denyKey){
+    const docFor = key => ({
+      key,
+      set: async value => {
+        if (denyKey && key === denyKey) {
+          const err = new Error('Missing or insufficient permissions.');
+          err.code = 'permission-denied';
+          throw err;
+        }
+        store[key] = value;
+      },
+      get: async () => ({
+        exists: Object.prototype.hasOwnProperty.call(store, key),
+        id: key,
+        data: () => store[key],
+        metadata: {hasPendingWrites: false}
+      })
+    });
+    return {
+      collection() {
+        return {
+          doc() {
+            return {
+              collection() {
+                return {
+                  get: async () => ({forEach: cb => Object.entries(store).forEach(([id, value]) => cb({id, data: () => value}))}),
+                  doc: docFor
+                };
+              }
+            };
+          }
+        };
+      }
+    };
+  }
+  w.__mockDb = makeFirestoreMock(cloudStore);
   ev(`fbDb=window.__mockDb;fbUserId='sync-test-user'`);
   assert.equal(await ev(`synchronizeAll(false)`),true);
   const syncedBookmarks=JSON.parse(cloudStore.gc_bookmarks.payload);
@@ -287,6 +316,21 @@ const ev = code => w.eval(code);
   // Verify attempts sync merging
   const mergedAttempts = ev(`mergeSyncValue('gc_attempts', [{ id: 'att1', date: '2026-08-18T10:00:00Z', total: 10 }], [{ id: 'att2', date: '2026-08-17T10:00:00Z', total: 5 }])`);
   assert.equal(mergedAttempts.length, 2, 'attempt history merged by ID across devices');
+
+  // Permission-denied on one key (e.g. live rules missing gc_attempts) must
+  // not fail the rest of the merge, and the UI copy must explain the rules.
+  assert.equal(ev(`isPermissionDenied({code:'permission-denied',message:'Missing or insufficient permissions.'})`), true);
+  assert.match(ev(`friendlySyncError({code:'permission-denied',message:'Missing or insufficient permissions.'})`), /Publish firestore\.rules/);
+  const partialStore = {
+    gc_mistakes:{payload:'{}'},gc_bookmarks:{payload:'{}'},gc_skips:{payload:'{}'},
+    gc_history:{payload:'[]'},gc_archive:{payload:'{}'}
+  };
+  w.__partialStore = partialStore;
+  w.__partialDb = makeFirestoreMock(partialStore, 'gc_attempts');
+  ev(`fbDb=window.__partialDb;fbUserId='sync-test-user';localStorage.setItem('gc_bookmarks',JSON.stringify({keep:{addedAt:'2026-08-18T00:00:00Z'}}));`);
+  assert.equal(await ev(`synchronizeAll(false)`), true, 'sync succeeds when only gc_attempts is denied');
+  assert(JSON.parse(partialStore.gc_bookmarks.payload).keep, 'allowed keys still written after a denied sibling');
+  ev(`fbDb=window.__mockDb`);
 
   ev(`showSignedInUI({name:'Test User',email:'test@example.com',photo:''})`);
   assert.notEqual(d.getElementById('sync-now-btn').style.display,'none');
@@ -308,6 +352,9 @@ const ev = code => w.eval(code);
   assert.equal(ev(`getHistory().length`), 1, 'SSC history written to SSC namespace');
   assert.equal(ev(`!!localStorage.getItem('gc_history__book_ssc_sample')`), true, 'SSC progress is namespaced');
   assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'legacy BPSC key untouched by SSC write');
+  ev(`saveMistakes({gone:{q:{uid:'gone'},times:1}}); saveArchive({gone:{q:{uid:'gone'},archivedAt:'2026-08-19T00:00:00Z'}}); reconcileArchivedItems();`);
+  assert.equal(ev(`Object.keys(getMistakes()).length`), 0, 'SSC archive tombstone removes SSC mistakes');
+  assert.equal(ev(`!!localStorage.getItem('gc_mistakes__book_ssc_sample')`), true, 'SSC archive/mistakes stay namespaced');
   await w.openBook('bpsc_ghatna_chakra');
   await tick(10);
   assert.equal(ev(`localStorage.getItem('gc_history__book_ssc_sample')?1:0`), 1, 'SSC data retained after switching away');
