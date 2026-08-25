@@ -81,10 +81,13 @@ The app loads JSON with `fetch`, so use a local web server rather than a `file:/
 
 ```bash
 cd Ghatna_Chakra_BPSC_Quiz
-python -m http.server 8000 --bind 0.0.0.0
+node server.js
+# or: python -m http.server 8000 --bind 0.0.0.0
 ```
 
-Then open `http://localhost:8000/`. No build step is required.
+Then open `http://localhost:8000/`. No build step is required. `server.js` sends `Cache-Control: no-store` so the preview never serves a stale build.
+
+KGS test papers (Test 1–15) are tagged by topic. Open a test card and tap a topic chip to practice only that topic. After a mixed-topic attempt, the result screen (and History → Details) shows a Topic-wise Performance table. Mistakes and Skips have a **⬇ Export PDF** button that builds an A4 black-and-white print sheet (correct answer marked, your wrong answer flagged, full explanation) and opens the print dialog.
 
 Google sign-in is intended for the authorized GitHub Pages/custom domain. If local sign-in is needed, ensure `localhost` remains in Firebase Authentication’s authorized domains.
 

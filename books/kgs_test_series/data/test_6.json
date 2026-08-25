@@ -20,7 +20,8 @@
           "note": "No answer key available for this test",
           "original_id": 1,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Infrastructure Investment Trusts (InvITs) are primarily used by developers to monetise which of the following types of infrastructure assets?",
@@ -38,7 +39,8 @@
           "note": "No answer key available for this test",
           "original_id": 2,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the measurement of National Product: 1. It is calculated by directly adding the physical quantities of various goods and services produced to ensure a comprehensive measure of volume. 2. In the scenario of a closed economy, the value of the national product is equivalent to the domestic product. Which of the statements given above is/are correct?",
@@ -56,7 +58,8 @@
           "note": "No answer key available for this test",
           "original_id": 3,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "The aggregate supply curve shows the relationship between which of the following?",
@@ -74,7 +77,8 @@
           "note": "No answer key available for this test",
           "original_id": 4,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "The unemployment rate is specifically calculated as the percentage of which of the following groups that are unemployed?",
@@ -92,7 +96,8 @@
           "note": "No answer key available for this test",
           "original_id": 5,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding Hidden Unemployment: 1. Individuals experiencing hidden unemployment have completely lost the desire to participate in the workforce. 2. Discouraged workers are completely excluded from formal unemployment statistics. Which of the statements given above is/are correct?",
@@ -110,7 +115,8 @@
           "note": "No answer key available for this test",
           "original_id": 6,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding the Cash Reserve Ratio (CRR): 1. It is a percentage of a bank’s total Demand and Time Liabilities (DTL) deposited with the RBI in order to earn a nominal rate of interest. 2. An increase in the CRR depletes the funds available with banks for lending, which results in a contraction of the overall money supply. Which of the statements given above is/are incorrect?",
@@ -128,7 +134,8 @@
           "note": "No answer key available for this test",
           "original_id": 7,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding National Investment and Manufacturing Zones (NIMZ): 1. National Investment and Manufacturing Zones are large industrial townships developed to promote manufacturing growth under the National Manufacturing Policy. 2. These zones are envisaged to be larger than Special Economic Zones and include integrated infrastructure such as transport and residential facilities. 3. The first National Investment and Manufacturing Zone approved in India was located at Prakasam district in Andhra Pradesh. Which of the statements given above is/are correct?",
@@ -146,7 +153,8 @@
           "note": "No answer key available for this test",
           "original_id": 8,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding foreign exchange regulation in India after economic liberalisation: 1. The Foreign Exchange Management Act (FEMA) was enacted in 1999 to replace the Foreign Exchange Regulation Act (FERA). 2. The Liberalised Exchange Rate Management System (LERMS) was introduced in India in 1992 as part of exchange rate reforms. 3. Under FEMA, violations are treated as criminal offences similar to those under FERA. Which of the statements given above is/are correct?",
@@ -164,7 +172,8 @@
           "note": "No answer key available for this test",
           "original_id": 9,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding public goods: 1. Their benefits are restricted to one particular consumer who pays for them. 2. There is no feasible way of excluding anyone from enjoying their benefits. Which of the statements given above is/are correct?",
@@ -182,7 +191,8 @@
           "note": "No answer key available for this test",
           "original_id": 10,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Which of the following statements correctly describes the nature of direct and indirect taxes in relation to economic burden?",
@@ -200,7 +210,8 @@
           "note": "No answer key available for this test",
           "original_id": 11,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Assertion (A): The Minimum Alternative Tax (MAT) allows companies to indefinitely avoid paying corporate income taxes. Reason (R): MAT functions as a mechanism to ensure companies pay a baseline minimum tax on their book profits. Select the correct answer:",
@@ -218,7 +229,8 @@
           "note": "No answer key available for this test",
           "original_id": 12,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "How is the “divisible pool” of central taxes determined before it is shared with the states?",
@@ -236,7 +248,8 @@
           "note": "No answer key available for this test",
           "original_id": 13,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Consider the following statements regarding the 16th Finance Commission’s approach to subsidies: 1. It encourages the expansion of unconditional cash transfers to increase beneficiary reach. 2. It was observed that subsidies across states are often misclassified as assistance or grants. Which of the statements given above is/are correct?",
@@ -254,7 +267,8 @@
           "note": "No answer key available for this test",
           "original_id": 14,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the rationale behind the emergence of Self-Help Groups (SHGs): 1. SHGs address the credit gap caused by the strict collateral requirements of formal banking institutions. 2. They promote microcredit by pooling rural savings and lending at nominal interest rates. Which of the statements given above is/are correct?",
@@ -272,7 +286,8 @@
           "note": "No answer key available for this test",
           "original_id": 15,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Which of the following are the Qualitative Tools of Monetary Policy? 1. Open Market Operations 2. Margin Requirements 3. Moral Suasion 4. Credit Rationing Select the correct answer using the codes given below:",
@@ -290,7 +305,8 @@
           "note": "No answer key available for this test",
           "original_id": 16,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which two rates determine the corridor for daily movement in the weighted average call money rate?",
@@ -308,7 +324,8 @@
           "note": "No answer key available for this test",
           "original_id": 17,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Lower domestic interest rates may lead to depreciation of the domestic currency through which channel of monetary transmission?",
@@ -326,7 +343,8 @@
           "note": "No answer key available for this test",
           "original_id": 18,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Which of the following are classified as Development Banks in India? 1. Private Sector Banks 2. Small Industries Development Bank of India (SIDBI) 3. EXIM Bank 4. National Housing Bank Select the correct answer using the codes given below:",
@@ -344,7 +362,8 @@
           "note": "No answer key available for this test",
           "original_id": 19,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following pairs regarding the classification of Non-Performing Assets (NPAs): 1. Sub-Standard Asset : NPA for more than 18 months 2. Doubtful Asset : NPA not exceeding 18 months 3. Loss Asset : Loss identified but not fully written off How many pairs given above are correctly matched?",
@@ -362,7 +381,8 @@
           "note": "No answer key available for this test",
           "original_id": 20,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding the National Electronic Funds Transfer (NEFT) system: 1. It includes a provision for penal interest in the event of a delay in the credit or return of transactions. 2. It is strictly a domestic payment system and cannot be used for any cross-border funds transfers. 3. Savings bank account customers are not levied any charges for initiating NEFT transactions online. Which of the statements given above are correct?",
@@ -380,7 +400,8 @@
           "note": "No answer key available for this test",
           "original_id": 21,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Arrange the following sectors in descending order of financial allocation in the Union Budget 2026– 27 under “Expenditure of Major Items”: 1. Defence 2. Transport 3. Rural Development 4. Agriculture and Allied Activities Select the correct answer using the code given below:",
@@ -398,7 +419,8 @@
           "note": "No answer key available for this test",
           "original_id": 22,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "In the Economic Survey 2025–26, the term “paradox of 2025” refers to:",
@@ -416,7 +438,8 @@
           "note": "No answer key available for this test",
           "original_id": 23,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Which of the following statements regarding trade remedial measures is correct?",
@@ -434,7 +457,8 @@
           "note": "No answer key available for this test",
           "original_id": 24,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "International Institutions & Trade Bodies"
         },
         {
           "q": "Which of the following statements are correct regarding the Goods and Services Tax (GST)? 1. It is a destination-based consumption tax. 2. It has amalgamated various Central and State taxes. 3. Five petroleum products are currently kept out of GST. 4. It has a single standard rate of 18% for all goods. Select the correct answer using the codes given below:",
@@ -452,7 +476,8 @@
           "note": "No answer key available for this test",
           "original_id": 25,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which term represents the net contribution of a sector in production method of national income?",
@@ -470,7 +495,8 @@
           "note": "No answer key available for this test",
           "original_id": 26,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "Consider the following statements regarding the Lakdawala Committee approach: 1. Poverty estimation was based on calorie consumption norms. 2. National Accounts Statistics were used to scale poverty estimates. 3. CPI-IW and CPI-AL were used to update poverty lines. Which of the statements given above are correct?",
@@ -488,7 +514,8 @@
           "note": "No answer key available for this test",
           "original_id": 27,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Money & Capital Markets"
         },
         {
           "q": "Arrange the following stakeholders of Regional Rural Banks (RRBs) in descending order of their shareholding contribution: 1. Central Government 2. Sponsor Banks 3. State Government Select the correct answer using the code given below:",
@@ -506,7 +533,8 @@
           "note": "No answer key available for this test",
           "original_id": 28,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Unemployment rising sharply during the early 1990s recession, declining by the mid-2000s, and rising again during the global financial crisis refers to which type of unemployment?",
@@ -524,7 +552,8 @@
           "note": "No answer key available for this test",
           "original_id": 29,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the Revenue Receipts of Bihar for 2026–27: 1. Tax Revenue constitutes the largest share of Revenue Receipts. 2. Grants-in-Aid from the Central Government exceed Non-Tax Revenue. Which of the statements given above is/are correct?",
@@ -542,7 +571,8 @@
           "note": "No answer key available for this test",
           "original_id": 30,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "The Total Revenue Receipts of Bihar for the Budget Estimate 2026–27 is:",
@@ -560,7 +590,8 @@
           "note": "No answer key available for this test",
           "original_id": 31,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which among the following sectors recorded an increase from 2025–26 (BE) to 2026–27 (BE)?",
@@ -578,7 +609,8 @@
           "note": "No answer key available for this test",
           "original_id": 32,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Which of the following is a major infrastructure project announced in the Bihar Budget 2026-27?",
@@ -596,7 +628,8 @@
           "note": "No answer key available for this test",
           "original_id": 33,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "What is the total size of the Bihar State Budget for the financial year 2026-27?",
@@ -614,7 +647,8 @@
           "note": "No answer key available for this test",
           "original_id": 34,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Consider the following pairs of Industrial Policies and their Core Conceptual Features: 1. Industrial Policy 1948 : Introduction of the mixed economy model in India. 2. Industrial Policy 1956 : Establishing a capitalist pattern of society via private sector dominance. 3. Industrial Policy 1991 : Abolition of industrial licensing and opening up to FDI. How many of the pairs given above is/are correctly matched?",
@@ -632,7 +666,8 @@
           "note": "No answer key available for this test",
           "original_id": 35,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Assertion (A): The Green Revolution led to the emergence of a capitalist trend within Indian agriculture. Reason (R): Progressive farmers began operating their land as a business enterprise under personal supervision instead of leasing it. Select the correct answer:",
@@ -650,7 +685,8 @@
           "note": "No answer key available for this test",
           "original_id": 36,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Which of the following grants has not been discontinued by the 16th Finance Commission?",
@@ -668,7 +704,8 @@
           "note": "No answer key available for this test",
           "original_id": 37,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "The primary deficit in a government budget is calculated as:",
@@ -686,7 +723,8 @@
           "note": "No answer key available for this test",
           "original_id": 38,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which of the following statements regarding the Remission of Duties and Taxes on Exported Products (RoDTEP) Scheme is correct?",
@@ -704,7 +742,8 @@
           "note": "No answer key available for this test",
           "original_id": 39,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding recent developments related to the World Trade Organisation (WTO): 1. The World Trade Organisation conducts Ministerial Conferences as its highest decisionmaking body where member countries adopt major trade decisions. 2. India supports the indefinite continuation of the moratorium on customs duties on electronic transmissions to promote digital trade. 3. The WTO Agreement on Fisheries Subsidies seeks to regulate subsidies that contribute to overfishing and depletion of marine resources. 4. At the Fourteenth WTO Ministerial Conference (MC14), members agreed to continue the practice of not imposing customs duties on electronic transmissions until 31 December 2030. Which of the statements given above is/are correct?",
@@ -722,7 +761,8 @@
           "note": "No answer key available for this test",
           "original_id": 40,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Which of the following are the key components of the Monetary Policy Framework? 1. Instruments 2. Operating Targets 3. Intermediate Targets Select the correct answer using the codes given below:",
@@ -740,7 +780,8 @@
           "note": "No answer key available for this test",
           "original_id": 41,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding the Call Money market: 1. It is an overnight inter-bank market used to manage temporary fund deficits. 2. Interest rates are stable and regulated by the RBI. 3. Transactions involve clean lending in the form of a deposit. Which of the statements given above are correct?",
@@ -758,7 +799,8 @@
           "note": "No answer key available for this test",
           "original_id": 42,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding the Monetary Policy Committee (MPC): 1. The first MPC was constituted on 2016 2. The Governor of the RBI is the ex-officio Chairperson of the MPC 3. The MPC is required to meet at least four times in a year 4. The quorum for an MPC meeting is four members Which of the statements given above are correct?",
@@ -776,7 +818,8 @@
           "note": "No answer key available for this test",
           "original_id": 43,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding key macroeconomic phenomena: 1. A ‘Liquidity Trap’ occurs when expansionary monetary policy fails to stimulate growth because interest rates are near zero. 2. The ‘Phillips Curve’ establishes a direct, positive relationship between inflation rates and unemployment rates in an economy. 3. The ‘Crowding Out’ effect happens when massive government borrowing drives up interest rates, suppressing private sector investment. Which of the statements given above is/are incorrect?",
@@ -794,7 +837,8 @@
           "note": "No answer key available for this test",
           "original_id": 44,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding the Dedicated Freight Corridors (DFCs): 1. It was conceived in 2015 with Eastern DFC (EDFC) and Western DFC (WDFC). 2. The Eastern Dedicated Freight Corridor is funded by the Japan International Cooperation Agency. 3. The Western Dedicated Freight Corridor connects Dadri in Uttar Pradesh to Jawaharlal Nehru Port. 4. DFCs are designed to exclusively carry containerised manufactured goods, prohibiting bulk agricultural commodities. Which of the statements given above is/are incorrect?",
@@ -812,7 +856,8 @@
           "note": "No answer key available for this test",
           "original_id": 45,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Industry & Infrastructure"
         },
         {
           "q": "Which of the following sectors carries the highest weightage in the Index of Industrial Production (IIP)?",
@@ -830,7 +875,8 @@
           "note": "No answer key available for this test",
           "original_id": 46,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the conceptual application of the Perquisite Tax: 1. It taxes privileges extended by employers, such as company-provided housing. 2. A company car used strictly for official purposes is fully taxable. Which of the statements given above is/are correct?",
@@ -848,7 +894,8 @@
           "note": "No answer key available for this test",
           "original_id": 47,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "With reference to India’s export performance in FY25, which of the following statements is incorrect?",
@@ -866,7 +913,8 @@
           "note": "No answer key available for this test",
           "original_id": 48,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "International Institutions & Trade Bodies"
         },
         {
           "q": "Which sector was identified as the main driver of growth on the supply side, achieving its highestever share of 56.4% in Gross Value Added (GVA) for FY26?",
@@ -884,7 +932,8 @@
           "note": "No answer key available for this test",
           "original_id": 49,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Which of the following schemes was newly announced in the Union Budget 2026–27 to provide timely access to high-quality assistive devices for eligible persons with disabilities?",
@@ -902,7 +951,8 @@
           "note": "No answer key available for this test",
           "original_id": 50,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Consider the following statements regarding taxation as an economic tool: 1. Proportional income taxes act as automatic stabilisers against economic fluctuations. 2. During a recession, proportional taxes cause disposable income to fall less sharply. 3. Not all direct taxes are progressive as they can also be proportional. Which of the statements given above are correct?",
@@ -920,7 +970,8 @@
           "note": "No answer key available for this test",
           "original_id": 51,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the “Forest” parameter for tax devolution by the 16th Finance Commission: 1. It considers only dense and moderately dense forests in its calculation. 2. It assigns weightage to the share in the increase of the overall forest area between 2015 and 2023. 3. It now considers open forests in arriving at the total forest area. Which of the statements given above are incorrect?",
@@ -938,7 +989,8 @@
           "note": "No answer key available for this test",
           "original_id": 52,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which of the following correctly explains the role of subsidies in the calculation of GDP at market prices?",
@@ -956,7 +1008,8 @@
           "note": "No answer key available for this test",
           "original_id": 53,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Which of the following indicators are generally used to measure economic development? 1. Human Development Index (HDI) 2. Literacy rate 3. Infant mortality rate 4. Real GDP growth rate Select the correct answer using the codes given below:",
@@ -974,7 +1027,8 @@
           "note": "No answer key available for this test",
           "original_id": 54,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "The Eighth Five-Year Plan (1992–97), which introduced major economic reforms, including liberalisation and was launched during a severe economic crisis, was implemented under the Prime Ministership of:",
@@ -992,7 +1046,8 @@
           "note": "No answer key available for this test",
           "original_id": 55,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding open market operations (OMO): 1. Outright OMO leads to a permanent liquidity change as there is no reversal commitment. 2. Repo permanently injects liquidity as resale terms are fixed in advance. Which of the statements given above is/are incorrect?",
@@ -1010,7 +1065,8 @@
           "note": "No answer key available for this test",
           "original_id": 56,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Money & Capital Markets"
         },
         {
           "q": "Which of the following changes in the indirect tax structure has been proposed in the Union Budget 2026-27 to boost domestic manufacturing and sustainability?",
@@ -1028,7 +1084,8 @@
           "note": "No answer key available for this test",
           "original_id": 57,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Consider the following statements regarding changes in direct taxes in the Union Budget 2026–27: 1. The Tax Collected at Source (TCS) rate on overseas tour programme packages has been reduced to 2% without any minimum amount limit. 2. The Minimum Alternate Tax (MAT) exemption available to non-residents has been withdrawn. 3. Buyback tax for all shareholders will now be treated as capital gains. Which of the statements given above is/are correct?",
@@ -1046,7 +1103,8 @@
           "note": "No answer key available for this test",
           "original_id": 58,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "The Union Budget 2026–27 announced the establishment of a new Dedicated Freight Corridor connecting which of the following locations?",
@@ -1064,7 +1122,8 @@
           "note": "No answer key available for this test",
           "original_id": 59,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "What is the value of the balanced budget multiplier?",
@@ -1082,7 +1141,8 @@
           "note": "No answer key available for this test",
           "original_id": 60,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Assertion (A): The tax multiplier is always smaller in absolute value compared to the government spending multiplier. Reason (R): Taxes enter the multiplier process through their impact on disposable income, unlike direct spending. Select the correct answer:",
@@ -1100,7 +1160,8 @@
           "note": "No answer key available for this test",
           "original_id": 61,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the economics of public goods: 1. The “free-rider” problem breaks the payment link between consumers and producers. 2. Public goods are non-rivalrous, meaning one person’s consumption limits availability for others. Which of the statements given above is/are correct?",
@@ -1118,7 +1179,8 @@
           "note": "No answer key available for this test",
           "original_id": 62,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding rural credit markets: 1. Long gestation periods in agriculture increase dependence on external credit. 2. Institutional credit reduces the risk of debt traps associated with informal lenders. 3. Expansion of rural credit automatically ensures productive investment by borrowers. Which of the statements given above is/are correct?",
@@ -1136,7 +1198,8 @@
           "note": "No answer key available for this test",
           "original_id": 63,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Which committee formulated the revised ‘Economic Capital Framework’ dictating the transfer of RBI’s surplus reserves to the government?",
@@ -1154,7 +1217,8 @@
           "note": "No answer key available for this test",
           "original_id": 64,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding Special Economic Zones (SEZs) under the SEZ Act, 2005: 1. Units within SEZs are treated as foreign territory strictly for trade operations and tariffs. 2. They are entirely exempt from the Minimum Alternate Tax (MAT) indefinitely. 3. SEZs are restricted exclusively to the manufacturing sector and exclude services. 4. Offshore Banking Units (OBUs) can be set up within Special Economic Zones. Which of the statements given above are incorrect?",
@@ -1172,7 +1236,8 @@
           "note": "No answer key available for this test",
           "original_id": 65,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Match List-I with List-II: List-I List-II (Manufacturing Industries) (Crucial Locational Constraint) a. Aluminium Smelting 1. Requires huge and uninterrupted electricity supply. b. Jute Textiles 2. Heavily dependent on abundant fresh water for retting. c. Petrochemicals 3. Uses naphtha or ethylene as a basic feedstock. d. Cotton Textiles 4. Thrives in humid climates to prevent yarn breakage. Select the correct answer using the codes given below: a b c d",
@@ -1190,7 +1255,8 @@
           "note": "No answer key available for this test",
           "original_id": 66,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "General"
         },
         {
           "q": "The Phased Manufacturing Programme (PMP) is primarily aimed at which of the following?",
@@ -1208,7 +1274,8 @@
           "note": "No answer key available for this test",
           "original_id": 67,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the revised classification criteria for Micro, Small and Medium Enterprises (MSMEs): 1. The investment threshold for the classification of micro enterprises has increased by 150% compared to the previous limit. 2. Under the revised norms, turnover limits in all MSME categories have been increased in the same proportion. 3. An enterprise previously classified as small may now be classified as micro under the revised criteria without changing its investment level. Which of the statements given above is/are correct?",
@@ -1226,7 +1293,8 @@
           "note": "No answer key available for this test",
           "original_id": 68,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Industry & Infrastructure"
         },
         {
           "q": "Which of the following best describes the core economic mechanism of the Production Linked Incentive (PLI) scheme?",
@@ -1244,7 +1312,8 @@
           "note": "No answer key available for this test",
           "original_id": 69,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the evolution of India’s poverty alleviation strategies: 1. Early Community Development Projects (1952) successfully distributed economic gains equally among all rural classes. 2. In the 1970s, the development strategy shifted to target specific groups like marginal peasants. Which of the statements given above is/are correct?",
@@ -1262,7 +1331,8 @@
           "note": "No answer key available for this test",
           "original_id": 70,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Consider the following statements regarding agricultural marketing systems: 1. Regulated markets reduce price uncertainty mainly by eliminating all intermediaries from agricultural trade. 2. Availability of storage facilities can alter farmers’ market behaviour even without changes in MSP policy. Which of the statements given above is/are incorrect?",
@@ -1280,7 +1350,8 @@
           "note": "No answer key available for this test",
           "original_id": 71,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Assertion (A): NABARD directly disburses shortterm crop loans to marginal farmers at subsidised interest rates. Reason (R): NABARD acts as the apex regulatory body coordinating and refinancing the entire rural credit system. Select the correct answer:",
@@ -1298,7 +1369,8 @@
           "note": "No answer key available for this test",
           "original_id": 72,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "According to the Bihar Budget 2026-27, what percentage of the state’s Total Revenue Receipts is estimated to come from the Central Government?",
@@ -1316,7 +1388,8 @@
           "note": "No answer key available for this test",
           "original_id": 73,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which sector received the highest budgetary allocation in the Bihar Budget 2026-27?",
@@ -1334,7 +1407,8 @@
           "note": "No answer key available for this test",
           "original_id": 74,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "According to the First Advance Estimates highlighted in the Economic Survey 2025-26, what is India’s projected real GDP growth for FY26?",
@@ -1352,7 +1426,8 @@
           "note": "No answer key available for this test",
           "original_id": 75,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "Consider the following statements regarding Gross Value Added: 1. It represents the total value of output after deducting the wear and tear of capital assets. 2. It is calculated by subtracting intermediate consumption from the value of output. 3. It reflects the full production capacity, incorporating the capital used up during the production process. Which of the statements given above are correct?",
@@ -1370,7 +1445,8 @@
           "note": "No answer key available for this test",
           "original_id": 76,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements: 1. Debt instruments issued by governments and corporations carrying fixed interest returns. 2. Long-term financial securities that provide predetermined interest income. 3. Equity instruments represent ownership in a company with dividend and voting rights. Which types of markets are being described in the above statements?",
@@ -1388,7 +1464,8 @@
           "note": "No answer key available for this test",
           "original_id": 77,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which of the following was not an objective of the Rangarajan Committee (2012)?",
@@ -1406,7 +1483,8 @@
           "note": "No answer key available for this test",
           "original_id": 78,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding the impact of globalisation and economic reforms on India after 1991: 1. India’s share in global merchandise trade has generally remained below 2.5%, while its share in global services trade has been relatively higher. 2. Before the 1991 reforms, India’s peak customs duty rate exceeded 150%, which was later reduced significantly to promote trade liberalisation. 3. Since April 2000, the manufacturing sector has received the highest cumulative Foreign Direct Investment (FDI) inflows in India. 4. Despite economic reforms, India’s manufacturing share in GDP remained largely stagnant between 1990 and 2020. Which of the statements given above are correct?",
@@ -1424,7 +1502,8 @@
           "note": "No answer key available for this test",
           "original_id": 79,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the Basel I Accord: 1. It was issued in 1988 and focused on the capital adequacy of financial institutions. 2. It categorises the assets of financial institutions into exactly three distinct risk categories. Which of the statements given above is/are correct?",
@@ -1442,7 +1521,8 @@
           "note": "No answer key available for this test",
           "original_id": 80,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "International Institutions & Trade Bodies"
         },
         {
           "q": "Which of the following components are included in the calculation of Net National Disposable Income (NNDI)? 1. Net National Income (NNI) 2. Net taxes on income and wealth receivable from abroad 3. Net social contributions and benefits receivable from abroad 4. Consumption of fixed capital Select the correct answer using the codes given below:",
@@ -1460,7 +1540,8 @@
           "note": "No answer key available for this test",
           "original_id": 81,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "The economic theory of “Ricardian Equivalence” suggests that financing government expenditure through borrowing has the same economic impact as:",
@@ -1478,7 +1559,8 @@
           "note": "No answer key available for this test",
           "original_id": 82,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding “Agricultural Diversification”: 1. It reduces market risks arising from the price fluctuations of a single primary crop. 2. It completely shifts the rural workforce toward urban manufacturing to solve disguised unemployment. 3. It provides supplementary sustainable income during the non-monsoon off-season. Which of the statements given above is/are incorrect?",
@@ -1496,7 +1578,8 @@
           "note": "No answer key available for this test",
           "original_id": 83,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "What is the primary economic mechanism that causes a “distress sale” by farmers?",
@@ -1514,7 +1597,8 @@
           "note": "No answer key available for this test",
           "original_id": 84,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "What is the time period of the “Plan holiday” in India, also known as the Three Annual Plans?",
@@ -1532,7 +1616,8 @@
           "note": "No answer key available for this test",
           "original_id": 85,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the impact of the 1991 New Economic Policy on the rural economy: 1. Stabilisation policies emphasised reducing the fiscal deficit through the withdrawal of agricultural subsidies. 2. Bank credit to agriculture sharply increased to protect the rural poor from sudden globalisation shocks. 3. Fiscal contraction resulted in a disproportionate cut in capital expenditure within the agricultural sector. Which of the statements given above are correct?",
@@ -1550,7 +1635,8 @@
           "note": "No answer key available for this test",
           "original_id": 86,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the Logistics Ease Across Different States (LEADS) Index: 1. It is published annually by NITI Aayog to rank states’ logistics performance. 2. The index is based only on perception-based surveys and does not use objective statistical indicators. 3. Coastal states have often featured prominently in the “Achievers” category of the LEADS index. Which of the statements given above is/are incorrect?",
@@ -1568,7 +1654,8 @@
           "note": "No answer key available for this test",
           "original_id": 87,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the eligibility criteria for granting ‘Maharatna’ status to Central Public Sector Enterprises (CPSEs): 1. The company must already hold the Navratna status to be considered. 2. It must have an average annual net profit of over ₹10,000 crore during the last three years. 3. It must be an unlisted company completely owned by the central government. 4. It must have a significant global presence or international operations. Which of the statements given above are correct?",
@@ -1586,7 +1673,8 @@
           "note": "No answer key available for this test",
           "original_id": 88,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the Industrial Policy Resolution (IPR) of 1956: 1. It classified Indian industries into three distinct categories based on their state ownership. 2. Schedule A comprised industries that would be exclusively owned and developed by the State. Which of the statements given above is/are correct?",
@@ -1604,7 +1692,8 @@
           "note": "No answer key available for this test",
           "original_id": 89,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "The traditional Jajmani System in the Indian rural economy was primarily based on which of the following?",
@@ -1622,7 +1711,8 @@
           "note": "No answer key available for this test",
           "original_id": 90,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Which of the following statements conceptually explain the economic challenges of adopting Organic Farming? 1. Organic farming yields are generally lower than conventional farming during the initial transition years. 2. Organic produce often has a shorter shelf life compared to chemically treated agricultural goods. 3. It generates lower rural employment because it relies heavily on automated, chemical-free farming machinery. Select the correct answer using the codes given below:",
@@ -1640,7 +1730,8 @@
           "note": "No answer key available for this test",
           "original_id": 91,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "According to the “Rupee Goes To” breakdown in the Union Budget 2026-27, what percentage of the government’s total expenditure is allocated specifically to Major Subsidies?",
@@ -1658,7 +1749,8 @@
           "note": "No answer key available for this test",
           "original_id": 92,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Which of the following are considered transfer incomes and hence excluded while estimating national income? 1. Gifts and donations 2. Income from lotteries 3. Fines and penalties 4. Taxes Select the correct answer using the codes given below:",
@@ -1676,7 +1768,8 @@
           "note": "No answer key available for this test",
           "original_id": 93,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "When a consumer’s income increases and they buy less low-quality bread and more high-quality bread, this situation represents which type of goods?",
@@ -1694,7 +1787,8 @@
           "note": "No answer key available for this test",
           "original_id": 94,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the Primary Sector: 1. According to the Census 2011, nearly threefifths of the workforce is dependent on agriculture and allied activities. 2. These sectors jobs are called blue-collar jobs Which of the statements given above is/are correct?",
@@ -1712,7 +1806,8 @@
           "note": "No answer key available for this test",
           "original_id": 95,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding Prasanta Chandra Mahalanobis: 1. He was elected as a member of the Royal Society in 1945 2. He established the Indian Statistical Institute (ISI) in Calcutta and started a journal, Sankhya Which of the statements given above is/are correct?",
@@ -1730,7 +1825,8 @@
           "note": "No answer key available for this test",
           "original_id": 96,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding a Five-Year Plan in India: 1. The plan aimed at accelerating food grain production, increasing employment opportunities, and raising productivity with a focus on “food, work, and productivity.” 2. The plan was highly successful, achieving around 6% growth against a target of 5%, helping the economy move beyond the “Hindu Rate of Growth.” Which of the following plans is best described by the above statements?",
@@ -1748,7 +1844,8 @@
           "note": "No answer key available for this test",
           "original_id": 97,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "During which period did independent India witness its first significant and consistent decline in income poverty?",
@@ -1766,7 +1863,8 @@
           "note": "No answer key available for this test",
           "original_id": 98,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding Absolute Poverty: 1. It is a temporary, short-term inability to secure the minimum income necessary for basic living requirements. 2. It is determined by comparing the relative income or consumption levels of households. Which of the statements given above is/are correct?",
@@ -1784,7 +1882,8 @@
           "note": "No answer key available for this test",
           "original_id": 99,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Consider the following statements regarding the Gini Coefficient: 1. It is an economic indicator derived from the Lorenz Curve that can be used to assess the economic development of a country. 2. A Gini Coefficient value of 1 signifies a state of perfect income equality within a population. 3. Its primary function is to measure and quantify the degree of income equality or inequality present among a demographic. Which of the statements given above is/are correct?",
@@ -1802,7 +1901,8 @@
           "note": "No answer key available for this test",
           "original_id": 100,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Arrange the following criteria used by the 16th Finance Commission for tax devolution among states in ascending order of importance/weightage: 1. Income Distance 2. Population (2011) 3. Contribution to GDP Select the correct answer using the code given below:",
@@ -1820,7 +1920,8 @@
           "note": "No answer key available for this test",
           "original_id": 101,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Which of the following best describes the primary feature of a Recurring Deposit (RD) account?",
@@ -1838,7 +1939,8 @@
           "note": "No answer key available for this test",
           "original_id": 102,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "On the basis of security taken by banks, which of the following is not listed as a category of loans?",
@@ -1856,7 +1958,8 @@
           "note": "No answer key available for this test",
           "original_id": 103,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "General"
         },
         {
           "q": "Which of the following are the functions of a Commercial Bank? 1. Remittances 2. Safe custody of articles 3. Issue of Guarantees 4. Project Appraisal Select the correct answer using the codes given below:",
@@ -1874,7 +1977,8 @@
           "note": "No answer key available for this test",
           "original_id": 104,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which of the following was not included among the key initiatives announced in the Union Budget 2026–27 to promote strategic and frontier manufacturing?",
@@ -1892,7 +1996,8 @@
           "note": "No answer key available for this test",
           "original_id": 105,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "What is the estimated Revenue Expenditure for the financial year 2026–27 (Budget Estimate) as per the Union Budget 2026–27?",
@@ -1910,7 +2015,8 @@
           "note": "No answer key available for this test",
           "original_id": 106,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Public capital expenditure increased from which of the following levels in FY15 to the projected level in FY27 as per the Union Budget 2026–27?",
@@ -1928,7 +2034,8 @@
           "note": "No answer key available for this test",
           "original_id": 107,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "According to the quick estimates of the Bihar Economic Survey 2025-26, what was the growth rate of Bihar’s Gross State Domestic Product (GSDP) at constant (2011-12) prices for the year 2024-25?",
@@ -1946,7 +2053,8 @@
           "note": "No answer key available for this test",
           "original_id": 108,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "Consider the following statements regarding consumer durable goods: 1. They are non-perishable items designed with a minimum lifespan of three years 2. They are generally cheaper than non-durable goods Which of the statements given above is/are incorrect?",
@@ -1964,7 +2072,8 @@
           "note": "No answer key available for this test",
           "original_id": 109,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Assertion (A): Between 2020-21 and 2024-25, the secondary sector’s share in Bihar’s Gross State Value Added (GSVA) at constant prices witnessed a substantial decline due to the pandemic. Reason (R): During the same period (2020-21 to 2024-25), the primary sector’s share declined to 18.3 percent, and the tertiary sector’s share decreased to 54.8 percent. Select the correct answer from the codes given below:",
@@ -1982,7 +2091,8 @@
           "note": "No answer key available for this test",
           "original_id": 110,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "Consider the following statements regarding employment and labour indicators in Bihar: 1. According to the Periodic Labour Force Survey, casual labourers constitute the largest category of male workers in Bihar. 2. In 2024–25, about 76.7 percent of persons trained under Rural Self Employment Training Institutes (RSETIs) secured employment. 3. The share of Scheduled Caste households among MGNREGS job card holders declined to 17.9 percent in 2024–25. Which of the statements given above is/are incorrect?",
@@ -2000,7 +2110,8 @@
           "note": "No answer key available for this test",
           "original_id": 111,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Consider the following statements regarding infrastructure development in Bihar: 1. Road transport in Bihar recorded an average annual growth of about 34% over 15 years. 2. The Urban Water Metro Project in Patna is estimated at about ₹ 1,500 crore. 3. The Airways sector GSVA increased by 15 times from Rs. 31 crore to Rs. 453 crore during 2011- 12 to 2024-25. Which of the statements given above is/are incorrect?",
@@ -2018,7 +2129,8 @@
           "note": "No answer key available for this test",
           "original_id": 112,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Industry & Infrastructure"
         },
         {
           "q": "Which of the following Five-Year Plans focused on “Growth with Social Justice and Equality”?",
@@ -2036,7 +2148,8 @@
           "note": "No answer key available for this test",
           "original_id": 113,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "According to Nurkse’s theory of the vicious circle of poverty, low income in underdeveloped countries is primarily due to:",
@@ -2054,7 +2167,8 @@
           "note": "No answer key available for this test",
           "original_id": 114,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Which of the following are measures used for estimating poverty in India? 1. Head Count Ratio 2. Poverty Gap Ratio 3. Amartya Sen’s Index Select the correct answer using the codes given below:",
@@ -2072,7 +2186,8 @@
           "note": "No answer key available for this test",
           "original_id": 115,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "According to the Economic Survey 2025–26, the average headline CPI inflation for April to December 2025 was:",
@@ -2090,7 +2205,8 @@
           "note": "No answer key available for this test",
           "original_id": 116,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Money & Capital Markets"
         },
         {
           "q": "Consider the following statements regarding the employment trends highlighted in the Economic Survey 2025-26: 1. Organised manufacturing sector employment increased by about 6% year-on-year in FY24, adding over 10 lakh jobs. 2. In Q2 of FY26, total employment was about 56.2 crore, with nearly 8.7 lakh jobs added compared to Q1. 3. The e-Shram portal has registered over 31 crore unorganised workers, of which women constitute more than 54%. Which of the statements given above are correct?",
@@ -2108,7 +2224,8 @@
           "note": "No answer key available for this test",
           "original_id": 117,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Assertion (A): The services sector remains the most dominant destination for Foreign Direct Investment (FDI) in India, accounting for an average of 80.2% of total FDI during FY23-FY25. Reason (R): Between 2005 and 2024, India’s share in global commercial services exports more than doubled, reaching 4.3%, thereby reinforcing India’s position as a global hub for technology and business services. Select the correct answer using the codes below:",
@@ -2126,7 +2243,8 @@
           "note": "No answer key available for this test",
           "original_id": 118,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "According to the Union Budget 2026-27, what is the estimated Fiscal Deficit target as a percentage of GDP for the Budget Estimate (BE) 2026-27?",
@@ -2144,7 +2262,8 @@
           "note": "No answer key available for this test",
           "original_id": 119,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Budget & Taxation"
         },
         {
           "q": "Consider the following statements regarding subsidies and public expenditure in India: 1. Subsidies usually form less than 5% of India’s public expenditure. 2. Subsidies can correct market failures and support vulnerable populations. 3. Untargeted subsidies may reduce funds available for productive public investment. Which of the statements given above is/are correct?",
@@ -2162,7 +2281,8 @@
           "note": "No answer key available for this test",
           "original_id": 120,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "During the early 1990s economic reforms, what did the sudden increase in primary sector employment conceptually indicate?",
@@ -2180,7 +2300,8 @@
           "note": "No answer key available for this test",
           "original_id": 121,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Consider the following statements regarding the Capital to Risk-Weighted Asset Ratio (CRAR): 1. It requires banks to maintain capital at a certain percentage based on the risk-adjusted values of their assets. 2. It helps ensure banks can protect depositors and maintain stability Which of the statements given above is/are correct?",
@@ -2198,7 +2319,8 @@
           "note": "No answer key available for this test",
           "original_id": 122,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which sector involves top-level decision-making and includes high-level professionals like senior executives and government officials?",
@@ -2216,7 +2338,8 @@
           "note": "No answer key available for this test",
           "original_id": 123,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Consider the following pairs of plans and their year of formulation: 1. Bombay Plan & Gandhian Plan : 1945 2. Peoples Plan : 1950 3. Sarvodaya Plan : 1944 How many pairs of the given above is/are correctly matched?",
@@ -2234,7 +2357,8 @@
           "note": "No answer key available for this test",
           "original_id": 124,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "The growth targets for the first three Five-Year Plans in India were set with respect to:",
@@ -2252,7 +2376,8 @@
           "note": "No answer key available for this test",
           "original_id": 125,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding Atal Pension Yojana: 1. The age of exit and commencement of pension under the scheme is 60 years 2. Under this scheme, subscribers can make contributions monthly, quarterly, or half-yearly Which of the statements given above is/are correct?",
@@ -2270,7 +2395,8 @@
           "note": "No answer key available for this test",
           "original_id": 126,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Schemes & Policies"
         },
         {
           "q": "Which of the following statements correctly defines the debt-equity ratio?",
@@ -2288,7 +2414,8 @@
           "note": "No answer key available for this test",
           "original_id": 127,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following pairs of prominent Industrial Committees and their core recommendations: 1. Karve Committee: Emphasised the promotion of village and small-scale industries for employment. 2. Hazari Committee: Recommended reviewing and overhauling the industrial licensing system. 3. Abid Hussain Committee: Recommended reforms for trade policies and the small-scale sector. How many pairs given above are correctly matched?",
@@ -2306,7 +2433,8 @@
           "note": "No answer key available for this test",
           "original_id": 128,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Poverty & Employment"
         },
         {
           "q": "Which of the following statements regarding the Index of Industrial Production (IIP) is incorrect?",
@@ -2324,7 +2452,8 @@
           "note": "No answer key available for this test",
           "original_id": 129,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following pairs of Public-Private Partnership (PPP) mechanisms and their definitions: 1. Toll-OperateTransfer (TOT) Leasing operational public infrastructure to private investors for an upfront fee. 2. Swiss Challenge A private player initiates a project proposal which is then opened to public bidding. 3. Viability Gap Funding (VGF) Covering up to 100% of capital costs for socially essential but economically unviable projects. How many pairs given above are correctly matched?",
@@ -2342,7 +2471,8 @@
           "note": "No answer key available for this test",
           "original_id": 130,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the basics of the Financial Action Task Force (FATF): 1. It was originally established by the G7 countries to combat international money laundering. 2. The FATF “Grey List” officially identifies countries that actively support and fund global terrorism. Which of the statements given above is/are correct?",
@@ -2360,7 +2490,8 @@
           "note": "No answer key available for this test",
           "original_id": 131,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "International Institutions & Trade Bodies"
         },
         {
           "q": "The Rules of Origin in a Free Trade Agreement (FTA) are mainly used for which of the following purposes?",
@@ -2378,7 +2509,8 @@
           "note": "No answer key available for this test",
           "original_id": 132,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Consider the following statements regarding the Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER): 1. An increase in the Nominal Effective Exchange Rate (NEER) indicates the appreciation of the domestic currency against a basket of foreign currencies. 2. An increase in the Real Effective Exchange Rate (REER) implies that the country’s exports have become more globally competitive. 3. A higher rate of domestic inflation compared to trading partners will cause a divergence between NEER and REER trends. Which of the statements given above is/are correct?",
@@ -2396,7 +2528,8 @@
           "note": "No answer key available for this test",
           "original_id": 133,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         },
         {
           "q": "Which of the following are the characteristics of Money Market Transactions: 1. Long-term in Nature 2. Instruments with very low risk are used 3. Very high transaction costs 4. Very high volumes Select the correct answer using the codes given below:",
@@ -2414,7 +2547,8 @@
           "note": "No answer key available for this test",
           "original_id": 134,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding Treasury Bills: 1. They are issued at a discount to their face value and redeemed at face value upon maturity. 2. Investment in these short-term instruments is restricted exclusively to commercial banks and primary dealers. Which of the statements given above is/are correct?",
@@ -2432,7 +2566,8 @@
           "note": "No answer key available for this test",
           "original_id": 135,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Money & Capital Markets"
         },
         {
           "q": "Consider the following statements regarding the Universal Service Obligation Fund (USOF) in the telecom sector: 1. USOF is funded through a Universal Access Levy charged on telecom operators’ adjusted gross revenue. 2. The USOF is maintained as an independent extra-budgetary fund outside the Consolidated Fund of India. 3. The Indian Telegraph Act was amended to grant statutory status to the USOF. Which of the statements given above are correct?",
@@ -2450,7 +2585,8 @@
           "note": "No answer key available for this test",
           "original_id": 136,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Consider the following statements regarding the National Investment and Infrastructure Fund (NIIF): 1. The Government of India holds a mandatory 51% majority equity stake in the NIIF. 2. NIIF is registered with SEBI as an Alternative Investment Fund under Indian financial regulations. 3. The NIIF Master Fund primarily invests in greenfield infrastructure projects at the preconstruction stage. Which of the statements given above is/are correct?",
@@ -2468,7 +2604,8 @@
           "note": "No answer key available for this test",
           "original_id": 137,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which statutory regulatory body governs and registers Infrastructure Investment Trusts in India?",
@@ -2486,7 +2623,8 @@
           "note": "No answer key available for this test",
           "original_id": 138,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Which of the following best describes “loose monetary policy”?",
@@ -2504,7 +2642,8 @@
           "note": "No answer key available for this test",
           "original_id": 139,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which of the following are the Quantitative Instruments of Monetary Policy Tools? 1. Cash Reserve Ratio 2. Financial Stability 3. Liquidity Adjustment Facility 4. Marginal Standing Facility Select the correct answer using the codes given below:",
@@ -2522,7 +2661,8 @@
           "note": "No answer key available for this test",
           "original_id": 140,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which of the following statements is correct regarding the Taylor Rule?",
@@ -2540,7 +2680,8 @@
           "note": "No answer key available for this test",
           "original_id": 141,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Which of the following are the correct functions of the Reserve Bank of India 1. Manager of Foreign Exchange 2. Maintain public confidence in the payment and settlement system 3. It can have periodical inspections an audit of the commercial banks in India. 4. The RBI has always tried to provide essential training to the staff of the banking industry. Select the correct answer using the codes given below:",
@@ -2558,7 +2699,8 @@
           "note": "No answer key available for this test",
           "original_id": 142,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "Consider the following statements regarding Bihar’s Gross State Domestic Product (GSDP) growth: 1. In 2024–25, Bihar recorded an 8.6 percent growth rate at constant (2011–12) prices, higher than India’s GDP growth of 6.5 percent. 2. At current prices, Bihar’s GSDP in 2024–25 grew by 13.1 percent to about ₹ 5,31,372 crore. 3. During the last three years, Bihar’s economic growth remained higher than India’s GDP growth at both current and constant prices. Which of the statements given above is/are correct?",
@@ -2576,7 +2718,8 @@
           "note": "No answer key available for this test",
           "original_id": 143,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Growth & National Income"
         },
         {
           "q": "Consider the following statements regarding the Money Multiplier: 1. It represents the maximum amount of money supply that banks can generate for each unit of high-powered money issued. 2. Cash-dominated economies generally exhibit a higher money multiplier compared to highly digitised economies. Which of the statements given above is/are correct?",
@@ -2594,7 +2737,8 @@
           "note": "No answer key available for this test",
           "original_id": 144,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Economic Concepts & Public Finance"
         },
         {
           "q": "Consider the following statements regarding the International Monetary Fund (IMF): 1. It was established in 1944 alongside the World Bank at the Bretton Woods Conference. 2. Its primary mandate is to ensure the stability of the international monetary system and oversee exchange rates. 3. It publishes the flagship “Global Economic Prospects” report twice a year to forecast global economic trends. Which of the statements given aboveare correct?",
@@ -2612,7 +2756,8 @@
           "note": "No answer key available for this test",
           "original_id": 145,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "International Institutions & Trade Bodies"
         },
         {
           "q": "The Final Draft of the Fifth Five-Year Plan (1974– 79) was prepared and launched by:",
@@ -2630,7 +2775,8 @@
           "note": "No answer key available for this test",
           "original_id": 146,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "Which of the following are the main characteristics of the New Economic Policy 1991? 1. Entry to Private Sector. 2. Delicencing. 3. Liberalisation of Foreign Trade and Investment Policy. 4. Liberalisation in Technical Area. Select the correct answer using the codes given below:",
@@ -2648,7 +2794,8 @@
           "note": "No answer key available for this test",
           "original_id": 147,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Planning & Economic Reforms"
         },
         {
           "q": "What term is used to describe a situation where a farmer employs five workers on a piece of land that actually requires only two workers to complete the operations?",
@@ -2666,7 +2813,8 @@
           "note": "No answer key available for this test",
           "original_id": 148,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Agriculture & Rural Economy"
         },
         {
           "q": "Consider the following statements regarding India’s Balance of Payments (BoP): 1. External Commercial Borrowings (ECBs) and Foreign Portfolio Investments (FPI) are recorded under the Capital Account of the BoP. 2. India currently operates under full capital account convertibility and partial current account convertibility. 3. A deficit in the Current Account always leads to a fall in the RBI’s foreign exchange reserves. Which of the statements given above is/are correct?",
@@ -2684,7 +2832,8 @@
           "note": "No answer key available for this test",
           "original_id": 149,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "Banking & Finance"
         },
         {
           "q": "According to the Economic Survey 2025–26, the three-tiered framework replacing blanket import substitution ultimately aims to progress towards:",
@@ -2702,7 +2851,8 @@
           "note": "No answer key available for this test",
           "original_id": 150,
           "test_number": 6,
-          "test_subject": "Indian Economy"
+          "test_subject": "Indian Economy",
+          "topic": "External Sector & Trade"
         }
       ]
     }

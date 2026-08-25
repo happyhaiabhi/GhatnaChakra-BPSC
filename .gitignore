@@ -1,6 +1,12 @@
 # Dependencies
 node_modules/
 
+# Session transfer leftovers
+handoff/
+HANDOFF.md
+NEW-SESSION-PROMPT.txt
+*.patch
+
 # Large/incoming source archives are not committed — extract & import, then
 # keep only the processed JSON under books/<id>/data/.
 incoming/

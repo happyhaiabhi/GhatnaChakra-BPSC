@@ -4,7 +4,9 @@
   "private": true,
   "description": "Static BPSC quiz app with Firebase cross-device sync",
   "scripts": {
-    "test": "node tests/test_quiz_webapp.js"
+    "test": "node tests/test_quiz_webapp.js",
+    "start": "node server.js",
+    "tag-topics": "node scripts/tag_test_topics.js"
   },
   "devDependencies": {
     "jsdom": "26.1.0"

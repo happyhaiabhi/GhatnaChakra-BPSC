@@ -20,7 +20,8 @@
           "note": "",
           "original_id": 1,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding the Harappan Civilisation: 1. Harappans used metallic money for trading with Mesopotamia. 2. Heavy use of burnt bricks is common in Harappan cities and contemporary Egyptian and Mesopotamian civilisations. 3. Some Harappan seals have been found in Mesopotamia. Which of the statements given above are correct?",
@@ -38,7 +39,8 @@
           "note": "",
           "original_id": 2,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding the use of iron in agricultural expansion in Bihar: 1. Iron technology was brought to the Gangetic valley by invading Macedonian armies. 2. Iron ploughshares helped in clearing dense forests in the middle Gangetic plains. 3. Magadhan states imported iron ore from the southern Deccan plateau. Which of the statements given above is/are correct?",
@@ -56,7 +58,8 @@
           "note": "",
           "original_id": 3,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Invasions (Persian & Greek)"
         },
         {
           "q": "Which of the following cities is associated with Avanti as an important urban centre and sometimes its capital?",
@@ -74,7 +77,8 @@
           "note": "",
           "original_id": 4,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mahajanapadas & Magadh"
         },
         {
           "q": "Consider the following statements regarding Chandragupta I: 1. He started the Gupta Era in 319-320 CE. 2. He was the first Gupta ruler to assume the title of Maharajadhiraja. 3. He defeated the Shaka Kshatrapas to annex Western India. Which of the statements given above is/are correct?",
@@ -92,7 +96,8 @@
           "note": "",
           "original_id": 5,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Consider the following statements regarding the agricultural practices of the Harappan civilisation: 1. Archaeological evidence indicates that a substantial quantity of rice was discovered at Banwali, serving as a primary staple. 2. The Indus people were the earliest known cultivators of cotton, which the Greeks referred to as sindon due to its origins in the Sindh region. Which of the statements given above is/are correct?",
@@ -110,7 +115,8 @@
           "note": "",
           "original_id": 6,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Which of the following sites is associated with Lower Palaeolithic culture in India?",
@@ -128,7 +134,8 @@
           "note": "",
           "original_id": 7,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Chirand is an important archaeological site in Indian prehistory associated with:",
@@ -146,7 +153,8 @@
           "note": "",
           "original_id": 8,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following pairs regarding Mauryan provincial administration and their capital headquarters: 1. Uttarapatha : Governed directly from the northwestern capital city of Taxila. 2. Dakshinapatha : Administered from the southern gold-mining hub of Suvarnagiri. 3. Avantiratha : Controlled from the newly conquered eastern capital of Tosali. 4. Kalinga : Managed from the major western commercial centre of Ujjain. How many pairs given above are correctly matched?",
@@ -164,7 +172,8 @@
           "note": "",
           "original_id": 9,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Consider the following pairs of raw materials and their associated region of the Harappan Civilisation: 1. Copper : Khetri mines of Rajasthan 2. Gold : Kutch region 3. Tin : Chotanagpur Plateau 4. Lapis lazuli : Afghanistan How many of the pairs given above is/are correctly matched?",
@@ -182,7 +191,8 @@
           "note": "",
           "original_id": 10,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding Dasyus mentioned in the Rig Veda: 1. They worshipped deities similar to those of the Aryans. 2. Their economy was mainly based on hunting and gathering. 3. Their chief was known as Trasadasyu. How many of the statements given above are correct?",
@@ -200,7 +210,8 @@
           "note": "",
           "original_id": 11,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding Jagaddala Mahavihara: 1. It was founded by the Pala king Ramapala in the Varendra region during the later phase of the Pala dynasty. 2. It became an important centre for Vajrayana scholars from declining centres and specialised in translating Sanskrit Tantric texts into Tibetan. 3. Its main library complex, Dharmaganja, was designed as an underground rock-cut vault to protect palm-leaf manuscripts from monsoonal flooding in the Bengal delta. Which of the statements given above are correct?",
@@ -218,7 +229,8 @@
           "note": "",
           "original_id": 12,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding the Junagadh Inscription of Skandagupta: 1. It records continuous administrative maintenance of Sudarshan Lake from the Mauryan period. 2. Skandagupta imposed a special emergency tax called Vishti to finance the reconstruction of the lake. 3. Parnadatta was appointed as provincial governor of Saurashtra to secure the western frontier. 4. Chakrapalita personally supervised and completed the repair of the breached embankment of Sudarshana Lake. Which of the statements given above are correct?",
@@ -236,7 +248,8 @@
           "note": "",
           "original_id": 13,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "The ancient kingdom of Pragjyotisha was located in which present-day Indian state?",
@@ -254,7 +267,8 @@
           "note": "",
           "original_id": 14,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Who presided over the First Jain Council held at Pataliputra during the Mauryan period?",
@@ -272,7 +286,8 @@
           "note": "",
           "original_id": 15,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding religious assemblies during the reign of Harsha: 1. The Kannauj assembly was convened to promote Mahayana doctrines and honour Hiuen Tsang. 2. The Prayag Mahamoksha Parishad was an annual charity event for donations to Brahmanas. Which of the statements given above is/are correct?",
@@ -290,7 +305,8 @@
           "note": "",
           "original_id": 16,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following factors mainly enabled the Kushanas to issue large quantities of highpurity gold dinaras?",
@@ -308,7 +324,8 @@
           "note": "",
           "original_id": 17,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Post-Mauryan Period"
         },
         {
           "q": "The ancient name “Meluha” mentioned in Mesopotamian records refers to:",
@@ -326,7 +343,8 @@
           "note": "",
           "original_id": 18,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Match List I with List II regarding civic administration of Mauryan Pataliputra: List-I (Board of Astynomoi) List-II (Administrative Function) a. First Board 1. Care and supervision of foreigners b. Second Board 2. Registration of births and deaths c. Third Board 3. Supervision of industries and artisans d. Fourth Board 4. Regulation of trade, commerce, weights and measures Select the correct answer using the codes given below: a b c d",
@@ -344,7 +362,8 @@
           "note": "",
           "original_id": 19,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Consider the following statements regarding crafts in the Harappan civilisation: 1. Spindle whorls indicate the practice of spinning. 2. Huge brick structures suggest the existence of a class of masons. 3. The Harappans were unfamiliar with boatmaking techniques. Which of the statements given above is/are correct?",
@@ -362,7 +381,8 @@
           "note": "",
           "original_id": 20,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding the Digambara and Shvetambara sects: 1. Shvetambara monks were allowed to wear white clothes. 2. The Digambara tradition did not allow women to attain liberation. 3. The split between the two sects happened during the lifetime of Mahavira. Which of the statements given above are correct?",
@@ -380,7 +400,8 @@
           "note": "",
           "original_id": 21,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding the Mauryan taxation system: 1. Bhaga constituted the primary land revenue representing the king’s customary share of agricultural produce. 2. Bali functioned strictly as a voluntary religious offering devoid of any compulsory state extraction. 3. Hiranya was a specialised agricultural tax collected only in cash rather than in kind. Which of the statements given above is/are correct?",
@@ -398,7 +419,8 @@
           "note": "",
           "original_id": 22,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "The Hellenistic ruler Ptolemy Philadelphus sent the ambassador Dionysius to the Mauryan court from which Mediterranean kingdom?",
@@ -416,7 +438,8 @@
           "note": "",
           "original_id": 23,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Arrange the following sites of Harappan civilisation from west to east: 1. Kot Diji 2. Sutkagendor 3. Manda 4. Amri Select the correct answer using the code given below.",
@@ -434,7 +457,8 @@
           "note": "",
           "original_id": 24,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Which of the following statements are incorrect regarding the Brahmi script? 1. James Prinsep successfully deciphered the ancient Brahmi script during the nineteenth century. 2. The script is historically written from right to left across all Mauryan edicts. 3. Ashoka utilised the Brahmi script to compose his edicts in the Sanskrit language. Select the correct answer using the codes given below:",
@@ -452,7 +476,8 @@
           "note": "",
           "original_id": 25,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Match List-I with List-II: List I\n\nList II (Harappan Terms) (Associated Features) a. Pashupati Seal\n\n1. Yogic posture b. Phallus symbols\n\n2. Fertility worship c. Dilmun\n\n3. Trade centre d. Mesopotamian records 4. Meluha Select the correct answer using the codes given below: a b c d",
@@ -470,7 +495,8 @@
           "note": "",
           "original_id": 26,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following pairs of ‘Navaratnas’ of Vikramaditya’s court and their specialised contributions: 1. Amarasimha : Authored a Sanskrit thesaurus arranged by semantic categories rather than alphabetical order. 2. Dhanvantari : Composed treatises on engineering principles of structural temple architecture. 3. Vararuchi : Authored standard texts on grammatical rules of the Prakrit language. 4. Shanku : Specialised in astronomy and mathematical calculations of planetary movements. How many pairs given above are correctly matched?",
@@ -488,7 +514,8 @@
           "note": "",
           "original_id": 27,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "The earliest specimen of the Harappan script was first noticed in:",
@@ -506,7 +533,8 @@
           "note": "",
           "original_id": 28,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding the Harappan civilisation: 1. The weighing system predominantly utilised 16 or its multiples for trade and transactions. 2. The inscribed measuring sticks discovered from this region were made exclusively of bronze. Which of the statements given above is/are correct?",
@@ -524,7 +552,8 @@
           "note": "",
           "original_id": 29,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding the social structure of Magadha during the Haryanka period: 1. Buddhist texts mention wealthy landowners by the term Gahapati. 2. Haryanka rulers abolished the Varna system in Magadha. 3. The administration appointed top officials from Shudra merchant guilds. Which of the statements given above is/are correct?",
@@ -542,7 +571,8 @@
           "note": "",
           "original_id": 30,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Which Mauryan ruler performed the Jain vow of Sallekhana at Shravanabelagola?",
@@ -560,7 +590,8 @@
           "note": "",
           "original_id": 31,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Which of the following statements correctly describes the main subject of Panini’s Ashtadhyayi?",
@@ -578,7 +609,8 @@
           "note": "",
           "original_id": 32,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following features distinguished Harappan cities from Mesopotamian cities?",
@@ -596,7 +628,8 @@
           "note": "",
           "original_id": 33,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Consider the following statements regarding the position of women in ancient India: 1. The Eran pillar inscription of Bhanugupta provides the earliest dated epigraphic evidence of Sati. 2. The Katyayana Smriti strictly prohibited widows from inheriting any portion of their deceased husband’s property. 3. The Kamasutra text indicates that upper-class urban women received formal education in various fine arts. Which of the statements given above is/are correct?",
@@ -614,7 +647,8 @@
           "note": "",
           "original_id": 34,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding the ancient Nalanda University: 1. It was founded by Gupta emperor Kumaragupta I and had a planned layout with residential viharas and temple chaityas aligned along a central axis. 2. The admission process was highly decentralised and permitted open enrollment for local populations irrespective of prior theological training. 3. A specialised gatekeeper called Dvara-Pandita served as chief examiner, asking difficult philosophical questions to screen intellectually unqualified aspirants. Which of the statements given above is/are correct?",
@@ -632,7 +666,8 @@
           "note": "",
           "original_id": 35,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Painted Grey Ware (PGW), found along with late Harappan pottery at some sites, is generally associated with:",
@@ -650,7 +685,8 @@
           "note": "",
           "original_id": 36,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Match List-I with List-II: List-I\n\nList-II (Artefacts)\n\n(Associations) a. Knossos 1. Indigenous pictographic script b. Painted Grey Ware 2. Advanced drainage system c. Mohenjo-daro 3. Signs of insecurity in the later phase d. Harappan script 4. Associated with Vedic culture Select the correct answer using the codes given below: a b c d",
@@ -668,7 +704,8 @@
           "note": "",
           "original_id": 37,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Which of the following statements correctly describes the contribution of Apala?",
@@ -686,7 +723,8 @@
           "note": "",
           "original_id": 38,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "The tribes called Ashtake Namadhanvah by Patanjali are known in traditions for:",
@@ -704,7 +742,8 @@
           "note": "",
           "original_id": 39,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding royal patrons of Jainism: 1. Kharavela recorded his achievements in the Hathigumpha inscription. 2. Kharavela brought back a Jain idol taken away by the Nandas. 3. Chandragupta Maurya built the Gommateshwara statue. 4. The Kadamba rulers supported Jain institutions. Which of the statements given above are correct?",
@@ -722,7 +761,8 @@
           "note": "",
           "original_id": 40,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding the Harappan Civilisation: 1. They extensively used bronze tools in daily life. 2. Their script shows close resemblance to Egyptian script. 3. They spread over a very wide geographical area. Which of the statements given above is/are correct?",
@@ -740,7 +780,8 @@
           "note": "",
           "original_id": 41,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Which Buddhist doctrine explains the idea of cause and effect in existence?",
@@ -758,7 +799,8 @@
           "note": "",
           "original_id": 42,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding the Rig Veda: 1. Books II to VII are considered the oldest portions. 2. Books I and X were later additions. 3. The Rig Veda was originally written in the Prakrit language. Which of the statements given above are correct?",
@@ -776,7 +818,8 @@
           "note": "",
           "original_id": 43,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding the Mathura School of Art: 1. Sculptures were mainly carved from locally available spotted red sandstone. 2. The style developed independently of Hellenistic influences seen in Gandhara art. 3. Its iconography was confined only to Mahayana Buddhist figures. Which of the statements given above is/are incorrect?",
@@ -794,7 +837,8 @@
           "note": "",
           "original_id": 44,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding Gupta-era temples: 1. The Dashavatara temple at Deogarh is an early stone temple featuring a rudimentary curvilinear shikhara. 2. The Deogarh temple complex follows a flatroofed Dravidian architectural style. 3. The brick temple at Bhitargaon shows early structural use of a true radiating arch. Which of the statements given above are correct?",
@@ -812,7 +856,8 @@
           "note": "",
           "original_id": 45,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "What was the term used for the organised groups of artisans and merchants during the Mauryan period?",
@@ -830,7 +875,8 @@
           "note": "",
           "original_id": 46,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding the Aryans: 1. The Rig Veda provides clear archaeological evidence regarding Aryan settlements. 2. Their economy was predominantly pastoral, while agriculture occupied a secondary position. 3. The absence of substantial archaeological remains is partly attributed to their seminomadic lifestyle. Which of the statements given above is/are correct?",
@@ -848,7 +894,8 @@
           "note": "",
           "original_id": 47,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding the prominent scholars of the ancient Nalanda University: 1. Shilabhadra served as Chancellor of Nalanda University during the visit of Chinese pilgrim Hiuen Tsang who was a leading authority on Yogachara philosophy. 2. Dharmapala expanded Nalanda’s curriculum to include extensive works on Mahayana Buddhism and Sanskrit epistemology. Which of the statements given above is/are correct?",
@@ -866,7 +913,8 @@
           "note": "",
           "original_id": 48,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Match List-I with List-II: List-I\n\nList-II (Events)\n\n(Associated Features) 1. Vasishtha 1. Conflict on the Parushni River 2. Kurus 2. Allied later with the Kurus 3. Battle of Ten Kings 3. Priest of Bharatas 4. Panchalas 4. Formed after the Bharata-Puru alliance Select the correct answer using the codes given below: a b c d",
@@ -884,7 +932,8 @@
           "note": "",
           "original_id": 49,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "The widespread of Northern Black Polished Ware is linked with which historical period?",
@@ -902,7 +951,8 @@
           "note": "",
           "original_id": 50,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "The term “gavisthi” in the Rig Vedic context means:",
@@ -920,7 +970,8 @@
           "note": "",
           "original_id": 51,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following pairs regarding disciples of the Buddha: 1. Ananda — Recited the Sutta Pitaka at the First Buddhist Council 2. Upali — Compiled the Vinaya Pitaka rules 3. Sujata — Offered milk-rice to Buddha before enlightenment 4. Devadatta — Served as the chief bodyguard of Buddha How many pairs given above are correctly matched?",
@@ -938,7 +989,8 @@
           "note": "",
           "original_id": 52,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding Rig Vedic polity: 1. The office of the king was generally hereditary. 2. The king exercised absolute and unrestricted authority. 3. The samiti possibly played a role in the election of the king. Which of the statements given below is/are correct?",
@@ -956,7 +1008,8 @@
           "note": "",
           "original_id": 53,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Which language was used to compose the original text of Milindapanho?",
@@ -974,7 +1027,8 @@
           "note": "",
           "original_id": 54,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Invasions (Persian & Greek)"
         },
         {
           "q": "Consider the following statements regarding the Prayag Prashasti: 1. It was composed by Harisena in classical Sanskrit using the Brahmi script. 2. It is inscribed on an earlier sandstone pillar originally erected by Mauryan emperor Ashoka. 3. It records the direct annexation of the Pallava kingdom of Kanchipuram into Magadha. Which of the statements given above is/are incorrect?",
@@ -992,7 +1046,8 @@
           "note": "",
           "original_id": 55,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Match List-I with List-II List-I\n\nList-II (Rig Vedic Terms) (Associated Features) a. Vrajapati 1. Tribal fighting group b. Kulapa 2. Head of pasture land c. Gramani 3. Head of the family d. Gana 4. Leader of the village or fighting unit Select the correct answer using the codes given below: a b c d",
@@ -1010,7 +1065,8 @@
           "note": "",
           "original_id": 56,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Which term was used for voluntary offerings made to the king in the Rig Vedic period?",
@@ -1028,7 +1084,8 @@
           "note": "",
           "original_id": 57,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding society in the Rig Vedic period: 1. Slaves were predominantly employed directly in agricultural and production activities. 2. The fourth social division, the Sudras, is mentioned for the first time in the tenth Book of the Rig Veda. Which of the statements given above is/are correct?",
@@ -1046,7 +1103,8 @@
           "note": "",
           "original_id": 58,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following statements are incorrect regarding the Mauryan currency system? 1. The imperial state maintained a strict monopoly over the minting of punch-marked silver coins. 2. The standard silver Karshapana was systematically replaced by gold dinaras for all tax collections. 3. Kakini functioned as a fractional copper coin utilised for minor daily market transactions. Select the correct answer using the codes given below:",
@@ -1064,7 +1122,8 @@
           "note": "",
           "original_id": 59,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "The division of Rig Vedic society into three groups, warriors, priests and common people, was similar to the social pattern of which region?",
@@ -1082,7 +1141,8 @@
           "note": "",
           "original_id": 60,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Assertion (A): Alexander the Great’s army refused to march eastward past the Beas river. Reason (R): They were intimidated by the massive infantry and elephant corps of the Nanda Empire. Select the correct answer:",
@@ -1100,7 +1160,8 @@
           "note": "",
           "original_id": 61,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Invasions (Persian & Greek)"
         },
         {
           "q": "Match List-I with List-II: List-I\n\nList-II (Rig Vedic Deities) (Functions) a. Indra 1. God of plants b. Agni 2. Upholder of natural order c. Varuna 3. Intermediary between gods and humans d. Soma 4. Breaker of forts Select the correct answer using the codes given below: a b c d",
@@ -1118,7 +1179,8 @@
           "note": "",
           "original_id": 62,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding the curriculum and administration of the ancient Nalanda University: 1. The medium of instruction and debate was restricted to Pali, as the curriculum adhered to the language of the original Buddhist Tripitakas. 2. It prescribed the study of the five Vidyas, including logic (Hetuvidya), medicine (Chikitsavidya), and grammar (Shabdavidya). 3. Financial needs were met through royal grants, and students and monks were not required to pay for education or boarding. Which of the statements given above is/are correct?",
@@ -1136,7 +1198,8 @@
           "note": "",
           "original_id": 63,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "What is the main purpose of the text Mahabhashya, written by Patanjali?",
@@ -1154,7 +1217,8 @@
           "note": "",
           "original_id": 64,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "The remains of Karnasuvarna, the capital of Shashanka, are found in which present-day state?",
@@ -1172,7 +1236,8 @@
           "note": "",
           "original_id": 65,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Match List-I with List-II regarding the Sangam Age: List I\n\nList II (Places/Rulers) (Associated Features) a. Uraiyur 1. Early ruler who conquered and ruled Sri Lanka for many years b. Puhar 2. Coastal port engaged in extensive Roman trade c. Karikala 3. Inland capital known for the cotton textile trade d. Elara 4. Ruler credited with constructing a major embankment on the Kaveri Select the correct answer using the codes given below: a b c d",
@@ -1190,7 +1255,8 @@
           "note": "",
           "original_id": 66,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "South India"
         },
         {
           "q": "The Maruts in the Rig Veda are associated with:",
@@ -1208,7 +1274,8 @@
           "note": "",
           "original_id": 67,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "In the Sangam literature, which Tinai (eco-region) is linked with settled farming near rivers?",
@@ -1226,7 +1293,8 @@
           "note": "",
           "original_id": 68,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Assertion (A): Vikramshila University, founded by the Pala ruler Dharmapala, later surpassed Nalanda as the chief centre of Vajrayana (Tantric) Buddhism in eastern India. Reason (R): Vikramshila had a specialised board of eminent scholars that conferred degrees and the title of ‘Pandita’ on graduating students. Select the correct answer:",
@@ -1244,7 +1312,8 @@
           "note": "",
           "original_id": 69,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which specific archaeological artefact did historian D.D. Kosambi analyses to propose the Mauryan financial crisis theory?",
@@ -1262,7 +1331,8 @@
           "note": "",
           "original_id": 70,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding Mahapadma Nanda: 1. Puranic texts celebrate Mahapadma Nanda as a legitimate descendant of the solar Kshatriya dynasty. 2. He assumed the sovereign title Ekarat after conquering the Kalinga and Koshala kingdoms. 3. The Greek historian Megasthenes directly encountered him during his diplomatic mission to Pataliputra. Which of the statements given above is/are correct?",
@@ -1280,7 +1350,8 @@
           "note": "",
           "original_id": 71,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding Vishakhadatta and Shudraka: 1. Mudrarakshasa describes a marriage alliance between Chandragupta Maurya and a Greek princess. 2. Mrichchhakatika describes the love story of a merchant and a courtesan. 3. Mudrarakshasa does not have a female main character. Which of the statements given above are correct?",
@@ -1298,7 +1369,8 @@
           "note": "",
           "original_id": 72,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following statements correctly describes the purpose of the compilation of the Panchatantra?",
@@ -1316,7 +1388,8 @@
           "note": "",
           "original_id": 73,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding the Later Vedic texts: 1. The Atharva Veda Samhita primarily contains the rituals and formulae required to accompany the recitation of hymns. 2. The Brahmanas are texts composed after the Vedic Samhitas that explain the social and religious aspects of rituals. Which of the statements given above is/are incorrect?",
@@ -1334,7 +1407,8 @@
           "note": "",
           "original_id": 74,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following statements correctly describes the primary contribution of the scholar Nagarjuna?",
@@ -1352,7 +1426,8 @@
           "note": "",
           "original_id": 75,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding Dakshinapatha: 1. Ancient texts describe Dakshinapatha as the region lying completely south of the Vindhya mountains. 2. It served as an important trade route linking northern Gangetic cities with southern markets. 3. Satavahana rulers used titles claiming themselves as lords of the Dakshinapatha. Which of the statements given above is/are correct?",
@@ -1370,7 +1445,8 @@
           "note": "",
           "original_id": 76,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Post-Mauryan Period"
         },
         {
           "q": "Tibetan scholars who travelled to Indian monastic universities to learn Sanskrit and translate Mahayana and Vajrayana texts into Tibetan were designated by which term?",
@@ -1388,7 +1464,8 @@
           "note": "",
           "original_id": 77,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following pottery types is most closely associated with the Later Vedic period?",
@@ -1406,7 +1483,8 @@
           "note": "",
           "original_id": 78,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which ancient South Indian dynasty historically provided the exclusive royal patronage for convening Sangam assemblies?",
@@ -1424,7 +1502,8 @@
           "note": "",
           "original_id": 79,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "South India"
         },
         {
           "q": "Which of the following sites are considered primitive towns in the Later Vedic period?",
@@ -1442,7 +1521,8 @@
           "note": "",
           "original_id": 80,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Assertion (A): The Indo-Parthian king Gondophernes is associated with the arrival of early Christianity. Reason (R): The Takht-i-Bahi inscription records his conversion to the Christian faith. Select the correct answer:",
@@ -1460,7 +1540,8 @@
           "note": "",
           "original_id": 81,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Invasions (Persian & Greek)"
         },
         {
           "q": "According to historian Hemchandra Raychaudhuri, which idea did Ashoka’s strong belief in weaken the Mauryan military strength?",
@@ -1478,7 +1559,8 @@
           "note": "",
           "original_id": 82,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Consider the following statements regarding the ancient scholar Varahamihira: 1. His Pancha Siddhantika compiled five earlier astronomical systems, including Greek and Roman traditions. 2. He rejected the view that planetary movements could predict earthly events such as rainfall. 3. His Brihat Samhita contains chapters on architecture, gemology, and seasonal agriculture. Which of the statements given above is/are correct?",
@@ -1496,7 +1578,8 @@
           "note": "",
           "original_id": 83,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Invasions (Persian & Greek)"
         },
         {
           "q": "The post-Sangam Pathinenkilkanakku texts, including Tirukkural, mainly deal with which type of subject?",
@@ -1514,7 +1597,8 @@
           "note": "",
           "original_id": 84,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "South India"
         },
         {
           "q": "Which action is recorded in Harshavardhana’s Banskhera inscription?",
@@ -1532,7 +1616,8 @@
           "note": "",
           "original_id": 85,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Gupta & Post-Gupta"
         },
         {
           "q": "What was the primary geopolitical consequence of Ajatashatru’s prolonged military conflict with Kosala?",
@@ -1550,7 +1635,8 @@
           "note": "",
           "original_id": 86,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mahajanapadas & Magadh"
         },
         {
           "q": "Consider the following pairs regarding Ajanta and Bagh cave paintings: 1. Ajanta Cave 1 — Contains the famous painting of Bodhisattva Padmapani holding a lotus. 2. Bagh Caves — Paintings mainly show secular scenes like court life and dancers. 3. Ajanta Cave 16 — Contains the painting of the ‘Dying Princess’ made in the Mauryan period. How many pairs given above are incorrectly matched?",
@@ -1568,7 +1654,8 @@
           "note": "",
           "original_id": 87,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding Odantapuri University: 1. It was founded in the 8th century by Gopala as a state-sponsored institution in Magadha. 2. Unlike Nalanda, it was located on Hiranya Parvat and integrated with the urban area of present-day Bihar Sharif. 3. Its architectural design and institutional structure served as a model for Samye, the first Buddhist monastery in Tibet. Which of the statements given above are correct?",
@@ -1586,7 +1673,8 @@
           "note": "",
           "original_id": 88,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following changes best characterises the later Vedic economy compared to the Rig Vedic period?",
@@ -1604,7 +1692,8 @@
           "note": "",
           "original_id": 89,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding the use of elephants in the Magadhan army: 1. The Magadhan army relied on elephants primarily for rapid, long-distance desert communications. 2. The Nanda monarchs disbanded their cavalry units to fund massive armoured elephant regiments. 3. Elephants were largely imported into Magadha from the northwestern frontiers of Gandhara. Which of the statements given above is/are correct?",
@@ -1622,7 +1711,8 @@
           "note": "",
           "original_id": 90,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Match List-I with List-II: List-I\n\nList-II (Female Scholars) (Associated Features) a. Gargi Vachaknavi 1. Rigvedic hymn composer b. Maitreyi 2. Debated on Atman and Brahman in Janaka’s court c. Lopamudra 3. Upanishadic seeker of eternal truth d. Vishwavara 4. Early Rigvedic seeress Select the correct answer using the codes given below: a b c d",
@@ -1640,7 +1730,8 @@
           "note": "",
           "original_id": 91,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Which of the following best reflects the core philosophical outlook of the Upanishads?",
@@ -1658,7 +1749,8 @@
           "note": "",
           "original_id": 92,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding Pushyamitra Shunga: 1. He killed the last Mauryan ruler, Brihadratha, during a military parade. 2. He patronised the grammarian Patanjali, who officiated at his two Ashvamedha sacrifices. 3. He prohibited the structural expansion of the Buddhist stupa at Sanchi. Which of the statements given above are correct?",
@@ -1676,7 +1768,8 @@
           "note": "",
           "original_id": 93,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding the ancient kingdom of Videha: 1. It was situated in the plains of Bihar, specifically to the north of the river Ganges. 2. It maintained its independent monarchical structure continuously until it was directly annexed by the Gupta dynasty Which of the statements given above is/are correct?",
@@ -1694,7 +1787,8 @@
           "note": "",
           "original_id": 94,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Gupta & Post-Gupta"
         },
         {
           "q": "Consider the following statements regarding the conflict between Harsha and Pulakeshin II: 1. The Aihole inscription was composed by the poet Ravikirti in classical Sanskrit. 2. The conflict fixed the Godavari River as the permanent boundary between the two empires. 3. Harsha’s defeat resulted from the military betrayal of his ally Kamarupa. 4. Pulakeshin II assumed the title Parameshwara after repelling Harsha’s army. Which of the statements given above are correct?",
@@ -1712,7 +1806,8 @@
           "note": "",
           "original_id": 95,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Match List-I with List-II: List-I (Later Vedic Rituals) List-II (Associated Features) a. Ashvamedha 1. Royal consecration ceremony b. Rajasuya 2. Inclusion of fertility and magical elements in Vedic system c. Vajapeya 3. Ritual linked with prestige and communal participation d. Atharvan tradition 4. Fertility and sovereignty ritual involving horse sacrifice Select the correct answer using the codes given below: a b c d",
@@ -1730,7 +1825,8 @@
           "note": "",
           "original_id": 96,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Which of the following statements best describes the subject of Vagbhata’s Ashtanga Hridaya?",
@@ -1748,7 +1844,8 @@
           "note": "",
           "original_id": 97,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Gupta & Post-Gupta"
         },
         {
           "q": "Who wrote the Tamil epic Manimekalai?",
@@ -1766,7 +1863,8 @@
           "note": "",
           "original_id": 98,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Assertion (A): The monolithic Ashokan sandstone pillar at Lauriya Nandangarh is crowned with a single standing lion. Reason (R): The pillar shaft was constructed by stacking multiple smaller cylindrical stone blocks together vertically. Select the correct answer:",
@@ -1784,7 +1882,8 @@
           "note": "",
           "original_id": 99,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding the Shatapatha Brahmana: 1. It provides detailed descriptions of major Vedic sacrifices such as Ashvamedha and Rajasuya. 2. It was composed primarily to promote Buddhist monastic practices. Which of the statements given above is/are correct?",
@@ -1802,7 +1901,8 @@
           "note": "",
           "original_id": 100,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following pairs regarding Sangam literature texts and their themes: 1. Tolkappiyam : Ancient grammatical treatise composed during the Second Sangam. 2. Shilappadikaram : Epic describing Kannagi’s revenge against the Pandyan king. 3. Manimekalai : Religious text dealing with the ascetic life of Jain monks. 4. Tirukkural : Work dealing with a specialised military manual for the Chola kings How many pairs given above are correctly matched?",
@@ -1820,7 +1920,8 @@
           "note": "",
           "original_id": 101,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following groups claimed a share of the Buddha’s relics after his Mahaparinirvana? 1. Licchavis of Vesali 2. Sakyas of Kapilavastu 3. Moriyas of Pipphalivana 4. Cholas of South India Select the correct answer using the code given below:",
@@ -1838,7 +1939,8 @@
           "note": "",
           "original_id": 102,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following statements correctly describes the main theme of the epic Kiratarjuniya?",
@@ -1856,7 +1958,8 @@
           "note": "",
           "original_id": 103,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding Uttarapatha: 1. The Mauryan administration made Suvarnagiri the provincial centre of Uttarapatha. 2. Pushyabhuti rulers controlled this route to dominate the horse trade from the northwest. Which of the statements given above are correct?",
@@ -1874,7 +1977,8 @@
           "note": "",
           "original_id": 104,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Which ancient stupa site is best known for its carved medallions showing Jataka stories?",
@@ -1892,7 +1996,8 @@
           "note": "",
           "original_id": 105,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which of the following statements are correct regarding Bindusara’s patronage and diplomacy? 1. He appointed the Ajivika ascetic Pingalavatsa as his primary religious counsellor. 2. He formally requested a Greek philosopher from the Seleucid king Antiochus I. 3. He commissioned the initial Barabar cave excavations for the Ajivika monks. 4. The Divyavadana says the Taxila revolt during his reign was mainly due to a Greek invasion. Select the correct answer using the codes given below:",
@@ -1910,7 +2015,8 @@
           "note": "",
           "original_id": 106,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which ancient text defines Aryavarta as the land between the Himalayas and the Vindhyas?",
@@ -1928,7 +2034,8 @@
           "note": "",
           "original_id": 107,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding the archaeological remains at Kumrahar: 1. The site has remains of a large Mauryan assembly hall with eighty pillars. 2. These pillars were mainly made from baked terracotta bricks. 3. Excavations found a Gupta-period monastic hospital called Arogya Vihara. 4. The complex was built as a military garrison for cavalry units. Select the correct answer using the codes given below:",
@@ -1946,7 +2053,8 @@
           "note": "",
           "original_id": 108,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding Chandragupta Maurya: 1. He allied with the Himalayan king Parvataka to successfully overthrow the Nanda dynasty. 2. His initial military campaigns systematically eradicated the remaining Macedonian garrisons in the northwest. 3. Classical Buddhist texts categorise his historical lineage as belonging to the Shudra varna. Which of the statements given above is/are correct?",
@@ -1964,7 +2072,8 @@
           "note": "",
           "original_id": 109,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Vedic Age"
         },
         {
           "q": "Consider the following statements regarding Buddhism: 1. Nirvana signifies the complete liberation from suffering through moral and spiritual discipline. 2. The Buddha’s first sermon at Sarnath is known as the “Turning of the Wheel of Dharma.” Which of the statements given above is/are correct?",
@@ -1982,7 +2091,8 @@
           "note": "",
           "original_id": 110,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding Mahabhinishkramana: 1. It refers to the Great Renunciation undertaken by Siddhartha Gautama. 2. The event marked Siddhartha’s departure from royal life in search of spiritual truth. Which of the statements given above is/are correct?",
@@ -2000,7 +2110,8 @@
           "note": "",
           "original_id": 111,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "General"
         },
         {
           "q": "Consider the following statements regarding Megasthenes’ account in Indica: 1. He divided the Indian population into seven distinct occupational classes. 2. He recorded the widespread existence of slavery in agricultural estates. 3. He noted that the king claimed ultimate ownership of all agricultural land. Which of the statements given above is/are incorrect?",
@@ -2018,7 +2129,8 @@
           "note": "",
           "original_id": 112,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "The ancient region called Aparanta corresponds to which present-day coastal region?",
@@ -2036,7 +2148,8 @@
           "note": "",
           "original_id": 113,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the statements regarding the First Buddhist Council: 1. The first Buddhist council was held in Lomas Rishi cave. 2. The first Buddhist Council was the first well-organised “collective” effort towards preservation of knowledge in its original form for future generations. Which of the statements given above is/are correct?",
@@ -2054,7 +2167,8 @@
           "note": "",
           "original_id": 114,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Terms such as Udranga, Uparikara, and Vatabhuta, frequently mentioned in Post-Gupta copper plate inscriptions, were associated with which aspect of administration?",
@@ -2072,7 +2186,8 @@
           "note": "",
           "original_id": 115,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Gupta & Post-Gupta"
         },
         {
           "q": "Match List-I with List-II: List-I\n\nList-II (Buddhist Councils)\n\n(Venues) a. First Buddhist Council 1. Vaishali b. Second Buddhist Council 2. Kashmir c. Third Buddhist Council 3. Rajagriha d. Fourth Buddhist Council 4. Pataliputra Select the correct answer using the codes given below: a b c d",
@@ -2090,7 +2205,8 @@
           "note": "",
           "original_id": 116,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mahajanapadas & Magadh"
         },
         {
           "q": "Consider the following statements regarding the position of women in the Mauryan administration: 1. The Arthashastra explicitly details the recruitment of armed women as personal royal bodyguards. 2. Women were actively employed as wandering ascetic spies to gather internal political intelligence. 3. The state structurally prohibited women from participating in the state-run textile weaving workshops. Which of the statements given above is/are correct?",
@@ -2108,7 +2224,8 @@
           "note": "",
           "original_id": 117,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which ancient region of Bihar was separated from Magadha by the Champa River?",
@@ -2126,7 +2243,8 @@
           "note": "",
           "original_id": 118,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mahajanapadas & Magadh"
         },
         {
           "q": "Which of the following correctly represents the Four Noble Truths of Buddhism?",
@@ -2144,7 +2262,8 @@
           "note": "",
           "original_id": 119,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Match List-I with List-II List-I List-II a. Dharmaraja Ratha A mature freestanding masonry temple built on the coastline by King Rajasimha. b. Shore Temple Ascending pyramidal tiers forming the prototype for later Chola vimanas. c. Draupadi Ratha Early cave temples excavated into rock without structural superstructures. d. Mahendravarman Mandapas Resembles a village hut with a curved thatchedstyle monolithic roof. Select the correct answer using the codes given below: a b c d",
@@ -2162,7 +2281,8 @@
           "note": "",
           "original_id": 120,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following statements regarding the term “Tirthankara” in Jainism: 1. It is a holy place to visit with devotion 2. A Tirthankara shows the path to salvation. 3. All Kevalis necessarily become Tirthankaras. Which of the statements given above is/are correct?",
@@ -2180,7 +2300,8 @@
           "note": "",
           "original_id": 121,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following statements is correct regarding the architectural importance of the Kesaria stupa?",
@@ -2198,7 +2319,8 @@
           "note": "",
           "original_id": 122,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "What is the collective term used for the Ettuthokai and Pattupattu collections in Sangam literature?",
@@ -2216,7 +2338,8 @@
           "note": "",
           "original_id": 123,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Consider the following statements regarding Parshvanatha: 1. He strongly advocated the philosophy of nonviolence toward all living beings. 2. He attained Nirvana at Sammed Shikhar. 3. He preached that religion should be confined within caste boundaries. 4. He emphasised inner purity and non-violence rather than ritualistic religion. Which of the statements given above are correct?",
@@ -2234,7 +2357,8 @@
           "note": "",
           "original_id": 124,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following statements are correct regarding the Kanva dynasty? 1. Vasudeva founded this dynasty after successfully assassinating the final Shunga monarch Devabhuti. 2. Their political sovereignty was exclusively restricted to the eastern maritime coast of Kalinga. 3. The final Kanva monarch, Susharman, was militarily overthrown by the emerging Satavahana dynasty. Select the correct answer using the codes given below:",
@@ -2252,7 +2376,8 @@
           "note": "",
           "original_id": 125,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mauryan Empire"
         },
         {
           "q": "Consider the following statements regarding Mahavira: 1. Mahavira was born into a royal family connected with Vaishali. 2. His father, Siddhartha, was the head of the Jnatrika Kshatriya clan. 3. He was the 24th Tirthankara of Jainism and succeeded Neminatha. Which of the statements given above are correct?",
@@ -2270,7 +2395,8 @@
           "note": "",
           "original_id": 126,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following pairs regarding ancient regions and their modern locations: 1. Avanti — Modern Malwa region in western Madhya Pradesh 2. Vatsa — Modern Bundelkhand region near the southern Vindhyas 3. Kosala — Awadh region in eastern Uttar Pradesh 4. Kashi — Present-day Varanasi district in Uttar Pradesh How many pairs given above are correctly matched?",
@@ -2288,7 +2414,8 @@
           "note": "",
           "original_id": 127,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following statements describes the historical and archaeological significance of the ancient Vaishali stupa?",
@@ -2306,7 +2433,8 @@
           "note": "",
           "original_id": 128,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which of the following Jain doctrines explains that a thing may possess seemingly contradictory qualities from different viewpoints, times, or conditions?",
@@ -2324,7 +2452,8 @@
           "note": "",
           "original_id": 129,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following statements regarding Kanishka’s support for Buddhism: 1. He called the Fourth Buddhist Council at Kundalavana in Kashmir. 2. He supported the scholar Ashvaghosha, who wrote Buddhacharita. 3. His court adopted Pali as the official language for Buddhist debates. Which of the statements given above are correct?",
@@ -2342,7 +2471,8 @@
           "note": "",
           "original_id": 130,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following statements regarding Satavahana administration and land grants is incorrect?",
@@ -2360,7 +2490,8 @@
           "note": "",
           "original_id": 131,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Goshala Maskariputra, the founder of the Ajivika sect, is traditionally regarded as a contemporary and former associate of:",
@@ -2378,7 +2509,8 @@
           "note": "",
           "original_id": 132,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following terms are associated with Tirthankaras in Jainism? 1. Arhat 2. Veetarag 3. Sarvajna 4. Chakravartin Select the correct answer using the code given below:",
@@ -2396,7 +2528,8 @@
           "note": "",
           "original_id": 133,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Which of the following statements correctly describes the content of Kamandaka’s Nitisara?",
@@ -2414,7 +2547,8 @@
           "note": "",
           "original_id": 134,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Philosophy & Religion"
         },
         {
           "q": "Consider the following statements regarding the Ajivika philosophy of Niyati: 1. It held that all events in life are governed by a predetermined cosmic principle. 2. It is believed that human actions and efforts could freely alter one’s destiny. Which of the statements given above is/are correct?",
@@ -2432,7 +2566,8 @@
           "note": "",
           "original_id": 135,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Philosophy & Religion"
         },
         {
           "q": "Which of the following edicts contains the statement “All men are my children”, showing Ashoka’s idea of paternal kingship?",
@@ -2450,7 +2585,8 @@
           "note": "",
           "original_id": 136,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Consider the following caves: 1. Karna Chaupar 2. Viswakarma 3. Sudama 4. Lomas Rishi Which of the following caves is a part of the Barabar Caves?",
@@ -2468,7 +2604,8 @@
           "note": "",
           "original_id": 137,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following pairs regarding works of Banabhatta: 1. Harshacharita — A biographical work describing the rise of Harsha. 2. Kadambari — A grammatical text explaining the rules of Panini. 3. Parvati Parinaya — A Sanskrit drama on the marriage of Shiva and Parvati. 4. Chandi Shataka — A text giving rules for Nagara temple construction. How many pairs given above are correctly matched?",
@@ -2486,7 +2623,8 @@
           "note": "",
           "original_id": 138,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which of the following statements correctly describes the contribution of the Vedic scholar Ghosha?",
@@ -2504,7 +2642,8 @@
           "note": "",
           "original_id": 139,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Consider the following caves: 1. Vadathi-ka-Kubha 2. Vapiya-ka-Kubha 3. Gopi-ka-Kubha Which of the above caves are part of the Nagarjuni Hills cave group?",
@@ -2522,7 +2661,8 @@
           "note": "",
           "original_id": 140,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Which of the following best describes the Charvaka philosophy?",
@@ -2540,7 +2680,8 @@
           "note": "",
           "original_id": 141,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Philosophy & Religion"
         },
         {
           "q": "Which of the following epithets of Shiva is associated with his meditative form facing south?",
@@ -2558,7 +2699,8 @@
           "note": "",
           "original_id": 142,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Philosophy & Religion"
         },
         {
           "q": "Assertion (A): The Minor Rock Edicts are important for understanding Ashoka’s personal religious life. Reason (R): They mention his gradual change from a lay follower to an active member of the Sangha. Select the correct answer:",
@@ -2576,7 +2718,8 @@
           "note": "",
           "original_id": 143,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         },
         {
           "q": "Who argued that Bhagavata teachings were contrary to Vedic injunctions and rejected them along with Buddhist and Jain doctrines?",
@@ -2594,7 +2737,8 @@
           "note": "",
           "original_id": 144,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following Buddhist texts gives a list of sixteen Mahajanapadas?",
@@ -2612,7 +2756,8 @@
           "note": "",
           "original_id": 145,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Art & Architecture"
         },
         {
           "q": "Match List I with List II regarding the Saptanga theory of state: List I\n\nList II (State Elements) (Meaning) a. Amatya 1. The physical territory alongside its taxable population. b. Janapada 2. High-ranking bureaucratic officials managing state administration. c. Danda 3. A sovereign diplomatic ally providing external support. d. Mitra 4. The coercive military apparatus ensuring internal security. Select the correct answer using the codes given below: a b c d",
@@ -2630,7 +2775,8 @@
           "note": "",
           "original_id": 146,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Archaeological excavations at Champa have yielded evidence of:",
@@ -2648,7 +2794,8 @@
           "note": "",
           "original_id": 147,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Indus Valley"
         },
         {
           "q": "Which of the following clans was not part of the Vajji confederacy?",
@@ -2666,7 +2813,8 @@
           "note": "",
           "original_id": 148,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Mahajanapadas & Magadh"
         },
         {
           "q": "Consider the following pairs regarding historical chronicles and their regions: 1. Rajatarangini — Kashmir 2. Dipavamsa — Sri Lanka 3. Mushika Vamsha — Kerala 4. Vikramankadevacharita — Kamarupa Which of the pairs given above are correctly matched?",
@@ -2684,7 +2832,8 @@
           "note": "",
           "original_id": 149,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Literature"
         },
         {
           "q": "Which of the following best characterises the political system of the ancient Mallas?",
@@ -2702,7 +2851,8 @@
           "note": "",
           "original_id": 150,
           "test_number": 7,
-          "test_subject": "Ancient History"
+          "test_subject": "Ancient History",
+          "topic": "Buddhism & Jainism"
         }
       ]
     }

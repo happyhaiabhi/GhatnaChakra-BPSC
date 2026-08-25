@@ -469,6 +469,41 @@ const ev = code => w.eval(code);
   w.closeExportModal();
   w.closeSuperSearch();
 
+  // Test-series book: sub-topic chips, topic-only practice, topic pills,
+  // topic-wise result breakdown, and the A4 PDF export.
+  await w.openBook('kgs_test_series'); await tick(30);
+  assert(d.getElementById('setup-screen').classList.contains('active'),'KGS test-series book opens');
+  await w.toggleSubjectCard('test_1'); await tick(20);
+  const topicChips=d.querySelectorAll('#sc-chlist-test_1 .topic-chip');
+  assert(topicChips.length>=10,'Test 1 renders sub-topic chips ('+topicChips.length+')');
+  assert([...topicChips].some(c=>/Rivers/.test(c.textContent)),'Rivers topic chip present');
+  ev(`practiceTopic('test_1','${encodeURIComponent('Rivers, Lakes & Waterfalls')}')`);
+  assert(d.getElementById('quiz-screen').classList.contains('active'),'topic practice starts a quiz');
+  assert(ev('quiz.length')>0,'topic quiz has questions');
+  assert(ev(`quiz.every(q=>q.topic==='Rivers, Lakes & Waterfalls')`),'topic quiz contains only that topic');
+  assert(d.querySelector('#question-area .question-topic-pill'),'topic pill shown during quiz');
+  ev("startQuiz('history', allQuestions.slice(0,30))");
+  ev(`for(let i=0;i<quiz.length;i++){state.answers[i]= i<10?quiz[i].correctKey : (i<20? Object.keys(quiz[i].options).find(k=>k!==quiz[i].correctKey) : null);}`);
+  w.submitQuiz();
+  assert(d.getElementById('res-topic-wrap').style.display!=='none','topic breakdown table shown');
+  const topicRows=d.querySelectorAll('#res-topic-wrap .topic-table tbody tr');
+  assert(topicRows.length>=5,'topic table lists topics ('+topicRows.length+')');
+  const topicQSum=[...topicRows].reduce((a,r)=>a+Number(r.cells[1].textContent),0);
+  assert(topicQSum===30,'topic table accounts for every question');
+  assert(d.querySelector('#review-body .question-topic-pill'),'review items show topic pill');
+  const kgsAttempts=ev('getAttempts()');
+  await w.viewAttemptDetails(kgsAttempts[0].id); await tick(20);
+  assert(d.getElementById('res-topic-wrap').style.display!=='none','attempt details shows topic breakdown');
+  const pdfHtml=ev(`buildBankExportHtml('mistake',Object.values(getMistakes()))`);
+  assert(/@page\{size:A4/.test(pdfHtml),'PDF sheet is A4');
+  assert(/Correct Answer/.test(pdfHtml)&&/Explanation:/.test(pdfHtml),'PDF includes answers and explanations');
+  assert(/your answer/.test(pdfHtml),'PDF marks the user wrong answer');
+  assert((pdfHtml.match(/class="q"/g)||[]).length===ev('Object.keys(getMistakes()).length'),'one PDF block per exported mistake');
+  w.showMistakeScreen();
+  assert(d.querySelector('button[onclick="exportBankPdf(\'mistake\')"]'),'⬇ Export PDF button on Mistakes screen');
+  w.showSkipScreen();
+  assert(d.querySelector('button[onclick="exportBankPdf(\'skip\')"]'),'⬇ Export PDF button on Skips screen');
+
   // Reset back to BPSC book
   await w.openBook('bpsc_ghatna_chakra');
   await tick(10);
@@ -481,7 +516,7 @@ const ev = code => w.eval(code);
     questions:4441,
     subjectFilesFetched:actualFiles.length,
     matchCandidatesParsed:'49/50',
-    tested:['dashboard','sub-topics (extraction, expandable list, pills, bank/search filtering, quiz scoping)','export PDF (worksheet mode, solution mode, result report mode, answer key appendix, standalone HTML download)','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
+    tested:['dashboard','sub-topics (extraction, expandable list, pills, bank/search filtering, quiz scoping)','export PDF (worksheet mode, solution mode, result report mode, answer key appendix, standalone HTML download)','subject/chapter loading','quiz rendering','match layouts','assertion–reason cards','numbered statement rows','taxonomy pills and filters','multiple answers','figure labels','fallback','selection','navigation','scoring','results/review','attempt history details + wrong/skip re-attempt','test-series sub-topics (chips, practice, pills, result breakdown)','mistakes/skips A4 PDF export','bookmarks','mistakes','skips','archive','theme','timer','HTML escaping','cross-device merge','archive tombstones','manual sync UI']
   }, null, 2));
   dom.window.close();
 })().catch(err=>{

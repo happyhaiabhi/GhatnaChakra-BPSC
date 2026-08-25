@@ -104,7 +104,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 
 /* CHAPTER EXPANDER */
 .sc-chapters{max-height:0;overflow:hidden;transition:max-height 0.35s ease;background:var(--bg2);border-top:0px solid var(--border);}
-.subject-card.expanded .sc-chapters{max-height:380px;overflow-y:auto;border-top:1px solid var(--border);}
+.subject-card.expanded .sc-chapters{max-height:560px;overflow-y:auto;border-top:1px solid var(--border);}
 .sc-ch-header{display:flex;align-items:center;gap:8px;padding:10px 16px 8px;border-bottom:1px solid var(--border);}
 .sc-ch-header-lbl{font-size:0.6rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text3);font-weight:700;flex:1;}
 .sc-ch-selall{font-size:0.62rem;color:var(--gold);cursor:pointer;font-weight:600;background:none;border:none;font-family:'DM Sans',sans-serif;padding:2px 0;}
@@ -119,6 +119,17 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .ch-row.selected .ch-name{color:var(--text);}
 .ch-count{font-size:0.6rem;background:var(--surface3);color:var(--text3);padding:2px 7px;border-radius:8px;font-weight:600;flex-shrink:0;}
 .ch-row.selected .ch-count{background:var(--blue-dim);color:var(--blue);}
+/* Topic chips inside test cards + topic pills + topic-wise result table */
+.topic-section{padding:10px 16px 0;font-size:.58rem;letter-spacing:.8px;text-transform:uppercase;color:var(--text3);border-top:1px dashed var(--border);margin-top:6px;font-weight:700;}
+.topic-rows{display:flex;flex-wrap:wrap;gap:6px;padding:8px 16px 14px;}
+.topic-chip{display:inline-flex;align-items:center;gap:5px;padding:6px 10px;border-radius:999px;background:var(--surface2);border:1px solid var(--border);font-size:.68rem;color:var(--text2);cursor:pointer;transition:all .12s;font-family:'Nunito',system-ui,sans-serif;}
+.topic-chip:hover{border-color:var(--blue);color:var(--text);transform:translateY(-1px);}
+.topic-chip .topic-count{font-size:.58rem;font-weight:800;background:var(--blue-dim);color:var(--blue);border-radius:999px;padding:1px 6px;}
+.question-topic-pill{display:inline-flex;align-items:center;font-size:.58rem;font-weight:700;letter-spacing:.4px;color:var(--gold);background:var(--gold-dim);border:1px solid rgba(201,137,123,.35);padding:3px 8px;border-radius:999px;line-height:1.2;}
+.topic-table{width:100%;border-collapse:collapse;font-size:.72rem;}
+.topic-table th{font-size:.6rem;text-transform:uppercase;letter-spacing:.5px;color:var(--text3);padding:8px;border-bottom:1px solid var(--border);text-align:center;font-family:'DM Sans',sans-serif;}
+.topic-table td{padding:8px;border-bottom:1px solid var(--border);text-align:center;color:var(--text2);font-family:'Nunito',sans-serif;}
+.topic-table tr:last-child td{border-bottom:none;}
 
 /* CONFIG PANEL */
 .config-panel{width:100%;max-width:960px;background:var(--surface);border:1.5px solid var(--gold);border-radius:16px;overflow:hidden;box-shadow:0 8px 28px var(--gold-glow);animation:slideUp 0.25s ease;}
@@ -1467,6 +1478,7 @@ html,body{height:100%;}
       <button class="res-btn res-btn-skip" id="btn-retry-skip" onclick="retrySkipped()">Retry Skipped</button>
       <button class="res-btn res-btn-export" id="btn-export-pdf-result" onclick="openExportModal('result')">&#x1F4C4; Export PDF</button>
     </div>
+    <div class="review-list" id="res-topic-wrap" style="display:none;"></div>
     <div class="review-list">
       <div class="review-header">
         <h3>Question Review</h3>
@@ -1507,6 +1519,7 @@ html,body{height:100%;}
       <span id="mistake-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllMistakes()" style="background:var(--red-dim);border:1px solid var(--red);color:var(--red);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
       <button onclick="openExportModal('mistake')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
+      <button onclick="exportBankPdf('mistake')" title="Export as PDF (A4, black &amp; white) — questions with answers and explanations" style="background:var(--surface);border:1px solid var(--gold);color:var(--gold);padding:6px 10px;border-radius:7px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#11015;&#65039; Export PDF</button>
       <button onclick="practiceFromMistakes()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
@@ -1544,6 +1557,7 @@ html,body{height:100%;}
       <span id="skip-count-lbl" style="font-size:0.7rem;color:var(--text3);margin-left:auto;flex-shrink:0;"></span>
       <button onclick="clearAllSkips()" style="background:var(--purple-dim);border:1px solid var(--purple);color:var(--purple);padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">Archive All</button>
       <button onclick="openExportModal('skip')" class="bank-export-btn" style="padding:6px 10px;border-radius:7px;font-size:0.7rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#x1F4C4; Export PDF</button>
+      <button onclick="exportBankPdf('skip')" title="Export as PDF (A4, black &amp; white) — questions with answers and explanations" style="background:var(--surface);border:1px solid var(--gold);color:var(--gold);padding:6px 10px;border-radius:7px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;white-space:nowrap;">&#11015;&#65039; Export PDF</button>
       <button onclick="practiceFromSkips()" style="background:var(--gold);color:#ffffff;border:none;padding:7px 12px;border-radius:8px;font-size:0.7rem;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">Practice</button>
     </div>
     <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">&#x1F7E2; Auto-archive after 5 correct answers &middot; &#x1F337; also appears in Bloom Review</div>
@@ -1619,7 +1633,7 @@ function resolveBookChaptersUrl(book){
 }
 
 let currentSubjectId=null,selectedChapters=new Set(),selectedSubtopics=new Set(),allQuestions=[],chapterMap={},chapterSubtopicsMap={},subjectSubtopics=new Set(),subjectDataCache={};
-let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[],resultBackTo=null;
+let quiz=[],state={},quizMeta={},timerInterval=null,paused=false,totalSecs=0,lastResults=[],shuffledOptionOrders=[],resultBackTo=null,topicQuizName='';
 
 const LS={get:(k,d={})=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(d));}catch(e){return d;}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
 const getHistory=()=>LS.get(sk('gc_history'),[]);let saveHistory=h=>LS.set(sk('gc_history'),h);
@@ -1706,6 +1720,22 @@ async function toggleSubjectCard(subjId){
   setTimeout(()=>{card.scrollIntoView({behavior:'smooth',block:'nearest'});},100);
 }
 
+const TOPIC_EMOJI={"Census & Population":"📊","Forests & Wildlife":"🦌","Schemes & Policies":"📜","Agriculture & Irrigation":"🌾","Transport":"🚉","Minerals":"⛏️","Rivers, Lakes & Waterfalls":"🌊","Art, Culture & Language":"🎭","Books, Authors & Press":"📚","Polity & Elections":"🏛️","Economy & Industry":"🏭","Modern Bihar & Freedom Struggle":"🇮🇳","Medieval Bihar":"🕌","Ancient Bihar":"🏺","Physical Geography":"⛰️","Current Affairs (Bihar)":"📰","General":"🔹","Environment & Conservation":"🌿","Oceans & Currents":"🌊","Rivers & Lakes":"💧","Climate":"🌦️","Minerals & Resources":"⛏️","Population & Settlement":"🏙️","Agriculture & Economy":"🚜","Physical Landforms":"⛰️","Continents & Regions":"🗺️","Sports":"🏏","Awards & Honours":"🏅","Appointments & Persons in News":"👤","Obituaries":"🕯️","Summits, Conferences & Meetings":"🤝","Defence & Security":"🛡️","Space & Nuclear":"🚀","Science & Technology":"🔬","Economy, Banking & Finance":"💰","Reports, Indices & Data":"📈","Agreements & Appointments (Intl)":"🤝","Environment & Health":"🩺","States & Governance":"🏘️","Books, Days & Misc":"📖","Environment & Wildlife":"🐅","Rivers & Drainage":"🏞️","Climate & Monsoon":"🌧️","Soils & Natural Vegetation":"🌳","Agriculture":"🌾","Minerals & Energy":"⚡","Industry":"🏭","Transport & Communication":"🚛","Population, Census & Settlement":"📊","States, Boundaries & Regions":"🇮🇳","Physical Features & Landforms":"🏔️","International Institutions & Trade Bodies":"🌐","Banking & Finance":"🏦","Budget & Taxation":"🧾","External Sector & Trade":"🚢","Money & Capital Markets":"💱","Agriculture & Rural Economy":"🌾","Industry & Infrastructure":"🏗️","Poverty & Employment":"👥","Growth & National Income":"📈","Art & Architecture":"🛕","Literature":"📜","Buddhism & Jainism":"☸️","Science & Math":"🔢","Indus Valley":"🏺","Vedic Age":"🐄","Mauryan Empire":"🦁","Invasions (Persian & Greek)":"🏹","Post-Mauryan Period":"🏛️","Gupta & Post-Gupta":"👑","South India":"🌴","Mahajanapadas & Magadh":"⚔️","Prehistoric & Stone Age":"🪨","Philosophy & Religion":"🪔","Bhakti & Sufi Movements":"🕌","Art, Culture & Literature":"🎨","Marathas & Sikhs":"⚔️","Vijayanagar & Regional Kingdoms":"🏰","Delhi Sultanate":"👑","Mughal Empire":"🕌","Arrival of Turks & Early Sultanate":"🏇","Administration, Economy & Society":"⚖️","Space & Defence Technology":"🚀","IT, Electronics & New Tech":"💻","Nuclear & Energy Technology":"⚛️","Biotechnology":"🧬","Cell & Biomolecules":"🔬","Genetics & Heredity":"🧪","Human Physiology":"🫀","Plant Biology":"🌱","Diseases & Health":"🦠","Nutrition & Vitamins":"🥗","Ecology & Environment":"🌍","Evolution & Taxonomy":"🐒","Microbiology":"🧫","Revolt of 1857":"⚔️","Socio-Religious Reform":"🕉️","Press, Education & Literature":"📰","Peasant, Tribal & Civil Rebellions":"🔥","European Companies & Conquest":"⛵","Economic Policies & Exploitation":"💸","Governors-General & Administration":"🎩","Early Political Associations":"🏛️","Personalities & Miscellaneous":"👤","Partition & Independence":"🇮🇳","Constitutional Reforms (1892–1935)":"📜","Gandhi & Mass Movements":"🕊️","Revolutionary Nationalism":"💣","Congress & National Movement Phases":"🚩","Peasant, Worker & Tribal Movements":"👥","Princely States & Integration":"🏰","Post-Independence India":"🇮🇳","Personalities & Books":"📖","Bihar & the National Movement":"🌟","Optics":"👁️","Electricity & Magnetism":"⚡","Modern & Nuclear Physics":"⚛️","Sound & Waves":"🔊","Heat & Thermodynamics":"🌡️","Motion, Forces & Mechanics":"⚽","Units, Measurement & Instruments":"📏","Everyday Physics & Scientists":"👨‍🔬","Atomic Structure & Periodic Table":"🧪","Chemical Bonding & Reactions":"🔗","Metals, Non-Metals & Metallurgy":"🪙","Organic & Everyday Chemistry":"🧫","States of Matter & Gas Laws":"🫧","Solutions & Electrochemistry":"🔋","Constitution & Preamble":"📖","Fundamental Rights, Duties & DPSP":"⚖️","Union Executive":"🏛️","Parliament":"🏛️","Judiciary":"⚖️","State Government":"🏢","Local Government":"🏘️","Elections & Representation":"🗳️","Constitutional & Statutory Bodies":"🏛️","Amendments & Special Provisions":"📜","Centre-State & Misc Provisions":"🤝","Planning & Economic Reforms":"📋","Economic Concepts & Public Finance":"💹"};
+function topicPillHtml(q){
+  const t=(q&& (q.topic||q.sub_topic))||'';
+  if(!t)return '';
+  return `<span class="subtopic-pill question-topic-pill" title="Topic: ${escapeHtml(t)}">${TOPIC_EMOJI[t]||'📌'} ${escapeHtml(t)}</span>`;
+}
+function practiceTopic(subjId,encTopic){
+  const topic=decodeURIComponent(encTopic);
+  const pool=allQuestions.filter(q=>q.topic===topic||q.sub_topic===topic);
+  if(!pool.length){alert('No questions found for this topic.');return;}
+  currentSubjectId=subjId;
+  selectedChapters=new Set([pool[0].chapter?pool[0].chapter+' · '+topic:topic]);
+  topicQuizName=topic;
+  startQuiz('topic',pool);
+}
+
 function renderChapterList(subjId){
   const chList=document.getElementById('sc-chlist-'+subjId);if(!chList)return;
   const chs=Object.keys(chapterMap);
@@ -1738,6 +1768,15 @@ function renderChapterList(subjId){
         </div>`:''}
     </div>`;
   });
+  const topicCounts=new Map();
+  allQuestions.forEach(q=>{const t=q.topic||q.sub_topic;if(t)topicCounts.set(t,(topicCounts.get(t)||0)+1);});
+  if(chs.length<=2&&topicCounts.size>1){
+    html+=`<div class="topic-section">&#127991;&#65039; Topics &#183; tap to practice</div><div class="topic-rows">`;
+    [...topicCounts.entries()].sort((a,b)=>b[1]-a[1]).forEach(([topic,n])=>{
+      html+=`<button type="button" class="topic-chip" onclick="event.stopPropagation();practiceTopic('${subjId}','${encodeURIComponent(topic)}')">${TOPIC_EMOJI[topic]||'&#128302;'} ${escapeHtml(topic)} <span class="topic-count">${n}</span></button>`;
+    });
+    html+=`</div>`;
+  }
   chList.innerHTML=html;
 }
 
@@ -2003,7 +2042,7 @@ function bloomDueLabel(e){
 function bloomItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),streak=Number(e.correctCount)||0;
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<streak?'filled':''}"></div>`).join('');
-  return `<div class="bank-item bloom-item ${bloomEntryDue(e)?'due-today':''}"><div class="bank-item-top"><span class="bloom-src ${e.source}">${e.source==='mistake'?'Mistake':'Skip'}</span><span class="question-type-pill">${escapeHtml(questionType)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}<span class="bloom-interval">Next: ${escapeHtml(bloomDueLabel(e))}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(q.chapter||'')}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">bloom mastery</span></div></div>`;
+  return `<div class="bank-item bloom-item ${bloomEntryDue(e)?'due-today':''}"><div class="bank-item-top"><span class="bloom-src ${e.source}">${e.source==='mistake'?'Mistake':'Skip'}</span><span class="question-type-pill">${escapeHtml(questionType)}</span>${topicPillHtml(q)}<span class="bloom-interval">Next: ${escapeHtml(bloomDueLabel(e))}</span><span class="bank-times" style="margin-left:auto;">${escapeHtml(q.chapter||'')}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">bloom mastery</span></div></div>`;
 }
 function showBloomScreen(){
   const all=getBloomDue(),visible=bloomFilteredDue();
@@ -2122,12 +2161,12 @@ function bankItemHtml(e,bankType){
   const dots=Array.from({length:MASTERY},(_,i)=>`<div class="cc-dot ${i<(e.correctCount||0)?'filled':''}"></div>`).join('');
   const date=e.addedAt?new Date(e.addedAt).toLocaleDateString():'';
   const noteHtml=bankType==='bookmark'?`<div class="bank-note">${e.note?`<b>Your note</b>${bookText(e.note)}`:'<b>Personal note</b>Jot down why this matters to you.'}<button class="bank-note-btn" data-uid="${escapeHtml(q.uid)}" onclick="editBookmarkNote(this.dataset.uid)">${e.note?'Edit note':'Add note'}</button></div>`:'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div>${noteHtml}</div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag ${bankType}">${bankType.toUpperCase()}</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${topicPillHtml(q)}${e.times?`<span class="bank-times">x${Number(e.times)||0}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div><div class="cc-dots">${dots}<span class="cc-label">to mastery</span></div>${noteHtml}</div>`;
 }
 function archiveItemHtml(e){
   const q=e.q||{},questionType=getQuestionType(q),from=String(e.fromBank||'archive').toLowerCase();
   const date=e.archivedAt?new Date(e.archivedAt).toLocaleDateString():'';
-  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
+  return `<div class="bank-item" data-question-type="${escapeHtml(questionType)}"><div class="bank-item-top"><span class="bank-tag archive">ARCHIVED</span><span class="question-type-pill">${escapeHtml(questionType)}</span><span class="from-badge ${escapeHtml(from)}">${escapeHtml(from.toUpperCase())}</span><span style="font-size:0.6rem;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(201,137,123,0.3);padding:2px 6px;border-radius:3px;font-weight:700;">${escapeHtml(q.chapter||'')}</span>${topicPillHtml(q)}<span class="bank-times" style="margin-left:auto;">${escapeHtml(date)}</span></div>${renderQuestionStem(q,'bank').html}<div class="bank-ans">&#x2713; ${bookText(questionCorrectAnswerLabel(q))}</div></div>`;
 }
 function renderBankScreen(bankType,bank,screenId,itemRenderer){
   const allItems=Object.values(bank),visible=Object.values(filteredBank(bank,bankType));
@@ -2142,6 +2181,79 @@ function renderBankScreen(bankType,bank,screenId,itemRenderer){
 function showMistakeScreen(){renderBankScreen('mistake',getMistakes(),'mistake-screen',e=>bankItemHtml(e,'mistake'));}
 function clearAllMistakes(){if(!confirm('Archive all mistakes?'))return;const b=getMistakes();Object.values(b).forEach(e=>archiveQuestion(e.q,'mistake'));saveMistakes({});updateAllBadges();showMistakeScreen();}
 function practiceFromMistakes(){practiceFromBank(filteredBank(getMistakes(),'mistake'),'mistakes');}
+
+// ─── PDF EXPORT (A4, black & white) ─────────────────────────────────────────
+// Builds a print-ready A4 document in a hidden iframe and opens the browser
+// print dialog — choose "Save as PDF" to get the file. Respects the active filter.
+function exportBankPdf(bankType){
+  const bank=bankType==='skip'?getSkips():getMistakes();
+  const items=Object.values(filteredBank(bank,bankType));
+  if(!items.length){alert('No questions to export.');return;}
+  const html=buildBankExportHtml(bankType,items);
+  const frame=document.createElement('iframe');
+  frame.setAttribute('aria-hidden','true');
+  frame.style.cssText='position:fixed;right:0;bottom:0;width:1px;height:1px;border:0;opacity:0;';
+  document.body.appendChild(frame);
+  const doc=frame.contentDocument||frame.contentWindow.document;
+  doc.open();doc.write(html);doc.close();
+  setTimeout(()=>{
+    try{frame.contentWindow.focus();frame.contentWindow.print();}
+    catch(e){alert('Could not open the print dialog. Please try again.');frame.remove();return;}
+    setTimeout(()=>frame.remove(),90000);
+  },300);
+}
+function buildBankExportHtml(bankType,items){
+  const title=bankType==='skip'?'Skipped Questions — Practice Sheet':'Mistakes — Practice Sheet';
+  const bookName=(typeof currentBook!=='undefined'&&currentBook&&currentBook.title)?currentBook.title:'';
+  const dateStr=new Date().toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'});
+  const blocks=items.map((e,idx)=>{
+    const q=e.q||{};
+    const correctKeys=questionCorrectKeys(q);
+    const userKey=e.userKey;
+    const meta=[q.topic||q.sub_topic||q.chapter||'',[q.exam,q.year&&q.year!=='Unknown'?q.year:''].filter(Boolean).join(' · ')].filter(Boolean).join(' | ');
+    const opts=Object.keys(q.options||{}).filter(k=>q.options[k]!=null&&q.options[k]!=='').map(k=>{
+      const isCorrect=correctKeys.includes(k);
+      const isUser=answerHasKey(userKey,k)&&!isCorrect;
+      return `<div class="opt${isCorrect?' correct':''}${isUser?' userwrong':''}"><span class="key">(${escapeHtml(k)})</span> ${bookText(optionDisplayText(q.options[k],k))}${isCorrect?'<span class="mark">&#10003;</span>':''}${isUser?'<span class="mark x">&#10007; your answer</span>':''}</div>`;
+    }).join('');
+    return `<div class="q">
+      <div class="qhead"><span class="qno">Q${idx+1}</span>${meta?`<span class="meta">${escapeHtml(meta)}</span>`:''}${e.times?`<span class="meta">attempted wrong &times;${Number(e.times)||1}</span>`:''}</div>
+      <div class="qtext">${bookText(q.question||q.q||'')}</div>
+      ${opts?`<div class="opts">${opts}</div>`:''}
+      <div class="ans">&#10003; Correct Answer: <b>${escapeHtml(correctKeys.map(k=>`(${k})`).join(' + '))}</b> ${bookText(questionCorrectAnswerLabel(q))}</div>
+      ${q.explanation?`<div class="exp"><span class="explbl">Explanation:</span> ${bookText(q.explanation)}</div>`:''}
+      ${q.note?`<div class="note"><b>Note:</b> ${bookText(q.note)}</div>`:''}
+    </div>`;
+  }).join('');
+  return `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title>
+<style>
+  @page{size:A4;margin:15mm 13mm;}
+  *{box-sizing:border-box;}
+  body{font-family:Georgia,'Times New Roman',serif;color:#000;background:#fff;font-size:10.2pt;line-height:1.42;margin:0;}
+  .sheet-head{border-bottom:2.5px solid #000;padding-bottom:7px;margin-bottom:12px;}
+  .sheet-head h1{font-size:14.5pt;margin:0 0 3px;letter-spacing:.4px;text-transform:uppercase;}
+  .sheet-head .sub{font-family:Arial,Helvetica,sans-serif;font-size:8.4pt;color:#000;}
+  .q{border:1px solid #000;border-radius:3px;padding:8px 10px;margin-bottom:9px;break-inside:avoid;page-break-inside:avoid;}
+  .qhead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:4px;font-family:Arial,Helvetica,sans-serif;font-size:8pt;}
+  .qno{font-weight:700;font-size:9.5pt;}
+  .meta{border:1px solid #000;border-radius:2px;padding:0 4px;font-size:7.2pt;text-transform:uppercase;letter-spacing:.3px;}
+  .qtext{font-size:10.2pt;margin-bottom:5px;white-space:pre-line;}
+  .opts{margin:0 0 5px 2px;}
+  .opt{padding:1.5px 0 1.5px 4px;margin:0 0 1px;border-left:2px solid transparent;}
+  .opt .key{font-weight:700;font-family:Arial,Helvetica,sans-serif;font-size:9pt;}
+  .opt.correct{border-left:2.5px solid #000;background:#f0f0f0;font-weight:700;}
+  .opt .mark{font-family:Arial,Helvetica,sans-serif;font-size:7.6pt;font-weight:700;margin-left:6px;border:1px solid #000;padding:0 3px;}
+  .ans{font-family:Arial,Helvetica,sans-serif;font-size:9pt;border:1.5px solid #000;display:inline-block;padding:2.5px 7px;margin:2px 0 4px;border-radius:2px;}
+  .exp{border-top:1px dashed #000;margin-top:4px;padding-top:4px;font-size:9.3pt;white-space:pre-line;}
+  .explbl{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:8pt;text-transform:uppercase;letter-spacing:.4px;}
+  .note{font-size:9pt;margin-top:3px;border:1px dashed #000;padding:3px 6px;}
+  .foot{font-family:Arial,Helvetica,sans-serif;font-size:7.6pt;color:#000;border-top:1px solid #000;margin-top:10px;padding-top:4px;display:flex;justify-content:space-between;}
+</style></head><body>
+<div class="sheet-head"><h1>${escapeHtml(title)}</h1><div class="sub">${bookName?escapeHtml(bookName)+' &middot; ':''}${items.length} questions &middot; generated ${escapeHtml(dateStr)} &middot; A4</div></div>
+${blocks}
+<div class="foot"><span>${escapeHtml(title)} &middot; ${escapeHtml(bookName||'MCQ Practise')}</span><span>Print &rarr; Save as PDF &middot; A4</span></div>
+</body></html>`;
+}
 
 function showBookmarkScreen(){renderBankScreen('bookmark',getBookmarks(),'bookmark-screen',e=>bankItemHtml(e,'bookmark'));}
 function clearAllBookmarks(){if(!confirm('Archive all bookmarks?'))return;const b=getBookmarks();Object.values(b).forEach(e=>archiveQuestion(e.q,'bookmark'));saveBookmarks({});updateAllBadges();showBookmarkScreen();}
@@ -2277,6 +2389,7 @@ async function viewAttemptDetails(id){
   const expBtn=document.getElementById('btn-export-pdf-result');if(expBtn)expBtn.onclick=()=>openExportModal('history',id);
   resetReviewFilter();
   buildReview('all');
+  buildTopicBreakdown();
   resultBackTo='history';
   document.getElementById('btn-back-home').innerHTML='&#x2190; Back to History';
   showScreen('result-screen');
@@ -2386,7 +2499,7 @@ function runSuperSearch(){
         <div class="sr-top">
           <span class="sr-subj">${escapeHtml(r.subject)}</span>
           <span class="sr-chapter">${escapeHtml(r.chapter||'')}</span>
-          ${r.sub_topic?`<span class="subtopic-pill">&#x1F4CD; ${escapeHtml(r.sub_topic)}</span>`:''}
+          ${topicPillHtml(r.q)}
           <span class="question-type-pill">${escapeHtml(r.type)}</span>
         </div>
         <div class="sr-q">${highlightMatch(snippet,q)}</div>
@@ -2455,7 +2568,7 @@ function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.ra
 
 function startQuiz(mode,customPool){
   let pool;
-  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'||mode==='supersearch'||mode==='history'){pool=shuffle([...customPool]);}
+  if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'||mode==='supersearch'||mode==='history'||mode==='topic'){pool=shuffle([...customPool]);}
   else{
     let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));
     if(selectedSubtopics.size>0)base=base.filter(q=>selectedSubtopics.has(q.sub_topic));
@@ -2469,7 +2582,7 @@ function startQuiz(mode,customPool){
   const doSO=document.getElementById('toggle-shuffle-opts')?.checked||false;shuffledOptionOrders=quiz.map(q=>{const keys=Object.keys(q.options||{});return doSO?shuffle([...keys]):keys;});
   const mins=parseInt(document.getElementById('timer-mins')?.value||0);totalSecs=mins*60;
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'Practice';
-  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':mode==='supersearch'?'Super Search':mode==='history'?'Re-practice':chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
+  document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':mode==='supersearch'?'Super Search':mode==='history'?'Re-practice':mode==='topic'?'&#127991;&#65039; '+escapeHtml(topicQuizName||'Topic Practice'):chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
   const t=document.documentElement.getAttribute('data-theme')||'light';const qBtn=document.getElementById('theme-btn-q');if(qBtn)qBtn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';
   showScreen('quiz-screen');renderQuestion();renderPalette();updateStats();clearInterval(timerInterval);paused=false;
   document.getElementById('pause-btn').textContent='Pause';document.getElementById('timer-display').classList.remove('urgent');
@@ -2834,7 +2947,7 @@ function renderQuestion(){
   const isLast=(i===quiz.length-1);
   const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
-  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
   else{document.getElementById('btn-next').style.display='';document.getElementById('btn-submit').style.display='none';}
   const bookmarks=getBookmarks(),bBtn=document.getElementById('btn-bookmark');
@@ -2888,6 +3001,7 @@ function submitQuiz(){
   document.getElementById('btn-retry-wrong').style.display=wrong>0?'':'none';
   document.getElementById('btn-retry-skip').style.display=skip>0?'':'none';
   resetReviewFilter();
+  buildTopicBreakdown();
   buildReview('all');showScreen('result-screen');buildDashboard();
 }
 
@@ -2896,6 +3010,24 @@ function retrySkipped(){const skipped=lastResults.filter(r=>r.isSkipped).map(r=>
 function resultBack(){if(resultBackTo==='history'){resultBackTo=null;showHistoryScreen();}else backToSetup();}
 function resetReviewFilter(){const btns=document.querySelectorAll('.rflt-btn');btns.forEach((b,i)=>b.classList.toggle('active',i===0));}
 
+// Topic-wise ✓/✗/— breakdown for test-series attempts (2+ distinct topics)
+function buildTopicBreakdown(){
+  const wrap=document.getElementById('res-topic-wrap');if(!wrap)return;
+  const withTopics=lastResults.filter(r=>r.q&&(r.q.topic||r.q.sub_topic));
+  const distinct=[...new Set(withTopics.map(r=>r.q.topic||r.q.sub_topic))];
+  if(distinct.length<2){wrap.style.display='none';wrap.innerHTML='';return;}
+  const rows=distinct.map(topic=>{
+    const rs=withTopics.filter(r=>(r.q.topic||r.q.sub_topic)===topic);
+    const c=rs.filter(r=>r.isCorrect).length,w=rs.filter(r=>!r.isCorrect&&!r.isSkipped).length,s=rs.filter(r=>r.isSkipped).length;
+    return{topic,n:rs.length,c,w,s,acc:Math.round(c/rs.length*100)};
+  }).sort((a,b)=>b.n-a.n);
+  wrap.style.display='';
+  wrap.innerHTML=`<div class="review-header"><h3>&#127991;&#65039; Topic-wise Performance</h3><span style="font-size:.62rem;color:var(--text3);">${rows.length} topics</span></div>
+  <div style="padding:4px 10px 10px;overflow-x:auto;"><table class="topic-table">
+  <thead><tr><th style="text-align:left;padding-left:8px;">Topic</th><th>Q</th><th style="color:var(--green);">&#10003;</th><th style="color:var(--red);">&#10007;</th><th>&#8212;</th><th>Score</th></tr></thead>
+  <tbody>${rows.map(r=>`<tr><td style="text-align:left;padding:8px;color:var(--text);font-weight:700;">${TOPIC_EMOJI[r.topic]||''} ${escapeHtml(r.topic)}</td><td>${r.n}</td><td style="color:var(--green);font-weight:700;">${r.c}</td><td style="color:var(--red);font-weight:700;">${r.w}</td><td style="color:var(--text3);">${r.s}</td><td style="font-weight:800;color:${r.acc>=70?'var(--green)':r.acc>=40?'var(--gold)':'var(--red)'};">${r.acc}%</td></tr>`).join('')}</tbody></table></div>`;
+}
+
 function buildReview(filter){
   document.getElementById('review-body').innerHTML=lastResults.map((r,idx)=>{
     const{q,userKey,isCorrect,isSkipped}=r;const status=isSkipped?'skipped':isCorrect?'correct':'wrong';const show=filter==='all'||filter===status;
@@ -2903,7 +3035,7 @@ function buildReview(filter){
     const optKeys=shuffledOptionOrders[idx]||Object.keys(q.options||{}),correctKeys=questionCorrectKeys(q);
     const presentation=renderQuestionStem(q,'review'),matchData=presentation.matchData;
     const optHtml=matchData?renderMatchReviewOptions(matchData,optKeys,correctKeys,userKey,isCorrect):optKeys.map(k=>{const value=q.options[k];if(value==null||value==='')return '';let cls='rev-opt';if(correctKeys.includes(k))cls+=' correct-ans';else if(answerHasKey(userKey,k)&&!isCorrect)cls+=' user-wrong';return `<div class="${cls}">${escapeHtml(optionDisplayText(value,k))}</div>`;}).join('');
-    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${q.sub_topic?`<span class="subtopic-pill" title="Sub-topic: ${escapeHtml(q.sub_topic)}">&#x1F4CD; ${escapeHtml(q.sub_topic)}</span>`:''}${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${bookText(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+    return `<div class="review-item ${show?'show':''}" data-status="${status}"><div class="rev-meta"><span class="rev-num">Q${idx+1}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="rev-exam">${escapeHtml(examLabel)}</span>`:''}<span class="rev-correct-badge ${status}">${isSkipped?'SKIPPED':isCorrect?'CORRECT':'WRONG'}</span></div>${presentation.html}<div class="rev-options ${matchData?'match-review-options':''}">${optHtml}</div>${q.explanation?`<div class="rev-exp">${bookText(q.explanation)}</div>`:''}${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   }).join('');
 }
 
@@ -3907,3 +4039,4 @@ init();
 </script>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2d08688bd7ed97b',t:'MTc4NzA1MTk4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+l>

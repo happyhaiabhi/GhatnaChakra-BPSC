@@ -20,7 +20,8 @@
           "note": "",
           "original_id": 1,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following underground plant parts is classified as a modified root?",
@@ -38,7 +39,8 @@
           "note": "",
           "original_id": 2,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Consider the following statements regarding the regulation of blood glucose in the human body: 1. Insulin is a hormone produced by the pancreas that reduces the concentration of glucose in the blood. 2. Glucagon is a hormone that triggers the liver to convert stored glycogen back into glucose. Which of the statements given above is/are incorrect?",
@@ -56,7 +58,8 @@
           "note": "",
           "original_id": 3,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which tissue layer forms the fleshy edible portion of a ripe mango?",
@@ -74,7 +77,8 @@
           "note": "",
           "original_id": 4,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following statements regarding the human blood group systems: 1. The ABO blood group system is determined by the presence or absence of two surface antigens on the membrane of red blood cells. 2. Individuals with blood group ‘O’ possess both anti-A and anti-B antibodies in their plasma. Which of the statements given above are correct?",
@@ -92,7 +96,8 @@
           "note": "",
           "original_id": 5,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which of the following is the defining technological characteristic of “Web 3.0”?",
@@ -110,7 +115,8 @@
           "note": "",
           "original_id": 6,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "The clinical condition arising due to immunological destruction of foetal erythrocytes when an Rhnegative mother carries an Rh-positive foetus is known as:",
@@ -128,7 +134,8 @@
           "note": "",
           "original_id": 7,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which of the following is not a tool or technology primarily utilised for targeted genome editing?",
@@ -146,7 +153,8 @@
           "note": "",
           "original_id": 8,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "What is the primary role of Vitamin K in the blood clotting cascade?",
@@ -164,7 +172,8 @@
           "note": "",
           "original_id": 9,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What is the primary mechanism by which guard cells regulate the opening and closing of stomatal pores?",
@@ -182,7 +191,8 @@
           "note": "",
           "original_id": 10,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "In the human nervous system, the fluid-filled gap separating the presynaptic and postsynaptic membranes at a chemical synapse is known as:",
@@ -200,7 +210,8 @@
           "note": "",
           "original_id": 11,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following organisms serves as the primary vector for transmission of Cucumber Mosaic Virus (CMV)?",
@@ -218,7 +229,8 @@
           "note": "",
           "original_id": 12,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Assertion (A): DNA fingerprinting used in forensic investigations primarily analyses protein-coding regions of the human genome. Reason (R): Protein-coding regions of human DNA are highly conserved and show minimal variation among individuals. Select the correct answer using the code given below:",
@@ -236,7 +248,8 @@
           "note": "",
           "original_id": 13,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "Consider the following pairs of Lymphoid Organs and their biological characteristics: 1. Bone Marrow Primary lymphoid organ 2. Spleen Primary site for lymphocyte formation 3. Thymus Site of T-lymphocyte maturation 4. Lymph Nodes Traps blood-borne microorganisms How many pairs of the given above are correctly matched?",
@@ -254,7 +267,8 @@
           "note": "",
           "original_id": 14,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What is the primary function of site-directed nucleases (SDNs) in modern biotechnology?",
@@ -272,7 +286,8 @@
           "note": "",
           "original_id": 15,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "Which of the following represents the correct proximal-to-distal sequence of the regions of the human alimentary canal immediately after the stomach?",
@@ -290,7 +305,8 @@
           "note": "",
           "original_id": 16,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following statements describes organ-on-a-chip technology in modern biotechnology?",
@@ -308,7 +324,8 @@
           "note": "",
           "original_id": 17,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which part of the human brain is primarily responsible for regulating body temperature, hunger, and maintaining internal homeostasis?",
@@ -326,7 +343,8 @@
           "note": "",
           "original_id": 18,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following fundamental principles of quantum mechanics enables a qubit to represent both 0 and 1 simultaneously?",
@@ -344,7 +362,8 @@
           "note": "",
           "original_id": 19,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Consider the following statements regarding the antagonistic mechanics of the biceps and triceps muscles: 1. Skeletal muscles like the biceps and triceps facilitate movement exclusively by exerting a pulling force on the bones. 2. During the flexion of the arm at the elbow joint, the biceps muscle acts as the antagonist and undergoes relaxation. Which of the statements given above is/are correct?",
@@ -362,7 +381,8 @@
           "note": "",
           "original_id": 20,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Assertion (A): The continuous column of water within the xylem of tall trees does not break under its own weight. Reason (R): Evaporation of water from leaf stomata creates a strong negative pressure or suction pull in the xylem. Select the correct answer:",
@@ -380,7 +400,8 @@
           "note": "",
           "original_id": 21,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Consider the following statements regarding the properties and cellular composition of human cartilage: 1. The solid intercellular material of cartilage resists mechanical compression. 2. Chondrocytes are freely suspended in a liquid extracellular matrix without any enclosing cavities. 3. Cartilage tissue contains a dense network of internal blood vessels. 4. Cartilage forms the structural framework of the human outer ear. Which of the statements given above are incorrect?",
@@ -398,7 +419,8 @@
           "note": "",
           "original_id": 22,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following fruits is a false fruit?",
@@ -416,7 +438,8 @@
           "note": "",
           "original_id": 23,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What medium does Li-Fi primarily use to transmit data?",
@@ -434,7 +457,8 @@
           "note": "",
           "original_id": 24,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "General"
         },
         {
           "q": "The upper dorsal surface of the human tongue bears small anatomical projections known as:",
@@ -452,7 +476,8 @@
           "note": "",
           "original_id": 25,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What does the acronym CAR stand for in CAR T-cell therapy?",
@@ -470,7 +495,8 @@
           "note": "",
           "original_id": 26,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following statements regarding the human digestive system: 1. The gallbladder actively synthesises bile juice to facilitate the emulsification of dietary fats. 2. The duodenum receives bile and pancreatic secretions simultaneously through the hepatopancreatic duct. Which of the statements given above is/are correct?",
@@ -488,7 +514,8 @@
           "note": "",
           "original_id": 27,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which specific cells of the gastric glands in the human stomach are responsible for the secretion of Hydrochloric Acid (HCl)?",
@@ -506,7 +533,8 @@
           "note": "",
           "original_id": 28,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following statements regarding Mitochondrial Diseases: 1. Mitochondrial DNA is typically inherited solely through the maternal line. 2. These disorders impair cellular ATP production and predominantly affect organs with high energy demand, such as the brain, heart and skeletal muscles. 3. Mitochondrial Replacement Therapy is used to completely cure affected adult patients with mitochondrial genetic defects. Which of the statements given above are correct?",
@@ -524,7 +552,8 @@
           "note": "",
           "original_id": 29,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Consider the following statements regarding endocrine and exocrine glands: 1. Endocrine glands release their secretions directly into the extracellular fluid surrounding the gland owing to the absence of ducts. 2. Exocrine glands discharge substances such as mucus, earwax and digestive enzymes through a duct system. Which of the statements given above is/are correct?",
@@ -542,7 +571,8 @@
           "note": "",
           "original_id": 30,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following statements regarding stem cells: 1. Embryonic stem cells are pluripotent and can differentiate into nearly all specialised cell types of the human body. 2. Induced pluripotent stem cells are naturally obtained from the umbilical cord and placenta after birth. 3. Adult stem cells are generally multipotent and are usually restricted to differentiating into cell types of their resident tissue. Which of the statements given above are correct?",
@@ -560,7 +590,8 @@
           "note": "",
           "original_id": 31,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following statements regarding an organism’s phenome is incorrect?",
@@ -578,7 +609,8 @@
           "note": "",
           "original_id": 32,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "The pituitary gland in humans is lodged within which of the following bony cavities of the skull?",
@@ -596,7 +628,8 @@
           "note": "",
           "original_id": 33,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following parts of the plant yields the spice known as ‘clove’?",
@@ -614,7 +647,8 @@
           "note": "",
           "original_id": 34,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Which of the following best describes a “biosensor” in modern medical technology?",
@@ -632,7 +666,8 @@
           "note": "",
           "original_id": 35,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "What is the primary physiological consequence of a chronic deficiency of dietary iodine in human adults?",
@@ -650,7 +685,8 @@
           "note": "",
           "original_id": 36,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What best describes the process of osmosis during water absorption by plant roots?",
@@ -668,7 +704,8 @@
           "note": "",
           "original_id": 37,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which of the following is NOT a constituent component of human blood plasma?",
@@ -686,7 +723,8 @@
           "note": "",
           "original_id": 38,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following pairs regarding specialised plant adaptations and the associated environmental stress are correctly matched? 1. Carnivorous trapping mechanisms: Nitrogen deficiency in nutrient-poor soils 2. Pneumatophores: Oxygen deficiency in waterlogged soils 3. Symbiotic root nodules: Potassium deficiency in sandy soils Select the correct answer using the codes given below:",
@@ -704,7 +742,8 @@
           "note": "",
           "original_id": 39,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Consider the following statements regarding the primary female sex hormones: 1. The growing ovarian follicles primarily synthesise and secrete the steroid hormone estrogen. 2. The corpus luteum secretes progesterone to stimulate the appearance of female secondary sexual characteristics. Which of the statements given above is/are correct?",
@@ -722,7 +761,8 @@
           "note": "",
           "original_id": 40,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following pairs regarding artificial intelligence terminology and their descriptions are correctly matched? 1. Machine Learning: Algorithms that enable computer systems to learn from data and improve performance without explicit programming 2. Natural Language Processing: Specialised hardware and microchips used to accelerate AI model training 3. Large Language Models: Deep learning systems trained on massive datasets to understand and generate human language 4. Generative Pre-trained Transformer: Neural network architecture based on the selfattention mechanism for parallel sequence processing How many of the pairs given above are correctly matched?",
@@ -740,7 +780,8 @@
           "note": "",
           "original_id": 41,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Consider the following statements regarding the human pancreas: 1. The pancreas is a composite gland situated between the limbs of the C-shaped duodenum. 2. The exocrine portion of the pancreas secretes an alkaline pancreatic juice containing enzymes. 3. The islets of Langerhans represent the endocrine part and consist of alpha-cells and beta-cells. Which of the statements given above are correct?",
@@ -758,7 +799,8 @@
           "note": "",
           "original_id": 42,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following areas represent primary applications of quantum technology? 1. Secure data transmission using Quantum Key Distribution 2. Simulation of molecular interactions for drug discovery 3. Precision navigation in GPS-denied environments using quantum sensors 4. Execution of autonomous smart contracts on decentralised networks 5. Optimisation of large-scale logistics and financial systems Select the correct answer using the codes given below:",
@@ -776,7 +818,8 @@
           "note": "",
           "original_id": 43,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which of the following blood groups is regarded as the universal recipient?",
@@ -794,7 +837,8 @@
           "note": "",
           "original_id": 44,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What is the botanical term for the stalk that connects the leaf blade to the stem?",
@@ -812,7 +856,8 @@
           "note": "",
           "original_id": 45,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Consider the following statements regarding the reflex arc: 1. A reflex arc is the neural pathway involved in an involuntary and immediate response to a stimulus. 2. The sensory neuron transmits impulses from the receptor to the central nervous system. 3. The motor neuron carries impulses from the spinal cord to the effector organ. Which of the statements given above is/are incorrect?",
@@ -830,7 +875,8 @@
           "note": "",
           "original_id": 46,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best explains the release of carbon dioxide by plants during the night?",
@@ -848,7 +894,8 @@
           "note": "",
           "original_id": 47,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which of the following statements regarding the nutritional composition of bovine milk are correct? 1. Bovine milk is regarded as a nearly complete food but is deficient in iron. 2. Dairy milk is a significant primary dietary source of Vitamin C. 3. Milk contains high-quality proteins, including casein and whey proteins. Select the correct answer using the codes given below:",
@@ -866,7 +913,8 @@
           "note": "",
           "original_id": 48,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Nutrition & Vitamins"
         },
         {
           "q": "Consider the following statements regarding angiosperms and gymnosperms: 1. Gymnosperms generally lack vessels in xylem and companion cells in phloem, which are characteristic features of angiosperms. 2. In angiosperms, endosperm is typically triploid and formed after double fertilisation, whereas in gymnosperms, the nutritive tissue is haploid and develops before fertilisation. Which of the statements given above is/are correct?",
@@ -884,7 +932,8 @@
           "note": "",
           "original_id": 49,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Consider the following statements regarding the central nervous system: 1. The cerebrum is the major thinking part of the brain and serves as the seat of intelligence and memory. 2. The cerebellum is responsible for maintaining the posture and balance of the body during voluntary activities. Which of the statements given above is/are correct?",
@@ -902,7 +951,8 @@
           "note": "",
           "original_id": 50,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which botanical term describes seed germination while the seed remains attached to the parent plant, as seen in many mangrove species?",
@@ -920,7 +970,8 @@
           "note": "",
           "original_id": 51,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Which of the following statements are correct regarding Viruses? 1. Viruses are acellular entities that do not possess a cytoplasm or cellular organelles. 2. Outside a living host, viruses exist as inert crystalline structures with no metabolic activity. 3. A single virus particle contains both DNA and RNA simultaneously to facilitate replication. 4. Bacteriophages are a specific category of viruses that infect and replicate within bacteria. Select the correct answer using the codes given below:",
@@ -938,7 +989,8 @@
           "note": "",
           "original_id": 52,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Consider the following statements regarding light absorption by photosynthetic pigments: 1. Chlorophyll pigments exhibit their maximum light absorption efficiency in the blue and red regions of the spectrum. 2. Plant leaves appear green primarily because chlorophyll molecules strongly absorb the green wavelengths of light. 3. The action spectrum of photosynthesis corresponds very closely to the absorption spectrum of chlorophyll ‘a’. Which of the statements given above are correct?",
@@ -956,7 +1008,8 @@
           "note": "",
           "original_id": 53,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Which of the following is the correct definition of pollination in flowering plants?",
@@ -974,7 +1027,8 @@
           "note": "",
           "original_id": 54,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Nuclear & Energy Technology"
         },
         {
           "q": "Consider the following statements regarding the human cardiovascular system and the mechanism of double circulation: 1. The opening between the right atrium and the right ventricle is guarded by the tricuspid valve. 2. Systemic circulation involves the transport of deoxygenated blood from the right ventricle to the lungs for oxygenation. Which of the statements given above is/are correct?",
@@ -992,7 +1046,8 @@
           "note": "",
           "original_id": 55,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which specific medical instrument is utilised to measure human arterial blood pressure?",
@@ -1010,7 +1065,8 @@
           "note": "",
           "original_id": 56,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following statements regarding the release of oxygen during photosynthesis: 1. The oxygen evolved by green plants originates from the splitting of water, not from carbon dioxide. 2. Cyanobacteria and purple sulphur bacteria both release oxygen as a by-product during their photosynthetic processes. Which of the statements given above is/are correct?",
@@ -1028,7 +1084,8 @@
           "note": "",
           "original_id": 57,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Consider the following pairs regarding reproductive structures and their associated characteristics: 1. Zoospores: Motile, flagellated asexual spores commonly found in algae 2. Gemmae: Green, multicellular asexual reproductive bodies found in liverworts 3. Protonema: Free-living gametophyte stage in pteridophytes 4. Prothallus: Dominant diploid sporophyte body in mosses Which of the pairs given above are correctly matched?",
@@ -1046,7 +1103,8 @@
           "note": "",
           "original_id": 58,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Consider the following statements regarding arteries and veins in the human circulatory system: 1. Arteries possess thick and elastic walls to withstand the high pressure of blood pumped from the heart. 2. Veins lack internal valves because blood within them flows under high pressure. Which of the statements given above is/are correct?",
@@ -1064,7 +1122,8 @@
           "note": "",
           "original_id": 59,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best distinguishes agentic AI from conventional generative AI systems?",
@@ -1082,7 +1141,8 @@
           "note": "",
           "original_id": 60,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which of the following statements regarding the functions of the plant stem is/are incorrect? 1. The stem bears leaves, flowers and fruits, providing structural support for exposure to sunlight. 2. It conducts water and minerals from the roots and transports prepared food to other plant parts. 3. Plant stems are exclusively aerial structures and are not modified for underground storage. Select the correct answer using the codes given below:",
@@ -1100,7 +1160,8 @@
           "note": "",
           "original_id": 61,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Consider the following statements regarding the respiratory volumes of the human lungs: 1. Tidal volume represents the volume of air inspired or expired during a normal, relaxed respiration. 2. Vital capacity represents the volume of air remaining in the lungs after a maximal forced expiration. Which of the statements given above is/are correct?",
@@ -1118,7 +1179,8 @@
           "note": "",
           "original_id": 62,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best describes the concept of 4D printing in additive manufacturing?",
@@ -1136,7 +1198,8 @@
           "note": "",
           "original_id": 63,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Satellite Orbit)\n\n(Altitude) a. Low Earth Orbit (LEO) 1. Between 600 and 800 km b. Sun-Synchronous 2. From 2,000 to Orbit (SSO)\n\n36,000 km c. Medium Earth 3. Below 2,000 km\n\nOrbit (MEO) d. Geostationary Orbit (GEO) 4. 35,786 km Select the correct answer using the codes given below: a b c d",
@@ -1154,7 +1217,8 @@
           "note": "",
           "original_id": 64,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following statements regarding Red Blood Cells (RBCs) and Haemoglobin is incorrect?",
@@ -1172,7 +1236,8 @@
           "note": "",
           "original_id": 65,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following is not a fundamental principle of Quantum Technology?",
@@ -1190,7 +1255,8 @@
           "note": "",
           "original_id": 66,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Consider the following statements regarding the classification of human nutrients: 1. Macronutrients are required in large daily quantities primarily to provide calories and structural building blocks. 2. Micronutrients like vitamins and minerals are essential for body processes despite providing no caloric energy. Which of the statements given above is/are correct?",
@@ -1208,7 +1274,8 @@
           "note": "",
           "original_id": 67,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Evolution & Taxonomy"
         },
         {
           "q": "Which of the following statements regarding transport mechanisms in higher plants are correct? 1. Xylem facilitates unidirectional transport of water and minerals by active expenditure of metabolic energy. 2. Phloem achieves bidirectional translocation of organic nutrients through ATP-dependent loading of sugars. Which of the statements given above is/are correct?",
@@ -1226,7 +1293,8 @@
           "note": "",
           "original_id": 68,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which of the following pairs regarding ISRO launch vehicles and their primary payload capabilities are correctly matched?",
@@ -1244,7 +1312,8 @@
           "note": "",
           "original_id": 69,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following is the primary physiological function of thrombocytes in the human circulatory system?",
@@ -1262,7 +1331,8 @@
           "note": "",
           "original_id": 70,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following network topologies offers the highest fault tolerance due to the availability of multiple communication paths between nodes?",
@@ -1280,7 +1350,8 @@
           "note": "",
           "original_id": 71,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "General"
         },
         {
           "q": "Which of the following space missions was not launched by the National Aeronautics and Space Administration (NASA)?",
@@ -1298,7 +1369,8 @@
           "note": "",
           "original_id": 72,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Navigation System)\n\n(Country/Region) a. GLONASS 1. European Union b. Galileo 2. China c. BeiDou 3. India d. NavIC 4. Russia Select the correct answer using the codes given below: a b c d",
@@ -1316,7 +1388,8 @@
           "note": "",
           "original_id": 73,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following best describes the operational principle of a cryogenic rocket engine?",
@@ -1334,7 +1407,8 @@
           "note": "",
           "original_id": 74,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "As blood flows through tissue capillaries, the fluid that enters intercellular spaces and is later collected by a parallel network of vessels is known as:",
@@ -1352,7 +1426,8 @@
           "note": "",
           "original_id": 75,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following pairs regarding satellite internet projects and their developers are correctly matched? 1. Project Kuiper : Amazon 2. Starlink : SpaceX 3. OneWeb : Blue Origin 4. Qianfan : Chinese megaconstellation Select the correct answer using the codes given below:",
@@ -1370,7 +1445,8 @@
           "note": "",
           "original_id": 76,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which human organ is primarily affected by the infectious disease trachoma?",
@@ -1388,7 +1464,8 @@
           "note": "",
           "original_id": 77,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Deficiency)\n\n(Disease/Condition) a. Rod cells 1. The point of highest visual acuity and resolution b. Cone cells 2. Responsible for twilight (scotopic) vision c. Blind spot 3. An area completely devoid of photoreceptor cells d. Fovea centralis 4. Responsible for daylight (photopic) and colour vision Select the correct answer using the codes given below: a b c d",
@@ -1406,7 +1483,8 @@
           "note": "",
           "original_id": 78,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following pairs of Hepatitis viruses and their primary characteristics is incorrectly matched?",
@@ -1424,7 +1502,8 @@
           "note": "",
           "original_id": 79,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "The cell is regarded as the fundamental structural and functional unit of life because:",
@@ -1442,7 +1521,8 @@
           "note": "",
           "original_id": 80,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Consider the following statements regarding the Fluid Mosaic Model of the cell membrane: 1. The fluid nature of the membrane is due to the flexible bilayer of lipid molecules. 2. The mosaic appearance arises from protein molecules embedded within the lipid bilayer. Which of the statements given above is/are correct?",
@@ -1460,7 +1540,8 @@
           "note": "",
           "original_id": 81,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which of the following statements regarding recent artificial intelligence models in biological and health sciences are correct? 1. AlphaFold, developed by Google DeepMind, predicts the three-dimensional structure of proteins from their amino acid sequences. 2. BioEmu-1, a deep learning model developed by Microsoft, is designed to classify the effects of protein-coding genetic variants to predict human DNA mutations. 3. AlphaGenome was developed collaboratively by Google DeepMind and Yale University to interpret biological interactions by analysing the language of individual cells. How many of the statements given above is/are correct?",
@@ -1478,7 +1559,8 @@
           "note": "",
           "original_id": 82,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which animal group is considered the primary natural reservoir of the monkeypox virus?",
@@ -1496,7 +1578,8 @@
           "note": "",
           "original_id": 83,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following best describes the architecture and functional principle of a Generative Adversarial Network (GAN)?",
@@ -1514,7 +1597,8 @@
           "note": "",
           "original_id": 84,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "In plant cells, the conversion of solar energy into chemical energy during photosynthesis primarily occurs in:",
@@ -1532,7 +1616,8 @@
           "note": "",
           "original_id": 85,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which human organ is primarily associated with the most serious malignancies caused by Human Papillomavirus (HPV)?",
@@ -1550,7 +1635,8 @@
           "note": "",
           "original_id": 86,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best describes the mechanism of peripheral immune tolerance?",
@@ -1568,7 +1654,8 @@
           "note": "",
           "original_id": 87,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Consider the following statements regarding mitochondria and chloroplasts: 1. Mitochondria and chloroplasts possess their own circular DNA and ribosomes. 2. These organelles can synthesise all their required proteins independently of the nucleus. Which of the statements given above is/are correct?",
@@ -1586,7 +1673,8 @@
           "note": "",
           "original_id": 88,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Assertion (A): Artificial trans fats are highly harmful dietary components that public health agencies are actively eliminating globally. Reason (R): The chemical process of partial hydrogenation creates trans fats, which aggressively raise bad cholesterol and lower good cholesterol. Select the correct answer from the codes given below:",
@@ -1604,7 +1692,8 @@
           "note": "",
           "original_id": 89,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following best describes the primary mechanism of action of anti-obesity drugs such as Semaglutide?",
@@ -1622,7 +1711,8 @@
           "note": "",
           "original_id": 90,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following contributions directly enabled James Watson and Francis Crick to propose the double-helix model of DNA in 1953?",
@@ -1640,7 +1730,8 @@
           "note": "",
           "original_id": 91,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Biotechnology"
         },
         {
           "q": "Which of the following groups of mRNA codons function as stop codons during protein synthesis?",
@@ -1658,7 +1749,8 @@
           "note": "",
           "original_id": 92,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "What does the abbreviation “mRNA” stand for?",
@@ -1676,7 +1768,8 @@
           "note": "",
           "original_id": 93,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Consider the following pairs of specific types of Diabetes and their primary biological characteristics: 1. Type 1 Diabetes: An autoimmune condition where the immune system mistakenly attacks and destroys insulin-producing beta cells in the pancreas. 2. Type 2 Diabetes: A metabolic disorder characterised by cellular insulin resistance and a gradual decline in natural insulin production. 3. Gestational Diabetes: A temporary form of hyperglycemia that develops exclusively during pregnancy and typically resolves after childbirth. 4. Diabetes Insipidus: A chronic condition caused by excessive dietary sugar intake, leading to dangerously high blood glucose levels. How many pairs of the given above is/are correctly matched?",
@@ -1694,7 +1787,8 @@
           "note": "",
           "original_id": 94,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Consider the following statements regarding meiosis: 1. Meiosis is termed reduction division because it reduces the chromosome number by half in gametes, thereby maintaining the chromosome number of the species after fertilisation. 2. Meiosis generates genetic variation through the exchange of genetic material between homologous chromosomes. Which of the statements given above is/are correct?",
@@ -1712,7 +1806,8 @@
           "note": "",
           "original_id": 95,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Consider the following statements regarding the ‘Project Akashteer’ system: 1. It is a fully indigenous, automated Air Defence Control System developed by the DRDO and HAL. 2. It is a vehicle-based, mobile component of the C4ISR framework designed to automate threat tracking. 3. It signifies a strategic military shift from proactive retaliation toward a static, passive defence posture. Which of the statements given above is/are correct?",
@@ -1730,7 +1825,8 @@
           "note": "",
           "original_id": 96,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following statements best defines Gregor Mendel’s “Law of Independent Assortment”?",
@@ -1748,7 +1844,8 @@
           "note": "",
           "original_id": 97,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which of the following is not a component of the indigenous Integrated Air Defence Weapon System (IADWS) framework?",
@@ -1766,7 +1863,8 @@
           "note": "",
           "original_id": 98,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following pairs regarding naval warship classes and their operational roles is incorrectly matched?",
@@ -1784,7 +1882,8 @@
           "note": "",
           "original_id": 99,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Consider the following technological applications: 1. Targeted drug delivery 2. Heavy metal water purification 3. Quantum dot displays 4. Self-cleaning fabrics 5. Smart packaging for agriculture Which of the above are recognised applications of nanotechnology?",
@@ -1802,7 +1901,8 @@
           "note": "",
           "original_id": 100,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Consider the following pairs regarding genetic disorders and their associated inheritance patterns or chromosomal abnormalities: 1. Haemophilia : X-linked recessive trait 2. Sickle-cell anaemia : Autosomal recessive trait 3. Down’s syndrome : Monosomy of chromosome 21 4. Klinefelter’s syndrome : 44 Autosomes + XO Which of the pairs given above are correctly matched?",
@@ -1820,7 +1920,8 @@
           "note": "",
           "original_id": 101,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which of the following statements regarding fighter aircraft generations are correct? 1. Second-generation fighters marked the emergence of supersonic capability along with early radar and guided air-to-air missiles. 2. Third-generation fighters increasingly adopted multi-role roles and introduced Beyond Visual Range combat capability. 3. Fourth-generation fighters are associated with fly-by-wire systems and enhanced aerodynamic manoeuvrability. 4. Fifth-generation fighters are primarily defined by dependence on ramjet engines for sustained hypersonic flight. Select the correct answer using the codes given below:",
@@ -1838,7 +1939,8 @@
           "note": "",
           "original_id": 102,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following principles is primarily utilised by the Hyperloop transportation system to achieve very high speeds?",
@@ -1856,7 +1958,8 @@
           "note": "",
           "original_id": 103,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following cellular structures is primarily responsible for the synthesis of proteins by translating messenger RNA (mRNA)?",
@@ -1874,7 +1977,8 @@
           "note": "",
           "original_id": 104,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which of the following aviation devices records flight data and cockpit conversations, and helps in accident investigation after a crash?",
@@ -1892,7 +1996,8 @@
           "note": "",
           "original_id": 105,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best describes altermagnetism, a newly identified magnetic phase?",
@@ -1910,7 +2015,8 @@
           "note": "",
           "original_id": 106,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "General"
         },
         {
           "q": "Which of the following substances or organisms is NOT classified as an agricultural “Biostimulant”?",
@@ -1928,7 +2034,8 @@
           "note": "",
           "original_id": 107,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "Which of the following best describes the primary function of lysosomes and their hydrolytic enzymes?",
@@ -1946,7 +2053,8 @@
           "note": "",
           "original_id": 108,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which specialised branch of anatomy is dedicated to the scientific study of the structure and function of bones?",
@@ -1964,7 +2072,8 @@
           "note": "",
           "original_id": 109,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following organisms is unique for having haemoglobin dissolved directly in its blood plasma while lacking red blood cells (RBCs)?",
@@ -1982,7 +2091,8 @@
           "note": "",
           "original_id": 110,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which mosquito genus is identified by its characteristic resting posture, with the body held at an angle to the surface?",
@@ -2000,7 +2110,8 @@
           "note": "",
           "original_id": 111,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Evolution & Taxonomy"
         },
         {
           "q": "Fungi are classified separately from plants primarily due to the absence of which of the following?",
@@ -2018,7 +2129,8 @@
           "note": "",
           "original_id": 112,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Consider the following statements regarding the endoplasmic reticulum in eukaryotic cells: 1. Rough endoplasmic reticulum appears rough due to the presence of ribosomes on its surface and is associated with protein synthesis. 2. Smooth endoplasmic reticulum lacks ribosomes and is involved in lipid synthesis and detoxification in liver cells. Which of the statements given above is/are incorrect?",
@@ -2036,7 +2148,8 @@
           "note": "",
           "original_id": 113,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "What term denotes the functional role of an organism within its ecosystem?",
@@ -2054,7 +2167,8 @@
           "note": "",
           "original_id": 114,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Ecology & Environment"
         },
         {
           "q": "Which of the following represents a mutualistic association between algae and fungi?",
@@ -2072,7 +2186,8 @@
           "note": "",
           "original_id": 115,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following best describes the primary function of the Golgi apparatus in a living cell?",
@@ -2090,7 +2205,8 @@
           "note": "",
           "original_id": 116,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "What is the term for the mutualistic association between fungi and plant roots?",
@@ -2108,7 +2224,8 @@
           "note": "",
           "original_id": 117,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Plant Biology"
         },
         {
           "q": "What are organisms that break down dead organic matter into simpler inorganic substances called?",
@@ -2126,7 +2243,8 @@
           "note": "",
           "original_id": 118,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following forms the basis of organoid intelligence, an emerging approach to biological computing?",
@@ -2144,7 +2262,8 @@
           "note": "",
           "original_id": 119,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Charles Darwin is associated with which of the following evolutionary concepts?",
@@ -2162,7 +2281,8 @@
           "note": "",
           "original_id": 120,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Genetics & Heredity"
         },
         {
           "q": "Which technique uses cosmic-ray subatomic particles to image the internal structure of large solid objects without physical damage?",
@@ -2180,7 +2300,8 @@
           "note": "",
           "original_id": 121,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Nuclear & Energy Technology"
         },
         {
           "q": "Which process uses microorganisms such as Acidithiobacillus ferrooxidans to extract metals from low-grade ores through bioleaching?",
@@ -2198,7 +2319,8 @@
           "note": "",
           "original_id": 122,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Edward Jenner developed the world’s first successful vaccine against:",
@@ -2216,7 +2338,8 @@
           "note": "",
           "original_id": 123,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "What is the term for transplantation of live cells, tissues or organs from a non-human animal into a human recipient?",
@@ -2234,7 +2357,8 @@
           "note": "",
           "original_id": 124,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Cell & Biomolecules"
         },
         {
           "q": "Which of the following best describes the phenomenon of quantum tunnelling?",
@@ -2252,7 +2376,8 @@
           "note": "",
           "original_id": 125,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Consider the following statements regarding lymphocytes in the human immune system: 1. B-lymphocytes are primarily responsible for cell-mediated immunity by directly destroying infected and tumour cells. 2. T-lymphocytes do not secrete antibodies but assist B-lymphocytes in antibody production. Which of the statements given above is/are correct?",
@@ -2270,7 +2395,8 @@
           "note": "",
           "original_id": 126,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which experimental device uses powerful magnetic fields to confine hot plasma in a toroidal chamber for controlled nuclear fusion?",
@@ -2288,7 +2414,8 @@
           "note": "",
           "original_id": 127,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Nuclear & Energy Technology"
         },
         {
           "q": "Which of the following describes the Kessler Syndrome in the context of outer space activities?",
@@ -2306,7 +2433,8 @@
           "note": "",
           "original_id": 128,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following pairs regarding Directed Energy Weapon systems and their countries of origin are correctly matched? 1. HELIOS : United States of America 2. Peresvet : United Kingdom 3. Silent Hunter : China 4. IDD&IS Mk2A : India Select the correct answer using the codes given below:",
@@ -2324,7 +2452,8 @@
           "note": "",
           "original_id": 129,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Evolution & Taxonomy"
         },
         {
           "q": "The immunoglobulin abundantly present in colostrum that provides passive immunity to a newborn is:",
@@ -2342,7 +2471,8 @@
           "note": "",
           "original_id": 130,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following statements regarding cruise and ballistic missiles are correct? 1. Ballistic missiles are powered primarily during the initial launch phase, whereas cruise missiles remain continuously powered during flight. 2. Cruise missiles remain within the Earth’s atmosphere, whereas ballistic missiles may follow a trajectory extending into the exoatmosphere. 3. In India’s missile arsenal, the Agni series are cruise missiles, while BrahMos is a ballistic missile. Select the correct answer using the codes given below:",
@@ -2360,7 +2490,8 @@
           "note": "",
           "original_id": 131,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Consider the following pairs of prominent global air defence systems and their primary developing countries/regions: 1. Iron Dome : Israel 2. Patriot : United Kingdom 3. HQ-9 : China 4. SAMP/T(Mamba) : Russia How many pairs of the given above are correctly matched?",
@@ -2378,7 +2509,8 @@
           "note": "",
           "original_id": 132,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Human Immunodeficiency Virus (HIV) primarily targets and destroys which of the following cells of the human immune system?",
@@ -2396,7 +2528,8 @@
           "note": "",
           "original_id": 133,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following pairs of major vectorborne diseases and their primary causative agents or vectors is incorrectly matched?",
@@ -2414,7 +2547,8 @@
           "note": "",
           "original_id": 134,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Consider the following pairs of astronomical observatories in India and their locations: 1. Udaipur Solar Observatory : Rajasthan 2. Kodaikanal Solar Observatory : Kerala 3. Gauribidanur Radio Observatory : Karnataka 4. Aryabhatta Research Institute of Observational Sciences (ARIES) : Himachal Pradesh How many pairs of the given above are correctly matched?",
@@ -2432,7 +2566,8 @@
           "note": "",
           "original_id": 135,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Consider the following pairs regarding vaccine types and their mechanisms of action: 1. mRNA vaccines: Deliver genetic instructions for host cells to produce antigenic proteins 2. Live-attenuated vaccines: Introduce a chemically killed pathogen to stimulate immunity 3. Viral vector vaccines: Use a modified harmless virus to deliver the target genetic material 4. Toxoid vaccines: Use isolated surface proteins or polysaccharides of the pathogen Which of the pairs given above are correctly matched?",
@@ -2450,7 +2585,8 @@
           "note": "",
           "original_id": 136,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following best describes the fundamental operational infrastructure of satellite broadband internet systems?",
@@ -2468,7 +2604,8 @@
           "note": "",
           "original_id": 137,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following best describes a Sunsynchronous polar orbit?",
@@ -2486,7 +2623,8 @@
           "note": "",
           "original_id": 138,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Space & Defence Technology"
         },
         {
           "q": "Which of the following bacterial pathogens is specifically responsible for causing the disease Splenic fever?",
@@ -2504,7 +2642,8 @@
           "note": "",
           "original_id": 139,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Nutrient)\n\n(Examples) a. Polysaccharides 1. Folic Acid and Biotin b. Trace Minerals 2. Lysine and Methionine c. Water-Soluble 3. Starch and Vitamins\n\nGlycogen d. Essential Amino Acids 4. Selenium and Zinc Select the correct answer using the codes given below: a b c d",
@@ -2522,7 +2661,8 @@
           "note": "",
           "original_id": 140,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Nutrition & Vitamins"
         },
         {
           "q": "Which of the following best explains the significance of a lower nanometer (nm) rating in modern mobile processors?",
@@ -2540,7 +2680,8 @@
           "note": "",
           "original_id": 141,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Kala-azar is transmitted by which of the following vectors?",
@@ -2558,7 +2699,8 @@
           "note": "",
           "original_id": 142,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Microbiology"
         },
         {
           "q": "Which of the following pathogens is a causative agent for pneumonia in humans?",
@@ -2576,7 +2718,8 @@
           "note": "",
           "original_id": 143,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following best describes how modern undersea communication cables transmit global internet data?",
@@ -2594,7 +2737,8 @@
           "note": "",
           "original_id": 144,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which of the following biological signals is predominantly used by non-invasive braincomputer interfaces to decode neural activity?",
@@ -2612,7 +2756,8 @@
           "note": "",
           "original_id": 145,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "IT, Electronics & New Tech"
         },
         {
           "q": "Which of the following best describes anorexia nervosa?",
@@ -2630,7 +2775,8 @@
           "note": "",
           "original_id": 146,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Consider the following pairs of medical conditions/ biological factors and their descriptions: 1. Insomnia: Persistent difficulty in initiating or maintaining sleep despite adequate opportunity 2. Melatonin: Hormone secreted by the pineal gland that regulates the sleep-wake cycle 3. Dyspnoea: Clinical term for shortness of breath or breathing discomfort 4. Anosmia: Partial or complete loss of the sense of smell How many pairs given above are correctly matched?",
@@ -2648,7 +2794,8 @@
           "note": "",
           "original_id": 147,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Human Physiology"
         },
         {
           "q": "Which of the following best describes a biochemical marker?",
@@ -2666,7 +2813,8 @@
           "note": "",
           "original_id": 148,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Which of the following diseases is caused by the Herpes Simplex Virus (HSV)?",
@@ -2684,7 +2832,8 @@
           "note": "",
           "original_id": 149,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Deficiency)\n\n(Disease/Condition) a. Iodine 1. Osteomalacia b. Vitamin D 2. Pellagra c. Niacin 3. Xerophthalmia d. Vitamin A 4. Goitre Select the correct answer using the codes given below: a b c d",
@@ -2702,7 +2851,8 @@
           "note": "",
           "original_id": 150,
           "test_number": 10,
-          "test_subject": "Biology + Science & Technology"
+          "test_subject": "Biology + Science & Technology",
+          "topic": "Diseases & Health"
         }
       ]
     }
