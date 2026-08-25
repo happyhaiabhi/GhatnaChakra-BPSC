@@ -3353,7 +3353,7 @@ function mergeSyncValue(key,localValue,cloudValue){
 // Archive entries are deletion tombstones. They prevent an older device from
 // restoring a mastered, removed, or explicitly archived active-bank item.
 function reconcileArchivedItems(){
-  const archived=readSyncLocal('gc_archive');
+  const archived=readSyncLocal(sk('gc_archive'));
   const archivedIds=new Set(Object.keys(isPlainObject(archived)?archived:{}));
   const changed=[];
   syncActiveBankKeys().forEach(key=>{
@@ -3490,27 +3490,55 @@ async function hydrateLocalSyncBanks(keys){keys=keys||syncDataKeys();
 
 function cloudRef(key){return fbDb.collection('users').doc(fbUserId).collection('data').doc(key);}
 
+function isPermissionDenied(error){
+  const code=String(error&&error.code||'');
+  const message=String(error&&error.message||error||'');
+  return code==='permission-denied'||code==='firestore/permission-denied'||/insufficient permissions/i.test(message);
+}
+function friendlySyncError(error){
+  if(isPermissionDenied(error)){
+    return 'Missing or insufficient permissions. Publish firestore.rules in Firebase Console → Firestore Database → Rules, then tap Sync now. Progress on this device is safe.';
+  }
+  return (error&&error.message)||'Sync failed. Please try again.';
+}
+
 async function readAllFromCloud(){
-  const wanted=new Set(syncDataKeys());
+  // Read each known key with get() instead of listing the collection. A
+  // collection query is denied when live rules attach extra constraints to
+  // document ids, which surfaces as "Missing or insufficient permissions".
   const remote={};
-  const snapshot=await fbDb.collection('users').doc(fbUserId).collection('data').get();
-  snapshot.forEach(doc=>{
-    if(!wanted.has(doc.id))return;
-    const data=doc.data();if(!data||typeof data.payload!=='string')return;
-    try{remote[doc.id]=JSON.parse(data.payload);}catch(error){console.warn('Ignored invalid cloud payload:',doc.id);}
+  const keys=syncDataKeys();
+  if(!fbDb||!fbUserId)throw new Error('Not signed in');
+  const docs=await Promise.all(keys.map(async key=>{
+    try{return [key,await cloudRef(key).get()];}
+    catch(error){if(isPermissionDenied(error))throw error;console.warn('Cloud read skipped:',key,error);return [key,null];}
+  }));
+  docs.forEach(([key,doc])=>{
+    if(!doc||!doc.exists)return;
+    const data=typeof doc.data==='function'?doc.data():null;
+    if(!data||typeof data.payload!=='string')return;
+    try{remote[key]=JSON.parse(data.payload);}catch(error){console.warn('Ignored invalid cloud payload:',key);}
   });
   return remote;
 }
 
 async function writeKeysToCloud(keys){keys=keys||syncDataKeys();
   if(!fbDb||!fbUserId)throw new Error('Not signed in');
-  const batch=fbDb.batch();
-  keys.forEach(key=>{
+  // Write documents one at a time. A single batch fails entirely if live
+  // rules omit a newer key such as gc_attempts.
+  const failures=[];
+  for(const key of keys){
     const value=compactSyncValue(key,readSyncLocal(key));
     if(payloadByteLength(value)>850000)throw new Error(`${key} compact progress is unexpectedly too large to sync.`);
-    batch.set(cloudRef(key),{payload:JSON.stringify(value),updatedAt:Date.now()});
-  });
-  await batch.commit();
+    try{await cloudRef(key).set({payload:JSON.stringify(value),updatedAt:Date.now()});}
+    catch(error){
+      failures.push({key,error});
+      if(isPermissionDenied(error))console.warn('Cloud save skipped for',key,error.message);
+      else console.error('Cloud save failed for',key,error);
+    }
+  }
+  if(failures.length===keys.length)throw failures[0].error;
+  if(failures.length)console.warn('Some sync keys could not be written:',failures.map(item=>item.key).join(', '));
 }
 
 async function synchronizeAll(showToast=false){
@@ -3526,7 +3554,7 @@ async function synchronizeAll(showToast=false){
     if(showToast)showSyncToast('✓ Progress synced on all devices');
     return true;
   }catch(error){
-    setSyncStatus('error');showConnectedSyncStatus(error.message||'Sync failed. Please try again.','err');console.error('Sync failed:',error);return false;
+    setSyncStatus('error');showConnectedSyncStatus(friendlySyncError(error),'err');console.error('Sync failed:',error);return false;
   }
 }
 
@@ -3606,7 +3634,11 @@ function setupRealtimeListeners(){
         reconciled.forEach(changedKey=>cloudPushKey(changedKey));
         if(changed||hydrated.length||reconciled.length)showSyncToast('☁ Synced from another device');
       }catch(error){setSyncStatus('error');console.error('Realtime sync failed:',error);}
-    },error=>{setSyncStatus('error');console.error('Cloud listener failed:',error);});
+    },error=>{
+      console.error('Cloud listener failed:',key,error);
+      if(isPermissionDenied(error))return;
+      setSyncStatus('error');
+    });
     syncListeners.push(unsubscribe);
   });
 }
@@ -4264,4 +4296,4 @@ init();
 </script>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2d08688bd7ed97b',t:'MTc4NzA1MTk4Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
-l>
+

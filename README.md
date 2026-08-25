@@ -75,6 +75,8 @@ The app automatically merges and synchronizes:
 
 A **Sync now** button is available for a manual check. Local progress continues to work while offline and merges after reconnection. On first sign-in, local and cloud records are merged before anything is written, so signing in on a new or empty device does not erase existing cloud progress. Archive entries act as deletion tombstones, preventing an older device from restoring removed/mastered items.
 
+If the Cloud Sync dialog shows **Missing or insufficient permissions** with **Last successful sync: Not yet**, Google sign-in worked but Firestore blocked the progress documents. Publish the included `firestore.rules` (step 5 above) and tap **Sync now**. The app reads and writes each known key individually, so a live project whose rules omit a newer key such as `gc_attempts` still syncs the rest of your progress.
+
 ## Run locally
 
 The app loads JSON with `fetch`, so use a local web server rather than a `file://` URL:

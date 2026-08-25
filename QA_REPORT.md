@@ -46,7 +46,10 @@ Validated behaviors:
 - local save functions continue working offline and queue cloud updates only when authenticated;
 - a per-payload size guard stays below Firestore’s document limit;
 - sign-out preserves all local progress;
-- owner-only Firestore rules are included in `firestore.rules`.
+- owner-only Firestore rules are included in `firestore.rules`;
+- cloud reads use per-document `get()` (not a collection list) so extra id constraints on live rules cannot fail the whole merge;
+- writes are per-key, so a denied sibling such as `gc_attempts` does not block mistakes/bookmarks/history;
+- permission-denied errors tell the user to publish `firestore.rules`.
 
 Live Google authentication still requires the deployment domain to be listed in Firebase Authentication’s **Authorized domains**, as documented in `README.md`.
 
