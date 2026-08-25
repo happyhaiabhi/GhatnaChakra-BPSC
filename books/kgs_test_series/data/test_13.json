@@ -20,7 +20,8 @@
           "note": "",
           "original_id": 1,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Which of the following statements regarding hydrogen is correct?",
@@ -38,7 +39,8 @@
           "note": "",
           "original_id": 2,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Why is the image formed by a plane mirror laterally inverted?",
@@ -56,7 +58,8 @@
           "note": "",
           "original_id": 3,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "In a longitudinal wave, the distance between two successive compressions is equal to:",
@@ -74,7 +77,8 @@
           "note": "",
           "original_id": 4,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Consider the following pairs of Physical Quantities and their SI Units: 1. Heat Joule 2. Specific Heat Capacity Joule per kilogram kelvin 3. Temperature Kelvin 4. Thermal Conductivity Newton How many pairs given above are correctly matched?",
@@ -92,7 +96,8 @@
           "note": "",
           "original_id": 5,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "In metallurgy, the process of extracting a metal by heating its ore with a reducing agent to obtain the metal in molten form is known as:",
@@ -110,7 +115,8 @@
           "note": "",
           "original_id": 6,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Match List-I with List-II: List-I List-II (Type of Thermodynamic Process) (Characteristic Feature) a. Isothermal Process 1. Pressure remains constant b. Isobaric Process 2. No heat exchange with surroundings c. Isochoric Process 3. Temperature remains constant d. Adiabatic Process 4. Volume remains constant Select the correct answer using the codes given below: a b c d",
@@ -128,7 +134,8 @@
           "note": "",
           "original_id": 7,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following statements are correct regarding regelation and sublimation? 1. Regelation refers to the melting of ice under pressure and refreezing when pressure is removed. 2. Skating on ice is possible because pressure lowers the melting point of ice and forms a thin water layer below the skates. 3. During sublimation, a substance passes from the solid state to the liquid state and then into the vapour state. 4. Dry ice and iodine are examples of substances that undergo sublimation. Select the correct answer using the codes given below:",
@@ -146,7 +153,8 @@
           "note": "",
           "original_id": 8,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "According to Avogadro’s law, equal volumes of gases at the same temperature and pressure contain which of the following?",
@@ -164,7 +172,8 @@
           "note": "",
           "original_id": 9,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Arrange the following metals in the correct order of increasing thermal conductivity: 1. Bismuth 2. Aluminium 3. Copper 4. Silver Select the correct answer using the code given below:",
@@ -182,7 +191,8 @@
           "note": "",
           "original_id": 10,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following metals is commonly referred to as the “white noble metal”?",
@@ -200,7 +210,8 @@
           "note": "",
           "original_id": 11,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "A metal can displace another metal from its salt solution under which of the following conditions?",
@@ -218,7 +229,8 @@
           "note": "",
           "original_id": 12,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "When iron undergoes rusting in the presence of moisture and oxygen, what happens to its weight?",
@@ -236,7 +248,8 @@
           "note": "",
           "original_id": 13,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Galvanisation primarily protects iron from rusting because zinc:",
@@ -254,7 +267,8 @@
           "note": "",
           "original_id": 14,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following statements correctly distinguishes diamond from graphite?",
@@ -272,7 +286,8 @@
           "note": "",
           "original_id": 15,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "The red colour commonly seen in fireworks is primarily produced by compounds of which of the following elements?",
@@ -290,7 +305,8 @@
           "note": "",
           "original_id": 16,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "A gas can be liquefied under which of the following conditions?",
@@ -308,7 +324,8 @@
           "note": "",
           "original_id": 17,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following alloys is correctly matched with its principal constituents?",
@@ -326,7 +343,8 @@
           "note": "",
           "original_id": 18,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which one of the following is an example of a transverse wave?",
@@ -344,7 +362,8 @@
           "note": "",
           "original_id": 19,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Consider the following statements regarding Faraday’s Law of Electromagnetic Induction: 1. A change in magnetic flux linked with a coil induces an electromotive force (emf) in the coil. 2. The magnitude of the induced emf is independent of the rate of change of magnetic flux. Which of the statements given above is/are correct?",
@@ -362,7 +381,8 @@
           "note": "",
           "original_id": 20,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "What is the value of the Faraday constant?",
@@ -380,7 +400,8 @@
           "note": "",
           "original_id": 21,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding electromagnetic induction: 1. Moving a magnet towards a coil can induce current in the coil. 2. Induced current is produced only when there is a change in magnetic flux linked with the coil. 3. Electromagnetic induction is used in electric generators. Which of the statements given above are correct?",
@@ -398,7 +419,8 @@
           "note": "",
           "original_id": 22,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding electrical resistance: 1. Electrical resistance is the opposition offered by a material to the flow of electric current. 2. Resistance is measured in ohms (Ω) using an instrument called an ohmmeter. Which of the statements given above is/are correct?",
@@ -416,7 +438,8 @@
           "note": "",
           "original_id": 23,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Which of the following statements are correct regarding capacitance and inductance? 1. Capacitance is the ability of a circuit to store electric charge. 2. A capacitor consists of two conducting plates separated by an insulating material called a dielectric. 3. Inductance opposes any change in electric current in a circuit. 4. The SI unit of inductance is the ohm (Ω). Select the correct answer using the codes given below:",
@@ -434,7 +457,8 @@
           "note": "",
           "original_id": 24,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Consider the following statements regarding inductance and inductors: 1. The inductance of a coil depends upon the number of turns, dimensions of the coil and the nature of the core material. 2. In an alternating current (AC) circuit, inductance continuously opposes changes in current. 3. A change in current through a conductor causes a corresponding change in the magnetic field around it. Which of the statements given above are correct?",
@@ -452,7 +476,8 @@
           "note": "",
           "original_id": 25,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Which of the following pairs of electrical devices and their functions are correctly matched?\n\nDevice Function 1. Battery A combination of two or more cells 2. Galvanometer Current-indicating device 3. Resistor A device that generates a magnetic field 4. Heating element A resistance that produces heat Select the correct answer using the codes given below:",
@@ -470,7 +495,8 @@
           "note": "",
           "original_id": 26,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "A potentiometer, when connected using only two of its three terminals, allows adjustment of",
@@ -488,7 +514,8 @@
           "note": "",
           "original_id": 27,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "One of the most common types of earthing is:",
@@ -506,7 +533,8 @@
           "note": "",
           "original_id": 28,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following pairs are correctly matched? 1. Iron – Ferromagnetic material 2. Aluminium – Paramagnetic material 3. Copper – Diamagnetic material 4. Lead – Ferromagnetic material Select the correct answer using the codes given below:",
@@ -524,7 +552,8 @@
           "note": "",
           "original_id": 29,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Consider the following statements regarding the magnetic properties of materials: 1. Paramagnetic materials are weakly attracted by a magnetic field and lose magnetism when the field is removed. 2. Diamagnetic materials are strongly attracted by a magnetic field. 3. Ferromagnetic materials can retain magnetism even after the removal of the external magnetic field. Which of the statements given above are correct?",
@@ -542,7 +571,8 @@
           "note": "",
           "original_id": 30,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "In Fleming’s Right-Hand Rule, the forefinger represents:",
@@ -560,7 +590,8 @@
           "note": "",
           "original_id": 31,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding the effect of impurities on the physical properties of water: 1. Addition of common salt to pure water raises its boiling point. 2. Addition of methyl alcohol to pure water lowers its freezing point. 3. Addition of any impurity to pure water necessarily increases its freezing point. Which of the statements given above is/are correct?",
@@ -578,7 +609,8 @@
           "note": "",
           "original_id": 32,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following oxides would react with both acids and bases?",
@@ -596,7 +628,8 @@
           "note": "",
           "original_id": 33,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following pairs is incorrectly matched with respect to naturally occurring acids and their common sources?",
@@ -614,7 +647,8 @@
           "note": "",
           "original_id": 34,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Which of the following substances is correctly matched with its chemical formula?",
@@ -632,7 +666,8 @@
           "note": "",
           "original_id": 35,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following methods is most suitable for separating a mixture of sand and naphthalene?",
@@ -650,7 +685,8 @@
           "note": "",
           "original_id": 36,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following correctly compares the relative strength of two acids having the same molar concentration but pH values of 2 and 4, respectively?",
@@ -668,7 +704,8 @@
           "note": "",
           "original_id": 37,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Which of the following statements are correct regarding the resistance of a conductor? 1. The resistance of a conductor is directly proportional to its length. 2. The resistance of a conductor is inversely proportional to its area of cross-section. 3. Resistivity is a characteristic property of the material of the conductor. 4. Insulators generally have lower resistivity than metals. Select the correct answer using the codes given below:",
@@ -686,7 +723,8 @@
           "note": "",
           "original_id": 38,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Which of the following statements is correct regarding semiconductors?",
@@ -704,7 +742,8 @@
           "note": "",
           "original_id": 39,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Consider the following statements regarding the heating effect of electric current: 1. In a purely resistive electric circuit, electrical energy is completely converted into heat energy. 2. The heating effect of electric current is used in appliances such as an electric iron and an electric heater. 3. The electrical power supplied to a circuit is given by the expression P=VI. Which of the statements given above are correct?",
@@ -722,7 +761,8 @@
           "note": "",
           "original_id": 40,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Consider the following statements regarding Kirchhoff’s rules and electric circuits: 1. Kirchhoff’s rules are useful in analysing complex electric circuits having several resistors and cells. 2. If the calculated value of current in a branch is negative, the actual current flows opposite to the assumed direction. Which of the statements given above is/are correct?",
@@ -740,7 +780,8 @@
           "note": "",
           "original_id": 41,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Which of the following statements are correct regarding electrical resistivity and current conduction? 1. Metals generally have very low electrical resistivity. 2. Insulators such as glass and rubber possess much higher resistivity than metals. 3. In semiconductors like silicon and germanium, resistivity lies between conductors and insulators. 4. In all substances, electric current is carried only by electrons. Select the correct answer using the codes given below:",
@@ -758,7 +799,8 @@
           "note": "",
           "original_id": 42,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following pairs of physical quantities and their SI units are correctly matched?\n\nPhysical Quantity SI Unit 1. Electric current Ampere 2. Resistance Volt 3. Resistivity Ohm metre 4. Electric potential difference Coulomb Select the correct answer using the codes given below:",
@@ -776,7 +818,8 @@
           "note": "",
           "original_id": 43,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "The dry cell commonly used in torches, wall clocks and radios converts:",
@@ -794,7 +837,8 @@
           "note": "",
           "original_id": 44,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding the voltaic cell: 1. A voltaic cell generates electricity through chemical reactions. 2. The voltaic cell is named after the Italian physicist Alessandro Volta. Which of the statements given above is/are correct?",
@@ -812,7 +856,8 @@
           "note": "",
           "original_id": 45,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding atomic theory: 1. Dalton regarded atoms as indivisible particles incapable of creation or destruction during chemical reactions. 2. Rutherford’s atomic model successfully explained the line spectrum of the hydrogen atom. 3. Bohr proposed that electrons revolve only in certain permitted energy levels without radiating energy. Which of the statements given above are correct?",
@@ -830,7 +875,8 @@
           "note": "",
           "original_id": 46,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Scientists)\n\n(Contribution) a. Antoine Lavoisier 1. Law of Conservation of Mass b. J.J. Thomson 2. Discovery of proton c. James Chadwick 3. Discovery of neutron d. Rutherford 4. Discovery of electron Select the correct answer using the codes given below: a b c d",
@@ -848,7 +894,8 @@
           "note": "",
           "original_id": 47,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Consider the following statements regarding Dalton’s atomic theory: 1. Matter consists of indivisible particles called atoms. 2. Atoms of the same element may differ in mass under ordinary conditions. 3. Chemical reactions involve the rearrangement of atoms rather than their creation or destruction. 4. The Law of Definite Proportions supports the idea that compounds have a fixed composition by mass. Which of the statements given above are correct?",
@@ -866,7 +913,8 @@
           "note": "",
           "original_id": 48,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Atomic Structure & Periodic Table"
         },
         {
           "q": "Assertion (A): Neutrons contribute significantly to atomic mass but do not affect the net charge of an atom. Reason (R): Neutrons are electrically neutral particles located in the nucleus. Select the correct answer:",
@@ -884,7 +932,8 @@
           "note": "",
           "original_id": 49,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Consider the following statements about an atom containing 19 protons, 20 neutrons, and 19 electrons: 1. Its atomic number is 19. 2. Its mass number is 39. 3. It represents a positively charged ion. Which of the statements given above are correct?",
@@ -902,7 +951,8 @@
           "note": "",
           "original_id": 50,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Atomic Structure & Periodic Table"
         },
         {
           "q": "Consider the following statements regarding atomic structure: 1. If an atom loses one electron, its atomic number remains unchanged. 2. If an atom gains one electron, its mass number increases by one. 3. The number of neutrons in an atom can be determined by subtracting the atomic number from the mass number. Which of the statements given above are correct?",
@@ -920,7 +970,8 @@
           "note": "",
           "original_id": 51,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Consider the following pairs related to atomic variations: 1. Isotopes Same atomic number but different mass numbers 2. Isobars Same mass number but different atomic numbers 3. Isotones Same number of neutrons but different atomic numbers Which of the pairs given above are correctly matched?",
@@ -938,7 +989,8 @@
           "note": "",
           "original_id": 52,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Atomic Structure & Periodic Table"
         },
         {
           "q": "Consider the following statements regarding artificial or transuranic elements: 1. These are elements having atomic numbers greater than that of uranium. 2. They occur naturally in significant abundance on Earth. 3. Neptunium was among the earliest artificially synthesised transuranic elements. Which of the statements given above are correct?",
@@ -956,7 +1008,8 @@
           "note": "",
           "original_id": 53,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Atomic Structure & Periodic Table"
         },
         {
           "q": "Consider the following statements regarding valency and electronic configuration: 1. Sodium has one valence electron. 2. Noble gases generally possess a stable octet in their outermost shell. 3. Valency is always equal to the number of valence electrons present in an atom. Which of the statements given above are correct?",
@@ -974,7 +1027,8 @@
           "note": "",
           "original_id": 54,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "How many of the following statements regarding chemical bonding are correct? 1. Ionic bond formation involves the transfer of electrons. 2. Covalent bond involves the mutual sharing of electron pairs. 3. In coordinate bonding, both shared electrons are contributed by one atom. 4. Ionic compounds generally have low melting points due to weak electrostatic attraction. Select the correct answer using the codes given below:",
@@ -992,7 +1046,8 @@
           "note": "",
           "original_id": 55,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Assertion (A): An ammeter is connected in series in an electric circuit. Reason (R): An ammeter has very low resistance so that the same current flows through it without a significant change in the circuit current. Select the correct answer using the codes given below:",
@@ -1010,7 +1065,8 @@
           "note": "",
           "original_id": 56,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "An electric lamp of resistance 20Ω and a conductor of resistance 4Ω are connected in series to a 6V battery. What will be the current flowing through the circuit and the potential difference across the electric lamp, respectively?",
@@ -1028,7 +1084,8 @@
           "note": "",
           "original_id": 57,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding electric potential difference and electric current: 1. Electric charges flow through a conductor due to the presence of a potential difference between its ends. 2. The SI unit of potential difference is joule per coulomb. Which of the statements given above is/are correct?",
@@ -1046,7 +1103,8 @@
           "note": "",
           "original_id": 58,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Assertion (A): An electromagnet loses its magnetism when the electric current flowing through it is switched off. Reason (R): Electromagnets are generally made by winding insulated copper wire around a soft iron core. Select the correct answer:",
@@ -1064,7 +1122,8 @@
           "note": "",
           "original_id": 59,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Nichrome wire is commonly used in electrical heating devices because it:",
@@ -1082,7 +1141,8 @@
           "note": "",
           "original_id": 60,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Consider the following statements regarding sigma (σ) and pi (π) bonds in hydrocarbons: 1. A hydrocarbon containing one double bond has one π bond in addition to its sigma (σ) bonds. 2. A six-membered ring with alternating double bonds contains a greater number of π bonds than a hydrocarbon having only one double bond. 3. A compound having a greater number of π bonds must always have fewer sigma (σ) bonds. Which of the statements given above are correct?",
@@ -1100,7 +1160,8 @@
           "note": "",
           "original_id": 61,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "The bond order of a diatomic species becomes zero under which of the following conditions?",
@@ -1118,7 +1179,8 @@
           "note": "",
           "original_id": 62,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Consider the following processes: 1. Burning of LPG 2. Curdling of milk 3. Crushing of sugar crystals 4. Setting of cement How many of the above involve the formation of new substances?",
@@ -1136,7 +1198,8 @@
           "note": "",
           "original_id": 63,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Assertion (A): A catalyst can increase the rate of both the forward and backward reactions equally. Reason (R): A catalyst lowers the activation energy of a reaction without changing its thermodynamic feasibility. Select the correct answer:",
@@ -1154,7 +1217,8 @@
           "note": "",
           "original_id": 64,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following processes is correctly matched with its thermal nature?",
@@ -1172,7 +1236,8 @@
           "note": "",
           "original_id": 65,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "If the pH of a solution changes from 3 to 5, what does it indicate about the hydrogen ion concentration?",
@@ -1190,7 +1255,8 @@
           "note": "",
           "original_id": 66,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Consider the following statements regarding acid-base indicators: 1. Phenolphthalein remains colourless in an acidic medium. 2. Methyl orange turns yellow in an alkaline medium. 3. Dry blue litmus paper turns red in the presence of dry hydrogen chloride gas. Which of the statements given above are correct?",
@@ -1208,7 +1274,8 @@
           "note": "",
           "original_id": 67,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Which of the following best explains the weak electrical conductivity of distilled water?",
@@ -1226,7 +1293,8 @@
           "note": "",
           "original_id": 68,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding concentration terms used in chemistry: 1. Molarity is defined as the number of moles of solute present per litre of solution. 2. Molality is defined as the number of gram equivalents of solute present per kilogram of solvent. 3. Normality is defined as the number of moles of solute present per litre of solution. Which of the statements given above are correct?",
@@ -1244,7 +1312,8 @@
           "note": "",
           "original_id": 69,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "An element is most likely to be classified as a metalloid if it exhibits which of the following characteristics?",
@@ -1262,7 +1331,8 @@
           "note": "",
           "original_id": 70,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Assertion (A): Heat and work are two modes of transfer of energy to a thermodynamic system. Reason (R): Internal energy of a system includes the overall kinetic energy of the system as a whole. Select the correct answer:",
@@ -1280,7 +1350,8 @@
           "note": "",
           "original_id": 71,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Consider the following statements regarding temperature measuring devices: 1. A radiation pyrometer measures the temperature of distant hot bodies without direct contact. 2. A thermocouple works based on the Seebeck effect. 3. In a thermocouple, thermo-electric e.m.f. is produced when two identical metals are joined together. Which of the statements given above are correct?",
@@ -1298,7 +1369,8 @@
           "note": "",
           "original_id": 72,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Consider the following pairs of Thermodynamic Systems and their Characteristics/Examples: 1. Open System Can exchange both mass and energy with the surroundings 2. Closed System Gas enclosed in a cylinder fitted with a piston 3. Isolated System Filled thermos flask How many pairs given above are correctly matched?",
@@ -1316,7 +1388,8 @@
           "note": "",
           "original_id": 73,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "At the triple point of water, which of the following states coexist simultaneously in thermodynamic equilibrium?",
@@ -1334,7 +1407,8 @@
           "note": "",
           "original_id": 74,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following statements are correct regarding modes of heat transfer? 1. Conduction takes place mainly in solids without actual movement of matter. 2. Convection involves the transfer of heat through the bulk movement of molecules in fluids. 3. Radiation requires a material medium for the transfer of heat. 4. Heat from the Sun reaches the Earth mainly through radiation. Select the correct answer using the codes given below:",
@@ -1352,7 +1426,8 @@
           "note": "",
           "original_id": 75,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following pairs regarding Laws of Thermodynamics are correctly matched? 1. Zeroth Law: Basis of temperature measurement 2. First Law: Conservation of energy 3. Second Law: Heat cannot flow from a cold body to a hot body without external work 4. Third Law: The entropy of a perfect crystal is maximum at absolute zero Select the correct answer using the codes given below:",
@@ -1370,7 +1445,8 @@
           "note": "",
           "original_id": 76,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following substances is completely free from oxygen in its chemical composition?",
@@ -1388,7 +1464,8 @@
           "note": "",
           "original_id": 77,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Which of the following statements regarding halogens and noble gases is correct?",
@@ -1406,7 +1483,8 @@
           "note": "",
           "original_id": 78,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Glucose and fructose, having the same molecular formula but different structural arrangements, are examples of:",
@@ -1424,7 +1502,8 @@
           "note": "",
           "original_id": 79,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "The first synthetic organic compound prepared in a laboratory, urea, contains which of the following combinations of elements?",
@@ -1442,7 +1521,8 @@
           "note": "",
           "original_id": 80,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Which of the following statements regarding organic compounds is correct?",
@@ -1460,7 +1540,8 @@
           "note": "",
           "original_id": 81,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "The enzyme responsible for the fermentation of glucose to ethyl alcohol is:",
@@ -1478,7 +1559,8 @@
           "note": "",
           "original_id": 82,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Which of the following gases is predominantly formed during the incomplete combustion of petrol or diesel?",
@@ -1496,7 +1578,8 @@
           "note": "",
           "original_id": 83,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Motion, Forces & Mechanics"
         },
         {
           "q": "Natural rubber is primarily a polymer of which of the following monomers?",
@@ -1514,7 +1597,8 @@
           "note": "",
           "original_id": 84,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Bakelite is classified as which of the following types of polymers?",
@@ -1532,7 +1616,8 @@
           "note": "",
           "original_id": 85,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "The abbreviation PHBV stands for which of the following polymers?",
@@ -1550,7 +1635,8 @@
           "note": "",
           "original_id": 86,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Which of the following synthetic fibres is correctly matched with its characteristic property?",
@@ -1568,7 +1654,8 @@
           "note": "",
           "original_id": 87,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Assertion (A): Sound waves in gases are longitudinal waves. Reason (R): Gas particles oscillate parallel to the direction of wave propagation. Choose the correct option:",
@@ -1586,7 +1673,8 @@
           "note": "",
           "original_id": 88,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Which of the following waves can travel in a vacuum? 1. Sound waves 2. Light waves 3. Radio waves Select the correct answer using the code given below:",
@@ -1604,7 +1692,8 @@
           "note": "",
           "original_id": 89,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Which of the following statements are correct regarding the Doppler Effect? 1. The Doppler Effect refers to the apparent change in frequency due to relative motion between the source and observer. 2. When the source moves towards the observer, the observed frequency decreases. 3. Sound waves exhibit the Doppler Effect. 4. The speed of sound in a given medium changes due to the Doppler Effect. Select the correct answer using the codes given below:",
@@ -1622,7 +1711,8 @@
           "note": "",
           "original_id": 90,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Consider the following pairs of Physical Quantities and their SI Units: 1. Frequency: Hertz 2. Time Period: Second 3. Amplitude: Joule 4. Wavelength: Metre How many pairs given above are correctly matched?",
@@ -1640,7 +1730,8 @@
           "note": "",
           "original_id": 91,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Which of the following statements are correct regarding progressive and stationary waves? 1. In a harmonic progressive wave, all particles have the same amplitude but different phases at a given instant of time. 2. In a stationary wave, all particles between two nodes vibrate in the same phase but possess different amplitudes. Select the correct answer using the codes given below:",
@@ -1658,7 +1749,8 @@
           "note": "",
           "original_id": 92,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Which one of the following applications is based on the reflection of ultrasonic waves?",
@@ -1676,7 +1768,8 @@
           "note": "",
           "original_id": 93,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Which one of the following best explains why echoes are heard distinctly only after a short interval of time?",
@@ -1694,7 +1787,8 @@
           "note": "",
           "original_id": 94,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Which of the following statements are correct regarding the speed of longitudinal waves? 1. The speed of longitudinal waves in a fluid depends upon the bulk modulus and density of the medium. 2. Bulk modulus measures the resistance of a medium to compression. 3. The speed of sound in solids is generally lower than in gases because solids have a higher density. 4. In a solid bar, the speed of longitudinal waves depends on Young’s modulus. Select the correct answer using the codes given below:",
@@ -1712,7 +1806,8 @@
           "note": "",
           "original_id": 95,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Match List-I with List-II List-I List-II (Scientists) (Theories of Light) a. René Descartes 1. Electromagnetic theory of light b. Christiaan Huygens 2. Corpuscular model of light c. Thomas Young 3. Wave theory of light d. James Clerk Maxwell 4. Interference experiment Select the correct answer using the codes given below: a b c d",
@@ -1730,7 +1825,8 @@
           "note": "",
           "original_id": 96,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Which of the following statements are correct regarding wavefronts and Huygens’ principle? 1. A wavefront is a surface joining all points oscillating in the same phase. 2. The direction of propagation of energy is perpendicular to the wavefront. 3. A spherical wavefront is produced by a point source emitting waves uniformly in all directions. 4. Huygens’ principle states that each point on a wavefront acts as a source of secondary wavelets. Select the correct answer using the codes given below:",
@@ -1748,7 +1844,8 @@
           "note": "",
           "original_id": 97,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Assertion (A): At large distances from a point source, a spherical wavefront can be approximated as a plane wavefront. Reason (R): A very small portion of a large sphere appears nearly flat. Select the correct answer:",
@@ -1766,7 +1863,8 @@
           "note": "",
           "original_id": 98,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "General"
         },
         {
           "q": "Which of the following statements are correct regarding refraction of light using Huygens’ principle? 1. Snell’s law can be derived using Huygens’ principle. 2. When light bends towards the normal, its speed decreases in the second medium. 3. During refraction, the frequency of light changes. 4. The wavelength of light decreases when it enters a denser medium. Select the correct answer using the codes given below:",
@@ -1784,7 +1882,8 @@
           "note": "",
           "original_id": 99,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Why does total internal reflection occur only when light travels from a denser medium to a rarer medium?",
@@ -1802,7 +1901,8 @@
           "note": "",
           "original_id": 100,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "In the photon picture of light, what determines the intensity of light?",
@@ -1820,7 +1920,8 @@
           "note": "",
           "original_id": 101,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Linen is obtained from which of the following natural sources?",
@@ -1838,7 +1939,8 @@
           "note": "",
           "original_id": 102,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Teflon is widely used as a coating material in nonstick cookware primarily because it:",
@@ -1856,7 +1958,8 @@
           "note": "",
           "original_id": 103,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "The process of preparing soap by heating fats or oils with an alkali is known as:",
@@ -1874,7 +1977,8 @@
           "note": "",
           "original_id": 104,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Laughing gas, historically used as an anaesthetic, is chemically known as:",
@@ -1892,7 +1996,8 @@
           "note": "",
           "original_id": 105,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "States of Matter & Gas Laws"
         },
         {
           "q": "In a breathalyser test, the chemical primarily used to detect alcohol through an oxidation-reduction reaction is:",
@@ -1910,7 +2015,8 @@
           "note": "",
           "original_id": 106,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "The chief combustible constituent of biogas is:",
@@ -1928,7 +2034,8 @@
           "note": "",
           "original_id": 107,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "When carbon dioxide is passed through freshly prepared limewater, the milkiness appears due to the formation of:",
@@ -1946,7 +2053,8 @@
           "note": "",
           "original_id": 108,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following reactions will definitely result in the evolution of carbon dioxide gas?",
@@ -1964,7 +2072,8 @@
           "note": "",
           "original_id": 109,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following substances was historically used as an anti-knocking additive to improve the octane rating of petrol?",
@@ -1982,7 +2091,8 @@
           "note": "",
           "original_id": 110,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Portland cement is primarily manufactured using which of the following raw material combinations?",
@@ -2000,7 +2110,8 @@
           "note": "",
           "original_id": 111,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "With reference to wave motion, consider the following statements: 1. In transverse waves, particles of the medium vibrate perpendicular to the direction of propagation of the wave. 2. In longitudinal waves, particles of the medium vibrate parallel to the direction of propagation of the wave. 3. Sound waves travelling in the air are transverse in nature. Which of the statements given above is/are correct?",
@@ -2018,7 +2129,8 @@
           "note": "",
           "original_id": 112,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "The idea of the expanding universe is based on which of the following phenomena?",
@@ -2036,7 +2148,8 @@
           "note": "",
           "original_id": 113,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Sound & Waves"
         },
         {
           "q": "Consider the following pairs regarding image formation by a concave mirror: 1. Object beyond C: Diminished image between F and C 2. Object at F: Image at infinity 3. Object at C: Enlarged image at C 4. Object between P and F: Virtual and erect image How many pairs given above are correctly matched?",
@@ -2054,7 +2167,8 @@
           "note": "",
           "original_id": 114,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Assertion (A): Concave mirrors are commonly used as rear-view mirrors in vehicles. Reason (R): Convex mirrors provide an erect, diminished image and have a wider field of view. Select the correct answer:",
@@ -2072,7 +2186,8 @@
           "note": "",
           "original_id": 115,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Arrange the following substances in ascending order of their refractive indices:",
@@ -2090,7 +2205,8 @@
           "note": "",
           "original_id": 116,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "A child visits a funfair and stands in front of a “magic mirror” made up of different types of mirrors arranged vertically. She observes that: her forehead appears magnified, the middle part of her body appears unchanged in size, and her legs appear smaller than normal. Which of the following arrangements of mirrors from top to bottom would produce such images?",
@@ -2108,7 +2224,8 @@
           "note": "",
           "original_id": 117,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Mirage observed on hot roads during summer is primarily caused by:",
@@ -2126,7 +2243,8 @@
           "note": "",
           "original_id": 118,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Optical fibres used in telecommunication are based on which of the following principles?",
@@ -2144,7 +2262,8 @@
           "note": "",
           "original_id": 119,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "During sunrise and sunset, the Sun appears reddish because:",
@@ -2162,7 +2281,8 @@
           "note": "",
           "original_id": 120,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Assertion (A): In the visible spectrum, blue light possesses greater energy than red light. Reason (R): The wavelength of blue light is smaller than that of red light. Select the correct answer:",
@@ -2180,7 +2300,8 @@
           "note": "",
           "original_id": 121,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Why does a swimmer underwater perceive objects above the water surface within a limited circular region?",
@@ -2198,7 +2319,8 @@
           "note": "",
           "original_id": 122,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Which of the following is used to correct myopia?",
@@ -2216,7 +2338,8 @@
           "note": "",
           "original_id": 123,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Which of the following colour combinations in additive colour mixing is/are correctly matched? 1. Red + Green Yellow 2. Green + Blue Cyan 3. Blue + Red Magenta 4. Red + Green + Blue White Select the correct answer using the codes given below:",
@@ -2234,7 +2357,8 @@
           "note": "",
           "original_id": 124,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "A common soda-acid fire extinguisher works primarily by producing which of the following gases?",
@@ -2252,7 +2376,8 @@
           "note": "",
           "original_id": 125,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Phosphorescent paints exhibit a prolonged glowing effect primarily because of the presence of which of the following substances?",
@@ -2270,7 +2395,8 @@
           "note": "",
           "original_id": 126,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Smart glass changes its transparency primarily due to which of the following mechanisms?",
@@ -2288,7 +2414,8 @@
           "note": "",
           "original_id": 127,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Cisplatin, a widely used anticancer drug, contains which of the following metals as its central atom?",
@@ -2306,7 +2433,8 @@
           "note": "",
           "original_id": 128,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following compounds is commonly used as the active chemical ingredient in oral contraceptive pills?",
@@ -2324,7 +2452,8 @@
           "note": "",
           "original_id": 129,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following medicines is correctly matched with its primary chemical classification?",
@@ -2342,7 +2471,8 @@
           "note": "",
           "original_id": 130,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following chemicals is commonly used as a preservative to inhibit microbial spoilage in packaged food products?",
@@ -2360,7 +2490,8 @@
           "note": "",
           "original_id": 131,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following artificial sweeteners is considered unsuitable for individuals suffering from phenylketonuria?",
@@ -2378,7 +2509,8 @@
           "note": "",
           "original_id": 132,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Motion, Forces & Mechanics"
         },
         {
           "q": "Which of the following chemicals is commonly used in water treatment to coagulate suspended impurities and facilitate their removal?",
@@ -2396,7 +2528,8 @@
           "note": "",
           "original_id": 133,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "TNT, a commonly known high explosive, stands for:",
@@ -2414,7 +2547,8 @@
           "note": "",
           "original_id": 134,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Organic & Everyday Chemistry"
         },
         {
           "q": "Which of the following statements regarding α-particles, β-particles and γ-rays are correct? 1. α-particles possess the highest ionising power among the three radiations. 2. β-particles are more penetrating than α-particles. 3. γ-rays are deflected by electric and magnetic fields because they carry charge. 4. γ-rays have greater penetrating power than both α and β-particles. Select the correct answer using the codes given below:",
@@ -2432,7 +2566,8 @@
           "note": "",
           "original_id": 135,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "Consider the following statements regarding applications of radioactivity in daily life: 1. Radioactive cobalt sources emitting gamma rays are used in radiotherapy to treat cancer. 2. Carbon-14 dating measures the decay of carbon into lead to estimate the age of fossils. 3. Gamma radiation is used in agriculture to improve crop yield and prevent decay. 4. β-particles are used in industry to detect flaws in heavy machinery. Which of the statements given above are correct?",
@@ -2450,7 +2585,8 @@
           "note": "",
           "original_id": 136,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Which radioactive isotope is commonly used in carbon dating to estimate the age of fossils?",
@@ -2468,7 +2604,8 @@
           "note": "",
           "original_id": 137,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Which of the following statements correctly describes the law of radioactive decay?",
@@ -2486,7 +2623,8 @@
           "note": "",
           "original_id": 138,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Which isotope of Uranium is capable of sustaining a chain reaction in a nuclear reactor?",
@@ -2504,7 +2642,8 @@
           "note": "",
           "original_id": 139,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Modern & Nuclear Physics"
         },
         {
           "q": "Consider the following statements about the Hydrogen Bomb: 1. The energy in a Hydrogen Bomb comes mainly from nuclear fission reactions. 2. Nuclear fusion is used in the Hydrogen Bomb to release far more energy per unit mass than fission. 3. Fusion requires relatively low temperatures to occur compared to fission. Which of the statements given above are correct?",
@@ -2522,7 +2661,8 @@
           "note": "",
           "original_id": 140,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Units, Measurement & Instruments"
         },
         {
           "q": "Acid rain primarily results from the atmospheric conversion of which of the following pollutants?",
@@ -2540,7 +2680,8 @@
           "note": "",
           "original_id": 141,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Stratospheric ozone depletion is accelerated because chlorine radicals released from chlorofluorocarbons (CFCs):",
@@ -2558,7 +2699,8 @@
           "note": "",
           "original_id": 142,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "Which of the following substances is commonly used as an antacid to neutralise excess hydrochloric acid in the stomach?",
@@ -2576,7 +2718,8 @@
           "note": "",
           "original_id": 143,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following statements regarding colloidal systems is correct?",
@@ -2594,7 +2737,8 @@
           "note": "",
           "original_id": 144,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Optics"
         },
         {
           "q": "Which of the following metals is commonly extracted from its ore by the cyanide leaching process?",
@@ -2612,7 +2756,8 @@
           "note": "",
           "original_id": 145,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         },
         {
           "q": "Which of the following statements is correct regarding graphene?",
@@ -2630,7 +2775,8 @@
           "note": "",
           "original_id": 146,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "In a hydrogen-oxygen fuel cell, electricity is generated through a chemical reaction that produces which of the following as its only by-product?",
@@ -2648,7 +2794,8 @@
           "note": "",
           "original_id": 147,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Electricity & Magnetism"
         },
         {
           "q": "The presence of starch added as a cheap adulterant in milk can be chemically detected by using which of the following reagents?",
@@ -2666,7 +2813,8 @@
           "note": "",
           "original_id": 148,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Chemical Bonding & Reactions"
         },
         {
           "q": "The Meissner effect, a characteristic property of superconductors below their critical temperature, refers to which one of the following phenomena?",
@@ -2684,7 +2832,8 @@
           "note": "",
           "original_id": 149,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Heat & Thermodynamics"
         },
         {
           "q": "Consider the following pairs of devices and their primary functions: 1. Electroplating Deposition of a thin layer of one metal on another 2. Electrolysis Chemical decomposition using an electric current 3. Fuel Cell Conversion of chemical energy directly into electrical energy 4. Galvanisation Purification of copper by electrolysis Which of the pairs given above are correctly matched?",
@@ -2702,7 +2851,8 @@
           "note": "",
           "original_id": 150,
           "test_number": 13,
-          "test_subject": "Physics + Chemistry"
+          "test_subject": "Physics + Chemistry",
+          "topic": "Metals, Non-Metals & Metallurgy"
         }
       ]
     }

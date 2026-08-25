@@ -20,7 +20,8 @@
           "note": "",
           "original_id": 1,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Constitution & Preamble"
         },
         {
           "q": "Consider the following statements regarding the ‘Zero Hour’ in Parliament: 1. It is an Indian innovation in the field of parliamentary procedures since 1962. 2. It is mentioned in the Rules of Procedure of the Houses. Which of the statements given above is/are correct?",
@@ -38,7 +39,8 @@
           "note": "",
           "original_id": 2,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): A No-Confidence Motion does not need to state the reasons for its adoption. Reason (R): It can be moved against an individual minister or a group of ministers. Select the correct answer:",
@@ -56,7 +58,8 @@
           "note": "",
           "original_id": 3,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following pairs of Bill types and their characteristics: 1. Ordinary Bill Can be introduced by a minister or a private member 2. Money Bill Can be introduced only by a minister 3. Financial Bill (I) Cannot be introduced in the Rajya Sabha 4. Constitutional Amendment Requires prior recommendation of the President How many pairs of the given above are correctly matched?",
@@ -74,7 +77,8 @@
           "note": "",
           "original_id": 4,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following Union Territories has representation in the Rajya Sabha? 1. Chandigarh 2. Puducherry 3. Jammu and Kashmir 4. Ladakh Select the correct answer using the codes given below:",
@@ -92,7 +96,8 @@
           "note": "",
           "original_id": 5,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): Ministers hold office during the pleasure of the President. Reason (R): The President removes a minister only on the advice of the Prime Minister. Select the correct answer:",
@@ -110,7 +115,8 @@
           "note": "",
           "original_id": 6,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "For what maximum duration can the VicePresident act as the President in the event of a vacancy?",
@@ -128,7 +134,8 @@
           "note": "",
           "original_id": 7,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following pairs of Constitutional Articles and their provisions: 1. Article 74 Council of Ministers to aid and advise the President 2. Article 75 Other provisions as to Ministers 3. Article 78 Duties of PM as respects the furnishing of information 4. Article 88 Rights of Ministers as respects the Houses How many pairs of the given above are correctly matched?",
@@ -146,7 +153,8 @@
           "note": "",
           "original_id": 8,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Assertion (A): The ‘Rule of Law’ embodied in Article 14 is a basic feature of the Constitution. Reason (R): Article 14 permits reasonable classification of persons, objects, and transactions by the law. Select the correct answer:",
@@ -164,7 +172,8 @@
           "note": "",
           "original_id": 9,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Articles)\n\n(Subject Matter) a. Article 14 1. Abolition of Untouchability b. Article 15 2. Equality of opportunity in public employment c. Article 16 3. Equality before the law d. Article 17 4. Prohibition of discrimination on certain grounds Select the correct answer using the codes given below: a b c d",
@@ -182,7 +191,8 @@
           "note": "",
           "original_id": 10,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the Chairman of the Legislative Council: 1. He is elected by the council members from amongst themselves. 2. His salary and allowances are determined by the Governor. Which of the statements given above is/are correct?",
@@ -200,7 +210,8 @@
           "note": "",
           "original_id": 11,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following statements regarding the Governor’s pardoning powers: 1. He can pardon sentences inflicted under state laws. 2. He can pardon a death sentence if it is passed under a state law. 3. He cannot pardon sentences inflicted by a court-martial. Which of the statements given above is/are correct?",
@@ -218,7 +229,8 @@
           "note": "",
           "original_id": 12,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following pairs of Articles of Fundamental Duties and their associated themes: 1. 51A(a) To respect constitutional ideals and institutions 2. 51A(g) To protect and improve forests, lakes, rivers and wildlife 3. 51A(i) To safeguard public property and to abjure violence 4. 51A(h) To develop humanism and the spirit of inquiry How many pairs of the given above are correctly matched?",
@@ -236,7 +248,8 @@
           "note": "",
           "original_id": 13,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the Committee on Subordinate Legislation: 1. It examines whether the executive properly exercises delegated rule-making powers. 2. Both Houses have their own separate committees on subordinate legislation. 3. Ministers are frequently appointed to this committee to guide its proceedings. Which of the statements given above are correct?",
@@ -254,7 +267,8 @@
           "note": "",
           "original_id": 14,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "What is the maximum number of ‘starred questions’ admitted for oral answers on a single day?",
@@ -272,7 +286,8 @@
           "note": "",
           "original_id": 15,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which functionary acts as the ex officio President of the Indian Parliamentary Group?",
@@ -290,7 +305,8 @@
           "note": "",
           "original_id": 16,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following pairs regarding parliamentary privileges are correctly matched? 1. Freedom from arrest Applicable only in civil cases 2. Duration of immunity 60 days before and after a session 3. Freedom of speech Absolute immunity for anything said in Parliament 4. Secret sitting Right to exclude strangers from proceedings Select the correct answer using the codes given below:",
@@ -308,7 +324,8 @@
           "note": "",
           "original_id": 17,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Under the Citizenship Act of 1955, by what method can the Government of India terminate citizenship?",
@@ -326,7 +343,8 @@
           "note": "",
           "original_id": 18,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Constitution & Preamble"
         },
         {
           "q": "Which of the following bodies are considered ‘State’ under Article 12? 1. Life Insurance Corporation of India (LIC) 2. Oil and Natural Gas Commission (ONGC) 3. Steel Authority of India Ltd (SAIL) 4. A private agency working as an instrument of the State Select the correct answer using the codes given below:",
@@ -344,7 +362,8 @@
           "note": "",
           "original_id": 19,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the relationship between Fundamental Rights and Directive Principles of State Policy: 1. In the Minerva Mills case (1980), the Supreme Court held that harmony between Fundamental Rights and DPSP is a basic feature of the Constitution. 2. The 42nd Amendment Act gave DPSP absolute primacy over Fundamental Rights under Articles 14 and 19. 3. Article 31C, as originally enacted, protected laws giving effect to all Directive Principles from challenge under Articles 14 and 19. 4. The Supreme Court in the Kesavananda Bharati case upheld Article 31C only to the extent it protected laws related to Articles 39(b) and 39(c). Which of the statements given above are correct?",
@@ -362,7 +381,8 @@
           "note": "",
           "original_id": 20,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Which of the following are grounds for a Member of Parliament to vacate their seat? 1. Double membership in both Houses of Parliament. 2. Being elected to a state legislature simultaneously. 3. Absence from meetings for sixty days without permission. 4. Resignation addressed to the President of India. Select the correct answer using the codes given below:",
@@ -380,7 +400,8 @@
           "note": "",
           "original_id": 21,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following pairs of Fundamental Rights and their availability are correctly matched? 1. Article 15 Available only to citizens 2. Article 14 Available to both citizens and foreigners 3. Article 16 Available to both citizens and foreigners 4. Article 18 Available only to citizens Select the correct answer using the codes given below:",
@@ -398,7 +419,8 @@
           "note": "",
           "original_id": 22,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Assertion (A): The Rajya Sabha is a continuing chamber and is not subject to dissolution. Reason (R): One-third of its members retire every second year. Select the correct answer:",
@@ -416,7 +438,8 @@
           "note": "",
           "original_id": 23,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following are considered components of the ‘Basic Structure’ doctrine? 1. Supremacy of the Constitution 2. Judicial Review 3. Rule of law 4. Harmony and balance between Fundamental Rights and DPSP Select the correct answer using the codes given below:",
@@ -434,7 +457,8 @@
           "note": "",
           "original_id": 24,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "How many seats does the Rajya Sabha allocate to Union Territories in its current composition?",
@@ -452,7 +476,8 @@
           "note": "",
           "original_id": 25,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II regarding DepartmentallyRelated Standing Committees (DRSCs)\n\nList-I\n\nList-II\n\n(Attribute)\n\n(Number) a. Total number of DRSCs 1. 16 b. Total Members in 2. 8\n\neach committee c. DRSCs working under 3. 24\n\nLok Sabha d. DRSCs working under 4. 31\n\nRajya Sabha Select the correct answer using the codes given below: a b c d",
@@ -470,7 +495,8 @@
           "note": "",
           "original_id": 26,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which one of the following pairs of exceptions to equality and their subjects is not correctly matched?",
@@ -488,7 +514,8 @@
           "note": "",
           "original_id": 27,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following pairs regarding the stages of budget enactment: 1. Presentation Finance Minister presents it to both Houses of Parliament 2. General discussion No cut motions are moved at this stage 3. Scrutiny by committees Parliament is adjourned for three to four weeks 4. Appropriation Bill Legalises payments from the Consolidated Fund How many pairs of the given above are correctly matched?",
@@ -506,7 +533,8 @@
           "note": "",
           "original_id": 28,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following are required qualifications for the office of the Vice-President? 1. He should be a citizen of India. 2. He should have completed 35 years of age. 3. He should be qualified for election as a member of the Rajya Sabha. 4. He must be a member of either House of Parliament at the time of election. Select the correct answer using the codes given below:",
@@ -524,7 +552,8 @@
           "note": "",
           "original_id": 29,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the abolition of titles under Article 18: 1. It prohibits the state from conferring any title except a military or academic distinction. 2. An Indian citizen may accept academic and literary titles from a foreign state without prior approval of the Government of India. 3. The Supreme Court ruled that National Awards like Bharat Ratna are not titles. Which of the statements given above are correct?",
@@ -542,7 +571,8 @@
           "note": "",
           "original_id": 30,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which of the following pairs regarding disqualification from Parliament is incorrectly matched?",
@@ -560,7 +590,8 @@
           "note": "",
           "original_id": 31,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "What is the primary function of the ‘Business Advisory Committee’ in Parliament?",
@@ -578,7 +609,8 @@
           "note": "",
           "original_id": 32,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following statements regarding legislation enacted to enforce Fundamental Duties is incorrect?",
@@ -596,7 +628,8 @@
           "note": "",
           "original_id": 33,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the concept of Equality Before the Law: 1. It is a negative concept denoting the absence of any special privileges. 2. It has been taken from the American Constitution. Which of the statements given above is/are correct?",
@@ -614,7 +647,8 @@
           "note": "",
           "original_id": 34,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the ‘Lame-duck’ session: 1. It refers to the last session of the existing Lok Sabha. 2. Members who fail to get re-elected are termed ‘lame-ducks’. Which of the statements given above is/are incorrect?",
@@ -632,7 +666,8 @@
           "note": "",
           "original_id": 35,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I (Constitutional Principle) List-II (Article) a. Qualifications for membership of Parliament 1. Article 84 b. Disqualifications for membership 2. Article 102 c. Powers and privileges of Houses 3. Article 105 d. Joint sitting of both Houses 4. Article 108 Select the correct answer using the codes given below: a b c d",
@@ -650,7 +685,8 @@
           "note": "",
           "original_id": 36,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the exceptions to Article 15: 1. The State is permitted to make special provisions for women and children. 2. The State can make special provisions for socially and educationally backward classes. 3. Special provisions regarding admission to private educational institutions are strictly prohibited. Which of the statements given above are correct?",
@@ -668,7 +704,8 @@
           "note": "",
           "original_id": 37,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Assertion (A): Fundamental Rights are not absolute and are subject to reasonable restrictions. Reason (R): The Constitution seeks to strike a balance between individual liberty and social control. Select the correct answer:",
@@ -686,7 +723,8 @@
           "note": "",
           "original_id": 38,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the Adjournment Motion: 1. It is introduced to draw attention to a definite matter of urgent public importance. 2. It requires the support of at least fifty members to be admitted. 3. It can be introduced in both the Lok Sabha and the Rajya Sabha. Which of the statements given above is/are incorrect?",
@@ -704,7 +742,8 @@
           "note": "",
           "original_id": 39,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following pairs regarding the stages of an Ordinary Bill are correctly matched? 1. First Reading Introduction of the bill and publication in the Gazette 2. Second Reading Detailed scrutiny and clause-by-clause consideration 3. Third Reading Debate is confined to the acceptance or rejection 4. Joint Sitting Held automatically if the bill is delayed by three months Select the correct answer using the codes given below:",
@@ -722,7 +761,8 @@
           "note": "",
           "original_id": 40,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "How many members comprise the Committee of Privileges in the Lok Sabha?",
@@ -740,7 +780,8 @@
           "note": "",
           "original_id": 41,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The Governor, unlike the President, possesses explicit constitutional discretion to act without the advice of the Council of Ministers in certain matters. Reason (R): Unlike Article 74, which binds the President to the advice of the Union Cabinet, no equivalent provision under Article 163 makes the Governor similarly bound by the State Council of Ministers. Select the correct answer:",
@@ -758,7 +799,8 @@
           "note": "",
           "original_id": 42,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs concerning the Panel of Chairpersons are correctly matched? 1. Lok Sabha Panel Nominated by the Speaker 2. Rajya Sabha Panel Nominated by the Vice President 3. Presiding Can preside when the Authority primary office is vacant 4. Membership size Maximum of ten members Select the correct answer using the codes given below:",
@@ -776,7 +818,8 @@
           "note": "",
           "original_id": 43,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I List-II (Article) (Provisions) a. Article 39A 1. Organization of agriculture and animal husbandry b. Article 40 2. Protection of monuments of national importance c. Article 48 3. Equal justice and free legal aid d. Article 49 4. Organisation of village panchayats Select the correct answer using the codes given below: a b c d",
@@ -794,7 +837,8 @@
           "note": "",
           "original_id": 44,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Consider the following pairs of Constitutional features and their origin countries: 1. Fundamental Rights : Constitution of USA 2. Directive Principles of State Policy : Irish Constitution 3. Fundamental Duties : Constitution of France 4. Equal Protection of Laws : British Constitution How many pairs of the given above are correctly matched?",
@@ -812,7 +856,8 @@
           "note": "",
           "original_id": 45,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Which committee recommended the inclusion of a separate chapter on Fundamental Duties in the Constitution?",
@@ -830,7 +875,8 @@
           "note": "",
           "original_id": 46,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Which of the following bills lapse on the dissolution of the Lok Sabha? 1. A bill pending in the Lok Sabha. 2. A bill passed by the Lok Sabha but pending in the Rajya Sabha. 3. A bill pending in the Rajya Sabha but not passed by the Lok Sabha. 4. A bill pending before a joint sitting notified before dissolution. Select the correct answer using the codes given below:",
@@ -848,7 +894,8 @@
           "note": "",
           "original_id": 47,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Mandal Commission: 1. It was the Second Backward Classes Commission appointed by the Morarji Desai government. 2. It recommended a 27% reservation for Other Backward Classes in government jobs. 3. The Supreme Court declared the total reservation limit can safely exceed 50%. Which of the statements given above are correct?",
@@ -866,7 +913,8 @@
           "note": "",
           "original_id": 48,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Assertion (A): Article 17 abolishes untouchability and forbids its practice in any form. Reason (R): The Constitution of India explicitly defines the term ‘untouchability’ under Article 366. Select the correct answer:",
@@ -884,7 +932,8 @@
           "note": "",
           "original_id": 49,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the office of ‘Whip’: 1. The office of the Whip is mentioned in the Rules of the House. 2. He regulates and monitors the behaviour of the party members in Parliament. Which of the statements given above is/are correct?",
@@ -902,7 +951,8 @@
           "note": "",
           "original_id": 50,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I List-II (Disorders) (Characteristics) a. 42nd Amendment Act 1. Minimised inequalities in income, status, and opportunities b. 44th Amendment Act 2. Added Cooperative Societies c. 86th Amendment Act 3. Changed subject matter of Article 45 d. 97th Amendment Act 4. Added free legal aid to the poor Select the correct answer using the codes given below:",
@@ -920,7 +970,8 @@
           "note": "",
           "original_id": 51,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which Article of the Constitution declares that laws inconsistent with Fundamental Rights shall be void?",
@@ -938,7 +989,8 @@
           "note": "",
           "original_id": 52,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following pairs regarding the duration of legislative bodies: 1. Lok Sabha Normal term of five years from the first meeting 2. Rajya Sabha Permanent body not subject to dissolution 3. Legislative Assembly Normal term of five years from the first meeting 4. Legislative Council Subject to dissolution every six years How many pairs of the given above are correctly matched?",
@@ -956,7 +1008,8 @@
           "note": "",
           "original_id": 53,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Leader of the Opposition: 1. The position is explicitly mentioned in the original text of the Constitution. 2. His party must have at least one-tenth of the total strength of the House. 3. He receives the salary and facilities equivalent to a cabinet minister. Which of the statements given above are correct?",
@@ -974,7 +1027,8 @@
           "note": "",
           "original_id": 54,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following pairs regarding the nature of Fundamental Rights: 1. Right to equality before law Negative character 2. Right to equal protection of laws Positive character 3. Directive Principles Positive injunctions 4. Fundamental Duties Only applicable to citizens How many pairs of the given above are correctly matched?",
@@ -992,7 +1046,8 @@
           "note": "",
           "original_id": 55,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the acquisition of citizenship by descent: 1. A person born outside India after 1950 is a citizen if the father was a citizen. 2. After 1992, a person is a citizen if either parent was an Indian citizen at birth. Which of the statements given above is/are correct?",
@@ -1010,7 +1065,8 @@
           "note": "",
           "original_id": 56,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Constitution & Preamble"
         },
         {
           "q": "Which among the following attends Cabinet meetings only when specially invited?",
@@ -1028,7 +1084,8 @@
           "note": "",
           "original_id": 57,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which article of the Constitution details the manner of election of the President of India?",
@@ -1046,7 +1103,8 @@
           "note": "",
           "original_id": 58,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Match List-I with List-II List-I List-II (President) (Use of Veto Power) a. Dr. Rajendra Prasad 1. Suspensive Veto on Office of Profit Bill b. Giani Zail Singh 2. Absolute Veto on Salary and Allowances Bill c. R. Venkataraman 3. Pocket Veto on Indian Post Office Bill d. A.P.J. Abdul Kalam 4. Absolute Veto on PEPSU Appropriation Bill Select the correct answer using the codes given below: a b c d",
@@ -1064,7 +1122,8 @@
           "note": "",
           "original_id": 59,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "The resignation of the Vice-President of India is addressed to whom?",
@@ -1082,7 +1141,8 @@
           "note": "",
           "original_id": 60,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Who has the authority to determine the salary and allowances of the Prime Minister of India?",
@@ -1100,7 +1160,8 @@
           "note": "",
           "original_id": 61,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which one of the following brings a session of a House of Parliament to an end?",
@@ -1118,7 +1179,8 @@
           "note": "",
           "original_id": 62,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which one of the following best describes the quorum required for a House of Parliament?",
@@ -1136,7 +1198,8 @@
           "note": "",
           "original_id": 63,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The Speaker of the Lok Sabha does not vote in the first instance. Reason (R): He exercises a casting vote to maintain impartiality in resolving a deadlock. Select the correct answer:",
@@ -1154,7 +1217,8 @@
           "note": "",
           "original_id": 64,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II regarding state legislature strength List-I (State) List-II (Assembly Seats Exception) a. Arunachal Pradesh 1. 40 seats b. Sikkim 2. 60 seats c. Goa 3. 32 seats d. Haryana 4. 90 seats Select the correct answer using the codes given below: a b c d",
@@ -1172,7 +1236,8 @@
           "note": "",
           "original_id": 65,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "State Government"
         },
         {
           "q": "Assertion (A): Unlike the President, the Governor possesses explicit constitutional discretion to act without the advice of the Council of Ministers in certain enumerated matters. Reason (R): Article 163 explicitly lists all the situations in which the Governor must act on the advice of the Council of Ministers. Select the correct answer:",
@@ -1190,7 +1255,8 @@
           "note": "",
           "original_id": 66,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following bodies require the Chief Minister to act as their chairman? 1. State Planning Board 2. Inter-State Council 3. National Development Council 4. Zonal Councils Select the correct answer using the codes given below:",
@@ -1208,7 +1274,8 @@
           "note": "",
           "original_id": 67,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "State Government"
         },
         {
           "q": "Consider the following statements regarding a state bill returned by the President: 1. The state legislature must reconsider it within six months. 2. If passed again, it is presented again to the President for assent. 3. The President is constitutionally bound to give his assent the second time. Which of the statements given above are correct?",
@@ -1226,7 +1293,8 @@
           "note": "",
           "original_id": 68,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs regarding Presiding Officers in the State Legislature and their Resignation Handed To are correctly matched? Resignation Handed To Presiding Officer 1. Speaker of Assembly Deputy Speaker of Assembly 2. Deputy Speaker of Assembly Speaker of Assembly 3. Chairman of Council Deputy Chairman of Council 4. Deputy Chairman of Council Chairman of Council Select the correct answer using the codes given below:",
@@ -1244,7 +1312,8 @@
           "note": "",
           "original_id": 69,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "For how long can the Governor’s ordinance remain in force after the assembly reconvenes?",
@@ -1262,7 +1331,8 @@
           "note": "",
           "original_id": 70,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs regarding the removal of presiding officers are correctly matched? Presiding officers Majority Required 1. Speaker of Assembly Effective majority of the Assembly 2. Deputy Speaker of Assembly Effective majority of the Assembly 3. Chairman of Council Effective majority of the Council 4. Deputy Chairman of Council Effective majority of the Council Select the correct answer using the codes given below:",
@@ -1280,7 +1350,8 @@
           "note": "",
           "original_id": 71,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The Constitution does not specify a maximum age for the appointment of a Governor. Reason (R): The Governor acts as an agent of the Central government. Select the correct answer:",
@@ -1298,7 +1369,8 @@
           "note": "",
           "original_id": 72,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following bills lapse on the dissolution of the State Legislative Assembly? 1. A bill pending in the assembly. 2. A bill passed by the assembly but pending in the council. 3. A bill pending in the council but not passed by the assembly. 4. A bill passed by both houses but pending assent of the governor. Select the correct answer using the codes given below:",
@@ -1316,7 +1388,8 @@
           "note": "",
           "original_id": 73,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Match List-I with List-II List-I (Constitutional Article) List-II (Subject regarding Bills) a. Article 198 1. Assent to bills by the Governor b. Article 199 2. Bills reserved for consideration c. Article 200 3. Special procedure in respect of Money Bills d. Article 201 4. Definition of Money Bills Select the correct answer using the codes given below: a b c d",
@@ -1334,7 +1407,8 @@
           "note": "",
           "original_id": 74,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following statements regarding the ‘Cabinet’: 1. The term ‘Cabinet’ was inserted in the Constitution by the 44th Amendment Act. 2. Article 352 defines the Cabinet as the council consisting of cabinet ministers. Which of the statements given above is/are correct?",
@@ -1352,7 +1426,8 @@
           "note": "",
           "original_id": 75,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "What is the maximum strength of the Rajya Sabha as prescribed by the Constitution of India?",
@@ -1370,7 +1445,8 @@
           "note": "",
           "original_id": 76,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which one of the following occupies the lowest position in the ministerial hierarchy in the Union Council of Ministers?",
@@ -1388,7 +1464,8 @@
           "note": "",
           "original_id": 77,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "The resignation of the Deputy Chairman of the Rajya Sabha is addressed to whom?",
@@ -1406,7 +1483,8 @@
           "note": "",
           "original_id": 78,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "The maximum interval between two sessions of Parliament shall not exceed:",
@@ -1424,7 +1502,8 @@
           "note": "",
           "original_id": 79,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Advocate General of the State: 1. He must be a person qualified to be appointed a judge of a high court. 2. His term of office is fixed by the Constitution at five years. 3. His remuneration is determined by the Governor. Which of the statements given above are correct?",
@@ -1442,7 +1521,8 @@
           "note": "",
           "original_id": 80,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Consider the following statements regarding the State Council of Ministers: 1. They are collectively responsible to the state legislative assembly. 2. They are individually responsible to the Chief Minister. Which of the statements given above is/are correct?",
@@ -1460,7 +1540,8 @@
           "note": "",
           "original_id": 81,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following pairs regarding privileges of the state legislature: 1. Civil Arrest Immunity for 40 days before and after a session 2. Criminal Arrest Total immunity during the session 3. Court inquiry Prohibited from inquiring into legislative proceedings 4. Secret sittings Power to exclude strangers from proceedings How many pairs of the given above are correctly matched?",
@@ -1478,7 +1559,8 @@
           "note": "",
           "original_id": 82,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "State Government"
         },
         {
           "q": "What happens to a state bill reserved by the Governor for the President’s consideration?",
@@ -1496,7 +1578,8 @@
           "note": "",
           "original_id": 83,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following states have a Legislative Council? 1. Andhra Pradesh 2. Telangana 3. Karnataka 4. Maharashtra Select the correct answer using the code given below:",
@@ -1514,7 +1597,8 @@
           "note": "",
           "original_id": 84,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The mechanism of a joint sitting is not available in the state legislature. Reason (R): The Legislative Assembly has ultimate overriding powers over the Legislative Council. Select the correct answer:",
@@ -1532,7 +1616,8 @@
           "note": "",
           "original_id": 85,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following qualifications are required for membership of the State Legislature? 1. He must be a citizen of India. 2. He must be not less than 25 years of age for the legislative assembly. 3. He must be not less than 30 years of age for the legislative council. 4. He must make and subscribe to an oath before a person authorised by the Election Commission. Select the correct answer using the codes given below:",
@@ -1550,7 +1635,8 @@
           "note": "",
           "original_id": 86,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs regarding exceptions to the rule of equality are correctly matched? 1. Foreign Sovereigns Immune from civil and criminal proceedings 2. UNO and its agencies Enjoy diplomatic immunity 3. Members of Immune from civil Parliament liability for voting in\n\nParliament 4. Governors Immune from all criminal proceedings during their term Select the correct answer using the codes given below:",
@@ -1568,7 +1654,8 @@
           "note": "",
           "original_id": 87,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the principle of collective responsibility: 1. It implies that all ministers own joint responsibility to the Lok Sabha for all their omissions. 2. A vote of no confidence against one minister leads to the resignation of the entire council. 3. Cabinet decisions bind all cabinet ministers but do not bind ministers of state. Which of the statements given above are correct?",
@@ -1586,7 +1673,8 @@
           "note": "",
           "original_id": 88,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding elections to the State Legislative Council: 1. One-third of the members are elected by members of local bodies. 2. One-twelfth of the members are elected by graduates of three years’ standing. Which of the statements given above is/are correct?",
@@ -1604,7 +1692,8 @@
           "note": "",
           "original_id": 89,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which authority has the power to create or abolish a State Legislative Council?",
@@ -1622,7 +1711,8 @@
           "note": "",
           "original_id": 90,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following pairs concerning state legislative composition are correctly matched? Aspect Composition 1. Minimum strength of Assembly 60 members 2. Maximum strength of Assembly 500 members 3. Maximum strength of Council One-third of the total strength of the assembly 4. Minimum strength of Council 40 members Select the correct answer using the codes given below:",
@@ -1640,7 +1730,8 @@
           "note": "",
           "original_id": 91,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "State Government"
         },
         {
           "q": "Consider the following pairs regarding the size of the State Council of Ministers: 1. Maximum limit 15 percent of the total strength of the legislative assembly 2. Minimum limit 12 members including the Chief Minister 3. Constitutional Amendment 91st Amendment Act of 2003 4. Exemption limit States with a population below one million How many pairs of the given above are correctly matched?",
@@ -1658,7 +1749,8 @@
           "note": "",
           "original_id": 92,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Match List-I with List-II List-I (Constitutional Article) List-II (Subject Matter) a. Article 163 1. Duties of the CM regarding furnishing of information b. Article 164 2. Conduct of business of the Government of a State c. Article 166 3. Other provisions as to Ministers d. Article 167 4. Council of Ministers to aid and advise Governor Select the correct answer using the codes given below: a b c d",
@@ -1676,7 +1768,8 @@
           "note": "",
           "original_id": 93,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Assertion (A): The Chief Minister holds office during the pleasure of the Governor. Reason (R): The Governor can dismiss the Chief Minister at any time. Select the correct answer:",
@@ -1694,7 +1787,8 @@
           "note": "",
           "original_id": 94,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following fall under the discretionary powers of the Governor? 1. Reservation of a bill for the consideration of the President. 2. Recommendation for the imposition of the President’s Rule in the state. 3. Seeking information from the Chief Minister regarding legislative proposals. 4. Dissolution of the state legislative assembly if the ministry loses its majority. Select the correct answer using the codes given below:",
@@ -1712,7 +1806,8 @@
           "note": "",
           "original_id": 95,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following statements regarding the conditions of the Governor’s office: 1. He should not be a member of either House of Parliament. 2. His emoluments and allowances are determined by the state legislature. Which of the statements given above is/are correct?",
@@ -1730,7 +1825,8 @@
           "note": "",
           "original_id": 96,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the legal enforcement of Fundamental Duties: 1. The Constitution provides for direct enforcement of these duties by the courts. 2. Parliament is free to enforce them by passing suitable legislation. Which of the statements given above is/are correct?",
@@ -1748,7 +1844,8 @@
           "note": "",
           "original_id": 97,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Which of the following are powers of the Prime Minister regarding the Council of Ministers? 1. He recommends persons who can be appointed as ministers by the President. 2. He allocates and reshuffles various portfolios among the ministers. 3. He can ask a minister to resign or advise the President to dismiss him. 4. He presides over the meeting of the council of ministers. Select the correct answer using the codes given below:",
@@ -1766,7 +1863,8 @@
           "note": "",
           "original_id": 98,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Who administers the oath of office to the Governor of a state?",
@@ -1784,7 +1882,8 @@
           "note": "",
           "original_id": 99,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Match List-I with List-II List-I (Type of Motion/ Resolution) List-II (Definition) a. Substantive Motion 1. Proposal relating to another original motion b. Substitute Motion 2. Must be voted upon completely, not in parts c. Subsidiary Motion 3. Moved in substitution of an original motion d. Resolution 4. Self-contained independent proposal for important matters Select the correct answer using the codes given below: a b c d",
@@ -1802,7 +1901,8 @@
           "note": "",
           "original_id": 100,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The Committee on Public Undertakings cannot examine matters of major government policy. Reason (R): Its terms of reference are limited to examining business and commercial functions. Select the correct answer:",
@@ -1820,7 +1920,8 @@
           "note": "",
           "original_id": 101,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following statements are correct regarding Parliamentary Forums? 1. They provide a platform for members to interact with subject experts. 2. The Speaker of Lok Sabha is the President of all Parliamentary Forums. 3. They sensitize members about key areas of serious concern. 4. They prepare meaningful data to help members participate in debates. Select the correct answer using the codes given below:",
@@ -1838,7 +1939,8 @@
           "note": "",
           "original_id": 102,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following statements regarding the powers of a State Legislative Council over an Ordinary Bill is incorrect?",
@@ -1856,7 +1958,8 @@
           "note": "",
           "original_id": 103,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Ethics Committee of Parliament: 1. It was constituted in the Rajya Sabha in 1997 and Lok Sabha in 2000. 2. It enforces the code of conduct of members of Parliament. Which of the statements given above is/are correct?",
@@ -1874,7 +1977,8 @@
           "note": "",
           "original_id": 104,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the executive powers of the Governor: 1. He appoints the advocate general of a state. 2. He appoints the state election commissioner. 3. He can remove the chairman of the state public service commission. Which of the statements given above are correct?",
@@ -1892,7 +1996,8 @@
           "note": "",
           "original_id": 105,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs of Parliamentary Committees and their functions are correctly matched? Parliamentary Committees Function 1. Business Advisory Committee Regulates the program and time table of the House 2. Committee on Private Members’ Bills Classifies and allocates time for private bills 3. Rules Committee Considers matters of procedure and conduct of business 4. Committee on Government Assurances Examines the assurances given by ministers Select the correct answer using the codes given below:",
@@ -1910,7 +2015,8 @@
           "note": "",
           "original_id": 106,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The Committee on Public Undertakings recommends whether an office disqualifies a member. Reason (R): The Constitution does not define the phrase ‘office of profit’ under the government. Select the correct answer:",
@@ -1928,7 +2034,8 @@
           "note": "",
           "original_id": 107,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which of the following statements describe the Estimates Committee? 1. It is the largest committee of the Parliament with thirty members. 2. All thirty members are elected exclusively from the Lok Sabha. 3. It examines the estimates included in the budget to suggest economies. 4. Its chairman is invariably chosen from the ruling party. Select the correct answer using the codes given below:",
@@ -1946,7 +2053,8 @@
           "note": "",
           "original_id": 108,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Public Accounts Committee (PAC): 1. It consists of 22 members drawn from both Houses of Parliament. 2. A minister cannot be elected as a member of this committee. 3. Its chairman is always selected from the ruling party by convention. Which of the statements given above are correct?",
@@ -1964,7 +2072,8 @@
           "note": "",
           "original_id": 109,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following expenses is not charged on the Consolidated Fund of India?",
@@ -1982,7 +2091,8 @@
           "note": "",
           "original_id": 110,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which of the following pairs of Cut Motions and their conditions are correctly matched? Motion Condition 1. Policy Cut Motion Disapproval of the policy underlying the demand 2. Economy Cut Motion Reduces the amount of the demand by a specified sum 3. Token Cut Motion Vents a specific grievance within the government’s responsibility 4. Guillotine Cut Reduces the demand to exactly one rupee Select the correct answer using the codes given below:",
@@ -2000,7 +2110,8 @@
           "note": "",
           "original_id": 111,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding types of parliamentary grants: 1. A vote of credit is granted for an unexpected demand of an indefinite character. 2. An exceptional grant forms a part of the current financial year’s ordinary service. Which of the statements given above is/are correct?",
@@ -2018,7 +2129,8 @@
           "note": "",
           "original_id": 112,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): The provision of a joint sitting is not applicable to Money Bills. Reason (R): The Lok Sabha has exclusive overriding powers regarding Money Bills. Select the correct answer:",
@@ -2036,7 +2148,8 @@
           "note": "",
           "original_id": 113,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following statements are correct regarding Financial Bills? 1. Financial Bills (I) contain matters of Article 110 and other general legislation. 2. Financial Bills (I) can be introduced only in the Lok Sabha. 3. Financial Bills (II) can be introduced in either House of Parliament. 4. Both types of financial bills can face a joint sitting to resolve disagreements. Select the correct answer using the codes given below:",
@@ -2054,7 +2167,8 @@
           "note": "",
           "original_id": 114,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Rajya Sabha’s power over Money Bills: 1. The Rajya Sabha cannot reject or amend a money bill. 2. It must return the bill to the Lok Sabha within fourteen days. 3. The Lok Sabha is bound to accept the recommendations made by the Rajya Sabha. Which of the statements given above are correct?",
@@ -2072,7 +2186,8 @@
           "note": "",
           "original_id": 115,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I (Financial Terms/Funds) List-II (Constitutional Provision) a. Consolidated Fund of India 1. Advance grant for estimated expenditure b. Public Account of India 2. Article 267 c. Contingency Fund of India 3. Article 266(2) d. Vote on Account 4. Article 266(1) Select the correct answer using the codes given below: a b c d",
@@ -2090,7 +2205,8 @@
           "note": "",
           "original_id": 116,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the certification of a Money Bill: 1. The Speaker of the Lok Sabha decides if a bill is a money bill. 2. The Speaker’s decision on this matter cannot be questioned in any court. Which of the statements given above is/are correct?",
@@ -2108,7 +2224,8 @@
           "note": "",
           "original_id": 117,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which article of the Constitution provides the precise definition of a Money Bill?",
@@ -2126,7 +2243,8 @@
           "note": "",
           "original_id": 118,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Speaker Pro Tem: 1. He is appointed by the President of India. 2. He administers the oath to the newly elected members of the Lok Sabha. Which of the statements given above is/are correct?",
@@ -2144,7 +2262,8 @@
           "note": "",
           "original_id": 119,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Who fixes the date for the election of the Speaker of the Lok Sabha?",
@@ -2162,7 +2281,8 @@
           "note": "",
           "original_id": 120,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following are true regarding the Calling Attention Motion? 1. It calls the attention of a minister to a matter of urgent public importance. 2. It seeks an authoritative statement from the minister on that matter. 3. Like the zero hour, it is an Indian innovation in the parliamentary procedure. 4. Unlike the zero hour, it is mentioned in the rules of procedure. Select the correct answer using the codes given below:",
@@ -2180,7 +2300,8 @@
           "note": "",
           "original_id": 121,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I (Type of Closure Motion) List-II (Description) a. Simple Closure 1. Only important clauses are debated and voted upon b. Closure by compartments 2. Undiscussed clauses are put to vote with discussed ones c. Kangaroo Closure 3. Matter has been sufficiently discussed; put it to vote d. Guillotine Closure 4. Clauses are grouped into parts for entire debate Select the correct answer using the codes given below: a b c d",
@@ -2198,7 +2319,8 @@
           "note": "",
           "original_id": 122,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "General"
         },
         {
           "q": "Consider the following statements regarding Article 12 of the Constitution: 1. The term ‘State’ includes the Government and Parliament of India. 2. It includes all local authorities like municipalities and panchayats within Indian territory. 3. The Supreme Court ruled that private bodies working for the State fall outside Article 12. Which of the statements given above are correct?",
@@ -2216,7 +2338,8 @@
           "note": "",
           "original_id": 123,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which of the following principles are classified as Gandhian Principles within the Directive Principles? 1. To organise village panchayats and endow them with necessary powers. 2. To promote cottage industries on an individual or co-operative basis in rural areas. 3. To secure a uniform civil code for all citizens across the country. 4. To prohibit the slaughter of cows, calves and other milch and draught cattle. Select the correct answer using the codes given below:",
@@ -2234,7 +2357,8 @@
           "note": "",
           "original_id": 124,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Match List-I with List-II List-I (Veto Power) List-II (Meaning) a. Absolute Veto 1. Taking no action on the bill passed by the legislature b. Suspensive Veto 2. Withholding assent to the bill passed by the legislature c. Pocket Veto 3. Overridden by legislature with a higher majority d. Qualified Veto 4. Overridden by legislature with an ordinary majority Select the correct answer using the codes given below: a b c d",
@@ -2252,7 +2376,8 @@
           "note": "",
           "original_id": 125,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following pairs of the President’s pardoning powers are correctly matched?\n\nPowers Description 1. Pardon Completely absolves the offender from all sentences 2. Commutation Substitution of one form of punishment for a lighter form 3. Remission Reducing the period of sentence without changing its character 4. Respite Awarding a lesser sentence due to some special fact Select the correct answer using the codes given below:",
@@ -2270,7 +2395,8 @@
           "note": "",
           "original_id": 126,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which constitutional amendment restricted the size of the Council of Ministers to 15% of the Lok Sabha?",
@@ -2288,7 +2414,8 @@
           "note": "",
           "original_id": 127,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the removal of the Vice-President: 1. A formal impeachment process is required for the removal of the Vice-President. 2. A resolution for removal can be introduced only in the Rajya Sabha. Which of the statements given above is/are correct?",
@@ -2306,7 +2433,8 @@
           "note": "",
           "original_id": 128,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the executive powers of the President: 1. All executive actions of the Government of India are formally taken in his name. 2. He can make rules for the more convenient transaction of business of the Union government. 3. He directly administers the union territories through administrators appointed by him. Which of the statements given above are correct?",
@@ -2324,7 +2452,8 @@
           "note": "",
           "original_id": 129,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Which of the following are considered ‘LiberalIntellectual Principles’ under the DPSP? 1. Securing for all citizens a uniform civil code. 2. Providing early childhood care and education for all children until they complete six years. 3. Separating the judiciary from the executive in the public services of the State. 4. Promoting equal justice and providing free legal aid to the poor. Select the correct answer using the codes given below:",
@@ -2342,7 +2471,8 @@
           "note": "",
           "original_id": 130,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Assertion (A): The President cannot dismiss the Prime Minister as long as he enjoys majority support. Reason (R): The Prime Minister holds office during the pleasure of the President. Select the correct answer:",
@@ -2360,7 +2490,8 @@
           "note": "",
           "original_id": 131,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following pairs of officials and the authority who administers their oath: 1. President : Chief Justice of India 2. Vice-President : President of India 3. Prime Minister : President of India 4. Union Minister : Prime Minister How many pairs of the given above are correctly matched?",
@@ -2378,7 +2509,8 @@
           "note": "",
           "original_id": 132,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "Which of the following pairs regarding the President’s legislative powers and related Article are correctly matched? Powers Articles 1. Summoning Parliament Article 85 2. Joint sitting of both Houses Article 108 3. Promulgation of Ordinances Article 123 4. Assent to Bills Article 111 Select the correct answer using the codes given below:",
@@ -2396,7 +2528,8 @@
           "note": "",
           "original_id": 133,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which constitutional writ literally translates to the phrase “we command”?",
@@ -2414,7 +2547,8 @@
           "note": "",
           "original_id": 134,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "Consider the following statements regarding the appointment of the Prime Minister: 1. The Constitution contains specific procedures for the selection of the Prime Minister. 2. The Prime Minister need not be a member of either House of Parliament at the time of appointment, but must become one within three months. Which of the statements given above is/are correct?",
@@ -2432,7 +2566,8 @@
           "note": "",
           "original_id": 135,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following are necessary qualifications for election as President? 1. He should be a citizen of India by birth only. 2. He should have completed 35 years of age. 3. He should be qualified for election as a member of the Lok Sabha. 4. He should not hold any office of profit under the government. Select the correct answer using the codes given below:",
@@ -2450,7 +2585,8 @@
           "note": "",
           "original_id": 136,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Assertion (A): A person shall not be deemed a citizen of India if they voluntarily acquire foreign citizenship. Reason (R): The Indian Constitution firmly prohibits the system of dual citizenship. Select the correct answer:",
@@ -2468,7 +2604,8 @@
           "note": "",
           "original_id": 137,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Constitution & Preamble"
         },
         {
           "q": "Assertion (A): The ordinance-making power of the President is a parallel power of legislation. Reason (R): An ordinance can be issued when either or both Houses of Parliament are not in session. Select the correct answer:",
@@ -2486,7 +2623,8 @@
           "note": "",
           "original_id": 138,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I (Constitutional Authority) List-II (Appointing Article) a. Comptroller and Auditor General 1. Article 76 b. Attorney General of India 2. Article 148 c. Chief Election Commissioner 3. Article 316 d. Chairman of UPSC 4. Article 324 Select the correct answer using the codes given below: a b c d",
@@ -2504,7 +2642,8 @@
           "note": "",
           "original_id": 139,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following statements regarding the composition of the Lok Sabha: 1. The maximum strength of the Lok Sabha is fixed at 550 members. 2. The Constitution originally provided for the nomination of two Anglo-Indians. Which of the statements given above is/are correct?",
@@ -2522,7 +2661,8 @@
           "note": "",
           "original_id": 140,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Match List-I with List-II List-I (Type of Majority) List-II (Context of Usage) a. Simple Majority 1. Removal of the Vice-President b. Absolute Majority 2. Impeachment of the President c. Effective Majority 3. Passing an ordinary bill d. Special Majority (Art 61) 4. Formation of a government Select the correct answer using the codes given below: a b c d",
@@ -2540,7 +2680,8 @@
           "note": "",
           "original_id": 141,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Assertion (A): The Constitution provides for a joint sitting of both Houses. Reason (R): It is an extraordinary mechanism to resolve legislative deadlocks over money bills. Select the correct answer:",
@@ -2558,7 +2699,8 @@
           "note": "",
           "original_id": 142,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding elections to the Rajya Sabha: 1. Representatives of states are elected by the elected members of state legislative assemblies. 2. The election is held in accordance with the system of proportional representation. 3. Seats are allotted to the states on the basis of their geographical area. Which of the statements given above are correct?",
@@ -2576,7 +2718,8 @@
           "note": "",
           "original_id": 143,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding President’s Rule in a state: 1. The President can assume the executive powers of the state government. 2. The President can delegate legislative powers of the state to Parliament. 3. The President can assume the judicial powers vested in the state high court. Which of the statements given above are correct?",
@@ -2594,7 +2737,8 @@
           "note": "",
           "original_id": 144,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "The President of India may be impeached on which one of the following grounds?",
@@ -2612,7 +2756,8 @@
           "note": "",
           "original_id": 145,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Union Executive"
         },
         {
           "q": "Consider the following statements regarding collective privileges of Parliament: 1. It can prohibit the publication of its reports and proceedings. 2. It can exclude strangers from its proceedings to hold secret sittings. 3. Courts are allowed to inquire into the internal proceedings of a House. Which of the statements given above are correct?",
@@ -2630,7 +2775,8 @@
           "note": "",
           "original_id": 146,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Which of the following matters are examined by the Privileges Committee? 1. Cases of breach of privileges of the House. 2. Cases of breach of privileges of its members. 3. Matters involving contempt of the House. 4. Recommendations for appropriate action in breach cases. Select the correct answer using the codes given below:",
@@ -2648,7 +2794,8 @@
           "note": "",
           "original_id": 147,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Judiciary"
         },
         {
           "q": "From which constitution did India borrow the concept of “Procedure established by law”?",
@@ -2666,7 +2813,8 @@
           "note": "",
           "original_id": 148,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Fundamental Rights, Duties & DPSP"
         },
         {
           "q": "A person who is not a member of either House of Parliament can remain a Union Minister for a maximum period of:",
@@ -2684,7 +2832,8 @@
           "note": "",
           "original_id": 149,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         },
         {
           "q": "Consider the following statements regarding the Vice-Presidential election: 1. The electoral college includes both elected and nominated members of Parliament. 2. State legislative assemblies do not participate in the Vice-Presidential election. 3. The election is held via the system of proportional representation. Which of the statements given above are correct?",
@@ -2702,7 +2851,8 @@
           "note": "",
           "original_id": 150,
           "test_number": 15,
-          "test_subject": "Polity I"
+          "test_subject": "Polity I",
+          "topic": "Parliament"
         }
       ]
     }
