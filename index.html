@@ -805,6 +805,10 @@ html,body{height:100%;}
 .cp-subtopic-chip{display:inline-flex;align-items:center;gap:5px;font-size:0.62rem;background:var(--surface2);border:1px solid var(--border);color:var(--text2);padding:3px 9px;border-radius:12px;cursor:pointer;font-family:'Nunito',sans-serif;font-weight:600;transition:all 0.15s;}
 .cp-subtopic-chip:hover{border-color:var(--border3);color:var(--text);}
 .cp-subtopic-chip.active{background:var(--purple-dim);color:var(--purple);border-color:var(--purple);font-weight:700;}
+.cp-preset-pill{display:inline-flex;align-items:center;font-size:0.65rem;background:var(--surface2);border:1px solid var(--border);color:var(--text2);padding:3px 8px;border-radius:8px;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:600;transition:all 0.15s;}
+.cp-preset-pill:hover{border-color:var(--gold);color:var(--gold);}
+.cp-preset-pill.active{background:var(--gold-dim);color:var(--gold);border-color:var(--gold);font-weight:700;}
+@media(max-width:599px){.cp-range-meta-wrap{padding-left:0!important;}}
 
 /* EXPORT PDF MODAL & CONTROLS */
 .export-modal-modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:12px;}
@@ -1860,6 +1864,180 @@ function deselectAllChapters(subjId,e){
   hideConfigPanel();
 }
 
+function buildRangePresetsHtml(totalCount){
+  if(totalCount<=20) return '';
+  const chunkSize = totalCount <= 100 ? 25 : totalCount <= 300 ? 50 : 100;
+  const presets = [];
+  for(let start = 1; start <= totalCount; start += chunkSize){
+    const end = Math.min(start + chunkSize - 1, totalCount);
+    presets.push({start, end});
+  }
+  return presets.map(p=>`<button type="button" class="cp-preset-pill" id="cp-preset-${p.start}-${p.end}" data-start="${p.start}" data-end="${p.end}" onclick="setQuestionRange(${p.start},${p.end},${totalCount})">Q${p.start}–${p.end}</button>`).join('');
+}
+
+function updatePresetPillHighlights(fromVal, toVal, totalCount){
+  document.querySelectorAll('.cp-preset-pill').forEach(btn=>{
+    const pStart = parseInt(btn.getAttribute('data-start') || btn.id.replace('cp-preset-','').split('-')[0], 10);
+    const pEnd = parseInt(btn.getAttribute('data-end') || btn.id.replace('cp-preset-','').split('-')[1], 10);
+    if(pStart === fromVal && pEnd === toVal){
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+
+function setQuestionRange(fromVal, toVal, totalCount){
+  const qFrom = document.getElementById('q-from');
+  const qTo = document.getElementById('q-to');
+  const qRangeText = document.getElementById('q-range-text');
+  const numQuestions = document.getElementById('num-questions');
+  const qInfo = document.getElementById('q-range-info');
+
+  if(qFrom) qFrom.value = fromVal;
+  if(qTo) qTo.value = toVal;
+  if(qRangeText) qRangeText.value = `${fromVal}-${toVal}`;
+
+  const count = Math.max(1, toVal - fromVal + 1);
+  if(numQuestions) numQuestions.value = count;
+
+  if(qInfo){
+    if(fromVal === 1 && toVal === totalCount){
+      qInfo.textContent = `Selecting all ${totalCount} Qs (Q#1 to Q#${totalCount})`;
+    } else {
+      qInfo.textContent = `Selecting ${count} Qs (Q#${fromVal} to Q#${toVal} of ${totalCount})`;
+    }
+  }
+  updatePresetPillHighlights(fromVal, toVal, totalCount);
+}
+
+function onQuestionRangeChange(totalCount){
+  const qFrom = document.getElementById('q-from');
+  const qTo = document.getElementById('q-to');
+  const qRangeText = document.getElementById('q-range-text');
+  const numQuestions = document.getElementById('num-questions');
+  const qInfo = document.getElementById('q-range-info');
+
+  let f = parseInt(qFrom?.value, 10);
+  let t = parseInt(qTo?.value, 10);
+
+  if(isNaN(f)) f = 1;
+  if(isNaN(t)) t = totalCount;
+
+  f = Math.max(1, Math.min(f, totalCount));
+  t = Math.max(1, Math.min(t, totalCount));
+  if(f > t) t = f;
+
+  if(qRangeText) qRangeText.value = f === t ? `${f}` : `${f}-${t}`;
+  const count = Math.max(1, t - f + 1);
+  if(numQuestions) numQuestions.value = count;
+
+  if(qInfo){
+    if(f === 1 && t === totalCount){
+      qInfo.textContent = `Selecting all ${totalCount} Qs (Q#1 to Q#${totalCount})`;
+    } else {
+      qInfo.textContent = `Selecting ${count} Qs (Q#${f} to Q#${t} of ${totalCount})`;
+    }
+  }
+  updatePresetPillHighlights(f, t, totalCount);
+}
+
+function onQuestionRangeTextChange(totalCount){
+  const qRangeText = document.getElementById('q-range-text');
+  const val = qRangeText?.value || '';
+
+  const match = val.match(/^\s*(\d+)\s*(?:[-:\u2013\u2014]|to)?\s*(\d+)?\s*$/i);
+  if(match){
+    let f = parseInt(match[1], 10) || 1;
+    let t = match[2] ? parseInt(match[2], 10) : f;
+
+    f = Math.max(1, Math.min(f, totalCount));
+    t = Math.max(1, Math.min(t, totalCount));
+    if(f > t) t = f;
+
+    const qFrom = document.getElementById('q-from');
+    const qTo = document.getElementById('q-to');
+    const numQuestions = document.getElementById('num-questions');
+    const qInfo = document.getElementById('q-range-info');
+
+    if(qFrom) qFrom.value = f;
+    if(qTo) qTo.value = t;
+
+    const count = Math.max(1, t - f + 1);
+    if(numQuestions) numQuestions.value = count;
+
+    if(qInfo){
+      if(f === 1 && t === totalCount){
+        qInfo.textContent = `Selecting all ${totalCount} Qs (Q#1 to Q#${totalCount})`;
+      } else {
+        qInfo.textContent = `Selecting ${count} Qs (Q#${f} to Q#${t} of ${totalCount})`;
+      }
+    }
+    updatePresetPillHighlights(f, t, totalCount);
+  }
+}
+
+function onNumQuestionsChange(totalCount){
+  const numQuestions = document.getElementById('num-questions');
+  const qFrom = document.getElementById('q-from');
+  const qTo = document.getElementById('q-to');
+  const qRangeText = document.getElementById('q-range-text');
+  const qInfo = document.getElementById('q-range-info');
+
+  let count = parseInt(numQuestions?.value, 10);
+  if(isNaN(count) || count < 1) count = totalCount;
+  count = Math.max(1, Math.min(count, totalCount));
+
+  let f = parseInt(qFrom?.value, 10) || 1;
+  f = Math.max(1, Math.min(f, totalCount));
+  let t = Math.min(totalCount, f + count - 1);
+
+  if(qTo) qTo.value = t;
+  if(qRangeText) qRangeText.value = `${f}-${t}`;
+
+  if(qInfo){
+    if(f === 1 && t === totalCount){
+      qInfo.textContent = `Selecting all ${totalCount} Qs (Q#1 to Q#${totalCount})`;
+    } else {
+      qInfo.textContent = `Selecting ${count} Qs (Q#${f} to Q#${t} of ${totalCount})`;
+    }
+  }
+  updatePresetPillHighlights(f, t, totalCount);
+}
+
+function resetQuestionRange(totalCount){
+  setQuestionRange(1, totalCount, totalCount);
+}
+
+function getQuestionSelectionRange(totalCount){
+  const qFrom = document.getElementById('q-from');
+  const qTo = document.getElementById('q-to');
+  const numQuestions = document.getElementById('num-questions');
+
+  let f = parseInt(qFrom?.value, 10);
+  let t = parseInt(qTo?.value, 10);
+  let n = parseInt(numQuestions?.value, 10);
+
+  if(!isNaN(n) && n > 0 && (!isNaN(t) && !isNaN(f) && n !== (t - f + 1))){
+    if(isNaN(f) || f < 1) f = 1;
+    t = Math.min(totalCount, f + n - 1);
+  }
+
+  if(isNaN(f) || f < 1) f = 1;
+  if(isNaN(t) || t < 1) t = totalCount;
+
+  f = Math.max(1, Math.min(f, totalCount));
+  t = Math.max(1, Math.min(t, totalCount));
+
+  if(f > t){
+    const tmp = f;
+    f = t;
+    t = tmp;
+  }
+
+  return { from: f, to: t, count: t - f + 1 };
+}
+
 function updateConfigPanel(subjId){
   if(selectedChapters.size===0){hideConfigPanel();return;}
   const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);
@@ -1897,7 +2075,29 @@ function updateConfigPanel(subjId){
 
   cp.innerHTML=`<div class="cp-header"><span class="cp-subject-icon">${subj.icon}</span><div><div class="cp-subject-name">${subj.name}</div><div class="cp-ch-tags">${chLabel?'<span class="cp-ch-tag">\uD83D\uDCDA All Chapters</span>':Array.from(selectedChapters).map(ch=>`<span class="cp-ch-tag">${ch}</span>`).join('')}${selectedSubtopics.size?Array.from(selectedSubtopics).map(st=>`<span class="cp-ch-tag" style="background:var(--purple-dim);color:var(--purple);border-color:var(--purple);">&#x1F4CD; ${st}</span>`).join(''):''}</div></div></div>
   <div class="cp-body">
-    <div class="cp-row"><span class="cp-lbl">Questions</span><input type="number" class="cp-input" id="num-questions" value="${pool.length}" min="1" max="${pool.length}" style="width:90px;"><span style="font-size:0.72rem;color:var(--text3);">of ${pool.length}</span><button onclick="document.getElementById('num-questions').value=${pool.length}" style="font-size:0.68rem;background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:4px 9px;border-radius:5px;cursor:pointer;font-family:'DM Sans',sans-serif;">Max</button></div>
+    <div class="cp-row" style="flex-direction:column;align-items:flex-start;gap:8px;width:100%;">
+      <div style="display:flex;align-items:center;gap:8px;width:100%;flex-wrap:wrap;">
+        <span class="cp-lbl">Questions</span>
+        <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+          <span style="font-size:0.75rem;color:var(--text2);font-weight:600;">From Q#</span>
+          <input type="number" class="cp-input" id="q-from" value="1" min="1" max="${pool.length}" style="width:72px;padding:5px 8px;" oninput="onQuestionRangeChange(${pool.length})">
+          <span style="font-size:0.75rem;color:var(--text2);font-weight:600;">To Q#</span>
+          <input type="number" class="cp-input" id="q-to" value="${pool.length}" min="1" max="${pool.length}" style="width:72px;padding:5px 8px;" oninput="onQuestionRangeChange(${pool.length})">
+          <span style="font-size:0.72rem;color:var(--text3);font-weight:500;">or Range:</span>
+          <input type="text" class="cp-input" id="q-range-text" placeholder="e.g. 75-150" value="1-${pool.length}" style="width:105px;padding:5px 8px;" oninput="onQuestionRangeTextChange(${pool.length})">
+          <input type="number" class="cp-input" id="num-questions" value="${pool.length}" min="1" max="${pool.length}" style="width:65px;display:none;" oninput="onNumQuestionsChange(${pool.length})">
+          <button type="button" class="cp-preset-btn" onclick="resetQuestionRange(${pool.length})" style="font-size:0.68rem;background:var(--surface2);border:1px solid var(--border);color:var(--text3);padding:4px 9px;border-radius:6px;cursor:pointer;font-family:'DM Sans',sans-serif;">All (${pool.length})</button>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;width:100%;flex-wrap:wrap;gap:8px;padding-left:82px;" class="cp-range-meta-wrap">
+        <div id="q-range-info" style="font-size:0.75rem;color:var(--gold);font-weight:600;">
+          Selecting all ${pool.length} Qs (Q#1 to Q#${pool.length})
+        </div>
+        <div class="cp-range-presets" style="display:flex;flex-wrap:wrap;gap:5px;">
+          ${buildRangePresetsHtml(pool.length)}
+        </div>
+      </div>
+    </div>
     <div class="cp-row"><span class="cp-lbl">Timer</span><input type="number" class="cp-input" id="timer-mins" value="0" min="0" max="180" style="width:70px;"><span style="font-size:0.72rem;color:var(--text3);">mins (0 = no timer)</span></div>
     <div class="cp-row" style="flex-wrap:wrap;gap:12px;"><label class="toggle-wrap"><label class="toggle"><input type="checkbox" id="toggle-shuffle"><span class="toggle-slider"></span></label><span class="toggle-lbl">Shuffle Questions</span></label><label class="toggle-wrap" style="margin-left:4px;"><label class="toggle"><input type="checkbox" id="toggle-shuffle-opts"><span class="toggle-slider"></span></label><span class="toggle-lbl">Shuffle Options</span></label></div>
     ${subtopicsSectionHtml}
@@ -2568,16 +2768,27 @@ function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.ra
 
 function startQuiz(mode,customPool){
   let pool;
+  let rangeSuffix = '';
   if(mode==='mistakes'||mode==='wrong'||mode==='skips'||mode==='bookmarks'||mode==='archive'||mode==='bloom'||mode==='supersearch'||mode==='history'||mode==='topic'){pool=shuffle([...customPool]);}
   else{
     let base=[...allQuestions].filter(q=>selectedChapters.has(q.chapter));
     if(selectedSubtopics.size>0)base=base.filter(q=>selectedSubtopics.has(q.sub_topic));
-    if(document.getElementById('toggle-shuffle')?.checked)base=shuffle(base);
-    const n=Math.min(parseInt(document.getElementById('num-questions')?.value)||base.length,base.length);
-    pool=base.slice(0,n);
+
+    const totalCount = base.length;
+    const range = getQuestionSelectionRange(totalCount);
+    if(range.from !== 1 || range.to !== totalCount){
+      rangeSuffix = ` (Q${range.from}–${range.to})`;
+    }
+
+    let sliced = base.slice(range.from - 1, range.to);
+    if(document.getElementById('toggle-shuffle')?.checked) sliced = shuffle(sliced);
+    pool = sliced;
   }
   if(!pool.length){alert('No questions found!');return;}
-  quiz=pool;const selectedList=Array.from(selectedChapters).join(', ');const subtopicList=Array.from(selectedSubtopics).join(', ');quizMeta={mode,subjectId:currentSubjectId,chapter:selectedList,subtopic:subtopicList,startTime:new Date()};
+  quiz=pool;
+  const selectedList=Array.from(selectedChapters).join(', ');
+  const subtopicList=Array.from(selectedSubtopics).join(', ');
+  quizMeta={mode,subjectId:currentSubjectId,chapter:(selectedList||'Practice')+rangeSuffix,subtopic:subtopicList,range:rangeSuffix,startTime:new Date()};
   state={current:0,answers:new Array(quiz.length).fill(null),visited:new Array(quiz.length).fill(false),marked:new Array(quiz.length).fill(false)};state.visited[0]=true;
   const doSO=document.getElementById('toggle-shuffle-opts')?.checked||false;shuffledOptionOrders=quiz.map(q=>{const keys=Object.keys(q.options||{});return doSO?shuffle([...keys]):keys;});
   const mins=parseInt(document.getElementById('timer-mins')?.value||0);totalSecs=mins*60;
@@ -2624,7 +2835,18 @@ function keepLigatureBoundary(before,ligature,next){
 function normalizeBookText(value){
   let text=String(value??'').replace(/\r\n?/g,'\n');
   text=text.replace(/([A-Za-z\u00C0-\u024F])-\n(?=[A-Za-z\u00C0-\u024F])/g,'$1');
+  text=text.replace(/\n{2,}\s*\d{1,2}\s*\n{2,}/g, ' ');
+  text=text.replace(/\n{2,}\s*\d{1,2}\s*$/g, '');
+  text=text.replace(/^\s*\d{1,2}\s*\n{2,}/g, '');
   text=text.replace(/([^\n])\n(?=[^\n])/g,'$1 ');
+  text=text.replace(/(^|\n)\s*3\s+(?=\d+[\.\)])/g, '$1');
+  text=text.replace(/(^|\n)\s*3\s+(?=[A-Za-z\u00C0-\u024F])/g, '$1• ');
+  text=text.replace(/[^\n\S]+([\.,;:!\?])/g, '$1');
+  text=text.replace(/\(\s+/g, '(').replace(/\s+\)/g, ')');
+  text=text.replace(/\[\s+/g, '[').replace(/\s+\]/g, ']');
+  text=text.replace(/(?<![A-Z]\.[A-Z])(?<!\b[A-Za-z]\.[A-Za-z])(?<!\bi\.e)(?<!\be\.g)(?<!\bNo)(?<!\bno)(?<!\bRs)(?<!\bvs)([\.,;:!\?])([A-Za-z])/g, '$1 $2');
+  text=text.replace(/[^\n\S]{2,}/g, ' ');
+  text=text.replace(/\n{3,}/g, '\n\n');
   text=text.replace(/^\n(?=[^\n])/,'');
   text=text.replace(/(?<=[^\n])\n$/,'');
   text=text.replace(/([A-Za-z]*)([\uFB00-\uFB04]) (?=\S)/g,(whole,before,ligature,offset,string)=>{
@@ -3566,14 +3788,17 @@ function openExportModal(sourceType, extraParam) {
     let pool = allQuestions.filter(q => selectedChapters.has(q.chapter));
     if (selectedSubtopics.size > 0) pool = pool.filter(q => selectedSubtopics.has(q.sub_topic));
     if (!pool.length) { alert('No questions selected to export.'); return; }
+    const range = getQuestionSelectionRange(pool.length);
+    const rangeSuffix = (range.from !== 1 || range.to !== pool.length) ? ` (Q${range.from}–${range.to})` : '';
+    pool = pool.slice(range.from - 1, range.to);
     const subj = SUBJECTS_CONFIG.find(s => s.id === currentSubjectId);
     currentExportSource = {
       type: 'setup',
       questions: pool,
       results: [],
-      title: `${subj ? subj.name : 'Practice Paper'} — Practice Worksheet`,
+      title: `${subj ? subj.name : 'Practice Paper'} — Practice Worksheet${rangeSuffix}`,
       subject: subj?.name || 'Practice',
-      chapter: Array.from(selectedChapters).join(', ') || 'All Chapters',
+      chapter: (Array.from(selectedChapters).join(', ') || 'All Chapters') + rangeSuffix,
       subtopic: Array.from(selectedSubtopics).join(', ') || ''
     };
     finishOpenExportModal();

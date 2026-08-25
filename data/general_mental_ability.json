@@ -30,7 +30,7 @@
             "E": "None of the above"
           },
           "answer": "E",
-          "explanation": "Let the number = 10x+y According to the question x × y = 36 .................(i) and (10x+y) – 45 = 10y+x (10x+y) – (10y+x) = 45 9x – 9y = 45 x – y = 5 .................(ii) from (i) & (ii) x = 9 & y = 4 So number = 94",
+          "explanation": "Let the number = 10x+y According to the question x × y = 36.................(i) and (10x+y) – 45 = 10y+x (10x+y) – (10y+x) = 45 9x – 9y = 45 x – y = 5.................(ii) from (i) & (ii) x = 9 & y = 4 So number = 94",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         },
@@ -45,7 +45,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "Let, n = 1, 2, 3, ...... If n = 1 Then, 34n – 43n = 34 – 43 ⇒ 81 – 64 = 17 If n = 2 Then,38 – 46 = 34 × 34 – 43 × 43 = 81 × 81 – 64 × 64 = (81 + 64) (81 – 64) = 145 × 17 ∵ If n is any positive integer then 34n – 43n is divisibal by 17.",
+          "explanation": "Let, n = 1, 2, 3,...... If n = 1 Then, 34n – 43n = 34 – 43 ⇒ 81 – 64 = 17 If n = 2 Then,38 – 46 = 34 × 34 – 43 × 43 = 81 × 81 – 64 × 64 = (81 + 64) (81 – 64) = 145 × 17 ∵ If n is any positive integer then 34n – 43n is divisibal by 17.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -60,7 +60,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "Let, two number are x and y respectively. According to questionx2 – y2 = 256000 (x + y) (x – y) = 256000 ..... (i) and given that, x + y = 1000 ..... (ii) Putting the value eqn (ii) in eqn (i) 1000 × (x – y) = 256000 x – y = 256 ..... (iii) Adding eqn (ii) and (iii) 2x = 1256 x = 628 Putting the value of x in eqn (ii) y = 1000 – 628 y = 372 So, the numbers are 628 and 372.",
+          "explanation": "Let, two number are x and y respectively. According to questionx2 – y2 = 256000 (x + y) (x – y) = 256000..... (i) and given that, x + y = 1000..... (ii) Putting the value eqn (ii) in eqn (i) 1000 × (x – y) = 256000 x – y = 256..... (iii) Adding eqn (ii) and (iii) 2x = 1256 x = 628 Putting the value of x in eqn (ii) y = 1000 – 628 y = 372 So, the numbers are 628 and 372.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -120,7 +120,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Prime numbers between 1 and 50 are 2, 3 , 5, 7, 11, 13, 17, 19, 23, 29 , 31, 37, 41, 43 and 47 There are 15 prime numbers between 1 and 50",
+          "explanation": "Prime numbers between 1 and 50 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 and 47 There are 15 prime numbers between 1 and 50",
           "exam": "BPSC",
           "year": "64th B.P.S.C. (Pre) 2018"
         },
@@ -206,7 +206,7 @@
             "D": "30, 102"
           },
           "answer": "B",
-          "explanation": "Let, the two number be a and b respectively, According to question, a–b = 72 ........ (i) b a = 4 According to question, a = 4 b ............. (ii) Substituting the value of eqn (i) in equation (ii) 4b – b = 72 b = 3 72 = 24 ∴ a = 24 × 4 = 96 So, the number are 24 and 96.",
+          "explanation": "Let, the two number be a and b respectively, According to question, a–b = 72........ (i) b a = 4 According to question, a = 4 b............. (ii) Substituting the value of eqn (i) in equation (ii) 4b – b = 72 b = 3 72 = 24 ∴ a = 24 × 4 = 96 So, the number are 24 and 96.",
           "exam": "BPSC",
           "year": "42nd B.P.S.C. (Pre) 1997-98"
         },
@@ -220,7 +220,7 @@
             "D": "3"
           },
           "answer": "A",
-          "explanation": "Twin Prime number are such prime numbers in which there is a difference of two e.g. (3, 5) and (5, 3) According to question– There are 6 prime number between 70 and 100 71, 73, 79, 83, 89, 97 Hence the number of twin prime between 70 and 100 is 1 (71 & 73).",
+          "explanation": "Twin Prime number are such prime numbers in which there is a difference of two e. g. (3, 5) and (5, 3) According to question– There are 6 prime number between 70 and 100 71, 73, 79, 83, 89, 97 Hence the number of twin prime between 70 and 100 is 1 (71 & 73).",
           "exam": "BPSC",
           "year": "42nd B.P.S.C. (Pre) 1997-98"
         },
@@ -248,7 +248,7 @@
             "D": "3"
           },
           "answer": "C",
-          "explanation": "On dividing 713+1, by 6 O b t a i n e d r e m a i n d e r, 6 7 1 6 (6 1) 1 13 13 + = + + 6 ( 1) 1 6 1 1 6 2 13 & + + = + Thus, remainder = 2",
+          "explanation": "On dividing 713+1, by 6 O b t a i n e d r e m a i n d e r, 6 7 1 6 (6 1) 1 13 13 + = + + 6 (1) 1 6 1 1 6 2 13 & + + = + Thus, remainder = 2",
           "exam": "BPSC",
           "year": "41st B.P.S.C. (Pre) 1996"
         },
@@ -357,7 +357,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "D",
-          "explanation": "(35 27) (35 27) 2 2 2 2 + + + - 2 × 35× 27 2 × 35× 27 2 2 2 2 2 2 = + + + + + - [(35) (27) ] 2[(35) (27) ] 2 2 2 2 + + = 2 Hence, option (d) is the right answer.",
+          "explanation": "(35 27) (35 27) 2 2 2 2 + + + - 2 × 35× 27 2 × 35× 27 2 2 2 2 2 2 = + + + + + - [(35) (27)] 2[(35) (27)] 2 2 2 2 + + = 2 Hence, option (d) is the right answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -387,7 +387,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "5 3 4 9 3 243 3 n × × = × 2 n 5 3 3 5 4 4 (3 ) ×3 ×(3 ) = 3 3×(3 ) ⇒ 2n 5 9 5 16 3 ×3 ×3 = 3 3×3 ⇒ ⇒ 32n + 5 + 9 = 35 + 1 + 16 ⇒ 32n + 14 = 322 ⇒ 2n + 14 = 22 ⇒2n = 22 – 14 = 8 ∴ n = 8 4 2 =",
+          "explanation": "5 3 4 9 3 243 3 n × × = × 2 n 5 3 3 5 4 4 (3) ×3 ×(3) = 3 3×(3) ⇒ 2n 5 9 5 16 3 ×3 ×3 = 3 3×3 ⇒ ⇒ 32n + 5 + 9 = 35 + 1 + 16 ⇒ 32n + 14 = 322 ⇒ 2n + 14 = 22 ⇒2n = 22 – 14 = 8 ∴ n = 8 4 2 =",
           "exam": "BPSC",
           "year": "65th B.P.S.C. Re-Exam (Pre) 2020"
         },
@@ -417,7 +417,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "D",
-          "explanation": "2 7 2 1 x x x 2 = + + + (5 ) ( 2 7 3 2 1 2 7) 6 3 x x x x x x 2 2 & = = + + + + + + Bases of both sides are equal, so the powers is equal. x2 + 2x + 7 = 6x + 3 x2 + 2x – 6x + 7 – 3 = 0 x2 – 4x + 4 = 0 (x – 2)2 = 0 x – 2 = 0 x = 2",
+          "explanation": "2 7 2 1 x x x 2 = + + + (5) (2 7 3 2 1 2 7) 6 3 x x x x x x 2 2 & = = + + + + + + Bases of both sides are equal, so the powers is equal. x2 + 2x + 7 = 6x + 3 x2 + 2x – 6x + 7 – 3 = 0 x2 – 4x + 4 = 0 (x – 2)2 = 0 x – 2 = 0 x = 2",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Pre) 2019"
         },
@@ -446,7 +446,7 @@
             "D": "0.01"
           },
           "answer": "D",
-          "explanation": "( . ) ( . )( . ) ( . ) ( . ) ( . ) 0 05 0 05 0 04 0 04 0 05 0 04 2 2 3 2 + + - = 0.05 - 0.04 = 0.01 Note – [a3-b3 = (a - b) (a2 + ab + b2]",
+          "explanation": "(.) (.)(.) (.) (.) (.) 0 05 0 05 0 04 0 04 0 05 0 04 2 2 3 2 + + - = 0.05 - 0.04 = 0.01 Note – [a3-b3 = (a - b) (a2 + ab + b2]",
           "exam": "BPSC",
           "year": "40th B.P.S.C. (Pre) 1995"
         },
@@ -461,7 +461,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "( ) ( ) 2n 1 n 3 2n 1 n 3 3n 9 3 1 2 8 1 1 2 2 2 − − − − − = = = ` 2n – 1 = – (3n – 9) 2n – 1 = –3n + 9 5n = 10 n = 2",
+          "explanation": "() () 2n 1 n 3 2n 1 n 3 3n 9 3 1 2 8 1 1 2 2 2 − − − − − = = = ` 2n – 1 = – (3n – 9) 2n – 1 = –3n + 9 5n = 10 n = 2",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 26.08.2023"
         },
@@ -476,7 +476,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "–3 3 2 3 – – 3 2     =         and –2 2 4 9 9 4   =    ; Now let the number asked in the question be x. Therefore, according to the question, 3 2 3 – 9 2 4        =   x Therefore, 3 2 3 9 – 2 4    = ×       x Thus,‚ 3 3 3 – – – 3 3 3 4 4 2 2 2 – 9 9 2 2 2 9 9 4 4 × × = × × × × × x = Thus, 2 – 3 x = Therefore, on dividing –3 2 – 3       by 2 – 3      , the quotient will be –2 4 9    .",
+          "explanation": "–3 3 2 3 – – 3 2     =         and –2 2 4 9 9 4   =    ; Now let the number asked in the question be x. Therefore, according to the question, 3 2 3 – 9 2 4        =   x Therefore, 3 2 3 9 – 2 4    = ×       x Thus,‚ 3 3 3 – – – 3 3 3 4 4 2 2 2 – 9 9 2 2 2 9 9 4 4 × × = × × × × × x = Thus, 2 – 3 x = Therefore, on dividing –3 2 – 3       by 2 – 3      , the quotient will be –2 4 9   .",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July 2024"
         },
@@ -506,7 +506,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "1 2 1 1 3 1 1 4 1 ......... 1 n 1 2 1 × 3 2 × 4 3 ........... n n 1 n 1 - - - - = - = b b b b l l l l",
+          "explanation": "1 2 1 1 3 1 1 4 1......... 1 n 1 2 1 × 3 2 × 4 3........... n n 1 n 1 - - - - = - = b b b b l l l l",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 08.12.2023"
         },
@@ -521,7 +521,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "1 2 1 1 3 1 1 4 1 ......... 1 120 1 2 3 × 3 4 × 4 5 ×..........× 120 121 2 121 60.5 & + + + + = = b b b b l l l l",
+          "explanation": "1 2 1 1 3 1 1 4 1......... 1 120 1 2 3 × 3 4 × 4 5 ×..........× 120 121 2 121 60.5 & + + + + = = b b b b l l l l",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (11-12th) 26.08.2023"
         },
@@ -551,7 +551,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "(4 8 ) 2 3 1 1 1 2 ' + - - - b l 4 1 8 1 2 3 8 2 8 1 × 9 4 2 ' = + = + b b b l l l 8 3 × 9 4 6 1 = =",
+          "explanation": "(4 8) 2 3 1 1 1 2 ' + - - - b l 4 1 8 1 2 3 8 2 8 1 × 9 4 2 ' = + = + b b b l l l 8 3 × 9 4 6 1 = =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (I)"
         },
@@ -566,7 +566,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "5 1 0.008 x 3 = : D 5 1 1000 8 x 3 = : D 5 1 10 2 x 3 3 = b l : D 5 1 5 1 x 3 3 = b l : D x = 1 According to the question (0.25)x = (0.25)1 = 0.25",
+          "explanation": "5 1 0.008 x 3 =: D 5 1 1000 8 x 3 =: D 5 1 10 2 x 3 3 = b l: D 5 1 5 1 x 3 3 = b l: D x = 1 According to the question (0.25)x = (0.25)1 = 0.25",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         },
@@ -581,7 +581,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "2 (467 359) (2 × 467 × 359) 2 2 2 + + - \" , Let a = 467 and b = 359 (a b ) 2 (a b) 2ab 2 2 2 + + - \" , = (a b ) 2 a b 2ab 2ab 2 2 2 2 + + + - ! + = (a b ) 2(a b ) 2 2 2 2 + + = 2",
+          "explanation": "2 (467 359) (2 × 467 × 359) 2 2 2 + + - \", Let a = 467 and b = 359 (a b) 2 (a b) 2ab 2 2 2 + + - \", = (a b) 2 a b 2ab 2ab 2 2 2 2 + + + -! + = (a b) 2(a b) 2 2 2 2 + + = 2",
           "exam": "BPSC",
           "year": "Not printed in source PDF"
         }
@@ -675,7 +675,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "( ) ( ) ( ) 5 7 18 7 3 4 3 2 1 2 1 1 + + + + + + + ^ h We know that– = ( )( ) ( ) ( ) ( ) 5 7 5 7 18 5 7 7 3 7 3 4 7 3 + - - + + - - + ^ h ( ) ( ) ( ) 3 2 3 2 3 2 2 1 2 1 2 1 + - - + + - - ^ ^ h h 5 7 18(5 7) ( 7) 3 4 7 3 ( 3) 2 3 2 2 1 2 1 2 2 2 2 2 2 2 2 - - + - - + - - + - - ^ ^ ^ ^ ^ h h h h h 7 7 7 A A A [∵ (a-b)(a+b) = a2-b2] = ( ) ( ) 25 7 18 5 7 7 3 4 7 3 3 2 3 2 2 1 2 1 - - + - - + - - + - - = ( ) ( ) 18 18 5 7 4 4 7 3 1 3 2 1 2 1 - + - + - + - ^ h = 5 7 7 3 3 2 2 1 - + - + - + - = 5 -1 = 4",
+          "explanation": "() () () 5 7 18 7 3 4 3 2 1 2 1 1 + + + + + + + ^ h We know that– = ()() () () () 5 7 5 7 18 5 7 7 3 7 3 4 7 3 + - - + + - - + ^ h () () () 3 2 3 2 3 2 2 1 2 1 2 1 + - - + + - - ^ ^ h h 5 7 18(5 7) (7) 3 4 7 3 (3) 2 3 2 2 1 2 1 2 2 2 2 2 2 2 2 - - + - - + - - + - - ^ ^ ^ ^ ^ h h h h h 7 7 7 A A A [∵ (a-b)(a+b) = a2-b2] = () () 25 7 18 5 7 7 3 4 7 3 3 2 3 2 2 1 2 1 - - + - - + - - + - - = () () 18 18 5 7 4 4 7 3 1 3 2 1 2 1 - + - + - + - ^ h = 5 7 7 3 3 2 2 1 - + - + - + - = 5 -1 = 4",
           "exam": "BPSC",
           "year": "BPSC (Tre-3) {July}–2024"
         }
@@ -725,7 +725,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "2 2 2 ...... 1 1 1 - - - Let, x = 2 2 2 ...... 1 1 1 - - - Now, x = 2 – x 1 x = x x 2 1 - x2 – 2x + 1 = 0 x2 – x – x + 1 = 0 x (x – 1) – 1 (x – 1) = 0 (x – 1)2 = 0 x = 1 So, the value of the continued fraction is 1.",
+          "explanation": "2 2 2...... 1 1 1 - - - Let, x = 2 2 2...... 1 1 1 - - - Now, x = 2 – x 1 x = x x 2 1 - x2 – 2x + 1 = 0 x2 – x – x + 1 = 0 x (x – 1) – 1 (x – 1) = 0 (x – 1)2 = 0 x = 1 So, the value of the continued fraction is 1.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2021"
         },
@@ -755,7 +755,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Let the fraction = y x As per the question x + y = 11 ......... (i) And, y 2 1 3 2 x - + = 3x + 3 = 2y - 4 3x - 2y = -7 ...........(ii) From equation (i) and (ii) – x = 3 and y = 8 Hence, fraction = y 8 3 x = .",
+          "explanation": "Let the fraction = y x As per the question x + y = 11......... (i) And, y 2 1 3 2 x - + = 3x + 3 = 2y - 4 3x - 2y = -7...........(ii) From equation (i) and (ii) – x = 3 and y = 8 Hence, fraction = y 8 3 x =.",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (11th-12th) 26.08.2023"
         }
@@ -818,7 +818,7 @@
             "D": "54 years"
           },
           "answer": "C",
-          "explanation": "Let the age of man is 1900 = x year. It is clear that his birth year was (1900 – x) According to question , (1900 – x,) is divisible by 29. x 29 1900 - is an integer. 1900 – x = 1856 (1856 is also divisible by 29) ∴ x = 44 years",
+          "explanation": "Let the age of man is 1900 = x year. It is clear that his birth year was (1900 – x) According to question, (1900 – x,) is divisible by 29. x 29 1900 - is an integer. 1900 – x = 1856 (1856 is also divisible by 29) ∴ x = 44 years",
           "exam": "BPSC",
           "year": "40th B.P.S.C. (Pre) 1995"
         },
@@ -833,7 +833,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Let the present ages of Ramesh and Rajiv be x and y respectively. According to the question y 10 10 3 1 x - - = 3x - 30 = y - 10 3x - y = 20 .............(i) and y 5 5 3 2 x + + = 3x + 15 = 2y + 10 3x - 2y = – 5............(ii) From equation (i) and (ii) - x =15, y = 25 Now y 25 15 5 3 x = = ⇒ x : y = 3 : 5 Therefore, the ratio of the present ages of Ramesh and Rajiv is 3 : 5.",
+          "explanation": "Let the present ages of Ramesh and Rajiv be x and y respectively. According to the question y 10 10 3 1 x - - = 3x - 30 = y - 10 3x - y = 20.............(i) and y 5 5 3 2 x + + = 3x + 15 = 2y + 10 3x - 2y = – 5............(ii) From equation (i) and (ii) - x =15, y = 25 Now y 25 15 5 3 x = = ⇒ x: y = 3: 5 Therefore, the ratio of the present ages of Ramesh and Rajiv is 3: 5.",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 26.08.2023"
         },
@@ -863,7 +863,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Let A’s present age be x. The sum of the reciprocals of A’s age 2 years ago (x-2) and 2 years from now (x + 2) is given by– ( ) ( ) x x 2 1 2 1 - + + According to the question– x x 2 1 2 1 3 2 - + + = x x x 4 2 2 3 2 2 - + + - = 4 2 3 2 x x 2 - = 3x = x2 – 4 x2 – 3x – 4 = 0 x2 – 4x + x – 4 = 0 x (x – 4) + 1 (x – 4) = 0 x = 4, –1 Hence, the answer is 4 years.",
+          "explanation": "Let A’s present age be x. The sum of the reciprocals of A’s age 2 years ago (x-2) and 2 years from now (x + 2) is given by– () () x x 2 1 2 1 - + + According to the question– x x 2 1 2 1 3 2 - + + = x x x 4 2 2 3 2 2 - + + - = 4 2 3 2 x x 2 - = 3x = x2 – 4 x2 – 3x – 4 = 0 x2 – 4x + x – 4 = 0 x (x – 4) + 1 (x – 4) = 0 x = 4, –1 Hence, the answer is 4 years.",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         }
@@ -1084,7 +1084,7 @@
             "D": "200"
           },
           "answer": "C",
-          "explanation": "Half of diameter means radius Let the radius of circle is r. ∴ Area of circle = πr2 New radius after doubling the radius = 2r Area of new circle = π(2.r)2 = 4πr2 Percentage of increased area. = r 4 r r ×100 2 2 2 r r r - = 300 percentage",
+          "explanation": "Half of diameter means radius Let the radius of circle is r. ∴ Area of circle = πr2 New radius after doubling the radius = 2r Area of new circle = π(2. r)2 = 4πr2 Percentage of increased area. = r 4 r r ×100 2 2 2 r r r - = 300 percentage",
           "exam": "BPSC",
           "year": "43rd B.P.S.C. (Pre) 1999"
         },
@@ -1113,7 +1113,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "As, 6 , 18 , 54 × 3 × 3 Similarly, (from option a) 15 , 45 , 135 × 3 × 3 Therefore, option (a) is the correct answer.",
+          "explanation": "As, 6, 18, 54 × 3 × 3 Similarly, (from option a) 15, 45, 135 × 3 × 3 Therefore, option (a) is the correct answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         },
@@ -1282,7 +1282,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "LCM of 4, 5 and 6 = 2 4 5 6 2 2 5 3 3 1 5 3 5 1 5 1 1 1 1 , , , , , , , , , , ∴ LCM = 2 × 2 × 3 × 5 = 60 Now, the number of multiples of 60 which lie between 100 and 500 = 120, 180, 240, 300, 360, 420 and 480. Hence, there are the 7 numbers between 100 and 500 which are divisible by 4, 5 and 6.",
+          "explanation": "LCM of 4, 5 and 6 = 2 4 5 6 2 2 5 3 3 1 5 3 5 1 5 1 1 1 1,,,,,,,,,, ∴ LCM = 2 × 2 × 3 × 5 = 60 Now, the number of multiples of 60 which lie between 100 and 500 = 120, 180, 240, 300, 360, 420 and 480. Hence, there are the 7 numbers between 100 and 500 which are divisible by 4, 5 and 6.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
         },
@@ -1297,7 +1297,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "The number of such multiples of LCM of 4, 5 and 6, which lie between 200 and 600. 2 4 5 6 2 2 5 3 3 1 5 3 5 1 5 1 1 1 1 , , , , , , , , , , L.C.M. = 2 × 2 × 3 × 5 = 60 Now, such multiples of 60 which lie between 200 and 600. are 240, 300, 360, 420, 480 & 540 Thus total numbers are 6.",
+          "explanation": "The number of such multiples of LCM of 4, 5 and 6, which lie between 200 and 600. 2 4 5 6 2 2 5 3 3 1 5 3 5 1 5 1 1 1 1,,,,,,,,,, L. C.M. = 2 × 2 × 3 × 5 = 60 Now, such multiples of 60 which lie between 200 and 600. are 240, 300, 360, 420, 480 & 540 Thus total numbers are 6.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -1312,7 +1312,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "The LCM of 15, 30, 38 and 40 is 2 15 30 38 40 2 15 15 19 20 2 15 15 19 10 3 15 15 19 5 5 5 5 19 5 19 , , , , , , , , , , , , , , , 1 1 19 1 1 1 1 1 , , , , , , ∴ LCM = 2 × 2 × 2 × 3 × 5 × 19 = 2280 ∴ required smallest five-digit number = 2280 × 5 + 2 = 11402",
+          "explanation": "The LCM of 15, 30, 38 and 40 is 2 15 30 38 40 2 15 15 19 20 2 15 15 19 10 3 15 15 19 5 5 5 5 19 5 19,,,,,,,,,,,,,,, 1 1 19 1 1 1 1 1,,,,,, ∴ LCM = 2 × 2 × 2 × 3 × 5 × 19 = 2280 ∴ required smallest five-digit number = 2280 × 5 + 2 = 11402",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         },
@@ -1326,7 +1326,7 @@
             "D": "18"
           },
           "answer": "B",
-          "explanation": "The ratio of two numbers is 3 : 5. Let the numbers be (a) = 3x (b) = 5x the highest common factor be (HCF) = x Least common multiple (LCM) = x + 42 Given that the least common multiple is 42 more than the greatest common divisor. a × b = HCF × LCM 3x × 5x = x × (42 + x) 15x2 = x × (42 + x) 15x = 42 + x x = 3 Larger number (b) = 5x = 5 × 3 = 15 Smaller number (a) = 3x = 3 × 3 = 9",
+          "explanation": "The ratio of two numbers is 3: 5. Let the numbers be (a) = 3x (b) = 5x the highest common factor be (HCF) = x Least common multiple (LCM) = x + 42 Given that the least common multiple is 42 more than the greatest common divisor. a × b = HCF × LCM 3x × 5x = x × (42 + x) 15x2 = x × (42 + x) 15x = 42 + x x = 3 Larger number (b) = 5x = 5 × 3 = 15 Smaller number (a) = 3x = 3 × 3 = 9",
           "exam": "BPSC",
           "year": "B.P.S.C. (Assistant) 2019"
         },
@@ -1355,7 +1355,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "H.C.F. of (1657 - 6) and (2037 - 5) = H.C.F. of 1651 and 2032 1651 = 13 × 127 2032 = 16 × 127 ∴ Required largest number (H.C.F.) = 127",
+          "explanation": "H. C.F. of (1657 - 6) and (2037 - 5) = H. C.F. of 1651 and 2032 1651 = 13 × 127 2032 = 16 × 127 ∴ Required largest number (H. C.F.) = 127",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 7.12.2023"
         }
@@ -1375,7 +1375,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Cost price of 2 lemons (cp) = `1 Selling price of 5 lemons (sp) = `3 Now 2cp = `1 ....(i) 5sp = `3 ....(ii) multiply by 3 to the (i) equation- 6cp = `3 ....(iii) using equation (iii) and (ii)- 6 cp = 5 sp cp sp 5 6 = % × % P cp sp cp 100 = - % × % P 5 6 5 100 = - P% = 20%",
+          "explanation": "Cost price of 2 lemons (cp) = `1 Selling price of 5 lemons (sp) = `3 Now 2cp = `1....(i) 5sp = `3....(ii) multiply by 3 to the (i) equation- 6cp = `3....(iii) using equation (iii) and (ii)- 6 cp = 5 sp cp sp 5 6 = % × % P cp sp cp 100 = - % × % P 5 6 5 100 = - P% = 20%",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (I)"
         },
@@ -1390,7 +1390,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Given that Marked price (M.P.) of an item = Rs. 400 Price of item after 10% discount = . . Rs Rs 400 100 400 10 × - = Rs. 400 – Rs. 40 = Rs. 360 GST on item = 100 360 10 × = 36 Total payable price of item = Rs. 360 + Rs. 36 = Rs. 396",
+          "explanation": "Given that Marked price (M. P.) of an item = Rs. 400 Price of item after 10% discount =.. Rs Rs 400 100 400 10 × - = Rs. 400 – Rs. 40 = Rs. 360 GST on item = 100 360 10 × = 36 Total payable price of item = Rs. 360 + Rs. 36 = Rs. 396",
           "exam": "BPSC",
           "year": "68th B.P.S.C. (Pre) 2023"
         },
@@ -1420,7 +1420,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "Selling price of 45 lemons at loss of 20%. = Rs. 40 Cost price of 45 lemons = 40 × ( ) 100 20 100 - = 40 × 80 100 = Rs. 50 Selling price of 45 lemons at profit of 20% = 50 × 100 120 = Rs. 60 No. of lemon for Rs. 1 at 20% profit = 60 45 No. of lemon for Rs. 24 at 20% profit = 60 45 × 24 = 18",
+          "explanation": "Selling price of 45 lemons at loss of 20%. = Rs. 40 Cost price of 45 lemons = 40 × () 100 20 100 - = 40 × 80 100 = Rs. 50 Selling price of 45 lemons at profit of 20% = 50 × 100 120 = Rs. 60 No. of lemon for Rs. 1 at 20% profit = 60 45 No. of lemon for Rs. 24 at 20% profit = 60 45 × 24 = 18",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -1464,7 +1464,7 @@
             "D": "Rs. 675"
           },
           "answer": "D",
-          "explanation": "Selling price = Rs.450, the loss % = 20% Cost price = Loss Selling price 100 100 × - Cost price of cycle = 80 100 450 × = Rs. 562.50 Selling price of cycle of 20% profit = ( %) Cost price profit 100 100 × + = . 100 562 5 120 × ∴ The selling price of cycle at 20% profit = Rs. 675",
+          "explanation": "Selling price = Rs.450, the loss % = 20% Cost price = Loss Selling price 100 100 × - Cost price of cycle = 80 100 450 × = Rs. 562.50 Selling price of cycle of 20% profit = (%) Cost price profit 100 100 × + =. 100 562 5 120 × ∴ The selling price of cycle at 20% profit = Rs. 675",
           "exam": "BPSC",
           "year": "43rd B.P.S.C. (Pre) 1999"
         },
@@ -1522,7 +1522,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Cost price of the article = Rs. 615 Selling price of the article = Rs. 820 ∴ Profit = 820 – 615 = Rs. 205 ∴ Profit % = × % . % 615 205 100 33 33 =",
+          "explanation": "Cost price of the article = Rs. 615 Selling price of the article = Rs. 820 ∴ Profit = 820 – 615 = Rs. 205 ∴ Profit % = × %. % 615 205 100 33 33 =",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 08.12.2023"
         },
@@ -1602,7 +1602,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "Required Average = ( ) m n mn nm 2 2 + + = ( ) ( ) m n mn n m + + = m n",
+          "explanation": "Required Average = () m n mn nm 2 2 + + = () () m n mn n m + + = m n",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -1759,7 +1759,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "The total monthly income of P and Q = 5,050 × 2 = Rs. 10,100 The total monthly income of Q and R = 6,250 × 2 = Rs. 12, 500 The total monthly income of P and R = 5,200 × 2 = Rs. 10, 400 ∴ The total monthly income of P, Q and R = , , , 2 10 100 12 500 10 400 + + = , 2 33 000 = Rs. 16,500 Therefore, P's monthly income = 16,500 – 12,500 = Rs. 4,000",
+          "explanation": "The total monthly income of P and Q = 5,050 × 2 = Rs. 10,100 The total monthly income of Q and R = 6,250 × 2 = Rs. 12, 500 The total monthly income of P and R = 5,200 × 2 = Rs. 10, 400 ∴ The total monthly income of P, Q and R =,,, 2 10 100 12 500 10 400 + + =, 2 33 000 = Rs. 16,500 Therefore, P's monthly income = 16,500 – 12,500 = Rs. 4,000",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 26.08.2023"
         },
@@ -1824,7 +1824,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "Money A B 48000 36000 4 : 3 Month 12 : x Profit 4 × 12 : 3 × x ∴ x 3 48 1 2 = 6x = 48 x = 6 48 x = 8 12 – 8 = 4 month Therefore, B joined the partnership after 4 months.",
+          "explanation": "Money A B 48000 36000 4: 3 Month 12: x Profit 4 × 12: 3 × x ∴ x 3 48 1 2 = 6x = 48 x = 6 48 x = 8 12 – 8 = 4 month Therefore, B joined the partnership after 4 months.",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Re-Exam) (Pre), 2021"
         },
@@ -1839,7 +1839,7 @@
             "E": "5"
           },
           "answer": "B",
-          "explanation": "(Let B, invest money after x months) A : B Investment → 76000 : 57000 4 : 3 × : × Time → 12 : (12 – x) Profit → 2 : 1 ∴ ( )x 3 12 4 12 1 2 × × - = 4×12 = 6 × (12 – x) 12 – x = 8 x = 12 – 8 ⇒ 4 Months So, the B join the business after 4 months.",
+          "explanation": "(Let B, invest money after x months) A: B Investment → 76000: 57000 4: 3 ×: × Time → 12: (12 – x) Profit → 2: 1 ∴ ()x 3 12 4 12 1 2 × × - = 4×12 = 6 × (12 – x) 12 – x = 8 x = 12 – 8 ⇒ 4 Months So, the B join the business after 4 months.",
           "exam": "BPSC",
           "year": "63rd B.P.S.C. (Pre) 2017"
         },
@@ -1869,7 +1869,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "E",
-          "explanation": "Total profit of A, B, C, = 2000000 × 100 18 = Rs.360000 Proportional sum = 7 + 2 +1 = 10 Profit of A = 360000 × 10 7 = Rs. 252000 Profit of B = 360000 × 10 2 = Rs. 72000 Net profit of A after paying tax = 252000 × 100 70 = Rs. 176400 Net profit of B after paying tax = 72000 × 100 80 = Rs. 57600 Now we can see that, the net profit of A is more than net profit of B. Required% = % . % 57600 176400 57600 100 206 25 × - = So, option (e) is the correct answer.",
+          "explanation": "Total profit of A, B, C, = 2000000 × 100 18 = Rs.360000 Proportional sum = 7 + 2 +1 = 10 Profit of A = 360000 × 10 7 = Rs. 252000 Profit of B = 360000 × 10 2 = Rs. 72000 Net profit of A after paying tax = 252000 × 100 70 = Rs. 176400 Net profit of B after paying tax = 72000 × 100 80 = Rs. 57600 Now we can see that, the net profit of A is more than net profit of B. Required% = %. % 57600 176400 57600 100 206 25 × - = So, option (e) is the correct answer.",
           "exam": "BPSC",
           "year": "60th to 62nd B.P.S.C. (Pre) 2016"
         }
@@ -1888,7 +1888,7 @@
             "D": "(a - c) : b :(d - a)"
           },
           "answer": "B",
-          "explanation": "If a : b :: c : d, then by the rule of componendo and dividendob a b d c d - = - or (a – b) : b :: (c – d) : d Hence, option (b) is the correct answer.",
+          "explanation": "If a: b:: c: d, then by the rule of componendo and dividendob a b d c d - = - or (a – b): b:: (c – d): d Hence, option (b) is the correct answer.",
           "exam": "BPSC",
           "year": "40th B.P.S.C. (Pre) 1995"
         },
@@ -1947,7 +1947,7 @@
             "E": "None of the above"
           },
           "answer": "E",
-          "explanation": "Given that the ratio of 5 rupee, 2 rupee and 1 rupee coins is 2 : 3 : 4 respectively. Let the ratio coefficient be z, Therefore, there will be 2z coins of Rs 5, 3z coins of Rs. 2z, 2 and 4z coins of Rs 1. Given that the total value of the coins is Rs. 2000, Therefore, 5 × 2z + 2 × 3z +1 × 4z = 2000; Thus, 10z + 6z + 4z = 2000; Then, 20z = 2000; Therefore, z = 20 2000 = 100 Therefore, there are 200 coins of Rs 5, 300 coins of Rs 2 and 400 coins of Rs 1. Thus the correct answer is option (e).",
+          "explanation": "Given that the ratio of 5 rupee, 2 rupee and 1 rupee coins is 2: 3: 4 respectively. Let the ratio coefficient be z, Therefore, there will be 2z coins of Rs 5, 3z coins of Rs. 2z, 2 and 4z coins of Rs 1. Given that the total value of the coins is Rs. 2000, Therefore, 5 × 2z + 2 × 3z +1 × 4z = 2000; Thus, 10z + 6z + 4z = 2000; Then, 20z = 2000; Therefore, z = 20 2000 = 100 Therefore, there are 200 coins of Rs 5, 300 coins of Rs 2 and 400 coins of Rs 1. Thus the correct answer is option (e).",
           "exam": "BPSC",
           "year": "38th B.P.S.C. (Pre) 1992"
         },
@@ -1962,7 +1962,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Given A:B 2 1 : 8 3 8:6 = = .....................(i) B:C 3 1 : 9 5 3:5 6:10 = = = .....................(ii) 10 C:D 6 5 : 4 3 :9 = = .....................(iii) Now A : B : C : D = 8 : 6 : 10 : 9",
+          "explanation": "Given A: B 2 1: 8 3 8:6 = =.....................(i) B: C 3 1: 9 5 3:5 6:10 = = =.....................(ii) 10 C: D 6 5: 4 3:9 = =.....................(iii) Now A: B: C: D = 8: 6: 10: 9",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 - (I)"
         },
@@ -1992,7 +1992,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "Total mixture = 100 liters Water : Milk = 30 : 70 = 3 : 7 4 1 part remaining mixture after sale = 100 - 25 = 75 L. ∴ The quantity of milk in 75 liters of mixture = 75 × 10 7 = 2 105 L. The quantity of water in 75 liters of mixture = 75 × 10 3 = 2 45 L. Total water in the mixture after adding 25 liters of water = 2 45 25 2 95 + = L. ∴ Required ratio = : 2 95 2 105 = 95 : 105 = 19 : 21",
+          "explanation": "Total mixture = 100 liters Water: Milk = 30: 70 = 3: 7 4 1 part remaining mixture after sale = 100 - 25 = 75 L. ∴ The quantity of milk in 75 liters of mixture = 75 × 10 7 = 2 105 L. The quantity of water in 75 liters of mixture = 75 × 10 3 = 2 45 L. Total water in the mixture after adding 25 liters of water = 2 45 25 2 95 + = L. ∴ Required ratio =: 2 95 2 105 = 95: 105 = 19: 21",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Re-Exam) (Pre), 2021"
         },
@@ -2006,7 +2006,7 @@
             "D": "64 : 47"
           },
           "answer": "A",
-          "explanation": "Given The ratio of iron and copper in alloy A = 4 : 5 The ratio of iron and copper in alloy B = 3 : 4 The quantity of alloy A in the new mixture = 45 kg. The quantity of alloy B in the new mixture = 63 kg. Let the quantity of iron and copper in alloy A be 4x and 5x respectively. 4x + 5x = 45 9x = 45 x = 5 The quantity of iron in alloy A = 4x = 4 × 5 = 20 kg. Quantity of copper in Alloy A = 5x = 5 × 5 = 25 kg. Let the quantity of iron and copper in alloy B be 3y and 4y respectively. 3y + 4y = 63 7y = 63 y = 63/7 = 9 Alloy B = 3y = 3 × 9 = 27 kg. Quantity of Copper Alloy B = 4y = 4 × 9 = 36 kg. The quantity of iron in the final mixture = 20 + 27 = 47 kg. The quantity of copper in the final mixture = 25 + 36 = 61 kg. The ratio of copper to iron in the final mixture is 61 : 47.",
+          "explanation": "Given The ratio of iron and copper in alloy A = 4: 5 The ratio of iron and copper in alloy B = 3: 4 The quantity of alloy A in the new mixture = 45 kg. The quantity of alloy B in the new mixture = 63 kg. Let the quantity of iron and copper in alloy A be 4x and 5x respectively. 4x + 5x = 45 9x = 45 x = 5 The quantity of iron in alloy A = 4x = 4 × 5 = 20 kg. Quantity of copper in Alloy A = 5x = 5 × 5 = 25 kg. Let the quantity of iron and copper in alloy B be 3y and 4y respectively. 3y + 4y = 63 7y = 63 y = 63/7 = 9 Alloy B = 3y = 3 × 9 = 27 kg. Quantity of Copper Alloy B = 4y = 4 × 9 = 36 kg. The quantity of iron in the final mixture = 20 + 27 = 47 kg. The quantity of copper in the final mixture = 25 + 36 = 61 kg. The ratio of copper to iron in the final mixture is 61: 47.",
           "exam": "BPSC",
           "year": "B.P.S.C. (CDPO) (Pre)2005"
         }
@@ -2130,7 +2130,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "(2 m + 3f) 8 = (3m + 2f) × 7 16m + 24f = 21m + 14f 21m – 16m = 24f – 14f 5m = 10f m = 2f m : f = 2 : 1 ∴ total work = 8 (2m + 3f ) = 8 (2 × 2 + 3 × 1) = 8 (4 + 3) = 56 ∴ 1 day's work of (5m + 4f) = 5 × 2 + 4 × 1 = 14 ∴ 5 men and 4 women take = 14 56 ⇒ 4 days to complete the work.",
+          "explanation": "(2 m + 3f) 8 = (3m + 2f) × 7 16m + 24f = 21m + 14f 21m – 16m = 24f – 14f 5m = 10f m = 2f m: f = 2: 1 ∴ total work = 8 (2m + 3f) = 8 (2 × 2 + 3 × 1) = 8 (4 + 3) = 56 ∴ 1 day's work of (5m + 4f) = 5 × 2 + 4 × 1 = 14 ∴ 5 men and 4 women take = 14 56 ⇒ 4 days to complete the work.",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 7.12.2023"
         },
@@ -2175,7 +2175,7 @@
             "E": "None of the above"
           },
           "answer": "D",
-          "explanation": "In 2 hours, there are a total of 2 × 60 = 120 minutes. There will be 120 ÷ 15 = 8 intervals of 15 minutes in 120 minutes, therefore, starting from one bacterial cell, a total of 28 cells, i.e., 256 bacterial cells, will be produced in 2 hours.",
+          "explanation": "In 2 hours, there are a total of 2 × 60 = 120 minutes. There will be 120 ÷ 15 = 8 intervals of 15 minutes in 120 minutes, therefore, starting from one bacterial cell, a total of 28 cells, i. e., 256 bacterial cells, will be produced in 2 hours.",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         }
@@ -2258,7 +2258,7 @@
             "D": "10%"
           },
           "answer": "B",
-          "explanation": "Simple Interest for 2 years = Rs.160 Compound Interest for 2 years = Rs.164 Difference = Rs. 4 i.e. interest for one year’s interest = Rs.4 Simple Interest of 1 year = 2 160 = Rs. 80 Rate of interest = ( ) Simple Interest Time Compound Interest Simple Interest 100 × × - = 80 1 4 100 × × ∴ Rate of interest = 5%",
+          "explanation": "Simple Interest for 2 years = Rs.160 Compound Interest for 2 years = Rs.164 Difference = Rs. 4 i. e. interest for one year’s interest = Rs.4 Simple Interest of 1 year = 2 160 = Rs. 80 Rate of interest = () Simple Interest Time Compound Interest Simple Interest 100 × × - = 80 1 4 100 × × ∴ Rate of interest = 5%",
           "exam": "BPSC",
           "year": "41st B.P.S.C. (Pre) 1996"
         },
@@ -2287,7 +2287,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "∵ P = 8000 Rupees n = 2 year 4 months r = 15% From A = P . r r b a 1 100 1 100 × n + + b f l p As per the question A = 8000 1 100 15 . 1 100 15× 12 4 2 + + b f l p A = 8000 × 20 23 20 23 20 21 × × A = 529 × 21 = Rs. 11109 ∴ compound interest = 11109 – 8000 = Rs. 3109",
+          "explanation": "∵ P = 8000 Rupees n = 2 year 4 months r = 15% From A = P. r r b a 1 100 1 100 × n + + b f l p As per the question A = 8000 1 100 15. 1 100 15× 12 4 2 + + b f l p A = 8000 × 20 23 20 23 20 21 × × A = 529 × 21 = Rs. 11109 ∴ compound interest = 11109 – 8000 = Rs. 3109",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 7.12.2023"
         },
@@ -2395,7 +2395,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "Relative speed of train = (58 – 4) = 54 Km/hr. = 54 18 5 × b l = 15 m/s Length of train =110 m. The train will take time to cross passer by = 15 110 s. = .s 3 22 7 3 1 = second",
+          "explanation": "Relative speed of train = (58 – 4) = 54 Km/hr. = 54 18 5 × b l = 15 m/s Length of train =110 m. The train will take time to cross passer by = 15 110 s. =. s 3 22 7 3 1 = second",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2021"
         },
@@ -2410,7 +2410,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "Time taken for the train to reach Panipat from Chandigarh. = 7 : 15 – 4 : 00 = 3 hour 15 minutes = 3 4 1 hour = 4 13 hour Average speed of the train = 40 km/hour ∴ Distance between Chandigarh and Panipat = Average speed × Time = 40 × 4 13 = 130 km.",
+          "explanation": "Time taken for the train to reach Panipat from Chandigarh. = 7: 15 – 4: 00 = 3 hour 15 minutes = 3 4 1 hour = 4 13 hour Average speed of the train = 40 km/hour ∴ Distance between Chandigarh and Panipat = Average speed × Time = 40 × 4 13 = 130 km.",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
         },
@@ -2527,7 +2527,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "∵ Distance covered by the second train in 4 hours = 400 km. ∴ Speed of the second train = 4 400 = 100 km/hr ∵ Ratio of the speeds of both the trains = 7 : 8 ∴ Speed of the first train = 8 100 × 7 = 87.5 km/hr",
+          "explanation": "∵ Distance covered by the second train in 4 hours = 400 km. ∴ Speed of the second train = 4 400 = 100 km/hr ∵ Ratio of the speeds of both the trains = 7: 8 ∴ Speed of the first train = 8 100 × 7 = 87.5 km/hr",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 7.12.2023"
         },
@@ -2542,7 +2542,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "Let the speed of the high speed train = x then slow train speed = (x – 10) According to question- ( ) x x 10 600 600 3 - - = ( ) x x x x 10 10 600 3 200 1 - - + = = 2000 = x (x - 10) x2 – 10x – 2000 = 0 x2 – ( 50 – 40)x – 2000 =0 x2 – 50x + 40x – 2000 = 0 x(x –50) + 40 (x – 50) = 0 (x –50) (x + 40) = 0 x = 50 km Hence, High speed train speed is 50 km/h and slow speed train speed is = 50 – 10 = 40 km/h",
+          "explanation": "Let the speed of the high speed train = x then slow train speed = (x – 10) According to question- () x x 10 600 600 3 - - = () x x x x 10 10 600 3 200 1 - - + = = 2000 = x (x - 10) x2 – 10x – 2000 = 0 x2 – (50 – 40)x – 2000 =0 x2 – 50x + 40x – 2000 = 0 x(x –50) + 40 (x – 50) = 0 (x –50) (x + 40) = 0 x = 50 km Hence, High speed train speed is 50 km/h and slow speed train speed is = 50 – 10 = 40 km/h",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (I)"
         },
@@ -2591,7 +2591,7 @@
             "D": "27 : 22"
           },
           "answer": "C",
-          "explanation": "Let the radius of the circle = (r) side of the square = (a) According to the question, circumference of the circle = perimeter of the square 2πr = 4a r a = 4 2π r a = 2 π ....................(i) ( ) ( ) square of the circle A Area of the circle A 2 1 = a2 πr2 = π a r 2 b l = π × π24 = 4 π = 22 4 7 × = 14 : 11",
+          "explanation": "Let the radius of the circle = (r) side of the square = (a) According to the question, circumference of the circle = perimeter of the square 2πr = 4a r a = 4 2π r a = 2 π....................(i) () () square of the circle A Area of the circle A 2 1 = a2 πr2 = π a r 2 b l = π × π24 = 4 π = 22 4 7 × = 14: 11",
           "exam": "BPSC",
           "year": "B.P.S.C. (Assistant) 2019"
         },
@@ -2621,7 +2621,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "According to the question- (r1 – r2) = 6 cm ..... (i) πr1 2 + πr2 2 = 116π r1 2 + r2 2 = 116 ..... (ii) from equation (i)– (r1 – r2)2 = 62 r1 2 + r2 2 – 2r1r2 = 36 O' r1 r2 ............ ............ A 116 – 2r1r2 = 36 2r1r2 = 80 Now (r1 + r2)2 = r1 2 + r2 2 + 2r1r2 (r1 + r2)2 = 116 + 80 (r1 + r2)2 = 196 r1 + r2 = 14 .......... (iii) from (i) and (iii) – 2r1 = 20 cm r cm 10 1 = again 2r2 = 8 cm r 4 cm 2 = Hence, option (b) is the right answer.",
+          "explanation": "According to the question- (r1 – r2) = 6 cm..... (i) πr1 2 + πr2 2 = 116π r1 2 + r2 2 = 116..... (ii) from equation (i)– (r1 – r2)2 = 62 r1 2 + r2 2 – 2r1r2 = 36 O' r1 r2........................ A 116 – 2r1r2 = 36 2r1r2 = 80 Now (r1 + r2)2 = r1 2 + r2 2 + 2r1r2 (r1 + r2)2 = 116 + 80 (r1 + r2)2 = 196 r1 + r2 = 14.......... (iii) from (i) and (iii) – 2r1 = 20 cm r cm 10 1 = again 2r2 = 8 cm r 4 cm 2 = Hence, option (b) is the right answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023"
         },
@@ -2636,7 +2636,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "Given that, A B C D l b Area of a rectangle = 30 cm2 Perimeter of rectangle = 26 cm Let l and b are the length and breadth of rectangle lb = 30 cm2 .......(i) 2 (l+b) = 26 cm l+b = 13 cm .....(ii) From eqn (i) and eqn (ii) cm 1 10 = and b cm 3 =",
+          "explanation": "Given that, A B C D l b Area of a rectangle = 30 cm2 Perimeter of rectangle = 26 cm Let l and b are the length and breadth of rectangle lb = 30 cm2.......(i) 2 (l+b) = 26 cm l+b = 13 cm.....(ii) From eqn (i) and eqn (ii) cm 1 10 = and b cm 3 =",
           "exam": "BPSC",
           "year": "68th B.P.S.C. (Pre) 2023"
         },
@@ -2681,7 +2681,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "We know that– d1 2 + d2 2 = 4a2 (where a = side d1, d2 are diagonals of rhombus) Side of rhombus = 2 1 × (Diagonal ) (Diagonal ) 1 2 2 2 + = 2 1 2 1 100 576 2 2 + = + = cm 2 1 676 2 1 26 13 × = = ∴ Perimeter of rhombus = 4 × side = (4 × 13) cm = 52 cm",
+          "explanation": "We know that– d1 2 + d2 2 = 4a2 (where a = side d1, d2 are diagonals of rhombus) Side of rhombus = 2 1 × (Diagonal) (Diagonal) 1 2 2 2 + = 2 1 2 1 100 576 2 2 + = + = cm 2 1 676 2 1 26 13 × = = ∴ Perimeter of rhombus = 4 × side = (4 × 13) cm = 52 cm",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
         },
@@ -2711,7 +2711,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "Let the radius of circles A and B are 1.5x and x respectively. Area of circle = π × (radius)2 ∵Area of circle A : Area of circle B = π (1.5x)2 : π (x)2 = 2.25 x2 : x2 = 2.25 : 1 Note - If the ratio of radius or circumference of two circles are x : y then the ratio of their areas will be x2 : y2 Ratio of area of circle A and B = (1.5)2 : (1)2 = 2.25 : 1 = 9 : 4",
+          "explanation": "Let the radius of circles A and B are 1.5x and x respectively. Area of circle = π × (radius)2 ∵Area of circle A: Area of circle B = π (1.5x)2: π (x)2 = 2.25 x2: x2 = 2.25: 1 Note - If the ratio of radius or circumference of two circles are x: y then the ratio of their areas will be x2: y2 Ratio of area of circle A and B = (1.5)2: (1)2 = 2.25: 1 = 9: 4",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Pre) 2019"
         },
@@ -2726,7 +2726,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "Given that, x2 – y2 = 7 and x – y = 1 .............(i) (x – y) (x + y) = 7 ∴ 1 (x + y) = 7 x + y = 7 ..............(ii) On Adding eqn (i) and (ii) 2x = 8 x = 4 and y = 4 – 1 = 3 [by putting the value of x in eqn (i)] A D C B y = 3 x = 4 Length of diagonal of rectangle ABCD = (AB) (BC) 2 2 + = 2 2 + = cm 25 5 16 9 + = =",
+          "explanation": "Given that, x2 – y2 = 7 and x – y = 1.............(i) (x – y) (x + y) = 7 ∴ 1 (x + y) = 7 x + y = 7..............(ii) On Adding eqn (i) and (ii) 2x = 8 x = 4 and y = 4 – 1 = 3 [by putting the value of x in eqn (i)] A D C B y = 3 x = 4 Length of diagonal of rectangle ABCD = (AB) (BC) 2 2 + = 2 2 + = cm 25 5 16 9 + = =",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Pre) 2019"
         },
@@ -2798,7 +2798,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "We know that– Interior angle + Exterior angle = 1800 ...........(i) According to the question– Interior angle = 1080 + exterior angle Interior angle – exterior angle = 1080 ...........(ii) from equation (i) & (ii) ⇒ 2 × Interior angle = 1800 + 1080 2 × Interior angle = 2880 Interior angle = 1440 From equation (i)– Exterior angle = 1800 – 1440 Exterior angle = 360 also we know that– exterior angle = x 360c {∵ where x is side} x 36 360 c c = x 36 360 c c = x 10 =",
+          "explanation": "We know that– Interior angle + Exterior angle = 1800...........(i) According to the question– Interior angle = 1080 + exterior angle Interior angle – exterior angle = 1080...........(ii) from equation (i) & (ii) ⇒ 2 × Interior angle = 1800 + 1080 2 × Interior angle = 2880 Interior angle = 1440 From equation (i)– Exterior angle = 1800 – 1440 Exterior angle = 360 also we know that– exterior angle = x 360c {∵ where x is side} x 36 360 c c = x 36 360 c c = x 10 =",
           "exam": "BPSC",
           "year": "BPSC (Tre-3) {July}–2024"
         },
@@ -2812,7 +2812,7 @@
             "D": "1 2 +"
           },
           "answer": "D",
-          "explanation": "Let the radius = r Area of the circle = πr2 When the radius of the circle is increased by 1 unit = r +1 The new area of the circle = π(r +1)2 According to the question, 2πr2 = π(r +1)2 2r2 = (r +1)2 r2 -2r -1 = 0 r = 2 2 2 2 ! r = 2 2 2 2 + (∵ r will not be negative) = 1 2 +",
+          "explanation": "Let the radius = r Area of the circle = πr2 When the radius of the circle is increased by 1 unit = r +1 The new area of the circle = π(r +1)2 According to the question, 2πr2 = π(r +1)2 2r2 = (r +1)2 r2 -2r -1 = 0 r = 2 2 2 2! r = 2 2 2 2 + (∵ r will not be negative) = 1 2 +",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -2855,7 +2855,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "According to the options, on solving Let the third side of the triangle be 7 cm. ∴ S = 2 7 8 9 + + S = 2 24 ⇒ 12 cm. ∴ As per the question ( )( )( ) 12 5 12 12 7 12 8 12 9 = - - - 12 5 12 5 4 3 × × × = 12 5 720 = 12 5 12 5 = Hence, the third side of the triangle is 7 cm.",
+          "explanation": "According to the options, on solving Let the third side of the triangle be 7 cm. ∴ S = 2 7 8 9 + + S = 2 24 ⇒ 12 cm. ∴ As per the question ()()() 12 5 12 12 7 12 8 12 9 = - - - 12 5 12 5 4 3 × × × = 12 5 720 = 12 5 12 5 = Hence, the third side of the triangle is 7 cm.",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 08.12.2023"
         },
@@ -2870,7 +2870,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Given- Length of the room = 18 meters Carpet laying rate = Rs. 4.50 per meter, total cost = Rs. 810 ∴ Length of the Carpet = .4 50 810 carpet laying rate total cost = = 180 meters Area of room = Area of carpet ∴ Width of the room = 18 m 180 m × 75 cm = 10 × 75 cm = 7.5m",
+          "explanation": "Given- Length of the room = 18 meters Carpet laying rate = Rs. 4.50 per meter, total cost = Rs. 810 ∴ Length of the Carpet =.4 50 810 carpet laying rate total cost = = 180 meters Area of room = Area of carpet ∴ Width of the room = 18 m 180 m × 75 cm = 10 × 75 cm = 7.5m",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (11-12th) 26.08.2023"
         },
@@ -2915,7 +2915,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "We know that– Area of sector = r 360 2 r i 102.7 = 7 22 ×14 ×14 × 360 i 11× 7 102.7 × 45 i = 60c . i 14 cm = r O θ Area = 102.7 cm 2",
+          "explanation": "We know that– Area of sector = r 360 2 r i 102.7 = 7 22 ×14 ×14 × 360 i 11× 7 102.7 × 45 i = 60c. i 14 cm = r O θ Area = 102.7 cm 2",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         }
@@ -2934,7 +2934,7 @@
             "D": "360 cm"
           },
           "answer": "A",
-          "explanation": "Radius of sphere = 2 6 = 3 cm Volume of sphere = 3 4 πr3 = 3 4 π(3)3 A solid is melted and shaped into a wire it is clear that the new shape is cylindrical. Let the length is l and given that diameter = 0.2cm ∴ radius of wire = . 2 0 2 = 0.1cm Volume of sphere = Volume of cylinder 3 4 π(3)3 = π(0.1)2 l l = ( . ) 3 4 0 1 27 × 2 l = 3600cm, l = 36m",
+          "explanation": "Radius of sphere = 2 6 = 3 cm Volume of sphere = 3 4 πr3 = 3 4 π(3)3 A solid is melted and shaped into a wire it is clear that the new shape is cylindrical. Let the length is l and given that diameter = 0.2cm ∴ radius of wire =. 2 0 2 = 0.1cm Volume of sphere = Volume of cylinder 3 4 π(3)3 = π(0.1)2 l l = (.) 3 4 0 1 27 × 2 l = 3600cm, l = 36m",
           "exam": "BPSC",
           "year": "42nd B.P.S.C. (Pre) 1997-98"
         },
@@ -2992,7 +2992,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "8 m 9 . m 12 m Maximum length of a room that can be placed in room = diagonal of room = ( ) (b) ( ) l h 2 2 2 + + = 2 2 2 + + = 81 64 144 + + = 289 17 = m",
+          "explanation": "8 m 9. m 12 m Maximum length of a room that can be placed in room = diagonal of room = () (b) () l h 2 2 2 + + = 2 2 2 + + = 81 64 144 + + = 289 17 = m",
           "exam": "BPSC",
           "year": "64th B.P.S.C. (Pre) 2018"
         },
@@ -3116,7 +3116,7 @@
             "D": "20 o , 40 o"
           },
           "answer": "C",
-          "explanation": "∵ In ∆PQR ∠P = 120o and PQ = PR ∴If two sides of a triangle are equal, then the angles opposites to it will also be. ∴ ∠Q = ∠R ...........(i) ∵ ∠P + ∠Q + ∠R = 180o 120 Q P R o ∴ 120 + ∠Q + ∠Q = 180o (∵ From eqn (i) ∠Q = ∠R) 2∠Q = 180o - 120o 2∠Q = 60o ∠Q = 30o ∴ ∠R = 30o",
+          "explanation": "∵ In ∆PQR ∠P = 120o and PQ = PR ∴If two sides of a triangle are equal, then the angles opposites to it will also be. ∴ ∠Q = ∠R...........(i) ∵ ∠P + ∠Q + ∠R = 180o 120 Q P R o ∴ 120 + ∠Q + ∠Q = 180o (∵ From eqn (i) ∠Q = ∠R) 2∠Q = 180o - 120o 2∠Q = 60o ∠Q = 30o ∴ ∠R = 30o",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -3130,7 +3130,7 @@
             "D": "(0, 7)"
           },
           "answer": "D",
-          "explanation": "The coordinates of the mid-point joining the point P (x1, y1) and Q (x2, y2) = 2 , 2 y y x x 1 2 1 2 + + c m ∴ The coordinates of the mid-point joining the point (4, 6) and (–4, 8) = , 2 4 4 2 6 8 - + b l = (0, 7)",
+          "explanation": "The coordinates of the mid-point joining the point P (x1, y1) and Q (x2, y2) = 2, 2 y y x x 1 2 1 2 + + c m ∴ The coordinates of the mid-point joining the point (4, 6) and (–4, 8) =, 2 4 4 2 6 8 - + b l = (0, 7)",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -3144,7 +3144,7 @@
             "D": "None of these"
           },
           "answer": "B",
-          "explanation": "The three points of the triangle respectively. A = (2, 7), B = (4, –1), C = (–2, 6) Length of first side, AB = (4 2) ( 1 7) 2 2 - - - - = 68 2 ( 8) 2 2 + - = Length of second side, BC = ( 2 4) ( 6 1) 2 2 - - + + + = ( 6) 7 85 2 2 - + = Length of the third side, CA = ( 2 2) (6 7) 2 2 - - + - = ( 4) ( 1) 17 2 2 - + - = According to Pythagoras theorem- BC2 = AB2 + CA2 85 68 17 2 2 2 = + ^ ^ ^ h h h 85 = 85 i.e. ∆ABC is a right angled triangle.",
+          "explanation": "The three points of the triangle respectively. A = (2, 7), B = (4, –1), C = (–2, 6) Length of first side, AB = (4 2) (1 7) 2 2 - - - - = 68 2 (8) 2 2 + - = Length of second side, BC = (2 4) (6 1) 2 2 - - + + + = (6) 7 85 2 2 - + = Length of the third side, CA = (2 2) (6 7) 2 2 - - + - = (4) (1) 17 2 2 - + - = According to Pythagoras theorem- BC2 = AB2 + CA2 85 68 17 2 2 2 = + ^ ^ ^ h h h 85 = 85 i. e. ∆ABC is a right angled triangle.",
           "exam": "BPSC",
           "year": "48th to 52nd B.P.S.C. (Pre) 2008"
         },
@@ -3186,7 +3186,7 @@
             "D": "x = - a, y = - a"
           },
           "answer": "B",
-          "explanation": "x2y2 = a2 (x2 + y2) y a a x x 2 2 ! = - When –a < x < a, y is imaginary and when –a < y < a, x is imaginary. Therefore, no part of the curve lies between x = ±a and y ± a. Hence y ± a is the asymptote parallel to the axis and x ± a.",
+          "explanation": "x2y2 = a2 (x2 + y2) y a a x x 2 2! = - When –a < x < a, y is imaginary and when –a < y < a, x is imaginary. Therefore, no part of the curve lies between x = ±a and y ± a. Hence y ± a is the asymptote parallel to the axis and x ± a.",
           "exam": "BPSC",
           "year": "45th B.P.S.C. (Pre) 2001"
         },
@@ -3215,7 +3215,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "P O Q (- 5, 2) (0, y) (9, - 2) PO = OQ ( ) ( ) y 5 0 2 2 2 - - + - = ( ) ( ) y 0 9 2 2 2 - + + y y 25 4 4 2 + + - = y y 81 4 4 2 + + + 29 – 4y = 85 + 4y 29 – 85 = 8y –56 = 8y y = –7 Therefore, the correct answer is option (c).",
+          "explanation": "P O Q (- 5, 2) (0, y) (9, - 2) PO = OQ () () y 5 0 2 2 2 - - + - = () () y 0 9 2 2 2 - + + y y 25 4 4 2 + + - = y y 81 4 4 2 + + + 29 – 4y = 85 + 4y 29 – 85 = 8y –56 = 8y y = –7 Therefore, the correct answer is option (c).",
           "exam": "BPSC",
           "year": "School teacher/Headmaster 10.12.2023"
         },
@@ -3280,7 +3280,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "B",
-          "explanation": "nC9 = nC8 9!(n 9)! n! 8!(n 8)! n! - = - [∵ nCr= !( )! ! r n r n - ] 9×8!(n 9)! 1 8!×(n 8)×(n 9)! 1 - = - - (n - 8) = 9 n = 9 + 8 n = 17",
+          "explanation": "nC9 = nC8 9!(n 9)! n! 8!(n 8)! n! - = - [∵ nCr=!()!! r n r n -] 9×8!(n 9)! 1 8!×(n 8)×(n 9)! 1 - = - - (n - 8) = 9 n = 9 + 8 n = 17",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -3295,7 +3295,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "A",
-          "explanation": "The Given Arithmetic progression- 5, 11, 17 ..........101st terms. a = 5 d = 6 Tn = a + (n – 1)d For 101st term- T101 = 5 + (101 – 1) × 6 = 5 + 600 T101 = 605",
+          "explanation": "The Given Arithmetic progression- 5, 11, 17..........101st terms. a = 5 d = 6 Tn = a + (n – 1)d For 101st term- T101 = 5 + (101 – 1) × 6 = 5 + 600 T101 = 605",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -3310,7 +3310,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "C",
-          "explanation": "The given quadratic equation– 2 6 6 0 x x 2 + - = 6 2 (2 6 ) 6 0 x x 2 + - - = 2 2 6 6 6 0 x x x 2 + - - = ( ) ( ) x x x 2 6 6 6 0 + - + = x x 2 6 6 0 - + = ^ ^h h x = 2 6 , 6 - Hence, option (c) will be the right answer.",
+          "explanation": "The given quadratic equation– 2 6 6 0 x x 2 + - = 6 2 (2 6) 6 0 x x 2 + - - = 2 2 6 6 6 0 x x x 2 + - - = () () x x x 2 6 6 6 0 + - + = x x 2 6 6 0 - + = ^ ^h h x = 2 6, 6 - Hence, option (c) will be the right answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -3325,7 +3325,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "D",
-          "explanation": "2x + 3y = 10 .......(i) 3x – y = 4 .......(ii) multiply by 3 in equation (ii) 9x – 3y = 12 .......(iii) Adding equation (i) and (iii) 11x = 22 x = 2 from equation (i)- 2× 2 + 3y = 10 3y = 10 – 4 3y = 6 y = 2 Hence, option (d) is the correct answer.",
+          "explanation": "2x + 3y = 10.......(i) 3x – y = 4.......(ii) multiply by 3 in equation (ii) 9x – 3y = 12.......(iii) Adding equation (i) and (iii) 11x = 22 x = 2 from equation (i)- 2× 2 + 3y = 10 3y = 10 – 4 3y = 6 y = 2 Hence, option (d) is the correct answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -3340,7 +3340,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "D",
-          "explanation": "Let α, β be the root of the equation ∴ Sum of roots = α + β = a b - = 4 5 2 3 + + Product of roots = α.β = a c = ( ) 4 5 6 3 3 4 5 3 2 3 + + = + + ∴ The harmonic mean of roots is = α+β 2αβ = ( ) 4 5 2 3 4 5 2 3 2 3 6 × + + + + = e o",
+          "explanation": "Let α, β be the root of the equation ∴ Sum of roots = α + β = a b - = 4 5 2 3 + + Product of roots = α.β = a c = () 4 5 6 3 3 4 5 3 2 3 + + = + + ∴ The harmonic mean of roots is = α+β 2αβ = () 4 5 2 3 4 5 2 3 2 3 6 × + + + + = e o",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Re-Exam) (Pre), 2021"
         },
@@ -3355,7 +3355,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "The sum of n terms of an arithmetic progression = n 2 [2a + (n - 1)d] where a = first, d = common difference n = number of terms ∴ 11 Sum of terms = 2 11 [2a + 10d] = 11a + 55d ....(i) Sum of 19 terms = 2 19 [2a + 18d] = 19a + 171d .....(ii) As per the question, 11a + 55d = 19a + 171d 8a = 55d – 171d 8a = – 116d a = d 8 116 - = d 2 29 - Now, the sum of 30 terms = 2 30 (2a + 29d) = d d 15 2 2 29 29 × - + b l ; E = 15[-29d + 29d] = 15 × 0 = 0",
+          "explanation": "The sum of n terms of an arithmetic progression = n 2 [2a + (n - 1)d] where a = first, d = common difference n = number of terms ∴ 11 Sum of terms = 2 11 [2a + 10d] = 11a + 55d....(i) Sum of 19 terms = 2 19 [2a + 18d] = 19a + 171d.....(ii) As per the question, 11a + 55d = 19a + 171d 8a = 55d – 171d 8a = – 116d a = d 8 116 - = d 2 29 - Now, the sum of 30 terms = 2 30 (2a + 29d) = d d 15 2 2 29 29 × - + b l; E = 15[-29d + 29d] = 15 × 0 = 0",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Re-Exam) (Pre), 2021"
         },
@@ -3385,7 +3385,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "Constant term in 1 x x 6 + b l – From the binomial theorem, C ( ) C ( ) 1 C ( ) 1 C ( ). 1 x x x x x x x 6 0 6 6 1 5 6 2 4 2 6 3 3 + + + + b b b l l l C ( ). 1 4 C ( ). 1 C 1 x x x x x 6 4 2 6 5 5 6 6 6 + + b b b l l l = x6 + 6. x5. x 1 +15. x4 x 1 2 + 20. x3 x 1 3 +15. x2 x 1 4 + 6. x. x 1 5 + x 1 6 = x6 + 6x4 +15x2 + 20 + x x x 15 6 1 2 4 6 + + Therefore, the constant term is 20.",
+          "explanation": "Constant term in 1 x x 6 + b l – From the binomial theorem, C () C () 1 C () 1 C (). 1 x x x x x x x 6 0 6 6 1 5 6 2 4 2 6 3 3 + + + + b b b l l l C (). 1 4 C (). 1 C 1 x x x x x 6 4 2 6 5 5 6 6 6 + + b b b l l l = x6 + 6. x5. x 1 +15. x4 x 1 2 + 20. x3 x 1 3 +15. x2 x 1 4 + 6. x. x 1 5 + x 1 6 = x6 + 6x4 +15x2 + 20 + x x x 15 6 1 2 4 6 + + Therefore, the constant term is 20.",
           "exam": "BPSC",
           "year": "66th B.P.S.C. Re-Exam (Pre) 2021"
         },
@@ -3400,7 +3400,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "217x + 131y = 913 ..... (i) 131x + 217y = 827 ....... (ii) Add eqn (ii) and eqn (i) 348x + 348y = 1740 x + y = 5 ..... (iii) Sub. eqn (ii) from eqn (i) 86x – 86y = 86 x – y = 1 ..... (iv) Add eqn (iii) and (iv) 2x = 6 x = 3 Put the value of x in eqn (iv) 3 – y = 1 y = 2 So the value of x and y are 3 and 2 respectively.",
+          "explanation": "217x + 131y = 913..... (i) 131x + 217y = 827....... (ii) Add eqn (ii) and eqn (i) 348x + 348y = 1740 x + y = 5..... (iii) Sub. eqn (ii) from eqn (i) 86x – 86y = 86 x – y = 1..... (iv) Add eqn (iii) and (iv) 2x = 6 x = 3 Put the value of x in eqn (iv) 3 – y = 1 y = 2 So the value of x and y are 3 and 2 respectively.",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -3415,7 +3415,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "2x + 3y = 77 ..... (1) 3x + 2y = 73 ..... (2) subtracting, equation (1) multiplying by 2 and equation (2) by multiplying 3 4x + 6y = 154 ..... (3) -9x ± 6y = -219 ..... (2) -5x = -65 x = 13 Substituting the value of x in equation (1) - 2 × 13 + 3y = 77 26 + 3y = 77 3y = 77 – 26 3y = 51 y = 17 Therefore, option (c) is the correct answer.",
+          "explanation": "2x + 3y = 77..... (1) 3x + 2y = 73..... (2) subtracting, equation (1) multiplying by 2 and equation (2) by multiplying 3 4x + 6y = 154..... (3) -9x ± 6y = -219..... (2) -5x = -65 x = 13 Substituting the value of x in equation (1) - 2 × 13 + 3y = 77 26 + 3y = 77 3y = 77 – 26 3y = 51 y = 17 Therefore, option (c) is the correct answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         },
@@ -3430,7 +3430,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "C C 3 44 n n 2 2 3 = n n n n 2 2 2 3 3 2 3 44 × × - - = ( ) ( )( ) n n n n n 2 1 1 3 2 1 2 2 1 2 2 3 44 × × × × - - - = ( ) ( )( ) n n n n n 3 1 2 2 2 1 1 3 44 × × - - - = ( ) n 3 4 2 1 3 44 - = 2n - 1 = 11 2n = 12 ∴ n = 6",
+          "explanation": "C C 3 44 n n 2 2 3 = n n n n 2 2 2 3 3 2 3 44 × × - - = () ()() n n n n n 2 1 1 3 2 1 2 2 1 2 2 3 44 × × × × - - - = () ()() n n n n n 3 1 2 2 2 1 1 3 44 × × - - - = () n 3 4 2 1 3 44 - = 2n - 1 = 11 2n = 12 ∴ n = 6",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -3445,7 +3445,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "D",
-          "explanation": "a a y a a x - + - = ( a)(y a) ay a a a x x 2 2 - - - + - = ( )( ) ( ) a y a a y a x x 2 2 - - + - = ( )( ) ( ) a y a a a a x 2 2 2 - - - [∵ x + y = 2a] = ( )( ) a y a a a x 2 2 2 2 - - - = ( )( ) a y a x 0 - - = 0",
+          "explanation": "a a y a a x - + - = (a)(y a) ay a a a x x 2 2 - - - + - = ()() () a y a a y a x x 2 2 - - + - = ()() () a y a a a a x 2 2 2 - - - [∵ x + y = 2a] = ()() a y a a a x 2 2 2 2 - - - = ()() a y a x 0 - - = 0",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Re-Exam) (Pre) 2020"
         },
@@ -3490,7 +3490,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "A",
-          "explanation": "S n 3 1 n 1 15 = + = b l / = ................ 1 3 1 2 3 1 15 3 1 + + + + + b b b l l l = ........... 3 4 3 7 3 46 + + + = ................ 3 4 7 46 + + + ∵ S 2 n [2a (n 1)d] n = + - {where a = 4, d = 3} = [ ( ) ] 3 2 15 2 4 15 1 3 3 2 15 50 3 15 25 × × × + - = = = 5 × 25 = 125",
+          "explanation": "S n 3 1 n 1 15 = + = b l / =................ 1 3 1 2 3 1 15 3 1 + + + + + b b b l l l =........... 3 4 3 7 3 46 + + + =................ 3 4 7 46 + + + ∵ S 2 n [2a (n 1)d] n = + - {where a = 4, d = 3} = [()] 3 2 15 2 4 15 1 3 3 2 15 50 3 15 25 × × × + - = = = 5 × 25 = 125",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Pre) 2019"
         },
@@ -3505,7 +3505,7 @@
             "E": "11"
           },
           "answer": "E",
-          "explanation": "Numbers between 11 and 90 that are divisible by 7 are respectively: 14, 21, 28, ... 84 The series of these numbers is an arithmetic progression. ∴ First term (a) ∑ 14, d ∑ 7 Tn (nth term) ∑ 84 Tn ∑ a + (n – 1) d 84 ∑ 14 + (n – 1) 7 7 (n – 1) ∑ 84 – 14 n – 1 = 7 70 ⇒ 10 ∴ n ∑ 10 + 1 ⇒ 11",
+          "explanation": "Numbers between 11 and 90 that are divisible by 7 are respectively: 14, 21, 28,... 84 The series of these numbers is an arithmetic progression. ∴ First term (a) ∑ 14, d ∑ 7 Tn (nth term) ∑ 84 Tn ∑ a + (n – 1) d 84 ∑ 14 + (n – 1) 7 7 (n – 1) ∑ 84 – 14 n – 1 = 7 70 ⇒ 10 ∴ n ∑ 10 + 1 ⇒ 11",
           "exam": "BPSC",
           "year": "63rd B.P.S.C. (Pre) 2017"
         },
@@ -3519,7 +3519,7 @@
             "D": "31/2–1"
           },
           "answer": "A",
-          "explanation": "Given that, expression 9 3 1 4 3 3- + = (3 ) 1 3 1 2 3 1 3 1 - + + = (3 ) (3) ×1 1 3 1 3 1 2 3 1 3 1 3 1 2 3 1 3 3 1 3 - + + ^ ^ ^ h h h = (3 ) (3) ×1 1 3 1 3 3 ×1 1 3 1 2 3 1 3 1 3 1 2 3 1 3 1 3 1 2 3 1 3 1 3 1 2 - + + - + ^ ^ ] ^ ^ h h g h h 8 B [∵ a3 + b3 = (a + b) (a2 – ab + b2)] = 3 1 3 1 +",
+          "explanation": "Given that, expression 9 3 1 4 3 3- + = (3) 1 3 1 2 3 1 3 1 - + + = (3) (3) ×1 1 3 1 3 1 2 3 1 3 1 3 1 2 3 1 3 3 1 3 - + + ^ ^ ^ h h h = (3) (3) ×1 1 3 1 3 3 ×1 1 3 1 2 3 1 3 1 3 1 2 3 1 3 1 3 1 2 3 1 3 1 3 1 2 - + + - + ^ ^] ^ ^ h h g h h 8 B [∵ a3 + b3 = (a + b) (a2 – ab + b2)] = 3 1 3 1 +",
           "exam": "BPSC",
           "year": "48th to 52nd B.P.S.C. (Pre) 2008"
         },
@@ -3549,7 +3549,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "Given that, y x 1 1 + = y y y x 1 1 1 = - = - ∴ y y x 1 1 = - ............... (i) and y z 1 1 + = z y 1 1 = - ∴ z y 1 1 = - ................ (ii) On adding eq. (i) and (ii), we get z y y y x 1 1 1 1 + = - + - y y y 1 1 1 = - - - = ( ) y y 1 1 1 1 - - =",
+          "explanation": "Given that, y x 1 1 + = y y y x 1 1 1 = - = - ∴ y y x 1 1 = -............... (i) and y z 1 1 + = z y 1 1 = - ∴ z y 1 1 = -................ (ii) On adding eq. (i) and (ii), we get z y y y x 1 1 1 1 + = - + - y y y 1 1 1 = - - - = () y y 1 1 1 1 - - =",
           "exam": "BPSC",
           "year": "64th B.P.S.C. (Pre) 2018"
         },
@@ -3564,7 +3564,7 @@
             "E": "110 2 1"
           },
           "answer": "D",
-          "explanation": "S 2n 2 1 n 1 10 = + = b l / n = 1, 2, 3, ........................., 10 S1 = 2 × 1 + 2 1 2 5 = S2 = 2 × 2 + 2 1 2 9 = S3 = 2 × 3 + 2 1 2 13 = S10 = 2 × 10 + 2 1 2 41 = ∴ S = ........ 2 5 2 9 2 13 2 41 + + + + = .......... [ ] 2 1 5 9 13 41 115 + + + + = 2 1 2 10 2×5 (10 1 4 = + - : D # - ∴ Sn 2 n [2a (n 1)d] = + - 2 1 ×5[10 9×4] = + 2 1 ×5×46 5×23 115 = = =",
+          "explanation": "S 2n 2 1 n 1 10 = + = b l / n = 1, 2, 3,........................., 10 S1 = 2 × 1 + 2 1 2 5 = S2 = 2 × 2 + 2 1 2 9 = S3 = 2 × 3 + 2 1 2 13 = S10 = 2 × 10 + 2 1 2 41 = ∴ S =........ 2 5 2 9 2 13 2 41 + + + + =.......... [] 2 1 5 9 13 41 115 + + + + = 2 1 2 10 2×5 (10 1 4 = + -: D # - ∴ Sn 2 n [2a (n 1)d] = + - 2 1 ×5[10 9×4] = + 2 1 ×5×46 5×23 115 = = =",
           "exam": "BPSC",
           "year": "64th B.P.S.C. (Pre) 2018"
         },
@@ -3579,7 +3579,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "Given that, the expression is x3 + 3y –3 where the value of x is a whole number or x = {0, 1, 2, 3, 4.........} putting x=0 in expression (0)3 + 3y – 3 = 7 y = 3 10 putting, x=1 in expression (1)3 + 3y – 3 = 20 y = 3 22 putting, x=2 in expression (2)3 + 3y – 3 = 45 y = 3 40 On putting, x=3 in expression (3)3 + 3y – 3 = 88 y = 3 64 So, the next value of x will be- , 3 10 4 3 22 3 22 6 3 40 + = + = , 3 40 8 3 64 3 64 10 3 94 + = + = then the fifth value of expression will be- 3× 3 94 3 3 + - = 64 + 94 – 3 = 64 + 91 = 155 So, option (b) is correct answer",
+          "explanation": "Given that, the expression is x3 + 3y –3 where the value of x is a whole number or x = {0, 1, 2, 3, 4.........} putting x=0 in expression (0)3 + 3y – 3 = 7 y = 3 10 putting, x=1 in expression (1)3 + 3y – 3 = 20 y = 3 22 putting, x=2 in expression (2)3 + 3y – 3 = 45 y = 3 40 On putting, x=3 in expression (3)3 + 3y – 3 = 88 y = 3 64 So, the next value of x will be-, 3 10 4 3 22 3 22 6 3 40 + = + =, 3 40 8 3 64 3 64 10 3 94 + = + = then the fifth value of expression will be- 3× 3 94 3 3 + - = 64 + 94 – 3 = 64 + 91 = 155 So, option (b) is correct answer",
           "exam": "BPSC",
           "year": "60th to 62nd B.P.S.C. (Pre) 2016"
         },
@@ -3593,7 +3593,7 @@
             "D": "0"
           },
           "answer": "D",
-          "explanation": "[y {z ( y z)}] x x - - - - - = x - [y - {z - (x - y + z)}] = x - [y - {z - x + y - z}] = x - [y - z + x - y + z] = x - y + z - x + y - z] = 0",
+          "explanation": "[y {z (y z)}] x x - - - - - = x - [y - {z - (x - y + z)}] = x - [y - {z - x + y - z}] = x - [y - z + x - y + z] = x - y + z - x + y - z] = 0",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -3635,7 +3635,7 @@
             "D": "10 3 -"
           },
           "answer": "B",
-          "explanation": "Given that, 2x + ay = 1 and 3x – 5y = 7 Condition for the equation which has no solution ax + by + c = 0 ......... (i) dx + ey + f = 0 ......... (ii) than d a e b f c ! = According to question, 2x + ay = 1 and 3x – 5y = 7 Now, a 3 2 5 7 1 ! = - a 3 10 =-",
+          "explanation": "Given that, 2x + ay = 1 and 3x – 5y = 7 Condition for the equation which has no solution ax + by + c = 0......... (i) dx + ey + f = 0......... (ii) than d a e b f c! = According to question, 2x + ay = 1 and 3x – 5y = 7 Now, a 3 2 5 7 1! = - a 3 10 =-",
           "exam": "BPSC",
           "year": "43rd B.P.S.C. (Pre) 1999"
         },
@@ -3663,7 +3663,7 @@
             "D": "None of these"
           },
           "answer": "A",
-          "explanation": "n n.2 n n / putting n · 1, 2, 3, ............ , , , , .............. 2 2 27 24 4 1 n n.2 n n = / (which are in decreasing order) Hence the series is convergent.",
+          "explanation": "n n.2 n n / putting n · 1, 2, 3,............,,,,.............. 2 2 27 24 4 1 n n.2 n n = / (which are in decreasing order) Hence the series is convergent.",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -3677,7 +3677,7 @@
             "D": "1.0"
           },
           "answer": "B",
-          "explanation": "Equation x2 +11x + 50 = 0 α + β = 1 11 - (Sum of roots = a b - ) α.β = 1 50 (products of root = a c ) 2 2 b a a b ab a b + = + = ( ) 2 2 ab a b ab + - Putting the value of α + β and α.β = ( ) ( ) 50 11 2 50 2 - - = 50 21 = 0.42",
+          "explanation": "Equation x2 +11x + 50 = 0 α + β = 1 11 - (Sum of roots = a b -) α.β = 1 50 (products of root = a c) 2 2 b a a b ab a b + = + = () 2 2 ab a b ab + - Putting the value of α + β and α.β = () () 50 11 2 50 2 - - = 50 21 = 0.42",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -3691,7 +3691,7 @@
             "D": "{a, b, 2, 3, 4}"
           },
           "answer": "A",
-          "explanation": "Given that x = {a,b}, y = {(2, 3)} & z = {3, 4} y∩z = {3} x × (y∩z) = (a, b) × {3} x × (y∩z) = (a, 3), (b, 3)",
+          "explanation": "Given that x = {a, b}, y = {(2, 3)} & z = {3, 4} y∩z = {3} x × (y∩z) = (a, b) × {3} x × (y∩z) = (a, 3), (b, 3)",
           "exam": "BPSC",
           "year": "43rd B.P.S.C. (Pre) 1999"
         },
@@ -3705,7 +3705,7 @@
             "D": "is an empty set"
           },
           "answer": "C",
-          "explanation": "f : {x, y, z}→{a, b), f = {(x - a), (y, b)}, then f is an interpolative function",
+          "explanation": "f: {x, y, z}→{a, b), f = {(x - a), (y, b)}, then f is an interpolative function",
           "exam": "BPSC",
           "year": "43rd B.P.S.C. (Pre) 1999"
         },
@@ -3719,7 +3719,7 @@
             "D": "Empty set"
           },
           "answer": "A",
-          "explanation": "For any value of x, the value of (x : x = x +1) is real.",
+          "explanation": "For any value of x, the value of (x: x = x +1) is real.",
           "exam": "BPSC",
           "year": "44th B.P.S.C. (Pre) 2000"
         },
@@ -3733,7 +3733,7 @@
             "D": "6"
           },
           "answer": "A",
-          "explanation": "x 10 1 2 3 4 5 6 7 8 9 10 = + + + + + + + + + = 5.5 y 10 6 9 6 7 8 5 12 3 17 1 = + + + + + + + + + = 7.4 n = 10 ( )( ) . y y x x 4 0 - - = / ( ) n 1 (x x)(y y) 10 1 ×4 2 v = - - = / = 0.4",
+          "explanation": "x 10 1 2 3 4 5 6 7 8 9 10 = + + + + + + + + + = 5.5 y 10 6 9 6 7 8 5 12 3 17 1 = + + + + + + + + + = 7.4 n = 10 ()(). y y x x 4 0 - - = / () n 1 (x x)(y y) 10 1 ×4 2 v = - - = / = 0.4",
           "exam": "BPSC",
           "year": "44th B.P.S.C. (Pre) 2000-01"
         },
@@ -3817,7 +3817,7 @@
             "D": "3"
           },
           "answer": "D",
-          "explanation": "f (-1) = -1 + 1 = 0 g (-1) = 12 - 3 = -2 { ( )} {( )} ( ) ( ) f g gf f g 1 1 2 0 - - = - = 2 1 0 3 2 - + - = 1 3 - - = 3",
+          "explanation": "f (-1) = -1 + 1 = 0 g (-1) = 12 - 3 = -2 { ()} {()} () () f g gf f g 1 1 2 0 - - = - = 2 1 0 3 2 - + - = 1 3 - - = 3",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -3831,7 +3831,7 @@
             "D": "x"
           },
           "answer": "D",
-          "explanation": "1 1 f(x) x = - (Given) 1 (1 ) 1 1 f(f(x)) x = - - x x 1 1 1 = - - - x x 1 = - - x x 1 = - Again ( ) ( ) [ ( ( ))] f f f x x x 1 1 1 1 1 = - - - ( ) × ( ) x x x x 1 1 1 1 1 = - - + - =",
+          "explanation": "1 1 f(x) x = - (Given) 1 (1) 1 1 f(f(x)) x = - - x x 1 1 1 = - - - x x 1 = - - x x 1 = - Again () () [(())] f f f x x x 1 1 1 1 1 = - - - () × () x x x x 1 1 1 1 1 = - - + - =",
           "exam": "BPSC",
           "year": "47th B.P.S.C. (Pre) 2005"
         },
@@ -3845,7 +3845,7 @@
             "D": "0"
           },
           "answer": "D",
-          "explanation": "y = x3 dx dy = 3x2 ............(i) For the maximum and minimum value, dx dy =0 x 6 d d y x2 2 = d d y 6 0 x3 3 ! = Hence at: x = 0, the function is neither maximum nor minimum. This the point of change.",
+          "explanation": "y = x3 dx dy = 3x2............(i) For the maximum and minimum value, dx dy =0 x 6 d d y x2 2 = d d y 6 0 x3 3! = Hence at: x = 0, the function is neither maximum nor minimum. This the point of change.",
           "exam": "BPSC",
           "year": "47th B.P.S.C. (Pre) 2005"
         },
@@ -3859,7 +3859,7 @@
             "D": "5"
           },
           "answer": "C",
-          "explanation": "x = 3 1 (2x - 2p) ...........(i) x = 8 - 3 2 p p = 12 - 2 3 x Revenue function R(p) = px = p p 3 24 2 - c m .......[by (i)] = 8p - p 3 2 2 For maximum income– dp dR(p) dp d 8p 3 2 p 0 2 = - = b l p 8 3 4 0 - = p 8 3 4 = p 6 =",
+          "explanation": "x = 3 1 (2x - 2p)...........(i) x = 8 - 3 2 p p = 12 - 2 3 x Revenue function R(p) = px = p p 3 24 2 - c m.......[by (i)] = 8p - p 3 2 2 For maximum income– dp dR(p) dp d 8p 3 2 p 0 2 = - = b l p 8 3 4 0 - = p 8 3 4 = p 6 =",
           "exam": "BPSC",
           "year": "47th B.P.S.C. (Pre) 2005"
         },
@@ -3873,7 +3873,7 @@
             "D": "1000"
           },
           "answer": "B",
-          "explanation": "5x +y ≤100 ..........(i) x + y ≤60 ..........(ii) Substracting eqn (ii) from (i) 4x ≤40 x ≤10 y ≤50 Given that x ≥ 0, y ≥ 0 y x 10 0 50 0 $ $ $ $ e o z = 50x + 15y For the maximum value of z, the value of x and y should be maximum ∴ x =10 y = 50 z = 50 × 10 + 15 × 50 z = 1250",
+          "explanation": "5x +y ≤100..........(i) x + y ≤60..........(ii) Substracting eqn (ii) from (i) 4x ≤40 x ≤10 y ≤50 Given that x ≥ 0, y ≥ 0 y x 10 0 50 0 $ $ $ $ e o z = 50x + 15y For the maximum value of z, the value of x and y should be maximum ∴ x =10 y = 50 z = 50 × 10 + 15 × 50 z = 1250",
           "exam": "BPSC",
           "year": "47th B.P.S.C. (Pre) 2005"
         },
@@ -3946,7 +3946,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "Let the price of each bat and ball be ₹x and ₹y respectively. From the first condition 5x + 18y = 6500 ..... (i) From the second condition 2x + 20y = 4200 ..... (ii) By multiplying equation (i) by 2 and equation (ii) by 5 and subtracting, we get 10x + 36y = 13000 ...... (iii) 10x + 100y = 21000 ...... (iv) - - - – 64 y = – 8000 y = 125 Putting the value of y in equation (i), we get 5x + 18y = 6500 5x + 18 × 125 = 6500 5x = 6500 – 2250 5x = 4250 x = 850 Therefore, option (a) is the correct answer.",
+          "explanation": "Let the price of each bat and ball be ₹x and ₹y respectively. From the first condition 5x + 18y = 6500..... (i) From the second condition 2x + 20y = 4200..... (ii) By multiplying equation (i) by 2 and equation (ii) by 5 and subtracting, we get 10x + 36y = 13000...... (iii) 10x + 100y = 21000...... (iv) - - - – 64 y = – 8000 y = 125 Putting the value of y in equation (i), we get 5x + 18y = 6500 5x + 18 × 125 = 6500 5x = 6500 – 2250 5x = 4250 x = 850 Therefore, option (a) is the correct answer.",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 08.12.2023"
         },
@@ -3976,7 +3976,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "Let α = – 1 and β = 4 ∵ (α + β) = – 1 + 4 ⇒ 3 α . β = – 1 × 4 = – 4 ∵ Equation ⇒ x2 – (α + β) x + α . β = 0 ∴ Equation ⇒ x2 – 3x – 4 = 0",
+          "explanation": "Let α = – 1 and β = 4 ∵ (α + β) = – 1 + 4 ⇒ 3 α. β = – 1 × 4 = – 4 ∵ Equation ⇒ x2 – (α + β) x + α. β = 0 ∴ Equation ⇒ x2 – 3x – 4 = 0",
           "exam": "BPSC",
           "year": "B.P.S.C. Teacher (9th-10th) 08.12.2023"
         },
@@ -4021,7 +4021,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "∵ The probability of any event is always between 0 and 1, i.e., positive. 0 ≤ P (A) ≤ 1 ∴ According to the question, The probability of any event cannot be negative (-0.7). Therefore, the correct answer is option (b).",
+          "explanation": "∵ The probability of any event is always between 0 and 1, i. e., positive. 0 ≤ P (A) ≤ 1 ∴ According to the question, The probability of any event cannot be negative (-0.7). Therefore, the correct answer is option (b).",
           "exam": "BPSC",
           "year": "B.P.S.C. School teacher/Headmaster 10.12.2023"
         },
@@ -4036,7 +4036,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Savings of the first week (a) = Rs. 50 Common difference (d) = Rs. 17.50 From Tn = a + (n –1) d According to the question, 207.50 = 50 + (n –1) 17.5 . . n 17 5 157 5 1 = - n – 1 = 9 n = 9 + 1 ⇒ n = 10",
+          "explanation": "Savings of the first week (a) = Rs. 50 Common difference (d) = Rs. 17.50 From Tn = a + (n –1) d According to the question, 207.50 = 50 + (n –1) 17.5.. n 17 5 157 5 1 = - n – 1 = 9 n = 9 + 1 ⇒ n = 10",
           "exam": "BPSC",
           "year": "B.P.S.C. School teacher/Headmaster 10.12.2023"
         },
@@ -4051,7 +4051,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "1 y 1 8 x + = ..........(i) y 1 z 1 12 + = ..........(ii) z 1 1 10 x + = ..........(iii) Adding equations (i), (ii) and (iii) y z x 2 1 1 1 8 12 10 30 + + = + + = c m y z x 1 1 1 15 + + = ..........(iv) Subtracting equation (ii) from equation (iv) y z y z x 1 1 1 1 1 15 12 3 + + - + = - = c c m m x x 1 3 3 1 ` = =",
+          "explanation": "1 y 1 8 x + =..........(i) y 1 z 1 12 + =..........(ii) z 1 1 10 x + =..........(iii) Adding equations (i), (ii) and (iii) y z x 2 1 1 1 8 12 10 30 + + = + + = c m y z x 1 1 1 15 + + =..........(iv) Subtracting equation (ii) from equation (iv) y z y z x 1 1 1 1 1 15 12 3 + + - + = - = c c m m x x 1 3 3 1 ` = =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (I)"
         },
@@ -4066,7 +4066,7 @@
             "E": "None of the above"
           },
           "answer": "E",
-          "explanation": "Let the side of a square is ‘a’ and side of the equilateral triangle is ‘b’ Now we know that- Area of square = a2 Area of a equilateral triangle = 4 3 b2 According to the questiona 4 3 2 = b2 b a 4 3 2 2 = b a 2 3 4 = a: 5 3 :2 4 1 =",
+          "explanation": "Let the side of a square is ‘a’ and side of the equilateral triangle is ‘b’ Now we know that- Area of square = a2 Area of a equilateral triangle = 4 3 b2 According to the questiona 4 3 2 = b2 b a 4 3 2 2 = b a 2 3 4 = a: 5 3:2 4 1 =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (I)"
         },
@@ -4081,7 +4081,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Given that– a + b + c = 0 so a3 + b3 + c3 = 3abc .................(i) Now bc a ca b ab c 2 2 2 + + = abc a bca b cab c 3 3 3 + + = abc a b c 3 3 3 + + from equation (i) abc abc 3 bc a ca b ab c 3 2 2 2 + + =",
+          "explanation": "Given that– a + b + c = 0 so a3 + b3 + c3 = 3abc.................(i) Now bc a ca b ab c 2 2 2 + + = abc a bca b cab c 3 3 3 + + = abc a b c 3 3 3 + + from equation (i) abc abc 3 bc a ca b ab c 3 2 2 2 + + =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         },
@@ -4096,7 +4096,7 @@
             "E": "None of the above"
           },
           "answer": "D",
-          "explanation": "4x+1 + 41-x = 10 4x . 4 + 4 . 4-x = 10 4.4x + x 4 4 =10 4.(4x)2 + 4–10 ×4x = 0 Let 4x = z 4z2 + 4 – 10z = 0 2z2 – 5z + z = 0 2z2 – 4z – z + 2 = 0 2z (z–2) –(z–2) =0 (2z – 1) (z–2) = 0 z = 2, 2 1 Case 1– Case 2z = 2 Z = 2 1 4x = 2 4x = 2 1 =2–1 22x = 21 22x = 2–1 2x = 1 2x = –1 x 2 1 = x 2 1 = - Hence, the value of x is 2 1 and 2 1 - .",
+          "explanation": "4x+1 + 41-x = 10 4x. 4 + 4. 4-x = 10 4.4x + x 4 4 =10 4.(4x)2 + 4–10 ×4x = 0 Let 4x = z 4z2 + 4 – 10z = 0 2z2 – 5z + z = 0 2z2 – 4z – z + 2 = 0 2z (z–2) –(z–2) =0 (2z – 1) (z–2) = 0 z = 2, 2 1 Case 1– Case 2z = 2 Z = 2 1 4x = 2 4x = 2 1 =2–1 22x = 21 22x = 2–1 2x = 1 2x = –1 x 2 1 = x 2 1 = - Hence, the value of x is 2 1 and 2 1 -.",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         },
@@ -4111,7 +4111,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "Dividend = Divisor × Quotient + Remainder Now x3 - 3x2 + x + 2 = g(x) × (x2 - x + 1) + (-2x + 4) g(x) × (x2 - x + 1) = x3 - 3x2 + x + 2 + 2x - 4 = x3 - 3x2 + 3x - 2 g(x) × (x2 - x + 1) = x3 - 3x2 + 3x - 2 g(x) = 1 3 3 2 x x x x x 2 3 2 - + - + - g(x) = ( ( )( ) 2 1 1) x x x x x 2 2 - + - - + g( ) ( 2) x x = -",
+          "explanation": "Dividend = Divisor × Quotient + Remainder Now x3 - 3x2 + x + 2 = g(x) × (x2 - x + 1) + (-2x + 4) g(x) × (x2 - x + 1) = x3 - 3x2 + x + 2 + 2x - 4 = x3 - 3x2 + 3x - 2 g(x) × (x2 - x + 1) = x3 - 3x2 + 3x - 2 g(x) = 1 3 3 2 x x x x x 2 3 2 - + - + - g(x) = (()() 2 1 1) x x x x x 2 2 - + - - + g() (2) x x = -",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         },
@@ -4126,7 +4126,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "The given equation– x – ky = 2 ...................(i) 3x + 2y = –5 ..................(ii) If the given equation have unique solution, then– k 3 1 2 ! - k 3 2 ! - k 3 2 ! -",
+          "explanation": "The given equation– x – ky = 2...................(i) 3x + 2y = –5..................(ii) If the given equation have unique solution, then– k 3 1 2! - k 3 2! - k 3 2! -",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24-08-2023 (II)"
         },
@@ -4141,7 +4141,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "The given equation– 3kx2 – 25kx + (k + 8) = 0 ...........................(i) if the equation is in the form of the equation given below & their roots is , then– ax2 + bx + c = 0 ...........................(ii) then α + β = a b - & α.β = a c on comparing equation (i) & (ii) a=3k, b = –25k, c = (k + 8) Product of roots is given i.e. 3 so k k 3 8 + = 3 k + 8 = 9k 8 = 8k k 1 =",
+          "explanation": "The given equation– 3kx2 – 25kx + (k + 8) = 0...........................(i) if the equation is in the form of the equation given below & their roots is, then– ax2 + bx + c = 0...........................(ii) then α + β = a b - & α.β = a c on comparing equation (i) & (ii) a=3k, b = –25k, c = (k + 8) Product of roots is given i. e. 3 so k k 3 8 + = 3 k + 8 = 9k 8 = 8k k 1 =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         }
@@ -4174,7 +4174,7 @@
             "D": "a2 + 2ab"
           },
           "answer": "C",
-          "explanation": "x = a Cosθ + b Sinθ x2 = (a Cosθ + b Sinθ)2 y = (a Sinθ - b Cosθ) y2 = (a Sinθ - b Cosθ)2 x2 + y2 = (a Cosθ + b Sinθ)2 + (a Sinθ - b Cosθ)2 =a2 (sin2θ + cos2θ) + b2 (sin2θ + cos2θ) +2ab cosθsinθ - 2ab sinθ.cosθ x2 + y2 = a2 + b2",
+          "explanation": "x = a Cosθ + b Sinθ x2 = (a Cosθ + b Sinθ)2 y = (a Sinθ - b Cosθ) y2 = (a Sinθ - b Cosθ)2 x2 + y2 = (a Cosθ + b Sinθ)2 + (a Sinθ - b Cosθ)2 =a2 (sin2θ + cos2θ) + b2 (sin2θ + cos2θ) +2ab cosθsinθ - 2ab sinθ. cosθ x2 + y2 = a2 + b2",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -4188,7 +4188,7 @@
             "D": "1/7"
           },
           "answer": "B",
-          "explanation": "s = a b c 2 + + = 2 13 14 15 + + s = 21 tan 2 c s(s c) (s a)(s b) = - - - ( ) ( )( ) 21 21 15 21 13 21 14 3 2 = - - - =",
+          "explanation": "s = a b c 2 + + = 2 13 14 15 + + s = 21 tan 2 c s(s c) (s a)(s b) = - - - () ()() 21 21 15 21 13 21 14 3 2 = - - - =",
           "exam": "BPSC",
           "year": "44th B.P.S.C. (Pre) 2000"
         },
@@ -4202,7 +4202,7 @@
             "D": "Line pair"
           },
           "answer": "B",
-          "explanation": "x = 5 + 3 Cosα y = 7 + 3 Sinα Cosα = x 3 5 - Sinα = y 3 7 - On squaring both sides- Cos2α = 3 5 x 2 - b l , Sin2α = 3 y 7 2 - c m ⇒ ∵ Sin2α + Cos2α = 1 ⇒ ∴ 3 5 x 2 - b l + 3 y 7 2 - c m = 1 ⇒ (x -5)2 + (y -7)2 = 32 ⇒ It is an equation of circle whose radius is 3 and centre is (5,7). note—x2 + y2 = a2 is an equation of circle",
+          "explanation": "x = 5 + 3 Cosα y = 7 + 3 Sinα Cosα = x 3 5 - Sinα = y 3 7 - On squaring both sides- Cos2α = 3 5 x 2 - b l, Sin2α = 3 y 7 2 - c m ⇒ ∵ Sin2α + Cos2α = 1 ⇒ ∴ 3 5 x 2 - b l + 3 y 7 2 - c m = 1 ⇒ (x -5)2 + (y -7)2 = 32 ⇒ It is an equation of circle whose radius is 3 and centre is (5,7). note—x2 + y2 = a2 is an equation of circle",
           "exam": "BPSC",
           "year": "44th B.P.S.C. (Pre) 2000"
         },
@@ -4231,7 +4231,7 @@
             "E": "None of the above"
           },
           "answer": "E",
-          "explanation": "3tanθ = 4 tanθ = 3 4 From Pythagoras Theorem AC2 = AB2 + BC2 AC2 = 42 + 32 AC2 = 16 + 9 A B C 3 4 AC2 = 25 AC = 5 ∵ sinθ = 5 4 , cosθ = 5 3 ∴ 3sin 2cos 3sin 2cos 3 × 5 4 2 × 5 3 3 × 5 4 2 × 5 3 i i i i - + = - + = 5 12 5 6 5 12 5 6 5 18 6 5 3 × - + = =",
+          "explanation": "3tanθ = 4 tanθ = 3 4 From Pythagoras Theorem AC2 = AB2 + BC2 AC2 = 42 + 32 AC2 = 16 + 9 A B C 3 4 AC2 = 25 AC = 5 ∵ sinθ = 5 4, cosθ = 5 3 ∴ 3sin 2cos 3sin 2cos 3 × 5 4 2 × 5 3 3 × 5 4 2 × 5 3 i i i i - + = - + = 5 12 5 6 5 12 5 6 5 18 6 5 3 × - + = =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher/Headmaster 09.12.2023"
         },
@@ -4246,7 +4246,7 @@
             "E": "None of the above"
           },
           "answer": "E",
-          "explanation": "Let base of right angle triangle = x so Altitude of the right angle triangle = (x–6) According to the question– by pythagoras theorem– 218 ( ) ( 6) x x 2 2 2 = + - ^ h 218 = x2 + x2 + 36 - 12x 218 = 2x2 + 36 - 12x 218 ( –6) x x 109 = x2 + 18 + - 6x x2 + 18 - 6x - 109 = 0 x2 - 6x - 91 = 0 x2 - (13 - 7)x - 91 = 0 x2 - 13x + 7x - 91 = 0 x(x - 13) + 7(x - 13) = 0 (x + 7)(x - 13) = 0 x = -7, 13 Length cannot be in negative so we take the positive value so that– x = 13 Base 13 = Altitude 13 6 7 = - =",
+          "explanation": "Let base of right angle triangle = x so Altitude of the right angle triangle = (x–6) According to the question– by pythagoras theorem– 218 () (6) x x 2 2 2 = + - ^ h 218 = x2 + x2 + 36 - 12x 218 = 2x2 + 36 - 12x 218 (–6) x x 109 = x2 + 18 + - 6x x2 + 18 - 6x - 109 = 0 x2 - 6x - 91 = 0 x2 - (13 - 7)x - 91 = 0 x2 - 13x + 7x - 91 = 0 x(x - 13) + 7(x - 13) = 0 (x + 7)(x - 13) = 0 x = -7, 13 Length cannot be in negative so we take the positive value so that– x = 13 Base 13 = Altitude 13 6 7 = - =",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II)"
         }
@@ -4266,7 +4266,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "6n + 5p + 3r = A ...(i) 7n + 9p + 5r = 1.5A ...(ii) 8n + 11p + 7r = 1.75A ...(iii) Subtracting equation (i) × 5 from equation (ii) × 3 will give: 30n + 25p + 15r = 5A 21n + 27p + 15r = 4.5A 9n – 2p = 0.5A ...(iv) Subtracting equation (ii) × 7 from equation (iii) × 5 gives: 9n + 8p = 1.75A ...(v) Adding equation (iv) × 4 and equation 5 36n - 8p = 2A . . n A n p A 45 3 75 9 8 1 75 = + = . n A A 45 3 75 12 = = The total payment by X = A Payment made by X to company W = 6n = 6 × A 12 = A 2 Required Percentage = / A A 2 × 100% = 2 1 × 100 = 50%",
+          "explanation": "6n + 5p + 3r = A...(i) 7n + 9p + 5r = 1.5A...(ii) 8n + 11p + 7r = 1.75A...(iii) Subtracting equation (i) × 5 from equation (ii) × 3 will give: 30n + 25p + 15r = 5A 21n + 27p + 15r = 4.5A 9n – 2p = 0.5A...(iv) Subtracting equation (ii) × 7 from equation (iii) × 5 gives: 9n + 8p = 1.75A...(v) Adding equation (iv) × 4 and equation 5 36n - 8p = 2A.. n A n p A 45 3 75 9 8 1 75 = + =. n A A 45 3 75 12 = = The total payment by X = A Payment made by X to company W = 6n = 6 × A 12 = A 2 Required Percentage = / A A 2 × 100% = 2 1 × 100 = 50%",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Re-Exam) (Pre), 2021"
         },
@@ -4295,7 +4295,7 @@
             "D": "7.5"
           },
           "answer": "B",
-          "explanation": "The variance of observations is represented by σ2 σ2 = no. of observation ( ) x x 2 - Now, x 5 7 7 7 7 7 5 35 7 = + + + + = = then, ( ) 0 (because all observations are same) x x 2 - = So Variance, σ2 = 5 0 0 =",
+          "explanation": "The variance of observations is represented by σ2 σ2 = no. of observation () x x 2 - Now, x 5 7 7 7 7 7 5 35 7 = + + + + = = then, () 0 (because all observations are same) x x 2 - = So Variance, σ2 = 5 0 0 =",
           "exam": "BPSC",
           "year": "56th to 59th B.P.S.C. (Pre) 2015"
         },
@@ -4309,7 +4309,7 @@
             "D": "11"
           },
           "answer": "B",
-          "explanation": "Given that, the series is 2, 4, 6, 8, 10, 12, 14, 16 (Total 8 term i.e. the no- of terms is even) ∴ Median 2 2 n th term 2 n 1 th term = + + b l 2 2 8 th term 2 8 1 th term = + + b l 2 4th term 5th term = + 9 2 8 10 & + =",
+          "explanation": "Given that, the series is 2, 4, 6, 8, 10, 12, 14, 16 (Total 8 term i. e. the no- of terms is even) ∴ Median 2 2 n th term 2 n 1 th term = + + b l 2 2 8 th term 2 8 1 th term = + + b l 2 4th term 5th term = + 9 2 8 10 & + =",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -4338,7 +4338,7 @@
             "D": "2 : 1"
           },
           "answer": "A",
-          "explanation": "According to the given bar graph, Theoretically, reading during reading 2 = 127 Theoretically, reading during reading 5 = 132 Theoretically, the difference between reading 5 and reading 2 during reading = 132 – 127 = 5 ....(i) Experimentally, reading during reading 1 = 124.5 Experimentally, reading during reading 3 = 126.5 Difference between reading 1 and reading 3 during experimental reading = 126.5 – 124.5 = 2 ....(ii) According to equation (i) and equation (ii), the required ratio = 5 : 2",
+          "explanation": "According to the given bar graph, Theoretically, reading during reading 2 = 127 Theoretically, reading during reading 5 = 132 Theoretically, the difference between reading 5 and reading 2 during reading = 132 – 127 = 5....(i) Experimentally, reading during reading 1 = 124.5 Experimentally, reading during reading 3 = 126.5 Difference between reading 1 and reading 3 during experimental reading = 126.5 – 124.5 = 2....(ii) According to equation (i) and equation (ii), the required ratio = 5: 2",
           "exam": "BPSC",
           "year": "B.P.S.C. (Assistant) 2019"
         },
@@ -4371,7 +4371,7 @@
             "D": "y = C1ex + C2e2x + 5 1 e5x"
           },
           "answer": "A",
-          "explanation": "d d y 3 d dy 2y e x x 2 2 5x - + = Solution of Complementany Function D2 - 3D + 2 = 0 D2 - 2D - D + 2 = 0 D(D - 2) -1 (D - 2) = 0 (D - 2)(D - 1) = 0 D = 2, 1 Then, y = C1ex + C2e2x Solution of Particular Integral P.I. = ( ) f D 1 e5x = D D 3 2 1 2 - + e5x (∵D = 5) = e2x. 25 15 2 1 - + = 12 1 e5x then general solution y = C1ex + C2e2x + 12 1 e5x where C1 & C2 is a constant.",
+          "explanation": "d d y 3 d dy 2y e x x 2 2 5x - + = Solution of Complementany Function D2 - 3D + 2 = 0 D2 - 2D - D + 2 = 0 D(D - 2) -1 (D - 2) = 0 (D - 2)(D - 1) = 0 D = 2, 1 Then, y = C1ex + C2e2x Solution of Particular Integral P. I. = () f D 1 e5x = D D 3 2 1 2 - + e5x (∵D = 5) = e2x. 25 15 2 1 - + = 12 1 e5x then general solution y = C1ex + C2e2x + 12 1 e5x where C1 & C2 is a constant.",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -4385,7 +4385,7 @@
             "D": "f x y c m"
           },
           "answer": "A",
-          "explanation": "∵ f (x) = log x .................... (i) Substituting y in place of x ∴ f (y) = log y .......................... (ii) and placing x = v f (v) = log v ......................(iii) ∴ f (x) + f (y) = log x + log y = log xy (∵ log m + log n = log mn) Let x y = v ∴ f (x) + f (y) = log v ∴ f (x) + f (y) = f (v) from eq. (iii) ∴ f (x) + f (y) = f (xy) (∵ v = xy)",
+          "explanation": "∵ f (x) = log x.................... (i) Substituting y in place of x ∴ f (y) = log y.......................... (ii) and placing x = v f (v) = log v......................(iii) ∴ f (x) + f (y) = log x + log y = log xy (∵ log m + log n = log mn) Let x y = v ∴ f (x) + f (y) = log v ∴ f (x) + f (y) = f (v) from eq. (iii) ∴ f (x) + f (y) = f (xy) (∵ v = xy)",
           "exam": "BPSC",
           "year": "53rd to 55th B.P.S.C. (Pre) 2011"
         },
@@ -4399,7 +4399,7 @@
             "D": "Function is continuous for all x except zero"
           },
           "answer": "D",
-          "explanation": "Given f (x) = x x x - 0 0 f(x) x x x x < x x x x > = + - Z [ \\ ]]]] ]]]] _ ` a bbbb bbbb 2 0 0 0 f(x) x x x < x > = * 4 x 0 0 0 0 f (x) < x > 1 = ) 3 Now, limx→of = limx-10 = 0 We got constant value so the function is continuous for all values of x except x = 0",
+          "explanation": "Given f (x) = x x x - 0 0 f(x) x x x x < x x x x > = + - Z [\\]]]]]]]] _ ` a bbbb bbbb 2 0 0 0 f(x) x x x < x > = * 4 x 0 0 0 0 f (x) < x > 1 =) 3 Now, limx→of = limx-10 = 0 We got constant value so the function is continuous for all values of x except x = 0",
           "exam": "BPSC",
           "year": "45th B.P.S.C. (Pre) 2001"
         },
@@ -4414,7 +4414,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "Let log (32) 2 = ( ) log 2 2 5 = log 2 ( 2 . 2) 5 log 2 ( 2) 1 log 2 2 ( a logx x = 1) = 10×1 = 10",
+          "explanation": "Let log (32) 2 = () log 2 2 5 = log 2 (2. 2) 5 log 2 (2) 1 log 2 2 (a logx x = 1) = 10×1 = 10",
           "exam": "BPSC",
           "year": "B.P.S.C. School Teacher 24.08.2023 (II) 67th B.P.S.C. (Pre) 2022"
         },
@@ -4513,7 +4513,7 @@
             "D": "5/2"
           },
           "answer": "B",
-          "explanation": "limx → 0 0 0 e log(1 ) x x x x 2 - + = From the L Hospital rule d d ( ) d d [ e log(1 )] x x x x x x 2 - + limx → 0 e x 2 1 1 e x x x x + - + On applying L Hospital rule again limx → 0 ( e e x 2 1 1 e ) x x x x 2 + + + + = 2 0 1 1 1 2 3 + + + =",
+          "explanation": "limx → 0 0 0 e log(1) x x x x 2 - + = From the L Hospital rule d d () d d [e log(1)] x x x x x x 2 - + limx → 0 e x 2 1 1 e x x x x + - + On applying L Hospital rule again limx → 0 (e e x 2 1 1 e) x x x x 2 + + + + = 2 0 1 1 1 2 3 + + + =",
           "exam": "BPSC",
           "year": "45th B.P.S.C. (Pre) 2001"
         },
@@ -4527,7 +4527,7 @@
             "D": "(1, ∝)"
           },
           "answer": "B",
-          "explanation": "f (x) = y = 5 5 x x + - Swap x and y– x = y y 5 5 + - x(y + 5) = y - 5 xy + 5x = y - 5 xy - y = -5x - 5 y(x - 1) = -5x - 5 y = 1 5( 1) x x - + so f -1(x) = ) (1 5( 1) x x - + Clearly x ≠ 1 So, obtained = R – {1}",
+          "explanation": "f (x) = y = 5 5 x x + - Swap x and y– x = y y 5 5 + - x(y + 5) = y - 5 xy + 5x = y - 5 xy - y = -5x - 5 y(x - 1) = -5x - 5 y = 1 5(1) x x - + so f -1(x) =) (1 5(1) x x - + Clearly x ≠ 1 So, obtained = R – {1}",
           "exam": "BPSC",
           "year": "46th B.P.S.C. (Pre) 2004"
         },
@@ -4713,7 +4713,7 @@
             "D": "Monday"
           },
           "answer": "A",
-          "explanation": "∵ The first and last day of an ordinary year are the same, while there is a one-day difference in the last day of a leap year, i.e. the last day = First + 1 According to the question, ∵ 1 January, 2008 ∑ Tuesday. ∵ The year 2008 is a leap year. ∴ The day falling on 31 December, 2008 ∑ Tuesday + 1 = Wednesday ∴ The day falling on January 1, 2009 = Wednesday + 1 = Thursday Hence, option (a) is correct.",
+          "explanation": "∵ The first and last day of an ordinary year are the same, while there is a one-day difference in the last day of a leap year, i. e. the last day = First + 1 According to the question, ∵ 1 January, 2008 ∑ Tuesday. ∵ The year 2008 is a leap year. ∴ The day falling on 31 December, 2008 ∑ Tuesday + 1 = Wednesday ∴ The day falling on January 1, 2009 = Wednesday + 1 = Thursday Hence, option (a) is correct.",
           "exam": "BPSC",
           "year": "70th B.P.S.C Re-Exam 2024"
         },
@@ -4799,7 +4799,7 @@
             "D": "Neither 1 nor 2 follows the statement"
           },
           "answer": "D",
-          "explanation": "Statement : Total run = 200 runs Runs made by Spinners = 160 Conclusion : (1) 80% of team is consisted of spinners– This conclusion is wrong, here 80% of runs made by spinners but it does not clarify that the team 80% player is spinners. (2) The opening batsman were spinners– This conclusion is also wrong because, there is nothing about this conclusion is mentioned in the statement. Therefore, neither conclusion (1) nor conclusion (2) follows the statement. Hence, option (d) is the right answer.",
+          "explanation": "Statement: Total run = 200 runs Runs made by Spinners = 160 Conclusion: (1) 80% of team is consisted of spinners– This conclusion is wrong, here 80% of runs made by spinners but it does not clarify that the team 80% player is spinners. (2) The opening batsman were spinners– This conclusion is also wrong because, there is nothing about this conclusion is mentioned in the statement. Therefore, neither conclusion (1) nor conclusion (2) follows the statement. Hence, option (d) is the right answer.",
           "exam": "BPSC",
           "year": "69th B.P.S.C. (Pre) 2023"
         },
@@ -5095,7 +5095,7 @@
             "E": "None of the above"
           },
           "answer": "B",
-          "explanation": "As F A S T E R 21+1 1+1 8+1 20+1 22+1 18+1 22 2 9 21 23 19 O.P.V +1 P.V +1 O.P.V +1 P.V +1 O.P.V +1 P.V +1 and M O N 14+1 15+1 13+1 15 16 14 O.P.V +1 P.V +1 O.P.V +1 K 11+1 12 P.V +1 Similarly– G U I D E 20+1 21+1 18+1 4+1 22+1 21 22 19 5 23 O.P.V +1 P.V +1 O.P.V +1 P.V +1 O.P.V +1 Hence. GUIDE will be written as 212219523. [Note: O.P.V. → Opposite Positional Value P.V. → Positional Value.]",
+          "explanation": "As F A S T E R 21+1 1+1 8+1 20+1 22+1 18+1 22 2 9 21 23 19 O. P.V +1 P. V +1 O. P.V +1 P. V +1 O. P.V +1 P. V +1 and M O N 14+1 15+1 13+1 15 16 14 O. P.V +1 P. V +1 O. P.V +1 K 11+1 12 P. V +1 Similarly– G U I D E 20+1 21+1 18+1 4+1 22+1 21 22 19 5 23 O. P.V +1 P. V +1 O. P.V +1 P. V +1 O. P.V +1 Hence. GUIDE will be written as 212219523. [Note: O. P.V. → Opposite Positional Value P. V. → Positional Value.]",
           "exam": "BPSC",
           "year": "68th B.P.S.C. (Pre) 2023"
         },
@@ -5260,7 +5260,7 @@
             "E": "None of the above / More than one of the above"
           },
           "answer": "B",
-          "explanation": "Formula for finding angle between hour hand and minute hand θ = 2 11 × minute 30 × hour - : D At 4 : 30 am θ = 2 11 × 30 30 × 4 - : D = [11 × 15 - 120] = [1650 – 1200] = 450",
+          "explanation": "Formula for finding angle between hour hand and minute hand θ = 2 11 × minute 30 × hour -: D At 4: 30 am θ = 2 11 × 30 30 × 4 -: D = [11 × 15 - 120] = [1650 – 1200] = 450",
           "exam": "BPSC",
           "year": "B.P.S.C. CDPO (Pre) 2022"
         },
@@ -5290,7 +5290,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "The angle between the hour hand and the minute hand, θ = H M 30 11 2 - : D H = 5 and θ = 0o (When both the hands of the clock are together then θ = 0°) ∴ θ = M 30 5 2 11 × × - : D M = 11 150 2 11 300 × = M = 2711 3 Therefore between 5 and 6 O’clock, both the clock hands will be coincide at 5O’clock 27.31 minutes.",
+          "explanation": "The angle between the hour hand and the minute hand, θ = H M 30 11 2 -: D H = 5 and θ = 0o (When both the hands of the clock are together then θ = 0°) ∴ θ = M 30 5 2 11 × × -: D M = 11 150 2 11 300 × = M = 2711 3 Therefore between 5 and 6 O’clock, both the clock hands will be coincide at 5O’clock 27.31 minutes.",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Re-Exam) (Pre) 2022"
         },
@@ -5305,7 +5305,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "B",
-          "explanation": "From 8 am to 8 am next day, the clock will show 8:10 am. 24 hr = (24 × 60) minutes Real time of (24 × 60 + 10) minute = (24 × 60) minutes Real time of 1450 minutes = 1440 minutes Real time of (24 × 60 + 5 × 60) minutes 1450 1440 1740 × = b lminutes [∵ Total time from 8 am to 1 pm the next day. = (24 × 60) min. + (5 × 60) min.= 1740] = 145 144 1740 × = 144 × 12 = 1728 min. = 28 hr. + 48 min. = 24 hr. + 4 hr. + 48 min. So, on next day, at 1 o’clock in the afternoon, when the clock shows the hand, actual time will be. = 8 am + (4 hr + 48 min) = 12 : 48 pm",
+          "explanation": "From 8 am to 8 am next day, the clock will show 8:10 am. 24 hr = (24 × 60) minutes Real time of (24 × 60 + 10) minute = (24 × 60) minutes Real time of 1450 minutes = 1440 minutes Real time of (24 × 60 + 5 × 60) minutes 1450 1440 1740 × = b lminutes [∵ Total time from 8 am to 1 pm the next day. = (24 × 60) min. + (5 × 60) min.= 1740] = 145 144 1740 × = 144 × 12 = 1728 min. = 28 hr. + 48 min. = 24 hr. + 4 hr. + 48 min. So, on next day, at 1 o’clock in the afternoon, when the clock shows the hand, actual time will be. = 8 am + (4 hr + 48 min) = 12: 48 pm",
           "exam": "BPSC",
           "year": "67th B.P.S.C. (Pre) 2022"
         },
@@ -5320,7 +5320,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "∵ The angle made by the hour hand in each minute = 2 1c The angle made by the hour hand in 5 hours 10 minutes i.e. 310 minutes = 310 × 2 1c = 1550 Therefore, at 5:10, the hour hand will rotate 1550.",
+          "explanation": "∵ The angle made by the hour hand in each minute = 2 1c The angle made by the hour hand in 5 hours 10 minutes i. e. 310 minutes = 310 × 2 1c = 1550 Therefore, at 5:10, the hour hand will rotate 1550.",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024 66th B.P.S.C. (Pre) 2020"
         },
@@ -5367,7 +5367,7 @@
             "D": "55"
           },
           "answer": "C",
-          "explanation": "The given number series is as follows: 117, 98, 80, 64, ?, 42 -19 18 16 13 9 - - - - +1 +2 +3 +4 ∴ ? = 64 – 13 ? = 51",
+          "explanation": "The given number series is as follows: 117, 98, 80, 64,?, 42 -19 18 16 13 9 - - - - +1 +2 +3 +4 ∴? = 64 – 13? = 51",
           "exam": "BPSC",
           "year": "70th B.P.S.C Re-Exam (Pre) 2024"
         },
@@ -5396,7 +5396,7 @@
             "E": "None of the above"
           },
           "answer": "A",
-          "explanation": "15, 20 32, 62, 118, 248, ? 15 20 32 62 118 248 428 +5 +12 +30 +56 +130 +180 2 +1 2 3 +3 2 5 +5 2 7 +7 2 11 +9 2 13 +11 2 Pattern → (Prime no.)2 + (odd no.) in increasing order. So the correct answer is option (a) 428.",
+          "explanation": "15, 20 32, 62, 118, 248,? 15 20 32 62 118 248 428 +5 +12 +30 +56 +130 +180 2 +1 2 3 +3 2 5 +5 2 7 +7 2 11 +9 2 13 +11 2 Pattern → (Prime no.)2 + (odd no.) in increasing order. So the correct answer is option (a) 428.",
           "exam": "BPSC",
           "year": "68th B.P.S.C. (Pre) 2023"
         },
@@ -5426,7 +5426,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "C",
-          "explanation": "The sequence is- 4 18 48 100 180 294 448 (2) –(2) (3) –(3) (4) –(4) (5) –(5) (6) –(6) (7) –(7) (8) –(8) 3 3 3 3 3 3 3 2 2 2 2 2 2 2 ∴ ? = 180",
+          "explanation": "The sequence is- 4 18 48 100 180 294 448 (2) –(2) (3) –(3) (4) –(4) (5) –(5) (6) –(6) (7) –(7) (8) –(8) 3 3 3 3 3 3 3 2 2 2 2 2 2 2 ∴? = 180",
           "exam": "BPSC",
           "year": "66th B.P.S.C. (Pre) 2020"
         },
@@ -5441,7 +5441,7 @@
             "E": "None of the above/More than one of the above"
           },
           "answer": "D",
-          "explanation": "The given number series is as follows - 1 3 9 15 25 35 49 ? ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 1 2 (2) 1 2– (4) 1 2– (6) 1 2– (8) 1 2– 3 2 7 2 5 2 Next term = (8)2 – 1 = 64 – 1 = 63",
+          "explanation": "The given number series is as follows - 1 3 9 15 25 35 49? ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 1 2 (2) 1 2– (4) 1 2– (6) 1 2– (8) 1 2– 3 2 7 2 5 2 Next term = (8)2 – 1 = 64 – 1 = 63",
           "exam": "BPSC",
           "year": "65th B.P.S.C. (Pre) 2019"
         },
@@ -5529,7 +5529,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "The given number series is as follows - 17 27 38 50 63 ? + 10 + 11 + 12 + 13 + 14 ∴ ? = 63 + 14 = 77",
+          "explanation": "The given number series is as follows - 17 27 38 50 63? + 10 + 11 + 12 + 13 + 14 ∴? = 63 + 14 = 77",
           "exam": "BPSC",
           "year": "B.P.S.C. TRE-3 July, 2024"
         }
@@ -5576,7 +5576,7 @@
             "D": "None of the above"
           },
           "answer": "A",
-          "explanation": "Four branches of the company– M, N, O, P M 4 km N A 2 1 2 1 2 P O 2 km 1 km 45 0 45 0 1 2 2 1 2{ { 1 2 N S W E In ∆MPA ⇒ MP2 = 2 1 4 2 2 1 2 2 + + - d d n n < F MP2 = 2 1 16 2 2 1 8 2 2 1 2 + + - + - d d n n = 2 1 16 4 2 1 2 × 2 × 2 1 16 2 8 + + + - + - = 21 2 4 16 2 8 - + - = 37 2 12 - = 37 6 2 - = 37 – 6 × 1.414 = 37 – 8.484 = 28.516 MP 28.516 5.34 km . =",
+          "explanation": "Four branches of the company– M, N, O, P M 4 km N A 2 1 2 1 2 P O 2 km 1 km 45 0 45 0 1 2 2 1 2{ { 1 2 N S W E In ∆MPA ⇒ MP2 = 2 1 4 2 2 1 2 2 + + - d d n n < F MP2 = 2 1 16 2 2 1 8 2 2 1 2 + + - + - d d n n = 2 1 16 4 2 1 2 × 2 × 2 1 16 2 8 + + + - + - = 21 2 4 16 2 8 - + - = 37 2 12 - = 37 6 2 - = 37 – 6 × 1.414 = 37 – 8.484 = 28.516 MP 28.516 5.34 km. =",
           "exam": "BPSC",
           "year": "69th B.P.S.C. (Pre) 2023"
         },
@@ -5682,7 +5682,7 @@
             "E": "None of the above"
           },
           "answer": "C",
-          "explanation": "According to question S Spouse A Sister R Daughter X B Husband Father T Wife Z K M Mother H Sister Hence, K is the wife of B, who is brother-in-law of S. So option (c) is the correct answer i.e. K is the wife of brother-in-law of S.",
+          "explanation": "According to question S Spouse A Sister R Daughter X B Husband Father T Wife Z K M Mother H Sister Hence, K is the wife of B, who is brother-in-law of S. So option (c) is the correct answer i. e. K is the wife of brother-in-law of S.",
           "exam": "BPSC",
           "year": "68th B.P.S.C. (Pre) 2023"
         },
@@ -5731,7 +5731,7 @@
             "D": "25"
           },
           "answer": "A",
-          "explanation": "Each row contains three numbers. The following relation exists among these three numbers: In every row: Middle number = (First number ÷ Third number) × 5 Second row: 84 ? 12 • First number ÷ Third number = 84 ÷ 12 = 7 • Now multiply 7 by 5: 7 × 5 = 35 Thus, the middle number in the second row should be 35.",
+          "explanation": "Each row contains three numbers. The following relation exists among these three numbers: In every row: Middle number = (First number ÷ Third number) × 5 Second row: 84? 12 • First number ÷ Third number = 84 ÷ 12 = 7 • Now multiply 7 by 5: 7 × 5 = 35 Thus, the middle number in the second row should be 35.",
           "exam": "BPSC",
           "year": "71st B.P.S.C. (Pre) 2025"
         },
@@ -5745,7 +5745,7 @@
             "D": "63"
           },
           "answer": "B",
-          "explanation": "44 49 37 52 ? = 77 41 58 35 53 - - - R R R 1 2 3 from R1 → (44 - 37) × 7 = 49 from R3 → (58 - 53) × 7 = 35 Similarly R2 → (52 - 41) × 7 = 11 × 7 = 77 Hence, option (b) is the right answer.",
+          "explanation": "44 49 37 52? = 77 41 58 35 53 - - - R R R 1 2 3 from R1 → (44 - 37) × 7 = 49 from R3 → (58 - 53) × 7 = 35 Similarly R2 → (52 - 41) × 7 = 11 × 7 = 77 Hence, option (b) is the right answer.",
           "exam": "BPSC",
           "year": "69th B.P.S.C. (Pre) 2023"
         },
@@ -5774,7 +5774,7 @@
             "D": "20"
           },
           "answer": "A",
-          "explanation": "As 21 – 16 = 5 and (5 + 1)2 = 62 = 36 or 15 – 10 = 5 and (5 + 1)2 = 62 = 36 (middle number) and 10 – 7 = 3 and (3 + 1)2 = 42 = 16 or 13 – 10 = 3 and (3 + 1)2 = 42 = 16 (middle number) Similarly 21 – 14 = 7 and (7 + 1)2 = 82 = 64 (middle number) ∴ ? – 15 = 7 ? = 7 + 15 = 22",
+          "explanation": "As 21 – 16 = 5 and (5 + 1)2 = 62 = 36 or 15 – 10 = 5 and (5 + 1)2 = 62 = 36 (middle number) and 10 – 7 = 3 and (3 + 1)2 = 42 = 16 or 13 – 10 = 3 and (3 + 1)2 = 42 = 16 (middle number) Similarly 21 – 14 = 7 and (7 + 1)2 = 82 = 64 (middle number) ∴? – 15 = 7? = 7 + 15 = 22",
           "exam": "BPSC",
           "year": "70th B.P.S.C. Pre-2024"
         },

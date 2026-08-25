@@ -94,10 +94,19 @@ def clean_text(s):
 def join_wrapped(s):
     """Join hard-wrapped lines into flowing text; blank line = paragraph."""
     s=clean_text(s)
+    s=re.sub(r'\n{2,}\s*\d{1,2}\s*\n{2,}', ' ', s)
+    s=re.sub(r'\n{2,}\s*\d{1,2}\s*$', '', s)
+    s=re.sub(r'^\s*\d{1,2}\s*\n{2,}', '', s)
     paras=re.split(r'\n\s*\n', s)
     res=[]
     for p in paras:
         p=re.sub(r'\s*\n\s*',' ',p)
+        p=re.sub(r'(^|\n)\s*3\s+(?=\d+[\.\)])', r'\1', p)
+        p=re.sub(r'(^|\n)\s*3\s+(?=[A-Za-z\u00C0-\u024F])', r'\1• ', p)
+        p=re.sub(r'[^\n\S]+([\.,;:!\?])', r'\1', p)
+        p=re.sub(r'\(\s+', '(', p); p=re.sub(r'\s+\)', ')', p)
+        p=re.sub(r'\[\s+', '[', p); p=re.sub(r'\s+\]', ']', p)
+        p=re.sub(r'(?<![A-Z]\.[A-Z])(?<!\b[A-Za-z]\.[A-Za-z])(?<!\bi\.e)(?<!\be\.g)(?<!\bNo)(?<!\bno)(?<!\bRs)(?<!\bvs)([\.,;:!\?])([A-Za-z])', r'\1 \2', p)
         p=re.sub(r'\s+',' ',p).strip()
         if p: res.append(p)
     return '\n\n'.join(res)

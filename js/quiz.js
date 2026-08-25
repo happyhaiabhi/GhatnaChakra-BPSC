@@ -63,6 +63,24 @@ async function init() {
       .filter(q => q.q && q.options && Object.keys(q.options).length >= 2)
       .map(q => ({ ...q }));
 
+    // Optional Question Range filter (e.g. ?from=75&to=150 or ?range=75-150)
+    const rangeParam = qs('range');
+    let qFrom = parseInt(qs('from'), 10);
+    let qTo = parseInt(qs('to'), 10);
+    if (rangeParam) {
+      const m = rangeParam.match(/^(\d+)(?:[-:](\d+))?$/);
+      if (m) {
+        qFrom = parseInt(m[1], 10);
+        qTo = m[2] ? parseInt(m[2], 10) : qFrom;
+      }
+    }
+    if (!isNaN(qFrom) && qFrom >= 1) {
+      if (isNaN(qTo) || qTo < qFrom) qTo = state.questions.length;
+      qFrom = Math.max(1, Math.min(qFrom, state.questions.length));
+      qTo = Math.max(qFrom, Math.min(qTo, state.questions.length));
+      state.questions = state.questions.slice(qFrom - 1, qTo);
+    }
+
     if (state.questions.length === 0) {
       $('quizLoading').innerHTML = '<p style="color:#f87171">No valid questions found for this chapter.</p>';
       return;
