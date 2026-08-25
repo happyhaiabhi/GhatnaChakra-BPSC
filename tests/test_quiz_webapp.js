@@ -337,35 +337,35 @@ const ev = code => w.eval(code);
 
   // Multi-book support: switching books loads a different bank and keeps each
   // book's progress in its own namespace.
-  await w.openBook('ssc_sample');
+  await w.openBook('tarkas');
   await tick(10);
-  assert.equal(d.getElementById('setup-screen').classList.contains('active'), true, 'SSC book opens setup');
-  assert.equal(ev('SUBJECTS_CONFIG.length'), 2, 'SSC has 2 subjects');
-  assert.equal(d.getElementById('sh-questions').textContent, '6', 'SSC has 6 questions');
-  assert.equal(d.getElementById('nav-book-name').textContent, 'SSC Practice Set');
-  // Snapshot BPSC's stored history before touching SSC.
+  assert.equal(d.getElementById('setup-screen').classList.contains('active'), true, 'Tarkas book opens setup');
+  assert.equal(ev('SUBJECTS_CONFIG.length'), 10, 'Tarkas has 10 subjects');
+  assert.equal(d.getElementById('sh-questions').textContent, '1,743', 'Tarkas has 1,743 questions');
+  assert.equal(d.getElementById('nav-book-name').textContent, 'Tarkas');
+  // Snapshot BPSC's stored history before touching Tarkas.
   const bpscRawBefore = ev(`localStorage.getItem('gc_history')`);
-  await w.toggleSubjectCard('general_awareness');
+  await w.toggleSubjectCard('economy');
   await tick(5);
-  assert.equal(d.querySelectorAll('#sc-chlist-general_awareness .ch-row').length, 2, 'GA has 2 chapters');
+  assert.equal(d.querySelectorAll('#sc-chlist-economy .ch-row').length, 2, 'Tarkas economy has 2 chapters');
   ev(`saveHistory([{date:new Date().toISOString(),correct:1,wrong:0}]);`);
-  assert.equal(ev(`getHistory().length`), 1, 'SSC history written to SSC namespace');
-  assert.equal(ev(`!!localStorage.getItem('gc_history__book_ssc_sample')`), true, 'SSC progress is namespaced');
-  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'legacy BPSC key untouched by SSC write');
+  assert.equal(ev(`getHistory().length`), 1, 'Tarkas history written to Tarkas namespace');
+  assert.equal(ev(`!!localStorage.getItem('gc_history__book_tarkas')`), true, 'Tarkas progress is namespaced');
+  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'legacy BPSC key untouched by Tarkas write');
   ev(`saveMistakes({gone:{q:{uid:'gone'},times:1}}); saveArchive({gone:{q:{uid:'gone'},archivedAt:'2026-08-19T00:00:00Z'}}); reconcileArchivedItems();`);
-  assert.equal(ev(`Object.keys(getMistakes()).length`), 0, 'SSC archive tombstone removes SSC mistakes');
-  assert.equal(ev(`!!localStorage.getItem('gc_mistakes__book_ssc_sample')`), true, 'SSC archive/mistakes stay namespaced');
+  assert.equal(ev(`Object.keys(getMistakes()).length`), 0, 'Tarkas archive tombstone removes Tarkas mistakes');
+  assert.equal(ev(`!!localStorage.getItem('gc_mistakes__book_tarkas')`), true, 'Tarkas archive/mistakes stay namespaced');
   await w.openBook('bpsc_ghatna_chakra');
   await tick(10);
-  assert.equal(ev(`localStorage.getItem('gc_history__book_ssc_sample')?1:0`), 1, 'SSC data retained after switching away');
-  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'BPSC storage stays separate from SSC');
+  assert.equal(ev(`localStorage.getItem('gc_history__book_tarkas')?1:0`), 1, 'Tarkas data retained after switching away');
+  assert.equal(ev(`localStorage.getItem('gc_history')`), bpscRawBefore, 'BPSC storage stays separate from Tarkas');
   assert.equal(ev('SUBJECTS_CONFIG.length'), 12, 'back to BPSC 12 subjects');
-  // The book-selection landing screen is reachable and lists both books.
+  // The book-selection landing screen is reachable and lists every book.
   w.showBooksScreen();
   await tick(5);
   assert(d.getElementById('books-screen').classList.contains('active'));
-  assert(d.querySelectorAll('#books-grid .book-card').length >= 7, 'all book cards shown (BPSC + 6 imported + sample)');
-  ['physics','chemistry','biology','ancient_india','medieval_india','modern_india'].forEach(id=>{
+  assert(d.querySelectorAll('#books-grid .book-card').length >= 9, 'all book cards shown (BPSC + 8 imported)');
+  ['physics','chemistry','biology','ancient_india','medieval_india','modern_india','tarkas'].forEach(id=>{
     assert(d.querySelector(`#books-grid .book-card[data-book="${id}"]`), `${id} book card present`);
   });
 
