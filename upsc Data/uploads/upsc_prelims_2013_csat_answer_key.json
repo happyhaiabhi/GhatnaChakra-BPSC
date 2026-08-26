@@ -1,0 +1,542 @@
+{
+  "year": 2013,
+  "paper": "CSAT",
+  "questions": [
+    {
+      "id": "UPSCCSAT2013GS02001",
+      "position": 98,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02001.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02001.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02002",
+      "position": 99,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02002.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02002.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02003",
+      "position": 100,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02003.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02003.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02004",
+      "position": 4,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02004.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02004.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02005",
+      "position": 5,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02005.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02005.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02006",
+      "position": 6,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02006.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02006.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02007",
+      "position": 7,
+      "subject": "Quantitative Aptitude",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02007.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02007.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02008",
+      "position": 8,
+      "subject": "Quantitative Aptitude",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02008.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02008.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02009",
+      "position": 9,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02009.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02009.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02010",
+      "position": 10,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02010.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02010.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02011",
+      "position": 11,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02011.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02011.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02012",
+      "position": 12,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02012.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02012.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02013",
+      "position": 13,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02013.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02013.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02014",
+      "position": 14,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02014.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02014.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02015",
+      "position": 15,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02015.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02015.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02016",
+      "position": 16,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02016.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02016.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02028",
+      "position": 17,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02028.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02028.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02031",
+      "position": 18,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02031.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02031.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02032",
+      "position": 19,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02032.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02032.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02033",
+      "position": 20,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02033.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02033.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02034",
+      "position": 21,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02034.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02034.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02035",
+      "position": 22,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02035.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02035.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02036",
+      "position": 23,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02036.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02036.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02037",
+      "position": 24,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02037.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02037.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02038",
+      "position": 25,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02038.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02038.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02039",
+      "position": 26,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02039.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02039.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02040",
+      "position": 27,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02040.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02040.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02041",
+      "position": 28,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02041.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02041.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02042",
+      "position": 29,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02042.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02042.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02043",
+      "position": 30,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02043.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02043.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02044",
+      "position": 31,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02044.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02044.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02045",
+      "position": 32,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02045.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02045.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02046",
+      "position": 33,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02046.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02046.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02047",
+      "position": 34,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02047.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02047.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02048",
+      "position": 35,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02048.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02048.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02049",
+      "position": 36,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02049.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02049.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02050",
+      "position": 37,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02050.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02050.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02051",
+      "position": 38,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02051.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02051.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02052",
+      "position": 39,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02052.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02052.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02053",
+      "position": 40,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02053.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02053.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02054",
+      "position": 41,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02054.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02054.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02055",
+      "position": 42,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02055.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02055.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02056",
+      "position": 43,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02056.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02056.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02057",
+      "position": 44,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02057.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02057.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02058",
+      "position": 45,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02058.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02058.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02059",
+      "position": 46,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02059.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02059.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02060",
+      "position": 47,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02060.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02060.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02061",
+      "position": 48,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02061.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02061.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02062",
+      "position": 49,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02062.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02062.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02063",
+      "position": 50,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02063.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02063.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02064",
+      "position": 51,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02064.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02064.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02065",
+      "position": 52,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02065.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02065.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02066",
+      "position": 53,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02066.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02066.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02067",
+      "position": 54,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02067.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02067.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02068",
+      "position": 55,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02068.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02068.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02069",
+      "position": 56,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02069.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02069.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02070",
+      "position": 57,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02070.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02070.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02071",
+      "position": 58,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02071.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02071.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02072",
+      "position": 59,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02072.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02072.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02073",
+      "position": 60,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02073.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02073.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02074",
+      "position": 61,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02074.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02074.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02075",
+      "position": 62,
+      "subject": "Decision Making",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02075.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02075.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02076",
+      "position": 63,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02076.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02076.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02077",
+      "position": 64,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02077.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02077.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02078",
+      "position": 65,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02078.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02078.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02079",
+      "position": 66,
+      "subject": "Decision Making",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02079.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02079.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02080",
+      "position": 67,
+      "subject": "Decision Making",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02080.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02080.webp"
+    }
+  ]
+}

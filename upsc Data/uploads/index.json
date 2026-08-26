@@ -1,0 +1,187 @@
+{
+  "title": "UPSC Prelims CSAT — Year-wise index",
+  "paper": "CSAT",
+  "years_covered": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_count": 16,
+  "total_questions": 1211,
+  "all_years_file": "json/csat/upsc_csat_all_years.json",
+  "years": [
+    {
+      "year": 2011,
+      "file": "json/csat/upsc_prelims_2011_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2011_csat_answer_key.json",
+      "infographics_dir": "infographics/2011/",
+      "question_count": 65,
+      "with_explanation": 65,
+      "with_infographic_file": 65,
+      "source": "https://www.dalvoy.com/upsc/prelims/2011"
+    },
+    {
+      "year": 2012,
+      "file": "json/csat/upsc_prelims_2012_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2012_csat_answer_key.json",
+      "infographics_dir": "infographics/2012/",
+      "question_count": 75,
+      "with_explanation": 75,
+      "with_infographic_file": 75,
+      "source": "https://www.dalvoy.com/upsc/prelims/2012"
+    },
+    {
+      "year": 2013,
+      "file": "json/csat/upsc_prelims_2013_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2013_csat_answer_key.json",
+      "infographics_dir": "infographics/2013/",
+      "question_count": 67,
+      "with_explanation": 67,
+      "with_infographic_file": 67,
+      "source": "https://www.dalvoy.com/upsc/prelims/2013"
+    },
+    {
+      "year": 2014,
+      "file": "json/csat/upsc_prelims_2014_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2014_csat_answer_key.json",
+      "infographics_dir": "infographics/2014/",
+      "question_count": 70,
+      "with_explanation": 70,
+      "with_infographic_file": 70,
+      "source": "https://www.dalvoy.com/upsc/prelims/2014"
+    },
+    {
+      "year": 2015,
+      "file": "json/csat/upsc_prelims_2015_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2015_csat_answer_key.json",
+      "infographics_dir": "infographics/2015/",
+      "question_count": 75,
+      "with_explanation": 75,
+      "with_infographic_file": 75,
+      "source": "https://www.dalvoy.com/upsc/prelims/2015"
+    },
+    {
+      "year": 2016,
+      "file": "json/csat/upsc_prelims_2016_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2016_csat_answer_key.json",
+      "infographics_dir": "infographics/2016/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2016"
+    },
+    {
+      "year": 2017,
+      "file": "json/csat/upsc_prelims_2017_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2017_csat_answer_key.json",
+      "infographics_dir": "infographics/2017/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2017"
+    },
+    {
+      "year": 2018,
+      "file": "json/csat/upsc_prelims_2018_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2018_csat_answer_key.json",
+      "infographics_dir": "infographics/2018/",
+      "question_count": 61,
+      "with_explanation": 61,
+      "with_infographic_file": 61,
+      "source": "https://www.dalvoy.com/upsc/prelims/2018"
+    },
+    {
+      "year": 2019,
+      "file": "json/csat/upsc_prelims_2019_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2019_csat_answer_key.json",
+      "infographics_dir": "infographics/2019/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2019"
+    },
+    {
+      "year": 2020,
+      "file": "json/csat/upsc_prelims_2020_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2020_csat_answer_key.json",
+      "infographics_dir": "infographics/2020/",
+      "question_count": 79,
+      "with_explanation": 79,
+      "with_infographic_file": 79,
+      "source": "https://www.dalvoy.com/upsc/prelims/2020"
+    },
+    {
+      "year": 2021,
+      "file": "json/csat/upsc_prelims_2021_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2021_csat_answer_key.json",
+      "infographics_dir": "infographics/2021/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2021"
+    },
+    {
+      "year": 2022,
+      "file": "json/csat/upsc_prelims_2022_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2022_csat_answer_key.json",
+      "infographics_dir": "infographics/2022/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2022"
+    },
+    {
+      "year": 2023,
+      "file": "json/csat/upsc_prelims_2023_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2023_csat_answer_key.json",
+      "infographics_dir": "infographics/2023/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2023"
+    },
+    {
+      "year": 2024,
+      "file": "json/csat/upsc_prelims_2024_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2024_csat_answer_key.json",
+      "infographics_dir": "infographics/2024/",
+      "question_count": 79,
+      "with_explanation": 79,
+      "with_infographic_file": 79,
+      "source": "https://www.dalvoy.com/upsc/prelims/2024"
+    },
+    {
+      "year": 2025,
+      "file": "json/csat/upsc_prelims_2025_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2025_csat_answer_key.json",
+      "infographics_dir": "infographics/2025/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2025"
+    },
+    {
+      "year": 2026,
+      "file": "json/csat/upsc_prelims_2026_csat.json",
+      "answer_key_file": "json/csat/upsc_prelims_2026_csat_answer_key.json",
+      "infographics_dir": "infographics/2026/",
+      "question_count": 80,
+      "with_explanation": 80,
+      "with_infographic_file": 80,
+      "source": "https://www.dalvoy.com/upsc/prelims/2026"
+    }
+  ]
+}
