@@ -1243,12 +1243,12 @@ html,body{height:100%;}
   #config-panel .start-btn,#config-panel .modal-btn{width:100%;max-width:none;min-height:48px;}
 
   /* quiz: keep the question area calm and maximize usable reading space */
-  #quiz-screen{height:100dvh;min-height:100dvh;overflow:hidden;}
-  .quiz-topbar{height:60px;min-height:60px;padding:8px 10px;gap:6px;overflow:hidden;}
+  #quiz-screen{height:100dvh;min-height:100dvh;}
+  .quiz-topbar{height:60px;min-height:60px;padding:8px 10px;gap:6px;overflow:hidden;flex-shrink:0;}
   .topbar-breadcrumb{font-size:.72rem;line-height:1.25;min-width:0;}
   .topbar-timer{font-size:.72rem;padding:8px 7px;border-radius:8px;flex-shrink:0;}
   .quiz-topbar .topbar-btn{min-height:44px;padding:8px 9px;font-size:.68rem;flex-shrink:0;}
-  .quiz-body{min-height:0;}
+  .quiz-body{display:flex;flex-direction:column;min-height:0;}
   .question-area{padding:12px 12px 16px;min-width:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
   .q-header{gap:6px;margin-bottom:10px;}
   .q-num{font-size:.72rem;padding:5px 8px;border-radius:7px;}
