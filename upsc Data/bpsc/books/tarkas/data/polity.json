@@ -1,0 +1,2853 @@
+{
+  "subject": "Indian Polity",
+  "chapters": [
+    {
+      "chapter_name": "Indian Union and States",
+      "questions": [
+        {
+          "q": "Which union territory formed after the division of the Jammu and Kashmir state does not have a legislature of its own?",
+          "options": {
+            "A": "Jammu",
+            "B": "Kashmir",
+            "C": "Ladakh",
+            "D": "Both Kashmir and Ladakh",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Division of J&K came into effect on 5th August 2019. J&K became UT with Legislature; Ladakh became UT without a legislature. LG of J&K: Manoj Sinha. LG of Ladakh: Brigadier B.D. Mishra (Retd). Ranjana Prakash Desai headed the Delimitation Commission on J&K.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The creation of a new state requires a majority for Constitutional Amendment.",
+          "options": {
+            "A": "Simple",
+            "B": "Two-third",
+            "C": "Three-fourth",
+            "D": "Two-thirds plus ratification by half of all states",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Simple majority is required for creation of new states (Article 3). Article 2: power to admit/establish states. Four types of majority: (i) Simple — more than 50% of members present and voting; (ii) Absolute — more than 50% of total membership; (iii) Effective — more than 50% of effective strength; (iv) Special — all other majorities. Special majority under Art.368 for constitutional amendment, removal of CAG, SC judges, CEC. Art.249 special majority to pass Rajya Sabha resolution empowering Parliament to legislate on State List. Art.368+50% state ratification for changing federal structure. Art.61 simple majority for President's impeachment.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Which one of the following characteristics is not true for the Unitary form of Government?",
+          "options": {
+            "A": "Swift decision",
+            "B": "Flexible",
+            "C": "Ideal for large countries",
+            "D": "Uniformity of laws",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Unitary features: Strong centre, Single constitution, States not indestructible, Single citizenship, Integrated judiciary. In a large country it is difficult to manage affairs without decentralisation, so Unitary form is not ideal for large countries.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following states was never granted the Special Category Status (SCS) by the Central government?",
+          "options": {
+            "A": "Bihar",
+            "B": "Sikkim",
+            "C": "Himachal Pradesh",
+            "D": "Jammu and Kashmir",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "SCS is granted to states facing geological/socio-economic disadvantages; Centre pays 90% of funds. First SCS granted in 1969 to J&K, Assam, Nagaland. Later added: Arunachal Pradesh, Himachal Pradesh, Manipur, Meghalaya, Mizoram, Sikkim, Tripura, Uttarakhand. Bihar was NEVER granted SCS. Decision lies with the National Development Council. 14th Finance Commission made no distinction between general and SCS states.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "After Independence, in which year were the Indian States reorganized on a linguistic basis?",
+          "options": {
+            "A": "1947",
+            "B": "1951",
+            "C": "1956",
+            "D": "2000",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "First SRC constituted in 1953. States Reorganisation Act 1956 enacted under Article 3. New states: Andhra Pradesh, Bombay, Kerala, MP, Madras, Mysore, Punjab, Rajasthan. 1st state reorganised on linguistic basis: Andhra (Telugu-speaking, carved from Madras). Fazl Ali Commission (with K.M. Pannikar & H.N. Kunzru) submitted report in 1955; accepted with modifications in 1956 Act.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "What is the nature of the Indian Constitution?",
+          "options": {
+            "A": "Federal",
+            "B": "Unitary",
+            "C": "Parliamentary",
+            "D": "Federal in nature but unitary in spirit",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Nature: 'Federal in nature but unitary in spirit'. The word 'Federation' is nowhere mentioned; Article 1 describes India as a 'Union of States'. Indian federal system is based on Canadian Model. S.R. Bommai vs UOI (1994): Indian constitution is federal with striking unitary features. Kuldeep Nair vs UOI (2006): federalism is part of basic structure. Federal system adopted due to large size and socio-cultural diversity.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Match the following: List I — I. Union list, II. State list, III. Concurrent list; List II — A. 97 entries, B. 47 entries, C. 66 entries",
+          "options": {
+            "A": "I-a, II-b, III-c",
+            "B": "I-a, II-c, III-b",
+            "C": "I-c, II-a, III-b",
+            "D": "I-c, II-b, III-a",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Seventh Schedule: (i) Union List — 97 entries (defence, banking, currency, foreign affairs, census etc.); (ii) State List — 66 entries (public order, police, public health, local government etc.); (iii) Concurrent List — 47 entries (criminal law, civil procedure, marriage, electricity etc.). Article 254(1): Parliamentary law prevails over State law on Concurrent List subjects.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "The proclamation of emergency at the first instance can be restricted to",
+          "options": {
+            "A": "3 months",
+            "B": "15 days",
+            "C": "6 months",
+            "D": "1 year",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Under Article 352, the President can declare a National Emergency on grounds of war, external aggression, or armed rebellion. The proclamation must be approved by both Houses within one month. Once approved, it continues for six months and can be extended after every six months indefinitely.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Carving out of Jharkhand from Bihar was done by the parliament. Which 'Article' of the Indian constitution was used to implement this creation of a new state from the existing state?",
+          "options": {
+            "A": "Article 1",
+            "B": "Article 2",
+            "C": "Article 3",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 3 deals with the formation of new states and alteration of areas, boundaries and names of existing states.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Consider the following statements: (i) The Constitution of India has opted for the British parliamentary system. (ii) The parliamentary system is based on the principle of coordination between the Legislative and executive organs. (iii) The Parliamentary system is also known as the 'Westminster' model of government. Which of the following statement(s) is/are incorrect?",
+          "options": {
+            "A": "Only i",
+            "B": "Only ii",
+            "C": "Both i and ii",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "All three statements are correct. The Indian Constitution has opted for the British parliamentary system (Westminster model), which is based on coordination between Legislative and executive organs.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following statements is wrong regarding Article 3?",
+          "options": {
+            "A": "Formation of a new state by separation of territory from any state or by uniting two or more parts of states or by uniting any territory to a part of any state.",
+            "B": "Increase the area of any state",
+            "C": "Diminish the area of any state",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "None of the statements A, B, C are wrong — all are correct provisions under Article 3.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following is not a feature of 'Representative Democracy'?",
+          "options": {
+            "A": "Existence of political parties",
+            "B": "Universal adult franchise",
+            "C": "Direct participation of people in decision making",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Direct participation of people in decision making is a feature of Direct Democracy, not Representative Democracy. In Representative Democracy, people elect representatives who make decisions on their behalf.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Fundamental Rights, DPSP, and Fundamental Duty",
+      "questions": [
+        {
+          "q": "Match List I with List II: A. Formation of Village Panchayat, B. Uniform Civil Code, C. Agriculture and Animal Husbandry, D. Separation of Judiciary from Executive, E. Promotion of International Peace; List II: 1. Art.44, 2. Art.48, 3. Art.50, 4. Art.51, 5. Art.40",
+          "options": {
+            "A": "(a-3),(b-4),(c-2),(d-1),(e-5)",
+            "B": "(a-5),(b-3),(c-2),(d-1),(e-4)",
+            "C": "(a-2),(b-3),(c-5),(d-4),(e-1)",
+            "D": "(a-1),(b-5),(c-3),(d-4),(e-2)",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Correct: Formation of Village Panchayat — Art.40; Uniform Civil Code — Art.44; Agriculture & Animal Husbandry — Art.48; Separation of Judiciary from Executive — Art.50; Promotion of International Peace — Art.51. DPSPs: Articles 36-51, Part IV; positive obligations on state; non-enforceable by courts; borrowed from Irish Constitution; classified as Socialist, Gandhian, Liberal-Intellectual.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "According to the Constitution of India, which of the following are fundamental for the governance of the country?",
+          "options": {
+            "A": "Fundamental Rights",
+            "B": "Fundamental Duties",
+            "C": "Directive Principles of State Policy",
+            "D": "Fundamental Rights and Fundamental Duties"
+          },
+          "answer": "C",
+          "explanation": "DPSPs (Articles 36-51, Part IV) are 'fundamental in the governance of the country' and it shall be the duty of the State to apply these principles in making laws, though they are non-justiciable.",
+          "exam": "UPSC",
+          "year": "2013"
+        },
+        {
+          "q": "Which principle among the following was added to the Directive Principles of State Policy by the 42nd Amendment to the Constitution?",
+          "options": {
+            "A": "Equal pay for equal work for both men and women",
+            "B": "Participation of workers in the management of industries",
+            "C": "Right to work, education, and public assistance",
+            "D": "Securing living wage and human conditions of work for workers"
+          },
+          "answer": "B",
+          "explanation": "42nd Amendment 1976 added four new DPSPs: Art.39 (healthy development of children), Art.39A (equal justice & free legal aid), Art.43A (participation of workers in management of industries), Art.48A (protect environment, safeguard forests & wildlife). Granville Austin called DPSPs and FRs 'Conscience of the Constitution'. Dr. Ambedkar called DPSPs 'novel features' and 'charter of social and economic democracy of India'.",
+          "exam": "UPSC",
+          "year": "2017"
+        },
+        {
+          "q": "In the context of India, which one of the following is the correct relationship between Rights and Duties?",
+          "options": {
+            "A": "Rights are correlative with duties.",
+            "B": "Rights are personal and hence independent of society and duties.",
+            "C": "Rights, not duties, are important for the advancement of the personality of the citizen.",
+            "D": "Duties, not rights, are important for the stability of the state."
+          },
+          "answer": "A",
+          "explanation": "Rights and duties are correlative — cannot be separated. Original constitution had no Fundamental Duties. They were added by 42nd CAA 1976 on recommendations of Swaran Singh committee. Located in Part IVA, Article 51A with 11 sub-articles. 86th CAA 2002 added 51A(k). Duties are non-enforceable/non-justiciable. Inspired by USSR constitution. Apply only to citizens, not foreigners.",
+          "exam": "UPSC",
+          "year": "2017"
+        },
+        {
+          "q": "Which one of the following Articles directs the State Governments to organize the Panchayats?",
+          "options": {
+            "A": "Article 33",
+            "B": "Article 40",
+            "C": "Article 48",
+            "D": "Article 50",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Article 40 directs state government to organize panchayats (implemented by 73rd Amendment). Panchayati Raj committees: Balwant Rai Mehta (1957), Ashok Mehta (1977), GVK Rao (1985), LM Singhvi (1986). Art.33: Parliament may restrict FRs for Armed Forces, police, intelligence personnel. Art.48: ban slaughter of cows, calves, milch and draught cattle. Art.50: Separation of judiciary from executive.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The Supreme Court has held that hoisting the National Flag atop private buildings is a fundamental right of every citizen under:",
+          "options": {
+            "A": "Article 14 of the Constitution",
+            "B": "Article 19(1)(a) of the Constitution",
+            "C": "Article 21 of the Constitution",
+            "D": "Article 25 of the Constitution",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Right to hoist the National Flag is a fundamental right under Article 19(1)(a) — expression of allegiance, feelings, and sentiments of pride for the nation. The National Flag design was adopted by the Constituent Assembly on 22 July 1947. Jawaharlal Nehru proposed the resolution for its formal adoption.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Which of the following is concerned with the Supreme Court of India?",
+          "options": {
+            "A": "Original Jurisdiction",
+            "B": "Collegium system",
+            "C": "Appellate jurisdiction",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "All three options are concerned with the Supreme Court. SC jurisdictions: (1) Original — hears disputes between federal units for the first time; (2) Writ — issues writs for FRs enforcement; (3) Appellate — reviews lower court decisions; (4) Advisory (Art.143) — President can seek opinion; (5) Court of Record; (6) Judicial Review. Collegium: headed by CJI + 4 senior-most SC judges; appoints and transfers judges.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
+          "options": {
+            "A": "Advisory Jurisdiction",
+            "B": "Appellate Jurisdiction",
+            "C": "Original Jurisdiction",
+            "D": "Writ Jurisdiction"
+          },
+          "answer": "C",
+          "explanation": "Disputes between different units of the Indian Federation fall under the Original Jurisdiction of the Supreme Court — heard for the first time, not on appeal from lower courts.",
+          "exam": "UPSC",
+          "year": "2014"
+        },
+        {
+          "q": "Which of the following prerogative writs issued by the Court directs the concerned authority to do something immediately?",
+          "options": {
+            "A": "Certiorari",
+            "B": "Quo Warranto",
+            "C": "Habeas Corpus",
+            "D": "Mandamus"
+          },
+          "answer": "D",
+          "explanation": "Mandamus ('we command') directs a public official to perform official duties he has failed or refused to perform. Cannot be issued against private individuals. Habeas Corpus: produce detained person before court; can be issued against public authorities AND private individuals. Prohibition: prevents lower court from exceeding jurisdiction. Certiorari: transfer case or squash order of lower court. Quo-Warranto: enquire into legality of claim to public office. Writs borrowed from English law ('prerogative writs').",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "In India, Judicial Review implies",
+          "options": {
+            "A": "The power of the judiciary to pronounce upon the constitutionality of laws and executive orders.",
+            "B": "The power of the judiciary to question the wisdom of the laws enacted by the legislatures.",
+            "C": "The power of the judiciary to review all the legislative enactments before they are assented to by the president.",
+            "D": "The power of the judiciary to review its judgments given earlier in similar or different cases."
+          },
+          "answer": "A",
+          "explanation": "Judicial review is the power of the Supreme Court to examine the constitutionality of legislative enactments and executive orders of both the Central and state governments.",
+          "exam": "UPSC",
+          "year": "2017"
+        },
+        {
+          "q": "Which of the following is/are listed among the Directive Principles in Part IV of the Constitution? I. Equal pay for equal work; II. Uniform civil code; III. Small family norm; IV. Education through mother tongue at primary level",
+          "options": {
+            "A": "I, II, and III",
+            "B": "I and II",
+            "C": "II and III",
+            "D": "I, II, and IV",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "DPSPs are in Articles 36-51. Art.39: equal pay for equal work. Art.44: uniform civil code. Small family norm and education through mother tongue are NOT listed DPSPs. DPSPs borrowed from Irish constitution; are 'instruments of instruction' from GOI Act 1935; not legally enforceable.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "With Reference to the provisions contained in part IV of the Constitution of India, Which of the following statements is/are correct? 1. They shall be enforceable by the courts; 2. They shall not be enforceable by any courts; 3. The principles laid down in this part are to influence the making of laws by the state.",
+          "options": {
+            "A": "1 only",
+            "B": "2 only",
+            "C": "1 and 3 only",
+            "D": "2 and 3 only"
+          },
+          "answer": "D",
+          "explanation": "DPSPs are Non-justiciable (statement 2 correct) — courts cannot enforce them. They are meant to influence the making of laws (statement 3 correct). Statement 1 is wrong. They establish social and economic democracy, promote the Welfare State concept, and are classified as socialistic, Gandhian, and liberal-intellectual.",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "The idea of a 'Welfare State' in the Indian Constitution is enshrined in its",
+          "options": {
+            "A": "Preamble",
+            "B": "Directive Principles Of State Policy",
+            "C": "Fundamental Rights",
+            "D": "Seventh Schedule"
+          },
+          "answer": "B",
+          "explanation": "DPSPs establish social and economic democracy and promote the concept of a 'Welfare State' and 'Inclusive Growth' through reduction of inequalities, equal pay, right to work, education, social security, and affirmative action.",
+          "exam": "UPSC",
+          "year": "2015"
+        },
+        {
+          "q": "Under the Indian Constitution, the concentration of wealth violates",
+          "options": {
+            "A": "The Right To Equality",
+            "B": "The Directive Principles Of State Policy",
+            "C": "The Right To Freedom",
+            "D": "The Concept Of Welfare"
+          },
+          "answer": "B",
+          "explanation": "Article 39(c) DPSP states the economic system should not result in the concentration of wealth and means of production to the common detriment. Violating this violates the Directive Principles of State Policy.",
+          "exam": "UPSC",
+          "year": "2021"
+        },
+        {
+          "q": "'Economic Justice' as one of the objectives of the Indian Constitution has been provided in",
+          "options": {
+            "A": "The Preamble and the Fundamental Rights",
+            "B": "The Preamble and the Directive Principles of State Policy",
+            "C": "The Fundamental Rights and the Directive of State Policy",
+            "D": "None of The Above"
+          },
+          "answer": "B",
+          "explanation": "Economic Justice is provided in the Preamble (Justice — social, economic and political) and in the DPSPs (Part IV) which promote economic justice through reduction of inequalities, equal pay, right to work etc.",
+          "exam": "UPSC",
+          "year": "2013"
+        },
+        {
+          "q": "Which part of the constitution of India declares the ideals of the welfare state?",
+          "options": {
+            "A": "Directive principles of state policy",
+            "B": "Fundamental rights",
+            "C": "Preamble",
+            "D": "Seventh schedule"
+          },
+          "answer": "A",
+          "explanation": "The DPSPs (Part IV) declare the ideals of the welfare state, establishing social and economic democracy.",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "Who called the Directive Principles of State Policy a 'charter of social and economic democracy of India'?",
+          "options": {
+            "A": "Jawaharlal Nehru",
+            "B": "Dr. Rajendra Prasad",
+            "C": "Dr. B.R. Ambedkar",
+            "D": "None of them"
+          },
+          "answer": "C",
+          "explanation": "Dr. B.R. Ambedkar called the DPSPs a 'charter of social and economic democracy of India'. He also described them as 'novel features' of the Indian Constitution.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "In India, the separation of the judiciary from the executive is enjoined by",
+          "options": {
+            "A": "The preamble of the Constitution",
+            "B": "The Directive Principles of State Policy",
+            "C": "The seventh schedule",
+            "D": "The conventional practice"
+          },
+          "answer": "B",
+          "explanation": "Article 50 (DPSP) states that the State shall take steps to separate the judiciary from the executive in the public services of the State. DPSPs are in Part IV, borrowed from Irish Constitution of 1937 (copied from Spanish Constitution).",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "Which one of the following is not a part of the Directive Principles given in Article 39 of the Indian Constitution?",
+          "options": {
+            "A": "Raising the level of nutrition of the people and improvement of their health",
+            "B": "Equal pay for equal work for both men and women",
+            "C": "That the citizens are not forced by economic necessity to enter vocations unsuited to their age and strength",
+            "D": "That the material resources of the community are so distributed as best to subserve the common good",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Raising nutrition level and improving health is Article 47, NOT Article 39. Article 39 contains: (a) adequate means to livelihood; (b) material resources distributed for common good; (c) no concentration of wealth; (d) equal pay for equal work; (e) workers not forced into unsuitable vocations; (f) children given opportunities for healthy development. 42nd Amendment 1976 added Art.39, 39A, 43A, 48A.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The Right to Constitutional Remedies comes under the",
+          "options": {
+            "A": "Fundamental Rights",
+            "B": "Legal Rights",
+            "C": "Constitutional Rights",
+            "D": "Natural Rights",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Right to Constitutional Remedies (Article 32) comes under Fundamental Rights (Part III, Articles 12-35). Article 32 was cited as the 'Heart and soul' of the Indian constitution by B.R. Ambedkar. Courts issue writs: habeas corpus, mandamus, prohibition, quo warranto, certiorari. Six Fundamental Rights: Right to Equality (14-18), Right to Freedom (19-22), Right Against Exploitation (23-24), Right to Freedom of Religion (25-28), Cultural & Educational Rights (29-30), Right to Constitutional Remedies (32).",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "In case of illegal detention of a person, which of the following writs is applicable?",
+          "options": {
+            "A": "Habeas corpus",
+            "B": "Mandamus",
+            "C": "Certiorari",
+            "D": "Quo warranto",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Habeas Corpus ('to have the body') — Article 32 empowers the Supreme Court to issue this writ. It is a court order demanding a public official deliver an imprisoned individual to the court and show valid reason for detention. Can be issued against both public authorities and private individuals.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Which of the following categories of Fundamental Rights incorporates protection against untouchability as a form of discrimination?",
+          "options": {
+            "A": "Right against exploitation",
+            "B": "Right to freedom",
+            "C": "Right to constitutional remedies",
+            "D": "Right to equality",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Article 17 (Right to Equality) abolishes untouchability and forbids its practice. 'Untouchability is abolished and its practice in any form is forbidden. The enforcement of any disability arising out of untouchability shall be an offense punishable in accordance with law.'",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which of the following categories of Fundamental Rights Incorporates protection against untouchability as a form of discrimination?",
+          "options": {
+            "A": "Right against exploitation",
+            "B": "Right to freedom",
+            "C": "Right to constitutional remedies",
+            "D": "Right to equality"
+          },
+          "answer": "D",
+          "explanation": "Article 17 under Right to Equality prohibits untouchability and declares it a punishable offense. This ensures all individuals are treated equally without discrimination based on caste or social status.",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "Choose the fundamental rights available to Indian citizens but not to aliens: I. Freedom of Speech and Expression; II. Equality Before the Law; III. Right of Minorities; IV. Protection of Life and Liberty",
+          "options": {
+            "A": "I and III",
+            "B": "I and IV",
+            "C": "II and IV",
+            "D": "II and III",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Articles 15, 16, 19, 29, and 30 are only for citizens. Article 19 (Freedom of Speech and Expression) and Article 29/30 (Right of Minorities) are citizen-only rights. Article 14 (Equality Before Law) and Article 21 (Protection of Life and Liberty) are available to ALL persons including aliens.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Which article of the Indian Constitution provides any person equality before the laws?",
+          "options": {
+            "A": "Article 46",
+            "B": "Article 14",
+            "C": "Article 343",
+            "D": "Article 19",
+            "E": "None of the above/more than one"
+          },
+          "answer": "B",
+          "explanation": "Article 14 provides equality before the law, borrowed from the British Constitution. 'The state shall not deny to any person Equality before the law or the equal protection of the law in the territory of India.' Equality before law is a negative concept; equal protection of laws is a positive concept taken from US Constitution.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "The phrase 'equality before the law' used in Article 14 of the Indian Constitution has been borrowed from the Constitution of",
+          "options": {
+            "A": "USA",
+            "B": "France",
+            "C": "Britain",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "'Equality before the law' in Article 14 is borrowed from the British Constitution. 'Equal protection of the laws' in the same Article is taken from the US Constitution.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Golaknath vs. State of Punjab case is related to",
+          "options": {
+            "A": "The Fundamental Rights",
+            "B": "The President's Election",
+            "C": "The Election Commission",
+            "D": "The Governor",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "In the Golaknath case, the Court declared that constitutional amendments were ordinary law subject to Article 13, and no amendment could curtail citizens' fundamental rights. The doctrine of 'prospective overruling' was first invoked in India in this case by CJI K. S. Rao.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "In which case, the Supreme Court declared the Right to Privacy as a Fundamental Right?",
+          "options": {
+            "A": "Kesavananda Bharati case",
+            "B": "Navtej Singh Johar case",
+            "C": "Naz Foundation case",
+            "D": "Justice K. S. Puttaswamy's case",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Justice K.S. Puttaswamy's case (2017): SC held that Right to Privacy is protected as a fundamental constitutional right under Article 21. It is an intrinsic part of the right to life and personal liberty and a part of freedoms guaranteed by Part III.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "'Right to Privacy' is protected under which Article of the constitution of India?",
+          "options": {
+            "A": "Article 15",
+            "B": "Article 19",
+            "C": "Article 21",
+            "D": "Article 29"
+          },
+          "answer": "C",
+          "explanation": "Right to Privacy is protected under Article 21, as held in the Justice K.S. Puttaswamy case (2017). It is an intrinsic part of the right to life and personal liberty.",
+          "exam": "UPSC",
+          "year": "2021"
+        },
+        {
+          "q": "The right to Privacy is protected as an intrinsic part of the Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately implies the above statement?",
+          "options": {
+            "A": "Article 14 and the provisions under the 42nd Amendment to the constitution",
+            "B": "Article 17 and the directive principles of state policy in part IV.",
+            "C": "Article 21 and freedom guaranteed in part III",
+            "D": "Article 24 and provisions under the 44th amendment to the constitution."
+          },
+          "answer": "C",
+          "explanation": "Right to Privacy is protected as an intrinsic part of the Right to Life and Personal Liberty under Article 21, and as part of the freedoms guaranteed by Part III of the Constitution (Puttaswamy case 2017).",
+          "exam": "UPSC",
+          "year": "2017"
+        },
+        {
+          "q": "Which is not a 'Fundamental Right'?",
+          "options": {
+            "A": "Right to property",
+            "B": "Right to Life & Liberty",
+            "C": "Right to have titles",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Both A and C are not Fundamental Rights. Right to property was removed by 44th CAA 1978 and made a legal right under Article 300-A. Article 18 abolishes titles — so the right to have titles doesn't exist. Right to Life & Liberty (Article 21) is a Fundamental Right.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "In a locality in Bihar, a Dalit Muslim woman is denied entry to a public restaurant. Which of the following fundamental rights are being violated here?",
+          "options": {
+            "A": "Article 14",
+            "B": "Article 15",
+            "C": "Article 16",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. Denial of entry based on caste/religion violates Article 15.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following article is available to all persons according to the constitution?",
+          "options": {
+            "A": "Article 14 — Right to equal protection of the law",
+            "B": "Article 15 — Right against discrimination",
+            "C": "Article 19 — Right to Speech and Expression",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 14 is available to all persons including aliens. Articles 15, 16, 19, 29, and 30 are available only to citizens of India.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which among the following articles helped the Madarsas in India to remain out of the purview of the Right to Education Act?",
+          "options": {
+            "A": "Article 26",
+            "B": "Article 27",
+            "C": "Article 30",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 30 grants minorities the right to establish and administer educational institutions. Madrasas, as minority educational institutions, remain out of the purview of the RTE Act under the protection of Article 30.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Parliament and State Legislature",
+      "questions": [
+        {
+          "q": "Generally how many sessions are there in Lok Sabha?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "3",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Maximum gap between two sessions cannot exceed 6 months. Usually three sessions: Budget session (February to May — longest), Monsoon session (July to August), Winter session (November to mid-December).",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "According to which Article, the joint sitting of the Parliament takes place?",
+          "options": {
+            "A": "Article 122",
+            "B": "Article 123",
+            "C": "Article 108",
+            "D": "Article 142",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 108 provides for joint sitting of both Houses, called by the President and presided over by the Speaker (or Deputy Speaker in his absence). Quorum: one-tenth of the total number of members. SecretaryGeneral issues summons to each member.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "If a Parliament is dissolved, elections are to be held within",
+          "options": {
+            "A": "2 months",
+            "B": "6 months",
+            "C": "3 months",
+            "D": "1 year",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "According to Article 83(2), Lok Sabha can be dissolved by the President on advice of the Prime Minister. Elections must be held within six months from the date of dissolution.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which one of the following is the largest committee of the Parliament?",
+          "options": {
+            "A": "Agriculture Committee",
+            "B": "Estimates Committee",
+            "C": "Public Undertaking Committee",
+            "D": "Public Accounts Committee",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Estimates Committee is the largest Parliamentary Committee ('Continuous Economic Committee'), with 30 members all from Lok Sabha. Public Accounts Committee: oldest, first constituted 1921, 22 members (15 LS + 7 RS). Committee on Public Undertakings: 22 members (15 LS + 7 RS), created 1964 on Krishna Menon Committee recommendation.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "The Parliament can make any law for the whole or any part of India for implementing international treaties.",
+          "options": {
+            "A": "With the Consent of All The States",
+            "B": "With the Consent of The Majority Of States",
+            "C": "With the Consent of The States Concerned",
+            "D": "Without the Consent Of Any State"
+          },
+          "answer": "D",
+          "explanation": "Parliament can make laws on State List subjects to implement international agreements (Article 253) without the consent of any state. Five abnormal circumstances: Rajya Sabha resolution (Art.249), National Emergency (Art.250), joint request of states (Art.252), international agreements (Art.253), President's Rule (Art.356).",
+          "exam": "UPSC",
+          "year": "2013"
+        },
+        {
+          "q": "In order to be chosen a member of the Lok Sabha, a person must not be less than the age of",
+          "options": {
+            "A": "18 years",
+            "B": "21 years",
+            "C": "25 years",
+            "D": "30 years",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Eligibility for Lok Sabha: citizen of India; not less than 25 years; voter of any parliamentary constituency. Lok Sabha first constituted 17 April 1952. First Speaker: G.V. Mavalankar. 17th Lok Sabha: 543 members.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "What is the minimum age for a member of the Parliament?",
+          "options": {
+            "A": "18 years",
+            "B": "21 years",
+            "C": "25 years",
+            "D": "30 years",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "C",
+          "explanation": "Minimum age for Lok Sabha: 25 years (Article 84). Minimum age for Rajya Sabha: 30 years (Article 84). Parliament = President + Rajya Sabha + Lok Sabha. Rajya Sabha: max 250 (238 elected + 12 nominated). Lok Sabha: max 552 (530 states + 20 UTs + 2 Anglo-Indian, now removed by 104th CAA).",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "The President of India exercises his powers.",
+          "options": {
+            "A": "either directly or through officers subordinate to him",
+            "B": "through ministers",
+            "C": "through Prime Minister",
+            "D": "through cabinet",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 53: All executive powers of the Union are vested in the President, who exercises them either directly or through officers subordinate to him.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Which of the following is not a constitutional prerogative of the President of India?",
+          "options": {
+            "A": "Returning the financial bill for reconsideration",
+            "B": "Returning the legislative bill for reconsideration",
+            "C": "Granting pardon to people convicted by courts of law",
+            "D": "Dissolving the Lok Sabha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Returning the financial bill (Money Bill) for reconsideration is NOT a presidential prerogative. Financial legislation: Money Bills (Art.110) — Speaker certifies, introduced only in LS, Rajya Sabha cannot reject/amend; Financial Bills I (Art.117(1)); Financial Bills II (Art.117(3)). If a question arises whether a Bill is a Money Bill, decision of Speaker is final.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The President",
+          "options": {
+            "A": "is not a part of the Parliament",
+            "B": "is a part of the Parliament",
+            "C": "is a part of the Parliament and sits in the Parliament",
+            "D": "can vote in the Parliament",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Parliament = President of India + Rajya Sabha + Lok Sabha. President is an integral part of Parliament — has power to summon, prorogue either House, or dissolve Lok Sabha. A bill passed by both Houses cannot become law without Presidential assent.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The Indian president is eligible for re-election for how many times?",
+          "options": {
+            "A": "twice",
+            "B": "thrice",
+            "C": "any number of times",
+            "D": "once",
+            "E": "none of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The President of India can opt for re-election any number of times. Rajendra Prasad was the only president to have been elected twice.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Electoral College for the election of the President of India consists of",
+          "options": {
+            "A": "all the elected members of the Rajya Sabha",
+            "B": "all the elected members of the Lok Sabha",
+            "C": "all the members of the State Legislative Assemblies",
+            "D": "all the elected members of both the Houses of Parliament and elected members of the State Legislative Assemblies",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Article 54: President is elected by electoral college consisting of (a) elected members of both Houses of Parliament; (b) elected members of Legislative Assemblies of States; (c) elected members of legislative assembly of NCT Delhi and Puducherry (70th Amendment 1992). Droupadi Murmu: first Tribal president. Key articles: Art.61 — impeachment, Art.72 — pardoning power, Art.123 — Ordinance power.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which one of the following Articles of the Indian Constitution is associated with the process of impeachment of the President of India?",
+          "options": {
+            "A": "Article 53",
+            "B": "Article 58",
+            "C": "Article 61",
+            "D": "Article 62"
+          },
+          "answer": "C",
+          "explanation": "Article 61 is associated with the impeachment of the President. Art.53: executive power of Union vested in President. Art.58: qualifications for election as President. Art.62: time of holding election to fill vacancy.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "A parliamentary system of government is one which",
+          "options": {
+            "A": "All political parties in the parliament are represented in the government",
+            "B": "The government is responsible to the parliament and can be removed by it",
+            "C": "The government is elected by the people and can be removed by them",
+            "D": "The government is chosen by the parliament but can not be removed by it before the completion of a fixed term"
+          },
+          "answer": "B",
+          "explanation": "Parliamentary system ('Westminster' model / responsible government / cabinet government): the council of ministers is collectively responsible to the Lok Sabha; if it loses confidence, Lok Sabha can remove it by a no-confidence motion. Features: nominal and real executives; majority party rule; collective responsibility; membership of ministers in legislature; leadership of PM/CM; dissolution of lower House.",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "The Electoral College for the 16th vice presidential election of India for 2022 consists of how many members?",
+          "options": {
+            "A": "788",
+            "B": "545",
+            "C": "250",
+            "D": "798",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "For 2022 16th VP Election: 233 elected + 12 nominated members of Rajya Sabha + 543 elected members of Lok Sabha = 788 total.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "The Vice President of India is elected by",
+          "options": {
+            "A": "Elected members of Lok Sabha and Rajya Sabha",
+            "B": "All members of both houses of Parliament whether elected or nominated",
+            "C": "Elected members of both the houses of parliament of state legislative assemblies",
+            "D": "Members of Rajya Sabha only",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "VP is elected by all members (elected and nominated) of both Houses of Parliament. VP is ex-officio Chairman of Rajya Sabha. Elected by proportional representation with single transferable vote by secret ballot. Electoral college: RS (233 elected + 12 nominated) + LS (543 elected) = 788. Jagdeep Dhankhar: 14th VP, got 528 first preference votes.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who is the Ex-officio Chairman of the Rajya Sabha?",
+          "options": {
+            "A": "The President",
+            "B": "The Vice-President",
+            "C": "The Prime Minister",
+            "D": "Speaker",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Vice-President of India is the ex-officio Chairman of the Rajya Sabha.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Which of the following Constitutional Amendment Acts restricted the Council of Ministers to 15 percent of the total members of the Lok Sabha?",
+          "options": {
+            "A": "95th Constitutional Amendment Act, 2009",
+            "B": "93rd Constitutional Amendment Act, 2005",
+            "C": "91st Constitutional Amendment Act, 2003",
+            "D": "90th Constitutional Amendment Act, 2002",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "91st CAA 2003 inserted in Article 75: 'The total number of Ministers, including the Prime Minister, in the Council of Ministers shall not exceed fifteen percent of the total number of members of the House of the People.'",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "How many (number) 'Demands for Grants' are put before the Parliament as a part of the Annual Budget in pursuance to Article 113 of the Constitution?",
+          "options": {
+            "A": "98",
+            "B": "96",
+            "C": "104",
+            "D": "109",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Article 113 provides for Demands for Grants — proposals or estimates needing money from the Consolidated Fund forwarded to Lok Sabha. Each ministry/department presents their demand; larger ministries may present more than one. The exact number changes with government reorganization.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The members of the state legislative council are not chosen by which of the following categories of persons?",
+          "options": {
+            "A": "Members of the local bodies/panchayats",
+            "B": "Teachers",
+            "C": "Graduates",
+            "D": "Industrialists",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "MLCs are chosen by: 1/3 elected by local body members; 1/3 elected by Legislative Assembly members from non-MLAs; 1/6 nominated by Governor from persons in literature, science, arts, co-operative movement, social services; 1/12 elected by graduates of 3 years' standing; 1/12 elected by teachers of at least 3 years in educational institutions not lower than secondary schools. Industrialists are NOT a category.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Who among the following creates or abolishes a Legislative Council in a State?",
+          "options": {
+            "A": "The President",
+            "B": "The Prime Minister",
+            "C": "The Parliament",
+            "D": "The Chief Minister"
+          },
+          "answer": "C",
+          "explanation": "Parliament can create or abolish a Legislative Council in a State under Article 169, by law (simple majority), if the Legislative Assembly passes a resolution by a majority of total membership and by not less than 2/3 of members present and voting. Creating/abolishing a LC is NOT considered a constitutional amendment under Article 368.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "What constitutes the definition of a Money Bill under Article 110 of the Indian constitution?",
+          "options": {
+            "A": "The imposition or alteration in the regulation of tax.",
+            "B": "The regulation of borrowings of money",
+            "C": "The appropriation of money from the consolidated fund of India.",
+            "D": "Declaration of any expenditure to be charged on the consolidated fund of India.",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "A Money Bill (Article 110) covers ALL of: (i) imposition/abolition/remission/alteration/regulation of any tax; (ii) regulation of borrowing of money by Union; (iii) custody of Consolidated Fund/Contingency Fund, payment/withdrawal; (iv) appropriation of money from Consolidated Fund; (v) declaration of expenditure charged on Consolidated Fund. Money Bill: only in LS, Speaker certifies, RS cannot reject/amend (must return in 14 days), no joint session allowed.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Regarding the Money Bill, which of the following statements is not correct?",
+          "options": {
+            "A": "A bill shall be deemed to be a money bill if it contains only provisions related to the imposition, abolition, remission, alteration, or regulation of any tax.",
+            "B": "A money bill has provisions for the custody of the consolidated fund of India or the contingency fund of India.",
+            "C": "A money bill is concerned with the appropriation of money out of the contingency fund of India.",
+            "D": "A money bill deals with the regulation of borrowing money or giving of any guarantee by the government of India"
+          },
+          "answer": "C",
+          "explanation": "Option C is incorrect. A money bill is concerned with appropriation from the CONSOLIDATED Fund, not the Contingency Fund. The provisions include custody of both Consolidated Fund and Contingency Fund, but appropriation is from the Consolidated Fund only.",
+          "exam": "UPSC",
+          "year": "2017"
+        },
+        {
+          "q": "Rajya Sabha has equal power with Lok Sabha in",
+          "options": {
+            "A": "The matter of creating new all-India services",
+            "B": "Amending the constitution",
+            "C": "The removal of the government",
+            "D": "Making cut motions"
+          },
+          "answer": "B",
+          "explanation": "RS has equal powers with LS in: introduction and passage of ordinary bills, constitutional amendment bills; election and impeachment of the President; approval of ordinances, etc. RS is UNEQUAL to LS in money bills. RS has SPECIAL powers unique to it: authorise Parliament to legislate on State List (Art.249) and create new All-India Services (Art.312). Creating new AIS is a special power of RS, not equal power.",
+          "exam": "UPSC",
+          "year": "2020"
+        },
+        {
+          "q": "Who certifies the Money Bill in India?",
+          "options": {
+            "A": "The President",
+            "B": "The Vice President",
+            "C": "The Speaker",
+            "D": "The Council Of Ministers"
+          },
+          "answer": "C",
+          "explanation": "The Speaker of the Lok Sabha has the sole authority to certify a Money Bill. The Speaker's decision on whether a Bill is a Money Bill is final.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "Money Bill can be presented",
+          "options": {
+            "A": "only in the Lok Sabha",
+            "B": "only in the Rajya Sabha",
+            "C": "in both the Houses",
+            "D": "in a joint meeting of both the Houses",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A Money Bill can only be introduced in the Lok Sabha, on the recommendation of the President. Rajya Sabha can only make recommendations; must return within 14 days. No joint session for Money bills.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "What is the objective of Cut Motion?",
+          "options": {
+            "A": "To put a check on the policies of the Government",
+            "B": "To stop the functioning of the ruling party",
+            "C": "To move proposals to reduce expenditure in Budget proposals.",
+            "D": "Rejection of the complete financial dealings of the Government",
+            "E": "None of the above/More than of the above"
+          },
+          "answer": "C",
+          "explanation": "Cut Motion allows Lok Sabha members to oppose demands for grants. Three types: (i) Policy Cut — symbolic, expresses dissatisfaction with policy, demands amount reduced to Re.1; (ii) Economy Cut — demands reduction by a specific amount; (iii) Token Cut — reduces demand by Rs.100 to voice a specific grievance.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which one of the following statements is correct regarding the Parliamentary form of Government?",
+          "options": {
+            "A": "The Legislature is responsible to the Judiciary.",
+            "B": "The Legislature is responsible to the Executive.",
+            "C": "The Legislature and the Executive are independent.",
+            "D": "The President is responsible to the Judiciary.",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "In parliamentary government, the Executive is responsible to the Legislature (not the other way). Article 75(3): Council of Ministers collectively responsible to Lok Sabha. Article 164: Council of Ministers in a State collectively responsible to state Legislative Assembly. Article 50: Separation of judiciary from executive. None of options A-D correctly states this, so E is correct.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The Council of Ministers in a State is collectively responsible to",
+          "options": {
+            "A": "the Governor",
+            "B": "the Legislative Assembly",
+            "C": "the Chief Minister",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Article 164: The Council of Ministers in a State is collectively responsible to the state Legislative Assembly — mirroring Article 75(3) for the Union.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The Governor of a State is appointed by",
+          "options": {
+            "A": "the Prime Minister",
+            "B": "the Chief Justice of India",
+            "C": "the President",
+            "D": "the Chief Justice of the High Court",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Governor is appointed by the President for a term of 5 years; holds office at the President's pleasure. Only Indian citizens above 35 years eligible. Former Governors of Bihar who became Presidents: Zakir Hussain and Ram Nath Kovind. Current (31st) Governor of Bihar: Rajendra Arlekar.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "In which article of the Constitution of India was the provision for reservation of scheduled castes in the Lok Sabha made?",
+          "options": {
+            "A": "Article 330",
+            "B": "Article 331",
+            "C": "Article 332",
+            "D": "Article 333",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 330: Reservation of seats for SCs and STs in Lok Sabha. Article 332: Reservation of seats for SCs and STs in Legislative Assemblies of the States.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Who is the highest Civil Services Officer of the Central Government?",
+          "options": {
+            "A": "The Attorney General of India",
+            "B": "The Cabinet Secretary",
+            "C": "The Home Secretary",
+            "D": "The Finance Secretary",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Cabinet Secretary is the highest Civil Services officer in the Central Government (generally IAS), under the direct charge of the Prime Minister, ranked 11th in Indian order of precedence. AG (Article 76): highest 'Law Officer'; appointed by President; qualified to be SC judge; term not fixed; holds office at President's pleasure; can attend but not vote in either House.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Who is the highest civil services officer of the central government?",
+          "options": {
+            "A": "The Home Secretary",
+            "B": "The Finance Secretary",
+            "C": "The Attorney General of India",
+            "D": "The Cabinet Secretary",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Cabinet Secretary is the highest Civil Services officer in the Central Government. The Cabinet Secretariat administers the Government of India.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which officer of the Government of India has the right to take part in the proceedings of the Parliament of India even though he is not a member?",
+          "options": {
+            "A": "Vice-President",
+            "B": "Attorney General of India",
+            "C": "Comptroller and Auditor General",
+            "D": "Election Commissioner",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Attorney General (AG) of India has the right to take part in Parliamentary proceedings even though not a member. He is the central government's chief legal advisor and primary lawyer in the Supreme Court. AG is appointed by the President under Article 76(1). Article 165: Governor of each State appoints an Advocate-General.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "The Attorney General of India is appointed by",
+          "options": {
+            "A": "The Law Minister",
+            "B": "The President of India",
+            "C": "The Speaker of the Lok Sabha",
+            "D": "The Prime Minister",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Attorney General of India is appointed by the President under Article 76(1). He holds office at the pleasure of the President. He is the highest law officer in the country.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The Prime Minister of India is responsible to whom?",
+          "options": {
+            "A": "The Cabinet",
+            "B": "The President",
+            "C": "The Lok Sabha",
+            "D": "The Rajya Sabha",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "C",
+          "explanation": "PM is responsible to the Lok Sabha. PM communicates to the President all decisions of the Council of Ministers relating to the administration of the Union. The PM and council of ministers are answerable to Parliament but responsible to Lok Sabha, as their existence depends on the majority there. 91st Amendment: total ministers including PM cannot exceed 15% of Lok Sabha members.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "A seat of M.P. can be declared vacant if he absents himself from the house for a continuous period of",
+          "options": {
+            "A": "Six months",
+            "B": "Two months",
+            "C": "Three months",
+            "D": "One year",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Article 100(4): If for a period of sixty days (two months) a member is without permission absent from all meetings, the House may declare his seat vacant. Note: BPSC went with option E; ideally the answer should be B (sixty days).",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Which bill sought to end the provision for the nomination of Anglo-Indians to the Lok Sabha and Assemblies?",
+          "options": {
+            "A": "The Constitution 125th Amendment Bill, 2019",
+            "B": "The Constitution 126th Amendment Bill, 2019",
+            "C": "The Constitution 124th Amendment Bill, 2019",
+            "D": "The Constitution 123rd Amendment Bill, 2017",
+            "E": "None of the above /More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Constitution 126th Amendment Bill 2019 ended nomination of Anglo-Indians to Lok Sabha and Assemblies. Also extended SC/ST reservation for 10 more years. Earlier: 2 Anglo-Indian nominated seats in LS, 1 in State Assemblies. Art.366 — defines Anglo-Indian; Art.331 — President nominates 2 to LS; Art.333 — Governor nominates 1 to Legislative Assembly. 104th CAA removed reserved seats for Anglo-Indians.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The Lok Sabha Secretariat comes under the direct supervision of the.",
+          "options": {
+            "A": "Ministry of parliamentary affairs",
+            "B": "Prime Minister's office",
+            "C": "Speaker of the Lok Sabha",
+            "D": "Ministry of Home Affairs",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Lok Sabha Secretariat functions under the direct control of the Speaker. Headquarters: Sansad Bhavan, New Delhi. Current Speaker: Om Birla (Kota-Bundi constituency, Rajasthan).",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who is the nominal head of the State Government?",
+          "options": {
+            "A": "The Chief Minister",
+            "B": "The Governor",
+            "C": "The Secretary to the Chief Minister",
+            "D": "The Chief Secretary",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "State executive provisions: Articles 153-167. Executive authority of a state is vested in the Governor, the constitutional head of the State. Governor is the nominal head; Chief Minister is the real head.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "The Chief Minister of Union Territory, where such a setup exists, is appointed by the",
+          "options": {
+            "A": "President",
+            "B": "Prime Minister",
+            "C": "Vice President",
+            "D": "Lieutenant Governor",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "According to Article 239AA clause(5), the Chief Minister of the Union Territory shall be appointed by the President. He is sworn in by the Lieutenant Governor of the Union Territory.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "The Rajya Sabha has equal powers with the Lok Sabha in",
+          "options": {
+            "A": "The matter of creating new All India Services(AIS)",
+            "B": "Amending the constitution",
+            "C": "The removal of the government",
+            "D": "Making cut motions",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "RS has equal powers with LS in: introduction & passage of ordinary bills; election and impeachment of the President; ordinance approval; and constitutional amendment bills. Creating new AIS is a SPECIAL power of RS alone. Removal of government and cut motions are LS-only powers.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which of the following special powers have been conferred on the Rajya Sabha by the Constitution of India?",
+          "options": {
+            "A": "To Change The Existing Territory Of A State And To Change The Name Of A State",
+            "B": "To Pass A Resolution Empowering The Parliament To Make Laws In The State List And To Create One Or More All India Services",
+            "C": "To Amend The Election Procedure Of The President And To Determine The Pension Of The President After His/Her Retirement",
+            "D": "To Determine The Functions Of The Election Commission And To Determine The Number Of Election Commissioners"
+          },
+          "answer": "B",
+          "explanation": "Special powers of Rajya Sabha: Under Art.249 — pass resolution (2/3 majority present & voting) empowering Parliament to legislate on State List; Under Art.312 — create new All-India Services common to Centre and states. These are powers unique to Rajya Sabha as permanent body representing states.",
+          "exam": "UPSC",
+          "year": "2012"
+        },
+        {
+          "q": "When a bill is Referred to a joint sitting both Houses of the Parliament, have to be passed by",
+          "options": {
+            "A": "A Simple Majority Of Member Present And Voting",
+            "B": "Three-Fourths Majority Of Member Present And Voting",
+            "C": "Two-Thirds Majority Of The House",
+            "D": "Absolute Majority Of The House"
+          },
+          "answer": "A",
+          "explanation": "A joint sitting resolves a deadlock (bill rejected by other House; Houses disagree on amendments; more than 6 months have elapsed). Bill is passed by simple majority of total members of both Houses present and voting. Applies to ordinary bills and financial bills only — NOT to money bills or constitutional amendment bills. Speaker of LS presides over joint sitting.",
+          "exam": "UPSC",
+          "year": "2015"
+        },
+        {
+          "q": "The Parliament of India acquires the power to legislate on any item in the State List in the national interest if a resolution to that effect is passed by the",
+          "options": {
+            "A": "Lok sabha by a simple majority of its total membership",
+            "B": "Lok sabha by a majority of not less than two-thirds of its total membership",
+            "C": "Rajya Sabha by a simple majority of its total membership",
+            "D": "Rajya Sabha by a majority of not less than two-thirds of its members present and voting"
+          },
+          "answer": "D",
+          "explanation": "Under Article 249, when Rajya Sabha passes a resolution by majority of not less than two-thirds of members present and voting, Parliament acquires the power to legislate on State List subjects in the national interest. Other circumstances: National Emergency (Art.250), states' request (Art.252), international agreements (Art.253), President's Rule (Art.356).",
+          "exam": "UPSC",
+          "year": "2016"
+        },
+        {
+          "q": "The representation in the Rajya Sabha includes",
+          "options": {
+            "A": "members indirectly elected by the citizens through their representatives",
+            "B": "members nominated by the President of India",
+            "C": "members directly elected by citizens",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Both A and B are correct. RS composition: max 250 — 238 representatives of states and UTs (elected indirectly) + 12 nominated by President. State representatives are elected by elected members of state legislative assemblies (indirect election). Nominated members have special knowledge in art, literature, science, social service. No directly elected members (option C is wrong).",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Comptroller & Auditor General (CAG) of India submitted its report related to the concerned state to?",
+          "options": {
+            "A": "Public Accounts Committee (PAC) of that state",
+            "B": "President",
+            "C": "Chief Minister of that state",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "CAG submits its report on state government accounts to the Governor of the state, who lays it before the state legislature. CAG's report on central accounts is submitted to the President, who lays it before Parliament. None of the given options is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Term of Chief Minister, as fixed by the constitution of India, is?",
+          "options": {
+            "A": "3 Years",
+            "B": "5 years",
+            "C": "10 years",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "The Constitution of India does NOT fix the term of the Chief Minister. A CM holds office during the pleasure of the Governor, but by convention continues as long as he commands the majority in the Legislative Assembly.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following committees has members from 'Lok Sabha' only?",
+          "options": {
+            "A": "Public Account Committee",
+            "B": "Estimate committee",
+            "C": "Appointment committee of cabinet",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The Estimates Committee has all 30 members from Lok Sabha only — Rajya Sabha has no representation. PAC has 22 members (15 LS + 7 RS — both houses).",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "The total number of members in the Legislative Council of a State having such a Council shall not exceed?",
+          "options": {
+            "A": "Half the total strength of the Legislative Assembly",
+            "B": "One-third of the total strength of the Legislative Assembly",
+            "C": "One-fourth of the total strength of the Legislative Assembly",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Under Article 171, the total number of members of the Legislative Council shall not exceed one-third of the total number of members of the Legislative Assembly. However, the total shall in no case be less than forty.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Judiciary",
+      "questions": [
+        {
+          "q": "Judicial process in India is based on",
+          "options": {
+            "A": "The constitution",
+            "B": "The due process of routine law",
+            "C": "Conventions",
+            "D": "The procedure established by law",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Judicial process in India is based on the procedure established by law, constitution, conventions, AND the due process of routine law — all of the above. Chapter IV under Part V deals with the Union Judiciary. If SC finds any law not up to constitutional provisions, it declares it null and void.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The Supreme Court is a",
+          "options": {
+            "A": "Protector of human rights",
+            "B": "Final interpreter of the constitution",
+            "C": "Civil court",
+            "D": "Federal court",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The SC is all four: Protector of human rights; Final Interpreter of the Constitution (Art.147); Civil court (Art.133); and Federal court (Art.135). All options are correct, so E (more than one of the above) is the answer.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "What is the retirement age of the Judges of the Supreme Court?",
+          "options": {
+            "A": "60 years",
+            "B": "62 years",
+            "C": "65 years",
+            "D": "70 years",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "C",
+          "explanation": "Article 124(2): SC judges retire at 65. Appointed by President. Can resign by writing to the President. High Court judges retire at 62 (Article 217(1)); also resign by writing to the President.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "A Judge of the Supreme Court may resign his office by writing to",
+          "options": {
+            "A": "The President",
+            "B": "The Prime Minister",
+            "C": "The Law Minister",
+            "D": "The Attorney General of India",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A Judge of the Supreme Court can resign by writing a letter to the President, in accordance with Article 124 of the Constitution.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Who appoints the judges of the Supreme Court of India?",
+          "options": {
+            "A": "The Prime Minister",
+            "B": "The President",
+            "C": "The Chief Justice of India",
+            "D": "The Ombudsman",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Article 124(2): Every Judge of the SC shall be appointed by the President by warrant under his hand and seal after consultation with such Judges of SC and High Courts as the President may deem necessary. They hold office until age 65. Articles 124-147 lay down composition and jurisdiction of SC. Sanctioned judge strength: 33 + 1 CJI.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "To review the financial position of panchayats, the state Govt. Constitutes every five years a/an",
+          "options": {
+            "A": "finance committee",
+            "B": "advisory commission",
+            "C": "advisory committee",
+            "D": "finance commission",
+            "E": "none of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Article 243I(1): State Finance Commission is established by the Governor after every five years to look into the financial conditions of Panchayats.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Which one of the following constitutional remedies is also known as 'postmortem'?",
+          "options": {
+            "A": "Prohibition",
+            "B": "Mandamus",
+            "C": "Certiorari",
+            "D": "Quo Warranto",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Quo Warranto ('by what authority') is issued to enquire into the legality of a claim of a person to a public office. It is known as 'post-mortem' because it examines the person AFTER his complete appointment. Note: Ideally the answer should be D (Quo Warranto) but BPSC gave option C (Certiorari).",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "What is meant by 'Rule of Law'?",
+          "options": {
+            "A": "One act for all and one judiciary for all",
+            "B": "One act for all and one state for all",
+            "C": "One state for all and one judiciary for all",
+            "D": "All act for one and one judiciary for all",
+            "E": "None of the above /more than one"
+          },
+          "answer": "A",
+          "explanation": "Rule of law means no man is above the law and every person is subject to the jurisdiction of ordinary courts irrespective of position and rank. Term taken from England. Not defined in Constitution but used by Indian judiciary. Declared by SC as one of the basic features of the Constitution — cannot be amended.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "The concept of Public Interest Litigation originated in",
+          "options": {
+            "A": "United Kingdom",
+            "B": "USSR",
+            "C": "Australia",
+            "D": "United States of America",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "PIL originated in the United States. In India, PIL can be filed in SC (Art.32) or High Court (Art.226).",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "At present what can be the total number of judges (including the CJI) in the Supreme Court?",
+          "options": {
+            "A": "30",
+            "B": "31",
+            "C": "32",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "Sanctioned judge strength of the SC is 34 (33 Judges + 1 CJI). None of the given options (30, 31, 32) is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "If there is any dispute between two or more states: it comes under which jurisdiction of the Supreme Court?",
+          "options": {
+            "A": "Original Jurisdiction",
+            "B": "Special leave Jurisdiction",
+            "C": "Advisory jurisdiction",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Disputes between two or more states fall under the Original Jurisdiction of the Supreme Court — heard for the first time.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which among the following writs can be issued against a private individual?",
+          "options": {
+            "A": "Mandamus",
+            "B": "Prohibition",
+            "C": "Habeas Corpus",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Habeas Corpus can be issued against both public authorities and private individuals. Mandamus, Prohibition, and Certiorari cannot be issued against private individuals or bodies. Quo-Warranto cannot be issued for ministerial or private offices.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "The writ of mandamus is available for which of the purposes: I. Directing a public official or the government not to enforce a law that is unconstitutional; II. Enforcement of Fundamental Rights; III. Compelling a court or Judicial tribunal to exercise its jurisdiction when it has refused to exercise it",
+          "options": {
+            "A": "I, II, III",
+            "B": "Only I and II",
+            "C": "Only II and III",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Mandamus ('we command') is available for all three purposes: directing enforcement of constitutional law, enforcement of Fundamental Rights, and compelling a court to exercise jurisdiction when refused.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Panchayati Raj",
+      "questions": [
+        {
+          "q": "The system of Panchayati Raj is mentioned in",
+          "options": {
+            "A": "the Union List",
+            "B": "the State List",
+            "C": "the Concurrent List",
+            "D": "None of the above/More than one of the above",
+            "E": "More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Panchayat ('Local government') is a State subject — State list, Seventh Schedule. Panchayati Raj inaugurated by Nehru on 2 October 1959 at Nagaur, Rajasthan. State list: 61 subjects; Union list: 97 subjects; Concurrent list: 52 subjects.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Who introduced the concept of Panchayati Raj in India?",
+          "options": {
+            "A": "Ashok Mehta",
+            "B": "Balwant Rai Mehta",
+            "C": "J. K. Mehta",
+            "D": "Hasmukhbhai Mehta",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Balwant Rai Mehta is the father of Panchayati Raj. Chairman of committee appointed on 16 January 1957. Recommended three-tier system: Zila Parishad (district), Panchayat Samiti (block), Gram Panchayat (village). Recommended decentralization system. Article 40 (DPSP) deals with significance of panchayati system. Note: BPSC official key gave A but answer should be B.",
+          "exam": "Project Manager BPSC",
+          "year": ""
+        },
+        {
+          "q": "The Decentralization System was recommended by",
+          "options": {
+            "A": "C. Rajagopalachari",
+            "B": "J.B. Kripalani",
+            "C": "Balwant Rai Mehta",
+            "D": "Ashok Mehta"
+          },
+          "answer": "C",
+          "explanation": "Balwant Rai Mehta Committee (1957) recommended the 'democratic decentralisation' scheme that came to be known as Panchayati Raj.",
+          "exam": "BPSC",
+          "year": "56-59th"
+        },
+        {
+          "q": "Which of the following is not a part of the Eleventh Schedule of the Constitution?",
+          "options": {
+            "A": "Libraries",
+            "B": "Fuel and fodder",
+            "C": "Rural sports",
+            "D": "Technical training",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The 11th Schedule (29 subjects, added by 73rd Amendment 1992) includes Libraries, Fuel and fodder, and Technical training. Rural sports is NOT in the 11th Schedule.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "How many subjects were put under the administrative control of Panchayat by the 73rd Amendment Act, 1992, eleventh schedule (article 243 G)?",
+          "options": {
+            "A": "12 subjects",
+            "B": "16 subject",
+            "C": "22 subject",
+            "D": "29 subject",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "73rd Amendment 1992 added Part IX (16 Articles) and the Eleventh Schedule containing 29 subjects under panchayats' administrative control. Art.243H: State Legislature empowered to make provisions for taxes by panchayat. Tenure of panchayat: 5 years. Bihar enacted Bihar Panchayat Raj Act 1993 after 73rd Amendment.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The legislative origins of the 73rd Constitutional Amendment Act can be traced back to which constitutional amendment bill?",
+          "options": {
+            "A": "61st Constitutional Amendment Bill",
+            "B": "62nd Constitutional Amendment Bill",
+            "C": "63rd Constitutional Amendment Bill",
+            "D": "64th Constitutional Amendment Bill",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "Constitution 64th Amendment Bill 1989 introduced by PM Rajiv Gandhi provided constitutional status to PRIs but was strongly opposed and not passed. Panchayati Raj Day: 24th April (73rd Amendment Act 1992 came into force in 1993).",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Match List I (Panchayati Raj Committee) with List II (Year): a. C.H. Hanumantha Rao, b. G.V.K. Rao, c. Ashok Mehta, d. L.M. Singhvi, e. Balwant Rai Mehta; 1. 1985, 2. 1986, 3. 1984, 4. 1957, 5. 1978",
+          "options": {
+            "A": "(a-4),(b-5),(c-1),(d-3),(e-2)",
+            "B": "(a-2),(b-4),(c-1),(d-3),(e-5)",
+            "C": "(a-5),(b-3),(c-2),(d-4),(e-1)",
+            "D": "(a-3),(b-1),(c-5),(d-2),(e-4)",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Correct matching: Balwant Rai Mehta (1957) — three-tier system; Ashok Mehta (1978) — two-tier system; Hanumantha Rao (1984) — District Planning; GVK Rao (1985) — regular elections to PRIs; LM Singhvi (1986) — constitutional recognition to PRIs. Thungon Committee (1988) — financial autonomy of PRIs. First district to implement Panchayati Raj: Nagaur, Rajasthan (1959).",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which one of the following Committees/Commissions recommended the creation of Nyaya Panchayats?",
+          "options": {
+            "A": "Balwant Rai Mehta Committee",
+            "B": "Ashok Mehta Committee",
+            "C": "GVK Rao Committee",
+            "D": "Sarkaria Commission",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Ashok Mehta Committee (1977-78): 132 recommendations including Nyaya Panchayats as separate bodies presided over by a qualified judge; two-tier system; political parties participation; constitutional protection to PRIs; compulsory taxation powers. Not implemented due to fall of Janata government. Sarkaria Commission (1983): Centre-State relations; recommended permanent Interstate Council under Art.263; final report published October 1987.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "The Panchayati Raj system in India was started in which of the following states after Rajasthan?",
+          "options": {
+            "A": "Kerala",
+            "B": "Uttar Pradesh",
+            "C": "Andhra Pradesh",
+            "D": "Gujarat",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Nagaur District, Rajasthan: first to adopt Panchayati Raj in October 1959. Second state: Andhra Pradesh in 1959.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which article gives the list of 29 functions to be performed by the Panchayati Raj Institutions?",
+          "options": {
+            "A": "Article 243(H)",
+            "B": "Article 243(E)",
+            "C": "Article 243(F)",
+            "D": "Article 243(G)",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "Article 243G: powers, authorities, and responsibilities of panchayats. The 29 subjects placed under panchayats are in the 11th Schedule (Article 243G).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The Panchayati Raj subject belongs to which of the following?",
+          "options": {
+            "A": "Union list",
+            "B": "State list",
+            "C": "Concurrent list",
+            "D": "Article 316",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Panchayat is a State subject — State list, Seventh Schedule.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which of the following was constituted under the Panchayati Raj System?",
+          "options": {
+            "A": "Khap Panchayat",
+            "B": "Caste Panchayat",
+            "C": "Gram Panchayat",
+            "D": "Jan Panchayat",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 243B: every state should implement Gram Panchayat at village level. Three levels: Gram Panchayat (village), Mandal Samiti/Block panchayat (block), Zila Parishad (district). 73rd Amendment provides for reservation of posts for women.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following functions is not the concern of Local Self-government?",
+          "options": {
+            "A": "Public Health",
+            "B": "Sanitation",
+            "C": "Public Utility Services",
+            "D": "Maintenance of Public Order",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "11th Schedule (Art.243G): 29 functional items of PRI. Maintenance of Public Order comes under the State list — NOT a PRI function.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "50% reservation for women in Panchayati Raj Institutions is legalized in certain states such as I. Bihar; II. Uttarakhand; III. Madhya Pradesh; IV. Himachal Pradesh",
+          "options": {
+            "A": "Only III",
+            "B": "Only II and III",
+            "C": "II, III, and IV",
+            "D": "I, II, III, and IV",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "D",
+          "explanation": "21 States including Bihar, Uttarakhand, Madhya Pradesh, and Himachal Pradesh have made provisions for 50% reservation for women in PRIs. Article 243D(3) mandates at least one-third reservation for women in PRIs.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "A Panchayat Samiti at the block level in India is only a/an",
+          "options": {
+            "A": "Advisory Body",
+            "B": "Consultative Committee",
+            "C": "Co-ordinating and Supervisory Authority",
+            "D": "Administrative Authority",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Panchayat Samiti is a link between Gram Panchayat and Zila Parishad — 'Panchayat of panchayats'. Local government body at tehsil/Taluka level. Note: Ideally the answer should be D (Administrative Authority) but BPSC gave C.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Consider the following statements: In the post-73rd Amendment era, there has to be decentralization of: 1. decision-making powers; 2. system as a whole; 3. judicial powers; 4. administrative powers. Which of the above statements is correct?",
+          "options": {
+            "A": "1, 2, and 4 only",
+            "B": "2, 3, and 4 only",
+            "C": "1, 2, and 3 only",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "73rd Amendment provides decentralization of: Decision-making Power (Art.243G); Administrative powers (Governor appoints CEO of Zilla Parishad); Financial powers (State Finance Commission — Art.243I); System as a whole (third layer of executive created). Does NOT address judicial decentralization — India has three levels: SC, High Courts, Subordinate Courts.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The minimum age for contesting elections to the Panchayati Raj Institutions should be how many years according to the 73rd Constitutional Amendment Act?",
+          "options": {
+            "A": "25 years",
+            "B": "18 years",
+            "C": "21 years",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "73rd Amendment: 21 years is the minimum age for contesting elections to panchayats. Compulsory provisions: Gram Sabha organization; panchayats at three levels; direct elections; reservation for SC/ST and 1/3 for women; 5-year tenure; fresh elections within 6 months of supersession; State Election Commission; State Finance Commission every 5 years.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "By which of the following constitutional amendments the women got reservations in the Panchayati Raj Institutions?",
+          "options": {
+            "A": "42nd",
+            "B": "65th",
+            "C": "73rd",
+            "D": "None of the Above"
+          },
+          "answer": "C",
+          "explanation": "73rd Constitutional Amendment Act, 1992 provided for reservation of not less than one-third of seats (both members and chairpersons) for women in panchayats at all three levels.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": ""
+        },
+        {
+          "q": "Third-tier of government was added through which constitutional amendment act?",
+          "options": {
+            "A": "42nd amendment act",
+            "B": "44th amendment act",
+            "C": "73rd amendment act",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "73rd Constitutional Amendment Act 1992 constitutionalized Panchayati Raj Institutions — came into force 24th April 1993, celebrated as Panchayati Raj Day.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Who shall be consulted before making the acquisition of land in the Scheduled Areas for development projects?",
+          "options": {
+            "A": "Governor",
+            "B": "Chief Minister",
+            "C": "Gram Sabha",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Gram Sabha must be consulted before land acquisition in Scheduled Areas for development projects — provided under the PESA Act 1996.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following elections are not conducted by the Election Commission of India?",
+          "options": {
+            "A": "Parliament",
+            "B": "State legislatures",
+            "C": "Municipal bodies",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Municipal bodies' elections are conducted by the State Election Commission (74th Amendment), NOT the Election Commission of India. Parliament and State legislature elections are conducted by ECI (Article 324). Panchayat elections are also conducted by State Election Commissions.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Head & Deputy Head of urban local bodies (ULB) in recently conducted elections in Bihar was done via?",
+          "options": {
+            "A": "Direct election",
+            "B": "Election through Municipal Councilor",
+            "C": "Indirect election",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "In Bihar, the Head and Deputy Head of Urban Local Bodies were elected via Direct election in recently conducted elections.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Constitutional and Non-Constitutional Bodies",
+      "questions": [
+        {
+          "q": "Under which one of the following Articles is the formation of the Finance Commission laid down?",
+          "options": {
+            "A": "Article 280",
+            "B": "Article 269",
+            "C": "Article 268",
+            "D": "Article 265",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 280: Finance Commission constituted by President. NK Singh: chairman of 15th Finance Commission. Art.269: taxes levied and collected by Union but assigned to States. Art.268: taxes levied by Union but collected and appropriated by States (stamp duties, excise on medicinal/toilet preparations). Art.265: no tax shall be levied except by authority of law.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "With Reference to the finance commission of India consider the following statements: 1. The finance commission is a statutory body. 2. The finance commission was set up under Article 280 of the constitution. 3. The recommendations made by the finance commission are only advisory in nature. 4. The first finance commission was set up in 1950. Which of the above statements is correct?",
+          "options": {
+            "A": "1 and 4 only",
+            "B": "3 and 4 only",
+            "C": "2 and 3 only",
+            "D": "2 and 4 only",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Statements 2 and 3 are correct: Finance Commission was set up under Article 280 (correct), and its recommendations are only advisory in nature (correct). Statement 1 is incorrect: Finance Commission is a Constitutional body (quasi-judicial), not just a statutory body. Statement 4 is incorrect: First Finance Commission was constituted in 1951 (not 1950), with K.C. Neogy as Chairman. Fifteen Finance Commissions so far.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which article of the Indian Constitution is related to the establishment of the Election Commission of India?",
+          "options": {
+            "A": "Article 324",
+            "B": "Article 148",
+            "C": "Article 342",
+            "D": "Article 325",
+            "E": "None of the above /more than one"
+          },
+          "answer": "A",
+          "explanation": "Article 324: Superintendence, direction, and control of elections vested in an Election Commission. ECI established 1950. First CEC: Sukumar Sen. Rajiv Kumar: 25th CEC. Art.148: CAG appointed by President. Art.342: President may specify tribes or tribal communities. Art.325: No person ineligible for electoral roll on grounds of religion, race, caste, or sex.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Who was the first Chairman of the Backward Classes Commission?",
+          "options": {
+            "A": "Jagjivan Ram",
+            "B": "Kaka Saheb Kalelkar",
+            "C": "B. D. Sharma",
+            "D": "B. R. Ambedkar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "First Chairman of Backward Class Commission: Kaka Saheb Kalelkar, appointed under Article 340 on 29 Jan 1953. National Commission for Backward Classes set up in 1993 as a statutory body. 102nd Amendment Act 2018 inserted Article 338-B, giving constitutional status to NCBC.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The Chairman of the State Public Service Commission is appointed by",
+          "options": {
+            "A": "The Chairman of the Union Public Service Commission",
+            "B": "The President of India",
+            "C": "The Governor of the State",
+            "D": "The Chief Minister",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "SPSC Chairman is appointed by the Governor but can be removed only by the President. Term: 6 years or 62 years. Not eligible for reappointment. Resignation submitted to Governor. SPSC is a constitutional body. Articles 315-323 in Part XIV. Art.315 (establishment), Art.316 (appointment & term), Art.317 (removal & suspension), Art.320 (functions), Art.323 (reports).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The appointment of the Chief Election Commissioner is done by",
+          "options": {
+            "A": "The Chief Justice of India",
+            "B": "The Lok Sabha speaker",
+            "C": "The President",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The Chief Election Commissioner is appointed by the President of India under Article 324.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Consider the following Statements: (i) The Public Account Committee consists of members from both houses of Parliament. (ii) The Committee on Public Undertaking consists of 22 members. (iii) Public Account Committee is also described as the 'Continuous Economy Committee'. Which of the above statement is/are Correct?",
+          "options": {
+            "A": "i only",
+            "B": "i and ii only",
+            "C": "iii only",
+            "D": "More than one of the above",
+            "E": "None of the Above"
+          },
+          "answer": "B",
+          "explanation": "Statements i and ii are correct: (i) PAC has 22 members — 15 from LS + 7 from RS (both houses). (ii) Committee on Public Undertakings has 22 members (15 LS + 7 RS). Statement iii is incorrect: Estimates Committee (not PAC) is the 'Continuous Economy Committee'.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Constitutional status and protection to 'Cooperative societies' was given under which constitutional amendment Act?",
+          "options": {
+            "A": "52nd Amendment Act",
+            "B": "73rd Amendment Act",
+            "C": "74th Amendment Act",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "Constitutional status to Cooperative Societies was given under the 97th Constitutional Amendment Act, 2011, which inserted Article 43B in DPSPs. None of the options (52nd, 73rd, 74th) is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Recently the Supreme Court of India upheld the EWS reservation; which of the following CAA is related to EWS reservation?",
+          "options": {
+            "A": "101st CAA",
+            "B": "102nd CAA",
+            "C": "103rd CAA",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "103rd Constitutional Amendment Act, 2019 introduced EWS (Economically Weaker Sections) reservation of 10% in education and government jobs. SC upheld this in 2022.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "chapter_name": "Miscellaneous",
+      "questions": [
+        {
+          "q": "What is the objective of community development?",
+          "options": {
+            "A": "Build human capital",
+            "B": "Environment protection",
+            "C": "Harmonious life",
+            "D": "Economic development",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Community Development Programme (CDP), initiated in 1952, aims for holistic development of rural community life. Since all options (build human capital, environment protection, harmonious life, economic development) are objectives of CDP, E (more than one) is correct.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Who was the chairman of the 1st law commission in Independent India?",
+          "options": {
+            "A": "Justice V.K.Sundram",
+            "B": "Justice T.V.Venkatarama Aiyar",
+            "C": "Mr.M.C.Setalvad",
+            "D": "Justice.J.L.Kapoor",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "First Law Commission of Independent India: established 1955, Chairman Mr M. C. Setalvad. Law Commission is neither a constitutional nor statutory body — advisory body to Ministry of Law and Justice. Chairman of 22nd Law Commission: Justice Rituraj Awasthi (former CJ of Karnataka HC).",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "If 'One Nation One Election' is to be realized in India, which article of Indian Constitution will require an amendment?",
+          "options": {
+            "A": "Article 172",
+            "B": "Article 356",
+            "C": "Article 246",
+            "D": "Article 83",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "For One Nation One Election, multiple articles require amendment: Art.83 (term of Lok Sabha — five years), Art.172 (term of Legislative Assembly — five years), Art.356 (President's Rule). The Representation of the People Act also needs amendment. Hence E (more than one) is correct.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "The division of each state into territorial constituencies for the Lok Sabha is done by the Delimitation Commission. This delimitation has been frozen till which year?",
+          "options": {
+            "A": "2025",
+            "B": "2026",
+            "C": "2027",
+            "D": "2024",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Delimitation frozen by the 84th Constitutional Amendment 2002 till the first Census after 2026. Current boundary based on 2001 Census; number of Lok Sabha and State Assembly seats decided based on 1971 Census.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "What was the purpose of the Citizenship (Amendment) Act, of 2019?",
+          "options": {
+            "A": "To remove Bangladeshi illegal immigrants",
+            "B": "To identify genuine Indian citizens",
+            "C": "To check border infiltration by foreigners",
+            "D": "To grant citizenship to persecuted minority groups of Afghanistan, Bangladesh, and Pakistan",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "CAA 2019 grants citizenship to persecuted minority groups from Afghanistan, Bangladesh, and Pakistan — Hindus, Buddhists, Sikhs, Jains, Parsis, and Christians.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "In which year was the railway budget merged with the general budget in India?",
+          "options": {
+            "A": "2015",
+            "B": "2016",
+            "C": "2017",
+            "D": "2018",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Railway budget merged with general budget in 2017 (from budget year 2017-18), based on recommendations of the Bibek Debroy Committee.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The 'Split System' in the Indian administration relates to?",
+          "options": {
+            "A": "Audit/Accounts",
+            "B": "Union/States",
+            "C": "Policy/Implementation",
+            "D": "All India Services/Central services",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Split System relates to formation of Policy and its Implementation. Policies are formulated by the legislature (Parliament — Lok Sabha + Rajya Sabha); implementation is done by the executive.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The first 'Lokayukta' was established in which of the following states?",
+          "options": {
+            "A": "Odisha",
+            "B": "Kerala",
+            "C": "Maharashtra",
+            "D": "Punjab",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "First Lokayukta established in Maharashtra through The Lokayukta and Upa-Lokayuktas Act 1971. M.N. Venkatachaliah Commission recommended appointment of Lokpal and Lokayuktas and also recommended PM be kept out of the ambit.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which of the following posts was held by A. S. Anand in the late 1990s?",
+          "options": {
+            "A": "Comptroller and auditor general",
+            "B": "Chief Justice of India",
+            "C": "Chief vigilance commissioner",
+            "D": "Attorney general",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Adarsh Sein Anand was the 29th Chief Justice of India (10 October 1998 to 31 October 2001). Author of 'The Constitution of Jammu and Kashmir — Its Development and Comments'. Honored with Padma Vibhushan. Note: 50th CJI is Dr. Justice D Y Chandrachud.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "In Which year was the 'National Extension Service' launched?",
+          "options": {
+            "A": "1953",
+            "B": "1957",
+            "C": "1960",
+            "D": "1972",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "National Extension Service launched in 1953, after the CDP of 1952. Government realised CDP couldn't be implemented everywhere due to shortage of money. Balwant Rai Mehta Committee formed in 1957 to examine CDP and NES, eventually leading to Panchayati Raj system.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which of the following is a parliamentary committee relating to the delegation of power to make rules and regulations to the executive?",
+          "options": {
+            "A": "Committee on executive legislation",
+            "B": "Committee on subordinate legislation",
+            "C": "Committee on Administrative legislation",
+            "D": "Committee on delegated legislation",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Committee on Subordinate Legislation: scrutinizes and reports to the House whether powers to make regulations, rules, and bye-laws delegated by Parliament to the executive are being properly exercised.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Article 300 of the Indian constitution deals with?",
+          "options": {
+            "A": "Suits and proceedings",
+            "B": "Government contracts",
+            "C": "Attorney general",
+            "D": "Restrictions on trade and commerce",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 300 deals with Suits and proceedings — the Government of India may sue or be sued in its name, and Government of a State may sue or be sued in its name.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which one of the following is not the characteristic of decentralization?",
+          "options": {
+            "A": "Autonomy",
+            "B": "People's Participation",
+            "C": "To instill non-confidence among local communities",
+            "D": "To empower local communities",
+            "E": "None of the above /more than one"
+          },
+          "answer": "C",
+          "explanation": "Instilling non-confidence is NOT a characteristic of decentralization. Democratic decentralization: citizens have the right to hold local public officials accountable through elections, grievance meetings, etc. It strengthens transparency, accountability, and citizen participation.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which act is not a landmark in the development of the Constitution during British Rule?",
+          "options": {
+            "A": "The Regulating Act, 1773",
+            "B": "The Charter Act, 1833",
+            "C": "The Government of India Act,1919",
+            "D": "The Protection of Civil Rights Act, 1955",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "The Protection of Civil Rights Act 1955 was enacted after Independence — NOT during British Rule. Regulating Act 1773, Charter Act 1833, and Government of India Act 1919 are all landmarks during British Rule.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which one among the following is not an objective of food management in India?",
+          "options": {
+            "A": "Distribution of food grains",
+            "B": "Procurement of food grains",
+            "C": "Maintenance of food grains buffer stock",
+            "D": "Export of grain",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "Export of grain is NOT an objective of food management. Major objectives: procurement from farmers at remunerative prices; distribution to vulnerable sections at affordable prices; maintenance of food buffer stock for food security and price stability. Nodal agency: Food Corporation of India (FCI), set up under Food Corporation Act 1964.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The supreme court's judgment of Indra Sawhney Vs. Union of India case is related to which issue?",
+          "options": {
+            "A": "Regarding the issue of OBC reservation in government employment",
+            "B": "Basic Structure Theory",
+            "C": "Approve the reservation in promotion for SC",
+            "D": "Extended reservation for ST",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Indra Sawhney case (Mandal Commission case) 1992: SC upheld 27% quota for OBCs and imposed 50% cap on total reservation. Introduced concept of 'creamy layer'. Reservation limited to initial appointments, not extended to promotions. First Backward Commission (1953): 'Kelkar Commission'. Second (1979): 'Mandal Commission' — recommended 27% OBC reservation. 102nd CAA 2018: constitutional status to NCBC.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "To be recognized as the National Party in India, a party must have secured at least a percentage of votes in the previous election.",
+          "options": {
+            "A": "At least 10% of valid votes in four or more states",
+            "B": "At least 4% of valid votes in four or more states",
+            "C": "At least 15% of valid votes in two states",
+            "D": "At least 6% of valid votes polled in any four or more states",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "A party is a national party if it: (1) secures 6% of valid votes in 4+ states AND wins 4 Lok Sabha seats; OR (2) wins 2% of LS seats from 3 states; OR (3) is a state party in 4 states. Option D is incomplete (mentions 6% but omits the 4 LS seats requirement). ECI reviews status every 10 years (formerly 5). Hence E is correct.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Aam Aadmi Party is a",
+          "options": {
+            "A": "State party",
+            "B": "National party",
+            "C": "Regional Party",
+            "D": "Registered Party",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "AAP was founded in November 2012 by Arvind Kejriwal after the Anna Andolan. Election symbol: broom. Criteria for state party: (1) 6% vote share in last assembly election; (2) One LS seat + 6% vote share; (3) 3% of assembly seats or 3 seats. Note: AAP later became a national party after Gujarat 2022 polls. At that time six national parties: BJP, Congress, NPP, CPM, BSP, AAP.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "What is the objective of Community Development Programmes?",
+          "options": {
+            "A": "Providing educational facilities",
+            "B": "Improving standards of living",
+            "C": "Political training",
+            "D": "Helping villages in planning",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "CDP launched 1952 for overall development of rural areas with people's participation. Elements: Farm, Home, Public service, village community; Specific: improvement in crop/animal production, living conditions, health, education. Multiple options (A, B, D) are correct objectives, so E (more than one) is correct.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Prevention of cruelty to animals is listed in which List of the Indian Constitution?",
+          "options": {
+            "A": "Union List",
+            "B": "State List",
+            "C": "Concurrent List",
+            "D": "Preamble",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "'Prevention of cruelty to animals' is entry 17 in the Concurrent List (List-III) of the Seventh Schedule. Both Union and State Governments can legislate on it. Concurrent list: 52 items including Preventive Detention, Marriage & Divorce, Bankruptcy, Forests, Trade Unions, Stamp duties.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "In which one of the following years was the Sarkaria Commission, which was empowered to recommend changes in Centre-State relations, submitted its report?",
+          "options": {
+            "A": "1983",
+            "B": "1984",
+            "C": "1985",
+            "D": "1987",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "As per official BPSC answer key, D (1987). Note: Ideally E, as Sarkaria Commission submitted its 1600-page report in January 1988. Commission constituted 1983 with Justice R S Sarkaria as chairman, Shri B. Sivaraman and Dr. S.R. Sen as members. Other Centre-State committees: Raja Mannar committee (1969), Administrative Reform Commission 2nd (2005), Punchhi Commission (2007).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which one of the following Indian states has the largest number of members in its State Legislature?",
+          "options": {
+            "A": "Arunachal Pradesh",
+            "B": "Himachal Pradesh",
+            "C": "Manipur",
+            "D": "Meghalaya",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Himachal Pradesh has the largest State Legislature among the given options — 68 seats. Arunachal Pradesh, Manipur, and Meghalaya each have 60 seats. Bicameral states: Bihar, Andhra Pradesh, Telangana, Karnataka, Maharashtra, Uttar Pradesh.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "In the Indian Order of Precedence, who amongst the following comes first?",
+          "options": {
+            "A": "The Chairman of UPSC",
+            "B": "The Chief Election Commissioner",
+            "C": "The Comptroller and Auditor General",
+            "D": "The Chief Justice of the High Court",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Chairman of UPSC, Chief Election Commissioner, and CAG all hold position 9A in the Indian Order of Precedence — same level. Chief Justice of High Court is at position 9 (before 9A). Since all three options A, B, C are at the same level, none 'comes first' among them, hence E is correct. Official BPSC answer: A.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Who amongst the following is a land record officer?",
+          "options": {
+            "A": "Patwari",
+            "B": "Lambardar",
+            "C": "Zamindar",
+            "D": "Zaildar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Patwari is the land record officer at Subdivision or tehsil level. He is a link between the village and the government, the lowest state functionary in the revenue collection system, and maintains the record of ownership and tilling.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The expression 'Socialist' was introduced in the Preamble of the Indian Constitution by which amendment?",
+          "options": {
+            "A": "42nd amendment",
+            "B": "44th Amendment",
+            "C": "46th Amendment",
+            "D": "74th Amendment",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "42nd CAA 1976 ('mini constitution') added three words — Socialist, Secular, and Integrity — to the Preamble. Changed 'sovereign democratic republic' to 'sovereign socialist secular democratic republic' and 'unity of the nation' to 'unity and integrity of the nation'. Also added Fundamental Duties (Art.51A), introduced Central Administrative Tribunal, made advice of Council of Ministers binding on President.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Constitution Day of India is celebrated on",
+          "options": {
+            "A": "26th October",
+            "B": "26th November",
+            "C": "26th January",
+            "D": "15th August",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Constitution Day (Samvidhan Diwas) is celebrated on 26th November. On 26th November 1949, the Constituent Assembly adopted the Constitution; it came into force on 26 January 1950. Ministry of Social Justice notified this day to promote constitutional values. 26 November 1949 is also mentioned in the Preamble.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "Vote on Account is meant for",
+          "options": {
+            "A": "Vote on the report of CAG",
+            "B": "To meet unforeseen expenditure",
+            "C": "Appropriating funds pending the passing of the budget",
+            "D": "Budget",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Vote on Account: special provision by which government obtains Parliament's vote to withdraw money when budget for new financial year is not released or elections are underway with caretaker government. Normally valid for 2 months; during election year may be extended. Article 116 of the Constitution defines Vote on Account.",
+          "exam": "BPSC",
+          "year": "60-62nd"
+        },
+        {
+          "q": "In India, registration of political parties is done as per the provisions of the",
+          "options": {
+            "A": "Representation of People Act, 1951",
+            "B": "Election Commission in its proceeding of meetings",
+            "C": "Cabinet Committee on political affairs",
+            "D": "Parliament of India",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Registration of political parties is done under Section 29A of the Representation of People Act, 1951. ECI conducts free and fair elections (Article 324).",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "National Commission for Women was created by",
+          "options": {
+            "A": "Amending the constitution",
+            "B": "A decision of the Union Cabinet",
+            "C": "An order of the President of India",
+            "D": "An act passed by the parliament",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "National Commission for Women was created by the National Commission for Women Act, 1990 — a statutory body set up in January 1992. First Chairperson: Mrs. Jayanti Patnaik (31 January 1992). Current Chairperson: Ms. Rekha Sharma. Bihar State Women Commission Chairperson: Mrs. Ashwamedh Devi.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "In Which case did the Supreme Court of India adopt the doctrine of 'prospective overruling'?",
+          "options": {
+            "A": "Kehar Singh Vs Union of India",
+            "B": "Minerva Mills case",
+            "C": "Golak Nath vs State of Punjab",
+            "D": "Champakam Dorairajan vs State of Madras",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Doctrine of 'prospective overruling' first invoked in India in Golak Nath Vs State of Punjab by CJI K. S. Rao. Originates from American Judicial System — decision applies only in future, no retrospective effect. Minerva Mills: safety to Constitution's fundamental framework — Basic Structure doctrine. Kehar Singh: President's power under Art.72 subject to judicial review. Champakam Dorairajan: Fundamental Rights superior over DPSP.",
+          "exam": "AAO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The provision of amending the constitutional provision is given in",
+          "options": {
+            "A": "Part XIX, Article 356",
+            "B": "Part XX, Article 356",
+            "C": "Part XX, Article 368",
+            "D": "Part XXI, Article 368",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Procedure of amendment is laid down in Part XX (Article 368). This procedure maintains the sanctity of the Constitution and checks arbitrary power of Parliament.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Who was the chairman of the Provincial Constitution Committee of the Constituent Assembly?",
+          "options": {
+            "A": "Sardar Patel",
+            "B": "K. M. Munshi",
+            "C": "Surya Sen",
+            "D": "Bhulabhai Desai",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Constituent Assembly committees: Union Power Committee — Jawaharlal Nehru; Union Constitution Committee — Jawaharlal Nehru; Provincial Constitution Committee — Sardar Patel; Drafting Committee — Dr. B.R. Ambedkar; Advisory Committee on FRs, minorities and tribes — Sardar Patel.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "When was the Indian Parliamentary Group established?",
+          "options": {
+            "A": "1947",
+            "B": "1949",
+            "C": "1950",
+            "D": "1952",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Indian Parliamentary Group is an autonomous body formed in 1949 in pursuance of a motion adopted by the Constituent Assembly on 16 August 1948. It acts as a link between Parliament of India and Parliaments of the world.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which provision(s) of the Constitution came into force on 26th November 1949?",
+          "options": {
+            "A": "President power",
+            "B": "Center-State relation",
+            "C": "Citizenship, election, provisional Parliament",
+            "D": "Constitutional amendment",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Provisions relating to citizenship, elections, provisional Parliament, and temporary provisions came into force on November 26, 1949. The remaining provisions came into force on 26 January 1950.",
+          "exam": "Headmaster BPSC",
+          "year": ""
+        },
+        {
+          "q": "Who among the following worked as Finance Minister of India for the longest period?",
+          "options": {
+            "A": "C. D. Deshmukh",
+            "B": "Manmohan Singh",
+            "C": "P. Chidambaram",
+            "D": "Arun Jaitley",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "P. Chidambaram served as Union Minister of Finance four times — the longest period among all Finance Ministers of India.",
+          "exam": "Project Manager BPSC",
+          "year": ""
+        },
+        {
+          "q": "The ninth schedule was introduced in the constitution of India during the Prime Ministership of?",
+          "options": {
+            "A": "Jawaharlal Nehru",
+            "B": "Lal Bahadur Shastri",
+            "C": "Indira Gandhi",
+            "D": "Morarji Desai",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "1st Constitutional Amendment 1951 added the 9th Schedule — list of state and central laws that cannot be challenged in courts. Added during the tenure of Jawaharlal Nehru.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "The Supreme Commander of India's Defence Forces is the",
+          "options": {
+            "A": "Chief of Staff of the Indian Army",
+            "B": "President of India",
+            "C": "Prime Minister of India",
+            "D": "Defence Minister of India",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Supreme Commander of the Indian armed forces is the President. He/She is Supreme Commander of the Indian Navy, Army, and Air Force; appoints Chiefs of the three armed forces; can declare war or conclude peace, subject to Parliamentary approval.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Which Article of the Indian Constitution prescribes Hindi in Devanagari script as the official language of the Union?",
+          "options": {
+            "A": "341",
+            "B": "342",
+            "C": "343",
+            "D": "346",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 343(1): Hindi in Devanagari script shall be the official language of the Union. Art.343(2): continued use of English for 15 years (up to 25 Jan 1965). Art.343(3): Parliament may provide by law for continued use of English after 25 Jan 1965. Section 3(3): both Hindi and English shall be used for resolutions, general orders, rules, and administrative papers.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Which of the following describes India as a Secular State?",
+          "options": {
+            "A": "Fundamental Rights",
+            "B": "Ninth Schedule",
+            "C": "Fundamental Duties",
+            "D": "Preamble to the Constitution",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "After 42nd Amendment (1976), the word 'secular' was added to the Preamble. Articles 25-28 (Right to Freedom of Religion) also reflect the secular ethos. The primary description of India as a Secular State is in the Preamble.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "When did the community development program start in India?",
+          "options": {
+            "A": "2nd October 1950",
+            "B": "2nd October 1951",
+            "C": "2nd October 1952",
+            "D": "2nd October 1953",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Community Development Programme launched on 2nd October 1952 — first development programme in India. Objectives: development of material and human resources in rural areas; enhancement of local leadership; improve living standards; catalyze change in mindset.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "The Constitution of India was adopted by the",
+          "options": {
+            "A": "Governor-General",
+            "B": "British Parliament",
+            "C": "Constituent Assembly",
+            "D": "Parliament of India",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The Constitution of India was adopted by the Constituent Assembly on 26th November 1949 and came into force on 26th January 1950 to commemorate the idea of Purna Swaraj (1929). 26th November is celebrated as Constitution Day.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "The inspiration for 'Liberty, Equality, and Fraternity was derived from",
+          "options": {
+            "A": "American Revolution",
+            "B": "French Revolution",
+            "C": "Russian Revolution",
+            "D": "Chinese Revolution",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The ideals of Liberty, Equality, and Fraternity in the Preamble were adopted under inspiration from the French Revolution.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Under which schedule of the constitution of India, the transfer of tribal land to private parties for mining can be declared null and void?",
+          "options": {
+            "A": "Third Schedule",
+            "B": "Fifth Schedule",
+            "C": "Ninth Schedule",
+            "D": "Twelfth Schedule",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Fifth Schedule deals with Administration and Control of Scheduled Areas and Scheduled Tribes. SC in State of Andhra Pradesh case (1997) declared that transfer of tribal land to private parties for mining under the Fifth Schedule was null and void. Sixth Schedule: tribal areas of Assam, Tripura, Meghalaya, Mizoram.",
+          "exam": "District Art and Culture BPSC",
+          "year": ""
+        },
+        {
+          "q": "Under which Schedule of the Constitution of India can the transfer of tribal land to private parties for mining be declared null and void?",
+          "options": {
+            "A": "Third schedule",
+            "B": "Fifth Schedule",
+            "C": "Ninth Schedule",
+            "D": "Twelfth schedule"
+          },
+          "answer": "B",
+          "explanation": "Under the Fifth Schedule, transfer of tribal land to private parties for mining can be declared null and void (SC judgment in State of Andhra Pradesh case, 1997).",
+          "exam": "UPSC",
+          "year": "2019"
+        },
+        {
+          "q": "Cow slaughter was banned by law in Bihar in which year?",
+          "options": {
+            "A": "1948",
+            "B": "1949",
+            "C": "1954",
+            "D": "1955",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bihar Preservation and Improvement of Animals Act, 1955 prohibits slaughter of cow and calf. Article 48 (Gandhian DPSP) directs state to ban slaughter of cows, calves, milch and draught cattle. SC in 1958 held that complete prohibition on slaughter of cattle infringed upon the Fundamental Right of butchers to practice their trade.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who among the following has served as the Governor of Bihar twice?",
+          "options": {
+            "A": "Akhalaqur Rahman Kidwai",
+            "B": "Mohammad Yunus Saleem",
+            "C": "Mohammad Shafi Qureshi",
+            "D": "Zakir Hussain",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Akhlaqur Rahman Kidwai served as Governor of Bihar twice: 1979-1985 and 1993-1998. Also served as Governor of West Bengal and Haryana. Member of Rajya Sabha. Honored with Padma Vibhushan. Zakir Hussain and Ram Nath Kovind served as Governors of Bihar and later became Presidents of India.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who was the first non-congress Chief Minister of Bihar?",
+          "options": {
+            "A": "Karpoori Thakur",
+            "B": "Mahamaya Prasad Sinha",
+            "C": "Ram Sundar Das",
+            "D": "Lalu Prasad Yadav",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Mahamaya Prasad Sinha was the 5th Chief Minister of Bihar (March 1967 to January 1968) — the first non-congress government in Bihar. Member of 'Jan Kranti Dal'. Elected to 6th Lok Sabha from Patna constituency in 1977.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "How many maximum ministers, according to the law, can be appointed to the 243-Member of Bihar Assembly?",
+          "options": {
+            "A": "36",
+            "B": "37",
+            "C": "38",
+            "D": "39",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "As per 91st Constitutional Amendment, maximum number of ministers capped at 15% of total assembly strength. For Bihar (243 seats): 15% = ~36 ministers.",
+          "exam": "Project Manager BPSC",
+          "year": ""
+        },
+        {
+          "q": "Which of the following rights have not been declared as parts of Article 21?",
+          "options": {
+            "A": "Right to Sleep",
+            "B": "Right to Information",
+            "C": "Right to electricity",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Right to Information (covered under RTI Act 2005) and Right to electricity have NOT been declared parts of Article 21. Right to Sleep has been declared a part of Article 21 by the Supreme Court. Hence D (both B and C) is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following Articles promotes the idea of equal justice and provides free legal aid to the poor?",
+          "options": {
+            "A": "Article 38",
+            "B": "Article 39",
+            "C": "Article 39 A",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Article 39A (added by 42nd Amendment 1976) promotes equal justice and provides free legal aid to the poor. Art.38: state to promote welfare by securing a social order. Art.39: certain principles of policy to be followed.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following statements is correct about the term 'Equality' mentioned in the Preamble of the Constitution? I. It refers to the absence of any special privileges for any section of the society; II. The preamble embraces civic and economic equality; III. The Preamble embraces only Political equality.",
+          "options": {
+            "A": "Only I",
+            "B": "I and III",
+            "C": "Both I and II",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Statements I and II are correct. The Preamble embraces equality of status and of opportunity — covers civic and economic equality. Statement III is incorrect — it is NOT only political equality. Hence D (I and II correct) is the answer.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which among the following does not come under the Fundamental Duties of a citizen in India?",
+          "options": {
+            "A": "To protect and Improve the Natural Environment",
+            "B": "To develop scientific temper, humanism, and spirit of inquiry and reform",
+            "C": "To strive towards the abolition of untouchability",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Striving towards abolition of untouchability is NOT a Fundamental Duty under Article 51A. Abolition of untouchability is a Fundamental Right under Article 17. Fundamental Duties include protecting natural environment (g) and developing scientific temper (h).",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Matters of Inter-state river water disputes come under which Article?",
+          "options": {
+            "A": "Article-262",
+            "B": "Article-365",
+            "C": "Article-312",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Article 262 provides for adjudication of inter-state water disputes.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "India has borrowed the concept of Public Interest Litigation from which country?",
+          "options": {
+            "A": "The UK",
+            "B": "America",
+            "C": "Ireland",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "India borrowed the concept of PIL from America (United States). PIL can be filed in SC under Art.32 or High Court under Art.226.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "The first Lokpal Bill was introduced in the Parliament in the year",
+          "options": {
+            "A": "1971",
+            "B": "1967",
+            "C": "1968",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "The first Lokpal Bill was introduced in Parliament in 1968.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Consider the following statement(s): (i) The provisions related to Citizenship are covered under Part II of the constitution (Article 5-11). (ii) Indian Citizenship Act 1955 is based upon two principles- Jus Sanguinis and Jus Soli. (iii) Jus Sanguinis is the Law of Blood and Jus Soli is the Law of Soil. Which of the above statement(s) is/are correct?",
+          "options": {
+            "A": "i and ii",
+            "B": "Only ii",
+            "C": "ii and iii",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "All three statements are correct: (i) Citizenship in Part II (Articles 5-11); (ii) Indian Citizenship Act 1955 based on Jus Sanguinis and Jus Soli; (iii) Jus Sanguinis = Law of Blood, Jus Soli = Law of Soil.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following does not come under the state list? i. Public order; ii. Police; iii. Public Health and sanitation; iv. Taxes on mineral rights",
+          "options": {
+            "A": "Only i",
+            "B": "i, ii, and iii",
+            "C": "Only iv",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "All four — Public order, Police, Public Health and sanitation, and Taxes on mineral rights — are subjects in the State List. Hence E (None of the above — all are in State List) is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Provisions relating to the administration and control of scheduled areas and scheduled tribes come under which schedule?",
+          "options": {
+            "A": "Fourth Schedule",
+            "B": "Fifth Schedule",
+            "C": "Sixth Schedule",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Fifth Schedule deals with Administration and Control of Scheduled Areas and Scheduled Tribes. Sixth Schedule deals with administration of tribal areas in Assam, Tripura, Meghalaya, and Mizoram.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Schedule-Subject matter: (i) 5th schedule — Land Reforms; (ii) 10th schedule — Anti-defection law; (iii) 6th schedule — Provision related to tribal areas of some states; (iv) 7th schedule — Division of Power between the Union and the States. Which is/are not correctly matched?",
+          "options": {
+            "A": "i only",
+            "B": "ii and iii",
+            "C": "iii and iv",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Only (i) is incorrectly matched. Fifth Schedule deals with Administration and Control of Scheduled Areas and Scheduled Tribes, NOT Land Reforms (Land Reforms are in the Ninth Schedule). Statements (ii), (iii), (iv) are all correctly matched.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following fact(s) about Preamble is/are Incorrect?",
+          "options": {
+            "A": "The Preamble is neither a source of power to the legislature nor a prohibition upon the powers of the legislature.",
+            "B": "It is justiciable, that is, its provisions are enforceable in courts of law.",
+            "C": "The Preamble is a part of the Constitution.",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Statement B is incorrect. The Preamble is NOT justiciable — its provisions are not enforceable in courts. It is a part of the Constitution (confirmed in Kesavananda Bharati case) but it is non-justiciable.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "India is often referred to as a 'REPUBLIC'. What does Republic mean?",
+          "options": {
+            "A": "People have the supreme right to make decisions on internal as well as external matters.",
+            "B": "Citizens cannot be discriminated against on the grounds of caste, religion, and gender.",
+            "C": "The head of the state is an elected person and not a hereditary position.",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Republic means the head of the state is an elected person and not a hereditary position. In India, the President (head of state) is elected. Option A describes 'Sovereign'.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following systems represents the Indian electoral system?",
+          "options": {
+            "A": "Direct democracy",
+            "B": "First past the post system",
+            "C": "Autocracy",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Indian electoral system uses First Past The Post (FPTP) for Lok Sabha and State Assembly elections AND is a Representative Democracy (indirect democracy). Both features apply, so D (more than one) is correct.",
+          "exam": "",
+          "year": ""
+        },
+        {
+          "q": "Which of the following is incorrect about the 'Attorney General of India'?",
+          "options": {
+            "A": "He can appear for the Government of India in only the Supreme court",
+            "B": "He must be well qualified to become the Judge of the Supreme court",
+            "C": "K K Venugopal is the present Attorney General of India",
+            "D": "He is the highest law officer in the country",
+            "E": "None/more than one"
+          },
+          "answer": "E",
+          "explanation": "Both A and C are incorrect. A is incorrect: AG can appear for GoI not only in SC but also in any other court when the case is referred to him. C is incorrect: R Venkataramani (16th AG, 2022) is the present AG, not K K Venugopal. Options B and D are correct. Hence E (A and C are incorrect) is the answer.",
+          "exam": "",
+          "year": ""
+        }
+      ]
+    }
+  ]
+}

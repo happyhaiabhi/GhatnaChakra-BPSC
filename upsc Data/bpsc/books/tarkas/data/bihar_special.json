@@ -1,0 +1,2684 @@
+{
+  "subject": "Bihar Special",
+  "chapters": [
+    {
+      "chapter_name": "History of Bihar",
+      "questions": [
+        {
+          "q": "Who was the real founder of Turk rule in Bihar?",
+          "options": {
+            "A": "Ibn Bakhtiyar Khilji",
+            "B": "Ibrahim",
+            "C": "Dariya Khan Noohani",
+            "D": "Malik Hussamuddin",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Mohammad Bin Bakhtiyar Khilji was a Military General of Qutab-ud-din Aibak. He sacked the universities of Nalanda, Vikramashila and Odantapuri and established Bakhtiyarpur. He shifted his capital to Lakhnauti. He was assassinated by Ali Mardan and his mausoleum is in Bihar Sharif. Bakhtiyar Khilji was the 1st Turk Muslim to invade Bihar.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "In which year the Chauri revolt of Bihar took place?",
+          "options": {
+            "A": "1842",
+            "B": "1798",
+            "C": "1784",
+            "D": "1832",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The revolt was led by Chaurs (meaning looters) in the year 1798 in Bihar. Also known as Jungle Mahal movement, started in the Chotanagpur area of Bengal presidency. The Chuar Mutiny, led by Durjan Singh, was at its height in 1798-99.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "In which year was Orissa separated from Bihar?",
+          "options": {
+            "A": "1936",
+            "B": "1956",
+            "C": "2000",
+            "D": "1912",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "On 1st April 1936, Orissa was separated from Bihar under the Government of India Act, 1935. Bihar was separated from Bengal in 1912 (Bihar Diwas: 22nd March). Jharkhand was carved out in 2000 by Bihar Reorganization Act.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "When was Bihar established?",
+          "options": {
+            "A": "1911",
+            "B": "1912",
+            "C": "1913",
+            "D": "1914",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Bihar was established/separated from Bengal on 22nd March 1912.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "When did Bihar become a separate province in India?",
+          "options": {
+            "A": "1897",
+            "B": "1905",
+            "C": "1907",
+            "D": "1912",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bihar became a separate province on 22nd March 1912.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Bihar as an Indian State was formed in",
+          "options": {
+            "A": "1911",
+            "B": "1912",
+            "C": "1936",
+            "D": "2000",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The commission has gone with option C referring to Bihar as an undivided Indian state (including Jharkhand which was separated in 2000).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "By which Act, Bihar became a separate province?",
+          "options": {
+            "A": "The Government of India Act of 1935",
+            "B": "The Government of India Act of 1919",
+            "C": "The Indian Councils Act of 1909",
+            "D": "The Indian Independence Act of 1947",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Orissa was separated from Bihar and established as a separate state under the Government of India Act, 1935, making Bihar a separate province in 1936.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Who among the following was the first Governor of Bihar?",
+          "options": {
+            "A": "Sir Hugh Dow",
+            "B": "Sir Maurice Garnier Hallett",
+            "C": "Sir James David Sifton",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Sir James David Sifton was Governor of Bihar and Orissa (7 April 1932 - 31 March 1936) and then first Governor of Bihar (1 April 1936 - 10 March 1937) after separation from Orissa. Sir Hugh Dow was the last British Governor. Jairamdas Daulatram was the first Governor after Independence.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "When was the province of Bihar added to the Province of Bengal?",
+          "options": {
+            "A": "1731 AD",
+            "B": "1732 AD",
+            "C": "1733 AD",
+            "D": "1734 AD",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bihar was merged with Bengal province in 1733 AD. Bengal province was established in 1733 AD by merging Bengal-Bihar and Orissa.",
+          "exam": "CDPO BPSC",
+          "year": "22"
+        },
+        {
+          "q": "In 1942 on the occasion of which festival Jai Prakash Narayan escaped from Hazaribagh?",
+          "options": {
+            "A": "Holi",
+            "B": "Dussehra",
+            "C": "Deepavali",
+            "D": "Baisakhi",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "During the Quit India Movement, Jay Prakash Narayan along with 5 others escaped from Hazaribagh jail on Deepawali night and organized underground activities. He founded the Azad Dasta at Bakri ka Tapu in the Rajvilas jungles of Nepal. He was awarded Bharat Ratna posthumously in 1999. Total revolution is also called 'Bihar movement'; 5th June is Total Revolution Day.",
+          "exam": "BPSC",
+          "year": "67th"
+        },
+        {
+          "q": "During which movement 'Azad Dasta' was active in Bihar?",
+          "options": {
+            "A": "Non-cooperation movement",
+            "B": "Civil disobedience movement",
+            "C": "Quit India movement",
+            "D": "Champaran Satyagraha",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Azad Dasta was active during the Quit India Movement, founded by Jayaprakash Narayan.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "All India Azad Dasta at Bakri ka Tapu was organized during the Quit India Movement by",
+          "options": {
+            "A": "Ram Manohar Lohia",
+            "B": "Usha Mehta",
+            "C": "Chittu Pandey",
+            "D": "Jayprakash Narayan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Jayprakash Narayan organized All India Azad Dasta at Bakri ka Tapu during the Quit India Movement.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "During the Quit India Movement who among the following escaped from the Hazaribagh Jail?",
+          "options": {
+            "A": "Sachchidananda Sinha",
+            "B": "Jaiprakash Narayan",
+            "C": "Jagjeevan Ram",
+            "D": "Rafi Ahmed Kidwai",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Jaiprakash Narayan escaped from Hazaribagh jail on Diwali night (9th November 1942) during the Quit India Movement.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "In November 1942, Jayaprakash Narayan escaped from which jail?",
+          "options": {
+            "A": "Bettiah Jail",
+            "B": "Motihari Jail",
+            "C": "Hajipur Jail",
+            "D": "Hazaribagh Central Jail"
+          },
+          "answer": "D",
+          "explanation": "Jayaprakash Narayan escaped from Hazaribagh Central Jail on Diwali night, 9th November 1942.",
+          "exam": "Bihar Judicial Services",
+          "year": "31st"
+        },
+        {
+          "q": "One of the leaders of the revolt of 1857 A.D., Kunwar Singh was related to which place?",
+          "options": {
+            "A": "Gwalior",
+            "B": "Jagdishpur",
+            "C": "Jhansi",
+            "D": "Meerut",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Babu Kunwar Singh, son of Raja Sahibzada Singh (zamindar of Jagdishpur, present-day Bhojpur district), led the Indian Rebellion of 1857 in Bihar. On 23 April 1858, he had a victory near Jagdishpur. 23rd April is celebrated as Veer Kunwar Diwas. Veer Kunwar Singh University was established in 1992. On 23rd April 2022, 78,220 flags were hoisted at Jagdishpur, listed in Guinness Book of World Records.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Kunwar Singh entered Jagdishpur on",
+          "options": {
+            "A": "22 April 1858",
+            "B": "23 April 1858",
+            "C": "20 April 1858",
+            "D": "25 April 1858",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Kunwar Singh entered Jagdishpur on 23 April 1858, now celebrated as Veer Kunwar Diwas.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Where did Kunwar Singh join the Rebellion of 1857 against the British?",
+          "options": {
+            "A": "Arrah",
+            "B": "Patna",
+            "C": "Bettiah",
+            "D": "Varanasi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Official answer given by BPSC is Patna, but it should actually be Jagdishpur.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Who was the leader of the revolutionaries in Bihar during the Revolt of 1857?",
+          "options": {
+            "A": "Namdar Khan",
+            "B": "Babu Kunwar Singh",
+            "C": "Birsa Munda",
+            "D": "Shankar Shah",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Babu Kunwar Singh was the leader of revolutionaries in Bihar during the Revolt of 1857.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Who said, 'Wherever I am, there is Jagdishpur'?",
+          "options": {
+            "A": "Amar Singh",
+            "B": "Jhansi Ki Rani",
+            "C": "Kunwar Singh",
+            "D": "General Lloyd",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kunwar Singh said 'Wherever I am, there is Jagdishpur'.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "In Bihar, the revolt of 1857 was led by ___, a 70-year-old man who unhesitatingly joined the sepoys when they reached Arrah.",
+          "options": {
+            "A": "Kunwar Singh",
+            "B": "Birjis Qadir",
+            "C": "Khan Bahadur",
+            "D": "Jayanand Pandey",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Kunwar Singh (nearly 80 years old) led the revolt of 1857 in Bihar.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "In which year was the first sitting of the Bihar legislative council convened?",
+          "options": {
+            "A": "1911",
+            "B": "1913",
+            "C": "1914",
+            "D": "1919",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The first sitting of the Bihar legislative council was convened on 20 January 1913 at Patna College, Bankipore. The Council was formed under Indian Council Act 1861 and Govt. of India Act 1909. In 1936 the unicameral legislature became bicameral. Current Chairman of Bihar Legislative Council: Devesh Chandra Thakur.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Who invited Gandhiji to come to Champaran?",
+          "options": {
+            "A": "Rajkumar Shukla",
+            "B": "Rajendra Prasad",
+            "C": "Jayaprakash Narayan",
+            "D": "Krishna Sahay",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Gandhiji was invited to Champaran by Rajkumar Shukla at the Lucknow Session of INC (December 1916). The request letter was written by Peer Mohamed Munis. Intricate plan was made by Brajkishor Prasad.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 66th, 64th, 62nd"
+        },
+        {
+          "q": "Who among the following was not directly related to the Champaran Peasant Movement of 1917?",
+          "options": {
+            "A": "Mahadev Desai",
+            "B": "Narhari Parikh",
+            "C": "Dr. Rajendra Prasad",
+            "D": "Gauri Shankar Mishra",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Gauri Shankar Mishra was not directly related to the Champaran Peasant Movement of 1917. People with Gandhiji: Brajkishore Prasad, Rajendra Prasad, A.N Singh, Narayan Singh, Ramnavmi Prasad, Acharya Kriplani, Mazharul Haque, Mahadev Desai, Narhari Parikh. The Tinkathia system was abolished as a result.",
+          "exam": "BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Who highlighted the plight of the peasants of Champaran by writing under pseudonyms like Dukhi, Dukhi Atma, and Dukhi Hridaya?",
+          "options": {
+            "A": "Peer Muhammad Moonis",
+            "B": "Rajendra Prasad",
+            "C": "Sahajananda Saraswati",
+            "D": "S.N.Sinha"
+          },
+          "answer": "A",
+          "explanation": "Peer Muhammad Moonis, a madarsa teacher at Bettiah, wrote under pseudonyms Dukhi, Dukhi Atma, and Dukhi Hridaya in the Pratap Newspaper of Kanpur. He is considered the founder of fearless anti-colonial Hindi journalism in Bihar. Pratap newspaper was started by Ganesh Shankar Vidyarthi in 1913.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Who established a branch of Anushilan Samiti in Patna in 1913 A.D.?",
+          "options": {
+            "A": "Ramananda Sinha",
+            "B": "Satish Jha",
+            "C": "Sachindra Nath Sanyal",
+            "D": "Bipin Jha",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The branch of Anushilan Samiti was established in Bihar by Sachindranath Sanyal in 1913. Bankimchandra Mitra of BN College was given responsibility. Anushilan Samiti was established in Bengal in 1902 as an underground society for anti-British revolutionaries. Satish Chandra Basu was its founder.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 63rd"
+        },
+        {
+          "q": "Who had formed the Bihar Socialist Party in 1931 A.D?",
+          "options": {
+            "A": "Phulan Chandra Tiwari and Rajendra Prasad",
+            "B": "Phulan Prasad Verma and Jayaprakash Narayan",
+            "C": "Rajkumar Shukla and Swami Agnivesh",
+            "D": "Swami Sahajananda and Swami Yogananda",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Bihar Socialist Party was formed in July 1931 by Ganga Sharan Sinha, Rambriksh Benipuri, Phulan Prasad Verma, and Ramanand Mishra at the residence of Phoolan Prasad Verma in Patna. All India Congress Socialist Party was formed on 17th May 1934 with Acharya Narendra Dev as President and Jayprakash Narayan as General Secretary.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 65th"
+        },
+        {
+          "q": "When was the Bihar Socialist Party formed?",
+          "options": {
+            "A": "1921",
+            "B": "1927",
+            "C": "1931",
+            "D": "1934",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bihar Socialist Party was formed in 1931.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Bihar Socialist Party was born in 1934 with its Secretary",
+          "options": {
+            "A": "Acharya Narendra Dev",
+            "B": "Jayaprakash Narayan",
+            "C": "Rambriksh Benipuri",
+            "D": "Karpoori Thakur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Jayaprakash Narayan was the General Secretary of the All India Congress Socialist Party (Bihar Socialist Party) formed in 1934.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "In the Tinkathia System in Bihar, how much land was to be reserved for indigo cultivation?",
+          "options": {
+            "A": "01/11",
+            "B": "01/03",
+            "C": "03/20",
+            "D": "03/25",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The European planters forced the peasants to grow indigo on 3/20 part of the total land (Tinkathia system). 1 Bigha = 20 kattha; so teen Kathia = 3 parts out of 20. Before Tinkathia, Panchkathia System (5/20) was practiced.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "What is the 'Tinkathia Method' in Bihar?",
+          "options": {
+            "A": "Education method",
+            "B": "Employment method",
+            "C": "Agriculture method",
+            "D": "Alms method",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The 'Tinkathia Method' in Bihar was an agricultural method dealing with the forced cultivation of Indigo on 3/20 part of land.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who saved the life of Gandhiji in Bihar during Champaran Satyagraha?",
+          "options": {
+            "A": "Hamid Ansari",
+            "B": "Ravindra Pathak",
+            "C": "Batak Mian",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Cook Batak Mian saved Gandhi's life. Indigo manager Erwin plotted to assassinate Gandhi by poisoning his milk. But Batak Mian revealed the plot to Gandhiji and broke into tears. Rajendra Prasad witnessed the entire episode.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Where was the first Congress Session in Bihar held?",
+          "options": {
+            "A": "Patna",
+            "B": "Gaya",
+            "C": "Muzaffarpur",
+            "D": "Darbhanga",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The first Congress Session in Bihar was the 27th INC Session at Bankipore, Patna (1912), presided by R.N. Mudholkar. Subsequent Bihar sessions: 37th at Gaya (1922, C.R. Das); 53rd at Ramgarh (1940, Maulana Abul Kalam Azad).",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Who was the president of the Gaya session of the Indian National Congress held in 1922 A.D?",
+          "options": {
+            "A": "Chittaranjan Das",
+            "B": "Hakim Ajmal Khan",
+            "C": "Mahatma Gandhi",
+            "D": "Maulana Abul Kalam Azad",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Chittaranjan Das (Deshbandhu) was the President of the 37th INC session at Gaya in 1922. This led to formation of Swaraj Party on 1st January 1923 by C.R. Das and Moti Lal Nehru.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 59th"
+        },
+        {
+          "q": "In which city of Bihar the Indian National Congress annual session was held In 1922?",
+          "options": {
+            "A": "Patna",
+            "B": "Bhagalpur",
+            "C": "Darbhanga",
+            "D": "Gaya",
+            "E": "None of the above/more than one"
+          },
+          "answer": "D",
+          "explanation": "The 37th INC session was held at Gaya in 1922, presided by Chittaranjan Das.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "The 53rd session of the Indian National Congress was held at?",
+          "options": {
+            "A": "Ramgarh, Hazaribagh",
+            "B": "Jamwa, Ramgarh",
+            "C": "Calcutta",
+            "D": "Bombay",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The 53rd Session of the Indian National Congress was held at Ramgarh, Hazaribagh in 1940, presided by Maulana Abul Kalam Azad.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Who was the first President of the Bihar Provincial Congress Committee?",
+          "options": {
+            "A": "Hasan Imam",
+            "B": "Abdul Bari",
+            "C": "Sir Imam Ali",
+            "D": "Mazharul Haque",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "In 1908, Bihar Provincial Congress Committee (BPCC) was formed by Nawab Sarfraz Hussain Khan. The first session was presided by Syed Hasan Imam at Patna in 1908. In this session for the first time, the resolution of separate Bihar was passed by Fakhruddin.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The 16th session of the Bihar Student Conference was held at",
+          "options": {
+            "A": "Hazaribagh",
+            "B": "Patna",
+            "C": "Arrah",
+            "D": "Chhapra",
+            "E": "None of the above/More than of the above"
+          },
+          "answer": "A",
+          "explanation": "The 16th session of the Bihar Students Conference was held at Hazaribagh, presided by Sarla Devi. Bihar Students Conference was established in 1906, with its first conference at Patna College.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Baba Thakur Das established which Society in Patna?",
+          "options": {
+            "A": "Servants of India Society",
+            "B": "Ramakrishna Mission Society",
+            "C": "Seva Samiti",
+            "D": "Social Service League",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Ramakrishna Mission Society was established by Baba Thakur Das in 1906 at Patna for nationalism and educational reforms. The Ramkrishna mission itself was established in 1897 by Swami Vivekananda.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The first Indian Ministry in Bihar in 1937 came into existence under whose leadership?",
+          "options": {
+            "A": "Shri Krishna Singh",
+            "B": "Md. Yunus",
+            "C": "GS Lal",
+            "D": "Wahab Ali",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "On 1st April 1937, Mohammad Yunus (Muslim Independent Party) became the first Prime Minister of Bihar under the Government of India Act-1935. He soon resigned, after which Shri Krishna Singh became Premier on 20 July 1937.",
+          "exam": "BPSC",
+          "year": "63rd, AAO"
+        },
+        {
+          "q": "Who was the first Chief Minister of Bihar?",
+          "options": {
+            "A": "Shri Krishna Singh",
+            "B": "Satya Pal Malik",
+            "C": "Nitish Kumar",
+            "D": "Rabri Devi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Shri Krishna Singh (Bihar Kesari) was the first Chief Minister of Bihar. The Congress Ministry resigned in February 1938 due to issue of release of political prisoners (Yogendra Shukla sent to Cellular jail). Bihar Ministry again resigned on 31st Oct 1939, in protest of Linlithgow declaration regarding World War II.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Who among the following was the leader of the first Congress Ministry in Bihar?",
+          "options": {
+            "A": "Anugrah Narayan Sinha",
+            "B": "Abdul Bari",
+            "C": "Jayaprakash Narayan",
+            "D": "Shri Krishna Sinha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Shri Krishna Sinha was the leader of the first Congress Ministry in Bihar.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The elected Government of Bihar resigned in February 1938 for which reason?",
+          "options": {
+            "A": "The participation of India in the war",
+            "B": "Satyagraha against the British at the call of Gandhi",
+            "C": "High taxes being imposed by the British",
+            "D": "For the release of political prisoners",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The elected Government of Bihar resigned in February 1938 for the release of political prisoners.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The elected Government of Bihar formed by Shri Krishna Singh resigned in February 1938 for which reason?",
+          "options": {
+            "A": "For the release of political prisoners",
+            "B": "Satyagraha against the British at the call of Gandhiji",
+            "C": "Participation in the freedom struggle of India",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The elected Government of Bihar formed by Shri Krishna Singh resigned in February 1938 for the release of political prisoners.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The Bihar Herald was started in 1872 by",
+          "options": {
+            "A": "Munshi Surajmal",
+            "B": "Rai Roshan Lal",
+            "C": "Babu Guru Prasad Sen",
+            "D": "Krishan Bhatt",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "'The Bihar Herald' was the first English weekly newspaper established by Guru Prasad Sen in 1872 in Patna.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which was the first English newspaper published in Patna?",
+          "options": {
+            "A": "The Indian Nation",
+            "B": "The Bihar Herald",
+            "C": "The Mirror",
+            "D": "Hindu Patriot",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "'The Bihar Herald' was the first English newspaper published in Patna, established by Guru Prasad Sen in 1872.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Who is considered the Creator of Modern Bihar?",
+          "options": {
+            "A": "Sachchidananda Sinha",
+            "B": "Kumar Kalika Prasad Sinha",
+            "C": "Sir Ganesh Singh",
+            "D": "Acharya Narendra Dev",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Sachchidananda Sinha is considered the Creator of Modern Bihar. Born on 10th November 1871 at Arrah. Started 'Bihar Times' in 1894. Was the first President of the constituent assembly (interim). Vice-Chancellor of Patna University from 1936-1944.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Who formed Bihar Provincial Kisan Sabha?",
+          "options": {
+            "A": "Swami Sahajanand Saraswati",
+            "B": "Ram Sundar Singh",
+            "C": "Ganga Sharan Sinha",
+            "D": "Ramanand Mishra",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Bihar Provincial Kisan Sabha was formed in 1929 at Sonepur with Sahjanand Saraswati as President. 1st Conference: Sonepur (1929); 2nd Conference: Gaya - Purushottam Das Tandon (1934); 3rd Conference: Hajipur - Sahajanand Saraswati (1935). All India Kisan Sabha formed in 1936 at Lucknow.",
+          "exam": "BPSC",
+          "year": "65th, CDPO 2018"
+        },
+        {
+          "q": "Who led cultivators in Bihar during the Non-Cooperation Movement?",
+          "options": {
+            "A": "Swami Vidyanand",
+            "B": "Raj Kumar Shukla",
+            "C": "Shri Krishna Singh",
+            "D": "J B Sen",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The cultivators in Bihar were led by Swami Vidyanand during the Non-cooperation movement. He was active in Bhagalpur and Madhubani belts. Swami Sahjanand Saraswati (Kishan Pran) formed the All India Kisan Sabha in 1936 at Lucknow.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Who led cultivators in Bihar during the Non-Cooperation Movement?",
+          "options": {
+            "A": "Raj Kumar Shukla",
+            "B": "Shri Krishna Singh",
+            "C": "Swami Vidyanand",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Swami Vidyanand led cultivators in Bihar during the Non-Cooperation Movement.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Who was connected with the Bihar Kisan Sabha?",
+          "options": {
+            "A": "Swami Sahajananda",
+            "B": "Karyanand Sharma",
+            "C": "Rahul Sankrityayan",
+            "D": "Yadunandan Sharma",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "All of the options (Swami Sahajananda, Karyanand Sharma, Rahul Sankrityayan, Yadunandan Sharma) were connected with the Bihar Kisan Sabha, hence E (More than one of the above).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Who organized the Kisan Sabha at Munger in 1922-23?",
+          "options": {
+            "A": "Swami Sahajanand Saraswati",
+            "B": "Krishna Singh",
+            "C": "Mohammed Zubair",
+            "D": "K N Singh",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The local Kisan Sabha was organized by BOTH Sri Krishna Singh AND Shah Mohd Zubair in the Munger region in 1922-23, hence E (More than one of the above).",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Bihar Provincial Kisan Sabha was formed in",
+          "options": {
+            "A": "1929",
+            "B": "1930",
+            "C": "1931",
+            "D": "1932",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Bihar Provincial Kisan Sabha was formed in 1929 at Sonepur with Sahjanand Saraswati as President.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "In which area was Rahul Sankrityayan active in the Non-Cooperation Movement of 1920?",
+          "options": {
+            "A": "Chhapra",
+            "B": "Delhi",
+            "C": "Lucknow",
+            "D": "Patna"
+          },
+          "answer": "A",
+          "explanation": "Rahul Sankrityayan was active in Chhapra (Annawari/Ambari Satyagraha) during the Non-Cooperation Movement.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Which company established its factory in 1632 at Patna, Bihar?",
+          "options": {
+            "A": "British East India Company",
+            "B": "Dutch East India Company",
+            "C": "Portuguese East India Company",
+            "D": "French East India Company",
+            "E": "None of the above /more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Dutch East India Company established its factory in 1632 at Patna (now Patna College). Sequence of Europeans in Bihar: English-1620 (Alamganj, now Gulzar Bagh printing press); Dutch-1632 (now Patna Collectorate); Danes-1774 (Nepali Kothi, Patna).",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Dutch East India Company established its factory at Patna in which year?",
+          "options": {
+            "A": "1601",
+            "B": "1632",
+            "C": "1774",
+            "D": "1651",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Dutch East India Company established its factory at Patna in 1632.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Swami Sahajanand Saraswati published a journal named",
+          "options": {
+            "A": "Jankranti",
+            "B": "Hunkar",
+            "C": "Krishak Samachar",
+            "D": "Vidrohi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Hunkar was a weekly Hindi Journal published by Swami Sahajanand Saraswati. His other literary works include Mera Jeevan Sangharsh (My Life Struggle). Akhil Bhartiya Kisan Congress was founded in 1936 at Lucknow with him as first president and NG Ranga as first secretary.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Who led the 'Ambari Satyagraha' in 1939 in Bihar?",
+          "options": {
+            "A": "Rahul Sankrityayan",
+            "B": "Yadunandan Sharma",
+            "C": "Swami Sahajanand",
+            "D": "Swami Yogananda",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Ambari Satyagraha was led by Rahul Sankrityayan in Bihar during 1939. His childhood name was Kedarnath. He is called 'the Father of Indian Travelogue'. 'Volga Se Ganga' was written by him.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Who was the Editor of Searchlight newspaper in Bihar?",
+          "options": {
+            "A": "Abdul Bari",
+            "B": "Lambodar Mukherjee",
+            "C": "Murali Mohan Prasad",
+            "D": "Ramananda Chatterjee",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The Searchlight newspaper was started by Sachidanand Sinha. The first Editor was Syed Hyder Hussain and the second editor was Maheshwar Prasad. Murli Manohar Prasad was its longest-serving editor. None of the given options is the first editor, hence E.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Who was the first Governor of Bihar after Independence?",
+          "options": {
+            "A": "Jagannath Mishra",
+            "B": "Lalit Narayan Mishra",
+            "C": "Jairamdas Daulatram",
+            "D": "Jaiprakash Narayan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jairamdas Daulatram was the first Governor of Bihar after Independence.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "In 1904, the Golden League was established at Deoghar to boycott the British and advance the Swadeshi Movement in",
+          "options": {
+            "A": "Bengal",
+            "B": "Avadh",
+            "C": "Punjab",
+            "D": "Bihar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In 1904, 'The Golden League' was established at Deoghar (presently in Jharkhand) to boycott the British rule and advance the Swadeshi Movement in Bihar.",
+          "exam": "BPSC",
+          "year": "66th Re, CDPO 2018"
+        },
+        {
+          "q": "Who led the Salt Satyagraha in Bhagalpur?",
+          "options": {
+            "A": "Shri Krishna Singh",
+            "B": "Mahadev Lal Sarraf",
+            "C": "Kumar Mishra",
+            "D": "Satyanarayan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Mahadev Lal Saraf led the Salt Satyagraha in Bhagalpur. The Salt Satyagraha in Bihar started on April 15, 1930 under overall leadership of Dr. Rajendra Prasad. Salt march leaders: Munger-Sri Krishna Singh; Bhagalpur-Mahadev Lal Saraf; Patna-Ambika Kant Singh; Gaya-Chandravati Devi; Darbhanga-Satyanarayan Singh. Rambriksh Benipuri broke salt law at Nakhas Pind on 23rd April 1930.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "During Salt Satyagraha, in Bihar, in addition to making salt, the people chose to oppose the government by opposing which tax?",
+          "options": {
+            "A": "Chowkidari",
+            "B": "Haathi",
+            "C": "Development",
+            "D": "Malba",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "During the Salt Satyagraha in Bihar, people chose to oppose the Chowkidari Tax.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "The refusal to pay 'Chowkidaari Tax' as a part of the No Tax campaign of the civil disobedience movement was started in which of the following state",
+          "options": {
+            "A": "United Province",
+            "B": "Bengal",
+            "C": "Bihar",
+            "D": "Punjab",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The refusal to pay 'Chowkidaari Tax' as part of the No Tax campaign of the civil disobedience movement was started in Bihar.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "During the Salt Satyagraha in Bihar, In addition to making salt, the people chose to oppose the government by opposing which tax?",
+          "options": {
+            "A": "Development",
+            "B": "Malba",
+            "C": "Haathi",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "People chose to oppose the Chowkidari Tax. Since Chowkidari Tax is not listed among options A, B, C, the answer is E (None of the above).",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Who was the member of the Constituent Assembly of India from Bihar?",
+          "options": {
+            "A": "AN Sinha",
+            "B": "Rajendra Prasad",
+            "C": "Jagjivan Ram",
+            "D": "Shyam Nandan Prasad Mishra",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "All of A, B and C (AN Sinha, Rajendra Prasad, Jagjivan Ram) were members of the Constituent Assembly from Bihar, hence E (More than one). Dr Sachchidananda Sinha was Interim President. Dr Rajendra Prasad was elected permanent President. Total members from Bihar: 36.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "When was Patna Lawn renamed Gandhi Maidan?",
+          "options": {
+            "A": "During the Quit India Movement",
+            "B": "During Anti-Simon Commission Rally",
+            "C": "During Champaran Satyagraha",
+            "D": "On the eve of Independence",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "After Mahatma Gandhi's assassination on 30th January 1948, 'Patna Lawn' or 'Bankipore Maidan' was renamed as 'Gandhi Maidan'. Note: Ideally answer should be E but BPSC has given D.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Who was the first Muslim Conqueror of Bihar?",
+          "options": {
+            "A": "Malik Ibrahim",
+            "B": "Iltumish",
+            "C": "Bakhtiyar Khalji",
+            "D": "Ali Mardan Khalji",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The first successful Muslim conqueror of Bihar was Ikhtiyarauddin Muhhamad Ibne Bakhtiyaruddin Khalji (Bakhtiyar Khalji). He conquered Odantapuri, established Bakhtiyarpur, and his mausoleum is in Bihar Sharif. He also destroyed Nalanda Mahavihara. (Source: Tabkat-i-Nasiri by Minhaj-i-Siraj). Nalanda added to UNESCO World Heritage site in 2016.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Nalanda Vihar was destroyed by:",
+          "options": {
+            "A": "Bakhtiyar Khalji",
+            "B": "Qutubddin Aibak",
+            "C": "Muhammad Bin Tughlaq",
+            "D": "Alauddin Khalji",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Bakhtiyar Khalji destroyed Nalanda Mahavihara. He burnt the 'Ratnadadhi' library of Nalanda in anger after finding no wealth.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "The Vikramshila University was established by",
+          "options": {
+            "A": "Devapala",
+            "B": "Gopala",
+            "C": "Dharmapala",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Vikramshila University was founded by Pala King Dharmapala. Located in Bhagalpur district, it was destroyed by Muhammad Bin Bakhtiyar Khalji around 1203 AD. Gopala was the founder of the Pala dynasty and established Odantapuri University at Bihar Sharif.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The author of 'Udwant Prakash' is",
+          "options": {
+            "A": "Mauli Kavi",
+            "B": "Bodhraj",
+            "C": "Paramala",
+            "D": "Vidyapati",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Mauli Kavi is the author of Udwant Prakash. He was the court poet at Jagdishpur estate who wrote about Babu Kunwar Singh. Other books: Udwant Vinod and Bagh Singh.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Who left Patna College with just 20 days remaining for his examination during the Non-Cooperation Movement?",
+          "options": {
+            "A": "Rajendra Prasad",
+            "B": "Braj Kishore",
+            "C": "Jai Prakash Naryana",
+            "D": "Sri Krishna Sinha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jai Prakash Naryana left Patna College barely 20 days before his exam on the call of Maulana Abul Kalam Azad and joined Bihar Vidyapeeth. Born on 11th October 1902 in Sitab Diara, Saran. He is popularly known as 'Lok Nayak'. Patna Airport is named after him.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "By which name is Jay Prakash Narayan known?",
+          "options": {
+            "A": "Lokmanya",
+            "B": "Loknayak",
+            "C": "Lokhitvadi",
+            "D": "Lokneta"
+          },
+          "answer": "B",
+          "explanation": "Jay Prakash Narayan is known as 'Loknayak'.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Who was given the title of 'Loknayak'?",
+          "options": {
+            "A": "Lalu Prasad Yadav",
+            "B": "Karpoori Thakur",
+            "C": "Jayaprakash Narayan",
+            "D": "Nitish Kumar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jayaprakash Narayan was given the title of 'Loknayak'.",
+          "exam": "CDPO BPSC",
+          "year": "22"
+        },
+        {
+          "q": "A leader of Bihar who left his lucrative practice during Non-Cooperation Movement was:",
+          "options": {
+            "A": "Jai Prakash Narayan",
+            "B": "Rajendra Prasad",
+            "C": "Sahajanand Saraswati",
+            "D": "Raj Kumar Shukla",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Rajendra Prasad gave up his law practice during the Non-cooperation movement and started a National College near Patna in 1921. He was born at Ziradei, Siwan (Bihar). Known as Ajatshatru. Served as Minister of Food and Agriculture in the interim government of 1946.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Dr Rajendra Prasad, who was the first President of India, earlier held the position of",
+          "options": {
+            "A": "The Chief Minister of Bihar",
+            "B": "The Chairman of Patna Municipality",
+            "C": "The Mayor of Patna",
+            "D": "The Head Postmaster at Chapra",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Dr Rajendra Prasad earlier held the position of the Chairman of Patna Municipality.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Who was the author of Mahatma Gandhi and Bihar, Some Reminiscences?",
+          "options": {
+            "A": "Karpoori Thakur",
+            "B": "Dr. Rajendra Prasad",
+            "C": "J.P. Narayan",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Mahatma Gandhi and Bihar, 'Some Reminiscences' was written by Dr Rajendra Prasad. Other works: India Divided; At The Feet Of Mahatma Gandhi; Satyagraha In Champaran; autobiography Aatmakatha (written in Bankipur Jail). Karpoori Thakur (JanNayak) was Chief Minister of Bihar twice and implemented 26% reservation for backward castes.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which Sikh Guru was born in Patna?",
+          "options": {
+            "A": "Nanak",
+            "B": "Teg Bahadur",
+            "C": "Hargobind",
+            "D": "Gobind Singh"
+          },
+          "answer": "D",
+          "explanation": "The 10th Guru of Sikhs, Guru Gobind Singh, was born in Patna on 22nd December 1666. He was the son of 9th Guru Tegh Bahadur. He was assassinated by Jamshed Khan and Wasil Beg in 1708.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Who among the following was/were peasant leader(s) from Bihar? I. Swami Vidyananda II. Swami Sahajananda III. Sardar Vallabhbhai Patel. Choose the correct option.",
+          "options": {
+            "A": "I and II",
+            "B": "II and III",
+            "C": "I and III",
+            "D": "II only"
+          },
+          "answer": "A",
+          "explanation": "Swami Vidyananda and Swami Sahajananda were peasant leaders from Bihar. Sardar Patel was not from Bihar. Swami Sahajanand Saraswati's original name was Naurang Rai. He organised the Bakasht Movement (1937-39) and formed All India Kisan Sabha in 1936 at Lucknow.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Who did lead the peasant movement in the region of Darbhanga Raj?",
+          "options": {
+            "A": "Swami Sahajanand",
+            "B": "Swami Vidyanand",
+            "C": "Baba Ram Chandra",
+            "D": "Vinoba Bhave",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "In 1919 and 1920, Swami Vidyanand led a protest movement in the Darbhanga region (Bihar's largest zamindari). The protest was due to price rise of consumer goods after World War I while wages remained stagnant.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "Who established Swaraj Dal in Bihar?",
+          "options": {
+            "A": "Shri Krishna Singh",
+            "B": "Ramlal Shah",
+            "C": "Bankim Chandra Mitra",
+            "D": "Sachindra Nath Sanyal",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Shri Krishna Singh established the Bihar branch of Swaraj Dal in February 1923 with Narayan Singh as its President and Abdul Bari as its General Secretary. Swaraj Party was formed by C.R. Das and Moti Lal Nehru on 1st January 1923.",
+          "exam": "BPSC",
+          "year": "65th, AAO"
+        },
+        {
+          "q": "Who established Swaraj Dal in Bihar?",
+          "options": {
+            "A": "Ramlal Shah",
+            "B": "Bankim Chandra Mitra",
+            "C": "Shri Krishna Singh",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Shri Krishna Singh established Swaraj Dal in Bihar.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Who started the newspaper Motherland in September 1921 to disseminate Hindu-Muslim unity and Gandhian ideology?",
+          "options": {
+            "A": "Shah Mohammad Zubair",
+            "B": "Mazhar-Ul-Haq",
+            "C": "Anugrah Narayan Sinha",
+            "D": "Shambhu Sharan",
+            "E": "None of the above/ More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Maulana Mazhar-Ul-Haq started the Newspaper 'Motherland' in September 1921 from Sadaqat Ashram. He was given the title of 'Desh Bhushan FAQIR Mazharul Haque'.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "Who inaugurated Bihar National College and its building 'Bihar Vidyapeeth' in February 1922?",
+          "options": {
+            "A": "Dr. Rajendra Prasad",
+            "B": "Mahadev Desai",
+            "C": "Mahatma Gandhi",
+            "D": "Chittaranjan Das",
+            "E": "None of the above /More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Mahatma Gandhi inaugurated Bihar National College and its building 'Bihar Vidyapeeth' in February 1922. Maulana Haq was Chancellor, Braj Kishore Prasad was Vice-Chancellor, and Rajendra Prasad was Principal and Registrar.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "The name of the Hindi weekly which was the mouthpiece of agrarian and peasant movements in Bihar in 1940 was",
+          "options": {
+            "A": "Leader",
+            "B": "Lokmat",
+            "C": "Hunkar",
+            "D": "Sarathi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The Hindi journal 'Hunkar' started by Sahajanand Saraswati became the mouthpiece of the peasant and agrarian movement in Bihar.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "Which city of Bihar was made capital in lieu of Murshidabad by Mir Qasim?",
+          "options": {
+            "A": "Patna",
+            "B": "Darbhanga",
+            "C": "Sasaram",
+            "D": "Munger",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Mir Qasim (Nawab of Bengal, 1760-1763) shifted his capital from Murshidabad to Munger. He allied with Shuja-ud-Daula and Shah Alam II against the British, but their combined forces were defeated in the Battle of Buxar in 1764.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "In which year was the 'Bakasht Movement' started in Bihar?",
+          "options": {
+            "A": "1936",
+            "B": "1938",
+            "C": "1926",
+            "D": "1928",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Swami Shahjanand Saraswati organised the Bakasht Movement in Bihar in 1937-39. 'Bakasht' means self-cultivated. Bakasht lands were those that tenants had lost to zamindars during depression years by non-payment of rent. The movement led to the Bihar Tenancy Act and the Bakasht Land Tax.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "What is the significance of 'Bihar Diwas' that is celebrated on 22nd March every year?",
+          "options": {
+            "A": "On this day, the State Reorganisation Commission created Bihar.",
+            "B": "Bihar was carved out of United Provinces on this day in 1873.",
+            "C": "To commemorate Bihar's separation from Bengal Presidency in 1912.",
+            "D": "To celebrate the naming of Bihar in the 12th century by Muslim rulers.",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bihar Day is observed every year on March 22 marking the formation of the state when the British carved it out from Bengal in 1912. First celebrated on a large scale in 2010 during the tenure of Shri Nitish Kumar.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which British officer reported to the Government of India that the Muslims of Patna were in correspondence with the 64th Native Infantry near Peshawar and urged it to revolt against the British?",
+          "options": {
+            "A": "Robert Montgomery",
+            "B": "John Lawrence",
+            "C": "Charles Metcalfe",
+            "D": "General Van Cortlandt",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Robert Montgomery was the British officer who reported that the Muslims of Patna were in correspondence with the 64th Native Infantry near Peshawar to revolt against the British.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who led the Quit India Movement in Patna City on 11th August 1942?",
+          "options": {
+            "A": "Zamindars",
+            "B": "Chieftains",
+            "C": "Rickshaw pullers and Ekka drivers",
+            "D": "Subaltern sections of the city",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Subaltern sections of the city led the Quit India Movement in Patna city on 11th August 1942. Anugrah Narayan Sinha's arrest triggered students to march towards the Secretariat to hoist the Tricolour Flag, leading to the Martyrdom of seven young students.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who among the following leaders from Bihar appeared before the 'Hammond Commission' at Ranchi to demand voting rights for the Dalits?",
+          "options": {
+            "A": "Jayaprakash Narayan",
+            "B": "Babu Jagjivan Ram",
+            "C": "Ram Manohar Lohia",
+            "D": "Raj Kumar Shukla",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Babu Jagjivan Ram appeared before the 'Hammond Commission' at Ranchi in 1935 to demand voting rights for the Dalits. He established All India Depressed Classes League (1934-35). Served as Labour Minister in the first cabinet of India. His tenure as MP from 1936-1986 (50 years) is a world record. He formed the Ravidas Sabha in Bihar in 1928.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who formed the Ravidas Sabha in Bihar in 1928?",
+          "options": {
+            "A": "Sant Ravidas",
+            "B": "Mahatma Gandhi",
+            "C": "Jagjivan Ram",
+            "D": "Karpoori Thakur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jagjivan Ram formed the Ravidas Sabha in Bihar in 1928.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Who among the following waged a rebellion against the British in Bihar immediately after the Battle of Buxar?",
+          "options": {
+            "A": "Maharaja Fateh Bahadur Shahi",
+            "B": "Babu Kunwar Singh",
+            "C": "Govind Ram",
+            "D": "Chait Singh",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Maharaja Fateh Bahadur Shahi led the Fatehshahi Revolt in Saran Area immediately after the Battle of Buxar. He led the revolt for almost 23 years. Battle of Buxar was fought on 22nd October 1764, where Hector Munro defeated the combined forces of Mir Qasim, Shuja-ud-Daula and Shah Alam II.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who among the following 'Seven Martyrs' of Patna during the Quit India Movement was a student of B.N. College?",
+          "options": {
+            "A": "Umakant Prasad Sinha",
+            "B": "Ramanand Singh",
+            "C": "Satish Prasad Jha",
+            "D": "Jagatpati Kumar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Jagatpati Kumar was among the 'Seven Martyrs' of Patna and was a student of B.N. College. He was a resident of Kharati Village, Aurangabad. The incident occurred on 11th August 1942 at the East Gate of Patna Secretariat. Firing was commanded by District Commissioner W.G. Archer.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "In which year was Ali Gauhar's Bihar expedition ended?",
+          "options": {
+            "A": "1761",
+            "B": "1757",
+            "C": "1765",
+            "D": "1759",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Shah Alam II (Ali Gauhar) signed the Treaty of Allahabad (1765) granting Diwani rights to the British East India Company, ending his Bihar expedition. Note: Ideally the answer should be option C (1765), but BPSC has given option D (1759).",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "In which year was Alivardi appointed the Deputy Governor of Bihar?",
+          "options": {
+            "A": "1729",
+            "B": "1734",
+            "C": "1746",
+            "D": "1733",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In 1732, Emperor Muhammad Shah added Bihar to the Bengal suba under Nawab Shujauddin. The Nawab appointed Alivardi as deputy governor of Bihar in 1733.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Where was the first Zila School opened in 1835?",
+          "options": {
+            "A": "Muzaffarpur",
+            "B": "Darbhanga",
+            "C": "Patna",
+            "D": "Ranchi",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "After William Bentinck's resolution of 7 March 1835, Zila Schools were started at Patna, Arrah, and Chapra. The Patna High School was established in July 1835 as the first English school in Bihar under government auspices.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "In 1940 Patna Women's College was founded by which of the following societies?",
+          "options": {
+            "A": "Irish Christian brothers",
+            "B": "Sisters of the Apostolic Carmel",
+            "C": "Society of Jesus",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Patna Women's College was founded in 1940 by Bishop B.J. Sullivan S.J. and Mother M. Josephine A.C. Superior General of the Apostolic Carmel. It is the first institution of higher learning for women in Bihar.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which is the oldest church in Bihar?",
+          "options": {
+            "A": "Stephen's Church",
+            "B": "Padri ki Haveli",
+            "C": "Luke's Church",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Padri ki Haveli (also known as St Mary's Church) is the oldest church in Patna. First built in 1713; current structure designed by Venetian architect Tirreto in 1772. It was destroyed by Nawab Mir Qasim due to quarrel with the British.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Geography of Bihar",
+      "questions": [
+        {
+          "q": "The total geographical area of Bihar is",
+          "options": {
+            "A": "94316 sq. km.",
+            "B": "94163 sq. km",
+            "C": "94526 sq km",
+            "D": "94200 sq km",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Total area of Bihar is 94,163.00 sq. kms. Latitude: 24 deg-20'-10\" N to 27 deg-31'-15\" N. Longitude: 83 deg-19'-50\" E to 88 deg-17'-40\" E. Population Density: 1106/sq km. Extent: East to West 483 km; North to South 345 km. Formation day: 22 March 1912.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "In which district of Bihar, Telhar Kund is located?",
+          "options": {
+            "A": "Nawada",
+            "B": "Kaimur",
+            "C": "Rohtas",
+            "D": "Sasaram",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Telhar waterfall is located in Kaimur district. Karkat and Telhar are two important waterfalls in Kaimur. Bihar's 1st Crocodile Reserve is at Karkat. Kakolat waterfall (Nawada) is called the 'Niagara of Bihar' at 160 feet, the highest waterfall in Bihar. Sukhaldari waterfall is at the junction of Bihar, UP, Chhattisgarh and Jharkhand.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Which is Asia's largest freshwater Ox-bow lake in Bihar?",
+          "options": {
+            "A": "Kanwar Lake",
+            "B": "Anupam Lake",
+            "C": "Kusheshwar Lake",
+            "D": "Ghoga Lake",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Kanwar Lake (Kabartal) is Asia's largest freshwater Ox-bow lake, situated in Begusarai district. Formed due to the meandering of the Budhi-Gandak River. In 2020, it was declared the 39th Ramsar site in India and the first in Bihar. Anupam Lake is in Kaimur Wildlife Sanctuary. Gogabeel (Katihar) is the 1st community Reserve in Bihar.",
+          "exam": "BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Which is the first Ramsar site in Bihar?",
+          "options": {
+            "A": "Kaimur range",
+            "B": "Kharagpur lake",
+            "C": "Kanwar lake",
+            "D": "Rajgir hill",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kanwar Lake was declared the 39th Ramsar site in India and the first in Bihar in 2020.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 66th Re, Project Manager"
+        },
+        {
+          "q": "Which district of Bihar has the largest gold reserve?",
+          "options": {
+            "A": "Jamui",
+            "B": "Banka",
+            "C": "Katihar",
+            "D": "Munger",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "India's largest reserves of gold ore (primary) are located in Bihar (44%). The presence of gold in areas such as Karmatia, Jhajha, and Sono in Jamui district was confirmed by the Geological Survey of India.",
+          "exam": "BPSC",
+          "year": "67th"
+        },
+        {
+          "q": "Which district of Bihar has mica deposits?",
+          "options": {
+            "A": "Rohtas",
+            "B": "Patna",
+            "C": "Gaya",
+            "D": "Saran",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Mica is found in Gaya. Gaya has Archean rocks rich in Mica, Bauxite, Iron ore. Gaya borders Koderma (the Mica capital of India). Key minerals: Limestone-Kaimur, Rohtas, Munger; Mica-Nawada, Jamui and Gaya; Quartzite-Munger; Bauxite-Munger (Kharagpur Hills); Uranium-Gaya.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Among the following pairs of minerals and districts, which one is correctly matched?",
+          "options": {
+            "A": "Limestone - Kaimur",
+            "B": "Mica - Bhagalpur",
+            "C": "Quartzite - Madhubani",
+            "D": "Lead-Zinc - Gaya",
+            "E": "None of the above /more than one"
+          },
+          "answer": "A",
+          "explanation": "Limestone is correctly matched with Kaimur. Mica is in Gaya/Nawada not Bhagalpur. Quartzite is in Munger not Madhubani. Lead-Zinc (Galena) is in Banka not Gaya.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Kaimur Plateau is famous for",
+          "options": {
+            "A": "Copper",
+            "B": "Limestone",
+            "C": "Lithium",
+            "D": "Bauxite",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "B",
+          "explanation": "Kaimur Plateau is famous for Limestone. Kaimur has Vindhyan rocks rich in limestone and sandstone.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "With reference to the mineral production in Bihar, consider following statements: 1. Rohtas has the highest deposit of pyrites. 2. Limestone is found in Kaimur (Bhabhua), Munger (Monghyr) and Rohtas districts. 3. Gold deposits are found in the Jamui district. Which of the statements given above is/are correct?",
+          "options": {
+            "A": "1 and 2 only",
+            "B": "1 and 3 only",
+            "C": "3 only",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "E",
+          "explanation": "All three statements are correct. Bihar has more than 90% of India's Pyrites deposits (1). Limestone is found in Kaimur, Munger and Rohtas (2). Gold deposits are in Jamui (3). Since all three are correct and D says only 'More than one' but not all three, the official answer is E. Rohtas Amjhor and Pattharghatta areas are famous for Pyrites.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which district of Bihar is known as the 'silk city'?",
+          "options": {
+            "A": "Bhojpur",
+            "B": "Bhagalpur",
+            "C": "Banka",
+            "D": "Katihar",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Bhagalpur is known as the 'silk city'. It is famous for Tussar Silk and Bhagalpuri Saree. Bhagalpuri silk is made from cocoons of Antheraea Paphia silkworms. The Silk Institute and Agricultural University is located there.",
+          "exam": "BPSC",
+          "year": "67th"
+        },
+        {
+          "q": "Which of the following pairs of industry and place is not correctly matched?",
+          "options": {
+            "A": "Oil refinery - Barauni",
+            "B": "Cement - Banjari",
+            "C": "Fertilizer - Bhaurahi",
+            "D": "Wagon and Engineering - Bhagalpur",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "Wagon and Engineering is NOT in Bhagalpur. Bharat Wagon and Engineering has plants in Muzaffarpur and Mokama. Bhaurahi is in Chandauli district UP, not in Bihar. Cement is at Dalminagar (Rohtas). Oil refinery is at Barauni (Begusarai).",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which type of industry has potential and prospects in Bihar?",
+          "options": {
+            "A": "Oil refinery",
+            "B": "Forest-based industry",
+            "C": "Sand-mining industry",
+            "D": "Agro-based industry",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "According to the economic survey, the agro-based Industry has more potential and prospects in Bihar. Barauni Refinery in Begusarai was the dream project of Shri Krishna Sinha (built with Soviet Union and IOCL).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which of the following is a silk textile-producing centre in Bihar?",
+          "options": {
+            "A": "Motipur",
+            "B": "Bajari",
+            "C": "Bhagalpur",
+            "D": "Dalmianagar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bhagalpur is the silk textile-producing centre in Bihar.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "At which of the following places Bharat Wagon and Engineering Co. Ltd. is situated?",
+          "options": {
+            "A": "Madhepura",
+            "B": "Jamalpur",
+            "C": "Harnaut",
+            "D": "Mokama",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bharat Wagon and Engineering Co. Ltd. is situated at Mokama (Patna).",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "The Barh Super Thermal Power Station (BSTPS) is located in which state?",
+          "options": {
+            "A": "Bihar",
+            "B": "Karnataka",
+            "C": "Rajasthan",
+            "D": "Punjab",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "A",
+          "explanation": "The Barh Super Thermal Power Station (BSTPS) is located in Bihar. 5 NTPC coal-based power stations in Bihar: Nabinagar-NPCC, Kanti, Barauni, Barh, and Kahalgaon. One Joint Venture: Nabinagar-BRBCL.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Kahalgaon, Kanti, Barh, and Nabinagar are the centers for which of the following?",
+          "options": {
+            "A": "Coal mining",
+            "B": "Tourism",
+            "C": "Thermal power",
+            "D": "Cotton textile industry",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kahalgaon, Kanti, Barh, and Nabinagar are the centers for Thermal power in Bihar.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Which of the following is a center of the textile industry in Bihar?",
+          "options": {
+            "A": "Gaya",
+            "B": "Bhagalpur",
+            "C": "Patna",
+            "D": "Munger",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Centres of the textile industry in Bihar are Gaya (cotton handlooms) AND Bhagalpur (Tussar silk), so E (More than one of the above).",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Dalmianagar of Bihar is famous for",
+          "options": {
+            "A": "Silk",
+            "B": "Jute",
+            "C": "Leather",
+            "D": "Cement",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Dalmianagar of Bihar (in Rohtas district) is famous for Cement.",
+          "exam": "BPSC",
+          "year": "59th, District Art and Culture"
+        },
+        {
+          "q": "Which river is known as the Sorrow of Bihar?",
+          "options": {
+            "A": "Ganga",
+            "B": "Kosi",
+            "C": "Sone",
+            "D": "Ghagra",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Kosi is known as the Sorrow of Bihar. Total length of Kosi is 729 km; it travels 260 km in Bihar. Canals on Kosi: East Kosi, West Kosi and Rajpur Canal.",
+          "exam": "BPSC",
+          "year": "67th"
+        },
+        {
+          "q": "The confluence of the rivers Son and Ganga is located in which district of Bihar?",
+          "options": {
+            "A": "Buxar",
+            "B": "Patna",
+            "C": "Bhojpur",
+            "D": "Nalanda",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Son River meets Ganga at Danapur in Patna district. Son originates from Amarkantak. Son enters Bihar in Rohtas. Two important tributaries of Son: Rihand and North Koel. Ganga enters Bihar at Chausa (Buxar) and borders 12 districts.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Phalgu, a sacred river flowing in Bihar, is formed by the confluence of which of the following rivers?",
+          "options": {
+            "A": "Son and Mohana rivers",
+            "B": "Mohana and Lilajan rivers",
+            "C": "Lilajan and Son rivers",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Phalgu River is formed by the confluence of the Lilajan (or Niranjana) and Mohana rivers. Niranjana originates from Simaria region of Hazaribagh District (Jharkhand). Mohana also originates from Hazaribagh District and is known as Mahanadi and Saraswati. It is a rain-fed river and almost dry in summer.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "In which of the following pairs of administrative Divisions of Bihar, the Ganga river does not flow?",
+          "options": {
+            "A": "Darbhanga - Munger",
+            "B": "Purnea - Bhagalpur",
+            "C": "Tirhut - Saran",
+            "D": "Kosi - Magadh",
+            "E": "None of the above /more than one"
+          },
+          "answer": "D",
+          "explanation": "Ganga does not flow through the Kosi and Magadh divisions. There are 9 administrative divisions of Bihar. Ganga passes through 7 divisions: Patna, Saran, Tirhut, Darbhanga, Munger, Purnea and Bhagalpur. Bhagalpur (the smallest division) has only two districts.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "The number of districts situated on the bank of the Ganga river in Bihar state is",
+          "options": {
+            "A": "21",
+            "B": "17",
+            "C": "12",
+            "D": "6",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "12 districts are situated on the bank of the Ganga River in Bihar: Buxar, Bhojpur, Saran, Patna, Vaishali, Samastipur, Begusarai, Munger, Khagaria, Katihar, Bhagalpur, and Lakhisarai. Patna district has the longest stretch of Ganga in Bihar. Length of Ganga in Bihar: 445 km.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The district of Bihar which has the longest length of the Ganga River is",
+          "options": {
+            "A": "Bhagalpur",
+            "B": "Katihar",
+            "C": "Patna",
+            "D": "Begusarai",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Patna district has the longest length of the Ganga river in Bihar.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following rivers joins the Ganga at Fatuha?",
+          "options": {
+            "A": "Son",
+            "B": "Punpun",
+            "C": "Sakri",
+            "D": "Balan",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "B",
+          "explanation": "Punpun river joins the Ganga at Fatuha. Punpun originates from Palamu (Jharkhand).",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "The land of Bihar is drained by which of the following river systems?",
+          "options": {
+            "A": "Mahanadi",
+            "B": "Ganga",
+            "C": "Yamuna",
+            "D": "Godavari",
+            "E": "None of the above / more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The land of Bihar is drained by the Ganga river system.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "The Son River, which joins the Ganga River in Bihar, originates from",
+          "options": {
+            "A": "Hazaribagh Plateau",
+            "B": "Palamu Plateau",
+            "C": "Malwa Plateau",
+            "D": "Amarkantak Plateau",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Son River originates from Amarkantak, the meeting point of the Vindhya and Satpura Ranges with the Maikal Hills as the fulcrum. Narmada, Son, and Johila rivers all emerge from Amarkantak.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Triveni Canal has been constructed on the river",
+          "options": {
+            "A": "Kosi",
+            "B": "Son",
+            "C": "Gandak",
+            "D": "Kamla",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "C",
+          "explanation": "Triveni canal is constructed on the bank of river Gandak. Tirhut, Saran and Teur canals are also on the Gandak River. Valmiki Tiger Reserve is on the bank of Gandak. Canals on Kosi: East Kosi, West Kosi and Rajpur Canal. Canals on Son: Patna Canal and Son Canal.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Which of the following canal systems irrigate areas of Bihar?",
+          "options": {
+            "A": "Upper Ganga Canal",
+            "B": "Triveni Canal",
+            "C": "Sharda Canal",
+            "D": "Eastern Yamuna Canal",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Triveni Canal (on Gandak River) irrigates areas of Bihar. Sharda canal is in Uttar Pradesh. The Upper Ganga Canal takes off from Bhimgoda in Haridwar, Uttarakhand. Eastern Yamuna Canal is in Uttar Pradesh.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Brahmayoni Hill is located in which district of Bihar?",
+          "options": {
+            "A": "Gaya",
+            "B": "Rohtas",
+            "C": "Nalanda",
+            "D": "Nawada",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Brahmayoni is a sacred hill in Gaya district of Bihar, the highest hill in Gaya. Mentioned in Mahabharata and Buddhist texts. It is the place where Buddha preached the Fire sermon (Adittapariyaya Sutta). Other hills in Gaya: Ramshila Hills and Pretshila Hills.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which city of Bihar is surrounded by five hills?",
+          "options": {
+            "A": "Gaya",
+            "B": "Patna",
+            "C": "Bhagalpur",
+            "D": "Bodh Gaya",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "None of the above. The Rajgir Hills lie near the city of Rajgir in Bihar, surrounded by SEVEN hills (not five): Ratnagiri, Vipulachal, Vaibhavagiri, Songiri, Sailagiri, Chatragiri and Udaygiri. Vaibhava Hill has seven hot springs. The 1st Buddhist Council was held in the saptaparni caves of Vaibhav Giri hills.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which one of the following districts does not have Dharwar geological formations?",
+          "options": {
+            "A": "Munger",
+            "B": "Rohtas",
+            "C": "Jamui",
+            "D": "Nawada",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Rohtas does not have Dharwar geological formations. Rohtas belongs to the Vindhya range (Kaimur Range), which is younger. Dharwar formations are found in South-Eastern Bihar: Munger, Jamui, and Nawada. Minerals: Mica, Schists.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following parts of Bihar is geologically older in age relatively?",
+          "options": {
+            "A": "Rohtas Plateau",
+            "B": "North-Western Hills",
+            "C": "Kharagpur Hills",
+            "D": "North Ganga Plains",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kharagpur Hills belongs to the Dharwar system, considered as relatively the oldest. Present mainly in Munger district. Rohtas Plateau is an extension of the Vindhya range. North-Western Hills contain Someshwar Range with highest peak at Someshwar Fort (880 mts).",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which of the landforms occupy the North-Western parts of Bihar state?",
+          "options": {
+            "A": "Someshwar Hilly Range",
+            "B": "Kaimur Plateau",
+            "C": "Nawada Hilly Region",
+            "D": "Rajgir Hilly Region",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Someshwar Hilly Range occupies the North-Western parts of Bihar state. Highest peak: Someshwar Fort (880 mts). Part of the Shiwalik Range.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Someshwar range is a part of which of the following mountain ranges?",
+          "options": {
+            "A": "Satpura Range",
+            "B": "Vindhyan Range",
+            "C": "Eastern Ghats",
+            "D": "Shiwalik Range",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Someshwar range is a part of the Shiwalik Range.",
+          "exam": "CDPO BPSC",
+          "year": "22"
+        },
+        {
+          "q": "The nomenclature of 'Diara' lands of the Ganga river is related to",
+          "options": {
+            "A": "Diya",
+            "B": "Dahar",
+            "C": "Devara",
+            "D": "Daira",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Diara is a landform formed by deposition of sediments by the river. In North Bihar, rivers deposit sediments to form a 'Diya' shaped landform called Diara. South Bihar rivers make a landform called 'Tal' near the Gangetic belt.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Which agro-climatic region of Bihar has the highest number of districts?",
+          "options": {
+            "A": "Northern east",
+            "B": "Northern west",
+            "C": "Southern east",
+            "D": "Southern west",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Northern west agro-climatic region has the highest number of districts (13). Agro-climatic zones: Zone I (North West Alluvial Plain)-13; Zone II (North East Alluvial Plain)-8; Zone III A (South East)-6; Zone III B (South West)-11.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "According to Koppen's climatic classification, the climate of North Bihar may be explained as",
+          "options": {
+            "A": "CWg",
+            "B": "Aw",
+            "C": "CA'w",
+            "D": "CBs",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "A",
+          "explanation": "The climate of North Bihar is CWg (warm and temperate, ample rainfall in summers, very little rain in winter). South Bihar is AW (Tropical Savanna) per Koppen's classification.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which of the following Agro-climatic zones of Bihar produces maximum Makhana (Fox nut)?",
+          "options": {
+            "A": "North Northwest Alluvial plain",
+            "B": "North East Alluvial plain",
+            "C": "Southwest alluvial plane",
+            "D": "South east Alluvial plain",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The North East Alluvial plain (Madhubani, Sitamarhi, Darbhanga, Saharsha, Katihar, Purnia, Supaul, Kishanganj and Araria) is agro-climatically suitable for makhana. Bihar is the largest makhana producer in India. Foxnut has recently got the GI Tag and is called 'Black Diamond'.",
+          "exam": "BPSC",
+          "year": "AAO"
+        },
+        {
+          "q": "Piedmont Swamp Soil is found in which one of the following districts of Bihar?",
+          "options": {
+            "A": "Madhubani",
+            "B": "Bhagalpur",
+            "C": "West Champaran",
+            "D": "Sitamarhi",
+            "E": "None of the above /More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Piedmont swamp soil is found in the north-western part of West Champaran. It is formed at the foot of the Someshwar range by debris deposited by flowing rivers. Canebrakes (tropical seasonal swamp forests) are predominantly found in West Champaran.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Most of the area in Bihar is covered by",
+          "options": {
+            "A": "mountainous soil",
+            "B": "alluvial soil",
+            "C": "regur soil",
+            "D": "terai soil",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Most of the area in Bihar is covered by alluvial soil (rich in Potash but poor in Nitrogen and Phosphorus). Two types: Khadar (New Alluvial, very fertile, North Bihar) and Banger or Old Alluvial (less fertile, South Bihar). Terai soil extends from West Champaran to Kishanganj; Araria has the largest concentration.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which soil is predominantly found in the districts of Muzaffarpur, Darbhanga, and Champaran?",
+          "options": {
+            "A": "Black soil",
+            "B": "Newer alluvium",
+            "C": "Older alluvium",
+            "D": "Red soil",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "B",
+          "explanation": "Khadar (composed of newer alluvium) forms most of the fertile lands of Muzaffarpur, Darbhanga and Champaran. Older alluvium is mainly found in South Bihar. Muzaffarpur is on the bank of Budhi Gandak. Red soil is found majorly in Kaimur and Rohtas districts.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "In Bihar, the terms Balsundari, Tal, Karail, and Balthar are used for which of the following?",
+          "options": {
+            "A": "Agriculture",
+            "B": "Crop",
+            "C": "Soil",
+            "D": "Natural vegetation",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Balsundari, Tal, Karail, and Balthar are all types of Soil in Bihar. Balsundari: Old alluvial with high lime content (North Bihar). Karail-Kewal: heavy clay soil (Rohtas, Gaya, Aurangabad). Tals: land bounded by river deposits, very fertile. Balthar: from Kaimur to Rajmahal Hills.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Among the following pairs of tribes and districts which one is not correctly matched?",
+          "options": {
+            "A": "Santhal - Banka",
+            "B": "Munda - Jamui",
+            "C": "Oraon - Supaul",
+            "D": "Kharwar - Bhagalpur",
+            "E": "None of the above /More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Munda-Jamui is NOT correctly matched. Munda tribe is found in Rohtas and Buxar, not Jamui. Correct: Santhal-Banka, Bhagalpur, Purnea, Katihar; Oraon-Rohtas, Supaul; Kharwar-Rohtas, Bhagalpur. Santhals are the largest tribal group in Bihar. Oraons are the most educated.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Numerically the largest Scheduled Tribe of Bihar is",
+          "options": {
+            "A": "Munda",
+            "B": "Santhal",
+            "C": "Gond",
+            "D": "Kora",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Santhal is numerically the largest Scheduled Tribe of Bihar (48% of total tribal population in Bihar). In Bihar: Santhal > Oraon > Kherwar. In India: Bhil > Gond > Santhal.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Which one of the following districts has the only National Park of Bihar?",
+          "options": {
+            "A": "Nalanda",
+            "B": "Bhagalpur",
+            "C": "West Champaran",
+            "D": "East Champaran",
+            "E": "None of the above /More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Valmiki National Park is the only national park in Bihar, situated in West Champaran district. Its extension in Nepal is Chitwan National Park. Notified as the 18th Tiger Reserve. Established in 1978, earlier called 'Bhaisalotan'.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which one of the following wildlife sanctuaries is situated in the Munger district of Bihar?",
+          "options": {
+            "A": "Valmiki",
+            "B": "Rajgir",
+            "C": "Bhimbandh",
+            "D": "Gautam Buddha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bhimbandh Wildlife Sanctuary is situated in Munger district of Bihar.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following wildlife/bird sanctuaries of Bihar is the largest in terms of geographical area (in sq. km)?",
+          "options": {
+            "A": "Valmiki",
+            "B": "Kaimur",
+            "C": "Bhimbandh",
+            "D": "Gautama Buddha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Kaimur Wildlife Sanctuary is the largest in area. Descending order: Kaimur > Valmiki Vanya Prani Sanctuary > Bhimband Sanctuary > Gautam Buddha Sanctuary.",
+          "exam": "BPSC",
+          "year": "Headmaster"
+        },
+        {
+          "q": "Which of the following pairs of Park/sanctuary and district is not matched correctly?",
+          "options": {
+            "A": "Bhimbandh - Munger",
+            "B": "Nagi Dam - Jamui",
+            "C": "Kaimur - Buxar",
+            "D": "Rajgir - Nalanda",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Kaimur Wildlife Sanctuary is in Kaimur district (and Rohtas), NOT Buxar. All other pairs are correct.",
+          "exam": "BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Among the following districts, which one has a larger area under dense deciduous forest cover?",
+          "options": {
+            "A": "West Champaran",
+            "B": "Gaya",
+            "C": "Kaimur",
+            "D": "Nawada",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "West Champaran has a larger area under deciduous forest cover due to Someshwar (874m) range. As per ISFR 2021: Highest area forest cover: Kaimur > West Champaran > Rohtas. Highest percentage forest cover: Kaimur > Jamui > Nawada.",
+          "exam": "BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The average annual rainfall of Bihar is",
+          "options": {
+            "A": "750 mm",
+            "B": "1005 mm",
+            "C": "1205 mm",
+            "D": "1505 mm",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "As per Embankment Asset Management System Bihar Basins, the average annual rainfall in Bihar is 1205 mm. IMD data (1871-2011) gives 1224mm average. Average rainy days in Bihar: 52.5 days in a year.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Which of the following districts has no land under forest cover?",
+          "options": {
+            "A": "Bhojpur",
+            "B": "Rohtas",
+            "C": "Nawada",
+            "D": "Munger",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "As per India State of Forest Report 2021, no district in Bihar has zero forest area. The lowest forest area is in Sheikhpura district followed by Arwal. Hence E (None of the above).",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "By how many districts of Bihar was Patna district bounded till July 2018?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Patna district is bounded by 9 districts: Bhojpur, Saran, Vaishali, Samastipur, Begusarai, Lakhisarai, Nalanda, Jehanabad, and Arwal.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Which of the following districts of Bihar does not share a border with Nepal?",
+          "options": {
+            "A": "Madhubani",
+            "B": "Kishanganj",
+            "C": "Sitamarhi",
+            "D": "Purnia",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "D",
+          "explanation": "Purnia does NOT share a border with Nepal. Districts bordering Nepal: West Champaran, East Champaran, Sitamarhi, Madhubani, Supaul, Araria, and Kishanganj. Districts bordering West Bengal: Kishanganj, Purnea, and Katihar. 8 districts each border UP and Jharkhand.",
+          "exam": "BPSC",
+          "year": "63rd, District Art and Culture"
+        },
+        {
+          "q": "Which of the following States of India borders with the maximum number of districts in Bihar?",
+          "options": {
+            "A": "Jharkhand",
+            "B": "West Bengal",
+            "C": "Uttar Pradesh",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Both Uttar Pradesh and Jharkhand have a common border with 8 districts each of Bihar. Border with UP: West Champaran, Gopalganj, Siwan, Saran, Buxar, Bhojpur, Kaimur, Rohtas. Border with Jharkhand: Katihar, Bhagalpur, Banka, Jamui, Nawada, Gaya, Aurangabad, Rohtas.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which of the following towns is located easternmost of Bihar?",
+          "options": {
+            "A": "Bhagalpur",
+            "B": "Patna",
+            "C": "Katihar",
+            "D": "Purnia"
+          },
+          "answer": "C",
+          "explanation": "Among the given options, Katihar lies in the easternmost part of Bihar. Among all districts: West Champaran is the northernmost, Kaimur is the westernmost, Gaya is the southernmost, and Kishanganj is the easternmost.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Which of the following is the last railway station of Bihar on the train route from Bhagalpur towards Mirza Cheuki?",
+          "options": {
+            "A": "Ammapali Railway Station",
+            "B": "Kahalgaon Railway Station",
+            "C": "Pirpainti Railway Station",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Ammapali railway station is a halt railway station on the Sahibganj loop line. It is the last station in Bihar on the train route from Bhagalpur towards Mirza Cheuki.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which of the following physiographic divisions of Bihar does not share its boundary with Jharkhand?",
+          "options": {
+            "A": "Ganga-Son Divide",
+            "B": "Ganga Plain",
+            "C": "Magadha Plain",
+            "D": "Mithila Plain",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Mithila plain lies in North Bihar and does not share its boundary with Jharkhand. Ganga-Son divide districts in West South touch Jharkhand. Bhagalpur and Katihar (Ganga Plain) border Jharkhand. Magadha plain districts like Nawada and Gaya border Jharkhand.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "Which of the following is the only UNESCO World Heritage Site present in the Bihar State of India?",
+          "options": {
+            "A": "Mahabodhi Vihar",
+            "B": "Buddhist Monastery in Nalanda",
+            "C": "Ancient site of Vikramashila Monastery",
+            "D": "Tomb of Sher Shah Suri",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "There are TWO UNESCO World Heritage Sites in Bihar: Mahabodhi Mandir in Gaya (2002) and Buddhist Monastery Nalanda (2016). Both A and B are correct, hence E (More than one of the above).",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Which of the following National Highways connect Chhapara and Gopalganj?",
+          "options": {
+            "A": "National Highway No.77",
+            "B": "National Highway No.84",
+            "C": "National Highway No.85",
+            "D": "National Highway No.80",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "NH 85 connects Chhapra to Gopalganj. NH 77: Hajipur-Sitamarhi-Sonbarsa. NH 84: Arrah to Buxar. NH 80: Mokama to Farakka (190 km). NH 31 (404 km) is the longest NH in Bihar. NH 57A (13 km) is the shortest.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Where is Jal Mandir located?",
+          "options": {
+            "A": "Gangapuri",
+            "B": "Pawapuri",
+            "C": "Teerthapuri",
+            "D": "Jalpuri",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Jal Mandir (water temple) is situated in Pawapuri of Nalanda district of Bihar. Pawapuri has a highly revered temple dedicated to Lord Mahavira, the 24th Tirthankara, marking the place of his cremation. Another name for Pawapuri is Apapapuri (city without sin).",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Which of the following lakes is situated in Bihar?",
+          "options": {
+            "A": "Anupam Lake",
+            "B": "Sambhar Lake",
+            "C": "Sukhna Lake",
+            "D": "Kama Lake"
+          },
+          "answer": "A",
+          "explanation": "Anupam Lake is in the Kaimur Wildlife Sanctuary of Kaimur district Bihar, the largest sanctuary in Bihar. Sambhar Lake (India's largest inland salt lake) is in Rajasthan. Sukhna Lake is in Chandigarh. Kama Lake is in Russia.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "What is the unique festival of Bihar?",
+          "options": {
+            "A": "Deepawali",
+            "B": "Bisu",
+            "C": "Vinayak Chaturthi",
+            "D": "Chhath Puja"
+          },
+          "answer": "D",
+          "explanation": "Chhath Puja is the unique festival of Bihar, also celebrated in parts of UP, Jharkhand, and Southern Nepal. Celebrated in March and November to venerate Surya (the sun god) and Chhathi Maiya.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "The Chhath Puja is celebrated in the months of",
+          "options": {
+            "A": "March and November",
+            "B": "January and October",
+            "C": "January and August",
+            "D": "November and July",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Chhath Puja is celebrated in the months of March and November.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The flood-affected area of India located in Bihar is",
+          "options": {
+            "A": "30.5%",
+            "B": "25.5%",
+            "C": "16.5%",
+            "D": "10.5%",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Bihar makes up 16.5% of India's flood-affected area and 22.1% of India's flood-affected population. Bihar is India's most flood-prone state, with 76% of North Bihar population living under recurring flood threat.",
+          "exam": "BPSC",
+          "year": "District Art and Culture"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Bihar Polity",
+      "questions": [
+        {
+          "q": "How many seats are reserved for SC candidates in the Bihar legislative assembly?",
+          "options": {
+            "A": "38",
+            "B": "40",
+            "C": "44",
+            "D": "46",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "38 seats are reserved for SC candidates in Bihar legislative assembly. ST reserved constituencies: 2 (Manihari and Katoria). Article 332 relates to this. Total Bihar Legislative Assembly strength: 243. Total MLCs: 75. Total Lok Sabha seats: 40. Total Rajya Sabha seats: 16. SC seats in Lok Sabha: 6.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "How many members are elected from Bihar to the Lok Sabha?",
+          "options": {
+            "A": "20",
+            "B": "30",
+            "C": "35",
+            "D": "40"
+          },
+          "answer": "D",
+          "explanation": "40 members are elected from Bihar to the Lok Sabha.",
+          "exam": "BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "In which year was 50% reservation to women in panchayat bodies provided in Bihar?",
+          "options": {
+            "A": "2005",
+            "B": "2006",
+            "C": "2009",
+            "D": "2014",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "In 2006, Bihar allotted 50% reservation for women in panchayat bodies through the Panchayat Raj Act (BPRA), 2006. Bihar became the first state to provide such reservation. Related constitutional provision: Article 243D.",
+          "exam": "BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "In which year was Bihar divided to create Jharkhand?",
+          "options": {
+            "A": "2000",
+            "B": "2001",
+            "C": "2004",
+            "D": "2005",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Jharkhand was separated from Bihar through Bihar Reorganisation Act 2000 on 15th November 2000.",
+          "exam": "BPSC",
+          "year": "67th Cancelled, 64th, CDPO 2022"
+        },
+        {
+          "q": "Bihar politician Late Raghuvansh Prasad Singh was for the first time elected to which Lok Sabha?",
+          "options": {
+            "A": "Tenth Lok Sabha",
+            "B": "Eleventh Lok Sabha",
+            "C": "Twelfth Lok Sabha",
+            "D": "Thirteenth Lok Sabha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Late Raghuvansh Prasad Singh was elected in the Eleventh Lok Sabha for the first time. He was the MP from Vaishali constituency, representing it consecutively for five terms. He served in the Union Cabinet three times.",
+          "exam": "BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Cow slaughter was banned by law in Bihar in which year?",
+          "options": {
+            "A": "1948",
+            "B": "1949",
+            "C": "1954",
+            "D": "1955",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The Bihar Preservation and Improvement of Animals Act, 1955 prohibits slaughter of cow and calf. Related constitutional provision: Article 48 (DPSP).",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who among the following has served as the Governor of Bihar twice?",
+          "options": {
+            "A": "Akhalaqur Rahman Kidwai",
+            "B": "Mohammad Yunus Saleem",
+            "C": "Mohammad Shafi Qureshi",
+            "D": "Zakir Hussain",
+            "E": "None of the above / More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Akhlaqur Rahman Kidwai served as Governor of Bihar twice: 1979-1985 and 1993-1998. He also served as Governor of West Bengal and Haryana. He was awarded the Padma Vibhushan. Zakir Hussain and Ram Nath Kovind both served as Governor of Bihar and later became President of India.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Who was the first Governor of Bihar after Independence?",
+          "options": {
+            "A": "Jagannath Mishra",
+            "B": "Lalit Narayan Mishra",
+            "C": "Jairamdas Daulatram",
+            "D": "Jaiprakash Narayan",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Jairamdas Daulatram was the first Governor of Bihar after Independence.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Who was the first Indian Governor of Bihar?",
+          "options": {
+            "A": "Dr. Shri Krishna Singh",
+            "B": "Braj Kishor Prasad",
+            "C": "B.P Mandal",
+            "D": "Satyendra Pd. Sinha",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Satyendra Pd. Sinha was the first Governor of Bihar and Orissa, the first Indian Advocate-General of Bengal, and the first Indian to enter the Viceroy's Executive Council in 1909. He was also President of INC in 1915 (Bombay session).",
+          "exam": "BPSC",
+          "year": "67th"
+        },
+        {
+          "q": "Who was the first non-congress Chief Minister of Bihar?",
+          "options": {
+            "A": "Karpoori Thakur",
+            "B": "Mahamaya Prasad Sinha",
+            "C": "Ram Sundar Das",
+            "D": "Lalu Prasad Yadav",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Mahamaya Prasad Sinha was the fifth Chief Minister of Bihar (March 1967 to January 1968), heading the first non-congress government in Bihar. He was a member of Jan Kranti Dal. Shortest tenure as CM: Satish Prasad Singh from Soshit Samaj Dal, only 5 days.",
+          "exam": "CDPO BPSC",
+          "year": "2022"
+        },
+        {
+          "q": "Bhola Paswan Shastri, the former Chief Minister was from which district of Bihar?",
+          "options": {
+            "A": "Purnia",
+            "B": "Patna",
+            "C": "Bhagalpur",
+            "D": "West Champaran",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Bhola Paswan Shastri was the first Dalit Chief Minister of Bihar. He became Chief Minister of Bihar thrice. He was from Purnia.",
+          "exam": "BPSC",
+          "year": "Project Manager"
+        },
+        {
+          "q": "The late actor Kumudlal Ganguly, also known by his stage name Ashok Kumar, was born in which of the following cities of Bihar?",
+          "options": {
+            "A": "Bhagalpur",
+            "B": "Patna",
+            "C": "Munger",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Kumudlal Ganguly (stage name Ashok Kumar, also known as Dadamoni) was born in Bhagalpur. He was honoured with the Dadasaheb Phalke Award in 1988 and Padma Bhushan in 1999.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The average size of landholdings in Bihar in comparison with other states is",
+          "options": {
+            "A": "lowest",
+            "B": "second lowest",
+            "C": "highest",
+            "D": "second-highest",
+            "E": "none of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The average size of landholdings in Bihar is the second lowest. Kerala has the lowest. Nagaland has the highest. (According to the 10th agriculture census)",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "The latest per capita income at current prices is the lowest for the Indian state of",
+          "options": {
+            "A": "Bihar",
+            "B": "Uttar Pradesh",
+            "C": "Odisha",
+            "D": "Nagaland",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "A",
+          "explanation": "The per capita income at current prices is the lowest for Bihar (Rs. 50555 as per economic survey 2021-22; Rs 54,383 as per economic survey 2022-23). The highest per capita income is for Goa.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Which district in Bihar is the poorest according to per capita income criteria?",
+          "options": {
+            "A": "Begusarai",
+            "B": "Madhepura",
+            "C": "Supaul",
+            "D": "Sheohar",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "As per economic survey 2020-21, lowest per capita income is Sheohar (Rs 19,000). As per 2022-23: Sheohar (Rs 18,692) is lowest, Patna (Rs 1,15,239) is highest.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "At what percentage has Bihar registered the lowest Female Workforce Participation Rate for the year 2020-2022?",
+          "options": {
+            "A": "6% in rural and 8.1% in urban areas",
+            "B": "7% in rural and 9.1% in urban areas",
+            "C": "4% in rural and 6.5% in urban areas",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Bihar registered the lowest Female Workforce Participation Rate at 4% in rural and 6.5% in urban areas for the year 2020-2022.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Per capita, energy consumption in the state of Bihar is:",
+          "options": {
+            "A": "20 kWh",
+            "B": "187 kWh",
+            "C": "161 kWh",
+            "D": "145 kWh",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "None of the options match. As per Bihar economic survey 2021-22, per capita consumption increased to 350 kWh in 2020-21. As per 2022-23, it was 329 kWh in 2021-22. In 2019-20, Bihar was at the bottom with 332 kWh.",
+          "exam": "BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which one of the following cereals has the highest per-hectare yield in Bihar?",
+          "options": {
+            "A": "Rice",
+            "B": "Wheat",
+            "C": "Maize",
+            "D": "Barley",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Maize has the highest per-hectare yield in Bihar. As per Economic survey 2022-23, productivity is 5236 kg/hectare. Leading district for Maize productivity: Araria (8361 kgs/hectare), followed by Purnea and Katihar.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which food industry dominates among the agro-based industries in Bihar?",
+          "options": {
+            "A": "Pulse industry",
+            "B": "Sugarcane industry",
+            "C": "Cereal-based industry",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Cereal-based industry dominates among the agro-based industries in Bihar. Rice, Wheat and maize are grown majorly in the state.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Leading fish producer districts of Bihar are",
+          "options": {
+            "A": "Madhubani and East Champaran",
+            "B": "Madhubani and Darbhanga",
+            "C": "East Champaran and Darbhanga",
+            "D": "East Champaran and Muzaffarpur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Madhubani (0.77 lakh tonnes) and Darbhanga (0.64 lakh tonnes) are the leading fish producer districts of Bihar. Darbhanga is often called the 'Land of Ponds'. As per Economic survey 2022-23: Madhubani (0.81 LT) > Darbhanga (0.75 LT) > East Champaran (0.71 LT).",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The largest canal-irrigated area in Bihar lies in the district of",
+          "options": {
+            "A": "West Champaran",
+            "B": "Aurangabad",
+            "C": "Rohtas",
+            "D": "Bhojpur",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Rohtas district is the most canal-irrigated district, irrigated by the Son Canal project. As per Economic Survey 2022-23: Gross Irrigated area highest in Rohtas (4.15 lakh hectares) and lowest in Sheohar. 30.6% irrigated land under canal irrigation, 63.9% under tubewell.",
+          "exam": "BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The largest jute-producing district of Bihar is",
+          "options": {
+            "A": "Siwan",
+            "B": "Gaya",
+            "C": "Vaishali",
+            "D": "Purnia",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "D",
+          "explanation": "Purnia is the largest Jute producing district of Bihar. West Bengal is the largest Jute producing state; Bihar is the second largest. India is the largest Jute producing country in the world. Bangladesh is second.",
+          "exam": "BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "In Bihar, tea gardens were established for the first time in which of the following Places?",
+          "options": {
+            "A": "Bahadurganj",
+            "B": "Supaul",
+            "C": "Thakurganj",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Tea gardens were established for the first time in Bihar in Thakurganj. Tea Board of India has approved five blocks of Kishanganj district: Kishanganj, Thakurganj, Pothia, Bahadurganj and Dighalbank. Tea is one of seven crops under Bihar Agri Investment Promotion Policy (BAIPP), 2020.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "The 'Organic Corridor' plan of the Bihar Government shall promote organic farming along/in",
+          "options": {
+            "A": "Ganga River",
+            "B": "National Highways",
+            "C": "Tarai Belt",
+            "D": "Urban Centres",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Bihar government has created an 'Organic Farming Corridor' along river Ganga with 13 districts including Patna, at an estimated budget of Rs 1.55 lakh crore. Part of the state's 'Third Agriculture Roadmap' for 2017-2022.",
+          "exam": "CDPO BPSC",
+          "year": "2018"
+        },
+        {
+          "q": "'Bihar Economics Survey', for the first time, was published for the financial year",
+          "options": {
+            "A": "2004-05",
+            "B": "2006-07",
+            "C": "2008-09",
+            "D": "2009-10",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "2006-07 was the first year Bihar Economics Survey was published, presented by Sushil Kumar Modi. The 17th Economic Survey of Bihar (2022-23) was tabled by Finance Minister Shri Vijay Kumar Choudhary.",
+          "exam": "BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "According to the National Family Survey-5 released by the Union Ministry of Health and Family Welfare on November 24, 2021, there has been a significant improvement in the sex ratio of Bihar. It has increased from ____ in 2015-2016 to ____ in 2020-2022",
+          "options": {
+            "A": "1040, 1070",
+            "B": "1030, 1050",
+            "C": "1062, 1090",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "As per NFHS-5, sex ratio in Bihar increased from 1062 in NFHS-4 (2015-16) to 1090 in 2020-2022. Other NFHS-5 facts: Child sex ratio-908; Total fertility rate-3.0; Infant Mortality Rate-46.8.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "According to the Bihar Economic Survey (2021-2022), what was the rate of growth of Gross State Domestic Product (GSDP) of Bihar in 2020-2021?",
+          "options": {
+            "A": "2%",
+            "B": "2.5%",
+            "C": "3%",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "According to the Bihar Economic Survey (2021-2022), the GSDP growth rate of Bihar in 2020-2021 was 2.5%. As per Bihar Economic Survey (2022-23), the GSDP in 2021-22 was 10.98% at constant prices.",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        },
+        {
+          "q": "Which of the following is correct for Bihar's economy?",
+          "options": {
+            "A": "Bihar produces mostly primary goods",
+            "B": "The occupational structure of the economy is stagnant from above.",
+            "C": "The growth rate is one of the lowest in India at 2.5%",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Both A and B are correct. Bihar's agrarian economy produces mainly primary goods (A). Due to lack of economic diversification, more than 2/3 of population is in farming, leading to stagnant occupational structure (B). Hence D (A and B).",
+          "exam": "BPSC",
+          "year": "68th Pre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2659 @@
+{
+  "subject": "Biology",
+  "chapters": [
+    {
+      "chapter_name": "Human Physiology",
+      "questions": [
+        {
+          "q": "The ultimate substance to which carbohydrates are degraded is",
+          "options": {
+            "A": "glycerol",
+            "B": "glucose",
+            "C": "maltose",
+            "D": "amino acids",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Carbohydrates are broken down into glucose which serves as the primary source of energy. The body digests starch and sugar by breaking them down into glucose. Cellulose is not digestible. Excess carbohydrates are converted into fat by the liver. Maltose is a sugar made of two glucose molecules. Amino acids are building blocks of proteins. Glycerol is a naturally occurring alcohol.",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Which of the following foods provides the nutrient for the growth of new tissues in the human body?",
+          "options": {
+            "A": "Fruits",
+            "B": "Vegetables",
+            "C": "Cheese",
+            "D": "Sweets"
+          },
+          "answer": "C",
+          "explanation": "Nutrients like protein and calcium are required for growth, development and maintenance of tissues. Proteins are the essential building blocks of all tissues. Cheese has the majority of these nutrients. A half-cup of soft cottage cheese has about 14g of protein, 3g of saturated fat, and 80mg of calcium.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Most of the enzymes are",
+          "options": {
+            "A": "lipids",
+            "B": "acid",
+            "C": "alkali",
+            "D": "protein",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Enzymes are proteins that perform the role of biological catalysts in the body. They speed up reactions by lowering the activation energy. All enzymes are proteins except a few RNA-based enzymes called Ribozymes. A few enzymes are Pepsin, Amylase, Trypsin.",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "The pituitary gland is located in",
+          "options": {
+            "A": "Intestine",
+            "B": "Liver",
+            "C": "Kidney",
+            "D": "Brain",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The pituitary gland is a small, pea-sized endocrine gland located at the base of the brain below the hypothalamus. It is connected to the hypothalamus through the pituitary stalk. It produces GH, PRL, TSH, ACTH, LH, FSH, MSH, oxytocin and vasopressin. It is called the Master Gland because it tells other endocrine glands to release hormones.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "________ is called the master gland",
+          "options": {
+            "A": "Pituitary gland",
+            "B": "Thyroid",
+            "C": "Pancreas",
+            "D": "Adrenal",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.4",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Liver stores",
+          "options": {
+            "A": "A, B, C, and D Vitamin",
+            "B": "Only A and B vitamins",
+            "C": "A, B and C vitamins",
+            "D": "None of these"
+          },
+          "answer": "D",
+          "explanation": "The liver stores glycogen, vitamin A, vitamin D, vitamin B12, iron, and copper. It does not store vitamin C or most B-complex vitamins (except B12). Therefore, none of the options fully correctly describes what the liver stores.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "The universal acceptor blood group is",
+          "options": {
+            "A": "A",
+            "B": "B",
+            "C": "AB",
+            "D": "O",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Karl Landsteiner discovered the ABO blood group system in 1900. Group O blood can be donated to persons with any other blood group (universal donor). Persons in the AB group can accept blood from all groups. Therefore, AB group individuals are called universal recipients.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The blood group of an individual is determined by:",
+          "options": {
+            "A": "Presence of haemoglobin",
+            "B": "Combination of WBC and plasma",
+            "C": "Shape of RBC",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Blood group is determined by the presence or absence of specific antigens (like A, B, and Rh factor) on the surface of red blood cells. It has nothing to do with haemoglobin, WBCs, plasma, or RBC shape.",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "The blood group considered to be a universal donor is",
+          "options": {
+            "A": "O",
+            "B": "AB",
+            "C": "B+",
+            "D": "A"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.7",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "The husband has blood group A and the wife has blood group B. What is the blood group of their children?",
+          "options": {
+            "A": "A",
+            "B": "B",
+            "C": "AB",
+            "D": "A, B, AB or O",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "When parent one has blood group A and parent two has blood group B, the possible ABO blood types of the child are A, B, AB, or O, because both A and B blood groups can carry hidden O alleles.",
+          "exam": "Headmaster BPSC",
+          "year": "Headmaster BPSC"
+        },
+        {
+          "q": "In transfusion, blood must be compatible not only in blood type but also in",
+          "options": {
+            "A": "Rh factor",
+            "B": "The number of white cells",
+            "C": "The number of red cells",
+            "D": "Race of donor and recipient",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Rh factor is an inherited protein in RBCs discovered in 1940 by Landsteiner and Wiener. Rh incompatibility causes destruction of red blood cells. Rh+ blood can receive both Rh+ and Rh- transfusions, but Rh- can only receive Rh- blood.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Which of the following rays/waves are used to know the growth of a foetus in the womb?",
+          "options": {
+            "A": "X-rays",
+            "B": "Microwaves",
+            "C": "Ultrasonic waves",
+            "D": "Ultraviolet waves",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Ultrasonic waves (frequency greater than 20 kHz) are used to know the growth of a foetus in the womb through a process known as sonography or ultrasound. X-rays detect defects in bones. UV rays break chemical bonds within DNA and protein molecules.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The female sex hormone is",
+          "options": {
+            "A": "Estrogen",
+            "B": "Androgen",
+            "C": "Insulin",
+            "D": "Oxytocin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The two main female sex hormones are estrogen and progesterone. Estrogens play an important role in normal sexual and reproductive development. The ovaries make most estrogen hormones. Oxytocin is called the love hormone and is produced in the hypothalamus. Androgens are found in higher amounts in males. Insulin regulates blood glucose level, produced by beta cells of islets of Langerhans in the pancreas.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which of the following glands produces insulin?",
+          "options": {
+            "A": "Pancreas",
+            "B": "Kidney",
+            "C": "Liver",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.13",
+          "exam": "30th Bihar Judicial Services",
+          "year": "30th Bihar Judicial Services"
+        },
+        {
+          "q": "In the human system, insulin controls the metabolism of",
+          "options": {
+            "A": "fats",
+            "B": "carbohydrates",
+            "C": "proteins",
+            "D": "nucleic acids",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.13",
+          "exam": "63rd BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "Which hormone is produced by the pancreas?",
+          "options": {
+            "A": "Thyroxine",
+            "B": "Insulin",
+            "C": "Galanin",
+            "D": "Gastrin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.13",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which of the following hormones play a role in the release of milk from mammary glands?",
+          "options": {
+            "A": "Adrenaline",
+            "B": "Thyroxine",
+            "C": "Progesterone",
+            "D": "Oxytocin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Oxytocin is produced in the hypothalamus and released by the pituitary gland. It is termed a milk ejecting hormone as it stimulates the release of milk from the mammary gland. Other names are happy hormone, love hormone or birth hormone. Adrenaline is the emergency hormone. Progesterone is essential for maintaining pregnancy.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which of the following hormones converts excess glucose into glycogen?",
+          "options": {
+            "A": "Glucagon",
+            "B": "Thyroxin",
+            "C": "Adrenaline",
+            "D": "Insulin",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Insulin tells cells throughout the body to take in glucose from the bloodstream. Liver and muscle cells store excess glucose as glycogen with the help of insulin. Glucagon works to counterbalance insulin by converting stored glycogen back to glucose.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The sensitive area of the human tongue to bitterness is",
+          "options": {
+            "A": "tip",
+            "B": "middle part",
+            "C": "posterior part",
+            "D": "edge",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The bitter taste is detected by taste buds present at the posterior part (end) of the tongue. Sour taste is at the side edges. Sweet taste is at the tip. Salty taste is at the upward tip portion and side edges.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "Which of the following are not the tastes of the tongue? 1. Sweet 2. Bitter 3. Salty 4. Spicy 5. Umami 6. Sour 7. Pungent. Select the correct answer using the codes given below.",
+          "options": {
+            "A": "2, 5 and 7",
+            "B": "1, 3 and 4",
+            "C": "4 and 7",
+            "D": "3 and 6"
+          },
+          "answer": "C",
+          "explanation": "Taste buds detect five basic tastes: Sweet, Salty, Bitter, Sour, and Umami. Spicy (4) and Pungent (7) are not among the five basic tastes. Umami was identified by Japanese chemist Kikunae Ikeda in 1908.",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "The source of the enzyme 'lipase' is",
+          "options": {
+            "A": "kidney",
+            "B": "pancreas",
+            "C": "liver",
+            "D": "heart",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The Pancreas produces Pancreatic juice containing the enzyme Lipase that breaks down fats into fatty acids and glycerol. The pancreas also produces Amylase (breaks down carbohydrates) and Protease (breaks down proteins). The pancreas is called a Mixed Gland as it acts as both Endocrine (insulin) and Exocrine (lipase, protease) system.",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The study of bones is done under the branch of science called",
+          "options": {
+            "A": "geology",
+            "B": "serology",
+            "C": "orology",
+            "D": "osteology",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Osteology is the study of the structure and function of the skeletal system. Bones are made up of collagen, calcium, phosphorus, sodium, and other minerals. The largest bone is the femur (thigh bone) and the smallest is the stapes (middle ear). Geology studies earth, Serology studies blood serum, Orology studies mountains.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "During expiration, the diaphragm becomes",
+          "options": {
+            "A": "flattened",
+            "B": "dome-shaped",
+            "C": "normal",
+            "D": "oblique",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "During expiration, the diaphragm becomes dome-shaped. It is located just below the lungs and heart and separates the abdomen from the chest. The diaphragm increases abdominal pressure to help the body get rid of vomit, urine, and faeces.",
+          "exam": "CDPO 2018 BPSC",
+          "year": "CDPO 2018"
+        },
+        {
+          "q": "The total volume of blood in a normal adult human being is",
+          "options": {
+            "A": "5-6 litres",
+            "B": "3-4 litres",
+            "C": "8-10 litres",
+            "D": "10-12 litres"
+          },
+          "answer": "A",
+          "explanation": "The average male adult has approximately 5.5 litres of blood and the average female adult has approximately 4.5 litres. Karl Landsteiner discovered three human blood groups (A, B and O). Plasma makes up about 55% of the body's total blood volume. Mature RBC is biconcave in shape with a lifespan of 100-120 days.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Which of the following fights infection in the body?",
+          "options": {
+            "A": "RBC",
+            "B": "WBC",
+            "C": "Blood plasma",
+            "D": "Haemoglobin"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.28",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "The blood cells, called as soldiers of the body, are",
+          "options": {
+            "A": "RBC",
+            "B": "WBC",
+            "C": "Platelets",
+            "D": "Plasma"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.28",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Which among the following helps the circulation of blood?",
+          "options": {
+            "A": "Lymphocytes",
+            "B": "Monocytes",
+            "C": "Erythrocytes",
+            "D": "Blood platelets",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "A lymphocyte is a type of white blood cell. It collects the excess fluid that drains from cells and tissue and returns it back to the bloodstream, thus helping in the circulation of blood by maintaining its concentration. Erythrocytes (RBCs) transport gases and nutrients. Blood platelets form clots and stop bleeding.",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The average blood flow through kidneys per minute is",
+          "options": {
+            "A": "1000 cc",
+            "B": "1200 cc",
+            "C": "200 cc",
+            "D": "500 cc"
+          },
+          "answer": "B",
+          "explanation": "The average blood flow through kidneys per minute is 1200cc. The Kidney is part of the Excretory System. The nephron is the structural and functional unit of the kidney. Human body secretes around 1.5 litres of urine per day. The pH of urine is around 4.5-8. Urine = 95% water + 2.8% dissolved salt + 2% urea + 0.2% uric acid.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Which of the following hormones is produced under the condition of stress which stimulates glycogenolysis in the liver of human beings?",
+          "options": {
+            "A": "Thyroxine",
+            "B": "Insulin",
+            "C": "Adrenaline",
+            "D": "Estradiol",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Adrenaline (Epinephrine) is secreted by the Adrenal Gland (present in the kidney). It stimulates glycogenolysis (conversion of glycogen to glucose) in the liver under stress. The Adrenal gland also secretes cortisol (the stress hormone) and Aldosterone (the lifesaving hormone that retains sodium and water to maintain blood volume).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The blood pressure is controlled by",
+          "options": {
+            "A": "Adrenal Gland",
+            "B": "Pancreas Gland",
+            "C": "Thalamus Gland",
+            "D": "Thyroid Gland"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.17 (Adrenaline, secreted by the Adrenal Gland, controls blood pressure)",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Which of the following connects a muscle to a bone?",
+          "options": {
+            "A": "Cartilage",
+            "B": "Ligament",
+            "C": "Tendon",
+            "D": "Interstitial fluid",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "A tendon is a fibrous connective tissue that attaches muscle to bone. Ligaments attach bone to bone. Cartilage is a connective tissue found in joints, ends of ribs, between vertebrae, ears and nose. Interstitial fluid (tissue fluid) is present in the space around cells and facilitates exchange of oxygen and salts between blood and tissues.",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "The parts of the skeleton that are not as hard as bones and which can be bent are called as",
+          "options": {
+            "A": "cartilage",
+            "B": "vertebrae",
+            "C": "carpals",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.36",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "Which one of the following statements is incorrect about muscles in the human body?",
+          "options": {
+            "A": "Muscles become shorter, stiffer and thicker when contracted",
+            "B": "Muscles can only push the bone",
+            "C": "Muscles work in pairs",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Muscles can pull bones but they cannot push them back to their original position. Muscles work in pairs of flexors and extensors. There are more than 600 muscles in the human body.",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "The type of joint found at the shoulder is also found at",
+          "options": {
+            "A": "Elbow",
+            "B": "Hip",
+            "C": "Ankle",
+            "D": "Knee",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The type of joint found at the shoulder is the ball and socket joint, enabling multidirectional movement. A similar type of joint is present in the hip. The ankle joint is a hinged synovial joint. The knee is the largest joint in the body.",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "The first human heart transplant was performed in",
+          "options": {
+            "A": "America",
+            "B": "England",
+            "C": "South Africa",
+            "D": "France"
+          },
+          "answer": "C",
+          "explanation": "The first human heart transplant was performed at Groote Schuur Hospital at the University of Cape Town in South Africa on December 3, 1967. The human heart is four-chambered (2 Ventricles and 2 Atria). Pacemaker of the heart is the Sinoatrial node. Pulmonary artery carries deoxygenated blood (exception to the rule that arteries carry oxygenated blood).",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "The only artery which carries deoxygenated blood is",
+          "options": {
+            "A": "Aorta",
+            "B": "Renal artery",
+            "C": "Pulmonary artery",
+            "D": "Hepatic artery",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Refer to Q.No.40",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The non-cellular part of the lymph is made up of about _____ of water.",
+          "options": {
+            "A": "90%",
+            "B": "95%",
+            "C": "50%",
+            "D": "94%",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The non-cellular part of the lymph is made up of about 94% of water. Lymph (lymphatic fluid) is a collection of extra fluid that drains from cells and tissues that is not reabsorbed into the capillaries. Lymph returns proteins and excess interstitial fluid to the bloodstream and transports fats via chylomicrons.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The smell of good food causes watering in the mouth. It is a/an",
+          "options": {
+            "A": "Ordinary reflex",
+            "B": "Acquired reflex",
+            "C": "Inborn reflex",
+            "D": "Natural reflex",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The smell of good food causes watering in the mouth due to acquired reflex. The acquired reflex is developed during a lifetime because of experiences. Inborn reflexes are simple reflex actions present from birth.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The structural and functional unit of the nervous system is",
+          "options": {
+            "A": "Neuron",
+            "B": "Axon",
+            "C": "Nephron",
+            "D": "Taxon",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The structural and functional unit of the nervous system is the Neuron. A neuron is composed of three major parts: the cell body, dendrites and axon. Dendrites receive communications from other cells. Axon carries nerve impulses away from the cell body. Nephron is the structural and functional unit of the kidney.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Input and output nerves meet at",
+          "options": {
+            "A": "liver",
+            "B": "central nervous system",
+            "C": "heart",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "The central nervous system has four parts: Brain, Spinal cord, Nerve and Neurons. Input and output nerves meet at several places, particularly in the spinal cord. The nervous system has three main functions: sensory input, integration of data and motor output. Data is processed in the brain.",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "Which hormone regulates blood calcium and phosphate in the human body?",
+          "options": {
+            "A": "Thyroxin",
+            "B": "Glucagon",
+            "C": "Growth hormone",
+            "D": "Parathyroid hormone",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Parathyroid hormone regulates blood calcium and phosphate in the human body. There are four parathyroid glands that work independently of the pituitary gland. Thyroxine regulates the basal metabolic rate. Growth hormone fuels childhood growth and is produced in the pituitary gland.",
+          "exam": "Headmaster BPSC",
+          "year": "Headmaster BPSC"
+        },
+        {
+          "q": "Which vertebrate organ receives only oxygenated blood?",
+          "options": {
+            "A": "Lung",
+            "B": "Liver",
+            "C": "Spleen",
+            "D": "Gill",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The spleen gets blood only through the splenic artery and has no deoxygenated blood flowing into it. RBCs are destroyed in the spleen after 120 days, hence the spleen is called the Graveyard of RBC. The spleen is the most affected organ in Malaria and is located on the left side of the abdomen near the stomach.",
+          "exam": "Headmaster BPSC",
+          "year": "Headmaster BPSC"
+        },
+        {
+          "q": "Which of the following is the fluid part of the blood?",
+          "options": {
+            "A": "RBC",
+            "B": "Blood Platelets",
+            "C": "Plasma",
+            "D": "WBC"
+          },
+          "answer": "C",
+          "explanation": "Plasma is the liquid part of blood, making up about 55% of total blood volume. It is composed of water (~90-92%), proteins (Albumin, Globulin, Fibrinogen), nutrients, hormones, waste products and electrolytes. Formed elements (RBC, WBC and Platelets) constitute about 45% of the blood.",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "Which of the following acid is secreted in the stomach?",
+          "options": {
+            "A": "Hydrochloric acid",
+            "B": "Sulphuric acid",
+            "C": "Acetic acid",
+            "D": "Nitric acid"
+          },
+          "answer": "A",
+          "explanation": "The stomach secretes hydrochloric acid (HCl) through specialized parietal cells. HCl activates the enzyme pepsin, kills harmful bacteria, and maintains the acidic pH (around 1.5 to 3.5) necessary for digestion.",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "When antigens are introduced in the body through vaccination, antibodies are produced to fight off infection",
+          "options": {
+            "A": "By both B and T cells",
+            "B": "By only B cells",
+            "C": "By only T cells",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Vaccination introduces antigens into the body. The immune system responds by activating B cells, which produce antibodies specific to the introduced antigen. T cells play a role in cell-mediated immunity but do not produce antibodies themselves.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Diseases and Vectors",
+      "questions": [
+        {
+          "q": "Who was the first scientist/doctor, who attempted vaccination?",
+          "options": {
+            "A": "Robert Koch",
+            "B": "Elie Metchnikoff",
+            "C": "Edward Jenner",
+            "D": "Joseph Lister",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Edward Jenner was the first to attempt vaccination and is called the father of immunology. He inoculated a 13-year-old boy with vaccinia virus (cowpox) and demonstrated immunity to smallpox. In 1798, the first smallpox vaccine was developed. Robert Koch discovered Bacillus anthracis. Elie Metchnikoff discovered phagocytosis (Nobel Prize 1908). Joseph Lister was the founder of antiseptic medicine.",
+          "exam": "67th Re BPSC / District Art and Culture BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "From the following pairs, find the one which is correctly matched.",
+          "options": {
+            "A": "Tuberculosis-ATS",
+            "B": "Tetanus-BCG",
+            "C": "Malaria-Chloroquine",
+            "D": "Scurvy-Thiamine",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Malaria is caused by Plasmodium species, spread by Anopheles mosquitoes. Chloroquine, discovered in 1934 and extracted from the bark of the Cinchona tree, is used for its treatment. BCG vaccine is used against Tuberculosis (not ATS). Scurvy is caused by deficiency of Vitamin C (not Thiamine).",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "BCG immunization is for",
+          "options": {
+            "A": "Measles",
+            "B": "Tuberculosis",
+            "C": "Diphtheria",
+            "D": "Leprosy"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.2",
+          "exam": "30th Bihar Judicial Services",
+          "year": "30th Bihar Judicial Services"
+        },
+        {
+          "q": "Female Anopheles can be distinguished from female Culex because it sits",
+          "options": {
+            "A": "parallel to the surface of substratum",
+            "B": "at right angle to the surface of substratum",
+            "C": "at an angle with substratum",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Anopheles mosquitoes transmit malaria. Culex mosquitoes spread Japanese encephalitis and West Nile virus. Anopheles adults rest at an angle of about 45 degrees to the surface, while adult Aedes and Culex rest parallel to the surface. Anopheles larvae lie horizontally at the water surface.",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "BCG vaccine is used for the prevention of",
+          "options": {
+            "A": "smallpox",
+            "B": "typhoid",
+            "C": "tuberculosis",
+            "D": "plague",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Tuberculosis is a dangerous bacterial disease caused by Mycobacterium tuberculosis, generally affecting the lungs. The last known natural case of smallpox was in Somalia in 1977; WHO declared it eradicated in 1980. Plague is caused by Yersinia pestis.",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Pneumonia is an infection of",
+          "options": {
+            "A": "Nerve",
+            "B": "Blood",
+            "C": "Skin",
+            "D": "Lungs",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Pneumonia is an infection that inflames the air sacs in one or both lungs. The flu (influenza virus) and the common cold (rhinovirus) are the most common causes of viral pneumonia in adults. The air sacs may fill with fluid or pus, causing cough with phlegm, fever, chills, and difficulty breathing.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Typhoid and cholera are typical examples of",
+          "options": {
+            "A": "Infectious diseases",
+            "B": "Airborne diseases",
+            "C": "Waterborne diseases",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Cholera is caused by Bacteria Vibrio cholerae, while typhoid is caused by Salmonella typhi bacteria. Both are caused by the consumption of contaminated food and water.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "In a transfusion, blood must be compatible not only with blood type but also in",
+          "options": {
+            "A": "Rh factor",
+            "B": "The number of white cells",
+            "C": "The number of red cells",
+            "D": "Race of donor and recipient",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "The Rh factor (Rhesus factor) is a protein found on the outside of red blood cells. Discovered in 1940 by Landsteiner and Wiener. Rh incompatibility causes the destruction of red blood cells. Rh+ blood can receive both Rh+ and Rh- transfusions, but Rh- can only receive Rh- blood.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The Nobel prize for the development of treatment of Parkinson's disease was given to",
+          "options": {
+            "A": "Arvid Carlsson",
+            "B": "John F. Enders",
+            "C": "Robert B. Laughlin",
+            "D": "Walter Kohn",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Arvid Carlsson was a Swedish neuropharmacologist known for his work with dopamine and its effects on Parkinson's disease. He was awarded the Nobel Prize in Physiology or Medicine in 2000 together with Eric Kandel and Paul Greengard. Parkinson's disease is a progressive disorder of nerve cells in the substantia nigra part of the brain.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "AIDS is caused by",
+          "options": {
+            "A": "water",
+            "B": "bacteria",
+            "C": "virus",
+            "D": "fungus",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "AIDS (Acquired Immunodeficiency Syndrome) was first noticed in the USA in 1981. The AIDS virus was discovered by Professor Luc Montagnier in Paris in 1983. In India, AIDS was first detected in Chennai in 1986. AIDS is caused by HIV (Human Immunodeficiency Virus), a retrovirus with RNA genome. HIV demolishes T-helper cells (CD4 cells).",
+          "exam": "64th / 65th BPSC",
+          "year": "64th/65th"
+        },
+        {
+          "q": "The disease caused by a virus is",
+          "options": {
+            "A": "Typhoid",
+            "B": "Cholera",
+            "C": "Common cold",
+            "D": "Tetanus"
+          },
+          "answer": "C",
+          "explanation": "Viruses cause familiar infectious diseases such as the common cold. Typhoid fever is caused by Salmonella Typhi. Cholera is caused by Vibrio cholerae. Tetanus is caused by Clostridium tetani (also called lockjaw). Viruses can be of RNA or DNA type, but cannot be both. HIV is of RNA type.",
+          "exam": "30th Bihar Judicial Services",
+          "year": "30th Bihar Judicial Services"
+        },
+        {
+          "q": "Consider the following: 1. Bacteria 2. Fungi 3. Virus. Which of the above can be cultured in an artificial/synthetic medium?",
+          "options": {
+            "A": "1 And 2 Only",
+            "B": "2 And 3 Only",
+            "C": "1 And 3 Only",
+            "D": "1, 2 And 3"
+          },
+          "answer": "A",
+          "explanation": "Bacteria and Fungi can survive in synthetic and artificial medium. Viruses cannot survive in a synthetic medium because the system/organelle needed to provide power is missing. Viruses can only replicate inside the living cells of an organism.",
+          "exam": "UPSC 2021",
+          "year": "UPSC 2021"
+        },
+        {
+          "q": "Which of the following radioisotopes is used in the treatment of blood cancer leukaemia?",
+          "options": {
+            "A": "Iodine-131",
+            "B": "Sodium-24",
+            "C": "Phosphorus-32",
+            "D": "Cobalt-60",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Cobalt-60 is a radioactive isotope used in radiation therapy to treat cancer. It emits gamma radiation highly effective in destroying cancer cells. Iodine-131 is used to treat cancer of the thyroid gland. Sodium-24 is used for leak detection in industries. Phosphorus-32 is used to slow down the production of new blood cells.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "The radioactive isotope used to control leukaemia is",
+          "options": {
+            "A": "Phosphorus 32",
+            "B": "Cobalt 60",
+            "C": "Iodine 131",
+            "D": "Sodium 24"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.13",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "The iodine test is used to detect",
+          "options": {
+            "A": "Fat",
+            "B": "Carbohydrate",
+            "C": "Protein",
+            "D": "Cholesterol"
+          },
+          "answer": "B",
+          "explanation": "The iodine test detects the presence of starch. The sample turns blue-black in colour when a few drops of potassium iodide solution are placed on the sample. The reaction is due to the formation of polyiodide chains from the reaction of starch and iodine.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Oncogenes are associated with",
+          "options": {
+            "A": "tuberculosis",
+            "B": "hepatitis",
+            "C": "cancer",
+            "D": "typhoid"
+          },
+          "answer": "C",
+          "explanation": "Oncogenes are associated with Cancer. The study of cancer is called Oncology. German biologist Theodor Boveri in 1914 predicted the existence of oncogenes. Cancer is the second leading cause of death globally after cardiovascular diseases. Breast cancer is most common in India. Chemotherapy and Radiation therapy are commonly used to treat Cancer.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Interferon is connected with",
+          "options": {
+            "A": "tonic",
+            "B": "virus",
+            "C": "carbohydrate",
+            "D": "one of iron",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Interferons are a group of proteins made and released by host cells in response to the presence of several viruses. They are part of natural defences and tell the immune system that germs or cancer cells are in the body.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The most common carrier of communicable diseases is",
+          "options": {
+            "A": "Ant",
+            "B": "Housefly",
+            "C": "Dragonfly",
+            "D": "Spider",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The most common carrier of communicable disease is Houseflies. Mosquito is a vector of Dengue (Aedes mosquito) and Malaria (Female Anopheles). Sandflies cause Kala-Azar (Leishmaniasis).",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "One of the following diseases, which one is caused by insect bites?",
+          "options": {
+            "A": "Scurvy",
+            "B": "Dengue",
+            "C": "Pneumonia",
+            "D": "Asthma"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.18",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Liver flukes live in the bile duct of",
+          "options": {
+            "A": "Horse",
+            "B": "Cow",
+            "C": "Man",
+            "D": "Sheep"
+          },
+          "answer": "D",
+          "explanation": "Liver flukes are found in the bile duct of sheep, goats, and sometimes deer and elk that graze in wet or marshy pastures. They are often called Sheep Liver Fluke. Humans can get infected by eating raw or undercooked fish, crabs, or crayfish.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Which organ of the human body does Alzheimer's disease affect?",
+          "options": {
+            "A": "Ear",
+            "B": "Brain",
+            "C": "Eye",
+            "D": "Stomach"
+          },
+          "answer": "B",
+          "explanation": "Alzheimer's disease is a brain disorder that slowly destroys memory and thinking skills. It is the most common cause of dementia among older adults, usually affecting people in their 60s. Named after Dr. Alois Alzheimer who noticed changes in brain tissue in 1906. Currently there is no cure.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "The incubation period of hepatitis B virus is",
+          "options": {
+            "A": "42-56 days",
+            "B": "30-180 days",
+            "C": "15-20 days",
+            "D": "One week",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Hepatitis B is a viral infection that attacks the liver with an incubation period of 30-180 days. It is most commonly transmitted from mother to child during birth and delivery. The Hepatitis B virus is a double-stranded DNA virus. No vaccine exists for Hepatitis C as it has 60 subtypes.",
+          "exam": "CDPO 2018 BPSC",
+          "year": "CDPO 2018"
+        },
+        {
+          "q": "Cystitis, an infection, is related to",
+          "options": {
+            "A": "Urinary Bladder",
+            "B": "Liver",
+            "C": "Lung",
+            "D": "Kidney"
+          },
+          "answer": "A",
+          "explanation": "Cystitis is inflammation of the bladder, usually caused by a bladder infection. It is a common type of urinary tract infection (UTI), particularly in women.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "The radioactive element, used for treating hyperthyroidism, is",
+          "options": {
+            "A": "Cobalt-60",
+            "B": "Iodine-101",
+            "C": "Iron-59",
+            "D": "Gold-198"
+          },
+          "answer": "B",
+          "explanation": "Hyperthyroidism happens when the thyroid gland makes too much thyroid hormone (overactive thyroid). Radioactive Iodine-101 is used to treat hyperthyroidism as iodine collects mainly in thyroid cells, and the radiation destroys thyroid cells with little effect on the rest of the body. Potassium Iodide is generally added to salt to fortify for iodine content.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Which of the following diseases can be transmitted from one person to another through tattooing? 1. Chikungunya 2. Hepatitis B 3. HIV-AIDS. Select the correct answer using the codes given below.",
+          "options": {
+            "A": "1 Only",
+            "B": "2 And 3 Only",
+            "C": "1 And 3 Only",
+            "D": "1, 2 And 3"
+          },
+          "answer": "B",
+          "explanation": "Hepatitis B and HIV-AIDS can be transmitted through tattooing because they spread through contact with blood via sharp instruments. Chikungunya is transmitted by Aedes mosquito bites and not through tattooing. A person with HIV is considered to have progressed to AIDS when CD4 cells fall below 200 cells per cubic millimetre of blood.",
+          "exam": "UPSC 2013",
+          "year": "UPSC 2013"
+        },
+        {
+          "q": "Which of the following bacterial disease that is called Splenic fever?",
+          "options": {
+            "A": "Anthrax",
+            "B": "Typhoid",
+            "C": "Cholera",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Anthrax is called Splenic fever. It is caused by Bacillus anthracis, a spore-forming bacterium. It is a noncontagious zoonotic disease. Domestic and wild herbivores (cattle, sheep, goats, camels, and antelopes) are the most common source of anthrax.",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "Besides spreading Malaria, Anopheles mosquitoes are also vectors of",
+          "options": {
+            "A": "Dengue and Filariasis",
+            "B": "Dengue and Elephantiasis",
+            "C": "Filariasis and Elephantiasis",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Anopheles mosquitoes are best known for transmitting malaria. Some Anopheles species also transmit lymphatic filariasis caused by Wuchereria bancrofti. Chronic infection can lead to elephantiasis, characterized by severe swelling of limbs due to lymphatic system damage.",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "Consider the following statements: 1. Taeniasis is an intestinal infection caused by three species of tapeworm—Taenia solium, Taenia saginata and Taenia asiatica. 2. When cysts develop in the brain, the condition is referred to as neurocysticercosis (NCC). Which of the above statements is/are correct?",
+          "options": {
+            "A": "Only 1",
+            "B": "Only 2",
+            "C": "Both 1 and 2",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Taeniasis is caused by three tapeworm species: Taenia saginata (beef tapeworm), Taenia solium (pork tapeworm) and Taenia asiatica (Asian tapeworm). T. solium taeniasis is acquired through ingestion of larval cysts (cysticerci) in undercooked infected pork. When cysts develop in the brain, the condition is referred to as neurocysticercosis (NCC).",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "Which of the following are correctly matched with their definitions? 1: Anorexia: Sleep disorder 2: Insomnia: Eating disorder 3: Dyspnoea: Shortness of breath 4: Anosmia: Partial or full loss of smell. Select the correct answer.",
+          "options": {
+            "A": "Only 1 and 2",
+            "B": "Only 2 and 3",
+            "C": "Only 3 and 4",
+            "D": "All of the above"
+          },
+          "answer": "C",
+          "explanation": "Anorexia nervosa is an eating disorder (not a sleep disorder). Insomnia is a common sleep disorder (not an eating disorder). Dyspnoea is correctly defined as shortness of breath. Anosmia is correctly defined as partial or complete loss of the sense of smell. So only statements 3 and 4 are correctly matched.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "How do COVID vaccines stimulate an immune response?",
+          "options": {
+            "A": "By introducing live attenuated SARS-CoV-2 virus",
+            "B": "By introducing a real SARS-CoV-2 virus",
+            "C": "By introducing a harmless piece of SARS-CoV-2 virus",
+            "D": "By introducing antibodies against SARS-CoV-2 virus"
+          },
+          "answer": "A",
+          "explanation": "Vaccines work by imitating an infection. Live vaccines use a weakened (attenuated) form of the germ. B-cells produce antibodies. T-cells recognize and kill infected cells. India developed four indigenous vaccines: CyCoV-D (DNA), CORBEVAX (protein subunit), GEMCOVAC-19 (mRNA), and iNCOVACC (intranasal).",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "How do vector vaccines work to provide immunity?",
+          "options": {
+            "A": "By introducing a weakened or inactivated virus into the body",
+            "B": "By directly attacking and destroying pathogens in the body",
+            "C": "By placing the virus in a modified version of a different virus",
+            "D": "By entering directly into the cells and enabling them to create spike proteins"
+          },
+          "answer": "C",
+          "explanation": "Viral vector-based vaccines use a modified virus (the vector) to deliver genetic code for antigen (e.g., COVID-19 spike proteins) into human cells. Adenovirus is one of the viral vectors used in some Covid-19 vaccines. The Janssen/Johnson & Johnson COVID-19 vaccine is a vector vaccine.",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "What is the expanded form of the term mRNA that has been widely discussed since the beginning of the pandemic?",
+          "options": {
+            "A": "Messenger Ribonucleic Acid",
+            "B": "Mutant Ribonucleic Acid",
+            "C": "Modified Ribonucleic Acid",
+            "D": "Mnemonic Ribonucleic Acid"
+          },
+          "answer": "A",
+          "explanation": "mRNA stands for messenger Ribonucleic Acid. It is a single-stranded RNA involved in protein synthesis. mRNA is made from a DNA template during transcription. mRNA vaccines work by introducing a piece of mRNA that corresponds to a viral protein, causing cells to produce that protein and triggering an immune response. Pfizer and Moderna vaccines are examples of mRNA vaccines.",
+          "exam": "69th BPSC",
+          "year": "69th"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Vitamins and Minerals",
+      "questions": [
+        {
+          "q": "The human body does not produce",
+          "options": {
+            "A": "DNA",
+            "B": "Vitamins",
+            "C": "Hormones",
+            "D": "Enzymes",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Vitamins are organic substances required in adequate quantities for good health. Coined by Casimir Funk in 1912. Our body cannot synthesize them except for a few synthesized by gut bacteria. Fat-soluble vitamins (A, D, E, K) are stored in liver and adipose tissues. Water-soluble vitamins (B group and C) are readily excreted in urine and cannot be stored (except vitamin B12).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The class of food having the highest caloric value per unit weight is",
+          "options": {
+            "A": "Vitamin",
+            "B": "Fat",
+            "C": "Carbohydrate",
+            "D": "Protein"
+          },
+          "answer": "B",
+          "explanation": "The gross calorific value of fats is 9.45 kcal/g, for carbohydrates it is 4.1 kcal/g and for proteins it is 5.65 kcal/g. Hence, fats have the highest caloric value per unit weight.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Deficiency of which of the following vitamins causes the disease of slow blood clotting?",
+          "options": {
+            "A": "Vitamin C",
+            "B": "Vitamin D",
+            "C": "Vitamin B",
+            "D": "Vitamin K"
+          },
+          "answer": "D",
+          "explanation": "Vitamin K plays a key role in helping the blood clot and preventing excessive bleeding. It helps make various proteins needed for blood clotting. Prothrombin is a vitamin K-dependent protein directly involved with blood clotting.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Which of the following is the best source of vitamin A?",
+          "options": {
+            "A": "Wheat",
+            "B": "Honey",
+            "C": "Carrot",
+            "D": "Peanut",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Carrot is the best source of Vitamin A. Vitamin A (Retinol) is important for normal vision, the immune system, reproduction, and growth and development. It is a fat-soluble vitamin.",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "Deficiency of vitamin C causes",
+          "options": {
+            "A": "rheumatism",
+            "B": "kidney malfunction",
+            "C": "scurvy",
+            "D": "respiratory disease",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Deficiency of Vitamin C causes Scurvy. Vitamin C's scientific name is Ascorbic acid. It is involved in the repair of tissue, formation of collagen, and enzymatic production of certain neurotransmitters. Gooseberry (Amla) is an excellent source of vitamin C.",
+          "exam": "CDPO 2018 BPSC",
+          "year": "CDPO 2018"
+        },
+        {
+          "q": "In the human body, Vitamin A is stored in",
+          "options": {
+            "A": "Liver",
+            "B": "Skin",
+            "C": "Spleen",
+            "D": "Kidney",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Vitamin A (Retinol) is stored in the liver. It is a fat-soluble vitamin, also called an anti-infection vitamin. All Fat-Soluble Vitamins (A, D, E and K) are stored in the liver. Deficiency of Vitamin A causes Nyctalopia (low vision in dim light), Xerophthalmia, and Keratomalacia.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which of the following vitamins are water-soluble?",
+          "options": {
+            "A": "Vitamin A",
+            "B": "Vitamin D",
+            "C": "Vitamin K",
+            "D": "None of these"
+          },
+          "answer": "D",
+          "explanation": "Vitamins A, D, E and K are fat-soluble vitamins. Vitamins of B group and Vitamin C are water-soluble. None of the options A, B or C are water-soluble vitamins.",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "Which of the following is mostly carbohydrate?",
+          "options": {
+            "A": "Wheat",
+            "B": "Barley",
+            "C": "Rice",
+            "D": "Maize",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "C",
+          "explanation": "Rice is mostly carbohydrate. Carbohydrates are biomolecules consisting of carbon (C), hydrogen (H), and oxygen (O) atoms with empirical formula Cm(H2O)m. The most important carbohydrate is glucose.",
+          "exam": "63rd BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "What is triglyceride?",
+          "options": {
+            "A": "Protein",
+            "B": "Carbohydrate",
+            "C": "Fat",
+            "D": "Mineral",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Triglycerides are fats, produced when one molecule of glycerol combines with three molecules of fatty acids. They are energy-rich compounds and serve as energy storage. Triglycerides are nonpolar lipids and do not dissolve in polar solvents (water).",
+          "exam": "64th BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Milk is a poor source of which of the following",
+          "options": {
+            "A": "calcium",
+            "B": "protein",
+            "C": "vitamin C",
+            "D": "carbohydrate",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Milk provides essential nutrients including calcium, magnesium, selenium, riboflavin, vitamin B12, and pantothenic acid. The principal constituents of milk are water, fat, proteins, lactose, and minerals. But it does not contain Vitamin C.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which of the following hormones contains iodine?",
+          "options": {
+            "A": "Testosterone",
+            "B": "Adrenaline",
+            "C": "Thyroxine",
+            "D": "Insulin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Thyroxine is secreted by the Thyroid gland. Iodine is essential for the normal rate of hormone synthesis in the thyroid. Thyroxine contains iodine.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The malfunctioning of the thyroid gland is due to the deficiency of",
+          "options": {
+            "A": "vitamin A",
+            "B": "calcium",
+            "C": "iodine",
+            "D": "iron",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Iodine is essential for the normal rate of hormone synthesis in the thyroid. Deficiency of iodine results in hypothyroidism and enlargement of the thyroid gland, commonly called goitre. Thyroid hormones regulate the basal metabolic rate and control metabolism of carbohydrates, proteins, and fats.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Glucose is converted to ethyl alcohol by the enzyme",
+          "options": {
+            "A": "maltase",
+            "B": "invertase",
+            "C": "zymase",
+            "D": "diastase",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Glucose is converted to ethyl alcohol by Zymase, an enzyme complex that catalyzes the fermentation of sugar into ethanol and carbon dioxide. It occurs naturally in yeasts. It was first isolated from the yeast cell in 1897 by Eduard Buchner, leading to the 1907 Nobel Prize in Chemistry.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "The sweetest sugar among the following is",
+          "options": {
+            "A": "fructose",
+            "B": "glucose",
+            "C": "maltose",
+            "D": "sucrose",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Fructose is the sweetest sugar among the given. Fructose is also known as fruit sugar and is found in fruits, honey, sugar beets, sugarcane, and vegetables. It is 1.2-1.8 times sweeter than sucrose (table sugar). Fructose and glucose have the same chemical formula (C6H12O6) but different molecular structures.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which of the following vitamins is used as an antidote to anticoagulant poisons?",
+          "options": {
+            "A": "Vitamin A",
+            "B": "Vitamin D",
+            "C": "Vitamin E",
+            "D": "Vitamin K",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Vitamin K is used as an antidote to anticoagulant poisons. Along with calcium, it rapidly initiates the conversion of prothrombin into thrombin and checks bleeding. Vitamin K is also known as Phylloquinone/Napthoquinone and is synthesised in our body by colon bacteria.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which of the following vitamins is known as ergocalciferol?",
+          "options": {
+            "A": "Vitamin D2",
+            "B": "Vitamin D3",
+            "C": "Vitamin B12",
+            "D": "Vitamin B6",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Ergocalciferol or Vitamin D2 is a fat-soluble vitamin formed by the Ultraviolet irradiation of a plant-based form of Vitamin D called ergosterol. Vitamin B12 is also known as cyanocobalamin; its deficiency causes pernicious anaemia. Vitamin D3 (cholecalciferol) helps the body absorb calcium and phosphorus for strong bones.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which of the following pairs is not correctly matched? (Vitamin B1-Oranges, Vitamin D-Cod liver oil, Vitamin E-Wheat germ oil, Vitamin K-Alfalfa)",
+          "options": {
+            "A": "Vitamin B1 - Oranges",
+            "B": "Vitamin D - Cod liver oil",
+            "C": "Vitamin E - Wheat germ oil",
+            "D": "Vitamin K - Alfalfa",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Vitamin B1 (Thiamine) is primarily present in milk, pork, fish, green peas, lentils and upper layer of rice - but is also present in trace amounts in oranges, so the commission accepted option E. Vitamin D (Calciferol) is found in Cod liver oil. Vitamin E (Tocopherol) is found in wheat germ oil. Vitamin K (phylloquinone) is found in Alfalfa.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Which of the following pairs is not correctly matched? (Retinol-Xerophthalmia, Tocopherol-Beriberi, Cyanocobalamin-Anaemia, Ergocalciferol-Rickets)",
+          "options": {
+            "A": "Retinol - Xerophthalmia",
+            "B": "Tocopherol - Beriberi",
+            "C": "Cyanocobalamin - Anaemia",
+            "D": "Ergocalciferol - Rickets",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Vitamin A (Retinol) deficiency causes Xerophthalmia. Vitamin E (Tocopherol) deficiency causes dull skin and infertility, NOT Beriberi (which is caused by Vitamin B1/Thiamine deficiency). Vitamin B12 (Cyanocobalamin) deficiency causes pernicious anaemia. Vitamin D (Ergocalciferol) deficiency causes Rickets in children.",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "Energy is stored in the liver and muscles in the form of",
+          "options": {
+            "A": "carbohydrate",
+            "B": "fat",
+            "C": "protein",
+            "D": "glycogen"
+          },
+          "answer": "D",
+          "explanation": "Glycogen is a polysaccharide of glucose stored in skeletal muscle and the liver. Glycogenolysis is the breakdown of glycogen to glucose-1-phosphate. The liver is the largest gland in the human body and helps in the metabolism of Carbohydrates, Proteins, Fats and Lipids.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "In which of the following organs bile is stored?",
+          "options": {
+            "A": "Spleen",
+            "B": "Pancreas",
+            "C": "Appendix",
+            "D": "Gallbladder"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.19 (Bile produced by liver is stored in Gallbladder, a small pouch that sits just under the liver. Bile helps in emulsification of fats.)",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Which part of alimentary canal receives bile from the liver?",
+          "options": {
+            "A": "Large intestine",
+            "B": "Small intestine",
+            "C": "Oesophagus",
+            "D": "Stomach"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.19 (The small intestine is the site of complete digestion of carbohydrates, proteins and fats. It receives bile from the liver and secretions of the pancreas.)",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "The animal without red blood cells is",
+          "options": {
+            "A": "earthworm",
+            "B": "snake",
+            "C": "peacock",
+            "D": "frog",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "An animal without red blood cells is an earthworm. It is an invertebrate belonging to Genus Pheretima. Although the blood of earthworms is red-coloured, it lacks RBCs. Earthworms exhibit a closed type of blood vascular system.",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Which of the following does not have any enzyme in its cells?",
+          "options": {
+            "A": "Lichen",
+            "B": "Virus",
+            "C": "Bacteria",
+            "D": "Algae",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "All of these - Lichen, Viruses, Bacteria and Algae - have enzymes in their body. Bacteria have numerous enzymes including restriction endonuclease. Algae produce enzymes that assist metabolic processes. Lichen contains several enzymes that assist in hydrolysis. Viruses survive upon host enzymes and some have developed their own enzymes.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Plant Biology",
+      "questions": [
+        {
+          "q": "Lichens, which are capable of initiating ecological succession even on a bare rock, is actually a symbiotic association of",
+          "options": {
+            "A": "Algae and Bacteria",
+            "B": "Algae and Fungi",
+            "C": "Bacteria and Fungi",
+            "D": "Fungi and Mosses"
+          },
+          "answer": "B",
+          "explanation": "Lichens are a complex life form that is a symbiotic partnership of a fungus and an algae. Lichens are the first organisms to appear in areas of primary succession (pioneer species). They absorb pollutants from the atmosphere, hence are called Natural Indicators of pollution (especially sensitive to Sulphur dioxide). Litmus solution is extracted from lichens.",
+          "exam": "UPSC 2014",
+          "year": "UPSC 2014"
+        },
+        {
+          "q": "In lichen, a chlorophyll-containing partner live together.",
+          "options": {
+            "A": "alga and a virus",
+            "B": "alga and a fungus",
+            "C": "fungus and a bacterium",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.1",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "What kind of organisms are fungi",
+          "options": {
+            "A": "Saprophytes",
+            "B": "Carnivorous",
+            "C": "Omnivores",
+            "D": "Herbivores",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Fungi were earlier included in the Plant kingdom but due to absence of chlorophyll, they have been separated. Most fungi are heterotrophic and absorb soluble organic matter from dead substrates, hence they are called saprophytes. Examples: Yeast and mushrooms.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Feet of Lizard act like",
+          "options": {
+            "A": "Moving Pads",
+            "B": "Suction Pads",
+            "C": "Drilling Pads",
+            "D": "Skipping Pads",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Feet of Lizard act like Suction Pads, which help them to move on walls. Some species of Lizard have webbed feet to glide in the air. Lizards inhabiting deserts have sharp claws to dig holes. Water-residing Lizards have webbed feet for swimming.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "The factors in the formation of new species are",
+          "options": {
+            "A": "Competition and variation",
+            "B": "Isolation and competition",
+            "C": "Competition and mutation",
+            "D": "Isolation and mutation",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Isolation and mutation are the factors in the formation of new species. Isolation prevents interbreeding between different populations. Mutation is the change in DNA base pair sequence due to environmental factors such as UV light. The Mutation term was given by Hugo de Vries.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "What are salt-loving plants called?",
+          "options": {
+            "A": "Mesophytes",
+            "B": "Glycophytes",
+            "C": "Halophytes",
+            "D": "Xerophytes",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Halophytes are salt-tolerant plants, found in mangrove swamps, marshes, seashores and saline semi-deserts. Mesophytes can survive in moderate climates. Glycophytes have limited salt-tolerance. Xerophytes have adaptations to survive in arid environments (cacti, pineapple).",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Fungi are plants that lack",
+          "options": {
+            "A": "Carbon dioxide",
+            "B": "Chlorophyll",
+            "C": "Sunlight",
+            "D": "Oxygen",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Fungi are plants that lack Chlorophyll. The fungi constitute a unique kingdom of heterotrophic organisms. Most fungi are saprophytes that absorb soluble organic matter from dead substrates. Those that depend on living plants and animals are called parasites. They can live as symbionts with algae as lichens and with roots of higher plants as mycorrhiza.",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "Pollination is best defined as",
+          "options": {
+            "A": "germination of pollen grains",
+            "B": "growth of pollen tube in ovule",
+            "C": "visiting flowers by insects",
+            "D": "transfer of pollen grains from the anther to the stigma",
+            "E": "none of the above/ more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Pollination is best defined as the transfer of pollen grains from the anther to the stigma. Anther and filament are the male part of the plant (together called Stamen). Stigma, style, and ovary are the female part (together called Pistil or Carpel).",
+          "exam": "67th Re BPSC",
+          "year": "67th Re"
+        },
+        {
+          "q": "The alkaloids extracted from tobacco leaves are",
+          "options": {
+            "A": "Caffeine",
+            "B": "Nicotine",
+            "C": "Morphine",
+            "D": "Atropine"
+          },
+          "answer": "B",
+          "explanation": "Nicotine is the primary alkaloid found in the tobacco leaf, accounting for 96-98% of the total alkaloid content, with the remaining portion composed of nornicotine, anabasine, anatabine, cotinine and myosmine.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "In the night time, it is advised not to sleep under trees because",
+          "options": {
+            "A": "They liberate less amount of oxygen",
+            "B": "They liberate harmful gases at night",
+            "C": "They liberate carbon dioxide",
+            "D": "They liberate carbon monoxide",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Respiration in plants is an ongoing process (24x7) that releases CO2. During day, photosynthesis consumes CO2 and releases O2. During night, photosynthesis ceases but respiration continues, leading to excess CO2 nearby. So sleeping under trees causes respiratory problems due to CO2 and shortage of O2.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Insectivorous plants grow in soil deficient in",
+          "options": {
+            "A": "Water",
+            "B": "Magnesium",
+            "C": "Nitrogen",
+            "D": "Calcium",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Insectivorous plants, like pitcher plants, grow in nitrogen-deficient soil and do not depend on soil for their nitrogen requirements. They have special leaves which can trap insects and derive nitrogen from them. Examples include Venus flytrap and pitcher plants.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The stem of a plant helps in distributing food to all parts of the plant. It also helps in",
+          "options": {
+            "A": "Storing the food",
+            "B": "Shaping the plant",
+            "C": "Respiration",
+            "D": "Photosynthesis",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "E",
+          "explanation": "The main function of the stem is spreading out branches bearing leaves, flowers and fruits. Some stems perform the function of storage of food, support, protection and vegetative propagation. Underground stems of potato, ginger, turmeric are modified to store food. Some stems contain chlorophyll and carry photosynthesis.",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "Turmeric powder is obtained from which part of turmeric?",
+          "options": {
+            "A": "Dried foot",
+            "B": "Dried root",
+            "C": "Seed",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "explanation": "Turmeric powder is made by drying and grinding the rhizome of the turmeric plant (Curcuma longa). A rhizome is an underground stem (not a root). The bright yellow-orange color and medicinal properties of turmeric come from curcumin, found in the rhizome.",
+          "exam": "70th Re BPSC",
+          "year": "70th Re"
+        },
+        {
+          "q": "Air pollution effects are usually found on",
+          "options": {
+            "A": "Flowers",
+            "B": "Leaves",
+            "C": "Stems",
+            "D": "Roots",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Plant leaves are directly exposed to pollutants which mainly affects their stomata (opening and closing of pores) through which gaseous exchange takes place. Pollution causes acid rain that affects chlorophyll leaching to chlorosis (yellowing of leaves). Magnesium is the main constituent of chlorophyll.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The stomata open or close due to changes in the",
+          "options": {
+            "A": "amount of water in cells",
+            "B": "position of the nucleus in the cell",
+            "C": "protein composition of cells",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "The major cause of opening and closing of stomata is the change in the turgidity of the guard cells. When turgidity increases, stomatal pores open (in day). When turgidity decreases, stomatal pores close (at night).",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "Which of the following is not a component of chlorophyll",
+          "options": {
+            "A": "Calcium",
+            "B": "Carbon",
+            "C": "Magnesium",
+            "D": "Hydrogen",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Components of chlorophyll are Carbon, Hydrogen, Oxygen, Nitrogen and Magnesium. Magnesium is required for chlorophyll production. Deficiency of phosphorus leads to reddening of leaves. Deficiency of nitrogen leads to stunted growth.",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which of the following the chlorophyll in photosynthesis is used for?",
+          "options": {
+            "A": "Absorbing light",
+            "B": "No function",
+            "C": "Breaking down water molecules",
+            "D": "Reduction of CO2"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.28 (Chlorophyll absorbs light, mostly in the red and blue wavelengths, which drives photosynthesis.)",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "During photosynthesis, green plants absorb",
+          "options": {
+            "A": "Oxygen",
+            "B": "Nitrogen",
+            "C": "Carbon monoxide",
+            "D": "Carbon dioxide",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.28 (Photosynthesis converts water and carbon dioxide into glucose using sunlight. CO2 is absorbed during photosynthesis.)",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Consider the following: 1. Birds 2. Dust blowing 3. Rain 4. Wind blowing. Which of the above spread plant diseases?",
+          "options": {
+            "A": "1 and 3 only",
+            "B": "3 and 4 only",
+            "C": "1, 2 and 4 only",
+            "D": "1, 2, 3 and 4"
+          },
+          "answer": "D",
+          "explanation": "Plant diseases are spread by wind, rain/irrigation water splashing, birds (which carry sticky spores on feet), and dust particles carrying airborne pathogens. All four (Birds, Dust, Rain, Wind) spread plant diseases.",
+          "exam": "UPSC 2017",
+          "year": "UPSC 2017"
+        },
+        {
+          "q": "Water in plants is transported by",
+          "options": {
+            "A": "xylem",
+            "B": "epidermis",
+            "C": "phloem",
+            "D": "cambium",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Xylem transports water from roots to stems and leaves and also transports nutrients. The term was introduced by Carl Nageli in 1858. Phloem transports carbohydrates (photosynthates) from the leaves to the basal parts of the plant. Xylem is unidirectional, while phloem is bidirectional.",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Among the following which is not a true fruit",
+          "options": {
+            "A": "Apple",
+            "B": "Grape",
+            "C": "Date",
+            "D": "Plum",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "True fruit is formed from the fertilised ovary of the flower (Watermelon, lemon, cherry, grape, date, plum). False fruit develops from any other part than the ovary (apples, bananas, cashews, strawberries). Apple develops from the thalamus, making it a false fruit.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Fruits stored in a cold chamber exhibit longer storage life, because",
+          "options": {
+            "A": "Exposure to Sunlight Is Prevented",
+            "B": "Concentration of Carbon Dioxide in The Environment, Is Increased",
+            "C": "Rate of Respiration Is Decreased",
+            "D": "There Is an Increase in Humidity"
+          },
+          "answer": "C",
+          "explanation": "Post-harvest cooling rapidly removes field heat. Proper post-harvest cooling reduces respiratory activity and degradation by enzymes, reduces internal water loss and wilting, slows or inhibits decay-producing microorganisms, and reduces the production of the natural ripening agent ethylene.",
+          "exam": "UPSC 2013",
+          "year": "UPSC 2013"
+        },
+        {
+          "q": "Ginger is a stem and not a root because",
+          "options": {
+            "A": "it stores food material",
+            "B": "it has nodes and internodes",
+            "C": "it grows horizontally in the soil",
+            "D": "it lacks chlorophyll",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Nodes and internodes are the characteristic features of stem, and ginger contains both. Ginger is a rhizome, which is a modification of the stem. It helps the plant to propagate vegetatively. A rhizome runs parallel to the ground; the upper portion produces scaly leaves and the bottom portion gives rise to adventitious roots.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which one of the following is the process involved in photosynthesis?",
+          "options": {
+            "A": "Potential Energy Is Released to Form Free Energy",
+            "B": "Free Energy Is Converted into Potential Energy and Stored",
+            "C": "Food Is Oxidized to Release Carbon Dioxide and Water",
+            "D": "Oxygen Is Taken, And Carbon Dioxide and Water Vapor Are Given Out"
+          },
+          "answer": "B",
+          "explanation": "Photosynthesis converts the energy of sunlight (free energy) to a usable form of chemical energy (Potential Energy), stored as ATP molecules. This is described as: Free Energy Is Converted into Potential Energy and Stored.",
+          "exam": "UPSC 2014",
+          "year": "UPSC 2014"
+        },
+        {
+          "q": "Legumes are highly nutritious because they are rich in",
+          "options": {
+            "A": "fat",
+            "B": "protein",
+            "C": "oil",
+            "D": "starch",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Legumes are one of the best sources of protein in plants. They include beans, peas, soybeans, chickpeas, lentils, peanuts, lupins, clover, and alfalfa. Legumes are essential to crop rotation because most contain symbiotic nitrogen-fixing bacteria (Azotobacter) in root nodules. February 10 is World Pulses Day.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Which of the following are nitrogen-fixing plants? 1. Alfalfa 2. Amaranth 3. Chickpea 4. Clover 5. Purslane (Kulfa) 6. Spinach. Select the correct answer.",
+          "options": {
+            "A": "1, 3 And 4 Only",
+            "B": "1, 3, 5 And 6 Only",
+            "C": "2, 4, 5 And 6 Only",
+            "D": "1, 2, 4, 5 And 6"
+          },
+          "answer": "A",
+          "explanation": "Alfalfa, Chickpea, and Clover are legumes that contain symbiotic nitrogen-fixing bacteria in root nodules.",
+          "exam": "UPSC 2022",
+          "year": "UPSC 2022"
+        },
+        {
+          "q": "Clove, a spice, is obtained from which part of the plant?",
+          "options": {
+            "A": "Fruit",
+            "B": "Stem",
+            "C": "Root",
+            "D": "Flower bud",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Clove is obtained from the flower buds of Syzygium aromaticum of the family Myrtaceae, native to the Maluku Islands (Spice Islands) of Indonesia. Commercially harvested in Indonesia, India, Pakistan, Sri Lanka, and African countries.",
+          "exam": "66th BPSC",
+          "year": "66th"
+        },
+        {
+          "q": "Clove is obtained from",
+          "options": {
+            "A": "Root",
+            "B": "Stem",
+            "C": "Fruit",
+            "D": "Flower bud"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.40",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Cloves are obtained from which of the following parts of the plant?",
+          "options": {
+            "A": "Dried leaves",
+            "B": "Dried flower buds",
+            "C": "Dried seeds",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Refer to Q.No.40",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "The by-product of photosynthesis is",
+          "options": {
+            "A": "CO2",
+            "B": "O2",
+            "C": "energy",
+            "D": "none of the above/More than one of the above",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Photosynthesis generates both oxygen and glucose from sunlight, water, and carbon dioxide. As a by-product, oxygen is emitted. The chemical equation: 6CO2 + 6H2O -> C6H12O6 (glucose) + 6O2. Photosynthesis takes place in chloroplasts. CO2 enters the leaves through stomata, and opening/closing is controlled by potassium.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Chlorophyll absorbs wavelengths of the sunlight",
+          "options": {
+            "A": "green and red",
+            "B": "red and blue",
+            "C": "blue and green",
+            "D": "yellow and green"
+          },
+          "answer": "B",
+          "explanation": "Chlorophyll absorbs light mostly in the red and blue wavelengths. It reflects green light, which is why plants appear green. The absorbed light energy drives photosynthesis.",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "A plant bud is",
+          "options": {
+            "A": "an embryonic shoot",
+            "B": "an embryonic leaf",
+            "C": "an endosperm",
+            "D": "a seed"
+          },
+          "answer": "A",
+          "explanation": "A plant bud is a type of tissue present at the tip of branches or at a stem node which will develop into a new shoot or flower. Plumule is the embryonic shoot of the plant. Radicle is the first part of the seedling. Plumule grows after the radicle.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Buds are typically found",
+          "options": {
+            "A": "Both at the base of leaves and tip of branches",
+            "B": "At the tip of branches",
+            "C": "At the base of leaves",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.45",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "A seed contains",
+          "options": {
+            "A": "Stored food",
+            "B": "Embryo",
+            "C": "Seed coat",
+            "D": "All of the above",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Seeds are the product of the ripened ovule. In flowering plants, the ovary ripens into a fruit containing the seed. The seed coat has two layers: testa (outer, thick) and tegmen (inner, thin). Note: BPSC has gone with option B (Embryo) but according to NCERT, the answer should be D (All of the above).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Azadirachta indica is the scientific name used for",
+          "options": {
+            "A": "Tulsi",
+            "B": "Neem",
+            "C": "Aloe Vera",
+            "D": "Silver Oak"
+          },
+          "answer": "B",
+          "explanation": "Azadirachta indica is the scientific name for the Neem tree. It is a tree in the mahogany family Meliaceae, native to the Indian subcontinent. It is typically grown in tropical and subtropical regions.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "A fruit is",
+          "options": {
+            "A": "A product of flower",
+            "B": "A product of ovary",
+            "C": "Post-Fertilization product of pistil",
+            "D": "A body that contains seed",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. False fruit develops from parts other than the ovary like thalamus (Apple) or receptacle (Strawberry). True fruits develop from mature ovaries after fertilization (mango, maize, grape).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The part of the flower that gives rise to a fruit is",
+          "options": {
+            "A": "sepal",
+            "B": "petal",
+            "C": "ovary",
+            "D": "placenta",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Refer to Q.No.49 (The ovary of the flower gives rise to a fruit after fertilization.)",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "The Reproductive parts of the flower",
+          "options": {
+            "A": "Petals and Carpels",
+            "B": "Stamens and Carpels",
+            "C": "Sepals and Petals",
+            "D": "Sepals and Stamens",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Stamens are the male reproductive part and the pistil (Carpel) is the female reproductive part of flowers. A carpel comprises the style, stigma, and ovary. The stamens contain anthers that produce pollen grains (male gametes). The carpels contain the female gametes within the ovary.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Which of the following is not a correct match?",
+          "options": {
+            "A": "Weak stem which cannot stand upright: Creeper",
+            "B": "Petiole: Attaches leaf to the stem",
+            "C": "Thick, hard stem with branching near base: Tree",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Creepers have weak stems that cannot stand upright (watermelon, strawberry, pumpkin) - correctly matched. Petiole connects the stem to the blade of the leaf - correctly matched. Trees have stems with branches in the UPPER part, much above the ground (not near the base). Hence option C is incorrectly matched.",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "Improper handling and storage of cereal grains and oilseeds result in the production of toxins known as Aflatoxins which are not generally destroyed by normal cooking processes. Aflatoxins are produced by",
+          "options": {
+            "A": "Bacteria",
+            "B": "Protozoa",
+            "C": "Moulds",
+            "D": "Viruses"
+          },
+          "answer": "C",
+          "explanation": "Aflatoxins are a family of toxins produced by certain moulds found on agricultural crops such as maize (corn), peanuts, cottonseed, and tree nuts. The main fungi that produce aflatoxins are Aspergillus flavus and Aspergillus parasiticus. Exposure to aflatoxins is associated with an increased risk of liver cancer.",
+          "exam": "UPSC 2013",
+          "year": "UPSC 2013"
+        },
+        {
+          "q": "Which component of fertilizer is used for stimulating early growth purpose?",
+          "options": {
+            "A": "Phosphorus",
+            "B": "Oxygen",
+            "C": "Nitrogen",
+            "D": "Potassium"
+          },
+          "answer": "A",
+          "explanation": "Phosphorus (P) promotes early root development, early seedling strength, and overall early growth. It is a key part of ATP (Adenosine Triphosphate). Nitrogen (N) mainly promotes leafy vegetative growth. Potassium (K) improves overall health and resistance against diseases.",
+          "exam": "70th BPSC",
+          "year": "70th"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Miscellaneous",
+      "questions": [
+        {
+          "q": "The book 'The Origin of Species' was written by",
+          "options": {
+            "A": "Linnaeus",
+            "B": "Lamarck",
+            "C": "Mendel",
+            "D": "Charles Darwin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The Origin of Species by means of natural selection was written by Charles Robert Darwin in November 1859. He introduced the scientific theory that populations evolve through natural selection and is regarded as the Father of Evolution. Carl Linnaeus is known as the father of taxonomy. Jean Baptiste de Lamarck gave the theory of evolution and coined the term Biology. Gregor Johann Mendel discovered the fundamental law of inheritance.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Biodegradable wastes can usually be converted into a useful substance with the help of?",
+          "options": {
+            "A": "Bacteria",
+            "B": "Viruses",
+            "C": "Nuclear proteins",
+            "D": "Radioactive substances",
+            "E": "None of the above/ more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Biodegradable waste can be converted into useful substance by Bioremediation which involves microorganisms (Bacteria) to remove toxins and pollutants. Useful bacteria include Lactobacillus (converts milk into curd), Streptococcus and Bacillus (ferment food products), Actinobacteria (help digestion), and Streptomyces (produce antibiotics).",
+          "exam": "67th Cancelled BPSC",
+          "year": "67th Cancelled"
+        },
+        {
+          "q": "The antibiotic among the following is",
+          "options": {
+            "A": "penicillin",
+            "B": "aspirin",
+            "C": "paracetamol",
+            "D": "sulfadiazine",
+            "E": "None of these/More than one of these"
+          },
+          "answer": "E",
+          "explanation": "From the options, both Penicillin and Sulfadiazine are antibiotics, so option E is correct. The term antibiotics was coined by Selman Waksman in 1942. Penicillin was discovered in 1928 by Alexander Fleming from Penicillium moulds. Aspirin is a non-steroidal anti-inflammatory drug (NSAID). Paracetamol is a medication for fever and mild pain. Sulfadiazine is also an antibiotic.",
+          "exam": "63rd BPSC",
+          "year": "63rd"
+        },
+        {
+          "q": "An example of antibiotic medicine is",
+          "options": {
+            "A": "Aspirin",
+            "B": "Paracetamol",
+            "C": "Chloroquine",
+            "D": "Penicillin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.3",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which among the following is not an antibiotic?",
+          "options": {
+            "A": "Erythromycin",
+            "B": "Oxytocin",
+            "C": "Penicillin",
+            "D": "Tetracycline",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Oxytocin is a peptide hormone that stimulates uterine contractions in childbirth and lactation. It is produced in the hypothalamus and released by the posterior pituitary. Oxytocin is called the Love Hormone, not an antibiotic. Erythromycin, Penicillin, and Tetracycline are all antibiotics.",
+          "exam": "CDPO 2018 BPSC",
+          "year": "CDPO 2018"
+        },
+        {
+          "q": "Which of the following is not a psychotropic drug",
+          "options": {
+            "A": "Cocaine",
+            "B": "Morphine",
+            "C": "Heroin",
+            "D": "Penicillin",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Psychotropic drugs affect behaviour, mood, thoughts, or perception by adjusting levels of brain chemicals (dopamine, GABA, norepinephrine, serotonin). Examples include caffeine, alcohol, cocaine, LSD, nicotine and cannabis. Penicillin is an antibiotic, not a psychotropic drug.",
+          "exam": "District Art and Culture BPSC",
+          "year": "District Art and Culture"
+        },
+        {
+          "q": "Which of the following is a hypnotic drug?",
+          "options": {
+            "A": "Luminal",
+            "B": "Salol",
+            "C": "Catechol",
+            "D": "Chemisol",
+            "E": "None of the above/more than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Luminal is a hypnotic drug that affects the central nervous system, has a relaxing, calming effect and is prescribed for insomnia and epilepsy. Hypnotics are medications used to induce or improve the quality of sleep. Phenyl salicylate (Salol) is used in sunscreens and as an antiseptic. Catechol is used in photography, dyeing and the pharmaceutical industry.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The main ingredient of biodegradable plastic is",
+          "options": {
+            "A": "Leather",
+            "B": "Vegetable Oil",
+            "C": "Sodium Chloride",
+            "D": "Corn Starch"
+          },
+          "answer": "D",
+          "explanation": "Biodegradable plastics are produced from renewable biomass sources such as corn starch, straw, woodchips, sawdust, recycled food waste etc. These are eco-friendly as they can decompose naturally in the environment. Bioplastics made from corn save energy and emit less carbon in the manufacturing process.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Angora wool is extracted from",
+          "options": {
+            "A": "rabbit",
+            "B": "fox",
+            "C": "goat",
+            "D": "sheep",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "A",
+          "explanation": "Angora wool is extracted from angora rabbits who have extremely soft, thick coats. The vast majority of Angora wool (90%) comes from China. There is also a breed of goats called Angora goats whose wool is called mohair. Wool is the textile fibre obtained from sheep and other mammals including goats (mohair and cashmere) and rabbits (Angora wool).",
+          "exam": "66th Re BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "The interaction between algae and fungi to form lichen is called",
+          "options": {
+            "A": "Parasitism",
+            "B": "Mutualism",
+            "C": "Commensalism",
+            "D": "Conversion",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The interaction between algae and fungi to form lichen is called Mutualism, where both partners are benefited and none can live separately. Algae (phycobiont) provide food to fungi while fungi (mycobiont) provide shelter, water, and minerals to algae. Litmus solution is extracted from lichens. Parasitism is where one organism benefits at the other's expense. Commensalism is where one is benefited and the other is neither harmed nor benefited.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "White rust is an important fungal disease of",
+          "options": {
+            "A": "Wheat",
+            "B": "Mustard",
+            "C": "Rice",
+            "D": "Bajra"
+          },
+          "answer": "B",
+          "explanation": "White rust is a fungal disease observed in Chrysanthemum, Mustard, rapeseed, Marigold, Cabbage, cauliflower, Broccoli and is caused by Albugo candida. Another name for it is White Blisters of Crucifers.",
+          "exam": "29th Bihar Judicial Service",
+          "year": "29th Bihar Judicial Service"
+        },
+        {
+          "q": "Jaundice, an infectious disease, spreads through",
+          "options": {
+            "A": "Water",
+            "B": "Air",
+            "C": "Soil",
+            "D": "Skin"
+          },
+          "answer": "A",
+          "explanation": "Jaundice is a condition in which the skin and whites of the eyes turn yellow because of a high level of bilirubin, a byproduct generated when red blood cells break down. Jaundice spreads through contact with contaminated soil or water as well as contact with blood, urine, or other tissues of animals that have the disease.",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Consider the following kinds of organisms: 1. Bacteria 2. Fungi 3. Flowering plants. Some species of which of the above kinds of organisms are employed as biopesticides?",
+          "options": {
+            "A": "1 Only",
+            "B": "2 And 3 Only",
+            "C": "1 And 3 Only",
+            "D": "1, 2 And 3"
+          },
+          "answer": "D",
+          "explanation": "Biopesticides are pesticides derived from natural materials such as animals, plants, bacteria, and certain minerals. Bacteria, fungi, viruses or protozoans are used as active ingredients in microbial pesticides. Certain flowering plants are also used as biopesticides; Neem is the best example.",
+          "exam": "UPSC 2012",
+          "year": "UPSC 2012"
+        },
+        {
+          "q": "Certain species of which one of the following organisms are well known as cultivators of fungi?",
+          "options": {
+            "A": "Ant",
+            "B": "Cockroach",
+            "C": "Crab",
+            "D": "Spider"
+          },
+          "answer": "A",
+          "explanation": "About 240 species of attine ants (leafcutters among them) are known to farm fungus in the Americas and the Caribbean. They participate in ant-fungus mutualism. They cut grasses and leaves, carry them to their colonies' nests, and use them to grow fungus which is an important food source for their larvae.",
+          "exam": "UPSC 2022",
+          "year": "UPSC 2022"
+        },
+        {
+          "q": "The actual location or place where an organism lives is called",
+          "options": {
+            "A": "Habitat",
+            "B": "Ecosystem",
+            "C": "Niche",
+            "D": "Biome",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "Habitat is the specific place or locality where an organism or community lives and reproduces. Ecosystem is the sum total of interaction between biotic (living) and abiotic (non-living) components. Niche is a specific part of a habitat occupied by individuals of a species. Biome is the large unit of the environment with major types of vegetation in a specific climatic zone. The closest option is A (Habitat) but the commission went with option E.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "Which one of the following can be used for the biological control of mosquitoes?",
+          "options": {
+            "A": "Oil",
+            "B": "Ointment",
+            "C": "DDT",
+            "D": "Gambusia"
+          },
+          "answer": "D",
+          "explanation": "Gambusia affinis and Poecilia reticulata are the two most important larvivorous fish used extensively for the control of mosquito breeding in urban areas. Both these fish are exotic but have acclimatised well to different climatic conditions in the country. They feed on the larvae of mosquitoes and hence check their population.",
+          "exam": "UPSC 2021",
+          "year": "UPSC 2021"
+        },
+        {
+          "q": "Who discovered bacteria?",
+          "options": {
+            "A": "Fleming",
+            "B": "Lamble",
+            "C": "Temin",
+            "D": "Leeuwenhoek"
+          },
+          "answer": "D",
+          "explanation": "Bacteria was discovered by Antoni van Leeuwenhoek. Bacteria are small single-cell organisms. They are Prokaryotes (without nuclear membrane). Bacterial cell walls are made of peptidoglycan (also called murein). Plant and fungi cell walls are made of cellulose and chitin. Diseases caused by bacteria include Tuberculosis, Anthrax, Tetanus, Cholera, Meningitis, Gonorrhea, Plague, and Syphilis.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "What is vermiculite?",
+          "options": {
+            "A": "The science of raising worms",
+            "B": "The science of studying animals",
+            "C": "The science of studying fishes",
+            "D": "The science of killing worms"
+          },
+          "answer": "A",
+          "explanation": "Vermiculite (Vermicomposting) is the process of using earthworms to decompose organic food waste into a nutrient-rich substance (Vermicompost) capable of giving vital nutrients and sustaining plant growth. The science of studying animals is Zoology. The science of studying fishes is Ichthyology.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Consider the following: 1. Bats 2. Bears 3. Rodents. The phenomenon of hibernation can be observed in which of the above kinds of animals?",
+          "options": {
+            "A": "1 And 2 Only",
+            "B": "2 Only",
+            "C": "1, 2 And 3",
+            "D": "Hibernation cannot be observed in any of the above"
+          },
+          "answer": "C",
+          "explanation": "Hibernation is a way animals conserve energy to survive adverse cold weather or lack of food. It involves physiological changes such as a drop in body temperature and slowed metabolism, breathing, and heartbeat. Animals that hibernate include bats, bears, rodents, squirrels, etc. Animals in hot climates undergo aestivation, similar to hibernation but for extreme heat and drought.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "Chemotherapy is",
+          "options": {
+            "A": "Use of heat for therapeutic effect",
+            "B": "Use of natural reagent for therapeutic effect",
+            "C": "Use of chemical for therapeutic effect",
+            "D": "All of the above",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Chemotherapy uses chemical reagents for therapeutic effect and is generally used to treat cancer. It prevents the multiplication and division of cancer cells. Other cancer treatments: Radiation therapy (uses beams of intense energy like X-rays) and Immunotherapy (uses medications to boost the patient's immune system to fight cancer).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Antiseptics and disinfectants either kill or prevent the growth of microorganisms. Which of the following statements is not true?",
+          "options": {
+            "A": "Chlorine and iodine are used as strong disinfectants",
+            "B": "Dilute solutions of boric acid and hydrogen peroxide are strong antiseptics",
+            "C": "Disinfectants harm the living tissues",
+            "D": "A 0.2 Solution of phenol is antiseptic while a 1% solution acts as a disinfectant",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Option B is wrong because dilute solutions of boric acid and hydrogen peroxide are WEAK antiseptics, not strong antiseptics. Boric acid in dilute aqueous solution is a weak antiseptic for the eyes. Chlorine and iodine-based compounds are significant microbicidal agents. Phenol can act as antiseptic (0.2%) or disinfectant (1%) by varying concentration.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Which one of the following is an antibiotic drug?",
+          "options": {
+            "A": "Quinine",
+            "B": "Sulphaguanidine",
+            "C": "Chloramphenicol",
+            "D": "Aspirin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Chloramphenicol (Chloromycetin) is an antibiotic. Some examples of antibiotics are Penicillin, streptomycin, chloromycetin, etc. Aspirin is used as an Antipyretic (to reduce fever) and Analgesic (to reduce pain). Quinine is used to treat malaria; first extracted from the Cinchona tree. Chloroquine is a synthetic drug used for Malaria treatment.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "Quinine is a common drug for malaria that is obtained from a plant. Which part of the plant yields this drug?",
+          "options": {
+            "A": "Leaves",
+            "B": "Root",
+            "C": "Stem bark",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanation": "Quinine is extracted from the bark of the Cinchona tree. The most affected organ in Malaria is the spleen, called the Graveyard of RBC and Blood Bank of the body.",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "An example of antibiotic medicine is",
+          "options": {
+            "A": "Aspirin",
+            "B": "Paracetamol",
+            "C": "Chloroquine",
+            "D": "Penicillin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.3 and Q.No.22",
+          "exam": "66th Re-Exam BPSC",
+          "year": "66th Re"
+        },
+        {
+          "q": "Which of the following is an analgesic?",
+          "options": {
+            "A": "Penicillin",
+            "B": "Streptomycin",
+            "C": "Chloromycetin",
+            "D": "Novalgin",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Novalgin is an analgesic. An analgesic is a drug used to achieve relief from pain. Examples: Salicylates, Acetaminophen, Novalgin, etc. Penicillin, Streptomycin, and Chloromycetin are all antibiotics.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Bithionol is generally added to the soaps as an additive to function as a/an",
+          "options": {
+            "A": "softener",
+            "B": "dryer",
+            "C": "buffering",
+            "D": "antiseptic",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Bithionol is added to soap to specify its antiseptic properties and reduces odour created by bacterial decomposition. It is also an anthelmintic drug for treatment of infection with Fasciola hepatica. Other soap ingredients: Sodium Rosinate gives foaming; Glycerol provides smoothing; Sulphur makes soap anti-acne; Sodium silicate makes soap retain its shape.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Which of the following is used in the brewing of beer",
+          "options": {
+            "A": "Penicillin",
+            "B": "Yeast",
+            "C": "Club fungi",
+            "D": "Mushroom",
+            "E": "None of the above more than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Yeasts are unicellular organisms with two main uses in food production: baking and making alcoholic beverages. Yeast is fungi and converts sugar and starch through fermentation into carbon dioxide and alcohol. Mushrooms are also fungi and are edible. Club Fungi (Basidiomycetes) are a special class of fungi named for their club-shaped sporangium.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Yeast, used in making bread, is",
+          "options": {
+            "A": "Seed",
+            "B": "Bacteria",
+            "C": "Plant",
+            "D": "Fungus"
+          },
+          "answer": "D",
+          "explanation": "Refer to Q.No.27",
+          "exam": "Bihar Assistant Prosecution Officer",
+          "year": "Bihar APO"
+        },
+        {
+          "q": "Yeast is used in the production of",
+          "options": {
+            "A": "Sugar",
+            "B": "Hydrochloric Acid",
+            "C": "Alcohol",
+            "D": "Sulfuric acid",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Refer to Q.No.27",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "Which of the following is an example of a binomial scientific name?",
+          "options": {
+            "A": "Green algae",
+            "B": "Snow leopard",
+            "C": "Rana Tigrina",
+            "D": "China rose",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Biologists provide scientific names with two components - the Generic name and the specific epithet - called Binomial nomenclature, given by Carolus Linnaeus. Rana tigrina (now known as Hoplobatrachus tigerinus) is an example of a binomial name. Snow Leopard: Panthera uncia; China Rose: Hibiscus rosa-sinensis; Man: Homo sapiens; Housefly: Musca domestica; Mango: Mangifera indica; Wheat: Triticum aestivum.",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "Which one of the following can be used for the biological control of mosquitoes?",
+          "options": {
+            "A": "Oil",
+            "B": "Ointment",
+            "C": "DDT",
+            "D": "Gambusia",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Gambusia affinis and Poecilia reticulata are the two most important larvivorous fish used extensively for the control of mosquito breeding in urban areas. They feed on the larvae of mosquitoes and hence check their population.",
+          "exam": "CDPO 2018 BPSC",
+          "year": "CDPO 2018"
+        },
+        {
+          "q": "The Ishihara test is related with",
+          "options": {
+            "A": "Bone density",
+            "B": "IQ",
+            "C": "Colour blindness",
+            "D": "Haemoglobin level"
+          },
+          "answer": "C",
+          "explanation": "The Ishihara Test is a vision test used to detect colour blindness. It uses a series of coloured plates (Ishihara plates) with numbers or patterns hidden inside dots of different colours. People with normal colour vision can see the numbers easily. Those with colour blindness (especially red-green) have difficulty recognizing them. Bone density is measured by DEXA scan.",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "Grey revolution is related to",
+          "options": {
+            "A": "Fisheries",
+            "B": "Fertilizers",
+            "C": "Oilseeds",
+            "D": "Potatoes"
+          },
+          "answer": "B",
+          "explanation": "The Grey Revolution refers to the significant increase in the production and usage of chemical fertilizers in agriculture. Other revolutions: Green Revolution (Food grains), White Revolution (Milk - Operation Flood by Verghese Kurien), Blue Revolution (Fisheries), Yellow Revolution (Oilseeds), Golden Revolution (Horticulture and Honey), Pink Revolution (Meat/prawn/onion), Red Revolution (Meat and tomato).",
+          "exam": "70th BPSC Re Exam",
+          "year": "70th Re"
+        },
+        {
+          "q": "What is the basis of the most useful classification of medications in medical chemistry?",
+          "options": {
+            "A": "Pharmacological effect",
+            "B": "Molecular targets",
+            "C": "Chemical structure",
+            "D": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Medicines can be classified on the basis of: (a) pharmacological effect (analgesics have pain killing effects), (b) drug action (antihistamines inhibit histamine), (c) chemical structure, or (d) molecular targets (drugs interact with bio-molecules such as carbohydrates, lipids, proteins and nucleic acids). The classification based on molecular targets is the most useful for medicinal chemists.",
+          "exam": "69th BPSC",
+          "year": "69th"
+        }
+      ]
+    },
+    {
+      "chapter_name": "Cell Structure and Function",
+      "questions": [
+        {
+          "q": "In which organ of the human body are the lymphocytes formed?",
+          "options": {
+            "A": "Liver",
+            "B": "Bone marrow",
+            "C": "Spleen",
+            "D": "Pancreas",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Lymphocytes develop in the thymus and bone marrow (central/primary lymphoid organs). T lymphocytes control the body's immune response to foreign substances. B lymphocytes make antibodies. Red bone marrow contains blood stem cells that convert into RBCs, WBCs, or platelets.",
+          "exam": "65th BPSC",
+          "year": "65th"
+        },
+        {
+          "q": "The most important cell type associated with the immunity of the body is",
+          "options": {
+            "A": "lymphocytes",
+            "B": "RBC",
+            "C": "platelets",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.23",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "Which of the following is responsible for controlling the hereditary characteristics of living organisms?",
+          "options": {
+            "A": "Enzyme",
+            "B": "Hormone",
+            "C": "RNA",
+            "D": "DNA",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "DNA (deoxyribonucleic acid) is the hereditary material in humans. It was proved by Hershey and Chase in 1952. DNA was first identified by Friedrich Meischer in pus cells in 1869. Watson and Crick discovered the double helical structure. The four nitrogenous bases of DNA are Adenine(A), Guanine(G), Cytosine(C) and Thymine(T). Adenine pairs with Thymine (2 H-bonds), Cytosine pairs with Guanine (3 H-bonds).",
+          "exam": "62nd BPSC",
+          "year": "62nd"
+        },
+        {
+          "q": "The DNA double helix structure was discovered by",
+          "options": {
+            "A": "James Watson and Francis Crick",
+            "B": "Rosalind Franklin and Maurice Wilkins",
+            "C": "Linus Pauling",
+            "D": "Gregor Mendel"
+          },
+          "answer": "A",
+          "explanation": "Refer to Q.No.26",
+          "exam": "69th BPSC",
+          "year": "69th"
+        },
+        {
+          "q": "The reason for large-scale diversity among the organisms is",
+          "options": {
+            "A": "adaptation",
+            "B": "cooperation",
+            "C": "mutation",
+            "D": "polyploidy"
+          },
+          "answer": "C",
+          "explanation": "Mutation is a change in the DNA sequence of an organism and one of the reasons behind Evolution. Geneticist Hugo de Vries gave the name mutation in 1901. Adaptation is any heritable trait that helps an organism survive. Polyploidy is a phenomenon where an organism has more than one set of chromosomes in each cell.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "The smallest organism, capable of autonomous growth and reproduction, is",
+          "options": {
+            "A": "virus",
+            "B": "bacteria",
+            "C": "mycoplasma",
+            "D": "bacteriophage"
+          },
+          "answer": "C",
+          "explanation": "Mycoplasma is the smallest organism capable of autonomous growth and reproduction. Mycoplasma is a genus of bacteria. The cell wall is absent in mycoplasma. It can survive without oxygen. A virus is a sub-microscopic infectious agent that replicates only inside living cells. Bacteriophage are viruses that infect bacteria.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Who discovered DNA?",
+          "options": {
+            "A": "James Watson and Francis Crick",
+            "B": "Gregor Mendel",
+            "C": "Johannsen",
+            "D": "Hargovind Khorana",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "E",
+          "explanation": "DNA was first recognized and identified by the Swiss biologist Johannes Friedrich Miescher in 1869 in a pus cell. Watson and Crick discovered the double helical structure. Gregor Johann Mendel discovered the basic principles of heredity (Father of Genetics). Johannsen coined the word genes. Hargovind Khurana discovered mechanisms for RNA synthesis (Nobel Prize 1968).",
+          "exam": "64th BPSC",
+          "year": "64th"
+        },
+        {
+          "q": "Who synthesized the DNA in vitro?",
+          "options": {
+            "A": "Arthur Kornberg",
+            "B": "Robert Hooke",
+            "C": "Edward Jenner",
+            "D": "Joseph Lister"
+          },
+          "answer": "A",
+          "explanation": "Arthur Kornberg was the first person to have synthesized DNA in vitro. He was the first to isolate the DNA polymerase enzyme in Escherichia coli. The Nobel Prize in Physiology or Medicine 1959 was awarded jointly to Severo Ochoa and Arthur Kornberg. Robert Hooke first discovered cells in 1665.",
+          "exam": "59th BPSC",
+          "year": "59th"
+        },
+        {
+          "q": "Clones of animals are being produced through the practice of",
+          "options": {
+            "A": "Genetics",
+            "B": "Ecology",
+            "C": "Biotechnology",
+            "D": "Embryology",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "C",
+          "explanation": "Biotechnology utilizes biological systems to develop or create different products. Dolly the Sheep was the first cloned animal. Samrupa was the world's first Murrah buffalo calf cloned in India. Embryology studies embryos and their development (Karl Ernst von Baer is Father of Embryology). Genetics studies heredity and variation (Gregor Mendel is Father of Genetics).",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "Which part of DNA provides information for a protein?",
+          "options": {
+            "A": "Chromosome",
+            "B": "Mitochondria",
+            "C": "RNA",
+            "D": "Gene",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "Gene is a basic unit of heredity. Genes contain the information required to make proteins. The word gene was coined by the Danish botanist Johannsen. The journey from gene to protein consists of two major steps: transcription and translation. Chromosomes are thread-like structures in which DNA is tightly packaged within the nucleus; humans have 23 pairs of chromosomes (46 total).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Sex chromosomes of female birds are represented by",
+          "options": {
+            "A": "XO",
+            "B": "XX",
+            "C": "XY",
+            "D": "ZW",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "In birds, females are ZW and males are ZZ. In humans and most other mammals, females have two X chromosomes (XX) and males have one X and one Y (XY).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Which colour is the blood of crayfish?",
+          "options": {
+            "A": "Green",
+            "B": "Blue",
+            "C": "Red",
+            "D": "White",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "The colour of blood in Crayfish is blue due to the copper-based pigment haemocyanin. Haemoglobin (iron-rich) gives red colour to blood of humans. Chlorocruorin gives green colour to blood of some segmented worms. Haemerythrin gives violet colour to blood of marine worms. Venabin gives yellow colour to blood of beetles and sea squirts.",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "Which of the following is found both in the cells of a mango plant and a monkey?",
+          "options": {
+            "A": "Chloroplast",
+            "B": "Centriole",
+            "C": "Cell wall",
+            "D": "Cell membrane",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "D",
+          "explanation": "The cell membrane (plasma membrane) is present in both plant and animal cells. Chloroplast is present only in plant cells. Centrioles are found only in animal cells. Cell walls are not found in animal cells. A plant cell is usually square or rectangular, but an animal cell is usually irregular/round.",
+          "exam": "CDPO 2022 BPSC",
+          "year": "CDPO 2022"
+        },
+        {
+          "q": "Which among the following is a character of chloroplast which makes them qualified for self-replication?",
+          "options": {
+            "A": "Absence of RNA",
+            "B": "Presence of both DNA and RNA",
+            "C": "Presence of DNA only",
+            "D": "More than one of the above",
+            "E": "None of the above"
+          },
+          "answer": "B",
+          "explanation": "Presence of both DNA and RNA makes chloroplast qualified for self-replication. DNA carries genetic instructions while RNA is needed to transcribe and translate those instructions into proteins needed for replication.",
+          "exam": "68th BPSC",
+          "year": "68th"
+        },
+        {
+          "q": "Electron transport system is located in",
+          "options": {
+            "A": "Mitochondrial matrix",
+            "B": "Cytosol",
+            "C": "Cristae",
+            "D": "All of the above",
+            "E": "None of the above more than one of the above"
+          },
+          "answer": "C",
+          "explanation": "The electron transport system (ETS) is present in the inner mitochondrial membrane (Cristae). ETS is utilised in synthesising ATP with the help of ATP synthase. The term mitochondria was coined by Carl Benda in 1898 but was discovered by Albert von Kolliker in 1857. It is nicknamed the powerhouse of the cell (coined by Philip Siekevitz in 1957).",
+          "exam": "AAO 2022 BPSC",
+          "year": "AAO 2022"
+        },
+        {
+          "q": "The powerhouse of the cell is",
+          "options": {
+            "A": "cell wall",
+            "B": "mitochondrion",
+            "C": "ribosome",
+            "D": "nucleus",
+            "E": "None of the above/More than one of the above"
+          },
+          "answer": "B",
+          "explanation": "Mitochondria are membrane-bound organelles present in the cytoplasm of all eukaryotic cells that produce ATP, the main energy molecule used by the cell. In addition to producing energy, mitochondria store calcium for cell signalling activities, generate heat, and mediate cell growth and death.",
+          "exam": "BPSC",
+          "year": "Unknown"
+        },
+        {
+          "q": "What is the structural and functional unit of life?",
+          "options": {
+            "A": "Organism",
+            "B": "Tissue",
+            "C": "Organ",
+            "D": "Cell"
+          },
+          "answer": "D",
+          "explanation": "Cells are regarded as the fundamental units of life. All cells are surrounded by a cell membrane. Robert Hooke first discovered cells in 1665 while observing a thin slice of cork. Anton van Leeuwenhoek was the first to observe living cells. Cell Theory was proposed by Schleiden and Schwann; Rudolf Virchow added: All cells arise from preexisting cells.",
+          "exam": "70th BPSC",
+          "year": "70th"
+        },
+        {
+          "q": "Which of the following statements is correct regarding the general difference between plant cells and animal cells? 1. Plant cells have cellulose cell walls whilst animal cells do not. 2. Plant cells do not have plasma membranes, unlike animal cells which do. 3. A mature plant cell has one large vacuole whilst an animal cell has many small vacuoles. Select the correct answer.",
+          "options": {
+            "A": "1 and 2 Only",
+            "B": "2 and 3 Only",
+            "C": "1 and 3 Only",
+            "D": "1, 2 and 3"
+          },
+          "answer": "C",
+          "explanation": "Statement 1 is correct - Plant cells have cellulose cell walls while animal cells simply have a cell membrane. Statement 2 is incorrect - Both plant and animal cells have plasma membranes. Statement 3 is correct - A plant cell contains a large singular vacuole; animal cells have many smaller vacuoles.",
+          "exam": "UPSC 2020",
+          "year": "UPSC 2020"
+        }
+      ]
+    }
+  ]
+}

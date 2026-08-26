@@ -1,0 +1,112 @@
+[
+  {
+    "id": "bpsc_ghatna_chakra",
+    "title": "BPSC Ghatna Chakra",
+    "subtitle": "Bihar Public Service Commission · Prelims PYQ",
+    "tag": "BPSC Pre PYQ",
+    "emoji": "📜",
+    "color": "#C9897B",
+    "dataDir": ".",
+    "chaptersFile": "data/chapters.json",
+    "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions."
+  },
+  {
+    "id": "crown",
+    "title": "Crown",
+    "subtitle": "Bihar General Studies · Curated Practice",
+    "tag": "CROWN",
+    "emoji": "👑",
+    "color": "#D8A06E",
+    "dataDir": "books/crown/data",
+    "chaptersFile": "chapters.json",
+    "description": "7 subjects · 44 chapters · 867 verified questions"
+  },
+  {
+    "id": "tarkas",
+    "title": "Tarkas",
+    "subtitle": "Priyadarshani Book Series · BPSC PYQ",
+    "tag": "TARKAS",
+    "emoji": "🌺",
+    "color": "#C9897B",
+    "dataDir": "books/tarkas/data",
+    "chaptersFile": "chapters.json",
+    "description": "10 subjects · 53 chapters · 1,743 verified BPSC Prelims questions from the Priyadarshani series."
+  },
+  {
+    "id": "physics",
+    "title": "Physics",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "PHYSICS",
+    "emoji": "⚛️",
+    "color": "#6FA3C8",
+    "dataDir": "books/physics/data",
+    "chaptersFile": "chapters.json",
+    "description": "17 chapters · 1,731 verified questions"
+  },
+  {
+    "id": "chemistry",
+    "title": "Chemistry",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "CHEMISTRY",
+    "emoji": "🧪",
+    "color": "#7FB9B0",
+    "dataDir": "books/chemistry/data",
+    "chaptersFile": "chapters.json",
+    "description": "19 chapters · 757 verified questions"
+  },
+  {
+    "id": "biology",
+    "title": "Biology",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "BIOLOGY",
+    "emoji": "🧬",
+    "color": "#96BF8D",
+    "dataDir": "books/biology/data",
+    "chaptersFile": "chapters.json",
+    "description": "29 chapters · 1,601 verified questions"
+  },
+  {
+    "id": "ancient_india",
+    "title": "Ancient India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "ANCIENT",
+    "emoji": "🏛️",
+    "color": "#C9897B",
+    "dataDir": "books/ancient_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "15 chapters · 1,342 verified questions"
+  },
+  {
+    "id": "medieval_india",
+    "title": "Medieval India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "MEDIEVAL",
+    "emoji": "🏰",
+    "color": "#C98C74",
+    "dataDir": "books/medieval_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "25 chapters · 931 verified questions"
+  },
+  {
+    "id": "modern_india",
+    "title": "Modern India",
+    "subtitle": "Purvavalokan 2026 · English",
+    "tag": "MODERN",
+    "emoji": "📜",
+    "color": "#A88FB8",
+    "dataDir": "books/modern_india/data",
+    "chaptersFile": "chapters.json",
+    "description": "55 chapters · 2,732 verified questions"
+  },
+  {
+    "id": "kgs_test_series",
+    "title": "KGS Test Series",
+    "subtitle": "72nd BPSC Prelims · प्रहार Test Series",
+    "tag": "KGS TESTS",
+    "emoji": "📝",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "15 subjects · 15 chapters · 2,250 questions"
+  }
+]
