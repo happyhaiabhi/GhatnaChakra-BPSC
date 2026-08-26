@@ -46,7 +46,7 @@ Then open **http://localhost:8000** from the repository root.
 - Guided selections show their question results directly below the selected paper and year, with a “Refine search” action
 - Prelims and CSAT answer keys
 - Detailed expandable solutions for every CSAT question
-- A question-wise infographic for every CSAT question: served from `infographics/` when bundled locally, with an automatic fallback to the original full-size source URL
+- A question-wise infographic for every CSAT and Prelims GS question: served from `infographics/` when bundled locally, with an automatic fallback to the original full-size source URL
 - Clear passage blocks and statement formatting for long objective questions
 - Responsive cards and progressive loading (20 results at a time)
 
@@ -60,11 +60,12 @@ Then open **http://localhost:8000** from the repository root.
 | **Unique searchable total** | **1995–2026** | **6,486** |
 
 The CSAT package contains 1,211 complete explanations and 1,211 solution
-infographic references. Four rows in the older 3,200-row Prelims compilation
-pointed to CSAT pages; the website excludes those duplicate/misclassified rows
-from the Prelims collection and uses their complete CSAT records instead. The
-Prelims GS dataset contains answer keys but no full written explanations; those
-cards link to their original source pages.
+infographic references. Every Prelims GS question also carries a solution
+infographic reference (3,196 of 3,200 rows). Four rows in the older 3,200-row
+Prelims compilation pointed to CSAT pages; the website excludes those
+duplicate/misclassified rows from the Prelims collection and uses their
+complete CSAT records instead. The Prelims GS dataset contains answer keys but
+no full written explanations; those cards link to their original source pages.
 
 ## BPSC runtime included
 
@@ -79,7 +80,8 @@ cards link to their original source pages.
 ## Maintenance scripts
 
 - `python scripts/build_data_bundle.py` — rebuilds `data.js` (the `file://` fallback bundle) after a UPSC JSON update.
-- `python scripts/download_csat_infographics.py` — downloads every CSAT infographic referenced by `data/csat.json` into `infographics/` (run on a machine with internet access; resumable).
+- `python scripts/download_infographics.py` — downloads every infographic referenced by `data/csat.json` and `data/prelims.json` into `infographics/` (run on a machine with internet access; resumable; `--dataset csat|prelims` to limit).
+- `python scripts/add_prelims_infographics.py` — re-derives the Prelims infographic references from each question's `reference_url` (already applied; `--check` verifies).
 - `python scripts/sync_bpsc_runtime.py` — refreshes the integrated BPSC runtime from the `bpsc-source` branch (with a temporary fallback to `main` until that branch exists) and validates every book/subject data path before replacing `bpsc/`.
 
 ## Deployment

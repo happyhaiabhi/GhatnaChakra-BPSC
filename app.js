@@ -730,13 +730,13 @@ function renderExplanation(question, answerKey) {
 }
 
 function renderInfographic(question) {
-  if (question.exam !== 'CSAT') return '';
+  if (question.exam !== 'CSAT' && question.exam !== 'Prelims') return '';
   const localUrl = safeLocalPath(question.infographic_local);
   const remoteUrl = safeWebUrl(question.infographic_url);
   const imageUrl = localUrl || remoteUrl;
   if (!imageUrl) return '';
   const number = questionNumber(question);
-  const alt = `Solution infographic for UPSC CSAT ${question.year} question ${number}`;
+  const alt = `Solution infographic for UPSC ${question.exam} ${question.year} question ${number}`;
 
   return `<details class="infographic">
     <summary><span class="infographic-icon" aria-hidden="true">▧</span> View solution infographic</summary>

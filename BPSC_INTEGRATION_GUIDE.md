@@ -15,9 +15,9 @@ repository root (main)
 ├── app.js / styles.css
 ├── data.js                 # UPSC file:// fallback bundle
 ├── data/                   # UPSC JSON datasets (prelims, csat, mains)
-├── infographics/           # Locally bundled CSAT solution infographics
+├── infographics/           # Locally bundled CSAT + Prelims solution infographics
 ├── bpsc-theme.css          # UPSC-aligned BPSC day/night design
-├── scripts/                # build_data_bundle.py, download_csat_infographics.py, sync_bpsc_runtime.py
+├── scripts/                # build_data_bundle.py, download_infographics.py, add_prelims_infographics.py, sync_bpsc_runtime.py
 └── bpsc/
     ├── index.html          # Complete BPSC browser application
     ├── books/              # All registered BPSC books
