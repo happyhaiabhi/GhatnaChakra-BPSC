@@ -1,0 +1,1481 @@
+{
+  "year": 2013,
+  "questions": [
+    {
+      "id": "UPSCPRELI2013GS01001",
+      "paper": "GS1",
+      "position": 1,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01001.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01001.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01002",
+      "paper": "GS1",
+      "position": 2,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01002.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01002.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01003",
+      "paper": "GS1",
+      "position": 3,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01003.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01003.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01004",
+      "paper": "GS1",
+      "position": 4,
+      "subject": "art-and-culture",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01004.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01004.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01005",
+      "paper": "GS1",
+      "position": 5,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01005.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01005.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01006",
+      "paper": "GS1",
+      "position": 6,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01006.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01006.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01008",
+      "paper": "GS1",
+      "position": 7,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01008.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01008.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01009",
+      "paper": "GS1",
+      "position": 8,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01009.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01009.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01010",
+      "paper": "GS1",
+      "position": 9,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01010.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01010.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01011",
+      "paper": "GS1",
+      "position": 10,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01011.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01011.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01012",
+      "paper": "GS1",
+      "position": 11,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01012.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01012.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01013",
+      "paper": "GS1",
+      "position": 12,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01013.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01013.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01014",
+      "paper": "GS1",
+      "position": 13,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01014.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01014.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01015",
+      "paper": "GS1",
+      "position": 14,
+      "subject": "history",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01015.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01015.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01016",
+      "paper": "GS1",
+      "position": 15,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01016.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01016.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01019",
+      "paper": "GS1",
+      "position": 16,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01019.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01019.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01020",
+      "paper": "GS1",
+      "position": 17,
+      "subject": "history",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01020.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01020.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01021",
+      "paper": "GS1",
+      "position": 18,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01021.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01021.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01022",
+      "paper": "GS1",
+      "position": 19,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01022.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01022.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01023",
+      "paper": "GS1",
+      "position": 20,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01023.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01023.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01024",
+      "paper": "GS1",
+      "position": 21,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01024.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01024.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01025",
+      "paper": "GS1",
+      "position": 22,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01025.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01025.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01026",
+      "paper": "GS1",
+      "position": 23,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01026.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01026.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01027",
+      "paper": "GS1",
+      "position": 24,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01027.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01027.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01028",
+      "paper": "GS1",
+      "position": 25,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01028.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01028.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01029",
+      "paper": "GS1",
+      "position": 26,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01029.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01029.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01030",
+      "paper": "GS1",
+      "position": 27,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01030.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01030.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01031",
+      "paper": "GS1",
+      "position": 28,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01031.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01031.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01032",
+      "paper": "GS1",
+      "position": 29,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01032.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01032.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01033",
+      "paper": "GS1",
+      "position": 30,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01033.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01033.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01034",
+      "paper": "GS1",
+      "position": 31,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01034.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01034.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01035",
+      "paper": "GS1",
+      "position": 32,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01035.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01035.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01036",
+      "paper": "GS1",
+      "position": 33,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01036.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01036.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01037",
+      "paper": "GS1",
+      "position": 34,
+      "subject": "art-and-culture",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01037.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01037.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01038",
+      "paper": "GS1",
+      "position": 35,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01038.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01038.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01039",
+      "paper": "GS1",
+      "position": 36,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01039.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01039.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01040",
+      "paper": "GS1",
+      "position": 37,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01040.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01040.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01041",
+      "paper": "GS1",
+      "position": 38,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01041.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01041.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01042",
+      "paper": "GS1",
+      "position": 39,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01042.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01042.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01043",
+      "paper": "GS1",
+      "position": 40,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01043.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01043.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01044",
+      "paper": "GS1",
+      "position": 41,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01044.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01044.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01045",
+      "paper": "GS1",
+      "position": 42,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01045.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01045.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01046",
+      "paper": "GS1",
+      "position": 43,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01046.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01046.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01047",
+      "paper": "GS1",
+      "position": 44,
+      "subject": "art-and-culture",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01047.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01047.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01048",
+      "paper": "GS1",
+      "position": 45,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01048.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01048.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01049",
+      "paper": "GS1",
+      "position": 46,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01049.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01049.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01050",
+      "paper": "GS1",
+      "position": 47,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01050.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01050.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01051",
+      "paper": "GS1",
+      "position": 48,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01051.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01051.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01052",
+      "paper": "GS1",
+      "position": 49,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01052.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01052.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01053",
+      "paper": "GS1",
+      "position": 50,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01053.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01053.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01054",
+      "paper": "GS1",
+      "position": 51,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01054.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01054.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01055",
+      "paper": "GS1",
+      "position": 52,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01055.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01055.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01056",
+      "paper": "GS1",
+      "position": 53,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01056.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01056.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01057",
+      "paper": "GS1",
+      "position": 54,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01057.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01057.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01058",
+      "paper": "GS1",
+      "position": 55,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01058.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01058.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01059",
+      "paper": "GS1",
+      "position": 56,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01059.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01059.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01060",
+      "paper": "GS1",
+      "position": 57,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01060.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01060.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01061",
+      "paper": "GS1",
+      "position": 58,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01061.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01061.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01062",
+      "paper": "GS1",
+      "position": 59,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01062.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01062.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01063",
+      "paper": "GS1",
+      "position": 60,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01063.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01063.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01064",
+      "paper": "GS1",
+      "position": 61,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01064.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01064.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01065",
+      "paper": "GS1",
+      "position": 62,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01065.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01065.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01066",
+      "paper": "GS1",
+      "position": 63,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01066.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01066.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01067",
+      "paper": "GS1",
+      "position": 64,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01067.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01067.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01068",
+      "paper": "GS1",
+      "position": 65,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01068.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01068.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01069",
+      "paper": "GS1",
+      "position": 66,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01069.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01069.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01070",
+      "paper": "GS1",
+      "position": 67,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01070.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01070.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01071",
+      "paper": "GS1",
+      "position": 68,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01071.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01071.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01072",
+      "paper": "GS1",
+      "position": 69,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01072.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01072.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01073",
+      "paper": "GS1",
+      "position": 70,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01073.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01073.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01074",
+      "paper": "GS1",
+      "position": 71,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01074.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01074.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01075",
+      "paper": "GS1",
+      "position": 72,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01075.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01075.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01076",
+      "paper": "GS1",
+      "position": 73,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01076.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01076.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01077",
+      "paper": "GS1",
+      "position": 74,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01077.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01077.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01078",
+      "paper": "GS1",
+      "position": 75,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01078.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01078.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01079",
+      "paper": "GS1",
+      "position": 76,
+      "subject": "art-and-culture",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01079.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01079.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01080",
+      "paper": "GS1",
+      "position": 77,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01080.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01080.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01081",
+      "paper": "GS1",
+      "position": 78,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01081.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01081.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01082",
+      "paper": "GS1",
+      "position": 79,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01082.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01082.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01083",
+      "paper": "GS1",
+      "position": 80,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01083.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01083.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01084",
+      "paper": "GS1",
+      "position": 81,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01084.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01084.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01085",
+      "paper": "GS1",
+      "position": 82,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01085.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01085.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01086",
+      "paper": "GS1",
+      "position": 83,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01086.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01086.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01087",
+      "paper": "GS1",
+      "position": 84,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01087.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01087.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01088",
+      "paper": "GS1",
+      "position": 85,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01088.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01088.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01089",
+      "paper": "GS1",
+      "position": 86,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01089.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01089.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01090",
+      "paper": "GS1",
+      "position": 87,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01090.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01090.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01091",
+      "paper": "GS1",
+      "position": 88,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01091.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01091.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01092",
+      "paper": "GS1",
+      "position": 89,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01092.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01092.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01093",
+      "paper": "GS1",
+      "position": 90,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01093.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01093.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01094",
+      "paper": "GS1",
+      "position": 91,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01094.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01094.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01095",
+      "paper": "GS1",
+      "position": 92,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01095.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01095.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01096",
+      "paper": "GS1",
+      "position": 93,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01096.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01096.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01097",
+      "paper": "GS1",
+      "position": 94,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01097.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01097.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01098",
+      "paper": "GS1",
+      "position": 95,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01098.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01098.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01099",
+      "paper": "GS1",
+      "position": 96,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01099.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01099.webp"
+    },
+    {
+      "id": "UPSCPRELI2013GS01100",
+      "paper": "GS1",
+      "position": 97,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCPRELI2013GS01100.webp",
+      "infographic_local": "infographics/2013/UPSCPRELI2013GS01100.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02001",
+      "paper": "CSAT",
+      "position": 98,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02001.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02001.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02002",
+      "paper": "CSAT",
+      "position": 99,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02002.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02002.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02003",
+      "paper": "CSAT",
+      "position": 100,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02003.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02003.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02004",
+      "paper": "CSAT",
+      "position": 4,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02004.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02004.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02005",
+      "paper": "CSAT",
+      "position": 5,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02005.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02005.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02006",
+      "paper": "CSAT",
+      "position": 6,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02006.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02006.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02007",
+      "paper": "CSAT",
+      "position": 7,
+      "subject": "Quantitative Aptitude",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02007.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02007.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02008",
+      "paper": "CSAT",
+      "position": 8,
+      "subject": "Quantitative Aptitude",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02008.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02008.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02009",
+      "paper": "CSAT",
+      "position": 9,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02009.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02009.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02010",
+      "paper": "CSAT",
+      "position": 10,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02010.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02010.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02011",
+      "paper": "CSAT",
+      "position": 11,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02011.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02011.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02012",
+      "paper": "CSAT",
+      "position": 12,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02012.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02012.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02013",
+      "paper": "CSAT",
+      "position": 13,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02013.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02013.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02014",
+      "paper": "CSAT",
+      "position": 14,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02014.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02014.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02015",
+      "paper": "CSAT",
+      "position": 15,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02015.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02015.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02016",
+      "paper": "CSAT",
+      "position": 16,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02016.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02016.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02028",
+      "paper": "CSAT",
+      "position": 17,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02028.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02028.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02031",
+      "paper": "CSAT",
+      "position": 18,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02031.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02031.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02032",
+      "paper": "CSAT",
+      "position": 19,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02032.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02032.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02033",
+      "paper": "CSAT",
+      "position": 20,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02033.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02033.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02034",
+      "paper": "CSAT",
+      "position": 21,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02034.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02034.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02035",
+      "paper": "CSAT",
+      "position": 22,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02035.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02035.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02036",
+      "paper": "CSAT",
+      "position": 23,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02036.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02036.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02037",
+      "paper": "CSAT",
+      "position": 24,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02037.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02037.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02038",
+      "paper": "CSAT",
+      "position": 25,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02038.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02038.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02039",
+      "paper": "CSAT",
+      "position": 26,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02039.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02039.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02040",
+      "paper": "CSAT",
+      "position": 27,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02040.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02040.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02041",
+      "paper": "CSAT",
+      "position": 28,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02041.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02041.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02042",
+      "paper": "CSAT",
+      "position": 29,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02042.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02042.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02043",
+      "paper": "CSAT",
+      "position": 30,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02043.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02043.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02044",
+      "paper": "CSAT",
+      "position": 31,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02044.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02044.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02045",
+      "paper": "CSAT",
+      "position": 32,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02045.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02045.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02046",
+      "paper": "CSAT",
+      "position": 33,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02046.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02046.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02047",
+      "paper": "CSAT",
+      "position": 34,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02047.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02047.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02048",
+      "paper": "CSAT",
+      "position": 35,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02048.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02048.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02049",
+      "paper": "CSAT",
+      "position": 36,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02049.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02049.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02050",
+      "paper": "CSAT",
+      "position": 37,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02050.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02050.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02051",
+      "paper": "CSAT",
+      "position": 38,
+      "subject": "Logical Reasoning",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02051.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02051.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02052",
+      "paper": "CSAT",
+      "position": 39,
+      "subject": "Logical Reasoning",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02052.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02052.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02053",
+      "paper": "CSAT",
+      "position": 40,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02053.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02053.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02054",
+      "paper": "CSAT",
+      "position": 41,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02054.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02054.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02055",
+      "paper": "CSAT",
+      "position": 42,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02055.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02055.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02056",
+      "paper": "CSAT",
+      "position": 43,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02056.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02056.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02057",
+      "paper": "CSAT",
+      "position": 44,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02057.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02057.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02058",
+      "paper": "CSAT",
+      "position": 45,
+      "subject": "Quantitative Aptitude",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02058.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02058.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02059",
+      "paper": "CSAT",
+      "position": 46,
+      "subject": "Logical Reasoning",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02059.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02059.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02060",
+      "paper": "CSAT",
+      "position": 47,
+      "subject": "Logical Reasoning",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02060.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02060.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02061",
+      "paper": "CSAT",
+      "position": 48,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02061.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02061.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02062",
+      "paper": "CSAT",
+      "position": 49,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02062.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02062.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02063",
+      "paper": "CSAT",
+      "position": 50,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02063.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02063.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02064",
+      "paper": "CSAT",
+      "position": 51,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02064.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02064.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02065",
+      "paper": "CSAT",
+      "position": 52,
+      "subject": "Quantitative Aptitude",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02065.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02065.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02066",
+      "paper": "CSAT",
+      "position": 53,
+      "subject": "Quantitative Aptitude",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02066.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02066.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02067",
+      "paper": "CSAT",
+      "position": 54,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02067.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02067.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02068",
+      "paper": "CSAT",
+      "position": 55,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02068.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02068.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02069",
+      "paper": "CSAT",
+      "position": 56,
+      "subject": "Reading Comprehension",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02069.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02069.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02070",
+      "paper": "CSAT",
+      "position": 57,
+      "subject": "Reading Comprehension",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02070.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02070.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02071",
+      "paper": "CSAT",
+      "position": 58,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02071.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02071.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02072",
+      "paper": "CSAT",
+      "position": 59,
+      "subject": "Reading Comprehension",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02072.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02072.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02073",
+      "paper": "CSAT",
+      "position": 60,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02073.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02073.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02074",
+      "paper": "CSAT",
+      "position": 61,
+      "subject": "Reading Comprehension",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02074.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02074.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02075",
+      "paper": "CSAT",
+      "position": 62,
+      "subject": "Decision Making",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02075.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02075.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02076",
+      "paper": "CSAT",
+      "position": 63,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02076.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02076.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02077",
+      "paper": "CSAT",
+      "position": 64,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02077.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02077.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02078",
+      "paper": "CSAT",
+      "position": 65,
+      "subject": "Decision Making",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02078.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02078.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02079",
+      "paper": "CSAT",
+      "position": 66,
+      "subject": "Decision Making",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02079.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02079.webp"
+    },
+    {
+      "id": "UPSCCSAT2013GS02080",
+      "paper": "CSAT",
+      "position": 67,
+      "subject": "Decision Making",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2013/UPSCCSAT2013GS02080.webp",
+      "infographic_local": "infographics/2013/UPSCCSAT2013GS02080.webp"
+    }
+  ]
+}

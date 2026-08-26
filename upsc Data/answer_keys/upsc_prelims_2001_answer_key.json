@@ -1,0 +1,1292 @@
+{
+  "year": 2001,
+  "questions": [
+    {
+      "id": "UPSCPRELI2001GS01001",
+      "paper": "GS1",
+      "position": 1,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01001.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01001.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01002",
+      "paper": "GS1",
+      "position": 2,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01002.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01002.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01003",
+      "paper": "GS1",
+      "position": 3,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01003.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01003.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01004",
+      "paper": "GS1",
+      "position": 4,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01004.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01004.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01005",
+      "paper": "GS1",
+      "position": 5,
+      "subject": "art-and-culture",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01005.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01005.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01006",
+      "paper": "GS1",
+      "position": 6,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01006.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01006.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01007",
+      "paper": "GS1",
+      "position": 7,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01007.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01007.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01008",
+      "paper": "GS1",
+      "position": 8,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01008.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01008.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01009",
+      "paper": "GS1",
+      "position": 9,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01009.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01009.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01010",
+      "paper": "GS1",
+      "position": 10,
+      "subject": "art-and-culture",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01010.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01010.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01011",
+      "paper": "GS1",
+      "position": 11,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01011.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01011.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01012",
+      "paper": "GS1",
+      "position": 12,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01012.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01012.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01013",
+      "paper": "GS1",
+      "position": 13,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01013.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01013.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01014",
+      "paper": "GS1",
+      "position": 14,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01014.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01014.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01015",
+      "paper": "GS1",
+      "position": 15,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01015.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01015.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01016",
+      "paper": "GS1",
+      "position": 16,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01016.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01016.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01017",
+      "paper": "GS1",
+      "position": 17,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01017.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01017.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01018",
+      "paper": "GS1",
+      "position": 18,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01018.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01018.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01019",
+      "paper": "GS1",
+      "position": 19,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01019.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01019.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01020",
+      "paper": "GS1",
+      "position": 20,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01020.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01020.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01022",
+      "paper": "GS1",
+      "position": 21,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01022.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01022.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01023",
+      "paper": "GS1",
+      "position": 22,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01023.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01023.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01024",
+      "paper": "GS1",
+      "position": 23,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01024.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01024.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01025",
+      "paper": "GS1",
+      "position": 24,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01025.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01025.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01026",
+      "paper": "GS1",
+      "position": 25,
+      "subject": "history",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01026.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01026.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01027",
+      "paper": "GS1",
+      "position": 26,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01027.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01027.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01028",
+      "paper": "GS1",
+      "position": 27,
+      "subject": "history",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01028.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01028.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01029",
+      "paper": "GS1",
+      "position": 28,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01029.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01029.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01030",
+      "paper": "GS1",
+      "position": 29,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01030.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01030.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01031",
+      "paper": "GS1",
+      "position": 30,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01031.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01031.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01032",
+      "paper": "GS1",
+      "position": 31,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01032.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01032.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01033",
+      "paper": "GS1",
+      "position": 32,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01033.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01033.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01034",
+      "paper": "GS1",
+      "position": 33,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01034.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01034.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01035",
+      "paper": "GS1",
+      "position": 34,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01035.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01035.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01036",
+      "paper": "GS1",
+      "position": 35,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01036.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01036.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01037",
+      "paper": "GS1",
+      "position": 36,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01037.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01037.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01038",
+      "paper": "GS1",
+      "position": 37,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01038.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01038.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01039",
+      "paper": "GS1",
+      "position": 38,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01039.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01039.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01040",
+      "paper": "GS1",
+      "position": 39,
+      "subject": "economy",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01040.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01040.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01041",
+      "paper": "GS1",
+      "position": 40,
+      "subject": "history",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01041.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01041.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01042",
+      "paper": "GS1",
+      "position": 41,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01042.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01042.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01043",
+      "paper": "GS1",
+      "position": 42,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01043.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01043.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01044",
+      "paper": "GS1",
+      "position": 43,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01044.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01044.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01045",
+      "paper": "GS1",
+      "position": 44,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01045.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01045.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01046",
+      "paper": "GS1",
+      "position": 45,
+      "subject": "history",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01046.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01046.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01047",
+      "paper": "GS1",
+      "position": 46,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01047.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01047.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01048",
+      "paper": "GS1",
+      "position": 47,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01048.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01048.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01049",
+      "paper": "GS1",
+      "position": 48,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01049.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01049.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01050",
+      "paper": "GS1",
+      "position": 49,
+      "subject": "polity-and-governance",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01050.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01050.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01051",
+      "paper": "GS1",
+      "position": 50,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01051.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01051.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01052",
+      "paper": "GS1",
+      "position": 51,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01052.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01052.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01053",
+      "paper": "GS1",
+      "position": 52,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01053.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01053.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01054",
+      "paper": "GS1",
+      "position": 53,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01054.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01054.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01055",
+      "paper": "GS1",
+      "position": 54,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01055.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01055.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01056",
+      "paper": "GS1",
+      "position": 55,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01056.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01056.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01057",
+      "paper": "GS1",
+      "position": 56,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01057.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01057.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01058",
+      "paper": "GS1",
+      "position": 57,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01058.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01058.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01059",
+      "paper": "GS1",
+      "position": 58,
+      "subject": "polity-and-governance",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01059.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01059.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01060",
+      "paper": "GS1",
+      "position": 59,
+      "subject": "history",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01060.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01060.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01061",
+      "paper": "GS1",
+      "position": 60,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01061.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01061.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01062",
+      "paper": "GS1",
+      "position": 61,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01062.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01062.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01063",
+      "paper": "GS1",
+      "position": 62,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01063.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01063.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01064",
+      "paper": "GS1",
+      "position": 63,
+      "subject": "art-and-culture",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01064.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01064.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01065",
+      "paper": "GS1",
+      "position": 64,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01065.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01065.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01066",
+      "paper": "GS1",
+      "position": 65,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01066.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01066.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01067",
+      "paper": "GS1",
+      "position": 66,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01067.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01067.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01068",
+      "paper": "GS1",
+      "position": 67,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01068.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01068.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01069",
+      "paper": "GS1",
+      "position": 68,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01069.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01069.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01070",
+      "paper": "GS1",
+      "position": 69,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01070.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01070.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01071",
+      "paper": "GS1",
+      "position": 70,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01071.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01071.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01072",
+      "paper": "GS1",
+      "position": 71,
+      "subject": "economy",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01072.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01072.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01073",
+      "paper": "GS1",
+      "position": 72,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01073.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01073.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01074",
+      "paper": "GS1",
+      "position": 73,
+      "subject": "art-and-culture",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01074.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01074.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01075",
+      "paper": "GS1",
+      "position": 74,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01075.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01075.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01076",
+      "paper": "GS1",
+      "position": 75,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01076.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01076.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01077",
+      "paper": "GS1",
+      "position": 76,
+      "subject": "art-and-culture",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01077.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01077.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01078",
+      "paper": "GS1",
+      "position": 77,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01078.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01078.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01079",
+      "paper": "GS1",
+      "position": 78,
+      "subject": "economy",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01079.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01079.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01080",
+      "paper": "GS1",
+      "position": 79,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01080.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01080.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01081",
+      "paper": "GS1",
+      "position": 80,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01081.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01081.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01082",
+      "paper": "GS1",
+      "position": 81,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01082.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01082.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01083",
+      "paper": "GS1",
+      "position": 82,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01083.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01083.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01084",
+      "paper": "GS1",
+      "position": 83,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01084.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01084.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01085",
+      "paper": "GS1",
+      "position": 84,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01085.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01085.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01086",
+      "paper": "GS1",
+      "position": 85,
+      "subject": "art-and-culture",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01086.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01086.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01087",
+      "paper": "GS1",
+      "position": 86,
+      "subject": "geography",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01087.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01087.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01088",
+      "paper": "GS1",
+      "position": 87,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01088.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01088.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01089",
+      "paper": "GS1",
+      "position": 88,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01089.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01089.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01090",
+      "paper": "GS1",
+      "position": 89,
+      "subject": "polity-and-governance",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01090.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01090.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01091",
+      "paper": "GS1",
+      "position": 90,
+      "subject": "history",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01091.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01091.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01092",
+      "paper": "GS1",
+      "position": 91,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01092.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01092.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01093",
+      "paper": "GS1",
+      "position": 92,
+      "subject": "history",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01093.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01093.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01094",
+      "paper": "GS1",
+      "position": 93,
+      "subject": "art-and-culture",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01094.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01094.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01095",
+      "paper": "GS1",
+      "position": 94,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01095.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01095.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01097",
+      "paper": "GS1",
+      "position": 95,
+      "subject": "history",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01097.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01097.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01098",
+      "paper": "GS1",
+      "position": 96,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01098.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01098.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01099",
+      "paper": "GS1",
+      "position": 97,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01099.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01099.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01100",
+      "paper": "GS1",
+      "position": 98,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01100.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01100.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01101",
+      "paper": "GS1",
+      "position": 99,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01101.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01101.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01102",
+      "paper": "GS1",
+      "position": 100,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01102.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01102.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01103",
+      "paper": "GS1",
+      "position": 101,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01103.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01103.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01104",
+      "paper": "GS1",
+      "position": 102,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01104.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01104.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01105",
+      "paper": "GS1",
+      "position": 103,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01105.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01105.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01106",
+      "paper": "GS1",
+      "position": 104,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01106.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01106.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01107",
+      "paper": "GS1",
+      "position": 105,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01107.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01107.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01108",
+      "paper": "GS1",
+      "position": 106,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01108.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01108.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01109",
+      "paper": "GS1",
+      "position": 107,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01109.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01109.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01110",
+      "paper": "GS1",
+      "position": 108,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01110.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01110.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01111",
+      "paper": "GS1",
+      "position": 109,
+      "subject": "geography",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01111.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01111.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01112",
+      "paper": "GS1",
+      "position": 110,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01112.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01112.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01113",
+      "paper": "GS1",
+      "position": 111,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01113.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01113.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01114",
+      "paper": "GS1",
+      "position": 112,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01114.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01114.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01115",
+      "paper": "GS1",
+      "position": 113,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01115.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01115.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01116",
+      "paper": "GS1",
+      "position": 114,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01116.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01116.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01117",
+      "paper": "GS1",
+      "position": 115,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01117.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01117.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01118",
+      "paper": "GS1",
+      "position": 116,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01118.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01118.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01119",
+      "paper": "GS1",
+      "position": 117,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01119.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01119.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01120",
+      "paper": "GS1",
+      "position": 118,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01120.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01120.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01121",
+      "paper": "GS1",
+      "position": 119,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01121.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01121.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01122",
+      "paper": "GS1",
+      "position": 120,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01122.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01122.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01123",
+      "paper": "GS1",
+      "position": 121,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01123.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01123.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01124",
+      "paper": "GS1",
+      "position": 122,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01124.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01124.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01125",
+      "paper": "GS1",
+      "position": 123,
+      "subject": "geography",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01125.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01125.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01126",
+      "paper": "GS1",
+      "position": 124,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01126.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01126.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01127",
+      "paper": "GS1",
+      "position": 125,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01127.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01127.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01128",
+      "paper": "GS1",
+      "position": 126,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01128.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01128.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01129",
+      "paper": "GS1",
+      "position": 127,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01129.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01129.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01130",
+      "paper": "GS1",
+      "position": 128,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01130.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01130.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01131",
+      "paper": "GS1",
+      "position": 129,
+      "subject": "science-and-technology",
+      "answer": "D",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01131.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01131.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01132",
+      "paper": "GS1",
+      "position": 130,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01132.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01132.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01133",
+      "paper": "GS1",
+      "position": 131,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01133.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01133.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01134",
+      "paper": "GS1",
+      "position": 132,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01134.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01134.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01135",
+      "paper": "GS1",
+      "position": 133,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01135.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01135.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01136",
+      "paper": "GS1",
+      "position": 134,
+      "subject": "science-and-technology",
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01136.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01136.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01137",
+      "paper": "GS1",
+      "position": 135,
+      "subject": "science-and-technology",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01137.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01137.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01138",
+      "paper": "GS1",
+      "position": 136,
+      "subject": null,
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01138.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01138.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01139",
+      "paper": "GS1",
+      "position": 137,
+      "subject": "economy",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01139.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01139.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01140",
+      "paper": "GS1",
+      "position": 138,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01140.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01140.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01141",
+      "paper": "GS1",
+      "position": 139,
+      "subject": null,
+      "answer": "A",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01141.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01141.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01142",
+      "paper": "GS1",
+      "position": 140,
+      "subject": "science-and-technology",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01142.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01142.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01143",
+      "paper": "GS1",
+      "position": 141,
+      "subject": "history",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01143.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01143.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01144",
+      "paper": "GS1",
+      "position": 142,
+      "subject": "polity-and-governance",
+      "answer": "B",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01144.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01144.webp"
+    },
+    {
+      "id": "UPSCPRELI2001GS01145",
+      "paper": "GS1",
+      "position": 143,
+      "subject": "geography",
+      "answer": "C",
+      "infographic_url": "https://storage.googleapis.com/dalvoy-lessons-images/prelims-infographics/2001/UPSCPRELI2001GS01145.webp",
+      "infographic_local": "infographics/2001/UPSCPRELI2001GS01145.webp"
+    }
+  ]
+}
