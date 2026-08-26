@@ -1,0 +1,59 @@
+{
+  "title": "GS1 Fast Pack catalog",
+  "purpose": "Neutral place for ALL Prelims GS1 explanations \u2014 optimized for GitHub raw / jsDelivr / apps",
+  "updated_at": "2026-08-26T08:39:48Z",
+  "question_count": 3873,
+  "years_covered": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "with_explanation": 3873,
+  "recommended": {
+    "bulk_all_years": "data/fast/gs1/gs1_explanations_all.min.json",
+    "fastest_single_id": "data/fast/gs1/gs1_id_to_explanation.json",
+    "one_year": "data/fast/gs1/explanations_by_year/YYYY.json"
+  },
+  "files": {
+    "explanations_all_min": "data/fast/gs1/gs1_explanations_all.min.json",
+    "id_to_explanation": "data/fast/gs1/gs1_id_to_explanation.json",
+    "index_csv": "data/fast/gs1/gs1_index.csv",
+    "by_year": "data/fast/gs1/explanations_by_year/YYYY.json",
+    "full_with_options": "data/gs1/upsc_gs1_all_years.json"
+  },
+  "github_raw_examples": {
+    "all_min": "https://raw.githubusercontent.com/<USER>/upsc-prelims-archive/main/data/fast/gs1/gs1_explanations_all.min.json",
+    "id_map": "https://raw.githubusercontent.com/<USER>/upsc-prelims-archive/main/data/fast/gs1/gs1_id_to_explanation.json",
+    "year_2025": "https://raw.githubusercontent.com/<USER>/upsc-prelims-archive/main/data/fast/gs1/explanations_by_year/2025.json",
+    "jsdelivr_year_2025": "https://cdn.jsdelivr.net/gh/<USER>/upsc-prelims-archive@main/data/fast/gs1/explanations_by_year/2025.json"
+  }
+}
