@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102337" />
+  <meta name="description" content="Choose an exam workspace for UPSC or BPSC preparation." />
+  <title>Exam Question Bank — Choose Your Exam</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="portal.css" />
+</head>
+<body>
+  <header class="portal-topbar">
+    <a class="portal-brand" href="index.html" aria-label="Exam Question Bank home">
+      <span class="portal-logo" aria-hidden="true">▰</span>
+      <span>Exam <em>Question Bank</em></span>
+    </a>
+    <button class="portal-theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 15.4A8 8 0 0 1 8.6 4.4 8.5 8.5 0 1 0 19.6 15.4Z"></path><path class="theme-star" d="M17.5 4.5v3M16 6h3"></path></svg>
+      <span>Night mode</span>
+      <i data-theme-state>On</i>
+    </button>
+    <span class="gateway-pill">Exam gateway</span>
+  </header>
+
+  <main>
+    <section class="portal-hero" aria-labelledby="portalTitle">
+      <div class="portal-copy">
+        <span class="eyebrow">ONE PORTAL · MULTIPLE EXAMS</span>
+        <h1 id="portalTitle">Choose your exam.</h1>
+        <p>Open the preparation system you want to use.</p>
+      </div>
+
+      <div class="exam-options" aria-label="Available exam systems">
+        <a class="exam-option upsc-option" href="upsc.html">
+          <div class="option-topline">
+            <span class="option-status connected"><i></i> Connected</span>
+            <span class="option-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="exam-mark" aria-hidden="true">U</div>
+          <span class="exam-kicker">UNION PUBLIC SERVICE COMMISSION</span>
+          <h2>UPSC</h2>
+          <p>Prelims GS Paper I, CSAT Paper II and Mains previous-year questions.</p>
+          <div class="exam-tags"><span>Prelims</span><span>CSAT</span><span>Mains</span></div>
+          <div class="option-action">Open UPSC system <b>→</b></div>
+        </a>
+
+        <a class="exam-option bpsc-option" href="bpsc/index.html">
+          <div class="option-topline">
+            <span class="option-status connected bpsc-connected"><i></i> Connected</span>
+            <span class="option-arrow bpsc-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="exam-mark" aria-hidden="true">B</div>
+          <span class="exam-kicker">BIHAR PUBLIC SERVICE COMMISSION</span>
+          <h2>BPSC</h2>
+          <p>Complete Ghatna Chakra multi-book PYQ quiz, practice banks, review tools and cloud sync.</p>
+          <div class="exam-tags bpsc-tags"><span>PYQ Quiz</span><span>Multi-book</span><span>Review</span></div>
+          <div class="option-action bpsc-action">Open BPSC system <b>→</b></div>
+        </a>
+      </div>
+
+      <p class="portal-note"><span aria-hidden="true">●</span> Both exam systems are now connected inside this portal.</p>
+    </section>
+  </main>
+
+  <footer>Choose an exam to enter its dedicated preparation workspace.</footer>
+</body>
+</html>

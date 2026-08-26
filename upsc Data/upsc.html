@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102337" />
+  <meta name="description" content="Search 6,000+ UPSC Prelims, CSAT and Mains previous-year questions by year, subject, paper and difficulty." />
+  <title>UPSC Question Bank — Prelims, CSAT &amp; Mains</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#browse">Skip to guided question browser</a>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Back to exam selection">
+      <span class="logo" aria-hidden="true">▰</span>
+      <span>UPSC <em>Question Bank</em></span>
+    </a>
+    <nav class="step-nav" aria-label="Question selection steps">
+      <a href="#browse"><span aria-hidden="true">▣</span> Exam</a>
+      <b aria-hidden="true">›</b>
+      <a href="#paperStage"><span aria-hidden="true">▤</span> Paper</a>
+      <b aria-hidden="true">›</b>
+      <a href="#yearStage"><span aria-hidden="true">▦</span> Year</a>
+      <b aria-hidden="true">›</b>
+      <a href="#search"><span aria-hidden="true">⌕</span> Questions</a>
+    </nav>
+    <button id="globalSearchButton" class="global-search-button" type="button" aria-expanded="false" aria-controls="globalSearchDrawer">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="14" cy="14" r="8"></circle><path d="m20 20 7 7"></path><path class="search-spark" d="M24 5v5M21.5 7.5h5"></path></svg>
+      <span>Search</span>
+      <kbd>/</kbd>
+    </button>
+  </header>
+
+  <div id="searchScrim" class="search-scrim" hidden></div>
+  <aside id="globalSearchDrawer" class="search-drawer" aria-hidden="true" aria-labelledby="searchDrawerTitle" tabindex="-1">
+    <div class="search-drawer-head">
+      <div>
+        <span class="kicker">QUICK SEARCH</span>
+        <h2 id="searchDrawerTitle">Search all questions</h2>
+      </div>
+      <button id="closeSearchDrawer" class="drawer-close" type="button" aria-label="Close search">×</button>
+    </div>
+    <p class="drawer-intro">Search the complete Prelims, CSAT and Mains question bank from anywhere.</p>
+
+    <div class="search-box drawer-search-box">
+      <span aria-hidden="true">⌕</span>
+      <label class="sr-only" for="keyword">Search question bank</label>
+      <input id="keyword" type="search" autocomplete="off" placeholder="Try “federalism”, “monsoon”, “LCM”, “ethics”…" />
+      <button id="clearSearch" type="button" title="Clear keyword" aria-label="Clear keyword search">×</button>
+    </div>
+
+    <div class="drawer-filters" aria-label="Question search filters">
+      <label id="examFilterGroup">Exam
+        <select id="examFilter">
+          <option value="">All exams</option>
+          <option value="Prelims">Prelims — GS Paper I</option>
+          <option value="CSAT">Prelims — CSAT Paper II</option>
+          <option value="Mains">Mains</option>
+        </select>
+      </label>
+      <label id="yearFilterGroup">Year
+        <select id="yearFilter"><option value="">All years</option></select>
+      </label>
+      <label id="subjectFilterGroup"><span id="subjectFilterLabel">Subject / paper</span>
+        <select id="subjectFilter"><option value="">All subjects &amp; papers</option></select>
+      </label>
+      <label id="difficultyFilterGroup">Difficulty
+        <select id="difficultyFilter"><option value="">All difficulty levels</option></select>
+      </label>
+      <label>Sort results
+        <select id="sortFilter">
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+          <option value="paper">Paper / subject</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="drawer-actions">
+      <button class="drawer-reset" id="resetFilters" type="button">Clear all</button>
+      <button class="drawer-results-button" id="viewSearchResults" type="button">
+        <span id="resultsLabel" role="status">Loading…</span>
+        <b>View results →</b>
+      </button>
+    </div>
+  </aside>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow">PRELIMS · CSAT · MAINS &nbsp;|&nbsp; 1995–2026</div>
+      <h1>Past papers. <span>Clearer preparation.</span></h1>
+      <div class="stats" aria-label="Question bank statistics">
+        <div><strong id="questionCount">—</strong><small>Total questions</small></div>
+        <div><strong id="prelimsCount">—</strong><small>Prelims GS I</small></div>
+        <div><strong id="csatCount">—</strong><small>CSAT Paper II</small></div>
+        <div><strong id="mainsCount">—</strong><small>Mains</small></div>
+        <div><strong>1995–2026</strong><small>Years covered</small></div>
+      </div>
+    </section>
+
+    <section id="browse" class="browse browse-flow wrap">
+      <div class="section-heading">
+        <div>
+          <span class="kicker">GUIDED QUESTION BROWSER</span>
+          <h2>Choose your exam path</h2>
+        </div>
+        <p>Exam → paper → year → questions</p>
+      </div>
+
+      <div class="path-builder">
+        <div class="builder-progress" aria-label="Selection progress">
+          <span id="progressExam" class="is-active"><b>1</b> Exam</span>
+          <i aria-hidden="true">›</i>
+          <span id="progressPaper"><b>2</b> Paper</span>
+          <i aria-hidden="true">›</i>
+          <span id="progressYear"><b>3</b> Year</span>
+          <i aria-hidden="true">›</i>
+          <span id="progressQuestions"><b>4</b> Questions</span>
+        </div>
+
+        <div class="mode-block">
+          <div class="stage-heading centered-heading">
+            <span class="stage-number">1</span>
+            <div><small>ACADEMIC SELECTOR</small><h3>Prelims ↔ Mains</h3></div>
+          </div>
+
+          <div class="academic-selector" role="group" aria-label="Choose Prelims or Mains; the centre icon is the resting position">
+            <button id="examModeSwitch" class="academic-switch is-neutral" type="button" role="slider" aria-valuemin="0" aria-valuemax="2" aria-valuenow="1" aria-valuetext="Resting position" aria-label="Academic exam selector: Prelims, Neutral, Mains">
+              <span class="academic-track" aria-hidden="true">
+                <span class="academic-rail"></span>
+                <span class="academic-stop stop-pre">P</span>
+                <span class="academic-stop stop-neutral">✦</span>
+                <span class="academic-stop stop-mains">M</span>
+                <span class="academic-knob">
+                  <svg class="academic-icon icon-book" viewBox="0 0 64 64" focusable="false">
+                    <path class="book-cover" d="M8 15c9-2 17 0 24 6 7-6 15-8 24-6v35c-9-2-17 0-24 6-7-6-15-8-24-6Z" />
+                    <path class="book-spine" d="M32 21v35" />
+                    <path class="book-page" d="M14 24c5-1 10 0 14 3M14 32c5-1 10 0 14 3M50 24c-5-1-10 0-14 3M50 32c-5-1-10 0-14 3" />
+                  </svg>
+                  <svg class="academic-icon icon-cap" viewBox="0 0 64 64" focusable="false">
+                    <path class="cap-top" d="M5 25 32 12l27 13-27 14Z" />
+                    <path class="cap-band" d="M17 33v11c8 7 22 7 30 0V33" />
+                    <path class="cap-tassel" d="M55 27v16l-4 7" />
+                  </svg>
+                  <svg class="academic-icon icon-pen" viewBox="0 0 64 64" focusable="false">
+                    <path class="pen-body" d="m15 49 6-19L45 6l13 13-24 24Z" />
+                    <path class="pen-detail" d="m21 30 13 13M15 49l-4 5 5-1M39 12l13 13" />
+                    <path class="ink-stroke" d="M22 57c10-5 20 4 31-2" />
+                  </svg>
+                </span>
+              </span>
+            </button>
+            <div class="academic-label-row">
+              <button id="prelimsMode" class="mode-label" type="button" aria-pressed="false"><b>P</b> Prelims</button>
+              <button id="mainsMode" class="mode-label" type="button" aria-pressed="false"><b>M</b> Mains</button>
+            </div>
+          </div>
+          <p id="modeDescription" class="mode-description">Choose Prelims or Mains. The graduation cap marks the resting position.</p>
+        </div>
+
+        <div id="paperStage" class="selection-stage" hidden>
+          <div class="stage-heading">
+            <span class="stage-number">2</span>
+            <div><small id="paperStageKicker">PRELIMS</small><h3 id="paperStageTitle">Choose a paper</h3></div>
+          </div>
+          <div id="paperChoices" class="paper-choice-grid" aria-live="polite"></div>
+        </div>
+
+        <div id="yearStage" class="selection-stage" hidden>
+          <div class="stage-heading">
+            <span class="stage-number">3</span>
+            <div><small id="yearStageKicker">SELECTED PAPER</small><h3 id="yearStageTitle">Choose a year</h3></div>
+          </div>
+          <p class="year-help">Select a year to open every question from that paper.</p>
+          <div id="yearChoices" class="year-choice-grid" aria-live="polite"></div>
+        </div>
+
+        <div id="search" class="selection-stage contextual-search" hidden>
+          <div class="stage-heading question-stage-heading">
+            <span class="stage-number">4</span>
+            <div><small id="questionStageKicker">SELECTED SYSTEM</small><h3 id="questionStageTitle">Questions</h3></div>
+          </div>
+
+        <div id="activePath" class="active-path" hidden>
+          <div><small>SELECTED PATH</small><strong id="activePathText"></strong></div>
+          <button id="changePath" type="button">Change selection</button>
+        </div>
+
+        <div class="results-toolbar">
+          <div><small>QUESTION RESULTS</small><strong id="resultsHeading">Loading question bank…</strong></div>
+          <button id="refineSearchButton" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"></circle><path d="m15 15 6 6"></path></svg>
+            Refine search
+          </button>
+        </div>
+
+        <div id="results" class="results" aria-live="polite"></div>
+        <button id="loadMore" class="load-more" type="button" hidden>Show more questions</button>
+        <noscript><div class="error">JavaScript is required to search this question bank.</div></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Built for focused UPSC preparation <span>•</span> Data source: compiled Dalvoy question-bank files
+  </footer>
+
+  <!-- data.js is the offline/file:// fallback; HTTP mode fetches the JSON files. -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
