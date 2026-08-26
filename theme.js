@@ -57,5 +57,13 @@
     }
   });
 
+  // The BPSC application still writes the legacy key from its own theme
+  // buttons. Listening here keeps every open tab on the shared mode.
+  window.addEventListener('storage', (event) => {
+    if (event.key === LEGACY_BPSC_KEY && (event.newValue === 'light' || event.newValue === 'dark')) {
+      applyTheme(event.newValue, false);
+    }
+  });
+
   window.ExamPortalTheme = { apply: applyTheme, toggle: toggleTheme, current: () => document.documentElement.getAttribute('data-theme') || 'dark' };
 })();

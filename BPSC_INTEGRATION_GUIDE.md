@@ -1,22 +1,27 @@
 # BPSC Integration — Implemented
 
-The Ghatna Chakra BPSC website is now integrated locally into the same exam portal.
+The Ghatna Chakra BPSC website is integrated locally into the same exam
+portal. The combined project **is** the repository — the portal files live at
+the repository root and the BPSC runtime lives under `bpsc/`.
 
 ## Final routing
 
 ```text
-upsc-question-bank/
-├── index.html              # Exam portal
+repository root (main)
+├── index.html              # Exam portal (only visible Night Mode control)
 ├── portal.css
+├── theme.js                # Shared portal/UPSC/BPSC day-night preference
 ├── upsc.html               # UPSC application
 ├── app.js / styles.css
-├── theme.js                # Shared portal/UPSC/BPSC day-night preference
+├── data.js                 # UPSC file:// fallback bundle
+├── data/                   # UPSC JSON datasets (prelims, csat, mains)
+├── infographics/           # Locally bundled CSAT solution infographics
 ├── bpsc-theme.css          # UPSC-aligned BPSC day/night design
-├── data/ / infographics/
+├── scripts/                # build_data_bundle.py, download_csat_infographics.py, sync_bpsc_runtime.py
 └── bpsc/
     ├── index.html          # Complete BPSC browser application
     ├── books/              # All registered BPSC books
-    ├── data/               # Ghatna Chakra question data
+    ├── data/               # Ghatna Chakra core question data
     ├── css/
     └── js/
 ```
@@ -25,8 +30,10 @@ Portal routes:
 
 - **UPSC card → `upsc.html`**
 - **BPSC card → `bpsc/index.html`**
-- The UPSC logo returns to `index.html`.
-- A fixed **← Exam Portal** button was injected into BPSC and returns to `../index.html`.
+- The UPSC brand/logo returns to `index.html`.
+- **← Portal** pills (class `nav-portal-home`, styled by the shared
+  `bpsc-theme.css`) were injected into the BPSC top navbar and the quiz
+  topbar; both return to `../index.html`.
 
 ## What was copied
 
@@ -34,7 +41,8 @@ The public source repository is:
 
 `https://github.com/happyhaiabhi/GhatnaChakra-BPSC`
 
-Only files required by the running browser application were imported:
+Only files required by the running browser application were imported into
+`bpsc/`:
 
 - `index.html`
 - `books/`
@@ -42,9 +50,16 @@ Only files required by the running browser application were imported:
 - `css/`
 - `js/`
 
-The imported runtime contains 10 registered books and 50 referenced subject files. Every manifest, chapters index and subject-file path is validated by the sync script.
+The imported runtime contains 10 registered books and 50 referenced subject
+files. Every manifest, chapters index and subject-file path is validated by
+the sync script (18,395 question objects in total; the core Ghatna Chakra
+book keeps 4,441 verified questions across 12 subjects and 391 chapters).
 
-Large non-runtime material was intentionally excluded:
+The root `data/` folder is split deliberately: it holds the **UPSC** datasets
+(`prelims.json`, `csat.json`, `mains.json`) while the BPSC subject data lives
+under `bpsc/data/` and `bpsc/books/*/data/`.
+
+Large non-runtime material is intentionally excluded from `bpsc/`:
 
 - Git history;
 - source PDFs under `New folder/`;
@@ -53,11 +68,12 @@ Large non-runtime material was intentionally excluded:
 - reports;
 - old deliverables and deliverable history.
 
-This keeps the merged BPSC application around 19 MiB instead of copying roughly 150 MiB of repository and Git material. It does not remove any browser-facing quiz feature.
+All of that remains preserved in the **`bpsc-source`** branch, which is the
+permanent home of the standalone BPSC source.
 
 ## Refreshing BPSC after upstream updates
 
-Run from the portal project directory:
+Run from the repository root:
 
 ```bash
 python scripts/sync_bpsc_runtime.py
@@ -65,22 +81,39 @@ python scripts/sync_bpsc_runtime.py
 
 The script:
 
-1. shallow-clones the latest `main` branch into a temporary directory;
-2. copies only browser-runtime files;
-3. injects the **Exam Portal** return links plus shared `../theme.js` and `../bpsc-theme.css` hooks;
-4. validates all book, chapter and subject data paths;
-5. replaces the old local BPSC runtime only after validation succeeds.
+1. resolves the upstream branch — it prefers the permanent **`bpsc-source`**
+   branch and falls back to `main` only while the backup branch has not been
+   created yet (it warns when it does);
+2. shallow-clones that branch into a temporary directory;
+3. copies only browser-runtime files;
+4. injects the **Portal** return pills plus the shared `../theme.js` and
+   `../bpsc-theme.css` hooks (idempotently, and it strips any Cloudflare
+   scrape residue from the source HTML);
+5. validates all book, chapter and subject data paths (full JSON parsing and
+   question counts);
+6. replaces the local BPSC runtime only after validation succeeds.
 
-The design override remains in the portal root, so upstream BPSC updates can be refreshed without losing the UPSC-aligned minimalist theme.
+The design override remains in the repository root, so upstream BPSC updates
+can be refreshed without losing the UPSC-aligned minimalist theme.
 
 Do not manually copy `.git`, PDFs or `node_modules` into `bpsc/`.
+
+## Night Mode
+
+- The portal hosts the single visible Night Mode button.
+- `theme.js` stores the preference as `exam_portal_theme` (night mode is the
+  low-glare default) and mirrors it to BPSC's legacy `gc_theme` key, which the
+  BPSC application reads on startup.
+- `theme.js` also listens for `gc_theme` changes, so toggling from BPSC's own
+  buttons stays consistent across open tabs.
+- Both day and night palettes are designed to readable accessibility levels in
+  `portal.css`, `styles.css` and `bpsc-theme.css`.
 
 ## Running locally
 
 Use an HTTP server because BPSC loads JSON using `fetch()`:
 
 ```bash
-cd upsc-question-bank
 python -m http.server 8000
 ```
 
@@ -90,19 +123,25 @@ Open:
 http://localhost:8000/
 ```
 
-The root opens the exam portal. Select BPSC to enter the integrated application.
+The root opens the exam portal. Select BPSC to enter the integrated
+application.
 
 ## Deployment and Firebase
 
-The BPSC application keeps its existing Firebase project and Google sign-in implementation. When deploying the combined portal on a new hostname:
+The BPSC application keeps its existing Firebase project and Google sign-in
+implementation. The hostname remains `happyhaiabhi.github.io`, so existing
+Firebase authorization should remain valid even though BPSC moves to
+`/GhatnaChakra-BPSC/bpsc/` — Firebase authorizes hostnames, not paths.
 
-1. Open Firebase Console for the BPSC Firebase project.
-2. Go to **Authentication → Settings → Authorized domains**.
-3. Add the new portal hostname.
-4. Confirm the existing Firestore rules are published.
-5. Test Google sign-in, cloud sync and sign-out on the deployed domain.
+Still, after deployment test on the live domain:
 
-Without the authorized-domain step, the quiz still works locally, but Google sign-in/cloud sync can fail on the new host.
+1. Google sign-in;
+2. cloud sync and **Sync now**;
+3. sign-out;
+4. progress recovery on another device.
+
+If sign-in ever fails, open **Authentication → Settings → Authorized domains**
+in the Firebase Console and add the portal hostname.
 
 ## Why this method was chosen
 
@@ -113,6 +152,7 @@ A local runtime merge provides:
 - no iframe restrictions;
 - all BPSC books and quiz features;
 - a repeatable update workflow;
-- no duplicate repository history or source-document bulk.
+- no duplicate repository history or source-document bulk on `main`.
 
-It is more seamless than an external link and more reliable than embedding the existing site in an iframe.
+It is more seamless than an external link and more reliable than embedding the
+existing site in an iframe.
