@@ -2,7 +2,7 @@
 <html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 <meta name="description" content="Chapter-wise BPSC Prelims practice with 4,441 corrected Ghatna Chakra PYQs across 12 subjects.">
 <title>Ghatna Chakra BPSC — 4,441 PYQ Quiz</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@500;600&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -202,7 +202,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .topbar-btn:hover{border-color:var(--border2);color:var(--text2);}
 .topbar-progress{height:3px;background:var(--border);position:absolute;bottom:0;left:0;right:0;}
 .topbar-progress-bar{height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));transition:width 0.3s ease;}
-.quiz-body{flex:1;display:flex;overflow:hidden;}
+.quiz-body{flex:1;display:flex;overflow:hidden;position:relative;}
+.palette-toggle,.palette-backdrop,.palette-close{display:none;}
+.palette-head{display:contents;}
 .question-area{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:0;}
 .q-header{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
 .q-num{font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);padding:3px 10px;border-radius:5px;flex-shrink:0;}
@@ -283,8 +285,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .pal-dot.g{background:var(--green);} .pal-dot.r{background:var(--surface3);border:1px solid var(--border2);}
 .pal-dot.p{background:var(--purple);} .pal-dot.gold{background:var(--gold);}
 @media(max-width:599px){
-  .palette-panel{display:none;}
-  .question-area{padding:14px;}
+  .question-area{padding:14px 12px 18px;}
   .quiz-bottombar{padding:8px 12px;gap:6px;}
   .nav-action-btn{padding:7px 10px;font-size:0.72rem;}
   .topbar-breadcrumb{font-size:0.65rem;}
@@ -809,6 +810,174 @@ html,body{height:100%;}
 .cp-preset-pill:hover{border-color:var(--gold);color:var(--gold);}
 .cp-preset-pill.active{background:var(--gold-dim);color:var(--gold);border-color:var(--gold);font-weight:700;}
 @media(max-width:599px){.cp-range-meta-wrap{padding-left:0!important;}}
+
+/* ════════════════════════════════════════════════════════════════
+   MOBILE APP LAYOUT — phones only (≤599px).
+   Laptop and iPad (600px+) keep the existing side-by-side chrome.
+   ════════════════════════════════════════════════════════════════ */
+@media(max-width:599px){
+  html,body{
+    min-height:100dvh;
+    overscroll-behavior-y:contain;
+    -webkit-tap-highlight-color:transparent;
+  }
+  body{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);}
+  button,.opt-btn,.nav-action-btn,.topbar-btn,.nav-btn-pill,.theme-toggle,.pal-btn{touch-action:manipulation;}
+
+  /* Theme toggle always sits in the upper-right corner */
+  #books-screen .top-navbar{
+    border:none;background:transparent;box-shadow:none;
+    min-height:0;height:0;padding:0;overflow:visible;
+  }
+  #books-screen .nav-spacer{display:none;}
+  #books-screen .theme-toggle,
+  #setup-screen .theme-toggle{
+    position:fixed;
+    top:calc(10px + env(safe-area-inset-top));
+    right:max(12px, env(safe-area-inset-right));
+    z-index:240;
+    width:42px;height:42px;
+    background:var(--surface);
+    box-shadow:var(--shadow);
+    border:1px solid var(--border);
+  }
+  #setup-screen .top-navbar{
+    padding:8px 56px 8px 10px;
+    min-height:52px;
+    gap:6px;
+  }
+  #setup-screen{padding-top:env(safe-area-inset-top);}
+
+  /* Quiz topbar: compact app chrome, theme on the far right */
+  .quiz-topbar{
+    height:auto;min-height:48px;
+    padding:6px 50px 8px 10px;
+    gap:6px;
+    padding-top:calc(6px + env(safe-area-inset-top));
+  }
+  .quiz-topbar .topbar-breadcrumb{flex:1 1 auto;min-width:0;}
+  .quiz-topbar .topbar-timer{padding:4px 8px;font-size:.78rem;}
+  #quiz-screen.active #theme-btn-q{
+    position:fixed;
+    top:calc(8px + env(safe-area-inset-top));
+    right:max(10px, env(safe-area-inset-right));
+    z-index:50;
+    width:38px;min-width:38px;height:38px;padding:0!important;
+    border-radius:50%!important;
+    display:inline-flex;align-items:center;justify-content:center;
+    font-size:1rem;
+    background:var(--surface);
+    box-shadow:var(--shadow-soft);
+  }
+
+  /* Question uses the full remaining screen when the palette is tucked away */
+  #quiz-screen .question-area{
+    width:100%;
+    min-width:0;
+    padding:12px 12px 20px;
+    -webkit-overflow-scrolling:touch;
+  }
+  #quiz-screen .q-inline-nav{display:none!important;}
+  #quiz-screen .opt-btn{transform:none;}
+  #quiz-screen .opt-btn:hover{transform:none;}
+
+  /* Side-arrow tab + slide-in question-number drawer */
+  #quiz-screen{
+    --pal-w:min(82vw, 300px);
+  }
+  .palette-toggle{
+    display:flex;
+    position:absolute;
+    right:0;
+    top:42%;
+    z-index:36;
+    width:26px;height:68px;
+    align-items:center;justify-content:center;
+    border-radius:12px 0 0 12px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-right:none;
+    color:var(--gold);
+    font-size:1.35rem;font-weight:700;line-height:1;
+    box-shadow:-4px 4px 16px rgba(0,0,0,.12);
+    padding:0 0 2px;
+  }
+  .palette-backdrop{
+    display:none;
+    position:absolute;inset:0;
+    background:rgba(32,24,30,.28);
+    z-index:34;
+    border:0;
+    padding:0;
+  }
+  #quiz-screen.palette-open .palette-backdrop{display:block;}
+  #quiz-screen .palette-panel{
+    display:flex;
+    position:absolute;
+    top:0;right:0;bottom:0;
+    width:var(--pal-w);
+    max-width:86vw;
+    transform:translateX(105%);
+    transition:transform .26s cubic-bezier(.4,0,.2,1);
+    z-index:35;
+    box-shadow:-16px 0 36px rgba(0,0,0,.18);
+    border-left:1px solid var(--border);
+    border-radius:18px 0 0 18px;
+    padding:14px 12px 16px;
+    background:var(--surface);
+  }
+  #quiz-screen.palette-open .palette-panel{transform:translateX(0);}
+  #quiz-screen.palette-open .palette-toggle{right:var(--pal-w);}
+  .palette-head{
+    display:flex;align-items:center;justify-content:space-between;gap:8px;
+  }
+  .palette-close{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:30px;height:30px;border-radius:50%;
+    background:var(--surface2);border:1px solid var(--border);
+    color:var(--text2);font-size:.78rem;flex-shrink:0;
+  }
+  #quiz-screen .palette-grid{grid-template-columns:repeat(5,1fr);gap:6px;}
+  #quiz-screen .pal-btn{min-height:38px;}
+
+  /* App-style two-row action bar */
+  .quiz-bottombar{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    align-items:stretch;
+    gap:6px;
+    padding:8px 10px calc(10px + env(safe-area-inset-bottom));
+  }
+  .quiz-bottombar .btn-prev{grid-column:1 / 3;grid-row:1;}
+  .quiz-bottombar #btn-next,
+  .quiz-bottombar #btn-submit{grid-column:3 / 5;grid-row:1;}
+  .quiz-bottombar .btn-mark{grid-column:1;grid-row:2;}
+  .quiz-bottombar #btn-bookmark{grid-column:2;grid-row:2;padding:7px 8px!important;}
+  .quiz-bottombar .btn-clear{grid-column:3;grid-row:2;}
+  .quiz-bottombar .btn-explain{grid-column:4;grid-row:2;}
+  .quiz-bottombar .q-stats{
+    grid-column:1 / -1;grid-row:3;
+    justify-content:space-around;
+    padding-top:2px;
+  }
+  .quiz-bottombar .spacer,
+  .quiz-bottombar .kb-hint{display:none;}
+  .quiz-bottombar .nav-action-btn{
+    width:100%;
+    display:inline-flex;align-items:center;justify-content:center;
+    min-height:42px;
+    border-radius:12px;
+  }
+
+  /* Home / books feel more like a native list */
+  .setup-main{padding:12px 12px 28px;gap:12px;}
+  .stats-hero{padding:12px 10px;border-radius:18px!important;}
+  .subject-card .sc-top{padding:14px 14px;}
+  .books-wrap{padding:18px 14px 32px;justify-content:flex-start;}
+  .book-card{padding:18px 16px;}
+  .modal-overlay{padding:10px;align-items:flex-end;}
+  .modal-box{max-height:92dvh;border-radius:22px 22px 14px 14px;}
+}
 
 /* EXPORT PDF MODAL & CONTROLS */
 .export-modal-modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:12px;}
@@ -1433,8 +1602,13 @@ html,body{height:100%;}
   </div>
   <div class="quiz-body">
     <div class="question-area" id="question-area"></div>
-    <div class="palette-panel">
-      <div class="palette-title">Question Palette</div>
+    <button type="button" class="palette-toggle" id="palette-toggle" onclick="togglePaletteDrawer()" aria-label="Show question numbers" aria-expanded="false" title="Question numbers">&#x2039;</button>
+    <button type="button" class="palette-backdrop" id="palette-backdrop" onclick="closePaletteDrawer()" aria-label="Hide question numbers" hidden></button>
+    <div class="palette-panel" id="palette-panel">
+      <div class="palette-head">
+        <div class="palette-title">Question Palette</div>
+        <button type="button" class="palette-close" id="palette-close" onclick="closePaletteDrawer()" aria-label="Hide question numbers">&#x2715;</button>
+      </div>
       <div class="palette-grid" id="palette-grid"></div>
       <div class="palette-legend">
         <div class="pal-leg"><div class="pal-dot g"></div> Answered</div>
@@ -2795,6 +2969,7 @@ function startQuiz(mode,customPool){
   const subj=SUBJECTS_CONFIG.find(s=>s.id===currentSubjectId);const chLabel=quizMeta.chapter||'Practice';
   document.getElementById('topbar-bc').innerHTML=`${subj?.name||'Quiz'} <span>&#183; ${mode==='mistakes'?'Mistake Practice':mode==='wrong'?'Retry Wrong':mode==='skips'?'Skip Practice':mode==='bookmarks'?'Bookmark Practice':mode==='archive'?'Archive Practice':mode==='bloom'?'Bloom Review':mode==='supersearch'?'Super Search':mode==='history'?'Re-practice':mode==='topic'?'&#127991;&#65039; '+escapeHtml(topicQuizName||'Topic Practice'):chLabel.substring(0,40)+(chLabel.length>40?'...':'')}</span>`;
   const t=document.documentElement.getAttribute('data-theme')||'light';const qBtn=document.getElementById('theme-btn-q');if(qBtn)qBtn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';
+  closePaletteDrawer();
   showScreen('quiz-screen');renderQuestion();renderPalette();updateStats();clearInterval(timerInterval);paused=false;
   document.getElementById('pause-btn').textContent='Pause';document.getElementById('timer-display').classList.remove('urgent');
   if(totalSecs>0)startTimer();else document.getElementById('timer-display').textContent='\u221E';
@@ -3167,7 +3342,7 @@ function renderQuestion(){
   else optHtml=optionKeys.map(key=>{const value=options[key];if(value==null||value==='')return '';let cls='opt-btn';if(answerHasKey(answered,key))cls+=' selected';const text=optionDisplayText(value,key);return `<button class="${cls}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(text)}"><span class="opt-text">${escapeHtml(text)}</span></button>`;}).join('');
   const isMulti=questionCorrectKeys(q).length>1;
   const isLast=(i===quiz.length-1);
-  const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
+  const inlineBtn=isLast?`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
   document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
@@ -3192,7 +3367,30 @@ function toggleExplanation(){document.getElementById('explanation')?.classList.t
 function renderPalette(){
   document.getElementById('palette-grid').innerHTML=quiz.map((q,i)=>{let cls='pal-btn',answered=!isSkippedAnswer(state.answers[i]);if(i===state.current)cls+=' current';else if(answered&&state.marked[i])cls+=' answered-marked';else if(answered)cls+=' answered';else if(state.marked[i])cls+=' marked';else if(state.visited[i])cls+=' visited';return `<button class="${cls}" onclick="jumpTo(${i})">${i+1}</button>`;}).join('');
 }
-function jumpTo(i){state.current=i;state.visited[i]=true;renderQuestion();renderPalette();updateStats();}
+function setPaletteDrawer(open){
+  const screen=document.getElementById('quiz-screen');
+  const btn=document.getElementById('palette-toggle');
+  const backdrop=document.getElementById('palette-backdrop');
+  if(!screen)return;
+  const isOpen=!!open;
+  screen.classList.toggle('palette-open',isOpen);
+  if(btn){
+    btn.setAttribute('aria-expanded',isOpen?'true':'false');
+    btn.setAttribute('aria-label',isOpen?'Hide question numbers':'Show question numbers');
+    btn.title=isOpen?'Hide question numbers':'Show question numbers';
+    btn.innerHTML=isOpen?'&#x203A;':'&#x2039;';
+  }
+  if(backdrop){
+    if(isOpen)backdrop.removeAttribute('hidden');
+    else backdrop.setAttribute('hidden','');
+  }
+}
+function togglePaletteDrawer(){
+  const screen=document.getElementById('quiz-screen');
+  setPaletteDrawer(!(screen&&screen.classList.contains('palette-open')));
+}
+function closePaletteDrawer(){setPaletteDrawer(false);}
+function jumpTo(i){state.current=i;state.visited[i]=true;renderQuestion();renderPalette();updateStats();closePaletteDrawer();}
 function updateStats(){const ans=state.answers.filter(a=>!isSkippedAnswer(a)).length,mark=state.marked.filter(Boolean).length,skip=quiz.length-ans;document.getElementById('stat-ans').textContent=ans;document.getElementById('stat-skip').textContent=skip;document.getElementById('stat-mark').textContent=mark;}
 
 function startTimer(){let remaining=totalSecs;document.getElementById('timer-display').textContent=formatTime(remaining);timerInterval=setInterval(()=>{if(paused)return;remaining--;document.getElementById('timer-display').textContent=formatTime(remaining);if(remaining<=60)document.getElementById('timer-display').classList.add('urgent');if(remaining<=0){clearInterval(timerInterval);submitQuiz();}},1000);}

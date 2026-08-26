@@ -200,6 +200,19 @@ const ev = code => w.eval(code);
   w.buildDashboard();
   assert(Number(d.getElementById('dash-sessions').textContent) >= 2);
 
+  // Mobile question-palette drawer (side arrow). Desktop/iPad CSS is unchanged;
+  // the class is a no-op there and the toggle stays hidden above 599px.
+  assert(d.getElementById('palette-toggle'), 'palette side-arrow toggle exists');
+  assert(d.getElementById('palette-panel'), 'palette panel has an id');
+  w.setPaletteDrawer(true);
+  assert(d.getElementById('quiz-screen').classList.contains('palette-open'), 'opening the drawer adds palette-open');
+  assert.equal(d.getElementById('palette-toggle').getAttribute('aria-expanded'), 'true');
+  w.togglePaletteDrawer();
+  assert(!d.getElementById('quiz-screen').classList.contains('palette-open'), 'toggle hides the drawer');
+  w.setPaletteDrawer(true);
+  w.jumpTo(0);
+  assert(!d.getElementById('quiz-screen').classList.contains('palette-open'), 'jumping to a question tucks the drawer away');
+
   // Theme state and finite timer setup.
   w.applyTheme('dark'); w.toggleTheme();
   assert.equal(d.documentElement.getAttribute('data-theme'), 'light');
