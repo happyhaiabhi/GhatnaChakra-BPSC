@@ -1334,6 +1334,113 @@ html,body{height:100%;}
   button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
 }
 
+/* ════════════════════════════════════════════════════════════════
+   MOBILE APP 2.0 — minimalist, fit-to-screen redesign of the test
+   (quiz) screen and the BPSC setup screen. Phones only (≤599px);
+   desktop and iPad layouts are untouched. These rules ship after the
+   earlier mobile block so they win the cascade where they overlap.
+   ════════════════════════════════════════════════════════════════ */
+
+/* shared base (all widths) */
+.nav-chips-row{display:none;}
+.palette-scrim{display:none;}
+.palette-title-row{display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.palette-close{display:none;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:var(--surface2);border:1px solid var(--border);color:var(--text2);font-size:.78rem;cursor:pointer;flex-shrink:0;}
+.pal-count{font-family:'JetBrains Mono',monospace;font-size:.62rem;font-weight:700;color:var(--text2);margin-left:1px;}
+.nav-action-btn .na-ic{display:inline-flex;align-items:center;justify-content:center;line-height:1;margin-right:5px;font-size:1em;}
+.nav-action-btn .na-lb{white-space:nowrap;}
+.btn-bookmark{background:var(--surface2);color:var(--cyan);border:1px solid var(--border);font-size:.78rem;font-weight:600;transition:all 0.15s;}
+.btn-bookmark:hover{border-color:var(--cyan);}
+.explain-inline{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin:0 0 12px;padding:10px 14px;border-radius:10px;background:var(--surface2);border:1px solid var(--border);color:var(--orange);font-family:'Nunito',system-ui,sans-serif;font-size:.78rem;font-weight:700;cursor:pointer;transition:all 0.15s;}
+.explain-inline:hover{border-color:var(--orange);}
+/* the floating "← Exam Portal" pill overlaps the sticky app bars — it is
+   redundant there (Portal lives in the setup bar, Exit returns from quiz) */
+body[data-active-screen="setup-screen"] .exam-portal-return,
+body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
+
+@media(max-width:599px){
+  /* ── SETUP SCREEN: slim two-bar header, compact stats & dashboard ── */
+  .top-navbar{height:56px;min-height:56px;padding:6px 10px;gap:7px;overflow:visible;padding-bottom:6px;}
+  .top-navbar .nav-switch-book,.top-navbar .nav-btn-pill{height:40px;min-height:40px;min-width:40px;padding:6px 10px;font-size:.72rem;justify-content:center;}
+  .top-navbar .nav-switch-book .nav-switch-label{display:none;}
+  .nav-brand{min-width:0;max-width:46vw;}
+  .nav-brand-tag{font-size:.44rem;letter-spacing:1.2px;}
+  .nav-brand-name{font-size:.98rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .nav-spacer{flex:1 1 auto;min-width:8px;}
+  #nav-chips-row{display:flex;gap:7px;overflow-x:auto;overflow-y:hidden;flex-shrink:0;padding:1px 10px 9px;scrollbar-width:none;-webkit-overflow-scrolling:touch;position:relative;z-index:3;}
+  #nav-chips-row::-webkit-scrollbar{display:none;}
+  #nav-chips-row .nav-btn-pill,#nav-chips-row .nav-portal-home{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;height:36px;padding:5px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text2);font-size:.72rem;font-weight:600;white-space:nowrap;text-decoration:none;cursor:pointer;font-family:'Nunito',system-ui,sans-serif;box-shadow:none;}
+  #nav-chips-row .nav-btn-label{display:inline;}
+
+  /* slim one-strip stat row */
+  .stats-hero{padding:10px;border-radius:16px!important;}
+  .sh-val{font-size:1.12rem;}
+  .sh-lbl{font-size:.52rem;letter-spacing:.8px;}
+
+  /* compact performance dashboard: ring + chart side by side, 4 mini stats */
+  .dashboard-header{padding:10px 14px;border-radius:14px 14px 0 0;}
+  .dashboard-header h3{font-size:.98rem;}
+  .dashboard-meta{font-size:.6rem;}
+  .dashboard-stats{grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);}
+  .ds-cell{padding:9px 4px;}
+  .ds-val{font-size:.95rem;}
+  .ds-lbl{font-size:.5rem;letter-spacing:.4px;}
+  .dashboard-insight{grid-template-columns:74px 1fr;justify-items:start;gap:12px;padding:12px 14px;}
+  .dash-ring-wrap{width:74px;height:74px;}
+  .dash-ring-svg{width:74px;height:74px;}
+  .dash-ring-pct{font-size:1rem;}
+  .dash-ring-cap{font-size:.48rem;letter-spacing:.6px;}
+  .dw-head{font-size:.56rem;letter-spacing:.6px;}
+  .dw-chart{height:54px;gap:5px;}
+  .dw-bar-wrap{height:38px;max-width:26px;}
+  .dw-day-label{font-size:.46rem;}
+  .dw-empty{padding:8px 0;}
+
+  /* config panel: tighter rows */
+  .cp-row{gap:8px;}
+  .cp-lbl{min-width:58px;font-size:.62rem;}
+
+  /* ── TEST (QUIZ) SCREEN: app-like chrome ── */
+  .quiz-topbar{height:52px;min-height:52px;padding:6px 10px;gap:8px;}
+  .quiz-topbar #exit-btn{order:-1;flex:0 0 auto;padding:0 11px;min-height:40px;font-size:.72rem;border-radius:9px;}
+  .topbar-breadcrumb{order:0;flex:1 1 auto;min-width:0;font-size:.74rem;}
+  .topbar-timer{order:1;flex:0 0 auto;padding:6px 9px;font-size:.76rem;border-radius:8px;}
+  .quiz-topbar #pause-btn{order:2;flex:0 0 auto;padding:0 10px;min-height:40px;font-size:.68rem;border-radius:9px;}
+  .topbar-progress{height:2px;}
+
+  /* the content-flow Next/Submit is replaced by the bottom bar's primary */
+  .q-inline-nav{display:none!important;}
+  .explain-inline{min-height:44px;font-size:.8rem;margin-bottom:10px;}
+
+  /* one calm thumb row: Prev · Book · Mark · Clear · [Next] */
+  .quiz-bottombar{display:flex;flex-wrap:nowrap;align-items:center;gap:6px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -8px 20px rgba(0,0,0,.10);}
+  .quiz-bottombar .kb-hint{display:none;}
+  .quiz-bottombar .spacer{display:none;}
+  .quiz-bottombar .q-stats{display:none;}
+  .quiz-bottombar .btn-explain{display:none;}
+  .quiz-bottombar .nav-action-btn{flex:0 0 auto;min-height:42px;padding:8px 10px;font-size:.72rem;border-radius:10px;white-space:nowrap;}
+  .quiz-bottombar .btn-prev{width:42px;padding:8px 0;font-size:.95rem;}
+  .quiz-bottombar .btn-prev .na-lb{display:none;}
+  .quiz-bottombar .btn-bookmark{width:42px;padding:8px 0;font-size:.95rem;}
+  .quiz-bottombar .btn-clear{padding:8px 9px;font-size:.68rem;}
+  .quiz-bottombar .btn-mark{padding:8px 10px;}
+  .quiz-bottombar .btn-next,.quiz-bottombar .btn-submit-all{flex:1 1 auto;min-width:96px;font-size:.86rem;font-weight:800;letter-spacing:.2px;border-radius:10px;display:flex;align-items:center;justify-content:center;}
+
+  /* question palette: floating action button + bottom sheet */
+  .palette-toggle{position:absolute;top:auto;right:10px;bottom:10px;width:48px;height:48px;transform:none;border-radius:50%;border:1.5px solid var(--gold);background:var(--surface);color:var(--gold);font-size:1rem;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:4;}
+  .palette-toggle:hover{background:var(--surface);border-color:var(--gold);color:var(--gold);}
+  .palette-toggle-icon{margin-top:0;font-size:1.15rem;line-height:1;}
+  .quiz-body:not(.palette-collapsed) .palette-toggle{right:10px;}
+  .quiz-body:not(.palette-collapsed) .palette-scrim{display:block;position:absolute;inset:0;background:rgba(12,8,16,.45);z-index:5;}
+  .palette-panel{display:flex;position:absolute;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;max-height:72vh;max-height:min(72dvh,560px);border-radius:22px 22px 0 0;border:1px solid var(--border);border-bottom:none;padding:8px 14px calc(16px + env(safe-area-inset-bottom));box-shadow:0 -18px 48px rgba(0,0,0,.4);z-index:6;transform:translateY(105%);transition:transform .28s cubic-bezier(.4,0,.2,1);overflow-y:auto;-webkit-overflow-scrolling:touch;gap:10px;}
+  .quiz-body:not(.palette-collapsed) .palette-panel{transform:translateY(0);top:auto;left:0;right:0;bottom:0;width:100%;max-width:none;z-index:6;box-shadow:0 -18px 48px rgba(0,0,0,.4);}
+  .palette-panel::before{content:'';display:block;width:38px;height:4px;border-radius:99px;background:var(--border2);margin:4px auto 2px;flex-shrink:0;}
+  .palette-close{display:flex;}
+  .palette-grid{grid-template-columns:repeat(6,1fr);gap:6px;max-height:44vh;max-height:44dvh;overflow-y:auto;}
+  .pal-btn{min-height:44px;font-size:.8rem;border-radius:9px;}
+  .palette-legend{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;}
+  .palette-legend .pal-leg{justify-content:space-between;font-size:.66rem;}
+}
 </style>
 <script src="../theme.js"></script>
 <link rel="stylesheet" href="../bpsc-theme.css">
@@ -1373,23 +1480,25 @@ html,body{height:100%;}
 <!-- SETUP SCREEN -->
 <div class="screen" id="setup-screen">
   <div class="top-navbar">
-    <a class="nav-portal-home" href="../index.html" title="Back to exam portal">⌂ <span>Portal</span></a>
+    <a class="nav-portal-home" id="nav-portal-home" href="../index.html" title="Back to exam portal">⌂ <span>Portal</span></a>
     <button class="nav-switch-book" onclick="showBooksScreen()" title="Switch book">&#x1F4DA; <span class="nav-switch-label">Switch Book</span></button>
     <div class="nav-brand" onclick="showBooksScreen()" style="cursor:pointer;" title="Switch book">
       <span class="nav-brand-tag" id="nav-book-tag">BPSC Pre PYQ</span>
       <span class="nav-brand-name" id="nav-book-name">Ghatna Chakra</span>
     </div>
     <div class="nav-spacer"></div>
-    <button class="nav-btn-pill bloom-nav-btn" onclick="showBloomScreen()" title="Spaced-repetition review for mistakes and skips">&#x1F337; <span class="nav-btn-label">Bloom</span> <span class="nav-badge-pill" id="bloom-badge" style="background:var(--gold);color:#fff;">0</span></button>
-    <button class="nav-btn-pill" onclick="showMistakeScreen()">&#x1F534; <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
-    <button class="nav-btn-pill" onclick="showBookmarkScreen()">&#x1F516; <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
-    <button class="nav-btn-pill" onclick="showSkipScreen()">&#x23ED; <span class="nav-btn-label">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
-    <button class="nav-btn-pill" onclick="showArchiveScreen()">&#x1F5C3; <span class="nav-btn-label">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
-    <button class="nav-btn-pill" onclick="openSuperSearch()" title="Search every question in this book">&#x1F50D; <span class="nav-btn-label">Search</span></button>
-    <button class="nav-btn-pill" onclick="showHistoryScreen()" title="Record of all quiz attempts">&#x1F4D1; <span class="nav-btn-label">History</span></button>
-    <button class="nav-btn-pill" onclick="openFocusModal()" title="Pomodoro / focus timer">&#x1F345; <span class="nav-btn-label">Focus</span></button>
+    <button class="nav-btn-pill bloom-nav-btn" id="nav-bloom" onclick="showBloomScreen()" title="Spaced-repetition review for mistakes and skips">&#x1F337; <span class="nav-btn-label">Bloom</span> <span class="nav-badge-pill" id="bloom-badge" style="background:var(--gold);color:#fff;">0</span></button>
+    <button class="nav-btn-pill" id="nav-mistake" onclick="showMistakeScreen()">&#x1F534; <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
+    <button class="nav-btn-pill" id="nav-bookmark" onclick="showBookmarkScreen()">&#x1F516; <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
+    <button class="nav-btn-pill" id="nav-skip" onclick="showSkipScreen()">&#x23ED; <span class="nav-btn-label">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
+    <button class="nav-btn-pill" id="nav-archive" onclick="showArchiveScreen()">&#x1F5C3; <span class="nav-btn-label">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
+    <button class="nav-btn-pill" id="nav-search" onclick="openSuperSearch()" title="Search every question in this book">&#x1F50D; <span class="nav-btn-label">Search</span></button>
+    <button class="nav-btn-pill" id="nav-history" onclick="showHistoryScreen()" title="Record of all quiz attempts">&#x1F4D1; <span class="nav-btn-label">History</span></button>
+    <button class="nav-btn-pill" id="nav-focus" onclick="openFocusModal()" title="Pomodoro / focus timer">&#x1F345; <span class="nav-btn-label">Focus</span></button>
     <button class="nav-btn-pill sync-btn-wrap" id="sync-nav-btn" onclick="openSyncModal()" style="position:relative;">☁ <span class="nav-btn-label">Sync</span><div class="sync-dot offline" id="sync-status-dot" title="Sync Off"></div></button>
   </div>
+  <!-- Mobile-only secondary tools row (populated from the top navbar by layoutSetupNav) -->
+  <div class="nav-chips-row" id="nav-chips-row" aria-label="Review and study tools"></div>
 
 <!-- SYNC MODAL -->
 <div class="modal-overlay hidden" id="sync-modal">
@@ -1606,29 +1715,33 @@ html,body{height:100%;}
     <div class="topbar-breadcrumb" id="topbar-bc">Quiz <span id="topbar-ch"></span></div>
     <div class="topbar-timer" id="timer-display">&#8734;</div>
     <button class="topbar-btn" id="pause-btn" onclick="togglePause()">Pause</button>
-    <button class="topbar-btn" onclick="confirmHome()">&#x2715; Exit</button>
+    <button class="topbar-btn" id="exit-btn" onclick="confirmHome()">&#x2715; Exit</button>
     <div class="topbar-progress"><div class="topbar-progress-bar" id="progress-bar"></div></div>
   </div>
   <div class="quiz-body" id="quiz-body">
     <div class="question-area" id="question-area"></div>
     <button class="palette-toggle" id="palette-toggle" type="button" onclick="togglePalette()" aria-controls="palette-panel" aria-expanded="true" aria-label="Hide question palette" title="Hide question palette"><span class="palette-toggle-icon" id="palette-toggle-icon" aria-hidden="true">&#x203A;</span></button>
+    <div class="palette-scrim" id="palette-scrim" onclick="togglePalette()" aria-hidden="true"></div>
     <div class="palette-panel" id="palette-panel">
-      <div class="palette-title">Question Palette</div>
+      <div class="palette-title-row">
+        <span class="palette-title">Question Palette</span>
+        <button class="palette-close" type="button" onclick="togglePalette()" aria-label="Close question palette">&#x2715;</button>
+      </div>
       <div class="palette-grid" id="palette-grid"></div>
       <div class="palette-legend">
-        <div class="pal-leg"><div class="pal-dot g"></div> Answered</div>
-        <div class="pal-leg"><div class="pal-dot r"></div> Not visited</div>
-        <div class="pal-leg"><div class="pal-dot p"></div> Marked</div>
+        <div class="pal-leg"><div class="pal-dot g"></div> Answered <b class="pal-count" id="pal-count-ans">0</b></div>
+        <div class="pal-leg"><div class="pal-dot r"></div> Skipped <b class="pal-count" id="pal-count-skip">0</b></div>
+        <div class="pal-leg"><div class="pal-dot p"></div> Marked <b class="pal-count" id="pal-count-mark">0</b></div>
         <div class="pal-leg"><div class="pal-dot gold"></div> Current</div>
       </div>
     </div>
   </div>
   <div class="quiz-bottombar">
-    <button class="nav-action-btn btn-prev" onclick="goToPrev()">&#x2190; Prev</button>
-    <button class="nav-action-btn btn-mark" onclick="markForReview()">&#x2691; Mark</button>
-    <button class="nav-action-btn" id="btn-bookmark" onclick="toggleBookmark()" style="background:var(--surface2);color:var(--cyan);border:1px solid var(--border);font-size:0.78rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;padding:8px 14px;border-radius:8px;transition:all 0.15s;">&#x1F516;</button>
-    <button class="nav-action-btn btn-clear" onclick="clearResponse()">Clear</button>
-    <button class="nav-action-btn btn-explain" onclick="toggleExplanation()">Explain</button>
+    <button class="nav-action-btn btn-prev" onclick="goToPrev()"><span class="na-ic" aria-hidden="true">&#x2190;</span><span class="na-lb">Prev</span></button>
+    <button class="nav-action-btn btn-mark" onclick="markForReview()"><span class="na-ic" aria-hidden="true">&#x2691;</span><span class="na-lb">Mark</span></button>
+    <button class="nav-action-btn btn-bookmark" id="btn-bookmark" onclick="toggleBookmark()" aria-label="Bookmark question"><span class="na-ic" aria-hidden="true">&#x1F516;</span></button>
+    <button class="nav-action-btn btn-clear" onclick="clearResponse()"><span class="na-ic" aria-hidden="true">&#x21BA;</span><span class="na-lb">Clear</span></button>
+    <button class="nav-action-btn btn-explain" onclick="toggleExplanation()"><span class="na-ic" aria-hidden="true">&#x2726;</span><span class="na-lb">Explain</span></button>
     <span class="kb-hint" style="font-size:0.62rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);padding:3px 8px;border-radius:5px;letter-spacing:0.5px;">&#x2423; next opt &middot; &#x23CE; next &middot; B bookmark &middot; P prev</span>
     <div class="spacer"></div>
     <div class="q-stats">
@@ -3347,13 +3460,13 @@ function renderQuestion(){
   else optHtml=optionKeys.map(key=>{const value=options[key];if(value==null||value==='')return '';let cls='opt-btn';if(answerHasKey(answered,key))cls+=' selected';const text=optionDisplayText(value,key);return `<button class="${cls}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(text)}"><span class="opt-text">${escapeHtml(text)}</span></button>`;}).join('');
   const isMulti=questionCorrectKeys(q).length>1;
   const isLast=(i===quiz.length-1);
-  const inlineBtn=isLast?`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
+  const inlineBtn=isLast?`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
   const correctLabel=questionCorrectAnswerLabel(q);
-  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<button class="explain-inline" type="button" onclick="toggleExplanation()">&#x2726; Show explanation</button><div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
   else{document.getElementById('btn-next').style.display='';document.getElementById('btn-submit').style.display='none';}
   const bookmarks=getBookmarks(),bBtn=document.getElementById('btn-bookmark');
-  if(bBtn){const isB=!!bookmarks[quiz[i]?.uid];bBtn.textContent=isB?'\uD83D\uDD16 \u2713':'\uD83D\uDD16';bBtn.style.borderColor=isB?'var(--cyan)':'var(--border)';bBtn.style.background=isB?'var(--cyan-dim)':'var(--surface2)';}
+  if(bBtn){const isB=!!bookmarks[quiz[i]?.uid];const bIc=bBtn.querySelector('.na-ic');if(bIc)bIc.textContent=isB?'\uD83D\uDD16 \u2713':'\uD83D\uDD16';bBtn.classList.toggle('is-bookmarked',isB);bBtn.style.borderColor=isB?'var(--cyan)':'var(--border)';bBtn.style.background=isB?'var(--cyan-dim)':'var(--surface2)';}
 }
 
 function selectOption(key){
@@ -3367,7 +3480,7 @@ function saveAndNext(){if(state.current<quiz.length-1){state.current++;state.vis
 function goToPrev(){if(state.current>0){state.current--;renderQuestion();renderPalette();updateStats();}}
 function markForReview(){state.marked[state.current]=!state.marked[state.current];renderQuestion();renderPalette();updateStats();}
 function clearResponse(){state.answers[state.current]=null;renderQuestion();renderPalette();updateStats();}
-function toggleExplanation(){document.getElementById('explanation')?.classList.toggle('show');}
+function toggleExplanation(){const ex=document.getElementById('explanation');if(!ex)return;ex.classList.toggle('show');const b=document.querySelector('#question-area .explain-inline');if(b)b.innerHTML=ex.classList.contains('show')?'&#x2713; Hide explanation':'&#x2726; Show explanation';}
 
 function setPaletteOpen(isOpen){
   const body=document.getElementById('quiz-body'),button=document.getElementById('palette-toggle'),icon=document.getElementById('palette-toggle-icon');
@@ -3388,7 +3501,7 @@ function renderPalette(){
   document.getElementById('palette-grid').innerHTML=quiz.map((q,i)=>{let cls='pal-btn',answered=!isSkippedAnswer(state.answers[i]);if(i===state.current)cls+=' current';else if(answered&&state.marked[i])cls+=' answered-marked';else if(answered)cls+=' answered';else if(state.marked[i])cls+=' marked';else if(state.visited[i])cls+=' visited';return `<button class="${cls}" onclick="jumpTo(${i})">${i+1}</button>`;}).join('');
 }
 function jumpTo(i){state.current=i;state.visited[i]=true;renderQuestion();renderPalette();updateStats();}
-function updateStats(){const ans=state.answers.filter(a=>!isSkippedAnswer(a)).length,mark=state.marked.filter(Boolean).length,skip=quiz.length-ans;document.getElementById('stat-ans').textContent=ans;document.getElementById('stat-skip').textContent=skip;document.getElementById('stat-mark').textContent=mark;}
+function updateStats(){const ans=state.answers.filter(a=>!isSkippedAnswer(a)).length,mark=state.marked.filter(Boolean).length,skip=quiz.length-ans;const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v;};put('stat-ans',ans);put('stat-skip',skip);put('stat-mark',mark);put('pal-count-ans',ans);put('pal-count-skip',skip);put('pal-count-mark',mark);}
 
 function startTimer(){let remaining=totalSecs;document.getElementById('timer-display').textContent=formatTime(remaining);timerInterval=setInterval(()=>{if(paused)return;remaining--;document.getElementById('timer-display').textContent=formatTime(remaining);if(remaining<=60)document.getElementById('timer-display').classList.add('urgent');if(remaining<=0){clearInterval(timerInterval);submitQuiz();}},1000);}
 function togglePause(){paused=!paused;document.getElementById('pause-btn').textContent=paused?'Resume':'Pause';}
@@ -3458,7 +3571,7 @@ function buildReview(filter){
 
 function filterReview(filter,btn){document.querySelectorAll('.rflt-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.review-item').forEach(el=>{el.classList.toggle('show',filter==='all'||el.dataset.status===filter);});}
 
-function showScreen(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');}
+function showScreen(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');document.body.dataset.activeScreen=id;}
 function backToSetup(){clearInterval(timerInterval);showScreen('setup-screen');buildDashboard();}
 function goHome(){clearInterval(timerInterval);showScreen('setup-screen');buildDashboard();}
 function confirmHome(){const ans=state.answers?.filter(a=>!isSkippedAnswer(a)).length||0;if(ans>0&&!confirm('Exit quiz? Progress will be lost.'))return;backToSetup();}
@@ -4473,13 +4586,34 @@ window.addEventListener('online',()=>{
 });
 window.addEventListener('offline',()=>{if(syncStatus!=='error')setSyncStatus('offline');});
 
+/* On phones the top navbar keeps only Switch Book + Search + Sync; the
+   secondary tools move into the compact chip row beneath it. On desktop
+   and iPad the single scrollable navbar is restored. */
+const SETUP_NAV_TOOLS=['nav-portal-home','nav-bloom','nav-mistake','nav-bookmark','nav-skip','nav-archive','nav-history','nav-focus'];
+function layoutSetupNav(){
+  const chips=document.getElementById('nav-chips-row');
+  const bar=document.querySelector('#setup-screen .top-navbar');
+  const anchor=document.getElementById('nav-search');
+  if(!chips||!bar||!anchor)return;
+  const mobile=window.innerWidth<=599;
+  SETUP_NAV_TOOLS.forEach(id=>{
+    const el=document.getElementById(id);
+    if(!el)return;
+    if(mobile)chips.appendChild(el);
+    else bar.insertBefore(el,anchor);
+  });
+}
+let navLayoutTimer=null;
+window.addEventListener('resize',()=>{clearTimeout(navLayoutTimer);navLayoutTimer=setTimeout(layoutSetupNav,120);});
+
 function init(){
   const saved=localStorage.getItem('gc_theme');
   let theme=saved||'light';
   if(!saved&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)theme='dark';
   applyTheme(theme);
   // Lightweight placeholder until a book is chosen.
-  buildSubjectsGrid();buildDashboard();updateAllBadges();
+  buildSubjectsGrid();buildDashboard();updateAllBadges();layoutSetupNav();
+  document.body.dataset.activeScreen='books-screen';
   loadBooksManifest().then(()=>{
     renderBooksScreen();
     // Remember the last book and reopen it for convenience.
