@@ -1,182 +1,338 @@
 [
   {
     "key": "test_1",
-    "label": "Test 1 — Bihar Special",
-    "emoji": "📜",
+    "label": "Test 1 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_1.json",
-    "chapters": [
-      {
-        "name": "Bihar Special",
-        "count": 150
-      }
-    ]
+    "subject": "Test 1 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_2",
-    "label": "Test 2 — World Geography",
-    "emoji": "🌍",
+    "label": "Test 2 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_2.json",
-    "chapters": [
-      {
-        "name": "World Geography",
-        "count": 150
-      }
-    ]
+    "subject": "Test 2 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_3",
-    "label": "Test 3 — Current Affairs",
-    "emoji": "📰",
+    "label": "Test 3 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_3.json",
-    "chapters": [
-      {
-        "name": "Current Affairs",
-        "count": 150
-      }
-    ]
+    "subject": "Test 3 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_4",
-    "label": "Test 4 — Indian Geography I",
-    "emoji": "🗺️",
+    "label": "Test 4 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_4.json",
-    "chapters": [
-      {
-        "name": "Indian Geography I",
-        "count": 150
-      }
-    ]
+    "subject": "Test 4 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_5",
-    "label": "Test 5 — Indian Geography II",
-    "emoji": "🗺️",
+    "label": "Test 5 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_5.json",
-    "chapters": [
-      {
-        "name": "Indian Geography II",
-        "count": 150
-      }
-    ]
+    "subject": "Test 5 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_6",
-    "label": "Test 6 — Indian Economy",
-    "emoji": "💰",
+    "label": "Test 6 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_6.json",
-    "chapters": [
-      {
-        "name": "Indian Economy",
-        "count": 150
-      }
-    ]
+    "subject": "Test 6 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_7",
-    "label": "Test 7 — Ancient History",
-    "emoji": "🏛️",
+    "label": "Test 7 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_7.json",
-    "chapters": [
-      {
-        "name": "Ancient History",
-        "count": 150
-      }
-    ]
+    "subject": "Test 7 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_8",
-    "label": "Test 8 — Medieval History",
-    "emoji": "🏰",
+    "label": "Test 8 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_8.json",
-    "chapters": [
-      {
-        "name": "Medieval History",
-        "count": 150
-      }
-    ]
+    "subject": "Test 8 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_9",
-    "label": "Test 9 — Current Affairs",
-    "emoji": "📰",
+    "label": "Test 9 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_9.json",
-    "chapters": [
-      {
-        "name": "Current Affairs",
-        "count": 150
-      }
-    ]
+    "subject": "Test 9 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_10",
-    "label": "Test 10 — Biology + Science & Technology",
-    "emoji": "🧬",
+    "label": "Test 10 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_10.json",
-    "chapters": [
-      {
-        "name": "Biology + Science & Technology",
-        "count": 150
-      }
-    ]
+    "subject": "Test 10 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_11",
-    "label": "Test 11 — Modern History I (Arrival of Europeans to 1885)",
-    "emoji": "📜",
+    "label": "Test 11 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_11.json",
-    "chapters": [
-      {
-        "name": "Modern History I (Arrival of Europeans to 1885)",
-        "count": 150
-      }
-    ]
+    "subject": "Test 11 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_12",
-    "label": "Test 12 — Modern History II (1885 to 1947 & onwards)",
-    "emoji": "📜",
+    "label": "Test 12 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_12.json",
-    "chapters": [
-      {
-        "name": "Modern History II (1885 to 1947 & onwards)",
-        "count": 150
-      }
-    ]
+    "subject": "Test 12 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_13",
-    "label": "Test 13 — Physics + Chemistry",
-    "emoji": "⚛️",
+    "label": "Test 13 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_13.json",
-    "chapters": [
-      {
-        "name": "Physics + Chemistry",
-        "count": 150
-      }
-    ]
+    "subject": "Test 13 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_14",
-    "label": "Test 14 — Current Affairs (Jan–Apr 2026)",
-    "emoji": "📰",
+    "label": "Test 14 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_14.json",
-    "chapters": [
-      {
-        "name": "Current Affairs (Jan–Apr 2026)",
-        "count": 150
-      }
-    ]
+    "subject": "Test 14 — BPSC Prelims (Original with 150 Questions)"
   },
   {
     "key": "test_15",
-    "label": "Test 15 — Polity I",
-    "emoji": "🏛️",
+    "label": "Test 15 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Original KGS test with 150 verified questions",
     "file": "test_15.json",
-    "chapters": [
-      {
-        "name": "Polity I",
-        "count": 150
-      }
-    ]
+    "subject": "Test 15 — BPSC Prelims (Original with 150 Questions)"
+  },
+  {
+    "key": "test_17",
+    "label": "Test 17 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "English medium questions extracted from KGS test series",
+    "file": "Test_17_Full_Length_Paper.pdf",
+    "subject": "Test 17 — Full Length Paper (English)"
+  },
+  {
+    "key": "test_18",
+    "label": "Test 18 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "English medium questions extracted from KGS test series",
+    "file": "Test_18_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 18 — Full Length Paper (English)"
+  },
+  {
+    "key": "test_19",
+    "label": "Test 19 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "English medium questions extracted from KGS test series",
+    "file": "Test_19_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 19 — Full Length Paper (English)"
+  },
+  {
+    "key": "test_20",
+    "label": "Test 20 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "English medium questions extracted from KGS test series",
+    "file": "Test_20_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 20 — Full Length Paper (English)"
+  },
+  {
+    "key": "test_21",
+    "label": "Test 21 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Partial English extraction from KGS test series",
+    "file": "Test_21_Full_Length_Paper.pdf",
+    "subject": "Test 21 — Full Length Paper (Partial English)"
+  },
+  {
+    "key": "test_22",
+    "label": "Test 22 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Partial English extraction from KGS test series",
+    "file": "Test_22_Full_Length_Paper.pdf",
+    "subject": "Test 22 — Full Length Paper (Partial English)"
+  },
+  {
+    "key": "test_23",
+    "label": "Test 23 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Partial English extraction from KGS test series",
+    "file": "Test_23_Full_Length_Paper.pdf",
+    "subject": "Test 23 — Full Length Paper (Partial English)"
+  },
+  {
+    "key": "test_24",
+    "label": "Test 24 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Partial English extraction from KGS test series",
+    "file": "Test_24_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 24 — Full Length Paper (Partial English)"
+  },
+  {
+    "key": "test_25",
+    "label": "Test 25 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Partial English extraction from KGS test series",
+    "file": "Test_25_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 25 — Full Length Paper (Partial English)"
+  },
+  {
+    "key": "test_26",
+    "label": "Test 26 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "104 English questions extracted from PDF",
+    "file": "Test_26_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 26 — Full Length Paper (English)"
+  },
+  {
+    "key": "test_27",
+    "label": "Test 27 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Mixed English/Hindi extraction from KGS test series",
+    "file": "Test_27_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "subject": "Test 27 — Full Length Paper (Mixed)"
+  },
+  {
+    "key": "test_29",
+    "label": "Test 29 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Mixed English/Hindi extraction from KGS test series",
+    "file": "Test_29_Full_Length_Paper.pdf",
+    "subject": "Test 29 — Full Length Paper (Mixed)"
+  },
+  {
+    "key": "test_30",
+    "label": "Test 30 — Full Length Paper",
+    "emoji": "📝",
+    "tag": "KGS TESTS",
+    "color": "#7C87C8",
+    "dataDir": "books/kgs_test_series/data",
+    "chaptersFile": "chapters.json",
+    "description": "Mixed English/Hindi extraction from KGS test series",
+    "file": "Test_30_Full_Length_Paper.pdf",
+    "subject": "Test 30 — Full Length Paper (Mixed)"
   }
 ]
