@@ -1,15 +1,10 @@
-# Bihar Current Affairs — Clean Template (PDF Source)
+# Bihar Current Affairs — Sets 1–11
 
-**Status:** Empty template — ready for manual extraction from the original PDF.
+The book is populated from `Bihar_Current_Affairs_Sets1-11_Categorised (2).xlsx`.
 
-- Source PDF: `Eduteria Bihar Current Affairs 2026 Practice Set.pdf` (36 pages, 16.4 MB, scanned/image)
-- All 36 pages rendered to `/tmp/pdf_pages/page_01.png` → `page_36.png`
-- No embedded text layer — requires manual read from page images or corrected input
+- 11 selectable sets
+- 50 questions per set (550 total)
+- Four-option MCQ structure with answer letters normalized from the workbook
+- Legacy PDF placeholder chapters were removed
 
-## Structure
-- `data/chapters.json` — 11 chapter groups (Chapters 1–3 through 32–35), all `count: 0`
-- `data/chapter_*.json` — clean empty `questions: []` arrays
-- `data/*.json` format matches quiz-engine (`subject`, `chapters`, `questions` with full question schema)
-
-## Next step
-Fill questions into the empty arrays using the PDF pages as ground truth (e.g., Set 1 = pages 1–3 ≈ `chapter_1_3.json`).
+`data/chapters.json` is the book index and `data/current_affairs_sets.json` is the runtime question bank. Individual `data/set_1.json` through `data/set_11.json` files retain the set-level exports.
