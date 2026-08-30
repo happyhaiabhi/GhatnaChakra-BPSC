@@ -1,0 +1,134 @@
+[
+  {
+    "key": "chapter_1_3",
+    "label": "Chapters 1–3",
+    "emoji": "📘",
+    "file": "chapter_1_3.json",
+    "chapters": [
+      {
+        "name": "Chapters 1–3",
+        "count": 37
+      }
+    ]
+  },
+  {
+    "key": "chapter_4_6",
+    "label": "Chapters 4–6",
+    "emoji": "📘",
+    "file": "chapter_4_6.json",
+    "chapters": [
+      {
+        "name": "Chapters 4–6",
+        "count": 41
+      }
+    ]
+  },
+  {
+    "key": "chapter_7_9",
+    "label": "Chapters 7–9",
+    "emoji": "📘",
+    "file": "chapter_7_9.json",
+    "chapters": [
+      {
+        "name": "Chapters 7–9",
+        "count": 45
+      }
+    ]
+  },
+  {
+    "key": "chapter_10_12",
+    "label": "Chapters 10–12",
+    "emoji": "📘",
+    "file": "chapter_10_12.json",
+    "chapters": [
+      {
+        "name": "Chapters 10–12",
+        "count": 41
+      }
+    ]
+  },
+  {
+    "key": "chapter_13_15",
+    "label": "Chapters 13–15",
+    "emoji": "📘",
+    "file": "chapter_13_15.json",
+    "chapters": [
+      {
+        "name": "Chapters 13–15",
+        "count": 41
+      }
+    ]
+  },
+  {
+    "key": "chapter_16_18",
+    "label": "Chapters 16–18",
+    "emoji": "📘",
+    "file": "chapter_16_18.json",
+    "chapters": [
+      {
+        "name": "Chapters 16–18",
+        "count": 44
+      }
+    ]
+  },
+  {
+    "key": "chapter_19_21",
+    "label": "Chapters 19–21",
+    "emoji": "📘",
+    "file": "chapter_19_21.json",
+    "chapters": [
+      {
+        "name": "Chapters 19–21",
+        "count": 43
+      }
+    ]
+  },
+  {
+    "key": "chapter_22_24",
+    "label": "Chapters 22–24",
+    "emoji": "📘",
+    "file": "chapter_22_24.json",
+    "chapters": [
+      {
+        "name": "Chapters 22–24",
+        "count": 41
+      }
+    ]
+  },
+  {
+    "key": "chapter_25_27",
+    "label": "Chapters 25–27",
+    "emoji": "📘",
+    "file": "chapter_25_27.json",
+    "chapters": [
+      {
+        "name": "Chapters 25–27",
+        "count": 43
+      }
+    ]
+  },
+  {
+    "key": "chapter_28_31",
+    "label": "Chapters 28–31",
+    "emoji": "📘",
+    "file": "chapter_28_31.json",
+    "chapters": [
+      {
+        "name": "Chapters 28–31",
+        "count": 45
+      }
+    ]
+  },
+  {
+    "key": "chapter_32_35",
+    "label": "Chapters 32–35",
+    "emoji": "📘",
+    "file": "chapter_32_35.json",
+    "chapters": [
+      {
+        "name": "Chapters 32–35",
+        "count": 43
+      }
+    ]
+  }
+]
