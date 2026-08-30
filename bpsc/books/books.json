@@ -112,12 +112,12 @@
   {
     "id": "bihar_current_affairs",
     "title": "Bihar Current Affairs",
-    "subtitle": "Bihar Current Affairs Practice · 35-Chapter Study Notes",
+    "subtitle": "Bihar Current Affairs Practice · 11 Sets",
     "tag": "BIHAR CA",
     "emoji": "📰",
     "color": "#2E7D5A",
     "dataDir": "books/bihar_current_affairs/data",
     "chaptersFile": "chapters.json",
-    "description": "Clean template · 11 chapter groups · 36-page PDF source (Eduteria 2026 Practice Set). Questions array empty — fill from rendered PDFs /tmp/pdf_pages/page_01-36.png."
+    "description": "11 practice sets · Sets 1–6 live with 300 Bihar current-affairs MCQs (50 per set) converted from the Eduteria Sets 1–6 workbook · Sets 7–11 reserved for the next drop."
   }
 ]
