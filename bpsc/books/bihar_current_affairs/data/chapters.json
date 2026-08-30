@@ -1,51 +1,141 @@
 [
   {
-    "key": "bihar_current_affairs",
-    "label": "Bihar Current Affairs",
+    "key": "set_1",
+    "label": "Set 1",
     "emoji": "📰",
-    "file": "data/current_affairs_sets.json",
-    "total": 550,
+    "file": "set_1.json",
+    "total": 50,
     "chapters": [
       {
         "name": "Set 1",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_2",
+    "label": "Set 2",
+    "emoji": "📰",
+    "file": "set_2.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 2",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_3",
+    "label": "Set 3",
+    "emoji": "📰",
+    "file": "set_3.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 3",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_4",
+    "label": "Set 4",
+    "emoji": "📰",
+    "file": "set_4.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 4",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_5",
+    "label": "Set 5",
+    "emoji": "📰",
+    "file": "set_5.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 5",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_6",
+    "label": "Set 6",
+    "emoji": "📰",
+    "file": "set_6.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 6",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_7",
+    "label": "Set 7",
+    "emoji": "📰",
+    "file": "set_7.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 7",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_8",
+    "label": "Set 8",
+    "emoji": "📰",
+    "file": "set_8.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 8",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_9",
+    "label": "Set 9",
+    "emoji": "📰",
+    "file": "set_9.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 9",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_10",
+    "label": "Set 10",
+    "emoji": "📰",
+    "file": "set_10.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 10",
         "count": 50
-      },
+      }
+    ]
+  },
+  {
+    "key": "set_11",
+    "label": "Set 11",
+    "emoji": "📰",
+    "file": "set_11.json",
+    "total": 50,
+    "chapters": [
       {
         "name": "Set 11",
         "count": 50

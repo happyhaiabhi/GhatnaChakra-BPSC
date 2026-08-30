@@ -112,12 +112,12 @@
   {
     "id": "bihar_current_affairs",
     "title": "Bihar Current Affairs",
-    "subtitle": "Bihar Current Affairs Practice · 35-Chapter Study Notes",
+    "subtitle": "Sets 1–11 · 550 Practice Questions",
     "tag": "BIHAR CA",
     "emoji": "📰",
     "color": "#2E7D5A",
     "dataDir": "books/bihar_current_affairs/data",
     "chaptersFile": "chapters.json",
-    "description": "11 practice sets · 550 questions converted from Bihar Current Affairs Sets 1–11 Excel workbook"
+    "description": "11 practice sets, each its own subject · 550 questions converted from the Bihar Current Affairs Sets 1–11 Excel workbook"
   }
 ]

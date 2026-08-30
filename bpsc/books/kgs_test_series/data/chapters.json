@@ -188,7 +188,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "English medium questions extracted from KGS test series",
-    "file": "Test_17_Full_Length_Paper.pdf",
+    "file": "test_17.json",
     "subject": "Test 17 — Full Length Paper (English)"
   },
   {
@@ -200,7 +200,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "English medium questions extracted from KGS test series",
-    "file": "Test_18_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_18.json",
     "subject": "Test 18 — Full Length Paper (English)"
   },
   {
@@ -212,7 +212,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "English medium questions extracted from KGS test series",
-    "file": "Test_19_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_19.json",
     "subject": "Test 19 — Full Length Paper (English)"
   },
   {
@@ -224,7 +224,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "English medium questions extracted from KGS test series",
-    "file": "Test_20_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_20.json",
     "subject": "Test 20 — Full Length Paper (English)"
   },
   {
@@ -236,7 +236,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Partial English extraction from KGS test series",
-    "file": "Test_21_Full_Length_Paper.pdf",
+    "file": "test_21.json",
     "subject": "Test 21 — Full Length Paper (Partial English)"
   },
   {
@@ -248,7 +248,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Partial English extraction from KGS test series",
-    "file": "Test_22_Full_Length_Paper.pdf",
+    "file": "test_22.json",
     "subject": "Test 22 — Full Length Paper (Partial English)"
   },
   {
@@ -260,7 +260,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Partial English extraction from KGS test series",
-    "file": "Test_23_Full_Length_Paper.pdf",
+    "file": "test_23.json",
     "subject": "Test 23 — Full Length Paper (Partial English)"
   },
   {
@@ -272,7 +272,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Partial English extraction from KGS test series",
-    "file": "Test_24_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_24.json",
     "subject": "Test 24 — Full Length Paper (Partial English)"
   },
   {
@@ -284,7 +284,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Partial English extraction from KGS test series",
-    "file": "Test_25_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_25.json",
     "subject": "Test 25 — Full Length Paper (Partial English)"
   },
   {
@@ -296,7 +296,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "104 English questions extracted from PDF",
-    "file": "Test_26_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_26.json",
     "subject": "Test 26 — Full Length Paper (English)"
   },
   {
@@ -308,7 +308,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Mixed English/Hindi extraction from KGS test series",
-    "file": "Test_27_Full_Length_Paper_Question_Paper_72nd_BPSC_Prelims_‘प्रहार’.pdf",
+    "file": "test_27.json",
     "subject": "Test 27 — Full Length Paper (Mixed)"
   },
   {
@@ -320,7 +320,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Mixed English/Hindi extraction from KGS test series",
-    "file": "Test_29_Full_Length_Paper.pdf",
+    "file": "test_29.json",
     "subject": "Test 29 — Full Length Paper (Mixed)"
   },
   {
@@ -332,7 +332,7 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "Mixed English/Hindi extraction from KGS test series",
-    "file": "Test_30_Full_Length_Paper.pdf",
+    "file": "test_30.json",
     "subject": "Test 30 — Full Length Paper (Mixed)"
   }
 ]
