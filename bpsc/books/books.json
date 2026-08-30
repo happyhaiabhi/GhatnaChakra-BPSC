@@ -108,5 +108,16 @@
     "dataDir": "books/kgs_test_series/data",
     "chaptersFile": "chapters.json",
     "description": "15 subjects · 15 chapters · 2,250 questions"
+  },
+  {
+    "id": "bihar_current_affairs",
+    "title": "Bihar Current Affairs",
+    "subtitle": "Bihar Current Affairs Practice · 35-Chapter Study Notes",
+    "tag": "BIHAR CA",
+    "emoji": "📰",
+    "color": "#2E7D5A",
+    "dataDir": "books/bihar_current_affairs/data",
+    "chaptersFile": "chapters.json",
+    "description": "Clean template · 11 chapter groups · 36-page PDF source (Eduteria 2026 Practice Set). Questions array empty — fill from rendered PDFs /tmp/pdf_pages/page_01-36.png."
   }
 ]
