@@ -185,12 +185,39 @@ def copy_runtime(source: Path, staging: Path) -> None:
 
 def resolve_subject_path(file_field: str, data_dir: str) -> str:
     """Mirror bookFilePath() from the BPSC application."""
-    clean = file_field[2:] if file_field.startswith("./") else file_field
+    clean = file_field.lstrip("/")
+    while clean.startswith("./"):
+        clean = clean[2:]
     if clean.startswith(("http://", "https://", "//")):
         return clean
-    if data_dir and data_dir != "." and "/" not in clean:
-        clean = data_dir.rstrip("/") + "/" + clean
-    return clean
+    base = (data_dir or "").rstrip("/")
+    if not base or base == ".":
+        return clean
+    if clean == base or clean.startswith(base + "/"):
+        return clean
+    if clean.startswith("data/"):
+        clean = clean[len("data/"):]
+    return base + "/" + clean
+
+
+def subject_path_candidates(file_field: str, data_dir: str, subject_key: str) -> list[str]:
+    """Mirror bookDataCandidates() from the BPSC application."""
+    raw = file_field
+    while raw.startswith("./"):
+        raw = raw[2:]
+    base = (data_dir or "").rstrip("/")
+    ordered = [resolve_subject_path(file_field, data_dir), raw]
+    if base and base != ".":
+        filename = raw.rsplit("/", 1)[-1]
+        if filename:
+            ordered.append(base + "/" + filename)
+        if subject_key:
+            ordered.append(base + "/" + subject_key + ".json")
+    seen: list[str] = []
+    for path in ordered:
+        if path and path not in seen:
+            seen.append(path)
+    return seen
 
 
 def validate_runtime(runtime: Path) -> dict:
@@ -219,17 +246,30 @@ def validate_runtime(runtime: Path) -> dict:
 
         book_questions = 0
         for subject in index:
-            file_field = subject.get("file") or f"{subject.get('key')}.json"
-            rel = resolve_subject_path(file_field, data_dir)
-            if rel.startswith(("http://", "https://")):
+            subject_key = subject.get("key") or ""
+            file_field = subject.get("file") or f"{subject_key}.json"
+            if file_field.startswith(("http://", "https://")):
                 continue
-            subject_file = runtime / rel
-            if not subject_file.is_file():
-                raise RuntimeError(f"book '{book_id}': missing subject file {rel}")
+            candidates = subject_path_candidates(file_field, data_dir, subject_key)
+            rel = next((c for c in candidates if (runtime / c).is_file()), None)
+            if rel is None:
+                raise RuntimeError(
+                    f"book '{book_id}': missing subject file for "
+                    f"'{subject_key or file_field}' (tried {', '.join(candidates)})"
+                )
+            if rel != candidates[0]:
+                log(
+                    f"warning: book '{book_id}': subject '{subject_key}' only resolves via "
+                    f"fallback '{rel}' — update its chapters.json \"file\" entry"
+                )
             subject_files.add(rel)
-            payload = json.loads(subject_file.read_text(encoding="utf-8"))
-            for chapter in payload.get("chapters", []):
-                book_questions += len(chapter.get("questions", []))
+            payload = json.loads((runtime / rel).read_text(encoding="utf-8"))
+            subject_questions = sum(
+                len(chapter.get("questions", [])) for chapter in payload.get("chapters", [])
+            )
+            if not subject_questions:
+                log(f"warning: book '{book_id}': subject '{subject_key}' ({rel}) has 0 questions")
+            book_questions += subject_questions
         total_questions += book_questions
         books_report.append((book_id, len(index), book_questions))
 

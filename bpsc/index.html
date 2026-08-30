@@ -65,6 +65,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .nav-btn-pill{display:flex;align-items:center;gap:5px;padding:6px 10px;border-radius:20px;background:var(--surface2);border:1px solid var(--border);color:var(--text3);font-size:0.68rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all 0.15s;white-space:nowrap;}
 .nav-btn-pill:hover{border-color:var(--border2);color:var(--text2);}
 .nav-badge-pill{background:var(--red);color:#fff;font-size:0.52rem;padding:1px 5px;border-radius:8px;font-weight:700;}
+.nav-review-wrap{position:relative;flex-shrink:0;}
+.nav-caret{font-size:.6rem;color:var(--text3);}
+.nav-review-menu{position:fixed;z-index:1200;display:none;flex-direction:column;gap:4px;min-width:232px;background:var(--surface);border:1px solid var(--border2);border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.35);padding:8px;}
+.nav-review-menu.open{display:flex;}
+.review-menu-item{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:9px;background:transparent;border:none;color:var(--text2);font-family:'Nunito',system-ui,sans-serif;font-size:.78rem;font-weight:600;cursor:pointer;text-align:left;transition:background .12s;}
+.review-menu-item:hover{background:var(--surface2);}
+.review-menu-item .rmi-ic{width:20px;text-align:center;}
+.review-menu-item .rmi-lb{flex:1;}
 .theme-toggle{background:var(--surface2);border:1px solid var(--border);color:var(--text2);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:0.9rem;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0;}
 
 /* SETUP MAIN */
@@ -1487,14 +1495,18 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
       <span class="nav-brand-name" id="nav-book-name">Ghatna Chakra</span>
     </div>
     <div class="nav-spacer"></div>
-    <button class="nav-btn-pill bloom-nav-btn" id="nav-bloom" onclick="showBloomScreen()" title="Spaced-repetition review for mistakes and skips">&#x1F337; <span class="nav-btn-label">Bloom</span> <span class="nav-badge-pill" id="bloom-badge" style="background:var(--gold);color:#fff;">0</span></button>
-    <button class="nav-btn-pill" id="nav-mistake" onclick="showMistakeScreen()">&#x1F534; <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
-    <button class="nav-btn-pill" id="nav-bookmark" onclick="showBookmarkScreen()">&#x1F516; <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
-    <button class="nav-btn-pill" id="nav-skip" onclick="showSkipScreen()">&#x23ED; <span class="nav-btn-label">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
-    <button class="nav-btn-pill" id="nav-archive" onclick="showArchiveScreen()">&#x1F5C3; <span class="nav-btn-label">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
+    <div class="nav-review-wrap" id="nav-review">
+      <button class="nav-btn-pill" id="nav-review-btn" onclick="toggleReviewMenu(event)" title="Mistakes, bookmarks, skips, archive &amp; Bloom review" aria-haspopup="true" aria-expanded="false">&#x1F4DA; <span class="nav-btn-label">Review</span> <span class="nav-badge-pill" id="review-badge" style="background:var(--gold);color:#fff;">0</span> <span class="nav-caret" aria-hidden="true">&#x25BE;</span></button>
+      <div class="nav-review-menu" id="nav-review-menu" role="menu">
+        <button class="review-menu-item" onclick="openReview('bloom')" role="menuitem"><span class="rmi-ic">&#x1F337;</span> <span class="rmi-lb">Bloom review</span> <span class="nav-badge-pill" id="bloom-badge" style="background:var(--gold);color:#fff;">0</span></button>
+        <button class="review-menu-item" onclick="openReview('mistake')" role="menuitem"><span class="rmi-ic">&#x1F534;</span> <span class="rmi-lb">Mistake bank</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
+        <button class="review-menu-item" onclick="openReview('bookmark')" role="menuitem"><span class="rmi-ic">&#x1F516;</span> <span class="rmi-lb">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan);" id="bookmark-badge">0</span></button>
+        <button class="review-menu-item" onclick="openReview('skip')" role="menuitem"><span class="rmi-ic">&#x23ED;</span> <span class="rmi-lb">Skips</span> <span class="nav-badge-pill" style="background:var(--purple);" id="skip-badge">0</span></button>
+        <button class="review-menu-item" onclick="openReview('archive')" role="menuitem"><span class="rmi-ic">&#x1F5C3;</span> <span class="rmi-lb">Archive</span> <span class="nav-badge-pill" style="background:var(--surface3);color:var(--text3);" id="archive-badge">0</span></button>
+      </div>
+    </div>
     <button class="nav-btn-pill" id="nav-search" onclick="openSuperSearch()" title="Search every question in this book">&#x1F50D; <span class="nav-btn-label">Search</span></button>
     <button class="nav-btn-pill" id="nav-history" onclick="showHistoryScreen()" title="Record of all quiz attempts">&#x1F4D1; <span class="nav-btn-label">History</span></button>
-    <button class="nav-btn-pill" id="nav-focus" onclick="openFocusModal()" title="Pomodoro / focus timer">&#x1F345; <span class="nav-btn-label">Focus</span></button>
     <button class="nav-btn-pill sync-btn-wrap" id="sync-nav-btn" onclick="openSyncModal()" style="position:relative;">☁ <span class="nav-btn-label">Sync</span><div class="sync-dot offline" id="sync-status-dot" title="Sync Off"></div></button>
   </div>
   <!-- Mobile-only secondary tools row (populated from the top navbar by layoutSetupNav) -->
@@ -1741,7 +1753,6 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
     <button class="nav-action-btn btn-mark" onclick="markForReview()"><span class="na-ic" aria-hidden="true">&#x2691;</span><span class="na-lb">Mark</span></button>
     <button class="nav-action-btn btn-bookmark" id="btn-bookmark" onclick="toggleBookmark()" aria-label="Bookmark question"><span class="na-ic" aria-hidden="true">&#x1F516;</span></button>
     <button class="nav-action-btn btn-clear" onclick="clearResponse()"><span class="na-ic" aria-hidden="true">&#x21BA;</span><span class="na-lb">Clear</span></button>
-    <button class="nav-action-btn btn-explain" onclick="toggleExplanation()"><span class="na-ic" aria-hidden="true">&#x2726;</span><span class="na-lb">Explain</span></button>
     <span class="kb-hint" style="font-size:0.62rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);padding:3px 8px;border-radius:5px;letter-spacing:0.5px;">&#x2423; next opt &middot; &#x23CE; next &middot; B bookmark &middot; P prev</span>
     <div class="spacer"></div>
     <div class="q-stats">
@@ -1915,13 +1926,72 @@ function sk(baseKey){
   return baseKey+'__book_'+currentBook.id;
 }
 function bookFilePath(file){
-  // Subject "file" paths are always repository-root-relative (matching the
-  // existing BPSC data/chapters.json convention). If a book's chapters index
-  // uses bare filenames, they are resolved against the book's dataDir.
+  // A subject "file" entry is resolved against the active book's dataDir, so a
+  // chapters index may use either a bare filename ("biology.json") or a path
+  // ("data/biology.json") — both mean "this file inside the book's data dir".
+  // The legacy BPSC book declares dataDir "." and keeps its original
+  // repository-root-relative paths ("data/biology.json").
   if(/^(https?:)?\/\//.test(file))return file;
-  let clean=String(file).replace(/^\.\//,'');
-  if(bookDataDir&&bookDataDir!=='.'&&!clean.includes('/'))clean=bookDataDir.replace(/\/$/,'')+'/'+clean;
-  return clean;
+  let clean=String(file).replace(/^(\.\/)+/,'').replace(/^\/+/,'');
+  const dir=String(bookDataDir||'').replace(/\/+$/,'');
+  if(!dir||dir==='.')return clean;                        // legacy book: paths stay as written
+  if(clean===dir||clean.indexOf(dir+'/')===0)return clean; // already inside the book dir (idempotent)
+  return dir+'/'+clean.replace(/^data\//,'');              // drop a stray "data/" prefix
+}
+
+// Every plausible location for a subject's data file, best guess first. Used by
+// fetchBookData() so one stale path in a chapters index cannot blank out a book.
+function bookDataCandidates(subj){
+  // Always resolve from the RAW manifest value: subj.file may already carry a
+  // book's dataDir, and re-resolving that against a different dataDir would
+  // stack the prefixes.
+  const raw=String((subj&&(subj.rawFile||subj.file))||'').replace(/^(\.\/)+/,'');
+  const dir=String(bookDataDir||'').replace(/\/+$/,'');
+  const base=raw.split('/').pop();
+  const key=subj&&subj.id?String(subj.id):'';
+  const list=[];
+  const add=p=>{if(p&&list.indexOf(p)===-1)list.push(p);};
+  add(bookFilePath(raw));
+  add(raw);
+  if(dir&&dir!=='.'){
+    if(base)add(dir+'/'+base);
+    if(key)add(dir+'/'+key+'.json');
+  }
+  if(subj)add(subj.file);
+  return list;
+}
+
+// Fetch + parse a subject data file, falling back through bookDataCandidates().
+// Throws an Error whose message names every URL tried and why each one failed.
+async function fetchBookData(subj){
+  const label=(subj&&subj.name)||(subj&&subj.id)||'subject';
+  const tried=[];
+  const candidates=bookDataCandidates(subj);
+  for(let i=0;i<candidates.length;i++){
+    const url=candidates[i];
+    let resp;
+    try{resp=await fetch(url);}
+    catch(err){tried.push(url+' (network error)');continue;}
+    if(!resp.ok){tried.push(url+' (HTTP '+resp.status+')');continue;}
+    let data;
+    try{data=await resp.json();}
+    catch(err){tried.push(url+' (not valid JSON)');continue;}
+    if(data&&typeof data==='object')return data;
+    tried.push(url+' (unexpected payload)');
+  }
+  const err=new Error('Could not load '+label+' questions. Tried: '+tried.join(', '));
+  err.attempts=tried;
+  throw err;
+}
+
+function dataLoadErrorHtml(err){
+  const detail=escapeHtml((err&&err.message)||'Unknown error');
+  const hint=location.protocol==='file:'
+    ?'This page is open as a local file, and browsers block data file reads from file:// URLs. Serve the folder instead (e.g. <code>python3 -m http.server</code>) or open the deployed site.'
+    :'The data file(s) for this subject could not be fetched. The URLs that were tried are listed below.';
+  return '<div style="padding:18px;text-align:left;font-size:0.72rem;line-height:1.65;color:var(--red);">'
+    +'&#x26A0; Could not load this subject.<br>'+hint
+    +'<br><span style="color:var(--text3);word-break:break-all;">'+detail+'</span></div>';
 }
 function resolveBookChaptersUrl(book){
   const dir=book.dataDir&&book.dataDir!=='.'?book.dataDir.replace(/\/$/,'')+'/':'';
@@ -1956,9 +2026,44 @@ function removeFromBookmarks(uid,arc=true){const b=getBookmarks();if(arc&&b[uid]
 function addToSkips(qs){const b=getSkips();qs.forEach(q=>{const p=b[q.uid]||{},base={q,source:'skip',addedAt:p.addedAt||nowISO(),times:(p.times||0)+1};if(p.nextReviewAt){base.correctCount=0;base.lastReviewedAt=nowISO();base.nextReviewAt=new Date(Date.now()+DAY_MS).toISOString();}else{base.correctCount=p.correctCount||0;base.nextReviewAt=nowISO();}b[q.uid]=base;});saveSkips(b);updateAllBadges();}
 function processCorrectAnswers(cr){const m=getMistakes(),s=getSkips();let mc=false,sc=false;cr.forEach(r=>{const uid=r.q.uid;if(m[uid]){m[uid].userKey=r.userKey;const next=(m[uid].correctCount||0)+1;if(scheduleBloom(m[uid],next)==='archive'){archiveQuestion(r.q,'mistake');delete m[uid];}mc=true;}if(s[uid]){const next=(s[uid].correctCount||0)+1;if(scheduleBloom(s[uid],next)==='archive'){archiveQuestion(r.q,'skip');delete s[uid];}sc=true;}});if(mc)saveMistakes(m);if(sc)saveSkips(s);}
 function updateAllBadges(){
-  ['mistake','bookmark','skip','archive'].forEach(k=>{const el=document.getElementById(k+'-badge');if(el)el.textContent=Object.keys({mistake:getMistakes,bookmark:getBookmarks,skip:getSkips,archive:getArchive}[k]()).length;});
+  let total=getBloomDue().length;
+  ['mistake','bookmark','skip','archive'].forEach(k=>{const n=Object.keys({mistake:getMistakes,bookmark:getBookmarks,skip:getSkips,archive:getArchive}[k]()).length;total+=n;const el=document.getElementById(k+'-badge');if(el)el.textContent=n;});
   const bloom=document.getElementById('bloom-badge');if(bloom)bloom.textContent=getBloomDue().length;
+  const review=document.getElementById('review-badge');if(review)review.textContent=total;
 }
+
+// ----- Consolidated Review dropdown (mistakes / bookmarks / skips / archive / bloom) -----
+function toggleReviewMenu(e){
+  if(e)e.stopPropagation();
+  const menu=document.getElementById('nav-review-menu');
+  const btn=document.getElementById('nav-review-btn');
+  if(!menu||!btn)return;
+  const open=menu.classList.toggle('open');
+  btn.setAttribute('aria-expanded',open?'true':'false');
+  if(open){
+    const r=btn.getBoundingClientRect();
+    const mw=Math.max(232,menu.offsetWidth||232);
+    const left=Math.min(Math.max(8,r.right-mw),window.innerWidth-mw-8);
+    menu.style.top=(r.bottom+6)+'px';
+    menu.style.left=left+'px';
+  }
+}
+function closeReviewMenu(){
+  const menu=document.getElementById('nav-review-menu');
+  const btn=document.getElementById('nav-review-btn');
+  if(menu)menu.classList.remove('open');
+  if(btn)btn.setAttribute('aria-expanded','false');
+}
+function openReview(kind){
+  closeReviewMenu();
+  const map={bloom:showBloomScreen,mistake:showMistakeScreen,bookmark:showBookmarkScreen,skip:showSkipScreen,archive:showArchiveScreen};
+  (map[kind]||function(){} )();
+}
+document.addEventListener('click',e=>{
+  const wrap=document.getElementById('nav-review');
+  if(wrap&&!wrap.contains(e.target))closeReviewMenu();
+});
+window.addEventListener('resize',closeReviewMenu);
 function bloomEntryDue(entry){
   const t=Date.parse(entry&&entry.nextReviewAt||entry&&entry.addedAt||0);
   return Number.isFinite(t)&&t<=Date.now();
@@ -2009,8 +2114,8 @@ async function toggleSubjectCard(subjId){
   card.classList.add('expanded');currentSubjectId=subjId;selectedChapters.clear();
   if(!subjectDataCache[subjId]){
     document.getElementById('sc-chlist-'+subjId).innerHTML='<div style="padding:20px;text-align:center;font-size:0.75rem;color:var(--text3);">&#x23F3; Loading...</div>';
-    try{const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);const resp=await fetch(bookFilePath(subj.file));if(!resp.ok)throw new Error();const data=await resp.json();subjectDataCache[subjId]=data;}
-    catch(err){document.getElementById('sc-chlist-'+subjId).innerHTML='<div style="padding:20px;text-align:center;font-size:0.75rem;color:var(--red);">&#x26A0; Failed to load. Run from a local server.</div>';return;}
+    try{const subj=SUBJECTS_CONFIG.find(s=>s.id===subjId);subjectDataCache[subjId]=await fetchBookData(subj);}
+    catch(err){console.error('Subject data load failed ('+subjId+'):',err);const box=document.getElementById('sc-chlist-'+subjId);if(box)box.innerHTML=dataLoadErrorHtml(err);return;}
   }
   processData(subjectDataCache[subjId],subjId);renderChapterList(subjId);updateHeroCounts();
   setTimeout(()=>{card.scrollIntoView({behavior:'smooth',block:'nearest'});},100);
@@ -2913,8 +3018,8 @@ async function ensureBookSearchIndex(){
   bookSearchIndexPromise=Promise.all(SUBJECTS_CONFIG.map(async subj=>{
     let data=subjectDataCache[subj.id];
     if(!data){
-      try{const resp=await fetch(bookFilePath(subj.file));if(!resp.ok)return[];data=await resp.json();subjectDataCache[subj.id]=data;}
-      catch(e){return[];}
+      try{data=await fetchBookData(subj);subjectDataCache[subj.id]=data;}
+      catch(e){console.warn('Super search: skipping '+subj.id,e&&e.message);return[];}
     }
     let idx=0;const out=[];
     (data.chapters||[]).forEach(ch=>{const chName=ch.chapter_name||ch.name||'General';(ch.questions||[]).forEach(q=>{const internal=toInternalQuestion(q,subj.id,idx++,chName);out.push(internal);});});
@@ -3230,16 +3335,23 @@ function parseAssertionReason(question){
 function parseSequentialRows(question,kind){
   const text=String(question||'').replace(/\r/g,'').trim();
   // Markers accept "1.", "1)" and the parenthesized "(1)" convention (likewise
-  // for letters); a parenthesized marker must close with a parenthesis.
-  const markerRe=kind==='letter'?/(^|\n|\s)(?:\(([A-D])\)|([A-D])[.)])\s+/g:/(^|\n|\s)(?:\((\d{1,2})\)|(\d{1,2})[.)])\s+/g;
+  // for letters and Roman numerals); a parenthesized marker must close with a
+  // parenthesis. Roman is used by several Bihar CA "numbered statement" stems.
+  const MARKERS={
+    letter:{re:/(^|\n|\s)(?:\(([A-Ea-e])\)|([A-Ea-e])[.)])\s+/g,order:['A','B','C','D','E']},
+    number:{re:/(^|\n|\s)(?:\((\d{1,2})\)|(\d{1,2})[.)])\s+/g,order:['1','2','3','4','5','6','7','8','9','10','11','12']},
+    roman:{re:/(^|\n|\s)(?:\((VI|IV|III|II|I|V)\)|(VI|IV|III|II|I|V)[.)])\s+/gi,order:['I','II','III','IV','V','VI']}
+  };
+  const cfg=MARKERS[kind];if(!cfg)return null;
+  const markerRe=cfg.re;
   const matches=[];let match;
   while((match=markerRe.exec(text))!==null)matches.push({label:(match[2]||match[3]).toUpperCase(),start:match.index+match[1].length,contentStart:markerRe.lastIndex});
-  const firstLabel=kind==='letter'?'A':'1';let sequence=[];
+  const firstLabel=cfg.order[0];let sequence=[];
   for(let start=0;start<matches.length;start++){
     if(matches[start].label!==firstLabel)continue;
     const candidate=[matches[start]];
     for(let i=start+1;i<matches.length;i++){
-      const expected=kind==='letter'?String.fromCharCode(65+candidate.length):String(candidate.length+1);
+      const expected=cfg.order[candidate.length];
       if(matches[i].label===expected)candidate.push(matches[i]);
       else if(candidate.length>=2)break;
     }
@@ -3253,7 +3365,10 @@ function parseSequentialRows(question,kind){
   return{intro:text.slice(0,sequence[0].start).trim(),rows,instruction:trailing.instruction};
 }
 function parseNumberedStatements(question){
-  const parsed=parseSequentialRows(question,'number');
+  // Arabic first, then Roman ("I. II. III. IV.") — both render as a clean
+  // numbered statement list.
+  let parsed=parseSequentialRows(question,'number');
+  if(!parsed)parsed=parseSequentialRows(question,'roman');
   if(!parsed)return null;
   const instruction=(parsed.intro+' '+parsed.instruction).toLowerCase();
   return /\b(?:which|select|choose|how many|arrange|order|consider|code|correct|matched)\b/.test(instruction)?parsed:null;
@@ -3325,6 +3440,46 @@ function parseMatchCode(value,labels){
   return tokens.length>=labels.length?tokens.slice(-labels.length):null;
 }
 
+function splitMarkedItems(block,kind){
+  const re=kind==='letter'?/(\([A-Ea-e]\)|[A-Ea-e][.)])/g:kind==='roman'?/(\((?:VI|IV|III|II|I|V)\)|(?:VI|IV|III|II|I|V)[.)])/g:/(\(\d{1,2}\)|\d{1,2}[.)])/g;
+  const found=[];let m,last=null;
+  while((m=re.exec(block))!==null){
+    if(last)found.push({end:m.index,marker:last});
+    last={start:re.lastIndex,raw:m[1]};
+  }
+  if(last)found.push({end:block.length,marker:last});
+  return found.map(f=>{
+    const label=f.marker.raw.replace(/[().]/g,'').toUpperCase();
+    const text=block.slice(f.marker.start,f.end).replace(/[\s;,:]+$/,'').trim();
+    return{label,text};
+  }).filter(it=>it.text);
+}
+
+function parseSequentialMatchRows(text){
+  // Many BPSC stems place List-I and List-II as two back-to-back lists
+  // (lettered/Roman on the left, numbered on the right) instead of interleaved
+  // pairs. Pair them by position so they render as a clean two-column table.
+  // The instruction sentence also says "List I ... List II", so use the LAST
+  // occurrences — those are the actual list headings.
+  const leftAll=[...text.matchAll(/list\s*[-–—]?\s*(?:i|1)\b/gi)];
+  const rightAll=[...text.matchAll(/list\s*[-–—]?\s*(?:ii|2)\b/gi)];
+  if(!leftAll.length||!rightAll.length)return null;
+  const leftIdx=leftAll[leftAll.length-1];
+  const rightIdx=rightAll[rightAll.length-1];
+  if(rightIdx.index<=leftIdx.index)return null;
+  const leftBlock=text.slice(leftIdx.index+leftIdx[0].length,rightIdx.index);
+  let rightBlock=text.slice(rightIdx.index+rightIdx[0].length);
+  rightBlock=rightBlock.replace(/\s+(?:select|choose|give)\b[\s\S]*$/i,'').replace(/\s+codes?\s*:?[\s\S]*$/i,'').trim();
+  const leftLetter=splitMarkedItems(leftBlock,'letter');
+  const leftRoman=splitMarkedItems(leftBlock,'roman');
+  const left=leftLetter.length>=leftRoman.length?leftLetter:leftRoman;
+  const rightNumber=splitMarkedItems(rightBlock,'number');
+  const rightLetter=splitMarkedItems(rightBlock,'letter');
+  const right=rightNumber.length>=rightLetter.length?rightNumber:rightLetter;
+  if(left.length<3||right.length<3||left.length!==right.length)return null;
+  return left.map((item,i)=>({leftLabel:item.label,leftText:item.text,rightLabel:right[i].label,rightText:right[i].text}));
+}
+
 function parseMatchQuestion(question,options){
   const text=String(question||'').replace(/\s+/g,' ').trim();
   if(!/(?:\bmatch\b|correctly\s+match)/i.test(text))return null;
@@ -3389,7 +3544,7 @@ function parseMatchQuestion(question,options){
     if(bareTitles){leftTitle=bareTitles[1];rightTitle=bareTitles[2];}
   }
 
-  const rows=[];
+  let rows=[];
   let row;
   if(scheme==='alpha'){
     const rowRe=/(?:^|\s)(?:\(([A-Ea-e])\)|([A-Ea-e])[.)])\s*(.*?)(?:\s+[-–—]\s*)?(?:\(([0-9]+|[ivx]+)\)|([0-9]+|[ivx]+)[.)])\s*(.*?)(?=(?:\s+)(?:\([A-Ea-e]\)|[A-Ea-e][.)])\s*|$)/gi;
@@ -3410,7 +3565,14 @@ function parseMatchQuestion(question,options){
       if(leftLabel&&rightLabel&&leftText&&rightText)rows.push({leftLabel,leftText,rightLabel,rightText});
     }
   }
+  if(rows.length<3){
+    const seq=parseSequentialMatchRows(text);
+    if(seq&&seq.length>=3)rows=seq;
+  }
   if(rows.length<3)return null;
+  // Drop a trailing "List-I (...):" that leaked into the prompt so the rendered
+  // intro doesn't duplicate the column header.
+  prompt=String(prompt||'').replace(/[\s;:]*list\s*[-–—]?\s*(?:i|1)\b\s*(?:\([^)]*\))?\s*:?\s*$/i,'').replace(/[\s:;]+$/,'').trim()||'Match the following:';
 
   const labels=rows.map(r=>r.leftLabel);
   const codeRows=Object.entries(options||{}).map(([key,value])=>({key,value:String(value),codes:parseMatchCode(value,labels)}));
@@ -3459,10 +3621,7 @@ function renderQuestion(){
   if(matchData)optHtml=renderMatchOptions(matchData,optionKeys,answered);
   else optHtml=optionKeys.map(key=>{const value=options[key];if(value==null||value==='')return '';let cls='opt-btn';if(answerHasKey(answered,key))cls+=' selected';const text=optionDisplayText(value,key);return `<button class="${cls}" onclick="selectOption('${escapeHtml(key)}')" aria-label="Option ${escapeHtml(key)}: ${escapeHtml(text)}"><span class="opt-text">${escapeHtml(text)}</span></button>`;}).join('');
   const isMulti=questionCorrectKeys(q).length>1;
-  const isLast=(i===quiz.length-1);
-  const inlineBtn=isLast?`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="submitQuiz()" style="padding:9px 22px;background:var(--green);color:#fff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Submit</button></div>`:`<div class="q-inline-nav" style="display:flex;justify-content:flex-end;margin-top:8px;"><button onclick="saveAndNext()" style="padding:9px 22px;background:var(--gold);color:#ffffff;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;border:none;border-radius:8px;cursor:pointer;">Next &#x2192;</button></div>`;
-  const correctLabel=questionCorrectAnswerLabel(q);
-  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>${inlineBtn}<button class="explain-inline" type="button" onclick="toggleExplanation()">&#x2726; Show explanation</button><div class="explanation" id="explanation"><div class="exp-header"><span class="exp-title">Explanation</span><span class="exp-correct-ans">${correctLabel?('&#x2713; '+bookText(correctLabel)):'No verified answer'}</span></div><div class="exp-body">${bookText(q.explanation||'No explanation available.')}</div>${q.note?`<div class="exp-note"><b>&#9888; Note:</b> ${bookText(q.note)}</div>`:''}</div>`;
+  document.getElementById('question-area').innerHTML=`<div class="q-header"><span class="q-num">Q ${i+1} / ${quiz.length}</span><span class="question-type-pill">${escapeHtml(presentation.type)}</span>${topicPillHtml(q)}${examLabel?`<span class="q-exam-tag">${escapeHtml(examLabel)}</span>`:''} ${isMarked?`<span style="font-size:0.65rem;background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);padding:3px 8px;border-radius:4px;">&#x2691; Marked</span>`:''}</div><div class="q-card ${matchData?'q-card-match':''}">${presentation.html}</div>${matchData?'<div class="match-code-caption">Answer codes</div>':''}${isMulti?'<div class="multi-answer-hint">Multiple answers are correct — select every correct option.</div>':''}<div class="options-grid ${matchData?'match-options-grid':''}">${optHtml}</div>`;
   if(i===quiz.length-1){document.getElementById('btn-next').style.display='none';document.getElementById('btn-submit').style.display='';}
   else{document.getElementById('btn-next').style.display='';document.getElementById('btn-submit').style.display='none';}
   const bookmarks=getBookmarks(),bBtn=document.getElementById('btn-bookmark');
@@ -3480,7 +3639,6 @@ function saveAndNext(){if(state.current<quiz.length-1){state.current++;state.vis
 function goToPrev(){if(state.current>0){state.current--;renderQuestion();renderPalette();updateStats();}}
 function markForReview(){state.marked[state.current]=!state.marked[state.current];renderQuestion();renderPalette();updateStats();}
 function clearResponse(){state.answers[state.current]=null;renderQuestion();renderPalette();updateStats();}
-function toggleExplanation(){const ex=document.getElementById('explanation');if(!ex)return;ex.classList.toggle('show');const b=document.querySelector('#question-area .explain-inline');if(b)b.innerHTML=ex.classList.contains('show')?'&#x2713; Hide explanation':'&#x2726; Show explanation';}
 
 function setPaletteOpen(isOpen){
   const body=document.getElementById('quiz-body'),button=document.getElementById('palette-toggle'),icon=document.getElementById('palette-toggle-icon');
@@ -3754,9 +3912,7 @@ async function ensureSyncQuestionCatalog(){
   syncQuestionCatalogPromise=Promise.all(SUBJECTS_CONFIG.map(async subj=>{
     let data=subjectDataCache[subj.id];
     if(!data){
-      const response=await fetch(bookFilePath(subj.file));
-      if(!response.ok)throw new Error(`Could not load ${subj.name} while restoring synced progress.`);
-      data=await response.json();subjectDataCache[subj.id]=data;
+      data=await fetchBookData(subj);subjectDataCache[subj.id]=data;
     }
     return [subj,data];
   })).then(pairs=>{
@@ -4487,7 +4643,7 @@ function applyBook(book){
 
 // Build SUBJECTS_CONFIG from the active book's chapters index.
 function subjectsFromChapterIndex(index){
-  return (index||[]).map(s=>({id:s.key,name:s.label||s.key,icon:s.emoji||'\uD83D\uDCD8',file:bookFilePath(s.file)}));
+  return (index||[]).map(s=>({id:s.key,name:s.label||s.key,icon:s.emoji||'\uD83D\uDCD8',file:bookFilePath(s.file),rawFile:s.file}));
 }
 
 async function loadBankOverview(){
@@ -4589,7 +4745,7 @@ window.addEventListener('offline',()=>{if(syncStatus!=='error')setSyncStatus('of
 /* On phones the top navbar keeps only Switch Book + Search + Sync; the
    secondary tools move into the compact chip row beneath it. On desktop
    and iPad the single scrollable navbar is restored. */
-const SETUP_NAV_TOOLS=['nav-portal-home','nav-bloom','nav-mistake','nav-bookmark','nav-skip','nav-archive','nav-history','nav-focus'];
+const SETUP_NAV_TOOLS=['nav-portal-home','nav-review','nav-history'];
 function layoutSetupNav(){
   const chips=document.getElementById('nav-chips-row');
   const bar=document.querySelector('#setup-screen .top-navbar');
@@ -4614,11 +4770,10 @@ function init(){
   // Lightweight placeholder until a book is chosen.
   buildSubjectsGrid();buildDashboard();updateAllBadges();layoutSetupNav();
   document.body.dataset.activeScreen='books-screen';
+  // Always land on the book-selection screen; never auto-reopen the last book.
   loadBooksManifest().then(()=>{
     renderBooksScreen();
-    // Remember the last book and reopen it for convenience.
-    let lastId=null;try{lastId=localStorage.getItem('gc_last_book');}catch(e){}
-    if(lastId&&BOOKS.some(b=>b.id===lastId)){openBook(lastId);}
+    showScreen('books-screen');
   });
 }
 init();
