@@ -118,6 +118,6 @@
     "color": "#2E7D5A",
     "dataDir": "books/bihar_current_affairs/data",
     "chaptersFile": "chapters.json",
-    "description": "Clean template · 11 chapter groups · 36-page PDF source (Eduteria 2026 Practice Set). Questions array empty — fill from rendered PDFs /tmp/pdf_pages/page_01-36.png."
+    "description": "11 practice sets · 550 questions converted from Bihar Current Affairs Sets 1–11 Excel workbook"
   }
 ]
