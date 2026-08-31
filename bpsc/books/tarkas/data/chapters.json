@@ -290,5 +290,37 @@
         "count": 18
       }
     ]
+  },
+  {
+    "key": "chemistry",
+    "label": "Chemistry",
+    "emoji": "🧪",
+    "file": "chemistry.json",
+    "chapters": [
+      {
+        "name": "Atomic Structure, Radioactivity, Periodic Table",
+        "count": 22
+      },
+      {
+        "name": "Physical and Chemical Changes, Properties of Matter, Mixture and Solution, Acid, Base",
+        "count": 56
+      },
+      {
+        "name": "Metals, Minerals, Ores, Alloys",
+        "count": 28
+      },
+      {
+        "name": "Non-Metal Compounds",
+        "count": 26
+      },
+      {
+        "name": "Food Preservatives, Soap and Detergent, Fertilizers",
+        "count": 39
+      },
+      {
+        "name": "Miscellaneous",
+        "count": 36
+      }
+    ]
   }
 ]
