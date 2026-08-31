@@ -69,13 +69,22 @@ no full written explanations; those cards link to their original source pages.
 
 ## BPSC runtime included
 
-- 10 registered books
-- 50 subject data files
-- 18,395 question objects across all books
+- 12 registered books
+- 50+ subject data files
+- 19,050+ question objects across all books, including the new **Tarkash Annual PYQ Plus** book
 - The core Ghatna Chakra book retains 4,441 verified questions across 12 subjects and 391 chapters
 - Multi-book selection, subject/chapter/sub-topic practice, quiz ranges and timers, question palette and keyboard controls, structured questions and explanations, mistakes/bookmarks/skips/archive, Bloom spaced review, attempt history and dashboard, search, PDF/print/export tools, focus timer, and Firebase Google sign-in with cloud sync
 - `theme.js` provides one persistent Night Mode control on the portal; night mode is the low-glare default, and portal, UPSC and BPSC all inherit the same saved setting (shared `exam_portal_theme` key, synced to BPSC's legacy `gc_theme`)
 - `bpsc-theme.css` gives BPSC matching day/night palettes with a modern minimalist book library, subject dashboard, quiz workspace, review banks and responsive navigation
+
+## Tarkash Annual PYQ Plus book
+
+`bpsc/books/tarkash_annual/` contains the fully extracted **Annual PYQ Plus (English)** book from the
+Tarkash Annual PDF — 655 recent BPSC questions with options, answer keys and detailed explanations
+across Polity, Physics, Chemistry, Biology, Ancient/Medieval/Modern History, Bihar Special,
+Geography and Economy (71st Prelims, ASO, DSO, AEDO, WMO and Mains). It appears automatically as
+a book in the BPSC app, and `bpsc/books/tarkash_annual/Tarkash_Annual_PYQ_Plus_Book.html` is a
+self-contained, searchable study copy of the whole book.
 
 ## Maintenance scripts
 
