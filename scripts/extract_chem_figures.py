@@ -9,7 +9,7 @@ import pymupdf
 
 SRC = "Eduteria Chem Notes Class Wise.pdf"
 OUT = "build_consolidated/figures"
-DPI = 200
+DPI = 150
 
 # Page coordinates of the printable content area (A4 595.32 x 841.92)
 CONTENT = pymupdf.Rect(8, 40, 587, 812)
@@ -42,6 +42,15 @@ def expand_with_text(page, rect, blocks):
             break
         r = grown
     return r
+
+
+def save_quantized(pix, path):
+    """Flatten onto white, palette-quantise and save — keeps flat-colour
+    infographics crisp at a fraction of the RGB size."""
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
+    im.convert("P", palette=Image.ADAPTIVE, colors=176).save(path, optimize=True)
 
 def main():
     os.makedirs(OUT, exist_ok=True)
@@ -98,7 +107,7 @@ def main():
                 clip = pymupdf.Rect(clip) & pymupdf.Rect(8, 40, 587, 806)
             pix = page.get_pixmap(dpi=DPI, clip=clip)
             name = f"p{pnum:03d}_{i}.png"
-            pix.save(os.path.join(OUT, name))
+            save_quantized(pix, os.path.join(OUT, name))
             manifest.append((name, pnum, round(clip.width), round(clip.height)))
     with open(os.path.join(OUT, "manifest.tsv"), "w") as f:
         for name, pnum, w, h in manifest:

@@ -18,6 +18,7 @@ from PIL import Image as PILImage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIG = os.path.join(ROOT, "build_consolidated", "figures")
+FIG_DPI = 150  # DPI used by scripts/extract_chem_figures.py
 OUT = os.path.join(ROOT, "BPSC_Chemistry_Consolidated_Notes_A4.pdf")
 
 pdfmetrics.registerFont(TTFont("DVS", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
@@ -129,7 +130,7 @@ def make_img(fname, caption, width_pct, unit_no):
     with PILImage.open(p) as im:
         pw, ph = im.size
     maxw = AVAIL * (width_pct / 100.0)
-    w = min(maxw, pw * 0.36)
+    w = min(maxw, pw * 72.0 / FIG_DPI)
     h = w * ph / pw
     maxh = 560
     if h > maxh:
@@ -158,8 +159,8 @@ def make_imgs(items, unit_no):
             pw, ph = im.size
         w = cw - 8
         h = w * ph / pw
-        if h > 300:
-            h = 300; w = h * pw / ph
+        if h > 300 * FIG_DPI / 72.0:
+            h = 300 * FIG_DPI / 72.0; w = h * pw / ph
         cells.append(RLImage(p, width=w, height=h))
         caps.append(Paragraph(f"<b>Fig. {unit_no}-{FIGCTR[unit_no]}</b> · {esc(caption)}", ST["cap"]))
         FIGCTR[unit_no] += 1
@@ -479,6 +480,21 @@ def main():
         parse_file(f, story, unit_state)
     doc.multiBuild(story)
     print("built:", OUT)
+    optimize(OUT)
+
+def optimize(path):
+    """Recompress embedded figure PNGs as quality-88 JPEG so the A4 PDF stays
+    light enough for smooth in-browser preview; page count/text untouched."""
+    import pymupdf
+    doc = pymupdf.open(path)
+    n_pages, n_imgs = len(doc), sum(len(p.get_images()) for p in doc)
+    doc.rewrite_images(dpi_threshold=10000, dpi_target=150, quality=88,
+                       lossless=True, color=True, gray=True)
+    tmp = path + ".opt"
+    doc.save(tmp, garbage=4, deflate=True)
+    doc.close()
+    os.replace(tmp, path)
+    print(f"optimized: {n_pages} pages, {n_imgs} images -> {os.path.getsize(path)/1e6:.1f} MB")
 
 def add_front_matter(story):
     st_h = S("fmh", fontName="DVS-B", fontSize=15, leading=19, textColor=colors.HexColor("#123C6B"), spaceAfter=6)
