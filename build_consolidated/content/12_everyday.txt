@@ -1,0 +1,135 @@
+# Unit 12 — Chemistry in Everyday Life & Fuels (pp.147-157)
+UNIT 12|Chemistry in Everyday Life & Fuels|Everyday-life half of the lecture — medicines, dyes, food chemicals, soaps & detergents, fuels (pp. 147–157)
+
+H2 12.1 Medicine & Drugs
+B **Medicine/drug** — chemical substances that treat diseases or reduce pain. Treatment with compounds that destroy microorganisms without harming the body = **chemotherapy**; the compounds = **chemotherapeutic agents**.
+IMG p148_0|Drug structures from the notes|70
+TBL Class~Action~Examples
+Antiseptics~Prevent/destroy growth of harmful microorganisms~Dettol (chloroxylenol + terpineol), Savlon, acriflavine, iodine, methylene blue, mercurochrome; **bithional** added to soaps
+Disinfectants~Destroy microorganisms completely; toxic to living tissues~Floor/sanitary/cloth sterilisation; 1 % phenol = disinfectant, 0.2 % = antiseptic
+Analgesics~Painkillers~Narcotic — morphine (opium alkaloid, habit-forming, causes sleep/unconsciousness at high doses); non-narcotic — aspirin, ibuprofen, naproxen (also antipyretic)
+Antipyretics~Control fever~Aspirin
+Antimalarials~Cure malaria fever~Quinine, chloroquine, paraquine, primaquine
+Tranquilizers~Act on CNS; calming; psychotherapeutic drugs~Sedatives/hypnotics (reduce nervous tension) — reserpine, barbituric acid & derivatives luminal, seconal; mood elevators/antidepressants (for depressed patients) — benzedrine (amphetamine)
+Anaesthetics~Relieve pain / local insensibility; general = unconsciousness for major surgery, local = small body portion for minor operations~General — nitrous oxide, ethylene, cyclopropane (gas); chloroform, divinyl ether, sodium pentothal (liquid); local — xylocaine (jelly), ethyl chloride (spray), procaine (injection)
+Antibiotics~Produced by microorganisms (fungi, bacteria, mould); stop growth of others~Penicillin (pneumonia, bronchitis, abscesses, sore throat); streptomycin (tuberculosis); chloromycetin (typhoid, meningitis, pneumonia, diarrhoea, dysentery); tetracycline (acute fever, trachoma, dysentery, urinary-tract infection)
+Sulpha drugs~Great antibacterial power; sulfanilamide derivatives~Sulphathiazole (severe infections); sulpha pyridine (pneumonia); sulfadiazine (dysentery, urinary & respiratory infections)
+TBLW 16,34,50
+
+H2 12.2 Dyes
+B **Dyes** — coloured substances used in solution or dispersion on substrates (cotton, wool, silk, polyester, nylon, paper, leather, hair, fur, plastics) to give a coloured, shiny appearance.
+B **Colour & theory:** colour depends on light absorption — a compound absorbing in the visible region shows the complementary colour of what it reflects (a dye absorbing blue looks yellow).
+BB **Chromophores** — groups that absorb light and produce colour (nitro, azo groups etc.).
+BB **Auxochromes** — groups that do not absorb light themselves (unlike chromophores) but **deepen the colour** when mixed with coloured compounds — –OH, –NH₂, –Cl, –COOH.
+H3 Classification by Source
+BB **Natural dyes** — from plants (nature): **alizarin, indigo**.
+BB **Synthetic dyes** — man-made in the laboratory: malachite green, orange-I, orange-II, aniline yellow.
+H3 Constitution
+B Nitro dyes — martius yellow; **azo dyes** — aniline yellow, methyl orange, orange-I, congo red; **triphenylmethane dyes** — malachite green, magenta; **indigoid dyes** — indigo, indigosol; **anthraquinone dyes** — alizarin; **phthalein dyes** — phenolphthalein.
+H3 Applications (by how they attach)
+TBL Class~Mechanism / note~Examples
+Acid dyes~Sodium salts of azo dyes bearing sulphonic/carboxylic acid; dye wool, silk, polyurethane; not cotton; nylon's free amino groups give high affinity~Orange-I, orange-II, congo red, methyl orange, methyl red
+Basic dyes~Salts of azo/triphenylmethane dyes with amino (auxochrome) groups; attach to anionic sites of fabric; for polyesters & reinforced nylons~Aniline yellow, butter yellow, malachite green, chrysoidine G
+Direct dyes~Water-soluble; applied directly from aqueous solution; need H-bonding fabrics (cotton, wool, silk, rayon, nylon)~Congo red, martius yellow
+Fibre-reactive dyes~Attach by irreversible reaction with –OH/–NH₂ of fibre (cotton, wool, silk); very fast, long-lasting colour~2,4-dichloro-1,3,5-triazine derivatives
+Insoluble azo dyes~Coupling of phenols/naphthols/aminophenols adsorbed on fabric (with polyurethanes, polyacrylonitrile, leather); ≈60 % of all dyes; toxic — never for food~Cosmetics, drugs, biological stains/indicators
+Ingrain (developed) dyes~Insoluble in water; produced in situ on the fabric surface by coupling reactions~Para red
+Vat dyes~Insoluble; first reduced to colourless soluble form (alkaline sodium hydrosulphite), applied, then re-oxidised to the coloured form (air/chromic acid); dye wool~Indigo, indigosol O
+Mordant dyes~Fabric first treated with metal-ion mordant that binds dye & fibre; different metals → different colours; used for wool~Alizarin (rose-red / turkey red)
+TBLW 16,54,30
+NOTE On source p. 150 the direct-dyes paragraph was accidentally printed twice — kept once. All classes A–H are preserved above.
+
+H2 12.3 Rocket Propellants
+B **Rocket propellants** give the push that places rocket satellites into space. Each propellant combines two compounds: (a) an **explosive compound = fuel** and (b) an **oxidizer**.
+H3 Conditions for a Good Propellant
+B (1) **Ashless** — burning leaves no ash; (2) burning produces a **large volume of gases per gram** of fuel; (3) combustion proceeds at a **fast rate**.
+H3 Classification (by physical state of fuel + oxidizer)
+TBL Type~Fuel~Oxidizer~Notes
+Solid — composite~Polymeric binder: polyurethane or polybutadiene~Ammonium perchlorate—
+Solid — double base~Nitrocellulose + nitroglycerine (both in one mass)—~Once ignited they burn at a predetermined rate — **no start/stop capability**
+Liquid — monopropellant~Single liquid acting as fuel & oxidizer — nitromethane, methyl nitrate—~Higher thrust than solids; thrust controllable by switching flow on/off
+Liquid — bipropellant~Kerosene, alcohol, hydrazine, monomethyl hydrazine (MMH), liquid hydrogen~Liquid oxygen, nitrogen tetroxide, nitrous acid~Same advantages as monopropellants
+Hybrid~Solid fuel — acrylic rubber~Liquid oxidizer — nitrous oxide—
+TBLW 20,34,24,22
+B **Specific impulse (I_s)** — defines the superiority/performance of a propellant: performance ∝ **flame temperature (T)** and inversely ∝ average molecular mass (M) of product gases — hotter flame & lighter exhaust gases → better propellant.
+
+H2 12.4 Chemicals in Food
+B **Food additives** — chemicals that improve quality, appearance, taste, odour & nutritive value: preservatives, flavouring agents, artificial sweeteners, dyes, antioxidants, fortifiers, emulsifiers, antifoaming agents.
+B **Antioxidants** — prevent oxidation of fats in packaged food (chips, biscuits, cereals, crackers); more reactive towards oxygen; slow free-radical ageing: **BHT** (butylated hydroxytoluene), **BHA** (butylated hydroxyanisole).
+B **Artificial sweeteners** — for diabetics & calorie control (sucrose/fructose add calories & cause decay):
+TBL Sweetener~Key facts
+Saccharin~Used as sodium/calcium salt; highly water-soluble; non-biodegradable; zero calorific value
+Aspartame~Methyl ester of dipeptide (phenylalanine + aspartic acid); sugar substitute in soft drinks & cold foods
+Alitame~Like aspartame but more stable
+Sucralose~Trichloro derivative of sucrose; no calories, no tooth decay
+Cyclamate~N-cyclohexyl sulfamate
+L-Glucose~Sweet like D-sugars but no energy — our body lacks the enzymes to metabolise it
+TBLW 20,80
+B **Preservatives** — protect food from bacteria, yeasts, moulds: **sodium benzoate**; sodium/potassium metabisulphite (jams, squashes, pickles — SO₂ → sulphurous acid inhibits growth); salts of propionic & sorbic acid.
+B **Edible colours** — improve appearance, add no nutrition.
+
+H2 12.5 Soaps & Synthetic Detergents
+H3 Soaps
+B Sodium/potassium salts of higher fatty acids — lauric (C₁₁H₂₃COOH), myristic (C₁₃H₂₇COOH), palmitic (C₁₅H₃₁COOH), stearic (C₁₇H₃₅COOH), oleic (C₁₇H₃₃COOH), linoleic (C₁₇H₃₁COOH), linolenic (C₁₇H₂₉COOH).
+B **Biodegradable** — sewage microorganisms oxidise them fully to CO₂ → no water pollution. **Two disadvantages:**
+BB Fail in **hard water** — Ca²⁺/Mg²⁺ form curdy white precipitate (scum).
+BB Fail in **acidic solutions** — precipitate insoluble free fatty acids.
+IMG p152_0|Soap — fatty-acid salt structure|54
+H3 Synthetic Detergents
+B Sodium salts of long-chain alkyl hydrogen sulphates / alkylbenzene sulphonates; work even in hard water (Ca/Mg salts soluble); not completely biodegradable → water pollution.
+IMG p153_0|Classification of detergents|58
+TBL Type~Nature~Examples / facts
+Anionic~Large anionic part~(a) Sodium alkyl sulphates — long-chain alcohols + conc. H₂SO₄ + NaOH; purely biodegradable. (b) Alkylbenzene sulphonates — Friedel-Crafts alkylation + sulphonation + NaOH; sodium dodecylbenzene sulphonate; effective in slightly acidic solutions (soaps fail there)
+Cationic~Quaternary ammonium salts (Cl⁻, Br⁻, acetate); expensive; germicidal~Cetyltrimethylammonium chloride [CH₃(CH₂)₁₅N⁺(CH₃)₃]Cl⁻
+Non-ionic~High-mass esters~Polyethylene glycol + stearic acid; or long-chain alcohols + excess ethylene oxide with base
+TBLW 14,34,52
+B **Detergent pollution:** **branched** hydrocarbon chains — bacteria cannot attack the side chains → slow degradation & accumulation in lakes/ponds/rivers.
+BB **Biodegradable detergents** — straight chains (e.g. **sodium lauryl sulphate**) — microorganisms easily break them down.
+NOTE The detergent/biodegradability block was repeated on source p. 153 — merged once above.
+
+H2 12.6 Fuels
+B **Fuel** — any substance undergoing chemical/nuclear change to produce energy that can be converted to useful work.
+B **Calorific value** — energy released per unit mass on complete combustion; **SI unit J/kg**.
+IMG p154_0|Fuel classification|34
+B **Renewable sources** — obtained back via biogeochemical cycles (running water → rain; solar). **Non-renewable** — fossil fuels take millions of years; use judiciously; prefer alternatives first.
+H3 Properties of an Ideal Fuel
+B **Ignition temperature** — easily attainable (matchstick head ignites by friction heat).
+B **High calorific value.**
+B **Environment-friendly** — less harmful residue; complete combustion (CNG leaves almost none).
+B **Moderate, constant rate of combustion** — rapid/explosive burning is undesirable.
+B **Easy availability at low cost** and **easy storage & transport**.
+H3 Types of Fuels
+B **By state:** solid / liquid / fuel gases (in their primary stage). **By occurrence:** natural, biofuels, fossil, artificial.
+BB **Fossil fuels** — dead plants → **coal**; dead aquatic animals → **petroleum (crude oil)**; rich energy, non-renewable.
+BB **Artificial fuels** — water gas & producer gas (laboratory/industrial conditions).
+IMG p155_1|Calorific values of common fuels|46
+TBL Solid~Liquid~Gaseous
+Wood, coal, coke, cow-dung cake, paraffin wax, uranium (nuclear)~Petrol, diesel, kerosene, LPG, LNG~Natural gas (firedamp — mainly CH₄ + higher hydrocarbons + traces of H₂S); biogas; blast-furnace gas; refinery gases; oil-gasification gas
+TBLW 34,28,38
+B **Natural gas characteristics:** high calorific value; proper ignition temperature; easier to extract from petroleum deposits than coal; liquefiable → **LNG** transported by tankers.
+B **Other gaseous fuel sources:** methane around coal beds; waste & biomass gases; industrial gases; petroleum-derived (LPG, refinery gases); fermentation (ethyl alcohol from sugarcane).
+H3 Octane Number & Knocking
+B **Octane number** — fuel's ability to resist **"knocking"** (premature combustion in spark-ignition/petrol engines); scaled to **iso-octane = 100**, **n-heptane = 0**; measured as **RON** (Research Octane Number).
+B **Definition:** % of iso-octane in an iso-octane/n-heptane mixture matching the fuel's anti-knock quality.
+B **Knocking:** premature, uneven combustion of the fuel-air mix → pressure waves → efficiency loss & engine damage; more prevalent with low-octane fuel.
+B **High vs low octane:** high-compression (luxury/sports) engines need 95–100; regular petrol 87–90; premium 91–100+; racing/aviation fuels often exceed 100.
+B **India:** moving toward **95 RON** and **E20** (20 % ethanol) blends for efficiency & lower emissions; indigenous 97-octane reference fuel produced; E20 mandate also raises octane.
+B **Global standards:** RON & MON; pumps in many countries display **AKI** (Anti-Knock Index = average of RON & MON).
+B **Octane vs cetane:** octane → petrol engines (spark-ignition); **cetane number** → diesel engines (compression-ignition), measuring ignition delay.
+H3 Tetraethyl Lead (TEL)
+B TEL was added to petrol as an **anti-knock agent** — suppresses premature ignition, raises octane, lets engines run at higher compression ratios & more power.
+B **Phased out globally** — lead is toxic (neurotoxic, environmental hazard); remains only in some aviation gasoline (Avgas). Safer alternatives: **ethanol** and **MTBE** (methyl tertiary-butyl ether).
+NOTE The octane/TEL discussion was repeated across source pp. 155–157 (some blocks printed twice); the facts are consolidated once above.
+
+H2 12.7 Quick Revision — Everyday Chemistry
+BOX One-line answers (from across the unit)::
+Antiseptic vs disinfectant — 0.2 % phenol antiseptic, 1 % disinfectant.
+Aspirin — analgesic + antipyretic.
+Bithional — antiseptic in soaps.
+Saccharin — first artificial sweetener, zero calorie.
+Sodium benzoate — most common food preservative.
+BHT/BHA — antioxidants.
+Cetyltrimethylammonium chloride — cationic detergent germicide.
+Sodium lauryl sulphate — biodegradable (straight chain) detergent.
+Iso-octane : n-heptane = 100 : 0 octane scale.
+E20 — 20 % ethanol-blended petrol, mandated in India.

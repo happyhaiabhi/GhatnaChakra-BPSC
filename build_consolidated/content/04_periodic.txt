@@ -1,0 +1,83 @@
+# Unit 4 — Periodic Table & Classification (pp.42-46 + history pp.25-30 + revision pp.83-85)
+UNIT 04|Periodic Table & Classification of Elements|Periodic Table lecture (pp. 42–46) + periodic history merged from the Atomic Structure lecture (pp. 25–30) + trends revision (pp. 83–85)
+
+H2 4.1 Introduction
+B Matter exists as elements, compounds and mixtures; **elements** contain only one type of atom (e.g. Na, Mg, Au). **118 elements** are known — all with different properties — so they are grouped such that elements of the same group have similar properties.
+NOTE The history of the periodic table (Döbereiner → Newlands → Mendeleev → Modern) was taught twice — in the Atomic-Structure lecture (pp. 25–27) and in the Periodic-Table lecture (pp. 42–43). Both versions carried the same facts; the fuller version is kept here once.
+
+H2 4.2 Döbereiner's Triads (1829)
+B By 1829, **30 elements** had been discovered. Döbereiner, a German scientist, grouped some elements into **Triads** of 3 with similar chemical properties — the atomic mass of the **middle element ≈ average of the other two**.
+IMG p025_0|Döbereiner's triads with worked averages|62
+TBL Triad~Elements~Atomic mass~Arithmetic mean
+Triad-1~Lithium, Sodium, Potassium~7, 23, 39~(7+39)/2 = 23
+Triad-2~Chlorine, Bromine, Iodine~35.5, 80, 126.5~(35.5+126.5)/2 = 81
+Triad-3~Calcium, Strontium, Barium~40, 87, 137~(40+137)/2 = 88.5
+TBLW 14,42,22,22
+B **Limitations:** only three triads were recognised; only **9 of the 30** known elements could be arranged as triads.
+
+H2 4.3 Newlands' Law of Octaves (1866)
+B By 1866, **56 elements** were known. Newland, an English scientist, arranged them in increasing atomic mass and found every **8th element repeats** the properties of the 1st (like sa-re-ga-ma octaves in music) — e.g. properties of Li and Na were found similar.
+B **Limitations:**
+BB Applicable only up to **calcium** (17 lighter elements).
+BB Newly discovered elements did not fit the law.
+BB Two unlike elements were sometimes put in one slot.
+BB Placing of **iron (Fe)** far from **cobalt (Co)** and **nickel (Ni)** (which have similar properties) could not be explained.
+
+H2 4.4 Mendeleev's Periodic Table (1869)
+B Dmitry Mendeleev, a Russian chemist — **63 elements** known by then. Arranged by **increasing atomic mass**; similar properties recur at regular intervals.
+B **Mendeleev's periodic law:** "The properties of elements are a periodic function of their atomic masses."
+B **Structure:** horizontal rows = **periods**; vertical columns = **groups** (eight, I to VIII). Groups I–VII subdivided into A and B; Group VIII has no subgroups. Properties in a period show regular gradation left → right; elements of a group show similar properties.
+IMG p043_0|Mendeleev's periodic table (with oxide & hydride formulas)|76
+H3 Merits
+B Predicted properties of elements from their positions.
+B Inert gases, when discovered, fit into a **new group** without disturbing the existing order.
+B Systematic study — knowing one element of a group lets us predict the others.
+B Left gaps for undiscovered elements — **Gallium (Ga), Scandium (Sc), Germanium (Ge)** were discovered this way.
+B **Corrected doubtful atomic masses** using expected positions and properties.
+H3 Limitations
+B **Isotopes** (same element, different mass) violated the increasing-mass arrangement.
+B **Hydrogen** resembles Group-I as well as Group-VII, but was placed in Group-I without explanation.
+B Wrong (decreasing) order of atomic masses of some pairs could not be explained — e.g. **Co–Ni** and **Te–I**.
+
+H2 4.5 Modern Periodic Table
+B In **1913, Moseley** proved that **atomic number** is the fundamental property of an element; after that **Neil Bohr** built the Modern Periodic Table on atomic number.
+B **Modern periodic law:** properties of elements are a periodic function of their **atomic numbers**.
+B Most properties depend on the number of **valence electrons**, and elements with the same number of valence electrons are grouped together.
+IMG p045_1|The Modern Periodic Table|88
+H3 Structure
+B **Periods:** 7 horizontal rows (shells increase down a group). **Groups:** 18 vertical columns (same valence electrons).
+B **Blocks:** s, p, d, f — by the orbital into which the last electron enters (s-block: groups 1–2; p-block: 13–18; d-block: 3–12, transition elements; f-block: inner transitions, lanthanides & actinides, placed at the bottom).
+TBL Period~Type~Elements
+1st~Shortest~Only 2 — H and He
+2nd & 3rd~Short periods~8 each (Li→Ne; Na→Ar)
+4th & 5th~Long periods~18 each (K→Kr; Rb→Xe)
+6th~Very long period~32
+7th~Incomplete period—
+TBLW 14,30,56
+B **Group 1** (extreme left) = alkali metals (Li, Na, K, Rb, Cs, Fr); **Group 18** (extreme right) = noble gases (He, Ne, Ar, Kr, Xe, Rn); middle = metalloids/semi-metals showing mixed properties.
+B **Exception:** group-18 elements have 8 valence electrons except **helium** (2) — yet He is rightly placed there because it has a stable configuration and similar properties.
+H3 Position & Electronic Configuration
+B In **periods**: the n of the valence shell equals the period number; each period fills the next principal energy level (n = 1, 2 …); number of elements in a period = **twice the number of atomic orbitals** available in that level.
+B In **groups**: same valence-shell configuration — e.g. group-1 alkali metals all show ns¹ configuration.
+IMG p044_0|Octet rule & first-shell configurations|58
+
+H2 4.6 Periodic Trends — Master Table
+NOTE Trends appeared three times in the source (a big table on p. 31, a summary on p. 46 and a revision on pp. 83–85). The three versions are identical in fact — one master table keeps them all.
+TBL Property~Across a period (left → right)~Down a group
+Atomic radius~Decreases — increased nuclear charge pulls electrons inward~Increases — extra electron shells
+Ionic radius~Decreases~Increases (anions larger than cations)
+Ionization enthalpy / energy~Increases — stronger nuclear hold~Decreases — bigger size & shielding
+Electron gain enthalpy~Increases (more negative) — tendency to gain e⁻ rises~Decreases — gain tendency falls
+Electronegativity~Increases~Decreases
+Metallic / electropositive character~Decreases~Increases
+Non-metallic character~Increases~Decreases
+Acidic nature of oxides~Increases~Decreases
+Chemical reactivity~Metals: decreases; Non-metals: increases~Metals: increases; Non-metals: decreases
+Valence electrons~Increase from 1 to 8~Remain the same
+TBLW 24,38,38
+H3 Factors Behind the Trends
+B **Atomic radii are influenced by:** number of shells (+ → bigger); effective nuclear charge Z_eff (+ → smaller); screening effect (greater → larger).
+B **Ionization energy factors:** atomic size, effective nuclear charge, screening effect, penetration effect, electronic configuration. Lower IE → atom readily forms a positive ion.
+B **Electron gain enthalpy:** enthalpy change when an electron is added to a neutral gaseous atom forming an anion — positive = energy absorbed (less stable anion), negative = energy released (more stable). Depends on atomic size, Z_eff, screening effect, electronic configuration.
+B **Electronegativity:** an atom's power, inside a molecule, to pull the shared pair towards itself — not fixed; depends on bonding partner. Factors: atomic size, Z_eff, magnitude of positive charge. It predicts the nature (ionic/covalent character) of the bond.
+NOTE The ionization-energy factor list was printed twice on source p. 85 (under IE and again under electron gain enthalpy) — it is kept once above.

@@ -1,0 +1,132 @@
+# Unit 1 — Matter & Its States  (Basic Chemistry Part-I pp.2-10 + gas laws pp.22-23)
+UNIT 01|Matter & Its States|Basic Chemistry Part-I (pp. 2–10) + Fundamental Gas Laws (from Part-II, pp. 22–23)
+
+H2 1.1 What is Matter?
+P **Matter** is everything in this universe that **occupies space and has mass** — it offers resistance and can be perceived directly by our senses. Air, water, stones, sand, clouds, pencils, books — everything is made up of matter (e.g. book, pen, pencil, water, air, all living beings).
+B Which of these is matter — happiness, air, sandwich, thoughts, juice, eraser? → **Air, sandwich, juice and eraser**, because they have mass, occupy space and can be broken into further particles. Happiness and thoughts are not matter.
+IMG p002_0|Matter is made of particles|48
+
+H3 Constituents of Matter
+B According to the **early Indian philosophers**, every living and non-living thing is made of five basic elements called the **Panchtatva — Air, Water, Earth, Sky and Fire**. Matter is therefore a composition of these five constituents.
+
+H2 1.2 Physical Nature of Matter — Particulate, not Continuous
+B Matter is **particulate in nature** — it consists of particles (visible in the microscopic image of a cube).
+B If we put a drop of red colour in water, the water turns red — the particles of the colour mix with the particles of water.
+IMGS p002_1|Dilution — colour persists because millions of particles just divide themselves;; p003_0|Dissolving sugar/salt — particles slip into the spaces between water particles
+B The particles of matter are **very small** and can be broken into further particles. On dilution of a colourful solution we can still see the colour — millions of particles divide themselves on dilution. We cannot see these particles with the naked eye.
+
+H3 Characteristics of Particles of Matter
+B Particles of matter have **spaces between them** — salt dissolves in water because its particles get into the spaces between water particles and a mixture is formed.
+B Particles of matter are **moving all the time** — hence they possess **kinetic energy** (energy due to motion). Particles intermix on their own: salt in water, various gases in air, ink in water.
+BB **Diffusion** — the process of mixing two different types of particles together. Diffusion becomes **faster on heating**, because kinetic energy of particles increases on heating.
+B Particles of matter **attract each other** — the force of attraction varies in different forms of matter:
+BB **Solids** have the highest force of attraction — we cannot move our hands through a solid object; the particles are so tightly bound.
+BB **Gases** have the least — we can move our hands easily in air because the particles are loosely bound.
+BB Liquids are intermediate — we can move our hands through water but not as freely as in air.
+IMGS p003_1|Diffusion of particles: before → after|;; p004_0|States of matter — based on force of attraction
+EQ Increasing order of force of attraction:   Gas < Liquid < Solid
+
+H2 1.3 The Three States of Matter
+P Based on the force of attraction between particles, matter exists in three states — **solid, liquid and gaseous**.
+H3 The Solid State
+B Solids have (i) a **specific shape**, (ii) **distinct boundaries** and (iii) a **fixed volume**. e.g. sugar, iron, gold, wood.
+B Less kinetic energy; particles arranged in order; force of attraction is **maximum**; very little space between particles → **cannot be compressed**.
+B Rubber band, sponge and salt are all solids — a rubber band and sponge change shape only when force is applied, and each grain of salt has its own definite shape (it only appears to take the container's shape).
+H3 The Liquid State
+B Liquids have a **fixed volume but no fixed shape** — they take the shape of the container (also called **fluids**, as they can flow / be poured). e.g. water, milk, oil, mercury, alcohol.
+B Force of attraction is less than in solids → space between particles → they can flow easily; cannot be compressed. Particles have high kinetic energy and keep moving.
+B **Can other matter diffuse into liquids?** Yes — solids, liquids and gases can, because there is space between liquid particles:
+BB Solid into liquid → mixing sugar in tea;  Liquid into liquid → mixing ink in water;  Gas into liquid → O₂ and CO₂ present in water.
+H3 The Gaseous State
+B Gases have **neither fixed volume nor fixed shape** — they completely fill the container. e.g. hydrogen, oxygen.
+B Particles have the least (almost no) force of attraction, large spaces between them, **maximum kinetic energy**, move freely at high speed in any direction.
+B Gases **can be compressed** easily and put into a small container, unlike solids and liquids; different gases diffuse into each other easily.
+IMG p012_1|Solid, liquid & gas — particle arrangement|62
+H3 Differences between the Three States
+TBL Property~Solid~Liquid~Gas
+Shape~Definite~Indefinite (takes container's shape)~Indefinite
+Volume~Definite~Definite~Indefinite
+Force of attraction~Maximum~Fewer than solid~Negligible
+Compressibility~Cannot be compressed~Cannot be compressed~Can be compressed
+Kinetic energy~Minimum~More than solid~Maximum
+Motion of particles~Only vibrate at fixed positions~Slide over one another~Move freely
+Density~Highest~Lower than solid~Lowest
+Flow~Cannot flow~Flow~Flow
+TBLW 22,26,26,26
+
+H2 1.4 Can Matter Change Its State?
+P Water exists in three states — **Ice (solid), Water (liquid), Water vapour (gas)** — proof that matter can change state.
+H3 Effect of Temperature (heating)
+B **Solids → Liquids:** on heating, kinetic energy increases and force of attraction decreases; particles vibrate, change positions and become free.
+BB **Melting point** — temperature at which a solid melts to become a liquid at atmospheric pressure (melting point of ice = 273.16 K).
+BB **Fusion** — the process of melting a solid into liquid. During melting the temperature stops rising: the heat is used to diminish the force of attraction — it is "hidden".
+BB **Latent heat** — the heat energy used to break the force of attraction between particles. **Latent heat of fusion** — heat energy required to change 1 kg of solid into liquid at its melting point at atmospheric pressure.
+BB **Atmospheric pressure** — pressure exerted by the weight of the atmosphere.
+B **Liquids → Gases:** kinetic energy rises until particles overcome all attraction and the liquid boils.
+BB **Boiling point** — temperature at which a liquid starts boiling at atmospheric pressure (boiling point of water = 373 K).
+BB **Latent heat of vaporisation** — heat energy required to change 1 kg of liquid into gas at its boiling point at atmospheric pressure.
+IMGS p006_0|Adding heat to a solid creates a liquid (fusion);; p006_1|Boiling — latent heat of vaporisation
+H3 Effect of Temperature (cooling)
+B **Gases → Liquids:** kinetic energy falls; the gas turns into liquid.
+BB **Condensation / Liquefaction** — converting a gas into liquid by cooling (clouds form by condensation of water vapour from Earth).
+B **Liquids → Solids:** kinetic energy falls; liquid becomes solid (formation of ice).
+B **Sublimation** — change of state of gas directly into solid and vice-versa. e.g. **camphor** directly evaporates into air without becoming liquid.
+IMG p007_1|State-change triangle: melting, boiling, condensation, solidification & sublimation|56
+H3 Effect of Pressure
+B Applying pressure brings particles closer, increasing the force of attraction. On compressing and cooling, a gas changes into liquid.
+B **Dry ice** — solid CO₂; directly turns into gas when pressure decreases to 1 atmosphere.
+
+H2 1.5 Evaporation & Cooling
+B **Evaporation** — change of a liquid into vapours at any temperature **below its boiling point**. Liquid particles with high kinetic energy overcome the forces of attraction without any external help.
+IMG p008_0|Evaporation vs boiling|44
+H3 Why does evaporation cause cooling?
+B Evaporation uses the energy of liquid particles; particles absorb energy from the surroundings to compensate → surroundings cool down. e.g.
+B Palms feel cool when acetone (nail-paint remover) evaporates from them.
+B People sprinkle water on roofs/ground on sunny days to cool the area.
+B Hot tea sips faster from a saucer than from a cup.
+H3 Everyday applications
+B **Cotton clothes in summer:** sweat evaporates taking energy from the body; cotton absorbs sweat and exposes it to the atmosphere → evaporation → cooling.
+B **Water droplets on a cold glass:** water vapour in air condenses on contact with the cold walls of the glass (gas → liquid droplets).
+
+H2 1.6 The Five States of Matter
+P Besides solid, liquid and gas, scientists have discovered two more states: **Plasma** and **Bose–Einstein Condensate (BEC)**.
+H3 Plasma
+B Particles are **super-excited and super-energetic**, in the form of **ionised gases**.
+B e.g. fluorescent tubes and neon bulbs — the gas inside gets ionised when electricity passes and the plasma glows. **The Sun and stars glow because of plasma.**
+IMG p009_0|Plasma around us — Sun, stars, lightning, neon lights, plasma TV|56
+H3 Bose–Einstein Condensate (BEC)
+B Fifth state, discovered by **Albert Einstein** from the studies of Indian scientist **Satyendra Nath Bose**.
+B Formed by condensing gases of extremely low densities to much lower temperatures.
+IMG p009_1|Five states of matter — solid, liquid, gas, plasma, BEC|52
+NOTE "The five states" also summarised the classification of matter — that flowchart now lives in Unit 2 (Classification of Matter), so it is not repeated here.
+
+H2 1.7 Important Measurement Units
+TBL Quantity~SI unit~Common / other units
+Mass~Kilogram (kg)—
+Volume~Cubic metre (m³~Litre (L); 1 mL = 1 cm³
+Temperature~Kelvin (K)~°C; 0 °C = 273.16 K ≈ 273 K; **K = °C + 273**
+Pressure~Pascal (Pa)~atmosphere (atm); 1 atm = 1.01 × 10⁵ Pa
+Normal atmospheric pressure~1 atm at sea level—
+TBLW 30,34,36
+NOTE In the source this table carried merged dashes in single cells; values are unchanged.
+
+H2 1.8 Fundamental Gas Laws ⭘ (from Basic Chemistry Part-II)
+NOTE The gas laws were printed at the end of the classification lecture (Part-II, pp. 22–23). They belong with states of matter, so they are placed here — content unchanged.
+H3 Boyle's, Charles's, Gay-Lussac's & Avogadro's Laws
+TBL Law~Relationship~Statement~Constants~Mathematical form
+Boyle's law~Pressure–Volume~Volume inversely proportional to pressure (P↑ → V↓)~T, n~V ∝ 1/P  (PV = k)
+Charles's law~Volume–Temperature~Volume directly proportional to Kelvin temperature~P, n~V ∝ T
+Gay-Lussac's law~Pressure–Temperature~Pressure directly proportional to Kelvin temperature~V, n~P ∝ T
+Avogadro's law~Volume–Amount~Volume directly proportional to moles of gas~T, P~V ∝ n
+TBLW 17,17,36,13,17
+IMG p023_0|Combined gas laws chart — Boyle, Charles, Gay-Lussac, Avogadro & ideal-gas equation|88
+H3 Combined & Ideal Gas Law
+EQ P₁V₁ / T₁  =  P₂V₂ / T₂        PV = nRT
+B **Combined gas law** joins Boyle's, Charles's and Gay-Lussac's laws for a fixed amount of gas.
+B **Ideal gas equation** PV = nRT connects all four variables: P = pressure, V = volume, n = number of moles, R = universal gas constant, T = temperature (in Kelvin).
+H3 Ideal vs Real Gases
+TBL Ideal gas~Real gas
+Theoretical gas that perfectly obeys the gas laws~Deviates from ideal behaviour at high pressure & low temperature
+Particles assumed to have no volume~Particles have finite volume
+No attractive forces between particles~Intermolecular forces exist
+TBLW 50,50

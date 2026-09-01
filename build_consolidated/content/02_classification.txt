@@ -1,0 +1,93 @@
+# Unit 2 — Classification of Matter (Part-II pp.12-21 + compounds pp.18-19 + separations p.22)
+UNIT 02|Classification of Matter|Basic Chemistry Part-II (pp. 12–23) — mixtures, pure substances, colloids & separation methods
+
+H2 2.1 Classification at a Glance
+P At the bulk (macroscopic) level matter is classified into **(a) Mixtures** and **(b) Pure Substances**, which are further classified as shown below.
+IMG p012_0|Classification of matter|72
+NOTE The three phases (solid / liquid / gas) with their examples and the gas laws of this lecture are consolidated in Unit 1; the detailed element classes (metals, non-metals, metalloids) are consolidated in Unit 8 — no repetition here.
+
+H2 2.2 Pure Substances
+B A material containing **only one type of particle** is a pure substance. Pure substances are further divided into **elements** and **compounds**.
+
+H3 Element
+B A pure substance that **cannot be broken down** into simpler substances by chemical means; made of atoms with the same number of protons.
+B Elements are split into three classes on the basis of physical & chemical properties: **(1) Metals (2) Non-metals (3) Metalloids** — position, properties and the full comparison table are given in **Unit 8**.
+BOX Remember::
+Most of the elements in the periodic table are metals. There are six metalloids — boron, silicon, germanium, arsenic, antimony, tellurium. Of the 17 non-metals, 12 are gases; all others are solids except **bromine**, a red volatile liquid.
+
+H3 Compound
+B A substance composed of **two or more different elements chemically bonded in a fixed ratio**; formed by chemical reactions.
+IMG p018_0|Organic vs inorganic compounds|52
+H3 Organic vs Inorganic Compounds
+TBL Point~Organic compounds~Inorganic compounds
+Composition~Always contain C and H, often O, N, S or P~Typically lack C–H bonds
+Bonding~Covalent bonds~Often ionic bonds
+Properties~Gases, liquids or low-melting solids; generally insoluble in water~High-melting solids, often water-soluble
+Source~Mostly from living organisms~From non-living sources like minerals
+Examples~Glucose, methane, proteins, sugar, DNA~Salt, metals, water, CO₂
+TBLW 16,42,42
+B Organic: carbohydrates, proteins, lipids, plastics.  Inorganic: NaCl, H₂O, HCl.
+B **Exceptions** — some carbon substances behave like mineral compounds and are classified as inorganic: CO₂, CO, carbonates (CaCO₃), cyanides.
+
+H3 Ionic vs Covalent Compounds
+TBL Point~Ionic compounds~Covalent compounds
+Bonding mechanism~Electron **transfer** (electrostatic attraction)~Electron **sharing** (directional shared pairs)
+Elements~Usually metal + non-metal~Two or more non-metals
+State & m.p./b.p.~Hard, brittle crystalline solids; high m.p./b.p.~Gases, liquids or soft solids; low m.p./b.p.
+Conductivity~Conduct when molten or dissolved (not as solids)~Generally poor conductors
+Solubility~Often soluble in water~Tend to be insoluble (polar covalent can be exceptions)
+Structure~Crystal lattices~Discrete molecules or network solids
+Examples~NaCl, CaO, (NH₄)₃P~H₂O, CO₂, CH₄, SF₆
+TBLW 20,40,40
+
+H3 Physical & Chemical Properties of Compounds
+B **Physical properties** — measured without changing chemical identity: melting/boiling points (defined, distinct), density, solubility, electrical conductivity (important for ionic compounds in liquid/aqueous state), appearance (colour, odour, state).
+B **Chemical properties** — ability to transform into new substances: reactivity (with oxygen/acids), flammability, toxicity, heat of combustion, corrosion resistance.
+
+H2 2.3 Mixtures
+B A mixture has **two or more substances in any ratio**; primarily of two types — **homogeneous** and **heterogeneous**.
+TBL Point~Homogeneous mixture~Heterogeneous mixture
+Composition~Uniform throughout (single phase); components indistinguishable~Non-uniform; two or more distinct phases
+Visibility~Components not seen by naked eye~Components easily seen
+Separation~Difficult — needs distillation etc.~Easy — filtration etc.
+Also called~Solutions~Suspensions or colloids
+Examples~Sugar solution, air, salt water, saline, vodka, brass~Oil & water, salt + sugar, suspensions, salad, pizza, soil, trail mix
+TBLW 16,42,42
+B **Phase** — any distinct portion of matter uniform throughout in composition and properties.
+
+H2 2.4 Colloids
+B **Colloids** are heterogeneous mixtures where microscopic insoluble particles (**1 nm – 1000 nm**, i.e. 10⁻⁷–10⁻⁴ cm) of one substance (**dispersed phase**) are scattered throughout another (**dispersion medium**). They appear homogeneous but are not.
+B **Key characteristics:**
+BB **Stability** — particles do not settle on standing.
+BB **Filterability** — pass through ordinary filter paper but separated by semipermeable membranes / centrifuges.
+BB **Tyndall effect** — scatter light, making a light beam visible (fog, milk).
+BB **Brownian movement** — continuous zig-zag motion due to bombardment by dispersion-medium molecules.
+IMG p021_0|Classification of colloids with examples|58
+H3 Types of Colloids
+TBL Colloid~Dispersed phase in medium~Examples
+Sol~Solid in liquid~Paint, cell fluids, blood
+Solid sol~Solid in solid~Coloured gemstones, alloys
+Emulsion~Liquid in liquid~Milk, hair cream, mayonnaise
+Foam~Gas in liquid~Whipped cream, soap lather
+Solid foam~Gas in solid~Pumice stone, foam rubber
+Aerosol~Liquid in gas~Fog, mist, hairspray
+Solid aerosol~Solid in gas~Smoke, dust
+Gel~Liquid in solid~Jelly, butter, cheese
+TBLW 20,40,40
+B **Components:** dispersed phase = "solute-like" particles (smaller amount); dispersion medium = "solvent-like" medium (larger amount).
+B **Applications:** medicines are colloidal for better absorption (argyrol); water treatment (alum coagulation); paint, ink, rubber and food industries; blood is a colloid — specialized colloidal solutions used in medical treatments.
+
+H2 2.5 Separation of Mixtures
+P Methods use physical properties — size, solubility, boiling point, magnetism — to isolate components **without changing their chemical identity**.
+TBL Method~What it separates~Example
+Filtration~Insoluble solid from liquid~Sand from water
+Evaporation~Soluble solid from liquid~Salt from water
+Distillation~Liquids with different boiling points~Alcohol & water
+Fractional distillation~Liquids with closer boiling points~Crude-oil components
+Magnetic separation~Magnetic from non-magnetic material~Iron filings
+Chromatography~Different rates of movement across a stationary phase~Separating dyes
+Centrifugation~Particles by density at high spin~Blood components
+Sublimation~Sublimable solid from non-sublimable~Iodine / ammonium chloride
+Crystallisation~Purification by hot-solvent recrystallisation~Purifying solids
+TBLW 22,46,32
+NOTE The metallurgy-related dressing/concentration methods for ores (gravity, magnetic, leaching) are kept with extraction of metals in Unit 8.

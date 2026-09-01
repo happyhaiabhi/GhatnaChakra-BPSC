@@ -1,0 +1,44 @@
+# Unit 6 — Chemical Reactions (pp.66-71)
+UNIT 06|Chemical Reactions|Chemical Reaction lecture (pp. 66–71) — foundation for UPSC/BPSC Science & Tech; explains rusting, digestion, photosynthesis
+
+H2 6.1 What is a Chemical Reaction?
+B A chemical reaction is a **rearrangement of atoms** — one or more substances (reactants) are converted into new substances (products) with different properties. The five primary types are combination, decomposition, single displacement, double displacement and combustion/redox.
+IMG p066_0|Types of chemical reactions — complete mind map|76
+IMG p070_0|Reaction types at a glance with examples|80
+
+H2 6.2 Core Types of Chemical Reactions
+IMG p068_0|Ten reaction types — "Chemistry Corner" chart|86
+IMG p069_0|Twelve reaction types with formulas and examples|86
+H3 The five primary types
+TBL Type~General form~Example
+Combination (synthesis)~A + B → AB~C + O₂ → CO₂;  2H₂ + O₂ → 2H₂O
+Decomposition~AB → A + B~CaCO₃ --heat--> CaO + CO₂
+Single displacement~A + BC → AC + B~Zn + CuSO₄ → ZnSO₄ + Cu
+Double displacement~AB + CD → AD + CB~AgNO₃ + NaCl → AgCl↓ + NaNO₃
+Redox (oxidation–reduction)~electron transfer~one substance oxidised (loses e⁻), other reduced (gains e⁻)
+TBLW 28,26,46
+B **Combustion** — a substance (usually a hydrocarbon) reacts with oxygen releasing heat & light: CH₄ + 2O₂ → CO₂ + 2H₂O.
+H3 Other important classifications
+B **Neutralisation** — double displacement of acid + base → salt + water: HCl + NaOH → NaCl + H₂O.
+B **Precipitation** — a double displacement producing an insoluble solid (precipitate).
+B **Endothermic vs Exothermic** — endothermic absorbs energy; exothermic releases it (see 6.4).
+
+H2 6.3 Effects of Oxidation in Everyday Life
+B **Corrosion** — a metal is attacked by substances around it (moisture, acids etc.):
+BB Iron articles get a reddish-brown coating — **rusting of iron**.
+BB Black coating on **silver** and green coating on **copper** — other examples of corrosion.
+B **Rancidity** — fats and oils get oxidised; smell and taste change. Antioxidants are added to fatty/oily foods; air-tight containers slow oxidation; chip bags are flushed with **nitrogen** to prevent oxidation.
+
+H2 6.4 Exothermic vs Endothermic Reactions
+IMG p071_0|Energy profiles — exothermic vs endothermic|78
+TBL Point~Exothermic~Endothermic
+Energy change~Releases energy (heat, light, sound) to surroundings~Absorbs energy from surroundings
+Temperature~Surroundings become hot~Surroundings become cold
+Enthalpy~Negative (ΔH < 0)~Positive (ΔH > 0)
+Bonding~Forms stronger bonds; releases excess energy~Absorbs energy to break bonds
+Examples~Combustion of fuels, rusting of iron, nuclear fission, mixing acids with bases, freezing water~Photosynthesis, melting ice, evaporation, thermal decomposition, dissolving ammonium nitrate in water
+TBLW 18,41,41
+BOX Exam pointers::
+Exothermic feels hot, endothermic feels cold.
+Respiration = redox + decomposition; baking with baking soda = decomposition + displacement; vinegar + baking soda = double displacement + gas evolution; burning candle = combustion.
+Rusting = redox reaction; cooking = decomposition.

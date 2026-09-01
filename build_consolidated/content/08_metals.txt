@@ -1,0 +1,170 @@
+# Unit 8 — Metals, Non-metals, Hydrogen & Metallurgy (pp.112-124 + element classes pp.13-17)
+UNIT 08|Metals, Non-metals & Metallurgy|Metal & Nonmetal lecture (pp. 112–124) + element classes & alloys merged from Part-II (pp. 13–17, 22)
+
+H2 8.1 Metals
+B Elements with a tendency to **lose electrons** (electropositive); position — left side and centre of the periodic table.
+IMG p113_1|Metals in the periodic table — block map|74
+H3 Physical Properties
+B **Malleability** — can be hammered into thin sheets. **Ductility** — can be drawn into wires. **Sonorosity** — produce a singing sound when struck. **Lustre** — shiny surface.
+B Good conductors of heat & electricity (good for pots, pans, wires); high density; very hard and non-brittle; high melting & boiling points.
+IMGS p115_0|Lanthanides & actinides strip;; p116_0|Types of metals — commercial classification|;;
+IMG p113_0|d-, f-, p-block element families chart|64
+B **Exceptions (from the notes):**
+BB Brittle metals — beryllium, arsenic, zinc fracture instead of deforming.
+BB Alkali metals (Na, K) are soft — cut with a knife — and have low density.
+BB Lead, bismuth and tungsten conduct less than other metals.
+BB **Mercury** is liquid at room temperature; **gallium & caesium** melt at very low temperatures.
+BB Most metals are silver-grey, but copper is reddish-brown and gold is yellow.
+BB Magnetic metals: iron, cobalt, nickel.
+H3 Chemical Properties
+B **With oxygen:** Metal + O₂ → Metal oxide (basic)
+EQ 4Na + O₂ → 2Na₂O   ·   2Mg + O₂ → 2MgO
+B With Fe the oxide depends on reactivity/heat: FeO (ferrous), Fe₂O₃ (ferric) — Fe(II) & Fe(III) oxides form under different conditions.
+B **With water:** Metal + H₂O → Metal hydroxide + H₂↑
+EQ 2Na + 2H₂O → 2NaOH + H₂↑   ·   Mg + 2H₂O → Mg(OH)₂ + H₂   ·   Fe + H₂O(steam) → FeO + H₂
+B **With other metal salts (displacement):** P + AB → PB + A — possible only if P is more reactive than A.
+EQ Na + CuCl₂ → NaCl + Cu   ·   Cu + NaCl → no reaction   ·   Cu + Ca(NO₃)₂ → no reaction
+B **Double displacement:** AB + PQ → PB + AQ;  e.g. Na₂SO₄ + CuCl₂ → NaCl + CuSO₄.
+B **With non-metals:** Na + Cl₂ → NaCl;  2K + I₂ → 2KI;  Mg + H₂ → MgH₂ — metals + non-metals form **ionic compounds**.
+IMG p067_0|Metals reactivity series — most to least reactive|58
+H3 Types of Metals
+TBL Type~Where~Character
+Alkali metals (Group 1)~s-block~Highly reactive; always form +1 cations; hydroxides are water-soluble alkalis
+Alkaline earth metals (Group 2)~s-block~Form +2 cations (Mg → Mg²⁺ + 2e⁻, Ca → Ca²⁺ + 2e⁻); hydroxides soluble but less than group 1
+Transition metals~d-block, groups 3–12~Variable valency; colourful compounds; hard, strong, high m.p.; catalysts; Fe/Co/Ni magnetic
+Inner transition metals~f-block~Lanthanides (Ce–Lu) & actinides (Th–Lr); heavy, high m.p., variable valency, many radioactive
+TBLW 24,18,58
+BOX Mnemonic (as in the source)::
+Group-2 order "बेटा मागे कार स्कूटर बाप राजी" = Be, Mg, Ca, Sr, Ba, Ra.
+Alkali metals: most reactive metal family; soft & light; low m.p./b.p.; single valence electron (highly electropositive); give alkaline solutions with water (Na → NaOH, a strong base); used in batteries (Li-ion), pharma (Na compounds), organic synthesis (K compounds).
+BOX Catalyst::
+Substance that changes the rate of a reaction without participating in it. Transition metals and their compounds are widely used as catalysts.
+
+H2 8.2 Non-metals
+B Elements having a tendency to **gain or share electrons**; more electronegative than metals; 19 in number.
+IMG p117_0|Non-metals at room temperature — 11 gases, 1 liquid, 7 solids|66
+H3 Physical Properties
+B Brittle — non-malleable & non-ductile; non-lustrous & non-sonorous; bad conductors (**exception: graphite** conducts); low density, low m.p./b.p.; generally solids & gases (**exception: bromine**, the only liquid non-metal — red & volatile).
+H3 Chemical Properties
+B Accept or share electrons → covalent compounds (e.g. N≡N).
+IMG p117_1|Carbon shares four electrons — covalent compound formation|30
+B **With oxygen:** Non-metal + O₂ → Non-metal oxide (acidic)
+EQ C + O₂ → CO₂;  CO₂ + H₂O → H₂CO₃ (carbonic acid)   ·   S + O₂ → SO₂;  SO₂ + H₂O → H₂SO₃ (sulphurous acid)
+B **Electronegativity** — tendency to attract the shared pair in a covalent compound; non-metals are more electronegative than metals.
+H3 Metals vs Non-metals — Summary Tables
+NOTE The metals/non-metals/metalloids comparison appeared in Part-II (pp. 13–14) and again in the Metal & Nonmetal lecture (pp. 112, 116–117). The two versions are merged below.
+TBL Property~Metals~Non-metals~Metalloids
+State~Mostly solid (exception Hg)~Solid, liquid & gas~Solid
+Appearance~Shiny (lustrous)~Dull~Variable (metallic look, brittle)
+Conductivity~Good~Poor (insulators); graphite excepted~Semiconductor (rises with temperature)
+Malleability~High~Brittle — not malleable~Brittle
+Ion type~Cations (+)~Anions (−)~Variable
+Oxides~Basic / amphoteric (Na₂O, Al₂O₃)~Acidic / neutral (CO₂, SO₂, N₂O)~Amphoteric / weakly acidic
+Ionization enthalpy & EN~Low~High~Intermediate
+Position~Left & centre~Upper right~Zig-zag line between the two
+TBLW 22,28,28,22
+B **Metalloids:** B, Si, Ge, As, Sb, Te (+ Po) — intermediate properties; shiny like metals but brittle like non-metals; **semiconductors**; backbone of the electronics industry (Si, Ge).
+B **Semiconductor doping (kept from Part-II):**
+TBL Feature~P-type~N-type
+Majority carriers~Holes (positive)~Electrons (negative)
+Doping elements~Trivalent (3 valence e⁻): B, Al, Ga, In~Pentavalent (5 valence e⁻): P, As, Sb
+Common base~Si, Ge~Si, Ge
+Common materials~Si+B, Si+Ga, Ge+In~Si+P, Si+As, Ge+Sb
+Usage~Diodes, transistors, solar cells~Diodes, transistors, solar cells
+TBLW 22,39,39
+H3 Metal Alloys and Their Uses
+B An **alloy** is a homogeneous mixture of two or more metals (and non-metals) — pure iron rusts easily but alloying gives desirable properties. Steel and brass are common alloys; some steels also contain non-metals.
+IMG p017_0|Metal alloys — composition & uses (source chart)|86
+IMG p017_1|Uses of metals & non-metals (iodine, sulphur, neon, carbon…)|86
+BOX Alloy oddities (from the notes)::
+Iodine is a non-metal but shiny; graphite (carbon) conducts and has a high m.p.; mercury is a liquid metal.
+
+H2 8.3 Hydrogen & Water (from Metal & Nonmetal lecture)
+NOTE Hydrogen sits with the element chemistry of this lecture in the source; kept here — facts unchanged.
+H3 General Facts about Hydrogen
+B **Most abundant element in the universe**; on Earth it exists in combined form (water, organic matter, minerals); diatomic gas (H₂).
+B Shows **dual similarity** — with alkali metals (H → H⁺ + e⁻) and halogens (H + e⁻ → H⁻).
+IMG p118_0|Isotopes of hydrogen|56
+TBL Isotope~Protons~Neutrons~Electrons~Symbol
+Protium~1~0~1~₁H¹
+Deuterium~1~1~1~₁H²
+Tritium~1~2~1~₁H³
+TBLW 24,19,19,19,19
+H3 Heavy Water (D₂O)
+B Contains deuterium instead of protium; discovered in **1932 by H. C. Urey & E. W. Washburn**.
+B **Uses:** nuclear **moderator & coolant** (slows neutrons); **tracer** in chemistry/metabolism studies; production of deuterium compounds.
+H3 Hard & Soft Water
+B **Soft water** lathers with soap easily; **hard water** does not — due to salts of **Ca²⁺ and Mg²⁺** (bicarbonates, chlorides, sulphates).
+IMG p119_0|Temporary vs permanent hardness|74
+TBL Point~Temporary hard water~Permanent hard water
+Cause~Bicarbonates of Ca & Mg — Ca(HCO₃)₂, Mg(HCO₃)₂~Chlorides & sulphates of Ca & Mg — CaCl₂, CaSO₄, MgCl₂, MgSO₄
+Removal~Can be removed simply by boiling~Cannot be removed by simple methods; needs chemical treatment
+TBLW 20,40,40
+B **Effects of hard water:** soap wastage; scale (boiler) formation; problems in dyeing & laundry.
+H3 Hydrogen Peroxide (H₂O₂)
+B Discovered **1818 by Thenard**; pale blue liquid; m.p. −0.43 °C; b.p. 150.2 °C; density 1.47 g/cm³.
+B Strong **oxidising agent** (also a reducing agent in some reactions); unstable → decomposes to water + oxygen.
+B **Uses:** germicide & antiseptic; bleaching of textiles, paper, hair, leather, oils & fats; manufacture of sodium perborate & sodium carbonate; milk/food preservation; oxygen source in submarines.
+
+H2 8.4 Sulphur & Its Important Compounds
+B **Occurrence:** 0.03–0.1 % of Earth's crust; sources — gypsum (CaSO₄·2H₂O), Epsom salt (MgSO₄·7H₂O), barite (BaSO₄), galena (PbS), zinc blende (ZnS), copper pyrites (CuFeS₂); found in volcanic H₂S; present in proteins of egg, onion, garlic, mustard, pulses.
+B Oxidised forms: H₂SO₄, H₂SO₃, peroxodisulphuric acid (H₂S₂O₈), pyrosulphuric acid (H₂S₂O₇).
+TBL Compound~Facts
+Sulphur dioxide (SO₂)~Colourless gas, pungent smell; liquefies at 263 K under pressure; highly water-soluble. Uses — petroleum refining; bleaching wool & silk; disinfectant & preservative; refrigerant
+Sulphur hexafluoride (SF₆)~Colourless, odourless, non-toxic, octahedral; excellent electrical insulator
+Sulphuric acid (H₂SO₄)~"King of chemicals"; colourless, oily, hygroscopic; high b.p.; very strong acid. Uses — petroleum refining; fertilisers; explosives, detergents, plastics; storage batteries; medicines (nitroglycerine)
+TBLW 26,74
+H3 Inert (Noble) Gases
+B He, Ne, Ar, Kr, Xe, Rn — rare/noble gases; filled outer shells → very low reactivity; colourless, odourless, non-flammable.
+TBL Gas~Uses
+Helium~Balloons & airships; O₂-mix for deep-sea divers (avoids nitrogen narcosis); asthma treatment; inflating aeroplane tyres; inert atmosphere for welding reactive metals
+Neon~Discharge/advertising tubes; beacon lights for air navigation (fog-piercing)
+Argon~Fills electric lamps with nitrogen (more inert than N₂); fluorescent lamps
+Krypton~High-intensity airport runway lamps; photographic flashes
+Xenon~Powerful lamps; camera flashes; some medical anaesthesia
+Radon~Cancer radiotherapy (radioactive — used carefully)
+TBLW 16,84
+
+H2 8.5 Metallurgy
+B **Metallurgy** — the branch of science dealing with extraction of metals from ores and their purification.
+IMG p122_0|Metallurgy steps — crushing → dressing → roasting/calcination → reduction → refining|58
+H3 Basic Terms
+TBL Term~Meaning
+Minerals~Naturally occurring compounds of metals mixed with soil, sand, limestone, rocks
+Ore~Mineral from which metal is extracted commercially at low cost & minimum effort
+Gangue (matrix)~Earthy impurities (mud, silica, sand) in the ore
+Flux~Substance added in smelting to promote fluidity and remove impurities as slag
+Slag~Product formed when flux reacts with the gangue; e.g. CaO(flux) + SiO₂(gangue) → CaSiO₃(slag)
+TBLW 24,76
+IMG p121_0|Important minerals & ores (carbonates & sulphides)|82
+IMG p121_1|Mineral/ore composition table (Al, Zn, Fe, Mg, Na, Ca…)|82
+H3 Step 1 — Crushing & Grinding
+B Ores are crushed to fine powder in **big jaw crushers & ball mills**; **pulverisation** = crushing & grinding of ore to powder.
+H3 Step 2 — Dressing (Concentration) of Ores
+B Removal of impurities (sand, soil, rock particles) from powdered ore. Methods:
+BB **Gravity / hydrolytic separation** — needs density difference between ore and impurities.
+BB **Magnetic separation** — for ores attracted by a magnet.
+BB **Leaching (chemical)** — a suitable solvent dissolves the ore; insoluble impurities are filtered. e.g. bauxite + hot conc. NaOH → soluble sodium aluminate Na[Al(OH)₄]; CO₂ then precipitates Al₂O₃.
+IMG p122_1|Magnetic separation of ore|54
+H3 Step 3 — Roasting & Calcination
+IMG p122_2|Roasting vs calcination|70
+TBL Point~Roasting~Calcination
+Done~In the presence of excess air (O₂)~In the absence/restricted supply of air
+Ores~Sulphide ores~Carbonate & hydrated oxide ores
+Examples~2ZnS + 3O₂ → 2ZnO + 2SO₂;  2PbS + 3O₂ → 2PbO + 2SO₂~CaCO₃ → CaO + CO₂;  Al₂O₃·2H₂O → Al₂O₃ + 2H₂O
+Moisture & organic matter~Removed~Removed
+TBLW 20,40,40
+H3 Step 4 — Reduction of Metal Oxides
+B **Highly reactive metals (K, Na, Ca, Mg, Al)** — oxides cannot be reduced by carbon; extracted by **electrolytic reduction**.
+B **Mildly reactive metals** — oxide + reducing agent (C, CO, H₂ or a more reactive metal):
+EQ 2ZnO + C → 2Zn + CO₂   ·   Fe₂O₃ + CO → 2Fe + 3CO₂
+B **Least reactive metals** — oxides decompose to metal on heating alone.
+IMG p123_0|Electrolytic extraction of aluminium|56
+H3 Step 5 — Refining of Metals
+NOTE Refining methods were printed twice on source pp. 123–124 — kept once.
+TBL Method~Used for~Idea
+Distillation~Volatile metals — Hg, Zn~Impure metal heated above b.p.; vapour separated from non-volatile impurities and condensed
+Liquation~Low-melting metals — Pb, Sn~Metal melts and flows away from higher-melting impurities
+Electrolytic refining~Cu, Al, Zn etc.~Impure anode dissolves; pure metal deposits on cathode
+TBLW 20,28,52
+IMG p124_0|Fractional distillation of petroleum — tower & fractions|56

@@ -1,0 +1,98 @@
+# Unit 11 — Polymers (pp.139-147)
+UNIT 11|Polymers|Polymers & Chemistry in Everyday Life lecture — polymer part (pp. 139–147)
+
+H2 11.1 Polymers & Polymerisation
+B **Polymer** (Greek — "many units"): a chemical substance of **high molecular mass** formed by combining a large number of simple molecules (**monomers**).
+EQ n(CH₂=CH₂) → [—CH₂—CH₂—]ₙ    ethylene → polyethylene
+IMG p139_0|Polymerisation — classification mind map|72
+B **Polymerisation** — the process by which monomers combine & transform into polymers: n [Monomer] → Polymer.
+B **Polymers vs macromolecules:** all polymers are macromolecules, but not conversely — chlorophyll (C₅₅H₇₂O₅N₄Mg) is a macromolecule **without monomer units**, so not a polymer.
+
+H2 11.2 Classification of Polymers
+H3 Based on Source
+TBL Type~Idea~Examples
+Natural~Occur in plants/animals~Starch (reserve food of plants); cellulose (structural material of plants); proteins (building blocks of animals); natural rubber (latex of *Hevea brasiliensis*)
+Synthetic~Prepared in the laboratory~Polythene, synthetic rubber, PVC, nylon-66, teflon, orlon
+Semisynthetic~Natural polymers modified artificially~Cellulose acetate (rayon), vulcanised rubber
+TBLW 16,38,46
+H3 Based on Structure
+IMG p140_0|Structure-based classification|66
+BB **Linear** — long close-packed chains → high density, tensile strength, m.p.: HDPE, nylon, polyesters.
+BB **Branched** — (source figure) chain branches lower packing: LDPE.
+BB **Cross-linked / network** — 3-D network, hard, rigid, brittle: bakelite, glyptal, melamine-formaldehyde.
+H3 Based on Molecular Forces
+TBL Class~Forces~Character~Examples
+Elastomers~Weakest~Rubber-like; stretchable; few cross-links let them retract~Natural rubber, buna-S, buna-N
+Fibres~Strong (H-bonding)~Thread-like, woven; high tensile strength; crystalline; sharp m.p.~Nylon-66, terylene, polyacrylonitrile
+Thermoplastics~Intermediate (van der Waals)~Melt on heating, set on cooling — castable into moulds; plasticizers (high-boiling esters/haloalkanes) soften them~Polythene, polystyrene
+Thermosetting~Cross-linked on heating~Semi-fluid low-mass resins that harden irreversibly into 3-D infusible mass~Bakelite, melamine-formaldehyde, urea-formaldehyde
+TBLW 16,20,38,26
+H3 Based on Mode of Polymerisation
+BB **Addition polymers** — monomers with double/triple bonds add up; empirical formula same as monomer. *Homopolymers* — single monomer (polythene from ethene); *copolymers* — two or more monomers (buna-S).
+BB **Condensation polymers** — monomers combine with elimination of small molecules (H₂O, alcohol, HCl) — e.g. **nylon-6,6** from hexamethylenediamine + adipic acid.
+
+H2 11.3 Types of Polymerisation
+H3 Chain-Growth (Addition) Polymerisation
+B Reactive intermediates — **free radical, carbocation or carbanion**; monomers are unsaturated (alkenes, alkadienes & derivatives).
+BB **Free-radical** — monosubstituted alkenes; catalysts benzoyl peroxide, H₂O₂, t-butyl peroxide.
+BB **Cationic** — carbocation intermediates via Lewis acids (BF₃, AlCl₃, SnCl₄) or protonic acids (H₂SO₄, HF); more stable carbocation → more reactive monomer.
+BB **Anionic** — carbanion intermediate; **strong bases** as initiators.
+IMG p141_x0|Nylon-66 — condensation of hexamethylenediamine with adipic acid|62
+H3 Step-Growth (Condensation) Polymerisation
+B Stepwise condensation eliminating small molecules (H₂O, NH₃, HCl, ROH) — e.g. adipic acid + hexamethylenediamine; phenol + formaldehyde.
+IMG p142_0|Step-growth polymerisation|56
+
+H2 11.4 Important Addition Polymers
+H3 Polythene
+BB **LDP (low density)** — tough, flexible, transparent, chemically inert, poor electrical conductor; moderate tensile but good tearing strength; used for insulation of electric wires, squeeze bottles, toys, flexible pipes.
+BB **HDP (high density)** — close packing → high density; chemically inert, tougher & harder; containers, housewares, bottles, toys, electric insulation.
+IMG p142_1|LDP vs HDP — conditions & structures|66
+H3 Polystyrene
+B Monomer styrene; thermoplastic; toys, radio & TV cabinets; rain coats, electrical insulation; hard, resistant to heat & chemicals. (Foamed → thermocol, see Unit 12 polymers list.)
+H3 Polypropylene (PP)
+B Propylene polymerised with **Ziegler–Natta catalyst**.
+H3 Polyamides — Nylon-66 & Nylon-6
+B Numbers = carbon counts of diamine & dibasic acid (6 & 6 → **nylon-66**).
+BB **Nylon-66** — linear; very high tensile strength; abrasion-resistant; sheets, brush bristles, textiles.
+BB **Nylon-6** — from caprolactam heated with water at high temperature.
+IMG p143_1|Nylon-6 from caprolactam|52
+
+H2 11.5 Resins (Condensation Polymers)
+IMG p144_0|Bakelite — phenol-formaldehyde condensation|60
+BB **Phenol-formaldehyde (Bakelite)** — condensation in acid/base; methylene bridges at ortho/para positions; linear or cross-linked. Uses — combs, photo records, electrical switches; soft bakelite as binding glue for laminated wood, varnishes, lacquers.
+IMG p144_1|Melamine-formaldehyde resin|52
+BB **Melamine-formaldehyde** — copolymer of melamine (heterocyclic triamine) + formaldehyde; very hard & tough; **crockery** that survives drops.
+BB **Urea-formaldehyde resin** — (structure in figure) used as adhesive/moulding material.
+IMG p144_2|Urea-formaldehyde resin|48
+
+H2 11.6 Natural & Synthetic Rubber
+B **Natural rubber** — coiled linear **cis-1,4-polyisoprene**; double bonds between C2–C3 of isoprene (cis configuration) → coiled chain that stretches and recoils; only van der Waals forces (no polar groups).
+B Soft & sticky; usable only 10–50 °C (softens hot, brittle cold); high water absorption; attacked by oxidising agents & solvents — limited commercial use as-is.
+IMG p145_1|Natural rubber — isoprene unit|46
+B **Vulcanisation** — heating rubber with **sulphur (3–5 %) + zinc oxide at ~110 °C for 20–30 min** (ZnO accelerates) introduces **–S–S– polysulphide crosslinks** between chains — limits chain motion → stronger, elastic material.
+IMG p145_2|Vulcanisation cross-links|46
+BB **Neoprene** — polymer of chloroprene (synthetic rubber); conveyor belts, gaskets, hoses.
+BB **Buna-N** — copolymer of buta-1,3-diene + acrylonitrile; oil-resistant.
+IMG p146_x0|PMMA — polymethylmethacrylate formation|54
+
+H2 11.7 Polyesters & Biodegradable Polymers
+B **Polyesters** — polymers with ester linkages (e.g. dacron).
+BB **PMMA (polymethylmethacrylate)** — from methylmethacrylate + organic peroxide; sold as lucite, acrylite, plexiglass, perspex; hard, transparent, resists light/heat/ageing; unbreakable lights, protective coatings, dentures, aircraft windows.
+BB **Glyptal** — cross-linked polyester (ethylene glycol/glycerol + phthalic acid); thermosetting; tough non-flexible film → paints & lacquers.
+BB **Terylene (Dacron)** — ethylene glycol + terephthalic acid, 420–460 K, zinc acetate + antimony trioxide catalyst; resistant to chemicals & biology; blended with wool/cotton (terycot, terywool, terysilk); magnetic tapes, conveyor belts, aprons.
+IMGS p146_1|Terylene (Dacron) formation|;; p146_x1|Glyptal — polyester formation
+B **Biopolymers & biodegradable polymers:** synthetic polymers are mostly non-biodegradable (polythene bags!). Biopolymers from biological systems — **polysaccharides, proteins, nucleic acids** — decompose/hydrolyse by enzymes → biodegradable. **Aliphatic polyesters** are common biodegradable polymers.
+BB **PHBV** — copolymer of 3-hydroxybutanoic acid + 3-hydroxypentanoic acid.
+BB **Nylon-2-nylon-6** — alternating polyamide copolymer of glycine (H₂N–CH₂–COOH) + aminocaproic acid (H₂N(CH₂)₅COOH); biodegradable.
+IMG p147_0|PHBV & nylon-2-nylon-6|54
+
+H2 11.8 Some More Important Polymers
+TBL Polymer~Composition / fact~Use
+Saran~Copolymer of vinyl chloride~Wrapping food materials
+ABS rubber~Acrylonitrile + buta-1,3-diene + styrene—
+Bubble gum~Styrene-butadiene rubber—
+Dynel~Vinyl chloride + acrylonitrile~Human hair wigs
+Silk~Natural thread-like polyamide fibre from silkworm cocoons—
+Thermocol~Foamed plastic — air blown through molten polystyrene/polyurethane—
+Superglue~Methyl-α-cyanoacrylate polymer (anionic polymerisation)—
+TBLW 18,50,32

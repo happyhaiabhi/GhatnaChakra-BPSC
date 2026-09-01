@@ -1,0 +1,173 @@
+# Unit 9 — s, p, d, f Block Elements (pp.87-110)
+UNIT 09|Important s, p, d & f Block Elements|Important S,P,D,F Elements lecture (pp. 87–110) — group-wise chemistry, compounds & uses
+
+H2 9.1 s-Block Elements
+IMG p087_0|s-block — physical properties of alkali & alkaline-earth metals|84
+IMG p087_1|Atomic/chemical behaviour — alkali vs alkaline earth metals|84
+B **Group 1 — alkali metals:** Li, Na, K, Rb, Cs, Fr — named for the **strongly alkaline hydroxides** they form with water.
+B **Group 2 — alkaline earth metals:** Be, Mg, Ca, Sr, Ba, Ra (Be excluded from the name) — oxides & hydroxides are alkaline, commonly found in the earth's crust.
+B Both are s-block groups but differ in properties & reactivity.
+IMG p088_1|Melting & boiling points — alkali vs alkaline earth|84
+H3 Flame Test
+IMG p088_0|Flame colours of metal ions|56
+B The **flame test** identifies metal ions by the characteristic flame colour on heating (electronic transitions) — a qualitative-analysis method.
+H3 Important Compounds of s-block
+IMG p089_0|Compounds of s-block — properties & uses (NaCl, NaOH, NaHCO₃)|84
+IMG p089_1|Compounds of s-block — Na₂CO₃, Ca(OH)₂, CaSO₄, Plaster of Paris|84
+TBL Compound~Properties~Uses
+NaCl — sodium chloride~White crystalline solid; high m.p.; very water-soluble~Table salt; seasoning & preservative; chemical manufacture; food processing; water softening
+NaOH — sodium hydroxide~White solid; strongly alkaline solution~Pulp & paper, textiles, soaps & detergents, cleaners; biodiesel; pH regulation in water treatment
+NaHCO₃ — sodium bicarbonate~White crystalline; slightly alkaline taste~Baking soda (leavening); antacid for heartburn; cleaning & deodorising
+Na₂CO₃ — sodium carbonate~White, odourless, alkaline~Soda ash / washing soda; glassmaking; detergents; water treatment; pool pH control
+Ca(OH)₂ — calcium hydroxide~White powder; low solubility; strong alkaline~Slaked lime — mortar & plaster; wastewater treatment; agriculture; pickling; toothpaste & antacids
+CaSO₄ — calcium sulphate~Gypsum CaSO₄·2H₂O and anhydrous form~Plaster of Paris, plasterboard, cement; soil conditioner; water conditioner in brewing
+Plaster of Paris~White powder; hardens with water (from heating gypsum)~Casts, moulds, sculptures; limb casts in medicine; dental impressions; art & crafts
+TBLW 22,36,42
+
+H2 9.2 p-Block Elements — General Properties
+IMG p091_0|General properties of p-block elements|80
+IMG p091_1|General properties (continued)|80
+B **Configuration:** ns² np¹⁻⁶ — the last electron enters a p-orbital (groups 13–18).
+B **Variety:** metals, non-metals and metalloids together — N, O, F gaseous; Al, Sn solid with high m.p.
+B **Oxidation states:** often −3 to +5+ from ns & np availability; non-metals negative, metals positive.
+B **Reactivity:** F most reactive (non-metals); Ne, Ar notably inert.
+B **Allotropy:** C — diamond, graphite, fullerenes; also P and S show allotropy.
+
+H2 9.3 Group 13 — Boron Family (B, Al, Ga, In, Tl)
+IMG p092_x0|Action of heat on orthoboric acid|58
+B **Trends:** m.p. decreases B→Ga then rises to Tl; ionization energies 1st ≪ 2nd ≪ 3rd; metallic character increases B→Tl (**B is a non-metal**). Al — light, corrosion-resistant — used in packaging & construction.
+H3 Preparation of Boron
+B From boric acid route: B₂O₃(s) + 3Mg(s) → 2B(s) + 3MgO(s)
+B From boron trichloride: 2BCl₃ + 3H₂(g) --1270 K--> 2B(s) + 6HCl(g);  2BCl₃(g) + 3Zn(s) --900 °C--> 2B(s) + 3ZnCl₂(s)
+B Electrolysis of fused boric anhydride (B₂O₃) + MgO + MgF₂ at 1100 °C: 2MgO → 2Mg + O₂; B₂O₃ + 3Mg → 2B + 3MgO
+B Thermal decomposition of boron hydrides: B₂H₆(g) --Δ--> 2B(s) + 3H₂(g)
+H3 Compounds of Boron
+TBL Compound~Preparation~Properties
+Orthoboric acid H₃BO₃~From borax: Na₂B₄O₇ + H₂SO₄ + 5H₂O → Na₂SO₄ + 4H₃BO₃; from colemanite: Ca₂B₆O₁₁ + 2SO₂ + 11H₂O → 2Ca(HSO₃)₂ + 6H₃BO₃~Heating: 2H₃BO₃ --Δ--> H₂B₄O₇ --Δ--> H₂O + 2B₂O₃; weak monobasic acid — H₃BO₃ + NaOH → NaBO₂ + 2H₂O (sodium metaborate)
+Borax Na₂B₄O₇·10H₂O~4H₃BO₃ + Na₂CO₃ → Na₂B₄O₇ + 6H₂O + CO₂~Aqueous solution alkaline by hydrolysis: Na₂B₄O₇ + 7H₂O → 2NaOH + 4H₃BO₃
+TBLW 22,44,34
+H3 Compounds of Aluminium
+B **Alumina Al₂O₃:** 2Al(OH)₃ --heat--> Al₂O₃ + 3H₂O (source shows Al₂O₃ + 2H₂O); (NH₄)₂Al₂(SO₄)₃·24H₂O --Δ--> 2NH₃ + Al₂O₃ + 4SO₃ + 25H₂O.
+B **Aluminium chloride AlCl₃:** white hygroscopic solid; sublimes at 183 °C; addition compounds with NH₃, PH₃, COCl₂; hydrolysis AlCl₃ + 3H₂O → Al(OH)₃ + 3HCl; heating 2AlCl₃·6H₂O → 2Al(OH)₃ → Al₂O₃ + 6HCl + 3H₂O.
+IMG p093_0|Dimeric structure of AlCl₃ (Al₂Cl₆)|40
+BOX Why AlCl₃ dimerises::
+Electron-deficient Al completes its octet by bridging through chlorine atoms — the dimer Al₂Cl₆.
+
+H2 9.4 Group 14 — Carbon Family (C, Si, Ge, Sn, Pb)
+B C — heart of organic chemistry; Si — semiconductor technology; Pb — historical pipes & paints.
+B **Trends:** IE decreases C→Sn then rises to Pb; C & Si non-metals, Ge metalloid, Sn & Pb metals; **catenation** — C (and Si) form long chains.
+B **Compounds of carbon:** CO burns with blue flame, turns platinum/palladium-chloride paper pink-green. CO₂ — from acids on carbonates (CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂) or burning carbon; turns lime water milky, Ca(OH)₂ + CO₂ → CaCO₃ + H₂O, milkiness disappears in excess CO₂ (→ Ca(HCO₃)₂); dry ice sublimes.
+B **Carbides:** salt-like (C₂²⁻ acetylide / C⁴⁻ methanide — CaC₂, Al₄C₃, Be₂C); covalent (SiC — carborundum); interstitial (transition-metal lattices — WC, VC).
+B **Compounds of silicon:** sodium silicate Na₂SiO₃ (fused soda ash + sand); **silicones** — Si–O–Si polymers from chlorosilane hydrolysis; **silicates** — salts of silicic acid H₄SiO₄ with sp³ tetrahedral SiO₄⁴⁻ units.
+
+H2 9.5 Group 15 — Nitrogen Family (N, P, As, Sb, Bi)
+B Atomic radii increase down the group (small rise As→Bi); oxidation states −3 to +5, +3 stability increases down; IE decreases N→Bi.
+H3 Ammonia (NH₃)
+B **Preparation:** NH₄Cl + NaOH → NH₃ + NaCl + H₂O;  Mg₃N₂ + 6H₂O → 3Mg(OH)₂ + 2NH₃;  **Haber's process** N₂(g) + 3H₂(g) ⇌ 2NH₃(g).
+B **Properties:** aqueous solution basic — turns red litmus blue (NH₃ + H₂O → NH₄⁺ + OH⁻).
+B **Complex formation:** Ag⁺ + NH₃ → [Ag(NH₃)₂]⁺;  Cu²⁺ + 4NH₃ → [Cu(NH₃)₄]²⁺;  Cd²⁺ + 4NH₃ → [Cd(NH₃)₄]²⁺.
+B **Precipitation of metal ions:** FeCl₃ + 3NH₄OH → Fe(OH)₃↓ (brown) + 3NH₄Cl;  AlCl₃ + 3NH₄OH → Al(OH)₃↓ (white);  CrCl₃ + 3NH₄OH → Cr(OH)₃↓ (green).
+H3 Phosphorus
+IMG p095_0|Phosphine & phosphorus halides|66
+B **Allotropy:** **white P** — translucent waxy solid, extremely reactive, poisonous, water-insoluble; **red P** — from heating white P without air; does not burn spontaneously at room temperature; **black P** — from further heating of red P.
+B **Oxy-acids of phosphorus** and **oxy-acids of nitrogen** — charts kept with the tables below.
+IMG p096_0|Oxyacids of nitrogen|50
+IMG p096_2|Oxyacids of phosphorus|56
+
+H2 9.6 Group 16 — Oxygen Family (O, S, Se, Te, Po)
+IMG p096_1|Group-16 chemical properties card|56
+B **Oxides:** all elements form dioxides MO₂ — SO₂ gas, SeO₂ volatile solid, TeO₂ & PoO₂ non-volatile crystalline solids. **Ozone** — unstable, decomposes to O₂; strong oxidising agent (liberates nascent oxygen).
+B **Allotropes of sulphur:**
+BB **Rhombic (α):** bright yellow; insoluble in water & CS₂; density 2.07 g/cm³; exists as S₈ puckered rings.
+BB **Monoclinic (β):** stable above 369 K; dull yellow; soluble in CS₂; slowly changes to rhombic; also S₈ rings, different crystal symmetry.
+BB **Plastic sulphur:** molten sulphur poured into cold water; amorphous; insoluble in water & CS₂.
+IMG p097_0|Allotropes of sulphur & sulphuric acid properties|72
+B **Sulphuric acid — properties:** powerful **dehydrating agent** (strong affinity for water); **charring** of sugar/wood/paper → black carbon mass; moderately strong oxidising agent; decomposes carbonates, bicarbonates, sulphides, sulphites, thiosulphates, nitrites at room temperature:
+EQ H₂SO₄ + CaCl₂ → CaSO₄ + 2HCl↑   ·   H₂SO₄ + Na₂CO₃ → Na₂SO₄ + H₂O + CO₂↑   ·   H₂SO₄ + 2NaHCO₃ → Na₂SO₄ + 2H₂O + 2CO₂↑
+B Salts like **chlorides, fluorides, nitrates, acetates, oxalates** are decomposed by hot conc. H₂SO₄, liberating their corresponding acids.
+
+H2 9.7 Group 17 — Halogens (F, Cl, Br, I)
+IMG p098_0|Hydrogen halides — comparative properties|76
+B F and Cl — water purification & disinfectants; I — essential in medical treatment.
+B **Reducing behaviour of HX:** HCl is not attacked by H₂SO₄;  2HBr + H₂SO₄ → 2H₂O + SO₂ + Br₂;  2HI + H₂SO₄ → 2H₂O + SO₂ + I₂.
+B All three react with KMnO₄/K₂Cr₂O₇:  2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 8H₂O + 5Cl₂;  K₂Cr₂O₇ + 14HBr → 2KBr + 2CrBr₃ + 7H₂O + 3Br₂.
+TBL Halide comparison~Order
+Dipole moment~HI < HBr < HCl < HF
+Bond length~HF < HCl < HBr < HI
+Bond strength~HI < HBr < HCl < HF
+Thermal stability~HI < HBr < HCl < HF
+Acid strength~HF < HCl < HBr < HI
+Reducing power~HF < HCl < HBr < HI
+TBLW 40,60
+B **Pseudohalides:** best known — **CN⁻**. **Oxyacids of chlorine:** acidity rises with oxidation number — HClO₄ > HClO₃ > HClO₂ > HOCl.
+
+H2 9.8 Group 18 — Noble Gases
+B He (balloons, cryogenics), Ar (lighting, welding). Inert because of: complete octet (stable configuration), high ionization energies, low electron affinity.
+IMG p099_0|Xenon compounds & their shapes|64
+TBL Xenon compound~Shape
+XeO₃~Pyramidal
+XeO₄~Tetrahedral
+XeOF₄~Square pyramidal
+XeO₂F₂~Distorted octahedral
+TBLW 40,60
+IMG p099_1|Uses of noble gases|64
+B (Uses table consolidated with Unit 8.4 to avoid repetition.)
+B **p-block trends recap:** electronegativity ↓ (size & shielding — F > I); atomic size ↑ (C < Pb); ionization energy ↓ (B > Tl).
+IMG p101_0|Important compounds of the p-block — chart|66
+TBL Compound (group)~Uses~Properties
+Ammonia NH₃ (15)~Fertilizers (ammonium nitrate), cleaning agents, nitric-acid production~Colourless pungent gas; highly water-soluble; strongly basic
+Silicon dioxide SiO₂ (14)~Glass manufacture, cement, semiconductor material~Hard crystalline (quartz); water-insoluble
+Sulfuric acid H₂SO₄ (16)~Phosphate fertilizers, battery acid, chemical synthesis~Strong, highly corrosive; strong affinity for water
+Phosphoric acid H₃PO₄ (15)~Fertilizers (superphosphates), food additive (acidifier in soft drinks), rust removal~Weak, non-volatile; solidifies to crystals
+Aluminium oxide Al₂O₃ (13)~Aluminium manufacture, abrasives, refractory materials~Very high m.p.; very hard; electrical insulator
+Chlorine Cl₂ (17)~Water disinfection, PVC production, bleaching~Yellow-green gas; strong odour; reactive; toxic
+Hydrofluoric acid HF (17)~Etching glass, cleaning metals, fluorine compounds~Weak but highly corrosive; dangerous to handle
+Boric acid H₃BO₃ (13)~Antiseptic, insecticide, borosilicate glass~Weak acid; water-soluble; mild antiseptic
+Dichloromethane CH₂Cl₂ (14)~Paint removers, degreasing, pharmaceutical industry~Volatile liquid; sweet odour; moderately toxic; non-flammable
+TBLW 26,42,32
+
+H2 9.9 d-Block Elements (Transition Metals)
+IMG p102_0|d-block — four transition series|56
+B **Series:** 3d — Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn; 4d — Y, Zr, Nb, Mo, Tc, Ru, Rh, Pd, Ag, Cd; 5d — La, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg; 6d — incomplete.
+H3 Electronic Configuration
+B General: **(n−1)d¹⁻¹⁰ ns¹⁻²**. Exceptions arise because (i) energy gap between (n−1)d and ns is small, (ii) half/full-filled sets are extra stable — seen in 3d: **Cr & Cu**; 4d: Nb, Mo, Tc, Ru, Rh, Pd, Ag; 5d: Pt & Au; 6d: Rg.
+H3 Atomic Radii & Density
+B Across 3d series: Sc→Mn radii decrease (nucleus–valence attraction dominates); Fe/Co/Ni nearly equal; Cu→Zn increase.
+B Group trend: 4d > 3d; 4d ≈ 5d (**lanthanide contraction**).
+B Densities ~2–22 g/cm³; Sc < Ti < V < Cr < Mn < Fe < Co < Ni = Cu > Zn (Zn low — large atomic volume); minimum density in 3d = Sc, maximum = Ni & Cu; 3d < 4d < 5d; heaviest — **Os 22.51 and Ir 22.61 g/cm³**.
+H3 Oxidation States & Coloured Ions
+IMG p103_0|Oxidation states of the 3d series; chromate & dichromate ions|66
+B Transition metals show **variable oxidation states** (+1 to +8 typical) as ns and (n−1)d electrons participate; zero state also occurs — Ni in Ni(CO)₄, Fe in Fe(CO)₅.
+B **Colour:** partially-filled d-orbitals → d–d electronic transitions absorb visible light. **Cu²⁺ — blue; Cr³⁺ — green.**
+H3 Magnetic Properties
+B **Paramagnetic** — unpaired d electrons (d¹–d⁹ ions); **diamagnetic** — all paired; **ferromagnetic** — strongest paramagnetism (Fe, Co, Ni). Magnetic moment: **μ = √(n(n+2))** B.M. (n = unpaired electrons).
+H3 Interstitial Compounds & Alloys
+IMG p104_0|Formation of interstitial compounds — "trapped atoms"|62
+B Small atoms (H, C, N) fit into lattice gaps of the d-block metal: **TiC** (extreme hardness — cutting tools), **MnN** (magnetic, electronics), **FeH** (hydrogen storage, fuel cells).
+NOTE The alloy-formation block was printed twice on source p. 104 — kept once.
+B **Alloys:** **brass** (Cu + Zn — malleable, acoustic); **alnico magnets** (Al + Ni + Co — strong magnets); **titanium alloys** (Ti + Al/V — aerospace, medical implants).
+H3 Complexes & Catalysis
+B Ligands (lone-pair donors) form **coordinate covalent bonds** with the central metal ion. **Coordination number** 2–12; geometry — octahedral, square planar, tetrahedral etc.
+B Examples: [Fe(CN)₆]³⁻ hexacyanoferrate(III); [Cu(NH₃)₄]²⁺ tetraamminecopper(II); [PtCl₄]²⁻ tetrachloridoplatinate(II).
+B Complexes are coloured and catalytically active; some act as enzyme cofactors or therapeutic agents.
+B Transition metals are exceptional **catalysts** — they activate molecules and enable hydrogenation to CO₂ conversion; vital in petroleum refining, chemical production and renewable energy.
+H3 Important Compounds of d-block
+IMG p106_0|Potassium dichromate — properties & uses|66
+IMG p106_1|Potassium permanganate — applications|66
+NOTE In the source, the K₂Cr₂O₇ property block was accidentally repeated under the KMnO₄ heading on p. 107; the two compound blocks are separated correctly here — content unchanged.
+TBL Compound~Highlights
+K₂Cr₂O₇ — potassium dichromate~Bright orange-red crystals; powerful oxidising agent; water-soluble (orange solution); stable normally but decomposes on heating/with reducing agents; uses — qualitative analysis & titrations, old photographic processes, pigments & dyes, wood preservation (biocide); **highly toxic & carcinogenic** — inhalation or ingestion causes severe health issues; restricted in many countries
+KMnO₄ — potassium permanganate~Dark purple crystals/powder; strong oxidising agent; uses — water treatment (removes impurities & odour for drinking/industrial water), dilute antiseptic for wounds/dermatitis/fungal infections, organic synthesis & industrial oxidiser, analytical reagent for identifying reducing agents
+TBLW 30,70
+
+H2 9.10 f-Block Elements (Inner Transition Metals)
+IMG p108_0|Lanthanides vs actinides — comparison table|84
+IMG p108_1|Lanthanides vs actinides — properties (continued)|84
+IMG p110_0|Periodic table with f-block placement|80
+B Lanthanoids = **4f** series; actinoids = **5f** series; both are inner transition metals placed below the main table.
+H3 Lanthanides — properties
+B Silvery-white, malleable, high conductivity; high density (varies across series); high m.p./b.p. (exceptions among lighter ones); unique magnetism (para/ferromagnetic at low T); tarnish slowly (oxide layer); **+3 most common** oxidation state; similar properties throughout.
+H3 Actinides — properties
+B **Mostly radioactive** (α, β, γ decay); very dense (U, Pu); high m.p./b.p.; **variable valency** from 5f filling — highest +7 (unstable) for Np & Pu; highest stable **+6 for U**; magnetism at low T; allotropy.
+B **Similarities:** inner transition metals; similar configurations & chemistry; many actinides radioactive (heavier lanthanides slightly so); applications — lanthanides in lighting, catalysts, magnets, electronics; actinides in nuclear reactors, research, weaponry.
+IMG p115_0|Lanthanide & actinide series strip|60
