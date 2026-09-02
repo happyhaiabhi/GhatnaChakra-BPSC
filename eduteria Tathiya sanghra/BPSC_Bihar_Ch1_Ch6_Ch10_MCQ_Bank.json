@@ -1,0 +1,3492 @@
+{
+  "ch1": {
+    "chapter_title": "Chapter 1: Bihar - General Introduction (Eduteria Bihar Tathya Sangrah)",
+    "total_questions": 77,
+    "questions": [
+      {
+        "q_no": 1,
+        "id": "CH1-PYQ-001",
+        "question": "The total geographical area of Bihar State is",
+        "options": {
+          "A": "94163 sq. km",
+          "B": "94526 sq. km",
+          "C": "94200 sq. km",
+          "D": "94316 sq. km"
+        },
+        "answer": "A",
+        "answer_text": "94163 sq. km",
+        "explanation": "Correct answer: 94163 sq. km.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.134 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 2,
+        "id": "CH1-PYQ-002",
+        "question": "Which of the following States of India borders with the maximum number of districts in Bihar?",
+        "options": {
+          "A": "Uttar Pradesh",
+          "B": "Jharkhand",
+          "C": "West Bengal",
+          "D": "More than one of the above"
+        },
+        "answer": "D",
+        "answer_text": "More than one of the above",
+        "explanation": "Correct answer: More than one of the above.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.104 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 3,
+        "id": "CH1-PYQ-003",
+        "question": "In which year did the State Jharkhand come into existence?",
+        "options": {
+          "A": "1998",
+          "B": "1999",
+          "C": "2000",
+          "D": "2001"
+        },
+        "answer": "C",
+        "answer_text": "2000",
+        "explanation": "Correct answer: 2000.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.99 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 4,
+        "id": "CH1-PYQ-004",
+        "question": "Which of the following districts of Bihar does not share border with Nepal?",
+        "options": {
+          "A": "Madhubani",
+          "B": "Kishanganj",
+          "C": "Sitamarhi",
+          "D": "Purnia"
+        },
+        "answer": "D",
+        "answer_text": "Purnia",
+        "explanation": "Correct answer: Purnia.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.122 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 5,
+        "id": "CH1-PYQ-005",
+        "question": "The number of districts situated on the bank of Ganga river in Bihar State is",
+        "options": {
+          "A": "21",
+          "B": "17",
+          "C": "12",
+          "D": "6"
+        },
+        "answer": "C",
+        "answer_text": "12",
+        "explanation": "Correct answer: 12.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.24 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 6,
+        "id": "CH1-PYQ-006",
+        "question": "The district of Bihar which has a longer length of Ganga river is",
+        "options": {
+          "A": "Bhagalpur",
+          "B": "Katihar",
+          "C": "Patna",
+          "D": "Begusarai"
+        },
+        "answer": "C",
+        "answer_text": "Patna",
+        "explanation": "Correct answer: Patna.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.28 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 7,
+        "id": "CH1-PYQ-007",
+        "question": "In which one of the following pairs of Administrative Divisions of Bihar, Ganga river does not flow?",
+        "options": {
+          "A": "Darbhanga—Munger",
+          "B": "Purnea—Bhagalpur",
+          "C": "Tirhut—Saran",
+          "D": "Kosi—Magadh"
+        },
+        "answer": "D",
+        "answer_text": "Kosi—Magadh",
+        "explanation": "Correct answer: Kosi—Magadh.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.97 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 8,
+        "id": "CH1-PYQ-008",
+        "question": "Which is the Asia's largest and freshwater oxbow lake in Bihar?",
+        "options": {
+          "A": "Anupam Lake",
+          "B": "Kusheshwar Lake",
+          "C": "Ghogha Lake",
+          "D": "Kanwar Lake"
+        },
+        "answer": "D",
+        "answer_text": "Kanwar Lake",
+        "explanation": "Correct answer: Kanwar Lake.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.137 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 9,
+        "id": "CH1-PYQ-009",
+        "question": "Which river is known as Sorrow of Bihar?",
+        "options": {
+          "A": "Kosi",
+          "B": "Sone",
+          "C": "Ghaghra",
+          "D": "Ganga"
+        },
+        "answer": "A",
+        "answer_text": "Kosi",
+        "explanation": "Correct answer: Kosi.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.135 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 10,
+        "id": "CH1-PYQ-010",
+        "question": "The other name of river Gandak is",
+        "options": {
+          "A": "Burhi Gandak",
+          "B": "Mahananda",
+          "C": "Narayani",
+          "D": "Punpun"
+        },
+        "answer": "C",
+        "answer_text": "Narayani",
+        "explanation": "Correct answer: Narayani.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.88 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 11,
+        "id": "CH1-PYQ-011",
+        "question": "The Triveni Canal has been constructed on which of the following rivers?",
+        "options": {
+          "A": "Kosi",
+          "B": "Sone",
+          "C": "Gandak",
+          "D": "Mayurakshi"
+        },
+        "answer": "C",
+        "answer_text": "Gandak",
+        "explanation": "Correct answer: Gandak.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 12,
+        "id": "CH1-PYQ-012",
+        "question": "Phalgu, a sacred river flowing in Bihar, is formed by the confluence of which of the following rivers?",
+        "options": {
+          "A": "Lilajan and Son rivers",
+          "B": "Son and Mohana rivers",
+          "C": "Mohana and Lilajan rivers",
+          "D": "More than one of the above"
+        },
+        "answer": "C",
+        "answer_text": "Mohana and Lilajan rivers",
+        "explanation": "Correct answer: Mohana and Lilajan rivers.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 13,
+        "id": "CH1-PYQ-013",
+        "question": "Prime Minister Narendra Modi recently laid the foundation of Mandal Dam Project to be built on which river?",
+        "options": {
+          "A": "Koshi",
+          "B": "Burhi Gandak",
+          "C": "Phalgu",
+          "D": "North Koel"
+        },
+        "answer": "D",
+        "answer_text": "North Koel",
+        "explanation": "Correct answer: North Koel.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.141 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 14,
+        "id": "CH1-PYQ-014",
+        "question": "In July 2019, experts visited for the first documentation of a Megalithic site of Bihar in which of the following districts?",
+        "options": {
+          "A": "Patna",
+          "B": "Kaimur",
+          "C": "Madhubani",
+          "D": "Banka"
+        },
+        "answer": "B",
+        "answer_text": "Kaimur",
+        "explanation": "Correct answer: Kaimur.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.142 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 15,
+        "id": "CH1-PYQ-015",
+        "question": "Karmanasa river originates in -",
+        "options": {
+          "A": "Kaimur District",
+          "B": "Vaishali District",
+          "C": "Patna District",
+          "D": "Bikram District"
+        },
+        "answer": "A",
+        "answer_text": "Kaimur District",
+        "explanation": "Correct answer: Kaimur District. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.117 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 16,
+        "id": "CH1-PYQ-016",
+        "question": "The second largest river basin of India is -",
+        "options": {
+          "A": "Mahanadi river basin",
+          "B": "Narmada river basin",
+          "C": "Godavari river basin",
+          "D": "Kaveri river basin"
+        },
+        "answer": "C",
+        "answer_text": "Godavari river basin",
+        "explanation": "Correct answer: Godavari river basin. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 17,
+        "id": "CH1-PYQ-017",
+        "question": "The river Subarnarekha originates near which of the following villages?",
+        "options": {
+          "A": "Ormanjhi",
+          "B": "Mandar",
+          "C": "Hehal",
+          "D": "Nagri"
+        },
+        "answer": "D",
+        "answer_text": "Nagri",
+        "explanation": "Correct answer: Nagri.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.85 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 18,
+        "id": "CH1-PYQ-018",
+        "question": "Which of the following rivers flowing in Bihar is a north flowing river?",
+        "options": {
+          "A": "Bagmati",
+          "B": "Kamla",
+          "C": "Kosi",
+          "D": "Gandak",
+          "E": "None of the above/More than one of the above"
+        },
+        "answer": "E",
+        "answer_text": "None of the above/More than one of the above",
+        "explanation": "Correct answer: None of the above/More than one of the above.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 19,
+        "id": "CH1-PYQ-019",
+        "question": "Among the following tributaries, which one is the part of Ganga river basin?",
+        "options": {
+          "A": "Sankh",
+          "B": "North Koel",
+          "C": "South Koel",
+          "D": "Barakar"
+        },
+        "answer": "B",
+        "answer_text": "North Koel",
+        "explanation": "Correct answer: North Koel.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.36 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 20,
+        "id": "CH1-PYQ-020",
+        "question": "Which one of the following States has the highest density of population according to the Census of India, 2011?",
+        "options": {
+          "A": "Kerala",
+          "B": "Haryana",
+          "C": "Bihar",
+          "D": "Uttar Pradesh"
+        },
+        "answer": "C",
+        "answer_text": "Bihar",
+        "explanation": "Correct answer: Bihar.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.115 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 21,
+        "id": "CH1-PYQ-021",
+        "question": "Which district of Bihar has the largest gold reserve?",
+        "options": {
+          "A": "Banka",
+          "B": "Katihar",
+          "C": "Munger",
+          "D": "Jamui"
+        },
+        "answer": "D",
+        "answer_text": "Jamui",
+        "explanation": "Correct answer: Jamui.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.138 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 22,
+        "id": "CH1-PYQ-022",
+        "question": "Which district of Bihar is known as 'silk city'?",
+        "options": {
+          "A": "Bhagalpur",
+          "B": "Banka",
+          "C": "Katihar",
+          "D": "Bhojpur"
+        },
+        "answer": "A",
+        "answer_text": "Bhagalpur",
+        "explanation": "Correct answer: Bhagalpur.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.139 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 23,
+        "id": "CH1-PYQ-023",
+        "question": "Gold is found in which of the following districts of Bihar?",
+        "options": {
+          "A": "Munger",
+          "B": "Saran",
+          "C": "Siwan",
+          "D": "Jamui"
+        },
+        "answer": "D",
+        "answer_text": "Jamui",
+        "explanation": "Correct answer: Jamui.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.89 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 24,
+        "id": "CH1-PYQ-024",
+        "question": "Gold is found in which district of Bihar?",
+        "options": {
+          "A": "Gaya District",
+          "B": "Jamui District",
+          "C": "Nalanda District",
+          "D": "Bhagalpur District"
+        },
+        "answer": "B",
+        "answer_text": "Jamui District",
+        "explanation": "Correct answer: Jamui District. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.119 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 25,
+        "id": "CH1-PYQ-025",
+        "question": "The maximum number of tax [tea] industries is in which district?",
+        "options": {
+          "A": "Darbhanga",
+          "B": "Purnia",
+          "C": "Kishanganj",
+          "D": "More than one of the above"
+        },
+        "answer": "C",
+        "answer_text": "Kishanganj",
+        "explanation": "Correct answer: Kishanganj.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.22 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 26,
+        "id": "CH1-PYQ-026",
+        "question": "With reference to the mineral production in Bihar, consider the following statements : 1. Rohtas has the highest deposit of pyrites. 2. Limestone is found in Kaimur (Bhabhua), Munger (Monghyr) and Rohtas districts. 3. Gold deposits are found in Jamui district. Which of the statements given above is/are correct?",
+        "options": {
+          "A": "3 only",
+          "B": "1 and 2 only",
+          "C": "1 and 3 only",
+          "D": "More than one of the above"
+        },
+        "answer": "C",
+        "answer_text": "1 and 3 only",
+        "explanation": "Correct answer: 1 and 3 only.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.106 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 27,
+        "id": "CH1-PYQ-027",
+        "question": "Among the following pairs of mineral and district, which one is correctly matched?",
+        "options": {
+          "A": "Limestone—Kaimur",
+          "B": "Mica—Bhagalpur",
+          "C": "Quartzite—Madhubani",
+          "D": "Lead-zinc—Gaya"
+        },
+        "answer": "A",
+        "answer_text": "Limestone—Kaimur",
+        "explanation": "Correct answer: Limestone—Kaimur.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.94 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 28,
+        "id": "CH1-PYQ-028",
+        "question": "Piedmont Swamp Soil is found only in which one of the following districts of Bihar?",
+        "options": {
+          "A": "Madhubani",
+          "B": "Bhagalpur",
+          "C": "West Champaran",
+          "D": "Sitamarhi"
+        },
+        "answer": "C",
+        "answer_text": "West Champaran",
+        "explanation": "Correct answer: West Champaran.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.96 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 29,
+        "id": "CH1-PYQ-029",
+        "question": "Which soil is predominantly found in the districts of Muzaffarpur, Darbhanga and Champaran?",
+        "options": {
+          "A": "Black soil",
+          "B": "Newer alluvium",
+          "C": "Older alluvium",
+          "D": "Red soil"
+        },
+        "answer": "B",
+        "answer_text": "Newer alluvium",
+        "explanation": "Correct answer: Newer alluvium.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.46 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 30,
+        "id": "CH1-PYQ-030",
+        "question": "Which one of the following soils is deposited by rivers?",
+        "options": {
+          "A": "Red soil",
+          "B": "Black soil",
+          "C": "Alluvial soil",
+          "D": "Laterite soil"
+        },
+        "answer": "C",
+        "answer_text": "Alluvial soil",
+        "explanation": "Correct answer: Alluvial soil.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.37 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 31,
+        "id": "CH1-PYQ-031",
+        "question": "Which one of the following districts does not have Dharwar geological formations?",
+        "options": {
+          "A": "Munger",
+          "B": "Rohtas",
+          "C": "Jamui",
+          "D": "Nawada"
+        },
+        "answer": "B",
+        "answer_text": "Rohtas",
+        "explanation": "Correct answer: Rohtas.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.23 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 32,
+        "id": "CH1-PYQ-032",
+        "question": "Among the following districts, which one has larger area under dense deciduous forest cover?",
+        "options": {
+          "A": "Paschim Champaran",
+          "B": "Gaya",
+          "C": "Kaimur",
+          "D": "Nawada"
+        },
+        "answer": "C",
+        "answer_text": "Kaimur",
+        "explanation": "Correct answer: Kaimur.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.27 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 33,
+        "id": "CH1-PYQ-033",
+        "question": "What is the percentage of all types of forest area to the total geographical area of Bihar State?",
+        "options": {
+          "A": "7.27",
+          "B": "6.87",
+          "C": "3.21",
+          "D": "12.77"
+        },
+        "answer": "A",
+        "answer_text": "7.27",
+        "explanation": "Correct answer: 7.27.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.99 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 34,
+        "id": "CH1-PYQ-034",
+        "question": "Which one of the following districts is having the only National Park of Bihar?",
+        "options": {
+          "A": "Nalanda",
+          "B": "Bhagalpur",
+          "C": "West Champaran",
+          "D": "East Champaran"
+        },
+        "answer": "C",
+        "answer_text": "West Champaran",
+        "explanation": "Correct answer: West Champaran.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.100 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 35,
+        "id": "CH1-PYQ-035",
+        "question": "Which one of the following wildlife sanctuaries is situated in Munger district of Bihar?",
+        "options": {
+          "A": "Valmiki",
+          "B": "Rajgir",
+          "C": "Bhimbandh",
+          "D": "Gautam Buddha"
+        },
+        "answer": "C",
+        "answer_text": "Bhimbandh",
+        "explanation": "Correct answer: Bhimbandh.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.25 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 36,
+        "id": "CH1-PYQ-036",
+        "question": "Which of the following National Parks/Wildlife Sanctuaries are in Bihar? 1. Valmiki National Park 2. Dudhwa National Park 3. Gajner Wildlife Sanctuary 4. Bhimbandh Wildlife Sanctuary",
+        "options": {
+          "A": "1 and 4",
+          "B": "2 and 3",
+          "C": "1 and 3",
+          "D": "2 and 4"
+        },
+        "answer": "A",
+        "answer_text": "1 and 4",
+        "explanation": "Correct answer: 1 and 4.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.86 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 37,
+        "id": "CH1-PYQ-037",
+        "question": "Among the following pairs of tribe and district, which one is not correctly matched?",
+        "options": {
+          "A": "Santhal—Banka",
+          "B": "Munda—Jamui",
+          "C": "Oraon—Supaul",
+          "D": "Kharwar—Bhagalpur",
+          "E": "None of the above/More than one of the above"
+        },
+        "answer": "E",
+        "answer_text": "None of the above/More than one of the above",
+        "explanation": "Correct answer: None of the above/More than one of the above.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.98 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 38,
+        "id": "CH1-PYQ-038",
+        "question": "Which of the following districts of Bihar has the highest percentage of Scheduled Tribe population in 2011 census?",
+        "options": {
+          "A": "Katihar",
+          "B": "Jamui",
+          "C": "Purnia",
+          "D": "Banka"
+        },
+        "answer": "A",
+        "answer_text": "Katihar",
+        "explanation": "Correct answer: Katihar.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 39,
+        "id": "CH1-PYQ-039",
+        "question": "In which district of Bihar, Telhar Kund Waterfall is located?",
+        "options": {
+          "A": "Kaimur",
+          "B": "Rohtas",
+          "C": "Sasaram",
+          "D": "Nawada"
+        },
+        "answer": "A",
+        "answer_text": "Kaimur",
+        "explanation": "Correct answer: Kaimur.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 40,
+        "id": "CH1-PYQ-040",
+        "question": "In which district of Bihar, the world's tallest (251 m) statue of Mother Sita will be constructed?",
+        "options": {
+          "A": "Bodh Gaya",
+          "B": "Patna",
+          "C": "Madhubani",
+          "D": "Sitamarhi"
+        },
+        "answer": "D",
+        "answer_text": "Sitamarhi",
+        "explanation": "Correct answer: Sitamarhi.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.89 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 41,
+        "id": "CH1-PYQ-041",
+        "question": "By how many districts of Bihar was Patna district bounded till July 2018?",
+        "options": {
+          "A": "7",
+          "B": "8",
+          "C": "9",
+          "D": "10"
+        },
+        "answer": "C",
+        "answer_text": "9",
+        "explanation": "Correct answer: 9.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.86 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 42,
+        "id": "CH1-PYQ-042",
+        "question": "Which one of the following rivers is different from the others?",
+        "options": {
+          "A": "Tungabhadra",
+          "B": "Narmada",
+          "C": "Penganga",
+          "D": "Mahanadi"
+        },
+        "answer": "B",
+        "answer_text": "Narmada",
+        "explanation": "Correct answer: Narmada.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.61 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 43,
+        "id": "CH1-EDU-001",
+        "question": "When did the new province of Bihar come into force during British rule?",
+        "options": {
+          "A": "March 1912",
+          "B": "April 1911",
+          "C": "April 1936",
+          "D": "April 1912"
+        },
+        "answer": "D",
+        "answer_text": "April 1912",
+        "explanation": "Correct answer: April 1912.",
+        "year": "70th",
+        "source": "Eduteria PYQ set — 70th BPSC Preliminary Exam (BH-EDU-006)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 44,
+        "id": "CH1-EDU-002",
+        "question": "When did Bihar become a separate/independent state in India?",
+        "options": {
+          "A": "1935",
+          "B": "1936",
+          "C": "1950",
+          "D": "1912"
+        },
+        "answer": "D",
+        "answer_text": "1912",
+        "explanation": "Correct answer: 1912.",
+        "year": "64th",
+        "source": "Eduteria PYQ set — 64th BPSC Preliminary Exam (BH-EDU-036)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 45,
+        "id": "CH1-EDU-003",
+        "question": "Jharkhand was an integral part of Bihar until which year (before becoming a separate state)?",
+        "options": {
+          "A": "1995",
+          "B": "1999",
+          "C": "2000",
+          "D": "1990"
+        },
+        "answer": "B",
+        "answer_text": "1999",
+        "explanation": "Correct answer: 1999.",
+        "year": "2022",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2022 (BH-EDU-070)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 46,
+        "id": "CH1-EDU-004",
+        "question": "The average annual rainfall of Bihar state is:",
+        "options": {
+          "A": "100 cm",
+          "B": "112 cm",
+          "C": "125 cm",
+          "D": "150 cm"
+        },
+        "answer": "B",
+        "answer_text": "112 cm",
+        "explanation": "Correct answer: 112 cm.",
+        "year": "2005",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-087)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 47,
+        "id": "CH1-EDU-005",
+        "question": "Which of the following longitude lines passes through Bihar?",
+        "options": {
+          "A": "82°E",
+          "B": "78°E",
+          "C": "90°E",
+          "D": "86°E"
+        },
+        "answer": "D",
+        "answer_text": "86°E",
+        "explanation": "Correct answer: 86°E.",
+        "year": "2005",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-088)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 48,
+        "id": "CH1-EDU-006",
+        "question": "The Chota Nagpur Plateau is mainly formed by:",
+        "options": {
+          "A": "Vindhyan sandstone",
+          "B": "Archaean granite",
+          "C": "Deccan basalt",
+          "D": "Gondwana rocks"
+        },
+        "answer": "B",
+        "answer_text": "Archaean granite",
+        "explanation": "Correct answer: Archaean granite.",
+        "year": "1998",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 1998 (BH-EDU-108)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 49,
+        "id": "CH1-EDU-007",
+        "question": "The Tel river is a tributary of which of the following rivers?",
+        "options": {
+          "A": "Ganga",
+          "B": "Son",
+          "C": "Damodar",
+          "D": "Mahanadi"
+        },
+        "answer": "D",
+        "answer_text": "Mahanadi",
+        "explanation": "Correct answer: Mahanadi.",
+        "year": "60th-62nd",
+        "source": "Eduteria PYQ set — 60th-62nd BPSC Preliminary Exam (BH-EDU-050)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 50,
+        "id": "CH1-EDU-008",
+        "question": "The holy river Falgu, flowing in Bihar, is formed by the confluence of which of the following rivers?",
+        "options": {
+          "A": "Son and Punpun",
+          "B": "Gandak and Ghaghara",
+          "C": "Mohana and Lilajan River",
+          "D": "Kosi and Bagmati"
+        },
+        "answer": "C",
+        "answer_text": "Mohana and Lilajan River",
+        "explanation": "Correct answer: Mohana and Lilajan River.",
+        "year": "68th",
+        "source": "Eduteria PYQ set — 68th BPSC Preliminary Exam (BH-EDU-018)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 51,
+        "id": "CH1-EDU-009",
+        "question": "Which of the following is the most recent formation in the geological history of Bihar?",
+        "options": {
+          "A": "Plains of Bihar",
+          "B": "Chotanagpur Plateau",
+          "C": "Kaimur Range",
+          "D": "Someshwar Hills"
+        },
+        "answer": "A",
+        "answer_text": "Plains of Bihar",
+        "explanation": "Correct answer: Plains of Bihar.",
+        "year": "65th",
+        "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-030)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 52,
+        "id": "CH1-EDU-010",
+        "question": "The old alluvial soil deposits are found in which of the following areas of Bihar?",
+        "options": {
+          "A": "Muzaffarpur and Darbhanga",
+          "B": "Patna and Gaya",
+          "C": "Champaran and Saran",
+          "D": "Purnia and Katihar"
+        },
+        "answer": "B",
+        "answer_text": "Patna and Gaya",
+        "explanation": "Correct answer: Patna and Gaya.",
+        "year": "65th",
+        "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-031)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 53,
+        "id": "CH1-NEW-001",
+        "question": "Why was this region named 'Bihar'?",
+        "options": {
+          "A": "Due to abundance of forts (Kila) in the 10th century",
+          "B": "Due to abundance of Buddhist monasteries (Vihar) in the 12th century",
+          "C": "Named after a Mughal governor",
+          "D": "Named after the river Bihari"
+        },
+        "answer": "B",
+        "answer_text": "Due to abundance of Buddhist monasteries (Vihar) in the 12th century",
+        "explanation": "The place of residence of Buddhist followers was called 'Vihar'; Arab Muslim invaders started addressing these monasteries as 'Bihar', giving the region its name.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 54,
+        "id": "CH1-NEW-002",
+        "question": "Which of the following were major Buddhist Mahaviharas located in Bihar whose abundance gave the region its name?\n1. Nalanda Mahavihara\n2. Vikramshila Mahavihara\n3. Odantapuri Mahavihara\n4. Takshashila Mahavihara\nSelect the correct answer using the code given below:",
+        "options": {
+          "A": "1, 2 and 3 only",
+          "B": "1, 2 and 4 only",
+          "C": "2, 3 and 4 only",
+          "D": "1, 2, 3 and 4"
+        },
+        "answer": "A",
+        "answer_text": "1, 2 and 3 only (Takshashila is in present-day Pakistan, not Bihar)",
+        "explanation": "Nalanda, Vikramshila and Odantapuri Mahaviharas were the major monasteries located in Bihar; Takshashila was located in present-day Pakistan.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 55,
+        "id": "CH1-NEW-003",
+        "question": "What is the latitudinal extension of Bihar?",
+        "options": {
+          "A": "20°30'10\" N to 24°31'15\" N",
+          "B": "24°20'10\" N to 27°31'15\" N",
+          "C": "22°20'10\" N to 26°31'15\" N",
+          "D": "26°20'10\" N to 29°31'15\" N"
+        },
+        "answer": "B",
+        "answer_text": "24°20'10\" N to 27°31'15\" N",
+        "explanation": "Bihar's latitudinal extension is 24°20'10\"N to 27°31'15\"N as per the state's geographical location and extent data.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 56,
+        "id": "CH1-NEW-004",
+        "question": "What is the length of Bihar from North to South, and its width from East to West respectively?",
+        "options": {
+          "A": "345 km and 483 km",
+          "B": "483 km and 345 km",
+          "C": "400 km and 500 km",
+          "D": "345 km and 345 km"
+        },
+        "answer": "A",
+        "answer_text": "345 km and 483 km",
+        "explanation": "Bihar's length (North to South) is 345 km, and its width (East to West) is 483 km, giving it a rectangular shape.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 57,
+        "id": "CH1-NEW-005",
+        "question": "As per the Bihar Caste-based Survey (Census) 2022-23, what is the total population of Bihar?",
+        "options": {
+          "A": "10,40,99,452",
+          "B": "12,30,11,000",
+          "C": "13,07,25,310",
+          "D": "11,50,00,000"
+        },
+        "answer": "C",
+        "answer_text": "13,07,25,310",
+        "explanation": "According to the Bihar Caste Census 2022-23, the total population of Bihar is 13,07,25,310, higher than the 2011 Census figure of 10,40,99,452.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 58,
+        "id": "CH1-NEW-006",
+        "question": "Bihar is currently divided into how many administrative divisions (Pramandal) and districts respectively?",
+        "options": {
+          "A": "9 divisions and 38 districts",
+          "B": "9 divisions and 37 districts",
+          "C": "8 divisions and 38 districts",
+          "D": "10 divisions and 38 districts"
+        },
+        "answer": "A",
+        "answer_text": "9 divisions and 38 districts",
+        "explanation": "Bihar has 9 administrative divisions and 38 districts, Arwal (created in 2001) being the 38th district.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 59,
+        "id": "CH1-NEW-007",
+        "question": "Consider the following statements about the administrative structure of Bihar:\n1. There are 101 sub-divisions in Bihar.\n2. There are 534 blocks in Bihar.\n3. There are 8,053 panchayats in Bihar.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 only",
+          "B": "1 and 2 only",
+          "C": "2 and 3 only",
+          "D": "1, 2 and 3"
+        },
+        "answer": "D",
+        "answer_text": "1, 2 and 3",
+        "explanation": "Bihar has 101 sub-divisions, 534 blocks, and 8,053 panchayats as per current administrative data.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 60,
+        "id": "CH1-NEW-008",
+        "question": "How many Municipal Corporations are there in Bihar, and which is the most recently added (19th) one?",
+        "options": {
+          "A": "18 Municipal Corporations; Purnia is the 18th",
+          "B": "19 Municipal Corporations; Saharsa is the 19th",
+          "C": "19 Municipal Corporations; Munger is the 19th",
+          "D": "20 Municipal Corporations; Bihar Sharif is the 20th"
+        },
+        "answer": "B",
+        "answer_text": "19 Municipal Corporations; Saharsa is the 19th",
+        "explanation": "Bihar has 19 Municipal Corporations, with Saharsa being the most recently constituted (19th) Municipal Corporation.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 61,
+        "id": "CH1-NEW-009",
+        "question": "Apart from the 38 districts, Bihar has two additional Police Districts. What are they?",
+        "options": {
+          "A": "Bagaha and Navagachia",
+          "B": "Danapur and Sasaram",
+          "C": "Barh and Bettiah",
+          "D": "Motihari and Munger"
+        },
+        "answer": "A",
+        "answer_text": "Bagaha and Navagachia",
+        "explanation": "In addition to the 38 districts, Bihar has Bagaha and Navagachia as separate police districts, taking the total number of police districts to 44.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 62,
+        "id": "CH1-NEW-010",
+        "question": "How many Railway Police Districts are there in Bihar, and name them.",
+        "options": {
+          "A": "3 - Patna, Gaya, Danapur",
+          "B": "4 - Jamalpur, Katihar, Muzaffarpur, Patna",
+          "C": "4 - Patna, Gaya, Bhagalpur, Muzaffarpur",
+          "D": "5 - Patna, Gaya, Danapur, Katihar, Muzaffarpur"
+        },
+        "answer": "B",
+        "answer_text": "4 - Jamalpur, Katihar, Muzaffarpur, Patna",
+        "explanation": "Bihar has four Railway Police Districts: Jamalpur, Katihar, Muzaffarpur and Patna.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 63,
+        "id": "CH1-NEW-011",
+        "question": "Consider the following divisions of Bihar and the number of districts under them:\n1. Tirhut Division - 6 districts\n2. Patna Division - 6 districts\n3. Munger Division - 6 districts\n4. Bhagalpur Division - 2 districts\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "Tirhut, Patna and Munger divisions each have 6 districts (the highest among all divisions), while Bhagalpur division has only 2 districts (Bhagalpur and Banka) - the fewest.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 64,
+        "id": "CH1-NEW-012",
+        "question": "Arrange the following divisions of Bihar in ascending order according to the number of districts they contain: Purnia, Saran, Magadh, Patna",
+        "options": {
+          "A": "Saran < Purnia < Magadh < Patna",
+          "B": "Purnia < Saran < Magadh < Patna",
+          "C": "Saran < Magadh < Purnia < Patna",
+          "D": "Magadh < Saran < Purnia < Patna"
+        },
+        "answer": "A",
+        "answer_text": "Saran (3) < Purnia (4) < Magadh (5) < Patna (6)",
+        "explanation": "Saran has 3 districts, Purnia has 4 districts, Magadh has 5 districts, and Patna has 6 districts.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 65,
+        "id": "CH1-NEW-013",
+        "question": "Match the following Divisions of Bihar with their Headquarters:\nA. Kosi\nB. Darbhanga\nC. Magadh\nD. Saran\n1. Chhapra\n2. Gaya\n3. Saharsa\n4. Darbhanga",
+        "options": {
+          "A": "A-3, B-4, C-2, D-1",
+          "B": "A-1, B-2, C-3, D-4",
+          "C": "A-3, B-1, C-4, D-2",
+          "D": "A-4, B-3, C-1, D-2"
+        },
+        "answer": "A",
+        "answer_text": "A-3 (Kosi-Saharsa), B-4 (Darbhanga-Darbhanga), C-2 (Magadh-Gaya), D-1 (Saran-Chhapra)",
+        "explanation": "Kosi division's headquarters is Saharsa, Darbhanga division's headquarters is Darbhanga, Magadh division's headquarters is Gaya, and Saran division's headquarters is Chhapra.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "match_the_following"
+      },
+      {
+        "q_no": 66,
+        "id": "CH1-NEW-014",
+        "question": "How many seats are there in the Bihar Legislative Assembly and the Bihar Legislative Council respectively?",
+        "options": {
+          "A": "243 and 75",
+          "B": "230 and 90",
+          "C": "243 and 90",
+          "D": "250 and 75"
+        },
+        "answer": "A",
+        "answer_text": "243 and 75",
+        "explanation": "Bihar Legislative Assembly (Vidhan Sabha) has 243 seats, and Bihar Legislative Council (Vidhan Parishad) has 75 seats, making Bihar's legislature bicameral.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 67,
+        "id": "CH1-NEW-015",
+        "question": "Consider the following statements regarding reservation of seats in the Bihar Legislative Assembly:\n1. A total of 40 seats are reserved in the Legislative Assembly.\n2. 38 seats are reserved for Scheduled Castes.\n3. 2 seats are reserved for Scheduled Tribes - Katoria and Manihari.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 only",
+          "B": "1 and 2 only",
+          "C": "2 and 3 only",
+          "D": "1, 2 and 3"
+        },
+        "answer": "D",
+        "answer_text": "1, 2 and 3",
+        "explanation": "Of the 40 total reserved seats in the Bihar Legislative Assembly, 38 are reserved for SCs and 2 for STs (Katoria and Manihari constituencies).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 68,
+        "id": "CH1-NEW-016",
+        "question": "Which of the following Lok Sabha seats of Bihar is/are reserved for Scheduled Castes?\n1. Gopalganj\n2. Hajipur\n3. Samastipur\n4. Jamui\n5. Gaya\n6. Sasaram",
+        "options": {
+          "A": "1, 2 and 3 only",
+          "B": "1, 2, 3, 4, 5 and 6",
+          "C": "2, 4 and 6 only",
+          "D": "1, 3 and 5 only"
+        },
+        "answer": "B",
+        "answer_text": "1, 2, 3, 4, 5 and 6 (all six are reserved for SC)",
+        "explanation": "Bihar has 6 Lok Sabha seats reserved for Scheduled Castes: Gopalganj, Hajipur, Samastipur, Jamui, Gaya and Sasaram.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 69,
+        "id": "CH1-NEW-017",
+        "question": "The State Symbol of Bihar consists of which of the following?",
+        "options": {
+          "A": "Peepal tree surrounded by two lions",
+          "B": "Bodhi Tree surrounded by two Swastika symbols",
+          "C": "Ashoka Chakra with a lotus",
+          "D": "Wheat sheaf with a sun"
+        },
+        "answer": "B",
+        "answer_text": "Bodhi Tree surrounded by two Swastika symbols",
+        "explanation": "The official State Symbol of Bihar depicts the Bodhi Tree surrounded by two Swastika symbols.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 70,
+        "id": "CH1-NEW-018",
+        "question": "Consider the following statements regarding the State Animal and State Bird of Bihar:\n1. The current State Animal of Bihar is the Bull; before 2013 it was the Bear.\n2. The current State Bird of Bihar is the Sparrow (Passer domesticus); before 2013 it was the Dove.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 only",
+          "B": "2 only",
+          "C": "Both 1 and 2",
+          "D": "Neither 1 nor 2"
+        },
+        "answer": "C",
+        "answer_text": "Both 1 and 2",
+        "explanation": "Bihar changed its State Animal from Bear to Bull, and its State Bird from Dove to Sparrow (Passer domesticus), both changes occurring around 2013.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 71,
+        "id": "CH1-NEW-019",
+        "question": "When was the Marigold declared the State Flower of Bihar, and what is the State Fish of Bihar?",
+        "options": {
+          "A": "2013; Mangur (Clarius Batrachus), announced in 2008",
+          "B": "2010; Rohu, announced in 2005",
+          "C": "2013; Hilsa, announced in 2010",
+          "D": "2008; Mangur, announced in 2013"
+        },
+        "answer": "A",
+        "answer_text": "2013; Mangur (Clarius Batrachus), announced in 2008",
+        "explanation": "Marigold was declared the State Flower of Bihar in 2013, while Mangur (Clarius Batrachus) was announced as the State Fish in 2008.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 72,
+        "id": "CH1-NEW-020",
+        "question": "What are the First and Second Official Languages of Bihar respectively?",
+        "options": {
+          "A": "Hindi and Urdu",
+          "B": "Hindi and Maithili",
+          "C": "Hindi and Bhojpuri",
+          "D": "Urdu and Hindi"
+        },
+        "answer": "A",
+        "answer_text": "Hindi and Urdu",
+        "explanation": "Hindi is the First Official Language and Urdu is the Second Official Language of Bihar.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 73,
+        "id": "CH1-NEW-021",
+        "question": "Consider the following statements regarding the State Song of Bihar:\n1. Its opening line is 'Mere Bharat Ke Kanthahar, Tujhko Sat-Sat Vandan Bihar'.\n2. It was written by Satya Narayan Lal.\n3. It was set to music by Hari Prasad Chaurasia and Shivkumar Sharma.\n4. It was officially recognized in the year 2012.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "All four statements about the Bihar State Song are correct: written by Satya Narayan Lal, music by Hari Prasad Chaurasia and Shivkumar Sharma, recognized in 2012.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 74,
+        "id": "CH1-NEW-022",
+        "question": "Who wrote the lyrics of the Prayer Song of Bihar, 'Meri Raftaar Par Suraj Ki Kiran Naaz Kare'?",
+        "options": {
+          "A": "Satya Narayan Lal",
+          "B": "M.R. Chishti",
+          "C": "Ramdhari Singh Dinkar",
+          "D": "Nagarjun"
+        },
+        "answer": "B",
+        "answer_text": "M.R. Chishti",
+        "explanation": "The Prayer Song of Bihar was written by M.R. Chishti.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 75,
+        "id": "CH1-NEW-023",
+        "question": "On which date is Bihar Foundation Day (Bihar Diwas) celebrated?",
+        "options": {
+          "A": "1 April",
+          "B": "15 November",
+          "C": "22 March",
+          "D": "26 January"
+        },
+        "answer": "C",
+        "answer_text": "22 March",
+        "explanation": "Bihar Foundation Day is celebrated on 22 March, marking the formation of Bihar as a separate province on 22 March 1912 (notification date).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 76,
+        "id": "CH1-NEW-024",
+        "question": "Consider the following statements regarding Bihar's international and inter-state boundaries:\n1. Bihar shares a border with Nepal in the north through 7 districts.\n2. Bihar shares a border with Jharkhand in the south through 8 districts.\n3. Bihar shares a border with West Bengal in the east through 3 districts.\n4. Bihar shares a border with Uttar Pradesh in the west through 8 districts.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "Bihar borders Nepal (7 districts) in the north, Jharkhand (8 districts) in the south, West Bengal (3 districts) in the east, and Uttar Pradesh (8 districts) in the west.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 77,
+        "id": "CH1-NEW-025",
+        "question": "Which THREE districts of Bihar share a border with West Bengal?",
+        "options": {
+          "A": "Kishanganj, Purnia and Katihar",
+          "B": "Purnia, Araria and Kishanganj",
+          "C": "Katihar, Bhagalpur and Banka",
+          "D": "Kishanganj, Supaul and Araria"
+        },
+        "answer": "A",
+        "answer_text": "Kishanganj, Purnia and Katihar",
+        "explanation": "Kishanganj, Purnia and Katihar are the three districts of Bihar that share a border with West Bengal.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      }
+    ]
+  },
+  "ch6": {
+    "chapter_title": "Chapter 6: Census of Bihar (2011) (Eduteria Bihar Tathya Sangrah)",
+    "total_questions": 57,
+    "questions": [
+      {
+        "q_no": 1,
+        "id": "CH6-PYQ-001",
+        "question": "As per Census 2011, what is the rank of Bihar State in terms of population in the country?",
+        "options": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV"
+        },
+        "answer": "C",
+        "answer_text": "III",
+        "explanation": "Correct answer: III.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.74 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 2,
+        "id": "CH6-PYQ-002",
+        "question": "Which of the following districts record highest growth of population during 2001-11?",
+        "options": {
+          "A": "Kishanganj",
+          "B": "Araria",
+          "C": "Madhepura",
+          "D": "Khagdia"
+        },
+        "answer": "C",
+        "answer_text": "Madhepura",
+        "explanation": "Correct answer: Madhepura.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.120 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 3,
+        "id": "CH6-PYQ-003",
+        "question": "As per Census 2011, which state has the lowest sex-ratio?",
+        "options": {
+          "A": "Punjab",
+          "B": "Haryana",
+          "C": "Uttar Pradesh",
+          "D": "Bihar"
+        },
+        "answer": "B",
+        "answer_text": "Haryana",
+        "explanation": "Correct answer: Haryana.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 4,
+        "id": "CH6-PYQ-004",
+        "question": "The percentage of decadal growth of population during 2001-2011 as per Census 2011 is:",
+        "options": {
+          "A": "21.54",
+          "B": "17.64",
+          "C": "15.89",
+          "D": "19.21"
+        },
+        "answer": "B",
+        "answer_text": "17.64",
+        "explanation": "Correct answer: 17.64.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.138 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 5,
+        "id": "CH6-PYQ-005",
+        "question": "According to Indian Population Census, 2011, the percentage of literacy among males and females both is lowest for the State of",
+        "options": {
+          "A": "Arunachal Pradesh",
+          "B": "Andhra Pradesh",
+          "C": "Bihar",
+          "D": "Jammu and Kashmir"
+        },
+        "answer": "C",
+        "answer_text": "Bihar",
+        "explanation": "Correct answer: Bihar.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.25 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 6,
+        "id": "CH6-PYQ-006",
+        "question": "The road length per lakh of population in Bihar is",
+        "options": {
+          "A": "lowest",
+          "B": "second lowest",
+          "C": "highest",
+          "D": "second highest"
+        },
+        "answer": "A",
+        "answer_text": "lowest",
+        "explanation": "Correct answer: lowest.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.30 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 7,
+        "id": "CH6-PYQ-007",
+        "question": "Which Census year is called 'Demographic Divide' in the population study of India?",
+        "options": {
+          "A": "1911",
+          "B": "1921",
+          "C": "1931",
+          "D": "1941"
+        },
+        "answer": "B",
+        "answer_text": "1921",
+        "explanation": "Correct answer: 1921.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.39 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 8,
+        "id": "CH6-PYQ-008",
+        "question": "As per 2011 Census, the urban population percentage to total population of India was about",
+        "options": {
+          "A": "21",
+          "B": "31",
+          "C": "36",
+          "D": "40"
+        },
+        "answer": "B",
+        "answer_text": "31",
+        "explanation": "Correct answer: 31.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.79 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 9,
+        "id": "CH6-PYQ-009",
+        "question": "Among the States of India, Bihar's rank in terms of lowest literacy rate (2011 Census) is",
+        "options": {
+          "A": "first",
+          "B": "second",
+          "C": "third",
+          "D": "fourth"
+        },
+        "answer": "A",
+        "answer_text": "first",
+        "explanation": "Correct answer: first.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.88 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 10,
+        "id": "CH6-PYQ-010",
+        "question": "As per Census 2011, the female literacy rate in India was",
+        "options": {
+          "A": "60.0 percent",
+          "B": "63.0 percent",
+          "C": "65.5 percent",
+          "D": "68.5 percent"
+        },
+        "answer": "C",
+        "answer_text": "65.5 percent",
+        "explanation": "Correct answer: 65.5 percent.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 11,
+        "id": "CH6-PYQ-011",
+        "question": "Which one of the following States has the highest density of population according to the Census of India, 2011?",
+        "options": {
+          "A": "Kerala",
+          "B": "Haryana",
+          "C": "Bihar",
+          "D": "Uttar Pradesh"
+        },
+        "answer": "C",
+        "answer_text": "Bihar",
+        "explanation": "Correct answer: Bihar.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.115 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 12,
+        "id": "CH6-PYQ-012",
+        "question": "What is the sex ratio in Bihar State as per the Census of India, 2011?",
+        "options": {
+          "A": "893",
+          "B": "916",
+          "C": "918",
+          "D": "925"
+        },
+        "answer": "C",
+        "answer_text": "918",
+        "explanation": "Correct answer: 918.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 13,
+        "id": "CH6-PYQ-013",
+        "question": "What is the percentage of population in Bihar State employed in agriculture sector in 2017-18?",
+        "options": {
+          "A": "65",
+          "B": "67",
+          "C": "68",
+          "D": "70",
+          "E": "None of the above/More than one of the above"
+        },
+        "answer": "E",
+        "answer_text": "None of the above/More than one of the above",
+        "explanation": "Correct answer: None of the above/More than one of the above.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.119 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 14,
+        "id": "CH6-PYQ-014",
+        "question": "The district of Bihar which has recorded the highest sex ratio as per the 2011 Census is",
+        "options": {
+          "A": "Siwan",
+          "B": "Gopalganj",
+          "C": "Saran",
+          "D": "Kishanganj"
+        },
+        "answer": "B",
+        "answer_text": "Gopalganj",
+        "explanation": "Correct answer: Gopalganj.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.26 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 15,
+        "id": "CH6-PYQ-015",
+        "question": "Which district of Bihar has recorded the highest density of population (per sq. km) as per the 2011 Census?",
+        "options": {
+          "A": "Sheohar",
+          "B": "Vaishali",
+          "C": "Patna",
+          "D": "Darbhanga"
+        },
+        "answer": "A",
+        "answer_text": "Sheohar",
+        "explanation": "Correct answer: Sheohar.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.29 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 16,
+        "id": "CH6-PYQ-016",
+        "question": "Among the following religious groups, which one has recorded the highest percentage of literacy rate as per the 2011 Census?",
+        "options": {
+          "A": "Christians",
+          "B": "Hindus",
+          "C": "Sikhs",
+          "D": "Jains"
+        },
+        "answer": "D",
+        "answer_text": "Jains",
+        "explanation": "Correct answer: Jains.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.40 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 17,
+        "id": "CH6-PYQ-017",
+        "question": "As per the Census 2011, the child sex ratio in Bihar was",
+        "options": {
+          "A": "935",
+          "B": "934",
+          "C": "933",
+          "D": "932"
+        },
+        "answer": "A",
+        "answer_text": "935",
+        "explanation": "Correct answer: 935.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.59 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 18,
+        "id": "CH6-PYQ-018",
+        "question": "In which year, first Census was introduced in India?",
+        "options": {
+          "A": "1911",
+          "B": "1921",
+          "C": "1872",
+          "D": "1901"
+        },
+        "answer": "C",
+        "answer_text": "1872",
+        "explanation": "Correct answer: 1872.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.112 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 19,
+        "id": "CH6-PYQ-019",
+        "question": "According to the Census of India, 2011, which Scheduled Tribe is largest in India?",
+        "options": {
+          "A": "Bhil",
+          "B": "Gond",
+          "C": "Santhal",
+          "D": "Kol"
+        },
+        "answer": "A",
+        "answer_text": "Bhil",
+        "explanation": "Correct answer: Bhil.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.133 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 20,
+        "id": "CH6-PYQ-020",
+        "question": "What is the female literacy rate of Bihar as per the Census 2011 of India?",
+        "options": {
+          "A": "50·50%",
+          "B": "51·50%",
+          "C": "61·80%",
+          "D": "71·25%"
+        },
+        "answer": "B",
+        "answer_text": "51·50%",
+        "explanation": "Correct answer: 51·50%.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.140 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 21,
+        "id": "CH6-PYQ-021",
+        "question": "According to the National Family Survey-5 released by the Union Ministry of Health and Family Welfare on November 24, 2021, there has been a significant improvement in the sex ratio of Bihar. It has increased from ____ in 2015-2016 to ____ in 2020-2022.",
+        "options": {
+          "A": "1062, 1090",
+          "B": "1040, 1070",
+          "C": "1030, 1050",
+          "D": "More than one of the above"
+        },
+        "answer": "A",
+        "answer_text": "1062, 1090",
+        "explanation": "Correct answer: 1062, 1090.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.23 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 22,
+        "id": "CH6-PYQ-022",
+        "question": "The urbanization of the State has increased very rapidly in the last ten years. According to the 2011 Census, the level of urbanization in Bihar was just ____ percent, which has increased to ____ percent at present.",
+        "options": {
+          "A": "11.3, 15.3",
+          "B": "12.2, 13.1",
+          "C": "14.4, 15.5",
+          "D": "More than one of the above"
+        },
+        "answer": "A",
+        "answer_text": "11.3, 15.3",
+        "explanation": "Correct answer: 11.3, 15.3.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 23,
+        "id": "CH6-PYQ-023",
+        "question": "Choose the correct order of the following districts of Bihar as per the ascending decadal population growth (2001-2011).",
+        "options": {
+          "A": "Siwan < Kishanganj < Madhepura",
+          "B": "Madhepura < Kishanganj < Siwan",
+          "C": "Kishanganj < Madhepura < Siwan",
+          "D": "More than one of the above"
+        },
+        "answer": "A",
+        "answer_text": "Siwan < Kishanganj < Madhepura",
+        "explanation": "Correct answer: Siwan < Kishanganj < Madhepura.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.109 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 24,
+        "id": "CH6-PYQ-024",
+        "question": "What is the current population of Gaya district of Bihar?",
+        "options": {
+          "A": "598000",
+          "B": "320000",
+          "C": "780000",
+          "D": "234000"
+        },
+        "answer": "A",
+        "answer_text": "598000",
+        "explanation": "Correct answer: 598000.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.122 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 25,
+        "id": "CH6-PYQ-025",
+        "question": "Which community was categorized as Scheduled Caste (SC) by a 2015 Bihar government notification which was quashed in July 2024 by the Supreme Court, ruling that states cannot make changes to the SC list published under Article 341 of the Constitution?",
+        "options": {
+          "A": "Lal Begi",
+          "B": "Tanti-Tantwa",
+          "C": "Pano",
+          "D": "Dabgar"
+        },
+        "answer": "B",
+        "answer_text": "Tanti-Tantwa",
+        "explanation": "Correct answer: Tanti-Tantwa.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 26,
+        "id": "CH6-PYQ-026",
+        "question": "What is the sex ratio in Bihar as per the Census 2011 of India?",
+        "options": {
+          "A": "918",
+          "B": "916",
+          "C": "933",
+          "D": "922"
+        },
+        "answer": "A",
+        "answer_text": "918",
+        "explanation": "Correct answer: 918.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.119 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 27,
+        "id": "CH6-PYQ-027",
+        "question": "Choose the correct order of the following districts of Bihar as per the ascending level of urbanization.",
+        "options": {
+          "A": "Patna < Munger < Nalanda",
+          "B": "Munger < Nalanda < Patna",
+          "C": "Nalanda < Munger < Patna",
+          "D": "Nalanda < Patna < Munger"
+        },
+        "answer": "C",
+        "answer_text": "Nalanda < Munger < Patna",
+        "explanation": "Correct answer: Nalanda < Munger < Patna.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.15 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 28,
+        "id": "CH6-PYQ-028",
+        "question": "Choose the correct order of the Bihar State districts in descending order of per capita income.",
+        "options": {
+          "A": "East Champaran > Sheohar > Araria > Kishanganj > Nawada",
+          "B": "Araria > Nawada > East Champaran > Sheohar > Kishanganj",
+          "C": "Nawada > Kishanganj > East Champaran > Araria > Sheohar",
+          "D": "Sheohar > Araria > East Champaran > Kishanganj > Nawada"
+        },
+        "answer": "C",
+        "answer_text": "Nawada > Kishanganj > East Champaran > Araria > Sheohar",
+        "explanation": "Correct answer: Nawada > Kishanganj > East Champaran > Araria > Sheohar.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.18 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 29,
+        "id": "CH6-PYQ-029",
+        "question": "According to the Economic Survey of Bihar 2021-22, what is the level of urbanization in the State at present?",
+        "options": {
+          "A": "15·3%",
+          "B": "18·6%",
+          "C": "11·6%",
+          "D": "22·4%"
+        },
+        "answer": "A",
+        "answer_text": "15·3%",
+        "explanation": "Correct answer: 15·3%.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.87 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 30,
+        "id": "CH6-EDU-001",
+        "question": "According to the 2001 census, which of the following groups of districts of Bihar shows the correct descending order of population density?",
+        "options": {
+          "A": "Patna, Nalanda, Vaishali, Begusarai",
+          "B": "Muzaffarpur, Vaishali, Samastipur, Darbhanga",
+          "C": "Darbhanga, Saran, Siwan, Samastipur",
+          "D": "Katihar, Purnia, Kishanganj, Araria"
+        },
+        "answer": "C",
+        "answer_text": "Darbhanga, Saran, Siwan, Samastipur",
+        "explanation": "Correct answer: Darbhanga, Saran, Siwan, Samastipur.",
+        "year": "47th",
+        "source": "Eduteria PYQ set — 47th BPSC Preliminary Exam (BH-EDU-067)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 31,
+        "id": "CH6-NEW-001",
+        "question": "In which year was the first census of India conducted, and during whose tenure?",
+        "options": {
+          "A": "1872, Lord Mayo",
+          "B": "1881, Lord Ripon",
+          "C": "1872, Lord Ripon",
+          "D": "1901, Lord Curzon"
+        },
+        "answer": "A",
+        "answer_text": "1872, Lord Mayo",
+        "explanation": "The first census of India was conducted in 1872 during the time of Lord Mayo. Regular decennial census in India started in 1881 during the time of Lord Ripon.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 32,
+        "id": "CH6-NEW-002",
+        "question": "Regular (decennial) census in India started in which year, and under whose Viceroyalty?",
+        "options": {
+          "A": "1872 - Lord Mayo",
+          "B": "1881 - Lord Ripon",
+          "C": "1891 - Lord Lansdowne",
+          "D": "1901 - Lord Curzon"
+        },
+        "answer": "B",
+        "answer_text": "1881 - Lord Ripon",
+        "explanation": "Regular census in India started in 1881 during the tenure of Lord Ripon, and has continued decennially since.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 33,
+        "id": "CH6-NEW-003",
+        "question": "After the separation of Bihar from Odisha in 1936, in which year was the census of Bihar conducted separately for the first time?",
+        "options": {
+          "A": "1936",
+          "B": "1941",
+          "C": "1951",
+          "D": "1931"
+        },
+        "answer": "B",
+        "answer_text": "1941",
+        "explanation": "After Bihar's separation from Odisha in 1936, the census of Bihar was conducted separately for the first time in 1941.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 34,
+        "id": "CH6-NEW-004",
+        "question": "The 2011 Census was the ___ census of the country, and its Census Commissioner was ___.",
+        "options": {
+          "A": "14th; C. Chandramouli",
+          "B": "15th; C. Chandramouli",
+          "C": "15th; J.K. Banthia",
+          "D": "16th; C. Chandramouli"
+        },
+        "answer": "B",
+        "answer_text": "15th; C. Chandramouli",
+        "explanation": "The 2011 Census was the 15th census of the country, and its Commissioner was C. Chandramouli. Its motto was 'Our census, our future'.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 35,
+        "id": "CH6-NEW-005",
+        "question": "What was the official motto of the 2011 Census of India?",
+        "options": {
+          "A": "'Our census, our future'",
+          "B": "'Count me in'",
+          "C": "'Census for a better India'",
+          "D": "'Every person counts'"
+        },
+        "answer": "A",
+        "answer_text": "'Our census, our future'",
+        "explanation": "The motto of the 2011 census was 'Our census, our future'.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 36,
+        "id": "CH6-NEW-006",
+        "question": "According to the 2011 Census, what percentage of India's total population does Bihar's population represent?",
+        "options": {
+          "A": "6.2%",
+          "B": "8.6%",
+          "C": "10.4%",
+          "D": "7.1%"
+        },
+        "answer": "B",
+        "answer_text": "8.6%",
+        "explanation": "Bihar's population of 10,40,99,452 as per the 2011 census constitutes 8.6% of India's total population.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 37,
+        "id": "CH6-NEW-007",
+        "question": "Consider the following statements regarding rural and urban population of Bihar as per Census 2011:\n1. The rural population percentage of Bihar (88.7%) is higher than the national average (68.8%).\n2. The urban population percentage of Bihar (11.3%) is lower than the national average (31.2%).\n3. The decadal growth rate of urbanisation in Bihar (0.8%) is lower than the national rate (3.4%).\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "2 and 3 only",
+          "C": "1, 2 and 3",
+          "D": "1 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2 and 3",
+        "explanation": "Bihar is significantly more rural than the national average, has a much lower urban population share, and a much slower urbanisation growth rate than India as a whole.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 38,
+        "id": "CH6-NEW-008",
+        "question": "As per Census 2011, what was the child sex ratio (0-6 years) of Bihar compared to India?",
+        "options": {
+          "A": "Bihar 935; India 919 (Bihar higher than national average)",
+          "B": "Bihar 919; India 935 (Bihar lower than national average)",
+          "C": "Bihar 918; India 943",
+          "D": "Bihar 943; India 918"
+        },
+        "answer": "A",
+        "answer_text": "Bihar 935; India 919 (Bihar higher than national average)",
+        "explanation": "Bihar's child sex ratio (935) as per Census 2011 was actually higher than the national average (919), even though its overall sex ratio (918) was lower than the national figure (943).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 39,
+        "id": "CH6-NEW-009",
+        "question": "According to Census 2011, what was the population density of Bihar compared to the national average?",
+        "options": {
+          "A": "1106 persons/km² vs national average 382 persons/km²",
+          "B": "382 persons/km² vs national average 1106 persons/km²",
+          "C": "1106 persons/km² vs national average 943 persons/km²",
+          "D": "918 persons/km² vs national average 382 persons/km²"
+        },
+        "answer": "A",
+        "answer_text": "1106 persons/km² vs national average 382 persons/km²",
+        "explanation": "Bihar's population density (1106 persons per sq. km) as per Census 2011 was nearly three times the national average of 382 persons per sq. km, making it the most densely populated state.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 40,
+        "id": "CH6-NEW-010",
+        "question": "What was the growth in literacy rate in Bihar between the 2001 and 2011 census, compared to the national growth?",
+        "options": {
+          "A": "Bihar 17.9% vs India 10.9% (Bihar grew faster)",
+          "B": "Bihar 10.9% vs India 17.9% (India grew faster)",
+          "C": "Bihar 25.4% vs India 17.7%",
+          "D": "Bihar 15% vs India 20%"
+        },
+        "answer": "A",
+        "answer_text": "Bihar 17.9% vs India 10.9% (Bihar grew faster)",
+        "explanation": "Between 2001 and 2011, Bihar's literacy rate grew by 17.9 percentage points, a faster growth than the national average growth of 10.9 percentage points, though Bihar's absolute literacy rate remained below the national average.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 41,
+        "id": "CH6-NEW-011",
+        "question": "As per Census 2011, compare the Scheduled Caste and Scheduled Tribe population percentages of Bihar with the national figures.",
+        "options": {
+          "A": "SC: Bihar 15.72% vs India 16.6%; ST: Bihar 1.3% vs India 8.6% (Bihar lower on both)",
+          "B": "SC: Bihar 16.6% vs India 15.72%; ST: Bihar 8.6% vs India 1.3%",
+          "C": "SC: Bihar 15.72% vs India 8.6%; ST: Bihar 1.3% vs India 16.6%",
+          "D": "SC and ST percentages of Bihar are both higher than the national average"
+        },
+        "answer": "A",
+        "answer_text": "SC: Bihar 15.72% vs India 16.6%; ST: Bihar 1.3% vs India 8.6% (Bihar lower on both)",
+        "explanation": "As per Census 2011, Bihar's SC population share (15.72%) and ST population share (1.3%) were both lower than the corresponding national averages (16.6% and 8.6% respectively) - Bihar has a notably low tribal population share.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 42,
+        "id": "CH6-NEW-012",
+        "question": "As per the 2011 Census, which THREE districts of Bihar recorded the largest geographical area?",
+        "options": {
+          "A": "West Champaran, Gaya, East Champaran",
+          "B": "Patna, Gaya, Muzaffarpur",
+          "C": "West Champaran, Rohtas, Gaya",
+          "D": "Gaya, Aurangabad, West Champaran"
+        },
+        "answer": "A",
+        "answer_text": "West Champaran, Gaya, East Champaran",
+        "explanation": "West Champaran has the largest area among Bihar's districts, followed by Gaya and East Champaran.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 43,
+        "id": "CH6-NEW-013",
+        "question": "Arrange the following districts of Bihar in ASCENDING order of geographical area: Arwal, Sheikhpura, Sheohar, Gaya",
+        "options": {
+          "A": "Sheohar < Sheikhpura < Arwal < Gaya",
+          "B": "Sheikhpura < Sheohar < Arwal < Gaya",
+          "C": "Arwal < Sheohar < Sheikhpura < Gaya",
+          "D": "Sheohar < Arwal < Sheikhpura < Gaya"
+        },
+        "answer": "A",
+        "answer_text": "Sheohar < Sheikhpura < Arwal < Gaya",
+        "explanation": "Sheohar is Bihar's smallest district by area, followed by Arwal and Sheikhpura (the three smallest), while Gaya is among the largest districts.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 44,
+        "id": "CH6-NEW-014",
+        "question": "As per Census 2011, which district of Bihar recorded the highest population, and what was its population?",
+        "options": {
+          "A": "Patna (58.4 lakh)",
+          "B": "East Champaran (50 lakh)",
+          "C": "Muzaffarpur (48 lakh)",
+          "D": "Gaya (43.9 lakh)"
+        },
+        "answer": "A",
+        "answer_text": "Patna (58.4 lakh)",
+        "explanation": "Patna district recorded the highest population (58.4 lakh) as per the 2011 census, followed by East Champaran and Muzaffarpur.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 45,
+        "id": "CH6-NEW-015",
+        "question": "Which district of Bihar recorded the LEAST population as per Census 2011?",
+        "options": {
+          "A": "Sheikhpura (6.4 lakh)",
+          "B": "Sheohar (6.6 lakh)",
+          "C": "Arwal (7 lakh)",
+          "D": "Kaimur (16 lakh)"
+        },
+        "answer": "A",
+        "answer_text": "Sheikhpura (6.4 lakh)",
+        "explanation": "Sheikhpura recorded the least population (6.4 lakh) among Bihar's districts as per Census 2011, followed by Sheohar and Arwal.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 46,
+        "id": "CH6-NEW-016",
+        "question": "Arrange the following districts of Bihar in DESCENDING order of population decadal growth rate (2001-11): Arwal, Madhepura, Kishanganj, Gopalganj",
+        "options": {
+          "A": "Madhepura > Kishanganj > Gopalganj > Arwal",
+          "B": "Kishanganj > Madhepura > Arwal > Gopalganj",
+          "C": "Madhepura > Gopalganj > Kishanganj > Arwal",
+          "D": "Arwal > Gopalganj > Kishanganj > Madhepura"
+        },
+        "answer": "A",
+        "answer_text": "Madhepura (31.1%) > Kishanganj (30.44%) > Gopalganj (19.02%) > Arwal (18.89%)",
+        "explanation": "Madhepura recorded the highest decadal population growth rate (31.1%), while Arwal recorded the lowest (18.89%); Gopalganj had the second-lowest growth rate.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "ascending_descending_order"
+      },
+      {
+        "q_no": 47,
+        "id": "CH6-NEW-017",
+        "question": "As per Census 2011, which district of Bihar recorded the highest sex ratio, and which recorded the lowest?",
+        "options": {
+          "A": "Highest - Gopalganj (1021); Lowest - Munger (876)",
+          "B": "Highest - Munger (1021); Lowest - Gopalganj (876)",
+          "C": "Highest - Siwan (1021); Lowest - Bhagalpur (876)",
+          "D": "Highest - Gopalganj (943); Lowest - Munger (918)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Gopalganj (1021); Lowest - Munger (876)",
+        "explanation": "Gopalganj recorded the highest sex ratio (1021 females per 1000 males) in Bihar as per Census 2011, while Munger recorded the lowest (876).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 48,
+        "id": "CH6-NEW-018",
+        "question": "Which district of Bihar recorded the highest child sex ratio (0-6 years) as per Census 2011?",
+        "options": {
+          "A": "Kishanganj (971)",
+          "B": "Vaishali (904)",
+          "C": "Katihar (960)",
+          "D": "Gaya (950)"
+        },
+        "answer": "A",
+        "answer_text": "Kishanganj (971)",
+        "explanation": "Kishanganj recorded the highest child sex ratio (971) in Bihar as per Census 2011, while Vaishali recorded the lowest (904).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 49,
+        "id": "CH6-NEW-019",
+        "question": "As per Census 2011, which district of Bihar recorded the highest population density, and which recorded the lowest?",
+        "options": {
+          "A": "Highest - Sheohar (1880/km²); Lowest - Kaimur (488/km²)",
+          "B": "Highest - Patna (1880/km²); Lowest - Kaimur (488/km²)",
+          "C": "Highest - Kaimur (1880/km²); Lowest - Sheohar (488/km²)",
+          "D": "Highest - Sheohar (1106/km²); Lowest - Kaimur (382/km²)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Sheohar (1880/km²); Lowest - Kaimur (488/km²)",
+        "explanation": "Sheohar recorded the highest population density (1880 persons/km²) in Bihar as per Census 2011, while Kaimur recorded the lowest (488 persons/km²).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 50,
+        "id": "CH6-NEW-020",
+        "question": "Which THREE districts of Bihar recorded the highest urbanisation as per Census 2011?",
+        "options": {
+          "A": "Patna (43.1%), Munger, Bhagalpur",
+          "B": "Patna (43.1%), Gaya, Muzaffarpur",
+          "C": "Munger (43.1%), Patna, Bhagalpur",
+          "D": "Patna (31.2%), Munger, Bhagalpur"
+        },
+        "answer": "A",
+        "answer_text": "Patna (43.1%), Munger, Bhagalpur",
+        "explanation": "Patna recorded the highest urbanisation (43.1%) among Bihar districts, followed by Munger and Bhagalpur.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 51,
+        "id": "CH6-NEW-021",
+        "question": "Which TWO districts of Bihar recorded the lowest urbanisation (3.5%) as per Census 2011?",
+        "options": {
+          "A": "Samastipur and Banka",
+          "B": "Madhubani and Kaimur",
+          "C": "Sheohar and Sheikhpura",
+          "D": "Purnia and Sitamarhi"
+        },
+        "answer": "A",
+        "answer_text": "Samastipur and Banka",
+        "explanation": "Samastipur and Banka jointly recorded the lowest urbanisation (3.5%) among Bihar's districts as per Census 2011.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 52,
+        "id": "CH6-NEW-022",
+        "question": "Which district of Bihar recorded the highest overall literacy rate as per Census 2011, and which recorded the lowest?",
+        "options": {
+          "A": "Highest - Rohtas (73.4%); Lowest - Purnia (51.1%)",
+          "B": "Highest - Patna (73.4%); Lowest - Sitamarhi (51.1%)",
+          "C": "Highest - Rohtas (61.8%); Lowest - Purnia (51.5%)",
+          "D": "Highest - Purnia (73.4%); Lowest - Rohtas (51.1%)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Rohtas (73.4%); Lowest - Purnia (51.1%)",
+        "explanation": "Rohtas recorded the highest literacy rate (73.4%) in Bihar as per Census 2011, while Purnia recorded the lowest (51.1%).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 53,
+        "id": "CH6-NEW-023",
+        "question": "Which district of Bihar recorded the highest female literacy rate as per Census 2011, and which recorded the lowest?",
+        "options": {
+          "A": "Highest - Rohtas (63.0%); Lowest - Saharsa (41.7%)",
+          "B": "Highest - Rohtas (82.9%); Lowest - Saharsa (41.7%)",
+          "C": "Highest - Saharsa (63.0%); Lowest - Rohtas (41.7%)",
+          "D": "Highest - Munger (63.0%); Lowest - Madhepura (41.7%)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Rohtas (63.0%); Lowest - Saharsa (41.7%)",
+        "explanation": "Rohtas recorded the highest female literacy rate (63.0%) in Bihar as per Census 2011, while Saharsa recorded the lowest (41.7%).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 54,
+        "id": "CH6-NEW-024",
+        "question": "Which district of Bihar recorded the highest urban literacy rate as per Census 2011, and which recorded the lowest?",
+        "options": {
+          "A": "Highest - Kaimur (82.6%); Lowest - Sheohar (62.0%)",
+          "B": "Highest - Sheohar (82.6%); Lowest - Kaimur (62.0%)",
+          "C": "Highest - Patna (82.6%); Lowest - Sheikhpura (62.0%)",
+          "D": "Highest - Rohtas (82.6%); Lowest - Purnia (62.0%)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Kaimur (82.6%); Lowest - Sheohar (62.0%)",
+        "explanation": "Kaimur recorded the highest urban literacy rate (82.6%) in Bihar as per Census 2011, while Sheohar recorded the lowest (62.0%).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 55,
+        "id": "CH6-NEW-025",
+        "question": "Which district of Bihar recorded the highest Scheduled Caste (SC) population percentage, and which recorded the lowest, as per Census 2011?",
+        "options": {
+          "A": "Highest - Gaya (30.39%); Lowest - Kishanganj (6.69%)",
+          "B": "Highest - Kishanganj (30.39%); Lowest - Gaya (6.69%)",
+          "C": "Highest - Nawada (30.39%); Lowest - Katihar (6.69%)",
+          "D": "Highest - Gaya (15.72%); Lowest - Kishanganj (1.3%)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - Gaya (30.39%); Lowest - Kishanganj (6.69%)",
+        "explanation": "Gaya recorded the highest SC population percentage (30.39%) in Bihar as per Census 2011, while Kishanganj recorded the lowest (6.69%).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 56,
+        "id": "CH6-NEW-026",
+        "question": "Which district of Bihar recorded the highest Scheduled Tribe (ST) population percentage, and which recorded the lowest, as per Census 2011?",
+        "options": {
+          "A": "Highest - West Champaran (6.35%); Lowest - Khagaria (0.04%)",
+          "B": "Highest - Khagaria (6.35%); Lowest - West Champaran (0.04%)",
+          "C": "Highest - Katihar (6.35%); Lowest - Samastipur (0.04%)",
+          "D": "Highest - West Champaran (1.3%); Lowest - Khagaria (8.6%)"
+        },
+        "answer": "A",
+        "answer_text": "Highest - West Champaran (6.35%); Lowest - Khagaria (0.04%)",
+        "explanation": "West Champaran recorded the highest ST population percentage (6.35%) in Bihar as per Census 2011, while Khagaria recorded the near-negligible lowest (0.04%).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 57,
+        "id": "CH6-NEW-027",
+        "question": "According to the Economic Survey 2024-25 estimate, what was Bihar's estimated population in 2021, and which district had the highest estimated population?",
+        "options": {
+          "A": "12,30,11,000; Patna (69.57 lakh) had the highest, Sheikhpura (7.5 lakh) the lowest",
+          "B": "13,07,25,310; Patna had the highest",
+          "C": "10,40,99,452; Gaya had the highest",
+          "D": "12,30,11,000; Gaya had the highest"
+        },
+        "answer": "A",
+        "answer_text": "12,30,11,000; Patna (69.57 lakh) had the highest, Sheikhpura (7.5 lakh) the lowest",
+        "explanation": "As per the Economic Survey 2024-25 estimate, Bihar's 2021 population was approximately 12,30,11,000, with Patna having the highest district population (69.57 lakh) and Sheikhpura the lowest (7.5 lakh).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      }
+    ]
+  },
+  "ch10": {
+    "chapter_title": "Chapter 10: Bihar Special Miscellaneous (Eduteria Bihar Tathya Sangrah)",
+    "total_questions": 70,
+    "questions": [
+      {
+        "q_no": 1,
+        "id": "CH10-PYQ-001",
+        "question": "Which was the first capital of ancient Mahajanapada Magadh?",
+        "options": {
+          "A": "Pataliputra",
+          "B": "Vaishali",
+          "C": "Champa",
+          "D": "Anga",
+          "E": "None of the above/More than one of the above"
+        },
+        "answer": "E",
+        "answer_text": "None of the above/More than one of the above",
+        "explanation": "Correct answer: None of the above/More than one of the above.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.78 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 2,
+        "id": "CH10-PYQ-002",
+        "question": "Who was the first Chief Minister of Bihar?",
+        "options": {
+          "A": "Shri Krishna Singh",
+          "B": "Satya Pal Malik",
+          "C": "Nitish Kumar",
+          "D": "Rabri Devi"
+        },
+        "answer": "A",
+        "answer_text": "Shri Krishna Singh",
+        "explanation": "Correct answer: Shri Krishna Singh.",
+        "year": "66th BPSC",
+        "source": "PYQ - 66th BPSC Prelims, Q.No.138 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 3,
+        "id": "CH10-PYQ-003",
+        "question": "Who was the first Indian Governor of Bihar?",
+        "options": {
+          "A": "Brij Kishor Prasad",
+          "B": "B. P. Mandal",
+          "C": "Satyendra Prasanna Sinha",
+          "D": "Dr. Shri Krishna Singh"
+        },
+        "answer": "C",
+        "answer_text": "Satyendra Prasanna Sinha",
+        "explanation": "Correct answer: Satyendra Prasanna Sinha.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.118 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 4,
+        "id": "CH10-PYQ-004",
+        "question": "Match List-I with List-II : a. Governor of Bihar b. Chief Justice of Bihar c. Chief Minister of Bihar d. Chief Electoral Officer of Bihar (1. Mr. Nitish Kumar, 2. Mr. H. R. Srinivas, 3. Mr. Sanjay Karol, 4. Mr. Fagu Chauhan)",
+        "options": {
+          "A": "a-4, b-3, c-1, d-2",
+          "B": "a-4, b-2, c-1, d-3",
+          "C": "a-3, b-2, c-1, d-4",
+          "D": "a-1, b-2, c-3, d-4"
+        },
+        "answer": "A",
+        "answer_text": "a-4, b-3, c-1, d-2",
+        "explanation": "Correct answer: a-4, b-3, c-1, d-2.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "match_the_following"
+      },
+      {
+        "q_no": 5,
+        "id": "CH10-PYQ-005",
+        "question": "Who was the Physician of Magadh ruler Bimbisara?",
+        "options": {
+          "A": "Jeevaka",
+          "B": "Manu",
+          "C": "Shilabhadra",
+          "D": "Vijayasena"
+        },
+        "answer": "A",
+        "answer_text": "Jeevaka",
+        "explanation": "Correct answer: Jeevaka.",
+        "year": "67th BPSC",
+        "source": "PYQ - 67th BPSC Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 6,
+        "id": "CH10-PYQ-006",
+        "question": "The Vikramshila University was established by",
+        "options": {
+          "A": "Dharmapala",
+          "B": "Devapala",
+          "C": "Gopala",
+          "D": "More than one of the above"
+        },
+        "answer": "A",
+        "answer_text": "Dharmapala",
+        "explanation": "Correct answer: Dharmapala.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.56 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 7,
+        "id": "CH10-PYQ-007",
+        "question": "Who among the following was the first Governor of Bihar?",
+        "options": {
+          "A": "Sir James David Sifton",
+          "B": "Sir Hugh Dow",
+          "C": "Sir Maurice Garnier Hallett",
+          "D": "More than one of the above"
+        },
+        "answer": "A",
+        "answer_text": "Sir James David Sifton",
+        "explanation": "Correct answer: Sir James David Sifton.",
+        "year": "68th BPSC",
+        "source": "PYQ - 68th BPSC Prelims, Q.No.57 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 8,
+        "id": "CH10-PYQ-008",
+        "question": "Consider the following statements regarding the Vikramshila University in Bihar : 1. It was located in the present-day Banka district of Bihar. 2. It was established by King Gopala I of the Pala dynasty. 3. The ‘Vajrayana’ sect of Buddhism flourished here. 4. Other subjects like Astronomy, Logic, Law, Grammar and Philosophy were also taught here. Which of the above statements are incorrect ?",
+        "options": {
+          "A": "2 and 3",
+          "B": "1 and 4",
+          "C": "1 and 2",
+          "D": "None of the above"
+        },
+        "answer": "C",
+        "answer_text": "1 and 2",
+        "explanation": "Correct answer: 1 and 2.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.63 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 9,
+        "id": "CH10-PYQ-009",
+        "question": "The painting of ‘Bodhisattva Padmapani’ is located at",
+        "options": {
+          "A": "Bagh",
+          "B": "Ellora",
+          "C": "Ajanta",
+          "D": "Badami"
+        },
+        "answer": "C",
+        "answer_text": "Ajanta",
+        "explanation": "Correct answer: Ajanta.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.67 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 10,
+        "id": "CH10-PYQ-010",
+        "question": "Which city served as the capital of the ancient kingdom of Magadha during the early Vedic period?",
+        "options": {
+          "A": "Rajagriha",
+          "B": "Campa",
+          "C": "Vaishali",
+          "D": "Pataliputra"
+        },
+        "answer": "A",
+        "answer_text": "Rajagriha",
+        "explanation": "Correct answer: Rajagriha.",
+        "year": "69th BPSC",
+        "source": "PYQ - 69th BPSC Prelims, Q.No.74 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 11,
+        "id": "CH10-PYQ-011",
+        "question": "To highlight the hardships faced by the peasants, Sahajanand Saraswati published which newspaper?",
+        "options": {
+          "A": "Lok Sangraha",
+          "B": "The Broken Wing",
+          "C": "Indian Nation",
+          "D": "Nirbal Sevak"
+        },
+        "answer": "A",
+        "answer_text": "Lok Sangraha",
+        "explanation": "Correct answer: Lok Sangraha.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.22 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 12,
+        "id": "CH10-PYQ-012",
+        "question": "The first Hindi daily newspaper to be published in Bihar was",
+        "options": {
+          "A": "Kshatriya Samachar",
+          "B": "Udyoga",
+          "C": "Sarwa Hitaishi",
+          "D": "Chaitanya Chandrika"
+        },
+        "answer": "C",
+        "answer_text": "Sarwa Hitaishi",
+        "explanation": "Correct answer: Sarwa Hitaishi.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.69 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 13,
+        "id": "CH10-PYQ-013",
+        "question": "Which dynasty ruled Magadh (Bihar) after Shishunag dynasty?",
+        "options": {
+          "A": "Maurya Vansh",
+          "B": "Sunga Vansh",
+          "C": "Nanda Vansh",
+          "D": "More than one of the above"
+        },
+        "answer": "C",
+        "answer_text": "Nanda Vansh",
+        "explanation": "Correct answer: Nanda Vansh.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.124 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 14,
+        "id": "CH10-PYQ-014",
+        "question": "Among the following who has been Speaker of Lok Sabha prior to his Election as President of India?",
+        "options": {
+          "A": "Giani Zail Singh",
+          "B": "V. V. Giri",
+          "C": "Neelam Sanjeeva Reddy",
+          "D": "A. P. J. Abdul Kalam"
+        },
+        "answer": "C",
+        "answer_text": "Neelam Sanjeeva Reddy",
+        "explanation": "Correct answer: Neelam Sanjeeva Reddy.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.125 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 15,
+        "id": "CH10-PYQ-015",
+        "question": "Who presented the Bihar Budget 2024-25 in the State Assembly?",
+        "options": {
+          "A": "Shri Vijay Sinha",
+          "B": "Shri Nitish Kumar",
+          "C": "Shri Vijay Kumar Choudhary",
+          "D": "Shri Samrat Choudhary"
+        },
+        "answer": "D",
+        "answer_text": "Shri Samrat Choudhary",
+        "explanation": "Correct answer: Shri Samrat Choudhary.",
+        "year": "70th BPSC",
+        "source": "PYQ - 70th BPSC Prelims, Q.No.110 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 16,
+        "id": "CH10-PYQ-016",
+        "question": "Who became Chief Minister of Bihar in March 1939?",
+        "options": {
+          "A": "Anugraha Narain Singh",
+          "B": "Rajendra Prasad",
+          "C": "Shri Krishna Singh",
+          "D": "None of the above"
+        },
+        "answer": "C",
+        "answer_text": "Shri Krishna Singh",
+        "explanation": "Correct answer: Shri Krishna Singh. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.85 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 17,
+        "id": "CH10-PYQ-017",
+        "question": "Who among the following was not an Acharya in The Nalanda Vishvavidyalaya?",
+        "options": {
+          "A": "Nagarjuna",
+          "B": "Kautilya",
+          "C": "Sheelbhadra",
+          "D": "Shantirakshit"
+        },
+        "answer": "B",
+        "answer_text": "Kautilya",
+        "explanation": "Correct answer: Kautilya. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.97 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 18,
+        "id": "CH10-PYQ-019",
+        "question": "Which of the following is the state animal of Bihar?",
+        "options": {
+          "A": "Cow",
+          "B": "Bull",
+          "C": "Buffalo",
+          "D": "Horse"
+        },
+        "answer": "B",
+        "answer_text": "Bull",
+        "explanation": "Correct answer: Bull. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.115 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 19,
+        "id": "CH10-PYQ-020",
+        "question": "In which year, the Nalanda University was re-established in Bihar?",
+        "options": {
+          "A": "2005",
+          "B": "2007",
+          "C": "2008",
+          "D": "2014"
+        },
+        "answer": "D",
+        "answer_text": "2014",
+        "explanation": "Correct answer: 2014. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+        "year": "71st BPSC (2025)",
+        "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 20,
+        "id": "CH10-PYQ-021",
+        "question": "Who was the member of the Constituent Assembly of India from Bihar?",
+        "options": {
+          "A": "A. N. Sinha",
+          "B": "Rajendra Prasad",
+          "C": "Jagjivan Ram",
+          "D": "Shyam Nandan Prasad Mishra"
+        },
+        "answer": "B",
+        "answer_text": "Rajendra Prasad",
+        "explanation": "Correct answer: Rajendra Prasad.",
+        "year": "63rd BPSC",
+        "source": "PYQ - 63rd BPSC Prelims, Q.No.55 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 21,
+        "id": "CH10-PYQ-022",
+        "question": "The ruler of Suvarnabhumi, who founded a Buddhist monastery at Nalanda and requested Devapala through his ambassador to grant five villages for its maintenance, was",
+        "options": {
+          "A": "Dharanindra",
+          "B": "Sangramadhananjaya",
+          "C": "Balaputradeva",
+          "D": "Chudamanivarmana"
+        },
+        "answer": "C",
+        "answer_text": "Balaputradeva",
+        "explanation": "Correct answer: Balaputradeva.",
+        "year": "64th BPSC",
+        "source": "PYQ - 64th BPSC Prelims, Q.No.55 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 22,
+        "id": "CH10-PYQ-023",
+        "question": "Who was the Editor of Searchlight newspaper in Bihar?",
+        "options": {
+          "A": "Abdul Bari",
+          "B": "Lambodar Mukherjee",
+          "C": "Murali Mohan Prasad",
+          "D": "Ramananda Chatterjee"
+        },
+        "answer": "C",
+        "answer_text": "Murali Mohan Prasad",
+        "explanation": "Correct answer: Murali Mohan Prasad.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.75 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 23,
+        "id": "CH10-PYQ-024",
+        "question": "Who was the Chief Justice of the Patna High Court who administered the oath of office to Mr. Fagu Chauhan as the Governor of Bihar in July 2019?",
+        "options": {
+          "A": "Hon. Mukesh Shah",
+          "B": "Hon. A. P. Sahi",
+          "C": "Hon. Rekha Manharlal Doshit",
+          "D": "Hon. Dipak Misra"
+        },
+        "answer": "B",
+        "answer_text": "Hon. A. P. Sahi",
+        "explanation": "Correct answer: Hon. A. P. Sahi.",
+        "year": "65th BPSC",
+        "source": "PYQ - 65th BPSC Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 24,
+        "id": "CH10-PYQ-025",
+        "question": "Nalanda Vihar was destroyed by:",
+        "options": {
+          "A": "BakhtiyarKhalji",
+          "B": "Qutubddin Aibak",
+          "C": "Muhammad Bin Tughlaq",
+          "D": "Alauddin Khalji"
+        },
+        "answer": "A",
+        "answer_text": "BakhtiyarKhalji",
+        "explanation": "Correct answer: BakhtiyarKhalji.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.100 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 25,
+        "id": "CH10-PYQ-026",
+        "question": "India's first textile university will be set up in which of the following states ?",
+        "options": {
+          "A": "Madhya Pradesh",
+          "B": "Bihar",
+          "C": "Gujarat",
+          "D": "Odisha"
+        },
+        "answer": "C",
+        "answer_text": "Gujarat",
+        "explanation": "Correct answer: Gujarat.",
+        "year": "60-62nd BPSC (Combined)",
+        "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.63 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 26,
+        "id": "CH10-EDU-001",
+        "question": "The 'Bodhi Tree' in Bodh Gaya belongs to which generation of its lineage?",
+        "options": {
+          "A": "Fifth",
+          "B": "Third",
+          "C": "Fourth",
+          "D": "Sixth"
+        },
+        "answer": "A",
+        "answer_text": "Fifth",
+        "explanation": "Correct answer: Fifth.",
+        "year": "48th-52th",
+        "source": "Eduteria PYQ set — 48th-52th BPSC Preliminary Exam (BH-EDU-057)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 27,
+        "id": "CH10-EDU-002",
+        "question": "The world's first republic was established at Vaishali by whom?",
+        "options": {
+          "A": "Mallas",
+          "B": "Vajji Sangh (as a distinct clan)",
+          "C": "Shakya",
+          "D": "Lichchhavi"
+        },
+        "answer": "D",
+        "answer_text": "Lichchhavi",
+        "explanation": "Correct answer: Lichchhavi.",
+        "year": "48th-52th",
+        "source": "Eduteria PYQ set — 48th-52th BPSC Preliminary Exam (BH-EDU-058)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 28,
+        "id": "CH10-EDU-003",
+        "question": "The Kumhrar site is related to the ancient city of:",
+        "options": {
+          "A": "Rajgir",
+          "B": "Pataliputra",
+          "C": "Vaishali",
+          "D": "Nalanda"
+        },
+        "answer": "B",
+        "answer_text": "Pataliputra",
+        "explanation": "Correct answer: Pataliputra.",
+        "year": "1998",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 1998 (BH-EDU-096)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 29,
+        "id": "CH10-EDU-004",
+        "question": "The founder of Pataliputra was:",
+        "options": {
+          "A": "Bimbisara",
+          "B": "Udayan",
+          "C": "Chandragupta Maurya",
+          "D": "Ajatashatru"
+        },
+        "answer": "B",
+        "answer_text": "Udayan",
+        "explanation": "Correct answer: Udayan.",
+        "year": "48th-52th",
+        "source": "Eduteria PYQ set — 48th-52th BPSC Preliminary Exam (BH-EDU-065)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 30,
+        "id": "CH10-EDU-005",
+        "question": "The famous folk dance of Bihar is known as:",
+        "options": {
+          "A": "Jhijhiya",
+          "B": "Domkach",
+          "C": "Videshiya",
+          "D": "Jat-Jatin"
+        },
+        "answer": "C",
+        "answer_text": "Videshiya",
+        "explanation": "Correct answer: Videshiya.",
+        "year": "2005",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-089)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 31,
+        "id": "CH10-EDU-006",
+        "question": "Dr. Rajendra Prasad, the first President of India, belonged to which state?",
+        "options": {
+          "A": "West Bengal",
+          "B": "Bihar",
+          "C": "Uttar Pradesh",
+          "D": "Odisha"
+        },
+        "answer": "B",
+        "answer_text": "Bihar",
+        "explanation": "Correct answer: Bihar.",
+        "year": "66th",
+        "source": "Eduteria PYQ set — 66th BPSC (Re) Preliminary Exam (BH-EDU-025)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 32,
+        "id": "CH10-EDU-007",
+        "question": "Dr. Rajendra Prasad was awarded the 'Bharat Ratna' in which year?",
+        "options": {
+          "A": "1957",
+          "B": "1962",
+          "C": "1961",
+          "D": "1954"
+        },
+        "answer": "B",
+        "answer_text": "1962",
+        "explanation": "Correct answer: 1962.",
+        "year": "2005",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-090)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 33,
+        "id": "CH10-EDU-008",
+        "question": "Vikramshila University was established by whom?",
+        "options": {
+          "A": "Devapala",
+          "B": "Emperor Ashoka",
+          "C": "Gopala I",
+          "D": "Dharmapala"
+        },
+        "answer": "D",
+        "answer_text": "Dharmapala",
+        "explanation": "Correct answer: Dharmapala.",
+        "year": "68th",
+        "source": "Eduteria PYQ set — 68th BPSC Preliminary Exam (BH-EDU-014)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 34,
+        "id": "CH10-EDU-009",
+        "question": "'Odantapuri' education centre was located in which of the following states?",
+        "options": {
+          "A": "Uttar Pradesh",
+          "B": "Bihar",
+          "C": "Nepal",
+          "D": "Bengal"
+        },
+        "answer": "B",
+        "answer_text": "Bihar",
+        "explanation": "Correct answer: Bihar.",
+        "year": "60th-62nd",
+        "source": "Eduteria PYQ set — 60th-62nd BPSC Preliminary Exam (BH-EDU-046)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 35,
+        "id": "CH10-EDU-010",
+        "question": "Who was the president of the first Jain Sangeeti (council) convened at Pataliputra?",
+        "options": {
+          "A": "Sthulabhadra",
+          "B": "Devardhi Kshamashramana",
+          "C": "Mahavira",
+          "D": "Bhadrabahu"
+        },
+        "answer": "A",
+        "answer_text": "Sthulabhadra",
+        "explanation": "Correct answer: Sthulabhadra.",
+        "year": "65th",
+        "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-032)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 36,
+        "id": "CH10-EDU-011",
+        "question": "Which ruler shifted his capital to Pataliputra?",
+        "options": {
+          "A": "Udayan",
+          "B": "Ajatashatru",
+          "C": "Bimbisara",
+          "D": "Kalashoka"
+        },
+        "answer": "A",
+        "answer_text": "Udayan",
+        "explanation": "Correct answer: Udayan.",
+        "year": "65th",
+        "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-033)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 37,
+        "id": "CH10-EDU-012",
+        "question": "After the Mahaparinirvana of Lord Buddha, the first Buddhist Council was held in:",
+        "options": {
+          "A": "Vaishali",
+          "B": "Pataliputra",
+          "C": "Rajgir",
+          "D": "Kashmir"
+        },
+        "answer": "C",
+        "answer_text": "Rajgir",
+        "explanation": "Correct answer: Rajgir.",
+        "year": "64th",
+        "source": "Eduteria PYQ set — 64th BPSC Preliminary Exam (BH-EDU-035)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 38,
+        "id": "CH10-EDU-013",
+        "question": "Who attained enlightenment at Bodh Gaya?",
+        "options": {
+          "A": "Gautam Buddha",
+          "B": "Mahavira",
+          "C": "Adi Shankaracharya",
+          "D": "Guru Nanak"
+        },
+        "answer": "A",
+        "answer_text": "Gautam Buddha",
+        "explanation": "Correct answer: Gautam Buddha.",
+        "year": "67th",
+        "source": "Eduteria PYQ set — 67th BPSC (Cancelled) Preliminary Exam (BH-EDU-020)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 39,
+        "id": "CH10-EDU-014",
+        "question": "Where is Sher Shah's tomb located?",
+        "options": {
+          "A": "Sasaram",
+          "B": "Patna",
+          "C": "Gaya",
+          "D": "Rohtas"
+        },
+        "answer": "A",
+        "answer_text": "Sasaram",
+        "explanation": "Correct answer: Sasaram.",
+        "year": "67th",
+        "source": "Eduteria PYQ set — 67th BPSC (Cancelled) Preliminary Exam (BH-EDU-021)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 40,
+        "id": "CH10-EDU-015",
+        "question": "Where was the first capital of the ancient Mahajanapada of Magadha?",
+        "options": {
+          "A": "Pataliputra",
+          "B": "Champa",
+          "C": "Vaishali",
+          "D": "Rajgir/Girivraj"
+        },
+        "answer": "D",
+        "answer_text": "Rajgir/Girivraj",
+        "explanation": "Correct answer: Rajgir/Girivraj.",
+        "year": "66th",
+        "source": "Eduteria PYQ set — 66th BPSC Preliminary Exam (BH-EDU-023)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 41,
+        "id": "CH10-EDU-016",
+        "question": "Who was the founder of the Karnat dynasty?",
+        "options": {
+          "A": "Bhaskaradeva",
+          "B": "Harisingh",
+          "C": "Gangeyadeva",
+          "D": "Nanyadev"
+        },
+        "answer": "D",
+        "answer_text": "Nanyadev",
+        "explanation": "Correct answer: Nanyadev.",
+        "year": "60th-62nd",
+        "source": "Eduteria PYQ set — 60th-62nd BPSC Preliminary Exam (BH-EDU-047)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 42,
+        "id": "CH10-EDU-017",
+        "question": "Who was the last ruler of the Karnat dynasty?",
+        "options": {
+          "A": "Nanyadev",
+          "B": "Gangadeva",
+          "C": "Harisingh",
+          "D": "Narasimhadeva"
+        },
+        "answer": "C",
+        "answer_text": "Harisingh",
+        "explanation": "Correct answer: Harisingh.",
+        "year": "60th-62nd",
+        "source": "Eduteria PYQ set — 60th-62nd BPSC Preliminary Exam (BH-EDU-048)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 43,
+        "id": "CH10-EDU-018",
+        "question": "Which Sikh Guru was born in Patna?",
+        "options": {
+          "A": "Guru Nanak Dev",
+          "B": "Guru Arjan Dev",
+          "C": "Guru Tegh Bahadur",
+          "D": "Guru Govind Singh"
+        },
+        "answer": "D",
+        "answer_text": "Guru Govind Singh",
+        "explanation": "Correct answer: Guru Govind Singh.",
+        "year": "56th-59th",
+        "source": "Eduteria PYQ set — 56th-59th BPSC Preliminary Exam (BH-EDU-052)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 44,
+        "id": "CH10-EDU-019",
+        "question": "The Sikh pilgrimage site 'Takhat Sri Harimandir Ji Patna Sahib', considered the second holiest Takhat, is located at:",
+        "options": {
+          "A": "Amritsar",
+          "B": "Anandpur Sahib",
+          "C": "Nanded",
+          "D": "Patna"
+        },
+        "answer": "D",
+        "answer_text": "Patna",
+        "explanation": "Correct answer: Patna.",
+        "year": "70th",
+        "source": "Eduteria PYQ set — 70th BPSC Preliminary Exam (BH-EDU-005)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 45,
+        "id": "CH10-EDU-020",
+        "question": "Who led the first Indian cabinet (ministry) formed in Bihar in 1937?",
+        "options": {
+          "A": "Anugrah Narayan Sinha",
+          "B": "Shri Krishna Sinha",
+          "C": "Muhammad Yunus",
+          "D": "Syed Mahmud"
+        },
+        "answer": "C",
+        "answer_text": "Muhammad Yunus",
+        "explanation": "Correct answer: Muhammad Yunus.",
+        "year": "63rd",
+        "source": "Eduteria PYQ set — 63rd BPSC Preliminary Exam (BH-EDU-042)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 46,
+        "id": "CH10-EDU-021",
+        "question": "Who among the following has NOT been the Chief Minister of Bihar?",
+        "options": {
+          "A": "Mahamaya Prasad Sinha",
+          "B": "Daroga Prasad Rai",
+          "C": "Ram Vilas Paswan",
+          "D": "Satish Prasad Singh"
+        },
+        "answer": "C",
+        "answer_text": "Ram Vilas Paswan",
+        "explanation": "Correct answer: Ram Vilas Paswan.",
+        "year": "2005",
+        "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-086)",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 47,
+        "id": "CH10-NEW-001",
+        "question": "Match the following 'World's First' facts with the correct place/person associated with Bihar:\nA. World's first democratic republic\nB. World's first university\nC. World's first prosperous city\nD. World's first astronomer\n1. Nalanda University\n2. Aryabhatta\n3. Lichchhavi (Vaishali)\n4. Pataliputra",
+        "options": {
+          "A": "A-3, B-1, C-4, D-2",
+          "B": "A-1, B-3, C-2, D-4",
+          "C": "A-3, B-4, C-1, D-2",
+          "D": "A-4, B-1, C-3, D-2"
+        },
+        "answer": "A",
+        "answer_text": "A-3 (Lichchhavi/Vaishali), B-1 (Nalanda University), C-4 (Pataliputra), D-2 (Aryabhatta)",
+        "explanation": "Lichchhavi (Vaishali) is regarded as the world's first democratic republic, Nalanda as the world's first university, Pataliputra as the world's first prosperous city, and Aryabhatta as the world's first astronomer.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "match_the_following"
+      },
+      {
+        "q_no": 48,
+        "id": "CH10-NEW-002",
+        "question": "Who was the Temporary (Provisional) Chairman of the Constituent Assembly of India, and who was its Permanent Chairman?",
+        "options": {
+          "A": "Temporary - Dr. Sachchidanand Sinha; Permanent - Dr. Rajendra Prasad",
+          "B": "Temporary - Dr. Rajendra Prasad; Permanent - Dr. Sachchidanand Sinha",
+          "C": "Temporary - Dr. Sachchidanand Sinha; Permanent - Mahamaya Prasad Sinha",
+          "D": "Temporary - Satyendra Prasanna Sinha; Permanent - Dr. Rajendra Prasad"
+        },
+        "answer": "A",
+        "answer_text": "Temporary - Dr. Sachchidanand Sinha; Permanent - Dr. Rajendra Prasad",
+        "explanation": "Dr. Sachchidanand Sinha, a Bihari leader, served as the temporary/provisional Chairman of the Constituent Assembly, while Dr. Rajendra Prasad became its permanent Chairman.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 49,
+        "id": "CH10-NEW-003",
+        "question": "Who was the first Indian to hold the post of Governor under British rule (of any province)?",
+        "options": {
+          "A": "Satyendra Prasanna Sinha",
+          "B": "Sir James Sifton",
+          "C": "Jairamdas Daulatram",
+          "D": "Mohammad Yunus"
+        },
+        "answer": "A",
+        "answer_text": "Satyendra Prasanna Sinha",
+        "explanation": "Satyendra Prasanna Sinha was the first Indian to be appointed as Governor of a province under British rule.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 50,
+        "id": "CH10-NEW-004",
+        "question": "Who was the first Governor of Bihar after India's independence, and in which year did he take office?",
+        "options": {
+          "A": "Jairamdas Daulatram, 1947",
+          "B": "Sir James Sifton, 1935",
+          "C": "Satyendra Prasanna Sinha, 1947",
+          "D": "Mohammad Yunus, 1947"
+        },
+        "answer": "A",
+        "answer_text": "Jairamdas Daulatram, 1947",
+        "explanation": "Jairamdas Daulatram became the first Governor of independent Bihar in 1947, while Sir James Sifton (1935) had been the first Governor of Bihar under British rule.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 51,
+        "id": "CH10-NEW-005",
+        "question": "Consider the following statements regarding Chief Ministers of Bihar:\n1. Mohammad Yunus was the first Chief Minister of Bihar under British rule (1937).\n2. Shri Krishna Singh was the first Chief Minister of independent Bihar.\n3. Bhola Paswan Shastri was the first Harijan (Dalit) Chief Minister of Bihar.\n4. Smt. Rabri Devi was the first woman Chief Minister of Bihar.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "All four statements are correct: Mohammad Yunus (1937, British-era CM), Shri Krishna Singh (first CM of independent Bihar), Bhola Paswan Shastri (first Harijan CM), and Rabri Devi (first woman CM).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 52,
+        "id": "CH10-NEW-006",
+        "question": "Who was the first Independent (non-party affiliated) Chief Minister of Bihar, and who was the first Muslim Chief Minister of Bihar?",
+        "options": {
+          "A": "Mahamaya Prasad Sinha (Independent); Abdul Ghafoor (Muslim)",
+          "B": "Abdul Ghafoor (Independent); Mahamaya Prasad Sinha (Muslim)",
+          "C": "Bhola Paswan Shastri (Independent); Mohammad Yunus (Muslim)",
+          "D": "Mohammad Yunus (Independent); Abdul Ghafoor (Muslim)"
+        },
+        "answer": "A",
+        "answer_text": "Mahamaya Prasad Sinha (Independent); Abdul Ghafoor (Muslim)",
+        "explanation": "Mahamaya Prasad Sinha was Bihar's first Chief Minister not belonging to the Congress party, while Abdul Ghafoor was Bihar's first Muslim Chief Minister.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 53,
+        "id": "CH10-NEW-007",
+        "question": "When was the Patna High Court established, and who was its first (British) Chief Justice?",
+        "options": {
+          "A": "3 February 1916; Sir Edward Maynard Des Champs Camier",
+          "B": "3 February 1916; Sir Syed Fazal Ali",
+          "C": "15 August 1947; Sir Edward Maynard Des Champs Camier",
+          "D": "2 March 1912; Sir Syed Fazal Ali"
+        },
+        "answer": "A",
+        "answer_text": "3 February 1916; Sir Edward Maynard Des Champs Camier",
+        "explanation": "The Patna High Court was established on 3 February 1916, with Sir Edward Maynard Des Champs Camier as its first Chief Justice.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 54,
+        "id": "CH10-NEW-008",
+        "question": "Who was the first Indian Chief Justice of the Patna High Court, and who was the first Bihari to become Chief Justice of the Supreme Court of India?",
+        "options": {
+          "A": "Sir Syed Fazal Ali (Patna HC); Bhuvaneshwar Prasad Sinha (Supreme Court)",
+          "B": "Bhuvaneshwar Prasad Sinha (Patna HC); Sir Syed Fazal Ali (Supreme Court)",
+          "C": "Sir Edward Camier (Patna HC); Sir Syed Fazal Ali (Supreme Court)",
+          "D": "Sir Syed Fazal Ali for both"
+        },
+        "answer": "A",
+        "answer_text": "Sir Syed Fazal Ali (Patna HC); Bhuvaneshwar Prasad Sinha (Supreme Court)",
+        "explanation": "Sir Syed Fazal Ali was the first Indian to become Chief Justice of the Patna High Court, while Bhuvaneshwar Prasad Sinha was the first person from Bihar to become Chief Justice of India.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 55,
+        "id": "CH10-NEW-009",
+        "question": "Who was the first Speaker of the Bihar Legislative Assembly, and who was the first Chairman of the Bihar Legislative Council?",
+        "options": {
+          "A": "Ramdayalu Singh (Speaker); Rajiv Ranjan Prasad Singh (Chairman)",
+          "B": "Rajiv Ranjan Prasad Singh (Speaker); Ramdayalu Singh (Chairman)",
+          "C": "Ramdhari Singh Dinkar (Speaker); Ramdayalu Singh (Chairman)",
+          "D": "Shri Krishna Singh (Speaker); Ramdayalu Singh (Chairman)"
+        },
+        "answer": "A",
+        "answer_text": "Ramdayalu Singh (Speaker); Rajiv Ranjan Prasad Singh (Chairman)",
+        "explanation": "Ramdayalu Singh was the first Speaker of the Bihar Legislative Assembly, and Rajiv Ranjan Prasad Singh was the first Chairman of the Bihar Legislative Council.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 56,
+        "id": "CH10-NEW-010",
+        "question": "Who was the first Jnanpith Award winner from Bihar, and who was the first Ashok Chakra awardee from Bihar?",
+        "options": {
+          "A": "Ramdhari Singh Dinkar (Jnanpith); Randhir Verma (Ashok Chakra)",
+          "B": "Randhir Verma (Jnanpith); Ramdhari Singh Dinkar (Ashok Chakra)",
+          "C": "Nagarjun (Jnanpith); Randhir Verma (Ashok Chakra)",
+          "D": "Ramdhari Singh Dinkar (Jnanpith); Jayaprakash Narayan (Ashok Chakra)"
+        },
+        "answer": "A",
+        "answer_text": "Ramdhari Singh Dinkar (Jnanpith); Randhir Verma (Ashok Chakra)",
+        "explanation": "Ramdhari Singh Dinkar was the first Jnanpith Award winner from Bihar, and Randhir Verma was the first Ashok Chakra (India's highest peacetime gallantry award) recipient from Bihar.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 57,
+        "id": "CH10-NEW-011",
+        "question": "Consider the following statements regarding the earliest newspapers of Bihar:\n1. Bihar Bandhu (1874) was the first Hindi newspaper of Bihar.\n2. The Bihar Herald (1875) was the first English Weekly newspaper of Bihar.\n3. The Searchlight (1918) was the first English Daily newspaper of Bihar.\n4. Nur-al-Anwar (1876) was the first Urdu newspaper of Bihar.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "All four statements are correct as per the chronology of Bihar's earliest newspapers: Bihar Bandhu (1874, Hindi), The Bihar Herald (1875, English Weekly), The Searchlight (1918, English Daily), and Nur-al-Anwar (1876, Urdu).",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 58,
+        "id": "CH10-NEW-012",
+        "question": "Where was the first Hindi printing press of Bihar established, and what was it called?",
+        "options": {
+          "A": "Bihar Bandhu Press",
+          "B": "Searchlight Press",
+          "C": "Patna College Press",
+          "D": "Sarvhitaishi Press"
+        },
+        "answer": "A",
+        "answer_text": "Bihar Bandhu Press",
+        "explanation": "The first Hindi printing press in Bihar was the Bihar Bandhu Press.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 59,
+        "id": "CH10-NEW-013",
+        "question": "Which town was the site of the first Municipality of Bihar?",
+        "options": {
+          "A": "Arrah",
+          "B": "Patna",
+          "C": "Gaya",
+          "D": "Bhagalpur"
+        },
+        "answer": "A",
+        "answer_text": "Arrah",
+        "explanation": "Arrah was the site of the first Municipality established in Bihar.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 60,
+        "id": "CH10-NEW-014",
+        "question": "Who was the first English traveller to visit Bihar, and in which year?",
+        "options": {
+          "A": "Ralph Fitch, 1587",
+          "B": "William Hawkins, 1608",
+          "C": "Thomas Roe, 1615",
+          "D": "Francois Bernier, 1665"
+        },
+        "answer": "A",
+        "answer_text": "Ralph Fitch, 1587",
+        "explanation": "Ralph Fitch was the first English traveller to visit Bihar, in 1587.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 61,
+        "id": "CH10-NEW-015",
+        "question": "Consider the following 'largest in Bihar' facts:\n1. Largest river of Bihar - Ganga\n2. Largest city of Bihar - Patna\n3. Largest airport of Bihar - Jayprakash Narayan Airport, Patna\n4. Largest railway junction of Bihar - Patna Junction\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "All four statements are correct: Ganga is Bihar's largest river, Patna its largest city, Jayprakash Narayan Airport (Patna) its largest airport, and Patna Junction its largest railway junction.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 62,
+        "id": "CH10-NEW-016",
+        "question": "Which railway station in Bihar has the longest railway platform, and which bridge is the largest road bridge of Bihar?",
+        "options": {
+          "A": "Sonpur (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+          "B": "Patna Junction (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+          "C": "Sonpur (longest platform); Vikramshila Setu (largest road bridge)",
+          "D": "Mahatma Gandhi Setu (longest platform); Sonpur (largest road bridge)"
+        },
+        "answer": "A",
+        "answer_text": "Sonpur (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+        "explanation": "Sonpur has the longest railway platform in Bihar, while the Mahatma Gandhi Setu (across the Ganga) is the largest road bridge in Bihar.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 63,
+        "id": "CH10-NEW-017",
+        "question": "Which fair is the largest fair of Bihar, and where is it held?",
+        "options": {
+          "A": "Harihar Nath fair (Sonpur Mela)",
+          "B": "Chhath fair (Patna)",
+          "C": "Rajgir Mahotsav",
+          "D": "Pitru Paksha Mela (Gaya)"
+        },
+        "answer": "A",
+        "answer_text": "Harihar Nath fair (Sonpur Mela)",
+        "explanation": "The Harihar Nath fair, popularly known as Sonpur Mela, is the largest fair of Bihar, held at Sonpur.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 64,
+        "id": "CH10-NEW-018",
+        "question": "Which was the first oil refinery of Bihar, and which was the first irrigation project of Bihar?",
+        "options": {
+          "A": "Barauni Refinery (oil); Son Multipurpose Project (irrigation)",
+          "B": "Son Multipurpose Project (oil); Barauni Refinery (irrigation)",
+          "C": "Barauni Refinery (oil); Kosi Project (irrigation)",
+          "D": "Numaligarh Refinery (oil); Son Multipurpose Project (irrigation)"
+        },
+        "answer": "A",
+        "answer_text": "Barauni Refinery (oil); Son Multipurpose Project (irrigation)",
+        "explanation": "Barauni Refinery was Bihar's first oil refinery, and the Son Multipurpose Project was Bihar's first irrigation project.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 65,
+        "id": "CH10-NEW-019",
+        "question": "Which was the first planetarium of Bihar, and where is the second planetarium of Bihar located?",
+        "options": {
+          "A": "Indira Gandhi Planetarium, Patna (first); Darbhanga (second)",
+          "B": "Darbhanga (first); Indira Gandhi Planetarium, Patna (second)",
+          "C": "Indira Gandhi Planetarium, Gaya (first); Patna (second)",
+          "D": "Aryabhatta Planetarium, Patna (first); Munger (second)"
+        },
+        "answer": "A",
+        "answer_text": "Indira Gandhi Planetarium, Patna (first); Darbhanga (second)",
+        "explanation": "The Indira Gandhi Planetarium in Patna is Bihar's first planetarium, and Darbhanga is home to Bihar's second planetarium.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 66,
+        "id": "CH10-NEW-020",
+        "question": "Consider the following statements regarding universities of Bihar:\n1. Patna University (1917) was the first university of modern Bihar.\n2. Nalanda Open University was the first open university of Bihar.\n3. Magadh University is the largest university of Bihar.\n4. Vikramshila University was established by King Dharmapala.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1, 2 and 3 only",
+          "C": "1, 2, 3 and 4",
+          "D": "2, 3 and 4 only"
+        },
+        "answer": "C",
+        "answer_text": "1, 2, 3 and 4",
+        "explanation": "All four statements are correct: Patna University (1917) was the first modern university, Nalanda Open University the first open university, Magadh University the largest university (by affiliated colleges), and Vikramshila University was established by the Pala king Dharmapala.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      },
+      {
+        "q_no": 67,
+        "id": "CH10-NEW-021",
+        "question": "Which was the first college of Bihar, and on what date was it established?",
+        "options": {
+          "A": "Patna College, 9 January 1863",
+          "B": "Patna University, 1 October 1917",
+          "C": "Magadh University, 1962",
+          "D": "Bihar National College, 1889"
+        },
+        "answer": "A",
+        "answer_text": "Patna College, 9 January 1863",
+        "explanation": "Patna College, established on 9 January 1863, was the first college of Bihar.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 68,
+        "id": "CH10-NEW-022",
+        "question": "Which district of Bihar is generally recorded as the hottest district in the state?",
+        "options": {
+          "A": "Gaya",
+          "B": "Patna",
+          "C": "Purnia",
+          "D": "Rohtas"
+        },
+        "answer": "A",
+        "answer_text": "Gaya",
+        "explanation": "Gaya district records among the highest temperatures in Bihar and is often cited as the hottest district of the state.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 69,
+        "id": "CH10-NEW-023",
+        "question": "Which is the largest district of Bihar by area, and which is the smallest?",
+        "options": {
+          "A": "West Champaran (largest); Sheohar (smallest)",
+          "B": "Gaya (largest); Sheikhpura (smallest)",
+          "C": "West Champaran (largest); Arwal (smallest)",
+          "D": "Rohtas (largest); Sheohar (smallest)"
+        },
+        "answer": "A",
+        "answer_text": "West Champaran (largest); Sheohar (smallest)",
+        "explanation": "West Champaran is Bihar's largest district by geographical area, while Sheohar is the smallest.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "direct_statement"
+      },
+      {
+        "q_no": 70,
+        "id": "CH10-NEW-024",
+        "question": "Consider the following statements about ancient Bihar:\n1. Lord Buddha attained enlightenment at Bodh Gaya.\n2. Vardhaman Mahavira, founder of Jainism, attained Nirvana at Pawapuri, Bihar.\n3. Pataliputra was founded by Ajatashatru's successors as a fortified outpost.\nWhich of the above statements is/are correct?",
+        "options": {
+          "A": "1 and 2 only",
+          "B": "1 only",
+          "C": "1, 2 and 3",
+          "D": "2 and 3 only"
+        },
+        "answer": "A",
+        "answer_text": "1 and 2 only",
+        "explanation": "Buddha attained enlightenment at Bodh Gaya and Mahavira attained Nirvana at Pawapuri, both correct. Pataliputra's founding is traditionally credited to Ajatashatru himself (as a fort at Patali village), not merely his successors as an 'outpost'.",
+        "year": "N/A (newly authored)",
+        "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+        "question_type": "statement_numbered"
+      }
+    ]
+  }
+}
