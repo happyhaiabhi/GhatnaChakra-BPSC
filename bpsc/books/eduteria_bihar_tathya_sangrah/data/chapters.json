@@ -1,0 +1,50 @@
+[
+ {
+  "key": "bihar_tathya_sangrah",
+  "label": "Eduteria Bihar Tathya Sangrah",
+  "emoji": "📘",
+  "file": "eduteria_bihar_tathya.json",
+  "chapters": [
+   {
+    "name": "1. Bihar: General Introduction",
+    "count": 49
+   },
+   {
+    "name": "2. History of Bihar",
+    "count": 54
+   },
+   {
+    "name": "3. Geography of Bihar",
+    "count": 50
+   },
+   {
+    "name": "4. Economy of Bihar",
+    "count": 25
+   },
+   {
+    "name": "5. Tourism in Bihar",
+    "count": 12
+   },
+   {
+    "name": "6. Census of Bihar (2011)",
+    "count": 65
+   },
+   {
+    "name": "7. Polity of Bihar",
+    "count": 19
+   },
+   {
+    "name": "8. Art and Culture in Bihar",
+    "count": 14
+   },
+   {
+    "name": "9. Prominent Personalities of Bihar",
+    "count": 14
+   },
+   {
+    "name": "10. Bihar Special Miscellaneous",
+    "count": 41
+   }
+  ]
+ }
+]
