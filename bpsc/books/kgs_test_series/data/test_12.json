@@ -1069,7 +1069,7 @@
           "topic": "Partition & Independence"
         },
         {
-          "q": "Consider the following pairs of early trade unions and their associated founding leaders: 1. Bombay Mill and Millhands’ Association : N.M. Lokhande 2. Madras Labour Union : B.P. Wadia 3. Ahmedabad Textile Labour Association : Mahatma Gandhi 4. All India Trade Union Congress: J.L. Nehru How many pairs given above are correctly matched?",
+          "q": "Consider the following pairs of early trade unions and their associated founding leaders: 1. Bombay Mill and Millhands’ Association : N.M. Lokhande 2. Madras Labour Union :\nB.P. Wadia 3. Ahmedabad Textile Labour Association : Mahatma Gandhi 4. All India Trade Union Congress: J.L. Nehru How many pairs given above are correctly matched?",
           "question_type": "Numerical/Calculation — Single Correct",
           "options": {
             "A": "Only one pair",
@@ -1088,7 +1088,7 @@
           "topic": "Gandhi & Mass Movements"
         },
         {
-          "q": "Match List-I with List-II List-I (Organisations) List-II (Associated Leaders) a. Rajkot Praja Mandal 1. Swami Ramanand Tirtha b. Mysore State Congress 2. K.T. Bhashyam c. Hyderabad State Congress 3. U.N. Dhebar d. Orissa State’s Conference 4. Sarangadhar Das Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I (Organisations) \n\nList-II (Associated Leaders)\na. Rajkot Praja Mandal 1. Swami Ramanand Tirtha\nb. Mysore State Congress 2. K.T. Bhashyam\nc. Hyderabad State Congress 3. U.N. Dhebar\nd. Orissa State’s Conference 4. Sarangadhar Das\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "2 3 4 1",
@@ -1506,7 +1506,7 @@
           "topic": "Partition & Independence"
         },
         {
-          "q": "Match List-I with List-II List-I List-II a. Baba Ramchandra 1. Bardoli Satyagraha b. Vallabhbhai Patel 2. Bihar Kisan Sabha c. Swami Sahajanand Saraswati 3. Oudh peasant movement d. Madari Pasi 4. Eka Movement Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II\na. Baba Ramchandra 1. Bardoli Satyagraha\nb. Vallabhbhai Patel 2. Bihar Kisan Sabha\nc. Swami Sahajanand Saraswati 3. Oudh peasant movement\nd. Madari Pasi 4. Eka Movement\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "3 1 2 4",
@@ -2551,7 +2551,7 @@
           "topic": "Congress & National Movement Phases"
         },
         {
-          "q": "Consider the following pairs of Events and their Corresponding Years: 1. Mahatma Gandhi returns : 1915\n\nfrom South Africa 2. Jallianwala Bagh massacre : 1918 3. Purna Swaraj : 1929 4. Dandi March begins : 1930 How many pairs of the given above are correctly matched?",
+          "q": "Consider the following pairs of Events and their Corresponding Years: 1. Mahatma Gandhi returns : 1915 from South Africa 2. Jallianwala Bagh massacre : 1918 3. Purna Swaraj : 1929 4. Dandi March begins : 1930 How many pairs of the given above are correctly matched?",
           "question_type": "Numerical/Calculation — Single Correct",
           "options": {
             "A": "Only one pair",

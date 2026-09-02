@@ -47,7 +47,7 @@
           "original_id": 2
         },
         {
-          "q": "Consider the following pairs in the context of the cities selected under the Bihar government's 'Satellite Township' mega-project and their development focus:\n1. Bhagalpur — silk industry and higher education\n2. Darbhanga — makhana processing and aviation\n3. Sitamarhi — Ramayana circuit and religious tourism\n4. Saharsa — litchi export and trading hub\nHow many of the above pairs are correctly matched?",
+          "q": "Consider the following pairs in the context of the cities selected under the Bihar government's 'Satellite Township' mega-project and their development focus: 1. Bhagalpur — silk industry and higher education 2. Darbhanga — makhana processing and aviation 3. Sitamarhi — Ramayana circuit and religious tourism 4. Saharsa — litchi export and trading hub How many of the above pairs are correctly matched?",
           "question_type": "Statement-Based (Multi-Statement/Codes)",
           "options": {
             "A": "Only one",
@@ -131,7 +131,7 @@
           "original_id": 6
         },
         {
-          "q": "Match the party and the seats won in the Bihar Assembly Election 2025 results -\n(Party): a. LJP (Ram Vilas); b. Bahujan Samaj Party; c. Rashtriya Lok Morcha; d. Hindustan Awam Morcha\n(Seats): 1. 4; 2. 5; 3. 19; 4. 1\nCodes:",
+          "q": "Match the party and the seats won in the Bihar Assembly Election 2025 results - (Party):\na. LJP (Ram Vilas);\nb. Bahujan Samaj Party;\nc. Rashtriya Lok Morcha;\nd. Hindustan Awam Morcha (Seats): 1. 4; 2. 5; 3. 19; 4. 1\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-3,b-1,c-2,d-4",
@@ -425,7 +425,7 @@
           "original_id": 20
         },
         {
-          "q": "Which of the following historical reservoirs and their respective districts, listed under the Digital Rejuvenation and Eco-Tourism Project of Dams and Reservoirs in Bihar, are correctly matched?\n1. Kharagpur Lake - Munger\n2. Phulwaria Dam - Nawada\n3. Kundaghat Dam - Jamui\n4. Chandan Dam - Banka\nSelect the correct answer using the code given below:",
+          "q": "Which of the following historical reservoirs and their respective districts, listed under the Digital Rejuvenation and Eco-Tourism Project of Dams and Reservoirs in Bihar, are correctly matched? 1. Kharagpur Lake - Munger 2. Phulwaria Dam - Nawada 3. Kundaghat Dam - Jamui 4. Chandan Dam - Banka\n\nSelect the correct answer using the\n\ncode given below:",
           "question_type": "Statement-Based (Multi-Statement/Codes)",
           "options": {
             "A": "1 and 2 only",
@@ -446,7 +446,7 @@
           "original_id": 21
         },
         {
-          "q": "Which of the following 'R's is not included in the '6-R' principle being adopted by the Bihar government for waste management and 'circular economy'?\n1. Reduce; 2. Reuse; 3. Rethink; 4. Recycle; 5. Recover; 6. Repair\nCodes:",
+          "q": "Which of the following 'R's is not included in the '6-R' principle being adopted by the Bihar government for waste management and 'circular economy'? 1. Reduce; 2. Reuse; 3. Rethink; 4. Recycle; 5. Recover; 6. Repair\n\nCodes:",
           "question_type": "Statement-Based (Multi-Statement/Codes)",
           "options": {
             "A": "Only 1",

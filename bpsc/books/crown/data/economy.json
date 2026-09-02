@@ -682,7 +682,7 @@
           "section": "3.6"
         },
         {
-          "q": "Match: A. Kalyanpur Cements, B. Harabhara Fertilizer, C. Nirman Cement, D. Indian Oil Corp with 1. Bihta, 2. Banjari, 3. Barauni, 4. Dhanukagea.",
+          "q": "Match:\nA. Kalyanpur Cements,\nB. Harabhara Fertilizer,\nC. Nirman Cement,\nD. Indian Oil Corp with 1. Bihta, 2. Banjari, 3. Barauni, 4. Dhanukagea.",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "A-1, B-2, C-3, D-4",
@@ -2233,7 +2233,7 @@
           "section": "5.3"
         },
         {
-          "q": "Match the correct pairs: A. Muzaffarpur 1. Tea, B. Purnea 2. Tourism, C. Kishanganj 3. Jute, D. Gaya 4. Leather",
+          "q": "Match the correct pairs:\nA. Muzaffarpur 1. Tea,\nB. Purnea 2. Tourism,\nC. Kishanganj 3. Jute,\nD. Gaya 4. Leather",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "A-1, B-2, C-3, D-4",

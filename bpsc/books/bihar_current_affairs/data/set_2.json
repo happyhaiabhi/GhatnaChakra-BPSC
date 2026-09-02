@@ -320,7 +320,7 @@
           "original_id": 15
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I: a. Bihar's first turmeric cluster; b. Bihar's first female bus driver; c. Bihar's first paperless district\nList-II: 1. Madhubani; 2. Ragini Kumari; 3. Sakra (Muzaffarpur)\nCode:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I:\na. Bihar's first turmeric cluster;\nb. Bihar's first female bus driver;\nc. Bihar's first paperless district \n\nList-II: 1. Madhubani; 2. Ragini Kumari; 3. Sakra (Muzaffarpur)\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1, b-2, c-3",

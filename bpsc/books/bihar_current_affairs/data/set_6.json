@@ -5,7 +5,7 @@
       "chapter_name": "Set 6",
       "questions": [
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (App): a. NITISH App; b. Turn the Bus App; c. e-Kshamta App; d. e-Sakshya App\nList-II (Issuer): 1. Disaster Management Authority; 2. Government of Bihar; 3. Health Department; 4. Bihar Police\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (App):\na. NITISH App;\nb. Turn the Bus App;\nc. e-Kshamta App;\nd. e-Sakshya App \n\nList-II (Issuer): 1. Disaster Management Authority; 2. Government of Bihar; 3. Health Department; 4. Bihar Police\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -173,7 +173,7 @@
           "original_id": 8
         },
         {
-          "q": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (Position): a. Chief Electoral Officer; b. Director General of Police; c. Chief Justice of Patna High Court\nList-II (Person): 1. Minakshi Madan Rai; 2. Vinay Kumar; 3. Vinod Singh Gunjiyal\nCodes:",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Position):\na. Chief Electoral Officer;\nb. Director General of Police;\nc. Chief Justice of Patna High Court \n\nList-II (Person): 1. Minakshi Madan Rai; 2. Vinay Kumar; 3. Vinod Singh Gunjiyal\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-3,c-2",
@@ -425,7 +425,7 @@
           "original_id": 20
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Festival): a. Mundeshwari Festival; b. Kundalpur Festival; c. Martand Festival; d. Vanawar Festival\nList-II (District): 1. Bhabhua (Kaimur); 2. Nalanda; 3. Jhanjharpur; 4. Jehanabad\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Festival):\na. Mundeshwari Festival;\nb. Kundalpur Festival;\nc. Martand Festival;\nd. Vanawar Festival \n\nList-II (District): 1. Bhabhua (Kaimur); 2. Nalanda; 3. Jhanjharpur; 4. Jehanabad\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -698,7 +698,7 @@
           "original_id": 33
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Scheme): a. Bihar Student Credit Card Scheme; b. Agricultural Input Subsidy Scheme; c. Har Ghar Bijli Yojana; d. Saat Nischay Yojana-I\nList-II (Start Year): (1) November 15, 2016; (2) 2019; (3) 2016; (4) 2015\nCode:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Scheme):\na. Bihar Student Credit Card Scheme;\nb. Agricultural Input Subsidy Scheme;\nc. Har Ghar Bijli Yojana;\nd. Saat Nischay Yojana-I \n\nList-II (Start Year): (1) November 15, 2016; (2) 2019; (3) 2016; (4) 2015\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",
@@ -992,7 +992,7 @@
           "original_id": 47
         },
         {
-          "q": "Match List I with List II and select the correct code using the code:\nList-I (Commission): a. Bihar State Women's Commission; b. Bihar State Backward Classes Commission; c. Bihar State Scheduled Castes Commission; d. Bihar State Gold Commission\nList-II (Chairperson): 1. Mahachandra Prasad Singh; 2. Naveen Arya; 3. Mrinal Paswan; 4. Apsara Mishra\nCode:",
+          "q": "Match \n\nList I with \n\nList II and select the correct\n\ncode using the\n\ncode: \n\nList-I (Commission):\na. Bihar State Women's Commission;\nb. Bihar State Backward Classes Commission;\nc. Bihar State Scheduled Castes Commission;\nd. Bihar State Gold Commission \n\nList-II (Chairperson): 1. Mahachandra Prasad Singh; 2. Naveen Arya; 3. Mrinal Paswan; 4. Apsara Mishra\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-2,c-3,d-4",

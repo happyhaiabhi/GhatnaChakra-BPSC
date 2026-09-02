@@ -4790,7 +4790,7 @@
           "year": "39th B.P.S.C. (Pre) 1994"
         },
         {
-          "q": "Read the given statement and conclusions carefully. Decide which of the given conclusions logically follow(s) from the statement. Statement : In a one-day cricket match, the total runs made by a team were 200, of which 160 runs were made by spinners. Conclusions : 1. 80% of the team consisted of spinners. 2. The opening batsmen were spinners. Select the correct answer.",
+          "q": "Read the given statement and conclusions carefully. Decide which of the given conclusions logically follow(s) from the statement. Statement : In a one-day cricket match, the total runs made by a team were 200, of which 160 runs were made by spinners. Conclusions : 1. 80% of the team consisted of spinners. 2. The opening batsmen were spinners.\n\nSelect the correct answer.",
           "question_type": "Statement and Conclusion — Logical Inference",
           "options": {
             "A": "Only 1 follows the statement",

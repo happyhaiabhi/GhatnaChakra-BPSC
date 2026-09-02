@@ -1292,7 +1292,7 @@ html,body{height:100%;}
 
   /* results and study banks */
   #result-screen{padding:12px;align-items:stretch;overflow-y:auto;-webkit-overflow-scrolling:touch;}
-  #bloom-screen,#mistake-screen,#bookmark-screen,#skip-screen,#archive-screen,#history-screen{padding:12px 12px calc(24px + env(safe-area-inset-bottom))!important;align-items:stretch;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+  #bloom-screen,#mistake-screen,#bookmark-screen,#skip-screen,#archive-screen,#history-screen,#notes-screen{padding:12px 12px calc(24px + env(safe-area-inset-bottom))!important;align-items:stretch;overflow-y:auto;-webkit-overflow-scrolling:touch;}
   #bloom-screen>div:first-child,#mistake-screen>div:first-child,#bookmark-screen>div:first-child,#skip-screen>div:first-child,#archive-screen>div:first-child,#history-screen>div:first-child{width:100%!important;max-width:none!important;}
   .result-wrap{gap:12px;max-width:none;}
   .result-header{padding:20px 12px;border-radius:18px!important;}
@@ -1506,6 +1506,7 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
       </div>
     </div>
     <button class="nav-btn-pill" id="nav-search" onclick="openSuperSearch()" title="Search every question in this book">&#x1F50D; <span class="nav-btn-label">Search</span></button>
+    <button class="nav-btn-pill" id="nav-notes" onclick="showNotesScreen()" title="Download Chemistry Notes">&#x1F4D6; <span class="nav-btn-label">Notes</span></button>
     <button class="nav-btn-pill" id="nav-history" onclick="showHistoryScreen()" title="Record of all quiz attempts">&#x1F4D1; <span class="nav-btn-label">History</span></button>
     <button class="nav-btn-pill sync-btn-wrap" id="sync-nav-btn" onclick="openSyncModal()" style="position:relative;">☁ <span class="nav-btn-label">Sync</span><div class="sync-dot offline" id="sync-status-dot" title="Sync Off"></div></button>
   </div>
@@ -1893,6 +1894,35 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
     <div id="archive-list" class="bank-list"></div>
   </div>
 </div>
+
+
+<!-- NOTES SCREEN -->
+<div class=screen id=notes-screen style="flex-direction:column;align-items:center;padding:16px;min-height:100vh;">
+  <div style="width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px;">
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+      <button onclick="backToSetup()" style="background:var(--surface);border:1px solid var(--border);color:var(--text2);padding:7px 12px;border-radius:8px;font-size:0.75rem;cursor:pointer;font-family:'DM Sans',sans-serif;flex-shrink:0;">&#x2190; Back</button>
+      <h2 style="font-family:'Cinzel',serif;font-size:0.95rem;color:var(--text);margin:0;">&#x1F4D6; BPSC Chemistry Study Notes</h2>
+    </div>
+    <div style="font-size:0.68rem;color:var(--text3);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;line-height:1.4;">Download high-yield BPSC Chemistry revision notes and class-wise study materials in PDF format for offline reading and quick revision.</div>
+    <div style="display:flex;flex-direction:column;gap:12px;">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;display:flex;align-items:center;justify-content:space-between;gap:16px;">
+        <div>
+          <h3 style="font-size:0.9rem;color:var(--text);margin-bottom:4px;">🧪 BPSC Chemistry Consolidated Notes (A4)</h3>
+          <p style="font-size:0.75rem;color:var(--text2);">Comprehensive chapter-wise chemistry theory, reaction mechanisms, important formulas and previous years' trends.</p>
+        </div>
+        <a href="notes/BPSC_Chemistry_Consolidated_Notes_A4.pdf" download style="background:var(--blue);color:#fff;padding:8px 16px;border-radius:8px;font-size:0.75rem;text-decoration:none;font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;">&#x2B73; Download PDF</a>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;display:flex;align-items:center;justify-content:space-between;gap:16px;">
+        <div>
+          <h3 style="font-size:0.9rem;color:var(--text);margin-bottom:4px;">📚 Eduteria Chemistry Notes Class Wise</h3>
+          <p style="font-size:0.75rem;color:var(--text2);">Detailed class-wise Chemistry notes curated for BPSC Prelims and Mains preparation.</p>
+        </div>
+        <a href="notes/Eduteria Chem Notes Class Wise.pdf" download style="background:var(--blue);color:#fff;padding:8px 16px;border-radius:8px;font-size:0.75rem;text-decoration:none;font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;">&#x2B73; Download PDF</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- ATTEMPT HISTORY SCREEN -->
 <div class="screen" id="history-screen" style="flex-direction:column;align-items:center;padding:16px;min-height:100vh;">
@@ -2879,6 +2909,11 @@ function recordAttempt(meta){
   if(attempts.length>50)attempts.pop();
   saveAttempts(attempts);
 }
+
+function showNotesScreen(){
+  showScreen('notes-screen');
+}
+
 function showHistoryScreen(){
   const attempts=getAttempts();
   const list=document.getElementById('history-list');
@@ -4745,7 +4780,7 @@ window.addEventListener('offline',()=>{if(syncStatus!=='error')setSyncStatus('of
 /* On phones the top navbar keeps only Switch Book + Search + Sync; the
    secondary tools move into the compact chip row beneath it. On desktop
    and iPad the single scrollable navbar is restored. */
-const SETUP_NAV_TOOLS=['nav-portal-home','nav-review','nav-history'];
+const SETUP_NAV_TOOLS=['nav-portal-home','nav-review','nav-notes','nav-history'];
 function layoutSetupNav(){
   const chips=document.getElementById('nav-chips-row');
   const bar=document.querySelector('#setup-screen .top-navbar');

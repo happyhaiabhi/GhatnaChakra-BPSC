@@ -152,7 +152,7 @@
           "original_id": 7
         },
         {
-          "q": "Match List-I with List-II based on the amount allocated to various departments in the Bihar Budget 2026-27 -\nList-I (Department): a. Health Department; b. Home Department; c. Energy Department; d. Rural Development Department\nList-II (Allocated Amount): 1. ₹21,270.40 crore; 2. ₹20,132.87 crore; 3. ₹18,737.06 crore; 4. ₹23,701.18 crore\nCode:",
+          "q": "Match \n\nList-I with \n\nList-II based on the amount allocated to various departments in the Bihar Budget 2026-27 - \n\nList-I (Department):\na. Health Department;\nb. Home Department;\nc. Energy Department;\nd. Rural Development Department \n\nList-II (Allocated Amount): 1. ₹21,270.40 crore; 2. ₹20,132.87 crore; 3. ₹18,737.06 crore; 4. ₹23,701.18 crore\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-2,c-3,d-4",
@@ -278,7 +278,7 @@
           "original_id": 13
         },
         {
-          "q": "Match the various crops (food groups) and their place in production in Bihar Budget 2026-27 from List-I to List-II.\nList-I (Food Groups): a. Rice; b. Wheat; c. Makhana and Litchi; d. Maize; e. Honey\nList-II (Place of Production): 1. Fifth (5th); 2. Sixth (6th); 3. First (1st); 4. Second (2nd); 5. Fourth (4th)\nCode:",
+          "q": "Match the various crops (food groups) and their place in production in Bihar Budget 2026-27 from \n\nList-I to \n\nList-II. \n\nList-I (Food Groups):\na. Rice;\nb. Wheat;\nc. Makhana and Litchi;\nd. Maize; e. Honey \n\nList-II (Place of Production): 1. Fifth (5th); 2. Sixth (6th); 3. First (1st); 4. Second (2nd); 5. Fourth (4th)\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-2,c-3,d-4,e-5",
@@ -362,7 +362,7 @@
           "original_id": 17
         },
         {
-          "q": "Match List-I with List-II based on the recommendations and allocations of the 16th Finance Commission.\nList-I: a. Total proposed amount; b. State Disaster Relief Fund; c. Grant for rural local bodies; d. Grant for urban local bodies\nList-II: 1. ₹7,893 crore; 2. ₹1,721 crore; 3. ₹4,012 crore; 4. ₹2,160 crore\nCode:-",
+          "q": "Match \n\nList-I with \n\nList-II based on the recommendations and allocations of the 16th Finance Commission. \n\nList-I:\na. Total proposed amount;\nb. State Disaster Relief Fund;\nc. Grant for rural local bodies;\nd. Grant for urban local bodies \n\nList-II: 1. ₹7,893 crore; 2. ₹1,721 crore; 3. ₹4,012 crore; 4. ₹2,160 crore\n\nCode:-",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-2,c-3,d-4",

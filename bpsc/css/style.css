@@ -395,6 +395,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   color: var(--text-primary);
   margin-bottom: 24px;
   font-weight: 400;
+  white-space: pre-line;
 }
 
 /* Options grid */

@@ -110,7 +110,7 @@
           "original_id": 5
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Festival/Fair): a. Thawe Festival; b. Tapovan Festival; c. Shravani Mela; d. Makar Mela\nList-II (Venue): 1. Gaya; 2. Gopalganj; 3. Sultanganj/Munger/Banka; 4. Rajgir\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Festival/Fair):\na. Thawe Festival;\nb. Tapovan Festival;\nc. Shravani Mela;\nd. Makar Mela \n\nList-II (Venue): 1. Gaya; 2. Gopalganj; 3. Sultanganj/Munger/Banka; 4. Rajgir\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",
@@ -215,7 +215,7 @@
           "original_id": 10
         },
         {
-          "q": "Match the list correctly regarding the target set by the Bihar government:\nList-I: a. Elimination of sickle cell anemia; b. Elimination of malaria Complete elimination; c. Goal of hepatitis-free Bihar; d. Increasing the green cover in the state to 17%\nList-II: 1. 2028; 2. 2030; 3. 2030; 4. 2047\nCode:",
+          "q": "Match the list correctly regarding the target set by the Bihar government: \n\nList-I:\na. Elimination of sickle cell anemia;\nb. Elimination of malaria Complete elimination;\nc. Goal of hepatitis-free Bihar;\nd. Increasing the green cover in the state to 17% \n\nList-II: 1. 2028; 2. 2030; 3. 2030; 4. 2047\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -320,7 +320,7 @@
           "original_id": 15
         },
         {
-          "q": "Products and related information about the latest geographical indication granted to Bihar. Match the region/district correctly.\nList-I (Product): a. Marcha Rice; b. Manjusha Art; c. Silav Khaja; d. Katarni Rice\nList-II (Related Region): 1. West Champaran; 2. Anga Pradesh; 3. Nalanda; 4. Bhagalpur\nCode:",
+          "q": "Products and related information about the latest geographical indication granted to Bihar. Match the region/district correctly. \n\nList-I (Product):\na. Marcha Rice;\nb. Manjusha Art;\nc. Silav Khaja;\nd. Katarni Rice \n\nList-II (Related Region): 1. West Champaran; 2. Anga Pradesh; 3. Nalanda; 4. Bhagalpur\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -992,7 +992,7 @@
           "original_id": 47
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Scheme): a. Bihar Student Credit Card Scheme; b. Chief Minister's Kanya Vivah Mandap Scheme; c. Chief Minister's Sure Health Scheme; d. Jal-Jeevan Hariyali Abhiyan\nList-II (Start Year): 1. 2016; 2. 2025; 3. 2024-25; 4. 2019\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Scheme):\na. Bihar Student Credit Card Scheme;\nb. Chief Minister's Kanya Vivah Mandap Scheme;\nc. Chief Minister's Sure Health Scheme;\nd. Jal-Jeevan Hariyali Abhiyan \n\nList-II (Start Year): 1. 2016; 2. 2025; 3. 2024-25; 4. 2019\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",
@@ -1013,7 +1013,7 @@
           "original_id": 48
         },
         {
-          "q": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (App/Portal): a. Swachh Bihar Portal; b. Bhavya App; c. Inspection App; d. Suvidha App\nList-II (Department/Institution): 1. Department of Mining and Geology; 2. Health Department; 3. General Administration Department; 4. Bihar State Power Holding Limited\nCode:",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (App/Portal):\na. Swachh Bihar Portal;\nb. Bhavya App;\nc. Inspection App;\nd. Suvidha App \n\nList-II (Department/Institution): 1. Department of Mining and Geology; 2. Health Department; 3. General Administration Department; 4. Bihar State Power Holding Limited\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",

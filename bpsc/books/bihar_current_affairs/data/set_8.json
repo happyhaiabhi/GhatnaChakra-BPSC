@@ -47,7 +47,7 @@
           "original_id": 2
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Important Wetlands): a. Nakati; b. Sursar Lake; c. Karhiya Lake; d. Manihari Wetland\nList-II (Districts): 1. Jamui; 2. Supaul; 3. Kaimur; 4. Katihar\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Important Wetlands):\na. Nakati;\nb. Sursar Lake;\nc. Karhiya Lake;\nd. Manihari Wetland \n\nList-II (Districts): 1. Jamui; 2. Supaul; 3. Kaimur; 4. Katihar\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -341,7 +341,7 @@
           "original_id": 16
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (App/Portal): a. \"Mausam Bihar\" App; b. BeFIQR App; c. Philo Portal; d. Wonder App\nList-II (Related Area): 1. Water Resources Department; 2. Planning and Development Department; 3. Education Department; 4. Health Department\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (App/Portal):\na. \"Mausam Bihar\" App;\nb. BeFIQR App;\nc. Philo Portal;\nd. Wonder App \n\nList-II (Related Area): 1. Water Resources Department; 2. Planning and Development Department; 3. Education Department; 4. Health Department\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -488,7 +488,7 @@
           "original_id": 23
         },
         {
-          "q": "Match the relevant columns regarding the Bihar Caste Census Report-2023:\nColumn-I (Religion): a. Hindu; b. Muslim; c. Christianity; d. Jainism\nColumn-II (Percentage): 1. 81.99%; 2. 17.7%; 3. 0.00096%; 4. 0.05%\nCodes:",
+          "q": "Match the relevant columns regarding the Bihar Caste Census Report-2023: Column-I (Religion):\na. Hindu;\nb. Muslim;\nc. Christianity;\nd. Jainism Column-II (Percentage): 1. 81.99%; 2. 17.7%; 3. 0.00096%; 4. 0.05%\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -845,7 +845,7 @@
           "original_id": 40
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Festival/Celebration): a. Kaumudi Mahotsav; b. Chandragupta Sahitya Mahotsav; c. Nandangarh Mahotsav; d. Shaurya Vedanam Festival\nList-II (Place): 1. Darbhanga; 2. West Champaran; 3. Patna; 4. Motihari (East Champaran)\nCodes:-",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Festival/Celebration):\na. Kaumudi Mahotsav;\nb. Chandragupta Sahitya Mahotsav;\nc. Nandangarh Mahotsav;\nd. Shaurya Vedanam Festival \n\nList-II (Place): 1. Darbhanga; 2. West Champaran; 3. Patna; 4. Motihari (East Champaran)\n\nCodes:-",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",

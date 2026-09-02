@@ -1126,7 +1126,7 @@
           "year": "69th"
         },
         {
-          "q": "Read the given statement and conclusions carefully.\nStatement: In a one-day cricket match, the total runs made by a team were 200, of which 160 runs were made by spinners.\nConclusions:\n1. 80% of the team consisted of spinners.\n2. The opening batsmen were spinners.",
+          "q": "Read the given statement and conclusions carefully. Statement: In a one-day cricket match, the total runs made by a team were 200, of which 160 runs were made by spinners. Conclusions: 1. 80% of the team consisted of spinners. 2. The opening batsmen were spinners.",
           "options": {
             "A": "Only 1 follows the statement",
             "B": "Only 2 follows the statement",

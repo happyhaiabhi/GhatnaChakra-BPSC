@@ -779,6 +779,7 @@ h1 {
   font-size: 16px;
   font-weight: 750;
   line-height: 1.68;
+  white-space: pre-line;
 }
 .mains-question .question-text { font-size: 16.5px; }
 .statement-marker {
