@@ -1,0 +1,88 @@
+UNIT 6 | Sound | Lecture 7 (SOUND WAVE) pp. 2–5
+PYQ Sound in air is longitudinal (65th Q115); shrillness/pitch is decided by frequency (68th Q112 — key "none of the above" because amplitude, wavelength, velocity were the options); a sitarist tightening the string adjusts its frequency (68th Q120); speed of sound is maximum in steel among steel/water/air/hydrogen (71st Q124). Priority B.
+
+H2 Sound — nature and origin
+B **Sound** is a form of energy that travels through a medium (solid, liquid or gas) as vibrations or a disturbance which, on reaching the ear, causes the sensation of hearing.
+B **Type of wave**: sound is a **mechanical, longitudinal** wave — particles of the medium vibrate parallel to the direction of travel, creating high-pressure **compressions** and low-pressure **rarefactions**.
+B **Medium requirement**: sound needs a material medium; it **cannot travel in vacuum** (outer space).
+B **Origin**: sound is always produced by a **vibrating** object.
+IMG L07_p2_2 | Displacement–distance and displacement–time graphs of a sound wave: wavelength, period, amplitude | 50
+
+H2 Physical characteristics of a sound wave
+B **Amplitude** — maximum displacement or pressure variation from the equilibrium position; determines the **loudness** (higher amplitude → louder).
+B **Frequency** — number of complete cycles (compressions and rarefactions) passing a point per second, in hertz; determines the **pitch** (higher frequency → higher pitch).
+B **Wavelength** — distance between two consecutive identical points, e.g. two compressions or two rarefactions.
+B **Time period** — time for one complete cycle; the inverse of frequency.
+B **Speed (velocity)** — distance travelled per unit time; v = ν λ.
+B **Intensity** — wave energy passing through unit area per unit time, perpendicular to the direction of propagation:
+EQ I = P / A      I in W/m²,  P = power of source (W),  A = area (m²)
+
+H2 Classification of sound by frequency
+IMG L07_p3_0 | Infrasound (< 20 Hz) — audible range (20 Hz – 20 kHz) — ultrasound (> 20 kHz), with the animals that use them | 56
+B **(i) Infrasonic** — below **20 Hz**; produced by landslides, volcanoes, earthquakes and meteorites; not audible to humans; also produced by large sources (elephants, whales communicate with it).
+B **(ii) Sonic / audible** — **20 Hz to 20 kHz**; the sensitive audible range for humans.
+B **(iii) Ultrasonic** — above **20 kHz**; frequency of sound higher than humans can hear; produced and heard by animals such as bats, cats, dogs, whales and dolphins.
+H3 Applications of ultrasonic sound waves
+B 1. Ultrasound / ultrasonography in medicine; ECG and EEG (as listed in source — see correction).
+B 2. To kill some animal-like pests (rats, frogs etc.).
+B 3. To locate submarines and other objects under water — **SONAR**.
+B 4. To clean clothes, machinery parts and jewellery (ultrasonic cleaning).
+CORR Source lists "ECG and EEG" under ultrasonic uses. ECG (electrocardiogram) and EEG (electroencephalogram) record *electrical* signals of the heart/brain — they do not use ultrasound. **Echocardiography** (heart ultrasound) is the ultrasonic test.
+ADD More ultrasonic uses (standard list, not in the lecture) :: Detecting flaws/cracks in metal blocks, welding plastics, breaking kidney stones (lithotripsy), measuring depth of sea (echo-sounder), bats' echolocation, ultrasonic dog whistles, drilling holes in glass, and in industry for mixing/emulsifying liquids.
+
+H2 Velocity of sound
+P The speed of sound depends on the **elasticity** and **density** of the medium. Elasticity order: solid > liquid > gas, so the speed of sound also follows **solid > liquid > gas**.
+TBLW 34,33,33
+TBL Medium~Formula~Symbols
+Solid (rod)~v = √(Y/ρ)~Y = Young's modulus of elasticity, ρ = density
+Liquid~v = √(B/ρ)~B = bulk modulus of elasticity, ρ = density of liquid
+Gas / air (Newton)~v = √(P/ρ) ≈ **319 m/s** (too low)~P = pressure, ρ = density (isothermal assumption)
+Gas / air (Laplace correction)~v = √(γP/ρ) = √(γRT/M) ≈ **332 m/s** ✔~γ = ratio of specific heats (≈ 1.4 for air), R = gas constant, T = absolute temperature, M = molar mass
+CORR Source calls γ the "degree of freedom = 1.42". γ = C_{p}/C_{v}, the **adiabatic index (ratio of specific heats)** — about 1.4 for diatomic air (its value is *related* to the degrees of freedom by γ = 1 + 2/f, f = 5 for air, but it is not the degree of freedom itself).
+NOTE Newton's formula and the Laplace correction are each printed twice on Lecture 7 p. 3 (once in symbols, once with the symbol list). Kept once as the table above.
+ADD Typical values to remember (not tabulated in the lecture) :: Air 0 °C ≈ 331–332 m/s, air 20 °C ≈ 343 m/s; hydrogen ≈ 1270 m/s (light gas → faster: v ∝ 1/√M, so **among gases hydrogen is fastest**, but still slower than water or steel); water ≈ 1480 m/s; sea water ≈ 1530 m/s; iron/steel ≈ 5000–5900 m/s; aluminium ≈ 6400 m/s; glass ≈ 4500 m/s; rubber only ≈ 60 m/s (an exception — rubber is a solid but very in-elastic). Speed of sound in air ≈ 1/900 000 of the speed of light — hence lightning is seen before thunder is heard (count seconds ÷ 3 ≈ km to the strike).
+PYQ 71st Q124: "In which medium is the speed of sound maximum?" options steel / water / air / hydrogen → **steel**.
+H3 Factors affecting the velocity of sound in air
+B **(i) Temperature**: on increasing the temperature the velocity of sound increases; for every 1 °C rise the velocity increases by about **0.6 m/s** (v ∝ √T; v_{1}/v_{2} = √(T_{1}/T_{2})).
+B **(ii) Humidity**: with increasing humidity the density of air decreases, so the velocity of sound **increases** (sound travels faster in moist air than in dry air).
+B **(iii) Pressure**: at constant temperature a change of pressure changes the density in the same ratio, so **pressure has no effect** on the velocity of sound.
+CORR Source prints "velocity increases with 6 m/s per °C" — the accepted figure is **≈ 0.61 m/s per °C**.
+ADD Effect of wind and frequency (standard additions) :: Wind blowing along the direction of sound adds its speed to the sound's speed (that is why sound carries farther downwind). The speed of sound in a given medium is **independent of frequency, wavelength and amplitude** — all notes of an orchestra reach you together.
+
+H2 Properties of sound waves
+B **Reflection of sound**: (1) **echo**; (2) **reverberation** (multiple reflections). Sound also shows refraction, diffraction (strong, because λ is large) and interference (beats), but **not polarisation**.
+IMG L07_p4_0 | Direct sound path and reflective sound paths in a hall — the origin of reverberation | 52
+
+H2 Characteristics of musical sound
+H3 (i) Loudness
+B Loudness decides how "high" or "low" (strong or weak) a sound is; it follows the **intensity** of sound (which depends on the **amplitude**) and is measured in **decibel (dB)**.
+B Human threshold capacity: **120–140 dB**; loudness without pain for humans → up to about **85 dB**.
+TBLW 50,50
+TBL Sound~Approximate loudness
+Jet engine (near)~140 dB
+Normal talk~50–60 dB
+Library / hospital~30–40 dB
+ADD Decibel scale details (not in the lecture) :: 0 dB = threshold of hearing (10^{–12} W/m²); every +10 dB means **10× the intensity** (+20 dB = 100×). Whisper ≈ 20–30 dB, busy traffic ≈ 70–80 dB, pain threshold ≈ 120–130 dB. WHO/CPCB norms: residential area day limit 55 dB, night 45 dB; industrial 75/70 dB; silence zones (hospitals, schools, courts) 50/40 dB. Prolonged exposure above 85 dB damages hearing.
+H3 (ii) Pitch
+B Pitch is the sensation reserved by the ear that depends on the **frequency** of the sound wave: higher frequency → high pitch (shrill), lower frequency → low pitch (grave). It measures the sharpness/shrillness of a voice or sound.
+PYQ 68th Q112: shrillness of sound is determined by **frequency** — since the options were amplitude / wavelength / velocity, the key is "None of the above" (E). 68th Q120: a sitarist adjusting tension and plucking before a concert is tuning the **frequency** of the string to the accompanying instruments.
+H3 (iii) Timbre / quality
+B Two sounds having the same frequency and wavelength can differ in their **overtones** (waveform); this is quality or timbre — it lets us distinguish a sitar from a flute playing the same note, or recognise a friend's voice.
+ADD Overtones and harmonics (one line of context) :: A musical note = fundamental frequency + overtones (integral multiples = harmonics). Noise has no regular waveform; a musical sound has periodic vibrations.
+
+H2 Reverberation
+B Reverberation is the persistence of sound in an enclosed space after the original sound has stopped, caused by multiple reflections of sound waves off surfaces.
+B **Factors**: size of the space (larger rooms → more reverberation); materials (hard, non-absorbent surfaces like concrete or glass reflect more than soft, absorbent materials like carpet or curtains); absorption (more absorbing material → less reverberation).
+B **Measurement**: **Reverberation time (RT60)** — the time for the sound level to decrease by **60 decibels** after the source has stopped; the standard quantity for describing reverberation.
+ADD Controlling reverberation & Sabine's work (context) :: Auditorium walls are lined with fibre-board, rough plaster, curtains and false ceilings; seats are cushioned. W. C. Sabine's formula: T = 0.161 V / ΣαS (V = volume, α = absorption coefficient, S = area). Good speech halls have RT ≈ 1 s; concert halls 1.5–2 s.
+
+H2 Echo
+B An echo is the repetition of sound heard after it is reflected from a distant surface (hill, building, wall).
+B **Condition for hearing an echo**: the minimum time gap between the original and the reflected sound must be **0.1 s** (persistence of hearing). Based on the speed of sound (≈ 343 m/s), the minimum distance of the reflecting surface ≈ **17 m** (source: distance ≥ 17 m; with 332 m/s the figure is 16.6 m).
+EQ Formula of echo:  t = 2d / v      t = time for echo, d = distance of the reflecting surface, v = speed of sound   (sound travels twice the distance — to and fro)
+IMG L07_p5_0 | Echo — reflection of sound from a distant obstacle | 40
+H3 Applications of echo
+B 1. **SONAR** (Sound Navigation And Ranging) — measures the depth of the sea, detects submarines, shipwrecks, shoals of fish (ultrasonic pulses; depth = v t / 2).
+B 2. **Medical imaging** — ultrasonic waves used in ultrasound scanning (echo from tissues).
+B 3. **Echolocation** — used by bats and dolphins to navigate and hunt.
+ADD Echo vs reverberation (quick distinction, not in source) :: An echo is a *distinct* repetition heard after ≥ 0.1 s; reverberation is the *overlapping* prolongation when reflections arrive within 0.1 s. Multiple echoes give "rolling thunder". Whispering galleries (Gol Gumbaz, Bijapur; St Paul's) work on repeated reflection of sound along curved walls.

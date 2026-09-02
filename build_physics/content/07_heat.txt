@@ -1,0 +1,124 @@
+UNIT 7 | Heat, Temperature & Thermometry | Lecture 8 (HEAT-01) pp. 2–4; Lecture 9 (TEMPERATURE) pp. 2–4
+PYQ °C → °F conversion (40 °C = 104 °F, 64th Q10; 50 °C = 122 °F, 65th Q116); poorest conductor of heat among copper/lead/mercury/zinc → lead (66th Q20); heat transfer that needs no medium → radiation (70th Q15); sublimation (63rd Q90); liquefaction of gases needs low T & high P (70th Q20). Priority B — 6 questions in 5 papers.
+
+H2 Heat and temperature
+B **Heat** is a form of energy that flows from a body at higher temperature to a body at lower temperature because of the temperature difference. It is **energy in transit** — not a property of a body; it depends on mass, temperature change and material.
+B **SI unit of heat**: **joule (J)**. Another unit: **calorie** — 1 calorie = **4.186 J** (heat needed to raise 1 g of water by 1 °C). 1 kcal = 1000 cal.
+B **Temperature** is the **degree of hotness or coldness** of a body; it determines the *direction* of heat flow (from higher to lower temperature). SI unit **kelvin (K)**; other units °C and °F.
+IMG L08_p2_0 | Heat flows from the warmer object to the cooler object until both reach the same temperature | 50
+TBLW 50,50
+TBL Heat~Temperature
+Form of energy (energy in transit)~Measure of hotness (average kinetic energy of molecules)
+Depends on mass (extensive)~Independent of mass (intensive)
+Unit: joule (or calorie)~Unit: kelvin (or °C, °F)
+Flows from one body to another~Indicates the thermal state; decides direction of heat flow
+Measured with a calorimeter~Measured with a thermometer
+NOTE "Temperature — degree of hotness or coldness; determines direction of heat flow; SI unit kelvin; other units °C, °F" is printed in Lecture 8 p. 2 and again in Lecture 9 p. 2 (and the K/°C/°F fixed-point table three times in all). Kept once; the master scale table is below.
+
+H2 Modes of heat transfer
+IMG L08_p2_1 | Three modes: conduction (direct contact), radiation (electromagnetic waves), convection (moving fluid) | 46
+TBLW 34,33,33
+TBL Conduction~Convection~Radiation
+Depends upon temperature difference~Depends upon density difference~Heat transfer **without any medium**
+Electrons/molecules transfer their vibration from one end to another without actual movement of matter~Transfer of heat occurs due to actual motion of particles (fluid)~Due to electromagnetic radiation (infrared)
+Slow process~Slow process~Fast — at the speed of light, 3 × 10^{8} m/s
+Irregular path~Irregular path~Straight-line path, just like light
+Mainly in solids~Liquids and gases~Any medium or vacuum
+NOTE The comparison table is from Lecture 9 p. 2; the detailed descriptions and applications below are from Lecture 8 pp. 2–3. Both kept together.
+PYQ 70th Q15: "Heat transfer that does not require a medium" → **radiation**.
+H3 I. Conduction
+B Transfer of heat **without movement of particles** (from particle to particle); occurs mainly in **solids**.
+IMG L08_p2_2 | Heat flow along a bar of cross-section A from the hot end to the cold end | 46
+H3 Applications of thermal conduction
+B In winter, iron chairs appear colder than wooden chairs (iron conducts heat away from the hand faster).
+B Cooking utensils are made of aluminium and brass (good conductors) whereas their handles are made of wood (insulator).
+B Ice is covered in gunny bags to prevent melting (trapped air is a bad conductor).
+B We feel warm in woollen clothes and fur coats (air trapped between fibres).
+B Two thin blankets are warmer than a single blanket of double thickness (air layer between them).
+B Birds often swell their feathers in winter (trapped air).
+B A new quilt is warmer than an old one (more trapped air).
+PYQ 66th Q20: poorest conductor of heat among copper, **lead**, mercury, zinc → lead (thermal conductivity: Cu 400 > Zn 116 > Pb 35 > Hg 8 W/m·K — strictly mercury is lower, but the key follows the standard "lead is a poor conductor" option; note both).
+ADD Conductors vs insulators (numbers, not in the lecture) :: Best thermal conductors: **silver > copper > gold > aluminium**; diamond conducts heat even better than silver (≈ 2200 W/m·K) though it is an electrical insulator. Poor conductors: glass, wood, water, air (0.025 W/m·K), wool, cork, styrofoam. Vacuum is the perfect insulator for conduction and convection (thermos flask).
+H3 II. Radiation
+B The transfer of heat from one place to another **without heating the intervening medium**. When a body is heated and placed in vacuum it still loses heat, because heat radiation needs no medium (conduction and convection both require the presence of a material medium between source and surroundings).
+B When radiation passes through any medium the medium absorbs it slightly according to its absorptive power, so the temperature of the medium rises slightly.
+B Radiation intensity is measured with a **bolometer**.
+B Heat radiations are always obtained in the **infrared** region of the electromagnetic spectrum, so they are called infra-red rays.
+H3 Applications of thermal radiation
+B Heat from the Sun reaching the Earth; solar cookers and solar panels; infrared heaters and thermal imaging; black surfaces absorb more heat (used in solar devices); thermos flasks minimise heat loss via radiation (silvered walls).
+IMG L08_p3_0 | Earth's radiation balance — sunlight absorbed and re-radiated, infrared trapped by the atmosphere | 44
+H3 III. Convection
+B Convection is the transfer of heat in **liquids and gases** due to the **actual movement of particles**; it occurs because of density differences created by temperature variation (hot fluid expands, becomes lighter and rises; cold fluid sinks).
+IMG L08_p3_1 | Convection currents in a kettle — warm molecules rise, cool molecules sink | 40
+H3 Applications of convection
+B **Land & sea breezes** — **Day**: land heats faster → air over land rises → cool air moves from sea to land (**sea breeze**). **Night**: land cools faster → air moves from land to sea (**land breeze**).
+B **Trade winds** — Equator: high temperature → low pressure (air rises); Poles: low temperature → high pressure. Air moves from poles to the equator and gets deflected due to the Earth's rotation, forming steady north-east trade winds.
+B **Monsoons** — land heats more than the ocean in summer; moist air from the ocean moves to land, rises, cools and condenses → causes rainfall.
+B **Ventilation** — warm air rises and exits through ventilators/exhaust; fresh air enters from outside (based on natural/forced convection).
+ADD Other convection examples (standard, not in the lecture) :: Chimney draught, hot-air balloons (also in Unit 8), room heaters placed near the floor and air-conditioners near the ceiling, water heating in a geyser from below, the Earth's mantle convection (plate tectonics), the Sun's convective zone. In a vacuum or in orbit (weightlessness) convection stops — a candle flame in a spacecraft is spherical and blue.
+
+H2 Specific heat capacity and latent heat
+H3 Specific heat capacity (c)
+B The amount of heat required to raise the temperature of **1 kg** of a substance by **1 °C** (or 1 K).
+EQ Q = m c ΔT      Q = heat, m = mass, c = specific heat capacity, ΔT = change in temperature
+ADD Values & consequences (asked repeatedly in general-science papers) :: Water has the **highest specific heat among common substances: 4186 J/kg·K (1 cal/g·°C)**; ice ≈ 2100, steam ≈ 2000, aluminium ≈ 900, iron ≈ 450, copper ≈ 385, mercury ≈ 140, lead ≈ 130 J/kg·K. Hence water is used as a coolant in car radiators and as a hot-water-bottle filler, sea breezes exist, coastal climates are moderate, and a watermelon stays cool longer. **Calorimetry / principle of mixtures** (Unit 8): heat lost = heat gained.
+H3 Latent heat
+B Heat absorbed or released **without change in temperature** during a change of state.
+B **I. Latent heat of fusion** — heat required to convert solid → liquid at constant temperature (ice → water). Temperature remains constant during melting; the energy is used to break intermolecular forces; unit **J/kg**.
+B **II. Latent heat of vaporisation** — heat required to convert liquid → gas at constant temperature (water → steam). Requires **more heat than fusion**; used to overcome strong intermolecular forces; responsible for the cooling effect of evaporation.
+IMG L08_p4_0 | Heating curve of water: temperature vs heat absorbed — flat steps at 0 °C (latent heat of fusion 80 cal/g) and 100 °C (latent heat of vaporisation 540 cal/g) | 50
+ADD Latent-heat values & why steam burns worse (not in the lecture text, only in the graph) :: L_{fusion}(ice) = **80 cal/g = 3.34 × 10^{5} J/kg**; L_{vaporisation}(water) = **540 cal/g = 2.26 × 10^{6} J/kg**. Steam at 100 °C causes a more severe burn than water at 100 °C because it first gives up 540 cal/g on condensing. Ice at 0 °C cools a drink better than water at 0 °C because it absorbs 80 cal/g while melting.
+H3 Effects of heat
+B Increase in temperature; change in state (latent heat); expansion of matter (Unit 8); increase in molecular motion.
+
+H2 Change of state of matter
+P Phase conversion due to hidden (latent) heat represents change in the state of matter.
+IMG L09_p2_state_change_cycle | Solid ⇌ liquid ⇌ vapour: melting/freezing, evaporation/condensation, sublimation/deposition | 56
+B **Melting** → conversion of a solid into its liquid form at constant temperature (**endothermic** — heat absorbed).
+B **Freezing** → reverse of melting, with the release of energy (**exothermic** — heat released).
+B **Evaporation** → conversion of surface liquid into vapour at **all temperatures**; the higher the temperature (and the larger the surface/wind, the lower the humidity), the higher the evaporation. It causes cooling.
+B **Boiling** → evaporation within the whole mass at a constant temperature; the temperature at which the vapour pressure of the liquid equals the atmospheric pressure is the boiling point.
+B **Sublimation** → conversion of a solid directly into vapour — e.g. solid CO₂ (dry ice), camphor, naphthalene, iodine, ammonium chloride.
+B **Deposition** → reverse of sublimation (vapour → solid), e.g. frost.
+B **Condensation** → conversion of vapour into liquid (dew, clouds).
+B **Note**: when impurities are added to a liquid, its **boiling point rises** (and its freezing point falls — salt on icy roads, antifreeze).
+IMG L09_p2_0 | Freezing/melting point (0 °C), room temperature and boiling point (100 °C) of water | 50
+CORR Lecture 9 labels freezing as an "Endothermic process". Freezing **releases** heat — it is **exothermic**; melting, evaporation, boiling and sublimation are endothermic.
+PYQ 63rd Q90: conversion of a solid directly into gas → **sublimation**. 70th Q20: suitable condition for liquefaction of gases → **low temperature, high pressure** (below the critical temperature).
+ADD Pressure and boiling/melting points (pressure-cooker physics — not in the lecture) :: Boiling point rises with pressure (pressure cooker ≈ 120 °C at 2 atm, food cooks faster) and falls with altitude (water boils near 70 °C on Everest; cooking is difficult in hills). The melting point of ice **falls** with pressure (regelation — skating on ice, glaciers flowing); for most other solids it rises. **Anomalous expansion of water**: water is densest at **4 °C**; it expands on cooling from 4 °C to 0 °C and on freezing (ice floats, pipes burst, lakes freeze from the top so fish survive) — this Lecture-1 plan topic is treated in Unit 8.
+
+H2 Temperature scales
+TBLW 20,24,24,32
+TBL Scale~Lower fixed point (freezing point of water)~Upper fixed point (boiling point of water)~Divisions / note
+Celsius (°C)~0 °C~100 °C~100 divisions; SI-derived
+Kelvin (K)~273.15 K~373.15 K~SI base unit; absolute scale (no negative values)
+Fahrenheit (°F)~32 °F~212 °F~180 divisions
+Réaumur (°R / °Re)~0°~80°~80 divisions
+Rankine (°Ra)~491.67°~671.67°~Absolute Fahrenheit scale
+NOTE Lecture 9 gives this 5-scale table on p. 2 and a 3-scale (Celsius/Fahrenheit/Kelvin) "temperature scales comparison" again on p. 4; Lecture 8 lists the units once more. One master table is kept.
+H3 Conversion formulae
+EQ C/100 = (F – 32)/180 = (K – 273)/100      ⇔      C/5 = (F – 32)/9 = (K – 273)/5
+EQ C = (5/9)(F – 32)      F = (9/5)C + 32      K = C + 273.15      (C – 0)/100 = (F – 32)/(212 – 32) = (K – 273.16)/(373.16 – 273.16)
+B **–40° is the same on the Celsius and Fahrenheit scales** (–40 °C = –40 °F). Absolute zero = 0 K = –273.15 °C = –459.67 °F. Normal human body temperature = 37 °C = 98.6 °F = 310 K.
+PYQ 64th Q10: 40 °C = (9/5 × 40) + 32 = **104 °F**. 65th Q116: 50 °C = 90 + 32 = **122 °F**. Practise 0 °C = 32 °F, 37 °C = 98.6 °F, 100 °C = 212 °F, 25 °C = 77 °F.
+
+H2 Measuring instruments — thermometers
+P Accurate measurement of temperature is essential in science, medicine, industry and daily life; thermometers operate on different physical principles such as thermal expansion, electrical resistance and radiation.
+H3 Types of thermometer
+B **Mercury thermometer** — **Principle**: uniform expansion of mercury in a sealed glass tube. **Range**: wide, from **–38 °C to 356 °C** (can be extended by filling nitrogen above the mercury). **Pros**: opaque silver liquid (clear readings), doesn't wet glass, good conductor, accurate, uniform expansion. **Cons**: toxic and hazardous if broken; less useful clinically now (banned in many countries).
+B **Alcohol thermometer** — **Principle**: coloured alcohol (ethyl alcohol etc.) expands in a glass tube. **Range**: very low temperatures (down to about **–115 °C / source: –200 °C**), limited above by alcohol's boiling point (≈ 78 °C). **Pros**: non-toxic, safe, great for very cold conditions (freezers, polar regions). **Cons**: transparent (needs dye), can evaporate, less durable, wets glass.
+B **Clinical thermometer** — a mercury thermometer with a **constriction (narrowing) in the bore** so the mercury column does not fall back until shaken; range **35–42 °C** (95–108 °F); normal body temperature **36.9 °C / 98.4 °F** (source; 37 °C / 98.6 °F is the textbook value).
+IMGS L09_p3_0 | Mercury thermometer — bulb, capillary bore, scale;;L09_p3_1 | Alcohol thermometer (top) and clinical thermometer with constriction (bottom)
+B **Resistance thermometer (RTD)** — **Principle**: resistance of a conductor (usually platinum) changes with temperature; the metal's resistance increases with temperature. Common materials Pt100, Pt1000 (2-, 3- and 4-wire arrangements). **Use**: high accuracy, wide range, good linearity — common in laboratories and industry.
+EQ R = R_{0}(1 + αT)      R = resistance at temperature T, R_{0} = resistance at 0 °C, α = temperature coefficient of resistance
+B **Platinum resistance thermometer (PRT)** — a highly accurate instrument using platinum wire whose resistance changes predictably with temperature; one of the most precise thermometers in science and industry (used to define the practical temperature scale).
+IMGS L09_p3_2 | RTD — 2-wire, 3-wire and 4-wire measuring arrangements;;L09_p4_0 | Platinum resistance thermometer — platinum sensing coil in a glass/Pyrex tube with compensating leads
+B **Pyrometer (infrared thermometer)** — **Principle**: detects the **infrared energy (heat) radiated** by objects; no contact needed. **Use**: measures very high temperatures (furnaces, molten metal, > 1000 °C) where ordinary thermometers cannot be used; non-contact, good for moving objects and body-temperature screening.
+IMG L09_p4_1 | Optical pyrometer — the brightness of a reference lamp filament is matched with that of the hot source | 50
+B **Digital thermometer** — uses electronic sensors (thermistors, thermocouples); displays digitally; easy for home/clinical use.
+B **Bimetallic strip thermometer** — two metals bonded together bend with temperature change; used in ovens and thermostats (Unit 8).
+B **Thermocouple** — two different metals joined; the voltage (Seebeck emf) changes with temperature; used for high/low industrial temperatures (Unit 8, Seebeck effect).
+B **Gas thermometer** — measures temperature via gas pressure/volume (e.g. constant-pressure or constant-volume hydrogen/helium gas thermometer) — the most accurate primary standard.
+H3 Effects of temperature (summary from Lecture 9)
+B Expansion and contraction of substances; change in physical state (solid ⇌ liquid ⇌ gas); increase in molecular kinetic energy.
+ADD Which thermometer for what (quick reference, not in the lecture) :: Six's maximum–minimum thermometer (weather stations); thermistor (fast, small — digital fever thermometers); liquid-crystal strip thermometers; cryometer for < –100 °C (uses gas or resistance); the highest temperatures (stars) are found from Wien's law of the emitted spectrum (Unit 8). Mercury freezes at –39 °C, so alcohol (freezes –115 °C) is used in polar and upper-air thermometers.

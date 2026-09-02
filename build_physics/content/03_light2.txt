@@ -1,0 +1,100 @@
+UNIT 3 | Light II: Refraction, Total Internal Reflection, Lenses & the Human Eye | Lecture 3 pp. 2–4 (refraction, Snell's law, examples, TIR), Lecture 4 (lenses, lens formula, power, human eye, defects)
+PYQ Frequency does not change on refraction (66th Q6); speed of light minimum in glass (67th Q66); magnifying glass = convex lens (67th Q73); black strips painted on a convex lens → full image, less bright (68th Q111). Priority B.
+
+H2 Refraction of light
+P **Refraction** is the bending of light when it passes obliquely from one medium to another (the speed changes, so the direction changes).
+IMGS L03_p2_0 | Refraction of light — incident, refracted rays and the normal (source card in Hindi/English);;L03_p2_1 | Refraction of a wave front: the wavelength shortens in the slower medium while the frequency stays the same
+H3 Laws of refraction (Snell's law)
+B (i) The incident ray, the refracted ray and the normal at the point of incidence lie in the same plane.
+B (ii) The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant for a given pair of media:
+EQ sin i / sin r = μ_{2}/μ_{1} = _{1}μ_{2}   (refractive index of medium 2 with respect to medium 1)
+H3 Refractive index
+EQ μ = speed of light in vacuum / speed of light in medium = c/v
+B Light bends **towards the normal** when it enters a denser medium (slows down) and **away from the normal** when it enters a rarer medium (speeds up).
+B Refractive index has no unit; μ (vacuum) = 1, air ≈ 1.0003, water = 1.33 (4/3), glass ≈ 1.5 (3/2), diamond = 2.42.
+PYQ 66th Q6 "Which does not change when light travels from one medium to another?" → **frequency** (velocity, wavelength change; refractive index is a property of the medium).
+ADD Useful relations (not spelled out in the lectures) :: λ_{medium} = λ_{vacuum}/μ and v = c/μ, while ν is fixed by the source. Real depth / apparent depth = μ (a pond of depth 4 m looks 3 m deep through water). Normal incidence (i = 0) → no bending, only a change of speed. Optical density ≠ mass density (kerosene is less dense than water but optically denser).
+H3 Everyday examples of refraction
+B **1. Bending of an object** — a pencil in a glass of water appears bent at the surface (light from the immersed part bends away from the normal on leaving water).
+B **2. Fish appears raised in water** — the apparent position of the fish is above its actual position, so a spear-fisher aims below the image.
+B **3. Early sunrise and late sunset** — atmospheric refraction bends sunlight around the curvature of the Earth; the Sun is seen about **2 minutes before** actual sunrise and **2 minutes after** actual sunset, and appears flattened (oval) near the horizon.
+B **4. Twinkling of stars** — the refractive index of atmospheric layers fluctuates (hot and cold air), so the refracted starlight keeps changing its path and intensity. Planets, being extended sources, do not twinkle appreciably.
+IMGS L03_p2_2 | A spoon in a glass of water looks bent at the surface;;L03_p3_0 | Refraction at the water surface — why a pencil looks bent;;L03_p3_1 | Fish appears raised — apparent vs actual position
+IMGS L03_p3_2 | Early sunrise & late sunset — refraction through the atmosphere;;L03_p3_3 | The setting Sun looks flattened and red;;L03_p3_4 | Twinkling of stars — fluctuating refractive index of air layers
+
+H2 Total internal reflection (TIR)
+B When light travels from a **denser to a rarer** medium and the angle of incidence exceeds the **critical angle (C)**, the light is completely reflected back into the denser medium instead of being refracted.
+B Two conditions: (1) light must go from denser to rarer medium; (2) angle of incidence > critical angle.
+EQ sin C = 1/μ   (critical angle: the angle of incidence in the denser medium for which the angle of refraction is 90°)
+IMGS L03_p3_5 | Refraction, critical angle and total internal reflection at a water–air surface;;L03_p4_0 | Reflection vs refraction when a ray meets a faster (rarer) medium
+H3 Examples of total internal reflection
+B **I. Sparkling of diamond** — refractive index of diamond is 2.42 (source: 2.5), so its critical angle is only **≈ 24°**. Diamond is cut so that light entering it meets the faces at i > C again and again, undergoes repeated TIR and finally beams out from a few faces into the observer's eye — hence the sparkle.
+B **II. Optical fibre** — light propagates through a thin glass/quartz pipe (core, μ_{1}) surrounded by cladding of lower refractive index (μ_{2} < μ_{1}) by multiple total internal reflections along the axis, even when the fibre is bent. Used in telecommunication and endoscopy.
+B **III. Mirage and looming** — in deserts/hot regions the refractive index of air near the hot surface becomes smaller than that above; light from a distant object bends successively away from the normal until i > C and TIR takes place, so an **inverted image** appears on the ground like a pool of water (mirage). **Looming** is the reverse in cold regions (warm air above cold air) — objects like ships appear raised in the sky.
+IMGS L03_p4_1 | TIR inside a cut diamond;;L03_p4_2 | Optical fibre — core, cladding and TIR along the axis;;L03_p4_3 | Mirage (a) — warm air near ground, virtual image of the palm tree
+IMG L03_p4_4 | Looming (b) — cold air near the surface; the observer sees the virtual image of an inverted ship above it | 46
+CORR Source prints μ(diamond) = 2.5; the accepted value is **2.42** (C ≈ 24.4°). Glass μ = 1.5 gives C ≈ 42°; water μ = 1.33 gives C ≈ 49°.
+ADD Other TIR examples worth remembering :: Totally reflecting prisms (45°–90°–45°) in binoculars and periscopes (Unit 4); brilliance of air bubbles in water; a test tube held obliquely in water looks silvery; "cat's-eye" road reflectors; endoscope (medical) and fibre-optic broadband. A rainbow involves refraction + *internal* (not total) reflection inside drops.
+
+H2 Lenses
+P A **lens** is a transparent optical medium bounded by two surfaces, at least one of which is curved. It works on the principle of **refraction** of light.
+TBLW 50,50
+TBL Convex lens (converging)~Concave lens (diverging)
+Thicker at the centre, thinner at the edges~Thinner at the centre, thicker at the edges
+Forms a **real, inverted** image except when the object is inside the focus (then virtual, erect, magnified)~**Always** forms a **virtual, erect, diminished** image
+Used in camera, telescope, microscope, **magnifying glass**; corrects **hypermetropia**~Used in spectacles for **myopia**; peep-holes in doors
+H3 Image formation by a convex lens
+IMGS L04_p2_0 | 1. Object at infinity → image at F₂, point-sized;;L04_p2_1 | 2. Object beyond 2F → image between F and 2F, real, inverted, diminished;;L04_p2_2 | 3. Object at 2F → image at 2F, same size
+IMGS L04_p2_3 | 4. Object between F and 2F → beyond 2F, magnified;;L04_p2_4 | 5. Object at F → rays emerge parallel, image at infinity;;L04_p2_5 | 6. Object between F and optical centre O → virtual, erect, magnified image on the same side (magnifying glass)
+TBLF 8.0
+TBLW 25,27,24,24
+TBL Position of object~Position of image~Nature~Size
+At infinity~At focus (F_{2})~Real & inverted~Highly diminished (point image)
+Beyond 2F_{1}~Between F_{2} and 2F_{2}~Real & inverted~Diminished
+At 2F_{1}~At 2F_{2}~Real & inverted~Same size
+Between F_{1} and 2F_{1}~Beyond 2F_{2}~Real & inverted~Magnified
+At F_{1}~At infinity~Real & inverted~Highly enlarged
+Between F_{1} and optical centre (O)~On the same side of the lens as the object~Virtual & erect~Magnified
+PYQ 67th Q73: lens used in a magnifying glass → **convex lens** (object placed within the focal length). 68th Q111: black paint strips on a convex lens (f = 20 cm) → **every part** of a lens forms the complete image, so the horse is still whole, only **less bright** (option C).
+H3 Image formation by a concave lens
+IMGS L04_p3_0 | Case I — object at infinity: image at F₁, virtual, erect, highly diminished;;L04_p3_1 | Case II — object between infinity and O: image between F₁ and O, virtual, erect, diminished
+TBLW 34,34,16,16
+TBL Object location~Image location~Nature~Size
+Infinity~At F_{1}~Virtual & erect~Highly diminished, point-sized
+Between infinity and optical centre~Between focus (F_{1}) and optical centre (O)~Virtual & erect~Diminished
+H3 Lens formula, magnification and power
+EQ 1/f = 1/v – 1/u      (f = focal length, v = image distance, u = object distance)
+EQ m = h_{i}/h_{o} = v/u      (h_{i} = height of image, h_{o} = height of object)
+EQ Power of a lens  P = 1 / f (in metres)      unit: **dioptre (D)**
+B Convex lens: **positive** power (f positive); concave lens: **negative** power (f negative). A lens of f = 50 cm has P = +2 D; f = –25 cm gives P = –4 D.
+NOTE Lecture 4 prints the lens formula and magnification twice (after the convex-lens table and again after the concave-lens table). Kept once here. Note the sign difference from the mirror formula (1/v + 1/u) and magnification (–v/u).
+ADD Combination and quick facts (not in source) :: Powers of thin lenses in contact simply add: P = P_{1} + P_{2}. A convex lens immersed in a liquid of higher refractive index becomes diverging (air bubble in water acts as a concave lens). Focal length of a lens depends on colour — least for violet, most for red (chromatic aberration). Sunlight focused by a convex lens can burn paper because the image of the Sun forms at F.
+
+H2 The human eye
+P The human eye is a natural optical instrument that works like a camera — it forms images using refraction of light and allows us to see objects.
+IMGS L04_p3_3 | Anatomy of the human eye — cornea, iris, pupil, lens, retina, optic nerve;;L04_p3_4 | Sectional view — aqueous humour, vitreous humour, ciliary muscle, fovea, blind spot
+H3 Main components of the eye
+B **1. Cornea** — transparent, outermost layer; first surface where light enters; provides **maximum refraction** (bending) of light; acts like a fixed convex lens.
+B **2. Aqueous humour** — clear fluid between cornea and lens; maintains intraocular pressure; nourishes cornea and lens.
+B **3. Iris** — coloured part of the eye; controls the size of the pupil; works like the diaphragm of a camera.
+B **4. Pupil** — central opening in the iris; regulates the amount of light entering the eye; expands in dim light, contracts in bright light.
+B **5. Eye lens** — transparent, flexible **convex** lens; focuses light on the retina; can change its shape (**accommodation**): thick → near objects, thin → distant objects.
+B **6. Ciliary muscles** — surround the lens; control its curvature; responsible for the power of accommodation.
+B **7. Vitreous humour** — jelly-like substance behind the lens; maintains the shape of the eyeball; helps in light transmission.
+B **8. Retina** — light-sensitive inner layer containing photoreceptors: **rods** → vision in dim light, **cones** → colour vision. The image formed here is **real, inverted and diminished**.
+B **9. Fovea (yellow spot)** — central part of the retina; highest concentration of cones; provides sharpest vision.
+B **10. Blind spot** — the point where the optic nerve leaves the eye; no photoreceptors → no vision.
+B **11. Optic nerve** — carries visual signals to the brain; connects the eye to the visual cortex.
+ADD Near point, far point and persistence of vision (standard facts the lecture skips) :: Least distance of distinct vision (near point) for a normal eye = **25 cm**; far point = infinity. Persistence of vision ≈ 1/16 s (basis of cinema at 24 frames/s). The brain re-inverts the inverted retinal image.
+
+H2 Common eye defects
+TBLF 8.2
+TBLW 18,34,22,26
+TBL Defect~Problem~Cause~Correction
+**Myopia** (near-sightedness)~Distant objects appear blurry (e.g. a student cannot read the board from the back of the class)~Eyeball too long / lens too converging — image forms **in front of** the retina; far point closer than infinity~**Concave** (diverging) lens of suitable negative power
+**Hypermetropia** (far-sightedness)~Nearby objects appear blurry (cannot read a book without holding it at arm's length)~Eyeball too short / lens too weak — image forms **behind** the retina; near point farther than 25 cm~**Convex** (converging) lens of suitable positive power
+**Presbyopia**~Age-related inability to focus on close objects, starts after about age 40~Ciliary muscles weaken, lens loses flexibility (power of accommodation falls)~Reading glasses; **bifocal** lenses (upper concave for distance + lower convex for reading)
+**Astigmatism**~Blurry or distorted vision at all distances; lights at night seen with halos or streaks~Unevenly curved cornea (different curvature in different planes)~**Cylindrical** lens
+IMGS L04_p4_0 | Myopia: image before the retina — corrected with a concave lens;;L04_p4_1 | Hypermetropia: image behind the retina — corrected with a convex lens
+IMGS L04_p4_2 | Hypermetropic eye — near point and correction with a convex lens;;L04_p4_3 | Astigmatism — corrected with a cylindrical lens
+ADD Cataract & colour blindness (frequently asked, not in the lecture) :: **Cataract** — the eye lens becomes cloudy/opaque (often with age); treated by surgically replacing the lens with an artificial intra-ocular lens. **Colour blindness** — genetic (X-linked, far commoner in males) deficiency of certain cones, usually red–green; it cannot be corrected by lenses. **Night blindness** — deficiency of vitamin A (rod pigment rhodopsin).

@@ -1,0 +1,71 @@
+UNIT 9 | Kinematics — Motion in a Straight Line | Lecture 11 (Kinematics) pp. 2–4; Lecture 12 p. 2 (graphs) and pp. 2–3 (types of motion)
+PYQ Scalar vs vector: pressure is a scalar (65th Q113), speed is not a vector (67th Q67); Galileo was the first to define speed (67th Q69). The 71st paper turned kinematics numerical: s = ½at² gives a = 2 m/s² for a truck covering 400 m in 20 s from rest (71st Q122, continued in Unit 10). Priority C alone, A when combined with Unit 10.
+
+H2 Kinematics — basic ideas
+B **Kinematics** is the branch of classical mechanics that describes the motion of points, objects and systems using displacement, velocity and acceleration, **without considering the forces** causing the motion (dynamics does that).
+B **Rest and motion**: an object is at rest if its position does not change with time relative to its surroundings; otherwise it is in motion. Rest and motion are **relative** terms — they depend entirely on the chosen **frame of reference** (a passenger is at rest relative to the train, in motion relative to the platform).
+NOTE Lecture 11 states the definition of kinematics twice and the distance/displacement and speed/velocity definitions twice each (p. 2). Each is kept once below, with the comparison table.
+
+H2 Distance and displacement
+B **Distance** — the actual path length covered by an object; a **scalar**.
+B **Displacement** — the change in position: the shortest (straight-line) length from the initial to the final position, with direction; a **vector**.
+IMGS L11_p2_0 | Distance (8 km along the road) vs displacement (2 km straight from A to B);;L11_p2_1 | Speed is measured along the actual path; velocity along the displacement
+TBLW 50,50
+TBL Distance~Displacement
+Total length covered between the initial and final points~Shortest length between the initial and final points
+Has only magnitude → **scalar** (e.g. "a person goes 10 m")~Has magnitude as well as direction → **vector** (e.g. "Mohan goes 10 m towards east")
+Always **positive**~Can be positive, negative or **zero** (a round trip has zero displacement)
+Distance = speed × time~Displacement = velocity × time
+Distance ≥ |displacement|; equal only for straight-line motion without reversal~Magnitude of displacement ≤ distance
+
+H2 Speed and velocity
+B **Speed** — rate of change of distance; a scalar; SI unit m/s (1 km/h = 5/18 m/s; 1 m/s = 3.6 km/h).
+B **Velocity** — rate of change of displacement; specifies magnitude *and* direction; a vector. A change in **either** speed **or** direction changes the velocity.
+B **Uniform speed**: equal distances in equal intervals of time; **non-uniform speed**: unequal distances in equal intervals.
+H3 Uniform vs non-uniform velocity
+B **Uniform velocity** — both speed and direction remain unchanged: equal displacements in equal intervals of time in a fixed direction; acceleration is zero. Example: a car moving on a straight road at a constant 60 km/h towards east. Rare in real life, because even a slight change in direction or speed makes velocity non-uniform.
+B **Non-uniform velocity** — velocity changes with time, due to a change in speed, in direction, or both; unequal displacements in equal intervals of time; acceleration is present. Examples: a car in traffic (changing speed); a body moving on a circular path at constant speed (direction changing).
+IMG L11_p3_0 | Uniform velocity (flat v–t graph) vs non-uniform velocity | 44
+H3 Average speed
+B **Average speed** = total distance ÷ total time; **average velocity** = total displacement ÷ total time.
+B **Case I** — a particle travels the first half *distance* with speed v_{1} and the second half with speed v_{2}:
+EQ v_{av} = (s + s)/(t_{1} + t_{2}) = 2s / (s/v_{1} + s/v_{2}) = 2 v_{1} v_{2} / (v_{1} + v_{2})      (harmonic mean of the two speeds)
+B **Case II** — a particle travels with speed v_{1} for the first half *time* and v_{2} for the second half time: s_{1} = v_{1}t, s_{2} = v_{2}t; total distance = (v_{1} + v_{2})t; total time = 2t:
+EQ v_{av} = (v_{1} + v_{2}) t / 2t = (v_{1} + v_{2}) / 2      (arithmetic mean of the two speeds)
+IMGS L11_p4_0 | Case I — equal distances s at v₁ and v₂;;L11_p4_1 | Case II — equal times t at v₁ and v₂
+PYQ 67th Q69: the first person to define speed → **Galileo** (distance per unit time). 67th Q67: not a vector → **speed** (torque, displacement, velocity are vectors).
+ADD Scalars vs vectors — the list BPSC draws its options from :: **Scalars**: distance, speed, mass, time, temperature, work, energy, power, pressure, density, charge, electric potential, current (treated as scalar), frequency, volume. **Vectors**: displacement, velocity, acceleration, force, weight, momentum, impulse, torque, angular velocity, electric field, magnetic field, gravitational field, area (as a directed quantity). Current has direction but does not add by the parallelogram law, so it is a scalar.
+
+H2 Acceleration
+B **Acceleration** = rate of change of velocity (a vector), unit m/s²; negative acceleration (slowing down) is **retardation/deceleration**.
+B **Uniform acceleration** — velocity changes by **equal amounts in equal intervals of time**; acceleration is constant, the object gains or loses velocity at a steady rate. Example: a freely falling body near the Earth's surface — acceleration due to gravity **g ≈ 9.8 m/s²** (ignoring air resistance). The standard equations of motion apply.
+B **Non-uniform acceleration** — velocity changes by unequal amounts in equal intervals; acceleration varies in magnitude, direction or both. Examples: a car in city traffic (accelerating and decelerating), a body on a circular path (direction of velocity changes continuously).
+IMG L11_p3_1 | Uniform acceleration (flat a–t graph) vs non-uniform acceleration | 44
+ADD Acceleration facts that trip candidates (not in source) :: A body can have zero velocity and non-zero acceleration (a ball at the top of its flight — v = 0, a = g downward). Uniform circular motion has constant speed but non-zero (centripetal) acceleration. A body moving at constant velocity has zero acceleration and zero net force. Acceleration is in the direction of the *change* of velocity, not necessarily of the velocity itself.
+
+H2 Equations of motion (uniform acceleration)
+P For an object moving with constant acceleration, the following relate initial velocity u, final velocity v, acceleration a, displacement s and time t:
+EQ v = u + a t          s = u t + ½ a t²          v² = u² + 2 a s          Displacement in the n^{th} second:  S_{n} = u + (a/2)(2n – 1)
+IMG L11_p3_equations_of_motion | The four equations as printed in Lecture 11 | 44
+ADD Motion under gravity — the special case BPSC actually sets (not in the lecture) :: Replace a by g = 9.8 m/s² (≈ 10 for quick sums), taking upward as negative. Body dropped from height h: v = √(2gh), t = √(2h/g); distances in successive seconds are in the ratio 1 : 3 : 5 : 7 (Galileo's odd-number rule). Body thrown up with u: maximum height u²/2g, time to top u/g, total time of flight 2u/g, and it returns with the same speed u. **All bodies fall with the same g irrespective of mass** in vacuum (a feather and a coin dropped together on the Moon land together — 69th Q21, Unit 11). Projectile: range R = u² sin 2θ / g is maximum at **45°**; the same range is obtained for θ and 90° – θ; the horizontal and vertical motions are independent.
+ADD Worked sums in the 71st-BPSC style :: (1) Truck from rest covers 400 m in 20 s: s = ½at² ⇒ a = 2 × 400/400 = **2 m/s²** (then F = ma, Unit 10). (2) A car at 20 m/s brakes uniformly to rest in 50 m: v² = u² + 2as ⇒ a = –400/100 = –4 m/s²; time = 5 s. (3) Stone dropped from a 45 m tower: t = √(2 × 45/10) = 3 s, hits at 30 m/s.
+
+H2 Graphical analysis of motion (Lecture 12 p. 2)
+H3 Position–time (s–t) graph
+B The **slope** of the graph gives the **velocity**; a straight line indicates constant velocity (a horizontal line = rest); a curve of increasing slope = acceleration.
+IMGS L12_p2_0 | Displacement–time graph: slope Δx/Δt = velocity (jet-car example);;L12_p2_1 | Straight-line s–t graph → constant velocity (x = x₀ + vt)
+H3 Velocity–time (v–t) graph
+B The **slope** gives the **acceleration**; the **area under the graph** gives the **displacement**; a horizontal line indicates constant velocity (zero acceleration); a straight sloping line = uniform acceleration.
+H3 Acceleration–time (a–t) graph
+B The **area under the graph** gives the **change in velocity**.
+IMGS L12_p2_2 | Velocity–time graph (trapezium): area = displacement;;L12_p2_3 | Acceleration–time graph: area = change in velocity
+IMG L12_p2_4 | Shapes of s–t, v–t and a–t graphs for rest, constant velocity, constant acceleration and constant deceleration | 48
+
+H2 Types of motion (Lecture 12 pp. 2–3)
+IMG L12_p2_5 | Rectilinear, circular, rotational and periodic motion | 50
+B **(1) Translational motion** — all points of the body move through the same displacement in the same time. Two types: **(i) Rectilinear** — motion along a straight line (a person walking straight); **(ii) Curvilinear/circular** — motion along a curved or circular path.
+B **(2) Rotational motion** — a body spins about an axis passing through it, e.g. rotation of the Earth on its own axis, a spinning top, a wheel (Fig. shows v = rω).
+B **(3) Periodic motion** — motion that repeats itself at fixed intervals of time, e.g. beating of the heart, the Earth's revolution around the Sun, a clock's hands.
+B **(4) Oscillatory / simple harmonic motion (SHM)** — a to-and-fro repeated motion about a mean position, e.g. a simple pendulum, a loaded spring, a swing. SHM is a special periodic motion in which the restoring force ∝ displacement.
+IMGS L12_p3_2 | Circular motion — position vector r and tangential velocity v; inset: ω, a and θ (Lecture 12 p. 3);;L12_p3_0 | Rotational motion of a car wheel — v = rω;;L12_p3_1 | Simple pendulum — restoring component mg sin θ
+ADD Simple pendulum facts (not in the lecture text) :: Time period T = 2π√(l/g) — independent of the mass and (for small angles) of the amplitude; l is measured to the centre of the bob. A **seconds pendulum** has T = 2 s (l ≈ 99.4 cm ≈ 1 m). T increases at higher altitude / deeper mines / at the equator (g smaller) and in a lift accelerating downward; it is infinite in a freely falling lift or an orbiting satellite (g_{eff} = 0). Frequency of SHM of a spring: f = (1/2π)√(k/m).
