@@ -1,0 +1,1735 @@
+{
+  "subject": "Bihar Special",
+  "description": "Deduplicated Eduteria PYQ questions (not already present in Ghatnachakra bihar_special.json), converted to standard 4-option MCQ format. Outdated/currency-sensitive and internally-repeated questions removed.",
+  "total_questions": 108,
+  "questions": [
+    {
+      "id": "BH-EDU-001",
+      "q": "A world-famous painting art form is found in which district of Bihar?",
+      "options": {
+        "A": "Gaya",
+        "B": "Patna",
+        "C": "Muzaffarpur",
+        "D": "Madhubani"
+      },
+      "answer": "D",
+      "answer_text": "Madhubani",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC (Re) Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-002",
+      "q": "Which of the following Sufi Silsilah was founded in Bihar?",
+      "options": {
+        "A": "Qadiriyya",
+        "B": "Suhrawardi",
+        "C": "Firdousia",
+        "D": "Chishti"
+      },
+      "answer": "C",
+      "answer_text": "Firdousia",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC (Re) Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-003",
+      "q": "The book critical of British policies, 'Gharib Hindustan', which was banned in Bihar in 1930 by the British, was written by whom?",
+      "options": {
+        "A": "Mazharul Haq",
+        "B": "Dr. Rajendra Prasad",
+        "C": "Sachchidanand Sinha",
+        "D": "Mohammad Wali Hasan"
+      },
+      "answer": "D",
+      "answer_text": "Mohammad Wali Hasan",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-004",
+      "q": "The first Hindi daily newspaper to be published in Bihar was:",
+      "options": {
+        "A": "Bihari",
+        "B": "Searchlight",
+        "C": "Sarwa Hitaishi",
+        "D": "Desh"
+      },
+      "answer": "C",
+      "answer_text": "Sarwa Hitaishi",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-005",
+      "q": "The Sikh pilgrimage site 'Takhat Sri Harimandir Ji Patna Sahib', considered the second holiest Takhat, is located at:",
+      "options": {
+        "A": "Amritsar",
+        "B": "Anandpur Sahib",
+        "C": "Nanded",
+        "D": "Patna"
+      },
+      "answer": "D",
+      "answer_text": "Patna",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-006",
+      "q": "When did the new province of Bihar come into force during British rule?",
+      "options": {
+        "A": "March 1912",
+        "B": "April 1911",
+        "C": "April 1936",
+        "D": "April 1912"
+      },
+      "answer": "D",
+      "answer_text": "April 1912",
+      "exam": "BPSC",
+      "exam_label": "70th BPSC Preliminary Exam",
+      "year": "70th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-007",
+      "q": "The Maithili language began to develop during the reign of which of the following?",
+      "options": {
+        "A": "Gupta dynasty",
+        "B": "Pala dynasty",
+        "C": "Karnat dynasty",
+        "D": "Mughal dynasty"
+      },
+      "answer": "C",
+      "answer_text": "Karnat dynasty",
+      "exam": "BPSC",
+      "exam_label": "69th BPSC Preliminary Exam",
+      "year": "69th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-008",
+      "q": "Consider the following statements regarding the Vikramshila University in Bihar:\n   1. It was located in the present-day Banka district.\n   2. It was established by King Gopala I of the Pala dynasty.\n   3. The Vajrayan sect of Buddhism flourished here.\n   4. Other subjects like Astronomy, Logic, Law, Grammar and Philosophy were also taught here.\n   Which of the above statements are incorrect?",
+      "options": {
+        "A": "2 and 3",
+        "B": "3 and 4",
+        "C": "1 and 2",
+        "D": "1 and 3"
+      },
+      "answer": "C",
+      "answer_text": "1 and 2",
+      "exam": "BPSC",
+      "exam_label": "69th BPSC Preliminary Exam",
+      "year": "69th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-009",
+      "q": "Which of the following National Parks/Wildlife Sanctuaries are in Bihar?\n   1. Valmiki National Park\n   2. Dudhwa National Park\n   3. Gajner Wildlife Sanctuary\n   4. Bhim Bandh Wildlife Sanctuary\n   Select the correct answer using the code given below.",
+      "options": {
+        "A": "1 and 4",
+        "B": "2 and 4",
+        "C": "1 and 3",
+        "D": "1, 3 and 4"
+      },
+      "answer": "A",
+      "answer_text": "1 and 4",
+      "exam": "BPSC",
+      "exam_label": "69th BPSC Preliminary Exam",
+      "year": "69th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-010",
+      "q": "Bihar's geographical structure consists of rock systems. Match the rock systems with their descriptions:\n   (a) Dharwar Rock System — 1. Created by the rapid deposition of alluvium by Himalayan and Peninsular rivers.\n   (b) Vindhyan rock system — 2. Can be found in West Champaran district\n   (c) Quaternary rock system — 3. Part of the oldest Archaean rock system\n   (d) Tertiary Rock System — 4. Sandstone, limestone, dolomite, quartzite and shale are the main components of this rock system\n   Select the correct answer using the code given below.",
+      "options": {
+        "A": "4 3 2 1",
+        "B": "2 1 4 3",
+        "C": "3 4 1 2",
+        "D": "1 2 3 4"
+      },
+      "answer": "C",
+      "answer_text": "3 4 1 2",
+      "exam": "BPSC",
+      "exam_label": "69th BPSC Preliminary Exam",
+      "year": "69th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-011",
+      "q": "The Dutch East India Company established its factory at Patna in which year?",
+      "options": {
+        "A": "1620",
+        "B": "1651",
+        "C": "1608",
+        "D": "1632"
+      },
+      "answer": "D",
+      "answer_text": "1632",
+      "exam": "BPSC",
+      "exam_label": "69th BPSC Preliminary Exam",
+      "year": "69th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-012",
+      "q": "A Panchayat Samiti operates a Panchayati Raj structure at which level?",
+      "options": {
+        "A": "State level body",
+        "B": "District level body",
+        "C": "Village level body",
+        "D": "Block level body"
+      },
+      "answer": "D",
+      "answer_text": "Block level body",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-013",
+      "q": "Who proposed to Humayun that if he was allowed to take over Bengal, he would surrender Bihar and pay an annual tribute of 10 lakh dinars?",
+      "options": {
+        "A": "Qutb Khan",
+        "B": "Mahmud Shah",
+        "C": "Sher Khan",
+        "D": "Jalal Khan"
+      },
+      "answer": "C",
+      "answer_text": "Sher Khan",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-014",
+      "q": "Vikramshila University was established by whom?",
+      "options": {
+        "A": "Devapala",
+        "B": "Emperor Ashoka",
+        "C": "Gopala I",
+        "D": "Dharmapala"
+      },
+      "answer": "D",
+      "answer_text": "Dharmapala",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-015",
+      "q": "What was the region south of the Ganges called in ancient times?",
+      "options": {
+        "A": "Magadha",
+        "B": "Anga",
+        "C": "Mithila",
+        "D": "Vaishali"
+      },
+      "answer": "A",
+      "answer_text": "Magadha",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-016",
+      "q": "Which of the following was awarded the Geographical Indication (GI) tag in August 2022?",
+      "options": {
+        "A": "Zardalu Mango",
+        "B": "Mithila Makhana",
+        "C": "Katarni Rice",
+        "D": "Bhagalpur Silk"
+      },
+      "answer": "B",
+      "answer_text": "Mithila Makhana",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-017",
+      "q": "On November 28, 2022, at which place was the Ganga Water Supply Scheme inaugurated by Chief Minister Nitish Kumar?",
+      "options": {
+        "A": "Rajgir",
+        "B": "Gaya",
+        "C": "Nawada",
+        "D": "Bodh Gaya"
+      },
+      "answer": "D",
+      "answer_text": "Bodh Gaya",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-018",
+      "q": "The holy river Falgu, flowing in Bihar, is formed by the confluence of which of the following rivers?",
+      "options": {
+        "A": "Son and Punpun",
+        "B": "Gandak and Ghaghara",
+        "C": "Mohana and Lilajan River",
+        "D": "Kosi and Bagmati"
+      },
+      "answer": "C",
+      "answer_text": "Mohana and Lilajan River",
+      "exam": "BPSC",
+      "exam_label": "68th BPSC Preliminary Exam",
+      "year": "68th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-019",
+      "q": "Who is NOT associated with the Champaran Satyagraha of 1917?",
+      "options": {
+        "A": "J. B. Kripalani",
+        "B": "Mazharul Haq",
+        "C": "Rajkumar Shukla",
+        "D": "Ram Manohar Lohia"
+      },
+      "answer": "D",
+      "answer_text": "Ram Manohar Lohia",
+      "exam": "BPSC",
+      "exam_label": "67th BPSC (Cancelled) Preliminary Exam",
+      "year": "67th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-020",
+      "q": "Who attained enlightenment at Bodh Gaya?",
+      "options": {
+        "A": "Gautam Buddha",
+        "B": "Mahavira",
+        "C": "Adi Shankaracharya",
+        "D": "Guru Nanak"
+      },
+      "answer": "A",
+      "answer_text": "Gautam Buddha",
+      "exam": "BPSC",
+      "exam_label": "67th BPSC (Cancelled) Preliminary Exam",
+      "year": "67th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-021",
+      "q": "Where is Sher Shah's tomb located?",
+      "options": {
+        "A": "Sasaram",
+        "B": "Patna",
+        "C": "Gaya",
+        "D": "Rohtas"
+      },
+      "answer": "A",
+      "answer_text": "Sasaram",
+      "exam": "BPSC",
+      "exam_label": "67th BPSC (Cancelled) Preliminary Exam",
+      "year": "67th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-022",
+      "q": "Who drew Gandhiji's attention towards the condition of indigo farmers in Champaran?",
+      "options": {
+        "A": "Rajkumar Shukla",
+        "B": "J. B. Kripalani",
+        "C": "Braj Kishore Prasad",
+        "D": "Mazharul Haq"
+      },
+      "answer": "A",
+      "answer_text": "Rajkumar Shukla",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-023",
+      "q": "Where was the first capital of the ancient Mahajanapada of Magadha?",
+      "options": {
+        "A": "Pataliputra",
+        "B": "Champa",
+        "C": "Vaishali",
+        "D": "Rajgir/Girivraj"
+      },
+      "answer": "D",
+      "answer_text": "Rajgir/Girivraj",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-024",
+      "q": "Which of the following was Gandhiji's first Satyagraha movement in India, in which he used civil disobedience?",
+      "options": {
+        "A": "Ahmedabad Mill Strike",
+        "B": "Bardoli",
+        "C": "Champaran",
+        "D": "Kheda"
+      },
+      "answer": "C",
+      "answer_text": "Champaran",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-025",
+      "q": "Dr. Rajendra Prasad, the first President of India, belonged to which state?",
+      "options": {
+        "A": "West Bengal",
+        "B": "Bihar",
+        "C": "Uttar Pradesh",
+        "D": "Odisha"
+      },
+      "answer": "B",
+      "answer_text": "Bihar",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC (Re) Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-026",
+      "q": "For which foodgrain's production did Bihar receive the 'Krishi Karman Award', 2017-18?",
+      "options": {
+        "A": "Rice",
+        "B": "Sugarcane",
+        "C": "Wheat",
+        "D": "Maize"
+      },
+      "answer": "C",
+      "answer_text": "Wheat",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC (Re) Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-027",
+      "q": "In 1904, the Golden League was established at Deoghar to boycott the British and promote the Swadeshi Movement. At that time, Deoghar was part of which state?",
+      "options": {
+        "A": "Uttar Pradesh",
+        "B": "Odisha",
+        "C": "Bengal",
+        "D": "Bihar (now Jharkhand)"
+      },
+      "answer": "D",
+      "answer_text": "Bihar (now Jharkhand)",
+      "exam": "BPSC",
+      "exam_label": "66th BPSC (Re) Preliminary Exam",
+      "year": "66th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-028",
+      "q": "In which year did Hon'ble Justice Shri Rakesh Kumar take over as a permanent judge in Patna High Court?",
+      "options": {
+        "A": "2009",
+        "B": "2015",
+        "C": "2011",
+        "D": "2013"
+      },
+      "answer": "C",
+      "answer_text": "2011",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-029",
+      "q": "In the year 2019, R. K. Singh won the Lok Sabha seat from which constituency of Bihar?",
+      "options": {
+        "A": "Patna Sahib",
+        "B": "Buxar",
+        "C": "Arrah",
+        "D": "Sasaram"
+      },
+      "answer": "C",
+      "answer_text": "Arrah",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-030",
+      "q": "Which of the following is the most recent formation in the geological history of Bihar?",
+      "options": {
+        "A": "Plains of Bihar",
+        "B": "Chotanagpur Plateau",
+        "C": "Kaimur Range",
+        "D": "Someshwar Hills"
+      },
+      "answer": "A",
+      "answer_text": "Plains of Bihar",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-031",
+      "q": "The old alluvial soil deposits are found in which of the following areas of Bihar?",
+      "options": {
+        "A": "Muzaffarpur and Darbhanga",
+        "B": "Patna and Gaya",
+        "C": "Champaran and Saran",
+        "D": "Purnia and Katihar"
+      },
+      "answer": "B",
+      "answer_text": "Patna and Gaya",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-032",
+      "q": "Who was the president of the first Jain Sangeeti (council) convened at Pataliputra?",
+      "options": {
+        "A": "Sthulabhadra",
+        "B": "Devardhi Kshamashramana",
+        "C": "Mahavira",
+        "D": "Bhadrabahu"
+      },
+      "answer": "A",
+      "answer_text": "Sthulabhadra",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-033",
+      "q": "Which ruler shifted his capital to Pataliputra?",
+      "options": {
+        "A": "Udayan",
+        "B": "Ajatashatru",
+        "C": "Bimbisara",
+        "D": "Kalashoka"
+      },
+      "answer": "A",
+      "answer_text": "Udayan",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-034",
+      "q": "Who raised the question of the indigo growers of Bihar at the Lucknow session of the Indian National Congress in 1916?",
+      "options": {
+        "A": "Mazharul Haq",
+        "B": "Mahatma Gandhi",
+        "C": "Rajkumar Shukla",
+        "D": "Braj Kishore Prasad"
+      },
+      "answer": "C",
+      "answer_text": "Rajkumar Shukla",
+      "exam": "BPSC",
+      "exam_label": "65th BPSC (Disabled Quota) Preliminary Exam",
+      "year": "65th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-035",
+      "q": "After the Mahaparinirvana of Lord Buddha, the first Buddhist Council was held in:",
+      "options": {
+        "A": "Vaishali",
+        "B": "Pataliputra",
+        "C": "Rajgir",
+        "D": "Kashmir"
+      },
+      "answer": "C",
+      "answer_text": "Rajgir",
+      "exam": "BPSC",
+      "exam_label": "64th BPSC Preliminary Exam",
+      "year": "64th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-036",
+      "q": "When did Bihar become a separate/independent state in India?",
+      "options": {
+        "A": "1935",
+        "B": "1936",
+        "C": "1950",
+        "D": "1912"
+      },
+      "answer": "D",
+      "answer_text": "1912",
+      "exam": "BPSC",
+      "exam_label": "64th BPSC Preliminary Exam",
+      "year": "64th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-037",
+      "q": "What was the 'Indigo Rebellion' about?",
+      "options": {
+        "A": "The peasants demanded higher wages for indigo cultivation",
+        "B": "The peasants did not want to cultivate indigo but were being forced to do so at an unreasonable price",
+        "C": "The peasants were banned from owning any indigo land",
+        "D": "The peasants revolted against high land revenue under the Permanent Settlement"
+      },
+      "answer": "B",
+      "answer_text": "The peasants did not want to cultivate indigo but were being forced to do so at an unreasonable price",
+      "exam": "BPSC",
+      "exam_label": "64th BPSC Preliminary Exam",
+      "year": "64th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-038",
+      "q": "What kind of industries are expected to have the most possibility of growth in Bihar?",
+      "options": {
+        "A": "Agriculture based industry",
+        "B": "IT industries",
+        "C": "Heavy industries",
+        "D": "Mining based industries"
+      },
+      "answer": "A",
+      "answer_text": "Agriculture based industry",
+      "exam": "BPSC",
+      "exam_label": "64th BPSC Preliminary Exam",
+      "year": "64th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-039",
+      "q": "Which district of Bihar produces the most jute?",
+      "options": {
+        "A": "Katihar",
+        "B": "Purnia",
+        "C": "Araria",
+        "D": "Kishanganj"
+      },
+      "answer": "B",
+      "answer_text": "Purnia",
+      "exam": "BPSC",
+      "exam_label": "63rd BPSC Preliminary Exam",
+      "year": "63rd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-040",
+      "q": "Where is the place of salvation (Nirvana Bhoomi) of Mahavir ji, the founder of Jainism, located?",
+      "options": {
+        "A": "Bodh Gaya",
+        "B": "Vaishali",
+        "C": "Rajgir",
+        "D": "Pawapuri"
+      },
+      "answer": "D",
+      "answer_text": "Pawapuri",
+      "exam": "BPSC",
+      "exam_label": "63rd BPSC Preliminary Exam",
+      "year": "63rd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-041",
+      "q": "Who formed the Kisan Sabha at Munger in 1922-23?",
+      "options": {
+        "A": "Jayaprakash Narayan and Rahul Sankrityayan",
+        "B": "Swami Sahajanand and Karyanand Sharma",
+        "C": "Shri Krishna Singh and Mohammad Zubair",
+        "D": "Rajendra Prasad and Braj Kishore Prasad"
+      },
+      "answer": "C",
+      "answer_text": "Shri Krishna Singh and Mohammad Zubair",
+      "exam": "BPSC",
+      "exam_label": "63rd BPSC Preliminary Exam",
+      "year": "63rd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-042",
+      "q": "Who led the first Indian cabinet (ministry) formed in Bihar in 1937?",
+      "options": {
+        "A": "Anugrah Narayan Sinha",
+        "B": "Shri Krishna Sinha",
+        "C": "Muhammad Yunus",
+        "D": "Syed Mahmud"
+      },
+      "answer": "C",
+      "answer_text": "Muhammad Yunus",
+      "exam": "BPSC",
+      "exam_label": "63rd BPSC Preliminary Exam",
+      "year": "63rd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-043",
+      "q": "The Partition of Bengal was announced on:",
+      "options": {
+        "A": "1 January, 1906",
+        "B": "16 October, 1905",
+        "C": "15 August, 1905",
+        "D": "19 July, 1905"
+      },
+      "answer": "D",
+      "answer_text": "19 July, 1905",
+      "exam": "BPSC",
+      "exam_label": "63rd BPSC Preliminary Exam",
+      "year": "63rd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-044",
+      "q": "JEEVIKA is an initiative of the Bihar government. It is related to:",
+      "options": {
+        "A": "Health insurance",
+        "B": "Employment generation",
+        "C": "Girl child education",
+        "D": "Rural road construction"
+      },
+      "answer": "B",
+      "answer_text": "Employment generation",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-045",
+      "q": "Birsa Munda was caught (arrested) while sleeping on:",
+      "options": {
+        "A": "3 February, 1899",
+        "B": "3 February, 1900",
+        "C": "3 February, 1901",
+        "D": "3 March, 1900"
+      },
+      "answer": "B",
+      "answer_text": "3 February, 1900",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-046",
+      "q": "'Odantapuri' education centre was located in which of the following states?",
+      "options": {
+        "A": "Uttar Pradesh",
+        "B": "Bihar",
+        "C": "Nepal",
+        "D": "Bengal"
+      },
+      "answer": "B",
+      "answer_text": "Bihar",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-047",
+      "q": "Who was the founder of the Karnat dynasty?",
+      "options": {
+        "A": "Bhaskaradeva",
+        "B": "Harisingh",
+        "C": "Gangeyadeva",
+        "D": "Nanyadev"
+      },
+      "answer": "D",
+      "answer_text": "Nanyadev",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-048",
+      "q": "Who was the last ruler of the Karnat dynasty?",
+      "options": {
+        "A": "Nanyadev",
+        "B": "Gangadeva",
+        "C": "Harisingh",
+        "D": "Narasimhadeva"
+      },
+      "answer": "C",
+      "answer_text": "Harisingh",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-049",
+      "q": "The writer of 'Udavant Prakash' is:",
+      "options": {
+        "A": "Jyotirishwar",
+        "B": "Mauli Kavi",
+        "C": "Chandeshwar",
+        "D": "Vidyapati"
+      },
+      "answer": "B",
+      "answer_text": "Mauli Kavi",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-050",
+      "q": "The Tel river is a tributary of which of the following rivers?",
+      "options": {
+        "A": "Ganga",
+        "B": "Son",
+        "C": "Damodar",
+        "D": "Mahanadi"
+      },
+      "answer": "D",
+      "answer_text": "Mahanadi",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-051",
+      "q": "Where is Bharat Wagon and Engineering Ltd. located among the following places?",
+      "options": {
+        "A": "Muzaffarpur",
+        "B": "Barauni",
+        "C": "Patna",
+        "D": "Mokama"
+      },
+      "answer": "D",
+      "answer_text": "Mokama",
+      "exam": "BPSC",
+      "exam_label": "60th-62nd BPSC Preliminary Exam",
+      "year": "60th-62nd",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-052",
+      "q": "Which Sikh Guru was born in Patna?",
+      "options": {
+        "A": "Guru Nanak Dev",
+        "B": "Guru Arjan Dev",
+        "C": "Guru Tegh Bahadur",
+        "D": "Guru Govind Singh"
+      },
+      "answer": "D",
+      "answer_text": "Guru Govind Singh",
+      "exam": "BPSC",
+      "exam_label": "56th-59th BPSC Preliminary Exam",
+      "year": "56th-59th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-053",
+      "q": "Who among the following was/were the peasant leader(s) of Bihar?",
+      "options": {
+        "A": "Swami Vidyanand and Swami Sahajanand",
+        "B": "Rahul Sankrityayan and Jayaprakash Narayan",
+        "C": "Karyanand Sharma and Yadunandan Sharma",
+        "D": "Rajkumar Shukla and Mazharul Haq"
+      },
+      "answer": "A",
+      "answer_text": "Swami Vidyanand and Swami Sahajanand",
+      "exam": "BPSC",
+      "exam_label": "56th-59th BPSC Preliminary Exam",
+      "year": "56th-59th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-054",
+      "q": "Nivaranchandra Dasgupta, a revolutionary associated with Bihar, was:",
+      "options": {
+        "A": "From Purulia",
+        "B": "From Bankura",
+        "C": "From Birbhum",
+        "D": "From Midnapur"
+      },
+      "answer": "A",
+      "answer_text": "From Purulia",
+      "exam": "BPSC",
+      "exam_label": "53rd-55th BPSC Preliminary Exam",
+      "year": "53rd-55th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-055",
+      "q": "Which state governments had made 50 percent reservation for women in local bodies by 2010?",
+      "options": {
+        "A": "Bihar, Kerala, Karnataka",
+        "B": "Bihar, Madhya Pradesh, Himachal Pradesh",
+        "C": "Bihar, Odisha, Chhattisgarh",
+        "D": "Bihar, Uttar Pradesh, Rajasthan"
+      },
+      "answer": "B",
+      "answer_text": "Bihar, Madhya Pradesh, Himachal Pradesh",
+      "exam": "BPSC",
+      "exam_label": "53rd-55th BPSC Preliminary Exam",
+      "year": "53rd-55th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-056",
+      "q": "Name the scheme of Bihar which focuses on creating high-level infrastructural facilities required for setting up 'export-oriented units'.",
+      "options": {
+        "A": "Integrated Infrastructure Development (IUD)",
+        "B": "Cluster Development Programme",
+        "C": "Special Economic Zone Scheme",
+        "D": "Export Promotion Industrial Park (EPIP)"
+      },
+      "answer": "A",
+      "answer_text": "Integrated Infrastructure Development (IUD)",
+      "exam": "BPSC",
+      "exam_label": "53rd-55th BPSC Preliminary Exam",
+      "year": "53rd-55th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-057",
+      "q": "The 'Bodhi Tree' in Bodh Gaya belongs to which generation of its lineage?",
+      "options": {
+        "A": "Fifth",
+        "B": "Third",
+        "C": "Fourth",
+        "D": "Sixth"
+      },
+      "answer": "A",
+      "answer_text": "Fifth",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-058",
+      "q": "The world's first republic was established at Vaishali by whom?",
+      "options": {
+        "A": "Mallas",
+        "B": "Vajji Sangh (as a distinct clan)",
+        "C": "Shakya",
+        "D": "Lichchhavi"
+      },
+      "answer": "D",
+      "answer_text": "Lichchhavi",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-059",
+      "q": "Iltutmish appointed his first governor in Bihar as:",
+      "options": {
+        "A": "Tughral Khan",
+        "B": "Bakhtiyar Khilji",
+        "C": "Malik Kafur",
+        "D": "Malik-Jani"
+      },
+      "answer": "D",
+      "answer_text": "Malik-Jani",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-060",
+      "q": "When did Humayun attack Chunar fort for the first time?",
+      "options": {
+        "A": "1540",
+        "B": "1532",
+        "C": "1535",
+        "D": "1529"
+      },
+      "answer": "B",
+      "answer_text": "1532",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-061",
+      "q": "In which year did Akbar annex Bengal and Bihar to the Mughal Empire?",
+      "options": {
+        "A": "1556",
+        "B": "1526",
+        "C": "1600",
+        "D": "1576"
+      },
+      "answer": "D",
+      "answer_text": "1576",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-062",
+      "q": "When did Emperor Shah Alam II grant the Diwani of Bengal, Bihar and Odisha to the East India Company?",
+      "options": {
+        "A": "22 August 1765",
+        "B": "16 August 1765",
+        "C": "12 August 1765",
+        "D": "23 June 1757"
+      },
+      "answer": "C",
+      "answer_text": "12 August 1765",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-063",
+      "q": "Who was the national leader of the Champaran Indigo Movement?",
+      "options": {
+        "A": "Rajkumar Shukla",
+        "B": "Jawaharlal Nehru",
+        "C": "Mahatma Gandhi",
+        "D": "Dr. Rajendra Prasad"
+      },
+      "answer": "C",
+      "answer_text": "Mahatma Gandhi",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-064",
+      "q": "Jayaprakash Narayan was associated with which party?",
+      "options": {
+        "A": "Socialist Party",
+        "B": "Indian National Congress",
+        "C": "Swaraj Party",
+        "D": "Communist Party of India"
+      },
+      "answer": "A",
+      "answer_text": "Socialist Party",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-065",
+      "q": "The founder of Pataliputra was:",
+      "options": {
+        "A": "Bimbisara",
+        "B": "Udayan",
+        "C": "Chandragupta Maurya",
+        "D": "Ajatashatru"
+      },
+      "answer": "B",
+      "answer_text": "Udayan",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-066",
+      "q": "Which of the following forms of Permanent Settlement (PSM) was prevalent in Bihar?",
+      "options": {
+        "A": "Mahalwari system with village-based settlement",
+        "B": "Ryotwari system with direct settlement with cultivators",
+        "C": "Hereditary right on land was voluntarily implemented for the Zamindars",
+        "D": "Land was nationalized under direct state control"
+      },
+      "answer": "C",
+      "answer_text": "Hereditary right on land was voluntarily implemented for the Zamindars",
+      "exam": "BPSC",
+      "exam_label": "48th-52th BPSC Preliminary Exam",
+      "year": "48th-52th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-067",
+      "q": "According to the 2001 census, which of the following groups of districts of Bihar shows the correct descending order of population density?",
+      "options": {
+        "A": "Patna, Nalanda, Vaishali, Begusarai",
+        "B": "Muzaffarpur, Vaishali, Samastipur, Darbhanga",
+        "C": "Darbhanga, Saran, Siwan, Samastipur",
+        "D": "Katihar, Purnia, Kishanganj, Araria"
+      },
+      "answer": "C",
+      "answer_text": "Darbhanga, Saran, Siwan, Samastipur",
+      "exam": "BPSC",
+      "exam_label": "47th BPSC Preliminary Exam",
+      "year": "47th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-068",
+      "q": "Which state of India produces the most mica?",
+      "options": {
+        "A": "Andhra Pradesh",
+        "B": "Rajasthan",
+        "C": "Jharkhand",
+        "D": "Bihar"
+      },
+      "answer": "D",
+      "answer_text": "Bihar",
+      "exam": "BPSC",
+      "exam_label": "47th BPSC Preliminary Exam",
+      "year": "47th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-069",
+      "q": "Which region of India was famous for opium production during British rule?",
+      "options": {
+        "A": "Bihar",
+        "B": "Awadh",
+        "C": "Bengal",
+        "D": "Malwa"
+      },
+      "answer": "A",
+      "answer_text": "Bihar",
+      "exam": "BPSC",
+      "exam_label": "47th BPSC Preliminary Exam",
+      "year": "47th",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-070",
+      "q": "Jharkhand was an integral part of Bihar until which year (before becoming a separate state)?",
+      "options": {
+        "A": "1995",
+        "B": "1999",
+        "C": "2000",
+        "D": "1990"
+      },
+      "answer": "B",
+      "answer_text": "1999",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2022",
+      "year": "2022",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-071",
+      "q": "What is the 'Teenkathiya' system in Bihar?",
+      "options": {
+        "A": "An irrigation system",
+        "B": "A land revenue system",
+        "C": "A Panchayati Raj system",
+        "D": "An agricultural system (under which 3/20th of a farmer's land was kept for indigo cultivation)"
+      },
+      "answer": "D",
+      "answer_text": "An agricultural system (under which 3/20th of a farmer's land was kept for indigo cultivation)",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2022",
+      "year": "2022",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-072",
+      "q": "Who was given the title of 'Loknayak'?",
+      "options": {
+        "A": "Dr. Rajendra Prasad",
+        "B": "Shri Krishna Sinha",
+        "C": "Jayaprakash Narayan",
+        "D": "Anugrah Narayan Sinha"
+      },
+      "answer": "C",
+      "answer_text": "Jayaprakash Narayan",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2022",
+      "year": "2022",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-073",
+      "q": "The 'Saat Nishchay Yojana' campaign was started by the Bihar state government for sustainable development in which year?",
+      "options": {
+        "A": "2010",
+        "B": "2020",
+        "C": "2015",
+        "D": "2005"
+      },
+      "answer": "C",
+      "answer_text": "2015",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2022",
+      "year": "2022",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-074",
+      "q": "Who among the following started the 'Ulgulan' (Great Tumult) movement?",
+      "options": {
+        "A": "Tantya Bhil",
+        "B": "Birsa Munda",
+        "C": "Alluri Sitarama Raju",
+        "D": "Sidhu and Kanhu"
+      },
+      "answer": "B",
+      "answer_text": "Birsa Munda",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2022",
+      "year": "2022",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-075",
+      "q": "Where is the Kapilansh Metal Industry established?",
+      "options": {
+        "A": "Dalmianagar",
+        "B": "Rajpur of Buxar district",
+        "C": "Mokama",
+        "D": "Barauni"
+      },
+      "answer": "B",
+      "answer_text": "Rajpur of Buxar district",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2018",
+      "year": "2018",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-076",
+      "q": "Which officer established the Sudha Cooperative (dairy)?",
+      "options": {
+        "A": "Sushil Kumar Modi",
+        "B": "B. P. Mandal",
+        "C": "Verghese Kurien",
+        "D": "Ram Chandra Sinha"
+      },
+      "answer": "D",
+      "answer_text": "Ram Chandra Sinha",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2018",
+      "year": "2018",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-077",
+      "q": "Followers of Birsa Munda considered him to be an incarnation of whom?",
+      "options": {
+        "A": "Bhagwan",
+        "B": "Marang Buru",
+        "C": "Singhbonga",
+        "D": "Dharti Abba"
+      },
+      "answer": "D",
+      "answer_text": "Dharti Abba",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2018",
+      "year": "2018",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-078",
+      "q": "If indigo farmers wanted exemption from cultivating indigo, what compensation tax did they have to pay?",
+      "options": {
+        "A": "Chowkidari tax",
+        "B": "Abwab",
+        "C": "Nazrana",
+        "D": "Tawan"
+      },
+      "answer": "D",
+      "answer_text": "Tawan",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2018",
+      "year": "2018",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-079",
+      "q": "Dr. Rajendra Prasad, the first President of India, had previously held which post?",
+      "options": {
+        "A": "Chairman of Patna Municipality",
+        "B": "President of Bihar Provincial Congress Committee",
+        "C": "Mayor of Patna",
+        "D": "Advocate General of Bihar"
+      },
+      "answer": "A",
+      "answer_text": "Chairman of Patna Municipality",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2018",
+      "year": "2018",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-080",
+      "q": "Which local leader of Rajgir Pargana of Bihar declared himself 'King' during the 1857 movement?",
+      "options": {
+        "A": "Amar Singh",
+        "B": "Hyder Ali Khan",
+        "C": "Nishar Ali",
+        "D": "Kunwar Singh"
+      },
+      "answer": "B",
+      "answer_text": "Hyder Ali Khan",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-081",
+      "q": "In 1765, by a decree, the King of Britain gave the Diwani of Bengal, Bihar and Odisha to the East India Company for how much money?",
+      "options": {
+        "A": "Thirty lakh rupees",
+        "B": "Twenty six lakh rupees",
+        "C": "Fifteen lakh rupees",
+        "D": "Twenty lakh rupees"
+      },
+      "answer": "B",
+      "answer_text": "Twenty six lakh rupees",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-082",
+      "q": "To increase the solidarity of the Congress, the delegate fee was reduced by how much at the Bankipur (Bihar) session in 1912?",
+      "options": {
+        "A": "From five rupees to one rupee",
+        "B": "From two rupees to one rupee",
+        "C": "From ten rupees to five rupees",
+        "D": "From five rupees to two rupees"
+      },
+      "answer": "A",
+      "answer_text": "From five rupees to one rupee",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-083",
+      "q": "How many seats did Bihar get in the Upper House of the Central Parliament under the Government of India Act, 1935?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "10",
+        "D": "6"
+      },
+      "answer": "A",
+      "answer_text": "8",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-084",
+      "q": "In the 1937 elections, how many Muslims were elected to the Legislative Assembly of Bihar State on the Muslim League ticket?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "20",
+        "D": "15"
+      },
+      "answer": "C",
+      "answer_text": "20",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-085",
+      "q": "According to the Cabinet Mission Plan, in which group was Bihar placed in the grouping of states?",
+      "options": {
+        "A": "Group C",
+        "B": "Group B",
+        "C": "Group I",
+        "D": "Group A"
+      },
+      "answer": "C",
+      "answer_text": "Group I",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-086",
+      "q": "Who among the following has NOT been the Chief Minister of Bihar?",
+      "options": {
+        "A": "Mahamaya Prasad Sinha",
+        "B": "Daroga Prasad Rai",
+        "C": "Ram Vilas Paswan",
+        "D": "Satish Prasad Singh"
+      },
+      "answer": "C",
+      "answer_text": "Ram Vilas Paswan",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-087",
+      "q": "The average annual rainfall of Bihar state is:",
+      "options": {
+        "A": "100 cm",
+        "B": "112 cm",
+        "C": "125 cm",
+        "D": "150 cm"
+      },
+      "answer": "B",
+      "answer_text": "112 cm",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-088",
+      "q": "Which of the following longitude lines passes through Bihar?",
+      "options": {
+        "A": "82°E",
+        "B": "78°E",
+        "C": "90°E",
+        "D": "86°E"
+      },
+      "answer": "D",
+      "answer_text": "86°E",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-089",
+      "q": "The famous folk dance of Bihar is known as:",
+      "options": {
+        "A": "Jhijhiya",
+        "B": "Domkach",
+        "C": "Videshiya",
+        "D": "Jat-Jatin"
+      },
+      "answer": "C",
+      "answer_text": "Videshiya",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-090",
+      "q": "Dr. Rajendra Prasad was awarded the 'Bharat Ratna' in which year?",
+      "options": {
+        "A": "1957",
+        "B": "1962",
+        "C": "1961",
+        "D": "1954"
+      },
+      "answer": "B",
+      "answer_text": "1962",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-091",
+      "q": "A political party named 'Congress for Democracy' was founded in 1976 by:",
+      "options": {
+        "A": "Raj Narain",
+        "B": "Jagjivan Ram",
+        "C": "Chandra Shekhar",
+        "D": "Morarji Desai"
+      },
+      "answer": "B",
+      "answer_text": "Jagjivan Ram",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-092",
+      "q": "The declaration of 'Direct Action Day' by the Muslim League led to a complete strike in Bihar on:",
+      "options": {
+        "A": "20th August, 1946",
+        "B": "14th August, 1947",
+        "C": "15th August, 1946",
+        "D": "16th August, 1946"
+      },
+      "answer": "D",
+      "answer_text": "16th August, 1946",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-093",
+      "q": "When did Jayaprakash Narayan receive the Magsaysay Award for his public service?",
+      "options": {
+        "A": "1958",
+        "B": "1962",
+        "C": "1965",
+        "D": "1970"
+      },
+      "answer": "C",
+      "answer_text": "1965",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-094",
+      "q": "The Jharkhand movement was primarily started for:",
+      "options": {
+        "A": "Social justice",
+        "B": "Linguistic recognition",
+        "C": "Religious freedom",
+        "D": "Separate statehood on ethnic identity alone"
+      },
+      "answer": "A",
+      "answer_text": "Social justice",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 2005",
+      "year": "2005",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-095",
+      "q": "Kesaria (in Bihar) is famous for:",
+      "options": {
+        "A": "Buddhist Stupa",
+        "B": "Mughal Fort",
+        "C": "Jain Tirtha",
+        "D": "Hindu Temple"
+      },
+      "answer": "A",
+      "answer_text": "Buddhist Stupa",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-096",
+      "q": "The Kumhrar site is related to the ancient city of:",
+      "options": {
+        "A": "Rajgir",
+        "B": "Pataliputra",
+        "C": "Vaishali",
+        "D": "Nalanda"
+      },
+      "answer": "B",
+      "answer_text": "Pataliputra",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-097",
+      "q": "In which district is the pilgrimage site of Thawe located?",
+      "options": {
+        "A": "Saran",
+        "B": "Muzaffarpur",
+        "C": "Siwan",
+        "D": "Gopalganj"
+      },
+      "answer": "D",
+      "answer_text": "Gopalganj",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-098",
+      "q": "In 1763, the British factory in Patna was captured by:",
+      "options": {
+        "A": "Nawab Siraj-ud-Daulah",
+        "B": "Nawab Alivardi Khan",
+        "C": "Nawab Shuja-ud-Daulah",
+        "D": "Nawab Mir Qasim"
+      },
+      "answer": "D",
+      "answer_text": "Nawab Mir Qasim",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-099",
+      "q": "In the 13th century, the governor of Bengal, Ghiyasuddin, fought a war with:",
+      "options": {
+        "A": "The king of Nepal",
+        "B": "The king of Magadha",
+        "C": "The king of Tirhut",
+        "D": "The king of Odisha"
+      },
+      "answer": "C",
+      "answer_text": "The king of Tirhut",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-100",
+      "q": "Gandhiji visited Champaran in 1917:",
+      "options": {
+        "A": "On the invitation of the Governor of Bihar",
+        "B": "On the request of Mazharul Haq",
+        "C": "On the request of the Bihar Provincial Congress Committee",
+        "D": "On the request of Rajkumar Shukla"
+      },
+      "answer": "D",
+      "answer_text": "On the request of Rajkumar Shukla",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-101",
+      "q": "The incident of Bihpur in Bihar is related to:",
+      "options": {
+        "A": "Khilafat Movement",
+        "B": "Quit India Movement",
+        "C": "Satyagraha movement",
+        "D": "Non-Cooperation Movement"
+      },
+      "answer": "C",
+      "answer_text": "Satyagraha movement",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-102",
+      "q": "In 1921, Gandhiji inaugurated:",
+      "options": {
+        "A": "Sadaqat Ashram",
+        "B": "Bihar Vidyapeeth in Patna",
+        "C": "Bihar National College",
+        "D": "Patna University"
+      },
+      "answer": "B",
+      "answer_text": "Bihar Vidyapeeth in Patna",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-103",
+      "q": "The Bihar Student Council was organized by:",
+      "options": {
+        "A": "Jayaprakash Narayan",
+        "B": "Rajendra Prasad",
+        "C": "Sachchidanand Sinha",
+        "D": "Anugrah Narayan Sinha"
+      },
+      "answer": "B",
+      "answer_text": "Rajendra Prasad",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-104",
+      "q": "Sadaqat Ashram was established by:",
+      "options": {
+        "A": "Braj Kishore Prasad",
+        "B": "Mazharul Haq",
+        "C": "Anugrah Narayan Sinha",
+        "D": "Rajendra Prasad"
+      },
+      "answer": "B",
+      "answer_text": "Mazharul Haq",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-105",
+      "q": "Swami Sahajanand was the leader of:",
+      "options": {
+        "A": "Students",
+        "B": "Tribals",
+        "C": "Industrial workers",
+        "D": "Farmers"
+      },
+      "answer": "D",
+      "answer_text": "Farmers",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-106",
+      "q": "How many students died in police firing in Patna on 11 August, 1942 during the Quit India Movement?",
+      "options": {
+        "A": "11",
+        "B": "7",
+        "C": "5",
+        "D": "9"
+      },
+      "answer": "B",
+      "answer_text": "7",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-107",
+      "q": "Bihar is a poor state:",
+      "options": {
+        "A": "Due to lack of industries alone",
+        "B": "Due to overpopulation alone",
+        "C": "Due to insufficient resources",
+        "D": "Due to poor governance alone"
+      },
+      "answer": "C",
+      "answer_text": "Due to insufficient resources",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    },
+    {
+      "id": "BH-EDU-108",
+      "q": "The Chota Nagpur Plateau is mainly formed by:",
+      "options": {
+        "A": "Vindhyan sandstone",
+        "B": "Archaean granite",
+        "C": "Deccan basalt",
+        "D": "Gondwana rocks"
+      },
+      "answer": "B",
+      "answer_text": "Archaean granite",
+      "exam": "CDPO",
+      "exam_label": "CDPO Preliminary Exam 1998",
+      "year": "1998",
+      "source": "Eduteria (unique, deduplicated against Ghatnachakra)"
+    }
+  ]
+}
