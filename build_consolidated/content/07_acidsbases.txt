@@ -1,0 +1,108 @@
+# Unit 7 — Acids, Bases & Salts (pp.73-81)
+UNIT 07|Acids, Bases & Salts|Acids, Bases and Salts lecture (pp. 73–79); the carbon intro of p. 81 is consolidated with organic chemistry in Unit 10
+
+H2 7.1 Acids — Definitions
+TBL Concept~Definition~Examples
+Arrhenius acid~Compound that increases H⁺ (hydronium) concentration when dissolved in water—
+Brønsted-Lowry acid~Hydrogen-containing substance that can donate a proton to another substance—
+Lewis acid~Substance capable of accepting a pair of electrons~AlCl₃, BF₃
+TBLW 22,50,28
+IMG p073_0|Acid & base strengths in the flask|52
+H3 Strong & Weak Acids
+B **Strong acids** — sulphuric acid (H₂SO₄), hydrochloric acid (HCl), nitric acid (HNO₃), chloric acid (HClO₃), hydrobromic acid (HBr).
+B **Weak acids** — hydrofluoric acid (HF), sulfurous acid (H₂SO₃), carbonic acid (H₂CO₃), formic/methanoic acid (HCOOH), acetic/ethanoic acid (CH₃COOH) etc.
+H3 Physical Properties of Acids
+B Sour in taste; sticky in touch; good conductors of electricity; strong acids are corrosive on skin and cause painful burns.
+H3 Action with Indicators
+TBL Indicator~With acid~With base
+Blue litmus~Turns red—
+Methyl orange~Turns pink~Turns yellow
+Phenolphthalein~Remains colourless~Turns pink
+Turmeric~No change~Turns deep red
+Red cabbage~Turns pink~Turns dark blue
+Hibiscus~No change~Turns blue (gudhal)
+Olfactory (onion, vanilla, clove oil)~No change in smell~Smell changes in basic medium
+TBLW 30,35,35
+H3 Classification of Acids
+B **By source:** organic (natural sources) / inorganic (H₂SO₄, HCl, HNO₃, HBr…). **Hydracids** — acids without oxygen.
+B **By concentration:** dilute (more water) / concentrated (less or no water).
+B **By H⁺ released:** strong (HCl, H₂SO₄, HNO₃) / weak (all organic acids, H₂CO₃…).
+B **By basicity** (hydronium ions producible per molecule): **monobasic** — HCl, HBr, HF; **dibasic** — H₂SO₄, H₂SO₃, H₂CO₃; **tribasic** — H₃PO₄, citric acid.
+IMG p074_0|Common acids and their uses|78
+B Uses (from source table): acetic acid — vinegar; boric acid — eyewash; carbonic acid — soft drinks; citric acid — flavouring; formic acid — preservation; lactic acid — curd/milk products; maleic acid — phenolic resins; nitric acid — explosives/fertiliser; oxalic acid — polishing & cleaning; benzoic/sorbic acids — food preservatives; tartaric acid — baking; sulphuric acid — batteries.
+H3 Chemical Properties of Acids
+B **With metals:** Acid + Metal → Salt + H₂↑
+EQ HCl + Na → NaCl + H₂↑   ·   H₂SO₄ + Mg → MgSO₄ + H₂↑   ·   2HNO₃ + 2K → 2KNO₃ + H₂↑   ·   HCl + Au → no reaction
+B **With metal oxides:** Acid + Metal oxide → Salt + Water
+EQ 3H₂SO₄ + Al₂O₃ → Al₂(SO₄)₃ + 3H₂O   ·   2HCl + K₂O → 2KCl + H₂O   ·   H₂CO₃ + MgO → MgCO₃ + H₂O
+B **With bases (neutralisation):** Acid + Base → Salt + Water
+EQ HCl + KOH → KCl + H₂O   ·   H₂SO₄ + Mg(OH)₂ → MgSO₄ + 2H₂O   ·   2HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2H₂O
+B **With metal carbonates/bicarbonates:** Carbonate/Bicarbonate + Acid → Salt + Water + CO₂
+EQ CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂   ·   Ca(HCO₃)₂ + 2HCl → CaCl₂ + 2H₂O + 2CO₂
+B **General use:** Baking soda + tartaric acid (NaHCO₃) → **baking powder**.
+
+H2 7.2 Acid Rain
+B Rain water mixed with pollutant gases (non-metal oxides) forms dilute acid — acid rain.
+EQ Non-metal oxide + H₂O → Acid:  SO₂ + H₂O → H₂SO₄   ·   CO₂ + H₂O → H₂CO₃
+B **Effects:** skin problems in humans & animals; damages plants; damages monuments; soil degradation; harms aquatic life.
+
+H2 7.3 Bases
+B **Arrhenius base** — increases hydroxide (OH⁻) concentration in water. **Brønsted-Lowry base** — accepts a proton.
+B **Examples:** NaOH, KOH, NH₄OH, Ca(OH)₂, Mg(OH)₂ etc.
+H3 Physical Properties & Indicators
+B Bitter in taste; slippery in touch; good conductors; mild corrosive action on skin.
+B With indicators (see table in 7.1): methyl orange → yellow; phenolphthalein → pink; red cabbage → dark blue; turmeric → deep red; hibiscus → blue; olfactory indicators change smell in basic medium.
+H3 Classification of Bases
+B **By strength:** strong (NaOH, KOH, Mg(OH)₂, Ca(OH)₂) / weak (NH₄OH, CH₃NH₂) — weak bases do not produce a large number of OH⁻ ions.
+B **By acidity** (OH⁻ ions producible per molecule): **monoacidic** — NaOH, LiOH, KOH; **diacidic** — Mg(OH)₂, Ca(OH)₂; **triacidic** — Al(OH)₃, Fe(OH)₃.
+NOTE The base definitions and examples were printed twice on source p. 75 — kept once here.
+H3 Chemical Properties of Bases
+B **With acids:** Base + Acid → Salt + Water (neutralisation)
+EQ LiOH + H₂SO₄ → Li₂SO₄ + H₂O   ·   Al(OH)₃ + HCl → AlCl₃ + H₂O
+B **With non-metal oxides:** Base + Non-metal oxide → Salt + Water
+EQ 2NaOH + CO₂ → Na₂CO₃ + H₂O   ·   Ca(OH)₂ + SO₂ → CaSO₄ + H₂O
+
+H2 7.4 pH — Strength of Acids & Bases
+IMG p075_0|The pH scale|70
+B pH = **Potenz (potential) of Hydrogen** — negative logarithm (base 10) of H⁺ ion concentration (mol/L): **pH = −log₁₀[H⁺]**. SI unit of concentration: mol/L; 1 mole = 6.022 × 10²³ particles.
+B **Log recap (from the notes):** 2³ = 8 ⇒ log₂8 = 3; log₁₀1000 = log₁₀10³ = 3; log_m m = 1; log₁₀ mⁿ = n·log m.
+H3 Importance of pH in Everyday Life
+B Our body works within pH **7.0 – 7.8**; plants and animals survive in narrow ranges.
+B **Agriculture:** rice prefers slightly acidic soil; sugarcane neutral; citrus fruits alkaline.
+B **Medicine:** diseases diagnosed from blood/urine pH.
+B **Digestion:** stomach HCl helps digestion; excess acid → pain; **antacids** like milk of magnesia Mg(OH)₂ neutralise.
+B **Tooth decay:** mouth bacteria degrade sweets; below pH 5.5 enamel (calcium phosphate — hardest substance in the body) corrodes; saliva is slightly alkaline; toothpaste neutralises excess acid.
+B **Bee sting:** leaves acid; baking soda (a base) applied on the sting gives relief.
+
+H2 7.5 Salts
+B Salts are formed by displacement of H⁺ ions of an acid by a metallic ion: HCl + NaOH → NaCl + H₂O. e.g. NaCl, MgCl₂, MgSO₄, Na₂CO₃.
+B **General properties:** salts are ionic compounds; conduct electricity in aqueous/molten state; mostly soluble in water.
+H3 Types of Salts
+TBL Type~Definition~Examples
+Neutral salt~Complete neutralisation of acid & base~NaCl, KCl, K₂SO₄
+Acidic salt~Still contains H⁺; increases H⁺ in water (pH < 7); behave as acids~NaHSO₄ (from H₂SO₄+NaOH); sodium bisulphite NaHSO₃; sodium dihydrogen phosphate NaH₂PO₄
+Basic salt~Contains OH⁻; increases OH⁻ in water (pH > 7); behave as bases; e.g. Mg(OH)Cl from the polyacidic base Mg(OH)₂ + HCl~Basic lead chloride Pb(OH)Cl; basic copper chloride Cu(OH)Cl; basic copper nitrate Cu(OH)NO₃
+Double salt~Salt crystals containing 2 salts~Potash alum K₂SO₄·Al₂(SO₄)₃·24H₂O; Mohr's salt FeSO₄·(NH₄)₂SO₄·6H₂O; Dolomite CaCO₃·MgCO₃
+Mixed salt~More than one cation or anion~NaKCO₃; CaOCl₂ (bleaching powder)
+TBLW 16,40,44
+NOTE The source wrote the potash-alum formula as K₂SO₄·Al(SO₄)₃·24H₂O; the standard reading Al₂(SO₄)₃ is shown — everything else unchanged.
+IMG p078_0|Salts — quick recap strip|78
+H3 Water of Crystallisation & Related Terms
+TBL Term~Meaning~Examples
+Water of crystallisation~Number of water molecules present with one formula unit of a salt crystal—
+Efflorescence~Losing water of crystallisation fully/partially on exposure to air~Glauber's salt Na₂SO₄·10H₂O; Epsom salt MgSO₄·7H₂O
+Hygroscopy~Absorbing moisture from air without dissolving~Silica gel; quick lime (CaO); phosphorus pentoxide P₂O₅
+Deliquescence~Absorbing moisture, becoming wet and finally dissolving~Caustic soda NaOH; caustic potash KOH; MgCl₂
+Drying / desiccating agents~Absorb moisture from other substances~Conc. H₂SO₄, silica gel
+Dehydrating agents~Remove water molecules from other substances~Blue vitriol CuSO₄·5H₂O
+TBLW 24,44,32
+IMG p079_0|Hygroscopic vs deliquescent substances|64
+
+H2 7.6 Carbon — The Gateway to Organic Chemistry
+NOTE This page closed the acids-bases lecture but actually introduces organic chemistry; it is consolidated with the organic units (10) — repeated there only once.
+B **Vital Force theory** — "organic compounds can only come from natural sources, not be made by humans" — proved wrong by **Friedrich Wöhler (1828)** by converting **ammonium cyanate → urea**.
+IMG p080_0|Wöhler's urea synthesis|46
+B **Basics about carbon:** atomic number 6; mass number 12; 6 e⁻, 6 protons, 6 neutrons; **valence electrons & valency = 4**.
+B **Covalent compounds** — formed by sharing of electrons. **Covalent bond** — bond between atoms due to sharing; types: single, double, triple.
+B σ/π counts (from the notes): CO₂ — two σ + two π; N₂ — one σ + two π; **benzene — 12 σ + 3 π**.
+B **Organic compounds** — compounds containing carbon (excluding oxides of carbon, metallic carbonates, metal cyanides and metal carbides). **Unique nature of carbon: tetravalency & catenation** — full treatment in Unit 10.

@@ -1,0 +1,88 @@
+# Unit 5 — Chemical Bonding & Molecular Structure (pp.48-56 + pp.58-64)
+UNIT 05|Chemical Bonding & Molecular Structure|Chemical Bonding & Molecular Structure (pp. 48–56) + Chemical Bond & Hydrogen Bond (pp. 58–64) — bond-type tables merged
+
+H2 5.1 What is Chemical Bonding & Why do Atoms Combine?
+B **Chemical bond** — the attractive force that holds atoms together in a molecule, increasing stability and minimising energy.
+B **Cause of combination:** atoms combine to achieve a **stable electronic configuration** — (i) to lower energy and (ii) to attain stable noble-gas configuration, usually a full **octet (8 valence electrons)**.
+IMG p059_0|Chemical bond — complete summary chart (types, formation, significance)|86
+IMG p060_0|Laws of chemical combination — Gay-Lussac, Avogadro, Proust, Dalton (with quick quiz)|80
+
+H2 5.2 Types of Chemical Bonds — One Combined Picture
+NOTE Bond types and comparison tables were printed twice (Bonding lecture p. 48 and Chemical-Bond lecture pp. 58 & 63). The two sets carry the same facts — one combined set is kept.
+TBL Bond~Strength~Action / mechanism~Key feature~Typical participants~Example
+Ionic (electrovalent)~Strong~Complete **transfer** of valence electrons~Electrostatic attraction between ions; high m.p./b.p.; water-soluble~Metal + non-metal~NaCl
+Covalent~Strong~**Sharing** of electron pairs~Orbital overlap; polar (H₂O) or non-polar (O₂) sharing~Non-metal + non-metal~H₂O, O₂, CH₄
+Metallic~Strong~Delocalisation~Positive metal ions in a "sea" of mobile electrons → conductivity~Metal + metal~Fe, Cu
+Coordinate (dative)~Strong~Donor–acceptor~Both shared electrons come from the same atom~Donor + acceptor~NH₄⁺, BF₃·NH₃
+Hydrogen~Weak~Dipole–dipole attraction~H bonded to N, O or F attracts another electronegative atom~Intermolecular~H₂O, DNA
+Van der Waals~Very weak~Induced dipoles~Instantaneous uneven electron distribution (London forces)~Non-polar molecules~Noble gases, CH₄
+TBLW 14,9,20,27,16,14
+EQ Relative strength:   Ionic ≥ Covalent ≥ Metallic ≥ Hydrogen bond ≥ Van der Waals
+IMG p062_0|Classification of chemical bonds — intra & intermolecular|64
+IMG p064_0|Types of chemical bonds with comparison table|76
+B **Key differences:** ionic = transfer (metal + non-metal) vs covalent = sharing (non-metals); ionic/covalent/metallic bonds hold atoms **within** compounds, hydrogen/van der Waals act **between** molecules; ionic & metallic solids conduct, covalent generally do not.
+
+H2 5.3 Ionic (Electrovalent) Bond
+B Formed by **electrostatic attraction between oppositely charged ions** (cation + anion), usually by complete transfer of electrons from a metal to a non-metal. e.g. **NaCl**.
+B **Properties:** high melting/boiling points; soluble in water; conduct electricity when molten or dissolved.
+B **Polarization (Fajan's rule)** — covalent character developed in ionic bonds: the power of an ion to distort the electron cloud of the other is its **polarising power**; the tendency to get polarised is **polarisability**. Higher either → higher covalent character.
+B **Factors increasing polarisation:** small cation; large anion; higher charge on either ion. (A polar medium keeps ions apart and prevents polarisation.)
+BOX Classic example::
+LiCl is covalent whereas NaCl is ionic — Li⁺ is very small (high polarising power), so it distorts Cl⁻ strongly → LiCl gains covalent character.
+
+H2 5.4 Covalent Bond & Its Parameters
+B Formed by **sharing electron pairs** between non-metals to gain stability. Types: **non-polar** (equal sharing, H₂, O₂) and **polar** (unequal sharing by electronegativity difference, H₂O); multiple bonds — single, double, triple — possible.
+H3 Bond Parameters
+B **Bond length** — equilibrium distance between nuclei of two bonded atoms; measured by spectroscopy, X-ray & electron diffraction. Varies as: single > double > triple.
+B **Bond angle** — angle between orbitals containing bonding pairs around the central atom (degrees); indicates orbital distribution and shape.
+B **Bond enthalpy** — energy to break 1 mole of a particular bond in gas phase, A–B(g) → A(g) + B(g), in kJ mol⁻¹. For polyatomic molecules (H₂O has two O–H bonds) an **average/mean bond enthalpy** is used.
+B **Bond order** — number of bonds between two atoms; bond strength ∝ bond order: triple > double > single.
+H3 Sigma & Pi bonds — orbital overlap
+TBL Point~Sigma (σ) bond~Pi (π) bond
+Overlap~Head-on / end-to-end~Sideways / lateral
+Formation~Along the internuclear axis~Above & below the axis
+Strength~Stronger~Weaker
+Rotation~Free rotation possible~Restricts rotation
+Independence~Can exist alone~Only with a σ bond
+TBLW 20,40,40
+IMG p054_0|Differences between sigma and pi bonds|76
+B Examples: CO₂ has two σ and two π bonds; N₂ has one σ and two π; **benzene has 12 σ and 3 π bonds**.
+H3 VSEPR Theory (Valence Shell Electron Pair Repulsion)
+B Predicts molecular **shape** by minimising repulsion between electron pairs around the central atom. Repulsion order: **lone pair – lone pair > lone pair – bond pair > bond pair – bond pair**.
+IMG p051_0|VSEPR theory — summary card|58
+IMG p052_0|VSEPR molecular geometries with examples|88
+B Postulates: electron pairs around the central atom arrange asymmetrically to minimise repulsion; lone pairs occupy more space; multiple bonds treated as one electron domain.
+H3 Hybridization
+B Mixing of atomic orbitals (sp, sp², sp³ …) to form equivalent hybrid orbitals that decide geometry.
+IMG p053_0|Orbital geometry table — localised & delocalised bonds|82
+H3 Resonance
+B When a molecule/ion cannot be described by a single Lewis structure, several **resonating (canonical) structures** contribute to the true **resonance hybrid** — e.g. O₃, CO₃²⁻. Resonance stabilises the molecule/ion.
+IMG p049_0|Resonance in carbonate ion & ozone|56
+B **Resonance energy** = energy of actual molecule − energy of the most stable resonating structure.
+H3 Polarity & Dipole Moment
+B Electronegativity difference creates partial charges → **polar covalent bonds**; measured by **dipole moment μ = charge × distance** — a vector directed from the positive to the negative end.
+B **Applications:** (a) predicting polar/non-polar nature; (b) comparing polarities; (c) deciding shapes — CO₂ has polar C=O bonds but μ = 0 → linear; SO₂ has μ = 1.60 D → bent; (d) calculating % ionic character.
+
+H2 5.5 Molecular Orbital Theory (MOT)
+B MOT (proposed by **F. Hund & R.S. Mulliken**, 1932): atomic orbitals combine to form **molecular orbitals** spread over the whole molecule; bonding MOs lower and antibonding MOs raise energy; electrons fill per Aufbau, Hund & Pauli.
+IMG p055_0|Molecular orbital theory — full infographic|56
+B **Linear combination:** σ (from head-on) and π (side-on) MOs; bonding MO (ψ_A + ψ_B) has electron density between nuclei.
+B **Filling order (1–14 electron systems):** σ1s < σ*1s < σ2s < σ*2s < π2pₓ = π2p_y < σ2p_z < π*2pₓ = π*2p_y < σ*2p_z
+B For 15–20 electron systems, σ2p_z lies below π2pₓ = π2p_y. Each σ/π MO holds 2 electrons; πₓ, π_y are degenerate (4 total).
+B **Bond order** = ½ (N_b − N_a) — half the difference of bonding and antibonding electrons. Stability ∝ bond order; higher bond order → higher dissociation energy and shorter bond length. Molecules with unpaired electrons are **paramagnetic**.
+IMG p056_0|MO configurations — C₂ (12e⁻), N₂ (14e⁻), N₂⁺ (13e⁻) & energy-level diagram|62
+IMG p056_2|O₂ — electronic configuration, bond order 2, paramagnetic|50
+NOTE Example from the source: Ne₂ has bond order 0 (16 bonding = 16 antibonding electrons) — the molecule is not stable; answer (c). The worked configuration is kept with the figures above.
+BOX Exam quick-checks (from the source infographic)::
+Bond order of N₂ = 3 (diamagnetic); N₂⁺ = 2.5; O₂ = 2 (paramagnetic); O₂⁻ = 1.5; He₂ = 0 (does not exist).
+Key point: 1s and 2s MOs cancel out in bond-order calculations of second-row diatomic molecules.
+
+H2 5.6 Hydrogen Bond (Short Notes)
+B A **weak electrostatic dipole attraction** between an H atom covalently bonded to a highly electronegative atom (N, O or F) and another electronegative atom (δ⁺ H ⋯ δ⁻). Bond energy ≈ up to 40 kJ/mol — stronger than van der Waals, weaker than covalent bonds.
+B **Conditions:** H attached to N, O or F; the electronegative atom must be small and have lone pairs (highest in F > O > N).
+IMG p061_0|Hydrogen bond — short-notes infographic (types, strength, examples)|62
+B **Types:**
+BB **Intermolecular** — between different molecules: H₂O (water), HNO₃, alcohols, carboxylic acids, sugar, NH₃.
+BB **Intramolecular** — within the same molecule: o-nitrophenol, o-hydroxybenzaldehyde (salicylaldehyde), o-hydroxybenzoic acid.
+B **Strength comparison:** H-F ⋯ H-F > H-O ⋯ H-O > H-N ⋯ H-N.
+B **Effects:** high b.p. of H₂O (and H-F); ice less dense than water; H₂O a liquid while H₂S is a gas; alcohols / carboxylic acids associated; NH₃, H₂O, HF have abnormally high b.p.; DNA double helix held by H-bonds.

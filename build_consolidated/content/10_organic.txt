@@ -1,0 +1,116 @@
+# Unit 10 — Organic Chemistry Basics (pp.126-137)
+UNIT 10|Organic Chemistry — Basics & Hydrocarbons|Organic Chemistry Part-1 (pp. 126–137) + carbon intro merged from Acids-Bases lecture (p. 81)
+
+H2 10.1 Allotropy & Allotropes of Carbon
+B **Allotropy** — the property of elements to exist in different physical forms. e.g. coal, diamond & graphite (natural carbon allotropes); oxygen (O₂ & O₃), phosphorus (red & white), sulphur (rhombic & monoclinic).
+IMG p126_0|Carbon (Z = 6) & silicon (Z = 14) atoms|36
+B **Coal types:** (a) Peat → (b) Lignite → (c) Bituminous → (d) Anthracite.
+IMG p127_0|Coal family strip|38
+H3 Graphite
+B The **only non-metal that conducts electricity**.
+B **Uses:** electrodes; lubricant (slippery); **moderator** in nuclear reactors; pencil lead.
+
+H2 10.2 Organic Compounds & the Uniqueness of Carbon
+B **Organic compounds** — compounds containing carbon (excluding oxides of carbon, metallic carbonates, metal cyanides, metal carbides etc.).
+NOTE The definition, Wöhler's urea synthesis and "nature of carbon" appeared both on source p. 81 (Acids-Bases lecture) and pp. 126–127 (Organic lecture) — kept once (see also Unit 7.6).
+B **Unique nature of carbon:**
+BB **Tetravalency** — valency 4: one carbon atom forms 4 covalent bonds.
+BB **Catenation** — "self-linking ability of carbon": bonds with other carbon atoms to form straight, branched and cyclic chains. C, Si, Ge, S, P, N also catenate.
+H3 Carbon Counting
+TBL Carbons~1~2~3~4~5~6~7~8~9~10
+Root~Meth~Eth~Prop~But~Pent~Hex~Hept~Oct~Non~Dec
+TBLW 16,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4,8.4
+H3 Structural Representation
+B Complete (all bonds shown), condensed and bond-line structural formulae:
+IMG p127_2|Methane — complete structural formula|26
+IMG p127_3|Pentane — complete & condensed form|34
+IMG p128_0|Pentane — bond-line form|34
+
+H2 10.3 Hydrocarbons
+B Compounds containing only **carbon & hydrogen** — CH₄ (methane), C₂H₄ (ethene), C₂H₂ (ethyne).
+IMG p128_1|Classification of hydrocarbons — flowchart|58
+H3 Saturated Hydrocarbons (Alkanes, CₙH₂ₙ₊₂)
+B Only **single covalent bonds**; also called **paraffins** (less reactive); first member — **methane**.
+IMG p129_0|Alkanes — examples|40
+B **Homologous series:** compounds with similar physical & chemical properties, successive members differing by a **–CH₂–** unit (alkanes, alkenes, alkynes, alcohols, aldehydes…).
+B **Properties of alkanes:** non-polar; weak van der Waals forces; first four members gases, C₅–C₁₇ liquids, C₁₈ onwards solids; low reactivity.
+H3 Alkenes (CₙH₂ₙ)
+B At least one **double bond**; e.g. ethene, propene, butene, pentene — first member **ethene (ethylene)**.
+IMG p129_1|Alkenes — examples|40
+B **Properties:** non-polar; first 3 members gases, C₅–C₁₈ liquids, C₁₉+ gases (source wording); colourless & odourless (exception ethene); insoluble in water.
+H3 Alkynes (CₙH₂ₙ₋₂)
+B At least one **triple bond**; e.g. ethyne, propyne, butyne, pentyne — first member **ethyne (acetylene)**.
+IMG p129_2|Alkynes — examples|40
+B **Properties:** non-polar; first 3 gases, C₅–C₁₃ liquids, C₁₄+ solids; odourless & colourless (exception ethyne); insoluble in water.
+
+H2 10.4 Cyclic (Closed-Chain) Compounds
+B Ring of carbon atoms (≥ 3) instead of a chain; divided into **alicyclic** and **aromatic** compounds.
+H3 Alicyclic Hydrocarbons (non-aromatic)
+B Cyclic hydrocarbons with single/double/triple bonds arranged in any (non-alternate) fashion; e.g. cyclopropane, cyclobutane.
+IMG p130_0|Alicyclic compounds — cyclopropane & cyclobutane|56
+BB **Homocyclic / carbocyclic** — ring of only carbon atoms → cycloalkanes (single bonds), cycloalkenes (double), cycloalkynes (triple).
+BB **Heterocyclic** — ring contains atoms other than carbon.
+IMG p131_2|Heterocyclic compounds|46
+H3 Aromatic Hydrocarbons (Arenes)
+B Cyclic with **alternating single & double bonds**; most have **pleasant smell**; divided into **benzenoids** (contain benzene ring), **non-benzenoids** (no benzene ring) and **heterocyclic aromatics** (other atoms in ring).
+IMG p131_1|Benzenoid & cycloalkyne sketches|52
+
+H2 10.5 Functional Groups
+B An atom/group that, when added to an organic compound, changes its properties — e.g. R–OH (alcohol), aldehydes, ketones, carboxylic acids.
+IMG p132_2|Common functional groups — table|70
+IMG p132_1|Functional groups — structural sketches|60
+
+H2 10.6 Isomerism
+B Compounds with the **same molecular formula but different arrangement of atoms** show isomerism.
+IMG p133_1|Isomerism — complete flowchart|56
+BB **Chain isomerism** — difference in parent & branched chains.
+BB **Position isomerism** — different position of the substituent/double bond.
+BB **Functional isomerism** — same formula, different functional group.
+BB **Stereo isomerism** — same formula & structure, different **geometrical orientation** (e.g. cis–trans).
+IMG p134_2|Stereo isomerism — geometric examples|52
+IMG p134_0|Chain & position isomers|46
+IMG p134_1|Functional isomers|46
+
+H2 10.7 Chemical Properties of Carbon Compounds
+H3 Combustion
+B Burning in presence of O₂ → CO₂ + water + heat & light energy:
+EQ C + O₂ → CO₂ + heat & light   ·   CH₄ + 2O₂ → CO₂ + 2H₂O + heat & light
+EQ C₂H₄ + 3O₂ → 2CO₂ + 2H₂O   ·   2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O   ·   C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O
+IMG p135_0|Combustion equations|48
+H3 Oxidation (addition of oxygen)
+B Ethanol → ethanoic acid with **acidified K₂Cr₂O₇ or alkaline KMnO₄** — both strong oxidising agents.
+IMG p135_1|Oxidation of ethanol|48
+H3 Addition Reaction / Hydrogenation
+B Addition of hydrogen (in presence of **Ni or Pd catalyst**) to unsaturated molecules — used for **hydrogenation of vegetable oils**.
+IMG p135_2|Addition (reduction) reaction|48
+H3 Substitution Reaction
+B One atom/group replaced by another (characteristic of saturated compounds — e.g. methane chlorination).
+IMG p136_x0|Methane — shared electron pairs (electron-dot structure)|42
+
+H2 10.8 Methane, Ethene, Ethyne, Ethanol & Ethanoic Acid
+H3 Methane (CH₄) — 1st alkane
+B Also called **marsh gas**; ≈ 80–85 % of natural gas; colourless, odourless; produced in paddy fields.
+B **Preparation:** Al₄C₃ + H₂O → Al(OH)₃ + CH₄↑;  CH₃COONa + NaOH --Δ--> Na₂CO₃ + CH₄ (sodium ethanoate route).
+IMG p127_1|Methane — Lewis structure|30
+H3 Ethene (C₂H₄) — 1st alkene
+B Plant hormone — responsible for **ripening of fruits**; colourless with sweet smell.
+B **Preparation:** ethanol --conc. H₂SO₄, Δ--> ethene + H₂O — conc. H₂SO₄ acts as a **dehydrating agent**.
+IMG p136_x1|Ethene preparation from ethanol|46
+H3 Ethyne (C₂H₂) — 1st alkyne
+B Structure H–C≡C–H; colourless gas with a smell; lighter than air.
+B **Preparation:** CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂↑.
+H3 Ethanol (C₂H₅OH)
+B Liquid at room temperature; common organic solvent; consumption causes drunkenness — 100 % (absolute) ethanol is lethal.
+B **Reactions:**
+BB With sodium: 2C₂H₅OH + 2Na → 2C₂H₅ONa (sodium ethoxide) + H₂.
+BB Neutral (pH ≈ 7).
+BB Dehydration with hot conc. H₂SO₄ gives unsaturated ethene.
+IMGS p136_2|Ethanol — Lewis structure|;; p137_0|Ethanol + sodium → sodium ethoxide + H₂
+H3 Ethanoic Acid (CH₃COOH) — carboxylic acid
+B Called **glacial acetic acid** — low melting point (~15–17 °C); 5–8 % solution = **vinegar**.
+B **Esterification** — alcohol + carboxylic acid --H₂SO₄--> **ester** (sweet-smelling) + water:
+EQ CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O
+B **Saponification** — opposite process: ester + base → alcohol + metallic salt of carboxylic acid (**soap formation reaction**).
+IMG p137_1|Saponification reaction|58
+B **With bases:** CH₃COOH + NaOH → CH₃COONa (sodium ethanoate) + H₂O.
+B **With carbonates:** 2CH₃COOH + K₂CO₃ → 2CH₃COOK (potassium ethanoate) + H₂O + CO₂.

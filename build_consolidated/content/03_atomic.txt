@@ -1,0 +1,145 @@
+# Unit 3 — Atomic Structure (pp.25-40)
+UNIT 03|Atomic Structure|Atomic Structure lecture (pp. 32–40) + electron rules merged from the Periodic lecture (pp. 27–28, 44)
+
+H2 3.1 Foundations — Laws of Chemical Combination
+NOTE The "What is atomic structure?" introduction of the source opens with the mass laws; they are kept here in full.
+H3 Law of Multiple Proportions — John Dalton
+B If two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a ratio of **small whole numbers**. e.g. in CO and CO₂, fixed carbon (12 g) combines with 16 g and 32 g of oxygen — a simple **1 : 2** ratio.
+B Does not apply to non-stoichiometric compounds, polymers or oligomers; inapplicable for isotopes. It solidified the concept of atoms and helped determine relative atomic masses.
+H3 Law of Definite Proportions — Joseph Proust (1799)
+B A pure chemical compound always contains the **same elements in the same fixed proportion by mass**, regardless of source, method of preparation or quantity.
+B Not applicable to compounds containing isotopes (e.g. ³⁵Cl₂ vs ³⁷Cl₂) and non-stoichiometric compounds.
+H3 Law of Conservation of Mass — Antoine Lavoisier
+B Matter can neither be created nor destroyed in a chemical reaction or physical change; **mass of reactants = mass of products** (atoms are only rearranged). Basis of balancing equations and stoichiometry.
+B Holds only for low-energy chemical reactions — in nuclear reactions mass converts to energy.
+
+H2 3.2 Dalton's Atomic Theory
+B John Dalton: all matter is made of **atoms** — indivisible and indestructible; atoms of an element are exactly the same, atoms of different elements differ in size and mass.
+B **Postulates:**
+BB Every matter is made up of atoms; atoms are indivisible.
+BB Specific elements have only one type of atom; each atom has its own constant mass that varies element to element.
+BB Atoms undergo rearrangement during a chemical reaction; atoms can neither be created nor destroyed but transformed.
+B Successfully explained the laws of chemical combination — conservation of mass, constant properties, multiple proportions and reciprocal proportions.
+B **Demerits:** could not explain isotopes; said nothing about the structure of the atom; later sub-atomic particles proved atoms are divisible.
+
+H2 3.3 Thomson's Model (Plum-Pudding)
+B Postulate — the atom is a **sphere of positive charge with electrons embedded** in it.
+B Limitation — could not satisfactorily explain the results of Rutherford's scattering experiment.
+IMG p033_0|Thomson's atomic model|38
+
+H2 3.4 Rutherford's Model (Nuclear Model)
+B Experiment — thin **gold foil** bombarded with fast **alpha (α) particles**; he expected the gold atoms to deflect them.
+IMG p033_1|Scattering of alpha particles by the gold foil|56
+TBL Observation~Inference
+Most α-particles passed straight through the gold foil~Atom contains a lot of empty space
+Some particles diverted by small angles~Positive charges do not occupy much of the atom's space
+Only 1 out of ~12000 particles bounced back~Positive charge is concentrated in a very small area (nucleus)
+TBLW 52,48
+B **Nuclear model:** atoms contain a lot of unoccupied space; a heavy **positively charged nucleus** sits at the centre; electrons revolve around it in circular paths called **orbits**; nucleus is much smaller than the atom and holds almost all the mass.
+B **Drawback (Maxwell's objection):** a charged particle moving in a circle radiates energy — the electron would lose speed and spiral into the nucleus, so the atom would be unstable. The model could not explain atomic stability.
+B **Nucleons** — protons and neutrons collectively.
+
+H2 3.5 Bohr's Model of the Atom
+IMG p034_0|Bohr's model — shells K, L, M, N as energy levels|42
+B Electrons spin around the nucleus only in **certain separate allowed orbits (energy levels)** — they do **not** emit energy while in these special orbits. Orbits are labelled K, L, M, N… (n = 1, 2, 3, 4…).
+B Electron absorbs energy as EMR when it jumps from a lower energy level (ground state) to a higher one (excited state) and vice-versa: **ΔE = E₂ − E₁ = hν**.
+B Quantitative results for hydrogen-like species (H, He⁺, Li²⁺, nuclear charge Z):
+EQ Radius of n-th orbit:  rₙ = 52.9 × n²/Z pm
+EQ Energy of n-th orbit:  Eₙ = −2.18 × 10⁻¹⁸ (Z²/n²) J = −13.6 (Z²/n²) eV = −313.6 (Z²/n²) kcal/mol
+EQ Velocity of electron:  v = (2.18 × 10⁸) Z/n cm s⁻¹        (n = 1, 2, 3, 4…)
+B **Limitations of Bohr's theory:** failed for atoms with more than one electron; could not explain splitting of spectral lines in strong magnetic (Zeeman) or electric (Stark) fields; ignored dual nature of particles and the uncertainty principle.
+
+H2 3.6 Sub-atomic Particles
+B **Electron** — J.J. Thomson, cathode-ray-tube experiment. **Proton** — E. Rutherford (gold-foil work). **Neutron** — James Chadwick (a neutral particle inside the atom).
+IMG p032_0|Constitution of the atom — nucleus (protons + neutrons) and electrons|30
+TBL Term~Electron (e⁻)~Proton (p)~Neutron (n)
+Symbol~e⁻~p~n
+Approximate relative mass~1/1836~1~1
+Mass in kg~9.109 × 10⁻³¹~1.673 × 10⁻²⁷~1.675 × 10⁻²⁷
+Mass in amu~5.485 × 10⁻⁴~1.007~1.008
+Charge (coulomb)~1.602 × 10⁻¹⁹~1.602 × 10⁻¹⁹~0
+Actual charge (e.s.u.)~4.8 × 10⁻¹⁰~4.8 × 10⁻¹⁰~0
+TBLW 28,24,24,24
+B Atoms consist of protons and electrons in balanced proportion; protons sit inside, electrons outside — so electrons can be removed from an atom.
+
+H2 3.7 Atomic Number, Mass Number & Electron Distribution
+B **Atomic number (Z)** = number of protons in an atom. Atoms of different elements always have different proton counts; elements are defined by Z (hydrogen: Z = 1).
+B **Mass number (A)** = number of protons + number of neutrons.
+H3 Rules for Electron Distribution
+B (i) An orbit can hold a maximum of **2n²** electrons; (ii) orbits fill from inside out (n = 1 first); (iii) the outermost shell cannot hold more than **8 electrons** even if it has capacity — the **Octet rule** (8 electrons in the outermost shell makes the atom very stable).
+IMG p028_0|Rules for electron distribution|62
+TBL Electron shell~Maximum capacity
+K shell (n = 1)~2(1)² = 2 electrons
+L shell (n = 2)~2(2)² = 8 electrons
+M shell (n = 3)~2(3)² = 18 electrons
+N shell (n = 4)~2(4)² = 32 electrons
+TBLW 50,50
+IMG p028_1|Electronic configuration of the first 20 elements|80
+H3 Valency
+B **Valence electrons** — electrons in the outermost orbit (valence shell). Valency rises 1→4 then falls to 0 across a period and **remains the same down a group**.
+B **Stable configuration:** 2 e⁻ if K is the outermost shell, otherwise 8 e⁻. Atoms react to achieve it; noble gases (He, Ne, Ar) are inert as they already have it.
+B Valency = electrons an atom must give away or take to attain a stable configuration. Outermost-shell electrons decide it: silver has 1 outer electron → valency 1. Helium (2 outer electrons) can share both → valency 2. If the outer shell is nearly full, valency = 8 − outer electrons (oxygen: 8 − 6 = 2).
+IMG p035_1|Octet examples — valency from outer-shell electrons|40
+NOTE The 2n² rule, octet rule and valency paragraphs were printed in both the Atomic-Structure and Periodic-Table lectures; they are merged here once.
+
+H2 3.8 Isotopes, Isobars & Atomic Species
+H3 Isotopes
+B Atoms of the **same element** with the **same atomic number but different mass numbers**; pure substances; similar chemical nature but distinct physical characteristics.
+IMG p036_0|Isotopes of hydrogen — protium, deuterium, tritium|46
+B **Uses of isotopes:** fuel of nuclear reactors — isotope of **uranium**; treatment of cancer — isotope of **cobalt**; treatment of goitre — isotope of **iodine**.
+H3 Isobars
+B Atoms of **different elements** with the **same mass number** but different atomic numbers (e.g. ¹⁸Ar, ¹⁹K, ²⁰Ca — all A = 40).
+IMG p036_1|Isobars — same A, different Z|52
+H3 Atomic species to remember
+TBL Terms~Definition / explanation
+Atomic number (Z)~Number of protons (or electrons) of a neutral atom
+Mass number (A)~Total number of protons and neutrons
+Nucleons~Protons + neutrons present in the nucleus
+Isotopes~Same Z, different A — e.g. ₁H¹, ₁H², ₁H³
+Isobars~Same A, different Z — e.g. ₁₅P³² and ₁₆S³²
+Isotones~Same number of neutrons, different Z or A — e.g. ₆C¹⁴, ₈O¹⁶, ₇N¹⁵
+Isoelectronic~Atoms/molecules/ions with the same electron count — e.g. N₂, CO, CN⁻
+Nuclear isomers~Same Z and A but different radioactive properties — U-X (half-life 1.4 min) and U-Z (half-life 6.7 h)
+Isosters~Molecules with same number of atoms and same number of electrons — e.g. N₂ and CO
+TBLW 24,76
+
+H2 3.9 Atomic Spectrum of Hydrogen
+IMG p038_0|Hydrogen spectrum — Rydberg formula and spectral series|50
+EQ ν̄ = R_H ( 1/n₁² − 1/n₂² )   where R_H = Rydberg constant (108978 cm⁻¹)
+TBL n₁~n₂~Spectral series~Spectral region
+2, 3, 4…~Lyman~UV
+3, 4, 5…~Balmer~Visible
+4, 5, 6…~Paschen~IR
+5, 6, 7…~Brackett~IR
+6, 7, 8…~Pfund~IR
+TBLW 16,16,38,30
+
+H2 3.10 Planck's Quantum Theory & Photoelectric Effect
+B Substances radiate or absorb energy **discontinuously** in the form of energy packets; the smallest packet is a **quantum** (in light: **photon**).
+B E ∝ ν → **E = hν**, h = Planck's constant = 6.626 × 10⁻²⁷ erg·s = 6.626 × 10⁻³⁴ J·s. A body radiates/absorbs whole-number multiples: hν, 2hν, 3hν … nhν.
+B **Photoelectric effect:** light of suitable frequency ejects electrons from a metal surface; minimum frequency needed = **threshold frequency (ν₀)**; kinetic energy of ejected electrons ∝ frequency; number of electrons per second ∝ intensity of radiation.
+EQ hν − hν₀ = ½mv²
+
+H2 3.11 Towards the Quantum Model
+H3 de-Broglie equation
+EQ λ = h/mv = h/p      (dual nature of matter)
+H3 Heisenberg's Uncertainty Principle
+EQ Δx · Δp ≥ h / 4πm
+B It is impossible to determine simultaneously the exact position and exact momentum of an electron.
+H3 Quantum Numbers
+TBL Quantum number~What it tells
+Principal (n)~Main shell & approximate distance from nucleus; max electrons in shell = 2n²
+Azimuthal (l)~Number of subshells in the shell (s, p, d, f); their shapes; for given n, l = 0 … (n−1)
+Magnetic (m)~Preferred orientations of the electron in a subshell; for given l, m = −l … +l (2l+1 values)
+Spin (s)~Direction of spin; only two values, −½ and +½
+TBLW 26,74
+IMG p039_0|de-Broglie relation & uncertainty principle|58
+H3 Rules for Filling of Electrons
+B **Aufbau principle** — electrons fill orbitals in order of increasing energy; lower (n+l) means lower energy.
+B **Pauli's exclusion principle** — an orbital holds at most two electrons, with opposite spins.
+B **Hund's rule of maximum multiplicity** — pairing in p, d, f orbitals cannot start until each orbital of the subshell is singly occupied.
+IMG p040_0|Aufbau energy order 1s → 7s|52
+B Increasing energy order: 1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p < 5s < 4d < 5p < 6s < 4f < 5d…
+H3 Exceptional Configurations — stability of half/full-filled orbitals
+B Cu (29 electrons): expected 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁹, but shifting one electron from 4s to 3d gives a symmetrical, more stable distribution → actual configuration **1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d¹⁰**.
+B Fully-filled and half-filled orbitals are extra stable — the same rule explains Cr and other exceptions.

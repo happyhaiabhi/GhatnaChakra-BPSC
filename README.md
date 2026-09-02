@@ -22,6 +22,28 @@ copying Git history, PDFs, reports, tests or extraction artifacts.
 - `DEPLOY_TO_GITHUB.md` explains the GitHub Pages deployment and how the
   original BPSC source is preserved in the `bpsc-source` branch.
 
+## Consolidated Chemistry Notes (A4)
+
+`BPSC_Chemistry_Consolidated_Notes_A4.pdf` is a **re-arranged, de-duplicated A4
+edition** of *Eduteria Chem Notes Class Wise.pdf* (Chemistry by Sakshi Ma'am,
+157 pages / 12 lecture files). All 12 lectures are consolidated into 12
+topic-wise units — repeated topics merged (each merge documented in a green
+"De-dup note"), every original chart, table, equation and visual explanation
+kept, plus a linked table of contents.
+
+Regenerate it with:
+
+```bash
+pip install pymupdf reportlab pillow
+python scripts/extract_chem_figures.py   # rebuilds build_consolidated/figures/
+python scripts/build_consolidated_notes.py
+```
+
+- `scripts/extract_chem_figures.py` — clips every content figure out of the
+  source PDF (headers/watermarks skipped, labels kept).
+- `scripts/build_consolidated_notes.py` — typesets the A4 PDF from the
+  content DSL in `build_consolidated/content/*.txt`.
+
 ## Open it
 
 The website works in both supported modes:
