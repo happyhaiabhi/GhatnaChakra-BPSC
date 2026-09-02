@@ -1,0 +1,1118 @@
+{
+ "subject": "Census of Bihar (2011)",
+ "description": "Eduteria Bihar Tathya Sangrah · Census of Bihar (2011)",
+ "total_questions": 65,
+ "chapters": [
+  {
+   "chapter_name": "6. Census of Bihar (2011)",
+   "questions": [
+    {
+     "q": "Which one of the following States has the highest density of population according to the Census of India, 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kerala",
+      "B": "Haryana",
+      "C": "Bihar",
+      "D": "Uttar Pradesh"
+     },
+     "answer": "C",
+     "answer_text": "Bihar",
+     "explanation": "Correct answer: Bihar.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.115 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-020"
+    },
+    {
+     "q": "Among the following pairs of tribe and district, which one is not correctly matched?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Santhal—Banka",
+      "B": "Munda—Jamui",
+      "C": "Oraon—Supaul",
+      "D": "Kharwar—Bhagalpur",
+      "E": "None of the above/More than one of the above"
+     },
+     "answer": "E",
+     "answer_text": "None of the above/More than one of the above",
+     "explanation": "Correct answer: None of the above/More than one of the above.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.98 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-037"
+    },
+    {
+     "q": "Which of the following districts of Bihar has the highest percentage of Scheduled Tribe population in 2011 census?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Katihar",
+      "B": "Jamui",
+      "C": "Purnia",
+      "D": "Banka"
+     },
+     "answer": "A",
+     "answer_text": "Katihar",
+     "explanation": "Correct answer: Katihar.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-038"
+    },
+    {
+     "q": "According to the 2001 census, which of the following groups of districts of Bihar shows the correct descending order of population density?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna, Nalanda, Vaishali, Begusarai",
+      "B": "Muzaffarpur, Vaishali, Samastipur, Darbhanga",
+      "C": "Darbhanga, Saran, Siwan, Samastipur",
+      "D": "Katihar, Purnia, Kishanganj, Araria"
+     },
+     "answer": "C",
+     "answer_text": "Darbhanga, Saran, Siwan, Samastipur",
+     "explanation": "Correct answer: Darbhanga, Saran, Siwan, Samastipur.",
+     "exam": "47th",
+     "year": "47th",
+     "source": "Eduteria PYQ set — 47th BPSC Preliminary Exam (BH-EDU-067)",
+     "source_id": "CH6-EDU-001"
+    },
+    {
+     "q": "In which year was the first census of India conducted, and during whose tenure?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1872, Lord Mayo",
+      "B": "1881, Lord Ripon",
+      "C": "1872, Lord Ripon",
+      "D": "1901, Lord Curzon"
+     },
+     "answer": "A",
+     "answer_text": "1872, Lord Mayo",
+     "explanation": "The first census of India was conducted in 1872 during the time of Lord Mayo. Regular decennial census in India started in 1881 during the time of Lord Ripon.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-001"
+    },
+    {
+     "q": "Regular (decennial) census in India started in which year, and under whose Viceroyalty?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1872 - Lord Mayo",
+      "B": "1881 - Lord Ripon",
+      "C": "1891 - Lord Lansdowne",
+      "D": "1901 - Lord Curzon"
+     },
+     "answer": "B",
+     "answer_text": "1881 - Lord Ripon",
+     "explanation": "Regular census in India started in 1881 during the tenure of Lord Ripon, and has continued decennially since.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-002"
+    },
+    {
+     "q": "After the separation of Bihar from Odisha in 1936, in which year was the census of Bihar conducted separately for the first time?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1936",
+      "B": "1941",
+      "C": "1951",
+      "D": "1931"
+     },
+     "answer": "B",
+     "answer_text": "1941",
+     "explanation": "After Bihar's separation from Odisha in 1936, the census of Bihar was conducted separately for the first time in 1941.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-003"
+    },
+    {
+     "q": "The 2011 Census was the ___ census of the country, and its Census Commissioner was ___.",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "14th; C. Chandramouli",
+      "B": "15th; C. Chandramouli",
+      "C": "15th; J.K. Banthia",
+      "D": "16th; C. Chandramouli"
+     },
+     "answer": "B",
+     "answer_text": "15th; C. Chandramouli",
+     "explanation": "The 2011 Census was the 15th census of the country, and its Commissioner was C. Chandramouli. Its motto was 'Our census, our future'.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-004"
+    },
+    {
+     "q": "What was the official motto of the 2011 Census of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "'Our census, our future'",
+      "B": "'Count me in'",
+      "C": "'Census for a better India'",
+      "D": "'Every person counts'"
+     },
+     "answer": "A",
+     "answer_text": "'Our census, our future'",
+     "explanation": "The motto of the 2011 census was 'Our census, our future'.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-005"
+    },
+    {
+     "q": "According to the 2011 Census, what percentage of India's total population does Bihar's population represent?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "6.2%",
+      "B": "8.6%",
+      "C": "10.4%",
+      "D": "7.1%"
+     },
+     "answer": "B",
+     "answer_text": "8.6%",
+     "explanation": "Bihar's population of 10,40,99,452 as per the 2011 census constitutes 8.6% of India's total population.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-006"
+    },
+    {
+     "q": "Consider the following statements regarding rural and urban population of Bihar as per Census 2011:\n1. The rural population percentage of Bihar (88.7%) is higher than the national average (68.8%).\n2. The urban population percentage of Bihar (11.3%) is lower than the national average (31.2%).\n3. The decadal growth rate of urbanisation in Bihar (0.8%) is lower than the national rate (3.4%).\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1, 2 and 3",
+      "D": "1 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2 and 3",
+     "explanation": "Bihar is significantly more rural than the national average, has a much lower urban population share, and a much slower urbanisation growth rate than India as a whole.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-007"
+    },
+    {
+     "q": "As per Census 2011, what was the child sex ratio (0-6 years) of Bihar compared to India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bihar 935; India 919 (Bihar higher than national average)",
+      "B": "Bihar 919; India 935 (Bihar lower than national average)",
+      "C": "Bihar 918; India 943",
+      "D": "Bihar 943; India 918"
+     },
+     "answer": "A",
+     "answer_text": "Bihar 935; India 919 (Bihar higher than national average)",
+     "explanation": "Bihar's child sex ratio (935) as per Census 2011 was actually higher than the national average (919), even though its overall sex ratio (918) was lower than the national figure (943).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-008"
+    },
+    {
+     "q": "According to Census 2011, what was the population density of Bihar compared to the national average?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1106 persons/km² vs national average 382 persons/km²",
+      "B": "382 persons/km² vs national average 1106 persons/km²",
+      "C": "1106 persons/km² vs national average 943 persons/km²",
+      "D": "918 persons/km² vs national average 382 persons/km²"
+     },
+     "answer": "A",
+     "answer_text": "1106 persons/km² vs national average 382 persons/km²",
+     "explanation": "Bihar's population density (1106 persons per sq. km) as per Census 2011 was nearly three times the national average of 382 persons per sq. km, making it the most densely populated state.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-009"
+    },
+    {
+     "q": "What was the growth in literacy rate in Bihar between the 2001 and 2011 census, compared to the national growth?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bihar 17.9% vs India 10.9% (Bihar grew faster)",
+      "B": "Bihar 10.9% vs India 17.9% (India grew faster)",
+      "C": "Bihar 25.4% vs India 17.7%",
+      "D": "Bihar 15% vs India 20%"
+     },
+     "answer": "A",
+     "answer_text": "Bihar 17.9% vs India 10.9% (Bihar grew faster)",
+     "explanation": "Between 2001 and 2011, Bihar's literacy rate grew by 17.9 percentage points, a faster growth than the national average growth of 10.9 percentage points, though Bihar's absolute literacy rate remained below the national average.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-010"
+    },
+    {
+     "q": "As per Census 2011, compare the Scheduled Caste and Scheduled Tribe population percentages of Bihar with the national figures.",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "SC: Bihar 15.72% vs India 16.6%; ST: Bihar 1.3% vs India 8.6% (Bihar lower on both)",
+      "B": "SC: Bihar 16.6% vs India 15.72%; ST: Bihar 8.6% vs India 1.3%",
+      "C": "SC: Bihar 15.72% vs India 8.6%; ST: Bihar 1.3% vs India 16.6%",
+      "D": "SC and ST percentages of Bihar are both higher than the national average"
+     },
+     "answer": "A",
+     "answer_text": "SC: Bihar 15.72% vs India 16.6%; ST: Bihar 1.3% vs India 8.6% (Bihar lower on both)",
+     "explanation": "As per Census 2011, Bihar's SC population share (15.72%) and ST population share (1.3%) were both lower than the corresponding national averages (16.6% and 8.6% respectively) - Bihar has a notably low tribal population share.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-011"
+    },
+    {
+     "q": "As per the 2011 Census, which THREE districts of Bihar recorded the largest geographical area?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "West Champaran, Gaya, East Champaran",
+      "B": "Patna, Gaya, Muzaffarpur",
+      "C": "West Champaran, Rohtas, Gaya",
+      "D": "Gaya, Aurangabad, West Champaran"
+     },
+     "answer": "A",
+     "answer_text": "West Champaran, Gaya, East Champaran",
+     "explanation": "West Champaran has the largest area among Bihar's districts, followed by Gaya and East Champaran.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-012"
+    },
+    {
+     "q": "Arrange the following districts of Bihar in ASCENDING order of geographical area: Arwal, Sheikhpura, Sheohar, Gaya",
+     "question_type": "ascending_descending_order",
+     "options": {
+      "A": "Sheohar < Sheikhpura < Arwal < Gaya",
+      "B": "Sheikhpura < Sheohar < Arwal < Gaya",
+      "C": "Arwal < Sheohar < Sheikhpura < Gaya",
+      "D": "Sheohar < Arwal < Sheikhpura < Gaya"
+     },
+     "answer": "A",
+     "answer_text": "Sheohar < Sheikhpura < Arwal < Gaya",
+     "explanation": "Sheohar is Bihar's smallest district by area, followed by Arwal and Sheikhpura (the three smallest), while Gaya is among the largest districts.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-013"
+    },
+    {
+     "q": "As per Census 2011, which district of Bihar recorded the highest population, and what was its population?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna (58.4 lakh)",
+      "B": "East Champaran (50 lakh)",
+      "C": "Muzaffarpur (48 lakh)",
+      "D": "Gaya (43.9 lakh)"
+     },
+     "answer": "A",
+     "answer_text": "Patna (58.4 lakh)",
+     "explanation": "Patna district recorded the highest population (58.4 lakh) as per the 2011 census, followed by East Champaran and Muzaffarpur.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-014"
+    },
+    {
+     "q": "Which district of Bihar recorded the LEAST population as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sheikhpura (6.4 lakh)",
+      "B": "Sheohar (6.6 lakh)",
+      "C": "Arwal (7 lakh)",
+      "D": "Kaimur (16 lakh)"
+     },
+     "answer": "A",
+     "answer_text": "Sheikhpura (6.4 lakh)",
+     "explanation": "Sheikhpura recorded the least population (6.4 lakh) among Bihar's districts as per Census 2011, followed by Sheohar and Arwal.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-015"
+    },
+    {
+     "q": "Arrange the following districts of Bihar in DESCENDING order of population decadal growth rate (2001-11): Arwal, Madhepura, Kishanganj, Gopalganj",
+     "question_type": "ascending_descending_order",
+     "options": {
+      "A": "Madhepura > Kishanganj > Gopalganj > Arwal",
+      "B": "Kishanganj > Madhepura > Arwal > Gopalganj",
+      "C": "Madhepura > Gopalganj > Kishanganj > Arwal",
+      "D": "Arwal > Gopalganj > Kishanganj > Madhepura"
+     },
+     "answer": "A",
+     "answer_text": "Madhepura (31.1%) > Kishanganj (30.44%) > Gopalganj (19.02%) > Arwal (18.89%)",
+     "explanation": "Madhepura recorded the highest decadal population growth rate (31.1%), while Arwal recorded the lowest (18.89%); Gopalganj had the second-lowest growth rate.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-016"
+    },
+    {
+     "q": "As per Census 2011, which district of Bihar recorded the highest sex ratio, and which recorded the lowest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Gopalganj (1021); Lowest - Munger (876)",
+      "B": "Highest - Munger (1021); Lowest - Gopalganj (876)",
+      "C": "Highest - Siwan (1021); Lowest - Bhagalpur (876)",
+      "D": "Highest - Gopalganj (943); Lowest - Munger (918)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Gopalganj (1021); Lowest - Munger (876)",
+     "explanation": "Gopalganj recorded the highest sex ratio (1021 females per 1000 males) in Bihar as per Census 2011, while Munger recorded the lowest (876).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-017"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest child sex ratio (0-6 years) as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kishanganj (971)",
+      "B": "Vaishali (904)",
+      "C": "Katihar (960)",
+      "D": "Gaya (950)"
+     },
+     "answer": "A",
+     "answer_text": "Kishanganj (971)",
+     "explanation": "Kishanganj recorded the highest child sex ratio (971) in Bihar as per Census 2011, while Vaishali recorded the lowest (904).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-018"
+    },
+    {
+     "q": "As per Census 2011, which district of Bihar recorded the highest population density, and which recorded the lowest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Sheohar (1880/km²); Lowest - Kaimur (488/km²)",
+      "B": "Highest - Patna (1880/km²); Lowest - Kaimur (488/km²)",
+      "C": "Highest - Kaimur (1880/km²); Lowest - Sheohar (488/km²)",
+      "D": "Highest - Sheohar (1106/km²); Lowest - Kaimur (382/km²)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Sheohar (1880/km²); Lowest - Kaimur (488/km²)",
+     "explanation": "Sheohar recorded the highest population density (1880 persons/km²) in Bihar as per Census 2011, while Kaimur recorded the lowest (488 persons/km²).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-019"
+    },
+    {
+     "q": "Which THREE districts of Bihar recorded the highest urbanisation as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna (43.1%), Munger, Bhagalpur",
+      "B": "Patna (43.1%), Gaya, Muzaffarpur",
+      "C": "Munger (43.1%), Patna, Bhagalpur",
+      "D": "Patna (31.2%), Munger, Bhagalpur"
+     },
+     "answer": "A",
+     "answer_text": "Patna (43.1%), Munger, Bhagalpur",
+     "explanation": "Patna recorded the highest urbanisation (43.1%) among Bihar districts, followed by Munger and Bhagalpur.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-020"
+    },
+    {
+     "q": "Which TWO districts of Bihar recorded the lowest urbanisation (3.5%) as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Samastipur and Banka",
+      "B": "Madhubani and Kaimur",
+      "C": "Sheohar and Sheikhpura",
+      "D": "Purnia and Sitamarhi"
+     },
+     "answer": "A",
+     "answer_text": "Samastipur and Banka",
+     "explanation": "Samastipur and Banka jointly recorded the lowest urbanisation (3.5%) among Bihar's districts as per Census 2011.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-021"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest overall literacy rate as per Census 2011, and which recorded the lowest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Rohtas (73.4%); Lowest - Purnia (51.1%)",
+      "B": "Highest - Patna (73.4%); Lowest - Sitamarhi (51.1%)",
+      "C": "Highest - Rohtas (61.8%); Lowest - Purnia (51.5%)",
+      "D": "Highest - Purnia (73.4%); Lowest - Rohtas (51.1%)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Rohtas (73.4%); Lowest - Purnia (51.1%)",
+     "explanation": "Rohtas recorded the highest literacy rate (73.4%) in Bihar as per Census 2011, while Purnia recorded the lowest (51.1%).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-022"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest female literacy rate as per Census 2011, and which recorded the lowest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Rohtas (63.0%); Lowest - Saharsa (41.7%)",
+      "B": "Highest - Rohtas (82.9%); Lowest - Saharsa (41.7%)",
+      "C": "Highest - Saharsa (63.0%); Lowest - Rohtas (41.7%)",
+      "D": "Highest - Munger (63.0%); Lowest - Madhepura (41.7%)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Rohtas (63.0%); Lowest - Saharsa (41.7%)",
+     "explanation": "Rohtas recorded the highest female literacy rate (63.0%) in Bihar as per Census 2011, while Saharsa recorded the lowest (41.7%).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-023"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest urban literacy rate as per Census 2011, and which recorded the lowest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Kaimur (82.6%); Lowest - Sheohar (62.0%)",
+      "B": "Highest - Sheohar (82.6%); Lowest - Kaimur (62.0%)",
+      "C": "Highest - Patna (82.6%); Lowest - Sheikhpura (62.0%)",
+      "D": "Highest - Rohtas (82.6%); Lowest - Purnia (62.0%)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Kaimur (82.6%); Lowest - Sheohar (62.0%)",
+     "explanation": "Kaimur recorded the highest urban literacy rate (82.6%) in Bihar as per Census 2011, while Sheohar recorded the lowest (62.0%).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-024"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest Scheduled Caste (SC) population percentage, and which recorded the lowest, as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - Gaya (30.39%); Lowest - Kishanganj (6.69%)",
+      "B": "Highest - Kishanganj (30.39%); Lowest - Gaya (6.69%)",
+      "C": "Highest - Nawada (30.39%); Lowest - Katihar (6.69%)",
+      "D": "Highest - Gaya (15.72%); Lowest - Kishanganj (1.3%)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - Gaya (30.39%); Lowest - Kishanganj (6.69%)",
+     "explanation": "Gaya recorded the highest SC population percentage (30.39%) in Bihar as per Census 2011, while Kishanganj recorded the lowest (6.69%).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-025"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest Scheduled Tribe (ST) population percentage, and which recorded the lowest, as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Highest - West Champaran (6.35%); Lowest - Khagaria (0.04%)",
+      "B": "Highest - Khagaria (6.35%); Lowest - West Champaran (0.04%)",
+      "C": "Highest - Katihar (6.35%); Lowest - Samastipur (0.04%)",
+      "D": "Highest - West Champaran (1.3%); Lowest - Khagaria (8.6%)"
+     },
+     "answer": "A",
+     "answer_text": "Highest - West Champaran (6.35%); Lowest - Khagaria (0.04%)",
+     "explanation": "West Champaran recorded the highest ST population percentage (6.35%) in Bihar as per Census 2011, while Khagaria recorded the near-negligible lowest (0.04%).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-026"
+    },
+    {
+     "q": "According to the Economic Survey 2024-25 estimate, what was Bihar's estimated population in 2021, and which district had the highest estimated population?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "12,30,11,000; Patna (69.57 lakh) had the highest, Sheikhpura (7.5 lakh) the lowest",
+      "B": "13,07,25,310; Patna had the highest",
+      "C": "10,40,99,452; Gaya had the highest",
+      "D": "12,30,11,000; Gaya had the highest"
+     },
+     "answer": "A",
+     "answer_text": "12,30,11,000; Patna (69.57 lakh) had the highest, Sheikhpura (7.5 lakh) the lowest",
+     "explanation": "As per the Economic Survey 2024-25 estimate, Bihar's 2021 population was approximately 12,30,11,000, with Patna having the highest district population (69.57 lakh) and Sheikhpura the lowest (7.5 lakh).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH6-NEW-027"
+    },
+    {
+     "q": "As per Census 2011, what is the rank of Bihar State in terms of population in the country?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+     },
+     "answer": "C",
+     "answer_text": "III",
+     "explanation": "Correct answer: III.",
+     "exam": "60-62nd BPSC (Combined)",
+     "year": "60-62nd BPSC (Combined)",
+     "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.74 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-001"
+    },
+    {
+     "q": "Which of the following districts record highest growth of population during 2001-11?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kishanganj",
+      "B": "Araria",
+      "C": "Madhepura",
+      "D": "Khagdia"
+     },
+     "answer": "C",
+     "answer_text": "Madhepura",
+     "explanation": "Correct answer: Madhepura.",
+     "exam": "60-62nd BPSC (Combined)",
+     "year": "60-62nd BPSC (Combined)",
+     "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.120 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-002"
+    },
+    {
+     "q": "As per Census 2011, which state has the lowest sex-ratio?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Punjab",
+      "B": "Haryana",
+      "C": "Uttar Pradesh",
+      "D": "Bihar"
+     },
+     "answer": "B",
+     "answer_text": "Haryana",
+     "explanation": "Correct answer: Haryana.",
+     "exam": "60-62nd BPSC (Combined)",
+     "year": "60-62nd BPSC (Combined)",
+     "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-003"
+    },
+    {
+     "q": "The percentage of decadal growth of population during 2001-2011 as per Census 2011 is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "21.54",
+      "B": "17.64",
+      "C": "15.89",
+      "D": "19.21"
+     },
+     "answer": "B",
+     "answer_text": "17.64",
+     "explanation": "Correct answer: 17.64.",
+     "exam": "60-62nd BPSC (Combined)",
+     "year": "60-62nd BPSC (Combined)",
+     "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.138 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-004"
+    },
+    {
+     "q": "According to Indian Population Census, 2011, the percentage of literacy among males and females both is lowest for the State of",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Arunachal Pradesh",
+      "B": "Andhra Pradesh",
+      "C": "Bihar",
+      "D": "Jammu and Kashmir"
+     },
+     "answer": "C",
+     "answer_text": "Bihar",
+     "explanation": "Correct answer: Bihar.",
+     "exam": "63rd BPSC",
+     "year": "63rd BPSC",
+     "source": "PYQ - 63rd BPSC Prelims, Q.No.25 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-005"
+    },
+    {
+     "q": "Which Census year is called 'Demographic Divide' in the population study of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1911",
+      "B": "1921",
+      "C": "1931",
+      "D": "1941"
+     },
+     "answer": "B",
+     "answer_text": "1921",
+     "explanation": "Correct answer: 1921.",
+     "exam": "63rd BPSC",
+     "year": "63rd BPSC",
+     "source": "PYQ - 63rd BPSC Prelims, Q.No.39 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-007"
+    },
+    {
+     "q": "As per 2011 Census, the urban population percentage to total population of India was about",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "21",
+      "B": "31",
+      "C": "36",
+      "D": "40"
+     },
+     "answer": "B",
+     "answer_text": "31",
+     "explanation": "Correct answer: 31.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.79 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-008"
+    },
+    {
+     "q": "Among the States of India, Bihar's rank in terms of lowest literacy rate (2011 Census) is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "first",
+      "B": "second",
+      "C": "third",
+      "D": "fourth"
+     },
+     "answer": "A",
+     "answer_text": "first",
+     "explanation": "Correct answer: first.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.88 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-009"
+    },
+    {
+     "q": "As per Census 2011, the female literacy rate in India was",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "60.0 percent",
+      "B": "63.0 percent",
+      "C": "65.5 percent",
+      "D": "68.5 percent"
+     },
+     "answer": "C",
+     "answer_text": "65.5 percent",
+     "explanation": "Correct answer: 65.5 percent.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-010"
+    },
+    {
+     "q": "What is the sex ratio in Bihar State as per the Census of India, 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "893",
+      "B": "916",
+      "C": "918",
+      "D": "925"
+     },
+     "answer": "C",
+     "answer_text": "918",
+     "explanation": "Correct answer: 918.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-012"
+    },
+    {
+     "q": "The district of Bihar which has recorded the highest sex ratio as per the 2011 Census is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Siwan",
+      "B": "Gopalganj",
+      "C": "Saran",
+      "D": "Kishanganj"
+     },
+     "answer": "B",
+     "answer_text": "Gopalganj",
+     "explanation": "Correct answer: Gopalganj.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.26 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-014"
+    },
+    {
+     "q": "Which district of Bihar has recorded the highest density of population (per sq. km) as per the 2011 Census?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sheohar",
+      "B": "Vaishali",
+      "C": "Patna",
+      "D": "Darbhanga"
+     },
+     "answer": "A",
+     "answer_text": "Sheohar",
+     "explanation": "Correct answer: Sheohar.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.29 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-015"
+    },
+    {
+     "q": "Among the following religious groups, which one has recorded the highest percentage of literacy rate as per the 2011 Census?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Christians",
+      "B": "Hindus",
+      "C": "Sikhs",
+      "D": "Jains"
+     },
+     "answer": "D",
+     "answer_text": "Jains",
+     "explanation": "Correct answer: Jains.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.40 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-016"
+    },
+    {
+     "q": "As per the Census 2011, the child sex ratio in Bihar was",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "935",
+      "B": "934",
+      "C": "933",
+      "D": "932"
+     },
+     "answer": "A",
+     "answer_text": "935",
+     "explanation": "Correct answer: 935.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.59 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-017"
+    },
+    {
+     "q": "In which year, first Census was introduced in India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1911",
+      "B": "1921",
+      "C": "1872",
+      "D": "1901"
+     },
+     "answer": "C",
+     "answer_text": "1872",
+     "explanation": "Correct answer: 1872.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.112 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-018"
+    },
+    {
+     "q": "According to the Census of India, 2011, which Scheduled Tribe is largest in India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bhil",
+      "B": "Gond",
+      "C": "Santhal",
+      "D": "Kol"
+     },
+     "answer": "A",
+     "answer_text": "Bhil",
+     "explanation": "Correct answer: Bhil.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.133 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-019"
+    },
+    {
+     "q": "What is the female literacy rate of Bihar as per the Census 2011 of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "50·50%",
+      "B": "51·50%",
+      "C": "61·80%",
+      "D": "71·25%"
+     },
+     "answer": "B",
+     "answer_text": "51·50%",
+     "explanation": "Correct answer: 51·50%.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.140 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-020"
+    },
+    {
+     "q": "According to the National Family Survey-5 released by the Union Ministry of Health and Family Welfare on November 24, 2021, there has been a significant improvement in the sex ratio of Bihar. It has increased from ____ in 2015-2016 to ____ in 2020-2022.",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1062, 1090",
+      "B": "1040, 1070",
+      "C": "1030, 1050",
+      "D": "More than one of the above"
+     },
+     "answer": "A",
+     "answer_text": "1062, 1090",
+     "explanation": "Correct answer: 1062, 1090.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.23 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-021"
+    },
+    {
+     "q": "The urbanization of the State has increased very rapidly in the last ten years. According to the 2011 Census, the level of urbanization in Bihar was just ____ percent, which has increased to ____ percent at present.",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "11.3, 15.3",
+      "B": "12.2, 13.1",
+      "C": "14.4, 15.5",
+      "D": "More than one of the above"
+     },
+     "answer": "A",
+     "answer_text": "11.3, 15.3",
+     "explanation": "Correct answer: 11.3, 15.3.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-022"
+    },
+    {
+     "q": "Choose the correct order of the following districts of Bihar as per the ascending decadal population growth (2001-2011).",
+     "question_type": "ascending_descending_order",
+     "options": {
+      "A": "Siwan < Kishanganj < Madhepura",
+      "B": "Madhepura < Kishanganj < Siwan",
+      "C": "Kishanganj < Madhepura < Siwan",
+      "D": "More than one of the above"
+     },
+     "answer": "A",
+     "answer_text": "Siwan < Kishanganj < Madhepura",
+     "explanation": "Correct answer: Siwan < Kishanganj < Madhepura.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.109 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-023"
+    },
+    {
+     "q": "What is the current population of Gaya district of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "598000",
+      "B": "320000",
+      "C": "780000",
+      "D": "234000"
+     },
+     "answer": "A",
+     "answer_text": "598000",
+     "explanation": "Correct answer: 598000.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.122 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-024"
+    },
+    {
+     "q": "What is the sex ratio in Bihar as per the Census 2011 of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "918",
+      "B": "916",
+      "C": "933",
+      "D": "922"
+     },
+     "answer": "A",
+     "answer_text": "918",
+     "explanation": "Correct answer: 918.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.119 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-026"
+    },
+    {
+     "q": "Choose the correct order of the following districts of Bihar as per the ascending level of urbanization.",
+     "question_type": "ascending_descending_order",
+     "options": {
+      "A": "Patna < Munger < Nalanda",
+      "B": "Munger < Nalanda < Patna",
+      "C": "Nalanda < Munger < Patna",
+      "D": "Nalanda < Patna < Munger"
+     },
+     "answer": "C",
+     "answer_text": "Nalanda < Munger < Patna",
+     "explanation": "Correct answer: Nalanda < Munger < Patna.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.15 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-027"
+    },
+    {
+     "q": "According to the Economic Survey of Bihar 2021-22, what is the level of urbanization in the State at present?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "15·3%",
+      "B": "18·6%",
+      "C": "11·6%",
+      "D": "22·4%"
+     },
+     "answer": "A",
+     "answer_text": "15·3%",
+     "explanation": "Correct answer: 15·3%.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.87 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-029"
+    },
+    {
+     "q": "According to Census 2011, the total population of Bihar is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "10,40,99,452",
+      "B": "12,30,11,000",
+      "C": "8,60,00,000",
+      "D": "13,07,25,310"
+     },
+     "answer": "A",
+     "answer_text": "10,40,99,452",
+     "explanation": "As per Census 2011 Bihar's population is 10,40,99,452 (about 8.6% of India's population), ranking 3rd after UP and Maharashtra.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-01"
+    },
+    {
+     "q": "The motto of the 2011 Census of India was:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "'Our Census, Our Future'",
+      "B": "'Jana Gana Mana'",
+      "C": "'Census for All'",
+      "D": "'Ek Bharat, Census Bharat'"
+     },
+     "answer": "A",
+     "answer_text": "'Our Census, Our Future'",
+     "explanation": "The motto of the 2011 Census was 'Our census, our future'. The 2011 Census was the 15th census, with C. Chandramouli as Commissioner.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-02"
+    },
+    {
+     "q": "The first census of India was conducted in which year, and regular (decennial) census started in which year?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1872 and 1881",
+      "B": "1881 and 1891",
+      "C": "1872 and 1901",
+      "D": "1901 and 1911"
+     },
+     "answer": "A",
+     "answer_text": "1872 and 1881",
+     "explanation": "The first census of India was held in 1872 (during Lord Mayo's time); regular census started in 1881 during Lord Ripon's tenure.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-03"
+    },
+    {
+     "q": "As per Census 2011, the sex ratio of Bihar is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "918",
+      "B": "935",
+      "C": "943",
+      "D": "1021"
+     },
+     "answer": "A",
+     "answer_text": "918",
+     "explanation": "Bihar's sex ratio as per Census 2011 is 918 (national 943). Its child sex ratio (0-6) was 935.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-04"
+    },
+    {
+     "q": "As per Census 2011, what is the population density (per sq km) of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "382",
+      "B": "1106",
+      "C": "900",
+      "D": "1250"
+     },
+     "answer": "B",
+     "answer_text": "1106",
+     "explanation": "The population density of Bihar as per Census 2011 is 1106 per sq km, much higher than the national average of 382.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-05"
+    },
+    {
+     "q": "As per Census 2011, the literacy rate of Bihar is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "61.8%",
+      "B": "74.04%",
+      "C": "71.2%",
+      "D": "51.5%"
+     },
+     "answer": "A",
+     "answer_text": "61.8%",
+     "explanation": "Bihar's literacy rate as per Census 2011 is 61.8% (male 71.2%, female 51.5%). It is the lowest literacy rate among major states.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-06"
+    },
+    {
+     "q": "Which district of Bihar has the highest literacy rate as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna",
+      "B": "Rohtas",
+      "C": "Bhojpur",
+      "D": "Munger"
+     },
+     "answer": "B",
+     "answer_text": "Rohtas",
+     "explanation": "Rohtas (73.4%) recorded the highest literacy rate as per Census 2011, followed by Patna and Bhojpur. Purnia (51.1%) had the lowest.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-07"
+    },
+    {
+     "q": "Which district of Bihar recorded the highest sex ratio (1021) as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gopalganj",
+      "B": "Siwan",
+      "C": "Saran",
+      "D": "Madhubani"
+     },
+     "answer": "A",
+     "answer_text": "Gopalganj",
+     "explanation": "Gopalganj recorded the highest sex ratio (1021) as per Census 2011, followed by Siwan and Saran. Munger (876) had the lowest.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-08"
+    },
+    {
+     "q": "Which THREE districts of Bihar have the largest geographical area as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "West Champaran, Gaya, East Champaran",
+      "B": "Patna, Gaya, Rohtas",
+      "C": "West Champaran, Purnia, Rohtas",
+      "D": "Gaya, Rohtas, Aurangabad"
+     },
+     "answer": "A",
+     "answer_text": "West Champaran, Gaya, East Champaran",
+     "explanation": "The three largest-area districts are West Champaran, Gaya and East Champaran; the smallest three are Sheohar, Arwal and Sheikhpura.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-09"
+    },
+    {
+     "q": "Which THREE districts of Bihar have the highest population as per Census 2011?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna, East Champaran, Muzaffarpur",
+      "B": "Patna, Gaya, Muzaffarpur",
+      "C": "Patna, East Champaran, Begusarai",
+      "D": "Patna, Muzaffarpur, Darbhanga"
+     },
+     "answer": "A",
+     "answer_text": "Patna, East Champaran, Muzaffarpur",
+     "explanation": "As per Census 2011 Patna (58.4 lakh) had the highest population, followed by East Champaran and Muzaffarpur. Sheikhpura had the least.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 6)",
+     "source_id": "AUTH-6-10"
+    }
+   ]
+  }
+ ]
+}

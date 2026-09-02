@@ -1,0 +1,863 @@
+{
+ "subject": "Geography of Bihar",
+ "description": "Eduteria Bihar Tathya Sangrah · Geography of Bihar",
+ "total_questions": 50,
+ "chapters": [
+  {
+   "chapter_name": "3. Geography of Bihar",
+   "questions": [
+    {
+     "q": "The average annual rainfall of Bihar state is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "100 cm",
+      "B": "112 cm",
+      "C": "125 cm",
+      "D": "150 cm"
+     },
+     "answer": "B",
+     "answer_text": "112 cm",
+     "explanation": "Correct answer: 112 cm.",
+     "exam": "2005",
+     "year": "2005",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-087)",
+     "source_id": "CH1-EDU-004"
+    },
+    {
+     "q": "The Chota Nagpur Plateau is mainly formed by:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vindhyan sandstone",
+      "B": "Archaean granite",
+      "C": "Deccan basalt",
+      "D": "Gondwana rocks"
+     },
+     "answer": "B",
+     "answer_text": "Archaean granite",
+     "explanation": "Correct answer: Archaean granite.",
+     "exam": "1998",
+     "year": "1998",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 1998 (BH-EDU-108)",
+     "source_id": "CH1-EDU-006"
+    },
+    {
+     "q": "The Tel river is a tributary of which of the following rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ganga",
+      "B": "Son",
+      "C": "Damodar",
+      "D": "Mahanadi"
+     },
+     "answer": "D",
+     "answer_text": "Mahanadi",
+     "explanation": "Correct answer: Mahanadi.",
+     "exam": "60th-62nd",
+     "year": "60th-62nd",
+     "source": "Eduteria PYQ set — 60th-62nd BPSC Preliminary Exam (BH-EDU-050)",
+     "source_id": "CH1-EDU-007"
+    },
+    {
+     "q": "The holy river Falgu, flowing in Bihar, is formed by the confluence of which of the following rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Son and Punpun",
+      "B": "Gandak and Ghaghara",
+      "C": "Mohana and Lilajan River",
+      "D": "Kosi and Bagmati"
+     },
+     "answer": "C",
+     "answer_text": "Mohana and Lilajan River",
+     "explanation": "Correct answer: Mohana and Lilajan River.",
+     "exam": "68th",
+     "year": "68th",
+     "source": "Eduteria PYQ set — 68th BPSC Preliminary Exam (BH-EDU-018)",
+     "source_id": "CH1-EDU-008"
+    },
+    {
+     "q": "Which of the following is the most recent formation in the geological history of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Plains of Bihar",
+      "B": "Chotanagpur Plateau",
+      "C": "Kaimur Range",
+      "D": "Someshwar Hills"
+     },
+     "answer": "A",
+     "answer_text": "Plains of Bihar",
+     "explanation": "Correct answer: Plains of Bihar.",
+     "exam": "65th",
+     "year": "65th",
+     "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-030)",
+     "source_id": "CH1-EDU-009"
+    },
+    {
+     "q": "The old alluvial soil deposits are found in which of the following areas of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Muzaffarpur and Darbhanga",
+      "B": "Patna and Gaya",
+      "C": "Champaran and Saran",
+      "D": "Purnia and Katihar"
+     },
+     "answer": "B",
+     "answer_text": "Patna and Gaya",
+     "explanation": "Correct answer: Patna and Gaya.",
+     "exam": "65th",
+     "year": "65th",
+     "source": "Eduteria PYQ set — 65th BPSC (Disabled Quota) Preliminary Exam (BH-EDU-031)",
+     "source_id": "CH1-EDU-010"
+    },
+    {
+     "q": "The number of districts situated on the bank of Ganga river in Bihar State is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "21",
+      "B": "17",
+      "C": "12",
+      "D": "6"
+     },
+     "answer": "C",
+     "answer_text": "12",
+     "explanation": "Correct answer: 12.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.24 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-005"
+    },
+    {
+     "q": "The district of Bihar which has a longer length of Ganga river is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bhagalpur",
+      "B": "Katihar",
+      "C": "Patna",
+      "D": "Begusarai"
+     },
+     "answer": "C",
+     "answer_text": "Patna",
+     "explanation": "Correct answer: Patna.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.28 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-006"
+    },
+    {
+     "q": "In which one of the following pairs of Administrative Divisions of Bihar, Ganga river does not flow?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Darbhanga—Munger",
+      "B": "Purnea—Bhagalpur",
+      "C": "Tirhut—Saran",
+      "D": "Kosi—Magadh"
+     },
+     "answer": "D",
+     "answer_text": "Kosi—Magadh",
+     "explanation": "Correct answer: Kosi—Magadh.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.97 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-007"
+    },
+    {
+     "q": "Which is the Asia's largest and freshwater oxbow lake in Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Anupam Lake",
+      "B": "Kusheshwar Lake",
+      "C": "Ghogha Lake",
+      "D": "Kanwar Lake"
+     },
+     "answer": "D",
+     "answer_text": "Kanwar Lake",
+     "explanation": "Correct answer: Kanwar Lake.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.137 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-008"
+    },
+    {
+     "q": "Which river is known as Sorrow of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kosi",
+      "B": "Sone",
+      "C": "Ghaghra",
+      "D": "Ganga"
+     },
+     "answer": "A",
+     "answer_text": "Kosi",
+     "explanation": "Correct answer: Kosi.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.135 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-009"
+    },
+    {
+     "q": "The other name of river Gandak is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Burhi Gandak",
+      "B": "Mahananda",
+      "C": "Narayani",
+      "D": "Punpun"
+     },
+     "answer": "C",
+     "answer_text": "Narayani",
+     "explanation": "Correct answer: Narayani.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.88 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-010"
+    },
+    {
+     "q": "The Triveni Canal has been constructed on which of the following rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kosi",
+      "B": "Sone",
+      "C": "Gandak",
+      "D": "Mayurakshi"
+     },
+     "answer": "C",
+     "answer_text": "Gandak",
+     "explanation": "Correct answer: Gandak.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-011"
+    },
+    {
+     "q": "Phalgu, a sacred river flowing in Bihar, is formed by the confluence of which of the following rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Lilajan and Son rivers",
+      "B": "Son and Mohana rivers",
+      "C": "Mohana and Lilajan rivers",
+      "D": "More than one of the above"
+     },
+     "answer": "C",
+     "answer_text": "Mohana and Lilajan rivers",
+     "explanation": "Correct answer: Mohana and Lilajan rivers.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-012"
+    },
+    {
+     "q": "Prime Minister Narendra Modi recently laid the foundation of Mandal Dam Project to be built on which river?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Koshi",
+      "B": "Burhi Gandak",
+      "C": "Phalgu",
+      "D": "North Koel"
+     },
+     "answer": "D",
+     "answer_text": "North Koel",
+     "explanation": "Correct answer: North Koel.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.141 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-013"
+    },
+    {
+     "q": "Karmanasa river originates in -",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kaimur District",
+      "B": "Vaishali District",
+      "C": "Patna District",
+      "D": "Bikram District"
+     },
+     "answer": "A",
+     "answer_text": "Kaimur District",
+     "explanation": "Correct answer: Kaimur District. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+     "exam": "71st BPSC (2025)",
+     "year": "71st BPSC (2025)",
+     "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.117 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-015"
+    },
+    {
+     "q": "The second largest river basin of India is -",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mahanadi river basin",
+      "B": "Narmada river basin",
+      "C": "Godavari river basin",
+      "D": "Kaveri river basin"
+     },
+     "answer": "C",
+     "answer_text": "Godavari river basin",
+     "explanation": "Correct answer: Godavari river basin. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+     "exam": "71st BPSC (2025)",
+     "year": "71st BPSC (2025)",
+     "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.107 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-016"
+    },
+    {
+     "q": "The river Subarnarekha originates near which of the following villages?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ormanjhi",
+      "B": "Mandar",
+      "C": "Hehal",
+      "D": "Nagri"
+     },
+     "answer": "D",
+     "answer_text": "Nagri",
+     "explanation": "Correct answer: Nagri.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.85 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-017"
+    },
+    {
+     "q": "Which of the following rivers flowing in Bihar is a north flowing river?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bagmati",
+      "B": "Kamla",
+      "C": "Kosi",
+      "D": "Gandak",
+      "E": "None of the above/More than one of the above"
+     },
+     "answer": "E",
+     "answer_text": "None of the above/More than one of the above",
+     "explanation": "Correct answer: None of the above/More than one of the above.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-018"
+    },
+    {
+     "q": "Among the following tributaries, which one is the part of Ganga river basin?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sankh",
+      "B": "North Koel",
+      "C": "South Koel",
+      "D": "Barakar"
+     },
+     "answer": "B",
+     "answer_text": "North Koel",
+     "explanation": "Correct answer: North Koel.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.36 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-019"
+    },
+    {
+     "q": "Piedmont Swamp Soil is found only in which one of the following districts of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Madhubani",
+      "B": "Bhagalpur",
+      "C": "West Champaran",
+      "D": "Sitamarhi"
+     },
+     "answer": "C",
+     "answer_text": "West Champaran",
+     "explanation": "Correct answer: West Champaran.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.96 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-028"
+    },
+    {
+     "q": "Which soil is predominantly found in the districts of Muzaffarpur, Darbhanga and Champaran?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Black soil",
+      "B": "Newer alluvium",
+      "C": "Older alluvium",
+      "D": "Red soil"
+     },
+     "answer": "B",
+     "answer_text": "Newer alluvium",
+     "explanation": "Correct answer: Newer alluvium.",
+     "exam": "63rd BPSC",
+     "year": "63rd BPSC",
+     "source": "PYQ - 63rd BPSC Prelims, Q.No.46 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-029"
+    },
+    {
+     "q": "Which one of the following soils is deposited by rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Red soil",
+      "B": "Black soil",
+      "C": "Alluvial soil",
+      "D": "Laterite soil"
+     },
+     "answer": "C",
+     "answer_text": "Alluvial soil",
+     "explanation": "Correct answer: Alluvial soil.",
+     "exam": "63rd BPSC",
+     "year": "63rd BPSC",
+     "source": "PYQ - 63rd BPSC Prelims, Q.No.37 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-030"
+    },
+    {
+     "q": "Which one of the following districts does not have Dharwar geological formations?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Munger",
+      "B": "Rohtas",
+      "C": "Jamui",
+      "D": "Nawada"
+     },
+     "answer": "B",
+     "answer_text": "Rohtas",
+     "explanation": "Correct answer: Rohtas.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.23 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-031"
+    },
+    {
+     "q": "Among the following districts, which one has larger area under dense deciduous forest cover?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Paschim Champaran",
+      "B": "Gaya",
+      "C": "Kaimur",
+      "D": "Nawada"
+     },
+     "answer": "C",
+     "answer_text": "Kaimur",
+     "explanation": "Correct answer: Kaimur.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.27 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-032"
+    },
+    {
+     "q": "What is the percentage of all types of forest area to the total geographical area of Bihar State?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "7.27",
+      "B": "6.87",
+      "C": "3.21",
+      "D": "12.77"
+     },
+     "answer": "A",
+     "answer_text": "7.27",
+     "explanation": "Correct answer: 7.27.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.99 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-033"
+    },
+    {
+     "q": "Which one of the following districts is having the only National Park of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Nalanda",
+      "B": "Bhagalpur",
+      "C": "West Champaran",
+      "D": "East Champaran"
+     },
+     "answer": "C",
+     "answer_text": "West Champaran",
+     "explanation": "Correct answer: West Champaran.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.100 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-034"
+    },
+    {
+     "q": "Which one of the following wildlife sanctuaries is situated in Munger district of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Valmiki",
+      "B": "Rajgir",
+      "C": "Bhimbandh",
+      "D": "Gautam Buddha"
+     },
+     "answer": "C",
+     "answer_text": "Bhimbandh",
+     "explanation": "Correct answer: Bhimbandh.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.25 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-035"
+    },
+    {
+     "q": "Which of the following National Parks/Wildlife Sanctuaries are in Bihar? 1. Valmiki National Park 2. Dudhwa National Park 3. Gajner Wildlife Sanctuary 4. Bhimbandh Wildlife Sanctuary",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1 and 4",
+      "B": "2 and 3",
+      "C": "1 and 3",
+      "D": "2 and 4"
+     },
+     "answer": "A",
+     "answer_text": "1 and 4",
+     "explanation": "Correct answer: 1 and 4.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.86 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-036"
+    },
+    {
+     "q": "In which district of Bihar, Telhar Kund Waterfall is located?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kaimur",
+      "B": "Rohtas",
+      "C": "Sasaram",
+      "D": "Nawada"
+     },
+     "answer": "A",
+     "answer_text": "Kaimur",
+     "explanation": "Correct answer: Kaimur.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-039"
+    },
+    {
+     "q": "Which one of the following rivers is different from the others?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Tungabhadra",
+      "B": "Narmada",
+      "C": "Penganga",
+      "D": "Mahanadi"
+     },
+     "answer": "B",
+     "answer_text": "Narmada",
+     "explanation": "Correct answer: Narmada.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.61 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-042"
+    },
+    {
+     "q": "What percentage of Bihar's total land area is plain?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "96%",
+      "B": "90%",
+      "C": "85%",
+      "D": "75%"
+     },
+     "answer": "A",
+     "answer_text": "96%",
+     "explanation": "About 96% of Bihar's land area is plain, formed by deposits of the Ganga and its tributaries.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-01"
+    },
+    {
+     "q": "Which is the highest peak of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Santpur (242 m)",
+      "B": "Someshwar Hill (874 m)",
+      "C": "Mandar Hill",
+      "D": "Rajgir Hill"
+     },
+     "answer": "B",
+     "answer_text": "Someshwar Hill (874 m)",
+     "explanation": "The Someshwar Hill (874 m) in the Someshwar range of the Hilly/Terai region is the highest peak of Bihar.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-02"
+    },
+    {
+     "q": "Which geological rock formation is the OLDEST hilly region of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vindhyan rocks",
+      "B": "Tertiary rocks",
+      "C": "Dharwad rocks",
+      "D": "Quaternary deposits"
+     },
+     "answer": "C",
+     "answer_text": "Dharwad rocks",
+     "explanation": "The Dharwad rocks (found in Munger, Jamui, Nawada, Gaya, Rajgir) are the oldest hilly region of Bihar. Vindhyan rocks (Kaimur, Rohtas) are the second oldest.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-03"
+    },
+    {
+     "q": "The region of West Champaran (Someshwar hills), being the newest hilly region of Bihar, belongs to which rock series?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Dharwad",
+      "B": "Vindhyan",
+      "C": "Tertiary",
+      "D": "Quaternary"
+     },
+     "answer": "C",
+     "answer_text": "Tertiary",
+     "explanation": "The Tertiary rocks (Pleistocene) form the area on the Someshwar hills in West Champaran — the newest hilly region of Bihar.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-04"
+    },
+    {
+     "q": "According to Koppen's classification, the climate of northern and southern Bihar is respectively:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Aw and Cwg",
+      "B": "Cwg and Aw",
+      "C": "Caw and Aw",
+      "D": "Aw and Caw"
+     },
+     "answer": "B",
+     "answer_text": "Cwg and Aw",
+     "explanation": "Koppen classified the climate of northern Bihar as Cwg and southern Bihar as Aw.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-05"
+    },
+    {
+     "q": "Which is the hottest and coldest district of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gaya (both)",
+      "B": "Patna (both)",
+      "C": "Gaya (hottest) and Sheohar (coldest)",
+      "D": "Rohtas (both)"
+     },
+     "answer": "A",
+     "answer_text": "Gaya (both)",
+     "explanation": "Gaya is both the hottest district (summer temp ~47°C) and the coldest district of Bihar.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-06"
+    },
+    {
+     "q": "Which district recorded the highest rainfall (204.7 cm) in 2023-24, and which the lowest (63.5 cm)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kishanganj and Arwal",
+      "B": "West Champaran and Gaya",
+      "C": "Kishanganj and Gaya",
+      "D": "Supaul and Arwal"
+     },
+     "answer": "A",
+     "answer_text": "Kishanganj and Arwal",
+     "explanation": "In 2023-24 the highest rainfall was recorded in Kishanganj (204.7 cm) and the lowest in Arwal (63.5 cm). The average rainfall of Bihar is about 112 cm.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-07"
+    },
+    {
+     "q": "The river Ganga enters Bihar near which place?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Chausa (Buxar)",
+      "B": "Valmikinagar",
+      "C": "Bhainsalotan",
+      "D": "Maner"
+     },
+     "answer": "A",
+     "answer_text": "Chausa (Buxar)",
+     "explanation": "The Ganga enters Bihar near Chausa in Buxar district. Its total length in Bihar is 445 km, passing through 12 districts.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-08"
+    },
+    {
+     "q": "Which river is known as the 'Sorrow of Bihar' and joins the Ganga at Kursela (Katihar)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gandak",
+      "B": "Kosi",
+      "C": "Bagmati",
+      "D": "Mahananda"
+     },
+     "answer": "B",
+     "answer_text": "Kosi",
+     "explanation": "The Kosi, notorious for changing its course and causing floods, is called the 'Sorrow (curse) of Bihar'. It joins the Ganga at Kursela (Katihar).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-09"
+    },
+    {
+     "q": "Which river is also known as Narayani (in the plains)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kosi",
+      "B": "Gandak",
+      "C": "Ghaghra",
+      "D": "Son"
+     },
+     "answer": "B",
+     "answer_text": "Gandak",
+     "explanation": "The Gandak is also called Narayani, Sapta Gandaki and Shaligrami. Its main branch enters Bihar at Bhainsalotan (West Champaran).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-10"
+    },
+    {
+     "q": "The Falgu (Phalgu) river of Gaya is formed by the confluence of which two rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Son and Punpun",
+      "B": "Lilajan (Niranjana) and Mohana",
+      "C": "Gandak and Burhi Gandak",
+      "D": "Kiul and Ajay"
+     },
+     "answer": "B",
+     "answer_text": "Lilajan (Niranjana) and Mohana",
+     "explanation": "The Falgu is formed by the confluence of the Lilajan (Niranjana) and Mohana rivers and joins the Punpun near Fatuha. Vishnupad temple lies on its bank.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-11"
+    },
+    {
+     "q": "The Triveni Canal is constructed on which river?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kosi",
+      "B": "Son",
+      "C": "Gandak",
+      "D": "Bagmati"
+     },
+     "answer": "C",
+     "answer_text": "Gandak",
+     "explanation": "The Triveni Canal (part of the Gandak project along with Tirhut and Don canals) is on the Gandak river and irrigates West Champaran, East Champaran, Muzaffarpur and Vaishali.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-12"
+    },
+    {
+     "q": "Which soil of North Bihar is found around the Someshwar range in West Champaran and is very fertile?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Terai soil",
+      "B": "Piedmont soil",
+      "C": "Bangar soil",
+      "D": "Khadar soil"
+     },
+     "answer": "B",
+     "answer_text": "Piedmont soil",
+     "explanation": "The Piedmont soil is found around the Someshwar range in the north-west of West Champaran; it has high moisture and is suitable for paddy and sugarcane.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-13"
+    },
+    {
+     "q": "Which is the ONLY National Park of Bihar, located in West Champaran?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bhimbandh",
+      "B": "Valmikinagar",
+      "C": "Kaimur",
+      "D": "Rajgir"
+     },
+     "answer": "B",
+     "answer_text": "Valmikinagar",
+     "explanation": "Valmikinagar National Park in West Champaran is the only National Park of Bihar (area 1779.71 sq km); it also contains the only tiger reserve.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-14"
+    },
+    {
+     "q": "Which is the largest wildlife sanctuary of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kaimur Wildlife Sanctuary",
+      "B": "Bhimbandh Wildlife Sanctuary",
+      "C": "Kanwar Lake",
+      "D": "Valmikinagar National Park"
+     },
+     "answer": "A",
+     "answer_text": "Kaimur Wildlife Sanctuary",
+     "explanation": "The Kaimur Wildlife Sanctuary (Rohtas-Kaimur), about 1784 sq km, is the largest wildlife sanctuary of Bihar.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-15"
+    },
+    {
+     "q": "Which Bihar sanctuary is known as India's first dolphin sanctuary?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kanwar Lake",
+      "B": "Vikramshila Dolphin Sanctuary",
+      "C": "Bhimbandh",
+      "D": "Nagi Dam"
+     },
+     "answer": "B",
+     "answer_text": "Vikramshila Dolphin Sanctuary",
+     "explanation": "The Vikramshila Gangetic Dolphin Sanctuary (Bhagalpur, ~60 km along the Ganga from Munger to Bhagalpur) is India's first dolphin sanctuary.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-16"
+    },
+    {
+     "q": "As per the Forest Status Report 2023, the forest cover of Bihar is about what percentage of the state's geographical area?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "8%",
+      "B": "12%",
+      "C": "5%",
+      "D": "20%"
+     },
+     "answer": "A",
+     "answer_text": "8%",
+     "explanation": "According to the Forest Status Report 2023, the forest cover of Bihar is 7532.45 sq km, about 8% of the total geographical area.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-17"
+    },
+    {
+     "q": "Which doab lies between the Ghaghra and Gandak rivers in north Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gandak-Kosi Doab",
+      "B": "Ghaghra-Gandak Doab",
+      "C": "Ganga-Son Doab",
+      "D": "Kosi-Mahananda Doab"
+     },
+     "answer": "B",
+     "answer_text": "Ghaghra-Gandak Doab",
+     "explanation": "The three doabs of north Bihar are the Ghaghra-Gandak, Gandak-Kosi and Kosi-Mahananda doabs.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-18"
+    },
+    {
+     "q": "Bihar's wetland Kanwar Lake, the first Ramsar site of the state, lies in which district?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Darbhanga",
+      "B": "Begusarai",
+      "C": "Bhagalpur",
+      "D": "Saharsa"
+     },
+     "answer": "B",
+     "answer_text": "Begusarai",
+     "explanation": "Kanwar Lake (a shelter for Siberian birds) is in Begusarai district and was Bihar's first wetland included in the Ramsar list.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 3)",
+     "source_id": "AUTH-3-19"
+    }
+   ]
+  }
+ ]
+}

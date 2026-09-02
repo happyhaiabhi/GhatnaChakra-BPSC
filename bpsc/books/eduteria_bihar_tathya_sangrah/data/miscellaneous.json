@@ -1,0 +1,709 @@
+{
+ "subject": "Bihar Special Miscellaneous",
+ "description": "Eduteria Bihar Tathya Sangrah · Bihar Special Miscellaneous",
+ "total_questions": 41,
+ "chapters": [
+  {
+   "chapter_name": "10. Bihar Special Miscellaneous",
+   "questions": [
+    {
+     "q": "The world's first republic was established at Vaishali by whom?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mallas",
+      "B": "Vajji Sangh (as a distinct clan)",
+      "C": "Shakya",
+      "D": "Lichchhavi"
+     },
+     "answer": "D",
+     "answer_text": "Lichchhavi",
+     "explanation": "Correct answer: Lichchhavi.",
+     "exam": "48th-52th",
+     "year": "48th-52th",
+     "source": "Eduteria PYQ set — 48th-52th BPSC Preliminary Exam (BH-EDU-058)",
+     "source_id": "CH10-EDU-002"
+    },
+    {
+     "q": "Match the following 'World's First' facts with the correct place/person associated with Bihar:\nA. World's first democratic republic\nB. World's first university\nC. World's first prosperous city\nD. World's first astronomer 1. Nalanda University 2. Aryabhatta 3. Lichchhavi (Vaishali) 4. Pataliputra",
+     "question_type": "match_the_following",
+     "options": {
+      "A": "A-3, B-1, C-4, D-2",
+      "B": "A-1, B-3, C-2, D-4",
+      "C": "A-3, B-4, C-1, D-2",
+      "D": "A-4, B-1, C-3, D-2"
+     },
+     "answer": "A",
+     "answer_text": "A-3 (Lichchhavi/Vaishali), B-1 (Nalanda University), C-4 (Pataliputra), D-2 (Aryabhatta)",
+     "explanation": "Lichchhavi (Vaishali) is regarded as the world's first democratic republic, Nalanda as the world's first university, Pataliputra as the world's first prosperous city, and Aryabhatta as the world's first astronomer.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-001"
+    },
+    {
+     "q": "Who was the Temporary (Provisional) Chairman of the Constituent Assembly of India, and who was its Permanent Chairman?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Temporary - Dr. Sachchidanand Sinha; Permanent - Dr. Rajendra Prasad",
+      "B": "Temporary - Dr. Rajendra Prasad; Permanent - Dr. Sachchidanand Sinha",
+      "C": "Temporary - Dr. Sachchidanand Sinha; Permanent - Mahamaya Prasad Sinha",
+      "D": "Temporary - Satyendra Prasanna Sinha; Permanent - Dr. Rajendra Prasad"
+     },
+     "answer": "A",
+     "answer_text": "Temporary - Dr. Sachchidanand Sinha; Permanent - Dr. Rajendra Prasad",
+     "explanation": "Dr. Sachchidanand Sinha, a Bihari leader, served as the temporary/provisional Chairman of the Constituent Assembly, while Dr. Rajendra Prasad became its permanent Chairman.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-002"
+    },
+    {
+     "q": "Who was the first Indian to hold the post of Governor under British rule (of any province)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Satyendra Prasanna Sinha",
+      "B": "Sir James Sifton",
+      "C": "Jairamdas Daulatram",
+      "D": "Mohammad Yunus"
+     },
+     "answer": "A",
+     "answer_text": "Satyendra Prasanna Sinha",
+     "explanation": "Satyendra Prasanna Sinha was the first Indian to be appointed as Governor of a province under British rule.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-003"
+    },
+    {
+     "q": "Who was the first Governor of Bihar after India's independence, and in which year did he take office?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Jairamdas Daulatram, 1947",
+      "B": "Sir James Sifton, 1935",
+      "C": "Satyendra Prasanna Sinha, 1947",
+      "D": "Mohammad Yunus, 1947"
+     },
+     "answer": "A",
+     "answer_text": "Jairamdas Daulatram, 1947",
+     "explanation": "Jairamdas Daulatram became the first Governor of independent Bihar in 1947, while Sir James Sifton (1935) had been the first Governor of Bihar under British rule.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-004"
+    },
+    {
+     "q": "Consider the following statements regarding Chief Ministers of Bihar:\n1. Mohammad Yunus was the first Chief Minister of Bihar under British rule (1937).\n2. Shri Krishna Singh was the first Chief Minister of independent Bihar.\n3. Bhola Paswan Shastri was the first Harijan (Dalit) Chief Minister of Bihar.\n4. Smt. Rabri Devi was the first woman Chief Minister of Bihar.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "All four statements are correct: Mohammad Yunus (1937, British-era CM), Shri Krishna Singh (first CM of independent Bihar), Bhola Paswan Shastri (first Harijan CM), and Rabri Devi (first woman CM).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-005"
+    },
+    {
+     "q": "Who was the first Independent (non-party affiliated) Chief Minister of Bihar, and who was the first Muslim Chief Minister of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mahamaya Prasad Sinha (Independent); Abdul Ghafoor (Muslim)",
+      "B": "Abdul Ghafoor (Independent); Mahamaya Prasad Sinha (Muslim)",
+      "C": "Bhola Paswan Shastri (Independent); Mohammad Yunus (Muslim)",
+      "D": "Mohammad Yunus (Independent); Abdul Ghafoor (Muslim)"
+     },
+     "answer": "A",
+     "answer_text": "Mahamaya Prasad Sinha (Independent); Abdul Ghafoor (Muslim)",
+     "explanation": "Mahamaya Prasad Sinha was Bihar's first Chief Minister not belonging to the Congress party, while Abdul Ghafoor was Bihar's first Muslim Chief Minister.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-006"
+    },
+    {
+     "q": "When was the Patna High Court established, and who was its first (British) Chief Justice?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "3 February 1916; Sir Edward Maynard Des Champs Camier",
+      "B": "3 February 1916; Sir Syed Fazal Ali",
+      "C": "15 August 1947; Sir Edward Maynard Des Champs Camier",
+      "D": "2 March 1912; Sir Syed Fazal Ali"
+     },
+     "answer": "A",
+     "answer_text": "3 February 1916; Sir Edward Maynard Des Champs Camier",
+     "explanation": "The Patna High Court was established on 3 February 1916, with Sir Edward Maynard Des Champs Camier as its first Chief Justice.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-007"
+    },
+    {
+     "q": "Who was the first Indian Chief Justice of the Patna High Court, and who was the first Bihari to become Chief Justice of the Supreme Court of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sir Syed Fazal Ali (Patna HC); Bhuvaneshwar Prasad Sinha (Supreme Court)",
+      "B": "Bhuvaneshwar Prasad Sinha (Patna HC); Sir Syed Fazal Ali (Supreme Court)",
+      "C": "Sir Edward Camier (Patna HC); Sir Syed Fazal Ali (Supreme Court)",
+      "D": "Sir Syed Fazal Ali for both"
+     },
+     "answer": "A",
+     "answer_text": "Sir Syed Fazal Ali (Patna HC); Bhuvaneshwar Prasad Sinha (Supreme Court)",
+     "explanation": "Sir Syed Fazal Ali was the first Indian to become Chief Justice of the Patna High Court, while Bhuvaneshwar Prasad Sinha was the first person from Bihar to become Chief Justice of India.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-008"
+    },
+    {
+     "q": "Who was the first Speaker of the Bihar Legislative Assembly, and who was the first Chairman of the Bihar Legislative Council?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ramdayalu Singh (Speaker); Rajiv Ranjan Prasad Singh (Chairman)",
+      "B": "Rajiv Ranjan Prasad Singh (Speaker); Ramdayalu Singh (Chairman)",
+      "C": "Ramdhari Singh Dinkar (Speaker); Ramdayalu Singh (Chairman)",
+      "D": "Shri Krishna Singh (Speaker); Ramdayalu Singh (Chairman)"
+     },
+     "answer": "A",
+     "answer_text": "Ramdayalu Singh (Speaker); Rajiv Ranjan Prasad Singh (Chairman)",
+     "explanation": "Ramdayalu Singh was the first Speaker of the Bihar Legislative Assembly, and Rajiv Ranjan Prasad Singh was the first Chairman of the Bihar Legislative Council.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-009"
+    },
+    {
+     "q": "Who was the first Jnanpith Award winner from Bihar, and who was the first Ashok Chakra awardee from Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ramdhari Singh Dinkar (Jnanpith); Randhir Verma (Ashok Chakra)",
+      "B": "Randhir Verma (Jnanpith); Ramdhari Singh Dinkar (Ashok Chakra)",
+      "C": "Nagarjun (Jnanpith); Randhir Verma (Ashok Chakra)",
+      "D": "Ramdhari Singh Dinkar (Jnanpith); Jayaprakash Narayan (Ashok Chakra)"
+     },
+     "answer": "A",
+     "answer_text": "Ramdhari Singh Dinkar (Jnanpith); Randhir Verma (Ashok Chakra)",
+     "explanation": "Ramdhari Singh Dinkar was the first Jnanpith Award winner from Bihar, and Randhir Verma was the first Ashok Chakra (India's highest peacetime gallantry award) recipient from Bihar.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-010"
+    },
+    {
+     "q": "Consider the following statements regarding the earliest newspapers of Bihar:\n1. Bihar Bandhu (1874) was the first Hindi newspaper of Bihar.\n2. The Bihar Herald (1875) was the first English Weekly newspaper of Bihar.\n3. The Searchlight (1918) was the first English Daily newspaper of Bihar.\n4. Nur-al-Anwar (1876) was the first Urdu newspaper of Bihar.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "All four statements are correct as per the chronology of Bihar's earliest newspapers: Bihar Bandhu (1874, Hindi), The Bihar Herald (1875, English Weekly), The Searchlight (1918, English Daily), and Nur-al-Anwar (1876, Urdu).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-011"
+    },
+    {
+     "q": "Where was the first Hindi printing press of Bihar established, and what was it called?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bihar Bandhu Press",
+      "B": "Searchlight Press",
+      "C": "Patna College Press",
+      "D": "Sarvhitaishi Press"
+     },
+     "answer": "A",
+     "answer_text": "Bihar Bandhu Press",
+     "explanation": "The first Hindi printing press in Bihar was the Bihar Bandhu Press.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-012"
+    },
+    {
+     "q": "Which town was the site of the first Municipality of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Arrah",
+      "B": "Patna",
+      "C": "Gaya",
+      "D": "Bhagalpur"
+     },
+     "answer": "A",
+     "answer_text": "Arrah",
+     "explanation": "Arrah was the site of the first Municipality established in Bihar.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-013"
+    },
+    {
+     "q": "Who was the first English traveller to visit Bihar, and in which year?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ralph Fitch, 1587",
+      "B": "William Hawkins, 1608",
+      "C": "Thomas Roe, 1615",
+      "D": "Francois Bernier, 1665"
+     },
+     "answer": "A",
+     "answer_text": "Ralph Fitch, 1587",
+     "explanation": "Ralph Fitch was the first English traveller to visit Bihar, in 1587.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-014"
+    },
+    {
+     "q": "Consider the following 'largest in Bihar' facts:\n1. Largest river of Bihar - Ganga\n2. Largest city of Bihar - Patna\n3. Largest airport of Bihar - Jayprakash Narayan Airport, Patna\n4. Largest railway junction of Bihar - Patna Junction\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "All four statements are correct: Ganga is Bihar's largest river, Patna its largest city, Jayprakash Narayan Airport (Patna) its largest airport, and Patna Junction its largest railway junction.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-015"
+    },
+    {
+     "q": "Which railway station in Bihar has the longest railway platform, and which bridge is the largest road bridge of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sonpur (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+      "B": "Patna Junction (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+      "C": "Sonpur (longest platform); Vikramshila Setu (largest road bridge)",
+      "D": "Mahatma Gandhi Setu (longest platform); Sonpur (largest road bridge)"
+     },
+     "answer": "A",
+     "answer_text": "Sonpur (longest platform); Mahatma Gandhi Setu (largest road bridge)",
+     "explanation": "Sonpur has the longest railway platform in Bihar, while the Mahatma Gandhi Setu (across the Ganga) is the largest road bridge in Bihar.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-016"
+    },
+    {
+     "q": "Which fair is the largest fair of Bihar, and where is it held?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Harihar Nath fair (Sonpur Mela)",
+      "B": "Chhath fair (Patna)",
+      "C": "Rajgir Mahotsav",
+      "D": "Pitru Paksha Mela (Gaya)"
+     },
+     "answer": "A",
+     "answer_text": "Harihar Nath fair (Sonpur Mela)",
+     "explanation": "The Harihar Nath fair, popularly known as Sonpur Mela, is the largest fair of Bihar, held at Sonpur.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-017"
+    },
+    {
+     "q": "Which was the first oil refinery of Bihar, and which was the first irrigation project of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Barauni Refinery (oil); Son Multipurpose Project (irrigation)",
+      "B": "Son Multipurpose Project (oil); Barauni Refinery (irrigation)",
+      "C": "Barauni Refinery (oil); Kosi Project (irrigation)",
+      "D": "Numaligarh Refinery (oil); Son Multipurpose Project (irrigation)"
+     },
+     "answer": "A",
+     "answer_text": "Barauni Refinery (oil); Son Multipurpose Project (irrigation)",
+     "explanation": "Barauni Refinery was Bihar's first oil refinery, and the Son Multipurpose Project was Bihar's first irrigation project.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-018"
+    },
+    {
+     "q": "Which was the first planetarium of Bihar, and where is the second planetarium of Bihar located?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Indira Gandhi Planetarium, Patna (first); Darbhanga (second)",
+      "B": "Darbhanga (first); Indira Gandhi Planetarium, Patna (second)",
+      "C": "Indira Gandhi Planetarium, Gaya (first); Patna (second)",
+      "D": "Aryabhatta Planetarium, Patna (first); Munger (second)"
+     },
+     "answer": "A",
+     "answer_text": "Indira Gandhi Planetarium, Patna (first); Darbhanga (second)",
+     "explanation": "The Indira Gandhi Planetarium in Patna is Bihar's first planetarium, and Darbhanga is home to Bihar's second planetarium.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-019"
+    },
+    {
+     "q": "Consider the following statements regarding universities of Bihar:\n1. Patna University (1917) was the first university of modern Bihar.\n2. Nalanda Open University was the first open university of Bihar.\n3. Magadh University is the largest university of Bihar.\n4. Vikramshila University was established by King Dharmapala.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "All four statements are correct: Patna University (1917) was the first modern university, Nalanda Open University the first open university, Magadh University the largest university (by affiliated colleges), and Vikramshila University was established by the Pala king Dharmapala.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-020"
+    },
+    {
+     "q": "Which was the first college of Bihar, and on what date was it established?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna College, 9 January 1863",
+      "B": "Patna University, 1 October 1917",
+      "C": "Magadh University, 1962",
+      "D": "Bihar National College, 1889"
+     },
+     "answer": "A",
+     "answer_text": "Patna College, 9 January 1863",
+     "explanation": "Patna College, established on 9 January 1863, was the first college of Bihar.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-021"
+    },
+    {
+     "q": "Which district of Bihar is generally recorded as the hottest district in the state?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gaya",
+      "B": "Patna",
+      "C": "Purnia",
+      "D": "Rohtas"
+     },
+     "answer": "A",
+     "answer_text": "Gaya",
+     "explanation": "Gaya district records among the highest temperatures in Bihar and is often cited as the hottest district of the state.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-022"
+    },
+    {
+     "q": "Which is the largest district of Bihar by area, and which is the smallest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "West Champaran (largest); Sheohar (smallest)",
+      "B": "Gaya (largest); Sheikhpura (smallest)",
+      "C": "West Champaran (largest); Arwal (smallest)",
+      "D": "Rohtas (largest); Sheohar (smallest)"
+     },
+     "answer": "A",
+     "answer_text": "West Champaran (largest); Sheohar (smallest)",
+     "explanation": "West Champaran is Bihar's largest district by geographical area, while Sheohar is the smallest.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH10-NEW-023"
+    },
+    {
+     "q": "Who was the first Chief Minister of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Shri Krishna Singh",
+      "B": "Satya Pal Malik",
+      "C": "Nitish Kumar",
+      "D": "Rabri Devi"
+     },
+     "answer": "A",
+     "answer_text": "Shri Krishna Singh",
+     "explanation": "Correct answer: Shri Krishna Singh.",
+     "exam": "66th BPSC",
+     "year": "66th BPSC",
+     "source": "PYQ - 66th BPSC Prelims, Q.No.138 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-002"
+    },
+    {
+     "q": "Who was the first Indian Governor of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Brij Kishor Prasad",
+      "B": "B. P. Mandal",
+      "C": "Satyendra Prasanna Sinha",
+      "D": "Dr. Shri Krishna Singh"
+     },
+     "answer": "C",
+     "answer_text": "Satyendra Prasanna Sinha",
+     "explanation": "Correct answer: Satyendra Prasanna Sinha.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.118 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-003"
+    },
+    {
+     "q": "Who among the following was the first Governor of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sir James David Sifton",
+      "B": "Sir Hugh Dow",
+      "C": "Sir Maurice Garnier Hallett",
+      "D": "More than one of the above"
+     },
+     "answer": "A",
+     "answer_text": "Sir James David Sifton",
+     "explanation": "Correct answer: Sir James David Sifton.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.57 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-007"
+    },
+    {
+     "q": "The first Hindi daily newspaper to be published in Bihar was",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kshatriya Samachar",
+      "B": "Udyoga",
+      "C": "Sarwa Hitaishi",
+      "D": "Chaitanya Chandrika"
+     },
+     "answer": "C",
+     "answer_text": "Sarwa Hitaishi",
+     "explanation": "Correct answer: Sarwa Hitaishi.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.69 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-012"
+    },
+    {
+     "q": "India's first textile university will be set up in which of the following states ?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Madhya Pradesh",
+      "B": "Bihar",
+      "C": "Gujarat",
+      "D": "Odisha"
+     },
+     "answer": "C",
+     "answer_text": "Gujarat",
+     "explanation": "Correct answer: Gujarat.",
+     "exam": "60-62nd BPSC (Combined)",
+     "year": "60-62nd BPSC (Combined)",
+     "source": "PYQ - 60-62nd BPSC (Combined) Prelims, Q.No.63 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-026"
+    },
+    {
+     "q": "World's first democratic republic is associated with which place of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vaishali",
+      "B": "Pataliputra",
+      "C": "Rajgir",
+      "D": "Bodh Gaya"
+     },
+     "answer": "A",
+     "answer_text": "Vaishali",
+     "explanation": "The Lichchhavi republic of Vaishali is regarded as the world's first democratic republic.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-01"
+    },
+    {
+     "q": "World's first university is regarded as:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Nalanda University",
+      "B": "Taxila",
+      "C": "Vikramshila",
+      "D": "Odantapuri"
+     },
+     "answer": "A",
+     "answer_text": "Nalanda University",
+     "explanation": "Nalanda University is called the world's first university. Aryabhatta is considered the world's first astronomer.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-02"
+    },
+    {
+     "q": "Who was the first President of India, belonging to Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Dr. Rajendra Prasad",
+      "B": "Dr. Zakir Husain",
+      "C": "Ram Nath Kovind",
+      "D": "V.V. Giri"
+     },
+     "answer": "A",
+     "answer_text": "Dr. Rajendra Prasad",
+     "explanation": "Dr. Rajendra Prasad of Bihar was the first President of India. Dr. Zakir Husain and Ram Nath Kovind were Bihar Governors who later became President.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-03"
+    },
+    {
+     "q": "Who was the first Chief Minister of independent Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mohammad Yunus",
+      "B": "Shri Krishna Singh",
+      "C": "Bhola Paswan Shastri",
+      "D": "Mahamaya Prasad Sinha"
+     },
+     "answer": "B",
+     "answer_text": "Shri Krishna Singh",
+     "explanation": "Shri Krishna Singh was the first Chief Minister of independent Bihar; Mohammad Yunus (1937) was the first CM under British rule.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-04"
+    },
+    {
+     "q": "Who was the first woman Chief Minister of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Smt. Rabri Devi",
+      "B": "Smt. Prabhavati Devi",
+      "C": "Smt. Shailbala Rai",
+      "D": "Smt. Vidyavasini Devi"
+     },
+     "answer": "A",
+     "answer_text": "Smt. Rabri Devi",
+     "explanation": "Smt. Rabri Devi was the first woman Chief Minister of Bihar. Bhola Paswan Shastri was the first Harijan CM, Mahamaya Prasad Sinha the first independent CM.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-05"
+    },
+    {
+     "q": "The first Hindi newspaper of Bihar, 'Bihar Bandhu', was started in which year?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1874",
+      "B": "1875",
+      "C": "1918",
+      "D": "1876"
+     },
+     "answer": "A",
+     "answer_text": "1874",
+     "explanation": "'Bihar Bandhu' (1874) was the first Hindi newspaper; the first English weekly was 'The Bihar Herald' (1875) and the first English daily was 'The Searchlight' (1918).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-06"
+    },
+    {
+     "q": "Which was the first municipality of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Arrah",
+      "B": "Patna",
+      "C": "Gaya",
+      "D": "Darbhanga"
+     },
+     "answer": "A",
+     "answer_text": "Arrah",
+     "explanation": "Arrah was the first municipality of Bihar. The first English traveller to visit Bihar was Ralph Fitch (1587).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-07"
+    },
+    {
+     "q": "Which is the largest road bridge of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mahatma Gandhi Setu",
+      "B": "Rajendra Setu",
+      "C": "Ganga Setu, Patna",
+      "D": "Digha-Sonpur Setu"
+     },
+     "answer": "A",
+     "answer_text": "Mahatma Gandhi Setu",
+     "explanation": "The Mahatma Gandhi Setu is the largest road bridge of Bihar. Sonpur has the longest railway platform.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-08"
+    },
+    {
+     "q": "Which is the largest fair of Bihar, held at Sonepur?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Harihar Nath (Sonpur) Fair",
+      "B": "Saurath Mela",
+      "C": "Pitru Paksha Mela",
+      "D": "Janaki Mela"
+     },
+     "answer": "A",
+     "answer_text": "Harihar Nath (Sonpur) Fair",
+     "explanation": "The Harihar Nath (Sonepur) fair is the largest fair of Bihar. The first oil refinery is Barauni and the first irrigation project is the Son Multipurpose Project.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-09"
+    },
+    {
+     "q": "Which district of Bihar is the largest (by area) and which is the smallest?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "West Champaran and Sheohar",
+      "B": "Gaya and Arwal",
+      "C": "Rohtas and Sheikhpura",
+      "D": "Patna and Sheohar"
+     },
+     "answer": "A",
+     "answer_text": "West Champaran and Sheohar",
+     "explanation": "West Champaran is the largest district of Bihar and Sheohar the smallest (by area).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-10"
+    },
+    {
+     "q": "Which is the first university of modern Bihar, established in 1917?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna University",
+      "B": "Magadh University",
+      "C": "Nalanda Open University",
+      "D": "Bihar University"
+     },
+     "answer": "A",
+     "answer_text": "Patna University",
+     "explanation": "Patna University (1917) was the first university of modern Bihar. Nalanda Open University was the first open university and Magadh University is the largest.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-11"
+    },
+    {
+     "q": "Which was the first college of Bihar, established on 9 January 1863?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna College",
+      "B": "Gaya College",
+      "C": "Science College, Patna",
+      "D": "Bhagalpur College"
+     },
+     "answer": "A",
+     "answer_text": "Patna College",
+     "explanation": "Patna College, established on 9 January 1863, was the first college of Bihar. The hottest and coldest district of Bihar is Gaya.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 10)",
+     "source_id": "AUTH-10-12"
+    }
+   ]
+  }
+ ]
+}

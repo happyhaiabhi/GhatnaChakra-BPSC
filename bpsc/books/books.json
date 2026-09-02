@@ -8,7 +8,8 @@
   "color": "#C9897B",
   "dataDir": ".",
   "chaptersFile": "data/chapters.json",
-  "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions."
+  "description": "4,441 verified questions across 12 subjects and 391 chapters, including 590 Bihar Special questions.",
+  "cover": "books/covers/bpsc_ghatna_chakra.jpg"
  },
  {
   "id": "crown",
@@ -19,7 +20,8 @@
   "color": "#D8A06E",
   "dataDir": "books/crown/data",
   "chaptersFile": "chapters.json",
-  "description": "7 subjects · 44 chapters · 867 verified questions"
+  "description": "7 subjects · 44 chapters · 867 verified questions",
+  "cover": "books/covers/crown.jpg"
  },
  {
   "id": "tarkas",
@@ -30,7 +32,8 @@
   "color": "#C9897B",
   "dataDir": "books/tarkas/data",
   "chaptersFile": "chapters.json",
-  "description": "11 subjects · 59 chapters · 1,950 verified BPSC Prelims questions from the Priyadarshani series."
+  "description": "11 subjects · 59 chapters · 1,950 verified BPSC Prelims questions from the Priyadarshani series.",
+  "cover": "books/covers/tarkas.jpg"
  },
  {
   "id": "tarkash_annual",
@@ -41,7 +44,8 @@
   "color": "#C9897B",
   "dataDir": "books/tarkash_annual/data",
   "chaptersFile": "chapters.json",
-  "description": "655 recent BPSC PYQs with detailed explanations — 71st Prelims, ASO, DSO, AEDO, WMO & Mains, organised subject-wise."
+  "description": "655 recent BPSC PYQs with detailed explanations — 71st Prelims, ASO, DSO, AEDO, WMO & Mains, organised subject-wise.",
+  "cover": "books/covers/tarkash_annual.jpg"
  },
  {
   "id": "physics",
@@ -52,7 +56,8 @@
   "color": "#6FA3C8",
   "dataDir": "books/physics/data",
   "chaptersFile": "chapters.json",
-  "description": "17 chapters · 1,731 verified questions"
+  "description": "17 chapters · 1,731 verified questions",
+  "cover": "books/covers/physics.jpg"
  },
  {
   "id": "chemistry",
@@ -63,7 +68,8 @@
   "color": "#7FB9B0",
   "dataDir": "books/chemistry/data",
   "chaptersFile": "chapters.json",
-  "description": "19 chapters · 757 verified questions"
+  "description": "19 chapters · 757 verified questions",
+  "cover": "books/covers/chemistry.jpg"
  },
  {
   "id": "biology",
@@ -74,7 +80,8 @@
   "color": "#96BF8D",
   "dataDir": "books/biology/data",
   "chaptersFile": "chapters.json",
-  "description": "29 chapters · 1,601 verified questions"
+  "description": "29 chapters · 1,601 verified questions",
+  "cover": "books/covers/biology.jpg"
  },
  {
   "id": "ancient_india",
@@ -85,7 +92,8 @@
   "color": "#C9897B",
   "dataDir": "books/ancient_india/data",
   "chaptersFile": "chapters.json",
-  "description": "15 chapters · 1,342 verified questions"
+  "description": "15 chapters · 1,342 verified questions",
+  "cover": "books/covers/ancient_india.jpg"
  },
  {
   "id": "medieval_india",
@@ -96,7 +104,8 @@
   "color": "#C98C74",
   "dataDir": "books/medieval_india/data",
   "chaptersFile": "chapters.json",
-  "description": "25 chapters · 931 verified questions"
+  "description": "25 chapters · 931 verified questions",
+  "cover": "books/covers/medieval_india.jpg"
  },
  {
   "id": "modern_india",
@@ -107,7 +116,8 @@
   "color": "#A88FB8",
   "dataDir": "books/modern_india/data",
   "chaptersFile": "chapters.json",
-  "description": "55 chapters · 2,732 verified questions"
+  "description": "55 chapters · 2,732 verified questions",
+  "cover": "books/covers/modern_india.svg"
  },
  {
   "id": "kgs_test_series",
@@ -118,7 +128,8 @@
   "color": "#7C87C8",
   "dataDir": "books/kgs_test_series/data",
   "chaptersFile": "chapters.json",
-  "description": "15 subjects · 15 chapters · 2,250 questions"
+  "description": "15 subjects · 15 chapters · 2,250 questions",
+  "cover": "books/covers/kgs_test_series.svg"
  },
  {
   "id": "bihar_current_affairs",
@@ -129,7 +140,8 @@
   "color": "#2E7D5A",
   "dataDir": "books/bihar_current_affairs/data",
   "chaptersFile": "chapters.json",
-  "description": "11 practice sets, each its own subject · 550 questions converted from the Bihar Current Affairs Sets 1–11 Excel workbook"
+  "description": "11 practice sets, each its own subject · 550 questions converted from the Bihar Current Affairs Sets 1–11 Excel workbook",
+  "cover": "books/covers/bihar_current_affairs.svg"
  },
  {
   "id": "eduteria_bihar_tathya_sangrah",
@@ -138,8 +150,9 @@
   "tag": "TATHYA",
   "emoji": "📘",
   "color": "#C9897B",
+  "cover": "books/covers/eduteria_bihar_tathya_sangrah.jpg",
   "dataDir": "books/eduteria_bihar_tathya_sangrah/data",
   "chaptersFile": "chapters.json",
-  "description": "All 10 chapters of the Eduteria Bihar Tathya Sangrah (General Introduction, History, Geography, Economy, Tourism, Census 2011, Polity, Art & Culture, Personalities, Special Misc) · 343 MCQs from the book data + uploaded bank + BPSC PYQs."
+  "description": "10 subjects (General Introduction, History, Geography, Economy, Tourism, Census 2011, Polity, Art & Culture, Personalities, Special Misc) · 343 MCQs — one subject per chapter, each with its own icon."
  }
 ]
