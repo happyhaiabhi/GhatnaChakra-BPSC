@@ -130,5 +130,16 @@
   "dataDir": "books/bihar_current_affairs/data",
   "chaptersFile": "chapters.json",
   "description": "11 practice sets, each its own subject · 550 questions converted from the Bihar Current Affairs Sets 1–11 Excel workbook"
+ },
+ {
+  "id": "eduteria_bihar_tathya_sangrah",
+  "title": "Eduteria Tathya Sangrah",
+  "subtitle": "Bihar Tathya Sangrah · BPSC & State Exams",
+  "tag": "TATHYA",
+  "emoji": "📘",
+  "color": "#C9897B",
+  "dataDir": "books/eduteria_bihar_tathya_sangrah/data",
+  "chaptersFile": "chapters.json",
+  "description": "All 10 chapters of the Eduteria Bihar Tathya Sangrah (General Introduction, History, Geography, Economy, Tourism, Census 2011, Polity, Art & Culture, Personalities, Special Misc) · 343 MCQs from the book data + uploaded bank + BPSC PYQs."
  }
 ]
