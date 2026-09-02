@@ -4349,7 +4349,7 @@
           "year": ""
         },
         {
-          "q": "Match List-I with List-II and select the correct answer I. Al Hilal 1. George Allen II. The Leader 2. Jawahar Lal Nehru III. The National Herald 3. Madan Mohan Malviya IV. The Pioneer 4. Abul Kalam Azad Code : I II III IV",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer I. Al Hilal 1. George Allen II. The Leader 2. Jawahar Lal Nehru III. The National Herald 3. Madan Mohan Malviya IV. The Pioneer 4. Abul Kalam Azad\n\nCode : I II III IV",
           "options": {
             "A": "1 2 4 3",
             "B": "2 3 1 4",
@@ -5487,7 +5487,7 @@
           "year": ""
         },
         {
-          "q": "Baghpat Shah Mal Choose the codes which are correctly matched :",
+          "q": "Baghpat Shah Mal Choose the\n\ncodes which are correctly matched :",
           "options": {
             "A": "1,2 and 3",
             "B": "2,3 and 4",

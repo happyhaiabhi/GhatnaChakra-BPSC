@@ -5,7 +5,7 @@
       "chapter_name": "Set 3",
       "questions": [
         {
-          "q": "Match List I with List II and select the correct answer using the code given below -\nList-I (Scheme): (a) Bihar Patrakar Samman Scheme; (b) Chief Minister Pratiksha Yojana; (c) Chief Minister Gurushishya Parampara Yojana\nList-II (Start): (1) July 26, 2025; (2) July 2025; (3) July 1, 2025\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below - \n\nList-I (Scheme): (a) Bihar Patrakar Samman Scheme; (b) Chief Minister Pratiksha Yojana; (c) Chief Minister Gurushishya Parampara Yojana \n\nList-II (Start): (1) July 26, 2025; (2) July 2025; (3) July 1, 2025\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3",
@@ -509,7 +509,7 @@
           "original_id": 24
         },
         {
-          "q": "Match List-I (Campaign/Mission) with List-II (By) and select the correct answer using the codes given below:\nList-I: a. Agristack Campaign; b. Campaign Basera-2; c. Know Your Army; d. Mahila Shakti Abhiyan\nList-II: 1. Bihar Police; 2. Governor; 3. State Government; 4. Agriculture Department\nCode:",
+          "q": "Match \n\nList-I (Campaign/Mission) with \n\nList-II (By) and\n\nselect the correct answer using the\n\ncodes given below: \n\nList-I:\na. Agristack Campaign;\nb. Campaign Basera-2;\nc. Know Your Army;\nd. Mahila Shakti Abhiyan \n\nList-II: 1. Bihar Police; 2. Governor; 3. State Government; 4. Agriculture Department\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-2,c-3,d-4",
@@ -740,7 +740,7 @@
           "original_id": 35
         },
         {
-          "q": "Match List I with List II and select the correct answer from the codes given below -\nList-I (App/Portal): a. e-Labharthi; b. e-Vidhan; c. Chalo App; d. Cyber Senani\nList-II (Issuer): 1. Legislative Assembly; 2. Social Welfare Department; 3. BSRTC; 4. Bihar Police\nCode:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer from the\n\ncodes given below - \n\nList-I (App/Portal):\na. e-Labharthi;\nb. e-Vidhan;\nc. Chalo App;\nd. Cyber Senani \n\nList-II (Issuer): 1. Legislative Assembly; 2. Social Welfare Department; 3. BSRTC; 4. Bihar Police\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",

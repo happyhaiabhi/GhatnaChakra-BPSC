@@ -727,7 +727,7 @@
           "topic": "Human Physiology"
         },
         {
-          "q": "Which of the following pairs regarding specialised plant adaptations and the associated environmental stress are correctly matched? 1. Carnivorous trapping mechanisms: Nitrogen deficiency in nutrient-poor soils 2. Pneumatophores: Oxygen deficiency in waterlogged soils 3. Symbiotic root nodules: Potassium deficiency in sandy soils Select the correct answer using the codes given below:",
+          "q": "Which of the following pairs regarding specialised plant adaptations and the associated environmental stress are correctly matched? 1. Carnivorous trapping mechanisms: Nitrogen deficiency in nutrient-poor soils 2. Pneumatophores: Oxygen deficiency in waterlogged soils 3. Symbiotic root nodules: Potassium deficiency in sandy soils\n\nSelect the correct answer using the\n\ncodes given below:",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Only 1 and 2",
@@ -1202,7 +1202,7 @@
           "topic": "IT, Electronics & New Tech"
         },
         {
-          "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Satellite Orbit)\n\n(Altitude) a. Low Earth Orbit (LEO) 1. Between 600 and 800 km b. Sun-Synchronous 2. From 2,000 to Orbit (SSO)\n\n36,000 km c. Medium Earth 3. Below 2,000 km\n\nOrbit (MEO) d. Geostationary Orbit (GEO) 4. 35,786 km Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II (Satellite Orbit) (Altitude)\na. Low Earth Orbit (LEO) 1. Between 600 and 800 km\nb. Sun-Synchronous 2. From 2,000 to Orbit (SSO) 36,000 km\nc. Medium Earth 3. Below 2,000 km Orbit (MEO)\nd. Geostationary Orbit (GEO) 4. 35,786 km\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "2 3 4 1",
@@ -1373,7 +1373,7 @@
           "topic": "Space & Defence Technology"
         },
         {
-          "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Navigation System)\n\n(Country/Region) a. GLONASS 1. European Union b. Galileo 2. China c. BeiDou 3. India d. NavIC 4. Russia Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II (Navigation System) (Country/Region)\na. GLONASS 1. European Union\nb. Galileo 2. China\nc. BeiDou 3. India\nd. NavIC 4. Russia\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "4 3 2 1",
@@ -1430,7 +1430,7 @@
           "topic": "Human Physiology"
         },
         {
-          "q": "Which of the following pairs regarding satellite internet projects and their developers are correctly matched? 1. Project Kuiper : Amazon 2. Starlink : SpaceX 3. OneWeb : Blue Origin 4. Qianfan : Chinese megaconstellation Select the correct answer using the codes given below:",
+          "q": "Which of the following pairs regarding satellite internet projects and their developers are correctly matched? 1. Project Kuiper : Amazon 2. Starlink : SpaceX 3. OneWeb : Blue Origin 4. Qianfan : Chinese megaconstellation\n\nSelect the correct answer using the\n\ncodes given below:",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Only 1 and 2",
@@ -1468,7 +1468,7 @@
           "topic": "Diseases & Health"
         },
         {
-          "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Deficiency)\n\n(Disease/Condition) a. Rod cells 1. The point of highest visual acuity and resolution b. Cone cells 2. Responsible for twilight (scotopic) vision c. Blind spot 3. An area completely devoid of photoreceptor cells d. Fovea centralis 4. Responsible for daylight (photopic) and colour vision Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II (Deficiency) (Disease/Condition)\na. Rod cells 1. The point of highest visual acuity and resolution\nb. Cone cells 2. Responsible for twilight (scotopic) vision\nc. Blind spot 3. An area completely devoid of photoreceptor cells\nd. Fovea centralis 4. Responsible for daylight (photopic) and colour vision\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "4 2 3 1",
@@ -2171,7 +2171,7 @@
           "topic": "Ecology & Environment"
         },
         {
-          "q": "Which of the following represents a mutualistic association between algae and fungi?",
+          "q": "Which of the following represents a mutua\n\nlistic association between algae and fungi?",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Virus",
@@ -2209,7 +2209,7 @@
           "topic": "Diseases & Health"
         },
         {
-          "q": "What is the term for the mutualistic association between fungi and plant roots?",
+          "q": "What is the term for the mutua\n\nlistic association between fungi and plant roots?",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Parasitism",
@@ -2437,7 +2437,7 @@
           "topic": "Space & Defence Technology"
         },
         {
-          "q": "Which of the following pairs regarding Directed Energy Weapon systems and their countries of origin are correctly matched? 1. HELIOS : United States of America 2. Peresvet : United Kingdom 3. Silent Hunter : China 4. IDD&IS Mk2A : India Select the correct answer using the codes given below:",
+          "q": "Which of the following pairs regarding Directed Energy Weapon systems and their countries of origin are correctly matched? 1. HELIOS : United States of America 2. Peresvet : United Kingdom 3. Silent Hunter : China 4. IDD&IS Mk2A : India\n\nSelect the correct answer using the\n\ncodes given below:",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Only 1 and 3",
@@ -2475,7 +2475,7 @@
           "topic": "Diseases & Health"
         },
         {
-          "q": "Which of the following statements regarding cruise and ballistic missiles are correct? 1. Ballistic missiles are powered primarily during the initial launch phase, whereas cruise missiles remain continuously powered during flight. 2. Cruise missiles remain within the Earth’s atmosphere, whereas ballistic missiles may follow a trajectory extending into the exoatmosphere. 3. In India’s missile arsenal, the Agni series are cruise missiles, while BrahMos is a ballistic missile. Select the correct answer using the codes given below:",
+          "q": "Which of the following statements regarding cruise and bal\n\nlistic missiles are correct? 1. Bal\n\nlistic missiles are powered primarily during the initial launch phase, whereas cruise missiles remain continuously powered during flight. 2. Cruise missiles remain within the Earth’s atmosphere, whereas bal\n\nlistic missiles may follow a trajectory extending into the exoatmosphere. 3. In India’s missile arsenal, the Agni series are cruise missiles, while BrahMos is a bal\n\nlistic missile.\n\nSelect the correct answer using the\n\ncodes given below:",
           "question_type": "Standard MCQ — Direct Factual/Conceptual, Single Correct",
           "options": {
             "A": "Only 1 and 2",
@@ -2646,7 +2646,7 @@
           "topic": "Diseases & Health"
         },
         {
-          "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Nutrient)\n\n(Examples) a. Polysaccharides 1. Folic Acid and Biotin b. Trace Minerals 2. Lysine and Methionine c. Water-Soluble 3. Starch and Vitamins\n\nGlycogen d. Essential Amino Acids 4. Selenium and Zinc Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II (Nutrient) (Examples)\na. Polysaccharides 1. Folic Acid and Biotin\nb. Trace Minerals 2. Lysine and Methionine\nc. Water-Soluble 3. Starch and Vitamins Glycogen\nd. Essential Amino Acids 4. Selenium and Zinc\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "4 2 3 1",
@@ -2836,7 +2836,7 @@
           "topic": "Diseases & Health"
         },
         {
-          "q": "Match List-I with List-II\n\nList-I\n\nList-II\n\n(Deficiency)\n\n(Disease/Condition) a. Iodine 1. Osteomalacia b. Vitamin D 2. Pellagra c. Niacin 3. Xerophthalmia d. Vitamin A 4. Goitre Select the correct answer using the codes given below: a b c d",
+          "q": "Match \n\nList-I with \n\nList-II \n\nList-I \n\nList-II (Deficiency) (Disease/Condition)\na. Iodine 1. Osteomalacia\nb. Vitamin D 2. Pellagra\nc. Niacin 3. Xerophthalmia\nd. Vitamin A 4. Goitre\n\nSelect the correct answer using the\n\ncodes given below: a b c d",
           "question_type": "Match the Following — Two-List Matching — Answer-Code Matrix",
           "options": {
             "A": "4 1 2 3",

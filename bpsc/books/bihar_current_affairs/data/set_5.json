@@ -26,7 +26,7 @@
           "original_id": 1
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Fair/Festival): (a) Mehendar Festival; (b) Guptadham Festival; (c) Mandar Festival; (d) Koshi Festival\nList-II (District): (1) Banka; (2) Rohtas; (3) Siwan; (4) Saharsa\nCode:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Fair/Festival): (a) Mehendar Festival; (b) Guptadham Festival; (c) Mandar Festival; (d) Koshi Festival \n\nList-II (District): (1) Banka; (2) Rohtas; (3) Siwan; (4) Saharsa\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",

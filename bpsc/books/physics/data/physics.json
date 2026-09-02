@@ -180,7 +180,7 @@
           "year": "2024"
         },
         {
-          "q": "Which of the following pairs is NOT correctly matched?\nQuantity S.I. Unit",
+          "q": "Which of the following pairs is NOT correctly matched? Quantity S.I. Unit",
           "options": {
             "A": "Power of lense – Diopter",
             "B": "Pressure – Pascal",
@@ -362,7 +362,7 @@
           "year": "1998"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the code given below :\nList-I List-II\n(Physical quantities) (Units)\nA. Acceleration 1. Joule\nB. Force 2. Newton second\nC. Work done 3. Newton\nD. Impulse 4. Metre/second2\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncode given below : \n\nList-I \n\nList-II (Physical quantities) (Units)\nA. Acceleration 1. Joule\nB. Force 2. Newton second\nC. Work done 3. Newton\nD. Impulse 4. Metre/second2\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "3 4 1 2",
@@ -375,7 +375,7 @@
           "year": "2005; 2001"
         },
         {
-          "q": "Which one of the following SI unit is not correctly\nmatched?",
+          "q": "Which one of the following SI unit is not correctly matched?",
           "options": {
             "A": "Work – Joule",
             "B": "Force – Newton",
@@ -388,7 +388,7 @@
           "year": "2013"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing codes given below :\nList-I List-II\n(Units) (Parametric quantities)\nA. Watt 1. Heat\nB. Knot 2. Navigation\nC. Nautical mile 3. Speed of a ship\nD. Calorie 4. Power\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using\n\ncodes given below : \n\nList-I \n\nList-II (Units) (Parametric quantities)\nA. Watt 1. Heat\nB. Knot 2. Navigation\nC. Nautical mile 3. Speed of a ship\nD. Calorie 4. Power\n\nCode : A B C D",
           "options": {
             "A": "3 1 4 2",
             "B": "1 2 3 4",
@@ -401,7 +401,7 @@
           "year": "2002"
         },
         {
-          "q": "Match the following :\nA. Joule 1. Current\nB. Ampere 2. Power\nC. Watt 3. Work\nD. Volt 4. Electric potential\nCode :\nA B C D",
+          "q": "Match the following :\nA. Joule 1. Current\nB. Ampere 2. Power\nC. Watt 3. Work\nD. Volt 4. Electric potential\n\nCode : A B C D",
           "options": {
             "A": "3 1 2 4",
             "B": "1 2 3 4",
@@ -454,7 +454,7 @@
           "year": "2018"
         },
         {
-          "q": "Match List-I (Quantity) with List-II (Units) and select\nthe correct answer using the codes given below the lists:\nList I List II\nA. High speed 1. Mach\nB. Wavelength 2. Angstrom\nC. Pressure 3. Pascal\nD. Energy 4. Joule\nCode :\nA B C D",
+          "q": "Match \n\nList-I (Quantity) with \n\nList-II (Units) and\n\nselect the correct answer using the\n\ncodes given below the lists: \n\nList I \n\nList II\nA. High speed 1. Mach\nB. Wavelength 2. Angstrom\nC. Pressure 3. Pascal\nD. Energy 4. Joule\n\nCode : A B C D",
           "options": {
             "A": "2 1 3 4",
             "B": "1 2 4 3",
@@ -692,7 +692,7 @@
           "year": "2005"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below the lists.\nList - I List - II\nA. Cusec 1. Pressure\nB. Byte 2. Intensity of Earthquake\nC. Richter 3. Rate of flow\nD. Bar 4. Computer\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below the lists. \n\nList - I \n\nList - II\nA. Cusec 1. Pressure\nB. Byte 2. Intensity of Earthquake\nC. Richter 3. Rate of flow\nD. Bar 4. Computer\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "3 4 2 1",
@@ -1037,7 +1037,7 @@
           "year": "1990"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below:\nList-I List-II\n(Instrument) (Measuring quantity)\nA. Ammeter 1. Pressure\nB. Hygrometer 2. Weight\nC. Spring balance 3. Electric current\nD. Barometer 4. Relative humidity\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below: \n\nList-I \n\nList-II (Instrument) (Measuring quantity)\nA. Ammeter 1. Pressure\nB. Hygrometer 2. Weight\nC. Spring balance 3. Electric current\nD. Barometer 4. Relative humidity\n\nCode : A B C D",
           "options": {
             "A": "2 3 4 1",
             "B": "3 4 2 1",
@@ -1234,7 +1234,7 @@
           "year": "2018"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the codes given below the lists :\nList-I List-II\nA. Stethoscope 1. To measure intensity of\nlight\nB. Sphygmomanometer 2. To check purity of gold\nC. Caratometer 3. To hear heart sound\nD. Luxmeter 4. To measure blood pressure\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists : \n\nList-I \n\nList-II\nA. Stethoscope 1. To measure intensity of light\nB. Sphygmomanometer 2. To check purity of gold\nC. Caratometer 3. To hear heart sound\nD. Luxmeter 4. To measure blood pressure\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 3 2 1",
@@ -1390,7 +1390,7 @@
           "year": "1995"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the codes given below the lists :\nList-I List-II\nA. Earthquake 1. Ammeter\nB. Height 2. Seismograph\nC. Electric current 3. Altimeter\nD. Resistance 4. Ohm\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists : \n\nList-I \n\nList-II\nA. Earthquake 1. Ammeter\nB. Height 2. Seismograph\nC. Electric current 3. Altimeter\nD. Resistance 4. Ohm\n\nCode : A B C D",
           "options": {
             "A": "2 3 1 4",
             "B": "2 3 4 1",
@@ -1403,7 +1403,7 @@
           "year": "1992"
         },
         {
-          "q": "Match the correct :\nA. Fathometer 1. Atmospheric pressure\nB. Barometer 2. Atmospheric humidity\nC. Hygrometer 3. Height\nD. Altimeter 4. Depth of sea\nCode :\nA B C D",
+          "q": "Match the correct :\nA. Fathometer 1. Atmospheric pressure\nB. Barometer 2. Atmospheric humidity\nC. Hygrometer 3. Height\nD. Altimeter 4. Depth of sea\n\nCode : A B C D",
           "options": {
             "A": "2 3 1 4",
             "B": "4 1 2 3",
@@ -1429,7 +1429,7 @@
           "year": "2015"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the codes given below the lists :\nList-I List-II\nA. Anemometer 1. Earthquakes\nB. Seismograph 2. Atmospheric Pressure\nC. Barograph 3. Wind velocity\nD. Hygrometer 4. Humidity\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists : \n\nList-I \n\nList-II\nA. Anemometer 1. Earthquakes\nB. Seismograph 2. Atmospheric Pressure\nC. Barograph 3. Wind velocity\nD. Hygrometer 4. Humidity\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 1 2 3",
@@ -1727,7 +1727,7 @@
           "year": "2022"
         },
         {
-          "q": "Match List-I with List-II and choose the correct answer\nfrom the code given below-\nList-I List –II\n(Energy Conversion) (Device/Mechanism)\nA. Light to electric 1. Car Braking\nB. Electric to sound 2. Nuclear reactor\nC. Mass to heat 3. Loudspeaker\nD. Chemical to heat and 4. Solar cell\nlight\n5. Fuel combustion\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and choose the correct answer from the\n\ncode given below- \n\nList-I \n\nList –II (Energy Conversion) (Device/Mechanism)\nA. Light to electric 1. Car Braking\nB. Electric to sound 2. Nuclear reactor\nC. Mass to heat 3. Loudspeaker\nD. Chemical to heat and 4. Solar cell light 5. Fuel combustion\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 3 2 5",
@@ -2085,7 +2085,7 @@
           "year": "2025"
         },
         {
-          "q": "A pair of Oxen exerts a force of 140 newton while\nploughing the field. The field ploughed is 15 meter\nlong. The work done in ploughing the length of the\nfieldis:",
+          "q": "A pair of Oxen exerts a force of 140 newton while ploughing the field. The field ploughed is 15 meter long. The work done in ploughing the length of the fieldis:",
           "options": {
             "A": "1900 Joule",
             "B": "2000 Joule",
@@ -5516,7 +5516,7 @@
           "year": "2007"
         },
         {
-          "q": "Match List-I with List-II :\nList-I List-II\n(Colour) (Combination)\nA. Magenta 1. Green and blue\nB. Teal 2. Red and blue\nC. Mauve 3. Blue, green and white\nD. Cyan 4. Blue, red and white\nSelect the correct answer using the codes given below.\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II : \n\nList-I \n\nList-II (Colour) (Combination)\nA. Magenta 1. Green and blue\nB. Teal 2. Red and blue\nC. Mauve 3. Blue, green and white\nD. Cyan 4. Blue, red and white\n\nSelect the correct answer using the\n\ncodes given below. A B C D",
           "options": {
             "A": "2 3 4 1",
             "B": "2 4 3 1",
@@ -8033,7 +8033,7 @@
           "year": "2010"
         },
         {
-          "q": "In the context of permissible noise levels match List-I\nwith List-II and select the answer from the code given\nbelow the lists.\nList-I List-II\n(Area) (Permissible Noise Level)\nA. Residential area 1. 50 dB\nB. Silent zone 2. 55 dB\nC. Industrial area 3. 65 dB\nD. Commercial area 4. 70 dB\nCode :\nA B C D",
+          "q": "In the context of permissible noise levels match \n\nList-I with \n\nList-II and select the answer from the\n\ncode given below the lists. \n\nList-I \n\nList-II (Area) (Permissible Noise Level)\nA. Residential area 1. 50 dB\nB. Silent zone 2. 55 dB\nC. Industrial area 3. 65 dB\nD. Commercial area 4. 70 dB\n\nCode : A B C D",
           "options": {
             "A": "3 4 2 1",
             "B": "1 2 3 4",
@@ -9263,7 +9263,7 @@
           "year": "2017"
         },
         {
-          "q": "Some pairs of devices and associated energy changes\nare given below :\n(i) Electric generator – Mechanical to electrical\n(ii) Electric motor – Electrical to mechanical\n(iii) Diesel engine – Light to electrical\n(iv) Solar cell – Chemical to mechanical\nWhich of the above pair/s is/are correctly matched?",
+          "q": "Some pairs of devices and associated energy changes are given below : (i) Electric generator – Mechanical to electrical (ii) Electric motor – Electrical to mechanical (iii) Diesel engine – Light to electrical (iv) Solar cell – Chemical to mechanical Which of the above pair/s is/are correctly matched?",
           "options": {
             "A": "(i) and (ii)",
             "B": "(i) and (iii)",
@@ -9857,7 +9857,7 @@
           "year": "2016"
         },
         {
-          "q": "Which of the following technique cannot be used for\ngenerating electron-hole pairs in electronic devices?",
+          "q": "Which of the following technique cannot be used for generating electron-hole pairs in electronic devices?",
           "options": {
             "A": "Thermal excitation",
             "B": "Impact ionization",
@@ -9979,7 +9979,7 @@
       "chapter_name": "12. Nuclear Physics",
       "questions": [
         {
-          "q": "Which one of the following pairs is not correctly\nmatched :",
+          "q": "Which one of the following pairs is not correctly matched :",
           "options": {
             "A": "Discovery of Meson – Hideki Yukawa",
             "B": "Discovery of – C.D. Anderson Positron and U.F. Hess",
@@ -10710,7 +10710,7 @@
           "year": "2015"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nby using the codes given below :\nList-I List –II\n(Atomic Power Station) (State of Situation)\nA. Kalpakkam 1. Uttar Pradesh\nB. Narora 2. Gujarat\nC. Kakrapara 3. Tamil Nadu\nD. Trombay 4. Maharashtra\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer by using the\n\ncodes given below : \n\nList-I \n\nList –II (Atomic Power Station) (State of Situation)\nA. Kalpakkam 1. Uttar Pradesh\nB. Narora 2. Gujarat\nC. Kakrapara 3. Tamil Nadu\nD. Trombay 4. Maharashtra\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "3 1 2 4",
@@ -10723,7 +10723,7 @@
           "year": "2010"
         },
         {
-          "q": "Match List-I with List-II and choose the correct answer\nusing the code given below the lists.\nList-I List-II\n(Nuclear Power Plant) (State)\nA. Kudankulam 1. Karnataka\nB. Kakrapar 2. Tamil Nadu\nC. Kaiga 3. Rajasthan\nD. Rawatbhata 4. Gujarat\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and choose the correct answer using the\n\ncode given below the lists. \n\nList-I \n\nList-II (Nuclear Power Plant) (State)\nA. Kudankulam 1. Karnataka\nB. Kakrapar 2. Tamil Nadu\nC. Kaiga 3. Rajasthan\nD. Rawatbhata 4. Gujarat\n\nCode : A B C D",
           "options": {
             "A": "4 2 1 3",
             "B": "2 4 3 1",
@@ -10749,7 +10749,7 @@
           "year": "2009"
         },
         {
-          "q": "Which is not a correct match?\nNuclear Power Plant State",
+          "q": "Which is not a correct match? Nuclear Power Plant State",
           "options": {
             "A": "Kalpakkam – Tamil Nadu",
             "B": "Kakrapar – Gujarat",
@@ -11121,7 +11121,7 @@
           "year": "1994"
         },
         {
-          "q": "Which of the following treaties does not match with\nthe year it was executed?",
+          "q": "Which of the following treaties does not match with the year it was executed?",
           "options": {
             "A": "Nuclear Non-Proliferation Treaty – 1970",
             "B": "Strategic Arms Limitation Talks (2) Agreement – 1967",
@@ -14948,7 +14948,7 @@
           "year": "2022"
         },
         {
-          "q": "Consider the following pairs :\nTerms sometimes Context/Topic\nseen in news\n1. Belle II Artificial\nexperiment Intelligence\n2. Blockchain technology Digital/Cryptocurrency\n3. CRISPR - Cas9 Particle Physics\nWhich of the pairs given above is/are correctly matched?",
+          "q": "Consider the following pairs : Terms sometimes Context/Topic seen in news 1. Belle II Artificial experiment Intelligence 2. Blockchain technology Digital/Cryptocurrency 3. CRISPR - Cas9 Particle Physics Which of the pairs given above is/are correctly matched?",
           "options": {
             "A": "1 and 3 only",
             "B": "2 only",
@@ -15507,7 +15507,7 @@
           "year": "2010"
         },
         {
-          "q": "Which one of the following pairs is not correctly\nmatched?",
+          "q": "Which one of the following pairs is not correctly matched?",
           "options": {
             "A": "Optic fibres – Light waves",
             "B": "Android – Voice input",
@@ -15962,7 +15962,7 @@
           "year": "2016"
         },
         {
-          "q": "Match the List-I with List-II regarding world's top\nInformation Technology Companies and their CEO\nand choose the correct answer from the codes below:\nList-I List-II\n(Company) (CEO)\nA. Google 1. Satya Nadela\nB. Microsoft 2. Sunder Pichai\nC. Twitter 3. Parag Agarwal\nD. Adobe 4. Shantanu Narayen\nCode :\nA B C D",
+          "q": "Match the \n\nList-I with \n\nList-II regarding world's top Information Technology Companies and their CEO and choose the correct answer from the\n\ncodes below: \n\nList-I \n\nList-II (Company) (CEO)\nA. Google 1. Satya Nadela\nB. Microsoft 2. Sunder Pichai\nC. Twitter 3. Parag Agarwal\nD. Adobe 4. Shantanu Narayen\n\nCode : A B C D",
           "options": {
             "A": "1 3 4 2",
             "B": "2 1 3 4",
@@ -16421,7 +16421,7 @@
           "year": "2020"
         },
         {
-          "q": "In the context of wearable technology, which of the\nfollowing tasks is/are accomplished by wearable devices?\n1. Location identification of a person\n2. Sleep monitoring of a person\n3. Assisting the hearing impaired person\nSelect the correct answer using the code given below :",
+          "q": "In the context of wearable technology, which of the following tasks is/are accomplished by wearable devices? 1. Location identification of a person 2. Sleep monitoring of a person 3. Assisting the hearing impaired person\n\nSelect the correct answer using the\n\ncode given below :",
           "options": {
             "A": "1 only",
             "B": "2 and 3 only",
@@ -16688,7 +16688,7 @@
           "year": "2015"
         },
         {
-          "q": "Which one of the following pairs is not correctly\nmatched?",
+          "q": "Which one of the following pairs is not correctly matched?",
           "options": {
             "A": "Cosmic Background – Satellite programme Explorer (COBE)",
             "B": "Falcon – Under-sea cable system",
@@ -16701,7 +16701,7 @@
           "year": "2007"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nby using the codes given below the lists :\nList-I List-II\nA. Curiosity Rover 1. Tablet\nB. Messenger 2. Unmanned Aerial\nvehicle of DRDO\nC. Rustam-1 3. Mars probe space\nvehicle of U.S.A.\nD. Akash-2 4. Mercury probe space\nvehicle of NASA\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer by using the\n\ncodes given below the lists : \n\nList-I \n\nList-II\nA. Curiosity Rover 1. Tablet\nB. Messenger 2. Unmanned Aerial vehicle of DRDO\nC. Rustam-1 3. Mars probe space vehicle of U.S.A.\nD. Akash-2 4. Mercury probe space vehicle of NASA\n\nCode : A B C D",
           "options": {
             "A": "3 4 2 1",
             "B": "4 3 2 1",
@@ -16740,7 +16740,7 @@
           "year": "2021"
         },
         {
-          "q": "Match List-I with List-II :\nList-I List-II\n(Space Mission) (Exploration)\nA. Cassini-Huygens 1. Jupiter\nB. Juno 2. Saturn and its rings\nC. Artemis 3. Venus\nD. VERITAS 4. Human Space-flight\n– Moon to Mars\nSelect the correct answer using the codes given below.\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II : \n\nList-I \n\nList-II (Space Mission) (Exploration)\nA. Cassini-Huygens 1. Jupiter\nB. Juno 2. Saturn and its rings\nC. Artemis 3. Venus\nD. VERITAS 4. Human Space-flight – Moon to Mars\n\nSelect the correct answer using the\n\ncodes given below. A B C D",
           "options": {
             "A": "2 1 4 3",
             "B": "3 1 4 2",
@@ -16753,7 +16753,7 @@
           "year": "2023"
         },
         {
-          "q": "Which of the following pairs is/are correctly matched?\nSpacecraft Purpose\n1. Cassini-Huygens : Orbiting the Venus\nand transmitting data\nto the Earth\n2. Messenger : Mapping and\ninvestigating the\nMercury\n3. Voyager 1 and 2 : Exploring the outer\nSolar System\nSelect the correct answer using the code given\nbelow.",
+          "q": "Which of the following pairs is/are correctly matched? Spacecraft Purpose 1. Cassini-Huygens : Orbiting the Venus and transmitting data to the Earth 2. Messenger : Mapping and investigating the Mercury 3. Voyager 1 and 2 : Exploring the outer Solar System\n\nSelect the correct answer using the\n\ncode given below.",
           "options": {
             "A": "1 only",
             "B": "2 and 3 only",
@@ -17013,7 +17013,7 @@
           "year": "2023"
         },
         {
-          "q": "Consider the following pairs :\nObjects in space Description\n1. Cepheids : Giant clouds of dust and gas\nin space\n2. Nebulae : Stars which brighten and\ndim periodically\n3. Pulsars : Neutron stars that are\nformed when massive stars\nrun out of fuel and collapse\nHow many of the above pairs are correctly matched?",
+          "q": "Consider the following pairs : Objects in space Description 1. Cepheids : Giant clouds of dust and gas in space 2. Nebulae : Stars which brighten and dim periodically 3. Pulsars : Neutron stars that are formed when massive stars run out of fuel and collapse How many of the above pairs are correctly matched?",
           "options": {
             "A": "Only one",
             "B": "Only two",
@@ -17513,7 +17513,7 @@
           "year": "2022"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the code given below the lists:\nList-I (Mission) List-II (Date of Launch)\nA. Chandrayaan-3 1. 02 September 2023\nB. Aditya-L1 2. 17 February 2024\nC. INSAT-3DS 3. 14 July 2023\nD. RLV-LEX-01 4. 02 April 2023\nCode:\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below the lists: \n\nList-I (Mission) \n\nList-II (Date of Launch)\nA. Chandrayaan-3 1. 02 September 2023\nB. Aditya-L1 2. 17 February 2024\nC. INSAT-3DS 3. 14 July 2023\nD. RLV-LEX-01 4. 02 April 2023\n\nCode: A B C D",
           "options": {
             "A": "1 3 4 2",
             "B": "3 1 2 4",
@@ -17773,7 +17773,7 @@
           "year": "2004"
         },
         {
-          "q": "Match the following pairs :\nLaunch Vehicle Satellite\n(i) Satellite Launch A. Chandrayaan-1\nVehicle-3 (SLV-3)\n(ii) Augmented Satellite B. Rohini\nLaunch Vehicle (ASLV)\n(iii) Polar Satellite C. SROSS-C\nLaunch Vehicle (PSLV)\n(iv) Geosynchronous D. EDUSAT\nSatellite Launch\nVehicle (GSLV)\nWhich of the following codes are correctly matched?\nCode :\n(i) (ii) (iii) (iv)",
+          "q": "Match the following pairs : Launch Vehicle Satellite (i) Satellite Launch\nA. Chandrayaan-1 Vehicle-3 (SLV-3) (ii) Augmented Satellite\nB. Rohini Launch Vehicle (ASLV) (iii) Polar Satellite\nC. SROSS-C Launch Vehicle (PSLV) (iv) Geosynchronous\nD. EDUSAT Satellite Launch Vehicle (GSLV) Which of the following\n\ncodes are correctly matched?\n\nCode : (i) (ii) (iii) (iv)",
           "options": {
             "A": "A B C D",
             "B": "B C D A",
@@ -17786,7 +17786,7 @@
           "year": "2016"
         },
         {
-          "q": "In the given picture/map 1,2, 3 and 4 has marked to\nshow the location of space organization units. Match\nthese units with the list given below and select the\ncorrect answer using the codes given below :\nList :\n(A) I.S.R.O. (B) I.I.R.S.\n(C) N.R.S.A. (D) S.A.C.\nCode :\nA B C D",
+          "q": "In the given picture/map 1,2, 3 and 4 has marked to show the location of space organization units. Match these units with the list given below and\n\nselect the correct answer using the\n\ncodes given below : List : (A) I.S.R.O. (B) I.I.R.S. (C) N.R.S.A. (D) S.A.C.\n\nCode : A B C D",
           "options": {
             "A": "4 1 2 3",
             "B": "1 4 3 2",
@@ -17814,7 +17814,7 @@
           "year": "2010"
         },
         {
-          "q": "Match List- I with List- II and select the correct answer\nfrom the code given below the Lists :\nList- I List- II\n(Organisations) (Location)\nA. ISRO 1. Thiruvananthapuram\nB. IUCA 2. Pune\nC. IUAC 3. Bengaluru\nD. VSSC 4. New Delhi\nCode :\nA B C D",
+          "q": "Match \n\nList- I with \n\nList- II and\n\nselect the correct answer from the\n\ncode given below the Lists : \n\nList- I \n\nList- II (Organisations) (Location)\nA. ISRO 1. Thiruvananthapuram\nB. IUCA 2. Pune\nC. IUAC 3. Bengaluru\nD. VSSC 4. New Delhi\n\nCode : A B C D",
           "options": {
             "A": "3 2 4 1",
             "B": "1 2 3 4",
@@ -17853,7 +17853,7 @@
           "year": "1998"
         },
         {
-          "q": "Consider the following pairs :\nISRO Centres Location\nA. Vikram Sarabhai – Trivandrum\nSpace Centre (VSSC) (Kerala)\nB. UR Rao Satellite – Bengaluru\nCentre (URSC) (Karnataka)\nC. National Remote – Dehradun\nSensing Centre (Uttarakhand)\n(NRSC)\nD. Indian Institute of – Hyderabad\nRemote Sensing (IIRS) (Telangana)\nWhich of the above pairs are correctly matched?",
+          "q": "Consider the following pairs : ISRO Centres Location\nA. Vikram Sarabhai – Trivandrum Space Centre (VSSC) (Kerala)\nB. UR Rao Satellite – Bengaluru Centre (URSC) (Karnataka)\nC. National Remote – Dehradun Sensing Centre (Uttarakhand) (NRSC)\nD. Indian Institute of – Hyderabad Remote Sensing (IIRS) (Telangana) Which of the above pairs are correctly matched?",
           "options": {
             "A": "A & B only",
             "B": "A, B & C only",
@@ -17944,7 +17944,7 @@
           "year": "2002; 1997"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the code given below the lists.\nList-I List-II\n(Place) (Function)\nA. Kakrapar 1. Atom bomb blast site\nB. Pokhran 2. Rocket launching centre\nC. Thumba 3. Nuclear power plant\nD. Sri Harikota 4. Satellite launching station\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncode given below the lists. \n\nList-I \n\nList-II (Place) (Function)\nA. Kakrapar 1. Atom bomb blast site\nB. Pokhran 2. Rocket launching centre\nC. Thumba 3. Nuclear power plant\nD. Sri Harikota 4. Satellite launching station\n\nCode : A B C D",
           "options": {
             "A": "3 2 1 4",
             "B": "3 2 4 1",
@@ -19109,7 +19109,7 @@
           "year": "1991; 1990"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below.\nList-I List- II\nA. Prithvi 1. Multi-barrel rocket launcher\nB. Trishul 2. A remote operated battlefield\ninspection vehicle\nC. Pinaka 3. Surface-to-surface missile\nD. Nishant 4. Surface to Air Missile\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below. \n\nList-I \n\nList- II\nA. Prithvi 1. Multi-barrel rocket launcher\nB. Trishul 2. A remote operated battlefield inspection vehicle\nC. Pinaka 3. Surface-to-surface missile\nD. Nishant 4. Surface to Air Missile\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "3 4 1 2",
@@ -19174,7 +19174,7 @@
           "year": "1990"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the code given below the lists :\nList-I List-II\nA. Trishul 1. Anti tank missile\nB. Prithvi 2. Intermediate range\nballistic system\nC. Agni 3. Short range surface to\nair missile\nD. NAG 4. Surface to surface\nmissile\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below the lists : \n\nList-I \n\nList-II\nA. Trishul 1. Anti tank missile\nB. Prithvi 2. Intermediate range bal\n\nlistic system\nC. Agni 3. Short range surface to air missile\nD. NAG 4. Surface to surface missile\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 3 2 1",
@@ -19187,7 +19187,7 @@
           "year": "2007; 2001"
         },
         {
-          "q": "Match the following :\nList-I List-II\nA. Akash 1. Kanshiram\nB. Bahujan Samaj Party 2. A surface-to-air missile\nC. Prithvi 3. A surface-to-surface\nmissile\nD. Mirage 2000 4. Fighter plane\nCode :\nA B C D",
+          "q": "Match the following : \n\nList-I \n\nList-II\nA. Akash 1. Kanshiram\nB. Bahujan Samaj Party 2. A surface-to-air missile\nC. Prithvi 3. A surface-to-surface missile\nD. Mirage 2000 4. Fighter plane\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "3 4 2 1",
@@ -19408,7 +19408,7 @@
           "year": "2016"
         },
         {
-          "q": "With reference to India's defence, consider the\nfollowing pairs :\nAircraft type Description\nI. Dornier-228 : Maritime patrol aircraft\nII. IL-76 : Supersonic combat aircraft\nIII. C-17 Globe- : Military transport aircraft\nmaster III\nHow many of the pairs given above are correctly\nmatched?",
+          "q": "With reference to India's defence, consider the following pairs : Aircraft type Description I. Dornier-228 : Maritime patrol aircraft II. IL-76 : Supersonic combat aircraft III. C-17 Globe- : Military transport aircraft master III How many of the pairs given above are correctly matched?",
           "options": {
             "A": "Only one",
             "B": "Only two",
@@ -19434,7 +19434,7 @@
           "year": "2009"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the code given below the list :\nList-I List-II\nA. Arihant 1. American Cryogenic Rocket\nB. Awacs 2. Anti-tank missile\nC. Atlas Centaur 3. Israel developed Falcon for Air\nForce\nD. Nag 4. Atomic submarine\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below the list : \n\nList-I \n\nList-II\nA. Arihant 1. American Cryogenic Rocket\nB. Awacs 2. Anti-tank missile\nC. Atlas Centaur 3. Israel developed Falcon for Air Force\nD. Nag 4. Atomic submarine\n\nCode : A B C D",
           "options": {
             "A": "4 3 2 1",
             "B": "4 3 1 2",
@@ -19551,7 +19551,7 @@
           "year": "1996"
         },
         {
-          "q": "Which one of the following pair is not correctly\nmatched?",
+          "q": "Which one of the following pair is not correctly matched?",
           "options": {
             "A": "Arjun : Indigenously produced Main Battle Tank (MBT)",
             "B": "Phalcon : Cruise missile supplied by Russia to India",
@@ -19971,7 +19971,7 @@
           "year": "2016"
         },
         {
-          "q": "Consider the following statements :\n1. Ballistic missiles are jet-propelled at subsonic speeds\nthroughout their flights, while cruise missiles are\nrocket-powered only in the initial phase of flight.\n2. Agni-V is a medium-range supersonic cruise missile,\nwhile BrahMos is a solid-fuelled intercontinental\nballistic missile.\nWhich of the statements given above is/are correct?",
+          "q": "Consider the following statements : 1. Bal\n\nlistic missiles are jet-propelled at subsonic speeds throughout their flights, while cruise missiles are rocket-powered only in the initial phase of flight. 2. Agni-V is a medium-range supersonic cruise missile, while BrahMos is a solid-fuelled intercontinental bal\n\nlistic missile. Which of the statements given above is/are correct?",
           "options": {
             "A": "1 only",
             "B": "2 only",
@@ -20247,7 +20247,7 @@
           "year": "2025"
         },
         {
-          "q": "Which of the following countries has recently joined\nthe Hague Code of Conduct (HCoC), a global initiative\nto prevent ballistic missile proliferation?",
+          "q": "Which of the following countries has recently joined the Hague\n\nCode of Conduct (HCoC), a global initiative to prevent bal\n\nlistic missile proliferation?",
           "options": {
             "A": "Palestine",
             "B": "Israel",
@@ -20484,7 +20484,7 @@
           "year": "2025"
         },
         {
-          "q": "Which of the following pairs of country and joint\nmilitary exercise conducted with India is incorrect?",
+          "q": "Which of the following pairs of country and joint military exercise conducted with India is incorrect?",
           "options": {
             "A": "Russia – Indra",
             "B": "Kyrgyzstan – Khanjar",
@@ -20554,7 +20554,7 @@
           "year": "2015"
         },
         {
-          "q": "Match the following :\nA. Typewriter 1. Davy\nB. X-ray 2. Sholes\nC. Radio 3. Roentgen\nD. Safety Lamp 4. Marconi\nCode :\nA B C D",
+          "q": "Match the following :\nA. Typewriter 1. Davy\nB. X-ray 2. Sholes\nC. Radio 3. Roentgen\nD. Safety Lamp 4. Marconi\n\nCode : A B C D",
           "options": {
             "A": "2 3 4 1",
             "B": "1 2 3 4",
@@ -20593,7 +20593,7 @@
           "year": "2008"
         },
         {
-          "q": "Match the following\nA. John Guttenberg 1. Telephone\nB. W.C. Roentgen 2. Printing Press\nC. Michael Faraday 3. X-Ray\nD. Alexander 4. Dynamo\nGraham Bell\nCode :\nA B C D",
+          "q": "Match the following\nA. John Guttenberg 1. Telephone\nB. W.C. Roentgen 2. Printing Press\nC. Michael Faraday 3. X-Ray\nD. Alexander 4. Dynamo Graham Bell\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "2 3 1 4",
@@ -20737,7 +20737,7 @@
           "year": "2010; 2005"
         },
         {
-          "q": "Which one of the following pairs is NOT correctly\nmatched?",
+          "q": "Which one of the following pairs is NOT correctly matched?",
           "options": {
             "A": "James Watt : Steam Engine",
             "B": "A.G. Bell : Telephone",
@@ -20802,7 +20802,7 @@
           "year": "2010"
         },
         {
-          "q": "Match the following in the correct order –\nA. Radium 1. Alexander Fleming\nB. Penicillin 2. Madam Curie\nC. X-Ray 3. Edward Jenner\nD. Measles 4. W.C. Roentgen\nCode :\nA B C D",
+          "q": "Match the following in the correct order –\nA. Radium 1. Alexander Fleming\nB. Penicillin 2. Madam Curie\nC. X-Ray 3. Edward Jenner\nD. Measles 4. W.C. Roentgen\n\nCode : A B C D",
           "options": {
             "A": "2 1 4 3",
             "B": "2 3 4 1",
@@ -20841,7 +20841,7 @@
           "year": "2016"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below :\nList-I List-II\nA. Alfred Nobel 1. Theory of Evolution\nB. Alexander Fleming 2. Dynamite\nC. Charles Darwin 3. Penicillin\nD. Madam Curie 4. Isolation of radium\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below : \n\nList-I \n\nList-II\nA. Alfred Nobel 1. Theory of Evolution\nB. Alexander Fleming 2. Dynamite\nC. Charles Darwin 3. Penicillin\nD. Madam Curie 4. Isolation of radium\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "2 3 1 4",
@@ -21208,7 +21208,7 @@
           "year": "2008"
         },
         {
-          "q": "Match the names of outstanding Indian scientists given\nin List-I with an area of their specialized work given\nin List-II and select the correct answer by using the\ncodes given below the lists :\nList-I List-II\nA. Dr. Raja Ramanna 1. Plant chemistry\nB. Dr. M.S. Swaminathan 2. Nuclear physics\nC. Prof. U.R. Rao 3. Thermodynamics and\nastrophysics\nD. Prof. Meghnad Saha 4. Space research\n5. Agricultural science\nCode :\nA B C D",
+          "q": "Match the names of outstanding Indian scientists given in \n\nList-I with an area of their specialized work given in \n\nList-II and\n\nselect the correct answer by using the\n\ncodes given below the lists : \n\nList-I \n\nList-II\nA. Dr. Raja Ramanna 1. Plant chemistry\nB. Dr. M.S. Swaminathan 2. Nuclear physics\nC. Prof. U.R. Rao 3. Thermodynamics and astrophysics\nD. Prof. Meghnad Saha 4. Space research 5. Agricultural science\n\nCode : A B C D",
           "options": {
             "A": "3 5 2 1",
             "B": "2 1 4 3",
@@ -21487,7 +21487,7 @@
           "year": "2011"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below the list:\nList-I List-II\nA. Revolver 1. Alfred Nobel\nB. Dynamite 2. Pascal\nC. Law of Cooling 3. Colt\nD. Law of pressure 4. Newton\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below the list: \n\nList-I \n\nList-II\nA. Revolver 1. Alfred Nobel\nB. Dynamite 2. Pascal\nC. Law of Cooling 3. Colt\nD. Law of pressure 4. Newton\n\nCode : A B C D",
           "options": {
             "A": "1 3 2 4",
             "B": "1 3 4 2",
@@ -21500,7 +21500,7 @@
           "year": "2009"
         },
         {
-          "q": "Which of the following pair is used to form the\nterminals of normal torch cell?",
+          "q": "Which of the following pair is used to form the terminals of normal torch cell?",
           "options": {
             "A": "Zinc – Carbon",
             "B": "Copper – Zinc",
@@ -21877,7 +21877,7 @@
           "year": "2015"
         },
         {
-          "q": "Match list-I with List-II and select the correct answer\nusing the code given below the lists :\nList-I List-II\nA. Chevron 1. Wind energy\nB. AT&T 2. Oil\nC. AMD 3. Telephone, Internet\nD. Enercon GmbH 4. Micro-processor\nCode :\nA B C D",
+          "q": "Match \n\nlist-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below the lists : \n\nList-I \n\nList-II\nA. Chevron 1. Wind energy\nB. AT&T 2. Oil\nC. AMD 3. Telephone, Internet\nD. Enercon GmbH 4. Micro-processor\n\nCode : A B C D",
           "options": {
             "A": "2 1 4 3",
             "B": "4 3 2 1",
@@ -22332,7 +22332,7 @@
           "year": "2023"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nusing the codes given below in the lists.\nList- I (Institute)\nA. Central Institute of Higher Tibetan Studies\nB. Indira Gandhi Institute of Development Research\nC. National Institute of Mental Health and Neuro Sciences\nD. Central Institute of English and Foreign Languages\nList- II (Location)\n1. Hyderabad 2. Mumbai\n3. Bangalore 4. Dharamshala\n5. Varanasi\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncodes given below in the lists. \n\nList- I (Institute)\nA. Central Institute of Higher Tibetan Studies\nB. Indira Gandhi Institute of Development Research\nC. National Institute of Mental Health and Neuro Sciences\nD. Central Institute of English and Foreign Languages \n\nList- II (Location) 1. Hyderabad 2. Mumbai 3. Bangalore 4. Dharamshala 5. Varanasi\n\nCode : A B C D",
           "options": {
             "A": "5 3 4 1",
             "B": "5 2 3 1",
@@ -22358,7 +22358,7 @@
           "year": "2002"
         },
         {
-          "q": "Match List- I with List- II and select the correct answer\nusing the code given below :\nList-I List-II\nA. Hi-Tec City 1. Lucknow\nB. Science City 2. Thumba\nC. Rocket Launching Centre 3. Calcutta\nD. Central Drug Research Institute 4. Hyderabad\nCode :\nA B C D",
+          "q": "Match \n\nList- I with \n\nList- II and\n\nselect the correct answer using the\n\ncode given below : \n\nList-I \n\nList-II\nA. Hi-Tec City 1. Lucknow\nB. Science City 2. Thumba\nC. Rocket Launching Centre 3. Calcutta\nD. Central Drug Research Institute 4. Hyderabad\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 3 2 1",
@@ -22475,7 +22475,7 @@
           "year": "2007"
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nby using the codes given below the lists.\nList-I List-II\n(Person) (Known As)\nA. John C. Mather 1. Co-founder of Microsoft\nB. Michael Griffin 2. Space Walker\nC. Paul G. Allen 3. Administrator of NASA\nD. Piers Sellers 4. Nobel Prize Winner, 2006\nin Physics\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer by using the\n\ncodes given below the lists. \n\nList-I \n\nList-II (Person) (Known As)\nA. John\nC. Mather 1. Co-founder of Microsoft\nB. Michael Griffin 2. Space Walker\nC. Paul G. Allen 3. Administrator of NASA\nD. Piers Sellers 4. Nobel Prize Winner, 2006 in Physics\n\nCode : A B C D",
           "options": {
             "A": "4 1 3 2",
             "B": "2 3 1 4",
@@ -22528,7 +22528,7 @@
           "note": "The book marks this answer with (*), indicating the answer is disputed/ambiguous among the given options; see the explanation."
         },
         {
-          "q": "Match List-I with List-II and select the correct answer\nfrom the code given below :\nList-I List-II\nA. Dry Ice 1. Treatment of Cancer\nB. Gene therapy 2. Freezing living bodies to be\nrevived later\nC. Cryonics 3. Solid carbon dioxide\nD. Cobalt-60 4. Treatment of blood diseases.\nCode :\nA B C D",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncode given below : \n\nList-I \n\nList-II\nA. Dry Ice 1. Treatment of Cancer\nB. Gene therapy 2. Freezing living bodies to be revived later\nC. Cryonics 3. Solid carbon dioxide\nD. Cobalt-60 4. Treatment of blood diseases.\n\nCode : A B C D",
           "options": {
             "A": "1 2 3 4",
             "B": "4 3 2 1",

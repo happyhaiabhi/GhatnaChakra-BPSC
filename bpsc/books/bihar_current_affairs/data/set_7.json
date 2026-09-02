@@ -26,7 +26,7 @@
           "original_id": 1
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Name): a. Jitan Ram Manjhi; b. Rajiv Ranjan Singh; c. Giriraj Singh; d. Chirag Paswan\nList-II (Cabinet Ministers): 1. Ministry of Textiles; 2. Ministry of Panchayati Raj; 3. Ministry of MSME; 4. Ministry of Food Processing Industries\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Name):\na. Jitan Ram Manjhi;\nb. Rajiv Ranjan Singh;\nc. Giriraj Singh;\nd. Chirag Paswan \n\nList-II (Cabinet Ministers): 1. Ministry of Textiles; 2. Ministry of Panchayati Raj; 3. Ministry of MSME; 4. Ministry of Food Processing Industries\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -173,7 +173,7 @@
           "original_id": 8
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Festival): a. Shri Ugratara Cultural Festival; b. Ahilya Gautam Festival; c. Guptadham Festival; d. Lachar Festival\nList-II (Event): 1. Sasaram (Rohtas); 2. Darbhanga; 3. Mahisi (Saharsa); 4. Jamui\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Festival):\na. Shri Ugratara Cultural Festival;\nb. Ahilya Gautam Festival;\nc. Guptadham Festival;\nd. Lachar Festival \n\nList-II (Event): 1. Sasaram (Rohtas); 2. Darbhanga; 3. Mahisi (Saharsa); 4. Jamui\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -236,7 +236,7 @@
           "original_id": 11
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Party): a. LJP (R); b. RJD; c. Congress (INC); d. CPI (ML)\nList-II (Seats won in the 2024 Lok Sabha elections): 1. Five; 2. Four; 3. One; 4. Three\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Party):\na. LJP (R);\nb. RJD;\nc. Congress (INC);\nd. CPI (ML) \n\nList-II (Seats won in the 2024 Lok Sabha elections): 1. Five; 2. Four; 3. One; 4. Three\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -341,7 +341,7 @@
           "original_id": 16
         },
         {
-          "q": "Match the portals released by the Bihar government correctly:-\nList-I (Portal): a. Samarth Portal; b. Parimarjan Plus Portal; c. IHIP Portal; d. \"Police Vani\" Portal\nList-II (Issuer): 1. Education Department; 2. Revenue and Land Reforms Department; 3. Health Department; 4. Bihar Police\nCodes:",
+          "q": "Match the portals released by the Bihar government correctly:- \n\nList-I (Portal):\na. Samarth Portal;\nb. Parimarjan Plus Portal;\nc. IHIP Portal;\nd. \"Police Vani\" Portal \n\nList-II (Issuer): 1. Education Department; 2. Revenue and Land Reforms Department; 3. Health Department; 4. Bihar Police\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-1,b-4,c-2,d-3",
@@ -404,7 +404,7 @@
           "original_id": 19
         },
         {
-          "q": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (App/Portal): a. Indravajra App; b. Hiring App; c. Vidyavahini Mobile App\nList-II (Issuer): 1. Disaster Management Department; 2. Cooperative Minister; 3. Education Department\nCodes:",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (App/Portal):\na. Indravajra App;\nb. Hiring App;\nc. Vidyavahini Mobile App \n\nList-II (Issuer): 1. Disaster Management Department; 2. Cooperative Minister; 3. Education Department\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3",
@@ -488,7 +488,7 @@
           "original_id": 23
         },
         {
-          "q": "Match the correct statement regarding the upcoming goal of the Bihar government:\nList-I (Subject): a. Water for every farm; b. To be among the top 10 green energy states in India; c. Target to generate approximately 20% of electricity from solar energy; d. Target to complete the land survey work of Bihar\nList-II (Target Year): 1. 2025; 2. 2030; 3. 2030; 4. July 2026\nCode:",
+          "q": "Match the correct statement regarding the upcoming goal of the Bihar government: \n\nList-I (Subject):\na. Water for every farm;\nb. To be among the top 10 green energy states in India;\nc. Target to generate approximately 20% of electricity from solar energy;\nd. Target to complete the land survey work of Bihar \n\nList-II (Target Year): 1. 2025; 2. 2030; 3. 2030; 4. July 2026\n\nCode:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",
@@ -866,7 +866,7 @@
           "original_id": 41
         },
         {
-          "q": "Match the new days declared by the Bihar government:\nList-I (Day): a. Bihar Earth Day; b. Bihar Museum Day; c. Vijayotsav Day; d. Maharana Pratap Jayanti\nList-II (Date): 1. May 9; 2. August 7; 3. April 23; 4. August 9\nCodes:",
+          "q": "Match the new days declared by the Bihar government: \n\nList-I (Day):\na. Bihar Earth Day;\nb. Bihar Museum Day;\nc. Vijayotsav Day;\nd. Maharana Pratap Jayanti \n\nList-II (Date): 1. May 9; 2. August 7; 3. April 23; 4. August 9\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",
@@ -1013,7 +1013,7 @@
           "original_id": 48
         },
         {
-          "q": "Match List I with List II and select the correct answer using the code given below:\nList-I (Festival/Celebration): a. Mithila Folk Festival; b. Mehendar Festival; c. Umangeshwari Festival; d. Singheshwar Festival\nList-II (District): 1. Madhepura; 2. Aurangabad; 3. Siwan; 4. Darbhanga\nCodes:",
+          "q": "Match \n\nList I with \n\nList II and\n\nselect the correct answer using the\n\ncode given below: \n\nList-I (Festival/Celebration):\na. Mithila Folk Festival;\nb. Mehendar Festival;\nc. Umangeshwari Festival;\nd. Singheshwar Festival \n\nList-II (District): 1. Madhepura; 2. Aurangabad; 3. Siwan; 4. Darbhanga\n\nCodes:",
           "question_type": "Match the List",
           "options": {
             "A": "a-2,b-1,c-3,d-4",

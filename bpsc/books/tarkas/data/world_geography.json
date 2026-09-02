@@ -558,7 +558,7 @@
           "year": "59th"
         },
         {
-          "q": "Match the rivers with the cities through which they are flowing and select the correct answer using the codes given below: City - River: A. Rotterdam 1. Seine; B. Paris 2. Potomac; C. Budapest 3. Rhine; D. Washington 4. Danube",
+          "q": "Match the rivers with the cities through which they are flowing and\n\nselect the correct answer using the\n\ncodes given below: City - River:\nA. Rotterdam 1. Seine;\nB. Paris 2. Potomac;\nC. Budapest 3. Rhine;\nD. Washington 4. Danube",
           "options": {
             "A": "a-2, b-3, c-1, d-4",
             "B": "a-1, b-3, c-4, d-2",
@@ -813,7 +813,7 @@
           "year": ""
         },
         {
-          "q": "Match the following shifting cultivation with the countries where they are practised and select the correct answer using the codes given below: Shifting Cultivation - Country: A. Jhumming 1. Malaysia; B. Milpa 2. Brazil; C. Roca 3. Mexico; D. Ladang 4. India",
+          "q": "Match the following shifting cultivation with the countries where they are practised and\n\nselect the correct answer using the\n\ncodes given below: Shifting Cultivation - Country:\nA. Jhumming 1. Malaysia;\nB. Milpa 2. Brazil;\nC. Roca 3. Mexico;\nD. Ladang 4. India",
           "options": {
             "A": "A-4, B-3, C-1, D-2",
             "B": "A-4, B-2, C-3, D-1",
@@ -855,7 +855,7 @@
           "year": ""
         },
         {
-          "q": "Match List-I with List-II and select the correct answer from the codes given below the lists: List-I: a. Loss  b. Moraines  c. Dunes  d. Mushroom rocks  |  List-II: 1. Rocks have a narrower base and wider top  2. Fine sand is deposited by the action of the wind  3. Debris of boulders and coarse material carried by glaciers  4. A small hill of sand caused by the action of the wind",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists: \n\nList-I:\na. Loss\nb. Moraines\nc. Dunes\nd. Mushroom rocks | \n\nList-II: 1. Rocks have a narrower base and wider top 2. Fine sand is deposited by the action of the wind 3. Debris of boulders and coarse material carried by glaciers 4. A small hill of sand caused by the action of the wind",
           "options": {
             "A": "a-2, b-3, c-4, d-1",
             "B": "a-3, b-1, c-4, d-2",
@@ -869,7 +869,7 @@
           "year": ""
         },
         {
-          "q": "Match List-I with List-II and select the correct answer from the codes given below the lists: List-I: a. North America  b. South America  c. Africa  d. Australia  |  List-II: 1. Andes mountain  2. Great Sandy desert  3. Drakensberg mountain  4. Appalachian mountain",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists: \n\nList-I:\na. North America\nb. South America\nc. Africa\nd. Australia | \n\nList-II: 1. Andes mountain 2. Great Sandy desert 3. Drakensberg mountain 4. Appalachian mountain",
           "options": {
             "A": "a-1, b-3, c-4, d-2",
             "B": "a-4, b-1, c-3, d-2",
@@ -911,7 +911,7 @@
           "year": ""
         },
         {
-          "q": "Match List-I with List-II and select the correct answer from the codes given below the lists: List-I: a. Urmia Lake  b. Irrawaddy River  c. Red River  d. Mekong River  |  List-II: 1. Myanmar  2. Laos  3. Vietnam  4. Iran",
+          "q": "Match \n\nList-I with \n\nList-II and\n\nselect the correct answer from the\n\ncodes given below the lists: \n\nList-I:\na. Urmia Lake\nb. Irrawaddy River\nc. Red River\nd. Mekong River | \n\nList-II: 1. Myanmar 2. Laos 3. Vietnam 4. Iran",
           "options": {
             "A": "a-1, b-3, c-4, d-2",
             "B": "a-4, b-1, c-3, d-2",
