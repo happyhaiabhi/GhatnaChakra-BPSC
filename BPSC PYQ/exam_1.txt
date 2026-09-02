@@ -1,0 +1,151 @@
+EXAM: 60-62nd BPSC (Combined)
+Q1|Who was the leader of revolutionaries in Bihar during the Revolt of 1857?|A:Namdar Khan || B:BabuKunwar Singh || C:Birsa Munda || D:Shankar Shah || E:None of the above/More than one of the above
+Q2|Birsa was captured, while asleep, on :|A:1900-02-02 00:00:00 || B:1900-02-03 00:00:00 || C:1900-02-04 00:00:00 || D:4 February , 1900 || E:None of the above/More than one of the above
+Q3|"The Muslims, if contented and satisfied, would become the greatest bulwark of British power in India". Who wrote it ?|A:Herbert Risley || B:Lord Lytton || C:W.W. Hunter || D:H.N.Brailsford || E:None of the above/More than one of the above
+Q4|"In my belief, Congress is to tottering to its fall and one of my great ambitions while in India is to assist it to a peaceful demise." Who wrote it?|A:Lord Lytton || B:Lord Dufferin || C:Lord Curzon || D:Lord Minto || E:None of the above/More than one of the above
+Q5|Who drew Mahatma Ganghi's attention towards the exploitation of the peasants by the European Indigo planters?|A:Baba Ram Chandra || B:Raja Kumar Shukla || C:Swami SahajanandaSaraswati || D:Sri Krishna Sinha || E:None of the above/More than one of the above
+Q6|Who was elected the first President of All India Kisan Sabha at Lucknow in 1936?|A:N.G.Ranbga || B:E.M.S.Namboodri pad || C:Swami SahajanandSaraswati || D:Acharya Narendra Dev || E:None of the above/More than one of the above
+Q7|Sir Michael O'Dwyer was shot dead on 13 March, 1940 in London by :|A:Madal Lal Dhingra || B:M.P.T.Acharya || C:V.D.Savarkar || D:Udham Singh || E:None of the above/More than one of the above
+Q8|Who was the Prime Minister of England when the Montague-Chelmsford Act was passed in 1919?|A:Lloyd George || B:George Hamilton || C:Sir Samuel Hoare || D:Lord Salisbury || E:None of the above/More than one of the above
+Q9|Who left Patna College with just 20 days remaining for his examination during the Non Cooperation Movement?|A:Rajendra Prasad || B:Braj Kishore || C:Jai Prakash Naryana || D:Sri Krishna Sinha || E:None of the above/More than one of the above
+Q10|Who became champion of socialism and wanted to overthrow of British rule, Princely states, Landlordism and Capitalism in 1933?|A:Rajendra Prasad || B:Jawaharlal Nehru || C:Bhulabhai Desai || D:Sardar Patel || E:None of the above/More than one of the above
+Q11|Who joined Subhas Chandra Bose to found All India Forward Bloc and actively associated with the INA movement?|A:Jai Prakash Narayan || B:Baikunth Shukla || C:SheelBhadraYajee || D:Ram Narain Prasad || E:None of the above/More than one of the above
+Q12|Who is regarded as "The Mother of Indian Revolution"?|A:Mrs.Annie Besant || B:SnehlataWadekar || C:Sarojini Naidu || D:Madam BhikhajiRustamCama || E:None of the above/More than one of the above
+Q13|Which journal was not associated with the revolutionary activities?|A:Sandhya || B:Yugantar || C:Ghadr || D:Young India || E:None of the above/More than one of the above
+Q14|First Indian elected to the British House of Commons was DadabhaiNaoroji who contested on the ticket of ;|A:Liberal Party || B:Labour Party || C:Conservative Party || D:Communist Party || E:None of the above/More than one of the above
+Q15|Swaraj Party was formed following the failure of:|A:Non-Cooperation Movement || B:Civil Disobedience Movement || C:Rowlatt Bill Satyagraha || D:Champaran Satyagraha || E:None of the above/More than one of the above
+Q16|The Chittagong Armoury Raid had been planned by|A:Surya Sen || B:Chandan Dutta || C:Vidhan Ghosh || D:Jatin Das || E:None of the above/More than one of the above
+Q17|The Cabinet Mission came to India in :|A:1942-02-01 00:00:00 || B:1942-03-01 00:00:00 || C:1942-04-01 00:00:00 || D:1942-05-01 00:00:00 || E:None of the above/More than one of the above
+Q18|A pleader of Bihar who left his lucrative practice during Non-Cooperation Movement was :|A:Jai Prakash Narayan || B:Rajendra Prasad || C:Sahajanand Saraswati || D:Raj Kumar Shukla || E:None of the above/More than one of the above
+Q19|The precursor of Indian National Congress was:|A:British Indian Association || B:Indian Association || C:Indian National Union || D:Indian League || E:None of the above/More than one of the above
+Q20|Who organised the "KhudaiKhidmatgar" in 1929?|A:Abdul Gaffar Khan || B:Ali Brothers || C:Ansari Brothers || D:MaulanaAbulKalam Azad || E:None of the above/More than one of the above
+Q21|A, B, C, Invested 20 lac rupees in a business in the ratio 7 : 2 : 1. The total profit is 18%. A has to pay 30% tax and B hast to pay 20% tax. What percent of net profit of A is more than the net profit of B?|A:1.188 || B:1.8 || C:3.0625 || D:3.045 || E:None of the above/More than one of the above
+Q22|If SURGICAL - STRIKE is coded as 13979313-129925, then METRO-TRAIN is coded as|A:15295-29195 || B:45296-29195 || C:45295-29194 || D:15296-29195 || E:None of the above/More than one of the above
+Q23|x is a consecutive whole number and the first four values of expression 4x^2 + 3y -3 are 7, 20, 45, 88, then the fifth value is|A:137 || B:155 || C:158 || D:143 || E:None of the above/More than one of the above
+Q24|In the series of numbers and alphabets A26H, C24F, G20B, the next term is|A:M13D || B:O11C || C:M12B || D:M14E || E:None of the above/More than one of the above
+Q25|The dearness-allowance of a person with basic salary Rs.7700 is increased to 132% form 125% and the tax deduction on both is increased to 22% from 20%. He got salary increased by|A:Rs.74.00 || B:Rs.77.00 || C:Rs.385.00 || D:Rs.369.00 || E:None of the above/More than one of the above
+Q26|Inspect the following figure and find the region which represents the government employee who live in own house and compulsorily graduate.|A:EGHD || B:BED || C:BHG || D:HGI || E:None of the above/More than one of the above
+Q27|If sign +, represents multiplication, x addition; - division, ÷ difference > equal and = represents greater than, then which of the following relation is true?|A:12 - 2 + 3 ÷ 8 × 1 > 12 || B:11 × 2 ÷ 4 - 2 + 1 = 11 || C:7 ÷ 2 × 5 - 5 + 2 = 7 || D:5 × 6 - 3 ÷ 3 + 1 > 4 || E:None of the above/More than one of the above
+Q28|How many times the digit 9 occurs in the numbers from 100 to 999.|A:280 || B:218 || C:229 || D:228 || E:None of the above/More than one of the above
+Q29|In the following pie-chart, the various expenditures of an industry are presented. Total expenditure on raw material is Rs.30 lac. If labour expenditure is increased by 5%. How much expenditure on other expenses be reduc|A:0.059 || B:0.1286 || C:0.0643 || D:0.0621 || E:None of the above/More than one of the above
+Q30|In the bottom of a water tank, there are two drains A and B. If only A is open , it takes 30 minutes to empty a full tank and if only B is open, it takes 20 minutes. If for 10 minutes both drains are open, then B is clos|A:18 minutes || B:15 minutes || C:17 minutes || D:20 minutes || E:None of the above/More than one of the above
+Q31|Which of the following pairs is not correctly matched?|A:Vitamin B Oranges || B:Vitamin D - Cod-liver oil || C:Vitamin E - Wheat germ oil || D:Vitamin K - Alfalfa || E:None of the above/More than one of the above
+Q32|Teflon is a polymer of which of the following monomers?|A:Tetrafluoroethylene || B:Vinyl chloride || C:Chloroprene || D:Acetylene dichloride || E:None of the above/More than one of the above
+Q33|Which of the following is responsible for controlling hereditary characters of the living cells?|A:Enzyme || B:Hormone || C:RNA || D:DNA || E:None of the above/More than one of the above
+Q34|Which of the following vitamins is known as ergocalciferol ?|A:Vitamin D || B:Vitamin D || C:Vitamin B || D:Vitamin B || E:None of the above/More than one of the above
+Q35|Which of the following pairs is not correctly matched?|A:Retinol - Xerophthalmia || B:Tocopherol - Beriberi || C:Cyanocobalamin - Anaemia || D:Ergocalciferol- Rickets || E:None of the above/More than one of the above
+Q36|Bakelite is formed by the condensation of|A:Urea and formaldehyde || B:Phenol and formaldehyde || C:Phenol and acetaldehyde || D:Melamine and formaldehyde || E:None of the above/More than one of the above
+Q37|Which one of the following is an antibiotic drug?|A:Quinine || B:Sulphaguanidine || C:Chloramphenicol || D:Aspirin || E:None of the above/More than one of the above
+Q38|Match List-I with List-II and select the correct answer using the codes given below the lists|A:1 3 4 2 || B:2 4 1 3 || C:3 4 1 2 || D:3 1 2 4 || E:None of the above/More than one of the above
+Q39|Insulin is|A:Fat || B:Vitamin || C:Carbohydrate || D:Protein || E:None of the above/More than one of the above
+Q40|The gas used in the manufacture of Vanaspati Ghee from Vanaspati Oil is|A:Hydrogen || B:Oxygen || C:Nitrogen || D:Carbon dioxide || E:None of the above/More than one of the above
+Q41|LPG used as domestic fuel chiefly contains|A:Methane || B:Propane || C:Ethylene || D:Butane || E:None of the above/More than one of the above
+Q42|Soap removes grease by|A:Coagulation || B:Adsorption || C:Emulsification || D:Osmosis || E:None of the above/More than one of the above
+Q43|Which of the following hormones play a role in release of milk from mammary glands?|A:Adrenaline || B:Thyroxine || C:Progesterone || D:Oxytocin || E:None of the above/More than one of the above
+Q44|Match List-I with List-II and select the correct answer using the codes given below the lists|A:1 2 3 4 || B:2 3 4 1 || C:2 3 1 4 || D:4 3 2 1 || E:None of the above/More than one of the above
+Q45|In human body, Vitamin A is stored in|A:Liver || B:Skin || C:Lung || D:Kidney || E:None of the above/More than one of the above
+Q46|Which of the following vitamins is used as an antidote to anticoagulant poisons?|A:Vitamin A || B:Vitamin D || C:Vitamin E || D:Vitamin K || E:None of the above/More than one of the above
+Q47|Iodised salt contains|A:Free iodine || B:Calcium iodide || C:Magnesium iodide || D:Potassium iodide || E:None of the above/More than one of the above
+Q48|Which of the following is present in maximum in acid rain?|A:HCl || B:HNO3 || C:H2SO4 || D:H2CO3 || E:None of the above/More than one of the above
+Q49|God Particle' is|A:Neutrino || B:Higgs Boson || C:Meson || D:Positron || E:None of the above/More than one of the above
+Q50|Which of the following radio isotopes is used in the treatment of blood cancer [leukemia]?|A:Iodine -131 || B:Sodium-24 || C:Phosphorus-32 || D:Cobalt-60 || E:None of the above/More than one of the above
+Q51|The elected US President Donald Trump was the Presidential Nominee of the|A:Democratic Party || B:Republican Party || C:Libertarian Party || D:Green Party || E:None of the above/More than one of the above
+Q52|The Iran-Pakistan Gas pipe line is also called as|A:Friendship pipeline || B:Future pipe line || C:Peace pipeline || D:Unity pipeline || E:None of the above/More than one of the above
+Q53|What is the India's rank in the 2016 Sustainable Development Goal Index?|A:110 || B:88 || C:63 || D:129 || E:None of the above/More than one of the above
+Q54|The United Nations Framework Convention on Climate Change deals with|A:reduction in fossil fuel usage || B:emissions mitigation || C:reduction in Uranium production || D:Green house gases emissions mitigation || E:None of the above/More than one of the above
+Q55|The 2016 Nobel Prize in Literature was won by|A:Alice Munro || B:Svetlana Alexievich || C:Bob Dylan || D:Angus Deaton || E:None of the above/More than one of the above
+Q56|Which country has the largest reserves of oil?|A:Untied States || B:China || C:Russia || D:Venezuela || E:None of the above/More than one of the above
+Q57|Who is the new Secretary General of the United Nations?|A:Matthew Rycroft || B:Anibal Cavaco Silva || C:Antonio Guterres || D:VitalyChurkin || E:None of the above/More than one of the above
+Q58|Which of the following countries has recently joined the Hague Code of Conduct [HCoC], a global initiative to prevent ballistic missile proliferation?|A:Palestine || B:Israel || C:India || D:Iran || E:None of the above/More than one of the above
+Q59|Which State has been declared India's first 'Open Defecation Free State'?|A:Bihar || B:Assam || C:Himachal Pradesh || D:Sikkim || E:None of the above/More than one of the above
+Q60|Which of the following is the newest member of the Eurozone?|A:Lithuania || B:Croatia || C:Bulgaria || D:Cyprus || E:None of the above/More than one of the above
+Q61|The head of state of the United Kingdom is|A:Queen Elizabeth I || B:Queen Elizabeth II || C:Queen Elizabeth III || D:Queen Elizabeth IV || E:None of the above/More than one of the above
+Q62|India's first and Asia's longest cycle highway has been opened in which State of India?|A:Uttar Pradesh || B:Andhra Pradesh || C:Bihar || D:Assam || E:None of the above/More than one of the above
+Q63|India's first textile university will be set up in which of the following states ?|A:Madhya Pradesh || B:Bihar || C:Gujarat || D:Odisha || E:None of the above/More than one of the above
+Q64|What is the fiscal deficit target of India for the financial year 2016-17?|A:3.9% of GDP || B:3.5% of GDP || C:4.9% of GDP || D:4.5% of GDP || E:None of the above/More than one of the above
+Q65|The 2016 joint military exercise "Maitree" has been conducted between India and which of the following countries?|A:Indonesia || B:Thailand || C:Malaysia || D:Maldives || E:None of the above/More than one of the above
+Q66|The nation-wise breast-feeding programme "MAA" has been launched by which Union Ministry?|A:Ministry of Tribal Affairs || B:Ministry of Health and Family Welfare || C:Ministry of Women and Child Development || D:Ministry of AYUSH || E:None of the above/More than one of the above
+Q67|Which of the following is a bond through which Indian entities can raise money from foreign markets in rupees, and not in foreign currency?|A:Corporate Bonds || B:Masala Bonds || C:Municipal Bonds || D:Zero-coupon Bonds || E:None of the above/More than one of the above
+Q68|Which train safety system has recently been launched by the Indian Railways to avoid train accidents?|A:Tri-Safety || B:Tri-Netra || C:Tri-Network || D:Tri-Veil || E:None of the above/More than one of the above
+Q69|Which committee has been constituted by the Government of India to boost cashless transaction?|A:Nachiket More Committee || B:Shanta Kumar Committee || C:H.R.Khan Committee || D:Neeraj Kumar Gupta Committee || E:None of the above/More than one of the above
+Q70|Which country has won the 2016 Davis Cup Tennis Tournament?|A:Argentina || B:Switzerland || C:Serbia || D:Croatia || E:None of the above/More than one of the above
+Q71|India's first Laser Interferometer Gravitational-Wave Observatory (LIGO) laboratory will be setup in which State ?|A:Uttar Pradesh || B:Maharashtra || C:Andhra Pradesh || D:Bihar || E:None of the above/More than one of the above
+Q72|In Rio Olympics 2016 which country finished at the top of the table with gold medals?|A:United States || B:China || C:Great Britain || D:Russia || E:None of the above/More than one of the above
+Q73|The FIFA World Cup 2022 will be held in|A:Argentina || B:Germany || C:Qatar || D:Russia || E:None of the above/More than one of the above
+Q74|As per Census 2011, what is the rank of Bihar State in terms of population in the country?|A:I || B:II || C:III || D:IV || E:None of the above/More than one of the above
+Q75|Which country has won the 2016 Kabaddi World Cup?|A:Srilanka || B:Iran || C:India || D:China || E:None of the above/More than one of the above
+Q76|Which country's women Badminton team has won the 2016 Uber Cup Tournament?|A:Thailand || B:India || C:South Korea || D:China || E:None of the above/More than one of the above
+Q77|Who has been conferred with the 2015 Jnanpith Award ?|A:Pannalal Patel || B:Umashankar Joshi || C:RaghuveerChaudhari || D:Rama Jain || E:None of the above/More than one of the above
+Q78|The book "Six Machine : I Don't Like Cricket .... I Love It" is the autobiography of which cricketer?|A:Yuvraj Singh || B:Chris Gayle || C:VirendraSehwag || D:AB de Villiers || E:None of the above/More than one of the above
+Q79|Who is the first Indian to win two Paralympic Gold Medals?|A:Devendra Jhajharia || B:Deepa Malik || C:MariyappanThangavelu || D:Varun Singh Bhati || E:None of the above/More than one of the above
+Q80|What was the theme of the 2016 Rio Olympics?|A:Peace for inner soul || B:World peace and Environment || C:Nothing can be achieved without peace || D:Live sports , live freedom || E:None of the above/More than one of the above
+Q81|Which among the following Harappan site terracotta of 'plough' was found?|A:Dholavira || B:Banawali || C:Kalibangan || D:Lothal || E:None of the above/More than one of the above
+Q82|Kalinga's King Kharvel was associated with:|A:Mahameghvahana dynasty || B:Chedi dynasty || C:Satvahana dynasty || D:Rath-Bhojak dynasty || E:None of the above/More than one of the above
+Q83|Chinese traveller 'Sungyun' was came to India in:|A:515 A.D to 520 AD || B:525 AD to 529AD || C:545AD to 552 AD || D:592 AD to 597AD || E:None of the above/More than one of the above
+Q84|Which type of land was called 'Aprahat'?|A:Without cultivated forest land || B:Irrigated land || C:Dense forest land || D:Cultivated land || E:None of the above/More than one of the above
+Q85|Which among the following state 'Odantipur' Education Centre was situated?|A:Bengal || B:Bihar || C:Gujarat || D:Tamil Nadu || E:None of the above/More than one of the above
+Q86|Diwan-E-Arj' department was associated with:|A:Royal Correspondence || B:Foreign || C:defence || D:finance || E:None of the above/More than one of the above
+Q87|Who was the founder of Bahamani Kingdom?|A:Alauddin Hasan || B:Feroz Shah || C:Mahmud Gaonwa || D:Asaf Khan || E:None of the above/More than one of the above
+Q88|Which among the following King's reign Persian traveller 'Abdurrajjak' came to India?|A:Dev Rai I || B:Krishna Dev Rai I || C:Dev Rai II || D:Krishna Rai II || E:None of the above/More than one of the above
+Q89|Jaswant and Dasawan' famous painters were courtier of Mughal emperor:|A:Akbar || B:Jehangir || C:Shahjahan || D:Aurangzeb || E:None of the above/More than one of the above
+Q90|Akhil Bhartiya Kisan Congress was founded in:|A:1936 AD || B:1939 AD || C:1942 AD || D:1945 AD || E:None of the above/More than one of the above
+Q91|Which among the following year 'Santhal revolt' was occurred?|A:1831 - 32 AD || B:1844 - 46 AD || C:1851 - 52 AD || D:1855 - 56 AD || E:None of the above/More than one of the above
+Q92|Which among the following year Surendra Nath Bannerjee was eliminated from Indian Civil Services?|A:1874 AD || B:1877 AD || C:1885 AD || D:1892 AD || E:None of the above/More than one of the above
+Q93|Who is known as father of Dyarchy?|A:Lord Clive || B:Hector Munaro || C:Lord Macaulay || D:Sir LeonilCartis || E:None of the above/More than one of the above
+Q94|Which among the following viceroy period the title of 'Rai Bahadur' and 'Khan Bahadur' were began to conferred to Indian?|A:Lord Ripon || B:Lord Lytton || C:Lord Meyo || D:Lord Dufferin || E:None of the above/More than one of the above
+Q95|Who was the founder of Karnata dynasty?|A:Nanyadev || B:Narsimhadev || C:Vijaydev || D:Haridev || E:None of the above/More than one of the above
+Q96|Who was the first Muslim Conqueror of Bihar?|A:Malik Ibrahim || B:Iltumish || C:BakhtiyarKhalji || D:Ali MardanKhalji || E:None of the above/More than one of the above
+Q97|Who was the last King of Karnata dynasty?|A:Harisimha || B:Ramsimha || C:Matisimha || D:Shyamsimha || E:None of the above/More than one of the above
+Q98|The author of 'Rajaniti Ratnakara' is|A:Chandesvara || B:Vidyapati || C:Jyotiresvara || D:Haribrahmadeva || E:None of the above/More than one of the above
+Q99|The author of 'Udwant Prakash' is|A:Mauli Kavi || B:Bodhraj || C:Paramala || D:Vidyapati || E:None of the above/More than one of the above
+Q100|Nalanda Vihar was destroyed by:|A:BakhtiyarKhalji || B:Qutubddin Aibak || C:Muhammad Bin Tughlaq || D:Alauddin Khalji || E:None of the above/More than one of the above
+Q101|The Great Victorian Desert is located at|A:Australia || B:India || C:Egypt || D:North Africa || E:None of the above/More than one of the above
+Q102|Which of the following activities is performed at Coolgardi?|A:Coal mining || B:Copper mining || C:Gold mining || D:Forestry || E:None of the above/More than one of the above
+Q103|What is Particulate matter?|A:Solid residue || B:Air pollutant || C:Water pollutant || D:Soil pollutant || E:None of the above/More than one of the above
+Q104|What is the name of mid latitude grass land in South America?|A:Prairie || B:Pampas || C:Veld || D:Steppes || E:None of the above/More than one of the above
+Q105|Match the following places with industries and select the correct answer using the code given below :|A:1 2 3 4 || B:2 1 4 3 || C:4 3 2 1 || D:3 4 1 2 || E:None of the above/More than one of the above
+Q106|Which of the following seas has the highest average salinity?|A:Black Sea || B:Yellow Sea || C:Mediterranean Sea || D:Dead Sea || E:None of the above/More than one of the above
+Q107|The Dravadian races are mainly confined at which of the following parts of India?|A:South India || B:North-Western India || C:North-Eastern India || D:North India || E:None of the above/More than one of the above
+Q108|At which of the following hills the Eastern Ghats join the Western Ghats?|A:Palani Hills || B:Anaimudi Hills || C:Nilgiri Hills || D:Shervoroy Hills || E:None of the above/More than one of the above
+Q109|At which of the following places the Copper Industry is located?|A:Tarapur || B:Titagarh || C:Ranchi || D:Khetri || E:None of the above/More than one of the above
+Q110|What is the Golden Quadrilateral ?|A:Rail lines joining metros || B:Major Air Routes || C:National Highway Project || D:Gold Trade Routes || E:None of the above/More than one of the above
+Q111|Which of the following Iron ores is mined at Bailadila?|A:Haematite || B:Siderite || C:Limonite || D:Magnetite || E:None of the above/More than one of the above
+Q112|The only state which produces saffron in India is|A:Himachal Pradesh || B:Assam || C:Jammu &Kashmir || D:Meghalaya || E:None of the above/More than one of the above
+Q113|At which of the following towns the Alaknanda and the Bhagirathi combines to form River Ganga?|A:Haridwar || B:Rishikesh || C:Rudraprayag || D:Devprayag || E:None of the above/More than one of the above
+Q114|Which of the landforms occupy the North-Western parts of Bihar State?|A:Someshwar Hilly Range || B:Kaimur Plateau || C:Nawada Hilly Region || D:Rajgir Hilly Region || E:None of the above/More than one of the above
+Q115|River Tel is a tributary of which of the following rivers ?|A:Bagmati || B:Ghaghara || C:Gandak || D:Kamla || E:None of the above/More than one of the above
+Q116|Which of the following canal systems irrigate areas of Bihar?|A:Upper Ganga Canal || B:Triveni Canal || C:Sharda Canal || D:Eastern Yamuna Canal || E:None of the above/More than one of the above
+Q117|Which of the following is a silk textile producing centre in Bihar?|A:Motipur || B:Bajari || C:Bhagalpur || D:Dalmianagar || E:None of the above/More than one of the above
+Q118|At which of the following places Bharat Wagon and Engineering Co.Ltd. is situated?|A:Madhepura || B:Jamalpur || C:Harnat || D:Mokama || E:None of the above/More than one of the above
+Q119|Which of the following National Highways connect Chhapara and Gopalganj?|A:National Highway No.77 || B:National Highway No.84 || C:National Highway No.85 || D:National Highway No.80 || E:None of the above/More than one of the above
+Q120|Which of the following districts record highest growth of population during 2001-11?|A:Kishanganj || B:Araria || C:Madhepura || D:Khagdia || E:None of the above/More than one of the above
+Q121|Which of the following is/are listed among the Directive Principles in Part-IV of the Constitution of India?|A:I, II and III || B:I and II || C:II and III || D:I, II and IV || E:None of the above/More than one of the above
+Q122|Vote on Account is meant for|A:Vote on the report of CAG || B:To meet unforeseen expenditure || C:Appropriating funds pending passing of budget || D:Budget || E:None of the above/More than one of the above
+Q123|Constitution Day of India is celebrated on|A:2026-10-26 00:00:00 || B:2026-11-26 00:00:00 || C:2026-01-26 00:00:00 || D:2026-08-15 00:00:00 || E:None of the above/More than one of the above
+Q124|Which officer of the Government of India has the right to take part in the proceedings of Parliament of India even though he is not a member?|A:Vice-President || B:Attorney General of India || C:Comptroller and Auditor General || D:Election Commissioner || E:None of the above/More than one of the above
+Q125|The Supreme Court has held that hoisting the National Flag a top the private buildings is a fundamental right of every citizen under:|A:Article 14 of the Constitution || B:Article 19 (1) (a) of the Constitution || C:Article 21 of the Constitution || D:Article 25 of the Constitution || E:None of the above/More than one of the above
+Q126|Choose the fundamental rights available to Indian Citizen but not to aliens:|A:I and III || B:I and IV || C:II and IV || D:II and III || E:None of the above/More than one of the above
+Q127|A Panchayat Samiti at the block level in India is only a/an|A:Advisory Body || B:Consultative Committee || C:Co-ordinating and Supervisory Authority || D:Administrative Authority || E:None of the above/More than one of the above
+Q128|A seat of M.P. can be declared vacant if he absents himself from the house for a continuous period of|A:Six months || B:Two months || C:Three months || D:One year || E:None of the above/More than one of the above
+Q129|Match the following : I. Union List II. State list III. Concurrent list|A:a b c || B:a c b || C:c a b || D:c b a || E:None of the above/More than one of the above
+Q130|Creation of a new state requires a majority for Constitutional Amendment.|A:Simple || B:Two-third || C:Three-fourth || D:Two-third plus ratification by half of all states || E:None of the above/More than one of the above
+Q131|The expression 'Socialist' was introduced in the Preamble of Indian Constitution by which amendment?|A:42 Amendment || B:44 Amendment || C:46 Amendment || D:74 Amendment || E:None of the above/More than one of the above
+Q132|President of India exercises his powers|A:either directly or through officers subordinate to him || B:through Ministers || C:through Prime Minister || D:through Cabinet || E:None of the above/More than one of the above
+Q133|The 'Ease of Doing Business Index' is prepared and published by|A:World Trade Organisation || B:World Bank Group || C:United Nations || D:European Nations || E:None of the above/More than one of the above
+Q134|Which one of the following measures is not likely to aid in improving India's Balance of Payment position?|A:Promotion of Import Substitution Policy || B:Devaluation of rupee || C:Imposition of higher tariff on imports || D:Levying of higher duties on exports || E:None of the above/More than one of the above
+Q135|Service tax was introduced in India on the recommendation of:|A:Kelkar Committee || B:Raja J. Challiah Committee || C:Manmohan Singh Committee || D:Yashwant Sinha Committee || E:None of the above/More than one of the above
+Q136|As per Census 2011, which state has the lowest sex-ratio?|A:Punjab || B:Haryana || C:Uttar Pradesh || D:Bihar || E:None of the above/More than one of the above
+Q137|The economist who for the first time scientifically determined National Income in India:|A:D.R. Gadgil || B:V.K.R.V. Rao || C:Manmohan Singh || D:Y.V.Alagh || E:None of the above/More than one of the above
+Q138|The percentage of decadal growth of population during 2001-2011 as per Census 2011 is:|A:21.54 || B:17.64 || C:15.89 || D:19.21 || E:None of the above/More than one of the above
+Q139|Which of the following is not a cash crop?|A:Jute || B:Groundnut || C:Jowar || D:Sugarcane || E:None of the above/More than one of the above
+Q140|First Five Year Plan of India was based on the|A:Harrod Domar Model || B:Mahalanobis Model || C:DadabhaiNaroji Model || D:J.L. Nehru Model || E:None of the above/More than one of the above
+Q141|Black revolution is related to the|A:Fish Production || B:Coal production || C:Crude oil production || D:Mustard production || E:None of the above/More than one of the above
+Q142|Which Indian state has the largest number of Cotton Textiles Mills?|A:Madhya Pradesh || B:Maharashtra || C:Gujarat || D:West-Bengal || E:None of the above/More than one of the above
+Q143|Which district in Bihar is poorest according to per capita income criteria?|A:Begusarai || B:Madhepura || C:Supaul || D:Sheohar || E:None of the above/More than one of the above
+Q144|Which of the following Tax is levied by Union and collected and appropriated by States?|A:Stamp duties || B:Passenger & Goods Tax || C:Estate Duty || D:Taxes on Newspapers || E:None of the above/More than one of the above
+Q145|Bank rate means|A:Interest rate charged by moneylenders || B:Interest rate charged by Scheduled Banks || C:Rate of profit of banking institution || D:Official rate of interest charged by Central Bank || E:None of the above/More than one of the above
+Q146|In Bihar, which sector recorded highest growth during 2005-06 to 2014-15?|A:Agriculture || B:Banking || C:Registered Manufacturing || D:Transport || E:None of the above/More than one of the above
+Q147|SUPUR' project in Bihar relates to :|A:Health || B:Poverty || C:Banking || D:Municipal Finances || E:None of the above/More than one of the above
+Q148|Total length of National Highways in Bihar is:|A:3410 kms || B:3587 kms || C:4595 kms || D:4707 kms || E:None of the above/More than one of the above
+Q149|Per capita energy consumption in the state of Bihar is:|A:20 kWh || B:187 kWh || C:161 kWh || D:145 kWh || E:None of the above/More than one of the above
+Q150|‘JEEVIKA’ is an initiative of Bihar Govt for:|A:Employment Generation || B:Financial Inclusion || C:Poverty Attenuation || D:Public Distribution || E:None of the above/More than one of the above
