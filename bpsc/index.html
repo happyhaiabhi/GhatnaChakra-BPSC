@@ -489,24 +489,30 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .book-card::before{content:'';position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(135deg,var(--book-accent,var(--gold)),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;pointer-events:none;transition:opacity .18s ease;}
 .book-card:hover{transform:translateY(-4px);border-color:var(--border2);box-shadow:0 12px 30px rgba(0,0,0,.35);}
 .book-card:hover::before{opacity:1;}
-.book-top{display:flex;gap:14px;align-items:center;padding-right:88px;}
-.book-card .book-top-info .book-title{font-size:1rem;}
-.book-cover{display:none;}
-.book-card.has-cover .book-cover{display:block;width:108px;height:150px;flex-shrink:0;object-fit:contain;object-position:center;background:var(--surface2);border:1px solid var(--border2);border-radius:10px;box-shadow:0 8px 18px rgba(0,0,0,.35);}
-.book-emoji{font-size:2.6rem;line-height:1;}
-.book-emoji-fallback{display:none;}
+/* Card header: cover + text column. Nothing here is absolutely positioned and
+   the cover is a fluid-width 3:4 frame, so the title can never collide with the
+   cover or the tag pill at any zoom level / viewport width. */
+.book-top{display:flex;gap:14px;align-items:center;min-width:0;}
+.book-cover-frame{position:relative;flex:0 0 auto;width:min(92px,26%);aspect-ratio:3/4;display:grid;place-items:center;overflow:hidden;border-radius:10px;background:var(--surface2);border:1px solid var(--border2);box-shadow:0 8px 18px rgba(0,0,0,.28);transition:transform .22s ease,box-shadow .22s ease;}
+.book-card:hover .book-cover-frame{transform:translateY(-2px) scale(1.03);box-shadow:0 12px 24px rgba(0,0,0,.34);}
+.book-cover{display:block;width:100%;height:100%;object-fit:cover;object-position:center;}
+/* The emoji is only a placeholder inside the cover frame when no cover image
+   is available (missing in books.json or failed to load). */
+.book-emoji{display:none;font-size:clamp(1.5rem,4vw,2rem);line-height:1;}
 .book-card.no-cover .book-emoji-fallback{display:block;}
-.book-top-info{flex:1;min-width:0;}
-.book-top-info .book-title{margin-bottom:6px;}
-.book-title{font-family:'Cinzel',serif;font-size:1.15rem;font-weight:700;color:var(--text);line-height:1.25;}
-.book-subtitle{font-size:.72rem;color:var(--text3);letter-spacing:.5px;}
+.book-top-info{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:5px;}
+.book-title{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--text);line-height:1.22;overflow-wrap:anywhere;text-wrap:balance;}
+.book-subtitle{font-size:.72rem;color:var(--text3);letter-spacing:.4px;line-height:1.35;overflow-wrap:anywhere;}
+.book-card:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
 .book-desc{font-size:.78rem;color:var(--text2);line-height:1.5;flex:1;}
 .book-stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px;}
 .book-stat{font-size:.7rem;color:var(--text3);}
 .book-stat b{color:var(--text);font-weight:600;}
 .book-open{margin-top:6px;align-self:flex-start;font-size:.78rem;font-weight:600;color:var(--book-accent,var(--gold));display:flex;align-items:center;gap:6px;}
 .book-card:hover .book-open{gap:10px;}
-.book-pill{position:absolute;top:16px;right:16px;font-size:.58rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;padding:4px 9px;border-radius:20px;color:var(--book-accent,var(--gold));background:color-mix(in srgb,var(--book-accent,var(--gold)) 14%,transparent);border:1px solid color-mix(in srgb,var(--book-accent,var(--gold)) 35%,transparent);}
+/* Tag pill lives in normal flow (above the title) instead of being pinned to
+   the card corner, so it can never overlap the title or cover. */
+.book-pill{display:inline-block;max-width:100%;font-size:.58rem;letter-spacing:1.4px;text-transform:uppercase;font-weight:700;padding:4px 9px;border-radius:20px;color:var(--book-accent,var(--gold));background:color-mix(in srgb,var(--book-accent,var(--gold)) 14%,transparent);border:1px solid color-mix(in srgb,var(--book-accent,var(--gold)) 35%,transparent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3;}
 @media(max-width:600px){.books-grid{grid-template-columns:1fr;}.books-logo{font-size:1.6rem;}}
 
 /* "Switch book" pill in top navbar */
@@ -1216,7 +1222,8 @@ html,body{height:100%;}
   .books-date{font-size:.75rem;line-height:1.45;margin-bottom:20px;}
   .books-grid{grid-template-columns:1fr;gap:12px;}
   .book-card{padding:18px;min-height:176px;border-radius:18px!important;gap:8px;}
-  .book-emoji{font-size:2.25rem;}
+  .book-top{gap:12px;}
+  .book-cover-frame{width:min(84px,28%);}
   .book-title{font-size:1.15rem;}
   .book-desc{font-size:.82rem;line-height:1.55;}
   .book-open{font-size:.84rem;margin-top:8px;}
@@ -4807,15 +4814,21 @@ async function renderBooksScreen(){
   const grid=document.getElementById('books-grid');
   if(!grid)return;
   if(!BOOKS.length){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;color:var(--red);font-size:.85rem;padding:40px;">No books found. Check books/books.json.</div>';return;}
+  // The cover frame always renders. It shows the cover image when one is
+  // registered and loads; otherwise the book emoji stands in for it. The tag
+  // pill sits in normal flow above the title (not pinned to the corner), so
+  // no element can overlap another at any zoom level or viewport width.
   grid.innerHTML=BOOKS.map(b=>`
-    <div class="book-card ${b.cover?'has-cover':''}" data-book="${b.id}" style="--book-accent:${b.color||'#C9897B'};" onclick="openBook('${b.id}')">
-      ${b.tag?`<span class="book-pill">${b.tag}</span>`:''}
+    <div class="book-card ${b.cover?'has-cover':'no-cover'}" data-book="${b.id}" style="--book-accent:${b.color||'#C9897B'};" onclick="openBook('${b.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBook('${b.id}');}" role="button" tabindex="0" aria-label="Open ${escapeHtml(b.title||b.id)}">
       <div class="book-top">
-        <div class="book-emoji book-emoji-fallback">${b.emoji||'\uD83D\uDCD8'}</div>
-        ${b.cover?`<img class="book-cover" src="${b.cover}" alt="${escapeHtml(b.title||b.id)} book cover" loading="lazy" onerror="this.closest('.book-card').classList.remove('has-cover');this.closest('.book-card').classList.add('no-cover');this.remove();">`:''}
+        <div class="book-cover-frame">
+          ${b.cover?`<img class="book-cover" src="${escapeHtml(b.cover)}" alt="${escapeHtml(b.title||b.id)} book cover" loading="lazy" onerror="this.closest('.book-card').classList.replace('has-cover','no-cover');this.remove();">`:''}
+          <div class="book-emoji book-emoji-fallback" aria-hidden="true">${b.emoji||'\uD83D\uDCD8'}</div>
+        </div>
         <div class="book-top-info">
-          <div class="book-title">${b.title||b.id}</div>
-          <div class="book-subtitle">${b.subtitle||''}</div>
+          ${b.tag?`<span class="book-pill">${escapeHtml(b.tag)}</span>`:''}
+          <div class="book-title">${escapeHtml(b.title||b.id)}</div>
+          <div class="book-subtitle">${escapeHtml(b.subtitle||'')}</div>
         </div>
       </div>
       <div class="book-desc">${b.description||''}</div>

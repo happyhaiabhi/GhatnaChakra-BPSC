@@ -1,9 +1,11 @@
 # Book Covers
 
 Cover images live in this folder and are referenced from `../books.json` with the
-`cover` field. The book selection page shows each cover as a compact book
-thumbnail on its card (the emoji is used automatically as a fallback if an image
-is missing or fails to load).
+`cover` field. The book selection page shows each cover inside a fixed 3:4 frame
+on the left of its card, with the tag pill, title and subtitle stacked in a
+flexible column beside it — so nothing overlaps at any browser zoom level or
+viewport width. The book `emoji` is shown inside that same frame only as a
+fallback when no cover is registered or the image fails to load.
 
 ## Covers registered in `books/books.json` (all 13 books)
 

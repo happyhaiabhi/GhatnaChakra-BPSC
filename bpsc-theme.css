@@ -248,17 +248,25 @@ body:has(#books-screen.active) > .exam-portal-return {
   border-left-color: var(--book-accent, var(--gold)) !important;
   box-shadow: var(--shadow) !important;
 }
-.book-emoji {
-  display: grid;
-  width: 48px;
-  height: 48px;
-  place-items: center;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--book-accent, var(--gold)) 10%, var(--surface2));
-  font-size: 1.65rem !important;
+/* Card header: the cover frame is a fluid 3:4 box and the text column flexes
+   beside it, so title, pill and cover never overlap at any zoom level. The
+   emoji only appears inside the frame as a fallback when no cover loads. */
+.book-top { gap: 14px !important; align-items: center !important; }
+.book-cover-frame {
+  border: 1px solid var(--border2) !important;
+  border-radius: 10px !important;
+  background: color-mix(in srgb, var(--book-accent, var(--gold)) 10%, var(--surface2)) !important;
+  box-shadow: 0 8px 18px rgba(8, 20, 34, 0.18) !important;
 }
-.book-title { color: var(--text) !important; font-size: 1.08rem !important; font-weight: 900 !important; }
-.book-subtitle { color: var(--text3) !important; font-size: 0.67rem !important; }
+html[data-theme="dark"] .book-cover-frame { box-shadow: 0 10px 22px rgba(0, 0, 0, 0.36) !important; }
+.book-emoji { font-size: clamp(1.4rem, 3.4vw, 1.9rem) !important; }
+.book-title {
+  color: var(--text) !important;
+  font-size: clamp(0.98rem, 0.92rem + 0.35vw, 1.12rem) !important;
+  font-weight: 900 !important;
+  line-height: 1.22 !important;
+}
+.book-subtitle { color: var(--text3) !important; font-size: 0.68rem !important; line-height: 1.35 !important; }
 .book-desc { color: var(--text2) !important; font-size: 0.75rem !important; line-height: 1.5 !important; }
 .book-stats { gap: 7px !important; }
 .book-stat {
@@ -270,8 +278,8 @@ body:has(#books-screen.active) > .exam-portal-return {
 }
 .book-open { margin-top: auto !important; color: var(--book-accent, var(--gold)) !important; font-size: 0.73rem !important; font-weight: 900 !important; }
 .book-pill {
-  top: 17px !important;
-  right: 17px !important;
+  position: static !important;
+  margin: 0 0 1px !important;
   border-radius: 999px !important;
   font-size: 0.52rem !important;
 }
@@ -547,6 +555,8 @@ html[data-theme="dark"] textarea::placeholder { color: var(--text3) !important; 
   .books-date { margin-bottom: 20px !important; font-size: 0.66rem !important; }
   .books-grid { grid-template-columns: 1fr !important; gap: 11px !important; }
   .book-card { min-height: 205px !important; padding: 18px !important; }
+  .book-top { gap: 12px !important; }
+  .book-title { font-size: 1.05rem !important; }
   .top-navbar { min-height: 60px !important; padding: 8px 10px !important; }
   .nav-portal-home span,
   .nav-switch-label,
