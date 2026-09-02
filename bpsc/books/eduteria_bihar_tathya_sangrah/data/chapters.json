@@ -1,49 +1,131 @@
 [
  {
-  "key": "bihar_tathya_sangrah",
-  "label": "Eduteria Bihar Tathya Sangrah",
-  "emoji": "📘",
-  "file": "eduteria_bihar_tathya.json",
+  "key": "general_introduction",
+  "label": "Bihar: General Introduction",
+  "emoji": "🗺️",
+  "file": "general_introduction.json",
   "chapters": [
    {
     "name": "1. Bihar: General Introduction",
-    "count": 49
-   },
+    "count": 49,
+    "icon": "🗺️"
+   }
+  ]
+ },
+ {
+  "key": "history",
+  "label": "History of Bihar",
+  "emoji": "🏛️",
+  "file": "history.json",
+  "chapters": [
    {
     "name": "2. History of Bihar",
-    "count": 54
-   },
+    "count": 54,
+    "icon": "🏛️"
+   }
+  ]
+ },
+ {
+  "key": "geography",
+  "label": "Geography of Bihar",
+  "emoji": "⛰️",
+  "file": "geography.json",
+  "chapters": [
    {
     "name": "3. Geography of Bihar",
-    "count": 50
-   },
+    "count": 50,
+    "icon": "⛰️"
+   }
+  ]
+ },
+ {
+  "key": "economy",
+  "label": "Economy of Bihar",
+  "emoji": "💰",
+  "file": "economy.json",
+  "chapters": [
    {
     "name": "4. Economy of Bihar",
-    "count": 25
-   },
+    "count": 25,
+    "icon": "💰"
+   }
+  ]
+ },
+ {
+  "key": "tourism",
+  "label": "Tourism in Bihar",
+  "emoji": "🏞️",
+  "file": "tourism.json",
+  "chapters": [
    {
     "name": "5. Tourism in Bihar",
-    "count": 12
-   },
+    "count": 12,
+    "icon": "🏞️"
+   }
+  ]
+ },
+ {
+  "key": "census_2011",
+  "label": "Census of Bihar (2011)",
+  "emoji": "📊",
+  "file": "census_2011.json",
+  "chapters": [
    {
     "name": "6. Census of Bihar (2011)",
-    "count": 65
-   },
+    "count": 65,
+    "icon": "📊"
+   }
+  ]
+ },
+ {
+  "key": "polity",
+  "label": "Polity of Bihar",
+  "emoji": "⚖️",
+  "file": "polity.json",
+  "chapters": [
    {
     "name": "7. Polity of Bihar",
-    "count": 19
-   },
+    "count": 19,
+    "icon": "⚖️"
+   }
+  ]
+ },
+ {
+  "key": "art_culture",
+  "label": "Art and Culture in Bihar",
+  "emoji": "🎭",
+  "file": "art_culture.json",
+  "chapters": [
    {
     "name": "8. Art and Culture in Bihar",
-    "count": 14
-   },
+    "count": 14,
+    "icon": "🎭"
+   }
+  ]
+ },
+ {
+  "key": "personalities",
+  "label": "Prominent Personalities of Bihar",
+  "emoji": "👤",
+  "file": "personalities.json",
+  "chapters": [
    {
     "name": "9. Prominent Personalities of Bihar",
-    "count": 14
-   },
+    "count": 14,
+    "icon": "👤"
+   }
+  ]
+ },
+ {
+  "key": "miscellaneous",
+  "label": "Bihar Special Miscellaneous",
+  "emoji": "📌",
+  "file": "miscellaneous.json",
+  "chapters": [
    {
     "name": "10. Bihar Special Miscellaneous",
-    "count": 41
+    "count": 41,
+    "icon": "📌"
    }
   ]
  }

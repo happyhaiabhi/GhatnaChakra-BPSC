@@ -1,0 +1,250 @@
+{
+ "subject": "Art and Culture in Bihar",
+ "description": "Eduteria Bihar Tathya Sangrah · Art and Culture in Bihar",
+ "total_questions": 14,
+ "chapters": [
+  {
+   "chapter_name": "8. Art and Culture in Bihar",
+   "questions": [
+    {
+     "q": "The famous folk dance of Bihar is known as:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Jhijhiya",
+      "B": "Domkach",
+      "C": "Videshiya",
+      "D": "Jat-Jatin"
+     },
+     "answer": "C",
+     "answer_text": "Videshiya",
+     "explanation": "Correct answer: Videshiya.",
+     "exam": "2005",
+     "year": "2005",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-089)",
+     "source_id": "CH10-EDU-005"
+    },
+    {
+     "q": "The painting of ‘Bodhisattva Padmapani’ is located at",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bagh",
+      "B": "Ellora",
+      "C": "Ajanta",
+      "D": "Badami"
+     },
+     "answer": "C",
+     "answer_text": "Ajanta",
+     "explanation": "Correct answer: Ajanta.",
+     "exam": "69th BPSC",
+     "year": "69th BPSC",
+     "source": "PYQ - 69th BPSC Prelims, Q.No.67 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-009"
+    },
+    {
+     "q": "Remains of Chandragupta Maurya's Rajprasad (palace with eighty pillars) have been found at:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kumhrar, Patna",
+      "B": "Lauria Nandangarh",
+      "C": "Rampurwa",
+      "D": "Barabar"
+     },
+     "answer": "A",
+     "answer_text": "Kumhrar, Patna",
+     "explanation": "The remains of Chandragupta Maurya's Rajprasad, having a hall with eighty circular monolithic stone pillars, were excavated at Kumhrar in Patna.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-01"
+    },
+    {
+     "q": "The famous Didarganj Yakshini statue was found from which city?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Patna",
+      "B": "Rajgir",
+      "C": "Vaishali",
+      "D": "Munger"
+     },
+     "answer": "A",
+     "answer_text": "Patna",
+     "explanation": "The Yakshi (Streeratna) statue found from Didarganj in Patna, made of brown sandstone, is a fine Mauryan sculpture.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-02"
+    },
+    {
+     "q": "Sher Shah Suri's mausoleum at Sasaram (1545 AD) is the best example of which architectural style in Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Afghan style",
+      "B": "Tughlaq style",
+      "C": "Mughal style",
+      "D": "Gothic style"
+     },
+     "answer": "A",
+     "answer_text": "Afghan style",
+     "explanation": "The octagonal tomb of Sher Shah at Sasaram (1545 AD), built in the middle of a lake, is the best example of the Afghan style.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-03"
+    },
+    {
+     "q": "The tomb of Shah Daulat at Maner (1617 AD), built in red sandstone by Ibrahim Khan Kakar, is the finest example of which style in Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mughal style",
+      "B": "Afghan style",
+      "C": "Indo-Islamic style",
+      "D": "Gothic style"
+     },
+     "answer": "A",
+     "answer_text": "Mughal style",
+     "explanation": "The tomb of Shah Daulat at Maner is the most beautiful example of the Mughal style of building in Bihar, built in 1617 AD.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-04"
+    },
+    {
+     "q": "Which miniature-painting style emerged in the 18th century in Patna blending Mughal, British and local styles?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Madhubani Painting",
+      "B": "Patna Kalam",
+      "C": "Manjusha Painting",
+      "D": "Tangka Painting"
+     },
+     "answer": "B",
+     "answer_text": "Patna Kalam",
+     "explanation": "'Patna Kalam' emerged in 18th-century Patna from a mix of Mughal, British and local styles, and mainly produced miniature paintings on paper and ivory.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-05"
+    },
+    {
+     "q": "Which folk painting of the Mithila region, popularized by women, uses natural colours and includes forms like Aripan?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Madhubani Painting",
+      "B": "Manjusha",
+      "C": "Jadopatia",
+      "D": "Tangka"
+     },
+     "answer": "A",
+     "answer_text": "Madhubani Painting",
+     "explanation": "Madhubani painting, popularized by the women of Mithila, uses natural colours; its main forms are wall painting and Aripan.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-06"
+    },
+    {
+     "q": "Which folk art of the Bhagalpur (Anga) region is based on the folk tale of Bihula-Vishhari?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Manjusha Painting",
+      "B": "Madhubani",
+      "C": "Sohar",
+      "D": "Phag"
+     },
+     "answer": "A",
+     "answer_text": "Manjusha Painting",
+     "explanation": "Manjusha painting, popular in Bhagalpur and the Anga region, depicts the Bihula-Vishhari folk tale in a sequential, chain form.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-07"
+    },
+    {
+     "q": "Which folk song of Bihar is sung by young boys and girls during the month of Saavan?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kajri",
+      "B": "Chaita",
+      "C": "Sohar",
+      "D": "Nachari"
+     },
+     "answer": "A",
+     "answer_text": "Kajri",
+     "explanation": "Kajri is sung by young boys and girls during Saavan. Chaita is sung in the month of Chait, and Phag during Holi.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-08"
+    },
+    {
+     "q": "In which folk dance of Bihar do girls keep a perforated pot with a lit lamp on their head?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Jhijhiya Dance",
+      "B": "Jogida Dance",
+      "C": "Kariya Jhumar",
+      "D": "Domkach"
+     },
+     "answer": "A",
+     "answer_text": "Jhijhiya Dance",
+     "explanation": "In the Jhijhiya dance, the main girl balances a pot with a hole (containing a lit lamp) on her head and dances. It is performed by rural girls and women.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-09"
+    },
+    {
+     "q": "Which folk drama, the work of Bhikhari Thakur, is presented by men assuming the forms of women?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Videshiya",
+      "B": "Jat-Jattin",
+      "C": "Sama Chakeva",
+      "D": "Domkach"
+     },
+     "answer": "A",
+     "answer_text": "Videshiya",
+     "explanation": "'Videshiya', the famous work of Bhikhari Thakur, is the drama form of Launda dance, presented by men in the form of women.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-10"
+    },
+    {
+     "q": "Which is the most important festival of Bihar, celebrated on the fifth and sixth day of Kartik month?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Chhath Puja",
+      "B": "Deepawali",
+      "C": "Vasant Panchami",
+      "D": "Shivratri"
+     },
+     "answer": "A",
+     "answer_text": "Chhath Puja",
+     "explanation": "Chhath Puja, the most important festival of Bihar, is celebrated on the fifth and sixth day of Kartik, worshipping the Sun and water.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-11"
+    },
+    {
+     "q": "Asia's largest cattle fair (Sonepur Mela) is also known as:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Harihar Kshetra Mela",
+      "B": "Janaki Mela",
+      "C": "Saurath Mela",
+      "D": "Mandar Mela"
+     },
+     "answer": "A",
+     "answer_text": "Harihar Kshetra Mela",
+     "explanation": "Sonepur Mela is locally known as the Harihar Kshetra Mela, Asia's largest cattle fair, held on the banks of the Gandak.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 8)",
+     "source_id": "AUTH-8-12"
+    }
+   ]
+  }
+ ]
+}

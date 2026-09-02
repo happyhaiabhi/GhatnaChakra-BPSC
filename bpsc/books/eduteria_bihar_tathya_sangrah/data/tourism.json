@@ -1,0 +1,216 @@
+{
+ "subject": "Tourism in Bihar",
+ "description": "Eduteria Bihar Tathya Sangrah · Tourism in Bihar",
+ "total_questions": 12,
+ "chapters": [
+  {
+   "chapter_name": "5. Tourism in Bihar",
+   "questions": [
+    {
+     "q": "In which district of Bihar, the world's tallest (251 m) statue of Mother Sita will be constructed?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bodh Gaya",
+      "B": "Patna",
+      "C": "Madhubani",
+      "D": "Sitamarhi"
+     },
+     "answer": "D",
+     "answer_text": "Sitamarhi",
+     "explanation": "Correct answer: Sitamarhi.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.89 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-040"
+    },
+    {
+     "q": "The Sikh pilgrimage site 'Takhat Sri Harimandir Ji Patna Sahib', considered the second holiest Takhat, is located at:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Amritsar",
+      "B": "Anandpur Sahib",
+      "C": "Nanded",
+      "D": "Patna"
+     },
+     "answer": "D",
+     "answer_text": "Patna",
+     "explanation": "Correct answer: Patna.",
+     "exam": "70th",
+     "year": "70th",
+     "source": "Eduteria PYQ set — 70th BPSC Preliminary Exam (BH-EDU-005)",
+     "source_id": "CH10-EDU-019"
+    },
+    {
+     "q": "The theme/slogan of the tourism department of Bihar is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Incredible Bihar",
+      "B": "Blissful Bihar",
+      "C": "Beautiful Bihar",
+      "D": "Bihar Darshan"
+     },
+     "answer": "B",
+     "answer_text": "Blissful Bihar",
+     "explanation": "The theme of Bihar's tourism department is 'Bihar Tourism: Blissful Bihar'.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-01"
+    },
+    {
+     "q": "Which were the FIRST two sites of Bihar included in the UNESCO World Heritage list?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mahabodhi Temple Complex (2002) and Nalanda Mahavihara (2016)",
+      "B": "Kesaria Stupa and Golghar",
+      "C": "Sher Shah's tomb and Takht Patna Sahib",
+      "D": "Mundeshwari temple and Vikramshila"
+     },
+     "answer": "A",
+     "answer_text": "Mahabodhi Temple Complex (2002) and Nalanda Mahavihara (2016)",
+     "explanation": "The Mahabodhi Temple Complex, Bodh Gaya (2002) and the Nalanda Mahavihara Archaeological Site (2016) are Bihar's two UNESCO World Heritage sites.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-02"
+    },
+    {
+     "q": "The world's tallest stone stupa in Bihar is built in the Buddha Samyak Darshan Museum at:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vaishali",
+      "B": "Patna",
+      "C": "Nalanda",
+      "D": "Bodh Gaya"
+     },
+     "answer": "A",
+     "answer_text": "Vaishali",
+     "explanation": "The Buddha Samyak Darshan Museum (with India's highest stone stupa) is at Vaishali.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-03"
+    },
+    {
+     "q": "A.P.J. Abdul Kalam Science City and Bapu Tower are located in which city?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Gaya",
+      "B": "Patna",
+      "C": "Rajgir",
+      "D": "Muzaffarpur"
+     },
+     "answer": "B",
+     "answer_text": "Patna",
+     "explanation": "A.P.J. Abdul Kalam Science City, Bapu Tower and Bihar Animal Sciences University are located in Patna; Rajgir Sports Academy is at Rajgir.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-04"
+    },
+    {
+     "q": "The holy birthplace of the 24th Tirthankara Mahavir Swami and the 12th Tirthankara Vasupujya are respectively at:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vaishali and Champapuri (Bhagalpur)",
+      "B": "Rajgir and Pawapuri",
+      "C": "Pawapuri and Vaishali",
+      "D": "Vaishali and Pawapuri"
+     },
+     "answer": "A",
+     "answer_text": "Vaishali and Champapuri (Bhagalpur)",
+     "explanation": "Bihar is the birthplace of the 12th Tirthankara Vasupujya (Champapuri, near Bhagalpur) and the 24th Tirthankara Mahavir Swami (Vaishali).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-05"
+    },
+    {
+     "q": "Which Sikh Takht in Bihar is considered the second holiest Takht of Sikhism?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Takht Shri Harimandir Ji Patna Sahib",
+      "B": "Takht Keshgarh Sahib",
+      "C": "Takht Sri Damdama Sahib",
+      "D": "Hazur Sahib"
+     },
+     "answer": "A",
+     "answer_text": "Takht Shri Harimandir Ji Patna Sahib",
+     "explanation": "Takht Shri Harimandir Ji Patna Sahib (Shri Patna Sahib), the birthplace of Guru Gobind Singh, is considered the second holiest Takht of Sikhism.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-06"
+    },
+    {
+     "q": "The famous Sonepur Mela, Asia's largest cattle fair, is held at the confluence of which rivers?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ganga and Gandak",
+      "B": "Ganga and Son",
+      "C": "Gandak and Kosi",
+      "D": "Ganga and Ghaghra"
+     },
+     "answer": "A",
+     "answer_text": "Ganga and Gandak",
+     "explanation": "The Sonepur Mela (Harihar Kshetra Mela) is held on the banks of the Gandak near its confluence with the Ganga at Sonepur.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-07"
+    },
+    {
+     "q": "Bihar's Nalanda University was re-established at which place, with the academic session beginning in 2014?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Nalanda",
+      "B": "Rajgir",
+      "C": "Bodh Gaya",
+      "D": "Patna"
+     },
+     "answer": "B",
+     "answer_text": "Rajgir",
+     "explanation": "Under the Nalanda University Act 2010, the new Nalanda University was created at Rajgir, with academic sessions starting from 2014.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-08"
+    },
+    {
+     "q": "Which circuit of Bihar tourism includes Bodh Gaya, Rajgir, Nalanda, Vaishali and Kesaria?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ramayana Circuit",
+      "B": "Buddhist Circuit",
+      "C": "Jain Circuit",
+      "D": "Eco Circuit"
+     },
+     "answer": "B",
+     "answer_text": "Buddhist Circuit",
+     "explanation": "The Buddhist Circuit covers the holy places of Buddhism in Bihar such as Bodh Gaya, Rajgir, Nalanda, Vaishali, Kesaria and Lauriya.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-09"
+    },
+    {
+     "q": "The famous Mandar Hill, on which a fair is held on Makar Sankranti, is located in which district?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bhagalpur",
+      "B": "Banka",
+      "C": "Munger",
+      "D": "Jamui"
+     },
+     "answer": "B",
+     "answer_text": "Banka",
+     "explanation": "Mandar Hill is in Banka district; the Mandar Mela is held there every year on Makar Sankranti.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 5)",
+     "source_id": "AUTH-5-10"
+    }
+   ]
+  }
+ ]
+}

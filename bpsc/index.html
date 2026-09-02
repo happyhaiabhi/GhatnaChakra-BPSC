@@ -489,7 +489,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .book-card::before{content:'';position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(135deg,var(--book-accent,var(--gold)),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;pointer-events:none;transition:opacity .18s ease;}
 .book-card:hover{transform:translateY(-4px);border-color:var(--border2);box-shadow:0 12px 30px rgba(0,0,0,.35);}
 .book-card:hover::before{opacity:1;}
+.book-top{display:flex;gap:14px;align-items:center;padding-right:88px;}
+.book-card .book-top-info .book-title{font-size:1rem;}
+.book-cover{display:none;}
+.book-card.has-cover .book-cover{display:block;width:108px;height:150px;flex-shrink:0;object-fit:contain;object-position:center;background:var(--surface2);border:1px solid var(--border2);border-radius:10px;box-shadow:0 8px 18px rgba(0,0,0,.35);}
 .book-emoji{font-size:2.6rem;line-height:1;}
+.book-emoji-fallback{display:none;}
+.book-card.no-cover .book-emoji-fallback{display:block;}
+.book-top-info{flex:1;min-width:0;}
+.book-top-info .book-title{margin-bottom:6px;}
 .book-title{font-family:'Cinzel',serif;font-size:1.15rem;font-weight:700;color:var(--text);line-height:1.25;}
 .book-subtitle{font-size:.72rem;color:var(--text3);letter-spacing:.5px;}
 .book-desc{font-size:.78rem;color:var(--text2);line-height:1.5;flex:1;}
@@ -1952,6 +1960,7 @@ const LEGACY_BOOK_ID='bpsc_ghatna_chakra';
 let currentBook=null;          // active book manifest object
 let SUBJECTS_CONFIG=[];        // rebuilt per book from that book's chapters.json
 let currentChaptersIndex=[];   // raw chapters.json for the active book
+let chapterIconMap={};         // chapter name -> emoji icon, from chapters.json
 let bookDataDir='data';        // base path for the active book's data files
 
 function sk(baseKey){
@@ -2183,7 +2192,7 @@ function renderChapterList(subjId){
     html+=`<div class="ch-row-wrap" id="chwrap-${subjId}-${enc}">
       <div class="ch-row ${isSel?'selected':''}" id="chrow-${subjId}-${enc}" onclick="toggleChapterCard('${subjId}','${enc}')">
         <div class="ch-check" id="chck-${subjId}-${enc}">${isSel?'\u2713':''}</div>
-        <span class="ch-name">${name}</span>
+        <span class="ch-name">${chapterIconMap[name]?chapterIconMap[name]+' ':''}${escapeHtml(name)}</span>
         ${subtopics.length>0?`<span class="ch-sub-badge" title="${subtopics.length} sub-topics" onclick="toggleChapterSubtopics('${subjId}','${enc}',event)">${subtopics.length} sub-topics &#x25BE;</span>`:''}
         <span class="ch-count">${qs.length}</span>
       </div>
@@ -4729,6 +4738,7 @@ function applyBook(book){
   currentBook=book;
   bookDataDir=book.dataDir||'data';
   currentChaptersIndex=[];
+  chapterIconMap={};
   SUBJECTS_CONFIG=[];
   subjectDataCache={};
   syncQuestionCatalog=null;syncQuestionCatalogPromise=null;
@@ -4760,6 +4770,11 @@ async function loadBankOverview(){
     if(!response.ok)throw new Error('chapters.json could not be loaded');
     const index=await response.json();
     currentChaptersIndex=index;
+    // Build chapter-name -> icon map so chapter rows can show a related icon.
+    chapterIconMap={};
+    (index||[]).forEach(subject=>(subject.chapters||[]).forEach(ch=>{
+      if(ch.icon)chapterIconMap[ch.name]=ch.icon;
+    }));
     SUBJECTS_CONFIG=subjectsFromChapterIndex(index);
     buildSubjectsGrid();
     const totalChapters=index.reduce((sum,subject)=>sum+(subject.chapters||[]).length,0);
@@ -4793,11 +4808,16 @@ async function renderBooksScreen(){
   if(!grid)return;
   if(!BOOKS.length){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;color:var(--red);font-size:.85rem;padding:40px;">No books found. Check books/books.json.</div>';return;}
   grid.innerHTML=BOOKS.map(b=>`
-    <div class="book-card" data-book="${b.id}" style="--book-accent:${b.color||'#C9897B'};" onclick="openBook('${b.id}')">
+    <div class="book-card ${b.cover?'has-cover':''}" data-book="${b.id}" style="--book-accent:${b.color||'#C9897B'};" onclick="openBook('${b.id}')">
       ${b.tag?`<span class="book-pill">${b.tag}</span>`:''}
-      <div class="book-emoji">${b.emoji||'\uD83D\uDCD8'}</div>
-      <div class="book-title">${b.title||b.id}</div>
-      <div class="book-subtitle">${b.subtitle||''}</div>
+      <div class="book-top">
+        <div class="book-emoji book-emoji-fallback">${b.emoji||'\uD83D\uDCD8'}</div>
+        ${b.cover?`<img class="book-cover" src="${b.cover}" alt="${escapeHtml(b.title||b.id)} book cover" loading="lazy" onerror="this.closest('.book-card').classList.remove('has-cover');this.closest('.book-card').classList.add('no-cover');this.remove();">`:''}
+        <div class="book-top-info">
+          <div class="book-title">${b.title||b.id}</div>
+          <div class="book-subtitle">${b.subtitle||''}</div>
+        </div>
+      </div>
       <div class="book-desc">${b.description||''}</div>
       <div class="book-stats" id="book-stats-${b.id}"></div>
       <div class="book-open">Open book &#x2192;</div>

@@ -1,0 +1,845 @@
+{
+ "subject": "Bihar: General Introduction",
+ "description": "Eduteria Bihar Tathya Sangrah · Bihar: General Introduction",
+ "total_questions": 49,
+ "chapters": [
+  {
+   "chapter_name": "1. Bihar: General Introduction",
+   "questions": [
+    {
+     "q": "When did the new province of Bihar come into force during British rule?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "March 1912",
+      "B": "April 1911",
+      "C": "April 1936",
+      "D": "April 1912"
+     },
+     "answer": "D",
+     "answer_text": "April 1912",
+     "explanation": "Correct answer: April 1912.",
+     "exam": "70th",
+     "year": "70th",
+     "source": "Eduteria PYQ set — 70th BPSC Preliminary Exam (BH-EDU-006)",
+     "source_id": "CH1-EDU-001"
+    },
+    {
+     "q": "When did Bihar become a separate/independent state in India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1935",
+      "B": "1936",
+      "C": "1950",
+      "D": "1912"
+     },
+     "answer": "D",
+     "answer_text": "1912",
+     "explanation": "Correct answer: 1912.",
+     "exam": "64th",
+     "year": "64th",
+     "source": "Eduteria PYQ set — 64th BPSC Preliminary Exam (BH-EDU-036)",
+     "source_id": "CH1-EDU-002"
+    },
+    {
+     "q": "Jharkhand was an integral part of Bihar until which year (before becoming a separate state)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1995",
+      "B": "1999",
+      "C": "2000",
+      "D": "1990"
+     },
+     "answer": "B",
+     "answer_text": "1999",
+     "explanation": "Correct answer: 1999.",
+     "exam": "2022",
+     "year": "2022",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2022 (BH-EDU-070)",
+     "source_id": "CH1-EDU-003"
+    },
+    {
+     "q": "Which of the following longitude lines passes through Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "82°E",
+      "B": "78°E",
+      "C": "90°E",
+      "D": "86°E"
+     },
+     "answer": "D",
+     "answer_text": "86°E",
+     "explanation": "Correct answer: 86°E.",
+     "exam": "2005",
+     "year": "2005",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-088)",
+     "source_id": "CH1-EDU-005"
+    },
+    {
+     "q": "Why was this region named 'Bihar'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Due to abundance of forts (Kila) in the 10th century",
+      "B": "Due to abundance of Buddhist monasteries (Vihar) in the 12th century",
+      "C": "Named after a Mughal governor",
+      "D": "Named after the river Bihari"
+     },
+     "answer": "B",
+     "answer_text": "Due to abundance of Buddhist monasteries (Vihar) in the 12th century",
+     "explanation": "The place of residence of Buddhist followers was called 'Vihar'; Arab Muslim invaders started addressing these monasteries as 'Bihar', giving the region its name.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-001"
+    },
+    {
+     "q": "Which of the following were major Buddhist Mahaviharas located in Bihar whose abundance gave the region its name?\n1. Nalanda Mahavihara\n2. Vikramshila Mahavihara\n3. Odantapuri Mahavihara\n4. Takshashila Mahavihara\nSelect the correct answer using the code given below:",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1, 2 and 3 only",
+      "B": "1, 2 and 4 only",
+      "C": "2, 3 and 4 only",
+      "D": "1, 2, 3 and 4"
+     },
+     "answer": "A",
+     "answer_text": "1, 2 and 3 only (Takshashila is in present-day Pakistan, not Bihar)",
+     "explanation": "Nalanda, Vikramshila and Odantapuri Mahaviharas were the major monasteries located in Bihar; Takshashila was located in present-day Pakistan.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-002"
+    },
+    {
+     "q": "What is the latitudinal extension of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "20°30'10\" N to 24°31'15\" N",
+      "B": "24°20'10\" N to 27°31'15\" N",
+      "C": "22°20'10\" N to 26°31'15\" N",
+      "D": "26°20'10\" N to 29°31'15\" N"
+     },
+     "answer": "B",
+     "answer_text": "24°20'10\" N to 27°31'15\" N",
+     "explanation": "Bihar's latitudinal extension is 24°20'10\"N to 27°31'15\"N as per the state's geographical location and extent data.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-003"
+    },
+    {
+     "q": "What is the length of Bihar from North to South, and its width from East to West respectively?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "345 km and 483 km",
+      "B": "483 km and 345 km",
+      "C": "400 km and 500 km",
+      "D": "345 km and 345 km"
+     },
+     "answer": "A",
+     "answer_text": "345 km and 483 km",
+     "explanation": "Bihar's length (North to South) is 345 km, and its width (East to West) is 483 km, giving it a rectangular shape.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-004"
+    },
+    {
+     "q": "As per the Bihar Caste-based Survey (Census) 2022-23, what is the total population of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "10,40,99,452",
+      "B": "12,30,11,000",
+      "C": "13,07,25,310",
+      "D": "11,50,00,000"
+     },
+     "answer": "C",
+     "answer_text": "13,07,25,310",
+     "explanation": "According to the Bihar Caste Census 2022-23, the total population of Bihar is 13,07,25,310, higher than the 2011 Census figure of 10,40,99,452.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-005"
+    },
+    {
+     "q": "Bihar is currently divided into how many administrative divisions (Pramandal) and districts respectively?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "9 divisions and 38 districts",
+      "B": "9 divisions and 37 districts",
+      "C": "8 divisions and 38 districts",
+      "D": "10 divisions and 38 districts"
+     },
+     "answer": "A",
+     "answer_text": "9 divisions and 38 districts",
+     "explanation": "Bihar has 9 administrative divisions and 38 districts, Arwal (created in 2001) being the 38th district.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-006"
+    },
+    {
+     "q": "Consider the following statements about the administrative structure of Bihar:\n1. There are 101 sub-divisions in Bihar.\n2. There are 534 blocks in Bihar.\n3. There are 8,053 panchayats in Bihar.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 only",
+      "B": "1 and 2 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+     },
+     "answer": "D",
+     "answer_text": "1, 2 and 3",
+     "explanation": "Bihar has 101 sub-divisions, 534 blocks, and 8,053 panchayats as per current administrative data.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-007"
+    },
+    {
+     "q": "How many Municipal Corporations are there in Bihar, and which is the most recently added (19th) one?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "18 Municipal Corporations; Purnia is the 18th",
+      "B": "19 Municipal Corporations; Saharsa is the 19th",
+      "C": "19 Municipal Corporations; Munger is the 19th",
+      "D": "20 Municipal Corporations; Bihar Sharif is the 20th"
+     },
+     "answer": "B",
+     "answer_text": "19 Municipal Corporations; Saharsa is the 19th",
+     "explanation": "Bihar has 19 Municipal Corporations, with Saharsa being the most recently constituted (19th) Municipal Corporation.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-008"
+    },
+    {
+     "q": "Apart from the 38 districts, Bihar has two additional Police Districts. What are they?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bagaha and Navagachia",
+      "B": "Danapur and Sasaram",
+      "C": "Barh and Bettiah",
+      "D": "Motihari and Munger"
+     },
+     "answer": "A",
+     "answer_text": "Bagaha and Navagachia",
+     "explanation": "In addition to the 38 districts, Bihar has Bagaha and Navagachia as separate police districts, taking the total number of police districts to 44.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-009"
+    },
+    {
+     "q": "How many Railway Police Districts are there in Bihar, and name them.",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "3 - Patna, Gaya, Danapur",
+      "B": "4 - Jamalpur, Katihar, Muzaffarpur, Patna",
+      "C": "4 - Patna, Gaya, Bhagalpur, Muzaffarpur",
+      "D": "5 - Patna, Gaya, Danapur, Katihar, Muzaffarpur"
+     },
+     "answer": "B",
+     "answer_text": "4 - Jamalpur, Katihar, Muzaffarpur, Patna",
+     "explanation": "Bihar has four Railway Police Districts: Jamalpur, Katihar, Muzaffarpur and Patna.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-010"
+    },
+    {
+     "q": "Consider the following divisions of Bihar and the number of districts under them:\n1. Tirhut Division - 6 districts\n2. Patna Division - 6 districts\n3. Munger Division - 6 districts\n4. Bhagalpur Division - 2 districts\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "Tirhut, Patna and Munger divisions each have 6 districts (the highest among all divisions), while Bhagalpur division has only 2 districts (Bhagalpur and Banka) - the fewest.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-011"
+    },
+    {
+     "q": "Arrange the following divisions of Bihar in ascending order according to the number of districts they contain: Purnia, Saran, Magadh, Patna",
+     "question_type": "ascending_descending_order",
+     "options": {
+      "A": "Saran < Purnia < Magadh < Patna",
+      "B": "Purnia < Saran < Magadh < Patna",
+      "C": "Saran < Magadh < Purnia < Patna",
+      "D": "Magadh < Saran < Purnia < Patna"
+     },
+     "answer": "A",
+     "answer_text": "Saran (3) < Purnia (4) < Magadh (5) < Patna (6)",
+     "explanation": "Saran has 3 districts, Purnia has 4 districts, Magadh has 5 districts, and Patna has 6 districts.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-012"
+    },
+    {
+     "q": "Match the following Divisions of Bihar with their Headquarters:\nA. Kosi\nB. Darbhanga\nC. Magadh\nD. Saran 1. Chhapra 2. Gaya 3. Saharsa 4. Darbhanga",
+     "question_type": "match_the_following",
+     "options": {
+      "A": "A-3, B-4, C-2, D-1",
+      "B": "A-1, B-2, C-3, D-4",
+      "C": "A-3, B-1, C-4, D-2",
+      "D": "A-4, B-3, C-1, D-2"
+     },
+     "answer": "A",
+     "answer_text": "A-3 (Kosi-Saharsa), B-4 (Darbhanga-Darbhanga), C-2 (Magadh-Gaya), D-1 (Saran-Chhapra)",
+     "explanation": "Kosi division's headquarters is Saharsa, Darbhanga division's headquarters is Darbhanga, Magadh division's headquarters is Gaya, and Saran division's headquarters is Chhapra.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-013"
+    },
+    {
+     "q": "How many seats are there in the Bihar Legislative Assembly and the Bihar Legislative Council respectively?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "243 and 75",
+      "B": "230 and 90",
+      "C": "243 and 90",
+      "D": "250 and 75"
+     },
+     "answer": "A",
+     "answer_text": "243 and 75",
+     "explanation": "Bihar Legislative Assembly (Vidhan Sabha) has 243 seats, and Bihar Legislative Council (Vidhan Parishad) has 75 seats, making Bihar's legislature bicameral.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-014"
+    },
+    {
+     "q": "Consider the following statements regarding reservation of seats in the Bihar Legislative Assembly: 1. A total of 40 seats are reserved in the Legislative Assembly. 2. 38 seats are reserved for Scheduled Castes. 3. 2 seats are reserved for Scheduled Tribes - Katoria and Manihari. Which of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 only",
+      "B": "1 and 2 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+     },
+     "answer": "D",
+     "answer_text": "1, 2 and 3",
+     "explanation": "Of the 40 total reserved seats in the Bihar Legislative Assembly, 38 are reserved for SCs and 2 for STs (Katoria and Manihari constituencies).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-015"
+    },
+    {
+     "q": "Which of the following Lok Sabha seats of Bihar is/are reserved for Scheduled Castes? 1. Gopalganj 2. Hajipur 3. Samastipur 4. Jamui 5. Gaya 6. Sasaram",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1, 2 and 3 only",
+      "B": "1, 2, 3, 4, 5 and 6",
+      "C": "2, 4 and 6 only",
+      "D": "1, 3 and 5 only"
+     },
+     "answer": "B",
+     "answer_text": "1, 2, 3, 4, 5 and 6 (all six are reserved for SC)",
+     "explanation": "Bihar has 6 Lok Sabha seats reserved for Scheduled Castes: Gopalganj, Hajipur, Samastipur, Jamui, Gaya and Sasaram.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-016"
+    },
+    {
+     "q": "The State Symbol of Bihar consists of which of the following?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Peepal tree surrounded by two lions",
+      "B": "Bodhi Tree surrounded by two Swastika symbols",
+      "C": "Ashoka Chakra with a lotus",
+      "D": "Wheat sheaf with a sun"
+     },
+     "answer": "B",
+     "answer_text": "Bodhi Tree surrounded by two Swastika symbols",
+     "explanation": "The official State Symbol of Bihar depicts the Bodhi Tree surrounded by two Swastika symbols.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-017"
+    },
+    {
+     "q": "Consider the following statements regarding the State Animal and State Bird of Bihar:\n1. The current State Animal of Bihar is the Bull; before 2013 it was the Bear.\n2. The current State Bird of Bihar is the Sparrow (Passer domesticus); before 2013 it was the Dove.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 only",
+      "B": "2 only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+     },
+     "answer": "C",
+     "answer_text": "Both 1 and 2",
+     "explanation": "Bihar changed its State Animal from Bear to Bull, and its State Bird from Dove to Sparrow (Passer domesticus), both changes occurring around 2013.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-018"
+    },
+    {
+     "q": "When was the Marigold declared the State Flower of Bihar, and what is the State Fish of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "2013; Mangur (Clarius Batrachus), announced in 2008",
+      "B": "2010; Rohu, announced in 2005",
+      "C": "2013; Hilsa, announced in 2010",
+      "D": "2008; Mangur, announced in 2013"
+     },
+     "answer": "A",
+     "answer_text": "2013; Mangur (Clarius Batrachus), announced in 2008",
+     "explanation": "Marigold was declared the State Flower of Bihar in 2013, while Mangur (Clarius Batrachus) was announced as the State Fish in 2008.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-019"
+    },
+    {
+     "q": "What are the First and Second Official Languages of Bihar respectively?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Hindi and Urdu",
+      "B": "Hindi and Maithili",
+      "C": "Hindi and Bhojpuri",
+      "D": "Urdu and Hindi"
+     },
+     "answer": "A",
+     "answer_text": "Hindi and Urdu",
+     "explanation": "Hindi is the First Official Language and Urdu is the Second Official Language of Bihar.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-020"
+    },
+    {
+     "q": "Consider the following statements regarding the State Song of Bihar:\n1. Its opening line is 'Mere Bharat Ke Kanthahar, Tujhko Sat-Sat Vandan Bihar'.\n2. It was written by Satya Narayan Lal.\n3. It was set to music by Hari Prasad Chaurasia and Shivkumar Sharma.\n4. It was officially recognized in the year 2012.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "All four statements about the Bihar State Song are correct: written by Satya Narayan Lal, music by Hari Prasad Chaurasia and Shivkumar Sharma, recognized in 2012.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-021"
+    },
+    {
+     "q": "Who wrote the lyrics of the Prayer Song of Bihar, 'Meri Raftaar Par Suraj Ki Kiran Naaz Kare'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Satya Narayan Lal",
+      "B": "M.R. Chishti",
+      "C": "Ramdhari Singh Dinkar",
+      "D": "Nagarjun"
+     },
+     "answer": "B",
+     "answer_text": "M.R. Chishti",
+     "explanation": "The Prayer Song of Bihar was written by M.R. Chishti.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-022"
+    },
+    {
+     "q": "On which date is Bihar Foundation Day (Bihar Diwas) celebrated?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1 April",
+      "B": "15 November",
+      "C": "22 March",
+      "D": "26 January"
+     },
+     "answer": "C",
+     "answer_text": "22 March",
+     "explanation": "Bihar Foundation Day is celebrated on 22 March, marking the formation of Bihar as a separate province on 22 March 1912 (notification date).",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-023"
+    },
+    {
+     "q": "Consider the following statements regarding Bihar's international and inter-state boundaries:\n1. Bihar shares a border with Nepal in the north through 7 districts.\n2. Bihar shares a border with Jharkhand in the south through 8 districts.\n3. Bihar shares a border with West Bengal in the east through 3 districts.\n4. Bihar shares a border with Uttar Pradesh in the west through 8 districts.\nWhich of the statements given above is/are correct?",
+     "question_type": "statement_numbered",
+     "options": {
+      "A": "1 and 2 only",
+      "B": "1, 2 and 3 only",
+      "C": "1, 2, 3 and 4",
+      "D": "2, 3 and 4 only"
+     },
+     "answer": "C",
+     "answer_text": "1, 2, 3 and 4",
+     "explanation": "Bihar borders Nepal (7 districts) in the north, Jharkhand (8 districts) in the south, West Bengal (3 districts) in the east, and Uttar Pradesh (8 districts) in the west.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-024"
+    },
+    {
+     "q": "Which THREE districts of Bihar share a border with West Bengal?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kishanganj, Purnia and Katihar",
+      "B": "Purnia, Araria and Kishanganj",
+      "C": "Katihar, Bhagalpur and Banka",
+      "D": "Kishanganj, Supaul and Araria"
+     },
+     "answer": "A",
+     "answer_text": "Kishanganj, Purnia and Katihar",
+     "explanation": "Kishanganj, Purnia and Katihar are the three districts of Bihar that share a border with West Bengal.",
+     "exam": "N/A (newly authored)",
+     "year": "N/A (newly authored)",
+     "source": "Self-authored, based on Eduteria Bihar Tathya Sangrah chapter content",
+     "source_id": "CH1-NEW-025"
+    },
+    {
+     "q": "The total geographical area of Bihar State is",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "94163 sq. km",
+      "B": "94526 sq. km",
+      "C": "94200 sq. km",
+      "D": "94316 sq. km"
+     },
+     "answer": "A",
+     "answer_text": "94163 sq. km",
+     "explanation": "Correct answer: 94163 sq. km.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.134 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-001"
+    },
+    {
+     "q": "Which of the following States of India borders with the maximum number of districts in Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Uttar Pradesh",
+      "B": "Jharkhand",
+      "C": "West Bengal",
+      "D": "More than one of the above"
+     },
+     "answer": "D",
+     "answer_text": "More than one of the above",
+     "explanation": "Correct answer: More than one of the above.",
+     "exam": "68th BPSC",
+     "year": "68th BPSC",
+     "source": "PYQ - 68th BPSC Prelims, Q.No.104 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-002"
+    },
+    {
+     "q": "In which year did the State Jharkhand come into existence?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1998",
+      "B": "1999",
+      "C": "2000",
+      "D": "2001"
+     },
+     "answer": "C",
+     "answer_text": "2000",
+     "explanation": "Correct answer: 2000.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.99 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-003"
+    },
+    {
+     "q": "Which of the following districts of Bihar does not share border with Nepal?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Madhubani",
+      "B": "Kishanganj",
+      "C": "Sitamarhi",
+      "D": "Purnia"
+     },
+     "answer": "D",
+     "answer_text": "Purnia",
+     "explanation": "Correct answer: Purnia.",
+     "exam": "63rd BPSC",
+     "year": "63rd BPSC",
+     "source": "PYQ - 63rd BPSC Prelims, Q.No.122 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-004"
+    },
+    {
+     "q": "By how many districts of Bihar was Patna district bounded till July 2018?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+     },
+     "answer": "C",
+     "answer_text": "9",
+     "explanation": "Correct answer: 9.",
+     "exam": "64th BPSC",
+     "year": "64th BPSC",
+     "source": "PYQ - 64th BPSC Prelims, Q.No.86 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH1-PYQ-041"
+    },
+    {
+     "q": "Which of the following is the state animal of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Cow",
+      "B": "Bull",
+      "C": "Buffalo",
+      "D": "Horse"
+     },
+     "answer": "B",
+     "answer_text": "Bull",
+     "explanation": "Correct answer: Bull. Note: Resolved via general knowledge (not in master answer key); cross-check recommended",
+     "exam": "71st BPSC (2025)",
+     "year": "71st BPSC (2025)",
+     "source": "PYQ - 71st BPSC (2025) Prelims, Q.No.115 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-019"
+    },
+    {
+     "q": "Bihar was given the name 'Bihar' mainly because of the abundance of which type of sites?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Hindu temples",
+      "B": "Buddhist monasteries (Viharas)",
+      "C": "Jain stupas",
+      "D": "Sufi dargahs"
+     },
+     "answer": "B",
+     "answer_text": "Buddhist monasteries (Viharas)",
+     "explanation": "Bihar is named after the many Buddhist monasteries (Viharas). Arab Muslim invaders first began calling the region 'Bihar' because of the abundance of Viharas.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-01"
+    },
+    {
+     "q": "Bihar is located in which part of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Northern part",
+      "B": "Western part",
+      "C": "Eastern part",
+      "D": "Southern part"
+     },
+     "answer": "C",
+     "answer_text": "Eastern part",
+     "explanation": "Bihar is located in the eastern part of India. It is a rectangular-shaped state lying in the plains of the Ganga.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-02"
+    },
+    {
+     "q": "What is the total geographical area of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "94,163 sq km",
+      "B": "96,000 sq km",
+      "C": "84,400 sq km",
+      "D": "91,000 sq km"
+     },
+     "answer": "A",
+     "answer_text": "94,163 sq km",
+     "explanation": "The total geographical area of Bihar is 94,163 sq km, which is about 2.86% of India's total area. By area Bihar is the 12th largest state.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-03"
+    },
+    {
+     "q": "Which is the 38th (newest) district of Bihar formed in 2001?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Sheikhpura",
+      "B": "Banka",
+      "C": "Arwal",
+      "D": "Jamui"
+     },
+     "answer": "C",
+     "answer_text": "Arwal",
+     "explanation": "After Jharkhand was carved out on 15 Nov 2000, Bihar had 37 districts. Arwal district was created in 2001 AD, taking the total to 38.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-04"
+    },
+    {
+     "q": "How many districts of Bihar share a border with Nepal?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "8"
+     },
+     "answer": "B",
+     "answer_text": "7",
+     "explanation": "Seven districts of Bihar border Nepal: West Champaran, East Champaran, Sitamarhi, Madhubani, Supaul, Araria and Kishanganj.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-05"
+    },
+    {
+     "q": "Which THREE districts of Bihar share their border with West Bengal in the east?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Kishanganj, Purnia and Katihar",
+      "B": "Supaul, Araria and Kishanganj",
+      "C": "Bhagalpur, Banka and Munger",
+      "D": "Purnia, Saharsa and Khagaria"
+     },
+     "answer": "A",
+     "answer_text": "Kishanganj, Purnia and Katihar",
+     "explanation": "In the east, three districts — Kishanganj, Purnia and Katihar — share a border with West Bengal.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-06"
+    },
+    {
+     "q": "Which division of Bihar has only 2 districts?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Magadh",
+      "B": "Bhagalpur",
+      "C": "Kosi",
+      "D": "Darbhanga"
+     },
+     "answer": "B",
+     "answer_text": "Bhagalpur",
+     "explanation": "The Bhagalpur division contains only two districts — Bhagalpur and Banka. Every other division has 3 to 6 districts.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-07"
+    },
+    {
+     "q": "How many seats of the Bihar Legislative Assembly are reserved for Scheduled Tribes?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "2 (Katoria and Manihari)",
+      "B": "6 (Gopalganj, Hajipur, Samastipur, Jamui, Gaya, Sasaram)",
+      "C": "38",
+      "D": "40"
+     },
+     "answer": "A",
+     "answer_text": "2 (Katoria and Manihari)",
+     "explanation": "Of the 243 Bihar Legislative Assembly seats, 38 are reserved for Scheduled Castes and 2 (Katoria and Manihari) for Scheduled Tribes.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-08"
+    },
+    {
+     "q": "Which is the State Animal of Bihar (since 2013)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bear",
+      "B": "Bull",
+      "C": "Tiger",
+      "D": "Deer"
+     },
+     "answer": "B",
+     "answer_text": "Bull",
+     "explanation": "The State Animal of Bihar is the Bull. Before 2013 the State Animal was the Bear.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-09"
+    },
+    {
+     "q": "Which is the State Bird of Bihar (declared in 2013)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Peacock",
+      "B": "Dove",
+      "C": "Sparrow",
+      "D": "Parrot"
+     },
+     "answer": "C",
+     "answer_text": "Sparrow",
+     "explanation": "The State Bird of Bihar is the Sparrow. Before 2013 the State Bird was the Dove.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-10"
+    },
+    {
+     "q": "Bihar Foundation Day (Bihar Diwas) is celebrated on which date?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "15 November",
+      "B": "22 March",
+      "C": "1 April",
+      "D": "12 December"
+     },
+     "answer": "B",
+     "answer_text": "22 March",
+     "explanation": "Bihar's separate province was announced on 12 Dec 1911 and formally formed on 1 April 1912; however Bihar Foundation Day (Bihar Diwas) is celebrated on 22 March.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-11"
+    },
+    {
+     "q": "In which year was Bihar made a separate province, and in which year was Jharkhand separated from it?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1912 and 2000",
+      "B": "1936 and 2000",
+      "C": "1912 and 1936",
+      "D": "1905 and 2000"
+     },
+     "answer": "A",
+     "answer_text": "1912 and 2000",
+     "explanation": "A separate Bihar province (including Jharkhand and Odisha) was formed on 1 April 1912. Odisha was separated in 1936 and Jharkhand on 15 November 2000.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-12"
+    },
+    {
+     "q": "What is the length of Bihar from North to South?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "345 km",
+      "B": "483 km",
+      "C": "400 km",
+      "D": "510 km"
+     },
+     "answer": "A",
+     "answer_text": "345 km",
+     "explanation": "Bihar is 345 km long from North to South and 483 km wide from East to West.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-14"
+    },
+    {
+     "q": "Match \n\nList-I (division) with \n\nList-II (headquarters): 1. Patna 2. Kosi 3. Magadh 4. Tirhut\nA. Muzaffarpur\nB. Patna\nC. Gaya\nD. Saharsa",
+     "question_type": "match_the_following",
+     "options": {
+      "A": "1-B, 2-D, 3-C, 4-A",
+      "B": "1-A, 2-C, 3-B, 4-D",
+      "C": "1-C, 2-D, 3-A, 4-B",
+      "D": "1-B, 2-C, 3-D, 4-A"
+     },
+     "answer": "A",
+     "answer_text": "1-B, 2-D, 3-C, 4-A",
+     "explanation": "Patna division HQ is Patna, Kosi division HQ is Saharsa, Magadh division HQ is Gaya, and Tirhut division HQ is Muzaffarpur.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 1)",
+     "source_id": "AUTH-1-15"
+    }
+   ]
+  }
+ ]
+}

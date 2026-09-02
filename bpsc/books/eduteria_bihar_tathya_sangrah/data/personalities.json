@@ -1,0 +1,250 @@
+{
+ "subject": "Prominent Personalities of Bihar",
+ "description": "Eduteria Bihar Tathya Sangrah · Prominent Personalities of Bihar",
+ "total_questions": 14,
+ "chapters": [
+  {
+   "chapter_name": "9. Prominent Personalities of Bihar",
+   "questions": [
+    {
+     "q": "Dr. Rajendra Prasad, the first President of India, belonged to which state?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "West Bengal",
+      "B": "Bihar",
+      "C": "Uttar Pradesh",
+      "D": "Odisha"
+     },
+     "answer": "B",
+     "answer_text": "Bihar",
+     "explanation": "Correct answer: Bihar.",
+     "exam": "66th",
+     "year": "66th",
+     "source": "Eduteria PYQ set — 66th BPSC (Re) Preliminary Exam (BH-EDU-025)",
+     "source_id": "CH10-EDU-006"
+    },
+    {
+     "q": "Dr. Rajendra Prasad was awarded the 'Bharat Ratna' in which year?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1957",
+      "B": "1962",
+      "C": "1961",
+      "D": "1954"
+     },
+     "answer": "B",
+     "answer_text": "1962",
+     "explanation": "Correct answer: 1962.",
+     "exam": "2005",
+     "year": "2005",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-090)",
+     "source_id": "CH10-EDU-007"
+    },
+    {
+     "q": "Who is known as 'Bihar Kesari'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Shri Krishna Singh",
+      "B": "Anugrah Narayan Sinha",
+      "C": "Jayaprakash Narayan",
+      "D": "Karpoori Thakur"
+     },
+     "answer": "A",
+     "answer_text": "Shri Krishna Singh",
+     "explanation": "Dr. Shri Krishna Singh, the first Chief Minister of independent Bihar, is known as 'Bihar Kesari'. Anugrah Narayan Sinha is 'Bihar Vibhuti'.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-01"
+    },
+    {
+     "q": "Who is called the 'Lok Nayak' (leader of the people)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Jayaprakash Narayan",
+      "B": "Jagjivan Ram",
+      "C": "Ramdhari Singh Dinkar",
+      "D": "Karpoori Thakur"
+     },
+     "answer": "A",
+     "answer_text": "Jayaprakash Narayan",
+     "explanation": "Jayaprakash Narayan is popularly known as 'Lok Nayak'. He led the Total Revolution (1975) and was awarded the Magsaysay Award in 1965.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-02"
+    },
+    {
+     "q": "Who is called the 'Shakespeare of Bhojpuri', famous for his work 'Videshiya'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bhikhari Thakur",
+      "B": "Vidyapati",
+      "C": "Ramvriksh Benipuri",
+      "D": "Rahul Sankrityayan"
+     },
+     "answer": "A",
+     "answer_text": "Bhikhari Thakur",
+     "explanation": "Bhikhari Thakur, born at Kutubpur (Saran) in 1887, is called the Shakespeare of Bhojpuri; 'Videshiya' is his most famous work.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-03"
+    },
+    {
+     "q": "Who is known as 'Bihar Vibhuti', who assisted Gandhiji in the Champaran Satyagraha and later became a Bihar minister?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Anugrah Narayan Sinha",
+      "B": "Shri Krishna Singh",
+      "C": "Rajendra Prasad",
+      "D": "Mazharul Haq"
+     },
+     "answer": "A",
+     "answer_text": "Anugrah Narayan Sinha",
+     "explanation": "Anugrah Narayan Sinha (born Poiwa, Aurangabad, 1887) is called 'Bihar Vibhuti'.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-04"
+    },
+    {
+     "q": "Who is called the 'Father of Total Revolution' (Sampoorna Kranti) and was awarded the Magsaysay Award in 1965?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Jayaprakash Narayan",
+      "B": "Karpoori Thakur",
+      "C": "Ram Manohar Lohia",
+      "D": "Maulana Mazharul Haq"
+     },
+     "answer": "A",
+     "answer_text": "Jayaprakash Narayan",
+     "explanation": "Jayaprakash Narayan led the Sampoorna Kranti (Total Revolution) in 1975 and received the Magsaysay Award in 1965.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-05"
+    },
+    {
+     "q": "Which writer, called 'Rashtrakavi', wrote 'Kurukshetra' and 'Urvashi'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ramdhari Singh Dinkar",
+      "B": "Phanishwar Nath Renu",
+      "C": "Vidyapati",
+      "D": "Nagrajun"
+     },
+     "answer": "A",
+     "answer_text": "Ramdhari Singh Dinkar",
+     "explanation": "Ramdhari Singh Dinkar (born Simaria, Begusarai, 1908) is called 'Rashtrakavi' after independence; major works include Kurukshetra, Urvashi, Hunkar, Renuka.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-06"
+    },
+    {
+     "q": "Which regional Hindi novelist wrote 'Maila Anchal'?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Phanishwar Nath Renu",
+      "B": "Ramdhari Singh Dinkar",
+      "C": "Rahul Sankrityayan",
+      "D": "Ramvriksh Benipuri"
+     },
+     "answer": "A",
+     "answer_text": "Phanishwar Nath Renu",
+     "explanation": "Phanishwar Nath Renu (born 1921, Aurahi-Forbesganj, Araria) is a regional novelist whose major work is 'Maila Anchal'.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-07"
+    },
+    {
+     "q": "Which poet, known as 'Maithil Kavi Kokil', wrote in Maithili and Sanskrit (Purana Sangrah, Vibhasagar)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Vidyapati",
+      "B": "Nagarjuna",
+      "C": "Yagyavalkya",
+      "D": "Jayadeva"
+     },
+     "answer": "A",
+     "answer_text": "Vidyapati",
+     "explanation": "Vidyapati, a Shringar Rasa poet of Darbhanga, is called 'Maithil Kavi Kokil'. His Sanskrit works include Purana Sangrah, Vibhasagar and Ganga Kavyavali.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-08"
+    },
+    {
+     "q": "Which famous Acharya of Vikramshila University was invited to Tibet by the Tibetan ruler?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Dipankar Shrigyan",
+      "B": "Shilabhadra",
+      "C": "Dharmapala",
+      "D": "Moggaliputta Tissa"
+     },
+     "answer": "A",
+     "answer_text": "Dipankar Shrigyan",
+     "explanation": "Dipankar Shrigyan, a famous Acharya of Vikramshila University, went to Tibet at the invitation of the Tibetan ruler to propagate Buddhism.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-09"
+    },
+    {
+     "q": "Who established the famous Khuda Baksh Library of Patna?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Khan Bahadur Khudabakhsh Khan",
+      "B": "Sir Sultan Ahmed",
+      "C": "Hasan Imam",
+      "D": "Maulana Mazharul Haq"
+     },
+     "answer": "A",
+     "answer_text": "Khan Bahadur Khudabakhsh Khan",
+     "explanation": "Khan Bahadur Khudabakhsh Khan (born 1842, Ukhai, Siwan) founded the Khuda Baksh Library; since 1969 it has been under the Government of India.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-10"
+    },
+    {
+     "q": "Which shehnai maestro, born at Dumraon (Buxar) in 1916, was awarded the Bharat Ratna in 2001?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Ustad Bismillah Khan",
+      "B": "Bismillah Khan's guru",
+      "C": "Ustad Ali Akbar Khan",
+      "D": "Hari Prasad Chaurasia"
+     },
+     "answer": "A",
+     "answer_text": "Ustad Bismillah Khan",
+     "explanation": "Ustad Bismillah Khan, the world-famous shehnai player born at Dumraon, Buxar, played at the Red Fort on the first Independence Day and got the Bharat Ratna in 2001.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-11"
+    },
+    {
+     "q": "Match the personality with his nickname: 1. Ramdhari Singh Dinkar 2. Karpoori Thakur 3. Anugrah Narayan Sinha 4. Jayaprakash Narayan\nA. Jan Nayak\nB. Bihar Vibhuti\nC. Rashtra Kavi\nD. Lok Nayak",
+     "question_type": "match_the_following",
+     "options": {
+      "A": "1-C, 2-A, 3-B, 4-D",
+      "B": "1-D, 2-A, 3-B, 4-C",
+      "C": "1-C, 2-B, 3-A, 4-D",
+      "D": "1-A, 2-C, 3-D, 4-B"
+     },
+     "answer": "A",
+     "answer_text": "1-C, 2-A, 3-B, 4-D",
+     "explanation": "Dinkar = Rashtra Kavi, Karpoori Thakur = Jan Nayak, Anugrah Narayan Sinha = Bihar Vibhuti, Jayaprakash Narayan = Lok Nayak.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 9)",
+     "source_id": "AUTH-9-12"
+    }
+   ]
+  }
+ ]
+}

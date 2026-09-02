@@ -1,0 +1,335 @@
+{
+ "subject": "Polity of Bihar",
+ "description": "Eduteria Bihar Tathya Sangrah · Polity of Bihar",
+ "total_questions": 19,
+ "chapters": [
+  {
+   "chapter_name": "7. Polity of Bihar",
+   "questions": [
+    {
+     "q": "Who among the following has NOT been the Chief Minister of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mahamaya Prasad Sinha",
+      "B": "Daroga Prasad Rai",
+      "C": "Ram Vilas Paswan",
+      "D": "Satish Prasad Singh"
+     },
+     "answer": "C",
+     "answer_text": "Ram Vilas Paswan",
+     "explanation": "Correct answer: Ram Vilas Paswan.",
+     "exam": "2005",
+     "year": "2005",
+     "source": "Eduteria PYQ set — CDPO Preliminary Exam 2005 (BH-EDU-086)",
+     "source_id": "CH10-EDU-021"
+    },
+    {
+     "q": "Match \n\nList-I with \n\nList-II :\na. Governor of Bihar\nb. Chief Justice of Bihar\nc. Chief Minister of Bihar\nd. Chief Electoral Officer of Bihar (1. Mr. Nitish Kumar, 2. Mr. H. R. Srinivas, 3. Mr. Sanjay Karol, 4. Mr. Fagu Chauhan)",
+     "question_type": "match_the_following",
+     "options": {
+      "A": "a-4, b-3, c-1, d-2",
+      "B": "a-4, b-2, c-1, d-3",
+      "C": "a-3, b-2, c-1, d-4",
+      "D": "a-1, b-2, c-3, d-4"
+     },
+     "answer": "A",
+     "answer_text": "a-4, b-3, c-1, d-2",
+     "explanation": "Correct answer: a-4, b-3, c-1, d-2.",
+     "exam": "67th BPSC",
+     "year": "67th BPSC",
+     "source": "PYQ - 67th BPSC Prelims, Q.No.90 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-004"
+    },
+    {
+     "q": "Among the following who has been Speaker of Lok Sabha prior to his Election as President of India?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Giani Zail Singh",
+      "B": "V. V. Giri",
+      "C": "Neelam Sanjeeva Reddy",
+      "D": "A. P. J. Abdul Kalam"
+     },
+     "answer": "C",
+     "answer_text": "Neelam Sanjeeva Reddy",
+     "explanation": "Correct answer: Neelam Sanjeeva Reddy.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.125 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-014"
+    },
+    {
+     "q": "Who was the Chief Justice of the Patna High Court who administered the oath of office to Mr. Fagu Chauhan as the Governor of Bihar in July 2019?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Hon. Mukesh Shah",
+      "B": "Hon. A. P. Sahi",
+      "C": "Hon. Rekha Manharlal Doshit",
+      "D": "Hon. Dipak Misra"
+     },
+     "answer": "B",
+     "answer_text": "Hon. A. P. Sahi",
+     "explanation": "Correct answer: Hon. A. P. Sahi.",
+     "exam": "65th BPSC",
+     "year": "65th BPSC",
+     "source": "PYQ - 65th BPSC Prelims, Q.No.136 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH10-PYQ-024"
+    },
+    {
+     "q": "Which community was categorized as Scheduled Caste (SC) by a 2015 Bihar government notification which was quashed in July 2024 by the Supreme Court, ruling that states cannot make changes to the SC list published under Article 341 of the Constitution?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Lal Begi",
+      "B": "Tanti-Tantwa",
+      "C": "Pano",
+      "D": "Dabgar"
+     },
+     "answer": "B",
+     "answer_text": "Tanti-Tantwa",
+     "explanation": "Correct answer: Tanti-Tantwa.",
+     "exam": "70th BPSC",
+     "year": "70th BPSC",
+     "source": "PYQ - 70th BPSC Prelims, Q.No.116 (BPSC_Master_Question_Bank_60_to_71.xlsx)",
+     "source_id": "CH6-PYQ-025"
+    },
+    {
+     "q": "Who is the constitutional head of the state government of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Chief Minister",
+      "B": "Governor",
+      "C": "Chief Secretary",
+      "D": "Speaker"
+     },
+     "answer": "B",
+     "answer_text": "Governor",
+     "explanation": "The Governor is the constitutional head of the state. The Governor is appointed by the President and holds office during the pleasure of the President.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-01"
+    },
+    {
+     "q": "Under which Article can the Governor promulgate ordinances when the legislature is not in session?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Article 213",
+      "B": "Article 200",
+      "C": "Article 356",
+      "D": "Article 169"
+     },
+     "answer": "A",
+     "answer_text": "Article 213",
+     "explanation": "Article 213 gives the Governor the power to promulgate ordinances. Article 200 deals with assent to bills and Article 356 with President's rule.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-02"
+    },
+    {
+     "q": "The legislature of Bihar is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Unicameral",
+      "B": "Bicameral",
+      "C": "Tricameral",
+      "D": "None of the above"
+     },
+     "answer": "B",
+     "answer_text": "Bicameral",
+     "explanation": "Bihar has a bicameral legislature — the Legislative Assembly (lower house, 243 seats) and the Legislative Council (upper house, 75 seats).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-03"
+    },
+    {
+     "q": "The Bihar Legislative Council is a permanent house; what fraction of its members retire every two years?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "One-third",
+      "B": "One-half",
+      "C": "One-fourth",
+      "D": "Two-thirds"
+     },
+     "answer": "A",
+     "answer_text": "One-third",
+     "explanation": "The Legislative Council is a permanent house; one-third of its members retire every two years. Members serve a tenure of 6 years.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-04"
+    },
+    {
+     "q": "Which Article governs the formation and creation of the State Legislative Council?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Article 168",
+      "B": "Article 169",
+      "C": "Article 170",
+      "D": "Article 171"
+     },
+     "answer": "B",
+     "answer_text": "Article 169",
+     "explanation": "Article 169 provides for the creation/abolition of the Legislative Council; its structure is described in Article 171. The Legislative Assembly is described under Article 170.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-05"
+    },
+    {
+     "q": "The real executive head of the state who is appointed by the Governor is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Chief Secretary",
+      "B": "Chief Minister",
+      "C": "Advocate General",
+      "D": "Chairman of the Council"
+     },
+     "answer": "B",
+     "answer_text": "Chief Minister",
+     "explanation": "The Governor appoints the Chief Minister (leader of the majority party in the Assembly) under Article 164. The Chief Minister is the real head of the state executive.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-06"
+    },
+    {
+     "q": "Who administers the oath of office to the Chief Minister of Bihar?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Chief Justice of India",
+      "B": "Governor",
+      "C": "President",
+      "D": "Chief Justice of the High Court"
+     },
+     "answer": "B",
+     "answer_text": "Governor",
+     "explanation": "The Governor administers the oath of office and secrecy to the Chief Minister. The Chief Justice of the High Court is sworn in by the Governor.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-07"
+    },
+    {
+     "q": "In Bihar, reservation for women in Panchayati Raj institutions is:",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "33%",
+      "B": "35%",
+      "C": "50%",
+      "D": "25%"
+     },
+     "answer": "C",
+     "answer_text": "50%",
+     "explanation": "Reservation for women is 50% in Panchayati Raj institutions (from 2006), 50% in urban local bodies (from 2007), and 35% in Bihar Police/other government services.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-08"
+    },
+    {
+     "q": "Which Act provided the three-tier urban local self-government in Bihar (Nagar Panchayat, Municipal Council, Municipal Corporation)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Bihar Municipal Act 2007",
+      "B": "Bihar Panchayat Act 2006",
+      "C": "74th Amendment",
+      "D": "73rd Amendment"
+     },
+     "answer": "A",
+     "answer_text": "Bihar Municipal Act 2007",
+     "explanation": "The Bihar Municipal Act 2007 provides a three-tier structure of urban self-governance — Nagar Panchayat, Municipal Council (Nagar Parishad) and Municipal Corporation (Nagar Nigam).",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-09"
+    },
+    {
+     "q": "What is the total number of Urban Local Bodies in Bihar at present?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "261",
+      "B": "19",
+      "C": "154",
+      "D": "88"
+     },
+     "answer": "A",
+     "answer_text": "261",
+     "explanation": "Bihar has 261 Urban Local Bodies — 19 Municipal Corporations, 88 Municipal Councils and 154 Nagar Panchayats.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-10"
+    },
+    {
+     "q": "Who is the highest law officer of the state, appointed by the Governor under Article 165?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Advocate General",
+      "B": "Attorney General",
+      "C": "Chief Justice of the High Court",
+      "D": "District Judge"
+     },
+     "answer": "A",
+     "answer_text": "Advocate General",
+     "explanation": "The Advocate General, provided by Article 165, is the highest law officer of the state, appointed by the Governor; he may speak in the legislature but has no right to vote.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-11"
+    },
+    {
+     "q": "The Patna High Court was constituted on which date?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "3 February 1916",
+      "B": "1 April 1912",
+      "C": "9 January 1863",
+      "D": "20 January 1913"
+     },
+     "answer": "A",
+     "answer_text": "3 February 1916",
+     "explanation": "The Patna High Court was constituted on 3 February 1916. Its first Chief Justice was Sir Edward Maynard Des Champs Chamier.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-12"
+    },
+    {
+     "q": "In which election year, after Jharkhand's separation (2000), did Bihar's Legislative Assembly seats become 243?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "1952",
+      "B": "1977",
+      "C": "2000",
+      "D": "1937"
+     },
+     "answer": "C",
+     "answer_text": "2000",
+     "explanation": "After Jharkhand was separated on 15 November 2000, the number of seats in the Bihar Legislative Assembly remained at 243.",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-13"
+    },
+    {
+     "q": "Which leader was the first Chief Minister of independent Bihar (1952 general elections)?",
+     "question_type": "direct_statement",
+     "options": {
+      "A": "Mohammad Yunus",
+      "B": "Shri Krishna Singh",
+      "C": "Karpoori Thakur",
+      "D": "Jagannath Mishra"
+     },
+     "answer": "B",
+     "answer_text": "Shri Krishna Singh",
+     "explanation": "Shri Krishna Singh was the first Chief Minister of independent Bihar. (Mohammad Yunus was the first Chief Minister/Prime Minister under British rule in 1937.)",
+     "exam": "",
+     "year": "",
+     "source": "Authored (Eduteria Bihar Tathya Sangrah, Ch 7)",
+     "source_id": "AUTH-7-14"
+    }
+   ]
+  }
+ ]
+}
