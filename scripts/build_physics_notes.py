@@ -112,9 +112,11 @@ ST = {
     "body": S("body", spaceAfter=3.2),
     "b0": S("b0", leftIndent=14, bulletIndent=3, spaceAfter=2.4),
     "b1": S("b1", leftIndent=27, bulletIndent=16, spaceAfter=2.0, fontSize=8.9, leading=12.0),
-    "h2": S("h2", fontName="DVS-B", fontSize=11.6, leading=14, spaceBefore=9, spaceAfter=3.5),
+    # keepWithNext: a heading is never left stranded at the foot of a page
+    "h2": S("h2", fontName="DVS-B", fontSize=11.6, leading=14, spaceBefore=9, spaceAfter=3.5,
+            keepWithNext=1),
     "h3": S("h3", fontName="DVS-B", fontSize=9.8, leading=12.5, spaceBefore=6, spaceAfter=2.5,
-            textColor=colors.HexColor("#24303E")),
+            textColor=colors.HexColor("#24303E"), keepWithNext=1),
     "eq": S("eq", fontName="DVS-B", fontSize=9.4, leading=13, alignment=TA_CENTER),
     "cap": S("cap", fontSize=7.6, leading=9.6, textColor=GREY, alignment=TA_CENTER, spaceBefore=2.5),
     "note": S("note", fontSize=8.0, leading=10.8, textColor=colors.HexColor("#3E4A38")),
@@ -139,7 +141,17 @@ def fig_source(fname):
     return f"Lecture {int(m.group(1))}, p. {m.group(2)}" if m else ""
 
 
+class GlueSpacer(Spacer):
+    """A spacer that does not break a heading's keepWithNext chain (used before figures)."""
+    keepWithNext = 1
+
+    def __init__(self, h):
+        super().__init__(0, h)
+
+
 class HRMini(Spacer):
+    keepWithNext = 1        # the rule under an H2 stays glued to the heading AND to the next flowable
+
     def __init__(self, accent):
         super().__init__(0, 2.6)
         self._accent = accent
@@ -184,6 +196,7 @@ def make_table(rows, widths, accent, zebra=True, font=None):
         sc = AVAIL / sum(colw); colw = [w * sc for w in colw]
     t = Table(data, colWidths=colw, repeatRows=1)
     style = [("GRID", (0, 0), (-1, -1), 0.5, LINE), ("BACKGROUND", (0, 0), (-1, 0), c),
+             ("NOSPLIT", (0, 0), (-1, min(1, len(rows) - 1))),   # header row never orphaned
              ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
              ("LEFTPADDING", (0, 0), (-1, -1), 5), ("RIGHTPADDING", (0, 0), (-1, -1), 5),
              ("TOPPADDING", (0, 0), (-1, -1), 3.0), ("BOTTOMPADDING", (0, 0), (-1, -1), 3.0)]
@@ -217,8 +230,12 @@ def make_img(fname, caption, width_pct, unit_no):
     inner.setStyle(TableStyle([("ALIGN", (0, 0), (-1, -1), "CENTER"), ("BOX", (0, 0), (-1, -1), 0.5, LINE),
                                ("BACKGROUND", (0, 0), (-1, -1), colors.white),
                                ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-                               ("TOPPADDING", (0, 0), (-1, 0), 4), ("BOTTOMPADDING", (0, -1), (0, -1), 4)]))
-    return KeepTogether(inner)     # never let a caption drift onto the next page
+                               ("TOPPADDING", (0, 0), (-1, 0), 4), ("BOTTOMPADDING", (0, -1), (0, -1), 4),
+                               ("NOSPLIT", (0, 0), (-1, -1))]))   # caption never drifts to the next page
+    # (a NOSPLIT Table instead of KeepTogether so that a preceding heading's
+    #  keepWithNext can pull the figure along with it — KeepTogether containers
+    #  are excluded from keepWithNext chains by reportlab)
+    return inner
 
 
 def make_imgs(items, unit_no):
@@ -246,8 +263,9 @@ def make_imgs(items, unit_no):
     t.setStyle(TableStyle([("ALIGN", (0, 0), (-1, -1), "CENTER"), ("VALIGN", (0, 0), (-1, 0), "MIDDLE"),
                            ("BOX", (0, 0), (-1, -1), 0.5, LINE),
                            ("LEFTPADDING", (0, 0), (-1, -1), 2), ("RIGHTPADDING", (0, 0), (-1, -1), 2),
-                           ("TOPPADDING", (0, 0), (-1, 0), 3), ("BOTTOMPADDING", (0, -1), (0, -1), 3)]))
-    return KeepTogether(t)
+                           ("TOPPADDING", (0, 0), (-1, 0), 3), ("BOTTOMPADDING", (0, -1), (0, -1), 3),
+                           ("NOSPLIT", (0, 0), (-1, -1))]))
+    return t
 
 
 def make_eq(text):
@@ -289,6 +307,10 @@ def make_box(title, body, accent, tag=None, tag_color=None, pale=None):
             styles.append(("BACKGROUND", (0, i + 1), (0, i + 1), pale))
         elif i % 2 == 0:
             styles.append(("BACKGROUND", (0, i + 1), (0, i + 1), colors.HexColor("#F7FAFC")))
+    if len(rows) > 1:
+        # the coloured title bar must never be left alone at the foot of a page:
+        # header + first body row are one unsplittable block
+        styles.append(("NOSPLIT", (0, 0), (-1, 1)))
     t = Table(rows, colWidths=[AVAIL])
     t.setStyle(TableStyle(styles))
     return t
@@ -334,6 +356,15 @@ def split_items(body):
         else:
             items.append(frag)
     return items
+
+
+def page_break(story):
+    """Append a PageBreak, first dropping any trailing Spacers: a spacer that no
+    longer fits at the foot of a full page would otherwise open a new page on
+    its own and the PageBreak that follows would leave that page blank."""
+    while story and type(story[-1]) in (Spacer, GlueSpacer):
+        story.pop()
+    story.append(PageBreak())
 
 
 def parse_file(path, story, unit_state):
@@ -384,7 +415,7 @@ def parse_file(path, story, unit_state):
             unit_state["accent"] = accent
             unit_no = num; FIGCTR[unit_no] = 1
             if story:
-                story.append(PageBreak())
+                page_break(story)
             band = make_unit_band(num, title, source, accent)
             band._toc = (0, f"Unit {num} — {title}")
             story.append(band); story.append(Spacer(1, 6)); continue
@@ -429,7 +460,7 @@ def parse_file(path, story, unit_state):
             fname = parts[0].strip()
             cap = parts[1].strip() if len(parts) > 1 else ""
             pct = float(parts[2]) if len(parts) > 2 and parts[2].strip() else 60
-            story.append(Spacer(1, 3)); story.append(make_img(fname, cap, pct, unit_no)); story.append(Spacer(1, 5))
+            story.append(GlueSpacer(3)); story.append(make_img(fname, cap, pct, unit_no)); story.append(Spacer(1, 5))
             continue
         if line.startswith("IMGS "):
             items = []
@@ -437,10 +468,10 @@ def parse_file(path, story, unit_state):
                 f, _, c = it.partition("|")
                 if f.strip():
                     items.append((f.strip(), c.strip()))
-            story.append(Spacer(1, 3)); story.append(make_imgs(items, unit_no)); story.append(Spacer(1, 5))
+            story.append(GlueSpacer(3)); story.append(make_imgs(items, unit_no)); story.append(Spacer(1, 5))
             continue
         if line.strip() == "PB":
-            story.append(PageBreak()); continue
+            page_break(story); continue
         if line.strip() == "SP":
             story.append(Spacer(1, 6)); continue
         raise ValueError(f"Unknown line in {path}: {line[:70]!r}")
@@ -619,7 +650,7 @@ def add_front_matter(story):
                             "expansion of water, humidity, capacitors, electromagnetic induction, flux, permeability, "
                             "geomagnetism) never received their own lecture; the missing ones that BPSC has asked about "
                             "are supplied in clearly marked blue editor boxes inside the relevant unit.", GREEN, GREEN_PALE))
-    story.append(PageBreak())
+    page_break(story)
     story.append(Paragraph("Major duplicate topics resolved", st_h))
     merges = [
         "Scattering of light & Rayleigh's law (Lecture 1 p. 3 and Lecture 5 p. 2) → kept once in Unit 4; the Lecture-1 formula strip merged there.",
@@ -733,7 +764,7 @@ def add_appendix(story, rows):
     band = make_unit_band("A", "Appendix A — every reviewed physics PYQ (56–59th → 71st BPSC)",
                           "verbatim question text from the supplied workbooks; study answer, status and one-line reason", "#0F2A44")
     band._toc = (0, "Appendix A — Complete reviewed PYQ list")
-    story.append(PageBreak()); story.append(band); story.append(Spacer(1, 6))
+    page_break(story); story.append(band); story.append(Spacer(1, 6))
     story.append(Paragraph(
         "Status codes: <b>source-key</b> = answer follows the verified key in the workbook; <b>added-answer</b> = the workbook "
         "has no key for that paper (71st BPSC), the answer was worked out by the editor and the working is shown; "
@@ -788,7 +819,7 @@ def main():
     doc = NotesDoc(OUT)
     story = [Spacer(1, 1), NextPageTemplate("body"), PageBreak()]
     add_front_matter(story)
-    story.append(PageBreak())
+    page_break(story)
     story.append(Paragraph("Contents", S("toct", fontName="DVS-B", fontSize=17, leading=21, textColor=NAVY, spaceAfter=8)))
     toc = TableOfContents()
     toc.levelStyles = [
@@ -797,7 +828,7 @@ def main():
     ]
     toc.dotsMinLevel = 0
     story.append(toc)
-    story.append(PageBreak())
+    page_break(story)
     add_priority_section(story, rows, summary)
     unit_state = {"no": "0", "title": "", "accent": ACCENTS[0]}
     for f in files:
