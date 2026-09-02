@@ -1,0 +1,136 @@
+{
+  "method": "Manual question-by-question classification of the two supplied XLSX files; direct biology is core, ecology/conservation/public-health/agri-biology is extended.",
+  "total_questions": 141,
+  "scope_counts": {
+    "extended": 30,
+    "core": 111
+  },
+  "exam_counts": {
+    "56-59th BPSC (2015)": 15,
+    "60-62nd BPSC (Combined)": 11,
+    "63rd BPSC": 4,
+    "64th BPSC": 8,
+    "65th BPSC": 13,
+    "66th BPSC": 13,
+    "67th BPSC": 15,
+    "68th BPSC": 14,
+    "69th BPSC": 16,
+    "70th BPSC": 12,
+    "71st BPSC (2025)": 20
+  },
+  "topic_ranking": [
+    {
+      "rank": 1,
+      "topic": "Ecology, Environment & Conservation",
+      "all_questions": 29,
+      "core_questions": 6,
+      "papers_present": 9,
+      "priority": "A"
+    },
+    {
+      "rank": 2,
+      "topic": "Plant Form, Function & Classification",
+      "all_questions": 24,
+      "core_questions": 22,
+      "papers_present": 8,
+      "priority": "A"
+    },
+    {
+      "rank": 3,
+      "topic": "Microbes, Disease & Immunity",
+      "all_questions": 21,
+      "core_questions": 19,
+      "papers_present": 9,
+      "priority": "A"
+    },
+    {
+      "rank": 4,
+      "topic": "Nutrition & Biomolecules",
+      "all_questions": 17,
+      "core_questions": 16,
+      "papers_present": 8,
+      "priority": "A"
+    },
+    {
+      "rank": 5,
+      "topic": "Genetics, DNA & Biotechnology",
+      "all_questions": 9,
+      "core_questions": 9,
+      "papers_present": 6,
+      "priority": "B"
+    },
+    {
+      "rank": 6,
+      "topic": "Endocrine & Reproduction",
+      "all_questions": 8,
+      "core_questions": 8,
+      "papers_present": 5,
+      "priority": "B"
+    },
+    {
+      "rank": 7,
+      "topic": "Circulation, Blood & Immunity",
+      "all_questions": 6,
+      "core_questions": 6,
+      "papers_present": 6,
+      "priority": "C"
+    },
+    {
+      "rank": 8,
+      "topic": "Nervous System & Senses",
+      "all_questions": 6,
+      "core_questions": 6,
+      "papers_present": 4,
+      "priority": "C"
+    },
+    {
+      "rank": 9,
+      "topic": "Animal Diversity & Applied Biology",
+      "all_questions": 5,
+      "core_questions": 3,
+      "papers_present": 4,
+      "priority": "C"
+    },
+    {
+      "rank": 10,
+      "topic": "Cell Biology",
+      "all_questions": 5,
+      "core_questions": 5,
+      "papers_present": 5,
+      "priority": "C"
+    },
+    {
+      "rank": 11,
+      "topic": "Skeleton, Joints & Muscle",
+      "all_questions": 5,
+      "core_questions": 5,
+      "papers_present": 4,
+      "priority": "C"
+    },
+    {
+      "rank": 12,
+      "topic": "Digestion",
+      "all_questions": 4,
+      "core_questions": 4,
+      "papers_present": 3,
+      "priority": "C"
+    },
+    {
+      "rank": 13,
+      "topic": "Excretion & Osmoregulation",
+      "all_questions": 2,
+      "core_questions": 2,
+      "papers_present": 2,
+      "priority": "C"
+    }
+  ],
+  "status_counts": {
+    "source-key": 106,
+    "restored": 2,
+    "key-sensitive": 6,
+    "corrected": 3,
+    "ambiguous": 4,
+    "verified": 2,
+    "added-answer": 18
+  }
+}

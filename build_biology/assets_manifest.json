@@ -1,0 +1,462 @@
+{
+  "prokaryotic_cell": {
+    "source": "L1. SYLLABUS ANALYSIS & CELL.pdf",
+    "page": 4,
+    "asset": "prokaryotic_cell.jpeg"
+  },
+  "chloroplast": {
+    "source": "L3. Cell Organelles II.pdf",
+    "page": 3,
+    "asset": "chloroplast.jpeg"
+  },
+  "eukaryotic_cell": {
+    "source": "L1. SYLLABUS ANALYSIS & CELL.pdf",
+    "page": 4,
+    "asset": "eukaryotic_cell.jpeg"
+  },
+  "cell_membrane": {
+    "source": "L2. Cell Organelles.pdf",
+    "page": 2,
+    "asset": "cell_membrane.jpeg"
+  },
+  "mitochondrion": {
+    "source": "L2. Cell Organelles.pdf",
+    "page": 3,
+    "asset": "mitochondrion.jpeg"
+  },
+  "endoplasmic_reticulum": {
+    "source": "L2. Cell Organelles.pdf",
+    "page": 3,
+    "asset": "endoplasmic_reticulum.jpeg"
+  },
+  "golgi_apparatus": {
+    "source": "L3. Cell Organelles II.pdf",
+    "page": 2,
+    "asset": "golgi_apparatus.jpeg"
+  },
+  "lysosome": {
+    "source": "L3. Cell Organelles II.pdf",
+    "page": 3,
+    "asset": "lysosome.jpeg"
+  },
+  "centrosome": {
+    "source": "L4. Nucleus Centrosome, Pollination.pdf",
+    "page": 2,
+    "asset": "centrosome.jpeg"
+  },
+  "nucleus": {
+    "source": "L4. Nucleus Centrosome, Pollination.pdf",
+    "page": 3,
+    "asset": "nucleus.jpeg"
+  },
+  "heterotrophic_nutrition": {
+    "source": "L10. Nutrition, Part - 01.pdf",
+    "page": 2,
+    "asset": "heterotrophic_nutrition.jpeg"
+  },
+  "carbohydrate_structures": {
+    "source": "L10. Nutrition, Part - 01.pdf",
+    "page": 3,
+    "asset": "carbohydrate_structures.png"
+  },
+  "protein_formation": {
+    "source": "L10. Nutrition, Part - 01.pdf",
+    "page": 4,
+    "asset": "protein_formation.jpeg"
+  },
+  "digestive_system": {
+    "source": "L13. Digestive System, Part - 01.pdf",
+    "page": 3,
+    "asset": "digestive_system.jpeg"
+  },
+  "tooth": {
+    "source": "L13. Digestive System, Part - 01.pdf",
+    "page": 4,
+    "asset": "tooth.jpeg"
+  },
+  "absorption_summary": {
+    "source": "L13. Digestive System, Part - 01.pdf",
+    "page": 5,
+    "asset": "absorption_summary.jpeg"
+  },
+  "digestive_glands": {
+    "source": "L14. Digestive System, Part - 02.pdf",
+    "page": 3,
+    "asset": "digestive_glands.jpeg"
+  },
+  "vertebrate_hearts": {
+    "source": "L15. Circulatory System, Part - 01.pdf",
+    "page": 3,
+    "asset": "vertebrate_hearts.jpeg"
+  },
+  "human_heart": {
+    "source": "L15. Circulatory System, Part - 01.pdf",
+    "page": 3,
+    "asset": "human_heart.jpeg"
+  },
+  "blood_components": {
+    "source": "L16. Circulatory System, Part - 02.pdf",
+    "page": 3,
+    "asset": "blood_components.jpeg"
+  },
+  "cardiac_conduction": {
+    "source": "L17. Circulatory System, Part - 03.pdf",
+    "page": 2,
+    "asset": "cardiac_conduction.jpeg"
+  },
+  "blood_vessels": {
+    "source": "L17. Circulatory System, Part - 03.pdf",
+    "page": 4,
+    "asset": "blood_vessels.jpeg"
+  },
+  "capillary_bed": {
+    "source": "L17. Circulatory System, Part - 03.pdf",
+    "page": 4,
+    "asset": "capillary_bed.jpeg"
+  },
+  "respiratory_system": {
+    "source": "L18. Respiratory System- 01.pdf",
+    "page": 2,
+    "asset": "respiratory_system.png"
+  },
+  "alveolus": {
+    "source": "L18. Respiratory System- 01.pdf",
+    "page": 2,
+    "asset": "alveolus.jpeg"
+  },
+  "inhalation_process": {
+    "source": "L18. Respiratory System- 01.pdf",
+    "page": 2,
+    "asset": "inhalation_process.jpeg"
+  },
+  "breathing_mechanics": {
+    "source": "L18. Respiratory System- 01.pdf",
+    "page": 3,
+    "asset": "breathing_mechanics.jpeg"
+  },
+  "lung_lobes": {
+    "source": "L19. Respiratory System- 02.pdf",
+    "page": 2,
+    "asset": "lung_lobes.jpeg"
+  },
+  "nephron": {
+    "source": "L20. Excretory System & Reproductive System.pdf",
+    "page": 4,
+    "asset": "nephron.jpeg"
+  },
+  "reproductive_system": {
+    "source": "L20. Excretory System & Reproductive System.pdf",
+    "page": 6,
+    "asset": "reproductive_system.jpeg"
+  },
+  "endocrine_glands": {
+    "source": "L21. Human Endocrine System.pdf",
+    "page": 2,
+    "asset": "endocrine_glands.png"
+  },
+  "brain": {
+    "source": "L22. Human Endocrine System.pdf",
+    "page": 4,
+    "asset": "brain.jpeg"
+  },
+  "neuron": {
+    "source": "L23. Nervous System - 02.pdf",
+    "page": 2,
+    "asset": "neuron.jpeg"
+  },
+  "nerve_impulse": {
+    "source": "L23. Nervous System - 02.pdf",
+    "page": 3,
+    "asset": "nerve_impulse.jpeg"
+  },
+  "reflex_arc": {
+    "source": "L23. Nervous System - 02.pdf",
+    "page": 3,
+    "asset": "reflex_arc.jpeg"
+  },
+  "plant_kingdom_classification": {
+    "source": "L24. Plant Kingdom.pdf",
+    "page": 2,
+    "asset": "plant_kingdom_classification.png"
+  },
+  "bryophyte_classes": {
+    "source": "L24. Plant Kingdom.pdf",
+    "page": 3,
+    "asset": "bryophyte_classes.png"
+  },
+  "pteridophytes": {
+    "source": "L24. Plant Kingdom.pdf",
+    "page": 3,
+    "asset": "pteridophytes.jpeg"
+  },
+  "gymnosperms": {
+    "source": "L24. Plant Kingdom.pdf",
+    "page": 5,
+    "asset": "gymnosperms.jpeg"
+  },
+  "root_systems": {
+    "source": "L25. Plant Morphology.pdf",
+    "page": 2,
+    "asset": "root_systems.jpeg"
+  },
+  "underground_stems": {
+    "source": "L25. Plant Morphology.pdf",
+    "page": 3,
+    "asset": "underground_stems.jpeg"
+  },
+  "plant_modifications": {
+    "source": "L25. Plant Morphology.pdf",
+    "page": 4,
+    "asset": "plant_modifications.jpeg"
+  },
+  "leaf_parts": {
+    "source": "L25. Plant Morphology.pdf",
+    "page": 4,
+    "asset": "leaf_parts.jpeg"
+  },
+  "dengue_vector": {
+    "source": "L27. Infectious and Non-Infectious Diseases, Part - 02.pdf",
+    "page": 4,
+    "asset": "dengue_vector.jpeg"
+  },
+  "hiv_structure": {
+    "source": "L27. Infectious and Non-Infectious Diseases, Part - 02.pdf",
+    "page": 5,
+    "asset": "hiv_structure.jpeg"
+  },
+  "hiv_cycle": {
+    "source": "L27. Infectious and Non-Infectious Diseases, Part - 02.pdf",
+    "page": 5,
+    "asset": "hiv_cycle.jpeg"
+  },
+  "sars_cov_2": {
+    "source": "L27. Infectious and Non-Infectious Diseases, Part - 02.pdf",
+    "page": 5,
+    "asset": "sars_cov_2.jpeg"
+  },
+  "plant_physiology": {
+    "source": "L28. Plant Physiology.pdf",
+    "page": 2,
+    "asset": "plant_physiology.jpeg"
+  },
+  "asexual_plant_reproduction": {
+    "source": "L28. Plant Physiology.pdf",
+    "page": 2,
+    "asset": "asexual_plant_reproduction.jpeg"
+  },
+  "flower_structure": {
+    "source": "L28. Plant Physiology.pdf",
+    "page": 3,
+    "asset": "flower_structure.jpeg"
+  },
+  "photoperiodism": {
+    "source": "L28. Plant Physiology.pdf",
+    "page": 5,
+    "asset": "photoperiodism.jpeg"
+  },
+  "chromosome_structure": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 3,
+    "asset": "chromosome_structure.jpeg"
+  },
+  "mendel_traits": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 4,
+    "asset": "mendel_traits.jpeg"
+  },
+  "sex_determination": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 4,
+    "asset": "sex_determination.jpeg"
+  },
+  "colour_blindness_test": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 4,
+    "asset": "colour_blindness_test.jpeg"
+  },
+  "lamarck_darwin": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 5,
+    "asset": "lamarck_darwin.jpeg"
+  },
+  "homologous_analogous": {
+    "source": "L29. Genetics and Evolution.pdf",
+    "page": 6,
+    "asset": "homologous_analogous.jpeg"
+  },
+  "coelom_types": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 2,
+    "asset": "coelom_types.jpeg"
+  },
+  "porifera": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 3,
+    "asset": "porifera.jpeg"
+  },
+  "platyhelminthes": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 3,
+    "asset": "platyhelminthes.jpeg"
+  },
+  "annelida": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 3,
+    "asset": "annelida.jpeg"
+  },
+  "aschelminthes": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 4,
+    "asset": "aschelminthes.jpeg"
+  },
+  "echinodermata": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 4,
+    "asset": "echinodermata.jpeg"
+  },
+  "mollusca": {
+    "source": "L30. Animal Diversity.pdf",
+    "page": 4,
+    "asset": "mollusca.jpeg"
+  },
+  "ecosystem_components": {
+    "source": "L31. Ecology Microbes(Bacteria & Virus).pdf",
+    "page": 2,
+    "asset": "ecosystem_components.jpeg"
+  },
+  "food_chain_web": {
+    "source": "L31. Ecology Microbes(Bacteria & Virus).pdf",
+    "page": 2,
+    "asset": "food_chain_web.jpeg"
+  },
+  "ecological_pyramids": {
+    "source": "L31. Ecology Microbes(Bacteria & Virus).pdf",
+    "page": 3,
+    "asset": "ecological_pyramids.jpeg"
+  },
+  "aquatic_biomass_pyramid": {
+    "source": "L31. Ecology Microbes(Bacteria & Virus).pdf",
+    "page": 4,
+    "asset": "aquatic_biomass_pyramid.png"
+  },
+  "energy_flow": {
+    "source": "L31. Ecology Microbes(Bacteria & Virus).pdf",
+    "page": 4,
+    "asset": "energy_flow.jpeg"
+  },
+  "dna_rna": {
+    "source": "L6. Nucleic Acid-DNA RNA and Protein Synthesis.pdf",
+    "page": 2,
+    "asset": "dna_rna.jpeg"
+  },
+  "dna_structure": {
+    "source": "L6. Nucleic Acid-DNA RNA and Protein Synthesis.pdf",
+    "page": 2,
+    "asset": "dna_structure.png"
+  },
+  "rna_structure": {
+    "source": "L6. Nucleic Acid-DNA RNA and Protein Synthesis.pdf",
+    "page": 3,
+    "asset": "rna_structure.jpeg"
+  },
+  "rna_types": {
+    "source": "L6. Nucleic Acid-DNA RNA and Protein Synthesis.pdf",
+    "page": 3,
+    "asset": "rna_types.jpeg"
+  },
+  "transcription_translation": {
+    "source": "L6. Nucleic Acid-DNA RNA and Protein Synthesis.pdf",
+    "page": 4,
+    "asset": "transcription_translation.jpeg"
+  },
+  "mitosis_meiosis": {
+    "source": "L7.  Cell Division (Mitosis & meiosis).pdf",
+    "page": 2,
+    "asset": "mitosis_meiosis.jpeg"
+  },
+  "mitosis_stages": {
+    "source": "L7.  Cell Division (Mitosis & meiosis).pdf",
+    "page": 2,
+    "asset": "mitosis_stages.jpeg"
+  },
+  "meiosis_stages": {
+    "source": "L7.  Cell Division (Mitosis & meiosis).pdf",
+    "page": 4,
+    "asset": "meiosis_stages.jpeg"
+  },
+  "leaf_anatomy": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 2,
+    "asset": "leaf_anatomy.jpeg"
+  },
+  "parenchyma": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 2,
+    "asset": "parenchyma.jpeg"
+  },
+  "collenchyma": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 2,
+    "asset": "collenchyma.jpeg"
+  },
+  "sclerenchyma": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 3,
+    "asset": "sclerenchyma.jpeg"
+  },
+  "xylem_transport": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 3,
+    "asset": "xylem_transport.jpeg"
+  },
+  "phloem": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 3,
+    "asset": "phloem.jpeg"
+  },
+  "annual_rings": {
+    "source": "L8. Plant tissue - Meristem, Permanent tissue, vascular tissue , annual rings.pdf",
+    "page": 4,
+    "asset": "annual_rings.jpeg"
+  },
+  "epithelium_types": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 2,
+    "asset": "epithelium_types.png"
+  },
+  "adipose_tissue": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 2,
+    "asset": "adipose_tissue.jpeg"
+  },
+  "connective_tissues": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 3,
+    "asset": "connective_tissues.jpeg"
+  },
+  "muscle_types": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 3,
+    "asset": "muscle_types.jpeg"
+  },
+  "long_bone": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 4,
+    "asset": "long_bone.jpeg"
+  },
+  "rib_cage": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 5,
+    "asset": "rib_cage.jpeg"
+  },
+  "skull": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 5,
+    "asset": "skull.jpeg"
+  },
+  "vertebral_column": {
+    "source": "L9. Animal tissues and Skeleton system.pdf",
+    "page": 5,
+    "asset": "vertebral_column.jpeg"
+  }
+}

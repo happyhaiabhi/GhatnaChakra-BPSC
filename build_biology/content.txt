@@ -1,0 +1,1561 @@
+# BPSC Biology — consolidated source content
+# Syntax is parsed by scripts/build_biology_notes.py.
+# Repeated headers, phone numbers, promotional furniture and the lecture timetable are intentionally excluded.
+
+UNIT 1|Biology Foundations, Classification & the Cell|L1, L32|Cell Biology
+H2 What biology studies
+P **Biology** is the science of life and living organisms—their structure, function, growth, origin, evolution and distribution. The name comes from Greek **bios** (life) + **logos** (study).
+TBLW 24,32,44
+TBL
+Branch~Scope~Founder / classic work
+Botany~Plants~Theophrastus; *Historia Plantarum*
+Zoology~Animals~Aristotle; *Historia Animalium*
+Microbiology~Microscopic organisms: bacteria, viruses, fungi, protozoa~—
+Genetics~Inheritance, genes and variation~Gregor Mendel is called the father of genetics
+Ecology~Interactions of organisms with one another and the environment~Term associated with Ernst Haeckel
+Anatomy~Physical structure of organisms and their parts~—
+Physiology~How organisms, organs and systems function~—
+Cell biology~Structure and function of cells~—
+Molecular biology~DNA, RNA, proteins and information flow~—
+Evolutionary biology~Change in species and populations over generations~—
+
+H2 Classification: the organising logic
+B Aristotle grouped animals as **Enaima** (red blood present) and **Anaima** (red blood absent).
+B Carl Linnaeus used the two-kingdom arrangement: **Plantae** and **Animalia**.
+B R. H. Whittaker's five kingdoms are **Monera, Protista, Fungi/Mycota, Plantae and Animalia**. The stated bases are cell complexity, cellular organisation, cell wall and mode of nutrition.
+B **Monera** includes prokaryotes such as bacteria and Mycoplasma. **Protista** includes unicellular eukaryotes such as protozoans, Chlamydomonas, Euglena, diatoms and yeast in the source scheme. Multicellular eukaryotes separate broadly into Plantae (cell wall; mainly autotrophic), Fungi/Mycota (cell wall; heterotrophic) and Animalia (no cell wall; heterotrophic).
+ADDED Editorial update|Modern systems do not treat all “algae” or “protozoa” as single natural groups, and fungi are no longer classified as plants. For BPSC-style questions, first identify the classification system named in the stem.
+
+H2 Cell theory and discovery
+P The **cell** is the structural and functional unit of life. All organisms are cellular, and new cells arise from pre-existing cells.
+B Robert Hooke observed cork compartments and named “cells” in **1665**.
+B Antonie van Leeuwenhoek first observed living cells/microorganisms.
+B Cells are classified as **prokaryotic** or **eukaryotic** mainly by the presence of a membrane-bound nucleus and membrane-bound organelles.
+IMGS prokaryotic_cell:Prokaryotic cell—nucleoid, ribosomes, wall/membrane, capsule and flagellum|eukaryotic_cell:Eukaryotic animal cell—membrane-bound nucleus and organelles
+
+H3 Prokaryote vs eukaryote — one-look table
+TBLW 24,37,39
+TBL
+Feature~Prokaryotic cell~Eukaryotic cell
+Nucleus~No true nucleus; DNA lies in nucleoid~True membrane-bound nucleus
+Typical size~About 1–10 µm~About 10–100 µm
+Organisation~Usually unicellular~Unicellular or multicellular
+Membrane-bound organelles~Absent~Present: mitochondria, ER, Golgi etc.
+DNA~Usually circular; no histones in typical bacteria~Linear chromosomes associated with histones
+Division~Binary fission~Mitosis; meiosis for germ-line formation
+Ribosomes~70S~80S in cytosol; 70S in mitochondria/chloroplasts
+Cell wall~Peptidoglycan in bacteria~Cellulose in plants; chitin in fungi; absent in animals
+Examples~E. coli, Streptococcus, cyanobacteria~Amoeba, Paramecium, plants, animals, fungi
+Recombination~Transformation, transduction or conjugation~Sexual reproduction / meiotic recombination
+
+CORR Source typo corrected|The source prints “705” and “805”; the intended ribosomal values are **70S** and **80S**. “S” is the Svedberg sedimentation coefficient and is not arithmetically additive.
+H3 Plant cell vs animal cell
+TBLW 24,38,38
+TBL
+Feature~Typical plant cell~Typical animal cell
+Outer boundary~Cell wall outside plasma membrane~Plasma membrane only
+Plastids~Present in photosynthetic/storage tissues~Absent
+Centrosome/centrioles~Absent in most higher-plant somatic cells~Usually present
+Vacuole~One large central vacuole may occupy most cell volume~Small, temporary vesicles/vacuoles
+Nucleus position~Often peripheral after vacuole enlarges~Often more central
+Nutrition~Commonly autotrophic in green tissues~Heterotrophic
+
+H2 PYQ focus
+PYQ 64th: “Powerhouse of the cell”~Mitochondrion
+PYQ 70th: Structural and functional unit of life~Cell
+PYQ 56–59th: Smallest organism capable of autonomous growth and reproduction~Mycoplasma
+KEY Cell questions are often direct one-liners, but organelle composition and self-replication are increasingly used for statement-based questions.
+
+UNIT 2|Cell Boundaries & Organelles|L2–L4|Cell Biology
+H2 Cell wall and plasma membrane
+H3 Cell wall
+B A non-living, rigid layer outside the plasma membrane in plant cells; it provides shape, support and protection and resists osmotic bursting.
+B **Plants:** cellulose, hemicellulose, pectins and proteins. **Algae:** composition varies and may include cellulose, galactans, mannans and calcium carbonate. **Fungi:** chitin and glucans.
+B **Middle lamella:** mainly calcium pectate; cements adjacent cells. **Primary wall:** extensible wall formed during growth. **Secondary wall:** deposited inward after growth, often thick and strengthened.
+B The wall protects against mechanical stress, physical shock and many pathogens while remaining porous to water and small solutes.
+IMG leaf_anatomy:Leaf cross-section showing epidermis, mesophyll, vascular tissue and stomata|62
+
+H3 Plasma membrane — fluid mosaic model
+B A thin, living, flexible and **selectively permeable** boundary found in every cell; it separates cytoplasm from the external environment and maintains homeostasis.
+B Singer and Nicolson proposed the **fluid mosaic model (1972)**.
+B Phospholipids form a bilayer: hydrophilic heads face aqueous surfaces; hydrophobic tails face inward. Cholesterol, proteins and carbohydrates occur within or on the bilayer.
+B **Integral/intrinsic proteins** are partly or wholly embedded; **peripheral/extrinsic proteins** lie on the surface. Lateral mobility supports growth, junction formation, secretion and endocytosis.
+B The membrane regulates movement of nutrients, oxygen, ions and wastes, receives signals and supports cell recognition.
+IMG cell_membrane:Fluid-mosaic plasma membrane with phospholipids, cholesterol and proteins|66
+PYQ 71st: Biological membranes are composed of—~Lipids and proteins in proportions characteristic of cell type and species
+
+H2 The organelle dashboard
+TBLW 19,28,53
+TBL
+Organelle~Structure / location~Principal functions and exam hooks
+Nucleus~Double membrane with pores; chromatin, nucleoplasm and nucleolus~Stores DNA; controls gene expression; nucleolus makes rRNA/ribosomal subunits
+Mitochondrion~Double membrane; inner cristae and matrix; own circular DNA, RNA and 70S ribosomes~Aerobic respiration, ATP production, apoptosis, fatty-acid oxidation and heat production
+Rough ER~Membranous cisternae continuous with outer nuclear membrane; ribosomes attached~Synthesis and folding of secreted/membrane proteins
+Smooth ER~Tubules without ribosomes~Lipid and steroid synthesis; detoxification; selected metabolic roles
+Golgi apparatus~Stacked flattened cisternae with cis and trans faces~Modifies, sorts and packages proteins/lipids; forms secretory vesicles and lysosomes
+Lysosome~Single-membrane acidic vesicle with hydrolytic enzymes~Intracellular digestion and recycling; traditionally called “suicide bags”
+Ribosome~Non-membranous rRNA–protein particle; 70S or 80S~Protein synthesis; assembled in nucleolus in eukaryotes
+Plastid~Double membrane; plant/algal cells~Photosynthesis, pigment formation or storage
+Vacuole~Tonoplast-bound compartment; large central form in mature plant cells~Storage, turgor, pH/ion balance and degradation
+Centrosome~Two perpendicular centrioles in pericentriolar material; animal cells~Microtubule-organising centre; spindle and aster formation
+
+H3 Nucleus
+B Robert Brown described the nucleus (1831/1833 in different source references). The outer nuclear membrane is continuous with ER.
+B Nuclear pores control RNA and protein traffic. Nucleoplasm contains chromatin and one or more nucleoli.
+B The **nucleolus** is non-membranous, rich in rRNA and protein, and is the site of rRNA synthesis and ribosomal-subunit assembly.
+B **Chromatin = DNA + histone and associated proteins**; it condenses into chromosomes during division.
+B Ribosomes were characterised by George Palade and are non-membranous. Bacterial/organellar **70S = 50S + 30S**; eukaryotic cytosolic **80S = 60S + 40S**. The Svedberg values describe sedimentation and are not additive as ordinary numbers.
+B A mature plant central vacuole may occupy around 90% of cell volume; small temporary vacuoles/vesicles occur in animal cells.
+B Theodor Boveri is associated with discovery/description of the centrosome. It duplicates with the cell cycle and organises spindle microtubules and astral rays.
+IMGS nucleus:Nucleus—envelope, pores, chromatin, nucleolus and nucleoplasm|centrosome:Centrosome and centrioles organising the spindle
+
+H3 Mitochondria
+B Usually sausage-shaped or cylindrical; source dimensions are about 0.2–1.0 µm in diameter and 1.0–4.1 µm long.
+B Smooth outer membrane surrounds an inner membrane folded into **cristae**, which increase area for electron transport and ATP synthesis. The **matrix** contains enzymes, mtDNA and ribosomes.
+B Semi-autonomous: own circular DNA, RNA and 70S ribosomes, but depends heavily on nuclear genes.
+B Discovery notes retained: Richard Altmann recognised “bioblasts” (1894); Carl Benda coined *mitochondria* (1898).
+IMG mitochondrion:Mitochondrial membranes, cristae, matrix, mtDNA and ATP synthase|62
+
+H3 Endoplasmic reticulum, Golgi and lysosome
+B ER partitions the cell into luminal and cytosolic compartments. It is absent in prokaryotes and mature mammalian RBCs.
+B **RER:** abundant in protein-secreting cells. **SER:** abundant where lipids/steroids are made and drugs are detoxified.
+B Golgi “post office”: the **cis face** receives ER vesicles; cisternae process cargo; the **trans face** dispatches it. Golgi also contributes to lysosomes, sperm acrosome and plant cell plate.
+B Camillo Golgi observed the Golgi apparatus in 1897/1898. Lysosomes arise through the endomembrane system, contain many acid hydrolases and function near **pH 5**.
+IMGS endoplasmic_reticulum:Rough and smooth endoplasmic reticulum|golgi_apparatus:Golgi stack with cis and trans traffic|lysosome:Lysosome and intracellular digestion
+
+H3 Plastids
+TBLW 22,28,50
+TBL
+Type~Main role~Examples / details
+Chloroplast~Photosynthesis~Green tissues; chlorophyll; thylakoids stacked as grana in stroma; semi-autonomous
+Chromoplast~Coloured carotenoid pigment synthesis/storage~Flowers and fruits: tomato—lycopene; carrot—carotene; papaya—caricaxanthin
+Leucoplast~Colourless storage plastid in non-green tissue~Amyloplast—starch; aleuroplast—protein; elaioplast—oil/lipid
+
+B Plastids develop from **proplastids**. Ernest Haeckel is credited in the source with discovery and Schimper with observation/classification.
+B Chlorophyll contains C, H, O, N and **Mg**; plants commonly contain chlorophyll **a** and **b**.
+B Leucoplast examples retained: amyloplasts in potato/wheat/rice; aleuroplasts in legumes, pea, soybean and pulses; elaioplasts in castor, linseed and mustard seeds.
+IMG chloroplast:Chloroplast—double envelope, stroma, thylakoids and grana|60
+CORR Pigment spellings corrected|The source prints “antholyanin” and “cathepsin” for colour. Standard terms are **anthocyanin** for many red/blue/purple colours and **capsanthin/capsorubin** for red chilli; turmeric is chiefly coloured by curcumin, not xanthophyll alone.
+
+UNIT 3|Nucleic Acids, Genetic Code & Protein Synthesis|L6, L32|Genetics, DNA & Biotechnology
+H2 Building blocks
+B Friedrich Miescher isolated an acidic nuclear substance from pus cells in 1869 and called it **nuclein**. Altmann popularised the term **nucleic acid**.
+B Nucleic acids are nucleotide polymers. **Nucleoside = nitrogenous base + pentose sugar**; **nucleotide = nucleoside + phosphate**.
+B **Purines** have two rings: adenine (A), guanine (G). **Pyrimidines** have one ring: cytosine (C), thymine (T), uracil (U).
+B A base joins carbon 1′ of sugar: N1 of a pyrimidine or N9 of a purine. Phosphate is acidic and negatively charged.
+B Pentoses are deoxyribose in DNA and ribose in RNA.
+IMGS dna_structure:DNA double helix and base-pair legend|rna_structure:RNA strand, sugar-phosphate backbone and bases
+
+H2 DNA model and functions
+B DNA is a long, negatively charged polymer of deoxyribonucleotides and is the hereditary material in almost all cellular organisms.
+B Watson and Crick proposed the double-helix model in **1953**, drawing critically on X-ray evidence associated with Rosalind Franklin and Maurice Wilkins. Watson, Crick and Wilkins received the 1962 Nobel Prize.
+B Two polynucleotide strands are **antiparallel** (5′→3′ opposite 3′→5′), complementary and held by hydrogen bonds and base stacking.
+B A pairs with T through **2 H-bonds**; G pairs with C through **3 H-bonds**. Pairing one purine with one pyrimidine keeps helix width nearly uniform.
+B Functions: long-term information storage; self-replication before cell division; directing RNA and protein synthesis; mutation as a source of variation and evolution.
+ADDED Editorial context|“Who discovered DNA?” is key-sensitive. Miescher discovered the substance; Watson and Crick proposed the double-helical model; Franklin’s diffraction data and Wilkins’ work were crucial. Read the exact verb in the question.
+PYQ 64th: “Who discovered DNA?” with Watson–Crick among options~Official-style answer may be “none” because Miescher discovered DNA; Watson–Crick described its structure
+PYQ 69th: DNA double-helix structure~James Watson and Francis Crick
+PYQ 56–59th: DNA synthesised in vitro~Arthur Kornberg
+
+H2 RNA and its forms
+TBLW 18,22,24,36
+TBL
+RNA~Approx. share~Key facts~Role
+rRNA~About 80%~Made in nucleolus; most stable; structural/catalytic part of ribosome~Positions mRNA/tRNA and catalyses peptide-bond formation
+ tRNA~About 10–15%~Small “adapter” or soluble RNA; anticodon and amino-acid attachment site~Carries a specific amino acid to ribosome
+mRNA~About 1–5%~Messenger name associated with Jacob and Monod; relatively short-lived~Carries codon sequence transcribed from DNA
+Genomic RNA~—~Genetic material in many viruses; dsRNA in reovirus~Passes viral hereditary information
+
+B RNA is usually single-stranded, contains ribose and uses **U** instead of T. Reovirus is a double-stranded RNA exception cited in the source.
+TBLW 24,38,38
+TBL
+Feature~DNA~RNA
+Strands~Usually double helix~Usually single strand
+Sugar~Deoxyribose~Ribose
+Bases~A, T, G, C~A, U, G, C
+Stability~Generally more stable~Generally less stable
+Main role~Long-term information storage~Expression of information and, in some viruses, heredity
+Location~Nucleus; also mitochondria/chloroplasts~Nucleus and cytoplasm, including ribosomes
+
+H2 Central dogma and protein synthesis
+P **DNA → RNA → protein** summarises the usual flow of sequence information. Replication copies DNA; transcription makes RNA from DNA; translation reads mRNA to assemble a polypeptide.
+B **Transcription:** RNA polymerase uses one DNA strand as template and makes complementary RNA 5′→3′.
+B **Translation:** a ribosome reads mRNA codons; tRNAs match anticodons and deliver amino acids; peptide bonds form a polypeptide.
+B Protein synthesis supplies enzymes, structural proteins and many peptide hormones; it underpins growth, repair and metabolic regulation.
+IMG transcription_translation:Transcription of DNA to RNA followed by translation to protein|68
+
+H2 Genetic code
+B George Gamow advanced the triplet-code idea; Nirenberg, Matthaei and Khorana were central to deciphering the code.
+B A **codon** is a three-base mRNA sequence specifying an amino acid or stop signal. Four bases in triplets yield 4³ = **64 codons**, enough for 20 standard amino acids.
+B **AUG** encodes methionine and commonly initiates translation. **UAA, UAG and UGA** are stop/nonsense codons.
+B The code is degenerate (most amino acids have multiple codons), unambiguous for a given codon, nearly universal, non-overlapping and read in a fixed frame.
+PYQ 71st: A nonsense codon among UAA/AUG/UUU/UGC~UAA
+PYQ 69th: Expanded form of mRNA~Messenger ribonucleic acid
+ADDED Full codon quick map|Phe UUU/UUC; Leu UUA/UUG/CUN; Ile AUU/AUC/AUA; Met AUG; Val GUN; Ser UCN/AGU/AGC; Pro CCN; Thr ACN; Ala GCN; Tyr UAU/UAC; stop UAA/UAG/UGA; His CAU/CAC; Gln CAA/CAG; Asn AAU/AAC; Lys AAA/AAG; Asp GAU/GAC; Glu GAA/GAG; Cys UGU/UGC; Trp UGG; Arg CGN/AGA/AGG; Gly GGN. **N means any base.**
+
+UNIT 4|Cell Division, Mendelian Genetics & Evolution|L7, L29, L32|Genetics, DNA & Biotechnology
+H2 Cell cycle overview
+B Interphase is an active preparation period: G1 growth, S DNA replication, G2 preparation. Division phase includes nuclear division (**karyokinesis**) and cytoplasmic division (**cytokinesis**).
+B **Mitosis** is equational division: one parent cell → two genetically similar cells with the same chromosome number.
+B **Meiosis** includes one DNA replication followed by two divisions: one diploid germ cell → four genetically varied haploid cells.
+IMG mitosis_meiosis:Mitosis produces two similar cells; meiosis produces four haploid cells|64
+
+H3 Mitosis — PMAT
+TBLW 19,81
+TBL
+Stage~What happens
+Prophase~Chromatin condenses; nucleolus and nuclear envelope disappear; centrosomes move poleward; spindle develops
+Metaphase~Chromosomes align individually at the equator; spindle microtubules attach to kinetochores
+Anaphase~Centromeres divide and sister chromatids move to opposite poles
+Telophase~Chromosomes decondense and nuclear envelopes/nucleoli reform
+Cytokinesis~Animal cell: inward cleavage furrow. Plant cell: central cell plate grows outward
+
+B Significance: growth, replacement and repair, genetic stability and asexual reproduction in many organisms.
+IMG mitosis_stages:Mitosis from interphase through cytokinesis|72
+
+H3 Meiosis
+B **Meiosis I** is reductional: homologous chromosomes separate. **Meiosis II** is equational: sister chromatids separate.
+TBLW 18,28,54
+TBL
+Prophase-I stage~Memory hook~Defining event
+Leptotene~Thin threads~Chromosomes become visible
+Zygotene~Zipping~Homologues pair by synapsis; bivalents/tetrads form
+Pachytene~Pair exchanges~Crossing over between non-sister chromatids; recombinase acts
+Diplotene~Drift apart~Synaptonemal complex dissolves; chiasmata visible
+Diakinesis~Done / terminalise~Chiasmata terminalise; chromosomes fully condense
+
+B Metaphase I aligns homologous pairs; anaphase I separates homologues while centromeres remain intact; telophase I may form two haploid nuclei/cells.
+B Meiosis II proceeds through prophase II, metaphase II, anaphase II and telophase II, yielding four haploid products.
+B Importance: gamete formation, stable chromosome number across sexual generations, and variation through crossing over and independent assortment.
+IMG meiosis_stages:Homologue separation in meiosis I and chromatid separation in meiosis II|68
+
+H3 Mitosis vs meiosis
+TBLW 25,36,39
+TBL
+Feature~Mitosis~Meiosis
+Cells~Somatic cells~Germ-line cells
+Divisions~One~Two after one S phase
+Products~2~Usually 4
+Ploidy~Conserved~Halved
+Genetic similarity~Largely identical~Different
+Synapsis/crossing over~Absent~Present in prophase I
+Main purpose~Growth, repair, asexual reproduction~Gametes, variation
+
+H2 Genetics vocabulary
+TBLW 23,77
+TBL
+Term~Meaning
+Heredity~Transmission of biological traits from one generation to the next
+Variation~Differences among individuals; genetic and/or environmental
+Gene~DNA sequence that contributes to a functional product/trait; basic unit of heredity
+Allele~Alternative form of a gene
+Genotype~Allelic constitution
+Phenotype~Observable outcome of genotype interacting with environment
+Dominant allele~Expressed in a heterozygote in a simple Mendelian relation
+Recessive allele~Masked in heterozygote; expressed when no dominant allele is present
+Homozygous~Two identical alleles, e.g. TT or tt
+Heterozygous~Two different alleles, e.g. Tt
+
+B William Bateson coined **genetics** (1906); Gregor Mendel is the father of genetics. Human somatic cells have **46 chromosomes: 22 pairs of autosomes + one pair of sex chromosomes** (XX typically female, XY typically male).
+IMG chromosome_structure:Homologous chromosomes, replication and sister chromatids|66
+
+H2 Mendel's laws
+B Mendel worked with garden pea (*Pisum sativum*) and seven pairs of contrasting traits. His work established particulate inheritance.
+B **Dominance:** in a simple heterozygote, the dominant allele determines the F1 phenotype.
+B **Segregation / purity of gametes:** two alleles of a gene separate during gamete formation; each gamete receives one.
+B **Independent assortment:** alleles of different genes assort independently when genes are unlinked; a classic dihybrid F2 gives **9:3:3:1**.
+B Pea contrasts retained: seed shape round/wrinkled; seed colour yellow/green; flower colour violet/white; pod shape inflated/constricted; pod colour green/yellow; flower position axial/terminal; stem tall/dwarf.
+IMG mendel_traits:Mendel's seven contrasting pea characters|72
+
+H3 Sex determination and modern applications
+B In humans the ovum always carries X, whereas sperm carries X or Y. Fertilisation by X-bearing sperm usually produces XX and by Y-bearing sperm XY; therefore the sperm determines chromosomal sex in the textbook model.
+B **Mutation** is a change in DNA sequence and is a source of variation. **Biotechnology/genetic engineering** manipulates DNA for medicine, agriculture and research.
+B **DNA fingerprinting/profiling** compares highly variable DNA markers to support identity, forensic investigation and biological-parentage analysis; statistical interpretation is essential.
+ADDED Modern qualification|Chromosomal sex determination is more complex in development than “XX female/XY male” alone; the line above is the standard BPSC model and exceptions exist.
+
+H2 Sex-linked and chromosomal disorders
+TBLW 25,26,49
+TBL
+Condition~Genetic basis~High-yield description
+Down syndrome~Trisomy 21~47 chromosomes; characteristic physical/developmental features
+Edwards syndrome~Trisomy 18~47 chromosomes
+Patau syndrome~Trisomy 13~47 chromosomes
+Klinefelter syndrome~47, XXY~Phenotypic male; hypogonadism/infertility; some feminine secondary traits
+Turner syndrome~45, X~Phenotypic female; gonadal dysgenesis and infertility
+Haemophilia~Usually X-linked recessive~Deficiency of clotting factor; affected male XʰY; carrier female XᴴXʰ
+Red–green colour blindness~Usually X-linked recessive~Difficulty distinguishing red/green; affected male XᶜY; carrier female XᴺXᶜ
+
+B Autosomal-recessive examples retained: cystic fibrosis, sickle-cell disease, Tay–Sachs disease, phenylketonuria, thalassaemia and many forms of albinism.
+CORR Genetics corrections|Affected homozygous females with haemophilia are rare but **not biologically impossible**; the source's claim that they always die as embryos is incorrect. Common inherited colour blindness is chiefly red–green, not inability to distinguish all primary colours.
+IMG colour_blindness_test:Ishihara-style plates used to screen colour-vision deficiency|50
+
+H2 Evolution
+B Evolution is heritable change in populations over generations.
+B **Lamarck:** use/disuse and inheritance of acquired characters; historically important but not the accepted general mechanism.
+B **Darwin and Alfred Russel Wallace:** overproduction → variation → struggle for existence → differential survival/reproduction (natural selection) → adaptation.
+B The modern synthesis combines natural selection with mutation, recombination, gene flow and genetic drift as causes of evolutionary change.
+IMG lamarck_darwin:Lamarckian and Darwinian explanations illustrated with giraffes|66
+
+H3 Evidence
+B **Fossils/palaeontology:** ordered remains in rock strata document succession and transitional forms.
+B **Homologous structures:** common origin and basic plan, potentially different functions—forelimbs of human, whale, bat and cheetah; vertebrate hearts/brains; insect mouthparts; testes and ovaries; potato and ginger as shoots; radish and carrot as roots; molecular similarities.
+B **Analogous structures:** different origin/plan but similar function—bird and insect wings; octopus and mammal eyes; penguin and dolphin flippers; sweet-potato root and potato stem as storage organs; bee and scorpion stings.
+B **Vestigial structures:** reduced remnants—nictitating membrane, auricular muscles, vermiform appendix, coccyx, reduced canine/wisdom teeth, body hair, male nipples and segmented abdominal muscles.
+IMG homologous_analogous:Homologous forelimbs versus analogous wings|64
+PYQ 65th: Author of *On the Origin of Species*~Charles Darwin
+PYQ 56–59th: Reason for large-scale diversity among organisms (as keyed in supplied sheet)~Adaptation; remember mutation supplies heritable variation
+
+UNIT 5|Plant Kingdom & Major Groups|L24|Plant Form, Function & Classification
+H2 Classification frame
+B Kingdom Plantae in the source comprises eukaryotic, multicellular, primarily autotrophic organisms. Botany studies plants; Theophrastus is its traditional father.
+B A. W. Eichler divided plants into **Cryptogamae** (seedless/hidden reproductive structures) and **Phanerogamae** (seed plants) in an early phylogenetic arrangement.
+IMG plant_kingdom_classification:Retained classification tree for plant groups|78
+
+H2 Comparison of major groups
+TBLW 18,19,20,21,22
+TBL
+Group~Body / vascular tissue~Reproduction~Key hook~Examples
+Algae~Thallus; no true root, stem, leaf; mostly aquatic~Spores, fragmentation and sexual modes~Phycology~Spirogyra, Chlamydomonas, Chlorella, Volvox
+Bryophytes~Root absent; rhizoids and stem/leaf-like parts; no vascular tissue~Water needed for fertilisation~“Amphibians” of plant kingdom; moist/shady~Riccia, Marchantia, mosses
+Pteridophytes~True roots, stem, leaves; xylem and phloem~Spores; water still needed for fertilisation~Vascular cryptogams~Psilotum, Lycopodium, Selaginella, Equisetum, ferns
+Gymnosperms~Vascular, usually woody; exposed ovules/seeds~Seeds but no fruits~Naked-seeded plants~Cycas, Pinus, Cedrus, Gnetum, Ephedra
+Angiosperms~Flowering vascular plants~Double fertilisation; seeds enclosed in fruits~Monocots + dicots~Wolffia to Eucalyptus
+
+H2 Algae
+B Green algae: chlorophyll a and b; examples Chlorella, Chara, Cladophora, Volvox, Ulva and Acetabularia.
+B Brown algae: fucoxanthin dominant; Fucus, Dictyota, Laminaria and kelps (commercial iodine source).
+B Red algae: phycoerythrin prominent; Porphyra, Gracilaria and Gelidium.
+
+H2 Bryophytes
+B Earliest land-plant lineages derived from green-algal ancestors; dependent on water for fertilisation because male gametes are motile.
+B Lack true roots and vascular tissue, so remain small; water conduction is largely cell-to-cell/parenchymatous. They favour moist, shady places (**sciophytes**).
+B Bryophyta term credited in the source to Robert Braun; study is **bryology**. Hedwig is widely called father of bryology; the source also mentions Cavers, and Prof. Shiv Ram Kashyap as father of Indian bryology.
+B Main classes shown: liverworts (Hepaticopsida), hornworts (Anthocerotopsida), mosses (Bryopsida).
+IMG bryophyte_classes:Bryophyte classes—liverworts, hornworts and mosses|58
+
+H2 Pteridophytes
+B Called vascular cryptogams and sometimes “reptiles of the plant kingdom.” They have roots and vascular tissue but still need water for fertilisation.
+B Typical xylem lacks vessels and phloem lacks companion cells. Primary root is often short-lived and replaced by adventitious roots; underground stem may be a rhizome.
+B **Psilopsida:** primitive vascular plants; Psilotum. **Lycopsida:** club mosses with microphylls and strobili; Lycopodium, Selaginella. **Sphenopsida:** horsetails with jointed stems and strobili; Equisetum. **Pteropsida:** ferns with large fronds, young leaves circinately coiled.
+B Fern examples: Azolla (small aquatic fern, biofertiliser); Adiantum (maidenhair/walking fern; leaf-tip propagation); Alsophila (tree fern); Pteridium, Dryopteris, Marsilea, Pteris, Salvinia. Marsilea, Azolla and Salvinia form sporocarps.
+B Giant ancient pteridophyte vegetation contributed substantially to coal-forming deposits.
+IMG pteridophytes:Representative pteridophytes and forms|64
+CORR Leaf terminology|Selaginella has **microphylls**; ferns have **megaphylls/macrophylls**. The source reverses one of these labels in a sentence.
+
+H2 Gymnosperms
+B Ovules are not enclosed by an ovary, so seeds remain “naked” and fruits do not form. Roots are usually tap roots; stem may be unbranched (Cycas) or branched (Pinus, Cedrus).
+B Pinus has mycorrhizal roots; Cycas has coralloid roots with nitrogen-fixing cyanobacteria.
+B Conifers reduce water loss with needle leaves, thick cuticle and sunken stomata. Many are xerophytic and occur on Himalayan slopes.
+B Typical gymnosperm xylem lacks vessels and phloem lacks sieve tubes/companion cells; **Gnetum, Ephedra and Welwitschia** are vessel-bearing exceptions cited.
+B Secondary growth makes most woody/arborescent; Ephedra may be shrubby and Gnetum ula a woody climber.
+IMG gymnosperms:Common gymnosperm forms—Cycas, Ginkgo, conifers and Sequoia|50
+
+H2 Angiosperms
+B Flowers bear pollen and ovules; ovules become seeds enclosed by ovary-derived fruits. Angiosperms range from tiny Wolffia to Eucalyptus over 100 m and supply food, fodder, fuel, medicines and commercial products.
+B Two classic classes: monocotyledons and dicotyledons.
+PYQ 67th: Pine, fir, spruce, cedar, larch and cypress belong to~Gymnosperms
+PYQ 71st: First to classify plants using vascular-tissue characters~A. P. de Candolle
+PYQ 70th: Spore formation occurs in which listed organisms?~Question is multi-correct in biological reality; fungi, algae, yeast and ferns can form spores
+
+UNIT 6|Plant Morphology, Pollination, Fertilisation & Fruits|L4, L5, L25|Plant Form, Function & Classification
+H2 Root
+B Develops from the radicle. Tap root retains the primary root; fibrous systems replace it with many similarly sized roots; adventitious roots arise from stem/leaves.
+B Tropisms: roots are generally **positively geotropic**, **positively hydrotropic** and **negatively phototropic**.
+TBLW 24,34,42
+TBL
+Modification~Function~Examples
+Storage roots~Food reserve~Carrot, cassava, sweet potato
+Prop roots~Mechanical support from branches/stem~Banyan
+Stilt/adventitious support roots~Brace lower stem~Maize
+Pneumatophores~Upward respiratory roots in waterlogged soil~Rhizophora / mangroves
+
+IMG root_systems:Tap, fibrous and adventitious root systems|58
+
+H2 Stem and modifications
+B Stem develops from plumule, bears nodes and internodes, leaves, buds and flowers. The presence of nodes/internodes distinguishes ginger as a stem.
+TBLW 22,28,50
+TBL
+Category~Type~Examples / function
+Underground~Rhizome~Ginger, turmeric; source also lists banana
+Underground~Tuber~Potato
+Underground~Corm~Colocasia, Amorphophallus (zamikand), saffron, Alocasia
+Underground~Bulb~Onion, garlic
+Sub-aerial~Runner~Doob grass, Oxalis, strawberry; roots below and shoots/leaves above nodes
+Sub-aerial~Stolon~Wild strawberry, jasmine, peppermint; arching branch roots on contact
+Sub-aerial~Sucker~Mint, pineapple, chrysanthemum, banana; underground basal branch emerges
+Sub-aerial~Offset~Pistia, Eichhornia; short aquatic runner with rosette and roots
+Aerial~Stem tendril~Grapevine, Passiflora and gourds; climbing
+Aerial~Stem thorn~Carissa, Bougainvillea, pomegranate, Citrus; defence
+Aerial~Phylloclade/cladode~Opuntia/Euphorbia; green photosynthetic stem
+
+IMG underground_stems:Rhizome, corm, bulb and tuber compared|60
+CORR Example correction|Garlic is a **bulb**, not a rhizome. Bermuda/doob grass is classically a runner; strawberry can form runners/stolons depending terminology.
+
+H2 Leaf
+B Leaf is a flattened lateral appendage borne at a node. Parts: **leaf base**, optional **stipules**, **petiole**, and photosynthetic **lamina** with midrib and veins. An axillary bud lies in its axil.
+TBLW 25,36,39
+TBL
+Modification~Role~Examples
+Leaf tendril~Climbing~Lathyrus aphaca; leaflet tendril in garden/sweet pea
+Leaf spine~Defence and reduced water loss~Opuntia, cacti, Argemone
+Insectivorous pitcher~Trapping insects~Nepenthes; lamina forms pitcher
+Water-storage pitcher~Storage, not insectivory~Dischidia; whole leaf modified
+Leaf bladder~Aquatic prey capture~Utricularia
+Phyllode~Flattened photosynthetic petiole~Australian Acacia, Parkinsonia
+Leaflet hook~Climbing~Cat's nail, Bignonia unguis-cati
+Snap trap~Insect capture~Dionaea / Venus flytrap
+
+IMG leaf_parts:Leaf parts—base, petiole, lamina, midrib, margin and veins|58
+PYQ 66th: Ginger is a stem rather than a root because~It has nodes and internodes
+PYQ 68th: Petiole~Attaches leaf/lamina to stem
+
+H2 Flower architecture
+B A flower is a modified reproductive shoot with four whorls: **calyx (sepals), corolla (petals), androecium (stamens) and gynoecium (carpels/pistil)**.
+B Sepals protect the bud; petals attract pollinators; a stamen consists of filament + pollen-producing anther; a carpel consists of receptive stigma, style and ovary containing ovules.
+IMG flower_structure:Stamen, carpel and accessory floral parts|64
+
+H2 Pollination — de-duplicated
+P Pollination is transfer of pollen from **anther to stigma**. Compatibility in the pollen–pistil interaction determines whether pollen germinates and its tube grows.
+TBLW 21,38,41
+TBL
+Mode~Definition~Genetic/agent note
+Autogamy~Same flower~Self; requires synchrony or mechanisms ensuring contact
+Geitonogamy~Different flowers on the same plant~Needs a pollinating agent but genetically self
+Xenogamy~Flower on a different plant of the same species~True cross-pollination; introduces different parental genotype
+
+B **Cleistogamous** flowers remain closed and ensure selfing: Viola, Oxalis and Commelina (source spelling “Camelina”). **Chasmogamous** flowers open and expose reproductive parts.
+B **Anemophily (wind):** abundant light, non-sticky pollen; exposed stamens; large feathery stigma.
+B **Hydrophily (water):** rare, especially in some aquatic monocots—Vallisneria, Hydrilla and Zostera/seagrasses.
+B **Zoophily:** bees, butterflies, beetles, birds and bats; flowers often conspicuous, scented and/or nectar-bearing.
+PYQ 67th: Best definition of pollination~Transfer of pollen grain from anther to stigma
+
+H2 Double fertilisation and post-fertilisation
+B Pollen tube reaches the ovule and releases two male gametes.
+B **Syngamy:** male gamete (n) + egg (n) → zygote (2n).
+B **Triple fusion:** second male gamete (n) + two polar nuclei (n+n) → primary endosperm nucleus (3n).
+B Together they constitute **double fertilisation**, characteristic of angiosperms.
+B Post-fertilisation: zygote → embryo; ovule → seed; ovary → fruit; ovary wall → pericarp.
+TBLW 25,34,41
+TBL
+Fruit layer~Position~Example / exam point
+Epicarp~Outer pericarp~Fruit skin
+Mesocarp~Middle pericarp~Edible fleshy part of mango
+Endocarp~Inner pericarp~Hard “stone” around mango seed
+Seed~Mature ovule~Embryo plus stored food/covering
+
+PYQ 71st: Edible part of mango~Mesocarp
+PYQ 66th: Which listed fruit is not a true fruit?~Apple—an accessory/false fruit because thalamus contributes greatly
+PYQ 56–59th and 66th: Clove is obtained from~Dried flower bud
+
+UNIT 7|Plant Tissues, Transport & Annual Rings|L8|Plant Form, Function & Classification
+H2 Meristematic tissue
+B Meristems contain actively dividing, small, thin-walled cells with dense cytoplasm, prominent nuclei and little/no intercellular space. Nägeli is associated with the meristem concept.
+TBLW 24,36,40
+TBL
+Meristem~Location~Growth effect
+Apical~Root and shoot tips~Primary growth / length
+Intercalary~Bases of leaves or internodes, especially grasses~Elongation and regrowth
+Lateral~Sides of stems/roots: vascular and cork cambia~Secondary growth / girth
+
+H2 Permanent tissues
+TBLW 20,29,51
+TBL
+Tissue~Cells / wall~Functions and location
+Parenchyma~Living, thin-walled, large vacuole, intercellular spaces~Storage; photosynthesis as chlorenchyma; air spaces as aerenchyma in aquatic plants
+Collenchyma~Living, unevenly thickened at corners~Flexible support in young stems, petioles and below epidermis
+Sclerenchyma~Dead at maturity; thick lignified wall; fibres or sclereids~Strength, hardness and rigidity
+
+IMGS parenchyma:Parenchyma in transverse and longitudinal view|collenchyma:Uneven corner thickening in collenchyma|sclerenchyma:Lignified sclerenchyma fibres/sclereids
+
+H3 Complex permanent tissue
+TBLW 20,31,49
+TBL
+System~Elements~Transport
+Xylem~Tracheids, vessels, xylem parenchyma, xylem fibres~Water/minerals, mainly root to shoot; transpiration pull is major long-distance driver
+Phloem~Sieve-tube elements, companion cells, phloem parenchyma, phloem fibres~Organic food from source to sink; direction can change with source–sink relation
+
+IMGS xylem_transport:Cohesion and adhesion in a xylem conduit|phloem:Phloem sieve tube, companion cell and sieve plate
+B Xylem flow is usually described as unidirectional upward; phloem translocation is physiologically bidirectional across the plant, though a given sieve tube carries bulk flow in one direction at a time.
+PYQ 71st: Xylem function~Transport of water and dissolved minerals
+PYQ 68th: Water reaches great height in trees because of suction pull caused by~Transpiration
+PYQ 68th: Stomata open/close mainly due to change in~Guard-cell water content/turgor
+
+H2 Secondary growth and annual rings
+B Vascular cambium adds secondary xylem inward and secondary phloem outward. Seasonal activity creates visible **annual rings** in many woody stems.
+B One year's early wood + late wood generally forms one ring. Ring counts estimate tree age; ring width/density can record climate. Study of dated rings is **dendrochronology**.
+IMG annual_rings:Tree cross-section showing growth rings, sapwood, heartwood and cambium|62
+
+UNIT 8|Plant Physiology, Mineral Nutrition & Diseases|L8, L26, L27|Plant Form, Function & Classification
+H2 Photosynthesis
+P Green plants convert light energy to chemical energy, reducing CO₂ to carbohydrate and releasing O₂ from water. It occurs principally in chloroplasts.
+B Overall classroom equation: **6CO₂ + 12H₂O + light → C₆H₁₂O₆ + 6O₂ + 6H₂O** in the presence of chlorophyll.
+B Joseph Priestley showed that plants restore air; Jan Ingenhousz established the role of light and green parts. Melvin Calvin mapped the carbon-reduction cycle; Robert Hill demonstrated light-driven oxygen release in isolated chloroplasts.
+B **Light reactions** on thylakoid membranes use photosystems, electron carriers and ATP synthase; water is split, O₂ is released, and ATP/NADPH form.
+B **Calvin cycle** in stroma fixes CO₂ using Rubisco, reduces intermediates and regenerates RuBP; ATP and NADPH are consumed.
+IMG plant_physiology:Original plant-physiology visual retained from the photosynthesis lecture|68
+
+H3 C₃, C₄ and CAM
+ADDED Added-scope marker|This comparison is an assistant-added completion prompted by recent plant-physiology PYQs; the source lecture states basic photosynthesis but does not develop all three carbon-fixation pathways.
+TBLW 18,27,27,28
+TBL
+Feature~C₃~C₄~CAM
+First stable product~3-PGA (3C)~Oxaloacetate/malate (4C)~Organic acid at night
+Initial fixation~Rubisco in mesophyll~PEP carboxylase in mesophyll~PEP carboxylase at night
+Separation~None~Spatial: mesophyll → bundle sheath~Temporal: night → day
+Photorespiration~Higher, especially hot/dry~Low~Low
+Examples~Wheat, rice, many temperate plants~Maize, sugarcane, sorghum~Cacti, pineapple, many succulents
+
+B C₄ plants display **Kranz anatomy**. They spend additional ATP but concentrate CO₂ around Rubisco and are efficient in high light, high temperature and water stress.
+B CAM plants open stomata chiefly at night, storing CO₂ as organic acids and using it by day while stomata remain mostly closed.
+PYQ 71st: A C₄ plant among pineapple/pea/sugarcane/barley~Sugarcane
+
+H2 Respiration in plants
+P Plants respire continuously. Gas exchange is by diffusion through stomata, lenticels and root surfaces; no specialised respiratory organ or long-distance gas-transport system is required.
+B **Glycolysis:** cytosol; glucose → 2 pyruvate + net 2 ATP + 2 NADH.
+B **Aerobic respiration:** pyruvate oxidation and Krebs/TCA cycle in mitochondrial matrix; electron transport and oxidative phosphorylation on inner membrane. O₂ is final electron acceptor.
+B Approximate educational yield is commonly stated as 36–38 ATP per glucose; actual cellular yield varies and modern accounting is often ~30–32 ATP in eukaryotes.
+B **Fermentation:** anaerobic regeneration of NAD⁺. Yeast produces ethanol + CO₂; muscles under oxygen limitation produce lactate.
+CORR Source equation clarified|The lecture equation reverses products in places. Aerobic respiration **consumes O₂ and releases CO₂ + H₂O while conserving energy in ATP**.
+
+H2 Water relations and movement
+ADDED Added-scope marker|The cohesion–tension, water-potential and stomatal-control synthesis below is assistant-added to connect the source xylem material with supplied PYQs.
+B Water potential is greatest in pure water; solutes lower it. Water enters root hairs osmotically, crosses cortex via apoplast and symplast, is forced through endodermal membranes by the Casparian strip, and enters xylem.
+B **Transpiration** is water-vapour loss, mainly through stomata. It cools leaves, helps mineral ascent and drives cohesion–tension flow, but excessive loss causes wilting.
+B **Cohesion** holds water molecules together; **adhesion** attracts them to xylem walls. Together with negative pressure from evaporation, they maintain the water column.
+B **Root pressure** can contribute, especially at night/small plants, and may cause guttation; it cannot by itself explain ascent in the tallest trees.
+B Stomata are epidermal pores controlled by paired guard cells. High turgor generally opens the pore; turgor loss closes it.
+
+H2 Mineral nutrition
+B **Ash analysis** identifies mineral elements remaining after plant material is burned. More than 60 elements can be detected across plants, but 17 are generally considered essential; C, H and O are obtained chiefly from CO₂/water and are termed non-mineral nutrients, while most others enter as mineral ions. Beneficial elements cited in the source include Na, Si, Se and Co.
+B Plants require elements for structure, enzymes, osmotic/charge balance and metabolism. **Macronutrients** are needed in relatively large amounts; **micronutrients** in trace amounts.
+TBLW 17,23,36,24
+TBL
+Element~Class~Major role~Indicative deficiency
+N~Macro~Amino acids, nucleic acids, chlorophyll; vegetative growth~General chlorosis, older leaves first
+P~Macro~ATP, nucleic acids, phospholipids; roots, flowering and seed~Stunting, dark/purplish foliage
+K~Macro~Enzyme activation, stomata, osmotic balance~Marginal chlorosis/necrosis, weak stems
+Ca~Macro~Cell wall/membrane and signalling~Death of shoot/root tips
+Mg~Macro~Central atom in chlorophyll; enzymes~Interveinal chlorosis of older leaves
+S~Macro~Cysteine/methionine and coenzymes~Chlorosis, often younger leaves
+Fe~Micro~Electron carriers and chlorophyll formation~Interveinal chlorosis, young leaves
+Mn~Micro~Enzymes and photosystem-II water splitting~Chlorosis/necrotic spotting
+Zn~Micro~Enzymes and auxin-related metabolism~Short internodes, small leaves
+B~Micro~Cell wall, sugar transport, meristem/reproduction~Death of tips, poor fruit/seed set
+Mo~Micro~Nitrate reduction/nitrogen fixation~Nitrogen-deficiency-like symptoms
+Cl~Micro~Osmotic/ionic roles and photosynthesis~Wilting/chlorosis (rare)
+Ni~Micro~Urease cofactor~Urea accumulation (rare)
+
+PYQ 70th: Nutrient commonly keyed for rapid early vegetative development~Nitrogen; distinguish from phosphorus and root establishment
+
+H2 Nitrogen fixation and biofertilisers
+B Atmospheric N₂ is unavailable to most plants until converted to ammonia/nitrate. Biological nitrogen fixation uses the oxygen-sensitive enzyme **nitrogenase**.
+B **Rhizobium** forms nodules on legumes such as pea, gram and groundnut; **Frankia** associates with selected non-legumes.
+B Free-living/asymbiotic fixers include Azotobacter (aerobic), Clostridium (anaerobic) and Azospirillum (associative, especially grasses/cereals).
+B Cyanobacteria Anabaena and Nostoc fix nitrogen. The **Azolla–Anabaena** association is used in paddy fields.
+B Mycorrhiza is a fungus–root mutualism: fungi improve mineral/water absorption, notably phosphorus, while plants supply carbohydrate; it can protect against root-borne pathogens and stress.
+PYQ 71st: Mycorrhiza helps plants through~Increased mineral absorption and protection from disease
+ADDED Crop-specific correction|For groundnut, the crop-specific inoculant is **Rhizobium/Bradyrhizobium**, not Azospirillum. Azospirillum is mainly associated with grasses and cereals.
+
+H2 Plant hormones and movements
+TBLW 18,31,51
+TBL
+Hormone~Origin / classic clue~Actions
+Auxin (IAA)~Shoot tip, young leaves and seeds~Cell elongation, apical dominance, rooting, tropisms, parthenocarpy; synthetic 2,4-D is a weedicide
+Gibberellin~Discovered from “bakanae” disease of rice caused by Gibberella~Stem/internode elongation, bolting, seed germination, fruit growth
+Cytokinin~Dividing tissues, roots, fruits/seeds~Cell division, lateral-bud growth, nutrient mobilisation and delayed senescence
+Abscisic acid (ABA)~Mature leaves, roots under stress~Dormancy, stomatal closure, growth inhibition and stress response
+Ethylene~Gaseous hormone in ripening/senescing tissues~Fruit ripening, abscission/senescence; epinasty and triple response
+
+B **Tropism** is directional growth according to stimulus: phototropism, geotropism/gravitropism, hydrotropism, thigmotropism and chemotropism.
+B Shoots generally show positive phototropism and negative gravitropism; roots generally reverse these. Pollen-tube growth toward the ovule is chemotropic; tendril coiling is thigmotropic.
+B **Nastic movement** depends on stimulus intensity, not direction: touch closure of Mimosa and sleep movements are examples.
+IMGS plant_physiology:Original overview of major plant-physiology processes|photoperiodism:Photoperiodism and the effect of day length on flowering
+
+H3 Asexual and sexual plant reproduction
+TBLW 25,40,35
+TBL
+Mode~Description~Examples
+Vegetative propagation~New plant from root, stem or leaf; clone of parent~Potato tuber, sweet-potato root, Bryophyllum leaf, rose cutting, onion bulb, strawberry runner
+Budding~Outgrowth enlarges and separates~Yeast (a fungus used in the source table)
+Fragmentation~Each fragment grows independently~Spirogyra
+Spore formation~Resistant dispersal units germinate in favourable conditions~Ferns, mosses and fungi
+Sexual reproduction~Gamete fusion creates recombined offspring~Flowering plants through pollination and fertilisation
+
+B **Photoperiodism** is a plant's developmental response to relative day/night length, especially flowering. Short-day, long-day and day-neutral plants respond differently; phytochrome participates in light sensing.
+ADDED Added detail|The phytochrome mechanism and explicit short-/long-/day-neutral grouping are assistant-added context to explain the retained photoperiodism visual.
+PYQ 56–59th: “Sleep movement” of plants~Nastic movement
+PYQ 67th: Hormone associated with ripening~Ethylene
+
+H2 Plant diseases — agent-first revision
+TBLW 28,30,42
+TBL
+Disease / crop~Causal agent~Exam-safe classification
+Citrus canker~Xanthomonas citri~Bacterial
+Black rot of cabbage/crucifers~Xanthomonas campestris pathovar campestris~Bacterial
+Crown gall~Agrobacterium tumefaciens~Bacterial
+Red stripe of sugarcane~Acidovorax avenae subsp. avenae~Bacterial
+Little-leaf of brinjal~Phytoplasma~Mollicute/phytoplasmal
+Tobacco mosaic~Tobacco mosaic virus~Viral
+Leaf curl~Several plant viruses, often whitefly transmitted~Viral
+Late blight of potato~Phytophthora infestans~Oomycete; fungus-like
+Early blight of potato/tomato~Alternaria solani~Fungal
+Rusts~Puccinia spp.~Fungal
+Smut~Ustilago spp.~Fungal
+Powdery mildew~Erysiphales~Fungal
+Red rot of sugarcane~Colletotrichum falcatum~Fungal
+Ergot of rye~Claviceps purpurea~Fungal
+Wilt diseases~May be Fusarium/Verticillium, bacteria or other agents~Read crop + agent in stem
+Root-knot~Meloidogyne nematodes~Nematode
+
+CORR Disease-table corrections|Citrus canker is bacterial, not fungal. Little-leaf of brinjal is phytoplasmal, not a conventional virus. Late blight is caused by an oomycete; exam books often group it loosely with fungal diseases.
+
+UNIT 9|Biomolecules, Nutrition, Vitamins & Minerals|L14, L28|Nutrition & Biomolecules
+H2 Modes of nutrition
+TBLW 22,44,34
+TBL
+Mode~How food is obtained~Examples
+Autotrophic~Makes organic food from CO₂ and water using light or chemical energy~Green plants, cyanobacteria and chemosynthetic bacteria
+Holozoic heterotrophic~Ingestion → digestion → absorption → assimilation → egestion~Humans, dogs, Amoeba
+Saprotrophic~Extracellular digestion of dead/decaying matter followed by absorption~Mushrooms, many fungi and bacteria
+Parasitic~Obtains nutrients from a living host and harms it~Cuscuta, tapeworm, leech
+
+H2 Biomolecules at a glance
+TBLW 18,24,32,26
+TBL
+Class~Building block~Main roles~Energy value
+Carbohydrate~Monosaccharide~Immediate energy, storage, structural cellulose~4 kcal/g
+Protein~Amino acid~Enzymes, structure, transport, defence, many hormones~4 kcal/g
+Lipid~Glycerol + fatty acids (typical fat)~Dense energy, membranes, insulation, steroid precursors~9 kcal/g
+Nucleic acid~Nucleotide~Heredity and information transfer~Not a routine energy source
+
+B Carbohydrates contain C, H and O, often roughly (CH₂O)n. Monosaccharides include glucose, fructose and galactose; disaccharides include sucrose, lactose and maltose; polysaccharides include starch, glycogen and cellulose.
+B **Starch** stores carbohydrate in plants; **glycogen** stores it chiefly in animal liver and muscle; **cellulose** forms plant cell walls and is dietary fibre for humans.
+B Proteins are polypeptides built from amino acids; shape determines function. Essential amino acids must be supplied by diet; the body can synthesise non-essential amino acids.
+B Lipids include triglycerides, phospholipids and steroids. Unsaturated fatty acids contain double bonds; essential fatty acids include linoleic and alpha-linolenic acids. Stored adipose fat is an energy reserve, insulates and cushions organs, and aids absorption/transport of fat-soluble vitamins.
+TBLW 22,38,40
+TBL
+Fat type~Structure / health clue~Common sources
+Saturated~No C=C bond; solid fats common; excess can raise LDL~Butter, ghee, meat fat, coconut/palm oils
+Trans~Unsaturated configuration formed especially in partial hydrogenation; raises cardiovascular risk~Some fried/packaged foods; restrict intake
+Monounsaturated (MUFA)~One C=C bond~Olive/groundnut oils, avocado, almonds and other nuts
+Polyunsaturated (PUFA)~Two or more C=C bonds; omega-3/omega-6 families~Vegetable oils, walnuts, flaxseed and oily fish
+
+CORR Fat oversimplification|The source treats all saturated fatty acids as non-essential and all unsaturated fatty acids as essential, and implies unsaturated fat cannot contribute to obesity. Correctly, only particular polyunsaturated fatty acids are essential; **all fats supply ~9 kcal/g and excess energy can be stored**.
+PYQ 56–59th: Energy reserve in liver and muscle~Glycogen
+PYQ 64th: Storage carbohydrate in fungi~Glycogen
+PYQ 66th: Major food-energy source~Carbohydrates
+
+H2 Vitamins
+P Vitamins are organic micronutrients needed in small amounts. **Fat-soluble: A, D, E, K. Water-soluble: B-complex and C.** Fat-soluble vitamins can accumulate; many water-soluble vitamins are not extensively stored, with B₁₂ a major exception.
+TBLW 10,23,31,36
+TBL
+Vitamin~Chemical name~Core function~Deficiency / sources
+A~Retinol; beta-carotene precursor~Visual pigments, epithelium, growth and immunity~Night blindness/xerophthalmia; liver, fish-liver oil, egg, milk; carrot/leafy vegetables as carotene
+B₁~Thiamine~TPP coenzyme in carbohydrate metabolism and nerves~Beriberi; whole grains, pulses, nuts, yeast, pork
+B₂~Riboflavin~FAD/FMN redox coenzymes~Cheilosis, glossitis, dermatitis; milk, eggs, green vegetables
+B₃~Niacin~NAD/NADP~Pellagra: dermatitis, diarrhoea, dementia; meat, fish, groundnut, whole grains
+B₅~Pantothenic acid~Coenzyme A~Rare: fatigue/neurological symptoms; widely distributed
+B₆~Pyridoxine~Amino-acid metabolism, neurotransmitters, haem synthesis~Microcytic anaemia/dermatitis/neuropathy; meat, grains, banana, legumes
+B₇~Biotin~Carboxylase coenzyme~Rare dermatitis/alopecia; egg yolk, nuts, gut microbes
+B₉~Folate~One-carbon transfer, DNA and RBC formation~Megaloblastic anaemia; neural-tube risk; leafy greens, pulses
+B₁₂~Cobalamin~DNA/RBC formation and myelin~Megaloblastic/pernicious anaemia, neuropathy; animal foods/fortified products
+C~Ascorbic acid~Collagen hydroxylation, antioxidant, improves iron absorption~Scurvy; citrus, amla, guava, tomato
+D~Calciferol~Ca/P absorption and bone mineralisation~Rickets in children, osteomalacia in adults; sunlight, fish-liver oil, egg/fortified foods
+E~Tocopherol~Lipid antioxidant; membrane protection~Rare neuromuscular/haemolytic effects; plant oils, nuts, seeds
+K~Phylloquinone / menaquinone~Activation of clotting proteins and bone proteins~Bleeding tendency; green leafy vegetables, gut microbes
+
+PYQ 60–62nd: Vitamin A deficiency~Night blindness
+PYQ 60–62nd: Vitamin D function~Calcium and phosphorus absorption / bone health
+PYQ 64th: Vitamin B₁₂ contains~Cobalt
+PYQ 65th: Ascorbic acid~Vitamin C
+PYQ 67th: Rickets~Vitamin D deficiency
+CORR Vitamin nomenclature|Vitamin B₁₂ is **cobalamin**, not “cyanide”; cyanocobalamin is one stable medicinal form. Vitamin C deficiency causes scurvy, whereas folate/B₁₂ deficiency causes megaloblastic anaemia.
+
+H2 Minerals
+TBLW 16,32,52
+TBL
+Mineral~Principal role~Deficiency / food clues
+Calcium~Bone/teeth, contraction, signalling and clotting~Weak bones/tetany; milk, ragi, sesame, greens
+Phosphorus~Bone, ATP, nucleic acids, phospholipids~Rare alone; dairy, pulses, meat
+Iron~Haemoglobin, myoglobin and electron carriers~Microcytic anaemia; liver/meat, legumes, greens; vitamin C aids absorption
+Iodine~Thyroid hormones~Goitre and hypothyroidism; iodised salt, seafood
+Sodium~Extracellular fluid, nerve and muscle~Hyponatraemia; common salt
+Potassium~Intracellular fluid, nerve/muscle~Weakness/arrhythmia; fruits, vegetables, pulses
+Magnesium~Enzyme cofactor, bone, neuromuscular function~Cramps/weakness; nuts, grains, greens
+Zinc~Enzymes, growth, immunity, wound healing~Poor growth/healing; meat, seeds, pulses
+Fluoride~Strengthens tooth enamel at appropriate dose~Low: caries; excess: fluorosis
+
+PYQ 66th: Haemoglobin metal~Iron
+PYQ 60–62nd: Iodine deficiency~Goitre
+
+H2 Balanced diet and deficiency disorders
+ADDED Added-scope marker|Kwashiorkor, marasmus and BMI interpretation below are assistant-added exam context; the source chapters focus chiefly on macro-/micronutrient chemistry and deficiency tables.
+B A balanced diet supplies adequate carbohydrate, protein, fat, vitamins, minerals, fibre and water according to age, sex, work, health and physiological state.
+B **Kwashiorkor:** severe protein deficiency, often with oedema, fatty liver, hair/skin changes and growth failure.
+B **Marasmus:** severe energy deficiency with marked wasting and loss of subcutaneous fat, usually without oedema.
+B Roughage/fibre improves stool bulk and gut health; water supports reactions, transport, temperature regulation and waste removal.
+B BMI = mass in kilograms / height² in metres; it is a population screening tool, not a direct measure of body fat or health in every person.
+PYQ 66th: Development of sex organs/secondary characters depends especially on~Proteins (also hormones and adequate total nutrition)
+PYQ 60–62nd: Insulin is chemically~A peptide/protein hormone
+
+UNIT 10|Animal Tissues, Skeleton, Joints & Muscle|L3, L12, L13|Skeleton, Joints & Muscle
+H2 Animal tissues
+TBLW 17,28,55
+TBL
+Tissue~Types~Functions / locations
+Epithelial~Simple squamous/cuboidal/columnar/ciliated; stratified; glandular~Covering, lining, absorption, secretion and protection
+Connective~Areolar, adipose, cartilage, bone, blood, tendon, ligament~Support, binding, storage, transport and defence
+Muscular~Skeletal, smooth and cardiac~Movement, posture, pumping and visceral motility
+Nervous~Neurons + neuroglia~Rapid communication, integration and support
+
+H3 Epithelia
+B Epithelial cells are tightly packed on a basement membrane and are usually avascular. Diffusion from underlying tissue supplies nutrients.
+B Squamous epithelium allows exchange (alveoli, capillaries); cuboidal secretion/absorption (kidney tubules, ducts); columnar absorption/secretion (gut); ciliated columnar transport (respiratory tract, oviduct).
+
+H3 Connective tissue
+B Areolar tissue packs organs; adipose stores fat and insulates; cartilage provides flexible support; bone supplies rigid mineralised support.
+B **Tendon** connects muscle to bone and is relatively inelastic; **ligament** connects bone to bone and is more elastic. Blood is a fluid connective tissue.
+
+H2 Muscle tissue
+TBLW 21,28,20,31
+TBL
+Muscle~Appearance/location~Control~Special points
+Skeletal/striated~Long cylindrical multinucleate fibres; attached to bones~Voluntary~Fast contraction; fatigues
+Smooth/unstriated~Spindle-shaped single-nucleus cells; viscera/vessels~Involuntary~Slow sustained contraction; no visible striations
+Cardiac~Branched striated cells, mostly one nucleus; heart~Involuntary~Intercalated discs; rhythmic; fatigue-resistant
+
+B Skeletal muscle contracts by sliding of actin over myosin within sarcomeres; Ca²⁺ exposes binding sites and ATP powers cross-bridge cycling.
+IMG muscle_types:Smooth, skeletal and cardiac muscle compared|64
+
+H2 Human skeleton
+B Adult human skeleton usually contains **206 bones**. Axial skeleton (80) includes skull, vertebral column, ribs and sternum; appendicular skeleton (126) includes girdles and limbs.
+B Skull is commonly described as 22 bones: 8 cranial + 14 facial. Auditory ossicles contribute 6 and hyoid 1 to a broader 29-bone head count.
+B Vertebral formula: 7 cervical, 12 thoracic, 5 lumbar, 5 fused sacral and usually 4 fused coccygeal vertebrae.
+B Twelve pairs of ribs: first 7 true, 8–10 false (vertebrochondral), 11–12 floating. Pectoral girdle = scapula + clavicle each side; pelvic girdle = two hip bones.
+IMGS skull:Major bones and regions of the human skull|vertebral_column:Regions and curvatures of the vertebral column
+
+H3 Major limb bones
+B Upper limb: humerus; radius and ulna; 8 carpals; 5 metacarpals; 14 phalanges. Lower limb: femur; patella; tibia and fibula; 7 tarsals; 5 metatarsals; 14 phalanges.
+B **Femur** is longest and strongest; **stapes** is smallest. Mandible is the largest/strongest movable facial bone.
+PYQ 68th: Number of bones in a human foot~26 (7 tarsals + 5 metatarsals + 14 phalanges)
+PYQ 66th: Bones of a new-born child versus adult~About 300 at birth, many later fuse; adult usually 206
+PYQ 70th: Stapes is found in~Middle ear
+
+H2 Joints
+ADDED Added-scope marker|The joint classification is assistant-added to integrate the supplied shoulder-joint PYQ with the source skeleton chapter.
+TBLW 20,28,52
+TBL
+Class~Mobility~Examples
+Fibrous~Immovable or nearly so~Skull sutures
+Cartilaginous~Slight movement~Intervertebral discs, pubic symphysis
+Synovial~Freely movable, joint cavity and synovial fluid~Ball-and-socket shoulder/hip; hinge elbow/knee; pivot atlas-axis; gliding wrist/ankle; saddle thumb; condyloid wrist
+
+PYQ 65th: Shoulder joint~Ball-and-socket joint
+
+UNIT 11|Digestion, Absorption & Energy Release|L14, L32|Digestion
+H2 Digestive tract map
+P Digestion converts complex, insoluble food into small absorbable molecules by mechanical and chemical processes.
+B Route: **mouth → pharynx → oesophagus → stomach → small intestine (duodenum, jejunum, ileum) → large intestine (caecum, colon, rectum) → anus**.
+B Accessory glands/organs: salivary glands, liver with gall bladder, and pancreas.
+IMG digestive_system:Human digestive tract and accessory organs|66
+
+H2 Teeth and the oral cavity
+B Humans are **thecodont** (teeth in sockets), **heterodont** (different types) and **diphyodont** (deciduous and permanent sets). An adult usually has 32 permanent teeth.
+B Dental formula per half-jaw is **2 incisors : 1 canine : 2 premolars : 3 molars**, written 2123/2123. Incisors cut, canines tear, and premolars/molars crush and grind. Elephant tusks are modified incisors.
+B Enamel is the hardest substance in the human body. Saliva from paired parotid, submandibular and sublingual glands lubricates food; amylase acts best near pH 6.8 and lysozyme contributes antimicrobial defence.
+IMG tooth:Longitudinal structure of a human tooth|52
+
+H2 Organ-by-organ
+TBLW 18,28,54
+TBL
+Site~Secretion / event~What happens
+Mouth~Saliva; salivary amylase/ptyalin~Chewing; starch begins to maltose/dextrins; mucus lubricates
+Oesophagus~Mucus; peristalsis~Bolus transport; essentially no enzyme digestion
+Stomach~HCl, pepsinogen, mucus; gastric lipase minor~Acid kills many microbes/activates pepsin; proteins begin digestion; chyme forms
+Liver/gall bladder~Bile salts, no digestive enzyme~Emulsifies fats and aids absorption of lipids/fat-soluble vitamins
+Pancreas~Bicarbonate; trypsin/chymotrypsin precursors, amylase, lipase, nucleases~Neutralises acid and digests protein, carbohydrate, fat and nucleic acid
+Small intestine~Brush-border enzymes; segmentation/peristalsis~Completes digestion; villi/microvilli absorb most nutrients
+Large intestine~Mucus; bacterial activity~Absorbs water/electrolytes; forms faeces; microbes make some vitamins
+
+H3 Enzyme quick sheet
+TBLW 25,25,25,25
+TBL
+Enzyme~Substrate~Product~Main site
+Salivary amylase~Starch~Maltose/dextrins~Mouth
+Pepsin~Protein~Peptides~Stomach
+Trypsin/chymotrypsin~Proteins/polypeptides~Smaller peptides~Small intestine
+Peptidases~Peptides~Amino acids~Small-intestinal surface
+Pancreatic amylase~Starch~Maltose/oligosaccharides~Small intestine
+Maltase/sucrase/lactase~Disaccharides~Monosaccharides~Small-intestinal surface
+Pancreatic lipase~Triglycerides~Fatty acids + monoglycerides/glycerol~Small intestine
+Nucleases~DNA/RNA~Nucleotides~Small intestine
+
+B **HCl is not an enzyme**. Bile has no digestive enzyme; bile salts emulsify lipids and form micelles.
+B Villi contain blood capillaries that receive sugars/amino acids and a **lacteal** that receives chylomicron-rich lipid products. Absorbed nutrients first reach the liver via hepatic portal circulation, except much dietary fat enters lymph first.
+IMG absorption_summary:Original visual summary of intestinal digestion and absorption|58
+PYQ 67th: Site of complete digestion and greatest absorption~Small intestine
+PYQ 70th: Mumps primarily affects~Salivary glands
+PYQ 70th: Bile is secreted by~Liver (stored/concentrated in gall bladder)
+
+H3 Liver, pancreas and control
+B Liver is the largest gland (~1.5 kg in an adult). Hepatic lobules are its structural units. Bile contains bile salts and pigments including bilirubin/biliverdin; hepatic ducts and the cystic duct form the common bile pathway.
+B Pancreas is a mixed/heterocrine gland: exocrine acini provide alkaline digestive juice, while endocrine islets make hormones.
+B Gastric secretion and motility are coordinated neurally and hormonally. **Secretin**, released from duodenal mucosa in response to acid, stimulates bicarbonate-rich pancreatic/biliary secretion; sight, smell and oral food can stimulate salivation.
+
+H2 Common digestive disorders
+ADDED Added-scope marker|This concise disorder table is assistant-added context; the source digestive lectures focus on normal anatomy and digestion.
+TBLW 24,36,40
+TBL
+Condition~Mechanism~Key management idea
+Diarrhoea~Frequent watery stool; infection or other causes~Oral rehydration replaces water and electrolytes; seek care for danger signs
+Constipation~Difficult/infrequent stool~Fluid, fibre, activity; investigate persistent cases
+Peptic ulcer~Often H. pylori or NSAID-related injury~Acid suppression and cause-specific treatment
+Jaundice~Bilirubin accumulation; sign, not one disease~Evaluate liver, bile obstruction or haemolysis
+Gallstones~Crystallised bile components~May obstruct ducts; management depends on symptoms
+Lactose intolerance~Low lactase~Limit lactose/use alternatives according to tolerance
+
+UNIT 12|Blood, Circulation, Lymph & Immunity Basics|L9, L10|Circulation, Blood & Immunity
+H2 Blood components
+P Blood is a fluid connective tissue composed of plasma and formed elements. An adult has roughly 5 L, varying with body size and sex.
+TBLW 19,31,50
+TBL
+Component~Form~Function / high-yield fact
+Plasma~Pale-yellow fluid; ≈55%, mostly water with proteins, salts and solutes~Transport; albumin maintains osmotic pressure; globulins include antibodies; fibrinogen aids clotting
+RBC / erythrocyte~Biconcave; mammalian mature cell lacks nucleus; haemoglobin~O₂ transport and part of CO₂ transport; life about 120 days; formed in red marrow
+WBC / leukocyte~Nucleated; granular or agranular~Defence and immunity; can leave capillaries by diapedesis
+Platelet / thrombocyte~Megakaryocyte fragment~Primary haemostatic plug and clotting support; life about 7–10 days
+
+IMG blood_components:Formed elements—RBCs, WBCs and platelets|60
+H3 WBC differential
+B **Granulocytes:** neutrophils—phagocytose bacteria, most numerous; eosinophils—parasites and allergy; basophils—histamine/heparin, least numerous.
+B **Agranulocytes:** monocytes—largest, become macrophages; lymphocytes—B cells, T cells and natural killer cells.
+B Source numerical ranges vary by laboratory; typical exam order is neutrophils > lymphocytes > monocytes > eosinophils > basophils.
+
+H2 Blood groups
+TBLW 18,22,22,18,20
+TBL
+ABO type~RBC antigen~Plasma antibody~Can receive RBCs from~Can donate RBCs to
+A~A~Anti-B~A, O~A, AB
+B~B~Anti-A~B, O~B, AB
+AB~A and B~Neither~A, B, AB, O~AB
+O~Neither~Anti-A and Anti-B~O~A, B, AB, O
+
+B Karl Landsteiner discovered the ABO system. The Rh system is especially important in transfusion and pregnancy.
+B The phrases “universal donor” (O negative) and “universal recipient” (AB positive) are simplified for **red-cell transfusion**. Safe transfusion always requires compatibility testing; plasma compatibility reverses important ABO considerations.
+B Rh-negative mother carrying an Rh-positive fetus can become sensitised; anti-D immunoglobulin prevents haemolytic disease of the fetus/newborn in appropriate pregnancies.
+PYQ 65th: Universal red-cell donor among common textbook choices~O negative
+PYQ 67th: Major blood-group systems used in routine matching~ABO and Rh
+
+H2 Clotting and haemostasis
+B Vessel injury causes constriction, platelet adhesion/aggregation and activation of clotting factors.
+B In the simplified cascade, prothrombin becomes thrombin; thrombin converts soluble **fibrinogen to insoluble fibrin**; the fibrin mesh traps cells and stabilises the clot.
+B Vitamin K supports synthesis/activation of several clotting proteins; Ca²⁺ is needed in multiple steps.
+PYQ 68th: Fibrinogen is present in~Blood plasma
+PYQ 56–59th: Substance essential in coagulation but not ordinarily present as an active plasma component~Thrombin; it is generated from prothrombin
+
+H2 Circulatory designs and heart wall
+B William Harvey established the circulation of blood and is associated in the source with angiology. **Open circulation** releases haemolymph into sinuses, typical of arthropods and most molluscs; **closed circulation** keeps blood in vessels, typical of annelids and chordates.
+B Fish show single circulation with a two-chambered heart; amphibians and most reptiles have incomplete double circulation with three chambers; crocodilians, birds and mammals have four chambers and double circulation.
+B Heart wall: outer **epicardium**, thick contractile **myocardium**, inner **endocardium**. A double-layered pericardium and fluid reduce friction. The heart is myogenic and mesodermal in origin.
+IMGS vertebrate_hearts:Heart chambering across vertebrate classes|human_heart:Human heart chambers, valves and great vessels
+
+H2 Heart and double circulation
+B Four chambers: right atrium and ventricle carry deoxygenated blood; left atrium and ventricle carry oxygenated blood. Septa limit mixing.
+B Valves ensure one-way flow: tricuspid (right AV), mitral/bicuspid (left AV), pulmonary semilunar and aortic semilunar.
+B Flow: body → venae cavae → right atrium → tricuspid → right ventricle → pulmonary valve/artery → lungs → pulmonary veins → left atrium → mitral → left ventricle → aortic valve/aorta → body.
+B **Pulmonary artery** carries deoxygenated blood and **pulmonary veins** oxygenated blood—the key vessel-name exceptions. Vessel names are based on direction relative to heart, not oxygen content.
+H3 Conducting system and cycle
+B Sinoatrial (SA) node initiates the heartbeat and is the normal pacemaker; atrioventricular (AV) node delays conduction; bundle of His and Purkinje fibres distribute it through ventricles.
+B One cardiac cycle comprises atrial systole, ventricular systole and joint diastole. Normal resting adult heart rate averages ~72/min but varies widely.
+B “Lub” is mainly closure of AV valves; “dub” closure of semilunar valves.
+B Blood pressure is written systolic/diastolic; a conventional textbook reference is ~120/80 mm Hg, not a universal personal target. A **sphygmomanometer** measures it. Persistent elevation is hypertension; tachycardia is increased heart rate and bradycardia decreased rate.
+B **Cardiac output = heart rate × stroke volume**; textbook resting values are about 72/min × 70 mL ≈ 5 L/min. A cardiac cycle at 72/min lasts about 0.8 s.
+B ECG: P wave—atrial depolarisation; QRS—ventricular depolarisation; T—ventricular repolarisation.
+IMG cardiac_conduction:Cardiac conduction pathway from pacemaker to ventricular fibres|58
+
+H2 Vessels and lymph
+TBLW 21,33,46
+TBL
+Vessel~Wall / pressure~Main role
+Artery~Thick, elastic, muscular; high pressure; usually no valves~Away from heart
+Vein~Thinner, wider lumen; lower pressure; valves common~Toward heart
+Capillary~Single-cell endothelial wall~Exchange of gases, nutrients and wastes
+Lymph vessel~Blind-ended capillaries → larger valved channels~Returns tissue fluid/proteins; transports absorbed intestinal fat; immune surveillance
+
+B Lymph resembles interstitial fluid with fewer proteins and no normal RBC population. It passes through lymph nodes rich in immune cells.
+PYQ 56–59th: Pulse can be felt in~Arteries
+PYQ 67th: Lymph chiefly transports~Absorbed fats, tissue fluid and immune cells (not oxygen as its main role)
+
+UNIT 13|Respiration & Gas Exchange|L15|Circulation, Blood & Immunity
+H2 Respiratory pathway
+P Air moves through **nostrils → nasal cavity → pharynx → larynx → trachea → bronchi → bronchioles → alveoli**.
+B Nose filters with hair/mucus and warms/humidifies air. Epiglottis protects the airway during swallowing. Cartilage supports trachea/bronchi.
+B Lungs are covered by double pleura with lubricating pleural fluid. The right lung has three lobes; left has two and a cardiac notch.
+IMG respiratory_system:Respiratory passages, lungs, diaphragm and alveoli|66
+
+H2 Mechanics of breathing
+B Inspiration at rest: diaphragm contracts/flattens and external intercostals lift ribs → thoracic volume rises → intrapulmonary pressure falls → air enters.
+B Expiration at rest is mostly passive: muscles relax and elastic recoil reduces thoracic volume, raising pressure. Forced expiration uses internal intercostals and abdominal muscles.
+B **Surfactant** from type-II alveolar cells lowers surface tension and prevents alveolar collapse.
+B Intrapleural pressure remains negative relative to atmospheric pressure in normal breathing, helping keep lungs expanded.
+IMG breathing_mechanics:Pressure and volume changes during inhalation and exhalation|60
+
+H2 Gas exchange and transport
+B Alveoli provide enormous area, thin diffusion barrier, moist surface and rich capillary network. O₂ diffuses down partial-pressure gradient into blood; CO₂ diffuses oppositely.
+B Most O₂ travels reversibly bound to haemoglobin as oxyhaemoglobin; a small fraction dissolves in plasma.
+B CO₂ travels chiefly as bicarbonate, with smaller fractions as carbaminohaemoglobin and dissolved gas. Carbonic anhydrase in RBCs accelerates CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻.
+B Tissue conditions with higher CO₂/H⁺/temperature promote oxygen unloading (Bohr effect). Oxygenation of haemoglobin in lungs facilitates CO₂ release (Haldane effect).
+
+H2 Volumes and control
+TBLW 24,29,47
+TBL
+Term~Meaning~Typical educational value
+Tidal volume~Air in quiet breath~≈500 mL
+Inspiratory reserve~Additional inspired after normal inspiration~≈2500–3000 mL
+Expiratory reserve~Additional expired after normal expiration~≈1000–1100 mL
+Residual volume~Air left after forceful expiration~≈1100–1200 mL
+Vital capacity~IRV + TV + ERV~≈4–5 L, varies by person
+
+B Medullary centres generate rhythm; pons modifies it. Chemoreceptors respond strongly to CO₂/H⁺; rising CO₂ is the main routine stimulus for ventilation.
+B Smoking damages cilia/alveoli and raises risks of COPD, cancer and cardiovascular disease. Pneumonia inflames/fluid-fills alveoli; asthma produces reversible airway narrowing and inflammation; emphysema destroys alveolar walls.
+CORR Respiration versus breathing|Breathing is ventilation; **cellular respiration** is biochemical ATP release. Plants and animals both respire day and night.
+
+UNIT 14|Excretion, Osmoregulation & Human Reproduction|L16, L17|Excretion & Osmoregulation; Endocrine & Reproduction
+H2 Nitrogenous wastes
+TBLW 19,28,53
+TBL
+Type~Toxicity / water need~Examples
+Ammonotelic~Ammonia; very toxic; much water needed~Many aquatic invertebrates, bony fishes, aquatic amphibian larvae
+Ureotelic~Urea; moderately toxic~Mammals, adult amphibians, cartilaginous fishes
+Uricotelic~Uric acid; least water loss, paste/crystals~Birds, reptiles, insects, land snails
+
+H2 Urinary system and nephron
+B Human urinary system: paired kidneys, ureters, urinary bladder and urethra. Kidneys are retroperitoneal; each has outer cortex, inner medulla, pyramids and a renal pelvis.
+B The **nephron** is the structural and functional unit: glomerulus within Bowman's capsule → proximal convoluted tubule (PCT) → loop of Henle → distal convoluted tubule (DCT) → collecting duct.
+IMG nephron:Nephron segments, vessels and filtrate path|65
+
+H3 Urine formation
+ADDED Added-detail marker|The source describes filtration, reabsorption and secretion; counter-current concentration and hormonal fine control below are assistant-added physiology.
+B **Glomerular filtration:** blood pressure drives water and small solutes into Bowman's capsule; cells and most proteins remain in blood.
+B **Selective reabsorption:** PCT reclaims most filtered water/NaCl, all normal glucose and amino acids, and much bicarbonate. Loop, DCT and collecting duct further adjust fluid.
+B **Tubular secretion:** H⁺, K⁺, ammonia, drugs and other substances may be secreted into tubule.
+B Counter-current arrangement of Henle's loop and vasa recta helps create medullary gradient and concentrate urine.
+B **ADH/vasopressin** increases water permeability of late DCT/collecting duct; **aldosterone** increases Na⁺ reabsorption and K⁺ secretion; atrial natriuretic peptide favours Na⁺ loss.
+B Typical urine is ~95% water plus urea, ions, uric acid, creatinine and other wastes; volume/composition vary with intake, climate, hormones and health.
+PYQ 56–59th: Main nitrogenous waste excreted by humans~Urea
+PYQ 63rd: Nephron is the functional unit of~Kidney
+CORR Renal correction|Urea is made mainly in the **liver** by the urea cycle and excreted by kidneys. The source line implying urine is formed in the liver is incorrect.
+
+H2 Dialysis
+ADDED Added-scope marker|Dialysis is assistant-added renal-failure context and is not developed in the source lecture.
+B Haemodialysis passes blood beside dialysate across a semipermeable membrane; small wastes/excess ions diffuse out and cleaned blood returns. Anticoagulant prevents circuit clotting.
+B Dialysis replaces selected excretory/homeostatic functions but not all endocrine/metabolic roles of healthy kidneys. Kidney transplantation may be definitive treatment in selected end-stage disease.
+
+H2 Male reproductive system
+ADDED Added-scope marker|The source introduces reproductive organs and gametes; the detailed pathways, menstrual physiology and contraception from this point through the end of the unit are assistant-added completion for PYQ readiness.
+B Testes lie in scrotum, which keeps them cooler than core body temperature. Seminiferous tubules produce sperm; Sertoli cells support developing germ cells; Leydig cells make testosterone.
+B Sperm path: seminiferous tubules → rete testis → vasa efferentia → epididymis (maturation/storage) → vas deferens → ejaculatory duct → urethra.
+B Seminal vesicles contribute fructose-rich alkaline fluid; prostate adds enzymes/secretions; bulbourethral glands provide lubricating mucus. Sperm head contains nucleus and acrosome; middle piece contains mitochondria; tail propels.
+IMG reproductive_system:Original human reproductive-system visual retained from the source lecture|64
+
+H2 Female reproductive system
+B Ovaries produce oocytes, oestrogens and progesterone. Oviduct regions: fimbriae/infundibulum, ampulla, isthmus. Fertilisation normally occurs near the **ampullary–isthmic junction**.
+B Uterus has perimetrium, muscular myometrium and cyclic endometrium; cervix opens to vagina. Mammary glands support lactation.
+
+H2 Gametogenesis and menstrual cycle
+B Spermatogenesis begins at puberty: spermatogonia → primary spermatocytes → secondary spermatocytes → spermatids → spermatozoa. One primary spermatocyte yields four sperm.
+B Oogenesis begins before birth; primary oocytes arrest in prophase I, and typically one resumes per cycle. One primary oocyte ultimately yields one ovum plus polar bodies.
+TBLW 20,26,54
+TBL
+Phase~Approx. days in 28-day model~Hormonal/ovarian event
+Menstrual~1–5~Fall in progesterone/oestrogen sheds endometrium
+Follicular/proliferative~1–13~FSH supports follicles; oestrogen rebuilds endometrium
+Ovulation~≈14~LH surge ruptures mature follicle
+Luteal/secretory~15–28~Corpus luteum secretes progesterone; without pregnancy it regresses
+
+B Cycle length varies; “day 14” applies only to an idealised 28-day cycle. Implantation begins roughly a week after fertilisation; placenta exchanges gases/nutrients/wastes and acts as endocrine tissue.
+B Parturition involves fetal/placental signals, oxytocin and positive feedback. Prolactin supports milk production; oxytocin causes milk ejection.
+
+H2 Contraception and reproductive health
+TBLW 24,33,43
+TBL
+Method~Examples~Main action
+Natural / behavioural~Fertility-awareness, withdrawal, lactational amenorrhoea under strict criteria~Avoids intercourse/fecund window; effectiveness varies
+Barrier~Condom, diaphragm/cervical cap~Prevents sperm entry; condoms also reduce STI transmission
+Intrauterine device~Copper IUD; hormone-releasing IUS~Impairs fertilisation; hormonal forms thicken mucus/endometrium
+Hormonal~Combined/progestin-only pills, injection, implant~Suppresses ovulation and/or alters mucus/endometrium
+Emergency contraception~Levonorgestrel; ulipristal; copper IUD~Delays/inhibits ovulation or prevents fertilisation; not an abortifacient
+Sterilisation~Vasectomy, tubectomy~Blocks gamete transport; intended permanent
+
+PYQ 71st: Common active ingredient of emergency contraceptive pills~Levonorgestrel
+ADDED STI safeguard|Only barrier methods such as condoms reduce transmission risk for many sexually transmitted infections; hormonal pills and IUDs do not.
+
+UNIT 15|Endocrine Coordination|L18|Endocrine & Reproduction
+H2 Hormone principles
+B **Endocrinology** studies endocrine glands; the source names Thomas Addison as its father. Ernest Starling coined the term **hormone**, and secretin is commonly credited as the first hormone discovered.
+B Endocrine glands are ductless; hormones enter blood and act on receptor-bearing target cells. Exocrine glands deliver secretions through ducts.
+B Peptide/protein hormones generally bind cell-surface receptors; steroid and thyroid hormones generally bind intracellular receptors and regulate transcription.
+B Negative feedback stabilises hormone levels. The hypothalamus integrates neural/endocrine control and regulates pituitary secretion.
+PYQ 71st: Hormones are secreted by~Endocrine glands
+
+H2 Gland–hormone map
+ADDED Added-scope marker|This complete gland–hormone map supplements the shorter source list; entries not explicitly developed in the lecture are assistant-added standard physiology.
+TBLW 20,25,35,20
+TBL
+Gland / tissue~Hormone~Major action~Disorder hook
+Hypothalamus~Releasing/inhibiting hormones; makes ADH and oxytocin~Controls anterior pituitary; ADH/oxytocin stored in posterior pituitary~—
+Anterior pituitary~GH~Growth and metabolism~Low child: pituitary dwarfism; high child: gigantism; high adult: acromegaly
+Anterior pituitary~TSH, ACTH, FSH, LH~Controls thyroid, adrenal cortex and gonads~Tropic hormones
+Anterior pituitary~Prolactin~Milk production~—
+Posterior pituitary~ADH, oxytocin~Water retention; uterine contraction/milk ejection~Low ADH: diabetes insipidus
+Thyroid~T₄ thyroxine, T₃; calcitonin~Metabolic rate/growth; calcitonin lowers blood Ca²⁺~Iodine deficiency goitre; hypo/hyperthyroidism
+Parathyroids~PTH~Raises blood Ca²⁺~Tetany with severe hypoparathyroidism
+Adrenal cortex~Cortisol, aldosterone, androgens~Stress metabolism; Na⁺/K⁺ balance~Cushing/Addison patterns
+Adrenal medulla~Adrenaline/noradrenaline~Fight-or-flight~Raises heart rate and glucose availability
+Pancreatic islets~Insulin (β cells), glucagon (α cells)~Lower vs raise blood glucose~Diabetes mellitus
+Pineal~Melatonin~Circadian rhythm~—
+Thymus~Thymic hormones~T-cell maturation, prominent in childhood~—
+Testes~Testosterone~Male reproductive function and secondary traits~—
+Ovaries~Oestrogen, progesterone~Cycle, pregnancy support and female secondary traits~—
+
+IMG endocrine_glands:Location of major human endocrine glands|64
+
+H2 Pancreas and diabetes
+B Pancreas is heterocrine: exocrine acini release digestive enzymes; endocrine islets release hormones.
+B Insulin promotes glucose uptake/storage and generally lowers blood glucose; glucagon promotes glycogen breakdown/glucose release and raises it.
+B Type 1 diabetes: autoimmune β-cell destruction and absolute insulin deficiency. Type 2: insulin resistance with progressive relative deficiency; lifestyle and genetics both contribute.
+B Diabetes mellitus may cause hyperglycaemia, excessive urination/thirst and long-term vascular, renal, neural and retinal complications. It differs from **diabetes insipidus**, an ADH-related water-balance disorder.
+PYQ 60–62nd: Insulin~Protein/peptide hormone
+PYQ 66th: Gland with both endocrine and exocrine function~Pancreas
+PYQ 65th: Insulin is produced by~Beta cells of islets of Langerhans
+
+H2 Thyroid and iodine
+B Thyroid follicles store thyroglobulin and use iodine to make T₃/T₄, which support basal metabolism, growth and nervous-system development.
+B Childhood severe thyroid-hormone deficiency impairs growth and neurodevelopment; adult hypothyroidism may cause fatigue, weight gain and cold intolerance. Excess causes weight loss, heat intolerance, tremor and rapid heartbeat.
+B Iodised salt prevents iodine-deficiency disorders. Calcitonin has a relatively minor Ca²⁺-lowering role in humans compared with PTH/vitamin D control.
+
+H2 Stress and adrenal glands
+B Adrenal medulla gives rapid sympathetic fight-or-flight output. Cortex provides slower steroid responses: cortisol for metabolism/stress and aldosterone for salt/water balance.
+B Addison disease = adrenal-cortex insufficiency; Cushing syndrome = prolonged glucocorticoid excess. Pheochromocytoma is a catecholamine-secreting tumour of adrenal medulla.
+CORR Pituitary label|The “master gland” phrase is exam-useful, but hypothalamus regulates much pituitary activity and endocrine control is distributed through feedback loops.
+
+UNIT 16|Nervous System, Brain & Sense Organs|L19, L20|Nervous System & Senses
+H2 Neuron and impulse
+ADDED Added-scope marker|The source gives neuron parts, synapse and myelin basics; membrane-potential, channel and glial-cell detail in this subsection is assistant-added explanation.
+B Neuron is the structural/functional unit: dendrites receive, cell body integrates, axon conducts away, terminals communicate at synapses.
+B Resting membrane potential reflects ion gradients and selective permeability. An action potential is all-or-none depolarisation/repolarisation propagated along axon.
+B Myelin insulates axons; nodes of Ranvier allow **saltatory conduction**, speeding impulses. Schwann cells myelinate peripheral axons; oligodendrocytes myelinate central axons.
+B At a chemical synapse, arriving action potential opens Ca²⁺ channels; vesicles release neurotransmitter; receptors alter postsynaptic activity; transmitter is removed by breakdown, diffusion or reuptake.
+IMG neuron:Neuron—dendrites, soma, myelin, nodes and axon terminals|65
+
+H2 Divisions
+B Humans have **12 pairs of cranial nerves** and **31 pairs of spinal nerves**. A spinal nerve is mixed after sensory dorsal and motor ventral roots join; dorsal-root ganglia contain sensory neuron cell bodies.
+TBLW 20,30,50
+TBL
+Division~Parts~Role
+Central nervous system~Brain and spinal cord~Integration, processing and command
+Peripheral nervous system~Cranial and spinal nerves~Links CNS and body
+Somatic~Sensory pathways and motor supply to skeletal muscle~Conscious sensation and voluntary action; reflexes
+Autonomic~Sympathetic, parasympathetic, enteric~Involuntary control of smooth/cardiac muscle and glands
+
+H3 Sympathetic vs parasympathetic
+TBLW 26,37,37
+TBL
+Effect~Sympathetic~Parasympathetic
+Overall~Fight/flight~Rest/digest
+Pupil~Dilates~Constricts
+Heart~Rate/force increase~Rate decreases
+Bronchi~Dilate~Constrict toward baseline
+Gut~Motility/secretion decrease~Motility/secretion increase
+Bladder~Urine storage favoured~Voiding favoured
+
+H2 Brain
+B Brain and spinal cord are protected by three meninges: tough outer **dura mater**, web-like **arachnoid mater**, and delicate vascular **pia mater** attached to nervous tissue. Cerebrospinal fluid fills ventricles and subarachnoid space; arachnoid villi/granulations return it to venous blood.
+TBLW 22,30,48
+TBL
+Part~Major structures~Functions
+Forebrain~Cerebrum, thalamus, hypothalamus~Perception, voluntary action, memory/language; relay; homeostasis/endocrine control
+Midbrain~Tectum and tracts~Visual/auditory reflexes, movement pathways
+Hindbrain~Pons, medulla, cerebellum~Relay and breathing modulation; vital autonomic centres; balance/coordination
+
+B Cerebrum has two hemispheres, folded cortex with frontal, parietal, temporal and occipital lobes. Corpus callosum connects hemispheres.
+B **Frontal:** planning, voluntary motor control, speech production. **Parietal:** somatic sensation and spatial processing. **Temporal:** hearing, memory and language comprehension. **Occipital:** vision.
+B Thalamus is major sensory relay except olfaction. Hypothalamus controls temperature, hunger, thirst, autonomic activity and pituitary.
+B Cerebellum coordinates precision, posture and balance; medulla controls breathing, cardiovascular activity and reflexes such as swallowing/coughing.
+IMG brain:Major regions and lobes of the human brain|62
+PYQ 64th: Human-brain part with two hemispheres~Cerebrum
+PYQ 69th: Speech production centre~Broca's area, usually left frontal lobe
+
+H2 Spinal cord and reflex
+B Spinal cord continues from medulla through vertebral canal. It carries ascending sensory and descending motor tracts and integrates many reflexes.
+B Reflex arc: receptor → sensory neuron → integration centre/interneuron → motor neuron → effector. It is rapid and automatic; brain can receive/modify information without initiating the immediate response.
+IMG reflex_arc:Reflex arc from receptor to spinal cord and effector|58
+
+H2 Eye
+ADDED Added-scope marker|The eye and ear subsections are assistant-added system completion driven by supplied sensory PYQs; the nervous-system lectures do not contain a dedicated sense-organ chapter.
+B Outer fibrous coat: sclera and transparent cornea. Middle vascular coat: choroid, ciliary body and iris. Inner sensory coat: retina with rods and cones.
+B Cornea provides most refraction; lens fine-focuses by accommodation. Iris controls pupil. Ciliary muscle changes lens curvature.
+B **Rods:** dim light, no colour, peripheral retina. **Cones:** bright light, colour/high acuity, concentrated in fovea. Optic disc has no photoreceptors—blind spot.
+B Photoreceptor signal passes through retinal neurons to optic nerve. Image on retina is real, inverted and diminished; brain interprets perception.
+
+H3 Refractive defects
+TBLW 21,35,44
+TBL
+Defect~Problem~Correction
+Myopia~Distant image focuses in front of retina; eye too long/power too high~Concave/diverging lens
+Hypermetropia~Near image would focus behind retina; eye too short/power too low~Convex/converging lens
+Presbyopia~Age-related accommodation loss~Convex reading/bifocal/progressive lens as needed
+Astigmatism~Unequal curvature causes directional blur~Cylindrical/toric lens
+
+PYQ 69th: Myopia is corrected by~Concave lens
+PYQ 64th: Eye colour depends mainly on~Pigment in iris
+
+H2 Ear
+B Outer ear: pinna + auditory canal directs sound to tympanic membrane. Middle ear ossicles **malleus, incus, stapes** transmit/amplify vibration; Eustachian tube equalises pressure.
+B Inner ear cochlea contains organ of Corti; hair cells transduce sound. Vestibule and semicircular canals provide linear and rotational balance.
+PYQ 65th: Organ of Corti is in~Cochlea
+PYQ 70th: Stapes belongs to~Middle ear
+H2 Selected nervous-system disorders
+TBLW 24,42,34
+TBL
+Disorder~Core description~Exam-safe clue
+Stroke~Sudden brain injury from blocked vessel or bleeding~FAST symptoms require emergency care
+Epilepsy~Recurrent unprovoked seizures from abnormal neural activity~Not every single seizure is epilepsy
+Parkinson disease~Degeneration of dopamine-producing circuits~Resting tremor, rigidity and slowed movement are classic
+Alzheimer disease~Progressive neurodegenerative dementia~Memory and cognition decline beyond normal ageing
+
+CORR Sensory correction|Taste receptors are in taste buds, not every papilla; olfactory receptors are specialised neurons in olfactory epithelium. Balance depends chiefly on vestibular apparatus, vision and proprioception together.
+
+UNIT 17|Microbes, Disease, Immunity, Vaccines & Cancer|L21, L22, L23, L30|Microbes, Disease & Immunity
+H2 Bacteria, viruses, viroids and prions
+B Antonie van Leeuwenhoek observed bacteria/“animalcules” in the 17th century. **Bergey's Manual of Determinative Bacteriology** is a classic identification/classification reference.
+B Bacterial nutrition is metabolically diverse: photoautotrophs use light (e.g., purple/green sulphur bacteria), chemoautotrophs oxidise inorganic compounds, saprotrophs decompose dead matter, and parasites/pathogens feed in living hosts.
+B Useful activities retained from the source: ammonification; nitrification by Nitrosomonas/Nitrobacter; nitrogen fixation; curd/fermentation and vinegar by Acetobacter; fibre retting; vitamin/antibiotic production; E. coli as an indicator of faecal water contamination; E. coli and Agrobacterium as genetic-engineering workhorses.
+B The term **antibiotic** is associated with S. A. Waksman; streptomycin from *Streptomyces griseus* was the first antibiotic discovered from a bacterium/actinomycete in the source framing.
+B A virus is acellular genetic material (DNA **or** RNA) inside a protein capsid, sometimes with an envelope. It is inert/crystallisable outside cells and an obligate intracellular parasite inside. Plant viruses are often RNA viruses; bacteriophages infect bacteria.
+B Discovery milestones: Ivanowsky linked a filterable agent to tobacco mosaic (1892); Beijerinck called it *contagium vivum fluidum* (1898); W. M. Stanley crystallised TMV (1935).
+B **Viroid:** small naked infectious RNA, discovered by T. O. Diener. **Prion:** infectious misfolded protein causing transmissible neurodegeneration.
+CORR Source terminology|The source prints “prisons”; the intended word is **prions**. A virus is not a nucleoprotein in every simplistic structural sense—enveloped viruses also contain lipid membrane and accessory proteins.
+
+H2 Pathogen groups
+ADDED Added-detail marker|This unified agent table merges the source disease lists and adds prion/treatment-logic context; those additions are assistant-supplied.
+TBLW 17,23,28,32
+TBL
+Agent~Cellular status~Examples~Treatment logic
+Bacteria~Prokaryotic cells~TB, typhoid, cholera, diphtheria, tetanus~Antibiotics can work; resistance/diagnosis matter
+Virus~Acellular; nucleic acid + capsid, sometimes envelope~Influenza, measles, polio, rabies, HIV/AIDS, COVID-19~Antibiotics do not work; antivirals exist for selected viruses
+Protozoan~Unicellular eukaryote~Malaria, amoebiasis, kala-azar, sleeping sickness~Specific antiprotozoal therapy
+Fungus~Eukaryotic; chitinous wall~Ringworm, candidiasis, athlete's foot~Antifungals
+Helminth~Multicellular parasitic worm~Ascariasis, filariasis, taeniasis~Anthelmintics
+Prion~Misfolded infectious protein~CJD and related encephalopathies~Not a cellular pathogen; exceptionally resistant
+
+H2 Bacterial disease map
+TBLW 22,29,20,29
+TBL
+Disease~Agent~Spread~Core clue
+Tuberculosis~Mycobacterium tuberculosis~Airborne droplets/aerosols~Lungs common; BCG helps protect children from severe TB
+Typhoid~Salmonella enterica serovar Typhi~Faeco-oral~Prolonged fever; Widal is imperfect, culture preferred
+Cholera~Vibrio cholerae~Contaminated water/food~Profuse watery diarrhoea; ORS is lifesaving
+Diphtheria~Corynebacterium diphtheriae~Respiratory~Pseudomembrane; toxin-mediated; DPT-containing vaccine
+Whooping cough~Bordetella pertussis~Respiratory~Paroxysmal cough; pertussis vaccine
+Tetanus~Clostridium tetani spores through wounds~Not person-to-person~Spastic paralysis; toxoid vaccine
+Plague~Yersinia pestis~Flea/rodent or respiratory depending form~Buboes in bubonic plague
+Leprosy~Mycobacterium leprae~Prolonged close contact~Skin/peripheral nerves; multidrug treatment
+Gonorrhoea~Neisseria gonorrhoeae~Sexual/perinatal~STI; antibiotic resistance important
+Syphilis~Treponema pallidum~Sexual/transplacental~Stages; penicillin treatment
+Pneumonia~Often Streptococcus pneumoniae; also viruses/others~Respiratory~Alveoli inflamed and fluid-filled
+
+H2 Viral disease map
+TBLW 20,26,21,33
+TBL
+Disease~Virus~Transmission/vector~High-yield point
+AIDS~HIV, a retrovirus~Sexual, blood, shared needles, mother-to-child~Targets CD4 T cells; not spread by casual contact
+Dengue~Dengue virus~Aedes aegypti/albopictus, mainly daytime biting~Severe disease may cause bleeding/shock
+Chikungunya~Chikungunya virus~Aedes~Severe joint pain common
+Yellow fever~Yellow fever virus~Aedes/other mosquitoes~Jaundice; vaccine available
+Japanese encephalitis~JE virus~Culex mosquitoes, pig/bird cycle~Vaccine available in risk settings
+Polio~Poliovirus~Faeco-oral~Can damage anterior-horn motor neurons; OPV/IPV
+Rabies~Rabies lyssavirus~Bite/saliva of infected mammal~Nearly invariably fatal after symptoms; prompt wound care + PEP
+Measles~Measles virus~Airborne~Highly contagious; MMR-containing vaccine
+Mumps~Mumps virus~Respiratory~Parotid salivary-gland swelling
+Rubella~Rubella virus~Respiratory/transplacental~Congenital rubella risk; MMR
+Smallpox~Variola virus~Respiratory/contact~Eradicated globally; Jenner pioneered vaccination using cowpox
+COVID-19~SARS-CoV-2~Respiratory particles~Vaccines reduce severe disease; variants emerge by mutation/evolution
+
+H2 Protozoan, fungal and helminth diseases
+TBLW 20,25,23,32
+TBL
+Disease~Agent~Vector / entry~Clue
+Malaria~Plasmodium spp.~Female Anopheles mosquito~Parasite infects liver then RBCs; intermittent fever patterns
+Kala-azar~Leishmania donovani~Female sandfly~Visceral leishmaniasis; enlarged spleen/liver
+Sleeping sickness~Trypanosoma brucei~Tsetse fly~African trypanosomiasis, neurological sleep disturbance
+Amoebiasis~Entamoeba histolytica~Faeco-oral cysts~Dysentery; liver abscess possible
+Giardiasis~Giardia duodenalis~Contaminated water/food~Greasy diarrhoea/malabsorption
+Ringworm~Dermatophyte fungi~Contact/fomites~Itchy annular skin lesion; not a worm
+Ascariasis~Ascaris lumbricoides~Ingested eggs~Intestinal roundworm
+Filariasis~Wuchereria/Brugia~Mosquito~Lymphatic obstruction/elephantiasis
+Taeniasis~Taenia spp.~Undercooked meat / eggs depending species~Intestinal tapeworm; pork-tapeworm eggs can cause cysticercosis
+
+IMG dengue_vector:Aedes mosquito—the vector highlighted in the source lecture|55
+PYQ 65th: Malaria vector~Female Anopheles mosquito
+PYQ 60–62nd: Sleeping sickness vector~Tsetse fly
+PYQ 67th: Kala-azar vector~Sandfly
+PYQ 69th: AIDS is caused by~Human immunodeficiency virus
+
+H2 Antibiotics and antimicrobial resistance
+B Antibiotics target bacterial structures/processes such as cell-wall synthesis, ribosomes, DNA metabolism or folate pathways. They do not treat ordinary viral infections.
+B Penicillin was observed by Alexander Fleming (1928); Florey and Chain helped develop it therapeutically. Penicillins inhibit bacterial cell-wall synthesis.
+B Chloramphenicol inhibits the bacterial 50S ribosomal subunit. Quinine is an antimalarial drug, not an antibiotic. Sulfonamides are synthetic antibacterial agents and are often distinguished from classic microbe-derived antibiotics.
+B Resistance arises through mutation or acquisition of resistance genes and is selected by misuse/overuse. Complete prescribed courses as clinically directed; avoid self-medication and use diagnostics/stewardship.
+PYQ 60–62nd: Antibiotic among chloramphenicol/quinine/etc.~Chloramphenicol; supplied workbook key is corrected
+PYQ 63rd: Antibiotic single-choice item containing penicillin and sulfadiazine~More than one is defensible under broad wording; use the official key but remember both are antibacterial drugs
+
+H2 Immune system
+ADDED Added-scope marker|The innate/adaptive immune map and immunoglobulin comparison are assistant-added completion prompted by the supplied PYQs; the source lectures mention antibodies but not this full framework.
+TBLW 23,34,43
+TBL
+Arm~Components~Character
+Innate immunity~Skin/mucosa, secretions, phagocytes, inflammation, complement, NK cells~Immediate, broad, no classic antigen-specific memory
+Adaptive humoral~B lymphocytes → plasma cells → antibodies~Antigen-specific; memory; extracellular pathogens/toxins
+Adaptive cell-mediated~T helper, cytotoxic and regulatory cells~Antigen-specific; infected cells, intracellular pathogens and coordination
+
+B Primary lymphoid organs: bone marrow and thymus. Secondary organs: lymph nodes, spleen, tonsils and mucosa-associated lymphoid tissue.
+B Antibody/immunoglobulin classes: **IgM** first prominent in primary response and strong agglutinator; **IgG** most abundant in serum and crosses placenta; **IgA** mucosal secretions/breast milk; **IgE** allergy and parasites; **IgD** B-cell receptor role.
+PYQ 71st: Antibody first produced in a primary immune response~IgM
+PYQ 65th: B lymphocytes mature in~Bone marrow in humans
+
+H2 Vaccines and public health programmes
+ADDED Added-scope marker|The vaccine-platform comparison and U-WIN synthesis are assistant-added from standard immunology and the recent PYQ/programme context.
+B Vaccination exposes the immune system to a safe antigen or genetic instruction, producing antibodies, T-cell responses and memory without the risk of full natural disease.
+TBLW 27,35,38
+TBL
+Platform~What is delivered~Examples / caution
+Live attenuated~Weakened replicating organism~MMR, BCG, OPV; strong response but unsuitable in some immunocompromised states
+Inactivated~Killed whole organism~IPV, inactivated influenza, some rabies vaccines
+Subunit/recombinant/conjugate~Selected antigen, often with carrier/adjuvant~Hepatitis B, HPV, Hib and pneumococcal conjugates
+Toxoid~Inactivated bacterial toxin~Tetanus, diphtheria
+Viral vector~Modified harmless carrier with antigen gene~Some COVID-19 and Ebola vaccines
+mRNA~mRNA encoding antigen in lipid particles~Some COVID-19 vaccines
+
+B **Active immunity:** infection or vaccination stimulates person's own response; slower but memory. **Passive immunity:** ready-made antibodies, immediate but temporary—maternal antibodies, antiserum or immunoglobulin.
+B Herd/community protection occurs when enough people are immune to reduce transmission; threshold depends on pathogen and vaccine effectiveness.
+B **U-WIN** is India's digital vaccination platform. Features in the 71st item include QR-based e-vaccination certificates, ABHA/Child ABHA creation and guidance in 11 Indian languages; therefore none of the three statements is incorrect.
+PYQ 69th: Viral-vector vaccine mechanism~Modified harmless carrier virus delivers genetic instructions for an antigen
+PYQ 71st: U-WIN “not correct” statements~None; all three are correct
+ADDED Public-health note|A vaccine's purpose is primarily to prevent infection and/or severe disease; it is not an antibiotic and does not directly kill bacteria. Follow current national schedules because recommendations change.
+
+H2 Cancer
+ADDED Added-scope marker|The cancer mechanism and treatment overview is assistant-added to support the isotope and platinum-compound PYQs; it is not a full source-lecture chapter.
+B Cancer is uncontrolled clonal cell proliferation caused by accumulated genetic/epigenetic changes. **Benign** tumours remain local; **malignant** tumours invade and can metastasise through blood/lymph.
+B Carcinogens include tobacco smoke, certain chemicals, ionising/UV radiation and selected infections (e.g., HPV, HBV/HCV). Inherited susceptibility and random replication errors also contribute.
+B Warning signs are not diagnostic; screening and biopsy establish early disease. Treatment may include surgery, radiotherapy, chemotherapy, targeted therapy, hormone therapy and immunotherapy.
+B Platinum compounds such as **cisplatin** form DNA cross-links and are classic anticancer drugs. Radioisotopes are chosen by tumour and radiation properties.
+PYQ 71st: Widely used anticancer compound among common metals~Platinum compound, especially cisplatin
+PYQ 56–59th: Radioisotope keyed for blood cancer~Cobalt-60 in the supplied/BPSC-oriented key; P-32 is a scientifically important haematological nuance
+CORR Radioisotope nuance|Cobalt-60 is a major external radiotherapy source and is the keyed answer in the supplied context. Phosphorus-32 has been used for selected myeloproliferative/haematological conditions. Do not turn this item into a universal clinical rule.
+
+UNIT 18|Animal Diversity & Applied Zoology|L24, L32|Animal Diversity & Applied Biology
+H2 Basis of animal classification
+TBLW 28,33,39
+TBL
+Criterion~States~Representative progression
+Organisation~Protoplasmic → cellular → tissue → organ → organ-system~Protozoan model → Porifera → Cnidaria/Ctenophora → Platyhelminthes → roundworms onward
+Symmetry~Asymmetrical, radial, bilateral~Most sponges; cnidarians/adult echinoderms; annelids/arthropods/chordates
+Germ layers~Diploblastic vs triploblastic~Cnidaria/Ctenophora vs Platyhelminthes onward
+Body cavity~Acoelomate, pseudocoelomate, true coelomate~Flatworms; roundworms; annelids onward
+Segmentation~Unsegmented vs metameric~Annelids show clear metamerism
+Notochord~Absent vs present at some stage~Non-chordates vs chordates
+
+H2 Non-chordate overview
+TBLW 19,26,29,26
+TBL
+Phylum~Body-plan clue~Examples~Exam hook
+Porifera~Pores, canal system, choanocytes; no true tissues~Sycon, Spongilla, Euspongia~Sponges; sessile aquatic
+Cnidaria/Coelenterata~Diploblastic, radial, cnidocytes; polyp/medusa~Hydra, Obelia, jellyfish, corals~Stinging cells
+Ctenophora~Marine, diploblastic/radial; eight comb plates~Pleurobrachia, Ctenoplana~Comb jellies; bioluminescence common
+Platyhelminthes~Triploblastic, bilateral, acoelomate, flat~Planaria, Taenia, Fasciola~Flame cells; many parasites
+Nematoda/Aschelminthes~Pseudocoelomate, unsegmented round body~Ascaris, Wuchereria, hookworm~Complete gut; sexes often separate
+Annelida~True coelom, metameric segmentation~Earthworm, leech, Nereis~Closed circulation in many
+Arthropoda~Jointed appendages, chitin exoskeleton~Insects, crustaceans, arachnids~Largest animal phylum; open circulation
+Mollusca~Soft unsegmented body, mantle and usually shell~Pila, Unio, Octopus~Muscular foot; radula often present
+Echinodermata~Spiny skin, water-vascular system; marine~Starfish, sea urchin~Adults radial; larvae bilateral
+Hemichordata~Proboscis, collar, trunk~Balanoglossus~Stomochord, not true notochord
+
+H2 Chordates and vertebrates
+B Chordate diagnostic features at some life stage: **notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail**.
+TBLW 18,29,31,22
+TBL
+Class~Covering / breathing~Heart / temperature~Examples
+Cyclostomata~Jawless; gill pouches~2 chambers; ectothermic~Petromyzon, Myxine
+Chondrichthyes~Placoid scales; gills; cartilage skeleton~2 chambers; ectothermic~Shark, ray
+Osteichthyes~Bony skeleton; gills; operculum common~2 chambers; ectothermic~Rohu, catla, seahorse
+Amphibia~Moist skin; gills in larva, lungs/skin adult~3 chambers; ectothermic~Frog, toad, salamander
+Reptilia~Dry keratinised scales; lungs~Usually 3 chambers; crocodile 4; ectothermic~Lizard, snake, turtle, crocodile
+Aves~Feathers; lungs + air sacs~4 chambers; endothermic~Pigeon, ostrich, penguin
+Mammalia~Hair, mammary glands; lungs~4 chambers; endothermic~Human, bat, whale, platypus
+
+B Fish gills use counter-current exchange; amphibians link aquatic and terrestrial life; reptiles have shelled amniotic eggs (with some live-bearing exceptions); birds have lightweight skeleton/air sacs; mammals typically have a diaphragm and differentiated teeth.
+CORR Vertebrate exceptions|Crocodilians have a four-chambered heart. Platypus and echidna are egg-laying mammals. Whale and bat are mammals, not fish/birds. Snakes are not literally deaf: they detect substrate vibration and airborne sound through inner-ear pathways despite lacking an external ear.
+
+H2 Applied zoology
+ADDED Added-scope marker|This applied-zoology table is assistant-added from recurring BPSC applications; the source animal-diversity lecture ends with classification.
+TBLW 23,29,48
+TBL
+Practice~Organism / product~Key point
+Apiculture~Honey bees; honey, wax, pollination~Queen reproductive female, drones males, workers sterile females in common honey-bee colonies
+Sericulture~Silkworm Bombyx mori; silk~Larva feeds on mulberry and spins cocoon
+Lac culture~Kerria lacca~Resinous lac secretion on host plants
+Pisciculture~Fish farming~Composite culture combines compatible feeding niches
+Poultry~Chicken/duck production~Broilers for meat; layers for eggs
+Vermiculture~Earthworms~Composting and soil improvement
+Pearl culture~Pearl oysters~Irritant/nucleus induces nacre deposition
+
+PYQ 56–59th: Lac is produced by~An insect
+PYQ 68th: Apiculture~Bee keeping
+PYQ 69th: Milk is a poor source of~Iron
+
+H2 Selected useful/harmful animal links
+B Earthworms aerate/mix soil and recycle organic matter. Bees pollinate crops. Silkworm and lac insect provide economic products.
+B Disease vectors are not pathogens themselves: female Anopheles transmits malaria; Aedes transmits dengue/chikungunya/yellow fever; Culex transmits filariasis/JE in relevant settings; sandfly transmits kala-azar; tsetse fly transmits sleeping sickness; rat flea transmits plague.
+B Pests include locusts, termites and crop borers; biological control uses predators, parasitoids or pathogens while integrated pest management minimises ecological/health harm.
+
+UNIT 19|Ecology, Biodiversity & Conservation|L31, L32|Ecology, Environment & Conservation
+H2 Levels and terms
+ADDED Added-scope marker|The population-level terms and growth equations below extend beyond the source ecology lecture and are assistant-added for exam completeness.
+P **Organism → population → community → ecosystem → biome → biosphere.** Ecology studies interactions at these levels.
+B **Habitat:** where an organism lives. **Niche:** its functional role and resource/environmental relationships. Two species cannot indefinitely occupy precisely the same niche under stable limiting conditions (competitive-exclusion principle).
+B **Population attributes:** density, natality, mortality, age structure, sex ratio, immigration and emigration.
+B Exponential growth forms J-curve under unlimited resources; logistic growth forms S-curve and approaches carrying capacity **K**.
+
+H2 Species interactions
+TBLW 23,18,18,41
+TBL
+Interaction~Species A~Species B~Example
+Mutualism~+~+~Lichen; mycorrhiza; pollinator–flower
+Commensalism~+~0~Cattle egret with grazing cattle; epiphyte on tree
+Parasitism~+~−~Tapeworm in human; Cuscuta on host
+Predation~+~−~Tiger–deer; insectivorous plant–insect
+Competition~−~−~Species sharing a limiting resource
+Amensalism~−~0~Antibiosis where mould inhibits bacteria
+Neutralism~0~0~No measurable direct effect (idealised)
+
+B Obligate intracellular pathogens such as viruses are **endoparasites**; if an MCQ offers both parasitism and endoparasitism, the more specific label may be intended, making wording key-sensitive.
+PYQ 71st: Interaction of virus with host cell~Parasitism, specifically intracellular endoparasitism; options overlap
+PYQ 65th: Lichen relation~Mutualism/symbiosis of fungus and photosynthetic partner
+
+H2 Ecosystem components and energy
+B Abiotic: light, temperature, water, air, soil and mineral nutrients. Biotic: **producers, consumers and decomposers**.
+B Producers fix energy; primary consumers eat producers; secondary/tertiary consumers eat other consumers. Detritivores fragment dead matter; decomposers mineralise organic matter.
+B Energy flow is unidirectional: sun → producers → consumers → decomposers/heat. Nutrients cycle.
+B Lindeman's **10% law** is an approximate transfer rule, not an exact universal value. Ecological pyramids show number, biomass or energy; the energy pyramid is always upright.
+IMGS food_chain:Food chain and food-web connections|ecological_pyramids:Pyramids of number, biomass and energy
+
+H3 Productivity and decomposition
+ADDED Added-scope marker|Productivity and decomposition are assistant-added ecosystem context; the source focuses on food chains, pyramids and species interactions.
+B Gross primary productivity (GPP) is total photosynthetic fixation; net primary productivity **NPP = GPP − plant respiration** and is available for growth/consumers.
+B Decomposition involves fragmentation, leaching, catabolism, humification and mineralisation. Warm, moist, oxygenated conditions generally accelerate it; lignin/chitin resist it.
+
+H2 Biogeochemical cycles
+ADDED Added-scope marker|The cycle comparison is assistant-added to fill a source gap and support environment-linked BPSC questions.
+TBLW 21,39,40
+TBL
+Cycle~Main reservoir / flow~Human perturbation
+Water~Ocean, atmosphere, soil and life via evaporation, transpiration, condensation and precipitation~Groundwater depletion, dams, land-use/climate change
+Carbon~Atmospheric/oceanic CO₂, biomass, soils, rocks/fossil fuels~Fossil burning and deforestation raise greenhouse CO₂
+Nitrogen~Atmospheric N₂ → fixation → nitrification → assimilation → ammonification → denitrification~Fertiliser runoff, eutrophication, N₂O
+Phosphorus~Rocks → soil/water → organisms → sediment; no major gaseous phase~Mining/fertiliser runoff and eutrophication
+
+B Nitrogen-cycle bacteria: Rhizobium/Azotobacter fix; Nitrosomonas oxidises ammonia to nitrite; Nitrobacter oxidises nitrite to nitrate; Pseudomonas and related bacteria denitrify.
+
+H2 Biodiversity
+ADDED Added-scope marker|Biodiversity levels, hotspots, threats and conservation through the Bihar map are assistant-added PYQ-oriented material beyond the source ecology lecture.
+B Biodiversity has genetic, species and ecosystem levels. Species richness and evenness both influence diversity.
+B India is megadiverse and overlaps four biodiversity hotspots: Himalaya, Indo-Burma, Western Ghats–Sri Lanka and Sundaland (Nicobar component).
+B Hotspot criteria emphasise exceptional endemic vascular plants plus massive habitat loss. Endemic means geographically restricted; endangered means high extinction risk—these are not synonyms.
+B Ecosystem services include provisioning (food/water), regulating (climate/flood/pollination), supporting (soil/nutrient cycling) and cultural values.
+
+H3 Threats — “evil quartet”
+B Habitat loss/fragmentation; overexploitation; alien-species invasion; co-extinctions. Pollution and climate change intensify all four.
+B Invasive examples in the source: Parthenium, Lantana and Eichhornia. Nile perch caused severe losses of native cichlids in Lake Victoria.
+B Passenger pigeon and Steller's sea cow illustrate overexploitation; pollinator/host losses can trigger co-extinction.
+
+H2 Conservation
+TBLW 20,36,44
+TBL
+Approach~Meaning~Examples
+In situ~Conserve species in natural ecosystem~National parks, wildlife sanctuaries, biosphere reserves, sacred groves
+Ex situ~Conserve outside natural habitat~Zoos, botanical gardens, seed/gene banks, cryopreservation and captive breeding
+National park~Strong ecosystem protection; rights/activities highly restricted~Valmiki is Bihar's sole national park
+Wildlife sanctuary~Protection with some regulated rights/uses possible~Numerous state sanctuaries
+Biosphere reserve~Core, buffer and transition zones integrating conservation and sustainable use~Nilgiri, Nanda Devi etc.
+
+B Red Data Book assesses conservation status; **IUCN** categories include EX, EW, CR, EN, VU, NT, LC, DD and NE.
+B Ramsar Convention concerns wetlands; CITES regulates international trade in listed wild species; Convention on Biological Diversity links conservation, sustainable use and benefit sharing.
+B **Project Tiger** began in 1973; **Project Elephant** in 1992. Ex-situ programmes complement, not replace, habitat conservation.
+PYQ 69th: Red Data Book is maintained/published internationally by~IUCN
+PYQ 71st: Asian elephant IUCN status~Endangered
+PYQ 71st: World Ozone Day~16 September
+
+H2 Bihar ecology and exam-oriented map
+B **Valmiki National Park**, within Valmiki Tiger Reserve in West Champaran, is Bihar's only national park. It lies along the Indo-Nepal border in the Himalayan Terai landscape.
+B Bihar conservation questions may mix national park, tiger reserve, wildlife sanctuary, Ramsar site, species and state-symbol terminology; identify the legal/site category precisely.
+B Kanwar/Kabar Tal is a major wetland and Bihar's first Ramsar site. Other Bihar wetland designations and counts can change; verify current government/Ramsar lists near the exam.
+B Vikramshila Gangetic Dolphin Sanctuary on the Ganga in Bhagalpur is associated with conservation of the Gangetic river dolphin.
+PYQ 71st: Bihar's only national park~Valmiki National Park
+PYQ 71st: State with the largest number of wildlife sanctuaries in the listed 2023 comparison~Madhya Pradesh
+PYQ 71st: Bihar state animal, according to exam-oriented option terminology~Bull/Ox; modern secondary lists also identify gaur, so consult the official key for the exact paper
+ADDED Current-fact guardrail|Protected-area counts, Ramsar designations, IUCN assessments and government schemes are dynamic. Static biology concepts in this book are consolidated; facts marked “current” should be checked against official sources immediately before the examination.
+
+H2 Pollution and environmental health
+ADDED Added-scope marker|This pollution table is assistant-added to integrate extended ecology questions from the supplied workbooks.
+TBLW 21,35,44
+TBL
+Issue~Mechanism / indicator~Major response
+Air pollution~PM₂.₅/PM₁₀, SO₂, NOx, ozone, CO and toxics harm lungs/ecosystems~Clean fuels, emission control, public transport and monitoring
+Water pollution~Sewage, pathogens, nutrients, metals and organics lower quality~Source control and staged treatment; sanitation
+Eutrophication~N/P enrichment → algal bloom → decomposition → low dissolved oxygen~Reduce fertiliser/sewage runoff
+Biomagnification~Persistent toxin concentration rises at higher trophic levels~Ban/control persistent pollutants; classic DDT/mercury cases
+Ozone depletion~Stratospheric O₃ destroyed by radicals from CFC-related compounds~Montreal Protocol; UV-B protection
+Greenhouse warming~CO₂, CH₄, N₂O and others retain outgoing infrared energy~Mitigation plus adaptation
+Acid rain~SO₂/NOx form sulfuric/nitric acids~Reduce precursor emissions
+
+B **BOD** is oxygen consumed by microbes while decomposing biodegradable organic matter under defined conditions; high BOD generally indicates high organic pollution. **COD** measures oxidisable load chemically and is typically higher/faster to determine.
+B Primary sewage treatment is physical; secondary uses microbes to reduce organic load/BOD; tertiary/advanced steps remove remaining nutrients/pathogens/contaminants according to need.
+PYQ 69th: A major human activity increasing atmospheric CO₂~Deforestation (also fossil-fuel combustion, depending options)
+PYQ 67th: Gas central to anthropogenic greenhouse warming among standard choices~Carbon dioxide
+PYQ 65th: Ozone layer protects from~Ultraviolet radiation
+
+H2 Adaptations and behavioural ecology
+ADDED Added-scope marker|This adaptation summary is assistant-added to connect ecology/evolution PYQs with common organismal examples.
+B Adaptation is a heritable feature favoured by selection in an environment; **acclimatisation** is an individual, often reversible physiological adjustment.
+B Desert plants: thick cuticle, sunken stomata, reduced leaves/spines, succulent tissues, CAM photosynthesis and deep/spreading roots. Desert animals may be nocturnal and conserve water with concentrated urine.
+B Aquatic hydrophytes may have aerenchyma, reduced supporting tissue and stomata only on upper surface in floating leaves. Xerophytes show water-saving traits; halophytes tolerate saline habitats and may use salt glands or succulence.
+B Migration is regular directional movement; hibernation is winter dormancy; aestivation is hot/dry-season dormancy. Camouflage, mimicry and warning coloration alter predator–prey interactions.
+
+UNIT 20|Rapid Revision Atlas & Exam Traps|All lectures, consolidated|Microbes, Disease & Immunity; Plant Form, Function & Classification; Nutrition & Biomolecules; Genetics, DNA & Biotechnology; Ecology, Environment & Conservation
+H2 Last-day one-liners
+TBLW 42,58
+TBL
+Prompt~Answer
+Structural and functional unit of life~Cell
+Powerhouse of cell~Mitochondrion
+Protein factories~Ribosomes
+Packaging/post office~Golgi apparatus
+Intracellular digestive vesicles~Lysosomes
+Fluid-mosaic model~Singer and Nicolson, 1972
+70S ribosome~Prokaryotic cytosol and mitochondria/chloroplasts
+80S ribosome~Eukaryotic cytosol
+Plant middle lamella~Calcium pectate rich
+Photosynthetic plastid~Chloroplast
+Starch-storing plastid~Amyloplast
+DNA base absent from RNA~Thymine
+RNA base replacing thymine~Uracil
+Start codon~AUG
+Stop codons~UAA, UAG, UGA
+DNA replication stage~S phase
+Mitosis~Equational division
+Meiosis I~Reductional division
+Crossing-over stage~Pachytene of prophase I
+Chiasmata visible~Diplotene
+Mendel's law from monohybrid cross~Segregation
+Trisomy 21~Down syndrome
+XXY~Klinefelter syndrome
+45,X~Turner syndrome
+Evolution by natural selection~Darwin and Wallace
+Bryophytes~Amphibians of plant kingdom
+Pteridophytes~Vascular cryptogams
+Gymnosperm seed~Naked; no fruit
+Angiosperm speciality~Double fertilisation
+Apple~Accessory/false fruit
+Clove~Dried flower bud
+Ginger/potato~Modified stem
+Sweet potato/carrot~Modified root
+Water and mineral tissue~Xylem
+Food-translocation tissue~Phloem
+Photosynthesis C₄ example~Sugarcane/maize
+CAM example~Pineapple/cacti
+Ripening hormone~Ethylene
+Stress/dormancy hormone~ABA
+Growth/phototropism hormone~Auxin
+Liver/muscle carbohydrate~Glycogen
+Most energy-dense macronutrient~Fat, ≈9 kcal/g
+Night blindness~Vitamin A deficiency
+Beriberi~Vitamin B₁ deficiency
+Pellagra~Niacin/B₃ deficiency
+Scurvy~Vitamin C deficiency
+Rickets~Vitamin D deficiency
+Co in a vitamin~Vitamin B₁₂/cobalamin
+Haemoglobin metal~Iron
+Thyroid nutrient~Iodine
+Largest gland~Liver
+Largest endocrine gland~Thyroid
+Small intestine~Complete digestion and most absorption
+Bile~Made by liver; stored/concentrated in gall bladder; no enzyme
+Functional kidney unit~Nephron
+Main human nitrogen waste~Urea
+Fertilisation site~Ampullary–isthmic oviduct junction
+Emergency contraceptive~Levonorgestrel
+Insulin source~Pancreatic islet beta cells
+Normal pacemaker~SA node
+Universal RBC donor shorthand~O negative
+First primary-response antibody~IgM
+Most abundant serum antibody~IgG
+Placenta-crossing class~IgG
+Mucosal/secretory class~IgA
+Allergy/parasites class~IgE
+Malaria vector~Female Anopheles
+Dengue vector~Aedes
+Kala-azar vector~Sandfly
+Sleeping sickness vector~Tsetse fly
+Plague vector~Rat flea
+TB bacterium~Mycobacterium tuberculosis
+AIDS virus~HIV
+Ringworm~Fungal disease, not worm
+Antibiotic in disputed item~Chloramphenicol
+Cisplatin metal~Platinum
+Bee keeping~Apiculture
+Silk production~Sericulture
+Lac source~Insect
+Adult human bones~206 (usual count)
+Foot bones~26
+Smallest bone~Stapes
+Shoulder joint~Ball-and-socket
+Myopia correction~Concave lens
+Hearing receptor~Organ of Corti
+Balance organ~Semicircular canals + vestibule
+Speech production~Broca's area
+Ecological energy pyramid~Always upright
+10% law~Lindeman, approximate
+Mutualism~+/+
+Commensalism~+/0
+Parasitism/predation~+/−
+Competition~−/−
+GPP − respiration~NPP
+Bihar's only national park~Valmiki National Park
+World Ozone Day~16 September
+
+H2 Key-sensitive / ambiguous questions — do not memorise blindly
+TBLW 27,31,42
+TBL
+Item~Safe exam response~Why flagged
+Who discovered DNA?~Miescher discovered DNA; Watson–Crick modelled double helix~Verb and option set alter key
+Insulin classification~Protein/peptide hormone~Workbook answer-field conflict corrected
+Antibiotic drug~Chloramphenicol in 60–62 item~Quinine is antimalarial; sulfonamide terminology varies in another item
+Blood-cancer isotope~Co-60 for supplied BPSC key; know P-32 nuance~Clinical uses and exam key differ
+COVID vaccine mechanism~Immune exposure to antigen/instructions; vector uses harmless carrier~Curated/source explanation conflict
+Spore formation~More than one listed group can form spores~Fungi, algae, yeast and fern all can
+Groundnut biofertiliser~Rhizobium/Bradyrhizobium~Azospirillum is grass/cereal associated
+Virus–host interaction~Endoparasitism, a subtype of parasitism~Overlapping options
+Mycorrhiza effect~Both mineral uptake and disease protection~Combined option is strongest
+Bihar state animal~Use official key; option may say Bull/Ox while lists may say Gaur~Terminology/source conflict
+Current park/Ramsar/IUCN counts~Verify immediately before exam~Dynamic fact
+
+H2 How to attack biology MCQs
+B **Define first.** Is the stem asking discovery of substance, structure, function, site, vector, causal agent, deficiency or exception?
+B **Mark universals.** Words such as always, only, all and never often signal an overstatement; seek known exceptions.
+B **Separate process levels.** Breathing ≠ cellular respiration; excretion ≠ egestion; pollination ≠ fertilisation; immunity ≠ antibiotic action.
+B **Trace a pathway.** For heart, nephron, digestive tract, sperm, nerve and xylem, write the ordered route mentally.
+B **Match agent to disease.** Vector transmits; pathogen causes; reservoir maintains; vaccine prevents; antibiotic targets bacteria.
+B **Use option granularity.** Prefer the more specific answer if it does not contradict a broader one—unless both appear as separate overlapping choices, when the item may be defective.
+B **Respect official keys but learn corrections.** The PYQ appendix preserves the supplied answer and a study answer/status so you can distinguish exam history from science.
+ADDED Editorial exam method|The five-step method immediately above is an assistant-added revision aid, not a claim from the lecture PDFs.
