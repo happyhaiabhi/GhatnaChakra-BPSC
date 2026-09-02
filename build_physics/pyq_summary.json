@@ -1,0 +1,224 @@
+{
+  "method": "Manual question-by-question classification of all 1,623 questions in the two supplied XLSX files (56-59th … 71st BPSC). 'recent' = 66th–71st (last six papers); score = all + recent + 0.5 × papers-present.",
+  "total_questions": 95,
+  "recent_questions": 63,
+  "scope_counts": {
+    "core": 76,
+    "extended": 19
+  },
+  "exam_counts": {
+    "56-59th BPSC (2015)": 4,
+    "60-62nd BPSC (Combined)": 3,
+    "63rd BPSC": 4,
+    "64th BPSC": 11,
+    "65th BPSC": 10,
+    "66th BPSC": 11,
+    "67th BPSC": 11,
+    "68th BPSC": 11,
+    "69th BPSC": 10,
+    "70th BPSC": 10,
+    "71st BPSC (2025)": 10
+  },
+  "recent_exams": [
+    "66th BPSC",
+    "67th BPSC",
+    "68th BPSC",
+    "69th BPSC",
+    "70th BPSC",
+    "71st BPSC (2025)"
+  ],
+  "topic_ranking": [
+    {
+      "rank": 1,
+      "topic": "U16 Modern & Nuclear Physics",
+      "all_questions": 19,
+      "core_questions": 8,
+      "recent_questions": 9,
+      "papers_present": 10,
+      "recent_papers_present": 5,
+      "score": 33.0,
+      "priority": "A"
+    },
+    {
+      "rank": 2,
+      "topic": "U10 Laws of Motion, Friction, Work-Power-Energy",
+      "all_questions": 9,
+      "core_questions": 9,
+      "recent_questions": 9,
+      "papers_present": 3,
+      "recent_papers_present": 3,
+      "score": 19.5,
+      "priority": "A"
+    },
+    {
+      "rank": 3,
+      "topic": "U14 Electrical Power, Devices & Domestic Electricity",
+      "all_questions": 11,
+      "core_questions": 10,
+      "recent_questions": 5,
+      "papers_present": 5,
+      "recent_papers_present": 2,
+      "score": 18.5,
+      "priority": "B"
+    },
+    {
+      "rank": 4,
+      "topic": "U11 Circular Motion & Gravitation",
+      "all_questions": 7,
+      "core_questions": 5,
+      "recent_questions": 6,
+      "papers_present": 5,
+      "recent_papers_present": 4,
+      "score": 15.5,
+      "priority": "A"
+    },
+    {
+      "rank": 5,
+      "topic": "U1 Units, Dimensions & Measuring Instruments",
+      "all_questions": 9,
+      "core_questions": 9,
+      "recent_questions": 2,
+      "papers_present": 4,
+      "recent_papers_present": 2,
+      "score": 13.0,
+      "priority": "B"
+    },
+    {
+      "rank": 6,
+      "topic": "U13 Electric Charge, Field & Current Electricity",
+      "all_questions": 5,
+      "core_questions": 5,
+      "recent_questions": 5,
+      "papers_present": 3,
+      "recent_papers_present": 3,
+      "score": 11.5,
+      "priority": "B"
+    },
+    {
+      "rank": 7,
+      "topic": "U7 Heat, Temperature & Thermometry",
+      "all_questions": 6,
+      "core_questions": 5,
+      "recent_questions": 3,
+      "papers_present": 5,
+      "recent_papers_present": 2,
+      "score": 11.5,
+      "priority": "B"
+    },
+    {
+      "rank": 8,
+      "topic": "U2 Light I: Nature of Light, Reflection & Mirrors",
+      "all_questions": 5,
+      "core_questions": 5,
+      "recent_questions": 3,
+      "papers_present": 4,
+      "recent_papers_present": 2,
+      "score": 10.0,
+      "priority": "B"
+    },
+    {
+      "rank": 9,
+      "topic": "U3 Light II: Refraction, Lenses & the Human Eye",
+      "all_questions": 4,
+      "core_questions": 4,
+      "recent_questions": 4,
+      "papers_present": 3,
+      "recent_papers_present": 3,
+      "score": 9.5,
+      "priority": "B"
+    },
+    {
+      "rank": 10,
+      "topic": "U6 Sound",
+      "all_questions": 4,
+      "core_questions": 4,
+      "recent_questions": 3,
+      "papers_present": 3,
+      "recent_papers_present": 2,
+      "score": 8.5,
+      "priority": "B"
+    },
+    {
+      "rank": 11,
+      "topic": "U15 Magnetism & Electromagnetism",
+      "all_questions": 3,
+      "core_questions": 3,
+      "recent_questions": 3,
+      "papers_present": 3,
+      "recent_papers_present": 3,
+      "score": 7.5,
+      "priority": "B"
+    },
+    {
+      "rank": 12,
+      "topic": "Space & Astronomy (extended only)",
+      "all_questions": 3,
+      "core_questions": 0,
+      "recent_questions": 3,
+      "papers_present": 2,
+      "recent_papers_present": 2,
+      "score": 7.0,
+      "priority": "B"
+    },
+    {
+      "rank": 13,
+      "topic": "U5 Waves & the Electromagnetic Spectrum",
+      "all_questions": 3,
+      "core_questions": 3,
+      "recent_questions": 3,
+      "papers_present": 2,
+      "recent_papers_present": 2,
+      "score": 7.0,
+      "priority": "B"
+    },
+    {
+      "rank": 14,
+      "topic": "U9 Kinematics",
+      "all_questions": 3,
+      "core_questions": 2,
+      "recent_questions": 2,
+      "papers_present": 2,
+      "recent_papers_present": 1,
+      "score": 6.0,
+      "priority": "C"
+    },
+    {
+      "rank": 15,
+      "topic": "U8 Thermal Expansion, Radiation Laws & Thermodynamics",
+      "all_questions": 2,
+      "core_questions": 2,
+      "recent_questions": 2,
+      "papers_present": 2,
+      "recent_papers_present": 2,
+      "score": 5.0,
+      "priority": "C"
+    },
+    {
+      "rank": 16,
+      "topic": "U12 Mechanical Properties of Fluids",
+      "all_questions": 1,
+      "core_questions": 1,
+      "recent_questions": 1,
+      "papers_present": 1,
+      "recent_papers_present": 1,
+      "score": 2.5,
+      "priority": "C"
+    },
+    {
+      "rank": 17,
+      "topic": "U4 Light III: Dispersion, Scattering, Wave Optics & Instruments",
+      "all_questions": 1,
+      "core_questions": 1,
+      "recent_questions": 0,
+      "papers_present": 1,
+      "recent_papers_present": 0,
+      "score": 1.5,
+      "priority": "C"
+    }
+  ],
+  "status_counts": {
+    "source-key": 84,
+    "editor-corrected": 1,
+    "added-answer": 10
+  }
+}

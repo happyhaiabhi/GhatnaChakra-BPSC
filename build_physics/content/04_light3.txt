@@ -1,0 +1,79 @@
+UNIT 4 | Light III: Dispersion, Scattering, Wave Optics & Optical Instruments | Lecture 5 (Light Part-04) pp. 2–5; scattering line of Lecture 1 p. 3; periscope & kaleidoscope entries of Lecture 2 p. 4
+PYQ This unit is examined rarely (only 64th Q9 "red λ > violet λ" maps here). Priority C — read once; keep the rainbow angles, Rayleigh's 1/λ⁴ law, the sky/sunset colours and which instrument uses what.
+
+H2 Dispersion of light
+B Dispersion is the **splitting of white light into its constituent colours (VIBGYOR)** as it passes through a medium like a prism.
+B It happens because the refractive index of the medium is different for each colour, so each colour bends by a different angle: **violet bends the most, red the least**.
+B After rainfall, water droplets present in the atmosphere act as prisms.
+IMGS L05_p2_0 | White light dispersed by a prism into the visible spectrum (VIBGYOR with wavelengths);;L05_p2_1 | Rainbow — nature's dispersion by raindrops
+H3 Rainbows
+IMG L05_p2_2 | Formation of primary and secondary rainbows — angles of 42° and 51° with the observer's eye | 52
+TBLW 50,50
+TBL Primary rainbow~Secondary rainbow
+Makes an angle of **42°** with the human eye~Makes an angle of about **52°** (source: 51°/52°) with the human eye
+Inner band **violet**, outer band **red**~Inner band **red**, outer band **violet** (colours reversed)
+One refraction–one internal reflection–one refraction inside each drop; brighter~Two internal reflections inside each drop; fainter
+ADD Extra rainbow facts (not in the lecture) :: A rainbow is seen only with the **Sun behind the observer**; the region between the two bows is darker (Alexander's dark band). Red of the primary bow is at 42°, violet at 40°; for the secondary bow red is at ≈ 50°, violet ≈ 54°. From an aeroplane a full circular rainbow can be seen.
+
+H2 Scattering of light
+B Scattering is the phenomenon in which a beam of light is redirected in various directions after interacting with tiny particles such as air molecules or dust — the light is absorbed and then re-emitted in different directions.
+B The strength of scattering depends on the wavelength of light and the size of the particles: **shorter wavelengths scatter more easily**.
+EQ Rayleigh scattering law:  Intensity of scattered light ∝ 1/λ^{4}
+B **Blue colour of the sky** — the blue (short-λ) part of sunlight is scattered by gas molecules of the atmosphere much more than red (blue scatters about 5.5 times more than red — (700/450)⁴).
+B **Red colour of sunrise & sunset** — near the horizon light travels through a much thicker layer of atmosphere; most of the blue is scattered away and the transmitted light is red/orange.
+IMGS L05_p2_3 | Sunlight scattered by atmospheric particles;;L05_p2_4 | Blue light is scattered many times before reaching the eye;;L05_p3_0 | Why the sky is blue — scattering of blue light by gas molecules
+IMG L05_p3_1 | Rayleigh scattering — blue sky by day, red sky at sunset; more atmosphere → more scattering | 50
+NOTE Lecture 1 (p. 3) already printed "Scattering of light ∝ 1/λ⁴ to spread visible spectrum" and Lecture 5 (p. 3) repeats "Scattering of light: explains blue colour of sky, red colour of sunrise & sunset, Rayleigh scattering law". All merged here.
+ADD Related facts often asked (not in the lecture) :: Danger signals are red because red scatters least and is visible farthest through fog/smoke. Clouds look white because water droplets are much larger than λ (Mie scattering — all colours equally). The sky looks **black** from the Moon or a spacecraft (no atmosphere). Rayleigh scattering applies when particle size ≪ λ; C. V. Raman's Nobel (1930) was for a different, inelastic scattering (Raman effect).
+
+H2 Interference of light
+P Interference is a phenomenon of **wave optics** in which two or more coherent light waves superpose (overlap) and produce a pattern of bright and dark fringes.
+B **Constructive interference** → bright fringes (crest meets crest); **destructive interference** → dark fringes (crest meets trough).
+B **Young's double-slit experiment (YDSE)** proves the wave nature of light; it produces alternate bright and dark bands called interference fringes and is responsible for effects like the colours on soap bubbles and oil slicks.
+IMG L05_p3_2 | Constructive (+) and destructive (–) interference of two waves | 50
+H3 Conditions for sustained interference
+B Sources must be **coherent** (same frequency and a constant phase difference).
+B Light should be **monochromatic** (single wavelength).
+B The waves should have **comparable amplitudes** (for good contrast).
+B The sources should be **close** to each other (narrow fringes otherwise).
+H3 Examples of interference of light
+B 1. Colours of a **soap bubble**. 2. Colours on a **CD/DVD surface**. 3. Colourful **oil film** on a water surface (thin-film interference).
+IMGS L05_p3_3 | Colours in a soap bubble;;L05_p3_4 | Colours on a CD-DVD surface;;L05_p3_5 | Colourful oil film on water
+
+H2 Diffraction of light
+B Diffraction is the **bending of light waves around the edges of an obstacle or aperture** when the size of the obstacle/aperture is comparable to the wavelength of light.
+B A ray gets bent and spreads out, deviating from its path while passing through the edges of an obstacle or a hole; it also illuminates the area that would normally be in the shadow region.
+B More pronounced for **longer wavelengths** (that is why sound, with metre-scale wavelengths, bends round corners easily while light, with λ ~ 10^{–7} m, casts sharp shadows).
+
+H2 Polarisation of light
+B Polarisation is the phenomenon in which the vibrations of light waves are restricted to a particular direction (plane) perpendicular to the direction of propagation.
+B **Only transverse waves can be polarised** — polarisation proves that light is a transverse wave. (Sound, being longitudinal, cannot be polarised — Lecture 7.)
+B After polarisation the vibrations are confined to a single plane, creating polarised light.
+B Uses: sunglasses (cut glare), 3-D movies, stress analysis (photo-elasticity), LCD screens.
+IMGS L05_p4_0 | Unpolarised light → polarising filter → linearly polarised light;;L05_p4_1 | Polarisation: vibrations restricted to one plane;;L05_p4_2 | Polarising filter with vertical and horizontal slits — crossed filters block light
+TBLW 22,26,26,26
+TBL Phenomenon~Shows light is…~Key condition~Everyday example
+Interference~a wave~coherent sources~soap-bubble colours
+Diffraction~a wave~obstacle size ≈ λ~coloured fringes round a street lamp seen through fine cloth
+Polarisation~a **transverse** wave~polariser (Polaroid)~polarised sunglasses, 3-D films
+Photoelectric effect~a particle (photon)~ν > threshold~photocells, solar panels (Unit 16)
+NOTE The comparison table above is an editor summary of the four phenomena as described in the lectures (no new facts).
+
+H2 Optical instruments
+H3 Compound microscope
+B Uses **two convex lenses** — an objective of very short focal length and an eyepiece of short focal length; produces an **enlarged, inverted** (virtual) image.
+IMG L05_p4_3 | Parts of a compound microscope — eyepiece, coarse & fine adjustment, revolving nose piece, objective, condenser, mirror, base | 46
+H3 Astronomical telescope
+B An optical instrument used to observe distant objects by collecting and magnifying light; used in astronomy to study stars, planets and galaxies.
+B **Objective**: large focal length (and large aperture, to gather light); **eyepiece**: small focal length; produces an **inverted** image. (Magnifying power = f_{o}/f_{e}.)
+IMG L05_p4_4 | Reflecting telescope — correcting plate, spherical mirror, film holder | 46
+ADD Types of telescope (context) :: Refracting telescopes use lenses (Galileo); reflecting telescopes use a concave mirror as objective (Newton) — cheaper for large apertures and free of chromatic aberration; most big observatories and the Hubble/James Webb space telescopes are reflectors. A terrestrial telescope adds an erecting lens; binoculars use totally-reflecting prisms to erect the image and shorten the tube.
+H3 Periscope
+B An optical instrument used to see objects that are not in the direct line of sight, especially from a hidden or enclosed position (submarines, trenches, tanks).
+B Two plane mirrors (or two totally-reflecting 45° prisms) are inclined at **45°** to the line of sight, parallel to each other.
+IMG L05_p5_0 | Periscope with two mirrors (left) and with two total-internal-reflection prisms (right) | 50
+H3 Kaleidoscope
+B An optical instrument with two or more reflecting surfaces (mirrors) tilted to each other at an angle, so that one or more objects at one end are shown as a symmetrical pattern when viewed from the other end, due to **repeated (multiple) reflection**.
+IMGS L05_p5_1 | Kaleidoscope — cardboard tube with mirrors and an eyepiece;;L05_p5_2 | Typical kaleidoscope pattern
+NOTE Periscope and kaleidoscope are also listed under "uses of plane mirror" in Lecture 2 — kept once here with the diagrams.
+ADD Simple microscope & camera (frequently asked, not detailed in the lectures) :: A **simple microscope** (magnifying glass) is a single convex lens with the object inside F; magnifying power ≈ 1 + D/f (D = 25 cm). A **camera** uses a convex lens forming a real, inverted, diminished image on the film/sensor; the aperture (f-number) and shutter control exposure. **Spectrometer** uses a prism/grating to measure wavelengths; **binoculars** = two telescopes with prisms.

@@ -1,0 +1,81 @@
+UNIT 8 | Thermal Expansion, Radiation Laws & Laws of Thermodynamics | Lecture 10 (HEAT-PART-3) pp. 2–5
+PYQ Thomson (thermoelectric) effect — potential variation along a conductor due to temperature variation (67th Q72); solar constant 1.4 kW/m² (70th Q113). Priority C, but the thermodynamics laws and Stefan/Wien are standard general-science material.
+
+H2 Thermal expansion
+P **Thermal expansion** is the tendency of a substance to change its dimensions (length, area or volume) when its temperature changes — usually expanding on heating and contracting on cooling.
+H3 Types of thermal expansion
+TBLW 18,30,28,24
+TBL Type~What changes~Coefficient~Example
+**Linear**~Length of a solid~α = Δl / (l_{original} × ΔT)~Railway tracks expand in summer, so gaps are left between rails
+**Areal (superficial)**~Area of a surface~β = ΔA / (A_{original} × ΔT)~Metal plates expand when heated
+**Volume (cubical)**~Volume of a solid, liquid or gas~γ = ΔV / (V_{original} × ΔT)~Liquid expands in a thermometer when heated
+ADD Relation between the coefficients (standard result the lecture omits) :: For an isotropic solid **β = 2α and γ = 3α**. Liquids have only volume expansion (γ_{real} = γ_{apparent} + γ_{vessel}); gases expand most (γ ≈ 1/273 per °C at constant pressure — Charles's law). Invar (Fe–Ni alloy) has α ≈ 0 and is used in pendulum clocks and measuring tapes; Pyrex glass expands little, so it does not crack on sudden heating; ordinary glass does.
+H3 Applications of thermal expansion (solids, liquids, gases)
+B **1. Expansion joints in structures** — bridges, flyovers and buildings are provided with expansion joints that let materials expand and contract; prevents cracking, bending or structural failure, especially in regions with extreme temperature variation.
+B **2. Railway tracks and roads** — small gaps are left between rails; in hot weather rails expand and the gaps prevent buckling or warping; concrete roads are also built with expansion gaps.
+B **3. Thermometers (liquid expansion)** — mercury or alcohol thermometers work on the volume expansion of liquids; the liquid expands and moves up the capillary tube (medical, laboratory and environmental measurements).
+B **4. Bimetallic strip (temperature-control devices)** — two metals with different expansion rates bonded together; on heating one expands more, causing bending. Used in electric irons, thermostats, circuit breakers — automatic temperature regulation.
+B **5. Loosening tight lids and mechanical fittings** — metal lids expand when heated and open easily; heating a nut makes it expand and loosen from a bolt.
+B **6. Overhead electric wires** — kept slightly loose (sagging) during installation: they expand in summer and contract in winter; prevents snapping due to contraction in cold weather.
+B **7. Riveting** — rivets are heated before joining metal plates; on cooling they contract and form a tight, strong joint (bridges, boilers, shipbuilding).
+B **8. Glass and metal fitting (thermal stress use)** — metal rims are heated to fit tightly around wooden wheels or glass objects; after cooling they contract and hold the object firmly.
+B **9. Pipelines and machinery** — oil pipelines and steam pipes are designed with loops or bends to allow expansion and prevent damage due to thermal stress.
+B **10. Hot-air balloons (gas expansion)** — air expands when heated, becomes less dense and provides lift.
+H3 Effect of temperature on the time period of a simple pendulum
+B A pendulum clock keeps correct time at temperature θ. If the temperature rises to θ′ (> θ), the length of the pendulum increases by linear expansion, its time period increases (T = 2π√(l/g)) and the **clock loses time (runs slow)** in summer; in winter it gains time.
+ADD Anomalous expansion of water (Lecture-1 plan topic; only the graphic appears in Lecture 10) :: Water **contracts** on heating from 0 °C to 4 °C and expands above 4 °C, so its density is **maximum at 4 °C (1000 kg/m³)**. Consequences: ice (density 917 kg/m³) floats; in winter a lake cools until the whole body is 4 °C, then the colder surface water (lighter) stays on top and freezes — ice insulates the water below, aquatic life survives at 4 °C; water pipes and rocks crack when water freezes (≈ 9 % expansion); ocean water is densest near 4 °C. Hope's experiment demonstrates it.
+IMG L10_p3_0 | Anomalous expansion of water — a pond in winter: ice at 0 °C on top, water at 4 °C at the bottom | 46
+
+H2 Thermoelectric (Seebeck) effect
+B The **Seebeck effect** is the phenomenon in which an electric voltage (emf) is generated in a circuit made of two dissimilar conductors when their junctions are kept at different temperatures.
+B **Basic principle**: two different metals joined form two junctions — a **hot junction** (higher temperature) and a **cold junction** (lower temperature). Because of the temperature difference, charge carriers (electrons/holes) diffuse from the hot to the cold region, creating a potential difference (voltage) in the circuit. This is the working principle of the **thermocouple**.
+IMGS L10_p2_0 | Seebeck effect — charge carriers diffuse from the heat source towards the heat sinks, driving a current;;L10_p2_1 | Thermocouple: metals A and B with hot (T_h) and cold (T_c) junctions giving ΔV
+ADD Peltier & Thomson effects (67th Q72 asked exactly this — not in the lecture) :: **Seebeck** (1821): temperature difference across two junctions → emf. **Peltier** (1834): the reverse — a current through the junction of two metals absorbs heat at one junction and releases it at the other (used in portable thermoelectric coolers). **Thomson** (Kelvin, 1851): when a current flows through a *single* conductor whose ends are at different temperatures, heat is absorbed or evolved along its length — equivalently, a temperature gradient along a conductor produces a potential gradient along it. Joule heating (I²Rt) is not a thermoelectric effect.
+PYQ 67th Q72: "Due to temperature variation along a conductor, potential variation occurs along it. This is known as …" → **Thomson effect** (not Seebeck, which needs two dissimilar metals).
+
+H2 Law of mixtures — principle of calorimetry
+B When two bodies at different temperatures are mixed, heat is transferred from the body at higher temperature to the body at lower temperature until both acquire the **same temperature**.
+B The hotter body releases heat and the colder body absorbs it: **heat lost = heat gained** (the principle of calorimetry) — it represents the **law of conservation of heat energy** (no heat lost to the surroundings).
+IMG L10_p4_0 | Principle of calorimetry — heat lost by the hot object equals heat gained by the cold water + calorimeter | 46
+ADD Worked example (not in source) :: 100 g of water at 80 °C is mixed with 200 g at 20 °C: 100 × (80 – T) = 200 × (T – 20) ⇒ T = 40 °C. Mixing equal masses of ice at 0 °C and water at 80 °C: 80 cal/g is used to melt the ice, leaving 0 °C water — the final temperature is 0 °C with all ice just melted.
+
+H2 Thermal radiation laws
+H3 Ideal black body
+B A body whose surface absorbs **all** incident thermal radiation at low temperature, irrespective of wavelength, and emits out all these absorbed radiations at high temperature, is an ideal black body.
+B Key characteristics: perfect absorber (absorbs 100 % — no reflection or transmission); perfect emitter (emits maximum radiation); **emissivity e = 1**; radiation depends **only on temperature**, not on the material; appears perfectly black at all temperatures (a cavity with a small hole, lamp-black or platinum-black are close approximations).
+IMG L10_p4_1 | A perfect black body absorbs every ray that falls on it | 36
+H3 Stefan's law (Stefan–Boltzmann law)
+B The amount of radiation emitted per second per unit area by an ideal black body is directly proportional to the **fourth power of its absolute temperature**.
+EQ E ∝ T^{4}      P = e σ A T^{4}      σ (Stefan–Boltzmann constant) = 5.67 × 10^{–8} W m^{–2} K^{–4}   (e = emissivity, A = surface area)
+IMG L10_p4_2 | Stefan–Boltzmann law: P = eσAT⁴ — power radiated, emissivity, area, constant, temperature | 46
+H3 Wien's displacement law
+B The wavelength corresponding to maximum emission of radiation **decreases with increasing temperature**: λ_{m} ∝ 1/T.
+EQ λ_{m} T = b      b (Wien's constant) = 2.89 × 10^{–3} m K      dimensions of b: M^{0} L^{1} T^{0} θ^{1}
+ADD What Wien's law explains (context, not in source) :: A heated iron glows dull red → orange → yellow → white as T rises (λ_{m} shifts to shorter λ). Colour of stars gives their temperature: red stars (Betelgeuse ≈ 3500 K) are cooler than blue-white ones (Rigel ≈ 12 000 K); the Sun (5800 K) peaks at ≈ 500 nm (green-yellow). Human bodies (310 K) radiate mainly at ≈ 9.3 µm (infrared) — the basis of thermal imaging and IR thermometers.
+H3 Newton's law of cooling
+B The rate of cooling (–dT/dt) of a body is directly proportional to the **excess of its temperature over the surroundings**, provided the excess is small (T – T_{0} ≲ 35 °C, as printed): –dT/dt ∝ (T – T_{0}).
+EQ –dT/dt = K (T – T_{0})      T = temperature of the body, T_{0} = temperature of the surroundings (all in °C), K = constant
+B The negative sign indicates that the temperature falls with time — so the rate of cooling keeps decreasing as the body approaches the surrounding temperature. (Hence hot tea cools fast at first and slowly later; adding cold milk *later* leaves the tea hotter than adding it at once.)
+H3 Solar constant
+ADD Solar constant — asked in 70th Q113 (not in the lecture) :: The **solar constant** is the solar energy received per second per unit area at the top of the Earth's atmosphere, at the mean Earth–Sun distance, perpendicular to the rays: **≈ 1.361–1.4 kW/m² (≈ 2 cal cm⁻² min⁻¹)**. Using Stefan's law with it gives the Sun's surface temperature ≈ 5800 K. About 30 % of it is reflected (albedo); only ≈ 1 kW/m² reaches the ground at noon on a clear day — the figure used for rating solar panels.
+
+H2 Laws of thermodynamics
+P The laws of thermodynamics are fundamental principles that govern how energy is transferred and transformed in physical systems; they are essential in physics, chemistry, engineering and even environmental science.
+IMG L10_p5_0 | Zeroth, first, second and third laws of thermodynamics in one card | 52
+H3 I. Zeroth law
+B If two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
+B **Meaning**: it defines the concept of **temperature**; it is the basis for using thermometers. **Example**: if body A = body B (same temperature) and body B = body C, then A = C.
+H3 II. First law (law of energy conservation)
+B Energy can neither be created nor destroyed; it can only change from one form to another. Heat supplied to a system is used to increase its internal energy or to do work.
+EQ ΔQ = ΔU + ΔW      ΔQ = heat supplied, ΔU = change in internal energy, ΔW = work done by the system
+B **Examples**: a steam engine converts heat into mechanical work; the human body converts food into energy.
+ADD Sign convention & processes (standard additions) :: Heat *given to* the system and work done *by* the system are positive. Isothermal (T constant, ΔU = 0 → Q = W), adiabatic (Q = 0 → W = –ΔU, e.g. bursting of a cycle tube, cloud formation), isochoric (V constant, W = 0), isobaric (P constant). A **perpetual-motion machine of the first kind** (work from nothing) is impossible by this law.
+H3 III. Second law
+B It is impossible to convert all heat into work without any loss (Kelvin–Planck statement).
+B **Clausius statement**: heat cannot flow spontaneously from a colder body to a hotter body (a refrigerator needs external work).
+B **Key concept — Entropy (S)**: a measure of disorder/randomness. In an isolated system entropy always **increases** (never decreases). Natural processes are **irreversible**; it explains why the efficiency of a heat engine is always **less than 100 %**. **Example**: heat flows from hot tea to the surrounding air, not the reverse.
+ADD Carnot efficiency (announced in the Lecture-1 plan; not in the lecture) :: Maximum possible efficiency of a heat engine working between source T_{1} and sink T_{2} (kelvin) is η = 1 – T_{2}/T_{1}; 100 % would need T_{2} = 0 K. Coefficient of performance of a refrigerator = T_{2}/(T_{1} – T_{2}). A **perpetual-motion machine of the second kind** (engine with 100 % efficiency) is impossible. Diesel engines (η ≈ 35–40 %) beat petrol engines (≈ 25–30 %) because of their higher compression ratio.
+H3 IV. Third law
+B As the temperature approaches **absolute zero**, the entropy of a perfect crystal approaches zero.
+B **Meaning**: absolute zero (0 K = –273.15 °C) is **unattainable** in a finite number of steps; the system becomes perfectly ordered.
+ADD Absolute zero in practice :: The lowest laboratory temperatures (≈ 10^{–10} K) are reached by laser cooling and magnetic refrigeration; the cosmic microwave background is at 2.7 K; helium liquefies at 4.2 K and becomes a superfluid at 2.17 K; many metals become **superconductors** near absolute zero (mercury at 4.2 K — Kamerlingh Onnes, 1911).

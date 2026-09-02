@@ -1,0 +1,81 @@
+UNIT 5 | Waves & the Electromagnetic Spectrum | Lecture 6 (WAVE) pp. 2–3; Lecture 7 p. 2 (mechanical waves, transverse vs longitudinal) and p. 5 (list of wave phenomena)
+PYQ Infrared radiation is used for muscle/body aches (66th Q1 and again 70th Q45); speed of EM waves 3 × 10⁸ m/s (66th Q7). Priority B — the same infrared fact has come twice in five papers.
+
+H2 What is a wave?
+P A **wave** is a disturbance that transfers energy from one place to another **without transfer of matter**. Examples: sound waves, water waves, light waves.
+IMG L06_p2_1 | Anatomy of a wave — wavelength, crest, trough, amplitude, oscillation, frequency, direction of propagation | 56
+H3 Terms related to waves
+B **Wavelength (λ)**: the distance between successive crests (or two compressions / two rarefactions) of a wave.
+B **Frequency (ν or f)**: the number of wave cycles passing a given point in one second; unit hertz (Hz).
+B **Time period (T)**: time for one complete cycle; T = 1/f.
+B **Amplitude (A)**: maximum displacement measured between the crest and the mid-point (mean position) of the wave.
+B **Velocity (v)**: speed and direction of propagation; v = f λ.
+B **Intensity**: wave energy passing through unit area per unit time; I = P/A (W/m²).
+NOTE The wave terms are printed in Lecture 6 (p. 2) and again as "physical characteristics of a sound wave" in Lecture 7 (pp. 2–3). Generic definitions are kept here; the sound-specific meanings (loudness, pitch) are in Unit 6.
+
+H2 Classification of waves
+TBLW 24,38,38
+TBL Basis~Type~Description / examples
+Need of medium~**Mechanical** waves~Require a material medium (solid, liquid or gas); transfer energy without transporting matter permanently — sound, water waves, seismic waves, waves on a string
+~**Electromagnetic (non-mechanical)** waves~Need no medium; oscillating electric & magnetic fields — light, radio, X-rays
+Direction of oscillation~**Transverse** waves~Particles of the medium oscillate **perpendicular** to the direction of propagation (crests & troughs) — light, waves on a string, ripples on water
+~**Longitudinal** waves~Particles oscillate **parallel** to the direction of propagation (compressions & rarefactions) — sound in air (formed by change in density/pressure)
+IMGS L07_p2_0 | Transverse vs longitudinal wave on a spring;;L07_p2_1 | Transverse wave (wavelength = crest to crest) and longitudinal wave (compression–expansion)
+PYQ 65th Q115: "Sound wave in air is …" → **longitudinal** (not transverse, electromagnetic or polarised).
+ADD Matter waves & the three classes (standard classification, not in the lecture) :: Physics classifies waves as (1) mechanical, (2) electromagnetic, (3) **matter (de Broglie) waves** associated with moving particles (Unit 16). Longitudinal waves need a medium with volume elasticity (so they travel in solids, liquids and gases); transverse mechanical waves need shear elasticity (so they travel only in solids and on liquid surfaces) — that is why earthquake S-waves cannot pass through the Earth's liquid outer core, proving it is liquid.
+
+H2 Electromagnetic waves
+B Electromagnetic (EM) waves are a form of energy consisting of **oscillating electric and magnetic fields** that can travel through a vacuum at the speed of light.
+B They are created by the **acceleration of charged particles** and travel as **transverse** waves: the electric field (E) and magnetic field (B) are perpendicular to each other and to the direction of propagation.
+B EM waves are represented by a sinusoidal graph; the highest point is the **crest**, the lowest the **trough**. In vacuum all EM waves travel at **c = 3 × 10^{8} m/s**.
+IMG L06_p2_0 | Electromagnetic wave — electric field oscillation ⟂ magnetic field oscillation ⟂ propagation | 52
+H3 Features of electromagnetic waves (Lecture 6)
+B 1. **No medium required** — travel in vacuum (space), unlike sound waves.
+B 2. **Transverse nature** — E ⟂ B ⟂ direction of propagation.
+B 3. **Speed** — same for all EM waves in vacuum; independent of frequency.
+B 4. **Produced by accelerating charges** — moving (oscillating) charged particles generate EM waves.
+B 5. **Carry energy and momentum** — can exert pressure (radiation pressure); example: solar radiation.
+B 6. **Obey wave phenomena** — reflection, refraction, diffraction, interference (and polarisation).
+B 7. **Do not need a material medium** — can travel through empty space (space communication possible).
+B 8. **Electric & magnetic fields oscillate** — fields vary sinusoidally and are always in phase.
+B 9. **Relationship between speed, frequency and wavelength**: c = ν λ.
+B 10. **Wide range of spectrum** — from radio waves to gamma rays; they differ only in wavelength and frequency.
+
+H2 Electromagnetic spectrum — different kinds of EM waves and their applications (Lecture 6 p. 3)
+TBLF 7.4
+TBLW 11,10,17,13,13,18,18
+TBL Radiation~Discoverer~How produced~Wavelength~Frequency (Hz)~Properties~Applications
+**γ-rays**~Henri Becquerel & Marie Curie~Decay of radioactive nuclei~10^{–14} – 10^{–10} m~3 × 10^{22} – 3 × 10^{18}~(a) Highly penetrating; (b) uncharged; (c) low ionising power~(a) Information on nuclear structure; (b) medical treatment (radiotherapy) etc.
+**X-rays**~Röntgen~Collisions of high-energy electrons with a heavy target~6 × 10^{–12} – 10^{–9} m~5 × 10^{19} – 3 × 10^{17}~(a) Low penetrating power (less than γ); (b) other properties similar to γ-rays except wavelength~(a) Medical diagnosis & treatment; (b) study of crystal structure; (c) industrial radiography
+**Ultraviolet**~Ritter~Ionised gases, sun-lamp, spark etc.~6 × 10^{–10} – 3.8 × 10^{–7} m~5 × 10^{17} – 7 × 10^{14}~(a) All properties of light; (b) photoelectric effect~(a) To detect adulteration, writing & signature (forgery); (b) sterilisation of water — destructive action on bacteria
+**Visible light** (sub-parts: violet, blue, green, yellow, orange, red)~Newton~Outer-orbit electron transitions in atoms, gas discharge tubes, incandescent solids & liquids~3.8 × 10^{–7} – 7.8 × 10^{–7} m (violet 3.9–4.55; blue 4.55–4.92; green 4.92–5.77; yellow 5.77–5.97; orange 5.97–6.22; red 6.22–7.8, all ×10^{–7} m)~8 × 10^{14} – 4 × 10^{14} (violet 7.69–6.59; blue 6.59–6.10; green 6.10–5.20; yellow 5.20–5.03; orange 5.03–4.82; red 4.82–3.84, all ×10^{14})~(a) Sensitive to human eye~(a) To see objects; (b) to study molecular structure
+**Infrared**~William Herschel~(a) Rearrangement of outer-orbital electrons in atoms & molecules; (b) change of molecular vibrational & rotational energies; (c) bodies at high temperature~7.8 × 10^{–7} – 10^{–3} m~4 × 10^{14} – 3 × 10^{11}~(a) **Thermal effect**; (b) all properties similar to light except λ~(a) Industry, medicine (heat therapy) & astronomy; (b) fog/haze photography; (c) elucidating molecular structure
+**Microwaves**~Hertz~Special electronic devices such as the klystron tube~10^{–3} – 0.3 m~3 × 10^{11} – 10^{9}~(a) Reflection, refraction and diffraction~(a) **Radar** and telecommunication; (b) analysis of fine details of molecular structure
+**Radio waves**~Marconi~Oscillating circuits~0.3 m – few km~10^{9} – few Hz~(a) Exhibit wave-like properties more than particle-like~(a) Radio communication
+TBLF 7.6
+TBLW 26,26,22,26
+TBL Radio sub-band~Wavelength~Frequency (Hz)~Use
+(A) SHF — Super High Frequency~0.01 – 0.1 m~3 × 10^{10} – 3 × 10^{9}~Radar, radio & satellite communication (microwaves)
+UHF — Ultra High Frequency~0.1 – 1 m~3 × 10^{9} – 3 × 10^{8}~Radar, television broadcast, short-distance communication
+VHF — Very High Frequency~1 – 10 m~3 × 10^{8} – 3 × 10^{7}~Television & FM radio
+(B) HF — High Frequency~10 – 100 m~3 × 10^{7} – 3 × 10^{6}~Medium-distance communication
+MF — Medium Frequency~100 – 1000 m~3 × 10^{6} – 3 × 10^{5}~Telephone communication, marine & navigation use
+LF — Low Frequency~1000 – 10 000 m~3 × 10^{5} – 3 × 10^{4}~Long-range communication
+VLF — Very Low Frequency~10 000 – 30 000 m~3 × 10^{4} – 10^{4}~Long-distance communication
+CORR The source table contains typesetting slips which are corrected above: γ-ray frequency "3 × 10²² Hz to 3 × 40¹⁵" → 3 × 10^{22} – 3 × 10^{18} Hz; UV wavelength "6 × 19⁻¹⁰ m" → 6 × 10^{–10} m; the energy column (γ 10^{7}–10^{4} eV; X 2.4 × 10^{5}–1.2 × 10^{3} eV; UV 2 × 10^{3}–3 eV; visible 3.2–1.6 eV; IR 1.6–10^{–3} eV; microwave 10^{–3}–10^{–5} eV; radio 10^{–3} eV → 0) is kept here in text because the widths did not allow an eighth column.
+PYQ 66th Q1 & 70th Q45: radiation used in the treatment of muscle ache / body aches → **infrared** (thermal effect). 66th Q7: velocity of EM waves → **3 × 10⁸ m s⁻¹**. 64th Q3: angstrom is a unit of wavelength.
+ADD Memory aids & extra spectrum facts (not in the lecture) :: Order of increasing wavelength: "**G**andhiji **X**-rayed **U**ma's **V**ery **I**ll **M**other **R**epeatedly" (γ, X, UV, visible, IR, microwave, radio) — frequency and photon energy fall in the same order. Microwave ovens use 2.45 GHz absorbed by water molecules; the ozone layer absorbs UV-B/UV-C; the greenhouse effect is trapping of terrestrial **infrared** by CO₂/water vapour; remote controls use IR; mobile phones use UHF (≈ 0.7–3 GHz); 5G uses 3.5 GHz and 26 GHz bands. UV causes tanning/vitamin-D synthesis and is detected by fluorescence; X-rays were discovered in 1895 and are produced by Coolidge tubes.
+
+H2 Wave phenomena — a summary (Lecture 7 p. 5)
+P Wave phenomena are the various behaviours shown by waves when they interact with media, obstacles or other waves.
+B **1. Reflection** — bouncing back of waves from a surface; angle of incidence = angle of reflection; examples: echo (sound), mirror (light).
+B **2. Refraction** — bending of waves when they enter a different medium, caused by change in speed; example: sound travelling farther at night (cool air near the ground bends sound waves back towards the surface).
+B **3. Diffraction** — bending/spreading of waves around obstacles; more significant when the wavelength is large — sound shows strong diffraction (we hear round corners).
+B **4. Interference** — superposition of two or more waves: constructive (increased amplitude) or destructive (decreased amplitude).
+B **5. Beats** — produced by the interference of waves of slightly different frequencies; beat frequency = |f_{1} – f_{2}|.
+B **6. Doppler effect** — apparent change in frequency due to relative motion between source and observer; examples: ambulance siren, train horn (pitch rises as it approaches, falls as it recedes).
+B **7. Standing (stationary) waves** — formed by superposition of two waves travelling in opposite directions; features: **nodes** (zero displacement) and **antinodes** (maximum displacement).
+B **8. Polarisation** — restriction of vibrations to a particular direction; **only transverse waves** can be polarised; **sound waves cannot be polarised** (longitudinal).
+IMG L07_p5_1 | (A) Reflection, (B) refraction and (C) diffraction of wave fronts | 56
+ADD Doppler effect — the formula and its famous uses (announced in the Lecture-1 plan but never taught) :: Apparent frequency f′ = f (v ± v_{o})/(v ∓ v_{s}) — upper signs for approach (f′ > f), lower for recession. Uses: police speed radar, Doppler ultrasound of blood flow, weather radar, and **red-shift** of galaxies (light from receding galaxies shifts to longer wavelengths — Hubble's evidence for the expanding universe). The effect exists for light as well as sound; a star approaching us looks bluer.
+ADD Mach number & shock waves (also in the Lecture-1 plan, not taught) :: Mach number = speed of object ÷ speed of sound in that medium (Mach 1 ≈ 340 m/s in air at sea level). Subsonic < 1, transonic ≈ 1, **supersonic** 1–5, hypersonic > 5. A supersonic object compresses the air ahead into a cone-shaped **shock wave**; the sudden pressure jump heard on the ground is the **sonic boom**. Bullets, Concorde, BrahMos (Mach 2.8–3) are supersonic; hypersonic glide vehicles exceed Mach 5.

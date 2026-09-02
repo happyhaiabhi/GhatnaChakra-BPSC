@@ -1,0 +1,148 @@
+UNIT 14 | Electrical Power, Effects of Current, Instruments, Devices, Lamps & Domestic Electricity | Lecture 17 (Electricity Part-03) pp. 2–5; the electrical-instrument entries of Lecture 19 p. 7
+PYQ **Priority B — 11 questions in 5 papers (the largest count after Unit 16, though only two of them recent); the most repeated stems in the whole physics syllabus.** Unit of electric power = **watt** (64th Q11 *and* 65th Q120); device to measure current = **ammeter** (64th Q14 *and* 65th Q119); electric motor: electrical → mechanical energy (64th Q12); car-battery acid = **sulphuric acid** (63rd Q99); Faraday constant is a universal constant (66th Q4); 71st: 250 units = **9 × 10⁸ J** (Q123), **IR²** is not a power formula (Q128), current in a short circuit rises very high (Q129), fuse protects equipment (Q130).
+
+H2 Electrical power (Lecture 17 p. 2)
+P **Electrical power** is the rate at which electrical energy is transferred or used in a circuit — how much electricity is being consumed or produced at any moment.
+IMGS L17_p2_0 | Power triangle — P = I × V, I = P/V, V = P/I;;L17_p2_1 | Energy triangle — E = P t, P = E/t: E in joules, P in watts, t in seconds
+EQ P = V I = I² R = V² / R      (V = potential difference, I = current, R = resistance; unit **watt (W)** = 1 J/s = 1 V × 1 A; 1 kW = 1000 W; 1 hp = 746 W)
+B For a **given resistance R** (constant): P ∝ V² and P ∝ I² — doubling the voltage across a heater quadruples its power.
+B If the **voltage is constant** (as in the mains): P ∝ I — a device drawing twice the current uses twice the power; P_{1}/P_{2} = I_{1}/I_{2}.
+CORR Lecture 17 p. 2 prints "P ∝ I² … P ∝ I" together under "If voltage remains constant"; P ∝ I² holds for constant *R*, P ∝ I for constant *V* (as separated above).
+PYQ 64th Q11 / 65th Q120: unit of electric power → **watt** (ampere = current, volt = potential, coulomb = charge). 71st Q128: which does **not** denote electric power → **IR²** (VI, I²R and V²/R all do).
+ADD Power ratings and the series/parallel bulb trick (standard objective material) :: A device marked "100 W, 220 V" has R = V²/P = 484 Ω and draws I = P/V ≈ 0.45 A at its rated voltage. **In parallel (normal house wiring)** the higher-wattage bulb glows brighter (P ∝ 1/R at fixed V); **in series** the *lower*-wattage bulb (higher R) glows brighter (P = I²R, same I) — a 40 W and a 100 W bulb in series: the 40 W one is brighter. Two heaters of resistance R in series give ¼ of the power that both in parallel give. Typical ratings: LED bulb 9 W, CFL 15 W, fan 60–75 W, TV 100 W, refrigerator 150–250 W, electric iron 750–1000 W, geyser/kettle 1500–2000 W, AC 1500–2500 W (Lecture 17: fan < TV < iron < kettle).
+
+H2 Electrical energy and the commercial unit
+P **Electrical energy** is the total work done by an electric current in a circuit over a given time — the amount of power consumed or supplied during that time.
+EQ E = P × t      (joule = watt × second)      ·      commercial unit: **kilowatt-hour (kWh)** = 1 "unit"      ·      **1 kWh = 1000 W × 3600 s = 3.6 × 10^{6} J**
+B Energy meters at home (**kWh meter / "electricity meter"**) count units: a 1 kW appliance running for 1 hour = 1 unit; a 100 W bulb for 10 hours = 1 unit; a 2 kW geyser for 30 min = 1 unit.
+CORR Lecture 17 prints "1 kilowatt-hour (kWh) = 3.6 x 10 Joules" — the exponent dropped out in typesetting; it is **3.6 × 10⁶ J**.
+NOTE "Electrical energy = power × time" and the kWh definition are printed twice in different forms on Lecture 17 p. 2; merged.
+PYQ 71st Q123: 250 units consumed → 250 × 3.6 × 10^{6} = **9 × 10⁸ J**. This is the same 1 kWh = 3.6 MJ conversion as in Unit 1 — learn it cold.
+
+H2 Effects of electric current (Lecture 17 p. 2)
+H3 1. Heating effect (Joule's law of heating)
+P When current passes through a conductor, electrical energy is converted into heat because the drifting electrons collide with the ions of the lattice.
+EQ Heat produced  H = I² R t      (joule)      = V I t = (V²/R) t      ·      in calories: H = I²Rt / 4.18
+B Heat produced is proportional to the **square of the current**, to the **resistance** and to the **time** (James Prescott Joule, 1841).
+B **Applications**: electric heater, electric iron, geyser/immersion rod, toaster, electric kettle, **filament bulb**, and the **electric fuse** — used wherever heat is required (heating elements are of **nichrome**: high resistivity, high melting point, does not oxidise when red-hot).
+B Undesirable heating: losses in transmission lines (minimised by transmitting at high voltage and low current, since loss ∝ I²), heating of appliances and of the Earth's atmosphere by lightning.
+H3 2. Magnetic effect
+B A current-carrying conductor produces a **magnetic field** around it — **Oersted's experiment** (1820; Unit 15).
+B **Applications**: electromagnets, electric bell, electric motor, relay, loudspeaker, telephone receiver, magnetic cranes, MRI, maglev — the basis of modern electrical machines.
+H3 3. Chemical effect
+B Electric current causes chemical changes in a conducting liquid (**electrolyte**) — studied in **electrolysis** (Faraday's laws).
+B **Applications**: **electroplating** (chromium on taps, silver on cutlery, gold on jewellery, zinc galvanising), battery charging, extraction and refining of metals (aluminium, copper, sodium), electrotyping, production of hydrogen and oxygen, chlor-alkali industry — important in industry and chemistry.
+ADD Faraday's laws of electrolysis & the Faraday constant (asked in 66th Q4; only the constant is in the lecture) :: **First law**: mass deposited m = Z I t = Z Q (Z = electrochemical equivalent). **Second law**: for the same charge, masses of different substances deposited are proportional to their chemical equivalents. **Faraday constant F = charge of one mole of electrons = N_{A} × e ≈ 96 485 C/mol** (≈ 96 500) — a **universal constant**; it does not depend on the amount of electrolyte, the current or the solvent. One faraday deposits one gram-equivalent of any substance (108 g Ag, 31.75 g Cu). A **voltameter** (Lecture 17 p. 3) is the electrolytic cell used to measure charge by the mass deposited — do not confuse it with the *voltmeter*.
+ADD Other effects worth a line (not in the lecture) :: **Physiological effect** — nerves and muscles respond to current (electric shock, ECG/EEG, pacemakers, electric fish); **luminous effect** — gas-discharge tubes, LEDs; **thermoelectric (Seebeck/Peltier)** effects — Unit 8. The three classic effects plus their instruments: heating → hot-wire ammeter; magnetic → moving-coil galvanometer; chemical → voltameter.
+
+H2 Applications of the heating effect
+H3 I. Electric fuse
+IMG L17_p5_1 | Fuse — contacts, fuse wire and carrier; normal operation vs over-current when the wire melts and opens the circuit | 62
+B A **safety device** that works on the **heating effect** of current: a short wire of **high resistance and low melting point** — an alloy of **tin and lead (Sn + Pb)** in the ideal fuse; also tin–lead–zinc alloys, or copper/aluminium for heavy ratings.
+B It is connected in **series** with the live wire at the main switchboard (and in plugs); when the current exceeds the rated value (overload or short circuit) the wire **melts and breaks the circuit**, protecting the appliances and wiring from damage and fire.
+B Fuse ratings: 5 A for lighting circuits, 15 A for power circuits (heaters, geysers). A fuse should never be replaced by a thicker wire or a coin.
+NOTE Lecture 17 lists the fuse under "Application of heating effect" (p. 2) and again under "Safety devices" (p. 5, with its characteristics). Merged here; the other safety devices follow in the domestic-electricity section.
+PYQ 71st Q129: in a short circuit the current **increases very high** (the live and neutral touch directly → R ≈ 0 → I = V/R very large → heat, sparks, fire — unless the fuse melts). 71st Q130: device to protect equipment from electric shock/overload → **fuse** (strictly, a fuse/MCB protects the *equipment* from over-current; *earthing* and the *ELCB/RCCB* protect *people* from shock).
+ADD MCB, ELCB and the short-circuit story (modern equivalents, not in the lecture) :: **MCB (miniature circuit breaker)** — an electromagnetic + thermal switch that trips on over-current and can be reset (replaces fuses in modern boards); **ELCB / RCCB (residual-current device)** — trips within milliseconds when the live and neutral currents differ by ≈ 30 mA, i.e. when current is leaking to earth through a person — the real anti-shock device; **Overloading** — too many appliances on one socket exceed the wire's rating; **Short circuit** — insulation failure lets live touch neutral; both are cured by the fuse/MCB, not by earthing. **Surge protectors / stabilisers** guard against voltage spikes and fluctuations.
+H3 II. Electric bulb (incandescent lamp)
+B Works on the **heating effect**: the filament is heated to incandescence (white heat) and emits light. Details of lamps below.
+
+H2 Electrical instruments (Lecture 17 p. 3 + Lecture 19 p. 7)
+IMGS L17_p3_1 | Moving-coil galvanometer — coil on a former between the poles of a permanent magnet, suspension and mirror;;L17_p3_2 | Ammeter = galvanometer + low-resistance shunt in parallel; the current scale reads in amperes;;L17_p3_3 | Potentiometer wired as a variable resistor (voltage divider) to control an LED — the source card
+TBLF 8.0
+TBLW 18,44,38
+TBL Instrument~What it does / measures~Connection & construction
+Galvanometer~**Detects** the presence and direction of a small current in a circuit~Moving coil in a magnetic field; very sensitive; zero at the centre in a "centre-zero" type
+Ammeter~Measures the **amount of current** (amperes)~A galvanometer with a **low-resistance shunt in parallel**; connected in **series** with the circuit; ideal ammeter has **zero** resistance
+Voltmeter~Measures the **potential difference** (volts) across a component~A galvanometer with a **high resistance in series**; connected in **parallel** across the component; ideal voltmeter has **infinite** resistance
+Potentiometer~Highly sensitive instrument to **measure emf** / compare emfs and measure internal resistance (emf = electromotive force, the "voltage" of a source)~Long uniform wire + driver cell; null method — draws **no current** from the cell at balance, hence more accurate than a voltmeter
+Voltameter~Measures the **charge** that has flowed (by the mass deposited in electrolysis)~Electrolytic cell (copper / silver voltameter) in series
+Wattmeter~Measures **electrical power**; used in AC and DC circuits~Has **two coils** — a **current coil** (series) and a **potential (voltage) coil** (parallel)
+Energy meter~Measures **electrical energy** consumed (kWh, "units")~Induction-disc (old) or digital; in series with the supply at the meter board
+Ohmmeter / Multimeter~Resistance / voltage + current + resistance in one~Battery-powered; multimeter = "AVO" meter (amperes, volts, ohms)
+Clamp meter~Current **without breaking the circuit**~Clamps round one conductor and senses its magnetic field
+Oscilloscope (CRO)~Displays a voltage signal against time (waveform)~Cathode-ray tube or digital screen
+Megger~**Insulation resistance** (megohms) of cables and windings~Hand-cranked or electronic high-voltage source
+CORR Lecture 17 expands "Emf" as "Electrometer force" — it is the **electromotive force**.
+PYQ 64th Q14 / 65th Q119 (identical): the device to measure electric current → **ammeter** (voltmeter — voltage; voltameter — charge; potentiometer — emf). 
+ADD Converting a galvanometer (the classic reasoning question) :: To make an **ammeter**, a very small resistance (**shunt**) is joined in **parallel** so most of the current bypasses the delicate coil — this also makes the ammeter's total resistance tiny, so inserting it in series does not disturb the circuit. To make a **voltmeter**, a large resistance (**multiplier**) is joined in **series** so that the meter draws negligible current when placed across a component. An ammeter wrongly connected in parallel burns out (short circuit); a voltmeter wrongly connected in series just reads the source voltage and the circuit stops working. **Range**: a shunt of R_{g}/(n – 1) extends the range n times.
+
+H2 Electrical devices and energy conversion (Lecture 17 p. 3)
+IMGS L17_p3_4 | AC generator (slip rings) and DC generator (commutator) — a coil rotated in a magnetic field;;L17_p3_5 | DC motor — stator with field winding, armature, commutator and brushes
+H3 Dynamo / generator
+B Converts **mechanical energy → electrical energy**; works on **electromagnetic induction** (Faraday, 1831 — a changing magnetic flux through a coil induces an emf).
+B An **AC generator** uses **slip rings**; a **DC generator (dynamo)** uses a **split-ring commutator** (which reverses the connection every half turn so the output current always flows one way).
+PYQ 69th Q26: an AC current can be produced by a **dynamo** (a choke coil only limits AC; a transformer changes the voltage of an *existing* AC but does not generate it). 64th Q12: in an electric motor, **electrical energy is converted into mechanical energy**.
+H3 Electric motor
+B Converts **electrical energy → mechanical energy** (motion); works on the **magnetic effect of current** — a current-carrying coil in a magnetic field experiences a torque (Fleming's left-hand rule, Unit 15). Used in fans, pumps, mixers, washing machines, electric vehicles, drills, lifts.
+B **Low-voltage motors tend to burn out** because at reduced voltage they draw more current to deliver the same power (P = VI ⇒ I = P/V), overheating the windings (I²R).
+CORR Lecture 17 says the motor "also works on electromagnetic induction". A motor works on the *magnetic (motor) effect* — force on a current-carrying conductor in a magnetic field; **electromagnetic induction** is the generator/transformer principle (a running motor does develop a *back emf* by induction, which is presumably what was meant).
+H3 Energy-conversion efficiency
+B In an *ideal* motor converting electrical energy directly to motion there is no heat loss; **real** machines always lose some energy as heat (I²R in the windings), friction and eddy currents — efficiencies are typically 75–95 % for motors, up to 99 % for large transformers.
+
+H2 Batteries (Lecture 17 p. 4)
+B **General principle**: a cell converts stored **chemical energy → electrical energy**; a **battery** is a group of cells. **Components**: a positive electrode (cathode on discharge), a negative electrode (anode) and an **electrolyte**.
+TBLF 8.0
+TBLW 22,39,39
+TBL Feature~Lead–acid battery (car battery)~Nickel–cadmium (Ni–Cd) battery
+Type~Secondary (rechargeable) — the "accumulator"~Secondary (rechargeable)
+Voltage~**12 V** from **six 2 V cells** in series~1.2 V per cell
+Electrodes~**Lead** (–) and **lead dioxide, PbO_{2}** (+)~**Nickel oxide-hydroxide** (+) and **metallic cadmium** (–)
+Electrolyte~**Dilute sulphuric acid** (≈ 35 % acid, 65 % water; relative density ≈ 1.25 when charged)~Alkaline **potassium hydroxide**
+Capacity / uses~Expressed in **ampere-hours (Ah)**; cars, inverters, UPS~Calculators, cordless appliances, transistors, portable tools, emergency lights
+PYQ 63rd Q99: the acid used in a car battery → **sulphuric acid** (H_{2}SO_{4}).
+ADD Primary vs secondary cells and the cells around us (context) :: **Primary cells** (not rechargeable): Volta's cell (1800 — first battery), Daniell cell (Zn/Cu, 1.1 V), Leclanché / **dry cell** (Zn can (–), carbon rod (+), NH_{4}Cl paste + MnO_{2} depolariser, **1.5 V**), alkaline cell (1.5 V, longer life), **mercury and silver-oxide button cells** (watches, hearing aids), lithium coin cell (3 V). **Secondary cells**: lead–acid, Ni–Cd, Ni–MH, and **lithium-ion** (3.6–3.7 V per cell; mobiles, laptops, EVs — 2019 Nobel: Goodenough, Whittingham, Yoshino). **Fuel cell** — converts H_{2} + O_{2} continuously into electricity and water (spacecraft, buses). **Solar cell** — light → electricity. A battery's **Ah** rating × voltage = energy in Wh (a 12 V 100 Ah battery holds 1.2 kWh). Discharged lead–acid batteries show a fall in electrolyte density (checked with a hydrometer). **Inverter** batteries are deep-cycle lead–acid or tubular.
+
+H2 Transformers and AC/DC conversion (Lecture 17 p. 4)
+H3 Transformer
+B **Purpose**: steps **up** or steps **down** an **AC voltage** (a step-up transformer increases voltage and decreases current; a step-down does the reverse — power is nearly conserved, V_{p}I_{p} ≈ V_{s}I_{s}).
+B **Principle**: **electromagnetic induction** (mutual induction between the primary and secondary coils wound on a common soft-iron core); it works **only with AC, not with DC** (DC gives no changing flux, so no induced emf).
+B **Application**: a **mobile-phone charger** is a step-down transformer (e.g. 220 V AC → 9 V, then rectified to DC); power grids step up to 132–765 kV for transmission (to cut I²R losses) and step down to 230 V for homes.
+EQ V_{s}/V_{p} = N_{s}/N_{p}      (turns ratio; N_{s} > N_{p} → step-up)
+H3 AC/DC conversion
+B **Rectifier**: converts **AC → DC** (needed for charging batteries and running all electronics; uses p–n junction diodes).
+B **Inverter**: converts **DC → AC** (home inverters run mains appliances from a battery; solar inverters).
+B **Frequency in India**: the AC mains operates at **50 Hz** (230 V single-phase; 415 V three-phase); USA/Canada use 60 Hz, 120 V.
+ADD AC vs DC — the facts behind the options (context) :: AC reverses direction 100 times a second at 50 Hz (50 complete cycles); its **peak** value is √2 × the stated **rms** value (230 V rms ≈ 325 V peak). AC won the "war of the currents" (Tesla/Westinghouse vs Edison) because it can be transformed to high voltage for cheap long-distance transmission; DC is used in batteries, electronics, electroplating, electric trains (25 kV AC overhead lines feed DC traction motors) and now **HVDC** links for very long lines. A **choke coil** limits AC without wasting power as heat (tube-light ballast). **Nikola Tesla** — AC induction motor; **Michael Faraday** — induction, dynamo, laws of electrolysis; **Thomas Edison** — practical filament lamp (1879), DC supply.
+
+H2 Lighting technologies (Lecture 17 pp. 4–5)
+IMG L17_p3_0 | Incandescent bulb — inert gas, support wires, tungsten filament, glass mount, insulation, screw-thread and foot contact | 46
+H3 Incandescent (filament) bulbs
+B **Filament**: made of **tungsten** (highest melting point of any metal, **3422 °C**); **operating temperature 2000–2500 °C**.
+B **Gas filling**: inert gases such as **nitrogen or argon** (sometimes krypton) prevent oxidation and slow the evaporation of the filament; the earliest bulbs were evacuated.
+B **Reasons for the short lifespan**: the filament wire is not perfectly uniform (thin spots overheat and break); the bulb cannot be completely evacuated of air; the supporting wires can melt.
+B **Very inefficient**: only **5–10 %** of the energy is converted to light — the rest is heat (hence the phase-out in favour of LEDs).
+H3 Halogen lamps
+B The filament works at a higher temperature inside a small quartz envelope containing a halogen (iodine/bromine) that returns evaporated tungsten to the filament — whiter light and longer life; used in car headlamps, projectors and floodlights.
+CORR Lecture 17 says the halogen-lamp filament "is an alloy of tungsten and sodium". The filament is **tungsten**; the *gas* contains a **halogen** (iodine or bromine). Sodium is the metal in *sodium-vapour* street lamps.
+H3 Fluorescent lamps (tube lights and CFLs)
+IMG L17_p4_0 | Fluorescent lamp / CFL — electrodes, mercury vapour and inert gas inside a phosphor-coated tube | 52
+B **CFL** = **Compact Fluorescent Lamp**. **Gas**: **mercury vapour** plus inert gases (**neon, argon**).
+B **Principle**: accelerated electrons excite mercury atoms, which emit **ultraviolet** radiation; a **phosphor coating** on the inside of the glass **fluoresces** and converts the UV into visible white light.
+B **Component**: a **choke (inductor/ballast)** starts the lamp (with the starter) and then limits the current; electronic ballasts do the same in CFLs.
+B **Efficiency**: about **22 %** of the electrical energy becomes light (≈ 4× a filament bulb); life 6 000–10 000 h; contain mercury, so must be disposed of carefully.
+NOTE The heading "Fluorescent Lamps" is printed twice on Lecture 17 p. 4; merged.
+H3 Light-emitting diodes (LEDs)
+IMG L17_p5_0 | LEDs — the diode symbol and lamps; the solar-panel/photodiode panel of the source card | 50
+B **Principle**: **electroluminescence** — light is emitted when electrons recombine with holes in a forward-biased **semiconductor** p–n junction (gallium arsenide, gallium phosphide, gallium nitride for blue/white — 2014 Nobel Prize: Akasaki, Amano, Nakamura).
+B **Advantages over CFLs**: more energy-efficient (≈ 40–50 % of energy to light; 80–100 lumen/W); **much longer lifespan (~50 000 h vs 6 000–10 000 h for CFLs)**; no mercury; instant start; rugged; work on low DC voltage.
+B **Advantages over sodium-vapour lamps (street lighting)**: **directional** light emission (~180°) so less light is wasted; longer lifespan; **better colour rendering** (white, not monochromatic yellow); dimmable.
+CORR Lecture 17 prints "Advantages of CFLs" as a sub-heading *under* LEDs, followed by "More energy efficient; longer lifespan (~50 000 hours vs CFL's 6 000–10 000 hours)". The bullets describe the advantages of **LEDs over CFLs**; the heading is a slip.
+H3 Sodium-vapour lamps
+B Produce light in **all directions (360°)**; emit an almost **monochromatic yellow light** (589 nm sodium D-lines) — very efficient and penetrates fog well, hence the classic orange street light and highway lamp; colours of objects cannot be judged under it.
+ADD Other lamps in one line each (not in the lecture) :: **Neon sign** — orange-red glow discharge in neon (other colours use other gases or phosphors); **mercury-vapour lamp** — bluish-white, used in factories and for UV sterilisation; **metal-halide** — stadium floodlights; **arc lamp** — carbon arc, cinema projectors, welding; **laser** — coherent, monochromatic, unidirectional light (Unit 4). Efficiency ranking: LED > sodium ≈ metal-halide > fluorescent/CFL > halogen > incandescent. India's UJALA scheme (2015) distributed LED bulbs to cut lighting load.
+
+H2 Safety devices and domestic electrical systems (Lecture 17 p. 5)
+IMG L17_p5_2 | A house wiring layout — service entrance, electric meter, main panel, switches, receptacles (sockets), ceiling fans, smoke detectors and security system | 56
+H3 Safety devices
+B **Fuse** — principle: heating effect; function: melts and breaks the circuit during over-current; characteristics: **high resistance, low melting point**, made of tin, lead or zinc alloys (details above).
+B **Earthing (grounding)** — a thick copper wire connects the metal body of an appliance to a copper plate buried deep in moist earth; it provides a **safe, low-resistance path for fault (leakage) current to flow into the ground** so that a person touching the body is not shocked and the fuse blows. In a **three-pin plug the longest and thickest pin is the earth** terminal — it **connects first and disconnects last** (and its length opens the shutters of the socket).
+B **Lightning conductor** — a pointed **metal rod** fixed at the top of a tall building and connected by a thick copper strip to a plate buried in the earth; it safely conducts the lightning's electric energy to the ground (and, by discharging the cloud through its sharp points, often prevents the strike altogether — Benjamin Franklin, 1752).
+H3 Domestic electrical systems
+B **Wiring configuration**: basically a **parallel connection** — every appliance gets the same 230 V, can be switched independently, and a fault in one does not stop the others; the total current adds up (hence separate 5 A lighting and 15 A power circuits).
+B **Wire colour coding (old Indian three-wire system)**: **Live** wire — **red** insulation; **Neutral** — **black**; **Earth** — **green**. (New IEC code used in modern wiring: live **brown**, neutral **blue**, earth **green-and-yellow**.)
+B The **live** wire is at 230 V (rms) with respect to earth and carries the current in; the **neutral** is at ≈ 0 V (earthed at the substation) and returns it; switches and fuses are always fitted in the **live** wire so that an appliance is dead when switched off.
+B **Power consumption of appliances (ascending order)**: **Fan < Television < Electric iron < Electric kettle** (≈ 75 W < 100 W < 1000 W < 2000 W).
+B **Current flow**: current does not flow between two charged bodies at the same electric potential — a potential difference is required.
+NOTE The Faraday-constant paragraph printed here in Lecture 17 p. 5 has been merged into the chemical-effect section above; the "Current flow" line is also kept in Unit 13 (potential difference).
+ADD Electrical safety — why each rule works (not in the lecture) :: Never touch a switch or appliance with wet hands (water with dissolved salts conducts, and wet skin has far lower resistance — dry skin ≈ 10^{5} Ω, wet ≈ 10^{3} Ω); wear rubber-soled shoes / stand on a wooden stool when working on wiring (insulation from earth); use a **tester** (neon lamp in series with a high resistance) to identify the live wire; switch off the mains before rescuing a shock victim, or push the person away with a dry wooden stick; a bird on one wire is safe, but touching two wires (or a wire and the pole) completes a circuit; in a lightning storm stay away from tall trees and out of open fields and water, and stay inside a car (Faraday cage). **Three-pin plugs** are used for high-power appliances with metal bodies (geyser, iron, fridge, washing machine); the thin two-pin type is enough for double-insulated plastic-bodied devices. The **Indian standard supply** is 230 V ± 10 %, 50 Hz; the "unit" price on the bill is per kWh.

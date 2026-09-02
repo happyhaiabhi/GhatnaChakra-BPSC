@@ -1,0 +1,129 @@
+UNIT 2 | Light I: Nature of Light, Reflection & Mirrors | Lecture 1 pp. 3–4 (light intro, reflection), Lecture 2 (colour mixing, plane & spherical mirrors), Lecture 3 p. 2 (mirror formula, sign convention, magnification)
+PYQ Optics is asked in small conceptual bites: visible-spectrum range 3900–7600 Å (63rd Q85), time for sunlight to reach Earth (65th Q112), concave-mirror image of the same size → object at C (69th Q15), colour mixing — magenta/teal/mauve/cyan (69th Q40), focal length of a plane mirror = infinity (71st Q127). Priority B.
+
+H2 Light and optics
+B **Optics** — the branch of physics which deals with the behaviour of light.
+B **Light** is a form of energy; it is considered an **electromagnetic wave** — it does not require a medium to travel. It is made up of the visible spectrum, whose wavelength lies between **3800 Å and 7500 Å** (Lecture 1; the standard textbook range is 3900–7600 Å, which is the value BPSC accepted in 63rd Q85).
+B **Dual nature of light**: it behaves as a **wave** (interference, diffraction) and as a **particle** (photoelectric effect).
+B **Two components of optics** — (i) **Ray (geometrical) optics**: treats light as rays travelling in straight lines (reflection, refraction, mirrors, lenses); (ii) **Wave optics**: treats light as a wave (interference, diffraction, polarisation).
+CORR Lecture 1 prints "(i) Ray optics – Wave nature of light; (ii) Wave optics – Wave nature of light". Ray optics is the *particle/rectilinear-ray* model; wave optics is the wave model.
+H3 Rectilinear propagation
+B Light travels along a straight-line path in a certain medium or in vacuum; the path changes only where the medium changes. This is **rectilinear (straight-line) propagation**. A bundle of light rays is called a **beam** of light.
+B Apart from vacuum and gases, light can travel through some liquids and solids.
+BB **Transparent** medium — light travels through it without attenuation over large distances (water, glycerine, glass, clear plastics).
+BB **Opaque** medium — light cannot travel through it (wood, metals, bricks).
+BB **Translucent** medium — light travels some distance but its intensity reduces rapidly (oiled paper, frosted glass).
+H3 Speed of light
+EQ c (vacuum) = 3 × 10^{8} m/s   ·   water ≈ 2.25 × 10^{8} m/s   ·   glass ≈ 2 × 10^{8} m/s
+B Light is slowest in the optically densest medium — of air, water, glass and vacuum, its speed is **minimum in glass** (67th Q66).
+PYQ 65th Q112 "Sunlight reaches the Earth in …": key marked (E), because the exact value is **8 min 20 s (≈ 500 s)** for 1.5 × 10^{11} m ÷ 3 × 10^{8} m/s — not a round "8 minutes". Moonlight reaches us in ≈ 1.3 s.
+H3 Visible spectrum and colour
+IMG L01_p3_0 | The electromagnetic spectrum with the visible band expanded (V–I–B–G–Y–O–R) | 60
+B **VIBGYOR**: Violet (λ ≈ 4000 Å) → Indigo → Blue → Green → Yellow → Orange → Red (λ ≈ 7000 Å). Violet has the shortest wavelength and highest frequency; red the longest wavelength.
+B (i) Least sensitive colour for the human eye: **violet and red**; (ii) most sensitive colour: **yellow(-green)**; (iii) soothing colour: **green**.
+EQ c = λ × ν   (c = speed of light, ν = frequency, λ = wavelength)   ·   E = hν   (h = Planck's constant)
+B Frequency ↑ ⇒ wavelength ↓ (inverse relation). **Frequency is the property that never changes** when light passes from one medium to another (66th Q6) — speed and wavelength change, refractive index differs.
+PYQ 64th Q9: "Wavelength of red light is more than that of violet light" is the correct statement.
+NOTE Lecture 1 also prints "Scattering of light ∝ 1/λ⁴ to spread visible spectrum" here. Scattering is treated fully in Unit 4 (Lecture 5) — the Lecture-1 line is merged there.
+
+H2 Colour mixing in light (Lecture 2 p. 2)
+B In light, colour intermixing follows **additive mixing** — different coloured lights combine to produce new colours. The **primary colours of light** are **Red (R), Green (G), Blue (B)**.
+TBLW 40,60
+TBL Mixture~Result (additive)
+Red + Green~Yellow
+Red + Blue~Magenta
+Green + Blue~Cyan
+Red + Green + Blue~White light
+IMG L02_p2_0 | Additive colour triangle (light) vs subtractive (pigment) mixing | 60
+PYQ 69th Q40 matched: Magenta = red + blue; Teal = blue, green and white (a light blue-green); Mauve = blue, red and white (pale purple); Cyan = green + blue → answer (A).
+ADD Secondary & complementary colours (context for such match questions) :: Secondary colours of light = yellow, magenta, cyan. A **complementary pair** adds to white: red–cyan, green–magenta, blue–yellow. **Pigment (subtractive) primaries** are cyan, magenta, yellow (painters call them blue, red, yellow); all three pigments together give black. An object's colour is the colour it *reflects* — a red rose in green light looks black; white reflects all, black absorbs all.
+
+H2 Reflection of light
+P **Reflection** = bouncing back of light from a surface when it strikes the boundary of two media (e.g. air and glass) — a part of the light returns into the same medium.
+H3 Laws of reflection
+B (i) The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.
+B (ii) Angle of incidence = angle of reflection (∠i = ∠r). The angle between the ray and the *surface* is 90° – i (glancing angle).
+IMGS L01_p4_3 | Incident ray, normal and reflected ray in one plane; ∠i = ∠r;;L01_p4_2 | Reflection of light from a plane mirror — the reflected ray leaves at the same angle;;L01_p3_reflection_laws | Lecture-1 sketch: ∠i = ∠r, and the glancing angle is 90° – θ
+H3 Regular vs diffused reflection
+B **Regular / specular reflection** — from a perfectly plane, polished surface; parallel incident rays remain parallel after reflection (mirror).
+B **Irregular / diffused reflection** — from a rough surface; light is reflected by the bits of its plane surfaces in different directions. This is what lets us see a non-luminous object from any position.
+IMGS L01_p4_0 | Regular reflection — parallel rays stay parallel;;L01_p4_1 | Diffused reflection from a rough surface
+NOTE Lecture 1 prints "Reflection: bouncing back … laws (i)/(ii)" on p. 3 and again "Reflection of light … regular / irregular" on p. 4; Lecture 2 repeats "a mirror is a smooth, highly polished surface that reflects light according to the laws of reflection". All three are merged into this one sequence.
+IMG L02_p2_1 | Everyday reflection: lateral inversion — BROWN reads NWORB in the mirror | 46
+
+H2 Mirrors
+P A **mirror** is a smooth, highly polished surface that reflects light according to the laws of reflection.
+H3 Plane mirror
+B Image is **virtual, erect and of the same size**; image distance = object distance (image is as far behind the mirror as the object is in front); the image is **laterally inverted** (left ↔ right).
+B **Focal length of a plane mirror is infinity** (R = ∞, f = R/2 = ∞); its power is zero (71st Q127).
+B **Velocity of image**: if the object moves towards the mirror with velocity U, the image moves towards it with U, so the velocity of the image **with respect to the object** = U + U = **2U**.
+IMGS L02_p2_2 | Image formation in a plane mirror — virtual, erect, same size;;L02_p2_3 | Lateral inversion — the right part of the object becomes the left part of the image;;L01_p4_4 | Ray construction for a plane mirror (Lecture 1): object AB at distance u, image A′B′ at v = u behind the mirror, same height h
+H3 Number of images between two plane mirrors
+P An object placed between two plane mirrors inclined at angle θ forms multiple images:
+EQ m = 360° / θ
+B **Case I** — m is an **odd** number: number of images = m (irrespective of the object's position)… (as printed; strictly, odd m gives m images only when the object is *symmetric*, m – 1 otherwise — see editor note).
+B **Case II** — m is an **even** number (2, 4, 6, 8 …): number of images N = **m – 1**.
+B **Case III** — object at the bisector of the two inclined mirrors: N = m – 1 (e.g. θ = 60°: m = 6 → 5 images).
+B **Case IV** — 360°/θ comes out as a decimal: take the integer part, e.g. m = 3.8 → n = 3.
+B **Format m = n.xyz**: if n is odd → number of images = n; if n is even → n – 1 (e.g. m = 4.8, n = 4 → 3 images; m = 2.3, n = 2 → 1 image).
+B **Case V** — mirrors parallel (θ = 0°): **infinite** images due to continuous multiple reflections.
+IMG L02_p2_4 | Two plane mirrors inclined at angle θ — multiple images | 44
+ADD Standard textbook rule (clarifies Cases I–III) :: Let m = 360°/θ. If m is **even** → images = m – 1 (always). If m is **odd** → images = m when the object is placed *asymmetrically*, and m – 1 when the object lies on the *bisector* (symmetric position). Quick examples: 90° → 3 images; 60° → 5; 45° → 7; 30° → 11; 72° → 4 (m = 5, odd, symmetric → 4; asymmetric → 5).
+H3 Minimum size of a plane mirror
+B To see one's **full image**, the minimum length of a plane mirror = **H/2** (H = height of the person). This does not depend on the distance from the mirror.
+B To see the full image of a **wall behind** you, the minimum mirror length = **H/3** (H = height of the wall/building; person midway between wall and mirror). Example: L = 15/3 = 5 cm (as printed).
+IMGS L02_p3_0 | Full-length image needs a mirror only H/2 tall;;L02_p3_1 | Seeing the whole wall behind: mirror = H/3
+
+H3 Spherical mirrors — definitions
+P Spherical mirrors are mirrors whose reflecting surface is a part of a sphere. A curved mirror is part of a hollow sphere: if reflection takes place from the **inner** surface the mirror is **concave**; if the **outer** surface reflects, it is **convex**.
+IMG L02_p4_0 | Concave and convex mirrors cut from a hollow sphere — pole, centre and radius of curvature, principal axis | 62
+B **Pole (P)**: any point on the reflecting surface; for convenience the central point of the mirror.
+B **Principal section**: any section of the mirror such as MM′ passing through the pole.
+B **Centre of curvature (C)**: the centre of the sphere of which the mirror is a part. **Radius of curvature (R)**: the radius of that sphere.
+B **Principal axis**: the line CP joining the pole and the centre of curvature.
+B **Principal focus (F)**: the image point on the principal axis for an object at infinity. **Focal length (f)**: the distance PF between pole and focus. **f = R/2**.
+B **Linear aperture**: the effective diameter of the light-reflecting area of the mirror. **Focal plane**: the plane through the focus perpendicular to the principal axis.
+TBLW 50,50
+TBL Concave mirror~Convex mirror
+Part of a hollow sphere whose **inside** surface reflects~Part of a hollow sphere whose **outside** surface reflects
+**Converging** in nature~**Diverging** in nature
+Generally forms a **real and inverted** image (virtual, erect & magnified only when the object is between P and F)~**Always** forms a **virtual, erect and diminished** image
+IMG L02_p3_2 | Real image (concave) vs virtual image (convex) | 52
+
+H3 Image formation by a concave mirror
+IMGS L02_p4_1 | Object at infinity → image at F; object beyond C → between F and C;;L02_p4_2 | Object at C → at C, same size; object between C and F → beyond C, magnified;;L02_p4_3 | Object at F → image at infinity; object between P and F → virtual, erect, magnified image behind the mirror
+TBLF 8.0
+TBLW 6,24,26,22,22
+TBL Sl.~Position of object~Position of image~Nature of image~Size of image
+1~At infinity~At focus (F)~Real & inverted~Highly diminished (point-sized)
+2~Beyond centre of curvature (beyond C)~Between F and C~Real & inverted~Diminished
+3~At centre of curvature (at C)~At C~Real & inverted~Same size
+4~Between C and F~Beyond C~Real & inverted~Magnified
+5~At focus (F)~At infinity~Real & inverted~Infinitely large
+6~Between F and pole (P)~Behind the mirror~Virtual & erect~Magnified
+PYQ 69th Q15: concave mirror, image real, inverted and same size as the object → object is **at the centre of curvature** (row 3).
+H3 Convex mirror
+B Always forms a **virtual, erect, diminished** image between P and F behind the mirror (object at infinity → point image at F; object anywhere else → between P and F).
+IMG L02_p4_5 | Image formation by a convex mirror — object at infinity and at a finite distance | 60
+
+H3 Uses of mirrors
+B **Plane mirror**: looking/dressing mirror (same-size image); **periscope** (submarines, tanks); **kaleidoscope** (multiple reflection patterns); optical instruments (reflecting devices).
+B **Concave mirror**: shaving/make-up mirror (enlarged image, object close); dentist's mirror (magnified view of teeth); reflectors of torches, search-lights and **car headlights** (bulb at focus → parallel beam); **solar cooker / furnace** (concentrates sunlight at the focus).
+B **Convex mirror**: **rear-view mirror** of vehicles (wide field of view — erect, diminished image); security/surveillance mirrors in shops and parking areas; road-safety mirrors at blind turns; street-light reflectors (spread light over a wide area).
+IMGS L02_p4_6 | Uses of concave mirror — shaving mirror, search light, dentist's mirror, car headlight;;L02_p4_7 | Uses of convex mirror — side mirror, blind-spot mirror at road corners, street light (source card is in Hindi)
+NOTE Periscope and kaleidoscope are listed here (Lecture 2, uses of plane mirror) and described in detail in Lecture 5 (optical instruments). The descriptions and diagrams are kept once, in Unit 4.
+
+H2 Mirror formula, sign convention and magnification (Lecture 3 p. 2)
+EQ 1/f = 1/v + 1/u
+B **f** (focal length) → distance between pole P and focus F; **v** (image distance) → distance of image from the mirror; **u** (object distance) → distance of object from the mirror.
+B Image distance is negative (real image, in front) for all concave-mirror cases except one — the object between P and F, where v is positive (virtual image).
+H3 Sign convention (New Cartesian system)
+B All distances are measured from the **pole**.
+B Distances to the **left** of the pole (direction of incident light) are **negative**; to the right **positive**. So u is always negative; f and R are negative for a concave mirror and positive for a convex mirror.
+B Heights above the principal axis are positive (erect); heights below are negative (inverted).
+IMG L03_p2_sign_convention | Sign convention for concave and convex mirrors (Lecture 3 sketch) | 52
+H3 Magnification
+EQ m = –v/u = h_{i}/h_{o}
+B m > 1 → enlarged image; m < 1 → diminished image; m positive → virtual, erect image; m negative → real, inverted image.
+NOTE The mirror formula opens Lecture 3 (Light Part-02) in the source; it is moved here so the whole mirror story reads in one place. The lens versions of these formulas are in Unit 3.
+ADD Worked example (not in source) :: An object 10 cm in front of a concave mirror of focal length 15 cm: u = –10, f = –15 ⇒ 1/v = 1/f – 1/u = –1/15 + 1/10 = 1/30 ⇒ v = +30 cm (behind the mirror), m = –v/u = +3 → virtual, erect, 3× magnified — exactly the shaving-mirror situation (object between P and F).

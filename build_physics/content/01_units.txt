@@ -1,0 +1,151 @@
+UNIT 1 | Units, Dimensions & Measuring Instruments | Lecture 19 (Unit & Dimension, Measurement) pp. 2–4 and p. 7; instrument list of Lecture 17 p. 3
+PYQ 9 questions across 64th–70th BPSC come straight from this unit: angstrom = unit of wavelength (64th Q3), frequency in hertz (64th Q4, 65th Q117), unit of pressure N/m² (64th Q20) & kg/cm² (65th Q111), strain has no unit (65th Q114), hygrometer measures humidity (64th Q19), light-year = distance (66th Q5), odometer = distance moved by a vehicle (70th Q6). Priority B — cheap, repeatable marks.
+
+H2 Units and measurement
+B To measure a physical quantity like length, mass and time we require a **standard of measurement**. This standard is called the **unit** of that physical quantity — e.g. the unit of length is the metre, and a standard length of 1 metre has a precise definition.
+B To measure the length of an object we determine how many times this standard metre is contained in the length of the object.
+B **Measurement** = the comparison of a physical quantity with a standard quantity.
+
+H3 Physical quantities
+B Those quantities which can describe the laws of physics are called physical quantities. A physical quantity is one that can be measured — length, mass, time, pressure, temperature, current and resistance are physical quantities.
+B **Fundamental (base) quantities**: physical quantities that are independent of each other.
+B **Derived quantities**: all other quantities, which can be expressed in terms of the fundamental quantities.
+
+H3 Units — properties, types and systems
+P **Unit** = the reference standard used to measure a physical quantity. A good unit:
+B should be of suitable size and well-defined;
+B should be easily reproducible (should not change with place) and must not change with time;
+B should not change with physical conditions like temperature, pressure, etc.;
+B must be easily comparable experimentally with similar physical quantities.
+B **Fundamental units** — units defined for the fundamental quantities. **Derived units** — units of all other quantities, derived from the fundamental units.
+
+TBLW 16,28,56
+TBL System~Length / Mass / Time~Remark
+FPS~foot / pound / second~British system
+CGS~centimetre / gram / second~Gaussian system
+MKS~metre / kilogram / second~Forerunner of SI
+SI~metre / kilogram / second (+ K, A, mol, cd)~Used in all measurements throughout the world; based on **seven base units and two supplementary units**
+
+H3 SI base units
+TBLW 30,30,40
+TBL Quantity~Unit~Symbol
+Length~metre~m
+Mass~kilogram~kg
+Time~second~s
+Temperature~kelvin~K
+Electric current~ampere~A
+Amount of substance~mole~mol
+Luminous intensity~candela~cd
+
+TBLW 30,30,40
+TBL Supplementary quantity~Unit~Symbol
+Plane angle~radian~rad
+Solid angle~steradian~sr
+
+CORR The source table prints the symbols as "M", "Kg", "S", "Mol" (capitalised). SI symbols are case-sensitive: m, kg, s, mol (K, A and cd are correct as printed).
+
+H3 Definitions of the base units (as given in the lecture)
+B **Metre (m)**: the distance travelled by light in vacuum during a time interval of 1/299 792 458 second.
+B **Kilogram (kg)**: the mass of a platinum-iridium cylinder kept at the International Bureau of Weights and Measures, Sèvres (Paris).
+B **Second (s)**: the time taken by the light of a specified wavelength emitted by a caesium-133 atom to execute 9 192 631 770 vibrations.
+B **Ampere (A)**: the current which, when passed through two straight parallel conductors of infinite length and negligible cross-section kept 1 metre apart in vacuum, produces between them a force of 2 × 10^{–7} newton per metre length.
+B **Kelvin (K)**: the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.
+B **Candela (cd)**: 1/60th of the luminous intensity of 1 square centimetre of a perfect black body maintained at the freezing temperature of platinum (1773 °C).
+B **Mole (mol)**: the amount of substance that contains as many elementary units as there are atoms in 0.012 kg of carbon-12.
+B **Radian (rad)**: the angle subtended at the centre of a circle by an arc whose length equals the radius.
+B **Steradian (sr)**: the solid angle subtended at the centre of a sphere by a surface of area equal to the square of its radius.
+CORR Source prints "kept at the National Bureau of Weights and Measurements, Paris" (it is the *International* Bureau, BIPM), "1/273.6 of the thermodynamic temperature" (correct fraction is **1/273.16**), and "kept at 1A. meter apart" (read: 1 metre apart).
+ADD 2019 redefinition of the SI (context, not in the lectures) :: Since 20 May 2019 all seven base units are defined through fixed values of natural constants — the kilogram via Planck's constant h = 6.626 070 15 × 10^{–34} J s (Kibble balance), the ampere via the elementary charge e = 1.602 176 634 × 10^{–19} C, the kelvin via Boltzmann's constant k = 1.380 649 × 10^{–23} J/K and the mole via Avogadro's number 6.022 140 76 × 10^{23}. The platinum-iridium cylinder ("Le Grand K") is therefore no longer the definition of the kilogram, though the lecture's older definitions are still what most objective papers quote.
+
+H2 Dimensional formula
+P The dimensional formula of a physical quantity tells which of the fundamental units have been used for its measurement, and to what power.
+H3 How is the dimensional formula of a physical quantity written?
+B (1) Write the formula of the quantity, with the quantity on the left-hand side.
+B (2) Express all quantities on the right-hand side in terms of fundamental quantities — mass, length and time.
+B (3) Replace mass, length and time by M, L and T respectively.
+B (4) Write the powers of the terms.
+NOTE Lecture 19 prints this introduction and the four-step question twice (bottom of p. 3 and top of p. 4). Kept once.
+
+H3 Characteristics of dimensions
+B Dimensions do not depend on the system of units.
+B Only quantities with the same dimensions can be added or subtracted.
+B Dimensions can be obtained from the units of the physical quantity and vice versa.
+B Two different quantities can have the same dimension (e.g. work and torque).
+B When two quantities are multiplied or divided, their dimensions multiply/divide to give the dimension of the third quantity.
+H3 Uses of dimensional formulae
+B (1) To check the correctness of an equation. (2) To convert a unit from one system to another. (3) To deduce the relation connecting physical quantities.
+
+H3 Worked dimensional formulae (Lecture 19 p. 3 — re-typed from the rendered page)
+TBLF 7.9
+TBLW 24,44,16,16
+TBL Physical quantity~Working~Unit~Dimension
+Distance / displacement~—~m~M^{0}L^{1}T^{0}
+Speed / velocity~distance ÷ time~m/s~M^{0}L^{1}T^{–1}
+Acceleration (a)~Δv ÷ t = (m/s) ÷ s~m/s^{2}~M^{0}L^{1}T^{–2}
+Momentum (p)~mass × velocity~kg m/s~M^{1}L^{1}T^{–1}
+Force (F)~mass × acceleration (m × a)~kg m/s^{2} = newton~M^{1}L^{1}T^{–2}
+Work (W)~F · S (force × displacement) = kg m/s^{2} × m~joule~M^{1}L^{2}T^{–2}
+Gravitational constant (G)~G = F r^{2}/(m_{1}m_{2}) = (kg m/s^{2})·m^{2}/kg^{2} = m^{3}/(kg s^{2})~N m^{2}/kg^{2}~M^{–1}L^{3}T^{–2}
+Electrostatic constant (k)~F = k q_{1}q_{2}/r^{2} ⇒ k = F r^{2}/(q_{1}q_{2}); q = It (C = A s) ⇒ kg m^{3}/(s^{4}A^{2})~N m^{2}/C^{2}~M^{1}L^{3}T^{–4}A^{–2}
+Torque (τ) — similar to work~r × F (length × force) = m × kg m/s^{2}~N m~M^{1}L^{2}T^{–2}
+Impulse (I) — change in momentum~Δp~kg m/s = N s~M^{1}L^{1}T^{–1}
+Strain~change in length ÷ original length = m/m~unitless~dimensionless
+CORR Source prints impulse as "M^{1}L^{2}T^{–1}" and describes it as "change in maximum"; impulse = change in *momentum*, dimension **M^{1}L^{1}T^{–1}** (matches the second table on p. 4).
+
+H3 Units and dimensions of a few derived quantities (Lecture 19 p. 4)
+TBLF 7.9
+TBLW 30,38,32
+TBL Physical quantity~Unit~Dimensional formula
+Displacement~m~M^{0}L^{1}T^{0}
+Area~m^{2}~M^{0}L^{2}T^{0}
+Volume~m^{3}~M^{0}L^{3}T^{0}
+Velocity~m s^{–1}~M^{0}L^{1}T^{–1}
+Acceleration~m s^{–2}~M^{0}L^{1}T^{–2}
+Density~kg m^{–3}~M^{1}L^{–3}T^{0}
+Momentum~kg m s^{–1}~M^{1}L^{1}T^{–1}
+Work / Energy / Heat~joule (kg m^{2}/s^{2})~M^{1}L^{2}T^{–2}
+Power~watt (joule/s)~M^{1}L^{2}T^{–3}
+Angular velocity~rad s^{–1}~M^{0}L^{0}T^{–1}
+Angular acceleration~rad s^{–2}~M^{0}L^{0}T^{–2}
+Resistance / impedance~ohm (kg m^{2}/(s C^{2}))~M L^{2}T^{–1}Q^{–2}
+EMF / voltage / potential~volt (kg m^{2}/(s^{2} C))~M L^{2}T^{–2}Q^{–1}
+Permeability~henry/m (kg m/C^{2})~M L Q^{–2}
+Permittivity~farad/m (s^{2}C^{2}/(kg m^{3}))~T^{2}Q^{2}M^{–1}L^{–3}
+Frequency~hertz (s^{–1})~T^{–1}
+Wavelength~m~L^{1}
+Moment of inertia~kg m^{2}~M^{1}L^{2}T^{0}
+Force~newton (kg m/s^{2})~M^{1}L^{1}T^{–2}
+Pressure~newton/m^{2} (kg m^{–1}/s^{2})~M^{1}L^{–1}T^{–2}
+Impulse~newton s (kg m/s)~M^{1}L^{1}T^{–1}
+Inertia (moment of)~kg m^{2}~M^{1}L^{2}T^{0}
+Electric current~ampere (C/s)~Q T^{–1}
+NOTE The p. 4 table uses charge Q as a base dimension (an older convention); in SI the base is current A, so resistance = M L^{2}T^{–3}A^{–2}, voltage = M L^{2}T^{–3}A^{–1}, current = A. Both forms are kept because either may appear in an option.
+PYQ 65th Q114: "Which quantity does not have a unit?" → **Strain** (stress, force, pressure all have units). 65th Q113: "Which is a scalar?" → **Pressure** (force, velocity, acceleration are vectors). 67th Q67: "Which is not a vector?" → **Speed**.
+
+ADD Handy unit facts BPSC keeps asking (not in the lecture text) :: 1 Å (angstrom) = 10^{–10} m — a unit of **wavelength/atomic size** (64th Q3); 1 light-year = distance light travels in one year ≈ 9.46 × 10^{15} m — a unit of **distance**, not time (66th Q5); 1 parsec ≈ 3.26 light-years; 1 astronomical unit (AU) ≈ 1.496 × 10^{11} m (Earth–Sun distance); 1 fermi = 10^{–15} m (nuclear size); 1 micron = 10^{–6} m; 1 nautical mile = 1852 m; 1 bar = 10^{5} Pa ≈ 1 atm (1 atm = 1.013 × 10^{5} Pa = 760 mm Hg); 1 kWh = 3.6 × 10^{6} J; 1 eV = 1.6 × 10^{–19} J; 1 hp = 746 W; 1 calorie = 4.186 J; 1 dyne = 10^{–5} N; 1 erg = 10^{–7} J.
+ADD Quantities with no unit / same dimensions (exam favourites) :: **Dimensionless**: strain, refractive index, relative density (specific gravity), coefficient of friction, Poisson's ratio, angle (radian is a ratio), efficiency, magnification, dielectric constant (relative permittivity), relative permeability. **Same dimension pairs**: work–energy–torque–heat (M L^{2}T^{–2}); impulse–momentum (M L T^{–1}); pressure–stress–Young's modulus–energy density (M L^{–1}T^{–2}); frequency–angular velocity–velocity gradient–decay constant (T^{–1}); Planck's constant–angular momentum (M L^{2}T^{–1}); force constant–surface tension (M T^{–2}).
+
+H2 Devices and what they measure (Lecture 19 p. 7)
+TBLF 8.0
+TBLW 20,30,20,30
+TBL Device~Measures~Device~Measures
+Microscope~Magnification (very small objects)~Hydrometer~Density of liquids
+Telescope~Distant objects~Lactometer~Density (purity) of milk
+Spectrometer~Wavelength~Ammeter~Electric current
+Calorimeter~Heat energy~Voltmeter~Voltage (potential difference)
+Thermometer~Temperature~Wattmeter~Electric power
+Pyrometer~High temperature~Energy meter~Electrical energy (kWh)
+Thermocouple~Temperature difference~Galvanometer~Small current (detects current)
+Hygrometer~Humidity~Ohmmeter~Resistance
+Anemometer~Wind speed~Multimeter~Voltage, current & resistance
+Wind vane~Wind direction~Potentiometer~Potential difference / emf
+Rain gauge~Rainfall~Clamp meter~Current (no contact)
+Lux meter~Light intensity~Oscilloscope (CRO)~Voltage signal (waveform)
+Sound level meter~Sound (loudness in dB)~Frequency meter~Frequency
+Barometer~Atmospheric pressure~Megger~Insulation resistance
+Manometer~Gas pressure~Speedometer~Speed (instantaneous)
+Aneroid barometer~Pressure (without liquid)~Odometer~Distance travelled
+Tachometer~Rotational speed (rpm)~Accelerometer~Acceleration
+NOTE The electrical instruments (galvanometer, ammeter, voltmeter, potentiometer, voltameter, wattmeter) are explained in detail in Unit 14; this table is the Lecture-19 summary list.
+PYQ 64th Q19 hygrometer → humidity (options: hydrometer, hygrometer, pyrometer, lactometer — a classic confusables set). 70th Q6 odometer → distance moved by a vehicle (vs speedometer = speed, chronometer = precise time, ammeter = current). 64th Q14 / 65th Q119: device to measure current → **ammeter** (not voltameter, which measures charge by electrolysis).
+ADD More instruments that have appeared in BPSC/UPSC-style objective papers :: Seismograph — earthquake waves (Richter/ moment-magnitude scale); Fathometer / echo-sounder (SONAR) — ocean depth; Altimeter — altitude (an aneroid barometer calibrated in height); Audiometer — hearing / intensity of sound; Sphygmomanometer — blood pressure; Stethoscope — heart & lung sounds; Periscope — seeing over obstacles (submarines); Radar — position/speed of distant objects by radio waves; Lidar — distance by laser; Bolometer — radiant heat (mentioned in Lecture 8); Photometer — luminous intensity; Viscometer — viscosity; Dynamometer — force/torque/power of engines; Cryometer — very low temperatures; Chronometer — accurate time (navigation); Sextant — angle between horizon and a star (latitude); Geiger–Müller counter — radioactivity; Dosimeter — radiation dose; Pedometer — steps walked; Salinometer — salinity; Nephelometer — turbidity/cloudiness; Planimeter — area of a plane figure; Screw gauge (least count 0.01 mm) and vernier callipers (0.1 mm) — small lengths/diameters.

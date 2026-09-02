@@ -1,0 +1,124 @@
+UNIT 11 | Circular Motion & Gravitation | Lecture 13 (Circular Motion & Gravitation) pp. 2–4; Lecture 14 p. 2 (escape velocity, factors affecting g, gravitational field) and p. 3 (mass vs weight table); Kepler's laws from Lecture 12 p. 5
+PYQ **Priority A — 7 questions in 5 papers, 6 of them recent, always in *reasoning* form.** Copernicus first said the Earth goes round the Sun (56–59th Q139); washing machine works by centrifugation (67th Q65); if the Earth spins faster, weight at the equator **decreases** (67th Q68); the Sun is the chief body of the solar system (67th Q141); centripetal force keeps a body on its circular path (68th Q117); two masses falling freely on the Moon have the **same velocity at any instant** (69th Q21); comets have highly elongated elliptical orbits (70th Q70).
+
+H2 Circular motion
+P If a particle moves in a plane such that its distance from a fixed (or moving) point remains constant, its motion is **circular motion** with respect to that point. The fixed point is the **centre** and the constant distance is the **radius** of the circular path.
+IMGS L13_p2_0 | Circular motion — velocity v along the tangent, centripetal acceleration a_c toward the centre, angular velocity ω about the axis;;L13_p2_1 | Uniform circular motion: constant speed, continuously changing direction — a always points to the centre
+H3 Terms related to circular motion (Lecture 13 p. 3)
+B **Angular displacement (θ)** — the angle traced by the position vector of the particle about the fixed point (unit radian).
+B **Time period (T)** — the time taken by the particle to complete one revolution.
+B **Frequency (n)** — the number of revolutions per second; unit rps or rpm. **n = 1/T**.
+B **Angular velocity (ω)** — the rate of change of angular displacement with respect to time (rad/s).
+EQ ω = θ/t = 2π/T = 2πn      ·      linear speed  v = rω      ·      centripetal acceleration  a_{c} = v²/r = rω²
+H3 Uniform circular motion
+B The particle moves with **constant speed**; the **tangential acceleration is zero** — so the net force has no component along the motion, but the *direction* of velocity changes continuously, so there **is** an acceleration (centripetal), directed towards the centre.
+B The essential force required for circular motion is the **centripetal force**, F = mv²/r = mrω², always directed towards the centre and perpendicular to the velocity — it does **no work** and changes only the direction of motion.
+CORR Lecture 13 p. 2 writes "If a particle moves with constant speed. It means net external force applied is zero." The *net force is not zero* in uniform circular motion — a centripetal force mv²/r must act; only the *tangential* component of the force (and hence the tangential acceleration, Δv/Δt = 0) is zero, which is what the following line in the source says.
+H3 Non-uniform circular motion
+B Motion along a circular path in which the **speed (magnitude of velocity) changes with time**, so the velocity changes both in magnitude and direction. Example: a car accelerating or slowing down on a circular track; circular motion in a vertical plane (speed is greatest at the bottom, least at the top).
+IMG L13_p2_2 | Non-uniform circular motion — the acceleration has a radial (centripetal) part a_c and a tangential part a_t | 40
+B **Centripetal (radial) acceleration** — acts toward the centre, responsible for the change in *direction*, always perpendicular to the velocity: **a_{c} = v²/r**.
+B **Tangential acceleration** — acts along the tangent, responsible for the change in *speed*; positive when the speed increases, negative when it decreases: **a_{t} = dv/dt**.
+EQ Total acceleration  a = √(a_{c}² + a_{t}²)      (the two components are perpendicular)
+PYQ 68th Q117: centripetal force is responsible to **keep the body moving along the circular path**. 67th Q65: a washing machine (spin-dryer) works on **centrifugation** — the drum's wall supplies the centripetal force to the clothes, but water can escape through the holes and flies off along the tangent.
+ADD Centripetal vs "centrifugal", and the everyday cases BPSC draws from :: **Centripetal force** is a real force supplied by something — tension in a string (stone whirled round), gravity (Moon, satellites, planets), friction (car on a level bend — hence skidding on wet roads), the normal reaction of a banked road or track (roads and railway tracks are **banked**, cyclists **lean inward** on a turn), the wall of the drum (washing machine, centrifuge, cream separator, the "rotor" ride). **Centrifugal force** is a *pseudo-force* felt only in the rotating frame — it is the "outward push" a passenger feels in a turning bus (really the inertia of direction, Unit 10). **Centrifuge**: heavier particles move to the outside — used to separate cream from milk, plasma from blood cells, uranium isotopes and honey from the comb. Turning **faster** or on a **tighter** curve needs a bigger centripetal force (F ∝ v²/r): that is why vehicles slow down on sharp bends and why the outer rail is raised. A **satellite** is a body in permanent free fall — gravity provides exactly the centripetal force needed.
+
+H2 Gravitation
+P **Gravitation** is the universal force of attraction that exists between any two bodies in the universe having mass, acting along the line joining their centres.
+H3 The discovery of the law of gravitation (Lecture 13 p. 3)
+P The way the law of universal gravitation was discovered is often considered the paradigm of modern scientific technique. The major steps were:
+B the hypothesis about planetary motion given by **Nicolaus Copernicus** (1473–1543) — the Sun, not the Earth, at the centre (heliocentric model);
+B the careful experimental measurements of the positions of the planets and the Sun by **Tycho Brahe** (1546–1601);
+B analysis of the data and formulation of the empirical laws by **Johannes Kepler** (1571–1630);
+B development of the general theory by **Isaac Newton** (1642–1727).
+NOTE The heading "The discovery of the law of gravitation" is printed twice on Lecture 13 p. 3 (once with only the first sentence). Merged into one list.
+PYQ 56–59th Q139: the scientist who first discovered that the Earth revolves round the Sun → **Copernicus** (Newton, Dalton, Einstein were the distractors). 67th Q141: the chief heavenly body of the solar system → the **Sun** (≈ 99.8 % of the system's mass).
+ADD Galileo and the falling bodies (context for 69th Q21) :: **Galileo Galilei** (1564–1642) showed — against Aristotle — that in the absence of air all bodies fall with the *same* acceleration regardless of mass (the Leaning-Tower story; the feather-and-hammer drop performed on the Moon by Apollo 15 in 1971). He also formulated the law of inertia (Unit 10) and first defined speed (67th Q69). Newton's *Principia* (1687) contained the three laws of motion and the law of gravitation; the story of the falling apple dates from 1666.
+
+H3 Kepler's laws of planetary motion (Lecture 12 p. 5)
+P Kepler's laws describe how planets move around the Sun; they were formulated by Johannes Kepler in the early 17th century (1609–1619) from Tycho Brahe's observations.
+IMG L12_p5_1 | Kepler's three laws — elliptical orbits with the Sun at a focus, equal areas in equal times, T² ∝ a³ | 60
+B **1. Law of orbits (elliptical law)** — planets move in **elliptical orbits** around the Sun, with the **Sun at one focus** of the ellipse (not at the centre). This is why the distance between a planet and the Sun keeps changing.
+B **2. Law of areas (equal-area law)** — the line joining the planet and the Sun sweeps **equal areas in equal intervals of time**. Hence a planet moves **faster when closer** to the Sun (**perihelion**) and **slower when farther** (**aphelion**) — the orbital speed varies. (This is conservation of angular momentum.)
+B **3. Law of periods (harmonic law)** — the **square of the orbital period is proportional to the cube of the mean distance** (semi-major axis) from the Sun. Farther planets take much longer to revolve — Mars takes more time than the Earth.
+EQ T² ∝ R³      ⇒      (T_{1}/T_{2})² = (R_{1}/R_{2})³
+NOTE Kepler's laws are printed in Lecture 12 between conservation of momentum and friction; they belong with gravitation, so they are moved here (the Lecture-13 history list refers to them anyway).
+PYQ 70th Q70: highly elongated elliptical orbit → a **comet** (e.g. Halley's comet, period ≈ 76 years; next return 2061). Asteroids have nearly circular orbits between Mars and Jupiter; a meteor is the streak of light, a meteorite the piece that reaches the ground.
+ADD Kepler's laws in numbers (context) :: Earth: perihelion ≈ 147 million km (around 3 January), aphelion ≈ 152 million km (around 4 July) — so the Earth moves fastest in January; the seasons are due to the axial tilt (23.5°), *not* the varying distance. Third-law check: Mars at 1.52 AU → T = 1.52^{1.5} ≈ 1.88 years ✓. The same laws hold for satellites round the Earth and for the Moon (T ≈ 27.3 days at 384 400 km). Kepler's laws are empirical; Newton *derived* them from the inverse-square law.
+
+H3 Newton's law of gravitation (Lecture 13 p. 3)
+P **Statement**: every particle in the universe attracts every other particle with a force that is **directly proportional to the product of their masses** and **inversely proportional to the square of the distance** between them, acting along the line joining them.
+EQ F = G m_{1} m_{2} / r²      G = 6.67 × 10^{–11} N m² kg^{–2}
+IMGS L13_p3_0 | Gravitational force — the same law governs the falling apple and the Earth's orbit round the Sun;;L13_p3_1 | Two masses m₁ and m₂ a distance d apart attract each other with equal and opposite forces F₁ = F₂ = G m₁m₂/d²
+H3 Universal gravitational constant G
+B G is a **scalar**; its value is the same throughout the universe; it does not depend on the nature or size of the bodies, nor on the nature of the medium between them.
+B Its value was first measured by **Henry Cavendish** (1798) with the **torsion-balance** experiment ("weighing the Earth").
+B SI unit N m²/kg²; dimensional formula M^{–1}L^{3}T^{–2} (Unit 1).
+H3 Properties of the gravitational force (Lecture 13 p. 3 + Lecture 14 p. 2)
+B It is **always attractive**, developed as **action–reaction pairs** — so it obeys Newton's third law (the Earth pulls the apple; the apple pulls the Earth equally).
+B It is **independent of the medium** between the two masses (cannot be shielded).
+B It is a **central force** — acts along the line joining the centres of gravity of the two bodies.
+B It is a **conservative force** — work done does not depend on the path; the work done round any closed path is zero.
+B It is the **weakest force in nature** — about 10^{36} times smaller than the electrostatic force and 10^{38} times smaller than the (strong) nuclear force. It dominates at astronomical scales only because it is always attractive and has infinite range.
+B The law applies to **all bodies** irrespective of size, shape and position. Force between any two masses = *gravitational force*; force between the Earth and a body = *force of gravity*.
+CORR Lecture 14 p. 2 prints "10^{36} times smaller than electrostatic force and 10^{–18} times smaller than nuclear force" — the nuclear ratio should read about 10^{38} (a "10^{–18} times smaller" force would be *stronger*, and the strong force is stronger than electrostatic, not weaker).
+NOTE The properties list appears in Lecture 13 ("Gravitational force is always attractive …") and again in Lecture 14 ("Gravitation Force — central as well as conservative, weakest force …"). Merged above.
+
+H2 Acceleration due to gravity (g)
+B In Newton's law of gravitation the attraction between any two bodies is *gravitation*; if one of the bodies is the **Earth**, the attraction is called **gravity** — the force by which the Earth attracts a body towards its centre. It is a special case of gravitation.
+P For the Earth taken as a uniform sphere of mass M and radius R, the force on a particle of mass m at distance r from the centre (outside the Earth) is F = GMm/r². By Newton's second law F = mg, so:
+EQ g = G M / R²      (at the surface) ≈ 9.8 m/s²      ·      at height r > R:  g′ = G M / r²
+B The value of g **does not depend on** (i) the shape and size of the object, (ii) the **mass of the object** — a feather and a stone fall together in vacuum.
+B The value of g **depends on** (i) the mass of the Earth/planet, (ii) the radius of the Earth/planet.
+B Any value of g measured at a given location differs from the calculated value for three reasons: **(1)** the Earth's mass is not distributed uniformly; **(2)** the Earth is not a perfect sphere; **(3)** the Earth **rotates**.
+NOTE The heading "ACCELERATION DUE TO GRAVITY" is printed twice on Lecture 13 p. 4. Merged.
+PYQ 69th Q21: two objects of different masses falling freely near the surface of the Moon → they **have the same velocity at any instant** (same g_{Moon} ≈ 1.6 m/s² for both; the forces differ, the inertia is unchanged, and there is no air on the Moon to separate them).
+H3 Factors affecting g (Lecture 14 p. 2)
+IMG L14_p2_0 | Rotating Earth — at latitude λ the centrifugal term mω²r cos λ reduces the effective weight; it is largest at the equator (r = R) and zero at the poles | 44
+B **Shape of the Earth** — g ∝ 1/R². The Earth is not a perfect sphere but an oblate spheroid (elliptical): its **polar diameter is about 42 km less** than the equatorial diameter. Therefore **g is minimum at the equator and maximum at the poles** (≈ 9.78 vs 9.83 m/s²).
+ADD Rotation, altitude and depth — the rest of the standard list (only the shape effect is in the lecture) :: **Rotation of the Earth**: part of gravity supplies the centripetal force needed to carry a body round with the Earth, so the effective g at latitude λ is g_{eff} = g – ω²R cos²λ — the reduction is greatest at the **equator** (≈ 0.034 m/s², about 0.3 %) and zero at the poles. **If the Earth spun faster, g and hence the weight at the equator would decrease** (67th Q68); at about 17 times the present spin (T ≈ 84 min) objects at the equator would become weightless. **Altitude**: g decreases with height, g_{h} ≈ g(1 – 2h/R) for h ≪ R (about 0.3 % less at Everest; 8.7 m/s² on the ISS at 400 km — astronauts float not because g ≈ 0 but because they are in free fall). **Depth**: g also *decreases* going down a mine, g_{d} = g(1 – d/R), and is **zero at the centre** of the Earth. So g is **maximum at the surface at the poles**. **Other planets**: g ∝ M/R² — Moon ≈ 1.62 m/s² (1/6 of Earth), Mars ≈ 3.7, Jupiter ≈ 24.8, Sun ≈ 274 m/s².
+PYQ 67th Q68: if the spinning speed of the Earth increases, the weight of a body at the equator will **decrease** (a larger share of gravity is used up as centripetal force). Note the two independent reasons why equatorial weight is least: the bulge (larger R) *and* the spin.
+
+H2 Gravitational field (Lecture 14 p. 2)
+B The space around a body in which its gravitational pull can be experienced by other bodies is its **gravitational field**.
+B **Intensity of gravitational field** (E_{g} or I) — the gravitational force acting per unit mass at a point in the field:
+EQ E_{g} = I = F/m = G M / r²      — a vector directed towards the centre of gravity of the body; SI unit N/kg (= m/s²); dimensional formula [L T^{–2}]
+CORR Lecture 14 prints the SI unit as "N/m"; force per unit *mass* is **N/kg**, which is the same as m/s² (at the Earth's surface the field intensity is just g).
+ADD Gravitational potential & potential energy (needed for the escape-velocity derivation) :: Gravitational potential V = –GM/r (work done per unit mass in bringing a body from infinity; zero at infinity, negative everywhere else). Potential energy of a mass m at distance r: U = –GMm/r; near the surface this reduces to the familiar ΔU = mgh. A body needs kinetic energy ≥ |U| = GMm/R to reach infinity — that is the escape condition below.
+
+H2 Escape velocity
+P **Escape velocity** is the **minimum velocity** with which a body has to be projected (vertically upwards) from a planet's surface so that it just crosses the planet's gravitational field and never returns. When the projectile just escapes to infinity it has neither kinetic energy nor potential energy left: ½mv_{e}² – GMm/R = 0.
+EQ v_{e} = √(2GM/R) = √(2gR) = √(8πρGR²/3)      (ρ = mean density of the planet)
+B **Escape speed depends on**: the mass M and radius R of the planet, and the position (height) from which the particle is projected.
+B **Escape speed does not depend on**: (i) the **mass m of the body** projected, (ii) the **angle (direction) of projection**, nor on the shape or size of the body.
+B If a body is thrown from the Earth's surface with the escape speed it leaves the Earth's gravitational field and never returns. **Escape velocity on the Earth = 11.2 km/s** (≈ 40 000 km/h).
+NOTE Lecture 14 introduces escape velocity twice on p. 2 (once at the top of the page, once under "Gravitational Field"), and a stray line "…scape velocity does not depend upon the mass or shape…" is repeated under Pascal's law on p. 3. All merged into this one section.
+CORR The source formula strip reads "E_g = V_e = √2GM/R…" and "E_g = V_e = √2 V_0" — the "E_g =" prefix is a typesetting carry-over from the field-intensity lines above it; escape velocity is v_e, not the field intensity.
+TBLW 40,30,30
+TBL Heavenly body~Escape velocity~Remark
+Moon~2.3 km/s~too low to hold an atmosphere
+Mercury~4.28 km/s~almost no atmosphere
+Earth~11.2 km/s~retains N_{2}, O_{2} but not free H_{2}, He
+Jupiter~60 km/s~retains even hydrogen and helium
+Sun~618 km/s~—
+Neutron star~2 × 10^{5} km/s~≈ two-thirds of the speed of light
+H3 Relation between escape velocity and orbital velocity
+EQ v_{e} = √2 × v_{o}      (v_{o} = orbital velocity of a satellite close to the surface = √(gR) ≈ 7.9 km/s)
+ADD Satellites — orbital velocity, geostationary orbit and weightlessness (in the Lecture-1 plan; the lectures only give v_e = √2 v_o) :: **Orbital velocity** v_{o} = √(GM/(R+h)) — for a near-Earth orbit ≈ **7.9 km/s** (the "first cosmic velocity"; 11.2 km/s is the "second"); it does *not* depend on the satellite's mass and *decreases* with height. **Time period** T = 2π(R+h)/v_{o}: ≈ 84 min near the surface, 90–93 min for the ISS (≈ 400 km). **Geostationary satellite**: T = 24 h, height ≈ **35 786 km** (≈ 36 000 km), circular orbit in the **equatorial plane**, moving west→east — appears fixed in the sky; used for communication (INSAT/GSAT), DTH and weather; three such satellites cover the whole globe (Arthur C. Clarke, 1945). **Polar / Sun-synchronous satellites** (≈ 500–900 km, T ≈ 100 min) pass over the poles and image the whole Earth strip by strip — remote sensing (IRS, Cartosat), reconnaissance. **Weightlessness** in orbit is the *free-fall* condition — the satellite and the astronaut fall towards the Earth with the same acceleration, so the astronaut presses on nothing (a pendulum clock stops, water floats as spheres, candles burn as dim blue spheres). **A satellite needs no fuel to stay in orbit** — gravity supplies the centripetal force; fuel is used only to correct the orbit and to counter the thin-air drag in low orbits. If a satellite's speed becomes < v_{o} it spirals down; if it exceeds v_{e} it escapes on a hyperbola. The **Moon** is the Earth's natural satellite (v ≈ 1 km/s, T = 27.3 days sidereal / 29.5 days synodic).
+ADD Why the Moon has no atmosphere, and why hydrogen is rare in ours (the classic application) :: A gas escapes when the typical molecular speed (∝ √(T/M)) approaches a sizeable fraction of the escape velocity. The Moon's 2.3 km/s cannot hold any gas; the Earth's 11.2 km/s holds N_{2}, O_{2}, CO_{2}, Ar but loses the light H_{2} and He; Jupiter's 60 km/s keeps everything. A **black hole** is the limiting case — its escape velocity exceeds the speed of light (Schwarzschild radius r_{s} = 2GM/c²; for the Sun ≈ 3 km). Gravitational waves (ripples in space-time from accelerating masses) were first detected by **LIGO** in 2015; **LIGO-India** is being built at Aundha (Hingoli, **Maharashtra**) — 60–62nd Q71.
+
+H2 Mass vs weight (Lecture 14 p. 3)
+TBLF 8.0
+TBLW 20,40,40
+TBL Basis~Mass~Weight
+Definition~Amount of matter in a body~Force exerted by gravity on a body
+Nature~Scalar quantity~Vector quantity
+SI unit~kilogram (kg)~newton (N) (also kgf / kg-wt: 1 kgf = 9.8 N)
+Formula~—~W = mg
+Dependence on gravity~Independent of gravity~Depends on gravity (on g)
+Value~Same everywhere (constant)~Changes with location (Earth, Moon, poles, equator, altitude)
+Instrument~Beam (physical / pan) balance~Spring balance
+Direction~No direction~Always towards the centre of the Earth (vertically down)
+Dimension~[M]~[M L T^{–2}]
+Zero possibility~Cannot be zero (except with no matter)~Can be zero — in space, in free fall, at the centre of the Earth
+ADD Weight puzzles that recur in objective papers :: A body of mass 60 kg weighs 588 N on Earth but ≈ 98 N (1/6) on the Moon — its mass is still 60 kg; a **spring balance** would read 10 kg-wt on the Moon, a **beam balance** still 60 kg (both pans are affected alike); a body weighs *most at the poles* and *least at the equator* — and slightly less at the top of a mountain or down a mine; in a **lift** the apparent weight is m(g + a) accelerating up, m(g – a) accelerating down, **zero** when the cable snaps (free fall); a body is *lightest* in a lift accelerating downward. Buoyancy of air makes true weight slightly more than measured weight — a balloon "weighs" negative. Weight is what a bathroom scale measures — the *normal reaction*.

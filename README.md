@@ -22,6 +22,46 @@ copying Git history, PDFs, reports, tests or extraction artifacts.
 - `DEPLOY_TO_GITHUB.md` explains the GitHub Pages deployment and how the
   original BPSC source is preserved in the `bpsc-source` branch.
 
+## Consolidated Physics Notes (A4)
+
+`BPSC_Physics_Consolidated_Notes_A4.pdf` is a **re-arranged, de-duplicated,
+PYQ-prioritised A4 edition** of the 19 lecture PDFs in `physic notes eduteria/`
+(Physics by Sakshi Ma'am, 72nd BPSC batch, 84 pages). The 19 lectures are
+consolidated into 16 topic-wise units (Units & dimensions → Light I–III → Waves
+→ Sound → Heat & thermodynamics → Kinematics → Laws of motion & WPE → Gravitation
+→ Fluids → Electricity → Electrical power & domestic electricity → Magnetism →
+Modern & nuclear physics). Repeated topics are merged (each merge documented in
+a green "De-dup note"), every source chart/diagram is kept as a clipped figure,
+garbled formulas are re-typed, and obvious slips in the lectures are fixed
+visibly in coral "Source correction" strips.
+
+The PYQ layer: all **95 physics questions** of the 56–59th (2015), 60–62nd,
+63rd … 71st (2025) BPSC Prelims (from the two workbooks in the repo) were
+classified by unit. The PDF opens with a **PYQ Topic Priority** section
+(ranking table, paper-by-paper load, most-repeated stems), every unit carries
+an amber "PYQ lens" strip quoting the exact exam/question numbers, and
+Appendix A lists every question with its options, study answer and status.
+Anything that is *not* in the source lectures (extra data, derivations,
+context) sits in a blue **"ADDED BY EDITOR — not in source lectures"** box.
+
+Regenerate it with:
+
+```bash
+pip install pymupdf reportlab pillow openpyxl
+python scripts/extract_physics_figures.py   # rebuilds build_physics/figures/
+python scripts/analyse_physics_pyqs.py      # rebuilds build_physics/pyq_analysis.csv + pyq_summary.json
+python scripts/build_physics_notes.py       # typesets the A4 PDF
+```
+
+- `scripts/extract_physics_figures.py` — clips every content figure out of the
+  19 lecture PDFs (cover art, watermark and decorative frames skipped).
+- `scripts/analyse_physics_pyqs.py` — pulls the physics questions out of the
+  56–59th paper and the 60th–71st master question bank, assigns each to a unit
+  and writes the ranking used by the PDF.
+- `scripts/build_physics_notes.py` — typesets the PDF from the content DSL in
+  `build_physics/content/*.txt` (`build_physics/fonts/` holds the DejaVu
+  oblique face used for italics when the system lacks it).
+
 ## Consolidated Chemistry Notes (A4)
 
 `BPSC_Chemistry_Consolidated_Notes_A4.pdf` is a **re-arranged, de-duplicated A4
