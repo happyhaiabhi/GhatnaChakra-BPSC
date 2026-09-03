@@ -72,18 +72,6 @@ a { color: inherit; }
 .portal-theme-toggle.is-active i { background: #48c9c4; color: #102337; }
 .portal-theme-toggle .theme-star { transform-origin: 17.5px 6px; animation: theme-star 2.2s ease-in-out infinite; }
 @keyframes theme-star { 0%, 65%, 100% { opacity: 0.4; transform: scale(0.75); } 78% { opacity: 1; transform: scale(1.15); } }
-.gateway-pill {
-  margin-left: 0;
-  border: 1px solid rgba(105, 203, 198, 0.22);
-  border-radius: 99px;
-  padding: 7px 11px;
-  background: rgba(75, 127, 145, 0.2);
-  color: #aad2d0;
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
 
 main { min-height: calc(100vh - 128px); }
 .portal-hero {
@@ -241,8 +229,7 @@ footer { padding: 18px 22px; background: #102337; color: #bbc7d1; font-size: 12p
 @media (max-width: 720px) {
   .portal-topbar { min-height: 64px; padding: 0 17px; }
   .portal-brand { font-size: 17px; }
-  .gateway-pill { display: none; }
-  .portal-hero { padding: 52px 17px 58px; }
+    .portal-hero { padding: 52px 17px 58px; }
   .exam-options { grid-template-columns: 1fr; }
   .exam-option { min-height: 360px; }
 }

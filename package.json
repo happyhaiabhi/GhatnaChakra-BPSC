@@ -1,0 +1,15 @@
+{
+  "name": "ghatnachakra-bpsc-portal",
+  "private": true,
+  "description": "UPSC + BPSC exam portal. No build step for the site itself — this file exists only for the test and migration tooling in tools/.",
+  "scripts": {
+    "smoke": "node tools/bpsc-smoke.js http://127.0.0.1:8080/bpsc/index.html /tmp/bpsc-smoke.json",
+    "compare": "node tools/compare-smoke.js",
+    "split": "node tools/split-bpsc.js --dry-run",
+    "check:js": "node --check app.js && node --check theme.js && node --check data.js"
+  },
+  "devDependencies": {
+    "acorn": "^8.14.0",
+    "jsdom": "^24.1.3"
+  }
+}

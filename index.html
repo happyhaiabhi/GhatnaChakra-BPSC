@@ -7,7 +7,10 @@
   <meta name="description" content="Choose an exam workspace for UPSC or BPSC preparation." />
   <title>Exam Question Bank — Choose Your Exam</title>
   <script src="theme.js?v=2"></script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="portal.css" />
+  <script src="register-sw.js" defer></script>
 </head>
 <body>
   <header class="portal-topbar">
@@ -20,7 +23,6 @@
       <span>Night mode</span>
       <i data-theme-state>On</i>
     </button>
-    <span class="gateway-pill">Exam gateway</span>
   </header>
 
   <main>
@@ -34,7 +36,7 @@
       <div class="exam-options" aria-label="Available exam systems">
         <a class="exam-option upsc-option" href="upsc.html">
           <div class="option-topline">
-            <span class="option-status connected"><i></i> Connected</span>
+            <span class="option-status connected"><i></i> 6,486 PYQs</span>
             <span class="option-arrow" aria-hidden="true">↗</span>
           </div>
           <div class="exam-mark" aria-hidden="true">U</div>
@@ -47,7 +49,7 @@
 
         <a class="exam-option bpsc-option" href="bpsc/index.html">
           <div class="option-topline">
-            <span class="option-status connected bpsc-connected"><i></i> Connected</span>
+            <span class="option-status connected bpsc-connected"><i></i> 19,050 PYQs</span>
             <span class="option-arrow bpsc-arrow" aria-hidden="true">↗</span>
           </div>
           <div class="exam-mark" aria-hidden="true">B</div>
@@ -59,7 +61,7 @@
         </a>
       </div>
 
-      <p class="portal-note"><span aria-hidden="true">●</span> Both exam systems are now connected inside this portal.</p>
+      <p class="portal-note"><span aria-hidden="true">●</span> Progress, bookmarks and colour mode are saved on this device. Sign in inside BPSC to sync across devices.</p>
     </section>
   </main>
 

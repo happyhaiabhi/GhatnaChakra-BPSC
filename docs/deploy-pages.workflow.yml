@@ -1,0 +1,244 @@
+# Deploy the exam portal to GitHub Pages.
+#
+# >>> THIS FILE IS STAGED, NOT ACTIVE. <<<
+# It belongs at .github/workflows/deploy-pages.yml. It lives here because the
+# automation token that committed it is not granted GitHub's `workflows`
+# permission, and GitHub rejects any push that creates .github/workflows/*
+# without it.
+#
+# TO ACTIVATE (one command, or drag it in the GitHub UI):
+#     mkdir -p .github/workflows
+#     git mv docs/deploy-pages.workflow.yml .github/workflows/deploy-pages.yml
+#     git commit -m "Activate Pages workflow" && git push
+#
+# WHY IT MATTERS — this repo's Pages source is set to
+# "Deploy from a branch: main / root", which publishes the ENTIRE repository
+# (359 MB, including 271.7 MB of source PDFs that no page links to).
+# After activating this file, also set:
+#     Settings -> Pages -> Source -> "GitHub Actions"
+# Then every push to main validates the project and publishes only the runtime
+# (~80 MB): the portal, both apps, their data, and the four PDFs that
+# bpsc/index.html actually links to.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys on top of each other.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: JavaScript syntax (node --check)
+        run: |
+          set -e
+          found=0
+          while IFS= read -r f; do
+            found=1
+            node --check "$f" || { echo "::error file=$f::syntax error"; exit 1; }
+          done < <(git ls-files '*.js')
+          echo "checked JS files (found=$found)"
+
+      - name: Python syntax (py_compile)
+        run: python -m compileall -q scripts
+
+      - name: JSON validity
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = []
+          for p in pathlib.Path('.').rglob('*.json'):
+              if '.git' in p.parts:
+                  continue
+              try:
+                  json.loads(p.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  bad.append(f'{p}: {exc}')
+          if bad:
+              print('\n'.join(bad))
+              sys.exit(1)
+          print('all JSON parsed')
+          PY
+
+      - name: No file over GitHub's 100 MB limit
+        run: |
+          find . -path ./.git -prune -o -type f -size +100M -print | tee /tmp/big
+          if [ -s /tmp/big ]; then
+            echo "::error::file(s) above 100 MB found"
+            exit 1
+          fi
+
+      - name: Every local page asset exists
+        run: |
+          python - <<'PY'
+          # Catches the class of bug where data references a file that was never
+          # committed (e.g. infographics/ is currently empty while csat.json
+          # points 1,211 images at it). Non-fatal: the app falls back to
+          # remote URLs, but the gap is reported.
+          import json, pathlib, re
+          missing = 0
+          for name in ('data/prelims.json', 'data/csat.json'):
+              p = pathlib.Path(name)
+              if not p.exists():
+                  continue
+              text = p.read_text(encoding='utf-8')
+              paths = set(re.findall(r'"infographic_local"\s*:\s*"([^"]+)"', text))
+              gone = sorted(x for x in paths if not pathlib.Path(x).exists())
+              print(f'{name}: {len(paths)} referenced, {len(gone)} missing locally')
+              missing += len(gone)
+          if missing:
+              print(f'::warning::{missing} infographic(s) not vendored; run scripts/download_infographics.py')
+          PY
+
+  smoke:
+    name: BPSC runtime smoke test
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install harness dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Boot the app in jsdom
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 &
+          echo $! > /tmp/server.pid
+          sleep 2
+          node tools/bpsc-smoke.js \
+            http://127.0.0.1:8080/bpsc/index.html /tmp/smoke.json
+          kill "$(cat /tmp/server.pid)" || true
+
+      - name: Fail on any runtime error or empty render
+        run: |
+          node - <<'JS'
+          const r = require('/tmp/smoke.json');
+          const problems = [];
+          if (r.pageErrors.length)   problems.push('page errors: ' + r.pageErrors.join(' | '));
+          if (r.consoleErrors.length) problems.push('console errors: ' + r.consoleErrors.join(' | '));
+          if ((r.bookCards || 0) < 1) problems.push('no book cards rendered');
+          if ((r.cssRuleCount || 0) < 100) problems.push('stylesheets did not load');
+          if (problems.length) { console.error(problems.join('\n')); process.exit(1); }
+          console.log(`ok: ${r.bookCards} books, ${r.cssRuleCount} css rules, ${r.fnGlobals.length} globals`);
+          JS
+
+  build:
+    name: Build Pages artifact
+    needs: [validate, smoke]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage publish tree
+        run: |
+          set -euo pipefail
+          rm -rf _site && mkdir -p _site
+
+          # --- portal + UPSC app -------------------------------------------
+          cp -v index.html upsc.html 404.html portal.css styles.css \
+                bpsc-theme.css theme.js app.js .nojekyll _site/
+
+          # --- offline support (root-scoped so one worker covers /bpsc/) -----
+          cp -v sw.js register-sw.js _site/
+
+          # The 6.4 MB file:// fallback bundle. Only needed when the site is
+          # opened from disk; upsc.html injects it lazily so it never blocks
+          # a normal visit.
+          cp -v data.js _site/
+
+          # --- favicon / PWA -------------------------------------------------
+          [ -f favicon.svg ]      && cp -v favicon.svg _site/
+          [ -f site.webmanifest ] && cp -v site.webmanifest _site/
+
+          # --- datasets -------------------------------------------------------
+          cp -R data _site/
+
+          # --- BPSC application ------------------------------------------------
+          cp -R bpsc _site/
+
+          # --- the four PDFs bpsc/index.html actually links to ------------------
+          for pdf in \
+            "BPSC_Physics_Consolidated_Notes_A4.pdf" \
+            "BPSC_Biology_Consolidated_Notes.pdf" \
+            "BPSC_Chemistry_Consolidated_Notes_A4.pdf" \
+            "Eduteria Chem Notes Class Wise.pdf" ; do
+            if [ -f "$pdf" ]; then cp -v "$pdf" _site/; else
+              echo "::warning::linked PDF missing: $pdf"
+            fi
+          done
+
+          # --- vendored infographics (optional; absent today) -------------------
+          if [ -d infographics ] && [ -n "$(ls -A infographics)" ]; then
+            cp -R infographics _site/
+          fi
+
+          # --- fail if the service worker precaches a file that isn't there --
+          python3 - <<'PY'
+          import re, sys, os
+          sw = open('_site/sw.js', encoding='utf-8').read()
+          paths = re.findall(r"'([^']+)'", re.search(r'SHELL_ASSETS = \[(.*?)\];', sw, re.S).group(1))
+          missing = [p for p in paths if not os.path.exists(os.path.join('_site', p.lstrip('./') or 'index.html'))]
+          if missing:
+              print('::error::sw.js precaches missing file(s): ' + ', '.join(missing))
+              sys.exit(1)
+          print(f'sw.js precache list verified ({len(paths)} entries)')
+          PY
+
+          echo "--- published size ---"
+          du -sh _site
+
+      - name: Guard against publishing source PDFs
+        run: |
+          if find _site -name '*.pdf' -size +30M | grep -q .; then
+            echo "::error::a study PDF in _site is unexpectedly large"
+            exit 1
+          fi
+          echo "PDFs in _site:"
+          find _site -name '*.pdf' -printf '%s\t%p\n' | sort -rn
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

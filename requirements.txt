@@ -1,0 +1,17 @@
+# Python tooling for the content pipeline in scripts/.
+#
+#   pip install -r requirements.txt
+#
+# Notes PDF generation:      build_physics_notes.py, build_biology_notes.py,
+#                            build_consolidated_notes.py, extract_*_figures.py
+#   PYQ analysis:            analyse_physics_pyqs.py, analyse_biology_pyqs.py
+#   UPSC offline bundle:     build_data_bundle.py   (stdlib only)
+#   Infographic downloader:  download_infographics.py (stdlib only)
+#
+# scripts/requirements_biology_notes.txt is kept for backwards compatibility
+# and is a subset of this file.
+
+pymupdf>=1.24.0      # PDF page/figure extraction
+reportlab>=4.2.0     # A4 typesetting of the consolidated notes
+pillow>=10.3.0       # figure clipping and resizing
+openpyxl>=3.1.0      # reading the PYQ workbooks

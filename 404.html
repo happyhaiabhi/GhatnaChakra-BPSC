@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102337" />
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="Page not found — return to the UPSC / BPSC exam portal." />
+  <title>Page not found — Exam Question Bank</title>
+  <script src="theme.js?v=2"></script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="portal.css" />
+  <script src="register-sw.js" defer></script>
+  <style>
+    .notfound-wrap{
+      min-height:calc(100vh - 140px);
+      display:flex;align-items:center;justify-content:center;
+      padding:40px 20px;
+    }
+    .notfound-card{
+      width:min(560px,100%);text-align:center;
+      border:1px solid var(--border,rgba(255,255,255,.12));
+      border-radius:18px;padding:36px 28px;
+      background:var(--surface,rgba(255,255,255,.03));
+    }
+    .notfound-code{
+      font:700 clamp(3rem,12vw,4.5rem)/1 'Cinzel',Georgia,serif;
+      color:var(--gold,#c9897b);margin:0 0 6px;letter-spacing:.04em;
+    }
+    .notfound-card h1{
+      font-size:1.05rem;margin:0 0 10px;color:var(--text,#e8eef4);
+    }
+    .notfound-card p{
+      margin:0 0 24px;font-size:.9rem;line-height:1.6;
+      color:var(--text3,rgba(232,238,244,.62));
+    }
+    .notfound-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .notfound-link{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:11px 18px;border-radius:999px;text-decoration:none;
+      font-size:.85rem;font-weight:600;
+      border:1px solid var(--border,rgba(255,255,255,.16));
+      color:var(--text2,#c9d4de);
+      transition:transform .18s ease,border-color .18s ease,color .18s ease;
+    }
+    .notfound-link:hover{transform:translateY(-2px);border-color:var(--gold,#c9897b);color:var(--gold,#c9897b)}
+    .notfound-link.primary{background:var(--gold,#c9897b);border-color:transparent;color:#102337}
+  </style>
+</head>
+<body>
+  <header class="portal-topbar">
+    <a class="portal-brand" href="index.html" aria-label="Exam Question Bank home">
+      <span class="portal-logo" aria-hidden="true">▰</span>
+      <span>Exam <em>Question Bank</em></span>
+    </a>
+    <button class="portal-theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 15.4A8 8 0 0 1 8.6 4.4 8.5 8.5 0 1 0 19.6 15.4Z"></path><path class="theme-star" d="M17.5 4.5v3M16 6h3"></path></svg>
+      <span>Night mode</span>
+      <i data-theme-state>On</i>
+    </button>
+  </header>
+
+  <main class="notfound-wrap">
+    <div class="notfound-card">
+      <p class="notfound-code">404</p>
+      <h1>This page is not in the question bank.</h1>
+      <p>The link may be old or mistyped. Everything still lives one tap away.</p>
+      <div class="notfound-links">
+        <a class="notfound-link primary" href="index.html">▰ Exam portal</a>
+        <a class="notfound-link" href="upsc.html">UPSC question bank</a>
+        <a class="notfound-link" href="bpsc/index.html">BPSC Ghatna Chakra</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

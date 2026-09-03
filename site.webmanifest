@@ -1,0 +1,19 @@
+{
+  "name": "Exam Question Bank — UPSC & BPSC",
+  "short_name": "ExamBank",
+  "description": "UPSC Prelims/CSAT/Mains and BPSC Ghatna Chakra previous-year question workspace.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#102337",
+  "theme_color": "#102337",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
