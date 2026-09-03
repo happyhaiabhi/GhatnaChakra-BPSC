@@ -484,6 +484,42 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .books-logo{font-family:'Cinzel',serif;font-size:2rem;font-weight:700;letter-spacing:1px;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:6px;text-align:center;}
 .books-tagline{color:var(--text3);font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;text-align:center;}
 .books-date{color:var(--text3);font-size:.82rem;letter-spacing:.4px;margin-bottom:26px;text-align:center;font-weight:600;}
+.books-global-search{width:100%;display:flex;flex-direction:column;gap:10px;margin:0 0 22px;}
+.books-global-searchbox{display:flex;align-items:center;gap:10px;border:1px solid var(--border);border-radius:24px;padding:9px 10px 9px 14px;background:color-mix(in srgb,var(--surface) 94%,transparent);box-shadow:var(--shadow-soft);}
+.books-global-searchicon{font-size:1rem;color:var(--text3);flex-shrink:0;}
+.books-global-searchbox input{flex:1;min-width:0;border:none;outline:none;background:transparent;color:var(--text);font:700 .88rem/1.5 'Nunito',system-ui,sans-serif;}
+.books-global-searchbox input::placeholder{color:var(--text3);}
+.books-global-searchbtn,.books-global-clear,.books-global-chip,.books-global-action{font-family:'Nunito',system-ui,sans-serif;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background .15s ease,color .15s ease;}
+.books-global-searchbtn{border:none;border-radius:14px;padding:11px 16px;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#fff;font-size:.8rem;font-weight:800;box-shadow:0 8px 18px color-mix(in srgb,var(--gold) 25%,transparent);}
+.books-global-clear,.books-global-action,.books-global-chip{border:1px solid var(--border);background:var(--surface);color:var(--text2);}
+.books-global-searchbtn:hover,.books-global-clear:hover,.books-global-chip:hover,.books-global-action:hover{transform:translateY(-1px);}
+.books-global-searchmeta{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--text3);font-size:.76rem;line-height:1.55;}
+.books-global-clear{border-radius:999px;padding:7px 12px;font-size:.72rem;font-weight:800;}
+.books-global-results{display:flex;flex-direction:column;gap:14px;border:1px solid var(--border);border-radius:24px;padding:18px;background:color-mix(in srgb,var(--surface2) 72%,transparent);box-shadow:var(--shadow-soft);}
+.books-global-results[hidden]{display:none!important;}
+.books-global-section{display:flex;flex-direction:column;gap:10px;}
+.books-global-sectionhead{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+.books-global-sectionhead h3{margin:0;font-size:1rem;color:var(--text);font-family:'Cormorant Garamond',Georgia,serif;}
+.books-global-sectionhead span{font-size:.72rem;color:var(--text3);font-weight:700;}
+.books-global-bookhits{display:flex;flex-wrap:wrap;gap:10px;}
+.books-global-chip{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border-radius:999px;font-size:.74rem;font-weight:800;}
+.books-global-chip b{color:var(--gold);}
+.books-global-list{display:flex;flex-direction:column;gap:12px;}
+.books-global-card{display:flex;flex-direction:column;gap:10px;border:1px solid var(--border);border-radius:18px;padding:16px;background:var(--surface);}
+.books-global-cardtop{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.books-global-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 9px;border-radius:999px;font-size:.66rem;font-weight:800;letter-spacing:.3px;}
+.books-global-badge.book{background:color-mix(in srgb,var(--gold) 14%,transparent);color:var(--gold);}
+.books-global-badge.subject{background:color-mix(in srgb,var(--blue) 12%,transparent);color:var(--blue);}
+.books-global-badge.chapter{background:color-mix(in srgb,var(--purple) 12%,transparent);color:var(--purple);}
+.books-global-badge.type{background:var(--surface2);color:var(--text2);}
+.books-global-card h4{margin:0;color:var(--text);font-size:.95rem;line-height:1.55;}
+.books-global-snippet{margin:0;color:var(--text2);font-size:.8rem;line-height:1.65;}
+.books-global-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.books-global-action{border-radius:12px;padding:9px 13px;font-size:.76rem;font-weight:800;}
+.books-global-action.primary{background:linear-gradient(135deg,var(--gold),var(--gold2));border-color:transparent;color:#fff;}
+.books-global-action.ghost{background:var(--surface);}
+.books-global-empty,.books-global-loading{border:1px dashed var(--border2);border-radius:18px;padding:18px;text-align:center;color:var(--text2);background:color-mix(in srgb,var(--surface) 75%,transparent);}
+.books-global-empty strong,.books-global-loading strong{display:block;margin-bottom:6px;color:var(--text);font-size:.94rem;}
 .books-grid{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
 .book-card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;cursor:pointer;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;overflow:hidden;display:flex;flex-direction:column;gap:10px;}
 .book-card::before{content:'';position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(135deg,var(--book-accent,var(--gold)),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;pointer-events:none;transition:opacity .18s ease;}
@@ -1220,6 +1256,15 @@ html,body{height:100%;}
   .books-logo{font-size:1.75rem;line-height:1.1;margin-bottom:8px;}
   .books-tagline{font-size:.73rem;letter-spacing:1.5px;line-height:1.4;}
   .books-date{font-size:.75rem;line-height:1.45;margin-bottom:20px;}
+  .books-global-search{gap:9px;margin-bottom:18px;}
+  .books-global-searchbox{padding:8px 8px 8px 12px;border-radius:18px;flex-wrap:wrap;}
+  .books-global-searchbox input{font-size:16px;min-height:26px;}
+  .books-global-searchbtn{width:100%;min-height:44px;border-radius:13px;}
+  .books-global-searchmeta{font-size:.72rem;}
+  .books-global-results{padding:14px;border-radius:18px;}
+  .books-global-bookhits{display:grid;grid-template-columns:1fr;}
+  .books-global-actions{display:grid;grid-template-columns:1fr 1fr;width:100%;}
+  .books-global-action{width:100%;min-height:42px;}
   .books-grid{grid-template-columns:1fr;gap:12px;}
   .book-card{padding:18px;min-height:176px;border-radius:18px!important;gap:8px;}
   .book-top{gap:12px;}
@@ -1465,8 +1510,9 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
   .palette-legend .pal-leg{justify-content:space-between;font-size:.66rem;}
 }
 </style>
-<script src="../theme.js"></script>
+<script src="../theme.js?v=2"></script>
 <link rel="stylesheet" href="../bpsc-theme.css">
+<link rel="stylesheet" href="pyq-lab.css?v=5">
 </head>
 <body>
 <a class="exam-portal-return" href="../index.html" aria-label="Back to exam selection">← Exam Portal</a>
@@ -1508,6 +1554,18 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
         }catch(e){}
       })();
     </script>
+    <section class="books-global-search" aria-label="Search across all BPSC data">
+      <div class="books-global-searchbox">
+        <span class="books-global-searchicon" aria-hidden="true">🔎</span>
+        <input id="books-global-search-input" type="search" placeholder="Search all books, chapters, questions, options, explanations…" autocomplete="off">
+        <button type="button" class="books-global-searchbtn" id="books-global-search-btn">Search</button>
+      </div>
+      <div class="books-global-searchmeta">
+        <span id="books-global-search-status">Integrated search across all BPSC data.</span>
+        <button type="button" class="books-global-clear" id="books-global-search-clear" hidden>Clear</button>
+      </div>
+      <div class="books-global-results" id="books-global-results" hidden></div>
+    </section>
     <div class="books-grid" id="books-grid">
       <div style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:.85rem;padding:40px;">Loading books…</div>
     </div>
@@ -3818,7 +3876,15 @@ function backToSetup(){clearInterval(timerInterval);showScreen('setup-screen');b
 function goHome(){clearInterval(timerInterval);showScreen('setup-screen');buildDashboard();}
 function confirmHome(){const ans=state.answers?.filter(a=>!isSkippedAnswer(a)).length||0;if(ans>0&&!confirm('Exit quiz? Progress will be lost.'))return;backToSetup();}
 
-function applyTheme(t){document.documentElement.setAttribute('data-theme',t);[document.getElementById('theme-btn'),document.getElementById('theme-btn-q'),document.getElementById('theme-btn-books')].forEach(btn=>{if(btn)btn.textContent=t==='light'?'\uD83C\uDF19':'\u2600\uFE0F';});localStorage.setItem('gc_theme',t);}
+function applyTheme(t){
+  const hasSharedTheme=window.ExamPortalTheme&&typeof window.ExamPortalTheme.apply==='function';
+  const safe=hasSharedTheme?window.ExamPortalTheme.apply(t):(t==='dark'?'dark':'light');
+  if(!hasSharedTheme){
+    document.documentElement.setAttribute('data-theme',safe);
+    document.documentElement.style.colorScheme=safe;
+  }
+  [document.getElementById('theme-btn'),document.getElementById('theme-btn-q'),document.getElementById('theme-btn-books')].forEach(btn=>{if(btn)btn.textContent=safe==='light'?'\uD83C\uDF19':'\u2600\uFE0F';});
+}
 function toggleTheme(){const cur=document.documentElement.getAttribute('data-theme')||'light';applyTheme(cur==='dark'?'light':'dark');}
 
 document.addEventListener('keydown',function(e){
@@ -4867,6 +4933,237 @@ async function renderBooksScreen(){
   });
 }
 
+const GLOBAL_BOOK_SEARCH_BOOK_LIMIT=8;
+const GLOBAL_BOOK_SEARCH_QUESTION_LIMIT=24;
+let globalBookSearchIndex=null,globalBookSearchPromise=null,globalBookSearchTimer=null,globalBookSearchToken=0;
+let globalBookSearchState={query:'',bookHits:[],questionHits:[]};
+
+function normalizeGlobalSearchText(value){
+  const raw=typeof normalizeBookText==='function'?normalizeBookText(value):String(value??'');
+  return String(raw).replace(/\s+/g,' ').trim();
+}
+function resolveBookFilePathFor(book,file){
+  if(/^(https?:)?\/\//.test(file))return file;
+  let clean=String(file||'').replace(/^(\.\/)+/,'').replace(/^\/+/,'');
+  const dir=String(book&&book.dataDir||'').replace(/\/+$/,'');
+  if(!dir||dir==='.')return clean;
+  if(clean===dir||clean.indexOf(dir+'/')===0)return clean;
+  return dir+'/'+clean.replace(/^data\//,'');
+}
+function subjectsFromChapterIndexForBook(book,index){
+  return (index||[]).map(s=>({id:s.key,name:s.label||s.key,icon:s.emoji||'📘',file:resolveBookFilePathFor(book,s.file),rawFile:s.file}));
+}
+function bookDataCandidatesForBook(book,subj){
+  const raw=String((subj&&(subj.rawFile||subj.file))||'').replace(/^(\.\/)+/,'');
+  const dir=String(book&&book.dataDir||'').replace(/\/+$/,'');
+  const base=raw.split('/').pop();
+  const key=subj&&subj.id?String(subj.id):'';
+  const list=[];
+  const add=p=>{if(p&&list.indexOf(p)===-1)list.push(p);};
+  add(resolveBookFilePathFor(book,raw));
+  add(raw);
+  if(dir&&dir!=='.'){
+    if(base)add(dir+'/'+base);
+    if(key)add(dir+'/'+key+'.json');
+  }
+  if(subj)add(subj.file);
+  return list;
+}
+async function fetchBookDataForBook(book,subj){
+  const candidates=bookDataCandidatesForBook(book,subj);
+  for(let i=0;i<candidates.length;i++){
+    const url=candidates[i];
+    let resp;
+    try{resp=await fetch(url);}catch(err){continue;}
+    if(!resp.ok)continue;
+    try{
+      const data=await resp.json();
+      if(data&&typeof data==='object')return data;
+    }catch(err){}
+  }
+  throw new Error('Could not load search data for '+((book&&book.title)||'book')+' / '+((subj&&subj.name)||'subject'));
+}
+function globalBookSearchPreview(text,maxLen){
+  const clean=normalizeGlobalSearchText(text);
+  return clean.length>maxLen?clean.slice(0,maxLen-1).trim()+'…':clean;
+}
+function globalBookSearchScore(entry,query,tokens){
+  let score=0;
+  const addScore=(text,startsWeight,containsWeight,tokenWeight)=>{
+    if(!text)return;
+    if(query&&text.startsWith(query))score+=startsWeight;
+    else if(query&&text.includes(query))score+=containsWeight;
+    tokens.forEach(token=>{if(text.includes(token))score+=tokenWeight;});
+  };
+  addScore(entry.primary||'',120,80,14);
+  addScore(entry.meta||'',56,38,8);
+  addScore(entry.details||'',20,12,3);
+  return score;
+}
+async function loadGlobalBookSearchEntries(book){
+  let chapterIndex=[];
+  try{
+    const res=await fetch(resolveBookChaptersUrl(book));
+    if(!res.ok)throw new Error('chapters '+res.status);
+    chapterIndex=await res.json();
+  }catch(error){
+    console.warn('Global search skipped book index',book&&book.id,error&&error.message);
+    return [];
+  }
+  const subjects=subjectsFromChapterIndexForBook(book,chapterIndex);
+  const entries=await Promise.all(subjects.map(async subj=>{
+    try{
+      const data=await fetchBookDataForBook(book,subj);
+      let idx=0;
+      const out=[];
+      (data.chapters||[]).forEach(ch=>{
+        const chName=ch.chapter_name||ch.name||'General';
+        (ch.questions||[]).forEach(q=>{
+          const internal=toInternalQuestion(q,subj.id,idx++,chName);
+          const type=getQuestionType(internal);
+          const primary=normalizeGlobalSearchText(internal.question||q.q||q.question||'').toLowerCase();
+          const meta=normalizeGlobalSearchText([book.title,book.tag,book.subtitle,subj.name,chName,internal.sub_topic,type,internal.exam,internal.year].filter(Boolean).join(' ')).toLowerCase();
+          const details=normalizeGlobalSearchText([Object.values(internal.options||{}).join(' '),internal.explanation||'',internal.note||''].join(' ')).toLowerCase();
+          out.push({
+            key:'gs_'+book.id+'_'+subj.id+'_'+idx,
+            bookId:book.id,
+            bookTitle:book.title||book.id,
+            bookTag:book.tag||'',
+            bookColor:book.color||'#C9897B',
+            subjectId:subj.id,
+            subjectName:subj.name||subj.id,
+            chapter:chName,
+            type,
+            question:internal,
+            preview:globalBookSearchPreview(internal.question||q.q||q.question||'',220),
+            primary,meta,details,
+            search:[primary,meta,details].join(' ')
+          });
+        });
+      });
+      return out;
+    }catch(error){
+      console.warn('Global search skipped subject',book&&book.id,subj&&subj.id,error&&error.message);
+      return [];
+    }
+  }));
+  return entries.flat();
+}
+async function ensureGlobalBookSearchIndex(){
+  if(globalBookSearchIndex)return globalBookSearchIndex;
+  if(globalBookSearchPromise)return globalBookSearchPromise;
+  globalBookSearchPromise=Promise.all((BOOKS||[]).map(loadGlobalBookSearchEntries)).then(list=>{
+    globalBookSearchIndex=list.flat();
+    return globalBookSearchIndex;
+  }).catch(error=>{globalBookSearchPromise=null;throw error;});
+  return globalBookSearchPromise;
+}
+function renderGlobalBookSearchMessage(title,copy,cls){
+  const host=document.getElementById('books-global-results');
+  if(!host)return;
+  host.hidden=false;
+  host.innerHTML=`<div class="${cls||'books-global-loading'}"><strong>${title}</strong><div>${copy}</div></div>`;
+}
+function resetGlobalBookSearchResults(){
+  const host=document.getElementById('books-global-results');
+  const status=document.getElementById('books-global-search-status');
+  const clearBtn=document.getElementById('books-global-search-clear');
+  if(host){host.hidden=true;host.innerHTML='';}
+  if(status)status.textContent='Integrated search across all books, subjects, chapters, questions, options and explanations.';
+  if(clearBtn)clearBtn.hidden=true;
+  globalBookSearchState={query:'',bookHits:[],questionHits:[]};
+}
+function renderGlobalBookSearchResults(){
+  const host=document.getElementById('books-global-results');
+  const status=document.getElementById('books-global-search-status');
+  const clearBtn=document.getElementById('books-global-search-clear');
+  if(!host||!status||!clearBtn)return;
+  const {query,bookHits,questionHits}=globalBookSearchState;
+  if(!query){resetGlobalBookSearchResults();return;}
+  clearBtn.hidden=false;
+  status.textContent=`${(bookHits.length+questionHits.length).toLocaleString()} search results for “${query}” across all data.`;
+  host.hidden=false;
+  if(!bookHits.length&&!questionHits.length){
+    host.innerHTML='<div class="books-global-empty"><strong>No match found.</strong><div>Try a subject, chapter, keyword, exam name or concept from any book.</div></div>';
+    return;
+  }
+  host.innerHTML=`
+    ${bookHits.length?`<section class="books-global-section"><div class="books-global-sectionhead"><h3>Matching books</h3><span>${bookHits.length} shown</span></div><div class="books-global-bookhits">${bookHits.map(book=>`<button type="button" class="books-global-chip" data-global-book-id="${escapeHtml(book.id)}"><span>${escapeHtml(book.title)}</span><b>${escapeHtml(book.tag||'Open')}</b></button>`).join('')}</div></section>`:''}
+    ${questionHits.length?`<section class="books-global-section"><div class="books-global-sectionhead"><h3>Question hits</h3><span>Top ${questionHits.length} matches from all books</span></div><div class="books-global-list">${questionHits.map((hit,index)=>`<article class="books-global-card"><div class="books-global-cardtop"><span class="books-global-badge book">${escapeHtml(hit.bookTitle)}</span><span class="books-global-badge subject">${escapeHtml(hit.subjectName)}</span><span class="books-global-badge chapter">${escapeHtml(hit.chapter)}</span><span class="books-global-badge type">${escapeHtml(hit.type)}</span></div><h4>${escapeHtml(hit.preview||'Question')}</h4><p class="books-global-snippet">${escapeHtml(hit.question.explanation?globalBookSearchPreview(hit.question.explanation,180):'Open this question directly, or jump into its book for wider practice.')}</p><div class="books-global-actions"><button type="button" class="books-global-action ghost" data-global-book-id="${escapeHtml(hit.bookId)}">Open book</button><button type="button" class="books-global-action primary" data-global-practice-index="${index}">Practice this question</button></div></article>`).join('')}</div></section>`:''}`;
+}
+function runGlobalBookSearch(){
+  const input=document.getElementById('books-global-search-input');
+  const query=normalizeGlobalSearchText(input&&input.value||'').toLowerCase();
+  const token=++globalBookSearchToken;
+  if(!query){resetGlobalBookSearchResults();return;}
+  const tokens=query.split(/\s+/).filter(Boolean);
+  const bookHits=(BOOKS||[]).map(book=>{
+    const entry={id:book.id,title:book.title||book.id,search:normalizeGlobalSearchText([book.title,book.tag,book.subtitle,book.description].filter(Boolean).join(' ')).toLowerCase(),primary:normalizeGlobalSearchText(book.title||book.id).toLowerCase(),meta:normalizeGlobalSearchText([book.tag,book.subtitle].filter(Boolean).join(' ')).toLowerCase(),details:normalizeGlobalSearchText(book.description||'').toLowerCase()};
+    if(tokens.some(token=>!entry.search.includes(token)))return null;
+    return Object.assign(book,{score:globalBookSearchScore(entry,query,tokens)});
+  }).filter(Boolean).sort((a,b)=>b.score-a.score).slice(0,GLOBAL_BOOK_SEARCH_BOOK_LIMIT);
+  globalBookSearchState={query,bookHits,questionHits:[]};
+  renderGlobalBookSearchMessage('Searching all data…',`Scanning every book, subject, chapter, question, option and explanation for “${escapeHtml(query)}”.`,'books-global-loading');
+  const status=document.getElementById('books-global-search-status');
+  const clearBtn=document.getElementById('books-global-search-clear');
+  if(status)status.textContent=`Searching across ${BOOKS.length} books…`;
+  if(clearBtn)clearBtn.hidden=false;
+  ensureGlobalBookSearchIndex().then(index=>{
+    if(token!==globalBookSearchToken)return;
+    const questionHits=index.map(hit=>({hit,score:globalBookSearchScore(hit,query,tokens)}))
+      .filter(item=>item.score>0&&tokens.every(token=>item.hit.search.includes(token)))
+      .sort((a,b)=>b.score-a.score||(a.hit.preview||'').length-(b.hit.preview||'').length)
+      .slice(0,GLOBAL_BOOK_SEARCH_QUESTION_LIMIT)
+      .map(item=>item.hit);
+    globalBookSearchState={query,bookHits,questionHits};
+    renderGlobalBookSearchResults();
+  }).catch(error=>{
+    if(token!==globalBookSearchToken)return;
+    console.error('Global search failed:',error);
+    renderGlobalBookSearchMessage('Search is not ready yet.','The integrated search index could not be built right now. Please try again in a moment.','books-global-empty');
+    if(status)status.textContent='Integrated search could not load every data file right now.';
+  });
+}
+function queueGlobalBookSearch(){clearTimeout(globalBookSearchTimer);globalBookSearchTimer=setTimeout(runGlobalBookSearch,150);}
+async function openGlobalBookSearchQuestion(index){
+  const hit=(globalBookSearchState.questionHits||[])[Number(index)];
+  if(!hit)return;
+  await openBook(hit.bookId);
+  currentSubjectId=hit.subjectId;
+  selectedChapters=new Set([hit.chapter]);
+  allQuestions=[hit.question];
+  chapterMap={[hit.chapter]:[hit.question]};
+  startQuiz('supersearch',[hit.question]);
+}
+function setupGlobalBookSearch(){
+  const input=document.getElementById('books-global-search-input');
+  const btn=document.getElementById('books-global-search-btn');
+  const clearBtn=document.getElementById('books-global-search-clear');
+  const results=document.getElementById('books-global-results');
+  if(input&&!input.dataset.bound){
+    input.dataset.bound='1';
+    input.addEventListener('input',queueGlobalBookSearch);
+    input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();runGlobalBookSearch();}});
+  }
+  if(btn&&!btn.dataset.bound){btn.dataset.bound='1';btn.addEventListener('click',runGlobalBookSearch);}
+  if(clearBtn&&!clearBtn.dataset.bound){clearBtn.dataset.bound='1';clearBtn.addEventListener('click',()=>{if(input)input.value='';resetGlobalBookSearchResults();input&&input.focus();});}
+  if(results&&!results.dataset.bound){
+    results.dataset.bound='1';
+    results.addEventListener('click',event=>{
+      const bookButton=event.target.closest('[data-global-book-id]');
+      if(bookButton){openBook(bookButton.dataset.globalBookId);return;}
+      const practiceButton=event.target.closest('[data-global-practice-index]');
+      if(practiceButton){openGlobalBookSearchQuestion(practiceButton.dataset.globalPracticeIndex);}
+    });
+  }
+}
+function warmGlobalBookSearch(){
+  if(globalBookSearchIndex||globalBookSearchPromise||!BOOKS.length)return;
+  const start=()=>ensureGlobalBookSearchIndex().catch(()=>{});
+  if(window.requestIdleCallback)window.requestIdleCallback(start,{timeout:1800});
+  else setTimeout(start,900);
+}
+
 function showBooksScreen(){
   clearInterval(timerInterval);
   showScreen('books-screen');
@@ -4927,21 +5224,21 @@ let navLayoutTimer=null;
 window.addEventListener('resize',()=>{clearTimeout(navLayoutTimer);navLayoutTimer=setTimeout(layoutSetupNav,120);});
 
 function init(){
-  const saved=localStorage.getItem('gc_theme');
-  let theme=saved||'light';
-  if(!saved&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)theme='dark';
-  applyTheme(theme);
+  applyTheme('light');
   // Lightweight placeholder until a book is chosen.
-  buildSubjectsGrid();buildDashboard();updateAllBadges();layoutSetupNav();
+  buildSubjectsGrid();buildDashboard();updateAllBadges();layoutSetupNav();setupGlobalBookSearch();
   document.body.dataset.activeScreen='books-screen';
+  resetGlobalBookSearchResults();
   // Always land on the book-selection screen; never auto-reopen the last book.
   loadBooksManifest().then(()=>{
     renderBooksScreen();
     showScreen('books-screen');
+    warmGlobalBookSearch();
   });
 }
 init();
 </script>
+<script src="pyq-lab.js?v=6"></script>
 </body>
 </html>
 
