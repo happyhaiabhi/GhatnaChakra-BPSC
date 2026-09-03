@@ -23,3 +23,7 @@ __pycache__/
 # Consolidated-notes build intermediates (regenerate via scripts/)
 build_consolidated/figures/
 build_physics/figures/
+
+# Scratch backups from tools/split-bpsc.js
+*.bak
+_site/

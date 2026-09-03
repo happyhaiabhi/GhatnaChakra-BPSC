@@ -50,6 +50,19 @@ Only files required by the running browser application were imported into
 - `css/`
 - `js/`
 
+`js/` holds real modules. The standalone app's `js/app.js` and `js/quiz.js`
+were leftovers — they loaded `data/chapters.json` and navigated to a
+`quiz.html` that does not exist in the integrated runtime, and no HTML file
+referenced them — so they were deleted. `js/` was then repopulated by
+`tools/split-bpsc.js`, which lifted the ~190 KB inline script out of
+`index.html` into ordered, single-purpose files (`00-data.js` …
+`14-boot.js`) plus `date-banner.js`.
+
+Because `main/bpsc/` is now hand-refactored rather than a verbatim copy,
+`scripts/sync_bpsc_runtime.py` carries a warning at the top of its docstring:
+syncing from a pre-split `bpsc-source` would undo this migration *and* drop
+any feature added to `bpsc/index.html` since — the PYQ Lab included.
+
 The imported runtime contains 10 registered books and 50 referenced subject
 files. Every manifest, chapters index and subject-file path is validated by
 the sync script (18,395 question objects in total; the core Ghatna Chakra

@@ -5,6 +5,19 @@ The combined portal keeps the complete BPSC browser application under bpsc/
 (index.html, books/, data/, css/, js/). When the upstream BPSC project ships
 updates, run this script from the repository root:
 
+    !! READ THIS FIRST !!
+    main/bpsc/ is no longer a verbatim copy of the standalone BPSC app. Its
+    342 KB single-file index.html has been split into bpsc/css/*.css and
+    bpsc/js/*.js (see tools/split-bpsc.js), and the standalone app's leftover
+    js/app.js and js/quiz.js were deleted. Running this script against a
+    bpsc-source branch that predates that split would REPLACE the split
+    runtime with the monolith and silently undo the migration — along with any
+    feature added to bpsc/index.html since (the PYQ Lab, for one).
+
+    If bpsc-source still holds the pre-split app, either re-apply the split
+    after syncing (node tools/split-bpsc.js) or retire this script and treat
+    main/bpsc/ as canonical.
+
     python scripts/sync_bpsc_runtime.py
 
 How it works:
