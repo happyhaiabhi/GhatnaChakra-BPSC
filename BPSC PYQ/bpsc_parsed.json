@@ -17375,12 +17375,12 @@
       },
       {
         "q_no": 9,
-        "stem": "Find the missing number from the given alternatives: 28 20 7 \\",
+        "stem": "Find the missing number from the given alternatives:\n28 20 7\n84 ? 12\n45 25 9",
         "options": {
-          "A": "84 ? 12 \\",
-          "B": "45 25 9",
+          "A": "20",
+          "B": "35",
           "C": "30",
-          "D": "35"
+          "D": "25"
         },
         "answer": null
       },
@@ -17672,7 +17672,7 @@
       },
       {
         "q_no": 36,
-        "stem": "Which of the following statement/s is/are correct about Capability Poverty Measure (CPM) developed by the UNDP? 1) CPM includes child malnutrition... 2) Female illiteracy... 3) It considers male illiteracy... 4) It includes lack of access to clean drinking water...",
+        "stem": "Which of the following statement/s is/are correct about Capability Poverty Measure (CPM) developed by the UNDP?\n1. CPM includes child malnutrition as a proxy for lack of health and nourishment.\n2. Female illiteracy is included to reflect deprivation in education and knowledge.\n3. It considers male illiteracy as a key indicator of capability poverty.\n4. It includes lack of access to clean drinking water as an important indicator of capability poverty.\nSelect the correct answer using the codes given below:",
         "options": {
           "A": "1 and 2",
           "B": "1, 2 and 3",
@@ -17696,9 +17696,9 @@
         "q_no": 38,
         "stem": "According to India State of Forest Report 2023 (ISFR 2023):",
         "options": {
-          "A": "The total forest and tree cover of the country is 15%...",
-          "B": "Top three states having largest recorded forest area...",
-          "C": "The maximum tree cover has been found in the State of Maharashtra...",
+          "A": "The total forest and tree cover of the country is 15% of the geographical area of the country.",
+          "B": "Top three states having largest recorded forest area (RFA) are Jharkhand, Andaman & Nicobar and Manipur.",
+          "C": "The maximum tree cover has been found in the State of Maharashtra followed by Rajasthan and Uttar Pradesh.",
           "D": "More than one of the above"
         },
         "answer": null
@@ -17719,7 +17719,7 @@
         "stem": "Which of the following statement/s is/are NOT CORRECT about the U-WIN portal of Ministry of Health and Family welfare?",
         "options": {
           "A": "It provides QR-based e-vaccination certificates",
-          "B": "It facilitates the creation of Ayushman Bharat Health Accounts (ABHA)...",
+          "B": "It facilitates the creation of Ayushman Bharat Health Accounts (ABHA) for parents and children.",
           "C": "The portal is accessible in 11 regional languages",
           "D": "None of the above"
         },
@@ -17795,9 +17795,9 @@
         "q_no": 47,
         "stem": "According to Annual PLFS 2023-24 report:",
         "options": {
-          "A": "There is greater increase in Labour Force Participation Rate (LFPR) of rural females...",
-          "B": "Among the 36 states and union territories, 90% states have a Workforce Participation Rate (WPR)...",
-          "C": "The share of female workers in agriculture has decreased significantly...",
+          "A": "There is greater increase in Labour Force Participation Rate (LFPR) of rural females as compared to urban females since 2021-22.",
+          "B": "Among the 36 states and union territories, 90% states have a Workforce Participation Rate (WPR) (for all ages) below the national average of 43.7 percent.",
+          "C": "The share of female workers in agriculture has decreased significantly from 2017-18 to 2023-24.",
           "D": "More than one of the above"
         },
         "answer": null
@@ -17826,7 +17826,7 @@
       },
       {
         "q_no": 50,
-        "stem": "Which of the following statement/s is/are correct regarding the Indian cement industry? 1) Around 87%... 2) India is the largest... 3) Most cement plants...",
+        "stem": "Which of the following statement/s is/are correct regarding the Indian cement industry?\n1. Around 87% of India's cement industry is concentrated in a few major states like Rajasthan, Andhra Pradesh and Madhya Pradesh.\n2. India is the largest producer of cement in the world.\n3. Most cement plants in India are located far from raw material sources and near the ports to support exports.\nSelect the correct answer using the codes given below:",
         "options": {
           "A": "1",
           "B": "2",
@@ -17861,16 +17861,16 @@
         "q_no": 53,
         "stem": "Which of the following statement/s is/are correct about Bihar's economic performance in 2023-24?",
         "options": {
-          "A": "Bihar's per capita GSDP at current prices increased by 12.8%...",
+          "A": "Bihar's per capita GSDP at current prices increased by 12.8% in 2023-24 over the previous year.",
           "B": "The estimated share of the tertiary sector in Bihar's GSVA (constant prices) in 2023-24 was 58.6%.",
-          "C": "The Gross Fixed Capital Formation (GFCF) formed 4.6% of GSDP...",
+          "C": "The Gross Fixed Capital Formation (GFCF) formed 4.6% of GSDP at current prices in 2023-24.",
           "D": "More than one of the above"
         },
         "answer": null
       },
       {
         "q_no": 54,
-        "stem": "Consider the following statements: 1) The proportion of the young population... 2) Bihar's demographic dividend... 3) The elderly population...",
+        "stem": "Consider the following statements:\n1. The proportion of the young population (0-19 years) in Bihar is projected to decline significantly by 2041.\n2. Bihar's demographic dividend is expected to peak around 2041.\n3. The elderly population (60+ years) in Bihar is expected to rise more sharply than in India.\nSelect the correct answer using the codes given below:",
         "options": {
           "A": "1 and 2 are correct",
           "B": "1 and 3 are correct",
@@ -17925,7 +17925,7 @@
       },
       {
         "q_no": 59,
-        "stem": "Which of the following Directive Principles do not follow Gandhian Principles? 1) Organization of Village Panchayats 2) Common Civil Code 3) Promotion of cottage Industry... 4) Right to work",
+        "stem": "Which of the following Directive Principles do not follow Gandhian Principles?\n1. Organization of Village Panchayats\n2. Common Civil Code\n3. Promotion of cottage industry in rural areas\n4. Right to work",
         "options": {
           "A": "1 and 2",
           "B": "Only 2",
@@ -17947,7 +17947,7 @@
       },
       {
         "q_no": 61,
-        "stem": "Consider the following statements about Central Government: 1) Ministries and Departments are formed... 2) Every Minister is allocated Ministry...",
+        "stem": "Consider the following statements about Central Government:\n1. Ministries and Departments are formed by the Prime Minister with consultation of the Cabinet Secretary.\n2. Every Minister is allocated a Ministry by the President on the advice of the Prime Minister.\nOut of these:",
         "options": {
           "A": "Only 1 is correct",
           "B": "Only 2 is correct",
@@ -17960,7 +17960,7 @@
         "q_no": 62,
         "stem": "What is true about the proceedings of the State Legislature?",
         "options": {
-          "A": "Business in the legislature shall be transacted only in official language...",
+          "A": "Business in the legislature shall be transacted only in official language of the state or in Hindi or in English.",
           "B": "Advocate General has right to vote",
           "C": "It can discuss the conduct of any judge of the High Court also",
           "D": "Validity of proceedings shall be called in question on the ground of any alleged irregularity"
@@ -17991,7 +17991,7 @@
       },
       {
         "q_no": 65,
-        "stem": "Consider the following statements: 1) The summoning of the House... 2) Prorogation ends a session 3) Dissolution terminates... 4) Prorogation of a session can be effected... Out of these which is not true?",
+        "stem": "Consider the following statements:\n1. The summoning of the House means convocation.\n2. Prorogation ends a session.\n3. Dissolution terminates a House.\n4. Prorogation of a session can be effected by the leader of the House alone.\nOut of these, which is not true?",
         "options": {
           "A": "2 and 3",
           "B": "1 and 3",
@@ -18013,7 +18013,7 @@
       },
       {
         "q_no": 67,
-        "stem": "The Atmanirbhar Bharat Scheme announced by the Government helps in: 1) Enhancing India's manufacturing... 2) Incentivizing foreign investments...",
+        "stem": "The Atmanirbhar Bharat Scheme announced by the Government helps in:\n1. Enhancing India's manufacturing capabilities and exports across the industries.\n2. Incentivizing foreign investments for domestic production.\nOut of these:",
         "options": {
           "A": "1 is correct",
           "B": "2 is correct",
@@ -18134,7 +18134,7 @@
       },
       {
         "q_no": 78,
-        "stem": "\"We shall either free India or die in the attempt...\" who said it?",
+        "stem": "\"We shall either free India or die in the attempt\" — who said it?",
         "options": {
           "A": "Jawaharlal Nehru",
           "B": "Mahatma Gandhi",
@@ -18222,7 +18222,7 @@
       },
       {
         "q_no": 86,
-        "stem": "Match List I with List II: Places in Ancient India vs Presently in which State",
+        "stem": "Match List I with List II.\nList-I (Places in Ancient India)\nList-II (Presently in which State)\na. Karmasuvarna 1. Maharashtra\nb. Pragjyotish 2. Gujarat\nc. Girnar 3. West Bengal\nd. Pratishthan 4. Assam",
         "options": {
           "A": "a-4, b-3, c-1, d-2",
           "B": "a-3, b-4, c-2, d-1",
@@ -18244,7 +18244,7 @@
       },
       {
         "q_no": 88,
-        "stem": "Match List I with List II (Event/Place vs Connected with Person)",
+        "stem": "Match List I with List II.\nList-I (Event/Place)\nList-II (Connected with Person)\na. Chola Gangam Lake 1. Chandragupta Maurya\nb. Appointment of Dharma Mahamatra 2. Harshavardhan\nc. Assembly at Prayag 3. Rajendra I\nd. Sudarshan Lake 4. Ashoka",
         "options": {
           "A": "a-3, b-4, c-2, d-1",
           "B": "a-1, b-4, c-2, d-3",
@@ -18288,7 +18288,7 @@
       },
       {
         "q_no": 92,
-        "stem": "Match List I with List II (Building vs Built by)",
+        "stem": "Match List I with List II.\nList-I (Building)\nList-II (Built by)\na. Kabuli Bagh Mosque 1. Qutb ud-Din Aibak\nb. Adhai Din Ka Jhopra 2. Nur Jahan\nc. Allahabad Fort 3. Akbar\nd. Itmad-ud-Daulah Mausoleum 4. Babar",
         "options": {
           "A": "a-4, b-1, c-3, d-2",
           "B": "a-2, b-1, c-4, d-3",
@@ -18310,7 +18310,7 @@
       },
       {
         "q_no": 94,
-        "stem": "Match List I with List II (Father vs Son)",
+        "stem": "Match List I with List II.\nList-I (Father)\nList-II (Son)\na. Babar 1. Salim\nb. Akbar 2. Khusrau\nc. Shah Jahan 3. Kamran\nd. Jahangir 4. Murad",
         "options": {
           "A": "a-4, b-1, c-3, d-2",
           "B": "a-3, b-1, c-4, d-2",
@@ -18376,7 +18376,7 @@
       },
       {
         "q_no": 100,
-        "stem": "Match List I with List II (Event/Organisation vs Related Person in Bihar)",
+        "stem": "Match List I with List II.\nList-I (Event/Organisation)\nList-II (Related Person in Bihar)\na. Champaran Satyagrah 1. Jayaprakash Narayan\nb. Azad Dasta 2. Shyam Narayan Singh\nc. Individual Satyagraha in Bihar (1940) 3. Sahajanand Saraswati\nd. Kisan Sabha, Bihar 4. Dr. Rajendra Prasad",
         "options": {
           "A": "a-4, b-2, c-3, d-1",
           "B": "a-2, b-3, c-1, d-4",
@@ -18673,9 +18673,9 @@
       },
       {
         "q_no": 127,
-        "stem": "The focal distance of a plane mirror is",
+        "stem": "The focal distance of a plane mirror is:",
         "options": {
-          "A": "#ERROR!",
+          "A": "+1 cm",
           "B": "-1 cm",
           "C": "2 cm",
           "D": "Infinity"

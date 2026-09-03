@@ -1,15 +1,9 @@
-/* Shared portal-wide colour mode. One setting controls portal, UPSC and BPSC. */
+/* Shared portal-wide colour mode. Pages now always open in normal mode
+   (light). Night mode still works when the user clicks the toggle, but the
+   choice is not persisted across reloads. */
 (() => {
-  const STORAGE_KEY = 'exam_portal_theme';
-  const LEGACY_BPSC_KEY = 'gc_theme';
-
   function readTheme() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      return saved === 'light' || saved === 'dark' ? saved : 'dark';
-    } catch (_) {
-      return 'dark';
-    }
+    return 'light';
   }
 
   function updateControls(theme) {
@@ -23,17 +17,10 @@
     });
   }
 
-  function applyTheme(theme, persist = true) {
-    const safeTheme = theme === 'light' ? 'light' : 'dark';
+  function applyTheme(theme) {
+    const safeTheme = theme === 'dark' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', safeTheme);
     document.documentElement.style.colorScheme = safeTheme;
-    if (persist) {
-      try {
-        localStorage.setItem(STORAGE_KEY, safeTheme);
-        // The imported BPSC application reads this legacy key on startup.
-        localStorage.setItem(LEGACY_BPSC_KEY, safeTheme);
-      } catch (_) { /* storage can be unavailable in strict file previews */ }
-    }
     updateControls(safeTheme);
     document.dispatchEvent(new CustomEvent('examportalthemechange', { detail: { theme: safeTheme } }));
     return safeTheme;
@@ -43,27 +30,14 @@
     return applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
   }
 
-  // Runs synchronously in <head> to prevent a bright flash before CSS loads.
+  // Runs synchronously in <head> so every page starts in normal mode.
   applyTheme(readTheme());
 
-  document.addEventListener('DOMContentLoaded', () => updateControls(document.documentElement.getAttribute('data-theme') || 'dark'));
+  document.addEventListener('DOMContentLoaded', () => updateControls(document.documentElement.getAttribute('data-theme') || 'light'));
   document.addEventListener('click', (event) => {
     const toggle = event.target.closest?.('[data-theme-toggle]');
     if (toggle) toggleTheme();
   });
-  window.addEventListener('storage', (event) => {
-    if (event.key === STORAGE_KEY && (event.newValue === 'light' || event.newValue === 'dark')) {
-      applyTheme(event.newValue, false);
-    }
-  });
 
-  // The BPSC application still writes the legacy key from its own theme
-  // buttons. Listening here keeps every open tab on the shared mode.
-  window.addEventListener('storage', (event) => {
-    if (event.key === LEGACY_BPSC_KEY && (event.newValue === 'light' || event.newValue === 'dark')) {
-      applyTheme(event.newValue, false);
-    }
-  });
-
-  window.ExamPortalTheme = { apply: applyTheme, toggle: toggleTheme, current: () => document.documentElement.getAttribute('data-theme') || 'dark' };
+  window.ExamPortalTheme = { apply: applyTheme, toggle: toggleTheme, current: () => document.documentElement.getAttribute('data-theme') || 'light' };
 })();
