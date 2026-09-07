@@ -934,10 +934,10 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
   .quiz-bottombar .btn-next,.quiz-bottombar .btn-submit-all{flex:1 1 auto;min-width:96px;font-size:.86rem;font-weight:800;letter-spacing:.2px;border-radius:10px;display:flex;align-items:center;justify-content:center;}
 
   /* question palette: floating action button + bottom sheet */
-  .palette-toggle{position:absolute;top:auto;right:10px;bottom:10px;width:48px;height:48px;transform:none;border-radius:50%;border:1.5px solid var(--gold);background:var(--surface);color:var(--gold);font-size:1rem;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:4;}
+  .palette-toggle{position:absolute;top:auto;right:12px;bottom:calc(64px + env(safe-area-inset-bottom));width:48px;height:48px;transform:none;border-radius:50%;border:1.5px solid var(--gold);background:var(--surface);color:var(--gold);font-size:1rem;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:7;}
   .palette-toggle:hover{background:var(--surface);border-color:var(--gold);color:var(--gold);}
   .palette-toggle-icon{margin-top:0;font-size:1.15rem;line-height:1;}
-  .quiz-body:not(.palette-collapsed) .palette-toggle{right:10px;}
+  .quiz-body:not(.palette-collapsed) .palette-toggle{right:12px;bottom:calc(64px + env(safe-area-inset-bottom));}
   .quiz-body:not(.palette-collapsed) .palette-scrim{display:block;position:absolute;inset:0;background:rgba(12,8,16,.45);z-index:5;}
   .palette-panel{display:flex;position:absolute;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;max-height:72vh;max-height:min(72dvh,560px);border-radius:22px 22px 0 0;border:1px solid var(--border);border-bottom:none;padding:8px 14px calc(16px + env(safe-area-inset-bottom));box-shadow:0 -18px 48px rgba(0,0,0,.4);z-index:6;transform:translateY(105%);transition:transform .28s cubic-bezier(.4,0,.2,1);overflow-y:auto;-webkit-overflow-scrolling:touch;gap:10px;}
   .quiz-body:not(.palette-collapsed) .palette-panel{transform:translateY(0);top:auto;left:0;right:0;bottom:0;width:100%;max-width:none;z-index:6;box-shadow:0 -18px 48px rgba(0,0,0,.4);}
@@ -947,4 +947,64 @@ body[data-active-screen="quiz-screen"] .exam-portal-return{display:none;}
   .pal-btn{min-height:44px;font-size:.8rem;border-radius:9px;}
   .palette-legend{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;}
   .palette-legend .pal-leg{justify-content:space-between;font-size:.66rem;}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   MOBILE SCROLL CORRECTNESS — fix clipping & dead zones on phones
+   Every screen must be exactly 100dvh tall so the body (locked to
+   overflow:hidden on mobile) never hides content behind the mobile
+   address bar. Several screens set min-height:100vh inline (or via
+   #pyq-screen); vh > dvh while the address bar is visible, which
+   made the last items permanently unreachable. !important overrides
+   both inline styles and ID selectors.
+   ════════════════════════════════════════════════════════════════ */
+@media(max-width:599px){
+  /* Lock every screen to the dynamic viewport and kill stray vh sizing */
+  .screen{height:100dvh!important;max-height:100dvh!important;min-height:0!important;}
+  /* The active screen is the scroll container; inner wrappers must not
+     fight the flex height chain with their own 100vh minimums */
+  .screen>.pyq-shell,
+  .screen>div[style*="100vh"]{min-height:0!important;}
+
+  /* PYQ Lab: it is a plain scrolling document screen (no fixed bars) */
+  #pyq-screen{padding:12px 12px calc(20px + env(safe-area-inset-bottom))!important;
+              align-items:stretch!important;overflow-y:auto!important;
+              -webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
+  #pyq-screen .pyq-shell{max-width:760px;margin:0 auto;width:100%;}
+
+  /* Result + study banks / notes / history are also document-scroll screens */
+  #result-screen,
+  #bloom-screen,#mistake-screen,#bookmark-screen,#skip-screen,
+  #archive-screen,#history-screen,#notes-screen{
+    overflow-y:auto!important;overflow-x:hidden!important;
+    -webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
+
+  /* The fixed "← Exam Portal" pill overlaps the in-screen Back buttons on
+     phones; those screens already provide their own Back control. It stays
+     visible on the books / PYQ screens which have no other way back. */
+  body[data-active-screen="setup-screen"] .exam-portal-return,
+  body[data-active-screen="quiz-screen"] .exam-portal-return,
+  body[data-active-screen="result-screen"] .exam-portal-return,
+  body[data-active-screen="bloom-screen"] .exam-portal-return,
+  body[data-active-screen="mistake-screen"] .exam-portal-return,
+  body[data-active-screen="bookmark-screen"] .exam-portal-return,
+  body[data-active-screen="skip-screen"] .exam-portal-return,
+  body[data-active-screen="archive-screen"] .exam-portal-return,
+  body[data-active-screen="history-screen"] .exam-portal-return,
+  body[data-active-screen="notes-screen"] .exam-portal-return{display:none;}
+
+  /* These document-scroll screens need comfortable, safe-area aware
+     padding (longhand here beats the earlier shorthand block). */
+  #bloom-screen,#mistake-screen,#bookmark-screen,#skip-screen,
+  #archive-screen,#history-screen,#notes-screen{
+    padding:14px 12px calc(20px + env(safe-area-inset-bottom))!important;}
+
+  /* Defensive: nothing should force a horizontal scrollbar on phones */
+  .q-text,.rev-q,.bank-q,.opt-text,.modal-box,.pyq-shell,.books-wrap,.setup-main{
+    min-width:0;}
+  img,table,pre,.explanation,.review-item,.bank-item{max-width:100%;}
+
+  /* Modal body scrolls on its own and never extends past the sheet */
+  .modal-body{max-height:none!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch;}
+  .modal-box{display:flex;flex-direction:column;max-height:calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom))!important;}
 }
