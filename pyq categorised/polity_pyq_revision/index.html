@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BPSC Polity PYQ Revision</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --bg2: #1a2332;
+    --bg3: #243044;
+    --card: #1e2a3a;
+    --border: #2d3a4d;
+    --text: #e8eef5;
+    --muted: #8b9cb3;
+    --accent: #3b82f6;
+    --accent2: #60a5fa;
+    --green: #22c55e;
+    --green-bg: rgba(34,197,94,.15);
+    --red: #ef4444;
+    --red-bg: rgba(239,68,68,.15);
+    --orange: #f59e0b;
+    --orange-bg: rgba(245,158,11,.15);
+    --purple: #a78bfa;
+    --radius: 12px;
+    --shadow: 0 4px 24px rgba(0,0,0,.35);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+  a { color: var(--accent2); text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; }
+
+  /* Layout */
+  .app { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: 300px; min-width: 300px;
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+    position: sticky; top: 0; height: 100vh;
+    overflow: hidden;
+  }
+  .sidebar-head {
+    padding: 20px 18px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .sidebar-head h1 {
+    font-size: 1.05rem; font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .sidebar-head p { font-size: 0.75rem; color: var(--muted); margin-top: 4px; }
+  .progress-wrap { margin-top: 12px; }
+  .progress-bar {
+    height: 8px; background: var(--bg3); border-radius: 99px; overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; background: linear-gradient(90deg, var(--accent), var(--green));
+    border-radius: 99px; transition: width .35s ease; width: 0%;
+  }
+  .progress-meta {
+    display: flex; justify-content: space-between;
+    font-size: 0.72rem; color: var(--muted); margin-top: 6px;
+  }
+
+  .search-box {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .search-box input {
+    width: 100%; padding: 9px 12px;
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-size: 0.85rem;
+    outline: none;
+  }
+  .search-box input:focus { border-color: var(--accent); }
+
+  .topic-list {
+    flex: 1; overflow-y: auto; padding: 8px;
+  }
+  .topic-item {
+    display: flex; align-items: center; gap: 10px;
+    width: 100%; text-align: left;
+    padding: 10px 12px; border-radius: 8px;
+    background: transparent; color: var(--text);
+    margin-bottom: 2px; transition: background .15s;
+  }
+  .topic-item:hover { background: var(--bg3); }
+  .topic-item.active {
+    background: rgba(59,130,246,.18);
+    outline: 1px solid rgba(59,130,246,.4);
+  }
+  .topic-item .rank {
+    font-size: 0.65rem; font-weight: 700; color: var(--muted);
+    min-width: 18px;
+  }
+  .topic-item .name { flex: 1; font-size: 0.82rem; font-weight: 500; }
+  .topic-item .badge {
+    font-size: 0.68rem; font-weight: 600;
+    padding: 2px 7px; border-radius: 99px;
+    background: var(--bg3); color: var(--muted);
+  }
+  .topic-item .badge.done { background: var(--green-bg); color: var(--green); }
+  .topic-item .badge.partial { background: var(--orange-bg); color: var(--orange); }
+
+  .sidebar-foot {
+    padding: 12px; border-top: 1px solid var(--border);
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .btn-sm {
+    flex: 1; min-width: 40%;
+    padding: 8px 10px; border-radius: 8px;
+    font-size: 0.75rem; font-weight: 600;
+    background: var(--bg3); color: var(--text);
+  }
+  .btn-sm:hover { background: var(--border); }
+  .btn-sm.danger { color: var(--red); }
+
+  /* Main */
+  .main {
+    flex: 1; overflow-y: auto;
+    padding: 24px 28px 60px;
+    max-width: 900px;
+  }
+  .topbar {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    align-items: center; justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .topbar h2 { font-size: 1.35rem; font-weight: 700; }
+  .topbar .sub { font-size: 0.85rem; color: var(--muted); }
+  .mode-toggle {
+    display: flex; background: var(--bg2); border-radius: 10px;
+    padding: 3px; border: 1px solid var(--border);
+  }
+  .mode-toggle button {
+    padding: 8px 16px; border-radius: 8px;
+    font-size: 0.8rem; font-weight: 600;
+    background: transparent; color: var(--muted);
+  }
+  .mode-toggle button.active {
+    background: var(--accent); color: #fff;
+  }
+
+  /* Home dashboard */
+  .dash-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px; margin-bottom: 28px;
+  }
+  .stat-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px;
+  }
+  .stat-card .label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .stat-card .value { font-size: 1.6rem; font-weight: 700; margin-top: 4px; }
+  .stat-card .value.green { color: var(--green); }
+  .stat-card .value.red { color: var(--red); }
+  .stat-card .value.blue { color: var(--accent2); }
+
+  .topic-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+  }
+  .tcard {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px;
+    cursor: pointer; transition: border-color .15s, transform .1s;
+    text-align: left; color: var(--text); width: 100%;
+  }
+  .tcard:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .tcard h3 { font-size: 0.95rem; margin-bottom: 8px; }
+  .tcard .meta { font-size: 0.78rem; color: var(--muted); display: flex; justify-content: space-between; }
+  .tcard .mini-bar {
+    height: 4px; background: var(--bg3); border-radius: 99px;
+    margin-top: 10px; overflow: hidden;
+  }
+  .tcard .mini-fill {
+    height: 100%; background: var(--accent); border-radius: 99px;
+  }
+
+  /* Question card */
+  .q-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .q-meta {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    margin-bottom: 14px;
+  }
+  .chip {
+    font-size: 0.7rem; font-weight: 600;
+    padding: 3px 9px; border-radius: 99px;
+    background: var(--bg3); color: var(--muted);
+  }
+  .chip.exam { background: rgba(59,130,246,.15); color: var(--accent2); }
+  .chip.status-correct { background: var(--green-bg); color: var(--green); }
+  .chip.status-wrong { background: var(--red-bg); color: var(--red); }
+  .chip.status-skip { background: var(--orange-bg); color: var(--orange); }
+
+  .q-stem {
+    font-size: 1.02rem; font-weight: 500;
+    margin-bottom: 16px; line-height: 1.55;
+  }
+  .options { display: flex; flex-direction: column; gap: 8px; }
+  .opt {
+    display: flex; gap: 12px; align-items: flex-start;
+    width: 100%; text-align: left;
+    padding: 12px 14px; border-radius: 10px;
+    background: var(--bg2); border: 1.5px solid var(--border);
+    color: var(--text); font-size: 0.9rem;
+    transition: border-color .12s, background .12s;
+  }
+  .opt:hover:not(:disabled) { border-color: var(--accent); }
+  .opt:disabled { cursor: default; }
+  .opt .key {
+    font-weight: 700; color: var(--accent2);
+    min-width: 22px;
+  }
+  .opt.selected { border-color: var(--accent); background: rgba(59,130,246,.12); }
+  .opt.correct {
+    border-color: var(--green); background: var(--green-bg);
+  }
+  .opt.correct .key { color: var(--green); }
+  .opt.wrong {
+    border-color: var(--red); background: var(--red-bg);
+  }
+  .opt.wrong .key { color: var(--red); }
+
+  .q-actions {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-top: 16px; padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .btn {
+    padding: 9px 16px; border-radius: 8px;
+    font-size: 0.85rem; font-weight: 600;
+  }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:hover { background: #2563eb; }
+  .btn-primary:disabled { opacity: .45; cursor: not-allowed; }
+  .btn-ghost {
+    background: transparent; color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { color: var(--text); border-color: var(--muted); }
+  .btn-success { background: var(--green); color: #fff; }
+  .feedback {
+    margin-top: 12px; padding: 10px 14px; border-radius: 8px;
+    font-size: 0.88rem; font-weight: 600;
+  }
+  .feedback.ok { background: var(--green-bg); color: var(--green); }
+  .feedback.bad { background: var(--red-bg); color: var(--red); }
+  .feedback.info { background: var(--orange-bg); color: var(--orange); }
+
+  .nav-row {
+    display: flex; justify-content: space-between; gap: 12px;
+    margin-top: 8px; margin-bottom: 24px;
+  }
+
+  .quiz-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 16px; flex-wrap: wrap; gap: 10px;
+  }
+  .quiz-counter {
+    font-size: 0.9rem; color: var(--muted);
+  }
+  .quiz-counter strong { color: var(--text); }
+
+  /* Results */
+  .results-box {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; text-align: center;
+  }
+  .results-box .score {
+    font-size: 3rem; font-weight: 800;
+    background: linear-gradient(135deg, var(--accent2), var(--green));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .results-box p { color: var(--muted); margin: 8px 0 20px; }
+  .results-stats {
+    display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .results-stats div { text-align: center; }
+  .results-stats .n { font-size: 1.4rem; font-weight: 700; }
+  .results-stats .l { font-size: 0.75rem; color: var(--muted); }
+
+  .empty {
+    text-align: center; padding: 60px 20px; color: var(--muted);
+  }
+
+  .mobile-bar {
+    display: none;
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--bg2); border-top: 1px solid var(--border);
+    padding: 10px 14px; z-index: 50;
+    gap: 8px;
+  }
+
+  @media (max-width: 800px) {
+    .sidebar {
+      position: fixed; left: 0; top: 0; bottom: 0;
+      z-index: 100; transform: translateX(-100%);
+      transition: transform .25s ease;
+    }
+    .sidebar.open { transform: translateX(0); }
+    .main { padding: 16px 14px 80px; max-width: 100%; }
+    .mobile-bar { display: flex; }
+    .backdrop {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,.5); z-index: 90;
+    }
+    .backdrop.show { display: block; }
+  }
+
+  .filter-row {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 16px;
+  }
+  .filter-row button {
+    padding: 6px 12px; border-radius: 99px;
+    font-size: 0.75rem; font-weight: 600;
+    background: var(--bg2); color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .filter-row button.on {
+    background: rgba(59,130,246,.2); color: var(--accent2);
+    border-color: var(--accent);
+  }
+
+  .kbd {
+    font-size: 0.65rem; padding: 1px 5px; border-radius: 4px;
+    background: var(--bg3); color: var(--muted);
+    border: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+<div class="backdrop" id="backdrop" onclick="closeSidebar()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <h1>BPSC Polity PYQs</h1>
+      <p>Topic-wise revision · Laxmikanth mapped</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="globalProgress"></div></div>
+        <div class="progress-meta">
+          <span id="globalProgressText">0 / 0 attempted</span>
+          <span id="globalAccuracy">—</span>
+        </div>
+      </div>
+    </div>
+    <div class="search-box">
+      <input type="search" id="topicSearch" placeholder="Search topics..." oninput="renderTopicList()" />
+    </div>
+    <div class="topic-list" id="topicList"></div>
+    <div class="sidebar-foot">
+      <button class="btn-sm" onclick="showHome()">Dashboard</button>
+      <button class="btn-sm" onclick="startAllQuiz()">Quiz All</button>
+      <button class="btn-sm" onclick="showWrongOnly()">Wrong only</button>
+      <button class="btn-sm danger" onclick="resetProgress()">Reset</button>
+    </div>
+  </aside>
+
+  <main class="main" id="main"></main>
+</div>
+
+<div class="mobile-bar">
+  <button class="btn btn-ghost" style="flex:1" onclick="toggleSidebar()">Topics</button>
+  <button class="btn btn-primary" style="flex:1" onclick="showHome()">Home</button>
+</div>
+
+<script>
+const DATA = {"meta": {"title": "BPSC Polity PYQ Revision", "total": 115, "topics_count": 29}, "topics": [{"id": "local-government", "name": "Local Government", "count": 24, "questions": [{"exam": "56-59th BPSC (2015)", "q_no": 25, "stem": "The Decentralisation System was recommended by", "options": [{"key": "A", "text": "C Rajagopalachari"}, {"key": "B", "text": "J B Kripalani"}, {"key": "C", "text": "Balwant Rai Mehta"}, {"key": "D", "text": "Ashok Mehta"}], "answer": "C", "answer_raw": "C"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 127, "stem": "A Panchayat Samiti at the block level in India is only a/an", "options": [{"key": "A", "text": "Advisory Body"}, {"key": "B", "text": "Consultative Committee"}, {"key": "C", "text": "Co-ordinating and Supervisory Authority"}, {"key": "D", "text": "Administrative Authority"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "C", "answer_raw": "(c)"}, {"exam": "63rd BPSC", "q_no": 1, "stem": "Which one of the following Committees/Commissions recommended the creation of Nyaya Panchayats?", "options": [{"key": "A", "text": "Balwant Rai Mehta Committee"}, {"key": "B", "text": "Ashok Mehta Committee"}, {"key": "C", "text": "G. V. K. Rao Committee"}, {"key": "D", "text": "Sarkaria Commission"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(B)"}, {"exam": "63rd BPSC", "q_no": 2, "stem": "Which one of the following functions is not the concern of Local Self-Government?", "options": [{"key": "A", "text": "Public Health"}, {"key": "B", "text": "Sanitation"}, {"key": "C", "text": "Public Utility Services"}, {"key": "D", "text": "Maintenance of Public Order"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "D", "answer_raw": "(D)"}, {"exam": "63rd BPSC", "q_no": 3, "stem": "The system of Panchayati Raj is mentioned in", "options": [{"key": "A", "text": "The Union List"}, {"key": "B", "text": "The State List"}, {"key": "C", "text": "The Concurrent List"}, {"key": "D", "text": "None of the above"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(B)"}, {"exam": "63rd BPSC", "q_no": 4, "stem": "50% reservation for women in Panchayati Raj Institutions is legalized in certain States such asI. BiharII. UttarakhandIII. Madhya PradeshIV. Himachal Pradesh", "options": [{"key": "A", "text": "Only II and III"}, {"key": "B", "text": "Only II and IV"}, {"key": "C", "text": "II, III and IV"}, {"key": "D", "text": "I, II, III and IV"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "D", "answer_raw": "(D)"}, {"exam": "64th BPSC", "q_no": 98, "stem": "Which one of the following Articles directs the State Governments to organize the Panchayats?", "options": [{"key": "A", "text": "Article 33"}, {"key": "B", "text": "Article 40"}, {"key": "C", "text": "Article 48"}, {"key": "D", "text": "Article 50"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Article 40***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 44, "stem": "Which of the following was constituted under the Panchayati Raj system?", "options": [{"key": "A", "text": "Khap Panchayat"}, {"key": "B", "text": "Caste Panchayat"}, {"key": "C", "text": "Gram Panchayat"}, {"key": "D", "text": "Jan Panchayat"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **(C)***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 45, "stem": "Who amongst the following is a land record officer?", "options": [{"key": "A", "text": "Patwari"}, {"key": "B", "text": "Lambardar"}, {"key": "C", "text": "Zamindar"}, {"key": "D", "text": "Zaildar"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **(A)***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 47, "stem": "What is the objective of Community Development Programmes?", "options": [{"key": "A", "text": "Providing educational facilities"}, {"key": "B", "text": "Improving standards of living"}, {"key": "C", "text": "Political training"}, {"key": "D", "text": "Helping villages in planning"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **(E)***"}], "answer": "", "answer_raw": ""}, {"exam": "66th BPSC", "q_no": 105, "stem": "Which Article gives the list of 29 functions to be performed by the Panchayati Raj Institutions?", "options": [{"key": "A", "text": "Article 243(H)"}, {"key": "B", "text": "Article 243(E)"}, {"key": "C", "text": "Article 243(F)"}, {"key": "D", "text": "Article 243(G)"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **Article 243(G)***"}], "answer": "", "answer_raw": ""}, {"exam": "66th BPSC", "q_no": 107, "stem": "The legislative origins of the 73rd Constitutional Amendment Act can be traced back to which Constitutional Amendment Bill?", "options": [{"key": "A", "text": "61st Constitutional Amendment Bill"}, {"key": "B", "text": "62nd Constitutional Amendment Bill"}, {"key": "C", "text": "63rd Constitutional Amendment Bill"}, {"key": "D", "text": "64th Constitutional Amendment Bill"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **64th Constitutional Amendment Bill***"}], "answer": "", "answer_raw": ""}, {"exam": "66th BPSC", "q_no": 109, "stem": "Which one of the following is not the characteristic of decentralization?", "options": [{"key": "A", "text": "Autonomy"}, {"key": "B", "text": "People's participation"}, {"key": "C", "text": "To instil non-confidence among local communities"}, {"key": "D", "text": "To empower local communities"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **To instil non-confidence among local communities***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 1, "stem": "Which State does not have Panchayat system?", "options": [{"key": "A", "text": "Meghalaya"}, {"key": "B", "text": "Kerala"}, {"key": "C", "text": "Nagaland"}, {"key": "D", "text": "Mizoram"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **None of the above/More than one of the above (Meghalaya, Nagaland, and Mizoram all lack this system)***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 4, "stem": "To review the financial position of Panchayats, the State Government constitutes every five years a/an", "options": [{"key": "A", "text": "advisory commission"}, {"key": "B", "text": "advisory committee"}, {"key": "C", "text": "finance commission"}, {"key": "D", "text": "finance committee"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **finance commission***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 5, "stem": "What is the objective of community development?", "options": [{"key": "A", "text": "Environment protection"}, {"key": "B", "text": "Harmonious life"}, {"key": "C", "text": "Economic development"}, {"key": "D", "text": "Build human capital"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **None of the above/More than one of the above (It encompasses multiple objectives)***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 4, "stem": "Consider the following statements : In the post-73rd Amendment era, there has to be decentralization of 1. decision-making powers 2. system as a whole 3. judicial powers 4. administrative powers. Which of the above statements are correct?", "options": [{"key": "A", "text": "1, 2 and 3 only"}, {"key": "B", "text": "1, 2 and 4 only"}, {"key": "C", "text": "2, 3 and 4 only"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **1, 2 and 4 only***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 7, "stem": "The minimum age for contesting elections to the Panchayati Raj Institutions should be how many years according to the 73rd Constitutional Amendment Act?", "options": [{"key": "A", "text": "21 years"}, {"key": "B", "text": "25 years"}, {"key": "C", "text": "18 years"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **21 years***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 9, "stem": "At what level does a Panchayat Samiti operate a Panchayati Raj structure?", "options": [{"key": "A", "text": "District level"}, {"key": "B", "text": "Gram Panchayat level"}, {"key": "C", "text": "Block-level body"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Block-level body***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 10, "stem": "Which one of the following was established as the first programme of community development?", "options": [{"key": "A", "text": "National Extension Service"}, {"key": "B", "text": "Integrated Rural Development Programme"}, {"key": "C", "text": "Cooperation Movement"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **National Extension Service***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 84, "stem": "Under Article \"243J\" which of the following can make provisions to the maintenance of accounts by Panchayats?", "options": [{"key": "A", "text": "Parliament"}, {"key": "B", "text": "State Legislature"}, {"key": "C", "text": "District Collector"}, {"key": "D", "text": "State Finance Commission\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **State Legislature***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 59, "stem": "Which of the following Directive Principles do not follow Gandhian Principles? 1) Organization of Village Panchayats 2) Common Civil Code 3) Promotion of cottage Industry... 4) Right to work", "options": [{"key": "A", "text": "1 and 2"}, {"key": "B", "text": "Only 2"}, {"key": "C", "text": "2 and 4"}, {"key": "D", "text": "1 and 3"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 66, "stem": "Who is empowered to review financial position of the Panchayats?", "options": [{"key": "A", "text": "Chief Minister"}, {"key": "B", "text": "Chairman of Block Committee"}, {"key": "C", "text": "Chairman of District Council"}, {"key": "D", "text": "Finance Commission constituted by the Governor"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 68, "stem": "What is the main purpose of Panchayati Raj?", "options": [{"key": "A", "text": "To increase agriculture production"}, {"key": "B", "text": "To increase employment"}, {"key": "C", "text": "To increase people's political awareness"}, {"key": "D", "text": "To enable people to participate in development administration"}], "answer": "", "answer_raw": ""}]}, {"id": "parliament", "name": "Parliament", "count": 21, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 122, "stem": "Vote on Account is meant for", "options": [{"key": "A", "text": "Vote on the report of CAG"}, {"key": "B", "text": "To meet unforeseen expenditure"}, {"key": "C", "text": "Appropriating funds pending passing of budget"}, {"key": "D", "text": "Budget"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "C", "answer_raw": "(c)"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 124, "stem": "Which officer of the Government of India has the right to take part in the proceedings of Parliament of India even though he is not a member?", "options": [{"key": "A", "text": "Vice-President"}, {"key": "B", "text": "Attorney General of India"}, {"key": "C", "text": "Comptroller and Auditor General"}, {"key": "D", "text": "Election Commissioner"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 128, "stem": "A seat of M.P. can be declared vacant if he absents himself from the house for a continuous period of", "options": [{"key": "A", "text": "Six months"}, {"key": "B", "text": "Two months"}, {"key": "C", "text": "Three months"}, {"key": "D", "text": "One year"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "63rd BPSC", "q_no": 5, "stem": "Money Bill can be presented", "options": [{"key": "A", "text": "only in the Lok Sabha"}, {"key": "B", "text": "only in the Rajya Sabha"}, {"key": "C", "text": "in both the Houses"}, {"key": "D", "text": "in joint meeting of both the Houses"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "A", "answer_raw": "(A)"}, {"exam": "63rd BPSC", "q_no": 8, "stem": "Who is the Ex Officio Chairman of the Rajya Sabha?", "options": [{"key": "A", "text": "The President"}, {"key": "B", "text": "The Vice President"}, {"key": "C", "text": "The Prime Minister"}, {"key": "D", "text": "None of the above"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(B)"}, {"exam": "63rd BPSC", "q_no": 10, "stem": "What is the minimum age for a Member of the Parliament?", "options": [{"key": "A", "text": "18 years"}, {"key": "B", "text": "21 years"}, {"key": "C", "text": "25 years"}, {"key": "D", "text": "30 years"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "C", "answer_raw": "(C)"}, {"exam": "64th BPSC", "q_no": 94, "stem": "In order to be chosen a member of the Lok Sabha, a person must not be less than the age of", "options": [{"key": "A", "text": "18 years"}, {"key": "B", "text": "21 years"}, {"key": "C", "text": "25 years"}, {"key": "D", "text": "30 years"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **25 years***"}], "answer": "", "answer_raw": ""}, {"exam": "64th BPSC", "q_no": 96, "stem": "In which Article of the Constitution of India was the provision for reservation of scheduled castes in the Lok Sabha made?", "options": [{"key": "A", "text": "Article 330"}, {"key": "B", "text": "Article 331"}, {"key": "C", "text": "Article 332"}, {"key": "D", "text": "Article 333"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Article 330***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 43, "stem": "Which one of the following statements is correct regarding parliamentary form of Government?", "options": [{"key": "A", "text": "The Legislature is responsible to Judiciary."}, {"key": "B", "text": "The Legislature is responsible to Executive."}, {"key": "C", "text": "The Legislature and the Executive are independent."}, {"key": "D", "text": "The President is responsible to Judiciary."}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **(E)***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 2, "stem": "The division of each State into territorial constituencies for the Lok Sabha is done by the Delimitation Commission. This delimitation has been freezed till which year?", "options": [{"key": "A", "text": "2026"}, {"key": "B", "text": "2027"}, {"key": "C", "text": "2024"}, {"key": "D", "text": "2025"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **2026***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 8, "stem": "Generally how many sessions are there in the Lok Sabha?", "options": [{"key": "A", "text": "5"}, {"key": "B", "text": "6"}, {"key": "C", "text": "3"}, {"key": "D", "text": "4"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **3***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 5, "stem": "The representation in the Rajya Sabha includes", "options": [{"key": "A", "text": "members directly elected by citizens"}, {"key": "B", "text": "members indirectly elected by citizens through their representatives"}, {"key": "C", "text": "members nominated by the President of India"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **More than one of the above***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 101, "stem": "Consider the following statements about the collegium system : 1. The Supreme Court collegium is a five-member body. 2. Parliament by law has evolved the collegium system. 3. Judges of SC and HC are appointed only through collegium. 4. Introduced in 1993 by Justice P. N. Bhagwati in First Judges Case. Which of the above statements is/are correct?", "options": [{"key": "A", "text": "Only 1"}, {"key": "B", "text": "1 and 2"}, {"key": "C", "text": "3 and 4"}, {"key": "D", "text": "1 and 3\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **1 and 3***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 110, "stem": "Under which Article(s), the Speaker can allow any member of the House to speak in his/her mother tongue?", "options": [{"key": "A", "text": "Article 110 (1)"}, {"key": "B", "text": "Article 122 (2)"}, {"key": "C", "text": "Article 120 (1)"}, {"key": "D", "text": "Both (A) and (B)\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Article 120 (1)***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 105, "stem": "Which Article of the Constitution restrict a Member of Parliament to hold the office of profit?", "options": [{"key": "A", "text": "Article 102 (1) (c)"}, {"key": "B", "text": "Article 102 (1) (b)"}, {"key": "C", "text": "Article 102 (1) (d)"}, {"key": "D", "text": "Article 102 (1) (a)\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **Article 102 (1) (a)***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 109, "stem": "What is the object of \"cut motion\" in Parliament?", "options": [{"key": "A", "text": "To move a proposal to reduce expenditure in the budget proposals"}, {"key": "B", "text": "To restrict day-to-day financial expenditure of the government"}, {"key": "C", "text": "To restrict grants from consolidated fund of India"}, {"key": "D", "text": "To restrict the grants of the Government\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **To move a proposal to reduce expenditure in the budget proposals***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 115, "stem": "What is the position of representation of Anglo-Indian Community in Lok Sabha?", "options": [{"key": "A", "text": "Nomination of them has been done away with by 104th Constitutional Amendment"}, {"key": "B", "text": "Two anglo-Indians are nominated by the President"}, {"key": "C", "text": "They are nominated as per their population"}, {"key": "D", "text": "One anglo-Indian is nominated by the President\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Nomination of them has been done away with by 104th Constitutional Amendment***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 125, "stem": "Among the following who has been Speaker of Lok Sabha prior to his Election as President of India?", "options": [{"key": "A", "text": "Giani Zail Singh"}, {"key": "B", "text": "V. V. Giri"}, {"key": "C", "text": "Neelam Sanjeeva Reddy"}, {"key": "D", "text": "A. P. J. Abdul Kalam\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Neelam Sanjeeva Reddy***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 136, "stem": "Size of Council of Ministers has been restricted to 15 percent of membership of Lok Sabha by which Constitutional Amendment?", "options": [{"key": "A", "text": "92nd Amendment"}, {"key": "B", "text": "95th Amendment"}, {"key": "C", "text": "91st Amendment"}, {"key": "D", "text": "93rd Amendment\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **91st Amendment***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 56, "stem": "The power to recruit the Secretarial staff of the House of the People is vested in:", "options": [{"key": "A", "text": "Prime Minister's Office (PMO)"}, {"key": "B", "text": "Union Public Service Commission"}, {"key": "C", "text": "Staff Selection Commission"}, {"key": "D", "text": "President after consultation with the Speaker of the House of the people"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 65, "stem": "Consider the following statements: 1) The summoning of the House... 2) Prorogation ends a session 3) Dissolution terminates... 4) Prorogation of a session can be effected... Out of these which is not true?", "options": [{"key": "A", "text": "2 and 3"}, {"key": "B", "text": "1 and 3"}, {"key": "C", "text": "Only 2"}, {"key": "D", "text": "Only 4"}], "answer": "", "answer_raw": ""}]}, {"id": "centre-state-relations", "name": "Centre-State Relations", "count": 9, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 129, "stem": "Match the following : I. Union List II. State list III. Concurrent list", "options": [{"key": "A", "text": "a b c"}, {"key": "B", "text": "a c b"}, {"key": "C", "text": "c a b"}, {"key": "D", "text": "c b a"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 130, "stem": "Creation of a new state requires a majority for Constitutional Amendment.", "options": [{"key": "A", "text": "Simple"}, {"key": "B", "text": "Two-third"}, {"key": "C", "text": "Three-fourth"}, {"key": "D", "text": "Two-third plus ratification by half of all states"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "A", "answer_raw": "(a)"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 144, "stem": "Which of the following Tax is levied by Union and collected and appropriated by States?", "options": [{"key": "A", "text": "Stamp duties"}, {"key": "B", "text": "Passenger & Goods Tax"}, {"key": "C", "text": "Estate Duty"}, {"key": "D", "text": "Taxes on Newspapers"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "A", "answer_raw": "(a)"}, {"exam": "64th BPSC", "q_no": 81, "stem": "After Independence, in which year were the Indian States reorganized on the linguistic basis?", "options": [{"key": "A", "text": "1947"}, {"key": "B", "text": "1951"}, {"key": "C", "text": "1956"}, {"key": "D", "text": "2000"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **1956***"}], "answer": "", "answer_raw": ""}, {"exam": "64th BPSC", "q_no": 99, "stem": "In which year did the State Jharkhand come into existence?", "options": [{"key": "A", "text": "1998"}, {"key": "B", "text": "1999"}, {"key": "C", "text": "2000"}, {"key": "D", "text": "2001"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **2000***"}], "answer": "", "answer_raw": ""}, {"exam": "64th BPSC", "q_no": 100, "stem": "In which one of the following years was Sarkaria Commission, which was empowered to recommend changes in Centre-State relations, submitted its report?", "options": [{"key": "A", "text": "1983"}, {"key": "B", "text": "1984"}, {"key": "C", "text": "1985"}, {"key": "D", "text": "1987"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **1987***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 138, "stem": "Which one of the following States was never granted the Special Category Status (SCS) by the Central Government?", "options": [{"key": "A", "text": "Bihar"}, {"key": "B", "text": "Sikkim"}, {"key": "C", "text": "Himachal Pradesh"}, {"key": "D", "text": "Jammu and Kashmir"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **(A)***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 58, "stem": "Sikkim became a full-fledged State of the Union of India in", "options": [{"key": "A", "text": "1974"}, {"key": "B", "text": "1975"}, {"key": "C", "text": "1976"}, {"key": "D", "text": "None of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **1975***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 58, "stem": "Consider the following subjects belonging to different lists of the constitution of India. Which of the following subjects belong to concurrent list? 1) Protection of wildlife 2) Income on Agriculture 3) Tax on Electricity 4) Price control", "options": [{"key": "A", "text": "1 and 4 are correct"}, {"key": "B", "text": "2 and 3 are correct"}, {"key": "C", "text": "Only 4 is correct"}, {"key": "D", "text": "Only 2 is correct"}], "answer": "", "answer_raw": ""}]}, {"id": "fundamental-rights", "name": "Fundamental Rights", "count": 8, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 125, "stem": "The Supreme Court has held that hoisting the National Flag a top the private buildings is a fundamental right of every citizen under:", "options": [{"key": "A", "text": "Article 14 of the Constitution"}, {"key": "B", "text": "Article 19 (1) (a) of the Constitution"}, {"key": "C", "text": "Article 21 of the Constitution"}, {"key": "D", "text": "Article 25 of the Constitution"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "60-62nd BPSC (Combined)", "q_no": 126, "stem": "Choose the fundamental rights available to Indian Citizen but not to aliens:", "options": [{"key": "A", "text": "I and III"}, {"key": "B", "text": "I and IV"}, {"key": "C", "text": "II and IV"}, {"key": "D", "text": "II and III"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "A", "answer_raw": "(a)"}, {"exam": "64th BPSC", "q_no": 91, "stem": "A Judge of the Supreme Court may resign his office by writing to", "options": [{"key": "A", "text": "the President"}, {"key": "B", "text": "the Prime Minister"}, {"key": "C", "text": "the Law Minister"}, {"key": "D", "text": "the Attorney General of India"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **the President***"}], "answer": "", "answer_raw": ""}, {"exam": "65th BPSC", "q_no": 49, "stem": "Which one of the following constitutional remedies is also known as 'postmortem'?", "options": [{"key": "A", "text": "Prohibition"}, {"key": "B", "text": "Mandamus"}, {"key": "C", "text": "Certiorari"}, {"key": "D", "text": "Quo warranto"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **(C)***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 1, "stem": "The phrase 'equality before law' used in Article 14 of the Indian Constitution has been borrowed from the Constitution of", "options": [{"key": "A", "text": "Britain"}, {"key": "B", "text": "USA"}, {"key": "C", "text": "France"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Britain***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 104, "stem": "From which country, the Indian Constitution has taken reference for the idea of the Fundamental Rights?", "options": [{"key": "A", "text": "Ireland"}, {"key": "B", "text": "United States of America"}, {"key": "C", "text": "United Kingdom"}, {"key": "D", "text": "Canada\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **United States of America***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 105, "stem": "Untouchability is abolished by which Article of the Indian Constitution?", "options": [{"key": "A", "text": "Article 14"}, {"key": "B", "text": "Article 15"}, {"key": "C", "text": "Article 17"}, {"key": "D", "text": "Article 22\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Article 17***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 63, "stem": "The constitution of India provides for reasonable restrictions on Fundamental Rights but reasonableness must keep in mind that:", "options": [{"key": "A", "text": "1 and 2 are correct"}, {"key": "B", "text": "2 and 3 are correct"}, {"key": "C", "text": "Only 4 is correct"}, {"key": "D", "text": "Only 1 is correct"}], "answer": "", "answer_raw": ""}]}, {"id": "supreme-court", "name": "Supreme Court", "count": 6, "questions": [{"exam": "63rd BPSC", "q_no": 7, "stem": "Who appoints the Judges of the Supreme Court of India?", "options": [{"key": "A", "text": "The Prime Minister"}, {"key": "B", "text": "The President"}, {"key": "C", "text": "The Chief Justice of India"}, {"key": "D", "text": "The Ombudsman"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(B)"}, {"exam": "63rd BPSC", "q_no": 11, "stem": "What is the retirement age of the Judges of the Supreme Court?", "options": [{"key": "A", "text": "60 years"}, {"key": "B", "text": "62 years"}, {"key": "C", "text": "65 years"}, {"key": "D", "text": "70 years"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "C", "answer_raw": "(C)"}, {"exam": "67th BPSC", "q_no": 3, "stem": "The Supreme Court is a", "options": [{"key": "A", "text": "final interpreter of the Constitution"}, {"key": "B", "text": "civil court"}, {"key": "C", "text": "federal court"}, {"key": "D", "text": "protector of human rights"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **None of the above/More than one of the above (It acts as multiple of these)***"}], "answer": "", "answer_raw": ""}, {"exam": "68th BPSC", "q_no": 6, "stem": "Which of the following is concerned with the Supreme Court of India?", "options": [{"key": "A", "text": "Appellate jurisdiction"}, {"key": "B", "text": "Original jurisdiction"}, {"key": "C", "text": "Collegium system"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **More than one of the above***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 108, "stem": "In which case(s) did the Supreme Court of India give for the first time the doctrine of ‘basic structure’ of the Constitution?", "options": [{"key": "A", "text": "Golaknath vs. State of Punjab"}, {"key": "B", "text": "Kesavananda Bharati vs. State of Kerala"}, {"key": "C", "text": "Minerva Mills vs. Union of India"}, {"key": "D", "text": "Both (A) and (B)\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Kesavananda Bharati vs. State of Kerala***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 70, "stem": "Which one of the following subjects fall within the jurisdiction of both High Court and Supreme Court?", "options": [{"key": "A", "text": "Dispute between Centre and State"}, {"key": "B", "text": "Dispute among States"}, {"key": "C", "text": "Protection of fundamental rights"}, {"key": "D", "text": "Protection from the violation of the constitution"}], "answer": "", "answer_raw": ""}]}, {"id": "miscellaneous", "name": "Miscellaneous", "count": 3, "questions": [{"exam": "56-59th BPSC (2015)", "q_no": 57, "stem": "Justice JS Verma Committee’s report, 2013 deals with", "options": [{"key": "A", "text": "Centre-State relations"}, {"key": "B", "text": "Change in law pertaining to offences against women"}, {"key": "C", "text": "The Fundamental Rights"}, {"key": "D", "text": "Rights of children"}], "answer": "B", "answer_raw": "B"}, {"exam": "71st BPSC (2025)", "q_no": 60, "stem": "Which pair is not correctly matched?", "options": [{"key": "A", "text": "Allocation of seats in the council of state - 4th schedule"}, {"key": "B", "text": "Forms of oath - 3rd schedule"}, {"key": "C", "text": "Administration of scheduled areas - 6th schedule"}, {"key": "D", "text": "Union List - 7th schedule"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 61, "stem": "Consider the following statements about Central Government: 1) Ministries and Departments are formed... 2) Every Minister is allocated Ministry...", "options": [{"key": "A", "text": "Only 1 is correct"}, {"key": "B", "text": "Only 2 is correct"}, {"key": "C", "text": "1 and 2 are correct"}, {"key": "D", "text": "Neither 1 nor 2 is correct"}], "answer": "", "answer_raw": ""}]}, {"id": "directive-principles", "name": "Directive Principles", "count": 3, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 121, "stem": "Which of the following is/are listed among the Directive Principles in Part-IV of the Constitution of India?", "options": [{"key": "A", "text": "I, II and III"}, {"key": "B", "text": "I and II"}, {"key": "C", "text": "II and III"}, {"key": "D", "text": "I, II and IV"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "69th BPSC", "q_no": 57, "stem": "The concept of the Directive Principles of State Policy in the Indian Constitution was borrowed from the Constitution of", "options": [{"key": "A", "text": "England"}, {"key": "B", "text": "Switzerland"}, {"key": "C", "text": "Ireland"}, {"key": "D", "text": "None of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Ireland***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 102, "stem": "Consider the following statements regarding the 42nd Amendment to the Constitution of India : 1. Added 'Socialist', 'Secular', 'Integrity'. 2. Added eight Fundamental Duties. 3. Added new DPSP (39A, 43A, 47). 4. Granted power to President to disqualify members of State Legislatures. Which of the above statements are incorrect ?", "options": [{"key": "A", "text": "1 and 2"}, {"key": "B", "text": "3 and 4"}, {"key": "C", "text": "2 and 3"}, {"key": "D", "text": "1 and 4\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **2 and 3***"}], "answer": "", "answer_raw": ""}]}, {"id": "making-of-the-constitution", "name": "Making of the Constitution", "count": 3, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 123, "stem": "Constitution Day of India is celebrated on", "options": [{"key": "A", "text": "2026-10-26 00:00:00"}, {"key": "B", "text": "2026-11-26 00:00:00"}, {"key": "C", "text": "2026-01-26 00:00:00"}, {"key": "D", "text": "2026-08-15 00:00:00"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(b)"}, {"exam": "68th BPSC", "q_no": 2, "stem": "What was the duration in the making of the Indian Constitution?", "options": [{"key": "A", "text": "1 year 10 months and 12 days"}, {"key": "B", "text": "2 years 10 months and 5 days"}, {"key": "C", "text": "2 years 11 months and 18 days"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **2 years 11 months and 18 days***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 135, "stem": "Indian National Flag was adopted by the Constituent Assembly on which date?", "options": [{"key": "A", "text": "1950-11-26 00:00:00"}, {"key": "B", "text": "1950-01-24 00:00:00"}, {"key": "C", "text": "1950-01-26 00:00:00"}, {"key": "D", "text": "1947-07-22 00:00:00\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **1947-07-22 00:00:00***"}], "answer": "", "answer_raw": ""}]}, {"id": "president", "name": "President", "count": 3, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 132, "stem": "President of India exercises his powers", "options": [{"key": "A", "text": "either directly or through officers subordinate to him"}, {"key": "B", "text": "through Ministers"}, {"key": "C", "text": "through Prime Minister"}, {"key": "D", "text": "through Cabinet"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "E", "answer_raw": "(e)"}, {"exam": "64th BPSC", "q_no": 97, "stem": "The President", "options": [{"key": "A", "text": "is not a part of the Parliament"}, {"key": "B", "text": "is a part of the Parliament"}, {"key": "C", "text": "is a part of the Parliament and sits in the Parliament"}, {"key": "D", "text": "can vote in the Parliament"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **is a part of the Parliament***"}], "answer": "", "answer_raw": ""}, {"exam": "67th BPSC", "q_no": 7, "stem": "The Indian President is eligible for re-election for how many times?", "options": [{"key": "A", "text": "Thrice"}, {"key": "B", "text": "Any number of times"}, {"key": "C", "text": "Once"}, {"key": "D", "text": "Twice"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Any number of times***"}], "answer": "", "answer_raw": ""}]}, {"id": "salient-features-of-the-constitution", "name": "Salient Features of the Constitution", "count": 3, "questions": [{"exam": "63rd BPSC", "q_no": 6, "stem": "What is the nature of the Indian Constitution?", "options": [{"key": "A", "text": "Federal"}, {"key": "B", "text": "Unitary"}, {"key": "C", "text": "Parliamentary"}, {"key": "D", "text": "Federal in nature but unitary in spirit"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "D", "answer_raw": "(D)"}, {"exam": "65th BPSC", "q_no": 46, "stem": "Which one of the following characteristics is not true for unitary form of Government?", "options": [{"key": "A", "text": "Swift decision"}, {"key": "B", "text": "Flexible"}, {"key": "C", "text": "Ideal for large countries"}, {"key": "D", "text": "Uniformity of laws"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **(C)***"}], "answer": "", "answer_raw": ""}, {"exam": "66th BPSC", "q_no": 104, "stem": "What is meant by 'Rule of Law'?", "options": [{"key": "A", "text": "One act for all and one judiciary for all"}, {"key": "B", "text": "One act for all and one State for all"}, {"key": "C", "text": "One State for all and one judiciary for all"}, {"key": "D", "text": "All acts for one and one judiciary for all"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **One act for all and one judiciary for all***"}], "answer": "", "answer_raw": ""}]}, {"id": "pm-council-of-ministers", "name": "PM & Council of Ministers", "count": 3, "questions": [{"exam": "63rd BPSC", "q_no": 9, "stem": "The Prime Minister of India is responsible to whom?", "options": [{"key": "A", "text": "The Cabinet"}, {"key": "B", "text": "The President"}, {"key": "C", "text": "The Lok Sabha"}, {"key": "D", "text": "The Rajya Sabha"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "C", "answer_raw": "(C)"}, {"exam": "68th BPSC", "q_no": 3, "stem": "The Council of Ministers in a State is collectively responsible to", "options": [{"key": "A", "text": "the Chief Minister"}, {"key": "B", "text": "the Governor"}, {"key": "C", "text": "the Legislative Assembly"}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **the Legislative Assembly***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 69, "stem": "What is true about Censure Motion?", "options": [{"key": "A", "text": "It is not different from No-confidence motion"}, {"key": "B", "text": "It is different from the No-confidence motion"}, {"key": "C", "text": "It is not mandatory to mention the reasons in this motion"}, {"key": "D", "text": "Permission of the House is not essential to present it"}], "answer": "", "answer_raw": ""}]}, {"id": "state-legislature", "name": "State Legislature", "count": 3, "questions": [{"exam": "65th BPSC", "q_no": 41, "stem": "Which one of the following Indian States has the largest number of members in its State Legislature?", "options": [{"key": "A", "text": "Arunachal Pradesh"}, {"key": "B", "text": "Himachal Pradesh"}, {"key": "C", "text": "Manipur"}, {"key": "D", "text": "Meghalaya"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **(B)***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 147, "stem": "Who decides the disqualification of members of State Legislative Assembly, for matters other than those in the tenth schedule of the Constitution?", "options": [{"key": "A", "text": "Governor"}, {"key": "B", "text": "Speaker Legislative Assembly"}, {"key": "C", "text": "State Election Commission"}, {"key": "D", "text": "High Court\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Speaker Legislative Assembly***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 62, "stem": "What is true about the proceedings of the State Legislature?", "options": [{"key": "A", "text": "Business in the legislature shall be transacted only in official language..."}, {"key": "B", "text": "Advocate General has right to vote"}, {"key": "C", "text": "It can discuss the conduct of any judge of the High Court also"}, {"key": "D", "text": "Validity of proceedings shall be called in question on the ground of any alleged irregularity"}], "answer": "", "answer_raw": ""}]}, {"id": "election-commission", "name": "Election Commission", "count": 3, "questions": [{"exam": "65th BPSC", "q_no": 50, "stem": "What is the version of the machine VVPAT used for voting in India?", "options": [{"key": "A", "text": "M1"}, {"key": "B", "text": "Z1"}, {"key": "C", "text": "M3"}, {"key": "D", "text": "Z3"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **(C)***"}], "answer": "", "answer_raw": ""}, {"exam": "66th BPSC", "q_no": 102, "stem": "Which Article in the Indian Constitution is related with the establishment of the Election Commission of India?", "options": [{"key": "A", "text": "Article 324"}, {"key": "B", "text": "Article 148"}, {"key": "C", "text": "Article 342"}, {"key": "D", "text": "Article 325"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Article 324***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 94, "stem": "What is the eligibility age, after the changes made in March 2024, for senior citizens to vote by postal ballot?", "options": [{"key": "A", "text": "85 years"}, {"key": "B", "text": "80 years"}, {"key": "C", "text": "82 years"}, {"key": "D", "text": "90 years\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **85 years***"}], "answer": "", "answer_raw": ""}]}, {"id": "preamble", "name": "Preamble", "count": 2, "questions": [{"exam": "60-62nd BPSC (Combined)", "q_no": 131, "stem": "The expression 'Socialist' was introduced in the Preamble of Indian Constitution by which amendment?", "options": [{"key": "A", "text": "42 Amendment"}, {"key": "B", "text": "44 Amendment"}, {"key": "C", "text": "46 Amendment"}, {"key": "D", "text": "74 Amendment"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "A", "answer_raw": "(a)"}, {"exam": "70th BPSC", "q_no": 96, "stem": "Which two words have been incorporated in the Preamble by 42nd Amendment?", "options": [{"key": "A", "text": "Democratic and socialist"}, {"key": "B", "text": "Republic and secular"}, {"key": "C", "text": "Socialist and sovereign"}, {"key": "D", "text": "Secular and socialist\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **Secular and socialist***"}], "answer": "", "answer_raw": ""}]}, {"id": "governor", "name": "Governor", "count": 2, "questions": [{"exam": "64th BPSC", "q_no": 95, "stem": "The Governor of a State is appointed by", "options": [{"key": "A", "text": "the Prime Minister"}, {"key": "B", "text": "the Chief Justice of India"}, {"key": "C", "text": "the President"}, {"key": "D", "text": "the Chief Justice of the High Court"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **the President***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 141, "stem": "By which time Governor has to return an ordinary bill to the concerned State Legislature for reconsideration?", "options": [{"key": "A", "text": "Three months"}, {"key": "B", "text": "One month"}, {"key": "C", "text": "No time limit"}, {"key": "D", "text": "Two months\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **No time limit***"}], "answer": "", "answer_raw": ""}]}, {"id": "finance-commission", "name": "Finance Commission", "count": 2, "questions": [{"exam": "64th BPSC", "q_no": 101, "stem": "Under which one of the following Articles is the formation of Finance Commission laid down?", "options": [{"key": "A", "text": "Article 280"}, {"key": "B", "text": "Article 269"}, {"key": "C", "text": "Article 268"}, {"key": "D", "text": "Article 265"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Article 280***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 64, "stem": "Who among the following determines the qualification which shall be requisite for appointment as member of the finance commission?", "options": [{"key": "A", "text": "President of India"}, {"key": "B", "text": "Council of Ministers"}, {"key": "C", "text": "Parliament by act"}, {"key": "D", "text": "Union Cabinet"}], "answer": "", "answer_raw": ""}]}, {"id": "attorney-general", "name": "Attorney General", "count": 2, "questions": [{"exam": "64th BPSC", "q_no": 102, "stem": "The Attorney General of India is appointed by", "options": [{"key": "A", "text": "the Law Minister"}, {"key": "B", "text": "the President of India"}, {"key": "C", "text": "the Speaker of the Lok Sabha"}, {"key": "D", "text": "the Prime Minister"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **the President of India***"}], "answer": "", "answer_raw": ""}, {"exam": "71st BPSC (2025)", "q_no": 57, "stem": "Attorney General of India:", "options": [{"key": "A", "text": "Is not entitled of audience except the Supreme Court"}, {"key": "B", "text": "He gives advice to the President on legal matters"}, {"key": "C", "text": "Cannot participate in the proceedings in the House of Parliament"}, {"key": "D", "text": "Is a whole time counsel for the government"}], "answer": "", "answer_raw": ""}]}, {"id": "political-parties", "name": "Political Parties", "count": 2, "questions": [{"exam": "65th BPSC", "q_no": 48, "stem": "Aam Aadmi party is a", "options": [{"key": "A", "text": "State party"}, {"key": "B", "text": "national party"}, {"key": "C", "text": "regional party"}, {"key": "D", "text": "registered party"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **(E)***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 109, "stem": "Match the following political parties listed in List–I with their years of establishment in List–II : a. CPI (Marxist) 1. 1964, b. CPI 2. 1998, c. BSP 3. 1925, d. AITC 4. 1984", "options": [{"key": "A", "text": "a-1, b-3, c-4, d-2"}, {"key": "B", "text": "a-2, b-1, c-4, d-3"}, {"key": "C", "text": "a-2, b-1, c-3, d-4"}, {"key": "D", "text": "a-3, b-4, c-1, d-2\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **a-1, b-3, c-4, d-2***"}], "answer": "", "answer_raw": ""}]}, {"id": "constitutional-amendments", "name": "Constitutional Amendments", "count": 2, "questions": [{"exam": "67th BPSC", "q_no": 10, "stem": "If 'One Nation One Election' is to be realized in India, which Article of the Indian Constitution will require an amendment?", "options": [{"key": "A", "text": "Article 356"}, {"key": "B", "text": "Article 246"}, {"key": "C", "text": "Article 83"}, {"key": "D", "text": "Article 172"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **None of the above/More than one of the above (Articles 83, 172, etc. need amendment)***"}], "answer": "", "answer_raw": ""}, {"exam": "70th BPSC", "q_no": 7, "stem": "Which Amendment to the Constitution abolished the two seats that were reserved for the Anglo-Indian community?", "options": [{"key": "A", "text": "108th"}, {"key": "B", "text": "100th"}, {"key": "C", "text": "102nd"}, {"key": "D", "text": "104th\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **104th***"}], "answer": "", "answer_raw": ""}]}, {"id": "constitutional-provisions-for-scs-sts", "name": "Constitutional Provisions for SCs/STs", "count": 2, "questions": [{"exam": "69th BPSC", "q_no": 103, "stem": "The specifications required for a community to be declared as a Scheduled Tribe are 1. indications of primitive traits 2. distinctive culture 3. shyness of contact 4. backwardness and geographical isolation", "options": [{"key": "A", "text": "Only 1 and 2"}, {"key": "B", "text": "Only 2, 3 and 4"}, {"key": "C", "text": "Only 1, 3 and 4"}, {"key": "D", "text": "All of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **All of the above***"}], "answer": "", "answer_raw": ""}, {"exam": "69th BPSC", "q_no": 107, "stem": "The Fifth Schedule deals with the governance and protection of the interests of which specific group of people?", "options": [{"key": "A", "text": "Scheduled Castes"}, {"key": "B", "text": "Religious Minorities"}, {"key": "C", "text": "Scheduled Tribes"}, {"key": "D", "text": "Linguistic Minorities\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **Scheduled Tribes***"}], "answer": "", "answer_raw": ""}]}, {"id": "civil-services", "name": "Civil Services", "count": 1, "questions": [{"exam": "63rd BPSC", "q_no": 12, "stem": "Who is the highest Civil Services Officer of the Central Government?", "options": [{"key": "A", "text": "The Attorney General of India"}, {"key": "B", "text": "The Cabinet Secretary"}, {"key": "C", "text": "The Home Secretary"}, {"key": "D", "text": "The Finance Secretary"}, {"key": "E", "text": "None of the above/More than one of the above"}], "answer": "B", "answer_raw": "(B)"}]}, {"id": "national-commissions", "name": "National Commissions", "count": 1, "questions": [{"exam": "64th BPSC", "q_no": 92, "stem": "Who was the first Chairman of the Backward Classes Commission?", "options": [{"key": "A", "text": "Jagjivan Ram"}, {"key": "B", "text": "Kaka Saheb Kalelkar"}, {"key": "C", "text": "B. D. Sharma"}, {"key": "D", "text": "B. R. Ambedkar"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Kaka Saheb Kalelkar***"}], "answer": "", "answer_raw": ""}]}, {"id": "upsc-spsc", "name": "UPSC & SPSC", "count": 1, "questions": [{"exam": "64th BPSC", "q_no": 93, "stem": "The Chairman of the State Public Service Commission is appointed by", "options": [{"key": "A", "text": "the Chairman of the Union Public Service Commission"}, {"key": "B", "text": "the President of India"}, {"key": "C", "text": "the Governor of the State"}, {"key": "D", "text": "the Chief Minister"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **the Governor of the State***"}], "answer": "", "answer_raw": ""}]}, {"id": "miscellaneous-order-of-precedence", "name": "Miscellaneous (Order of Precedence)", "count": 1, "questions": [{"exam": "65th BPSC", "q_no": 42, "stem": "In the Indian Order of Precedence, who amongst the following comes first?", "options": [{"key": "A", "text": "The Chairman of UPSC"}, {"key": "B", "text": "The Chief Election Commissioner"}, {"key": "C", "text": "The Comptroller and Auditor General"}, {"key": "D", "text": "The Chief Justice of High Court"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(E)**"}, {"key": "", "text": "Verified Answer: **(E)***"}], "answer": "", "answer_raw": ""}]}, {"id": "vice-president", "name": "Vice-President", "count": 1, "questions": [{"exam": "67th BPSC", "q_no": 6, "stem": "Electoral College for the 16th Vice Presidential Election of India for 2022 consists of how many members?", "options": [{"key": "A", "text": "545"}, {"key": "B", "text": "250"}, {"key": "C", "text": "798"}, {"key": "D", "text": "788"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(D)**"}, {"key": "", "text": "Verified Answer: **788***"}], "answer": "", "answer_raw": ""}]}, {"id": "non-constitutional-bodies", "name": "Non-Constitutional Bodies", "count": 1, "questions": [{"exam": "67th BPSC", "q_no": 9, "stem": "Who was the Chairman of the First Law Commission in Independent India?", "options": [{"key": "A", "text": "Justice T. V. Venkatarama Aiyar"}, {"key": "B", "text": "Mr. M. C. Setalvad"}, {"key": "C", "text": "Justice J. L. Kapur"}, {"key": "D", "text": "Justice V. K. Sundaram"}, {"key": "E", "text": "None of the above/More than one of the above\n\n*Correct Answer: **(B)**"}, {"key": "", "text": "Verified Answer: **Mr. M. C. Setalvad***"}], "answer": "", "answer_raw": ""}]}, {"id": "statutory-bodies", "name": "Statutory Bodies", "count": 1, "questions": [{"exam": "68th BPSC", "q_no": 8, "stem": "With reference to the Consumer Disputes Redressal at the district level in India, which one of the following statements is not correct?", "options": [{"key": "A", "text": "The State Government can establish more than one District Forum in a district if it deems fit."}, {"key": "B", "text": "One of the members of the District Forum shall be a woman."}, {"key": "C", "text": "The District Forum entertains the complaints where the value of goods or services does not exceed rupees fifty lakhs."}, {"key": "D", "text": "More than one of the above"}, {"key": "E", "text": "None of the above\n\n*Correct Answer: **(C)**"}, {"key": "", "text": "Verified Answer: **The District Forum entertains the complaints where the value of goods or services does not exceed rupees fifty lakhs. (Revised limit is higher)***"}], "answer": "", "answer_raw": ""}]}, {"id": "high-court", "name": "High Court", "count": 1, "questions": [{"exam": "69th BPSC", "q_no": 106, "stem": "The authority to determine the number of Judges in a High Court rests with which of the following entities?", "options": [{"key": "A", "text": "The President"}, {"key": "B", "text": "The Chief Minister of the State"}, {"key": "C", "text": "The Prime Minister"}, {"key": "D", "text": "The Parliament\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **The President***"}], "answer": "", "answer_raw": ""}]}, {"id": "emergency-provisions", "name": "Emergency Provisions", "count": 1, "questions": [{"exam": "69th BPSC", "q_no": 119, "stem": "Which of the following is/are the consequence(s) of invoking Article 360, declaration of a financial emergency?", "options": [{"key": "A", "text": "Only 1, 3 and 4"}, {"key": "B", "text": "Only 2"}, {"key": "C", "text": "Only 1 and 2"}, {"key": "D", "text": "All of the above\n\n*Correct Answer: **(A)**"}, {"key": "", "text": "Verified Answer: **Only 1, 3 and 4***"}], "answer": "", "answer_raw": ""}]}]};
+
+const STORAGE_KEY = 'bpsc_polity_pyq_v1';
+
+function loadState() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { answers: {} };
+  } catch { return { answers: {} }; }
+}
+function saveState(s) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(s));
+}
+let state = loadState();
+
+// qid helper
+function qid(topicId, exam, qno) {
+  return topicId + '::' + exam + '::' + qno;
+}
+
+function allQuestionsFlat() {
+  const out = [];
+  DATA.topics.forEach(t => {
+    t.questions.forEach((q, idx) => {
+      out.push({ ...q, topicId: t.id, topicName: t.name, idx });
+    });
+  });
+  return out;
+}
+
+function getProgress() {
+  const all = allQuestionsFlat();
+  let attempted = 0, correct = 0, wrong = 0;
+  const byTopic = {};
+  DATA.topics.forEach(t => {
+    byTopic[t.id] = { total: t.count, attempted: 0, correct: 0, wrong: 0 };
+  });
+  all.forEach(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    const a = state.answers[id];
+    if (!a) return;
+    attempted++;
+    byTopic[q.topicId].attempted++;
+    if (a.result === 'correct') { correct++; byTopic[q.topicId].correct++; }
+    else if (a.result === 'wrong') { wrong++; byTopic[q.topicId].wrong++; }
+  });
+  return { total: all.length, attempted, correct, wrong, byTopic };
+}
+
+function updateSidebarProgress() {
+  const p = getProgress();
+  const pct = p.total ? (p.attempted / p.total * 100) : 0;
+  document.getElementById('globalProgress').style.width = pct + '%';
+  document.getElementById('globalProgressText').textContent =
+    p.attempted + ' / ' + p.total + ' attempted';
+  const acc = (p.correct + p.wrong) ? Math.round(p.correct / (p.correct + p.wrong) * 100) : null;
+  document.getElementById('globalAccuracy').textContent =
+    acc !== null ? acc + '% accuracy' : '—';
+}
+
+let activeTopicId = null;
+let viewMode = 'home'; // home | browse | quiz | results
+let quizQueue = [];
+let quizIndex = 0;
+let quizSelected = null;
+let quizRevealed = false;
+let browseFilter = 'all'; // all | unattempted | wrong | correct
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('backdrop').classList.toggle('show');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('backdrop').classList.remove('show');
+}
+
+function renderTopicList() {
+  const q = (document.getElementById('topicSearch').value || '').toLowerCase();
+  const p = getProgress();
+  const el = document.getElementById('topicList');
+  el.innerHTML = '';
+
+  // Home shortcut
+  const homeBtn = document.createElement('button');
+  homeBtn.className = 'topic-item' + (viewMode === 'home' && !activeTopicId ? ' active' : '');
+  homeBtn.innerHTML = '<span class="rank">⌂</span><span class="name">Dashboard</span>';
+  homeBtn.onclick = () => { showHome(); closeSidebar(); };
+  el.appendChild(homeBtn);
+
+  DATA.topics.forEach((t, i) => {
+    if (q && !t.name.toLowerCase().includes(q)) return;
+    const tp = p.byTopic[t.id];
+    let badgeClass = '';
+    let badgeText = t.count;
+    if (tp.attempted === t.count && t.count > 0) {
+      badgeClass = 'done';
+      badgeText = '✓ ' + t.count;
+    } else if (tp.attempted > 0) {
+      badgeClass = 'partial';
+      badgeText = tp.attempted + '/' + t.count;
+    }
+    const btn = document.createElement('button');
+    btn.className = 'topic-item' + (activeTopicId === t.id ? ' active' : '');
+    btn.innerHTML =
+      '<span class="rank">' + (i + 1) + '</span>' +
+      '<span class="name">' + escapeHtml(t.name) + '</span>' +
+      '<span class="badge ' + badgeClass + '">' + badgeText + '</span>';
+    btn.onclick = () => { openTopic(t.id); closeSidebar(); };
+    el.appendChild(btn);
+  });
+  updateSidebarProgress();
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function showHome() {
+  activeTopicId = null;
+  viewMode = 'home';
+  renderTopicList();
+  const p = getProgress();
+  const acc = (p.correct + p.wrong) ? Math.round(p.correct / (p.correct + p.wrong) * 100) : 0;
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topbar">
+      <div>
+        <h2>Revision Dashboard</h2>
+        <div class="sub">115 BPSC Polity PYQs · ranked by exam weight</div>
+      </div>
+    </div>
+    <div class="dash-grid">
+      <div class="stat-card"><div class="label">Total PYQs</div><div class="value blue">${p.total}</div></div>
+      <div class="stat-card"><div class="label">Attempted</div><div class="value">${p.attempted}</div></div>
+      <div class="stat-card"><div class="label">Correct</div><div class="value green">${p.correct}</div></div>
+      <div class="stat-card"><div class="label">Wrong</div><div class="value red">${p.wrong}</div></div>
+      <div class="stat-card"><div class="label">Accuracy</div><div class="value">${(p.correct+p.wrong)?acc+'%':'—'}</div></div>
+      <div class="stat-card"><div class="label">Topics</div><div class="value">${DATA.topics.length}</div></div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px">
+      <button class="btn btn-primary" onclick="startAllQuiz()">Start full quiz (all topics)</button>
+      <button class="btn btn-ghost" onclick="startUnattemptedQuiz()">Quiz unattempted only</button>
+      <button class="btn btn-ghost" onclick="showWrongOnly()">Revise wrong answers</button>
+    </div>
+    <h3 style="margin-bottom:12px;font-size:1rem">Topics by priority (PYQ count)</h3>
+    <div class="topic-cards" id="topicCards"></div>
+  `;
+  const cards = document.getElementById('topicCards');
+  DATA.topics.forEach((t, i) => {
+    const tp = p.byTopic[t.id];
+    const pct = t.count ? (tp.attempted / t.count * 100) : 0;
+    const btn = document.createElement('button');
+    btn.className = 'tcard';
+    btn.onclick = () => openTopic(t.id);
+    btn.innerHTML = `
+      <h3>#${i+1} ${escapeHtml(t.name)}</h3>
+      <div class="meta">
+        <span>${t.count} questions</span>
+        <span>${tp.correct}✓ ${tp.wrong}✗ · ${tp.attempted}/${t.count}</span>
+      </div>
+      <div class="mini-bar"><div class="mini-fill" style="width:${pct}%"></div></div>
+    `;
+    cards.appendChild(btn);
+  });
+}
+
+function openTopic(topicId, mode) {
+  activeTopicId = topicId;
+  const topic = DATA.topics.find(t => t.id === topicId);
+  if (!topic) return;
+  if (mode === 'quiz') {
+    startTopicQuiz(topicId);
+    return;
+  }
+  viewMode = 'browse';
+  browseFilter = 'all';
+  renderTopicList();
+  renderBrowse(topic);
+}
+
+function renderBrowse(topic) {
+  const p = getProgress();
+  const tp = p.byTopic[topic.id];
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topbar">
+      <div>
+        <h2>${escapeHtml(topic.name)}</h2>
+        <div class="sub">${topic.count} PYQs · ${tp.attempted} attempted · ${tp.correct} correct</div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <div class="mode-toggle">
+          <button class="active" id="modeBrowse">Browse</button>
+          <button id="modeQuiz" onclick="startTopicQuiz('${topic.id}')">Quiz</button>
+        </div>
+      </div>
+    </div>
+    <div class="filter-row">
+      <button class="on" data-f="all" onclick="setBrowseFilter('all', this)">All</button>
+      <button data-f="unattempted" onclick="setBrowseFilter('unattempted', this)">Unattempted</button>
+      <button data-f="wrong" onclick="setBrowseFilter('wrong', this)">Wrong</button>
+      <button data-f="correct" onclick="setBrowseFilter('correct', this)">Correct</button>
+    </div>
+    <div id="browseList"></div>
+  `;
+  paintBrowseList(topic);
+}
+
+function setBrowseFilter(f, btn) {
+  browseFilter = f;
+  document.querySelectorAll('.filter-row button').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  const topic = DATA.topics.find(t => t.id === activeTopicId);
+  paintBrowseList(topic);
+}
+
+function paintBrowseList(topic) {
+  const list = document.getElementById('browseList');
+  list.innerHTML = '';
+  let shown = 0;
+  topic.questions.forEach((q, idx) => {
+    const id = qid(topic.id, q.exam, q.q_no);
+    const a = state.answers[id];
+    if (browseFilter === 'unattempted' && a) return;
+    if (browseFilter === 'wrong' && (!a || a.result !== 'wrong')) return;
+    if (browseFilter === 'correct' && (!a || a.result !== 'correct')) return;
+    shown++;
+    list.appendChild(buildQuestionCard(topic, q, idx, { interactive: true, showNav: false }));
+  });
+  if (!shown) {
+    list.innerHTML = '<div class="empty">No questions in this filter.</div>';
+  }
+}
+
+function buildQuestionCard(topic, q, idx, opts) {
+  const id = qid(topic.id, q.exam, q.q_no);
+  const saved = state.answers[id];
+  const wrap = document.createElement('div');
+  wrap.className = 'q-card';
+  wrap.id = 'qcard-' + id.replace(/[^a-z0-9]/gi, '_');
+
+  let statusChip = '';
+  if (saved) {
+    statusChip = `<span class="chip status-${saved.result}">${saved.result}</span>`;
+  }
+
+  const meta = document.createElement('div');
+  meta.className = 'q-meta';
+  meta.innerHTML = `
+    <span class="chip exam">${escapeHtml(q.exam)}</span>
+    <span class="chip">Q${q.q_no}</span>
+    <span class="chip">${escapeHtml(topic.name)}</span>
+    ${statusChip}
+  `;
+  wrap.appendChild(meta);
+
+  const stem = document.createElement('div');
+  stem.className = 'q-stem';
+  stem.textContent = (idx + 1) + '. ' + q.stem;
+  wrap.appendChild(stem);
+
+  const optionsDiv = document.createElement('div');
+  optionsDiv.className = 'options';
+  optionsDiv.dataset.qid = id;
+
+  const revealed = opts.forceReveal || (saved && opts.interactive);
+  const selectedKey = opts.selectedKey || (saved ? saved.chosen : null);
+
+  q.options.forEach(opt => {
+    if (!opt.key && !opt.text) return;
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.type = 'button';
+    b.dataset.key = opt.key;
+    b.innerHTML = `<span class="key">${escapeHtml(opt.key || '•')}.</span><span>${escapeHtml(opt.text)}</span>`;
+
+    if (opts.interactive && !revealed) {
+      b.onclick = () => selectOption(topic, q, idx, opt.key, wrap, opts);
+    } else {
+      b.disabled = true;
+    }
+
+    if (selectedKey && opt.key === selectedKey) b.classList.add('selected');
+
+    if (revealed && q.answer) {
+      if (opt.key === q.answer) b.classList.add('correct');
+      else if (opt.key === selectedKey && selectedKey !== q.answer) b.classList.add('wrong');
+    } else if (revealed && saved) {
+      if (opt.key === saved.chosen && saved.result === 'correct') b.classList.add('correct');
+      if (opt.key === saved.chosen && saved.result === 'wrong') b.classList.add('wrong');
+      if (q.answer && opt.key === q.answer) b.classList.add('correct');
+    }
+
+    optionsDiv.appendChild(b);
+  });
+  wrap.appendChild(optionsDiv);
+
+  const actions = document.createElement('div');
+  actions.className = 'q-actions';
+
+  if (opts.interactive) {
+    if (!revealed) {
+      const checkBtn = document.createElement('button');
+      checkBtn.className = 'btn btn-primary';
+      checkBtn.textContent = 'Check answer';
+      checkBtn.onclick = () => {
+        const sel = wrap.querySelector('.opt.selected');
+        if (!sel) { alert('Select an option first'); return; }
+        selectOption(topic, q, idx, sel.dataset.key, wrap, { ...opts, forceCheck: true });
+      };
+      actions.appendChild(checkBtn);
+
+      const revealBtn = document.createElement('button');
+      revealBtn.className = 'btn btn-ghost';
+      revealBtn.textContent = 'Reveal answer';
+      revealBtn.onclick = () => revealAnswer(topic, q, idx, wrap);
+      actions.appendChild(revealBtn);
+    } else {
+      const fb = document.createElement('div');
+      if (saved) {
+        fb.className = 'feedback ' + (saved.result === 'correct' ? 'ok' : saved.result === 'wrong' ? 'bad' : 'info');
+        fb.textContent = saved.result === 'correct'
+          ? 'Correct ✓  Answer: ' + (q.answer || saved.chosen)
+          : saved.result === 'wrong'
+            ? 'Wrong ✗  Correct answer: ' + (q.answer || 'see key')
+            : 'Answer: ' + (q.answer || 'N/A');
+      } else if (q.answer) {
+        fb.className = 'feedback info';
+        fb.textContent = 'Answer: ' + q.answer;
+      }
+      wrap.appendChild(fb);
+
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'btn btn-ghost';
+      clearBtn.textContent = 'Clear & retry';
+      clearBtn.onclick = () => {
+        delete state.answers[id];
+        saveState(state);
+        renderTopicList();
+        const t = DATA.topics.find(x => x.id === topic.id);
+        paintBrowseList(t);
+      };
+      actions.appendChild(clearBtn);
+    }
+  }
+
+  if (opts.quizMode) {
+    // handled externally
+  }
+
+  wrap.appendChild(actions);
+  return wrap;
+}
+
+function selectOption(topic, q, idx, key, wrap, opts) {
+  const id = qid(topic.id, q.exam, q.q_no);
+  // highlight selection
+  wrap.querySelectorAll('.opt').forEach(o => {
+    o.classList.toggle('selected', o.dataset.key === key);
+  });
+
+  if (!opts.forceCheck && opts.interactive) {
+    // just select, wait for check
+    return;
+  }
+
+  // grade
+  let result = 'skip';
+  if (q.answer) {
+    result = (key === q.answer) ? 'correct' : 'wrong';
+  } else {
+    result = 'correct'; // no answer key — mark chosen as noted
+  }
+  state.answers[id] = { chosen: key, result, ts: Date.now() };
+  saveState(state);
+  renderTopicList();
+
+  // re-render this card revealed
+  const parent = wrap.parentNode;
+  const next = buildQuestionCard(topic, q, idx, { interactive: true, forceReveal: true, selectedKey: key });
+  parent.replaceChild(next, wrap);
+}
+
+function revealAnswer(topic, q, idx, wrap) {
+  const id = qid(topic.id, q.exam, q.q_no);
+  if (!state.answers[id]) {
+    state.answers[id] = { chosen: q.answer || '', result: 'skip', ts: Date.now() };
+    saveState(state);
+  }
+  renderTopicList();
+  const parent = wrap.parentNode;
+  const next = buildQuestionCard(topic, q, idx, {
+    interactive: true,
+    forceReveal: true,
+    selectedKey: state.answers[id].chosen
+  });
+  parent.replaceChild(next, wrap);
+}
+
+/* ===== QUIZ MODE ===== */
+function startTopicQuiz(topicId) {
+  const topic = DATA.topics.find(t => t.id === topicId);
+  if (!topic) return;
+  activeTopicId = topicId;
+  quizQueue = topic.questions.map((q, idx) => ({ ...q, topicId: topic.id, topicName: topic.name, idx }));
+  quizIndex = 0;
+  quizSelected = null;
+  quizRevealed = false;
+  viewMode = 'quiz';
+  renderTopicList();
+  renderQuiz();
+}
+
+function startAllQuiz() {
+  activeTopicId = null;
+  quizQueue = allQuestionsFlat();
+  // shuffle lightly stable by keeping topic order but shuffle within? keep priority order
+  quizIndex = 0;
+  quizSelected = null;
+  quizRevealed = false;
+  viewMode = 'quiz';
+  renderTopicList();
+  renderQuiz();
+}
+
+function startUnattemptedQuiz() {
+  quizQueue = allQuestionsFlat().filter(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    return !state.answers[id];
+  });
+  if (!quizQueue.length) {
+    alert('No unattempted questions left. Great work!');
+    return;
+  }
+  activeTopicId = null;
+  quizIndex = 0;
+  quizSelected = null;
+  quizRevealed = false;
+  viewMode = 'quiz';
+  renderTopicList();
+  renderQuiz();
+}
+
+function showWrongOnly() {
+  quizQueue = allQuestionsFlat().filter(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    return state.answers[id] && state.answers[id].result === 'wrong';
+  });
+  if (!quizQueue.length) {
+    alert('No wrong answers saved yet. Attempt some quizzes first!');
+    return;
+  }
+  // clear their saved state so they can retry fresh? keep but allow re-answer
+  activeTopicId = null;
+  quizIndex = 0;
+  quizSelected = null;
+  quizRevealed = false;
+  viewMode = 'quiz';
+  renderTopicList();
+  renderQuiz();
+}
+
+function renderQuiz() {
+  const main = document.getElementById('main');
+  if (!quizQueue.length) {
+    main.innerHTML = '<div class="empty">No questions in queue.</div>';
+    return;
+  }
+  if (quizIndex >= quizQueue.length) {
+    showQuizResults();
+    return;
+  }
+  const q = quizQueue[quizIndex];
+  const topic = DATA.topics.find(t => t.id === q.topicId) || { id: q.topicId, name: q.topicName, questions: [] };
+
+  main.innerHTML = `
+    <div class="quiz-header">
+      <div class="quiz-counter">Question <strong>${quizIndex + 1}</strong> / ${quizQueue.length}
+        <span style="margin-left:8px;color:var(--muted)">· ${escapeHtml(q.topicName || topic.name || '')}</span>
+      </div>
+      <div class="mode-toggle">
+        <button onclick="openTopic('${q.topicId}')">Browse topic</button>
+        <button class="active">Quiz</button>
+      </div>
+    </div>
+    <div id="quizCard"></div>
+    <div class="nav-row">
+      <button class="btn btn-ghost" onclick="quizPrev()" ${quizIndex===0?'disabled':''}>← Previous</button>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost" onclick="quizSkip()">Skip</button>
+        <button class="btn btn-primary" id="quizNextBtn" onclick="quizNext()">${quizIndex===quizQueue.length-1?'Finish':'Next →'}</button>
+      </div>
+    </div>
+  `;
+
+  const cardWrap = document.getElementById('quizCard');
+  const card = document.createElement('div');
+  card.className = 'q-card';
+
+  card.innerHTML = `
+    <div class="q-meta">
+      <span class="chip exam">${escapeHtml(q.exam)}</span>
+      <span class="chip">Q${q.q_no}</span>
+    </div>
+    <div class="q-stem">${escapeHtml(q.stem)}</div>
+    <div class="options" id="quizOpts"></div>
+    <div class="q-actions">
+      <button class="btn btn-primary" id="quizCheck" onclick="quizCheck()">Check answer</button>
+      <button class="btn btn-ghost" onclick="quizReveal()">Reveal</button>
+    </div>
+    <div id="quizFb"></div>
+  `;
+  cardWrap.appendChild(card);
+
+  const opts = document.getElementById('quizOpts');
+  q.options.forEach(opt => {
+    if (!opt.key && !opt.text) return;
+    const b = document.createElement('button');
+    b.className = 'opt' + (quizSelected === opt.key ? ' selected' : '');
+    b.type = 'button';
+    b.innerHTML = `<span class="key">${escapeHtml(opt.key||'•')}.</span><span>${escapeHtml(opt.text)}</span>`;
+    if (!quizRevealed) {
+      b.onclick = () => {
+        quizSelected = opt.key;
+        renderQuiz();
+      };
+    } else {
+      b.disabled = true;
+      if (q.answer && opt.key === q.answer) b.classList.add('correct');
+      if (quizSelected && opt.key === quizSelected && quizSelected !== q.answer) b.classList.add('wrong');
+      if (quizSelected && opt.key === quizSelected) b.classList.add('selected');
+    }
+    opts.appendChild(b);
+  });
+
+  if (quizRevealed) {
+    const fb = document.getElementById('quizFb');
+    const id = qid(q.topicId, q.exam, q.q_no);
+    const saved = state.answers[id];
+    if (saved) {
+      fb.className = 'feedback ' + (saved.result === 'correct' ? 'ok' : saved.result === 'wrong' ? 'bad' : 'info');
+      fb.textContent = saved.result === 'correct'
+        ? 'Correct ✓'
+        : (saved.result === 'wrong' ? ('Wrong ✗  Correct: ' + (q.answer || '—')) : ('Answer: ' + (q.answer || '—')));
+    }
+    document.getElementById('quizCheck').disabled = true;
+  }
+}
+
+function quizCheck() {
+  if (!quizSelected) { alert('Select an option first'); return; }
+  const q = quizQueue[quizIndex];
+  const id = qid(q.topicId, q.exam, q.q_no);
+  let result = 'skip';
+  if (q.answer) result = (quizSelected === q.answer) ? 'correct' : 'wrong';
+  else result = 'correct';
+  state.answers[id] = { chosen: quizSelected, result, ts: Date.now() };
+  saveState(state);
+  quizRevealed = true;
+  renderTopicList();
+  renderQuiz();
+}
+
+function quizReveal() {
+  const q = quizQueue[quizIndex];
+  const id = qid(q.topicId, q.exam, q.q_no);
+  if (!state.answers[id]) {
+    state.answers[id] = { chosen: quizSelected || q.answer || '', result: 'skip', ts: Date.now() };
+    saveState(state);
+  }
+  if (!quizSelected && q.answer) quizSelected = q.answer;
+  quizRevealed = true;
+  renderTopicList();
+  renderQuiz();
+}
+
+function quizNext() {
+  if (!quizRevealed && quizSelected) {
+    quizCheck();
+    // after check, user clicks next again — or auto advance? better require explicit next after seeing result
+    return;
+  }
+  quizIndex++;
+  quizSelected = null;
+  quizRevealed = false;
+  if (quizIndex >= quizQueue.length) showQuizResults();
+  else renderQuiz();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function quizPrev() {
+  if (quizIndex <= 0) return;
+  quizIndex--;
+  quizSelected = null;
+  quizRevealed = false;
+  // restore previous selection if any
+  const q = quizQueue[quizIndex];
+  const id = qid(q.topicId, q.exam, q.q_no);
+  if (state.answers[id]) {
+    quizSelected = state.answers[id].chosen;
+    quizRevealed = true;
+  }
+  renderQuiz();
+}
+
+function quizSkip() {
+  quizIndex++;
+  quizSelected = null;
+  quizRevealed = false;
+  if (quizIndex >= quizQueue.length) showQuizResults();
+  else renderQuiz();
+}
+
+function showQuizResults() {
+  viewMode = 'results';
+  // score only questions in this queue that were answered during session — use saved state for queue items
+  let c = 0, w = 0, s = 0;
+  quizQueue.forEach(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    const a = state.answers[id];
+    if (!a) return;
+    if (a.result === 'correct') c++;
+    else if (a.result === 'wrong') w++;
+    else s++;
+  });
+  const answered = c + w;
+  const pct = answered ? Math.round(c / answered * 100) : 0;
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="results-box">
+      <div style="font-size:0.85rem;color:var(--muted);margin-bottom:8px">Quiz complete</div>
+      <div class="score">${pct}%</div>
+      <p>${c} correct out of ${answered} answered · ${quizQueue.length} in queue</p>
+      <div class="results-stats">
+        <div><div class="n" style="color:var(--green)">${c}</div><div class="l">Correct</div></div>
+        <div><div class="n" style="color:var(--red)">${w}</div><div class="l">Wrong</div></div>
+        <div><div class="n" style="color:var(--orange)">${s}</div><div class="l">Revealed/Skip</div></div>
+        <div><div class="n">${quizQueue.length}</div><div class="l">Total</div></div>
+      </div>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-primary" onclick="retryWrongFromQueue()">Retry wrong</button>
+        <button class="btn btn-ghost" onclick="restartSameQueue()">Restart quiz</button>
+        <button class="btn btn-ghost" onclick="showHome()">Dashboard</button>
+      </div>
+    </div>
+  `;
+  renderTopicList();
+}
+
+function retryWrongFromQueue() {
+  quizQueue = quizQueue.filter(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    return state.answers[id] && state.answers[id].result === 'wrong';
+  });
+  // clear those answers for fresh try
+  quizQueue.forEach(q => {
+    const id = qid(q.topicId, q.exam, q.q_no);
+    delete state.answers[id];
+  });
+  saveState(state);
+  if (!quizQueue.length) { alert('No wrongs in this set!'); showHome(); return; }
+  quizIndex = 0; quizSelected = null; quizRevealed = false;
+  viewMode = 'quiz';
+  renderQuiz();
+}
+
+function restartSameQueue() {
+  // rebuild from topic or all — simplest: reset index
+  if (activeTopicId) startTopicQuiz(activeTopicId);
+  else startAllQuiz();
+}
+
+function resetProgress() {
+  if (!confirm('Clear all saved progress on this device?')) return;
+  state = { answers: {} };
+  saveState(state);
+  showHome();
+  renderTopicList();
+}
+
+// keyboard shortcuts in quiz
+document.addEventListener('keydown', (e) => {
+  if (viewMode !== 'quiz' || quizRevealed) {
+    if (viewMode === 'quiz' && (e.key === 'Enter' || e.key === 'ArrowRight')) {
+      e.preventDefault(); quizNext();
+    }
+    return;
+  }
+  const k = e.key.toUpperCase();
+  if (['A','B','C','D','E'].includes(k)) {
+    const q = quizQueue[quizIndex];
+    if (q && q.options.some(o => o.key === k)) {
+      quizSelected = k;
+      renderQuiz();
+    }
+  }
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    if (quizSelected) quizCheck();
+  }
+});
+
+// init
+showHome();
+renderTopicList();
+</script>
+</body>
+</html>

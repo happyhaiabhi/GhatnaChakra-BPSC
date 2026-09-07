@@ -1,0 +1,151 @@
+EXAM: 71st BPSC (2025)
+Q1|In the following question, out of four words given below, three are alike in some manner and fourth word is different. Find the different one.|A:MICROSCOPE || B:TELESCOPE || C:STETHOSCOPE || D:PERISCOPE
+Q2|SPRING is written in a code as UNUFRC. How will the word MOBILE be mentioned in that code language?|A:OMEFPA || B:OMPGNC || C:MPQSUL || D:SEGRFT
+Q3|Mukesh said to his friend, "Rita is the mother of my son's wife's daughter". How is Mukesh related to Rita?|A:Father || B:Son-in-law || C:Son || D:Father-in-law
+Q4|Ram goes North, turns right, then goes right again and then goes to left. In which direction Ram is now?|A:EAST || B:SOUTH || C:NORTH || D:WEST
+Q5|Writing in Alphabetical order, which name of the following will appear in the last?|A:Mahinder || B:Mohinder || C:Mohender || D:Mahendra
+Q6|Nitin is 7 ranks ahead of Joginder in a class of 39. If Joginder's rank is 17th from the last, what is Nitin's rank from the beginning?|A:17th || B:15th || C:18th || D:16th
+Q7|If + means ×, × means −, ÷ means + and − means ÷, then 175 − 25 ÷ 5 + 20 × 3 + 10 equals to:|A:77 || B:87 || C:140 || D:70
+Q8|Rahul is 3 times as old as Seema. Laxmi was twice as old as Rahul four years ago. In four year's time, Rahul will be 31. What are the present ages of Seema and Laxmi?|A:10, 50 || B:9, 52 || C:9, 45 || D:9, 50
+Q9|Find the missing number from the given alternatives: 28 20 7 \|A:84 ? 12 \ || B:45 25 9 || C:30 || D:35
+Q10|RAIN is written in a code as 8$%6 and MORE is mentioned as 7#8@. How will REMAIN be mentioned in code language?|A:@$86%7 || B:%7@%6# || C:86@$#7 || D:8@7$%6
+Q11|How many bronze medals were won by Bihar players in the 38th National Junior Athletics Championship 2025?|A:4 || B:5 || C:6 || D:More than one of the above
+Q12|Which districts in Bihar will benefit from the Kosi Mechi Link Project?|A:Patna, Nalanda, Gaya, Siwan || B:Darbhanga, Muzaffarpur, Sitamarhi, Begusarai || C:Araria, Purnea, Kishanganj, Katihar || D:More than one of the above
+Q13|Which Indian languages are accorded the status of Classical Language?|A:Telugu || B:Marathi || C:Bengali || D:More than one of the above
+Q14|Which organisation recognized the Nagi bird sanctuary Site as an Important Bird and Biodiversity Area (IBA)?|A:UNESCO || B:World Wildlife Fund || C:Bird Life International || D:More than one of the above
+Q15|Where was the National Panchayati Raj Day 2025 event organised?|A:Patna || B:Madhubani || C:Gaya || D:More than one of the above
+Q16|What is the primary objective of the Lunar Trailblazer mission?|A:To detect and map water on the Moon's surface || B:To create a 3D model of the entire Moon || C:To test new lunar rovers || D:More than one of the above
+Q17|Afrikaners indicate the people:|A:Of Indo-African descent in the U.S. || B:Indigenous tribal communities in Africa || C:The white minority group in South Africa || D:More than one of the above
+Q18|What is the name of the 16th-century stepwell that the Archaeological Survey of India recently conserved in collaboration with the World Monuments Fund India?|A:Agrasen ki Baoli || B:Rajon ki Baoli || C:Chauki Bavdi || D:More than one of the above
+Q19|What is the name of the city mayor who proclaimed April 14, 2025, as Dr. B. R. Ambedkar Day in New York City?|A:Bill de Blasio || B:Eric Adams || C:Sadiq Khan || D:More than one of the above
+Q20|What is the permanent slogan for the Eurovision Song Contest?|A:Music Unites US || B:Together in Song || C:United By Music || D:More than one of the above
+Q21|What is true of the GSLV-F15 mission by ISRO?|A:It carried the NVS-02 satellite || B:It marked ISRO's 101st launch from Sriharikota || C:It marked ISRO's 100th launch from Sriharikota || D:More than one of the above
+Q22|What is true of the 18th G20 Summit?|A:It was held in Rio de Janeiro || B:Its theme was: Building a Just World and a Sustainable Plane || C:The Rio de Janeiro Declaration emphasised the taxation of bi || D:None of the above
+Q23|The UN climate conference held in Baku in 2024 concluded with an agreement that:|A:Aims to ban fossil fuels globally by 2030 || B:Calls on developed countries to provide at least $500 billio || C:Calls on developed countries to provide at least $300 billio || D:More than one of the above
+Q24|Awarded the Nobel Prize in Literature in 2024, Han Kang's novel 'The Vegetarian' won which other prestigious award?|A:Pulitzer Prize || B:Pen America Literary Awards || C:International Booker Prize || D:More than one of the above
+Q25|Which glacier of Nepal among the following has been declared 'dead' in May 2025?|A:Khumbu Glacier || B:Yala Glacier || C:Imja Glacier || D:More than one of the above
+Q26|According to the UNDP Human Development Index (HDI) Report 2025, life expectancy in India increased from 58.6 years in 1990 to how many years in 2023?|A:72 years || B:73 years || C:74 years || D:More than one of the above
+Q27|In which city was the AI Action Summit held in February 2025?|A:Bengaluru || B:Paris || C:Rome || D:More than one of the above
+Q28|At the 96th Academy Awards (2024), Emma Stone won the Oscar for Actress in a Leading Role for her performance in which film?|A:La La Land || B:Poor Things || C:The Favourite || D:More than one of the above
+Q29|Which Gujarati film won the 70th National Film Award for Best Feature Film promoting national, social and environmental values?|A:Hellaro || B:Chhello Show || C:Kutch Express || D:More than one of the above
+Q30|Which of the following individuals or organisations was a recipient of the Ramon Magsaysay Award 2024?|A:Phuntsho, Karma || B:Rural Doctors Movement || C:Miyazaki Hayao || D:More than one of the above
+Q31|Which of the following statements are true about Akashteer?|A:Akashteer is the core of the Indian Army's Air Defence (AAD) || B:It seamlessly integrates India's larger C4ISR || C:It reflects a strategic shift from passive defence to proact || D:More than one of the above
+Q32|Which of the following defence platforms are part of India's growing indigenous military ecosystem supported by the Make in India initiative?|A:F-35 Lightning II || B:Main Battle Tank (MBT) Arjun || C:Advanced Towed Artillery Gun System (ATAGS) || D:More than one of the above
+Q33|Which day is observed as Holocaust Memorial Day?|A:2026-01-15 00:00:00 || B:2026-01-27 00:00:00 || C:2026-02-10 00:00:00 || D:More than one of the above
+Q34|What is the title of the book by Banu Mushtaq that won the 2025 International Booker Prize?|A:Light of the Heart || B:Heart Lamp || C:Soul Lantern || D:More than one of the above
+Q35|According to the Indus Waters Treaty, the three eastern rivers are allocated to India. Which of the following is not one of them?|A:Jhelum || B:Ravi || C:Sutlej || D:More than one of the above
+Q36|Which of the following statement/s is/are correct about Capability Poverty Measure (CPM) developed by the UNDP? 1) CPM includes child malnutrition... 2) Female illiteracy... 3) It considers male illiteracy... 4) It inclu|A:1 and 2 || B:1, 2 and 3 || C:Only 1 || D:More than one of the above
+Q37|Which of the following is not among the top ten principal commodities of India's export during April-September 2024-25?|A:Petroleum Products || B:Iron and Steel || C:Basmati Rice || D:More than one of the above
+Q38|According to India State of Forest Report 2023 (ISFR 2023):|A:The total forest and tree cover of the country is 15%... || B:Top three states having largest recorded forest area... || C:The maximum tree cover has been found in the State of Mahara || D:More than one of the above
+Q39|Which of the following countries had greater share than India in the global services export in 2023?|A:Russia || B:Ireland || C:Indonesia || D:More than one of the above
+Q40|Which of the following statement/s is/are NOT CORRECT about the U-WIN portal of Ministry of Health and Family welfare?|A:It provides QR-based e-vaccination certificates || B:It facilitates the creation of Ayushman Bharat Health Accoun || C:The portal is accessible in 11 regional languages || D:None of the above
+Q41|Which organization jointly developed the National Urban Innovation Stack (NUIS) Digital Blueprint with the Ministry of Housing and Urban Affairs (MoHUA)?|A:Ministry of Electronics and IT || B:National Institute of Urban Affairs (NIUA) || C:NITI Aayog || D:More than one of the above
+Q42|Which state had the highest constructed road length under Bharatmala Pariyojana as of 31st October 2024?|A:Rajasthan || B:Uttar Pradesh || C:Maharashtra || D:More than one of the above
+Q43|Before the launch of Kisan Rin Portal (KRP), farmers used to submit manual claims under the Interest Subvention and Prompt Repayment Incentive schemes to which of the following institution/s?|A:Ministry of Agriculture and Farmers Welfare and NABARD || B:Reserve Bank of India and NABARD || C:National Payments Corporation of India and Reserve Bank of I || D:More than one of the above
+Q44|India's foreign exchange reserves:|A:Increased to around USD 640 billion as of the end of Decembe || B:Are seventh largest in the world || C:Decreased caused by a BoP deficit of around USD 24 billion i || D:More than one of the above
+Q45|As per NFHS-5 data, which of the following state(s) recorded less than 6% of the population as multidimensionally poor in 2019-20?|A:Jammu and Kashmir || B:Himachal Pradesh || C:Uttar Pradesh || D:More than one of the above
+Q46|Match List-I with List-II: a) PAT scheme, b) MISHTI, c) LiFE, d) NCAP|A:a-1, b-3, c-2, d-4 || B:a-3, b-4, c-1, d-2 || C:a-2, b-1, c-4, d-3 || D:More than one of the above
+Q47|According to Annual PLFS 2023-24 report:|A:There is greater increase in Labour Force Participation Rate || B:Among the 36 states and union territories, 90% states have a || C:The share of female workers in agriculture has decreased sig || D:More than one of the above
+Q48|Which of the following was NOT the outcome of Science, Technology and Innovation Policy 2020?|A:One nation, one subscription || B:Research and Innovation Excellence Frameworks (RIEF) || C:Atal Innovation Mission || D:More than one of the above
+Q49|Share of Micro, Small and Medium Enterprises in the country's Gross Value Added (GVA) has increased from ____ in 2020-21 to ____ in 2022-23.|A:30.3%, 35.6% || B:27.3%, 30.1% || C:35.1%, 38.2% || D:More than one of the above
+Q50|Which of the following statement/s is/are correct regarding the Indian cement industry? 1) Around 87%... 2) India is the largest... 3) Most cement plants...|A:1 || B:2 || C:1 and 3 || D:More than one of the above
+Q51|What is the primary objective of Bihar's Mission Daksh?|A:To increase school enrolment in primary schools in rural are || B:To provide vocational training to teachers at senior-seconda || C:To offer personalised mentoring for lagging students to reac || D:More than one of the above
+Q52|Which of the following is NOT one of the components under the YUVA framework of the Bihar Startup Policy 2022?|A:Vibrancy in the education system || B:Regulatory enablers for support || C:International market expansion schemes || D:More than one of the above
+Q53|Which of the following statement/s is/are correct about Bihar's economic performance in 2023-24?|A:Bihar's per capita GSDP at current prices increased by 12.8% || B:The estimated share of the tertiary sector in Bihar's GSVA ( || C:The Gross Fixed Capital Formation (GFCF) formed 4.6% of GSDP || D:More than one of the above
+Q54|Consider the following statements: 1) The proportion of the young population... 2) Bihar's demographic dividend... 3) The elderly population...|A:1 and 2 are correct || B:1 and 3 are correct || C:2 and 3 are correct || D:More than one of the above
+Q55|According to PLFS 2023-24, which of the following statements best describe the nature of employment among women in Bihar?|A:Most women are employed in formal, regular wage jobs. || B:The majority of women are self-employed, often serving as he || C:Majority of women were engaged in secondary sector. || D:More than one of the above
+Q56|The power to recruit the Secretarial staff of the House of the People is vested in:|A:Prime Minister's Office (PMO) || B:Union Public Service Commission || C:Staff Selection Commission || D:President after consultation with the Speaker of the House o
+Q57|Attorney General of India:|A:Is not entitled of audience except the Supreme Court || B:He gives advice to the President on legal matters || C:Cannot participate in the proceedings in the House of Parlia || D:Is a whole time counsel for the government
+Q58|Consider the following subjects belonging to different lists of the constitution of India. Which of the following subjects belong to concurrent list? 1) Protection of wildlife 2) Income on Agriculture 3) Tax on Electrici|A:1 and 4 are correct || B:2 and 3 are correct || C:Only 4 is correct || D:Only 2 is correct
+Q59|Which of the following Directive Principles do not follow Gandhian Principles? 1) Organization of Village Panchayats 2) Common Civil Code 3) Promotion of cottage Industry... 4) Right to work|A:1 and 2 || B:Only 2 || C:2 and 4 || D:1 and 3
+Q60|Which pair is not correctly matched?|A:Allocation of seats in the council of state - 4th schedule || B:Forms of oath - 3rd schedule || C:Administration of scheduled areas - 6th schedule || D:Union List - 7th schedule
+Q61|Consider the following statements about Central Government: 1) Ministries and Departments are formed... 2) Every Minister is allocated Ministry...|A:Only 1 is correct || B:Only 2 is correct || C:1 and 2 are correct || D:Neither 1 nor 2 is correct
+Q62|What is true about the proceedings of the State Legislature?|A:Business in the legislature shall be transacted only in offi || B:Advocate General has right to vote || C:It can discuss the conduct of any judge of the High Court al || D:Validity of proceedings shall be called in question on the g
+Q63|The constitution of India provides for reasonable restrictions on Fundamental Rights but reasonableness must keep in mind that:|A:1 and 2 are correct || B:2 and 3 are correct || C:Only 4 is correct || D:Only 1 is correct
+Q64|Who among the following determines the qualification which shall be requisite for appointment as member of the finance commission?|A:President of India || B:Council of Ministers || C:Parliament by act || D:Union Cabinet
+Q65|Consider the following statements: 1) The summoning of the House... 2) Prorogation ends a session 3) Dissolution terminates... 4) Prorogation of a session can be effected... Out of these which is not true?|A:2 and 3 || B:1 and 3 || C:Only 2 || D:Only 4
+Q66|Who is empowered to review financial position of the Panchayats?|A:Chief Minister || B:Chairman of Block Committee || C:Chairman of District Council || D:Finance Commission constituted by the Governor
+Q67|The Atmanirbhar Bharat Scheme announced by the Government helps in: 1) Enhancing India's manufacturing... 2) Incentivizing foreign investments...|A:1 is correct || B:2 is correct || C:Both 1 and 2 are correct || D:Neither 1 nor 2 is correct
+Q68|What is the main purpose of Panchayati Raj?|A:To increase agriculture production || B:To increase employment || C:To increase people's political awareness || D:To enable people to participate in development administratio
+Q69|What is true about Censure Motion?|A:It is not different from No-confidence motion || B:It is different from the No-confidence motion || C:It is not mandatory to mention the reasons in this motion || D:Permission of the House is not essential to present it
+Q70|Which one of the following subjects fall within the jurisdiction of both High Court and Supreme Court?|A:Dispute between Centre and State || B:Dispute among States || C:Protection of fundamental rights || D:Protection from the violation of the constitution
+Q71|Which Indian leader for the first time used the 'safety-valve theory' to attack the Moderates in the Congress?|A:Bipin Chandra Pal || B:Lala Lajpat Rai || C:Bal Gangadhar Tilak || D:Dadabhai Naoroji
+Q72|At which Viceroy was a bomb thrown on the occasion of his state entry into Delhi?|A:Lord Curzon || B:Lord Minto || C:Lord Hardinge || D:Lord Wavell
+Q73|Who got an opportunity to become Professor of Indian Philosophy in the University of California in 1911?|A:Sohan Singh Bhakna || B:Virendranath Chattopadhyay || C:Har Dayal || D:Shyamji Krishna Varma
+Q74|Name the Principal of M.A.O. College, Aligarh, who encouraged Muslim Communalism in the last decades of the 19th Century?|A:Dunlop Smith || B:Minto || C:William Morris || D:Theodore Beck
+Q75|The Young India', a Nationalist paper, was started by|A:Annie Besant || B:Mahatma Gandhi || C:Bal Gangadhar Tilak || D:Maulana Abul Kalam Azad
+Q76|Which Commission accentuated the discontent in all the political groups and parties for not associating any Indian member in it?|A:Welby Commission || B:Cripps Mission || C:Simon Commission || D:Cabinet Mission
+Q77|Who assumed the command of the Indian National Army and gave famous battle cry, 'Chalo Delhi'?|A:Rash Behari Bose || B:Mohan Singh || C:Shah Nawaz Khan || D:Subhash Chandra Bose
+Q78|"We shall either free India or die in the attempt..." who said it?|A:Jawaharlal Nehru || B:Mahatma Gandhi || C:Abul Kalam Azad || D:V.D. Savarkar
+Q79|Who raised the cry "Divide and Quit"?|A:M.A. Ansari || B:M.A. Jinnah || C:Jawaharlal Nehru || D:Muhammad Iqbal
+Q80|Which Act provided for the partition of India into two new dominions - India and Pakistan?|A:Govt. of India Act, 1919 || B:Govt. of India Act, 1935 || C:Indian Independence Act, 1947 || D:None of the above
+Q81|Which Congress leader visited Bihar in 1918 in order to strengthen the activities of Home Rule League?|A:B.G. Tilak || B:Annie Besant || C:Mahatma Gandhi || D:M.A. Ansari
+Q82|Champaran Agrarian Committee was appointed in agreement between:|A:Indian Government and Gandhiji || B:Indian Government and Raj Kumar Shukla || C:Indian Government and Rajendra Prasad || D:Indian Government and Anugraha Narayan Singh
+Q83|Who was the prominent leader of Kisan Sabha movement in Bihar?|A:Raj Kumar Shukla || B:Sahajanand Saraswati || C:Acharya Narendra Dev || D:Baba Ram Chandra
+Q84|Who was murdered while hoisting the national flag under the area of Bikram Police Station?|A:Raghunath Singh of Gorakhari || B:Ram Narain of Bikrampur || C:Satyendra of Gorakhari || D:None of the above
+Q85|Who became Chief Minister of Bihar in March 1939?|A:Anugraha Narain Singh || B:Rajendra Prasad || C:Shri Krishna Singh || D:None of the above
+Q86|Match List I with List II: Places in Ancient India vs Presently in which State|A:a-4, b-3, c-1, d-2 || B:a-3, b-4, c-2, d-1 || C:a-3, b-2, c-4, d-1 || D:a-4, b-2, c-1, d-3
+Q87|Which one of the following is not related to the Rigvedic period?|A:Ghosha || B:Gargi || C:Apala || D:Vishvavara
+Q88|Match List I with List II (Event/Place vs Connected with Person)|A:a-3, b-4, c-2, d-1 || B:a-1, b-4, c-2, d-3 || C:a-3, b-4, c-1, d-2 || D:a-2, b-3, c-1, d-4
+Q89|Who among the following rulers, ruled for the maximum period?|A:Alauddin Khilji || B:Muhammad bin Tughluq || C:Bahlol Lodi || D:Balban
+Q90|Consider the following dynasties of Ancient India: 1) Shunga 2) Maurya 3) Kushana 4) Kanva. Chronological order?|A:2-1-4-3 || B:1-2-3-4 || C:2-3-1-4 || D:2-1-3-4
+Q91|Which one of the following is not written by Tulsidas?|A:Geetavali || B:Vinay Patrika || C:Sahitya Lahari || D:Kavitavali
+Q92|Match List I with List II (Building vs Built by)|A:a-4, b-1, c-3, d-2 || B:a-2, b-1, c-4, d-3 || C:a-4, b-1, c-2, d-3 || D:a-1, b-4, c-3, d-2
+Q93|Which one of the following is not correctly matched?|A:James Augustus Hicky - Calcutta Chronicle || B:Dayananda Saraswati - Satyarth Prakash || C:Ramaswamy Naicker - Justice Party || D:Jyotirao Phule - Satyashodhak Samaj
+Q94|Match List I with List II (Father vs Son)|A:a-4, b-1, c-3, d-2 || B:a-3, b-1, c-4, d-2 || C:a-3, b-1, c-2, d-4 || D:a-4, b-2, c-3, d-1
+Q95|Which Buddhist council was not held in Bihar?|A:First || B:Second || C:Third || D:Fourth
+Q96|Which of the following statements about Subhas Chandra Bose are correct?|A:Only 1 and 2 || B:Only 2 and 3 || C:Only 1 and 3 || D:1, 2 and 3
+Q97|Who among the following was not an Acharya in The Nalanda Vishvavidyalaya?|A:Nagarjuna || B:Kautilya || C:Sheelbhadra || D:Shantirakshit
+Q98|Consider the following events of Modern Indian History - Chronological order?|A:2-3-4-1 || B:3-1-2-4 || C:2-4-1-3 || D:3-2-1-4
+Q99|Among the following Newspapers of Bihar, which was the first one to get published?|A:Bihar Bandhu || B:Patna Harkara || C:Akhbar-E-Bihar || D:Bihar Herald
+Q100|Match List I with List II (Event/Organisation vs Related Person in Bihar)|A:a-4, b-2, c-3, d-1 || B:a-2, b-3, c-1, d-4 || C:a-1, b-4, c-3, d-2 || D:a-4, b-1, c-2, d-3
+Q101|Maginot Line exists between which countries?|A:U.S.A. & Canada || B:France & Germany || C:Namibia and Angola || D:South Korea & North Korea
+Q102|Strait of Hormuz connects -|A:The Persian Gulf to Gulf of Oman || B:Red sea to Gulf of Aden || C:Red sea to Indian Ocean || D:Mediterranean sea to Red sea
+Q103|Where is "Ground Zero"?|A:Greenwich || B:New York || C:Indira Point || D:Sriharikota
+Q104|Which of the following Isthmuses has been known as the 'Devil's Neck'?|A:Isthmuses of Panama || B:Kra Isthmuses || C:Karelian Isthmuses || D:Isthmuses of Corinth
+Q105|Ladang refers to -|A:Shifting Agriculture || B:Plantation Agriculture || C:Subsistence type of Agriculture || D:Dry forming
+Q106|Which is the largest river Island in the world?|A:Srirangam Island || B:Majuli Island || C:Bhavani Island || D:Agatti Island
+Q107|The second largest river basin of India is -|A:Mahanadi river basin || B:Narmada river basin || C:Godavari river basin || D:Kaveri river basin
+Q108|Which of the following is the place of confluence of the Alaknanda and Bhagirathi?|A:Vishnuprayag || B:Karnaprayag || C:Rudraprayag || D:Devprayag
+Q109|The two volcanic Islands in the Indian Territory are -|A:Kavaratti and New Moore || B:Bitra and Kavaratti || C:Pamban and Barren || D:Narcondam and Barren
+Q110|The art of crafting which item in Meerut has received a GI tag?|A:Sports Goods || B:Musical Instruments || C:Laddoo || D:Scissors
+Q111|In India the Temperate Forest Research center is in which city?|A:Shimla || B:Ranchi || C:Srinagar || D:Dehradun
+Q112|Kanha National Park is established in -|A:Uttarakhand || B:Assam || C:Madhya Pradesh || D:Maharashtra
+Q113|Loktak' is a ______|A:Valley || B:Lake || C:River || D:Mountain series
+Q114|Which of the following parks/sanctuaries come under the project tiger in Bihar?|A:Valmiki National Park || B:Udaypur Wildlife Sanctuary || C:Bhimbandh Wildlife Sanctuary || D:None of these
+Q115|Which of the following is the state animal of Bihar?|A:Cow || B:Bull || C:Buffalo || D:Horse
+Q116|In which year, the Nalanda University was re-established in Bihar?|A:2005 || B:2007 || C:2008 || D:2014
+Q117|Karmanasa river originates in -|A:Kaimur District || B:Vaishali District || C:Patna District || D:Bikram District
+Q118|Bihar produces ______% of pyrite of whole India?|A:75 || B:85 || C:95 || D:100
+Q119|Gold is found in which district of Bihar?|A:Gaya District || B:Jamui District || C:Nalanda District || D:Bhagalpur District
+Q120|Most of the Bihar comes under which of the following climate type?|A:Subtropical Monsoon || B:Tropical savannah || C:Hot and dry || D:Hot and Semi Arid
+Q121|We apply a force of 200 Newtons on a wooden Box and push it on the floor at constant velocity. The marginal friction force will be:|A:100 Newtons || B:200 Newtons || C:300 Newtons || D:400 Newtons
+Q122|A truck starts from rest down a hill with a constant acceleration. It achieves 400 meters in 20 seconds. If the weight of the truck is 7 tons then what will be the force acting on it?|A:11000 Newtons || B:12000 Newtons || C:13000 Newtons || D:14000 Newtons
+Q123|Energy consumed in a home is 250 units then the total energy in Joule will be:|A:9x10⁵ || B:8x10⁶ || C:9x10⁸ || D:10⁵
+Q124|In which medium, the speed of sound is maximum?|A:Steel || B:Water || C:Air || D:Hydrogen
+Q125|The potential energy of a freely falling body continuously decreases.|A:The principle of conservation of energy is violated || B:The principle of conservation of energy is not violated || C:Gravitational force is violated || D:Gravitational force is not violated
+Q126|A pair of Oxen exerts a force of 140 newton while ploughing the field. The field ploughed is 15 meter long. The work done in ploughing the length of the field is:|A:1900 Joule || B:2000 Joule || C:2100 Joule || D:2200 Joule
+Q127|The focal distance of a plane mirror is|A:#ERROR! || B:-1 cm || C:2 cm || D:Infinity
+Q128|Which term in the following does not denote the electric power in electric circuit?|A:I²R || B:IR² || C:VI || D:V²/R
+Q129|In short circuit, the value of electric current in a time circuit:|A:Very low || B:Do not change || C:Increases very high || D:Continuously changing
+Q130|What is the device to protect equipments from the electric shock?|A:Fuse || B:Generator || C:Motor || D:Current controller
+Q131|pH value of 0.1 N HCl solution is approximately:|A:1 || B:11 || C:10 || D:2
+Q132|Which Compound is known as night glowing pigment from below?|A:Europium dopped strontium aluminate || B:Copper Sulphide dopped zinc oxide || C:Barium sulphate dopped copper carbonate || D:Boron oxide dopped copper sulphate
+Q133|Which Material is used for smart film?|A:Indium tin oxide || B:Calcium carbonate || C:Zinc chloride || D:Silica
+Q134|Which metal compound is used for treatment of carcinoma?|A:Platinum || B:Chromium || C:Iron || D:Chlorine
+Q135|Which compound is used in contraceptive pills?|A:Cholecalciferol || B:Levonorgestrel || C:Venlafaxine || D:Cetrizine
+Q136|Why oil is not stored in galvanized iron pot?|A:It produce toxic compound || B:It reduced quality of oil || C:Corrosion observed || D:All of above
+Q137|Which compound is used for increase of octane rating?|A:Trimethyl hexane || B:Tetramethyl Oxide || C:Tetraethyllead || D:Triethyl toluene
+Q138|Full form of PHBV biodegradable polymer:|A:Polyhydroxy butyl vaniline || B:Poly hydroxy butane veratric acid || C:Poly (3 - Hydroxy butyrate-co-3 hydroxy valerate) || D:Poly hydroxy butyric acid veratric acid
+Q139|Hormones are secreted by:|A:Sebaceous glands || B:Reproductive glands || C:Exocrine glands || D:Endocrine glands
+Q140|Which one of the following term characterizes the interaction between herpes simplex virus and a human?|A:Parasitism || B:Symbiosis || C:Endosymbiosis || D:Endoparasitism
+Q141|Which class of immunoglobulin is the first to be produced in response to an infection?|A:IgG || B:IgA || C:IgM || D:IgE
+Q142|The biological membranes are composed of:|A:Lipids and proteins in varying combinations which are specif || B:Lipids only || C:Proteins only || D:None of the above
+Q143|Which of the following is a non-sense codon?|A:UAA || B:AUG || C:UUU || D:UGC
+Q144|The species which are in danger of extinction are known as?|A:Vulnerable || B:Rare || C:Endangered || D:Extinct
+Q145|Which of the following is a Kharif crop?|A:Sugarcane || B:Barley || C:Gram || D:Wheat
+Q146|Xylem in plants is responsible for following function:|A:Transport of water and dissolved minerals || B:Transport of foods || C:Transport of oxygen and other gases || D:Transport of essential amino acids
+Q147|Who was first to use the characteristics of vascular tissues in the classification of plants?|A:Engler and Prantl || B:Bentham and Hooker || C:AP de Condolle || D:More than one of the above
+Q148|The part which we eat in Mango is:|A:Epicarp || B:Mesocarp || C:Endocarp || D:None of the above
+Q149|Ozone day is celebrated on:|A:16th September || B:5th June || C:21st April || D:5th December
+Q150|In mycorrhizal association, the advantage of plant is:|A:Protection || B:Food || C:(A) and (B) both || D:Increased mineral absorption and diseases protection

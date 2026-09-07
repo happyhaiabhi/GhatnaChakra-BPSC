@@ -1,0 +1,6549 @@
+[
+  {
+    "exam": "56-59th BPSC (2015)",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 2,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 3,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 4,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 5,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 6,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 7,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 8,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 9,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 10,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 11,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 12,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 13,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 14,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 15,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 16,
+        "category": "Geography"
+      },
+      {
+        "q_no": 17,
+        "category": "Geography"
+      },
+      {
+        "q_no": 18,
+        "category": "Geography"
+      },
+      {
+        "q_no": 19,
+        "category": "Geography"
+      },
+      {
+        "q_no": 20,
+        "category": "Geography"
+      },
+      {
+        "q_no": 21,
+        "category": "Geography"
+      },
+      {
+        "q_no": 22,
+        "category": "Geography"
+      },
+      {
+        "q_no": 23,
+        "category": "Geography"
+      },
+      {
+        "q_no": 24,
+        "category": "Economics"
+      },
+      {
+        "q_no": 25,
+        "category": "Polity"
+      },
+      {
+        "q_no": 26,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 27,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 28,
+        "category": "Geography"
+      },
+      {
+        "q_no": 29,
+        "category": "Geography"
+      },
+      {
+        "q_no": 30,
+        "category": "Economics"
+      },
+      {
+        "q_no": 31,
+        "category": "Economics"
+      },
+      {
+        "q_no": 32,
+        "category": "Economics"
+      },
+      {
+        "q_no": 33,
+        "category": "Economics"
+      },
+      {
+        "q_no": 34,
+        "category": "Economics"
+      },
+      {
+        "q_no": 35,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 36,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 37,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 38,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 39,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 40,
+        "category": "Economics"
+      },
+      {
+        "q_no": 41,
+        "category": "Biology"
+      },
+      {
+        "q_no": 42,
+        "category": "Biology"
+      },
+      {
+        "q_no": 43,
+        "category": "Biology"
+      },
+      {
+        "q_no": 44,
+        "category": "Biology"
+      },
+      {
+        "q_no": 45,
+        "category": "Biology"
+      },
+      {
+        "q_no": 46,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 47,
+        "category": "Biology"
+      },
+      {
+        "q_no": 48,
+        "category": "Biology"
+      },
+      {
+        "q_no": 49,
+        "category": "Biology"
+      },
+      {
+        "q_no": 50,
+        "category": "Biology"
+      },
+      {
+        "q_no": 51,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 52,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 53,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 54,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 55,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 56,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 57,
+        "category": "Polity"
+      },
+      {
+        "q_no": 58,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 59,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 60,
+        "category": "Economics"
+      },
+      {
+        "q_no": 61,
+        "category": "Economics"
+      },
+      {
+        "q_no": 62,
+        "category": "Economics"
+      },
+      {
+        "q_no": 63,
+        "category": "Economics"
+      },
+      {
+        "q_no": 64,
+        "category": "Economics"
+      },
+      {
+        "q_no": 65,
+        "category": "Economics"
+      },
+      {
+        "q_no": 66,
+        "category": "Economics"
+      },
+      {
+        "q_no": 67,
+        "category": "Economics"
+      },
+      {
+        "q_no": 68,
+        "category": "Economics"
+      },
+      {
+        "q_no": 69,
+        "category": "Economics"
+      },
+      {
+        "q_no": 70,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 71,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 72,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 73,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 74,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 75,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 76,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 77,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 78,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 79,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 80,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 81,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 82,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 83,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 84,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 85,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 86,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 87,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 88,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 89,
+        "category": "Geography"
+      },
+      {
+        "q_no": 90,
+        "category": "Geography"
+      },
+      {
+        "q_no": 91,
+        "category": "Geography"
+      },
+      {
+        "q_no": 92,
+        "category": "Geography"
+      },
+      {
+        "q_no": 93,
+        "category": "Geography"
+      },
+      {
+        "q_no": 94,
+        "category": "Geography"
+      },
+      {
+        "q_no": 95,
+        "category": "Geography"
+      },
+      {
+        "q_no": 96,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 97,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 98,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 99,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 100,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 101,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 102,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 103,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 104,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 105,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 106,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 107,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 108,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 109,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 110,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 111,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 112,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 113,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 114,
+        "category": "Economics"
+      },
+      {
+        "q_no": 115,
+        "category": "Economics"
+      },
+      {
+        "q_no": 116,
+        "category": "Economics"
+      },
+      {
+        "q_no": 117,
+        "category": "Economics"
+      },
+      {
+        "q_no": 118,
+        "category": "Economics"
+      },
+      {
+        "q_no": 119,
+        "category": "Economics"
+      },
+      {
+        "q_no": 120,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 121,
+        "category": "Economics"
+      },
+      {
+        "q_no": 122,
+        "category": "Economics"
+      },
+      {
+        "q_no": 123,
+        "category": "Economics"
+      },
+      {
+        "q_no": 124,
+        "category": "Economics"
+      },
+      {
+        "q_no": 125,
+        "category": "Economics"
+      },
+      {
+        "q_no": 126,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 127,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 128,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 129,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 130,
+        "category": "Math"
+      },
+      {
+        "q_no": 131,
+        "category": "Math"
+      },
+      {
+        "q_no": 132,
+        "category": "Math"
+      },
+      {
+        "q_no": 133,
+        "category": "Math"
+      },
+      {
+        "q_no": 134,
+        "category": "Biology"
+      },
+      {
+        "q_no": 135,
+        "category": "Biology"
+      },
+      {
+        "q_no": 136,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 137,
+        "category": "Biology"
+      },
+      {
+        "q_no": 138,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 139,
+        "category": "Physics"
+      },
+      {
+        "q_no": 140,
+        "category": "Physics"
+      },
+      {
+        "q_no": 141,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 142,
+        "category": "Physics"
+      }
+    ]
+  },
+  {
+    "exam": "60-62nd BPSC (Combined)",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 2,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 3,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 4,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 5,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 6,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 7,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 8,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 9,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 10,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 11,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 12,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 13,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 14,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 15,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 16,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 17,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 18,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 19,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 20,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 21,
+        "category": "Math"
+      },
+      {
+        "q_no": 22,
+        "category": "Math"
+      },
+      {
+        "q_no": 23,
+        "category": "Math"
+      },
+      {
+        "q_no": 24,
+        "category": "Math"
+      },
+      {
+        "q_no": 25,
+        "category": "Math"
+      },
+      {
+        "q_no": 26,
+        "category": "Math"
+      },
+      {
+        "q_no": 27,
+        "category": "Math"
+      },
+      {
+        "q_no": 28,
+        "category": "Math"
+      },
+      {
+        "q_no": 29,
+        "category": "Math"
+      },
+      {
+        "q_no": 30,
+        "category": "Math"
+      },
+      {
+        "q_no": 31,
+        "category": "Biology"
+      },
+      {
+        "q_no": 32,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 33,
+        "category": "Biology"
+      },
+      {
+        "q_no": 34,
+        "category": "Biology"
+      },
+      {
+        "q_no": 35,
+        "category": "Biology"
+      },
+      {
+        "q_no": 36,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 37,
+        "category": "Biology"
+      },
+      {
+        "q_no": 38,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 39,
+        "category": "Biology"
+      },
+      {
+        "q_no": 40,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 41,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 42,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 43,
+        "category": "Biology"
+      },
+      {
+        "q_no": 44,
+        "category": "Biology"
+      },
+      {
+        "q_no": 45,
+        "category": "Biology"
+      },
+      {
+        "q_no": 46,
+        "category": "Biology"
+      },
+      {
+        "q_no": 47,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 48,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 49,
+        "category": "Physics"
+      },
+      {
+        "q_no": 50,
+        "category": "Physics"
+      },
+      {
+        "q_no": 51,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 52,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 53,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 54,
+        "category": "Geography"
+      },
+      {
+        "q_no": 55,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 56,
+        "category": "Geography"
+      },
+      {
+        "q_no": 57,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 58,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 59,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 60,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 61,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 62,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 63,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 64,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 65,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 66,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 67,
+        "category": "Economics"
+      },
+      {
+        "q_no": 68,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 69,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 70,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 71,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 72,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 73,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 74,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 75,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 76,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 77,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 78,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 79,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 80,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 81,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 82,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 83,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 84,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 85,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 86,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 87,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 88,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 89,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 90,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 91,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 92,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 93,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 94,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 95,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 96,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 97,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 98,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 99,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 100,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 101,
+        "category": "Geography"
+      },
+      {
+        "q_no": 102,
+        "category": "Geography"
+      },
+      {
+        "q_no": 103,
+        "category": "Geography"
+      },
+      {
+        "q_no": 104,
+        "category": "Geography"
+      },
+      {
+        "q_no": 105,
+        "category": "Geography"
+      },
+      {
+        "q_no": 106,
+        "category": "Geography"
+      },
+      {
+        "q_no": 107,
+        "category": "Geography"
+      },
+      {
+        "q_no": 108,
+        "category": "Geography"
+      },
+      {
+        "q_no": 109,
+        "category": "Geography"
+      },
+      {
+        "q_no": 110,
+        "category": "Geography"
+      },
+      {
+        "q_no": 111,
+        "category": "Geography"
+      },
+      {
+        "q_no": 112,
+        "category": "Geography"
+      },
+      {
+        "q_no": 113,
+        "category": "Geography"
+      },
+      {
+        "q_no": 114,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 115,
+        "category": "Geography"
+      },
+      {
+        "q_no": 116,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 117,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 118,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 119,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 120,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 121,
+        "category": "Polity"
+      },
+      {
+        "q_no": 122,
+        "category": "Polity"
+      },
+      {
+        "q_no": 123,
+        "category": "Polity"
+      },
+      {
+        "q_no": 124,
+        "category": "Polity"
+      },
+      {
+        "q_no": 125,
+        "category": "Polity"
+      },
+      {
+        "q_no": 126,
+        "category": "Polity"
+      },
+      {
+        "q_no": 127,
+        "category": "Polity"
+      },
+      {
+        "q_no": 128,
+        "category": "Polity"
+      },
+      {
+        "q_no": 129,
+        "category": "Polity"
+      },
+      {
+        "q_no": 130,
+        "category": "Polity"
+      },
+      {
+        "q_no": 131,
+        "category": "Polity"
+      },
+      {
+        "q_no": 132,
+        "category": "Polity"
+      },
+      {
+        "q_no": 133,
+        "category": "Economics"
+      },
+      {
+        "q_no": 134,
+        "category": "Economics"
+      },
+      {
+        "q_no": 135,
+        "category": "Economics"
+      },
+      {
+        "q_no": 136,
+        "category": "Geography"
+      },
+      {
+        "q_no": 137,
+        "category": "Economics"
+      },
+      {
+        "q_no": 138,
+        "category": "Geography"
+      },
+      {
+        "q_no": 139,
+        "category": "Economics"
+      },
+      {
+        "q_no": 140,
+        "category": "Economics"
+      },
+      {
+        "q_no": 141,
+        "category": "Economics"
+      },
+      {
+        "q_no": 142,
+        "category": "Geography"
+      },
+      {
+        "q_no": 143,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 144,
+        "category": "Polity"
+      },
+      {
+        "q_no": 145,
+        "category": "Economics"
+      },
+      {
+        "q_no": 146,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 147,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 148,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 149,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 150,
+        "category": "Bihar Special"
+      }
+    ]
+  },
+  {
+    "exam": "63rd BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Polity"
+      },
+      {
+        "q_no": 2,
+        "category": "Polity"
+      },
+      {
+        "q_no": 3,
+        "category": "Polity"
+      },
+      {
+        "q_no": 4,
+        "category": "Polity"
+      },
+      {
+        "q_no": 5,
+        "category": "Polity"
+      },
+      {
+        "q_no": 6,
+        "category": "Polity"
+      },
+      {
+        "q_no": 7,
+        "category": "Polity"
+      },
+      {
+        "q_no": 8,
+        "category": "Polity"
+      },
+      {
+        "q_no": 9,
+        "category": "Polity"
+      },
+      {
+        "q_no": 10,
+        "category": "Polity"
+      },
+      {
+        "q_no": 11,
+        "category": "Polity"
+      },
+      {
+        "q_no": 12,
+        "category": "Polity"
+      },
+      {
+        "q_no": 13,
+        "category": "Economics"
+      },
+      {
+        "q_no": 14,
+        "category": "Economics"
+      },
+      {
+        "q_no": 15,
+        "category": "Economics"
+      },
+      {
+        "q_no": 16,
+        "category": "Economics"
+      },
+      {
+        "q_no": 17,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 18,
+        "category": "Economics"
+      },
+      {
+        "q_no": 19,
+        "category": "Economics"
+      },
+      {
+        "q_no": 20,
+        "category": "Economics"
+      },
+      {
+        "q_no": 21,
+        "category": "Economics"
+      },
+      {
+        "q_no": 22,
+        "category": "Economics"
+      },
+      {
+        "q_no": 23,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 24,
+        "category": "Economics"
+      },
+      {
+        "q_no": 25,
+        "category": "Geography"
+      },
+      {
+        "q_no": 26,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 27,
+        "category": "Economics"
+      },
+      {
+        "q_no": 28,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 29,
+        "category": "Geography"
+      },
+      {
+        "q_no": 30,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 31,
+        "category": "Geography"
+      },
+      {
+        "q_no": 32,
+        "category": "Geography"
+      },
+      {
+        "q_no": 33,
+        "category": "Geography"
+      },
+      {
+        "q_no": 34,
+        "category": "Economics"
+      },
+      {
+        "q_no": 35,
+        "category": "Geography"
+      },
+      {
+        "q_no": 36,
+        "category": "Geography"
+      },
+      {
+        "q_no": 37,
+        "category": "Geography"
+      },
+      {
+        "q_no": 38,
+        "category": "Geography"
+      },
+      {
+        "q_no": 39,
+        "category": "Geography"
+      },
+      {
+        "q_no": 40,
+        "category": "Geography"
+      },
+      {
+        "q_no": 41,
+        "category": "Geography"
+      },
+      {
+        "q_no": 42,
+        "category": "Geography"
+      },
+      {
+        "q_no": 43,
+        "category": "Geography"
+      },
+      {
+        "q_no": 44,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 45,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 46,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 47,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 48,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 49,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 50,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 51,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 52,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 53,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 54,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 55,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 56,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 57,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 58,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 59,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 60,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 61,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 62,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 63,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 64,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 65,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 66,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 67,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 68,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 69,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 70,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 71,
+        "category": "Math"
+      },
+      {
+        "q_no": 72,
+        "category": "Math"
+      },
+      {
+        "q_no": 73,
+        "category": "Math"
+      },
+      {
+        "q_no": 74,
+        "category": "Math"
+      },
+      {
+        "q_no": 75,
+        "category": "Math"
+      },
+      {
+        "q_no": 76,
+        "category": "Math"
+      },
+      {
+        "q_no": 77,
+        "category": "Math"
+      },
+      {
+        "q_no": 78,
+        "category": "Math"
+      },
+      {
+        "q_no": 79,
+        "category": "Math"
+      },
+      {
+        "q_no": 80,
+        "category": "Math"
+      },
+      {
+        "q_no": 81,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 82,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 83,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 84,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 85,
+        "category": "Physics"
+      },
+      {
+        "q_no": 86,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 87,
+        "category": "Biology"
+      },
+      {
+        "q_no": 88,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 89,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 90,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 91,
+        "category": "Biology"
+      },
+      {
+        "q_no": 92,
+        "category": "Biology"
+      },
+      {
+        "q_no": 93,
+        "category": "Biology"
+      },
+      {
+        "q_no": 94,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 95,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 96,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 97,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 98,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 99,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 100,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 101,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 102,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 103,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 104,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 105,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 106,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 107,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 108,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 109,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 110,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 111,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 112,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 113,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 114,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 115,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 116,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 117,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 118,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 119,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 120,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 121,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 122,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 123,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 124,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 125,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 126,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 127,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 128,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 129,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 130,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 131,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 132,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 133,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 134,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 135,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 136,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 137,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 138,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 139,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 140,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 141,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 142,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 143,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 144,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 145,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 146,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 147,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 148,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 149,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 150,
+        "category": "Bihar Special"
+      }
+    ]
+  },
+  {
+    "exam": "64th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 2,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 3,
+        "category": "Physics"
+      },
+      {
+        "q_no": 4,
+        "category": "Physics"
+      },
+      {
+        "q_no": 5,
+        "category": "Biology"
+      },
+      {
+        "q_no": 6,
+        "category": "Biology"
+      },
+      {
+        "q_no": 7,
+        "category": "Biology"
+      },
+      {
+        "q_no": 8,
+        "category": "Biology"
+      },
+      {
+        "q_no": 9,
+        "category": "Physics"
+      },
+      {
+        "q_no": 10,
+        "category": "Physics"
+      },
+      {
+        "q_no": 11,
+        "category": "Physics"
+      },
+      {
+        "q_no": 12,
+        "category": "Physics"
+      },
+      {
+        "q_no": 13,
+        "category": "Biology"
+      },
+      {
+        "q_no": 14,
+        "category": "Physics"
+      },
+      {
+        "q_no": 15,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 16,
+        "category": "Physics"
+      },
+      {
+        "q_no": 17,
+        "category": "Biology"
+      },
+      {
+        "q_no": 18,
+        "category": "Biology"
+      },
+      {
+        "q_no": 19,
+        "category": "Physics"
+      },
+      {
+        "q_no": 20,
+        "category": "Physics"
+      },
+      {
+        "q_no": 21,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 22,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 23,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 24,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 25,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 26,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 27,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 28,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 29,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 30,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 31,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 32,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 33,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 34,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 35,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 36,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 37,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 38,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 39,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 40,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 41,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 42,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 43,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 44,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 45,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 46,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 47,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 48,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 49,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 50,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 51,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 52,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 53,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 54,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 55,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 56,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 57,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 58,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 59,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 60,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 61,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 62,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 63,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 64,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 65,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 66,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 67,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 68,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 69,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 70,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 71,
+        "category": "Geography"
+      },
+      {
+        "q_no": 72,
+        "category": "Geography"
+      },
+      {
+        "q_no": 73,
+        "category": "Geography"
+      },
+      {
+        "q_no": 74,
+        "category": "Geography"
+      },
+      {
+        "q_no": 75,
+        "category": "Geography"
+      },
+      {
+        "q_no": 76,
+        "category": "Geography"
+      },
+      {
+        "q_no": 77,
+        "category": "Geography"
+      },
+      {
+        "q_no": 78,
+        "category": "Geography"
+      },
+      {
+        "q_no": 79,
+        "category": "Geography"
+      },
+      {
+        "q_no": 80,
+        "category": "Economics"
+      },
+      {
+        "q_no": 81,
+        "category": "Polity"
+      },
+      {
+        "q_no": 82,
+        "category": "Geography"
+      },
+      {
+        "q_no": 83,
+        "category": "Geography"
+      },
+      {
+        "q_no": 84,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 85,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 86,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 87,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 88,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 89,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Polity"
+      },
+      {
+        "q_no": 92,
+        "category": "Polity"
+      },
+      {
+        "q_no": 93,
+        "category": "Polity"
+      },
+      {
+        "q_no": 94,
+        "category": "Polity"
+      },
+      {
+        "q_no": 95,
+        "category": "Polity"
+      },
+      {
+        "q_no": 96,
+        "category": "Polity"
+      },
+      {
+        "q_no": 97,
+        "category": "Polity"
+      },
+      {
+        "q_no": 98,
+        "category": "Polity"
+      },
+      {
+        "q_no": 99,
+        "category": "Polity"
+      },
+      {
+        "q_no": 100,
+        "category": "Polity"
+      },
+      {
+        "q_no": 101,
+        "category": "Polity"
+      },
+      {
+        "q_no": 102,
+        "category": "Polity"
+      },
+      {
+        "q_no": 103,
+        "category": "Economics"
+      },
+      {
+        "q_no": 104,
+        "category": "Economics"
+      },
+      {
+        "q_no": 105,
+        "category": "Economics"
+      },
+      {
+        "q_no": 106,
+        "category": "Economics"
+      },
+      {
+        "q_no": 107,
+        "category": "Economics"
+      },
+      {
+        "q_no": 108,
+        "category": "Economics"
+      },
+      {
+        "q_no": 109,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 110,
+        "category": "Economics"
+      },
+      {
+        "q_no": 111,
+        "category": "Economics"
+      },
+      {
+        "q_no": 112,
+        "category": "Economics"
+      },
+      {
+        "q_no": 113,
+        "category": "Economics"
+      },
+      {
+        "q_no": 114,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 115,
+        "category": "Geography"
+      },
+      {
+        "q_no": 116,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 117,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 118,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 119,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 120,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 121,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 122,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 123,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 124,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 125,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 126,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 127,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 128,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 129,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 130,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 131,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 132,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 133,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 134,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 135,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 136,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 137,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 138,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 139,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 140,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 141,
+        "category": "Math"
+      },
+      {
+        "q_no": 142,
+        "category": "Math"
+      },
+      {
+        "q_no": 143,
+        "category": "Math"
+      },
+      {
+        "q_no": 144,
+        "category": "Math"
+      },
+      {
+        "q_no": 145,
+        "category": "Math"
+      },
+      {
+        "q_no": 146,
+        "category": "Math"
+      },
+      {
+        "q_no": 147,
+        "category": "Math"
+      },
+      {
+        "q_no": 148,
+        "category": "Math"
+      },
+      {
+        "q_no": 149,
+        "category": "Math"
+      },
+      {
+        "q_no": 150,
+        "category": "Math"
+      }
+    ]
+  },
+  {
+    "exam": "65th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 2,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 3,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 4,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 5,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 6,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 7,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 8,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 9,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 10,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 11,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 12,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 13,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 14,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 15,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 16,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 17,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 18,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 19,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 20,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 21,
+        "category": "Geography"
+      },
+      {
+        "q_no": 22,
+        "category": "Geography"
+      },
+      {
+        "q_no": 23,
+        "category": "Geography"
+      },
+      {
+        "q_no": 24,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 25,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 26,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 27,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 28,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 29,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 30,
+        "category": "Geography"
+      },
+      {
+        "q_no": 31,
+        "category": "Geography"
+      },
+      {
+        "q_no": 32,
+        "category": "Geography"
+      },
+      {
+        "q_no": 33,
+        "category": "Geography"
+      },
+      {
+        "q_no": 34,
+        "category": "Geography"
+      },
+      {
+        "q_no": 35,
+        "category": "Geography"
+      },
+      {
+        "q_no": 36,
+        "category": "Geography"
+      },
+      {
+        "q_no": 37,
+        "category": "Geography"
+      },
+      {
+        "q_no": 38,
+        "category": "Geography"
+      },
+      {
+        "q_no": 39,
+        "category": "Geography"
+      },
+      {
+        "q_no": 40,
+        "category": "Geography"
+      },
+      {
+        "q_no": 41,
+        "category": "Polity"
+      },
+      {
+        "q_no": 42,
+        "category": "Polity"
+      },
+      {
+        "q_no": 43,
+        "category": "Polity"
+      },
+      {
+        "q_no": 44,
+        "category": "Polity"
+      },
+      {
+        "q_no": 45,
+        "category": "Polity"
+      },
+      {
+        "q_no": 46,
+        "category": "Polity"
+      },
+      {
+        "q_no": 47,
+        "category": "Polity"
+      },
+      {
+        "q_no": 48,
+        "category": "Polity"
+      },
+      {
+        "q_no": 49,
+        "category": "Polity"
+      },
+      {
+        "q_no": 50,
+        "category": "Polity"
+      },
+      {
+        "q_no": 51,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 52,
+        "category": "Economics"
+      },
+      {
+        "q_no": 53,
+        "category": "Economics"
+      },
+      {
+        "q_no": 54,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 55,
+        "category": "Economics"
+      },
+      {
+        "q_no": 56,
+        "category": "Economics"
+      },
+      {
+        "q_no": 57,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 58,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 59,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 60,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 61,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 62,
+        "category": "Economics"
+      },
+      {
+        "q_no": 63,
+        "category": "Economics"
+      },
+      {
+        "q_no": 64,
+        "category": "Economics"
+      },
+      {
+        "q_no": 65,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 66,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 67,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 68,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 69,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 70,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 71,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 72,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 73,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 74,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 75,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 76,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 77,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 78,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 79,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 80,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 81,
+        "category": "Math"
+      },
+      {
+        "q_no": 82,
+        "category": "Math"
+      },
+      {
+        "q_no": 83,
+        "category": "Math"
+      },
+      {
+        "q_no": 84,
+        "category": "Math"
+      },
+      {
+        "q_no": 85,
+        "category": "Math"
+      },
+      {
+        "q_no": 86,
+        "category": "Math"
+      },
+      {
+        "q_no": 87,
+        "category": "Math"
+      },
+      {
+        "q_no": 88,
+        "category": "Math"
+      },
+      {
+        "q_no": 89,
+        "category": "Math"
+      },
+      {
+        "q_no": 90,
+        "category": "Math"
+      },
+      {
+        "q_no": 91,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 92,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 93,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 94,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 95,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 96,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 97,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 98,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 99,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 100,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 101,
+        "category": "Biology"
+      },
+      {
+        "q_no": 102,
+        "category": "Biology"
+      },
+      {
+        "q_no": 103,
+        "category": "Biology"
+      },
+      {
+        "q_no": 104,
+        "category": "Biology"
+      },
+      {
+        "q_no": 105,
+        "category": "Biology"
+      },
+      {
+        "q_no": 106,
+        "category": "Biology"
+      },
+      {
+        "q_no": 107,
+        "category": "Biology"
+      },
+      {
+        "q_no": 108,
+        "category": "Biology"
+      },
+      {
+        "q_no": 109,
+        "category": "Biology"
+      },
+      {
+        "q_no": 110,
+        "category": "Biology"
+      },
+      {
+        "q_no": 111,
+        "category": "Physics"
+      },
+      {
+        "q_no": 112,
+        "category": "Physics"
+      },
+      {
+        "q_no": 113,
+        "category": "Physics"
+      },
+      {
+        "q_no": 114,
+        "category": "Physics"
+      },
+      {
+        "q_no": 115,
+        "category": "Physics"
+      },
+      {
+        "q_no": 116,
+        "category": "Physics"
+      },
+      {
+        "q_no": 117,
+        "category": "Physics"
+      },
+      {
+        "q_no": 118,
+        "category": "Biology"
+      },
+      {
+        "q_no": 119,
+        "category": "Physics"
+      },
+      {
+        "q_no": 120,
+        "category": "Physics"
+      },
+      {
+        "q_no": 121,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 122,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 123,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 124,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 125,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 126,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 127,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 128,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 129,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 130,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 131,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 132,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 133,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 134,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 135,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 136,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 137,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 138,
+        "category": "Polity"
+      },
+      {
+        "q_no": 139,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 140,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 141,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 142,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 143,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 144,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 145,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 146,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 147,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 148,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 149,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 150,
+        "category": "Current Affairs"
+      }
+    ]
+  },
+  {
+    "exam": "66th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Physics"
+      },
+      {
+        "q_no": 2,
+        "category": "Physics"
+      },
+      {
+        "q_no": 3,
+        "category": "Physics"
+      },
+      {
+        "q_no": 4,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 5,
+        "category": "Physics"
+      },
+      {
+        "q_no": 6,
+        "category": "Physics"
+      },
+      {
+        "q_no": 7,
+        "category": "Physics"
+      },
+      {
+        "q_no": 8,
+        "category": "Physics"
+      },
+      {
+        "q_no": 9,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 10,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 11,
+        "category": "Biology"
+      },
+      {
+        "q_no": 12,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 13,
+        "category": "Biology"
+      },
+      {
+        "q_no": 14,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 15,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 16,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 17,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 18,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 19,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 20,
+        "category": "Physics"
+      },
+      {
+        "q_no": 21,
+        "category": "Biology"
+      },
+      {
+        "q_no": 22,
+        "category": "Biology"
+      },
+      {
+        "q_no": 23,
+        "category": "Biology"
+      },
+      {
+        "q_no": 24,
+        "category": "Biology"
+      },
+      {
+        "q_no": 25,
+        "category": "Biology"
+      },
+      {
+        "q_no": 26,
+        "category": "Biology"
+      },
+      {
+        "q_no": 27,
+        "category": "Biology"
+      },
+      {
+        "q_no": 28,
+        "category": "Biology"
+      },
+      {
+        "q_no": 29,
+        "category": "Biology"
+      },
+      {
+        "q_no": 30,
+        "category": "Biology"
+      },
+      {
+        "q_no": 31,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 32,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 33,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 34,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 35,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 36,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 37,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 38,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 39,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 40,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 41,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 42,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 43,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 44,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 45,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 46,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 47,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 48,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 49,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 50,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 51,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 52,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 53,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 54,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 55,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 56,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 57,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 58,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 59,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 60,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 67,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 68,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 69,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 70,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 71,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 72,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 73,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 74,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 75,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 76,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 77,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 78,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 79,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 80,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 81,
+        "category": "Geography"
+      },
+      {
+        "q_no": 82,
+        "category": "Geography"
+      },
+      {
+        "q_no": 83,
+        "category": "Geography"
+      },
+      {
+        "q_no": 84,
+        "category": "Geography"
+      },
+      {
+        "q_no": 85,
+        "category": "Geography"
+      },
+      {
+        "q_no": 86,
+        "category": "Geography"
+      },
+      {
+        "q_no": 87,
+        "category": "Geography"
+      },
+      {
+        "q_no": 88,
+        "category": "Geography"
+      },
+      {
+        "q_no": 89,
+        "category": "Geography"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Geography"
+      },
+      {
+        "q_no": 92,
+        "category": "Geography"
+      },
+      {
+        "q_no": 93,
+        "category": "Geography"
+      },
+      {
+        "q_no": 94,
+        "category": "Geography"
+      },
+      {
+        "q_no": 95,
+        "category": "Geography"
+      },
+      {
+        "q_no": 96,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 97,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 98,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 99,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 100,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 101,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 102,
+        "category": "Polity"
+      },
+      {
+        "q_no": 103,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 104,
+        "category": "Polity"
+      },
+      {
+        "q_no": 105,
+        "category": "Polity"
+      },
+      {
+        "q_no": 106,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 107,
+        "category": "Polity"
+      },
+      {
+        "q_no": 108,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 109,
+        "category": "Polity"
+      },
+      {
+        "q_no": 110,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 111,
+        "category": "Economics"
+      },
+      {
+        "q_no": 125,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 126,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 127,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 128,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 129,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 130,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 131,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 132,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 133,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 134,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 135,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 136,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 137,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 138,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 139,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 140,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 141,
+        "category": "Math"
+      },
+      {
+        "q_no": 142,
+        "category": "Math"
+      },
+      {
+        "q_no": 143,
+        "category": "Math"
+      },
+      {
+        "q_no": 144,
+        "category": "Math"
+      },
+      {
+        "q_no": 145,
+        "category": "Math"
+      },
+      {
+        "q_no": 146,
+        "category": "Math"
+      },
+      {
+        "q_no": 147,
+        "category": "Math"
+      },
+      {
+        "q_no": 148,
+        "category": "Math"
+      },
+      {
+        "q_no": 149,
+        "category": "Math"
+      },
+      {
+        "q_no": 150,
+        "category": "Math"
+      }
+    ]
+  },
+  {
+    "exam": "67th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Polity"
+      },
+      {
+        "q_no": 2,
+        "category": "Polity"
+      },
+      {
+        "q_no": 3,
+        "category": "Polity"
+      },
+      {
+        "q_no": 4,
+        "category": "Polity"
+      },
+      {
+        "q_no": 5,
+        "category": "Polity"
+      },
+      {
+        "q_no": 6,
+        "category": "Polity"
+      },
+      {
+        "q_no": 7,
+        "category": "Polity"
+      },
+      {
+        "q_no": 8,
+        "category": "Polity"
+      },
+      {
+        "q_no": 9,
+        "category": "Polity"
+      },
+      {
+        "q_no": 10,
+        "category": "Polity"
+      },
+      {
+        "q_no": 11,
+        "category": "Economics"
+      },
+      {
+        "q_no": 12,
+        "category": "Economics"
+      },
+      {
+        "q_no": 13,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 14,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 15,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 16,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 17,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 18,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 19,
+        "category": "Economics"
+      },
+      {
+        "q_no": 20,
+        "category": "Economics"
+      },
+      {
+        "q_no": 21,
+        "category": "Economics"
+      },
+      {
+        "q_no": 22,
+        "category": "Economics"
+      },
+      {
+        "q_no": 23,
+        "category": "Economics"
+      },
+      {
+        "q_no": 24,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 25,
+        "category": "Economics"
+      },
+      {
+        "q_no": 26,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 27,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 28,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 29,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 30,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 31,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 32,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 33,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 34,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 35,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 36,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 37,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 38,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 39,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 40,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 41,
+        "category": "Math"
+      },
+      {
+        "q_no": 42,
+        "category": "Math"
+      },
+      {
+        "q_no": 43,
+        "category": "Math"
+      },
+      {
+        "q_no": 44,
+        "category": "Math"
+      },
+      {
+        "q_no": 45,
+        "category": "Math"
+      },
+      {
+        "q_no": 46,
+        "category": "Math"
+      },
+      {
+        "q_no": 47,
+        "category": "Math"
+      },
+      {
+        "q_no": 48,
+        "category": "Math"
+      },
+      {
+        "q_no": 49,
+        "category": "Math"
+      },
+      {
+        "q_no": 50,
+        "category": "Math"
+      },
+      {
+        "q_no": 51,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 52,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 53,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 54,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 55,
+        "category": "Biology"
+      },
+      {
+        "q_no": 56,
+        "category": "Biology"
+      },
+      {
+        "q_no": 57,
+        "category": "Biology"
+      },
+      {
+        "q_no": 58,
+        "category": "Biology"
+      },
+      {
+        "q_no": 59,
+        "category": "Biology"
+      },
+      {
+        "q_no": 60,
+        "category": "Biology"
+      },
+      {
+        "q_no": 61,
+        "category": "Biology"
+      },
+      {
+        "q_no": 62,
+        "category": "Biology"
+      },
+      {
+        "q_no": 63,
+        "category": "Biology"
+      },
+      {
+        "q_no": 64,
+        "category": "Biology"
+      },
+      {
+        "q_no": 65,
+        "category": "Physics"
+      },
+      {
+        "q_no": 66,
+        "category": "Physics"
+      },
+      {
+        "q_no": 67,
+        "category": "Physics"
+      },
+      {
+        "q_no": 68,
+        "category": "Physics"
+      },
+      {
+        "q_no": 69,
+        "category": "Physics"
+      },
+      {
+        "q_no": 70,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 71,
+        "category": "Physics"
+      },
+      {
+        "q_no": 72,
+        "category": "Physics"
+      },
+      {
+        "q_no": 73,
+        "category": "Physics"
+      },
+      {
+        "q_no": 74,
+        "category": "Physics"
+      },
+      {
+        "q_no": 75,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 76,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 77,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 78,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 79,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 80,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 81,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 82,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 83,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 84,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 85,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 86,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 87,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 88,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 89,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 92,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 93,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 94,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 95,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 96,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 97,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 98,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 99,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 100,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 101,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 102,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 103,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 104,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 105,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 106,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 107,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 108,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 109,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 110,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 111,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 112,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 113,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 114,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 115,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 116,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 117,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 118,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 119,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 120,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 121,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 122,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 123,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 124,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 125,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 126,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 127,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 128,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 129,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 130,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 131,
+        "category": "Geography"
+      },
+      {
+        "q_no": 132,
+        "category": "Geography"
+      },
+      {
+        "q_no": 133,
+        "category": "Geography"
+      },
+      {
+        "q_no": 134,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 135,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 136,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 137,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 138,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 139,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 140,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 141,
+        "category": "Geography"
+      },
+      {
+        "q_no": 142,
+        "category": "Geography"
+      },
+      {
+        "q_no": 143,
+        "category": "Geography"
+      },
+      {
+        "q_no": 144,
+        "category": "Geography"
+      },
+      {
+        "q_no": 145,
+        "category": "Geography"
+      },
+      {
+        "q_no": 146,
+        "category": "Geography"
+      },
+      {
+        "q_no": 147,
+        "category": "Geography"
+      },
+      {
+        "q_no": 148,
+        "category": "Geography"
+      },
+      {
+        "q_no": 149,
+        "category": "Geography"
+      },
+      {
+        "q_no": 150,
+        "category": "Geography"
+      }
+    ]
+  },
+  {
+    "exam": "68th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Polity"
+      },
+      {
+        "q_no": 2,
+        "category": "Polity"
+      },
+      {
+        "q_no": 3,
+        "category": "Polity"
+      },
+      {
+        "q_no": 4,
+        "category": "Polity"
+      },
+      {
+        "q_no": 5,
+        "category": "Polity"
+      },
+      {
+        "q_no": 6,
+        "category": "Polity"
+      },
+      {
+        "q_no": 7,
+        "category": "Polity"
+      },
+      {
+        "q_no": 8,
+        "category": "Polity"
+      },
+      {
+        "q_no": 9,
+        "category": "Polity"
+      },
+      {
+        "q_no": 10,
+        "category": "Polity"
+      },
+      {
+        "q_no": 11,
+        "category": "Economics"
+      },
+      {
+        "q_no": 12,
+        "category": "Economics"
+      },
+      {
+        "q_no": 13,
+        "category": "Economics"
+      },
+      {
+        "q_no": 14,
+        "category": "Economics"
+      },
+      {
+        "q_no": 15,
+        "category": "Economics"
+      },
+      {
+        "q_no": 16,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 17,
+        "category": "Economics"
+      },
+      {
+        "q_no": 18,
+        "category": "Economics"
+      },
+      {
+        "q_no": 19,
+        "category": "Economics"
+      },
+      {
+        "q_no": 20,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 21,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 22,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 23,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 24,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 25,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 26,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 27,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 28,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 29,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 30,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 31,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 32,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 33,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 34,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 35,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 36,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 37,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 38,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 39,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 40,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 41,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 42,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 43,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 44,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 45,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 46,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 47,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 48,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 49,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 50,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 51,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 52,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 53,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 54,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 55,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 56,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 57,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 58,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 59,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 60,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 61,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 62,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 63,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 64,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 65,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 66,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 67,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 68,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 69,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 70,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 71,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 72,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 73,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 74,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 75,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 76,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 77,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 78,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 79,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 80,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 81,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 82,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 83,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 84,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 85,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 86,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 87,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 88,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 89,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Geography"
+      },
+      {
+        "q_no": 92,
+        "category": "Geography"
+      },
+      {
+        "q_no": 93,
+        "category": "Geography"
+      },
+      {
+        "q_no": 94,
+        "category": "Geography"
+      },
+      {
+        "q_no": 95,
+        "category": "Geography"
+      },
+      {
+        "q_no": 96,
+        "category": "Geography"
+      },
+      {
+        "q_no": 97,
+        "category": "Geography"
+      },
+      {
+        "q_no": 98,
+        "category": "Geography"
+      },
+      {
+        "q_no": 99,
+        "category": "Geography"
+      },
+      {
+        "q_no": 100,
+        "category": "Geography"
+      },
+      {
+        "q_no": 101,
+        "category": "Geography"
+      },
+      {
+        "q_no": 102,
+        "category": "Geography"
+      },
+      {
+        "q_no": 103,
+        "category": "Geography"
+      },
+      {
+        "q_no": 104,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 105,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 106,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 107,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 108,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 109,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 110,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 111,
+        "category": "Physics"
+      },
+      {
+        "q_no": 112,
+        "category": "Physics"
+      },
+      {
+        "q_no": 113,
+        "category": "Physics"
+      },
+      {
+        "q_no": 114,
+        "category": "Physics"
+      },
+      {
+        "q_no": 115,
+        "category": "Physics"
+      },
+      {
+        "q_no": 116,
+        "category": "Physics"
+      },
+      {
+        "q_no": 117,
+        "category": "Physics"
+      },
+      {
+        "q_no": 118,
+        "category": "Physics"
+      },
+      {
+        "q_no": 119,
+        "category": "Physics"
+      },
+      {
+        "q_no": 120,
+        "category": "Physics"
+      },
+      {
+        "q_no": 121,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 122,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 123,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 124,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 125,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 126,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 127,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 128,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 129,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 130,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 131,
+        "category": "Biology"
+      },
+      {
+        "q_no": 132,
+        "category": "Biology"
+      },
+      {
+        "q_no": 133,
+        "category": "Biology"
+      },
+      {
+        "q_no": 134,
+        "category": "Biology"
+      },
+      {
+        "q_no": 135,
+        "category": "Biology"
+      },
+      {
+        "q_no": 136,
+        "category": "Biology"
+      },
+      {
+        "q_no": 137,
+        "category": "Biology"
+      },
+      {
+        "q_no": 138,
+        "category": "Biology"
+      },
+      {
+        "q_no": 139,
+        "category": "Biology"
+      },
+      {
+        "q_no": 140,
+        "category": "Biology"
+      },
+      {
+        "q_no": 141,
+        "category": "Math"
+      },
+      {
+        "q_no": 142,
+        "category": "Math"
+      },
+      {
+        "q_no": 143,
+        "category": "Math"
+      },
+      {
+        "q_no": 144,
+        "category": "Math"
+      },
+      {
+        "q_no": 145,
+        "category": "Math"
+      },
+      {
+        "q_no": 146,
+        "category": "Math"
+      },
+      {
+        "q_no": 147,
+        "category": "Math"
+      },
+      {
+        "q_no": 148,
+        "category": "Math"
+      },
+      {
+        "q_no": 149,
+        "category": "Math"
+      },
+      {
+        "q_no": 150,
+        "category": "Math"
+      }
+    ]
+  },
+  {
+    "exam": "69th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 2,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 3,
+        "category": "Biology"
+      },
+      {
+        "q_no": 4,
+        "category": "Biology"
+      },
+      {
+        "q_no": 5,
+        "category": "Miscellaneous"
+      },
+      {
+        "q_no": 6,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 7,
+        "category": "Biology"
+      },
+      {
+        "q_no": 8,
+        "category": "Biology"
+      },
+      {
+        "q_no": 9,
+        "category": "Physics"
+      },
+      {
+        "q_no": 10,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 11,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 12,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 13,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 14,
+        "category": "Physics"
+      },
+      {
+        "q_no": 15,
+        "category": "Physics"
+      },
+      {
+        "q_no": 16,
+        "category": "Physics"
+      },
+      {
+        "q_no": 17,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 18,
+        "category": "Biology"
+      },
+      {
+        "q_no": 19,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 20,
+        "category": "Biology"
+      },
+      {
+        "q_no": 21,
+        "category": "Physics"
+      },
+      {
+        "q_no": 22,
+        "category": "Biology"
+      },
+      {
+        "q_no": 23,
+        "category": "Geography"
+      },
+      {
+        "q_no": 24,
+        "category": "Geography"
+      },
+      {
+        "q_no": 25,
+        "category": "Biology"
+      },
+      {
+        "q_no": 26,
+        "category": "Physics"
+      },
+      {
+        "q_no": 27,
+        "category": "Physics"
+      },
+      {
+        "q_no": 28,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 29,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 30,
+        "category": "Biology"
+      },
+      {
+        "q_no": 31,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 32,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 33,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 34,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 35,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 36,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 37,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 38,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 39,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 40,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 41,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 42,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 43,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 44,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 45,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 46,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 47,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 48,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 49,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 50,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 51,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 52,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 53,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 54,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 55,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 56,
+        "category": "Geography"
+      },
+      {
+        "q_no": 57,
+        "category": "Polity"
+      },
+      {
+        "q_no": 58,
+        "category": "Polity"
+      },
+      {
+        "q_no": 59,
+        "category": "Economics"
+      },
+      {
+        "q_no": 60,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 61,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 62,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 63,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 64,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 65,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 66,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 67,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 68,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 69,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 70,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 71,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 72,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 73,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 74,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 75,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 76,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 77,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 78,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 79,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 80,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 81,
+        "category": "Geography"
+      },
+      {
+        "q_no": 82,
+        "category": "Geography"
+      },
+      {
+        "q_no": 83,
+        "category": "Geography"
+      },
+      {
+        "q_no": 84,
+        "category": "Geography"
+      },
+      {
+        "q_no": 85,
+        "category": "Geography"
+      },
+      {
+        "q_no": 86,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 87,
+        "category": "Geography"
+      },
+      {
+        "q_no": 88,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 89,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Geography"
+      },
+      {
+        "q_no": 92,
+        "category": "Geography"
+      },
+      {
+        "q_no": 93,
+        "category": "Geography"
+      },
+      {
+        "q_no": 94,
+        "category": "Geography"
+      },
+      {
+        "q_no": 95,
+        "category": "Geography"
+      },
+      {
+        "q_no": 96,
+        "category": "Geography"
+      },
+      {
+        "q_no": 97,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 98,
+        "category": "Geography"
+      },
+      {
+        "q_no": 99,
+        "category": "Geography"
+      },
+      {
+        "q_no": 100,
+        "category": "Geography"
+      },
+      {
+        "q_no": 101,
+        "category": "Polity"
+      },
+      {
+        "q_no": 102,
+        "category": "Polity"
+      },
+      {
+        "q_no": 103,
+        "category": "Polity"
+      },
+      {
+        "q_no": 104,
+        "category": "Polity"
+      },
+      {
+        "q_no": 105,
+        "category": "Polity"
+      },
+      {
+        "q_no": 106,
+        "category": "Polity"
+      },
+      {
+        "q_no": 107,
+        "category": "Polity"
+      },
+      {
+        "q_no": 108,
+        "category": "Polity"
+      },
+      {
+        "q_no": 109,
+        "category": "Polity"
+      },
+      {
+        "q_no": 110,
+        "category": "Polity"
+      },
+      {
+        "q_no": 111,
+        "category": "Economics"
+      },
+      {
+        "q_no": 112,
+        "category": "Economics"
+      },
+      {
+        "q_no": 113,
+        "category": "Economics"
+      },
+      {
+        "q_no": 114,
+        "category": "Economics"
+      },
+      {
+        "q_no": 115,
+        "category": "Economics"
+      },
+      {
+        "q_no": 116,
+        "category": "Economics"
+      },
+      {
+        "q_no": 117,
+        "category": "Economics"
+      },
+      {
+        "q_no": 118,
+        "category": "Economics"
+      },
+      {
+        "q_no": 119,
+        "category": "Polity"
+      },
+      {
+        "q_no": 120,
+        "category": "Economics"
+      },
+      {
+        "q_no": 121,
+        "category": "Economics"
+      },
+      {
+        "q_no": 122,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 123,
+        "category": "Economics"
+      },
+      {
+        "q_no": 124,
+        "category": "Economics"
+      },
+      {
+        "q_no": 125,
+        "category": "Economics"
+      },
+      {
+        "q_no": 126,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 127,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 128,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 129,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 130,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 131,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 132,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 133,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 134,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 135,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 136,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 137,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 138,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 139,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 140,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 141,
+        "category": "Math"
+      },
+      {
+        "q_no": 142,
+        "category": "Math"
+      },
+      {
+        "q_no": 143,
+        "category": "Math"
+      },
+      {
+        "q_no": 144,
+        "category": "Math"
+      },
+      {
+        "q_no": 145,
+        "category": "Math"
+      },
+      {
+        "q_no": 146,
+        "category": "Math"
+      },
+      {
+        "q_no": 147,
+        "category": "Math"
+      },
+      {
+        "q_no": 148,
+        "category": "Math"
+      },
+      {
+        "q_no": 149,
+        "category": "Math"
+      },
+      {
+        "q_no": 150,
+        "category": "Math"
+      }
+    ]
+  },
+  {
+    "exam": "70th BPSC",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 2,
+        "category": "Geography"
+      },
+      {
+        "q_no": 3,
+        "category": "Biology"
+      },
+      {
+        "q_no": 4,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 5,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 6,
+        "category": "Physics"
+      },
+      {
+        "q_no": 7,
+        "category": "Polity"
+      },
+      {
+        "q_no": 8,
+        "category": "Math"
+      },
+      {
+        "q_no": 9,
+        "category": "Geography"
+      },
+      {
+        "q_no": 10,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 11,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 12,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 13,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 14,
+        "category": "Economics"
+      },
+      {
+        "q_no": 15,
+        "category": "Physics"
+      },
+      {
+        "q_no": 16,
+        "category": "Geography"
+      },
+      {
+        "q_no": 17,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 18,
+        "category": "Geography"
+      },
+      {
+        "q_no": 19,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 20,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 21,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 22,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 23,
+        "category": "Math"
+      },
+      {
+        "q_no": 24,
+        "category": "Geography"
+      },
+      {
+        "q_no": 25,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 26,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 27,
+        "category": "Economics"
+      },
+      {
+        "q_no": 28,
+        "category": "Geography"
+      },
+      {
+        "q_no": 29,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 30,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 31,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 32,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 33,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 34,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 35,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 36,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 37,
+        "category": "Math"
+      },
+      {
+        "q_no": 38,
+        "category": "Economics"
+      },
+      {
+        "q_no": 39,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 40,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 41,
+        "category": "Biology"
+      },
+      {
+        "q_no": 42,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 43,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 44,
+        "category": "Math"
+      },
+      {
+        "q_no": 45,
+        "category": "Physics"
+      },
+      {
+        "q_no": 46,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 47,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 48,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 49,
+        "category": "Economics"
+      },
+      {
+        "q_no": 50,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 51,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 52,
+        "category": "Math"
+      },
+      {
+        "q_no": 53,
+        "category": "Geography"
+      },
+      {
+        "q_no": 54,
+        "category": "Economics"
+      },
+      {
+        "q_no": 55,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 56,
+        "category": "Biology"
+      },
+      {
+        "q_no": 57,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 58,
+        "category": "Geography"
+      },
+      {
+        "q_no": 59,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 60,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 61,
+        "category": "Geography"
+      },
+      {
+        "q_no": 62,
+        "category": "Math"
+      },
+      {
+        "q_no": 63,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 64,
+        "category": "Economics"
+      },
+      {
+        "q_no": 65,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 66,
+        "category": "Biology"
+      },
+      {
+        "q_no": 67,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 68,
+        "category": "Geography"
+      },
+      {
+        "q_no": 69,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 70,
+        "category": "Physics"
+      },
+      {
+        "q_no": 71,
+        "category": "Math"
+      },
+      {
+        "q_no": 72,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 73,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 74,
+        "category": "Geography"
+      },
+      {
+        "q_no": 75,
+        "category": "Economics"
+      },
+      {
+        "q_no": 76,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 77,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 78,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 79,
+        "category": "Biology"
+      },
+      {
+        "q_no": 80,
+        "category": "Math"
+      },
+      {
+        "q_no": 81,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 82,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 83,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 84,
+        "category": "Polity"
+      },
+      {
+        "q_no": 85,
+        "category": "Physics"
+      },
+      {
+        "q_no": 86,
+        "category": "Math"
+      },
+      {
+        "q_no": 87,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 88,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 89,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 90,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 91,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 92,
+        "category": "Math"
+      },
+      {
+        "q_no": 93,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 94,
+        "category": "Polity"
+      },
+      {
+        "q_no": 95,
+        "category": "Geography"
+      },
+      {
+        "q_no": 96,
+        "category": "Polity"
+      },
+      {
+        "q_no": 97,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 98,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 99,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 100,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 101,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 102,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 103,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 104,
+        "category": "Physics"
+      },
+      {
+        "q_no": 105,
+        "category": "Polity"
+      },
+      {
+        "q_no": 106,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 107,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 108,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 109,
+        "category": "Polity"
+      },
+      {
+        "q_no": 110,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 111,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 112,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 113,
+        "category": "Physics"
+      },
+      {
+        "q_no": 114,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 115,
+        "category": "Polity"
+      },
+      {
+        "q_no": 116,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 117,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 118,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 119,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 120,
+        "category": "Biology"
+      },
+      {
+        "q_no": 121,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 122,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 123,
+        "category": "Physics"
+      },
+      {
+        "q_no": 124,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 125,
+        "category": "Polity"
+      },
+      {
+        "q_no": 126,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 127,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 128,
+        "category": "Biology"
+      },
+      {
+        "q_no": 129,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 130,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 131,
+        "category": "Economics"
+      },
+      {
+        "q_no": 132,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 133,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 134,
+        "category": "Biology"
+      },
+      {
+        "q_no": 135,
+        "category": "Polity"
+      },
+      {
+        "q_no": 136,
+        "category": "Polity"
+      },
+      {
+        "q_no": 137,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 138,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 139,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 140,
+        "category": "Geography"
+      },
+      {
+        "q_no": 141,
+        "category": "Polity"
+      },
+      {
+        "q_no": 142,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 143,
+        "category": "Biology"
+      },
+      {
+        "q_no": 144,
+        "category": "Economics"
+      },
+      {
+        "q_no": 145,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 146,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 147,
+        "category": "Polity"
+      },
+      {
+        "q_no": 148,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 149,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 150,
+        "category": "Chemistry"
+      }
+    ]
+  },
+  {
+    "exam": "71st BPSC (2025)",
+    "questions": [
+      {
+        "q_no": 1,
+        "category": "Math"
+      },
+      {
+        "q_no": 2,
+        "category": "Math"
+      },
+      {
+        "q_no": 3,
+        "category": "Math"
+      },
+      {
+        "q_no": 4,
+        "category": "Math"
+      },
+      {
+        "q_no": 5,
+        "category": "Math"
+      },
+      {
+        "q_no": 6,
+        "category": "Math"
+      },
+      {
+        "q_no": 7,
+        "category": "Math"
+      },
+      {
+        "q_no": 8,
+        "category": "Math"
+      },
+      {
+        "q_no": 9,
+        "category": "Math"
+      },
+      {
+        "q_no": 10,
+        "category": "Math"
+      },
+      {
+        "q_no": 11,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 12,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 13,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 14,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 15,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 16,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 17,
+        "category": "Geography"
+      },
+      {
+        "q_no": 18,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 19,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 20,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 21,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 22,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 23,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 24,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 25,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 26,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 27,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 28,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 29,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 30,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 31,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 32,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 33,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 34,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 35,
+        "category": "Geography"
+      },
+      {
+        "q_no": 36,
+        "category": "Economics"
+      },
+      {
+        "q_no": 37,
+        "category": "Economics"
+      },
+      {
+        "q_no": 38,
+        "category": "Geography"
+      },
+      {
+        "q_no": 39,
+        "category": "Economics"
+      },
+      {
+        "q_no": 40,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 41,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 42,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 43,
+        "category": "Economics"
+      },
+      {
+        "q_no": 44,
+        "category": "Economics"
+      },
+      {
+        "q_no": 45,
+        "category": "Economics"
+      },
+      {
+        "q_no": 46,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 47,
+        "category": "Economics"
+      },
+      {
+        "q_no": 48,
+        "category": "Current Affairs"
+      },
+      {
+        "q_no": 49,
+        "category": "Economics"
+      },
+      {
+        "q_no": 50,
+        "category": "Economics"
+      },
+      {
+        "q_no": 51,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 52,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 53,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 54,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 55,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 56,
+        "category": "Polity"
+      },
+      {
+        "q_no": 57,
+        "category": "Polity"
+      },
+      {
+        "q_no": 58,
+        "category": "Polity"
+      },
+      {
+        "q_no": 59,
+        "category": "Polity"
+      },
+      {
+        "q_no": 60,
+        "category": "Polity"
+      },
+      {
+        "q_no": 61,
+        "category": "Polity"
+      },
+      {
+        "q_no": 62,
+        "category": "Polity"
+      },
+      {
+        "q_no": 63,
+        "category": "Polity"
+      },
+      {
+        "q_no": 64,
+        "category": "Polity"
+      },
+      {
+        "q_no": 65,
+        "category": "Polity"
+      },
+      {
+        "q_no": 66,
+        "category": "Polity"
+      },
+      {
+        "q_no": 67,
+        "category": "Economics"
+      },
+      {
+        "q_no": 68,
+        "category": "Polity"
+      },
+      {
+        "q_no": 69,
+        "category": "Polity"
+      },
+      {
+        "q_no": 70,
+        "category": "Polity"
+      },
+      {
+        "q_no": 71,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 72,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 73,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 74,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 75,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 76,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 77,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 78,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 79,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 80,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 81,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 82,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 83,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 84,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 85,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 86,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 87,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 88,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 89,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 90,
+        "category": "Ancient History"
+      },
+      {
+        "q_no": 91,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 92,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 93,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 94,
+        "category": "Medieval"
+      },
+      {
+        "q_no": 95,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 96,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 97,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 98,
+        "category": "Modern History"
+      },
+      {
+        "q_no": 99,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 100,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 101,
+        "category": "Geography"
+      },
+      {
+        "q_no": 102,
+        "category": "Geography"
+      },
+      {
+        "q_no": 103,
+        "category": "Geography"
+      },
+      {
+        "q_no": 104,
+        "category": "Geography"
+      },
+      {
+        "q_no": 105,
+        "category": "Geography"
+      },
+      {
+        "q_no": 106,
+        "category": "Geography"
+      },
+      {
+        "q_no": 107,
+        "category": "Geography"
+      },
+      {
+        "q_no": 108,
+        "category": "Geography"
+      },
+      {
+        "q_no": 109,
+        "category": "Geography"
+      },
+      {
+        "q_no": 110,
+        "category": "Geography"
+      },
+      {
+        "q_no": 111,
+        "category": "Geography"
+      },
+      {
+        "q_no": 112,
+        "category": "Geography"
+      },
+      {
+        "q_no": 113,
+        "category": "Geography"
+      },
+      {
+        "q_no": 114,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 115,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 116,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 117,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 118,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 119,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 120,
+        "category": "Bihar Special"
+      },
+      {
+        "q_no": 121,
+        "category": "Physics"
+      },
+      {
+        "q_no": 122,
+        "category": "Physics"
+      },
+      {
+        "q_no": 123,
+        "category": "Physics"
+      },
+      {
+        "q_no": 124,
+        "category": "Physics"
+      },
+      {
+        "q_no": 125,
+        "category": "Physics"
+      },
+      {
+        "q_no": 126,
+        "category": "Physics"
+      },
+      {
+        "q_no": 127,
+        "category": "Physics"
+      },
+      {
+        "q_no": 128,
+        "category": "Physics"
+      },
+      {
+        "q_no": 129,
+        "category": "Physics"
+      },
+      {
+        "q_no": 130,
+        "category": "Physics"
+      },
+      {
+        "q_no": 131,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 132,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 133,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 134,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 135,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 136,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 137,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 138,
+        "category": "Chemistry"
+      },
+      {
+        "q_no": 139,
+        "category": "Biology"
+      },
+      {
+        "q_no": 140,
+        "category": "Biology"
+      },
+      {
+        "q_no": 141,
+        "category": "Biology"
+      },
+      {
+        "q_no": 142,
+        "category": "Biology"
+      },
+      {
+        "q_no": 143,
+        "category": "Biology"
+      },
+      {
+        "q_no": 144,
+        "category": "Biology"
+      },
+      {
+        "q_no": 145,
+        "category": "Biology"
+      },
+      {
+        "q_no": 146,
+        "category": "Biology"
+      },
+      {
+        "q_no": 147,
+        "category": "Biology"
+      },
+      {
+        "q_no": 148,
+        "category": "Biology"
+      },
+      {
+        "q_no": 149,
+        "category": "Biology"
+      },
+      {
+        "q_no": 150,
+        "category": "Biology"
+      }
+    ]
+  }
+]

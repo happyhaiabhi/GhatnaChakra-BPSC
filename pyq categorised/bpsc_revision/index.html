@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#080c12" />
+<meta name="description" content="Arena BPSC PYQ Book — 1,623 prelims questions organised like Ghatna Chakra." />
+<title>BPSC PYQ Book — Arena Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/base.css" />
+<link rel="stylesheet" href="assets/screens.css" />
+<link rel="stylesheet" href="assets/bpsc-theme.css" />
+<link rel="stylesheet" href="assets/app-extra.css" />
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="bg-radial"></div>
+
+<!-- ========== BOOKS SCREEN ========== -->
+<div class="screen active" id="books-screen">
+  <header class="arena-topbar">
+    <a class="arena-brand" href="#" onclick="showBooks();return false;">
+      <span class="arena-logo">▰</span>
+      <span>BPSC <em>PYQ Book</em></span>
+    </a>
+    <div class="arena-top-actions">
+      <a class="arena-link-pill" href="https://happyhaiabhi.github.io/GhatnaChakra-BPSC/" target="_blank" rel="noopener">
+        📖 My Ghatna Chakra Book ↗
+      </a>
+      <button class="portal-theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M19.6 15.4A8 8 0 0 1 8.6 4.4 8.5 8.5 0 1 0 19.6 15.4Z"></path></svg>
+        <span>Night mode</span>
+        <i data-theme-state>Off</i>
+      </button>
+    </div>
+  </header>
+
+  <div class="books-wrap">
+    <div class="books-logo">MCQ Practise</div>
+    <div class="books-tagline">Choose a book to begin</div>
+    <div class="books-date" id="books-date">🌿 Cover by priority · Bloom one subject at a time 🌿</div>
+
+    <section class="books-global-search" aria-label="Search">
+      <div class="books-global-searchbox">
+        <span class="books-global-searchicon" aria-hidden="true">🔎</span>
+        <input id="global-search" type="search" placeholder="Search subjects, chapters, questions…" autocomplete="off" />
+        <button type="button" class="books-global-searchbtn" id="global-search-btn">Search</button>
+      </div>
+      <div class="books-global-searchmeta">
+        <span id="global-search-status">1,623 Arena-tagged BPSC Prelims PYQs · priority-ranked subjects</span>
+        <button type="button" class="books-global-clear" id="global-search-clear" hidden>Clear</button>
+      </div>
+      <div class="books-global-results" id="global-results" hidden></div>
+    </section>
+
+    <div class="plan-strip" id="plan-strip">
+      <div class="plan-strip-title">📌 Cover order (priority)</div>
+      <div class="plan-strip-pills" id="plan-pills"></div>
+      <button class="plan-open-btn" onclick="showPlanScreen()">Open full study plan →</button>
+    </div>
+
+    <div class="books-progress-banner" id="books-progress-banner"></div>
+
+    <div class="books-grid" id="books-grid">
+      <div style="grid-column:1/-1;text-align:center;color:var(--text3);font-size:.85rem;padding:40px;">Loading books…</div>
+    </div>
+  </div>
+
+  <footer class="arena-footer">
+    Styled like <a href="https://happyhaiabhi.github.io/GhatnaChakra-BPSC/" target="_blank" rel="noopener">GhatnaChakra-BPSC</a>
+    · Arena PYQ bank (56th–71st) · Progress saved on this device
+  </footer>
+</div>
+
+<!-- ========== SETUP / CHAPTERS SCREEN ========== -->
+<div class="screen" id="setup-screen">
+  <div class="top-navbar">
+    <button class="nav-switch-book" onclick="showBooks()" title="Switch book">📚 <span class="nav-switch-label">Switch Book</span></button>
+    <div class="nav-brand" onclick="showBooks()" style="cursor:pointer" title="Home">
+      <span class="nav-brand-tag" id="nav-book-tag">BPSC Pre PYQ</span>
+      <span class="nav-brand-name" id="nav-book-name">Subject</span>
+    </div>
+    <div class="nav-spacer"></div>
+    <button class="nav-btn-pill" onclick="openReview('wrong')" title="Mistake bank">🔴 <span class="nav-btn-label">Mistakes</span> <span class="nav-badge-pill" id="mistake-badge">0</span></button>
+    <button class="nav-btn-pill" onclick="openReview('bookmark')" title="Bookmarks">🔖 <span class="nav-btn-label">Bookmarks</span> <span class="nav-badge-pill" style="background:var(--cyan)" id="bookmark-badge">0</span></button>
+    <button class="nav-btn-pill" onclick="showHistory()" title="History">📑 <span class="nav-btn-label">History</span></button>
+    <a class="nav-btn-pill" href="https://happyhaiabhi.github.io/GhatnaChakra-BPSC/bpsc/index.html" target="_blank" rel="noopener" title="Open your full Ghatna Chakra book">📖 <span class="nav-btn-label">My Book</span></a>
+  </div>
+
+  <div class="setup-main">
+    <div class="setup-hero" id="setup-hero"></div>
+
+    <div class="setup-toolbar">
+      <div class="setup-mode-toggle" id="setup-mode">
+        <button class="on" data-mode="practice" onclick="setMode('practice',this)">Practice</button>
+        <button data-mode="quiz" onclick="setMode('quiz',this)">Quiz</button>
+        <button data-mode="revise" onclick="setMode('revise',this)">Revise wrongs</button>
+      </div>
+      <div class="setup-actions">
+        <button class="sc-ch-selall" onclick="selectAllChapters(true)">Select all</button>
+        <button class="sc-ch-selall" onclick="selectAllChapters(false)">Clear</button>
+      </div>
+    </div>
+
+    <div class="chapters-list" id="chapters-list"></div>
+
+    <div class="start-bar">
+      <div class="start-meta" id="start-meta">0 chapters · 0 questions</div>
+      <button class="start-btn" id="start-btn" onclick="startSession()">Start Practice →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ========== QUIZ SCREEN ========== -->
+<div class="screen" id="quiz-screen">
+  <div class="quiz-topbar">
+    <button class="topbar-btn" onclick="confirmExitQuiz()">✕ Exit</button>
+    <div class="topbar-center">
+      <span class="q-num" id="q-num">Q 1/10</span>
+      <span class="topbar-timer" id="q-timer">00:00</span>
+    </div>
+    <div class="topbar-right">
+      <button class="topbar-btn" id="btn-bookmark" onclick="toggleBookmark()">🔖</button>
+      <button class="topbar-btn" onclick="togglePalette()">▦</button>
+    </div>
+  </div>
+
+  <div class="quiz-body">
+    <div class="question-area" id="question-area"></div>
+    <div class="quiz-nav">
+      <button class="nav-action-btn" onclick="quizPrev()">← Prev</button>
+      <button class="nav-action-btn ghost" onclick="quizSkip()">Skip</button>
+      <button class="nav-action-btn primary" id="quiz-primary" onclick="quizPrimary()">Check</button>
+    </div>
+  </div>
+
+  <div class="palette-drawer hidden" id="palette-drawer">
+    <div class="palette-head">Question palette <button onclick="togglePalette()">✕</button></div>
+    <div class="palette-grid" id="palette-grid"></div>
+  </div>
+</div>
+
+<!-- ========== RESULT SCREEN ========== -->
+<div class="screen" id="result-screen">
+  <div class="result-wrap">
+    <div class="result-header">
+      <span class="res-eyebrow">Session complete</span>
+      <div class="res-score" id="res-score">0%</div>
+      <div class="res-grade" id="res-sub">0 / 0 correct</div>
+      <div class="res-stats" id="res-stats"></div>
+    </div>
+    <div class="result-actions res-actions">
+      <button class="res-btn res-btn-wrong" onclick="retryWrongs()">Retry wrongs</button>
+      <button class="res-btn res-btn-primary" onclick="restartSame()">Restart</button>
+      <button class="res-btn res-btn-secondary" onclick="backToSetup()">Chapters</button>
+      <button class="res-btn res-btn-secondary" onclick="showBooks()">All books</button>
+    </div>
+    <div class="review-list">
+      <div class="review-header"><h3>Review</h3></div>
+      <div id="res-review" style="padding:4px 0"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== PLAN SCREEN ========== -->
+<div class="screen" id="plan-screen">
+  <div class="top-navbar">
+    <button class="nav-switch-book" onclick="showBooks()">← Books</button>
+    <div class="nav-brand"><span class="nav-brand-tag">Study system</span><span class="nav-brand-name">Priority Plan</span></div>
+    <div class="nav-spacer"></div>
+    <a class="nav-btn-pill" href="https://happyhaiabhi.github.io/GhatnaChakra-BPSC/" target="_blank" rel="noopener">📖 My Book</a>
+  </div>
+  <div class="plan-page" id="plan-page"></div>
+</div>
+
+<!-- ========== REVIEW SCREEN ========== -->
+<div class="screen" id="review-screen">
+  <div class="top-navbar">
+    <button class="nav-switch-book" onclick="showBooks()">← Books</button>
+    <div class="nav-brand"><span class="nav-brand-tag">Review</span><span class="nav-brand-name" id="review-title">Mistakes</span></div>
+    <div class="nav-spacer"></div>
+  </div>
+  <div class="review-body" id="review-body"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
