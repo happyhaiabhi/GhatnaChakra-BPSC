@@ -1107,4 +1107,15 @@
 
   window.openPyqScreen = openPyqScreen;
   window.backFromPyq = backFromPyq;
+
+  /* Deep link: /bpsc/index.html?pyq=1 (or #pyq) opens the PYQ Lab directly.
+     The short delay lets boot's loadBooksManifest().then(showScreen) finish
+     first so the PYQ screen is not immediately overridden by the books screen. */
+  const pyqDeepLink = new URLSearchParams(window.location.search).has('pyq')
+    || window.location.hash.replace('#', '') === 'pyq';
+  if (pyqDeepLink) {
+    const openPyqWhenReady = () => openPyqScreen();
+    if (document.readyState === 'complete') setTimeout(openPyqWhenReady, 500);
+    else window.addEventListener('load', () => setTimeout(openPyqWhenReady, 500));
+  }
 }());
