@@ -12,13 +12,14 @@
 .pyq-hero-copy h2{margin:10px 0 8px;font-size:clamp(1.65rem,3.4vw,2.75rem);line-height:1.05;color:var(--text);font-family:'Cormorant Garamond',Georgia,serif}
 .pyq-hero-copy p{max-width:680px;color:var(--text2);font-size:.92rem;line-height:1.7}
 .pyq-hero-badge{display:inline-flex;align-items:center;gap:8px;border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);border-radius:999px;padding:9px 14px;background:color-mix(in srgb,var(--surface) 78%,transparent);color:var(--gold);font-size:.72rem;font-weight:800;white-space:nowrap}
-.pyq-stat-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+.pyq-stat-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:18px}
 .pyq-stat{border:1px solid var(--border);border-radius:18px;padding:14px 16px;background:color-mix(in srgb,var(--surface) 84%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .pyq-stat strong{display:block;font-family:'JetBrains Mono',monospace;font-size:1.38rem;color:var(--text)}
 .pyq-stat span{display:block;margin-top:4px;font-size:.68rem;letter-spacing:1px;text-transform:uppercase;color:var(--text3);font-weight:800}
-.pyq-mode-switch{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--border);border-radius:999px;padding:5px;background:color-mix(in srgb,var(--surface2) 88%,transparent)}
-.pyq-mode-thumb{position:absolute;top:5px;left:5px;bottom:5px;width:calc(50% - 5px);border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 8px 18px color-mix(in srgb,var(--gold) 28%,transparent);transition:transform .26s ease}
+.pyq-mode-switch{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:999px;padding:5px;background:color-mix(in srgb,var(--surface2) 88%,transparent)}
+.pyq-mode-thumb{position:absolute;top:5px;left:5px;bottom:5px;width:calc(33.333% - 3.33px);border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 8px 18px color-mix(in srgb,var(--gold) 28%,transparent);transition:transform .26s ease}
 .pyq-mode-switch[data-mode="practice"] .pyq-mode-thumb{transform:translateX(100%)}
+.pyq-mode-switch[data-mode="topics"] .pyq-mode-thumb{transform:translateX(200%)}
 .pyq-mode-btn{position:relative;z-index:1;border:none;background:transparent;color:var(--text2);font:800 .86rem/1 'Nunito',system-ui,sans-serif;padding:14px 16px;cursor:pointer;border-radius:999px;transition:color .18s ease}
 .pyq-mode-btn.is-active{color:#fff}
 .pyq-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center}
@@ -153,4 +154,59 @@
   .pyq-practice-actions,.pyq-practice-nav{display:grid;grid-template-columns:1fr 1fr;width:100%}
   .pyq-practice-nav .pyq-primary-button,.pyq-practice-nav .pyq-soft-button{min-width:0;width:100%}
   .pyq-practice-nav .pyq-primary-button:last-child{grid-column:1/-1}
+}
+
+/* ---------- Topics (categorised PYQ archive) ---------- */
+.pyq-landing-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pyq-topic-landing,.pyq-topic-detail{display:flex;flex-direction:column;gap:16px}
+.pyq-topic-landing .pyq-landing-head h3,.pyq-topic-head h3{margin:0 0 8px;color:var(--text);font-size:1.35rem;font-family:'Cormorant Garamond',Georgia,serif}
+.pyq-topic-landing .pyq-landing-head p{margin:0;max-width:820px;color:var(--text2);font-size:.88rem;line-height:1.7}
+.pyq-resource-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.pyq-resource-card{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--border);border-radius:18px;padding:14px;background:color-mix(in srgb,var(--surface) 92%,transparent);color:var(--text);text-decoration:none;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.pyq-resource-card:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 10px 24px color-mix(in srgb,var(--gold) 14%,transparent)}
+.pyq-resource-icon{display:inline-grid;place-items:center;width:40px;height:40px;flex:0 0 auto;border-radius:13px;background:color-mix(in srgb,var(--gold) 12%,transparent);font-size:1.15rem}
+.pyq-resource-body{display:flex;flex-direction:column;gap:4px;min-width:0}
+.pyq-resource-kind{font-size:.62rem;letter-spacing:1.2px;text-transform:uppercase;font-weight:800;color:var(--gold)}
+.pyq-resource-body strong{font-size:.88rem;line-height:1.35;color:var(--text)}
+.pyq-resource-meta{font-size:.74rem;line-height:1.55;color:var(--text3)}
+.pyq-resource-cta{margin-left:auto;flex:0 0 auto;font-size:.72rem;font-weight:800;color:var(--blue);white-space:nowrap}
+.pyq-topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}
+.pyq-topic-card{display:flex;flex-direction:column;align-items:flex-start;gap:7px;border:1px solid var(--border);border-radius:20px;padding:16px;background:var(--surface);color:var(--text);text-align:left;cursor:pointer;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.pyq-topic-card:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:0 10px 24px color-mix(in srgb,var(--gold) 16%,transparent)}
+.pyq-topic-name{font-size:.82rem;font-weight:800;color:var(--gold);line-height:1.35}
+.pyq-topic-card strong{font-family:'JetBrains Mono',monospace;font-size:1.35rem;line-height:1;color:var(--text)}
+.pyq-topic-label{font-size:.7rem;letter-spacing:.6px;text-transform:uppercase;color:var(--text3);font-weight:800}
+.pyq-topic-bar{display:block;width:100%;height:6px;border-radius:999px;background:var(--surface2);overflow:hidden}
+.pyq-topic-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold2))}
+.pyq-topic-meta{display:flex;flex-wrap:wrap;gap:6px}
+.pyq-topic-meta span{font-size:.68rem;color:var(--text2);background:var(--surface2);border-radius:999px;padding:5px 9px;border:1px solid var(--border)}
+.pyq-topic-cta{margin-top:auto;font-size:.76rem;font-weight:800;color:var(--blue)}
+.pyq-topic-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;border:1px solid var(--border);border-radius:22px;padding:16px 18px;background:linear-gradient(135deg,color-mix(in srgb,var(--surface) 94%,transparent),color-mix(in srgb,var(--surface2) 90%,transparent))}
+.pyq-topic-head-copy{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.pyq-topic-head-copy h3{margin:0}
+.pyq-topic-head-copy>span{font-size:.78rem;color:var(--text2);font-weight:700}
+.pyq-topic-head-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pyq-subtopic-strip{display:flex;gap:8px;flex-wrap:wrap}
+.pyq-subtopic-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);border-radius:999px;padding:8px 12px;background:var(--surface);color:var(--text2);font:800 .72rem/1 'Nunito',system-ui,sans-serif;cursor:pointer;transition:all .15s ease}
+.pyq-subtopic-chip:hover{border-color:var(--gold);color:var(--text);transform:translateY(-1px)}
+.pyq-subtopic-chip.is-active{background:linear-gradient(135deg,var(--gold),var(--gold2));border-color:transparent;color:#fff}
+.pyq-topic-group{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border:1px dashed color-mix(in srgb,var(--gold) 38%,transparent);border-radius:16px;padding:12px 14px;background:color-mix(in srgb,var(--gold) 7%,transparent);margin-top:8px}
+.pyq-topic-group h4{margin:0 0 3px;color:var(--text);font-size:.95rem}
+.pyq-topic-group span{font-size:.72rem;color:var(--text3);font-weight:700}
+.pyq-topic-note{font-size:.78rem;color:var(--text2)}
+.pyq-topic-note b{color:var(--text)}
+.pyq-link-button{border:none;background:none;padding:0;color:var(--blue);font:inherit;font-weight:800;cursor:pointer;text-decoration:underline}
+.pyq-link-button:hover{color:var(--gold)}
+@media(max-width:840px){
+  .pyq-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pyq-topic-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+  .pyq-resource-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .pyq-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pyq-mode-btn{font-size:.78rem;padding:13px 8px}
+  .pyq-topic-head,.pyq-topic-group{border-radius:16px}
+  .pyq-topic-head-actions{display:grid;grid-template-columns:1fr 1fr;width:100%}
+  .pyq-topic-head-actions .pyq-primary-button,.pyq-topic-head-actions .pyq-soft-button{width:100%}
+  .pyq-landing-actions{display:grid;grid-template-columns:1fr;gap:8px;width:100%}
 }
