@@ -3,9 +3,18 @@
   const PYQ_FILES = {
     questions: '../BPSC PYQ/bpsc_parsed.json?v=2',
     categories: '../BPSC PYQ/bpsc_categories_all.json?v=1',
-    verifiedAnswers: '../BPSC PYQ/bpsc_verified_answers.json?v=4'
+    verifiedAnswers: '../BPSC PYQ/bpsc_verified_answers.json?v=4',
+    tagged: '../pyq categorised/all_questions_tagged.json?v=1'
   };
+  // Categorised PYQ suites & study material shipped in the "pyq categorised" folder.
+  const PYQ_TOPIC_RESOURCES = [
+    { icon: '&#x1F4DA;', kind: 'Revision app', title: 'PYQ Book — Arena Edition', meta: 'All 1,623 categorised PYQs in a Ghatna Chakra style book with priority subjects, mistakes, bookmarks and a full study plan.', href: '../pyq categorised/bpsc_revision/index.html' },
+    { icon: '&#x1F3DB;', kind: 'Revision app', title: 'Polity PYQ Revision', meta: 'The 115 polity PYQs split into 29 exam-focused topics with read and drill modes.', href: '../pyq categorised/polity_pyq_revision/index.html' },
+    { icon: '&#x1F4D5;', kind: 'PDF', title: 'Complete Priority Study Book', meta: 'Subject priority order built from how often each categorised subject appears in real papers.', href: '../pyq categorised/BPSC_Complete_Priority_Study_Book.pdf' },
+    { icon: '&#x1F5D3;', kind: 'PDF', title: 'Polity 10-Day Priority Plan', meta: 'Day-wise polity revision plan driven by PYQ frequency, with a matching tracker CSV.', href: '../pyq categorised/BPSC_Polity_10Day_Priority_Plan.pdf' }
+  ];
   const PYQ_EXPLORE_BATCH = 12;
+  const PYQ_TOPIC_BATCH = 12;
   let pyqQuestions = [];
   let pyqFiltered = [];
   let pyqDataPromise = null;
@@ -14,6 +23,8 @@
   let pyqAnswersRevealed = new Set();
   let pyqPractice = createPracticeState([]);
   let pyqReturnScreen = 'books-screen';
+  let pyqTopic = { category: '', subtopic: '', shown: PYQ_TOPIC_BATCH };
+  let pyqHasSubtopics = false;
 
   function escapeAttr(value) {
     if (typeof escapeHtml === 'function') return escapeHtml(value);
@@ -132,11 +143,16 @@
     pyqDataPromise = Promise.all([
       fetchJson(PYQ_FILES.questions),
       fetchJson(PYQ_FILES.categories),
-      fetchJson(PYQ_FILES.verifiedAnswers).catch(() => ({ answers: {} }))
-    ]).then(([examPapers, categories, verifiedAnswerBundle]) => {
+      fetchJson(PYQ_FILES.verifiedAnswers).catch(() => ({ answers: {} })),
+      fetchJson(PYQ_FILES.tagged).catch(() => [])
+    ]).then(([examPapers, categories, verifiedAnswerBundle, taggedQuestions]) => {
       const categoryMap = new Map((categories || []).map((item) => [
         `${item.exam}::${Number(item.q_no)}`,
         String(item.category || 'General').trim() || 'General'
+      ]));
+      const subtopicMap = new Map((Array.isArray(taggedQuestions) ? taggedQuestions : []).map((item) => [
+        `${item.exam}::${Number(item.q_no)}`,
+        String(item.subtopic || item.category || '').trim()
       ]));
       const verifiedAnswers = verifiedAnswerBundle?.answers || {};
       pyqQuestions = [];
@@ -150,6 +166,7 @@
             ? verifiedEntry.answerKey
             : normalizeAnswerKey(question.answer, options);
           const category = categoryMap.get(`${exam}::${qNo}`) || String(question.category || 'General');
+          const subtopic = subtopicMap.get(`${exam}::${qNo}`) || category;
           const stem = question.stem || question.question || question.q || '';
           const type = typeof getQuestionType === 'function'
             ? getQuestionType({ question: stem, options })
@@ -161,6 +178,7 @@
             examIndex,
             q_no: qNo,
             category,
+            subtopic,
             type,
             question: stem,
             options,
@@ -171,6 +189,7 @@
             search: searchBlob([
               exam,
               category,
+              subtopic,
               type,
               stem,
               Object.keys(options),
@@ -182,6 +201,7 @@
           });
         });
       });
+      pyqHasSubtopics = pyqQuestions.some((item) => item.subtopic && item.subtopic !== item.category);
       return pyqQuestions;
     }).catch((error) => {
       pyqDataPromise = null;
@@ -202,19 +222,25 @@
   function populateFilters() {
     const exams = [...new Set(pyqQuestions.map((item) => item.exam))];
     const categories = [...new Set(pyqQuestions.map((item) => item.category))].sort((a, b) => a.localeCompare(b));
+    const subtopics = [...new Set(pyqQuestions.map((item) => item.subtopic))].sort((a, b) => a.localeCompare(b));
     fillSelect('pyq-exam-filter', exams, 'All exam papers');
     fillSelect('pyq-category-filter', categories, 'All categories');
+    fillSelect('pyq-subtopic-filter', subtopics, 'All subtopics');
+    const subtopicWrap = $('pyq-subtopic-wrap');
+    if (subtopicWrap) subtopicWrap.hidden = !pyqHasSubtopics;
   }
 
   function updateHeroStats() {
     const totals = {
       questions: pyqQuestions.length,
       exams: new Set(pyqQuestions.map((item) => item.exam)).size,
-      categories: new Set(pyqQuestions.map((item) => item.category)).size
+      categories: new Set(pyqQuestions.map((item) => item.category)).size,
+      subtopics: pyqHasSubtopics ? new Set(pyqQuestions.map((item) => item.subtopic)).size : 0
     };
     if ($('pyq-total-count')) $('pyq-total-count').textContent = totals.questions.toLocaleString();
     if ($('pyq-exam-count')) $('pyq-exam-count').textContent = totals.exams.toLocaleString();
     if ($('pyq-category-count')) $('pyq-category-count').textContent = totals.categories.toLocaleString();
+    if ($('pyq-subtopic-count')) $('pyq-subtopic-count').textContent = totals.subtopics ? totals.subtopics.toLocaleString() : '—';
   }
 
   function currentControls() {
@@ -222,6 +248,7 @@
       term: normalizePlainText($('pyq-search')?.value || '').trim().toLowerCase(),
       exam: $('pyq-exam-filter')?.value || '',
       category: $('pyq-category-filter')?.value || '',
+      subtopic: $('pyq-subtopic-filter')?.value || '',
       sort: $('pyq-sort-filter')?.value || 'latest'
     };
   }
@@ -250,8 +277,8 @@
   }
 
   function activeFiltersCount() {
-    const { term, exam, category } = currentControls();
-    return [term, exam, category].filter(Boolean).length;
+    const { term, exam, category, subtopic } = currentControls();
+    return [term, exam, category, subtopic].filter(Boolean).length;
   }
 
   function hasActiveQuestionFilter() {
@@ -318,11 +345,12 @@
   function renderActiveFilters() {
     const host = $('pyq-active-filters');
     if (!host) return;
-    const { term, exam, category } = currentControls();
+    const { term, exam, category, subtopic } = currentControls();
     const chips = [];
     if (term) chips.push(`<span class="pyq-active-chip">Search <b>${escapeAttr(term)}</b></span>`);
     if (exam) chips.push(`<span class="pyq-active-chip">Exam <b>${escapeAttr(exam)}</b></span>`);
     if (category) chips.push(`<span class="pyq-active-chip">Category <b>${escapeAttr(category)}</b></span>`);
+    if (subtopic) chips.push(`<span class="pyq-active-chip">Subtopic <b>${escapeAttr(subtopic)}</b></span>`);
     host.innerHTML = chips.length
       ? `${chips.join('')}<button type="button" class="pyq-soft-button" data-pyq-action="clear-filters">Reset all</button>`
       : '<span class="pyq-soft-note">Use search, exam chips or filters to narrow the archive.</span>';
@@ -359,9 +387,12 @@
           <div>
             <span class="pyq-landing-kicker">Start with a paper, not the whole archive</span>
             <h3>Choose your BPSC PYQ set</h3>
-            <p>Select an exam paper below, or search by keyword above. Once you narrow the set, Explore and Practice both work from that filtered slice.</p>
+            <p>Select an exam paper below, or search by keyword above. Once you narrow the set, Explore and Practice both work from that filtered slice. Prefer revising subject-wise? Open the <b>Topics</b> tab for the categorised archive.</p>
           </div>
-          <button type="button" class="pyq-primary-button" data-pyq-action="practice-latest" ${latest ? '' : 'disabled'}>${latest ? `Practice ${escapeAttr(latest)}` : 'Practice latest paper'}</button>
+          <div class="pyq-landing-actions">
+            <button type="button" class="pyq-soft-button" data-pyq-action="go-topics">&#x1F4D6; Browse by topic</button>
+            <button type="button" class="pyq-primary-button" data-pyq-action="practice-latest" ${latest ? '' : 'disabled'}>${latest ? `Practice ${escapeAttr(latest)}` : 'Practice latest paper'}</button>
+          </div>
         </div>
         <div class="pyq-paper-grid">
           ${papers.map((paper) => `
@@ -377,6 +408,32 @@
             </button>`).join('')}
         </div>
       </section>`;
+  }
+
+  function pyqQuestionCard(question, revealed, badgeHtml) {
+    const options = Object.entries(question.options).map(([key, value]) => `
+      <div class="pyq-option">
+        <span class="pyq-option-key">${escapeAttr(key)}</span>
+        <span class="pyq-option-copy">${renderText(value)}</span>
+      </div>`).join('');
+    return `
+      <article class="pyq-card">
+        <div class="pyq-card-head">
+          ${badgeHtml || `<span class="pyq-badge category">${escapeAttr(question.category)}</span>`}
+          <span class="pyq-badge exam">${escapeAttr(question.exam)}</span>
+          <span class="pyq-badge type">${escapeAttr(question.type || 'Direct MCQ')}</span>
+          <span class="pyq-badge qno">Q ${escapeAttr(question.q_no)}</span>
+          <span class="pyq-badge qno">${question.answerAvailable ? 'Answer key ready' : 'Answer unavailable'}</span>
+        </div>
+        <h3>Question ${escapeAttr(question.q_no)}</h3>
+        <div class="pyq-card-question">${renderQuestionMarkup(question)}</div>
+        <div class="pyq-option-list">${options}</div>
+        <div class="pyq-card-foot">
+          <button type="button" class="pyq-ghost-button" data-pyq-action="toggle-answer" data-pyq-id="${escapeAttr(question.id)}">${revealed ? 'Hide answer' : 'Reveal answer'}</button>
+          <div class="pyq-answer-pill${revealed ? ' is-visible' : ''}${question.answerAvailable ? '' : ' is-missing'}">${question.answerAvailable ? `✔ Answer: <b>${escapeAttr(question.answerKey)}</b>${question.answerText ? ` · ${renderText(question.answerText)}` : ''}` : 'Answer key is not available in the current source for this PYQ.'}</div>
+          <button type="button" class="pyq-mini-button" data-pyq-action="practice-one" data-pyq-id="${escapeAttr(question.id)}" ${question.answerAvailable ? '' : 'disabled'}>${question.answerAvailable ? 'Practice this' : 'Need answer key'}</button>
+        </div>
+      </article>`;
   }
 
   function renderExplore() {
@@ -396,34 +453,180 @@
 
     wrap.innerHTML = pyqFiltered.slice(0, pyqExploreShown).map((question) => {
       const revealed = pyqAnswersRevealed.has(question.id);
-      const options = Object.entries(question.options).map(([key, value]) => `
-        <div class="pyq-option">
-          <span class="pyq-option-key">${escapeAttr(key)}</span>
-          <span class="pyq-option-copy">${renderText(value)}</span>
-        </div>`).join('');
-      return `
-        <article class="pyq-card">
-          <div class="pyq-card-head">
-            <span class="pyq-badge exam">${escapeAttr(question.exam)}</span>
-            <span class="pyq-badge category">${escapeAttr(question.category)}</span>
-            <span class="pyq-badge type">${escapeAttr(question.type || 'Direct MCQ')}</span>
-            <span class="pyq-badge qno">Q ${escapeAttr(question.q_no)}</span>
-            <span class="pyq-badge qno">${question.answerAvailable ? 'Answer key ready' : 'Answer unavailable'}</span>
-          </div>
-          <h3>Question ${escapeAttr(question.q_no)}</h3>
-          <div class="pyq-card-question">${renderQuestionMarkup(question)}</div>
-          <div class="pyq-option-list">${options}</div>
-          <div class="pyq-card-foot">
-            <button type="button" class="pyq-ghost-button" data-pyq-action="toggle-answer" data-pyq-id="${escapeAttr(question.id)}">${revealed ? 'Hide answer' : 'Reveal answer'}</button>
-            <div class="pyq-answer-pill${revealed ? ' is-visible' : ''}${question.answerAvailable ? '' : ' is-missing'}">${question.answerAvailable ? `✔ Answer: <b>${escapeAttr(question.answerKey)}</b>${question.answerText ? ` · ${renderText(question.answerText)}` : ''}` : 'Answer key is not available in the current source for this PYQ.'}</div>
-            <button type="button" class="pyq-mini-button" data-pyq-action="practice-one" data-pyq-id="${escapeAttr(question.id)}" ${question.answerAvailable ? '' : 'disabled'}>${question.answerAvailable ? 'Practice this' : 'Need answer key'}</button>
-          </div>
-        </article>`;
+      return pyqQuestionCard(question, revealed);
     }).join('');
 
     const remaining = pyqFiltered.length - pyqExploreShown;
     loadMore.hidden = remaining <= 0;
     loadMore.textContent = `Show ${Math.min(PYQ_EXPLORE_BATCH, remaining)} more question${Math.min(PYQ_EXPLORE_BATCH, remaining) === 1 ? '' : 's'}`;
+  }
+
+  /* ---------- Topics (categorised PYQ archive) ---------- */
+
+  function topicCollections() {
+    const map = new Map();
+    pyqQuestions.forEach((item) => {
+      const current = map.get(item.category) || {
+        category: item.category,
+        total: 0,
+        answerReady: 0,
+        subtopics: new Map()
+      };
+      current.total += 1;
+      if (item.answerAvailable) current.answerReady += 1;
+      const sub = current.subtopics.get(item.subtopic) || { name: item.subtopic, total: 0, answerReady: 0 };
+      sub.total += 1;
+      if (item.answerAvailable) sub.answerReady += 1;
+      current.subtopics.set(item.subtopic, sub);
+      map.set(item.category, current);
+    });
+    return [...map.values()]
+      .map((item) => ({
+        category: item.category,
+        total: item.total,
+        answerReady: item.answerReady,
+        subtopics: [...item.subtopics.values()].sort((left, right) => right.total - left.total || left.name.localeCompare(right.name))
+      }))
+      .sort((left, right) => right.total - left.total || left.category.localeCompare(right.category));
+  }
+
+  function topicQuestions(category, subtopic) {
+    return pyqQuestions
+      .filter((item) => item.category === category && (!subtopic || item.subtopic === subtopic))
+      .sort((left, right) => left.subtopic.localeCompare(right.subtopic)
+        || right.examIndex - left.examIndex
+        || left.q_no - right.q_no);
+  }
+
+  function renderTopicResources() {
+    return `
+      <div class="pyq-resource-grid">
+        ${PYQ_TOPIC_RESOURCES.map((resource) => `
+          <a class="pyq-resource-card" href="${escapeAttr(encodeURI(resource.href))}" target="_blank" rel="noopener">
+            <span class="pyq-resource-icon" aria-hidden="true">${resource.icon}</span>
+            <span class="pyq-resource-body">
+              <span class="pyq-resource-kind">${escapeAttr(resource.kind)}</span>
+              <strong>${escapeAttr(resource.title)}</strong>
+              <span class="pyq-resource-meta">${escapeAttr(resource.meta)}</span>
+            </span>
+            <span class="pyq-resource-cta" aria-hidden="true">Open ↗</span>
+          </a>`).join('')}
+      </div>`;
+  }
+
+  function renderTopicsOverview() {
+    const collections = topicCollections();
+    const grandTotal = pyqQuestions.length || 1;
+    const subtopicCount = new Set(pyqQuestions.map((item) => item.subtopic)).size;
+    return `
+      <section class="pyq-topic-landing">
+        <div class="pyq-landing-head">
+          <div>
+            <span class="pyq-landing-kicker">Categorised PYQ archive · from the pyq-categorised suite</span>
+            <h3>Every PYQ, tagged subject-wise and subtopic-wise</h3>
+            <p>The full ${pyqQuestions.length.toLocaleString()}-question archive from 56th to 71st BPSC, organised into <b>${collections.length} subjects</b> and <b>${subtopicCount} subtopics</b>. Open a subject to revise it topic by topic, or jump straight into a practice drill.</p>
+          </div>
+        </div>
+        ${renderTopicResources()}
+        <div class="pyq-topic-grid">
+          ${collections.map((collection) => `
+            <button type="button" class="pyq-topic-card" data-pyq-topic-category="${escapeAttr(collection.category)}">
+              <span class="pyq-topic-name">${escapeAttr(collection.category)}</span>
+              <strong>${collection.total.toLocaleString()}</strong>
+              <span class="pyq-topic-label">questions · ${Math.round((collection.total / grandTotal) * 100)}% of archive</span>
+              <span class="pyq-topic-bar"><i style="width:${Math.min(100, Math.round((collection.total / grandTotal) * 100))}%"></i></span>
+              <span class="pyq-topic-meta">
+                <span>${collection.subtopics.length} subtopic${collection.subtopics.length === 1 ? '' : 's'}</span>
+                <span>${collection.answerReady.toLocaleString()} answer-ready</span>
+              </span>
+              <span class="pyq-topic-cta">Open subject →</span>
+            </button>`).join('')}
+        </div>
+      </section>`;
+  }
+
+  function renderTopicsCategory() {
+    const collection = topicCollections().find((item) => item.category === pyqTopic.category);
+    if (!collection) {
+      pyqTopic = { category: '', subtopic: '', shown: PYQ_TOPIC_BATCH };
+      return renderTopicsOverview();
+    }
+    const questions = topicQuestions(collection.category, pyqTopic.subtopic);
+    const visible = questions.slice(0, pyqTopic.shown);
+    const remaining = questions.length - visible.length;
+    const seenSubtopics = new Set();
+    const cards = visible.map((question) => {
+      const revealed = pyqAnswersRevealed.has(question.id);
+      let groupHead = '';
+      if (!pyqTopic.subtopic && !seenSubtopics.has(question.subtopic)) {
+        seenSubtopics.add(question.subtopic);
+        const subMeta = collection.subtopics.find((sub) => sub.name === question.subtopic);
+        groupHead = `
+          <div class="pyq-topic-group" style="grid-column:1/-1;">
+            <div>
+              <h4>${escapeAttr(question.subtopic)}</h4>
+              <span>${(subMeta?.total || 0).toLocaleString()} questions · ${(subMeta?.answerReady || 0).toLocaleString()} answer-ready</span>
+            </div>
+            <button type="button" class="pyq-mini-button" data-pyq-action="topic-practice" data-pyq-topic-category="${escapeAttr(collection.category)}" data-pyq-topic-subtopic="${escapeAttr(question.subtopic)}">Practice subtopic</button>
+          </div>`;
+      }
+      const badgeHtml = `<span class="pyq-badge category">${escapeAttr(question.subtopic)}</span>`;
+      return `${groupHead}${pyqQuestionCard(question, revealed, badgeHtml)}`;
+    }).join('');
+
+    return `
+      <section class="pyq-topic-detail">
+        <div class="pyq-topic-head">
+          <div class="pyq-topic-head-copy">
+            <button type="button" class="pyq-mini-button" data-pyq-action="topic-back">← All subjects</button>
+            <h3>${escapeAttr(collection.category)}</h3>
+            <span>${collection.total.toLocaleString()} questions · ${collection.answerReady.toLocaleString()} answer-ready · ${collection.subtopics.length} subtopic${collection.subtopics.length === 1 ? '' : 's'}</span>
+          </div>
+          <div class="pyq-topic-head-actions">
+            <button type="button" class="pyq-soft-button" data-pyq-action="topic-explore" data-pyq-topic-category="${escapeAttr(collection.category)}" ${pyqTopic.subtopic ? `data-pyq-topic-subtopic="${escapeAttr(pyqTopic.subtopic)}"` : ''}>Open in Explore</button>
+            <button type="button" class="pyq-primary-button" data-pyq-action="topic-practice" data-pyq-topic-category="${escapeAttr(collection.category)}" ${pyqTopic.subtopic ? `data-pyq-topic-subtopic="${escapeAttr(pyqTopic.subtopic)}"` : ''}>${pyqTopic.subtopic ? 'Practice subtopic' : 'Practice subject'}</button>
+          </div>
+        </div>
+        ${pyqTopic.subtopic ? `<div class="pyq-topic-note">Showing only <b>${escapeAttr(pyqTopic.subtopic)}</b> · <button type="button" class="pyq-link-button" data-pyq-topic-subtopic="">Show all subtopics</button></div>` : `
+        <div class="pyq-subtopic-strip" aria-label="Filter by subtopic">
+          <button type="button" class="pyq-subtopic-chip${pyqTopic.subtopic ? '' : ' is-active'}" data-pyq-topic-subtopic="">All (${collection.total.toLocaleString()})</button>
+          ${collection.subtopics.map((sub) => `
+            <button type="button" class="pyq-subtopic-chip" data-pyq-topic-subtopic="${escapeAttr(sub.name)}">${escapeAttr(sub.name)} (${sub.total})</button>`).join('')}
+        </div>`}
+        <div class="pyq-results-grid pyq-topic-questions">${cards || `<div class="pyq-empty" style="grid-column:1/-1"><strong>No questions here yet.</strong><p>Pick another subtopic or go back to all subjects.</p></div>`}</div>
+        ${remaining > 0 ? `<div class="pyq-load-more-wrap"><button type="button" class="pyq-primary-button" data-pyq-action="topic-show-more">Show ${Math.min(PYQ_TOPIC_BATCH, remaining)} more question${Math.min(PYQ_TOPIC_BATCH, remaining) === 1 ? '' : 's'}</button></div>` : ''}
+      </section>`;
+  }
+
+  function renderTopics() {
+    const pane = $('pyq-topics-body');
+    if (!pane) return;
+    pane.innerHTML = pyqTopic.category ? renderTopicsCategory() : renderTopicsOverview();
+  }
+
+  function selectTopicCategory(category) {
+    pyqTopic = { category: category || '', subtopic: '', shown: PYQ_TOPIC_BATCH };
+    renderTopics();
+    $('pyq-topics-pane')?.scrollIntoView?.({ behavior: 'smooth', block: 'start' });
+  }
+
+  function selectTopicSubtopic(subtopic) {
+    pyqTopic.subtopic = subtopic || '';
+    pyqTopic.shown = PYQ_TOPIC_BATCH;
+    renderTopics();
+  }
+
+  function drillFromTopic(category, subtopic, mode) {
+    if ($('pyq-search')) $('pyq-search').value = '';
+    if ($('pyq-exam-filter')) $('pyq-exam-filter').value = '';
+    if ($('pyq-category-filter')) $('pyq-category-filter').value = category || '';
+    if ($('pyq-subtopic-filter')) $('pyq-subtopic-filter').value = subtopic || '';
+    if ($('pyq-sort-filter')) $('pyq-sort-filter').value = 'category';
+    pyqMode = mode === 'practice' ? 'practice' : 'explore';
+    applyFilters(true);
+    if (pyqMode === 'practice') {
+      $('pyq-practice-pane')?.scrollIntoView?.({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   function practiceProgressPercent() {
@@ -513,24 +716,36 @@
     const switcher = $('pyq-mode-switch');
     const exploreButton = $('pyq-mode-explore');
     const practiceButton = $('pyq-mode-practice');
+    const topicsButton = $('pyq-mode-topics');
     const explorePane = $('pyq-explore-pane');
     const practicePane = $('pyq-practice-pane');
+    const topicsPane = $('pyq-topics-pane');
+    const controlsWrap = $('pyq-controls-wrap');
     if (switcher) switcher.dataset.mode = pyqMode;
     if (exploreButton) exploreButton.classList.toggle('is-active', pyqMode === 'explore');
     if (practiceButton) practiceButton.classList.toggle('is-active', pyqMode === 'practice');
+    if (topicsButton) topicsButton.classList.toggle('is-active', pyqMode === 'topics');
     if (explorePane) explorePane.hidden = pyqMode !== 'explore';
     if (practicePane) practicePane.hidden = pyqMode !== 'practice';
-    renderExplore();
-    renderPractice();
+    if (topicsPane) topicsPane.hidden = pyqMode !== 'topics';
+    if (controlsWrap) controlsWrap.hidden = pyqMode === 'topics';
+    if (pyqMode === 'topics') {
+      setFiltersOpen(false);
+      renderTopics();
+    } else {
+      renderExplore();
+      renderPractice();
+    }
   }
 
   function applyFilters(forceReset = false) {
-    const { term, exam, category, sort } = currentControls();
+    const { term, exam, category, subtopic, sort } = currentControls();
     pyqFiltered = hasActiveQuestionFilter()
       ? pyqQuestions
         .filter((item) => (!term || item.search.includes(term))
           && (!exam || item.exam === exam)
-          && (!category || item.category === category))
+          && (!category || item.category === category)
+          && (!subtopic || item.subtopic === subtopic))
         .sort((left, right) => compareQuestions(left, right, sort))
       : [];
     if (forceReset) pyqExploreShown = PYQ_EXPLORE_BATCH;
@@ -546,6 +761,7 @@
     if ($('pyq-search')) $('pyq-search').value = '';
     if ($('pyq-exam-filter')) $('pyq-exam-filter').value = '';
     if ($('pyq-category-filter')) $('pyq-category-filter').value = '';
+    if ($('pyq-subtopic-filter')) $('pyq-subtopic-filter').value = '';
     if ($('pyq-sort-filter')) $('pyq-sort-filter').value = 'latest';
     applyFilters(true);
   }
@@ -559,7 +775,7 @@
   }
 
   function setMode(mode) {
-    pyqMode = mode === 'practice' ? 'practice' : 'explore';
+    pyqMode = mode === 'practice' ? 'practice' : (mode === 'topics' ? 'topics' : 'explore');
     renderSummary();
     renderMode();
   }
@@ -567,7 +783,8 @@
   function toggleAnswer(questionId) {
     if (pyqAnswersRevealed.has(questionId)) pyqAnswersRevealed.delete(questionId);
     else pyqAnswersRevealed.add(questionId);
-    renderExplore();
+    if (pyqMode === 'topics') renderTopics();
+    else renderExplore();
   }
 
   function findQuestionById(questionId) {
@@ -634,6 +851,7 @@
   function renderLoading() {
     if ($('pyq-results-grid')) $('pyq-results-grid').innerHTML = `<div class="pyq-loading" style="grid-column:1/-1"><strong>Loading BPSC PYQ archive…</strong><p>Please wait while the previous-year question papers are prepared.</p></div>`;
     if ($('pyq-practice-card')) $('pyq-practice-card').innerHTML = `<div class="pyq-loading"><strong>Preparing practice mode…</strong><p>The same filtered paper set will appear here in a moment.</p></div>`;
+    if ($('pyq-topics-body')) $('pyq-topics-body').innerHTML = `<div class="pyq-loading"><strong>Loading the categorised PYQ archive…</strong><p>Subjects and subtopics will appear here in a moment.</p></div>`;
   }
 
   function renderError(error) {
@@ -643,6 +861,7 @@
     const html = `<div class="pyq-error"><strong>PYQ archive could not be loaded.</strong><p>${message}<br><code>${escapeAttr(error?.message || 'Unknown error')}</code></p></div>`;
     if ($('pyq-results-grid')) $('pyq-results-grid').innerHTML = html;
     if ($('pyq-practice-card')) $('pyq-practice-card').innerHTML = html;
+    if ($('pyq-topics-body')) $('pyq-topics-body').innerHTML = html;
   }
 
   function ensurePyqScreen() {
@@ -660,22 +879,25 @@
             <div class="pyq-hero-top">
               <div class="pyq-hero-copy">
                 <span class="pyq-eyebrow"><i aria-hidden="true"></i>BPSC PREVIOUS YEAR QUESTION BANK</span>
-                <h2>One archive. Two ways to use it.</h2>
-                <p>Search across all curated BPSC papers, filter by exam or category, then slide into <b>Explore</b> for browsing or <b>Practice</b> for instant drilling from the same filtered PYQ set.</p>
+                <h2>One archive. Three ways to use it.</h2>
+                <p>Search across all curated BPSC papers, filter by exam, category or subtopic, then slide into <b>Explore</b> for browsing, <b>Practice</b> for instant drilling, or <b>Topics</b> for the categorised subject-wise archive with revision apps and study plans.</p>
               </div>
             </div>
             <div class="pyq-stat-grid">
               <div class="pyq-stat"><strong id="pyq-total-count">—</strong><span>Questions</span></div>
               <div class="pyq-stat"><strong id="pyq-exam-count">—</strong><span>Exam papers</span></div>
               <div class="pyq-stat"><strong id="pyq-category-count">—</strong><span>Categories</span></div>
+              <div class="pyq-stat"><strong id="pyq-subtopic-count">—</strong><span>Categorised subtopics</span></div>
             </div>
           </section>
           <div class="pyq-exam-strip" id="pyq-exam-strip" aria-label="Quick filter by exam paper"></div>
-          <div class="pyq-mode-switch" id="pyq-mode-switch" data-mode="explore" role="tablist" aria-label="Switch between explore and practice">
+          <div class="pyq-mode-switch" id="pyq-mode-switch" data-mode="explore" role="tablist" aria-label="Switch between explore, practice and topics">
             <span class="pyq-mode-thumb" aria-hidden="true"></span>
             <button type="button" class="pyq-mode-btn is-active" id="pyq-mode-explore" data-pyq-mode="explore">Explore</button>
             <button type="button" class="pyq-mode-btn" id="pyq-mode-practice" data-pyq-mode="practice">Practice</button>
+            <button type="button" class="pyq-mode-btn" id="pyq-mode-topics" data-pyq-mode="topics">Topics</button>
           </div>
+          <div id="pyq-controls-wrap">
           <div class="pyq-toolbar">
             <div class="pyq-searchbox">
               <span aria-hidden="true">🔎</span>
@@ -687,6 +909,7 @@
           <div class="pyq-filter-panel" id="pyq-filter-panel" hidden>
             <label>Exam paper<select id="pyq-exam-filter"><option value="">All exam papers</option></select></label>
             <label>Category<select id="pyq-category-filter"><option value="">All categories</option></select></label>
+            <label id="pyq-subtopic-wrap" hidden>Subtopic<select id="pyq-subtopic-filter"><option value="">All subtopics</option></select></label>
             <label>Sort by<select id="pyq-sort-filter"><option value="latest">Latest paper first</option><option value="oldest">Oldest paper first</option><option value="category">Category A–Z</option></select></label>
             <div class="pyq-filter-actions">
               <button type="button" class="pyq-soft-button" id="pyq-reset-filters">Reset filters</button>
@@ -701,9 +924,13 @@
             </div>
             <p id="pyq-mode-copy"></p>
           </div>
+          </div>
           <section id="pyq-explore-pane">
             <div class="pyq-results-grid" id="pyq-results-grid"></div>
             <div class="pyq-load-more-wrap"><button type="button" class="pyq-primary-button" id="pyq-load-more" hidden>Show more</button></div>
+          </section>
+          <section id="pyq-topics-pane" hidden>
+            <div id="pyq-topics-body"></div>
           </section>
           <section id="pyq-practice-pane" hidden>
             <div class="pyq-practice-top">
@@ -732,26 +959,49 @@
         setMode(modeButton.dataset.pyqMode);
         return;
       }
+      const actionNode = event.target.closest('[data-pyq-action]');
+      if (actionNode) {
+        const action = actionNode.dataset.pyqAction;
+        if (action === 'clear-filters') resetFilters();
+        else if (action === 'toggle-answer') toggleAnswer(actionNode.dataset.pyqId);
+        else if (action === 'practice-one') practiceThisQuestion(actionNode.dataset.pyqId);
+        else if (action === 'practice-answer') answerPractice(actionNode.dataset.pyqKey);
+        else if (action === 'practice-prev') movePractice(-1);
+        else if (action === 'practice-next') movePractice(1);
+        else if (action === 'practice-random') movePractice('random');
+        else if (action === 'go-explore') setMode('explore');
+        else if (action === 'go-topics') setMode('topics');
+        else if (action === 'practice-latest') practiceLatestPaper();
+        else if (action === 'topic-back') selectTopicCategory('');
+        else if (action === 'topic-show-more') {
+          pyqTopic.shown += PYQ_TOPIC_BATCH;
+          renderTopics();
+        } else if (action === 'topic-practice') {
+          drillFromTopic(actionNode.dataset.pyqTopicCategory || pyqTopic.category, actionNode.dataset.pyqTopicSubtopic || '', 'practice');
+        } else if (action === 'topic-explore') {
+          drillFromTopic(actionNode.dataset.pyqTopicCategory || pyqTopic.category, actionNode.dataset.pyqTopicSubtopic || '', 'explore');
+        }
+        return;
+      }
+      const topicCategoryNode = event.target.closest('[data-pyq-topic-category]');
+      if (topicCategoryNode) {
+        selectTopicCategory(topicCategoryNode.dataset.pyqTopicCategory);
+        return;
+      }
+      const topicSubtopicNode = event.target.closest('[data-pyq-topic-subtopic]');
+      if (topicSubtopicNode) {
+        selectTopicSubtopic(topicSubtopicNode.dataset.pyqTopicSubtopic);
+        return;
+      }
       const examChip = event.target.closest('[data-pyq-exam]');
       if (examChip) {
         const exam = examChip.dataset.pyqExam || '';
         const examFilter = $('pyq-exam-filter');
         if (examFilter) examFilter.value = examFilter.value === exam ? '' : exam;
+        if (pyqMode === 'topics') pyqMode = 'explore';
         applyFilters(true);
         return;
       }
-      const actionNode = event.target.closest('[data-pyq-action]');
-      if (!actionNode) return;
-      const action = actionNode.dataset.pyqAction;
-      if (action === 'clear-filters') resetFilters();
-      else if (action === 'toggle-answer') toggleAnswer(actionNode.dataset.pyqId);
-      else if (action === 'practice-one') practiceThisQuestion(actionNode.dataset.pyqId);
-      else if (action === 'practice-answer') answerPractice(actionNode.dataset.pyqKey);
-      else if (action === 'practice-prev') movePractice(-1);
-      else if (action === 'practice-next') movePractice(1);
-      else if (action === 'practice-random') movePractice('random');
-      else if (action === 'go-explore') setMode('explore');
-      else if (action === 'practice-latest') practiceLatestPaper();
     });
 
     $('pyq-search')?.addEventListener('input', () => applyFilters(true));
@@ -765,6 +1015,7 @@
     $('pyq-filter-toggle')?.addEventListener('click', () => setFiltersOpen($('pyq-filter-panel')?.hidden));
     $('pyq-exam-filter')?.addEventListener('change', () => applyFilters(true));
     $('pyq-category-filter')?.addEventListener('change', () => applyFilters(true));
+    $('pyq-subtopic-filter')?.addEventListener('change', () => applyFilters(true));
     $('pyq-sort-filter')?.addEventListener('change', () => applyFilters(true));
     $('pyq-reset-filters')?.addEventListener('click', resetFilters);
     $('pyq-load-more')?.addEventListener('click', () => {

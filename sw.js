@@ -23,7 +23,7 @@
 
 /* Bump this whenever a cached shell file changes, so old caches are dropped.
    It is the only thing you need to touch when you deploy a CSS/JS change. */
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const SHELL_CACHE = `exam-portal-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `exam-portal-data-${CACHE_VERSION}`;
 
