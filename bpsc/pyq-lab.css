@@ -1,4 +1,4 @@
-#pyq-screen{padding:16px;min-height:100vh;align-items:center;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#pyq-screen{padding:16px;min-height:100%;align-items:center;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .books-floating-actions{position:fixed;z-index:10000;top:12px;right:12px;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
 .books-floating-actions .books-notes-fab,.books-floating-actions .books-pyq-fab{position:static;top:auto;right:auto}
 .books-pyq-fab{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#fff;border-color:transparent}
@@ -209,4 +209,21 @@
   .pyq-topic-head-actions{display:grid;grid-template-columns:1fr 1fr;width:100%}
   .pyq-topic-head-actions .pyq-primary-button,.pyq-topic-head-actions .pyq-soft-button{width:100%}
   .pyq-landing-actions{display:grid;grid-template-columns:1fr;gap:8px;width:100%}
+}
+
+/* Mobile (≤599px): full-screen scroll safety for the PYQ Lab screen.
+   The app shell locks body to 100dvh/overflow:hidden; the active screen
+   is the scroll container, so keep this screen exactly viewport-sized and
+   prevent any wide child from forcing horizontal scroll. */
+@media(max-width:599px){
+  #pyq-screen{
+    height:100dvh;max-height:100dvh;min-height:0!important;
+    align-items:stretch;
+    padding:14px 12px calc(20px + env(safe-area-inset-bottom));
+    overflow-x:hidden;
+  }
+  #pyq-screen .pyq-shell{max-width:760px;width:100%;margin:0 auto;min-width:0;}
+  .pyq-results-grid,.pyq-paper-grid,.pyq-resource-grid,.pyq-topic-grid{grid-template-columns:1fr;}
+  .pyq-hero-badge{white-space:normal;}
+  .pyq-practice-metrics{flex-wrap:wrap;}
 }
