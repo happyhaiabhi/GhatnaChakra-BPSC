@@ -77,7 +77,7 @@ page = f"""<!DOCTYPE html><html><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>PYQ Phase 2 — Report Preview</title><style>{CSS}</style></head><body>
 <div class="nav"><strong>PYQ Phase 2 deliverables</strong> &nbsp;
-<a href="#report">Report (§24)</a><a href="#appb">Appendix B</a>
+<a href="upsc.html">← UPSC Question Bank</a><a href="#report">Report (§24)</a><a href="#appb">Appendix B</a>
 <a href="docs/PYQ_PHASE2_APPENDIX_A.csv">Appendix A (CSV)</a>
 <a href="data/pyq_phase2_calibrated_top100.json">Top-100 (JSON)</a>
 <a href="data/pyq_phase2_overrides.json">Overrides (JSON)</a></div>

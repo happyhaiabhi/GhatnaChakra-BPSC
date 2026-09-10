@@ -270,6 +270,46 @@ h1 {
 .stats strong { display: block; font-size: 19px; font-weight: 900; }
 .stats small { color: #737a88; font-size: 12px; }
 
+/* Phase 2 report banner (UPSC section hero) */
+.report-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: linear-gradient(100deg, #102337, #17435c);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+.report-banner:hover { filter: brightness(1.08); }
+.report-banner .report-badge {
+  flex: none;
+  font-size: 26px;
+  line-height: 1;
+  background: var(--teal);
+  color: #102337;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+.report-banner strong { display: block; font-size: 16px; font-weight: 900; }
+.report-banner small { display: block; font-size: 13px; opacity: 0.88; margin-top: 2px; }
+.report-banner .report-cta {
+  margin-left: auto;
+  flex: none;
+  font-weight: 900;
+  font-size: 14px;
+  background: #fff;
+  color: var(--navy);
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+html[data-theme="dark"] .report-banner {
+  background: linear-gradient(100deg, #0a1826, #123043);
+  border: 1px solid rgba(124, 168, 190, 0.25);
+}
+
 /* Collections */
 .wrap { max-width: 1160px; margin: auto; padding-right: 26px; padding-left: 26px; }
 .browse { padding-top: 58px; padding-bottom: 64px; }
