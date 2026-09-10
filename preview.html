@@ -1,0 +1,402 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PYQ Phase 2 — Report Preview</title><style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:1000px;margin:0 auto;
+padding:24px;color:#1a1a1a;background:#fff;line-height:1.6}h1{font-size:1.7em;border-bottom:3px solid #1a5fb4;
+padding-bottom:8px}h2{font-size:1.3em;color:#1a5fb4;margin-top:1.8em;border-bottom:1px solid #ddd;
+padding-bottom:4px}h3{font-size:1.05em}table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.9em}
+th,td{border:1px solid #ccc;padding:6px 8px;text-align:left}th{background:#f0f4f8}tr:nth-child(even)td{background:#fafbfc}
+code{background:#f0f0f0;padding:1px 5px;border-radius:4px;font-size:.88em}blockquote{background:#fff8e1;
+border-left:4px solid #f0b429;padding:8px 14px;margin:12px 0}.nav{position:sticky;top:0;background:#1a5fb4;
+color:#fff;padding:10px 16px;border-radius:8px;margin-bottom:16px;font-size:.95em}.nav a{color:#fff;margin-right:14px}
+.toc{background:#f5f7fa;border:1px solid #ddd;border-radius:8px;padding:12px 20px;margin:16px 0}
+.toc a{display:inline-block;margin:2px 10px 2px 0;font-size:.9em;color:#1a5fb4}</style></head><body>
+<div class="nav"><strong>PYQ Phase 2 deliverables</strong> &nbsp;
+<a href="#report">Report (§24)</a><a href="#appb">Appendix B</a>
+<a href="docs/PYQ_PHASE2_APPENDIX_A.csv">Appendix A (CSV)</a>
+<a href="data/pyq_phase2_calibrated_top100.json">Top-100 (JSON)</a>
+<a href="data/pyq_phase2_overrides.json">Overrides (JSON)</a></div>
+<div id="report"><h1>UPSC Prelims PYQ Conceptual-Linkage Analysis (Phase 2) — Final Report</h1>
+<p><strong>Targets:</strong> GS Paper 1, 2015–2026 (N = 1200). <strong>Priors:</strong> 1995–2025 with strict 20-year lookback</p>
+<p>(max observed lag = 20; zero links exceed it) and strict no-future-leakage (every prior year &lt;</p>
+<p>target year, machine-asserted). <strong>Engine:</strong> run13 FROZEN (<code>scripts/pyq_phase2.py</code>).</p>
+<p><strong>Expert review:</strong> 349 overrides, 353 design-labeled targets (173 census + 180 random), 26 targeted</p>
+<p>extras, 30 rareopt2 pair-checks. Standard: honest, traceable-to-real-questions numbers.</p>
+<blockquote>§-mapping note: the brief asked for §24 order + Appendices A/B. No §24 template file exists in</blockquote>
+<blockquote>the repo, so the 24 sections below follow the brief&#x27;s deliverable list in logical order. §14/§15</blockquote>
+<blockquote>tables are excerpts; the full machine-readable tables ship alongside this report (§24).</blockquote>
+<hr/>
+<h2>&lt;a id=&quot;§1&quot;&gt;&lt;/a&gt;§1 Objective &amp; scope</h2>
+<p>Measure, <strong>conceptually rather than lexically</strong>, how much of each 2015–2026 UPSC Prelims GS paper</p>
+<p>is answerable/helped by prior-year questions (PYQs) within a 20-year lookback. Outputs: L0–L5</p>
+<p>relationship annotation + advantage types for target→prior links; knowledge graph; transformation</p>
+<p>taxonomy with frequencies; Top 100 high-leverage PYQs; ranked recurring-concept map; year-by-year</p>
+<p>and subject-wise coverage with 7/10/15/20-yr marginal value; signal-vs-noise for old PYQs;</p>
+<p>conservative/moderate/broad coverage answers; subject PYQ-depth recommendations; a PYQ→Concept</p>
+<p>study system; Immortal vs Dead concepts; and future-paper pattern inference (not prediction) —</p>
+<p>all with confidence labels.</p>
+<h2>&lt;a id=&quot;§2&quot;&gt;&lt;/a&gt;§2 Method (engine + expert calibration)</h2>
+<ol><li><strong>Engine (run13, frozen).</strong> Every 2015–2026 target gets ranked prior-links with features</li></ol>
+<p>   (focus-f, shared entities/rare-terms/clusters, option-overlap) and an auto tier L0–L5.</p>
+<p>   Population: auto-L5: 15, L4: 115, L3: 564, L2: 43, L1: 270, L0: 193.</p>
+<ol><li><strong>Expert calibration (design-based).</strong> Census of auto-L5 (15/15), auto-L4 (115/115), auto-L2</li></ol>
+<p>   (43/43) + simple random samples of auto-L3 (80/564), auto-L1 (50/270), auto-L0 (50/193).</p>
+<p>   353 labeled targets; each labeled target carries a design weight (1.0 for census tiers; 7.05 /</p>
+<p>   5.4 / 3.86 for the L3/L1/L0 samples). All population figures are design-weighted; year/subject</p>
+<p>   tables use cell (tier×year, tier×subject) weighting. Only 3 of 120 cells needed tier-mean</p>
+<p>   borrowing (flagged in tables).</p>
+<ol><li><strong>Targeted extras (26).</strong> Early-review finds in auto-L3/L1 (upward-biased by construction):</li></ol>
+<p>   <strong>excluded</strong> from all weighted estimates, <strong>included</strong> in verified counts.</p>
+<ol><li><strong>Link selection.</strong> Expert best-link = engine best-link unless the expert found a better ALT</li></ol>
+<p>   (then link-switched) or found a missed prior by corpus search (27 engine-missed links, mostly</p>
+<p>   in the auto-L0 sample). Every override records tier + link + reason</p>
+<p>   (<code>data/pyq_phase2_overrides.json</code>, 349 entries).</p>
+<h2>&lt;a id=&quot;§3&quot;&gt;&lt;/a&gt;§3 Level definitions &amp; boundary rules (expert)</h2>
+<ul><li><strong>L5</strong> — (near-)verbatim repeat: prior determines the answer (e.g. 2021_P_11 × 2019_P_90,</li></ul>
+<p>  money-multiplier, identical).</p>
+<ul><li><strong>L4</strong> — partial-direct overlap: prior answers ≥1 statement/option or refutes one directly</li></ul>
+<p>  (e.g. 2026_P_36 boundary-counting excluded; 2025_P_10 capital-receipts × 2016_P_12 capital-budget).</p>
+<ul><li><strong>L3</strong> — same mechanism/Act/scheme, different provision, effect, or chemical (e.g. PFAS ×</li></ul>
+<p>  brominated flame-retardants — same persistence+bioaccumulation logic; GEAC-under-EPA ×</p>
+<p>  GEAC-under-ministry).</p>
+<ul><li><strong>L2</strong> — framework familiarity: prior teaches the framework/topic but not the tested fact</li></ul>
+<p>  (e.g. Bollgard × Cas9; Sangam × Mrichchhakatika-scholars).</p>
+<ul><li><strong>L1</strong> — theme/format familiarity only (e.g. MDR × import-cover; town-pairs × region-pairs).</li><li><strong>L0</strong> — no meaningful link (incl. false friends: red-tides/algae × ocean-tides; Krishna-river ×</li></ul>
+<p>  Lord-Krishna; summit-preamble × Constitution-preamble; Bitcoin × Fanam-coins; Surat-city ×</p>
+<p>  Surat-split).</p>
+<p><strong>Boundary rules applied:</strong> partial-direct statement overlap = L4; same-Act-different-provision /</p>
+<p>same-mechanism-different-effect = L3 (explanatory-bridge test decides); framework-without-fact =</p>
+<p>L2; same-subject theme/format-only = L1 (generous by design); cross-subject word-only = L0.</p>
+<p>Zero conflicts between early verdicts and strata verdicts on overlapping questions.</p>
+<h2>&lt;a id=&quot;§4&quot;&gt;&lt;/a&gt;§4 Calibrated census (headline numbers)</h2>
+<p>Design-weighted estimates for N = 1200 (95% Wilson CIs, census tiers exact):</p>
+<table><thead><tr><th>Tier</th><th>Est. count</th><th>Share</th><th>95% CI (count)</th></tr></thead><tbody>
+<tr><td>L5 (verbatim)</td><td>13</td><td>1.1%</td><td>— (verified 15; upper 72 reflects unsampled mass)</td></tr>
+<tr><td><strong>L4+</strong> (answerable)</td><td><strong>85</strong></td><td><strong>7.1%</strong></td><td>[57, 167]</td></tr>
+<tr><td><strong>L3+</strong> (mechanism+)</td><td><strong>235</strong></td><td><strong>19.6%</strong></td><td>[174, 339]</td></tr>
+<tr><td><strong>L2+</strong> (framework+)</td><td><strong>549</strong></td><td><strong>45.7%</strong></td><td>[449, 666]</td></tr>
+<tr><td><strong>L1+</strong> (any signal)</td><td><strong>981</strong></td><td><strong>81.8%</strong></td><td>[870, 1061]</td></tr>
+<tr><td>L0 (no link)</td><td>219</td><td>18.2%</td><td>—</td></tr>
+</tbody></table>
+<p>Full split: L5 ≈ 13, L4 ≈ 72, L3 ≈ 150, L2 ≈ 314, L1 ≈ 433, L0 ≈ 219.</p>
+<p><strong>Verified</strong> (seen by expert): 15 L5 + 35 L4 = 50 L4+; the estimate (85) projects sampled rates</p>
+<p>onto unsampled mass. Honest reading: roughly **1 in 14 questions is directly answerable from a</p>
+<p>PYQ; 1 in 5 shares mechanism; nearly half share framework; 4 in 5 carry at least theme signal.**</p>
+<h2>&lt;a id=&quot;§5&quot;&gt;&lt;/a&gt;§5 Engine diagnostics (auto vs expert)</h2>
+<table><thead><tr><th>Auto tier</th><th>n</th><th>P(true L1+)</th><th>P(true L2+)</th><th>P(true L3+)</th><th>P(true L4+)</th><th>P(true L5)</th></tr></thead><tbody>
+<tr><td>L5 (census)</td><td>15</td><td>1.00</td><td>1.00</td><td>0.93</td><td>0.73</td><td><strong>0.47</strong></td></tr>
+<tr><td>L4 (census)</td><td>115</td><td>1.00</td><td>0.95</td><td>0.59</td><td><strong>0.18</strong></td><td>0.05</td></tr>
+<tr><td>L3 (sample)</td><td>80</td><td>0.89</td><td>0.57</td><td><strong>0.21</strong></td><td>0.07</td><td>0.00</td></tr>
+<tr><td>L2 (census)</td><td>43</td><td>0.84</td><td><strong>0.40</strong></td><td>0.12</td><td>0.07</td><td>0.00</td></tr>
+<tr><td>L1 (sample)</td><td>50</td><td><strong>0.78</strong></td><td>0.18</td><td>0.06</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>L0 (sample)</td><td>50</td><td>0.54</td><td>0.18</td><td>0.06</td><td>0.04</td><td>0.00</td></tr>
+</tbody></table>
+<p>Takeaways: (a) auto-L4 over-fires badly as &quot;L4&quot; (18%) but is an excellent L2+ screen (95%) —</p>
+<p>treat auto-L4 as &quot;needs expert triage&quot;, not as truth; (b) auto-L3 precision for true L3+ is only</p>
+<p>21%, but 57% carry L2+ signal; (c) auto-L0 misses weak links 54% of the time (mostly L1 theme</p>
+<p>links found only by active corpus search) — engine-L0 ≠ true-L0; (d) upgrades (missed L4+) hide</p>
+<p>in every tier: auto-L3 7.5%, auto-L2 7%, auto-L1 0% (sample), auto-L0 4%.</p>
+<h2>&lt;a id=&quot;§6&quot;&gt;&lt;/a&gt;§6 Year-by-year conceptual coverage</h2>
+<p>Cell-weighted shares (% of each year&#x27;s 100 Qs at/above tier) + mean lag of L2+ links:</p>
+<table><thead><tr><th>Year</th><th>L4+</th><th>L3+</th><th>L2+</th><th>L1+</th><th>mean lag</th></tr></thead><tbody>
+<tr><td>2015</td><td>8.0</td><td>28.7</td><td>33.8</td><td>62.5</td><td>6.3</td></tr>
+<tr><td>2016</td><td>5.0</td><td>6.0</td><td>46.7</td><td>89.1</td><td>4.3</td></tr>
+<tr><td>2017</td><td>5.0</td><td>33.1</td><td>40.1</td><td>83.8</td><td>5.8</td></tr>
+<tr><td>2018</td><td>2.0</td><td>12.6</td><td>21.1</td><td>81.0</td><td>9.3</td></tr>
+<tr><td>2019</td><td>1.0</td><td>8.0</td><td>68.7</td><td>75.0</td><td>8.0</td></tr>
+<tr><td>2020</td><td>19.9</td><td>31.5</td><td>59.0</td><td>89.5</td><td>7.1</td></tr>
+<tr><td>2021</td><td>5.0</td><td>18.0</td><td>39.8</td><td>82.6</td><td>6.2</td></tr>
+<tr><td>2022</td><td>8.8</td><td>24.2</td><td>51.8</td><td>83.7</td><td>8.3</td></tr>
+<tr><td>2023</td><td>9.0</td><td>21.0</td><td>66.3</td><td>75.0</td><td>7.7</td></tr>
+<tr><td>2024</td><td>5.0</td><td>19.5</td><td>69.5</td><td>83.0</td><td>8.9</td></tr>
+<tr><td>2025</td><td>2.0</td><td>11.3</td><td>29.9</td><td>70.3</td><td>7.8</td></tr>
+<tr><td>2026</td><td>0.0</td><td>7.9</td><td>43.5</td><td>85.1</td><td>8.8</td></tr>
+</tbody></table>
+<p>Notes: 2020 is the repeat-peak year (L4+ ≈ 20%: Welfare-State, money-multiplier-in-2021&#x27;s-prior,</p>
+<p>fertigation, sugarcane…). Year cells are small — single-year L3+/L4+ figures are volatile (e.g.</p>
+<p>2016 L3+ 6% vs 2017 33%); trust the pooled 19.6% and the block trends (§19), not single-year spikes.</p>
+<h2>&lt;a id=&quot;§7&quot;&gt;&lt;/a&gt;§7 Subject-wise conceptual coverage</h2>
+<p>Cell-weighted (pop = target counts 2015–2026):</p>
+<table><thead><tr><th>Subject</th><th>pop</th><th>L4+</th><th>L3+</th><th>L2+</th><th>L1+</th><th>mean lag</th><th>lag80</th></tr></thead><tbody>
+<tr><td>History</td><td>149</td><td>12.6</td><td>27.6</td><td>57.4</td><td>86.0</td><td>6.1</td><td>6</td></tr>
+<tr><td>Economy</td><td>239</td><td>5.6</td><td>29.4</td><td>56.3</td><td>78.7</td><td>8.8</td><td>16</td></tr>
+<tr><td>Science &amp; Tech</td><td>153</td><td>12.1</td><td>16.9</td><td>48.1</td><td>83.1</td><td>6.1</td><td>8</td></tr>
+<tr><td>Geography</td><td>199</td><td>5.6</td><td>17.9</td><td>46.4</td><td>77.7</td><td>7.4</td><td>12</td></tr>
+<tr><td>Art &amp; Culture</td><td>56</td><td>1.8</td><td>3.6</td><td>45.4</td><td>90.6</td><td>9.6</td><td>13</td></tr>
+<tr><td>Environment</td><td>100</td><td>7.7</td><td>18.3</td><td>50.3</td><td>92.4</td><td>6.6</td><td>9</td></tr>
+<tr><td>Polity</td><td>302</td><td>5.9</td><td>15.9</td><td>29.0</td><td>79.1</td><td>6.8</td><td>11</td></tr>
+</tbody></table>
+<p>History and S&amp;T have the densest strong-link mass (L4+ ≈ 12–13%); Polity is the weakest</p>
+<p>(L2+ only 29% — Polity re-tests fresh provisions yearly); Art &amp; Culture is nearly all weak</p>
+<p>familiarity (L3+ 3.6%, L1+ 91%) — theme helps, facts don&#x27;t repeat. Env-auto0 and S&amp;T-auto1 cells</p>
+<p>borrowed tier means (flagged, negligible effect).</p>
+<h2>&lt;a id=&quot;§8&quot;&gt;&lt;/a&gt;§8 Window analysis: 7/10/15/20-yr marginal value</h2>
+<p>Share of ALL 1200 targets whose best-link falls within lag ≤ W (weighted %):</p>
+<table><thead><tr><th>Window</th><th>L4+</th><th>L3+</th><th>L2+ (marginal)</th><th>L1+</th></tr></thead><tbody>
+<tr><td>3 yr</td><td>2.4</td><td>4.7</td><td>11.8</td><td>30.4</td></tr>
+<tr><td>5 yr</td><td>4.2</td><td>8.0</td><td>18.7 (+6.8)</td><td>42.7</td></tr>
+<tr><td>7 yr</td><td>5.1</td><td>11.0</td><td>26.2 (+7.5)</td><td>51.9</td></tr>
+<tr><td>10 yr</td><td>6.3</td><td>15.3</td><td>35.4 (+9.3)</td><td>63.9</td></tr>
+<tr><td>15 yr</td><td>6.8</td><td>17.5</td><td>41.1 (+5.6)</td><td>73.0</td></tr>
+<tr><td>20 yr</td><td>7.1</td><td>19.6</td><td>45.7 (+4.6)</td><td>81.8</td></tr>
+</tbody></table>
+<p>The 5→10-yr band is the richest marginal zone (+16.8 L2+ points); 10→20 yrs still adds +10.3.</p>
+<p>A 10-year PYQ file captures ~3/4 of the 20-year L2+ value (35.4/45.7) and ~4/5 of L3+ value</p>
+<p>(15.3/19.6) — the standard &quot;10-year PYQ&quot; advice is roughly right for strong links, but the</p>
+<p>second decade carries real weight for framework familiarity.</p>
+<h2>&lt;a id=&quot;§9&quot;&gt;&lt;/a&gt;§9 Conservative / moderate / broad 20-year coverage answer</h2>
+<ul><li><strong>Conservative (directly answerable, L4+): ≈ 7% — about 7 questions per paper</strong> (CI 5–14%).</li><li><strong>Moderate (mechanism-level help, L3+): ≈ 20% — about 20 questions per paper</strong> (CI 15–28%).</li><li><strong>Broad (framework/theme help, L2+/L1+): ≈ 46% / 82%</strong> (CIs 37–56% / 73–88%).</li></ul>
+<p>Recommendation: quote the moderate figure (1 in 5) as &quot;PYQs substantially help&quot;, the conservative</p>
+<p>(1 in 14) as &quot;PYQs directly answer&quot;, and never quote L1+ (82%) without the &quot;theme-only&quot; qualifier.</p>
+<h2>&lt;a id=&quot;§10&quot;&gt;&lt;/a&gt;§10 Advantage types</h2>
+<p>Primary advantage per target (constructed mapping from expert tier + option-overlap; documented,</p>
+<p>not independently expert-verified):</p>
+<table><thead><tr><th>Advantage</th><th>Weighted Qs</th><th>Share</th><th>Meaning</th></tr></thead><tbody>
+<tr><td>answerability</td><td>85</td><td>7.1%</td><td>prior (near-)determines the answer (L4–L5)</td></tr>
+<tr><td>conceptual</td><td>300</td><td>25.0%</td><td>prior teaches the tested mechanism/framework (L3, most L2)</td></tr>
+<tr><td>elimination</td><td>164</td><td>13.7%</td><td>prior kills ≥1 distractor (L2–L3 with option-overlap)</td></tr>
+<tr><td>pattern</td><td>433</td><td>36.1%</td><td>theme/format familiarity only (L1)</td></tr>
+<tr><td>none</td><td>219</td><td>18.2%</td><td>(L0)</td></tr>
+</tbody></table>
+<p>Among linked L2+ questions: 15.5% answerability / 54.6% conceptual / 29.9% elimination.</p>
+<p>Multi-label reality: most L3–L4 links also eliminate; the table assigns each link its primary edge.</p>
+<h2>&lt;a id=&quot;§11&quot;&gt;&lt;/a&gt;§11 Transformation taxonomy (with frequencies)</h2>
+<p>Constructed classifier on link features (weighted over 1200; expert labels where present):</p>
+<table><thead><tr><th>Class</th><th>W</th><th>What it is</th><th>Example</th></tr></thead><tbody>
+<tr><td>entity-bridge</td><td>278</td><td>same entity/concept, new question</td><td>GEAC-ministry → GEAC-statute</td></tr>
+<tr><td>mechanism-transfer</td><td>114</td><td>same mechanism, different domain</td><td>BFRs → PFAS</td></tr>
+<tr><td>angle-shift</td><td>45</td><td>same theme, different facet</td><td>OMO-RBI-tool → OMO-∈-MP</td></tr>
+<tr><td>same-fact-new-frame</td><td>20</td><td>same fact, new frame</td><td>Swadeshi ⟺ Partition</td></tr>
+<tr><td>paraphrase-repeat</td><td>19</td><td>reworded repeat</td><td>Money-Bill-NOT variants</td></tr>
+<tr><td>verbatim-repeat</td><td>4</td><td>f ≥ 0.7 near-identical</td><td>Buddha-kingdoms 2014→2015</td></tr>
+<tr><td>option-echo</td><td>0</td><td>distractor overlap only, no entity/cluster</td><td>(never occurs pure in L2+)</td></tr>
+<tr><td>surface-echo</td><td>23</td><td>thin lexical resemblance</td><td>FOBS × asteroids</td></tr>
+<tr><td>weak-association</td><td>363</td><td>L1 with features</td><td>town-pairs × region-pairs</td></tr>
+<tr><td>expert-verified-weak/strong</td><td>93/12</td><td>expert-found, no engine features</td><td>Ashoka × Kanganahalli</td></tr>
+<tr><td>unclassified-weak</td><td>11</td><td>residual</td><td>—</td></tr>
+<tr><td>spurious</td><td>219</td><td>L0</td><td>red-tides × ocean-tides</td></tr>
+</tbody></table>
+<p>(Entity-bridge dominates strong links; mechanism-transfer is the prized L3 class; pure option-echo</p>
+<p>without entity/cluster support does not occur — distractor overlap always rides a real concept.)</p>
+<h2>&lt;a id=&quot;§12&quot;&gt;&lt;/a&gt;§12 Signal vs noise: old PYQs</h2>
+<p>L2+ share of best-links by prior cohort (weighted; w = cohort link-mass):</p>
+<table><thead><tr><th>Prior cohort</th><th>w</th><th>L4+</th><th>L3+</th><th>L2+</th></tr></thead><tbody>
+<tr><td>1995–1999</td><td>17</td><td>6.0</td><td>23.8</td><td>35.7</td></tr>
+<tr><td>2000–2004</td><td>77</td><td>7.8</td><td>32.5</td><td>58.6</td></tr>
+<tr><td>2005–2009</td><td>70</td><td>4.3</td><td>23.3</td><td>60.9</td></tr>
+<tr><td>2010–2014</td><td>348</td><td>8.1</td><td>28.8</td><td>68.1</td></tr>
+<tr><td>2015–2019</td><td>326</td><td>13.8</td><td>23.1</td><td>46.8</td></tr>
+<tr><td>2020–2025</td><td>144</td><td>1.4</td><td>9.7</td><td>45.4</td></tr>
+</tbody></table>
+<p>Old PYQs are NOT noise: 2000–2009 priors deliver L2+ ≈ 60% — but the mass is thin (w = 147 vs</p>
+<p>348 for 2010–14). The 2010–14 block is the golden corpus (68% L2+, 29% L3+). Strongest verbatims</p>
+<p>come from 2015–19 priors (13.8% L4+ — adjacent-year repeats). Noise concentrates in: (a) pre-2000</p>
+<p>thin mass, (b) cross-subject word-matches (the L0 false-friend catalogue, §3), (c) UNFCCC/GEF-type</p>
+<p>&quot;theme hubs&quot; that link everywhere at L1 (international-orgs: 14/19 links L1).</p>
+<h2>&lt;a id=&quot;§13&quot;&gt;&lt;/a&gt;§13 Subject PYQ-depth recommendations</h2>
+<p>Optimal lookback = lag80 of L2+ links (captures 80% of framework-level value):</p>
+<table><thead><tr><th>Subject</th><th>Depth</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>Economy</td><td><strong>16 yrs</strong></td><td>deepest memory (monetary-policy canon from 2000s still pays)</td></tr>
+<tr><td>Art &amp; Culture</td><td>13 yrs</td><td>weak links only — read for theme, not facts</td></tr>
+<tr><td>Geography</td><td>12 yrs</td><td>place/concept links decay slowly</td></tr>
+<tr><td>Polity</td><td>11 yrs</td><td>provisions churn; depth helps procedure/federalism only</td></tr>
+<tr><td>Environment</td><td>9 yrs</td><td>conventions/protocols recur; facts update</td></tr>
+<tr><td>Science &amp; Tech</td><td>8 yrs</td><td>tech churns; biotech/health mechanisms persist</td></tr>
+<tr><td>History</td><td>6 yrs (+canon)</td><td>80% of value is recent — BUT the deep tail (lags 15–19) is all L3–L5 freedom-movement canon (Surat, 1813, INM-chrono). Do 6 yrs + the canon list, not 20 yrs flat.</td></tr>
+</tbody></table>
+<h2>&lt;a id=&quot;§14&quot;&gt;&lt;/a&gt;§14 Top 100 high-leverage PYQs</h2>
+<p>Ranked by distinct-target best-link count over the FULL 1200-question graph (732 priors), with</p>
+<p>expert-quality annotations where labeled. Top 40 (full 100: <code>data/pyq_phase2_calibrated_top100.json</code>):</p>
+<table><thead><tr><th>Prior</th><th>n</th><th>ALT</th><th>labeled/expert-best</th><th>Span</th><th>Subject</th></tr></thead><tbody>
+<tr><td>2010_P_55 (UNFCCC treaty)</td><td>7</td><td>8</td><td>2 / L2</td><td>2015–2026</td><td>pre2015</td></tr>
+<tr><td>2017_P_43 (UPI)</td><td>7</td><td>6</td><td>1 / L3</td><td>2018–2026</td><td>Economy</td></tr>
+<tr><td>2013_P_23 (FRA authority)</td><td>7</td><td>3</td><td>3 / L3</td><td>2018–2026</td><td>pre2015</td></tr>
+<tr><td>2016_P_84 (DigiLocker)</td><td>6</td><td>4</td><td>1 / L1</td><td>2017–2023</td><td>Polity</td></tr>
+<tr><td>2010_P_20 (malaria vaccine)</td><td>6</td><td>4</td><td>0 / —</td><td>2019–2026</td><td>pre2015</td></tr>
+<tr><td>2013_P_61 (kharif season)</td><td>6</td><td>3</td><td>1 / L3</td><td>2019–2024</td><td>pre2015</td></tr>
+<tr><td>2012_P_4 (NGT/Art-21)</td><td>5</td><td>6</td><td>2 / L2</td><td>2016–2024</td><td>pre2015</td></tr>
+<tr><td>2011_P_48</td><td>5</td><td>5</td><td>0 / —</td><td>2015–2018</td><td>pre2015</td></tr>
+<tr><td>2014_P_24 (steel pollutants)</td><td>5</td><td>5</td><td>2 / L3</td><td>2016–2021</td><td>pre2015</td></tr>
+<tr><td>2004_P_78 (foodgrain costs)</td><td>5</td><td>3</td><td>1 / L3</td><td>2016–2020</td><td>pre2015</td></tr>
+<tr><td>2017_P_56 (GIF)</td><td>5</td><td>3</td><td>0 / —</td><td>2019–2026</td><td>Economy</td></tr>
+<tr><td>2013_P_54 (Ajanta)</td><td>5</td><td>2</td><td>1 / L2</td><td>2016–2026</td><td>pre2015</td></tr>
+<tr><td>2011_P_32</td><td>5</td><td>1</td><td>0 / —</td><td>2017–2025</td><td>pre2015</td></tr>
+<tr><td>2014_P_6 (GEF)</td><td>4</td><td>6</td><td>3 / L1</td><td>2015–2022</td><td>pre2015</td></tr>
+<tr><td>2021_P_13 (G-Sec)</td><td>4</td><td>6</td><td>1 / L3</td><td>2023–2025</td><td>Economy</td></tr>
+<tr><td>2004_P_93 (nuclear roles)</td><td>4</td><td>4</td><td>1 / L2</td><td>2015–2019</td><td>pre2015</td></tr>
+<tr><td>2014_P_46 (wetlands)</td><td>4</td><td>4</td><td>2 / L2</td><td>2015–2023</td><td>pre2015</td></tr>
+<tr><td>2017_P_76 (elections)</td><td>4</td><td>4</td><td>2 / L2</td><td>2018–2022</td><td>Polity</td></tr>
+<tr><td>2015_P_1 (PMJDY)</td><td>4</td><td>2</td><td>3 / L3</td><td>2016–2024</td><td>Economy</td></tr>
+<tr><td>2011_P_75 (mangroves)</td><td>4</td><td>2</td><td>2 / L2</td><td>2016–2026</td><td>pre2015</td></tr>
+<tr><td>2015_P_79 (Fortaleza)</td><td>4</td><td>2</td><td>1 / L1</td><td>2016–2025</td><td>Polity</td></tr>
+<tr><td>2010_P_35 (H2 exhaust)</td><td>4</td><td>1</td><td>3 / <strong>L5</strong></td><td>2015–2025</td><td>pre2015</td></tr>
+<tr><td>2003_P_42 (Mrichchhakatika)</td><td>4</td><td>1</td><td>2 / L1</td><td>2020–2022</td><td>pre2015</td></tr>
+<tr><td>2021_P_6 (bonds)</td><td>4</td><td>1</td><td>1 / L2</td><td>2022–2025</td><td>Economy</td></tr>
+<tr><td>2003_P_96</td><td>4</td><td>0</td><td>0 / —</td><td>2016–2018</td><td>pre2015</td></tr>
+<tr><td>2016_P_56 (FSDC)</td><td>4</td><td>0</td><td>1 / L1</td><td>2017–2026</td><td>Economy</td></tr>
+<tr><td>2007_P_7 (91st Amdt)</td><td>3</td><td>8</td><td>2 / <strong>L4</strong></td><td>2018–2023</td><td>pre2015</td></tr>
+<tr><td>2002_P_21 (WIPO)</td><td>3</td><td>5</td><td>1 / L1</td><td>2015–2017</td><td>pre2015</td></tr>
+<tr><td>2002_P_17</td><td>3</td><td>5</td><td>0 / —</td><td>2017–2022</td><td>pre2015</td></tr>
+<tr><td>2015_P_18 (fly ash)</td><td>3</td><td>5</td><td>1 / L2</td><td>2018–2020</td><td>Environment</td></tr>
+<tr><td>2012_P_57 (joint sitting)</td><td>3</td><td>4</td><td>2 / L3</td><td>2016–2023</td><td>pre2015</td></tr>
+<tr><td>2004_P_41</td><td>3</td><td>4</td><td>0 / —</td><td>2016–2023</td><td>pre2015</td></tr>
+<tr><td>2007_P_6</td><td>3</td><td>4</td><td>1 / L1</td><td>2019–2023</td><td>pre2015</td></tr>
+<tr><td>2020_P_65 (G20)</td><td>3</td><td>4</td><td>1 / L1</td><td>2022–2024</td><td>Economy</td></tr>
+<tr><td></td></tr>
+</tbody></table>
+<p>...[truncated 11472 chars]</p></div>
+<div class="toc"><strong>Jump to:</strong> <a href="#§1">§1</a> <a href="#§2">§2</a> <a href="#§3">§3</a> <a href="#§4">§4</a> <a href="#§5">§5</a> <a href="#§6">§6</a> <a href="#§7">§7</a> <a href="#§8">§8</a> <a href="#§9">§9</a> <a href="#§10">§10</a> <a href="#§11">§11</a> <a href="#§12">§12</a> <a href="#§13">§13</a> <a href="#§14">§14</a> <a href="#§15">§15</a> <a href="#§16">§16</a> <a href="#§17">§17</a> <a href="#§18">§18</a> <a href="#§19">§19</a> <a href="#§20">§20</a> <a href="#§21">§21</a> <a href="#§22">§22</a> <a href="#§23">§23</a> <a href="#§24">§24</a></div>
+<hr/><div id="appb"><h1>Appendix B — Concept timelines (shared-cluster links, labeled targets)</h1>
+<p>Covers 75 concepts from 323 labeled best-links with engine features (27 expert-found links lack engine features and are excluded here). Tiers are EXPERT tiers. High-confidence = ≥4 links, ≥3 distinct target-years, ≥1 L3+. Immortal = span ≥8y with ≥3 L2+ links.</p>
+<h2>B1. High-confidence recurring concepts</h2>
+<h3>international-orgs [IMMORTAL]</h3>
+<ul><li>weight=65 links=19 priors=17 years=2015–2025 (6 distinct) tiers={1: 14, 2: 3, 3: 1, 4: 1}</li><li>examples: 2015_P_57(L4)x2008_P_61; 2015_P_79(L1)x2009_P_47; 2016_P_51(L1)x2015_P_43</li></ul>
+<h3>minerals-energy [IMMORTAL]</h3>
+<ul><li>weight=46 links=10 priors=10 years=2015–2026 (7 distinct) tiers={1: 1, 2: 6, 3: 3}</li><li>examples: 2015_P_8(L2)x2003_P_36; 2016_P_74(L2)x2014_P_38; 2018_P_27(L2)x2008_P_47</li></ul>
+<h3>soils-agrogeo [IMMORTAL]</h3>
+<ul><li>weight=40 links=10 priors=9 years=2016–2026 (6 distinct) tiers={1: 3, 2: 4, 3: 2, 4: 1}</li><li>examples: 2016_P_40(L1)x2012_P_4; 2019_P_21(L3)x2012_P_81; 2019_P_83(L3)x2013_P_61</li></ul>
+<h3>biotech-health [IMMORTAL]</h3>
+<ul><li>weight=32 links=8 priors=7 years=2015–2026 (6 distinct) tiers={1: 3, 2: 3, 3: 1, 4: 1}</li><li>examples: 2015_P_63(L3)x2003_P_19; 2019_P_100(L2)x2013_P_43; 2020_P_41(L4)x2015_P_23</li></ul>
+<h3>monetary-policy [IMMORTAL]</h3>
+<ul><li>weight=31 links=7 priors=7 years=2015–2024 (5 distinct) tiers={1: 1, 3: 4, 4: 1, 5: 1}</li><li>examples: 2015_P_22(L3)x2011_P_87; 2015_P_86(L4)x2013_P_72; 2020_P_70(L3)x2012_P_75</li></ul>
+<h3>fundamental-rights [IMMORTAL]</h3>
+<ul><li>weight=30 links=12 priors=9 years=2015–2025 (7 distinct) tiers={1: 2, 2: 4, 3: 2, 4: 1, 5: 3}</li><li>examples: 2015_P_83(L2)x2013_P_25; 2015_P_89(L4)x2013_P_25; 2017_P_20(L1)x2016_P_20</li></ul>
+<h3>statutory-bodies [IMMORTAL]</h3>
+<ul><li>weight=29 links=5 priors=5 years=2015–2026 (5 distinct) tiers={1: 1, 3: 4}</li><li>examples: 2015_P_22(L3)x2011_P_87; 2020_P_70(L3)x2012_P_75; 2023_P_24(L3)x2010_P_80</li></ul>
+<h3>chemistry-funda [IMMORTAL]</h3>
+<ul><li>weight=27 links=9 priors=7 years=2015–2026 (6 distinct) tiers={1: 2, 2: 6, 5: 1}</li><li>examples: 2015_P_8(L2)x2003_P_36; 2016_P_24(L2)x2013_P_31; 2023_P_60(L2)x2010_P_35</li></ul>
+<h3>rivers-drainage [IMMORTAL]</h3>
+<ul><li>weight=27 links=9 priors=9 years=2016–2024 (7 distinct) tiers={1: 2, 2: 6, 3: 1}</li><li>examples: 2016_P_85(L2)x2003_P_78; 2017_P_2(L3)x2011_P_91; 2017_P_30(L2)x2011_P_96</li></ul>
+<h3>buddhism-jainism [IMMORTAL]</h3>
+<ul><li>weight=25 links=7 priors=6 years=2015–2026 (6 distinct) tiers={2: 5, 4: 1, 5: 1}</li><li>examples: 2015_P_39(L5)x2014_P_25; 2017_P_69(L2)x2010_P_54; 2020_P_22(L4)x2019_P_9</li></ul>
+<h3>capital-markets [IMMORTAL]</h3>
+<ul><li>weight=24 links=6 priors=5 years=2018–2026 (6 distinct) tiers={1: 1, 2: 3, 3: 2}</li><li>examples: 2018_P_56(L3)x2001_P_48; 2020_P_54(L2)x2001_P_48; 2022_P_65(L2)x2021_P_6</li></ul>
+<h3>biology-funda [IMMORTAL]</h3>
+<ul><li>weight=23 links=5 priors=5 years=2016–2026 (5 distinct) tiers={1: 1, 2: 3, 4: 1}</li><li>examples: 2016_P_31(L2)x2013_P_5; 2020_P_41(L4)x2015_P_23; 2021_P_73(L1)x2019_P_99</li></ul>
+<h3>parliament-structure [IMMORTAL]</h3>
+<ul><li>weight=23 links=11 priors=9 years=2015–2024 (8 distinct) tiers={1: 2, 2: 2, 3: 4, 4: 3}</li><li>examples: 2015_P_27(L4)x2013_P_1; 2016_P_95(L3)x2006_P_13; 2018_P_1(L1)x2017_P_76</li></ul>
+<h3>ecology-basics [IMMORTAL]</h3>
+<ul><li>weight=22 links=5 priors=4 years=2018–2026 (4 distinct) tiers={1: 2, 2: 1, 3: 1, 4: 1}</li><li>examples: 2018_P_82(L1)x2011_P_47; 2019_P_30(L2)x2014_P_98; 2021_P_22(L4)x2014_P_80</li></ul>
+<h3>indian-physiography [IMMORTAL]</h3>
+<ul><li>weight=18 links=6 priors=6 years=2016–2026 (5 distinct) tiers={1: 1, 2: 3, 3: 1, 4: 1}</li><li>examples: 2016_P_22(L2)x1999_P_48; 2017_P_4(L3)x2008_P_22; 2017_P_58(L2)x2010_P_19</li></ul>
+<h3>union-executive [IMMORTAL]</h3>
+<ul><li>weight=18 links=6 priors=5 years=2017–2025 (4 distinct) tiers={1: 2, 2: 1, 3: 3}</li><li>examples: 2017_P_50(L3)x2013_P_65; 2017_P_96(L3)x2014_P_60; 2020_P_20(L1)x2007_P_6</li></ul>
+<h3>env-laws </h3>
+<ul><li>weight=18 links=6 priors=4 years=2017–2022 (6 distinct) tiers={3: 6}</li><li>examples: 2017_P_91(L3)x2015_P_19; 2018_P_98(L3)x2013_P_23; 2019_P_55(L3)x2013_P_23</li></ul>
+<h3>pollution-waste </h3>
+<ul><li>weight=18 links=6 priors=5 years=2019–2024 (4 distinct) tiers={2: 3, 3: 2, 4: 1}</li><li>examples: 2019_P_35(L3)x2014_P_24; 2019_P_59(L2)x2013_P_26; 2021_P_17(L3)x2014_P_24</li></ul>
+<h3>banking [IMMORTAL]</h3>
+<ul><li>weight=16 links=4 priors=3 years=2015–2026 (4 distinct) tiers={2: 2, 3: 1, 4: 1}</li><li>examples: 2015_P_100(L2)x2010_P_24; 2022_P_64(L4)x2019_P_73; 2023_P_71(L2)x2013_P_73</li></ul>
+<h3>agri-env </h3>
+<ul><li>weight=16 links=4 priors=4 years=2015–2021 (4 distinct) tiers={1: 1, 2: 1, 3: 1, 4: 1}</li><li>examples: 2015_P_63(L3)x2003_P_19; 2018_P_59(L1)x2014_P_1; 2020_P_91(L4)x2011_P_57</li></ul>
+<h3>climatology </h3>
+<ul><li>weight=16 links=4 priors=3 years=2019–2024 (4 distinct) tiers={1: 1, 2: 1, 3: 1, 5: 1}</li><li>examples: 2019_P_25(L2)x2011_P_94; 2021_P_58(L3)x2015_P_66; 2023_P_62(L1)x2004_P_72</li></ul>
+<h3>literature-languages </h3>
+<ul><li>weight=14 links=4 priors=3 years=2015–2026 (4 distinct) tiers={1: 3, 3: 1}</li><li>examples: 2015_P_75(L3)x2014_P_8; 2020_P_36(L1)x2003_P_42; 2022_P_93(L1)x2003_P_42</li></ul>
+<h3>key-legislations </h3>
+<ul><li>weight=14 links=4 priors=2 years=2017–2021 (4 distinct) tiers={3: 4}</li><li>examples: 2017_P_24(L3)x2007_P_11; 2018_P_98(L3)x2013_P_23; 2019_P_55(L3)x2013_P_23</li></ul>
+<h3>constitutional-reforms </h3>
+<ul><li>weight=14 links=8 priors=8 years=2016–2023 (7 distinct) tiers={1: 1, 2: 2, 3: 4, 5: 1}</li><li>examples: 2016_P_64(L5)x2004_P_29; 2017_P_26(L2)x2015_P_28; 2017_P_62(L3)x2012_P_27</li></ul>
+<h3>parliament-procedure [IMMORTAL]</h3>
+<ul><li>weight=13 links=7 priors=6 years=2015–2024 (6 distinct) tiers={2: 1, 3: 4, 4: 2}</li><li>examples: 2015_P_27(L4)x2013_P_1; 2015_P_37(L3)x2003_P_88; 2018_P_31(L3)x2000_P_53</li></ul>
+<h3>congress-early [IMMORTAL]</h3>
+<ul><li>weight=11 links=5 priors=5 years=2015–2023 (3 distinct) tiers={3: 1, 4: 3, 5: 1}</li><li>examples: 2015_P_48(L4)x2000_P_17; 2015_P_68(L3)x1998_P_25; 2016_P_49(L5)x2010_P_82</li></ul>
+<h3>dpsp-duties [IMMORTAL]</h3>
+<ul><li>weight=11 links=11 priors=5 years=2015–2025 (5 distinct) tiers={2: 5, 3: 3, 4: 2, 5: 1}</li><li>examples: 2015_P_7(L4)x2002_P_43; 2015_P_83(L2)x2013_P_25; 2015_P_89(L4)x2013_P_25</li></ul>
+<h3>external-sector </h3>
+<ul><li>weight=10 links=4 priors=3 years=2015–2022 (4 distinct) tiers={2: 1, 3: 3}</li><li>examples: 2015_P_34(L3)x1998_P_83; 2019_P_86(L2)x2002_P_69; 2020_P_51(L3)x2001_P_83</li></ul>
+<h3>climate-change [IMMORTAL]</h3>
+<ul><li>weight=9 links=5 priors=5 years=2015–2026 (4 distinct) tiers={1: 1, 2: 3, 4: 1}</li><li>examples: 2015_P_74(L1)x2014_P_6; 2016_P_30(L4)x2008_P_95; 2016_P_55(L2)x2011_P_14</li></ul>
+<h3>world-geo [IMMORTAL]</h3>
+<ul><li>weight=8 links=8 priors=7 years=2015–2025 (6 distinct) tiers={1: 1, 2: 3, 3: 3, 4: 1}</li><li>examples: 2015_P_64(L3)x2004_P_20; 2017_P_30(L2)x2011_P_96; 2017_P_54(L4)x2015_P_77</li></ul>
+<h3>preamble-citizenship </h3>
+<ul><li>weight=6 links=6 priors=3 years=2015–2020 (3 distinct) tiers={2: 3, 3: 1, 4: 1, 5: 1}</li><li>examples: 2015_P_83(L2)x2013_P_25; 2015_P_89(L4)x2013_P_25; 2017_P_48(L2)x2015_P_89</li></ul>
+<h3>state-executive [IMMORTAL]</h3>
+<ul><li>weight=5 links=5 priors=4 years=2015–2025 (4 distinct) tiers={1: 1, 2: 1, 3: 2, 4: 1}</li><li>examples: 2015_P_82(L1)x2001_P_49; 2017_P_96(L3)x2014_P_60; 2019_P_53(L2)x2007_P_7</li></ul>
+<h3>federalism [IMMORTAL]</h3>
+<ul><li>weight=5 links=5 priors=4 years=2016–2025 (4 distinct) tiers={2: 3, 3: 1, 5: 1}</li><li>examples: 2016_P_95(L3)x2006_P_13; 2020_P_12(L5)x2015_P_89; 2020_P_5(L2)x2015_P_89</li></ul>
+<h3>british-early </h3>
+<ul><li>weight=5 links=5 priors=4 years=2018–2023 (5 distinct) tiers={2: 1, 3: 3, 4: 1}</li><li>examples: 2018_P_68(L3)x2008_P_55; 2019_P_4(L4)x2002_P_59; 2020_P_34(L3)x2018_P_89</li></ul>
+<h3>biodiversity-hotspots </h3>
+<ul><li>weight=4 links=4 priors=4 years=2015–2025 (3 distinct) tiers={1: 2, 2: 1, 3: 1}</li><li>examples: 2015_P_43(L1)x2005_P_45; 2017_P_4(L3)x2008_P_22; 2017_P_58(L2)x2010_P_19</li></ul>
+<h2>B2. Lower-confidence / thin concepts</h2>
+<h3>early-medieval </h3>
+<ul><li>weight=21 links=3 priors=3 years=2023–2026 (3 distinct) tiers={2: 3}</li><li>examples: 2023_P_45(L2)x2017_P_51; 2025_P_14(L2)x2020_P_24; 2026_P_14(L2)x2019_P_11</li></ul>
+<h3>protected-areas </h3>
+<ul><li>weight=20 links=8 priors=7 years=2015–2020 (5 distinct) tiers={1: 3, 2: 5}</li><li>examples: 2015_P_52(L2)x2013_P_11; 2015_P_9(L1)x2014_P_46; 2017_P_95(L1)x2014_P_9</li></ul>
+<h3>judiciary </h3>
+<ul><li>weight=17 links=5 priors=4 years=2016–2021 (4 distinct) tiers={1: 1, 2: 4}</li><li>examples: 2016_P_40(L1)x2012_P_4; 2017_P_92(L2)x1997_P_79; 2019_P_52(L2)x2012_P_4</li></ul>
+<h3>temple-architecture </h3>
+<ul><li>weight=15 links=3 priors=3 years=2015–2026 (3 distinct) tiers={1: 1, 2: 2}</li><li>examples: 2015_P_54(L1)x2001_P_5; 2021_P_49(L2)x2013_P_54; 2026_P_14(L2)x2019_P_11</li></ul>
+<h3>species-focus </h3>
+<ul><li>weight=10 links=4 priors=3 years=2016–2020 (3 distinct) tiers={1: 1, 2: 3}</li><li>examples: 2016_P_22(L2)x1999_P_48; 2017_P_95(L1)x2014_P_9; 2020_P_100(L2)x2012_P_87</li></ul>
+<h3>inflation </h3>
+<ul><li>weight=9 links=3 priors=2 years=2015–2021 (3 distinct) tiers={2: 1, 3: 1, 4: 1}</li><li>examples: 2015_P_29(L3)x2010_P_85; 2020_P_67(L4)x2010_P_85; 2021_P_12(L2)x2011_P_12</li></ul>
+<h3>forests-vegetation </h3>
+<ul><li>weight=9 links=3 priors=3 years=2015–2019 (3 distinct) tiers={1: 1, 2: 2}</li><li>examples: 2015_P_78(L2)x2010_P_68; 2016_P_33(L1)x2012_P_43; 2019_P_33(L2)x2005_P_36</li></ul>
+<h3>wetlands-mangroves-coral </h3>
+<ul><li>weight=9 links=3 priors=2 years=2016–2023 (3 distinct) tiers={1: 2, 2: 1}</li><li>examples: 2016_P_44(L2)x2011_P_75; 2021_P_16(L1)x2019_P_40; 2023_P_5(L1)x2011_P_75</li></ul>
+<h3>scheme-finclusion [IMMORTAL]</h3>
+<ul><li>weight=9 links=3 priors=2 years=2016–2024 (3 distinct) tiers={2: 1, 3: 2}</li><li>examples: 2016_P_73(L2)x2015_P_1; 2017_P_79(L3)x2016_P_4; 2024_P_100(L3)x2015_P_1</li></ul>
+<h3>it-digital </h3>
+<ul><li>weight=9 links=3 priors=3 years=2018–2026 (3 distinct) tiers={1: 2, 3: 1}</li><li>examples: 2018_P_64(L1)x2016_P_84; 2024_P_26(L1)x2022_P_31; 2026_P_55(L3)x2017_P_43</li></ul>
+<h3>space </h3>
+<ul><li>weight=9 links=3 priors=2 years=2023–2025 (2 distinct) tiers={1: 1, 2: 1, 3: 1}</li><li>examples: 2023_P_57(L3)x2018_P_61; 2025_P_83(L1)x2023_P_56; 2025_P_94(L2)x2018_P_61</li></ul>
+<h3>post-mauryan [COLD]</h3>
+<ul><li>weight=8 links=2 priors=1 years=2020–2022 (2 distinct) tiers={1: 2}</li><li>examples: 2020_P_36(L1)x2003_P_42; 2022_P_93(L1)x2003_P_42</li></ul>
+<h3>physics-funda </h3>
+<ul><li>weight=8 links=2 priors=2 years=2020–2022 (2 distinct) tiers={1: 1, 4: 1}</li><li>examples: 2020_P_43(L4)x2017_P_87; 2022_P_34(L1)x2011_P_85</li></ul>
+<h3>geomorphology </h3>
+<ul><li>weight=8 links=2 priors=2 years=2021–2025 (2 distinct) tiers={2: 1, 5: 1}</li><li>examples: 2021_P_62(L5)x2013_P_10; 2025_P_25(L2)x2014_P_13</li></ul>
+<h3>harappan [COLD]</h3>
+<ul><li>weight=7 links=1 priors=1 years=2017–2017 (1 distinct) tiers={3: 1}</li><li>examples: 2017_P_2(L3)x2011_P_91</li></ul>
+<h3>mughals [COLD]</h3>
+<ul><li>weight=7 links=1 priors=1 years=2019–2019 (1 distinct) tiers={2: 1}</li><li>examples: 2019_P_17(L2)x2006_P_75</li></ul>
+<h3>gupta-harsha [COLD]</h3>
+<ul><li>weight=7 links=1 priors=1 years=2020–2020 (1 distinct) tiers={1: 1}</li><li>examples: 2020_P_36(L1)x2003_P_42</li></ul>
+<h3>india-foreign-policy [COLD]</h3>
+<ul><li>weight=7 links=1 priors=1 years=2021–2021 (1 distinct) tiers={3: 1}</li><li>examples: 2021_P_58(L3)x2015_P_66</li></ul>
+<h3>scheme-agri [COLD]</h3>
+<ul><li>weight=7 links=1 priors=1 years=2026–2026 (1 distinct) tiers={1: 1}</li><li>examples: 2026_P_38(L1)x2010_P_48</li></ul>
+<h3>awards-sports-gk [COLD]</h3>
+<ul><li>weight=5 links=1 priors=1 years=2023–2023 (1 distinct) tiers={2: 1}</li><li>examples: 2023_P_95(L2)x2021_P_96</li></ul>
+<h3>env-conventions </h3>
+<ul><li>weight=3 links=3 priors=3 years=2015–2021 (3 distinct) tiers={1: 2, 2: 1}</li><li>examples: 2015_P_43(L1)x2005_P_45; 2018_P_88(L2)x2010_P_55; 2021_P_16(L1)x2019_P_40</li></ul>
+<h3>fiscal-policy </h3>
+<ul><li>weight=3 links=3 priors=3 years=2015–2021 (3 distinct) tiers={4: 1, 5: 2}</li><li>examples: 2015_P_60(L4)x2010_P_76; 2016_P_3(L5)x2015_P_98; 2021_P_10(L5)x2013_P_81</li></ul>
+<h3>gandhian-movements </h3>
+<ul><li>weight=3 links=3 priors=3 years=2017–2026 (3 distinct) tiers={1: 1, 3: 1, 4: 1}</li><li>examples: 2017_P_93(L4)x1998_P_72; 2021_P_43(L1)x2008_P_58; 2026_P_19(L3)x2018_P_69</li></ul>
+<h3>states-reorganisation </h3>
+<ul><li>weight=2 links=2 priors=2 years=2015–2026 (2 distinct) tiers={2: 1, 3: 1}</li><li>examples: 2015_P_59(L3)x2012_P_40; 2026_P_82(L2)x2025_P_56</li></ul>
+<h3>official-language </h3>
+<ul><li>weight=2 links=2 priors=2 years=2015–2024 (2 distinct) tiers={3: 2}</li><li>examples: 2015_P_75(L3)x2014_P_8; 2024_P_72(L3)x2008_P_98</li></ul>
+<h3>agri-economics </h3>
+<ul><li>weight=2 links=2 priors=2 years=2019–2023 (2 distinct) tiers={2: 1, 3: 1}</li><li>examples: 2019_P_79(L3)x2004_P_78; 2023_P_27(L2)x2020_P_69</li></ul>
+<h3>earth-solar-system </h3>
+<ul><li>weight=2 links=2 priors=1 years=2023–2024 (2 distinct) tiers={1: 1, 5: 1}</li><li>examples: 2023_P_62(L1)x2004_P_72; 2024_P_2(L5)x2004_P_72</li></ul>
+<h3>vedic-mahajanapada [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2015–2015 (1 distinct) tiers={5: 1}</li><li>examples: 2015_P_39(L5)x2014_P_25</li></ul>
+<h3>national-income [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2015–2015 (1 distinct) tiers={3: 1}</li><li>examples: 2015_P_81(L3)x2002_P_36</li></ul>
+<h3>transport-ports [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2017–2017 (1 distinct) tiers={1: 1}</li><li>examples: 2017_P_84(L1)x2009_P_54</li></ul>
+<h3>elections [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2017–2017 (1 distinct) tiers={3: 1}</li><li>examples: 2017_P_90(L3)x2001_P_43</li></ul>
+<h3>emergency [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2017–2017 (1 distinct) tiers={3: 1}</li><li>examples: 2017_P_96(L3)x2014_P_60</li></ul>
+<h3>nuclear [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2018–2018 (1 distinct) tiers={2: 1}</li><li>examples: 2018_P_33(L2)x2004_P_93</li></ul>
+<h3>employment-poverty [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2019–2019 (1 distinct) tiers={3: 1}</li><li>examples: 2019_P_24(L3)x1999_P_10</li></ul>
+<h3>industry-services [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2019–2019 (1 distinct) tiers={2: 1}</li><li>examples: 2019_P_77(L2)x2016_P_37</li></ul>
+<h3>reports-indices [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2019–2019 (1 distinct) tiers={2: 1}</li><li>examples: 2019_P_77(L2)x2016_P_37</li></ul>
+<h3>scheme-food-nutrition [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2019–2019 (1 distinct) tiers={3: 1}</li><li>examples: 2019_P_79(L3)x2004_P_78</li></ul>
+<h3>personalities-books [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2024–2024 (1 distinct) tiers={1: 1}</li><li>examples: 2024_P_86(L1)x2009_P_61</li></ul>
+<h3>govt-programmes-misc [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2026–2026 (1 distinct) tiers={3: 1}</li><li>examples: 2026_P_55(L3)x2017_P_43</li></ul>
+<h3>oceanography [COLD]</h3>
+<ul><li>weight=1 links=1 priors=1 years=2026–2026 (1 distinct) tiers={1: 1}</li><li>examples: 2026_P_75(L1)x2006_P_26</li></ul></div>
+</body></html>
