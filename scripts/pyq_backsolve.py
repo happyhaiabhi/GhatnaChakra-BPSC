@@ -70,6 +70,8 @@ ENT_MAXDF_FRAC = 0.012  # multi-word entity: appears in <=1.2% of questions
 UNI_MAXDF_FRAC = 0.0005 # single word concept: appears in <=0.05% of questions
 PARTIAL_RARE_FRAC = 0.004  # a partial match needs >=1 shared word this rare
 RARE_ENT_FRAC = 0.002      # an entity this rare is decisive (drives 'strict')
+TOPIC_MAXDF_FRAC = 0.015   # above this a term is furniture ("india"), not a topic
+NAMED_MAXDF_FRAC = 0.0018  # a proper noun above this is too common to be evidence
 N_ENTITIES = 12         # concepts kept per question (rarest / longest first)
 DUP_THRESHOLD = 0.62    # content-word containment that means "same question"
 SOFT_MIN = 0.70         # partial credit for a near-entity match
@@ -131,7 +133,17 @@ may might will would shall should not no nor if then than there their they them 
 you your we our us one following given below above only both neither each other more most some
 such same into over under about after before between among during against within without also
 have has had any all none refers referred known called statement statements correct incorrect
-true false following question answer given following above""".split())
+true false following question answer given following above
+# Mains instruction verbs and answer-length furniture. These open almost every
+# Mains prompt, so leaving them in made "Elucidate" a shared concept between a
+# Chandella-sculpture question and a buffer-stock question.
+discuss examine examined examining examine critically critical analyse analyze
+analysis comment commentary elucidate elucidate describe description evaluate
+evaluation explain explanation illustrate illustration assess assessment define
+definition distinguish differentiate enumerate highlight outline state justify
+suggest bring throw light context reference respect words marks point points
+view views salient features main aspects role impact significance importance
+implications dimensions||""".replace("||", "").split())
 CLAUSE_SPLIT = re.compile(r"[\n;]|\.\s+|\s{2,}|,|\)|\(")
 # exam furniture that survives boilerplate stripping and would otherwise be
 # treated as a concept ("many pair", "above row", "correctly matched")
@@ -198,6 +210,10 @@ def clause_terms(text: str, maxn: int = 4):
 def load_records(scope):
     recs = []
 
+    def finish(rec):
+        rec["is_passage"] = bool(PASSAGE_MARK.search(rec["text"]))
+        return rec
+
     if "gs" in scope:
         raw = json.loads((DATA / "prelims.json").read_text(encoding="utf-8"))
         for year, rows in raw.get("records_by_year", {}).items():
@@ -261,7 +277,63 @@ def load_records(scope):
                         "subject": slug, "text": text, "options": [],
                         "answer": None, "url": q.get("url"),
                     })
+    for r in recs:
+        r["is_passage"] = bool(PASSAGE_MARK.search(r["text"]))
+        r["proper"] = {w for w in proper_nouns(r["text"], set())
+                       if w not in PROPER_STOP}
     return recs
+
+
+ROMAN_NUMERAL = re.compile(r"^[IVXLCDM]+$")
+# Words that are capitalised all over exam prose yet name nothing specific.
+# "National Park" is furniture; "Keoladeo" is the concept.
+PROPER_STOP = set("""national park parks sanctuary sanctuaries reserve reserves forest forests
+river rivers mountain mountains island islands lake lakes state states union
+government minister ministry council committee commission authority board bank
+court supreme president governor act bill policy scheme mission programme program
+project plan report index fund world international indian india article schedule
+list part section constitution amendment parliament assembly university institute
+department development research centre center society company college school
+hospital market station airport airports railway railways port ports highway
+highways stadium valley plateau desert ocean sea bay gulf strait peninsula
+tributary glacier delta basin coast coastal memorial museum festival dance
+language religion community tribe population census district city town temple
+region range north south east
+west central new old first second third fourth fifth sixth seventh eighth ninth
+tenth amendment year day week month january february march april may june july
+august september october november december""".split())
+PASSAGE_MARK = re.compile(r"passage", re.I)
+
+
+BREAK_BEFORE = (".", "!", "?", '."', ":", ";", "-", "—", "(", "[", '"', "'", "/")
+
+
+def proper_nouns(text, sentence_initial_ok):
+    """Capitalised words and acronyms.
+
+    "Golan", "IUCN" and "Westerlies" are concepts. "height", "founded" and
+    "replacement" are not - and treating them as concepts is what made a
+    geography question look like it came from a CSAT logic puzzle. Words that
+    only ever appear at the start of a sentence are ambiguous ("Which", "The"),
+    so they are accepted only if the same word is seen capitalised mid-sentence
+    somewhere else in the corpus.
+    """
+    found = set()
+    for m in re.finditer(r"\b([A-Z][a-zA-Z]{3,})\b", text):
+        word = m.group(1)
+        before = text[:m.start()].rstrip()
+        # a colon, dash or bracket starts a new unit too: in "Statement-I :
+        # Thickness of the troposphere" the capital T is layout, not a name.
+        initial = before == "" or before.endswith(BREAK_BEFORE)
+        if initial and word.lower() not in sentence_initial_ok:
+            continue
+        found.add(singular(word.lower()))
+    for m in re.finditer(r"\b([A-Z]{2,6})\b", text):
+        word = m.group(1)
+        if ROMAN_NUMERAL.match(word):
+            continue
+        found.add(word.lower())
+    return found
 
 
 def normalise_subject(raw: str) -> str:
@@ -292,6 +364,24 @@ def normalise_subject(raw: str) -> str:
 # --------------------------------------------------------------------------
 def build_corpus(recs):
     n = len(recs)
+    # A capitalised word that only ever starts a sentence is usually just
+    # "Which"/"The"; a real name is capitalised wherever it falls. One stray
+    # mid-sentence capital is not enough (a stray "Thickness" in one paper used
+    # to make "thickness" a named concept in every paper), so a word must be
+    # capitalised mid-sentence at least three times AND more often than not.
+    mid_counts, cap_counts = Counter(), Counter()
+    for r in recs:
+        for m in re.finditer(r"\b([A-Z][a-zA-Z]{3,})\b", r["text"]):
+            w = m.group(1).lower()
+            cap_counts[w] += 1
+            before = r["text"][:m.start()].rstrip()
+            if not (before == "" or before.endswith(BREAK_BEFORE)):
+                mid_counts[w] += 1
+    mid_sentence = {w for w, c in mid_counts.items()
+                    if c >= 3 and c >= 0.5 * cap_counts[w]}
+    for r in recs:
+        r["proper"] = {w for w in proper_nouns(r["text"], mid_sentence)
+                       if w not in PROPER_STOP}
     for r in recs:
         body = r["text"] + "\n" + "\n".join(strip_code_options(r["options"]))
         r["terms"] = set(clause_terms(body))
@@ -326,17 +416,21 @@ def build_corpus(recs):
     for r in recs:
         usable = r["terms"] & inform
         ents = [t for t in usable if " " in t and df[t] <= ent_maxdf]
-        unis = [t for t in usable if " " not in t and df[t] <= uni_maxdf]
-        # recurring-but-frequent concepts ("panchayat", "money bill", "westerlies")
-        # sit above the entity cut-off yet are exactly what PYQ revision rests on,
-        # so they get their own band and can only ever count as weak evidence
+        # single words only count when they are names or acronyms
+        unis = [t for t in usable if " " not in t and t in r["proper"]
+                and df[t] <= ent_maxdf]
+        # recurring-but-frequent multi-word concepts ("money bill", "panchayati
+        # raj") sit above the entity cut-off yet are exactly what PYQ revision
+        # rests on, so they get their own band and only count as weak evidence
         common = [t for t in usable if " " in t and ent_maxdf < df[t] <= max_df]
-        common_uni = [t for t in usable if " " not in t
-                      and uni_maxdf < df[t] <= max(6, int(0.004 * n))]
-        r["ent"] = (pick(ents, N_ENTITIES - 4) + pick(unis, 4)
-                    + pick(common, 4) + pick(common_uni, 2))
+        r["ent"] = (pick(ents, N_ENTITIES - 4) + pick(unis, 4) + pick(common, 4))
         r["entset"] = set(r["ent"])
         r["src"] = {t: ("stem" if t in r["stem_terms"] else "option") for t in r["ent"]}
+        # ordinary words ("height", "founded", "replacement") are kept only as a
+        # last-resort topic signal - they never appear as a matched question
+        r["topicword"] = pick([t for t in usable if " " not in t
+                               and t not in r["proper"]
+                               and df[t] <= max(6, int(0.004 * n))], 3)
         r["w"] = {t: idf[t] * (1 + 0.35 * (len(t.split()) - 1)) for t in r["ent"]}
 
     winv = defaultdict(set)
@@ -350,7 +444,9 @@ def build_corpus(recs):
     return {"df": df, "idf": idf, "inform": inform, "max_df": max_df,
             "winv": winv, "n": n, "ent_maxdf": ent_maxdf, "uni_maxdf": uni_maxdf,
             "partial_rare_df": max(6, int(PARTIAL_RARE_FRAC * n)),
-            "rare_df": max(6, int(RARE_ENT_FRAC * n)), "pinv": pinv}
+            "rare_df": max(6, int(RARE_ENT_FRAC * n)), "pinv": pinv,
+            "topic_cap": max(40, int(TOPIC_MAXDF_FRAC * n)),
+            "named_cap": max(10, int(NAMED_MAXDF_FRAC * n))}
 
 
 def near_dup(a, b):
@@ -405,9 +501,21 @@ def recency_weight(age, model, window):
 # per-year analysis
 # --------------------------------------------------------------------------
 def analyse(recs, corpus, target_year, dataset, window=RECENCY_WINDOW, topk=6):
-    pool_idx = [i for i, r in enumerate(recs)
-                if r["year"] < target_year and r["dataset"] in POOL_DATASETS]
-    pool = set(pool_idx)
+    def usable_source(r):
+        # A CSAT reading-comprehension passage is ~1,160 characters of prose and
+        # matches everything; an aptitude item ("A is taller than B") shares
+        # words with geography questions and means nothing. CSAT is therefore
+        # evidence only for CSAT, and passages are never evidence at all.
+        if r["is_passage"]:
+            return False
+        # ...and the reverse is just as misleading: a CSAT table of average
+        # marks is not answered by a GS question about the English alphabet.
+        if (r["dataset"] == "CSAT") != (dataset == "CSAT"):
+            return False
+        return True
+    pool = {i for i, r in enumerate(recs)
+            if r["year"] < target_year and r["dataset"] in POOL_DATASETS
+            and usable_source(r)}
     targets = [i for i, r in enumerate(recs)
                if r["year"] == target_year and r["dataset"] == dataset]
     winv, pinv = corpus["winv"], corpus["pinv"]
@@ -460,6 +568,9 @@ def analyse(recs, corpus, target_year, dataset, window=RECENCY_WINDOW, topk=6):
         rare_df = corpus["rare_df"]
         ent_maxdf = corpus["ent_maxdf"]
         uni_maxdf = corpus["uni_maxdf"]
+        topic_cap = corpus["topic_cap"]
+        proper = tgt["proper"]
+        named_cap = corpus["named_cap"]
         src = tgt["src"]
 
         def classify(subset, dup_pair, cov):
@@ -476,10 +587,18 @@ def analyse(recs, corpus, target_year, dataset, window=RECENCY_WINDOW, topk=6):
             familiar ground, not a known answer, so it stops at 'recurring'.
             """
             exact = [m for m in subset if m["s"] >= 0.999 and " " in m["ent"]]
-            concept = [m for m in exact if df[m["ent"]] <= ent_maxdf]
+            # a proper noun is a concept in its own right - "manipuri" and
+            # "buddha" carry a question even though they are single words
+            # only genuinely distinctive names count ("manipuri", "cornwallis");
+            # a common one ("india") is furniture, not evidence
+            named = [m for m in subset if " " not in m["ent"]
+                     and m["ent"] in proper and df[m["ent"]] <= named_cap]
+            concept_mw = [m for m in exact if df[m["ent"]] <= ent_maxdf]
+            concept = concept_mw + named
             # topic-level words are usually single words ("panchayat", "westerlies")
             topic = [m for m in subset if m["s"] >= 0.9
-                     and df[m["ent"]] > (ent_maxdf if " " in m["ent"] else uni_maxdf)]
+                     and df[m["ent"]] > (ent_maxdf if " " in m["ent"] else uni_maxdf)
+                     and df[m["ent"]] <= topic_cap]
             rare = [m for m in exact if df[m["ent"]] <= rare_df]
             partial = [m for m in subset if SOFT_MIN * SOFT_JACCARD <= m["s"] < 0.999
                        and " " in m["ent"]]
@@ -490,40 +609,90 @@ def analyse(recs, corpus, target_year, dataset, window=RECENCY_WINDOW, topk=6):
             topic_density = max(Counter(m["j"] for m in topic).values(), default=0)
             stem = lambda ms: [m for m in ms if src[m["ent"]] == "stem"]
             s_rare, s_concept, s_part = stem(rare), stem(concept), stem(partial)
+            s_concept_mw, s_named = stem(concept_mw), stem(named)
+            # the real "you have studied this ground" signal: one earlier paper
+            # that carries at least two of this question's concepts. Two separate
+            # papers each sharing one word is a coincidence, not preparation.
+            dens = max(Counter(m["j"] for m in (concept_mw + named)).values(),
+                       default=0)
             # two identically worded "consider the following pairs" questions are
             # not the same question, so a near-duplicate needs concept weight too
-            dup_ok = dup_pair[0] >= DUP_THRESHOLD and cov >= 0.03
+            # a shared word-bag is not a repeat: at least a quarter of the
+            # target's own clauses must reappear before we call it one
+            dup_ok = dup_pair[0] >= DUP_THRESHOLD and cov >= 0.25
 
-            if dup_ok or len(s_rare) >= 2 or (s_rare and cov >= 0.25):
+            if (dup_ok or len(s_rare) >= 2 or (s_rare and cov >= 0.25)
+                    or (len(s_rare) == 1 and len(s_concept) >= 3
+                        and cov >= 0.35)):
                 return "strict", exact, rare, partial, unigram, topic_density
-            if s_rare or len(s_concept) >= 2 or len(s_part) >= 2 or rare:
+            # names alone are too easy (two questions can both say "Atlantic");
+            # a real concept needs a multi-word entity behind it
+            if (s_rare or len(s_concept_mw) >= 2 or (s_concept_mw and s_named)
+                    or len(s_part) >= 2 or (rare and cov >= 0.15)
+                    or (s_named and dens >= 2)):
                 # a decisive entity found only among the answer options is still
                 # concept overlap, but it cannot be called decisive
                 return "medium", exact, rare, partial, unigram, topic_density
-            if concept or partial or weak_uni:
+            # a single rare *ordinary* word ("thickness") matching a Blu-ray
+            # question is noise, not a shared concept - only named entities and
+            # genuine multi-word overlap count as even the weakest evidence
+            if concept or partial:
                 return "loose", exact, rare, partial, unigram, topic_density
             if topic_density >= 2 or len(topic) >= 2:
                 return "recurring", exact, rare, partial, unigram, topic_density
             return "novel", exact, rare, partial, unigram, topic_density
 
         cov_flat = scores["flat"]
-        (tier, exact, rare, partial, unigram,
-         common_density) = classify(matches, dup, cov_flat)
-        e_dup = dup[0] >= DUP_THRESHOLD and cov_flat >= 0.03
-
-        # control: what does the SAME dataset alone teach (Prelims <- Prelims)?
         same_matches = [m for m in matches if recs[m["j"]]["dataset"] == dataset]
+        cross_matches = [m for m in matches if recs[m["j"]]["dataset"] != dataset]
         same_dup = max(((near_dup(tgt, recs[j]), j) for j in allc
                         if recs[j]["dataset"] == dataset), default=(0.0, None))
-        same_total = sum(tgt["w"][t] for t in tgt["ent"]) or 1.0
-        same_cov = sum(tgt["w"][m["ent"]] * m["s"] for m in same_matches) / same_total
-        tier_same = classify(same_matches, same_dup, same_cov)[0]
 
+        # ordinary shared words, last resort: "this topic word appears earlier".
+        # Kept as a named word with the years it occurs in - never dressed up as
+        # a matched question, because "height" matching a CSAT puzzle tells the
+        # reader nothing.
+        topic_words = []
+        for w in tgt.get("topicword", []):
+            years = sorted({recs[j]["year"] for j in allc
+                            if w in recs[j]["entset"] or w in recs[j]["terms"]})[:6]
+            if years:
+                topic_words.append({"word": w, "years": years})
+
+        # --- headline tier: evidence from the SAME paper series only ---
+        if tgt["is_passage"]:
+            # a 1,160-character passage has no comparable earlier item
+            tier, exact, rare, partial, unigram, topic_density = (
+                "passage", [], [], [], [], 0)
+        else:
+            tier, exact, rare, partial, unigram, topic_density = classify(
+                same_matches, same_dup, cov_flat)
+        # topic_words stay a labelled hint only - they never promote a tier.
+        # Folding them in meant "height" appearing in one CSAT puzzle turned a
+        # fresh geography question into a "recurring" one.
+
+        # --- cross-series lift (Mains -> Prelims): needs real weight ---
+        cross_exact = [m for m in cross_matches if m["s"] >= 0.999
+                       and " " in m["ent"]]
+        cross_density = max(Counter(m["j"] for m in cross_exact).values(), default=0)
+        cross_decisive = any(df[m["ent"]] <= rare_df for m in cross_exact)
+        tier_cross = tier
+        if tier in ("novel", "loose", "recurring") and cross_density >= 2:
+            tier_cross = "medium" if cross_decisive else "recurring"
+        cross_lift = tier_cross != tier
+
+        same_cov = sum(tgt["w"].get(m["ent"], 1.0) * m["s"] for m in same_matches
+                       if m["rank"] == 0) / (sum(tgt["w"][t] for t in tgt["ent"]) or 1.0)
+        tier_same = tier
+        e_dup = dup[0] >= DUP_THRESHOLD and cov_flat >= 0.03
+        common_density = topic_density
         ranked = sorted(matches, key=lambda m: -(tgt["w"][m["ent"]] * m["s"]))[:topk]
         results[i] = {
             "tier": tier, "cov_flat": cov_flat, "cov_cliff": scores["cliff"],
             "cov_decay": scores["decay"], "dup": dup[0], "dup_j": dup[1],
             "cov_same": same_cov, "tier_same": tier_same,
+            "tier_cross": tier_cross, "cross_lift": cross_lift,
+            "cross_density": cross_density, "topic_words": topic_words,
             "n_exact": len(exact), "n_rare": len(rare), "n_partial": len(partial),
             "n_unigram": len(unigram),
             "tier_detail": ("repeat" if e_dup else "decisive" if rare
@@ -539,7 +708,7 @@ def analyse(recs, corpus, target_year, dataset, window=RECENCY_WINDOW, topk=6):
     return results
 
 
-TIER_ORDER = ("strict", "medium", "recurring", "loose", "novel")
+TIER_ORDER = ("strict", "medium", "recurring", "loose", "novel", "passage")
 # "PYQ-solvable" = strict + medium; "topic already seen" adds recurring
 TIER_SET = {"strict": {"strict"}, "medium": {"strict", "medium"},
             "loose": {"strict", "medium", "recurring", "loose"}}
@@ -640,7 +809,7 @@ def answer_conflicts(recs, results_by_year):
     return out
 
 
-def dedupe_matches(recs, matches, tgt_w, limit=5):
+def dedupe_matches(recs, matches, tgt_w, dataset, limit=5):
     """One entry per earlier question, best concept first."""
     best = {}
     for m in matches:
@@ -648,7 +817,9 @@ def dedupe_matches(recs, matches, tgt_w, limit=5):
         score = tgt_w.get(m["ent"], 1.0) * m["s"]
         if j not in best or score > best[j][0]:
             best[j] = (score, m)
-    ranked = sorted(best.values(), key=lambda x: -x[0])[:limit]
+    ranked = sorted(best.values(),
+                    key=lambda it: (0 if recs[it[1]["j"]]["dataset"] == dataset else 1,
+                                    -it[0]))[:limit]
     return [{
         "year": recs[m["j"]]["year"],
         "dataset": recs[m["j"]]["dataset"],
@@ -709,20 +880,24 @@ def run(scope=("gs", "csat", "mains"), targets=True, do_optimise=True,
             c = Counter(e["tier"] for e in res.values())
             print(f"  {dataset:<5} {ty}  strict {c['strict']:>3}  medium {c['medium']:>3}  "
                   f"recurring {c['recurring']:>3}  loose {c['loose']:>3}  "
-                  f"novel {c['novel']:>3}   [{time.time()-t1:.1f}s]", flush=True)
+                  f"novel {c['novel']:>3}  passage {c['passage']:>3}   "
+                  f"[{time.time()-t1:.1f}s]", flush=True)
 
     # ---- summary table -------------------------------------------------
     summary_rows, by_subject = [], defaultdict(lambda: Counter())
     for (dataset, ty), res in sorted(results_by_year.items()):
         c = Counter(e["tier"] for e in res.values())
-        n = len(res)
+        # comprehension passages have no comparable earlier item, so they are
+        # counted separately rather than inflating the "novel" figure
+        n = sum(v for k, v in c.items() if k != "passage")
+        n = n or 1
         for i, e in res.items():
             by_subject[(dataset, normalise_subject(recs[i]["subject"]))][e["tier"]] += 1
         cs = Counter(e["tier_same"] for e in res.values())
         row = {
             "dataset": dataset, "year": ty, "questions": n,
             "strict": c["strict"], "medium": c["medium"], "recurring": c["recurring"],
-            "loose": c["loose"], "novel": c["novel"],
+            "loose": c["loose"], "novel": c["novel"], "passages": c["passage"],
             "strict_pct": round(100 * c["strict"] / n, 1),
             "medium_pct": round(100 * (c["strict"] + c["medium"]) / n, 1),
             "recurring_pct": round(
@@ -756,7 +931,9 @@ def run(scope=("gs", "csat", "mains"), targets=True, do_optimise=True,
                 "cov_decay": round(e["cov_decay"], 3),
                 "dup": round(e["dup"], 3),
                 "n_exact": e["n_exact"], "n_partial": e["n_partial"],
-                "matches": dedupe_matches(recs, e["top"], tgt_w=recs[i]["w"]),
+                "matches": dedupe_matches(recs, e["top"], recs[i]["w"], dataset),
+                "topic_words": e["topic_words"],
+                "cross_lift": e["cross_lift"],
             })
 
     subject_rows = []
@@ -814,6 +991,7 @@ def run(scope=("gs", "csat", "mains"), targets=True, do_optimise=True,
                          "Money Bill, westerlies) but this exact question is new",
             "loose": "partial or single-word overlap - related, not sufficient",
             "novel": "no earlier PYQ carries even the topic",
+            "passage": "comprehension passage - no comparable earlier item",
         },
         "summary": summary_rows,
         "by_subject": subject_rows,
@@ -867,21 +1045,24 @@ def run(scope=("gs", "csat", "mains"), targets=True, do_optimise=True,
     return payload, recs, corpus, results_by_year
 
 
-def calibrate(sample=32, seed=11):
+def calibrate(sample=25, seed=11):
     """Print a stratified sample of matches for human labelling."""
     recs = load_records(("gs", "csat", "mains"))
     corpus = build_corpus(recs)
     rng = random.Random(seed)
     buckets = defaultdict(list)
-    for ty in (2015, 2019, 2022, 2025):
-        res = analyse(recs, corpus, ty, "GS")
-        for i, e in res.items():
-            buckets[e["tier"]].append((ty, i, e))
+    for ty in range(2015, 2027):
+        for ds in ("GS", "MAINS"):
+            res = analyse(recs, corpus, ty, ds)
+            for i, e in res.items():
+                buckets[e["tier"]].append((ty, ds, i, e))
     out = []
-    for tier in TIER_ORDER:
+    graded = [t for t in TIER_ORDER if t != "passage"]
+    per_tier = max(1, round(sample / len(graded)))
+    for tier in graded:
         items = buckets[tier][:]
         rng.shuffle(items)
-        for ty, i, e in items[:10]:
+        for ty, ds, i, e in items[:per_tier]:
             m = e["top"][0] if e["top"] else None
             ents = [(m["ent"], m["pri"], round(m["s"], 2), recs[m["j"]]["year"],
                      recs[m["j"]]["dataset"]) for m in e["top"][:3] if " " in m["ent"]]

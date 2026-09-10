@@ -14,6 +14,7 @@
   --recurring: #6b5bd2;
   --loose: #7b8a99;
   --novel: #c0392b;
+  --passage: #8a8f98;
   --shadow: 0 1px 2px rgba(16, 35, 55, .08), 0 8px 24px rgba(16, 35, 55, .06);
   --radius: 12px;
 }
@@ -131,6 +132,7 @@ input[type="search"] { min-width: 240px; }
 .bs-badge.recurring { background: var(--recurring); }
 .bs-badge.loose { background: var(--loose); }
 .bs-badge.novel { background: var(--novel); }
+.bs-badge.passage { background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); }
 .bs-badge.subj { background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); text-transform: none; letter-spacing: 0; font-weight: 600; }
 .bs-q-text { white-space: pre-wrap; margin: 0 0 8px; }
 .bs-answer { font-size: 13px; color: var(--muted); margin: 0 0 10px; }

@@ -29,15 +29,21 @@ how much of it could you have handled using only earlier previous-year
 questions**, with extra weight on the most recent 20 years?
 
 Every question of every target paper is matched against every question published
-before it (Prelims GS, CSAT and Mains — 6,490 questions) and sorted into five
-bands: verbatim repeat / decisive concept already seen, distinctive concept seen
-before, topic recurs, weak overlap, nothing earlier. Roughly **23 % of a Prelims
-GS paper is solvable from earlier papers**, rising to 34 % in 2015 and falling
-to 14 % in 2022; polity and economy repeat the most, art and culture the least.
+before it (Prelims GS, CSAT and Mains — 6,490 questions) and sorted into bands:
+verbatim repeat, distinctive concept seen before, topic recurs, weak overlap,
+nothing earlier. About **17 % of a Prelims GS paper is genuinely solvable from
+earlier papers**, and **36 % of it has no antecedent anywhere in the 31-year
+archive**. Economy and polity repay PYQ work best; science and technology barely
+does (58 % novel).
 
 The page also carries a backtested "which papers should I solve" table (greedy
 set cover, restricted to papers published before the target year), the feeder
 papers behind each year, and a hand-checked calibration sample.
+
+The matching is deliberately conservative after an early version over-reported:
+a single ordinary word is never treated as a concept, CSAT is scored against
+CSAT alone, and reading-comprehension passages are excluded from the counts
+entirely. Headline tiers survive human review about 70 % of the time.
 
 ```bash
 python scripts/pyq_backsolve.py              # rebuild data/pyq_backsolve*/

@@ -5,13 +5,14 @@
   'use strict';
 
   var SUMMARY_URL = 'data/pyq_backsolve_summary.json';
-  var TIERS = ['strict', 'medium', 'recurring', 'loose', 'novel'];
+  var TIERS = ['strict', 'medium', 'recurring', 'loose', 'novel', 'passage'];
   var TIER_LABEL = {
     strict: 'directly answerable',
     medium: 'concept seen before',
     recurring: 'topic recurs',
     loose: 'weak overlap',
-    novel: 'nothing earlier'
+    novel: 'nothing earlier',
+    passage: 'comprehension passage'
   };
   var DATASETS = [
     { id: 'GS', label: 'Prelims GS I' },
@@ -156,6 +157,10 @@
       { cls: 'novel', v: (100 - row.loose_pct).toFixed(0) + '%', l: 'no earlier concept at all' },
       { cls: '', v: row.verbatim_repeats, l: 'verbatim repeats of earlier papers' }
     ];
+    if (row.passages) {
+      items.push({ cls: 'passage', v: row.passages,
+                   l: 'comprehension passages, not scored' });
+    }
     items.forEach(function (it) {
       var d = el('div', 'bs-stat ' + it.cls);
       d.appendChild(el('b', null, String(it.v)));
@@ -176,6 +181,7 @@
     var legend = $('bsLegend');
     legend.innerHTML = '';
     TIERS.forEach(function (t) {
+      if (!row[t]) return;
       var s = el('span');
       var b = el('b'); b.style.background = 'var(--' + t + ')';
       s.appendChild(b);
@@ -199,6 +205,27 @@
       }
       return true;
     });
+  }
+
+  function matchRow(mt) {
+    var rowEl = el('div', 'bs-match');
+    rowEl.appendChild(el('div', 'bs-match-yr',
+      mt.year + (mt.dataset !== state.dataset ? ' ' + mt.dataset : '')));
+    var body = el('div', 'bs-match-body');
+    body.appendChild(el('p', 'bs-match-text', mt.text));
+    if (mt.ent) {
+      var e = el('p', 'bs-match-ent');
+      e.appendChild(document.createTextNode('shared concept '));
+      e.appendChild(el('code', null, mt.ent));
+      if (mt.pri && mt.pri !== mt.ent) {
+        e.appendChild(document.createTextNode(' ~ '));
+        e.appendChild(el('code', null, mt.pri));
+      }
+      body.appendChild(e);
+    }
+    if (mt.answer) body.appendChild(el('p', 'bs-match-ans', 'answer: ' + mt.answer));
+    rowEl.appendChild(body);
+    return rowEl;
   }
 
   function renderQuestions(data) {
@@ -236,29 +263,30 @@
       }
 
       if (item.matches && item.matches.length) {
+        var same = item.matches.filter(function (m) { return m.dataset === state.dataset; });
+        var cross = item.matches.filter(function (m) { return m.dataset !== state.dataset; });
+
         var m = el('div', 'bs-matches');
-        m.appendChild(el('h4', null, 'What earlier papers teach it'));
-        item.matches.slice(0, 5).forEach(function (mt) {
-          var rowEl = el('div', 'bs-match');
-          rowEl.appendChild(el('div', 'bs-match-yr', mt.year + (mt.dataset !== state.dataset ? ' ' + mt.dataset : '')));
-          var body = el('div', 'bs-match-body');
-          body.appendChild(el('p', 'bs-match-text', mt.text));
-          if (mt.ent) {
-            var e = el('p', 'bs-match-ent');
-            e.appendChild(document.createTextNode('shared concept '));
-            e.appendChild(el('code', null, mt.ent));
-            if (mt.pri && mt.pri !== mt.ent) {
-              e.appendChild(document.createTextNode(' ~ '));
-              e.appendChild(el('code', null, mt.pri));
-            }
-            body.appendChild(e);
-          }
-          if (mt.answer) body.appendChild(el('p', 'bs-match-ans', 'answer: ' + mt.answer));
-          rowEl.appendChild(body);
-          m.appendChild(rowEl);
-        });
+        if (same.length) {
+          m.appendChild(el('h4', null, 'From earlier ' + state.dataset + ' papers'));
+          same.slice(0, 5).forEach(function (mt) { m.appendChild(matchRow(mt)); });
+        }
+        if (cross.length) {
+          m.appendChild(el('h4', null, 'Also in ' + cross[0].dataset + ' papers (weaker evidence)'));
+          cross.slice(0, 3).forEach(function (mt) { m.appendChild(matchRow(mt)); });
+        }
+        if (item.topic_words && item.topic_words.length && !same.length) {
+          var tw = el('p', 'bs-match-ent');
+          tw.appendChild(document.createTextNode('Shared topic words only: '));
+          item.topic_words.slice(0, 3).forEach(function (w, i) {
+            if (i) tw.appendChild(document.createTextNode(', '));
+            tw.appendChild(el('code', null, w.word + ' (' + w.years.join(', ') + ')'));
+          });
+          m.appendChild(tw);
+        }
         card.appendChild(m);
       }
+
       box.appendChild(card);
     });
     if (!list.length) box.appendChild(el('div', 'bs-empty', 'No questions match these filters.'));
