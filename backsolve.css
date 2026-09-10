@@ -1,0 +1,181 @@
+/* PYQ Back-solve — how much of a paper earlier papers already taught. */
+
+:root {
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --panel-2: #f1f4f8;
+  --ink: #16212e;
+  --muted: #5c6b7c;
+  --line: #dde3ea;
+  --accent: #1d6fb8;
+  --accent-ink: #ffffff;
+  --strict: #0f8a5f;
+  --medium: #b8860b;
+  --recurring: #6b5bd2;
+  --loose: #7b8a99;
+  --novel: #c0392b;
+  --shadow: 0 1px 2px rgba(16, 35, 55, .08), 0 8px 24px rgba(16, 35, 55, .06);
+  --radius: 12px;
+}
+
+html[data-theme="dark"], body[data-theme="dark"] {
+  --bg: #0e1621;
+  --panel: #16212e;
+  --panel-2: #1c2836;
+  --ink: #e6edf5;
+  --muted: #93a3b5;
+  --line: #26364a;
+  --accent: #4da3e8;
+  --accent-ink: #08121c;
+  --strict: #34d399;
+  --medium: #fbbf24;
+  --recurring: #a78bfa;
+  --loose: #8fa3b8;
+  --novel: #f87171;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px rgba(0, 0, 0, .28);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.bs-wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px 72px; }
+
+/* ---------- top bar ---------- */
+.bs-top {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding: 18px 0 10px;
+}
+.bs-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; text-decoration: none; color: var(--ink); }
+.bs-brand span { color: var(--accent); }
+.bs-top .spacer { flex: 1; }
+.bs-link { color: var(--muted); text-decoration: none; font-size: 13px; }
+.bs-link:hover { color: var(--accent); }
+
+.bs-hero { padding: 6px 0 18px; }
+.bs-hero h1 { margin: 0 0 6px; font-size: 27px; letter-spacing: -.2px; }
+.bs-hero p { margin: 0; color: var(--muted); max-width: 76ch; }
+
+/* ---------- panels ---------- */
+.bs-panel {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 16px 18px; margin: 16px 0;
+}
+.bs-panel > h2 { margin: 0 0 4px; font-size: 16px; }
+.bs-panel > .hint { margin: 0 0 14px; color: var(--muted); font-size: 13px; }
+
+/* ---------- controls ---------- */
+.bs-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end; }
+.bs-field { display: flex; flex-direction: column; gap: 5px; }
+.bs-field label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+select, input[type="search"], input[type="text"] {
+  background: var(--panel-2); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: 8px 10px; font: inherit; font-size: 14px; min-width: 130px;
+}
+input[type="search"] { min-width: 240px; }
+.bs-tabs { display: flex; gap: 6px; }
+.bs-tab {
+  border: 1px solid var(--line); background: var(--panel-2); color: var(--ink);
+  border-radius: 999px; padding: 7px 15px; font: inherit; font-size: 13px; cursor: pointer;
+}
+.bs-tab[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+.bs-years { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+.bs-year {
+  border: 1px solid var(--line); background: var(--panel-2); color: var(--ink);
+  border-radius: 8px; padding: 6px 11px; font: inherit; font-size: 13px; cursor: pointer;
+}
+.bs-year[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+/* ---------- stat strip ---------- */
+.bs-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.bs-stat { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px; }
+.bs-stat b { display: block; font-size: 23px; line-height: 1.15; }
+.bs-stat span { color: var(--muted); font-size: 12px; }
+.bs-stat.strict b { color: var(--strict); }
+.bs-stat.medium b { color: var(--medium); }
+.bs-stat.recurring b { color: var(--recurring); }
+.bs-stat.novel b { color: var(--novel); }
+
+/* ---------- stacked bar ---------- */
+.bs-bar { display: flex; height: 26px; border-radius: 8px; overflow: hidden; margin: 14px 0 6px; background: var(--panel-2); }
+.bs-bar i { display: block; height: 100%; }
+.bs-bar .strict { background: var(--strict); }
+.bs-bar .medium { background: var(--medium); }
+.bs-bar .recurring { background: var(--recurring); }
+.bs-bar .loose { background: var(--loose); }
+.bs-bar .novel { background: var(--novel); }
+.bs-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.bs-legend b { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; }
+
+/* ---------- question list ---------- */
+.bs-q {
+  border: 1px solid var(--line); border-radius: 10px; background: var(--panel);
+  padding: 13px 15px; margin: 10px 0;
+}
+.bs-q-head { display: flex; gap: 9px; align-items: center; flex-wrap: wrap; margin-bottom: 7px; }
+.bs-q-no { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; }
+.bs-badge {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+  padding: 3px 8px; border-radius: 999px; color: #fff;
+}
+.bs-badge.strict { background: var(--strict); }
+.bs-badge.medium { background: var(--medium); }
+.bs-badge.recurring { background: var(--recurring); }
+.bs-badge.loose { background: var(--loose); }
+.bs-badge.novel { background: var(--novel); }
+.bs-badge.subj { background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); text-transform: none; letter-spacing: 0; font-weight: 600; }
+.bs-q-text { white-space: pre-wrap; margin: 0 0 8px; }
+.bs-answer { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
+.bs-answer b { color: var(--ink); }
+.bs-cov { font-size: 12px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+
+.bs-matches { border-top: 1px dashed var(--line); padding-top: 9px; margin-top: 4px; }
+.bs-matches h4 { margin: 0 0 7px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 700; }
+.bs-match { display: flex; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.bs-match:last-child { border-bottom: 0; }
+.bs-match-yr {
+  flex: 0 0 62px; font-weight: 700; font-size: 13px; color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.bs-match-body { flex: 1; min-width: 0; }
+.bs-match-text { margin: 0; font-size: 13.5px; white-space: pre-wrap; }
+.bs-match-ent { margin: 3px 0 0; font-size: 12px; color: var(--muted); }
+.bs-match-ent code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-size: 11.5px; }
+.bs-match-ans { margin: 3px 0 0; font-size: 12px; color: var(--muted); }
+
+.bs-toggle {
+  background: none; border: 0; color: var(--accent); cursor: pointer;
+  font: inherit; font-size: 12.5px; padding: 6px 0 0;
+}
+
+/* ---------- tables ---------- */
+.bs-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.bs-table th, .bs-table td { text-align: left; padding: 7px 9px; border-bottom: 1px solid var(--line); }
+.bs-table th { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.bs-table td.num, .bs-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---------- sparkline-ish age chart ---------- */
+.bs-age { display: flex; align-items: flex-end; gap: 3px; height: 110px; margin-top: 8px; }
+.bs-age div { flex: 1; background: var(--accent); border-radius: 3px 3px 0 0; min-height: 2px; position: relative; }
+.bs-age-axis { display: flex; gap: 3px; margin-top: 4px; font-size: 10px; color: var(--muted); }
+.bs-age-axis span { flex: 1; text-align: center; }
+
+.bs-note { font-size: 13px; color: var(--muted); }
+.bs-note code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+.bs-empty { padding: 26px; text-align: center; color: var(--muted); }
+.bs-error { background: #fff3f2; border: 1px solid #f5c6c0; color: #8c2f21; padding: 14px; border-radius: 10px; }
+html[data-theme="dark"] .bs-error, body[data-theme="dark"] .bs-error { background: #2a1614; border-color: #5d2a24; color: #f6b0a6; }
+
+@media (max-width: 640px) {
+  .bs-hero h1 { font-size: 22px; }
+  input[type="search"] { min-width: 100%; }
+  .bs-match-yr { flex-basis: 48px; }
+}

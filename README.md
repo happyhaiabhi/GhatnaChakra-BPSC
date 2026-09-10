@@ -22,6 +22,30 @@ copying Git history, PDFs, reports, tests or extraction artifacts.
 - `DEPLOY_TO_GITHUB.md` explains the GitHub Pages deployment and how the
   original BPSC source is preserved in the `bpsc-source` branch.
 
+## PYQ Back-solve study
+
+`backsolve.html` answers one question: **for each UPSC paper from 2015 to 2026,
+how much of it could you have handled using only earlier previous-year
+questions**, with extra weight on the most recent 20 years?
+
+Every question of every target paper is matched against every question published
+before it (Prelims GS, CSAT and Mains — 6,490 questions) and sorted into five
+bands: verbatim repeat / decisive concept already seen, distinctive concept seen
+before, topic recurs, weak overlap, nothing earlier. Roughly **23 % of a Prelims
+GS paper is solvable from earlier papers**, rising to 34 % in 2015 and falling
+to 14 % in 2022; polity and economy repeat the most, art and culture the least.
+
+The page also carries a backtested "which papers should I solve" table (greedy
+set cover, restricted to papers published before the target year), the feeder
+papers behind each year, and a hand-checked calibration sample.
+
+```bash
+python scripts/pyq_backsolve.py              # rebuild data/pyq_backsolve*/
+python scripts/pyq_backsolve.py --calibrate  # print a fresh labelling sample
+```
+
+Findings and caveats: `PYQ_BACKSOLVE_REPORT.md`.
+
 ## Consolidated Physics Notes (A4)
 
 `BPSC_Physics_Consolidated_Notes_A4.pdf` is a **re-arranged, de-duplicated,

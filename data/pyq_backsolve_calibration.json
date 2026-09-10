@@ -1,0 +1,1061 @@
+{
+ "method": "48 pairs stratified by tier, sampled from GS target papers 2015/2019/2022/2025. Each judged by hand on one question: does the earlier PYQ materially help answer the target? For 'novel' rows the verdict is correct when nothing earlier helps.",
+ "reviewed_at": "2026-09-09",
+ "sample_size": 48,
+ "stats": {
+  "recurring": {
+   "n": 10,
+   "precision_pct": 30.0,
+   "meaning": "matches a reviewer judges genuinely useful"
+  },
+  "loose": {
+   "n": 10,
+   "precision_pct": 30.0,
+   "meaning": "matches a reviewer judges genuinely useful"
+  },
+  "novel": {
+   "n": 8,
+   "precision_pct": 75.0,
+   "meaning": "'novel' verdicts that really had nothing useful earlier"
+  },
+  "medium": {
+   "n": 10,
+   "precision_pct": 70.0,
+   "meaning": "matches a reviewer judges genuinely useful"
+  },
+  "strict": {
+   "n": 10,
+   "precision_pct": 60.0,
+   "meaning": "matches a reviewer judges genuinely useful"
+  },
+  "strict+medium": {
+   "n": 20,
+   "precision_pct": 65.0,
+   "meaning": "headline 'PYQ-solvable' tier"
+  }
+ },
+ "labelled_pairs": [
+  {
+   "id": 28,
+   "tier": "recurring",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "Which of the following adopted a law on data protection and privacy for its citizens known as 'General Data Protection Regulation' in April 2016 and started implementation of it from 25th May, 2018?",
+   "prior_year": 2017,
+   "prior_dataset": "MAINS",
+   "prior": "Examine the scope of Fundamental Rights in the light of the latest judgement of the Supreme Court on Right to Privacy.",
+   "entity": "privacy",
+   "matched": "privacy",
+   "score": 1.0,
+   "cov": 0.087,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 25,
+   "tier": "recurring",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following statements :\nStatement I: Of the two major ethanol producers in the world, i.e., Brazil and the United States of America, the former produces more ethanol than the latter.\nStatement II: Unlike in the United States of America where corn is the principal feedstock for ethanol production, sugarcane is the principal feedstock for ethanol production in Brazil.\nWhich one of the fo",
+   "prior_year": 2024,
+   "prior_dataset": "GS",
+   "prior": "Consider the following materials:\n\n1. Agricultural residues\n2. Corn grain\n3. Wastewater treatment sludge\n4. Wood mill waste\n\nWhich of the above can be used as feedstock for producing Sustainable Aviation Fuel?",
+   "entity": "feedstock",
+   "matched": "feedstock",
+   "score": 1.0,
+   "cov": 0.095,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 32,
+   "tier": "loose",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "Which one of the following National Parks has a climate that varies from tropical to subtropical, temperate and arctic?",
+   "prior_year": 2013,
+   "prior_dataset": "GS",
+   "prior": "Consider the following pairs :\n1. Nokrek Bio-sphere Reserve: Garo Hills\n2. Logtak (Loktak) Lake : Barail Range\n3. Namdapha National Park: Dafla Hills\nWhich of the above pairs is/are correctly matched?",
+   "entity": "namdapha",
+   "matched": "namdapha",
+   "score": 1.0,
+   "cov": 0.144,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 43,
+   "tier": "novel",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "In the 'Index of Eight Core Industries', which one of the following is given the highest weight?",
+   "prior_year": null,
+   "prior_dataset": null,
+   "prior": null,
+   "entity": null,
+   "matched": null,
+   "score": 0,
+   "cov": 0.0,
+   "label": null,
+   "helps": true,
+   "note": "2012 paper asks about the Index of Eight Core Industries - a miss"
+  },
+  {
+   "id": 39,
+   "tier": "loose",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following pairs :\nRegion Country\nI. Mallorca : Italy\nII. Normandy : Spain\nIII. Sardinia : France\nIn how many of the above rows is the given information correctly matched?",
+   "prior_year": 2008,
+   "prior_dataset": "GS",
+   "prior": "Norman Ernest Borlaug who is regarded as the father of the Green Revolution in India is from which country?",
+   "entity": "normandy",
+   "matched": "norman",
+   "score": 0.9,
+   "cov": 0.166,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 45,
+   "tier": "novel",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following statements in respect of the first Kho Kho World Cup :\nI. The event was held in Delhi, India.\nII. Indian men beat Nepal with a score of 78-40 in the final to become the World Champion in men category.\nIII. Indian women beat Nepal with a score of 54-36 in the final to become the World Champion in women category.\nWhich of the statements given above is/are correct?",
+   "prior_year": 2012,
+   "prior_dataset": "MAINS",
+   "prior": "Discuss the contentious issues that have caused the prolonged constitutional logjam in Nepal.",
+   "entity": "nepal",
+   "matched": "nepal",
+   "score": 1.0,
+   "cov": 0.041,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 40,
+   "tier": "loose",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "With reference to Non-Fungible Tokens (NFTs), consider the following statements :\n1. They enable the digital representation of physical assets.\n2. They are unique cryptographic tokens that exist on a blockchain.\n3. They can be traded or exchanged at equivalency and therefore can be used as a medium of commercial transactions.\nWhich of the statements given above are correct?",
+   "prior_year": 1998,
+   "prior_dataset": "GS",
+   "prior": "Capital Account Convertibility of the Indian Rupee implies",
+   "entity": "exchanged",
+   "matched": "exchanged",
+   "score": 1.0,
+   "cov": 0.199,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 12,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "gross domestic product market",
+     "gross domestic product",
+     0.52,
+     2001,
+     "GS"
+    ],
+    [
+     "indian economy",
+     "indian economy",
+     1.0,
+     2010,
+     "GS"
+    ],
+    [
+     "indian economy",
+     "indian economy",
+     1.0,
+     2011,
+     "GS"
+    ]
+   ],
+   "target": "With reference to Indian economy, consider the following statements :\n1. The rate of growth of Real Gross Domestic Product has steadily increased in the last decade.\n2. The Gross Domestic Product at market prices (in rupees) has steadily increased in the last decade.\nWhich of the statements given above is/are correct?",
+   "prior_year": 2001,
+   "prior_dataset": "GS",
+   "prior": "The most appropriate measure of a country’s economic growth is its",
+   "entity": "gross domestic product market",
+   "matched": "gross domestic product",
+   "score": 0.52,
+   "cov": 0.217,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 30,
+   "tier": "recurring",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "With reference to Indian laws about wildlife protection, consider the following statements :\n1. Wild animals are the sole property of the government.\n2. When a wild animal is declared protected, such animal is entitled for equal protection whether it is found in protected areas or outside.\n3. Apprehension of a protected wild animal becoming a danger to human life is sufficient ground for its captu",
+   "prior_year": 2012,
+   "prior_dataset": "GS",
+   "prior": "What are the reasons for the people’s resistance to the introduction of Bt brinjal in India?\n1. Bt brinjal has been created by inserting a gene from a soil fungus into its genome.\n2. The seeds of Bt brinjal are terminator seeds and therefore, the farmers have to buy the seeds before every season from the seed companies.\n3. There is an apprehension that the consumption of Bt brinjal may have advers",
+   "entity": "apprehension",
+   "matched": "apprehension",
+   "score": 1.0,
+   "cov": 0.091,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 34,
+   "tier": "loose",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "With reference to the art and archaeo-logical history of India, which one among the following was made earliest?",
+   "prior_year": 2006,
+   "prior_dataset": "GS",
+   "prior": "Which one of the following pairs is correctly matched?",
+   "entity": "udayagiri",
+   "matched": "udayagiri",
+   "score": 1.0,
+   "cov": 0.243,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 4,
+   "tier": "strict",
+   "target_year": 2025,
+   "evidence": [
+    [
+     "extent executive power state",
+     "extent executive power state",
+     1.0,
+     2010,
+     "GS"
+    ],
+    [
+     "legislature less half state",
+     "legislature less half state",
+     1.0,
+     1995,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following subjects under the Constitution of India :\nI. List I-Union List, in the Seventh Schedule\nII. Extent of the executive power of a State\nIII. Conditions of the Governor's office\nFor a constitutional amendment with respect to which of the above, ratification by the Legislatures of not less than one-half of the States is required before presenting the bill to the President of Ind",
+   "prior_year": 2010,
+   "prior_dataset": "GS",
+   "prior": "The “Instrument of Instructions” contained in the Government of India Act 1935 have been incorporated in the Constitution of India in the year 1950 as",
+   "entity": "extent executive power state",
+   "matched": "extent executive power state",
+   "score": 1.0,
+   "cov": 0.394,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 13,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "kyoto protocol",
+     "kyoto protocol",
+     1.0,
+     2007,
+     "GS"
+    ]
+   ],
+   "target": "Which one of the following is associated with the issue of control and phasing out of the use of ozone-depleting substances?",
+   "prior_year": 2007,
+   "prior_dataset": "GS",
+   "prior": "Participatory Notes (PNs) are associated with which one of the following?",
+   "entity": "kyoto protocol",
+   "matched": "kyoto protocol",
+   "score": 1.0,
+   "cov": 0.192,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 27,
+   "tier": "recurring",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "Which one of the following is not a Harappan site?",
+   "prior_year": 2001,
+   "prior_dataset": "GS",
+   "prior": "Which one of the following pairs is correctly matched?",
+   "entity": "harappan",
+   "matched": "harappan",
+   "score": 1.0,
+   "cov": 0.115,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 41,
+   "tier": "novel",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "A decrease in tax to GDP ratio of a country indicates which of the following?\n1. Slowing economic growth rate\n2. Less equitable distribution of national income\nSelect the correct answer using the code given below.",
+   "prior_year": 2006,
+   "prior_dataset": "GS",
+   "prior": "There are 8 equitant points A, B, C, D, E, F, G and H in the clockwise direction on the periphery of a circle. In a time, interval t, a person reaches from A to C with uniform motion while another person reaches the point E from the point B during the same time interval with uniform motion. Both the persons move in the same direction along the circumference of the circle and start at the same inst",
+   "entity": "equitable",
+   "matched": "equitant",
+   "score": 0.9,
+   "cov": 0.063,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 11,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "geographical indication good registration",
+     "geographical indication good registration",
+     1.0,
+     2010,
+     "GS"
+    ],
+    [
+     "environment protection act",
+     "environment protection act",
+     1.0,
+     2014,
+     "GS"
+    ],
+    [
+     "good registration protection act",
+     "good registration protection",
+     0.52,
+     2010,
+     "GS"
+    ]
+   ],
+   "target": "The Genetic Engineering Appraisal Committee is constituted under the",
+   "prior_year": 2010,
+   "prior_dataset": "GS",
+   "prior": "In order to comply with TRIPS Agreement, India enacted the Geographical Indications of Goods (Registration | Protection) Act, 1999. The difference/differences between a “Trade Mark” and a Geographical Indication is/are",
+   "entity": "geographical indication good registration",
+   "matched": "geographical indication good registration",
+   "score": 1.0,
+   "cov": 0.437,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 3,
+   "tier": "strict",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "united nation environment programme",
+     "united nation environment programme",
+     1.0,
+     2011,
+     "GS"
+    ],
+    [
+     "united nation environment programme",
+     "united nation environment programme",
+     1.0,
+     2010,
+     "GS"
+    ]
+   ],
+   "target": "The terms 'Agreement on Agriculture', 'Agreement on the Application of Sanitary and Phytosanitary Measures' and 'Peace Clause' appear in the news frequently in the context of the affairs of the",
+   "prior_year": 2011,
+   "prior_dataset": "GS",
+   "prior": "Regarding “carbon credits”, which one of the following statements is not correct?",
+   "entity": "united nation environment programme",
+   "matched": "united nation environment programme",
+   "score": 1.0,
+   "cov": 0.236,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 7,
+   "tier": "strict",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "With reference to 'fuel cells' in which hydrogen-rich fuel and oxygen are used to generate electricity, consider the following statements:\n1. If pure hydrogen is used as a fuel, the fuel cell emits heat and water as by-products.\n2. Fuel cells can be used for powering buildings and not for small devices like laptop computers.\n3. Fuel cells produce electricity in the form of Alternating Current (AC)",
+   "prior_year": 2004,
+   "prior_dataset": "GS",
+   "prior": "Assertion (A): In our houses, the current in AC electricity line changes direction 60 times per second. Reason (R): The frequency of alternating voltage supplied is 60 hertz.",
+   "entity": "alternating",
+   "matched": "alternating",
+   "score": 1.0,
+   "cov": 0.118,
+   "label": null,
+   "helps": false,
+   "note": "near-duplicate boilerplate, unrelated content - false positive"
+  },
+  {
+   "id": 1,
+   "tier": "strict",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "With reference to the Indian polity, consider the following statements :\nI. The Governor of a State is not answerable to any court for the exercise and performance of the powers and duties of his/her office.\nII. No criminal proceedings shall be instituted or continued against the Governor during his/her term of office.\nIII. Members of a State Legislature are not liable to any proceedings in any co",
+   "prior_year": 2023,
+   "prior_dataset": "CSAT",
+   "prior": "Question: Is p greater than q?  \n\nStatement- 1: p x q is greater than zero.  \nStatement- 2: p² is greater than q².  \n\nWhich one of the following is correct in respect of the above Question and the Statements?",
+   "entity": "answerable",
+   "matched": "answered",
+   "score": 0.9,
+   "cov": 0.139,
+   "label": null,
+   "helps": false,
+   "note": "near-duplicate on Statement-I/II template against a CSAT maths item - false positive"
+  },
+  {
+   "id": 14,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "indira gandhi prize",
+     "indira gandhi prize",
+     1.0,
+     2001,
+     "GS"
+    ]
+   ],
+   "target": "Indira Gandhi Prize for Peace, Disarma-ment and Development for 2014 was given to which one of the following?",
+   "prior_year": 2001,
+   "prior_dataset": "GS",
+   "prior": "Match List I with List II and select the correct answer using the codes given below the Lists:\nList I\nList II\n(Award I Prize)\n(Recipient)\nI. Indira Gandhi Prize for Peace, Disarmament\nA) Archbishop Desmond Tutu\nII. Jamnalal Bajaj Award\nB) Dr. Gurudev Khush\nIII. International Gandhi Peace Prize\nC) Dr. M.S. Swaminathan\nIV. Wolf Prize\n(D) Nelson Mandela",
+   "entity": "indira gandhi prize",
+   "matched": "indira gandhi prize",
+   "score": 1.0,
+   "cov": 0.227,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 46,
+   "tier": "novel",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "With reference to the Indian Renewable Energy Development Agency Limited (IREDA), which of the following statements is/are correct?\n1. It is a Public Limited Government Company.\n2. It is a Non-Banking Financial Company.\nSelect the correct answer using the code given below.",
+   "prior_year": null,
+   "prior_dataset": null,
+   "prior": null,
+   "entity": null,
+   "matched": null,
+   "score": 0,
+   "cov": 0.0,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 18,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "annie besant",
+     "annie besant",
+     1.0,
+     2013,
+     "GS"
+    ]
+   ],
+   "target": "Who of the following organized a march on the Tanjore coast to break the Salt Law in April 1930?",
+   "prior_year": 2013,
+   "prior_dataset": "GS",
+   "prior": "Annie Besant was\n1. responsible for starting the Home Rule Movement\n2. the founder of the Theosophical Society\n3. once the President of the Indian National Congress\nSelect the correct statement/statements using the codes given below.",
+   "entity": "annie besant",
+   "matched": "annie besant",
+   "score": 1.0,
+   "cov": 0.262,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 23,
+   "tier": "recurring",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following statements about Lokpal:\nI. The power of Lokpal applies to public servants of India, but not to the Indian public servants posted outside India.\nII. The Chairperson or a Member shall not be a Member of the Parliament or a Member of the Legislature of any State or Union Territory, and only the Chief Justice of India, whether incumbent or retired, has to be its Chairperson.\nII",
+   "prior_year": 2004,
+   "prior_dataset": "GS",
+   "prior": "Consider the following statements:\n1. Hema Malini is the Chairperson of the Children’s Film Society, India.\n2. Yash Chopra is the Chairman of the Central Board of Film Certification of India.\n3. Dilip Kumar, Raj Kapoor and Dev Anand have all been recipients of Dada Saheb Phalke Award.\nWhich of the statements given above is/are correct?",
+   "entity": "chairperson",
+   "matched": "chairperson",
+   "score": 1.0,
+   "cov": 0.076,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 38,
+   "tier": "loose",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "With reference to 'Direct Air Capture', an emerging technology, which of the following statements is/are correct?\nI. It can be used as a way of carbon sequestration.\nII. It can be a valuable approach for plastic production and in food processing.\nIII. In aviation, it can be a source of carbon for combining with hydrogen to create synthetic low-carbon fuel.\nSelect the correct answer using the code ",
+   "prior_year": 2012,
+   "prior_dataset": "MAINS",
+   "prior": "Does Leibnitz succeed in combining the mechanical with the teleological view of the world? Explain his theory of Pre-established Harmony.",
+   "entity": "combining",
+   "matched": "combining",
+   "score": 1.0,
+   "cov": 0.14,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 47,
+   "tier": "novel",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following:\nI. Cigarette butts\nII. Eyeglass lenses\nIII. Car tyres\nHow many of them contain plastic?",
+   "prior_year": 2024,
+   "prior_dataset": "GS",
+   "prior": "Consider the following statements :\n\nStatement-I:\n\nMany chewing gums found in the market are considered a source of environmental pollution.\n\nStatement-II :\n\nMany chewing gums contain plastic as gum base.\n\nWhich one of the following is correct in respect of the above statements?",
+   "entity": "plastic",
+   "matched": "plastic",
+   "score": 1.0,
+   "cov": 0.07,
+   "label": null,
+   "helps": true,
+   "note": "2024 chewing-gum question covers the same 'hidden plastic' idea - a miss"
+  },
+  {
+   "id": 29,
+   "tier": "recurring",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "The Prime Minister recently inaugurated the new Circuit House near Somnath Temple at Veraval. Which of the following statements are correct regarding Somnath Temple ?\n1. Somnath Temple is one of the Jyotirlinga shrines.\n2. A description of Somnath Temple was given by Al-Biruni.\n3. Pran Pratishtha of Somnath Temple (installation of the present day temple) was done by President S. Radhakrishnan.\nSel",
+   "prior_year": 2009,
+   "prior_dataset": "GS",
+   "prior": "Among the following Presidents of India, who was also the Secretary General of Non-Aligned Movement for some period?",
+   "entity": "radhakrishnan",
+   "matched": "radhakrishnan",
+   "score": 1.0,
+   "cov": 0.077,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 21,
+   "tier": "recurring",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "With reference to India, consider the following statements:\n1. Monazite is a source of rare earths.\n2. Monazite contains thorium.\n3. Monazite occurs naturally in the entire Indian coastal sands in India.\n4. In India, Government bodies only can process or export monazite.\nWhich of the statements given above are correct?",
+   "prior_year": 2012,
+   "prior_dataset": "GS",
+   "prior": "To meet its rapidly growing energy demand, some opine that India should pursue research and development on thorium as the future fuel of nuclear energy. In this context, what advantage does thorium hold over uranium?\n1. Thorium is far more abundant in nature than uranium.\n2. On the basis of per unit mass of mined mineral, thorium can generate more energy compared to natural uranium.\n3. Thorium pro",
+   "entity": "thorium",
+   "matched": "thorium",
+   "score": 1.0,
+   "cov": 0.091,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 16,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "principle state policy",
+     "principle state policy",
+     1.0,
+     2008,
+     "GS"
+    ],
+    [
+     "principle state policy",
+     "principle state policy",
+     1.0,
+     2013,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following statements regarding the Directive Principles of State Policy:\n1. The Principles spell out the socio-economic democracy in the country.\n2. The provisions contained in these Principles are not enforceable by any court.\nWhich of the statements given above is/are correct?",
+   "prior_year": 2008,
+   "prior_dataset": "GS",
+   "prior": "Which of the following is/are included in the Directive Principles of State Policy?\n1. Prohibition of traffic in human beings and forced labour\n2. Prohibition of consumption except for medicinal purposes of intoxicating drinks and of other drugs which are injurious to health\nSelect the correct answer using the code given below:\nCode:",
+   "entity": "principle state policy",
+   "matched": "principle state policy",
+   "score": 1.0,
+   "cov": 0.244,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 24,
+   "tier": "recurring",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "With reference to 'Forest Carbon Partnership Facility', which of the following statements is/are correct?\n1. It is a global partnership of governments, businesses, civil society and indigenous peoples.\n2. It provides financial aid to universities, individual scientists and institutions involved in scientific forestry research to develop eco-friendly and climate adaptation technologies for sustaina",
+   "prior_year": 1995,
+   "prior_dataset": "GS",
+   "prior": "“Monoculture of commercially viable trees is destroying the unique natural profile of ...Thoughtless exploitation of timber, deforestation vast tracts for palm cultivation, destruction of mangroves, illegal logging by tribals and poaching only compound the problem. Fresh water pockets are fast drying up due to deforestation and destruction of mangroves.” The place referred to in this quotation is",
+   "entity": "deforestation",
+   "matched": "deforestation",
+   "score": 1.0,
+   "cov": 0.086,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 44,
+   "tier": "novel",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "In India, 'extended producer responsibility' was introduced as an important feature in which of the following?",
+   "prior_year": null,
+   "prior_dataset": null,
+   "prior": null,
+   "entity": null,
+   "matched": null,
+   "score": 0,
+   "cov": 0.0,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 26,
+   "tier": "recurring",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "Consider the following statements :\n1. Vietnam has been one of the fastest growing economies in the world in the recent years.\n2. Vietnam is led by a multi-party political system.\n3. Vietnam's economic growth is linked to its integration with global supply chains and focus on exports.\n4. For a long time Vietnam's low labour costs and stable exchange rates have attracted global manufacturers.\n5. Vi",
+   "prior_year": 2016,
+   "prior_dataset": "GS",
+   "prior": "With reference to pre-packaged items in India, it is mandatory to the manufacturer to put which of the following information on the main label, as per the Food Safety and Standards (Packaging and Labelling) Regulations, 2011?\n1. List of ingredients including additives\n2. Nutrition information\n3. Recommendations, if any, made by the medical profession about the possibility of any allergic reactions",
+   "entity": "manufacturer",
+   "matched": "manufacturer",
+   "score": 1.0,
+   "cov": 0.091,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 31,
+   "tier": "loose",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following statements about Raja Ram Mohan Roy :\nI. He possessed great love and respect for the traditional philosophical systems of the East.\nII. He desired his countrymen to accept the rational and scientific approach and the principle of human dignity and social equality of all men and women.\nWhich of the statements given above is/are correct?",
+   "prior_year": 2011,
+   "prior_dataset": "CSAT",
+   "prior": "Passage- I He walked several miles that day but could not get anything to eat or drink except some dry bread and some water, which he got from cottagers and farmers. As night fell, he slept under a haystack lying in a meadow. He felt frightened at first, for the wind blew awfully over the empty fields. He felt cold and hungry, and was feeling more lonely than he had ever felt before. He however, s",
+   "entity": "countrymen",
+   "matched": "countryside",
+   "score": 0.9,
+   "cov": 0.138,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 33,
+   "tier": "loose",
+   "target_year": 2025,
+   "evidence": [],
+   "target": "Consider the following statements about the Rashtriya Gokul Mission : \nI. It is important for the upliftment of rural poor as majority of low producing indigenous animals are with small and marginal farmers and landless labourers. \nII. It was initiated to promote indigenous cattle and buffalo rearing and conservation in a scientific and holistic manner. \nWhich of the statements given above is/are ",
+   "prior_year": 2010,
+   "prior_dataset": "GS",
+   "prior": "Two of the schemes launched by the Government of India for Women’s development are Swadhar and Swayam Siddha. As regards the difference between them, consider the following statements:\n1. Swayam Siddha is meant for those in difficult circumstances such as women survivors of natural disasters or terrorism, women prisoners released from jails, mentally challenged women etc. whereas Swadhar is meant ",
+   "entity": "holistic",
+   "matched": "holistic",
+   "score": 1.0,
+   "cov": 0.166,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 6,
+   "tier": "strict",
+   "target_year": 2019,
+   "evidence": [
+    [
+     "india external debt",
+     "india external debt",
+     1.0,
+     2002,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following statements:\n1. Most of India's external debt is owed by governmental entities.\n2. All of India's external debt is denominated in US dollars.\nWhich of the statements given above is/are correct?",
+   "prior_year": 2002,
+   "prior_dataset": "GS",
+   "prior": "India’s external debt increased from US $98,158 million as at the end of March 2000 to US $100,225 million as at the end of March 2001 due to increase in",
+   "entity": "india external debt",
+   "matched": "india external debt",
+   "score": 1.0,
+   "cov": 0.421,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 42,
+   "tier": "novel",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "Which of the following is not included in the assets of a commercial bank in India?",
+   "prior_year": 2006,
+   "prior_dataset": "GS",
+   "prior": "Consider the following statements in respect of India’s advanced satellite INSAT. 4A:\n1. INSAT. 4A was launched in December, 2005 from New Mexico.\n2. Arianespace was associated with launch.\n3. Tata Sky is associated with DTH services from INSAT-4A.\nWhich of the statements given above is/are correct?",
+   "entity": "advance",
+   "matched": "advanced",
+   "score": 0.9,
+   "cov": 0.09,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 17,
+   "tier": "medium",
+   "target_year": 2019,
+   "evidence": [
+    [
+     "tropical rain forest",
+     "tropical rain forest",
+     1.0,
+     2015,
+     "GS"
+    ]
+   ],
+   "target": "What is common to the places known as Aliyar, Isapur and Kangsabati?",
+   "prior_year": 2015,
+   "prior_dataset": "GS",
+   "prior": "In India, in which one of the following types of forests is teak a dominant tree species?",
+   "entity": "tropical rain forest",
+   "matched": "tropical rain forest",
+   "score": 1.0,
+   "cov": 0.207,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 20,
+   "tier": "medium",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "keoladeo ghana national park",
+     "keoladeo ghana national park",
+     1.0,
+     2014,
+     "GS"
+    ]
+   ],
+   "target": "Which of the following National Parks is unique in being a swamp with floating vegetation that supports a rich biodiversity?",
+   "prior_year": 2014,
+   "prior_dataset": "GS",
+   "prior": "Consider the following pairs :\nWetlands Confluence of rivers\n1. Harike Wetlands : Confluence of Beas and Satluj/Sutlej\n2. Keoladeo Ghana National Park : Confluence of Banas and Chambal\n3. Kolleru Lake : Confluence of Musi and Krishna\nWhich of the above pairs is/are correctly matched?",
+   "entity": "keoladeo ghana national park",
+   "matched": "keoladeo ghana national park",
+   "score": 1.0,
+   "cov": 0.34,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 8,
+   "tier": "strict",
+   "target_year": 2025,
+   "evidence": [
+    [
+     "provision constitution india stated",
+     "stated constitution india",
+     0.52,
+     1997,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following pairs :\nProvision in the Constitution of India Stated under\nI. Separation of Judiciary from the Executive in the public services of the State : The Directive Principles of the State Policy\nII. Valuing and preserving of the rich heritage of our composite culture : The Fundamental Duties\nIII. Prohibition of employment of children below the age of 14 years in factories : The Fu",
+   "prior_year": 1997,
+   "prior_dataset": "GS",
+   "prior": "Which one of the following are/is stated in the Constitution of India?\nI. The President shall not be a member of either House of Parliament.\nII. The Parliament shall consist of the President and two Houses.\nChoose the correct answer from the codes given below:\nCodes:",
+   "entity": "provision constitution india stated",
+   "matched": "stated constitution india",
+   "score": 0.52,
+   "cov": 0.177,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 9,
+   "tier": "strict",
+   "target_year": 2019,
+   "evidence": [
+    [
+     "carbon monoxide",
+     "carbon monoxide",
+     1.0,
+     2014,
+     "GS"
+    ],
+    [
+     "carbon monoxide",
+     "carbon monoxide",
+     1.0,
+     2016,
+     "GS"
+    ],
+    [
+     "carbon monoxide",
+     "carbon monoxide",
+     1.0,
+     1997,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following:\n1. Carbon monoxide\n2. Methane\n3. Ozone\n4. Sulphur dioxide\nWhich of the above are released into atmosphere due to the burning of crop/biomass residue?",
+   "prior_year": 2014,
+   "prior_dataset": "GS",
+   "prior": "Which of the following are some important pollutants released by steel industry in India?\n1. Oxides of sulphur\n2. Oxides of nitrogen\n3. Carbon monoxide\n4. Carbon dioxide\nSelect the correct answer using the code given below.",
+   "entity": "carbon monoxide",
+   "matched": "carbon monoxide",
+   "score": 1.0,
+   "cov": 0.279,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 5,
+   "tier": "strict",
+   "target_year": 2015,
+   "evidence": [
+    [
+     "kingdom associated life buddha",
+     "kingdom associated life buddha",
+     1.0,
+     2014,
+     "GS"
+    ]
+   ],
+   "target": "Which of the following kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha\nSelect the correct answer using the code given below.",
+   "prior_year": 2014,
+   "prior_dataset": "GS",
+   "prior": "Which of the following Kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha\nSelect the correct answer using the code given below.",
+   "entity": "kingdom associated life buddha",
+   "matched": "kingdom associated life buddha",
+   "score": 1.0,
+   "cov": 1.0,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 10,
+   "tier": "strict",
+   "target_year": 2025,
+   "evidence": [
+    [
+     "nation climate change conference",
+     "nation climate change conference",
+     1.0,
+     2016,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following statements :\nStatement I: At the 28th United Nations Climate Change Conference (COP28), India refrained from signing the 'Declaration on Climate and Health'.\nStatement II : The COP28 Declaration on Climate and Health is a binding declaration; and if signed, it becomes mandatory to decarbonize health sector.\nStatement III : If India's health sector is decarbonized, the resili",
+   "prior_year": 2016,
+   "prior_dataset": "GS",
+   "prior": "Consider the following statements:\n1. The International Solar Alliance was launched at the United Nations Climate Change Conference in 2015.\n2. The Alliance includes all the member countries of the United Nations.\nWhich of the statements given above is/are correct?",
+   "entity": "nation climate change conference",
+   "matched": "nation climate change conference",
+   "score": 1.0,
+   "cov": 0.31,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 36,
+   "tier": "loose",
+   "target_year": 2022,
+   "evidence": [
+    [
+     "member country arctic council",
+     "member arctic council",
+     0.52,
+     2014,
+     "GS"
+    ]
+   ],
+   "target": "Which one of the following statements best describes the 'Polar Code'?",
+   "prior_year": 2014,
+   "prior_dataset": "GS",
+   "prior": "Consider the following countries :\n1. Denmark\n2. Japan\n3. Russian Federation\n4. United Kingdom\n5. United States of America\nWhich of the above are the members of the 'Arctic Council'?",
+   "entity": "member country arctic council",
+   "matched": "member arctic council",
+   "score": 0.52,
+   "cov": 0.192,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 37,
+   "tier": "loose",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "Which one of the following National Parks lies completely in the temperate alpine zone?",
+   "prior_year": 1995,
+   "prior_dataset": "GS",
+   "prior": "The Alpine vegetation in the western Himalayas is found only up to a height of 3000 metres, while in the eastern Himalayas it is found up to a height of 4000 metres, The reason for this variation in the same mountain range is that",
+   "entity": "alpine",
+   "matched": "alpine",
+   "score": 1.0,
+   "cov": 0.366,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 15,
+   "tier": "medium",
+   "target_year": 2019,
+   "evidence": [
+    [
+     "integrated rural development programme",
+     "integrated rural development programme",
+     1.0,
+     1997,
+     "GS"
+    ],
+    [
+     "mahatma gandhi national rural",
+     "mahatma gandhi national rural",
+     1.0,
+     2011,
+     "GS"
+    ],
+    [
+     "national rural employment guarantee",
+     "national rural employment guarantee",
+     1.0,
+     2006,
+     "GS"
+    ]
+   ],
+   "target": "The Service Area Approach was implemented under the purview of",
+   "prior_year": 1997,
+   "prior_dataset": "GS",
+   "prior": "Schemes of (i) Urban Micro Enterprises, (ii) Urban Wage Employment, and (iii) Housing and Shelter Upgradation are parts of",
+   "entity": "integrated rural development programme",
+   "matched": "integrated rural development programme",
+   "score": 1.0,
+   "cov": 0.469,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 2,
+   "tier": "strict",
+   "target_year": 2025,
+   "evidence": [
+    [
+     "hydrogen fuel cell vehicle",
+     "hydrogen fuel cell vehicle",
+     1.0,
+     2010,
+     "GS"
+    ],
+    [
+     "cell electric hybrid vehicle",
+     "cell electric vehicle",
+     0.52,
+     2024,
+     "GS"
+    ]
+   ],
+   "target": "Consider the following types of vehicles :\nI. Full battery electric vehicles\nII. Hydrogen fuel cell vehicles\nIII. Fuel cell-electric hybrid vehicles\nHow many of the above are considered as alternative powertrain vehicles?",
+   "prior_year": 2010,
+   "prior_dataset": "GS",
+   "prior": "Hydrogen fuel cell vehicles produce one of the following as “exhaust”",
+   "entity": "hydrogen fuel cell vehicle",
+   "matched": "hydrogen fuel cell vehicle",
+   "score": 1.0,
+   "cov": 0.326,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 22,
+   "tier": "recurring",
+   "target_year": 2015,
+   "evidence": [],
+   "target": "Which one of the following best describes the main objective of 'Seed Village. Concept?",
+   "prior_year": 1996,
+   "prior_dataset": "GS",
+   "prior": "Assertion (A): An important policy instrument of economic liberalization is reduction in import duties on capital goods. Reason (R): Reduction in import duties would help the local entrepreneurs to improve technology to face the global markets. In the context of the above two statements, which one of the following is correct?",
+   "entity": "entrepreneur",
+   "matched": "entrepreneur",
+   "score": 1.0,
+   "cov": 0.076,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 19,
+   "tier": "medium",
+   "target_year": 2022,
+   "evidence": [
+    [
+     "financial stability development council",
+     "financial stability development council",
+     1.0,
+     2016,
+     "GS"
+    ],
+    [
+     "reserve bank india",
+     "reserve bank india",
+     1.0,
+     1998,
+     "GS"
+    ],
+    [
+     "reserve bank india",
+     "reserve bank india",
+     1.0,
+     1998,
+     "GS"
+    ]
+   ],
+   "target": "In India, which one of the following is responsible for maintaining price stability by controlling inflation?",
+   "prior_year": 2016,
+   "prior_dataset": "GS",
+   "prior": "With reference to 'Financial Stability and Development Council', consider the following statements:\n1. It is an organ of NITI Aayog.\n2. It is headed by the Union Finance Minister.\n3. It monitors macroprudential supervision of the economy.\nWhich of the statements given above is/are correct?",
+   "entity": "financial stability development council",
+   "matched": "financial stability development council",
+   "score": 1.0,
+   "cov": 0.336,
+   "label": null,
+   "helps": true
+  },
+  {
+   "id": 48,
+   "tier": "novel",
+   "target_year": 2022,
+   "evidence": [],
+   "target": "Which of the following are nitrogen-fixing plants?\n1. Alfalfa\n2. Amaranth\n3. Chickpea\n4. Clover\n5. Purslane (Kulfa)\n6. Spinach\nSelect the correct answer using the code given below:",
+   "prior_year": 2020,
+   "prior_dataset": "GS",
+   "prior": "In India, which of the following can be considered as public investment in agriculture?\n1. Fixing Minimum Support Price for agricultural produce of all crops\n2. Computerization of Primary Agricultural Credit Societies\n3. Social Capital development\n4. Free electricity supply to farmers\n5. Waiver of agricultural loans by the banking system\n6. Setting up of cold storage facilities by the governments\n",
+   "entity": "fixing",
+   "matched": "fixing",
+   "score": 1.0,
+   "cov": 0.111,
+   "label": null,
+   "helps": false
+  },
+  {
+   "id": 35,
+   "tier": "loose",
+   "target_year": 2019,
+   "evidence": [],
+   "target": "In the context of which one of the following are the terms 'pyrolysis and plasma gasification' mentioned?",
+   "prior_year": 2012,
+   "prior_dataset": "GS",
+   "prior": "Biomass gasification is considered to be one of the sustainable solutions to the power crisis in India. In this context, which of the following statements is/are correct?\n1. Coconut shells, groundnut shells and rice husk can be used in biomass gasification.\n2. The combustible gases generated from biomass gasification consist of hydrogen and carbon dioxide only.\n3. The combustible gases generated f",
+   "entity": "gasification",
+   "matched": "gasification",
+   "score": 1.0,
+   "cov": 0.154,
+   "label": null,
+   "helps": true
+  }
+ ]
+}

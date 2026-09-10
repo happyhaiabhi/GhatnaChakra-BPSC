@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102337" />
+  <meta name="description" content="How much of each UPSC paper was already taught by earlier previous-year questions." />
+  <title>PYQ Back-solve — how far earlier papers take you</title>
+  <script src="theme.js?v=2"></script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="backsolve.css" />
+  <script src="register-sw.js" defer></script>
+</head>
+<body>
+  <div class="bs-wrap">
+    <header class="bs-top">
+      <a class="bs-brand" href="index.html"><span>▰</span> Exam <em>Question Bank</em></a>
+      <div class="spacer"></div>
+      <a class="bs-link" href="upsc.html">UPSC browser</a>
+      <a class="bs-link" href="index.html">Portal</a>
+      <button class="bs-year" type="button" data-theme-toggle aria-pressed="false">Night mode <i data-theme-state>Off</i></button>
+    </header>
+
+    <section class="bs-hero">
+      <h1>PYQ Back-solve</h1>
+      <p>For every paper from 2015 to 2026: how much of it a candidate could have handled using
+        <strong>only</strong> earlier previous-year questions, with extra weight on the most recent
+        20 years. Pick a paper, then read each question together with the earlier papers that
+        teach it.</p>
+    </section>
+
+    <section class="bs-panel" aria-label="Paper selection">
+      <h2>Choose a paper</h2>
+      <p class="hint">Dataset, then year. Filters apply to the question list below.</p>
+      <div class="bs-controls">
+        <div class="bs-field">
+          <label for="bsDatasets">Paper set</label>
+          <div id="bsDatasets" class="bs-tabs"></div>
+        </div>
+        <div class="bs-field">
+          <label for="bsSubject">Subject</label>
+          <select id="bsSubject"></select>
+        </div>
+        <div class="bs-field">
+          <label for="bsQuery">Search</label>
+          <input id="bsQuery" type="search" autocomplete="off" placeholder="keyword in question or answer" />
+        </div>
+      </div>
+      <div class="bs-field" style="margin-top:12px">
+        <label>Year</label>
+        <div id="bsYears" class="bs-years"></div>
+      </div>
+      <div class="bs-field" style="margin-top:12px">
+        <label>Filter by verdict</label>
+        <div id="bsTiers" class="bs-tabs"></div>
+      </div>
+    </section>
+
+    <section class="bs-panel" aria-label="Paper summary">
+      <h2 id="bsPaperTitle">Paper</h2>
+      <p class="hint">Share of this paper that earlier papers already covered.</p>
+      <div id="bsStats" class="bs-stats"></div>
+      <div id="bsBar" class="bs-bar" aria-hidden="true"></div>
+      <div id="bsLegend" class="bs-legend"></div>
+    </section>
+
+    <section class="bs-panel" aria-label="Questions">
+      <h2>Questions</h2>
+      <p class="hint">Each question is shown with the earlier papers that share its concepts.</p>
+      <div id="bsList"></div>
+    </section>
+
+    <section class="bs-panel">
+      <h2 class="bs-acc" aria-expanded="true" style="cursor:pointer">▾ Year-by-year trend</h2>
+      <div id="bsTrendBody"></div>
+    </section>
+
+    <section class="bs-panel">
+      <h2 class="bs-acc" aria-expanded="true" style="cursor:pointer">▾ Which papers should I solve?</h2>
+      <div id="bsOptBody"></div>
+    </section>
+
+    <section class="bs-panel">
+      <h2 class="bs-acc" aria-expanded="true" style="cursor:pointer">▾ Feeder papers for this year</h2>
+      <div id="bsFeedBody"></div>
+    </section>
+
+    <section class="bs-panel">
+      <h2 class="bs-acc" aria-expanded="true" style="cursor:pointer">▾ Where the help comes from</h2>
+      <div id="bsAgeBody"></div>
+    </section>
+
+    <section class="bs-panel">
+      <h2 class="bs-acc" aria-expanded="false" style="cursor:pointer">▸ Method, and how much to trust it</h2>
+      <div id="bsMethodBody" hidden></div>
+    </section>
+  </div>
+
+  <script src="backsolve.js"></script>
+</body>
+</html>
