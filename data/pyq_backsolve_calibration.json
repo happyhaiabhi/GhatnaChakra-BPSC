@@ -1,0 +1,524 @@
+[
+ {
+  "id": 4,
+  "tier": "strict",
+  "target_year": 2026,
+  "evidence": [
+   [
+    "micro small medium enterprise",
+    "micro small medium enterprise",
+    1.0,
+    2011,
+    "GS"
+   ],
+   [
+    "micro small medium enterprise",
+    "micro small medium enterprise",
+    1.0,
+    2025,
+    "GS"
+   ],
+   [
+    "micro small medium enterprise",
+    "micro small enterprise",
+    0.52,
+    2013,
+    "GS"
+   ]
+  ],
+  "target": "Which of the following statements about M1xchange's role in Micro, Small & Medium Enterprises (MSMEs) financing is/are correct ?\n1. M1xchange provides collateral based loans to MSMEs.\n2. M1xchange facilitates discounting of invoices and Bills of Exchange for MSMEs.\n3. M1xchange functions as a credit rating agency for MSMEs.\n\nSelect the answer using the code given below :",
+  "prior_year": 2011,
+  "prior_dataset": "GS",
+  "prior": "Which of the following can aid in furthering the Government’s objective of inclusive growth?\n1. Promoting Self-Help Groups\n2. Promoting Micro, Small and Medium Enterprises\n3. Implementing the Right to Education Act\nSelect the correct answer using the codes given below:",
+  "entity": "micro small medium enterprise",
+  "matched": "micro small medium enterprise",
+  "score": 1.0,
+  "cov": 0.244,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 14,
+  "tier": "recurring",
+  "target_year": 2019,
+  "evidence": [
+   [
+    "government india",
+    "government india",
+    1.0,
+    1995,
+    "GS"
+   ],
+   [
+    "government india",
+    "government india",
+    1.0,
+    1995,
+    "GS"
+   ],
+   [
+    "government india",
+    "government india",
+    1.0,
+    1995,
+    "GS"
+   ]
+  ],
+  "target": "What was the purpose of Inter-Creditor Agreement signed by Indian banks and financial institutions recently?",
+  "prior_year": 1995,
+  "prior_dataset": "GS",
+  "prior": "To prevent recurrence of scams in Indian Capital Market, the Government of India has assigned regulatory powers to",
+  "entity": "government india",
+  "matched": "government india",
+  "score": 1.0,
+  "cov": 0.077,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 6,
+  "tier": "medium",
+  "target_year": 2017,
+  "evidence": [
+   [
+    "india foreign exchange reserve",
+    "india foreign exchange reserve",
+    1.0,
+    2005,
+    "GS"
+   ]
+  ],
+  "target": "Which of the following has/have occurred in India after its liberalization of economic policies in 1991?\n1. Share of agriculture in GDP increased enormously.\n2. Share of India's exports in world trade increased.\n3. FDI inflows increased.\n4. India's foreign exchange reserves increased enormously.\nSelect the correct answer using the codes given below:",
+  "prior_year": 2005,
+  "prior_dataset": "GS",
+  "prior": "Consider the following statements: 1. During the year 2004, India’s foreign exchange reserves did not exceed the 125 billion U.S. dollar mark.",
+  "entity": "india foreign exchange reserve",
+  "matched": "india foreign exchange reserve",
+  "score": 1.0,
+  "cov": 0.196,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 24,
+  "tier": "novel",
+  "target_year": 2020,
+  "evidence": [],
+  "target": "Explain the concepts of 'Anyathāsiddha' and 'Ananyathāsiddha' in the context of Asatkāryavāda.",
+  "prior_year": null,
+  "prior_dataset": null,
+  "prior": null,
+  "entity": null,
+  "matched": null,
+  "score": 0,
+  "cov": 0.0,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 23,
+  "tier": "novel",
+  "target_year": 2025,
+  "evidence": [],
+  "target": "Consider the following statements :\nStatement I: In India, State Governments have no power for making rules for grant of concessions in respect of extraction of minor minerals even though such minerals are located in their territories.\nStatement II: In India, the Central Government has the power to notify minor minerals under the relevant law.\nWhich one of the following is correct in respect of th",
+  "prior_year": null,
+  "prior_dataset": null,
+  "prior": null,
+  "entity": null,
+  "matched": null,
+  "score": 0,
+  "cov": 0.0,
+  "label": null,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 8,
+  "tier": "medium",
+  "target_year": 2024,
+  "evidence": [
+   [
+    "water vapour",
+    "water vapour",
+    1.0,
+    2003,
+    "GS"
+   ]
+  ],
+  "target": "Which one of the following is the exhaust pipe\nemission from Fuel Cell Electric Vehicles,\npowered by hydrogen ?",
+  "prior_year": 2003,
+  "prior_dataset": "GS",
+  "prior": "Diffusion of light in the atmosphere takes place due to",
+  "entity": "water vapour",
+  "matched": "water vapour",
+  "score": 1.0,
+  "cov": 0.216,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 16,
+  "tier": "loose",
+  "target_year": 2022,
+  "evidence": [],
+  "target": "Critically examine the idea of Brahman in Advaita philosophy of Samkara. Does Samkara's conception of Brahman leave room for theism? Discuss.",
+  "prior_year": 2013,
+  "prior_dataset": "MAINS",
+  "prior": "Not karma, but knowledge alone leads to moksa.' (Samkara). Do you agree? Justify your answer.",
+  "entity": "samkara",
+  "matched": "samkara",
+  "score": 1.0,
+  "cov": 0.203,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 11,
+  "tier": "recurring",
+  "target_year": 2024,
+  "evidence": [],
+  "target": "Consider the following statements:\n\nStatement-I :\n\nThe European Parliament approved The Net-Zero Industry Act recently.\n\nStatement-II:\n\nThe European Union intends to achieve carbon neutrality by 2040 and therefore aims to develop all of its own clean technology by that time.\n\nWhich one of the following is correct in respect of the above statements?",
+  "prior_year": 1995,
+  "prior_dataset": "GS",
+  "prior": "Which of the following pairs are correctly matched?\nI. Increase in foreign exchange reserves Monetary expansion\nII. Low import growth rate in India Recession in Indian Industry\nIII. Euro issues Shares held by Indian companies in European countries\nIV. Portfolio investment Foreign institutional investors\nSelect the correct answer by using the following codes: Codes:",
+  "entity": "european",
+  "matched": "european",
+  "score": 1.0,
+  "cov": 0.039,
+  "label": null,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 25,
+  "tier": "novel",
+  "target_year": 2025,
+  "evidence": [],
+  "target": "Discuss the salient features of the Harappan architecture. (Answer in 150 words)",
+  "prior_year": 2001,
+  "prior_dataset": "GS",
+  "prior": "Which one of the following animals was NOT represented on the seals and terracotta art of the Harappan culture?",
+  "entity": "harappan",
+  "matched": "harappan",
+  "score": 1.0,
+  "cov": 0.296,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 9,
+  "tier": "medium",
+  "target_year": 2024,
+  "evidence": [
+   [
+    "land reform part",
+    "land reform part",
+    1.0,
+    2021,
+    "MAINS"
+   ]
+  ],
+  "target": "What were the factors responsible for the successful implementation of land reforms in some parts of the country? Elaborate.",
+  "prior_year": 2021,
+  "prior_dataset": "MAINS",
+  "prior": "How did land reforms in some parts of the country help to improve the socio-economic conditions of marginal and small farmers?",
+  "entity": "land reform part",
+  "matched": "land reform part",
+  "score": 1.0,
+  "cov": 0.209,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 2,
+  "tier": "strict",
+  "target_year": 2022,
+  "evidence": [],
+  "target": "“Immortality of Soul is a necessary postulate for rebirth.” Critically examine with reference to Buddhism.",
+  "prior_year": 2015,
+  "prior_dataset": "MAINS",
+  "prior": "“Immortality means absence of Karma and Rebirth.” Discuss.",
+  "entity": "immortality",
+  "matched": "immortality",
+  "score": 1.0,
+  "cov": 0.352,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 5,
+  "tier": "strict",
+  "target_year": 2017,
+  "evidence": [
+   [
+    "directive principle policy",
+    "directive principle policy",
+    1.0,
+    2015,
+    "GS"
+   ],
+   [
+    "directive principle policy",
+    "directive principle policy",
+    1.0,
+    2015,
+    "GS"
+   ],
+   [
+    "directive principle policy",
+    "directive principle policy",
+    1.0,
+    2013,
+    "GS"
+   ]
+  ],
+  "target": "The mind of the makers of the Constitution of India is reflected in which of the following?",
+  "prior_year": 2015,
+  "prior_dataset": "GS",
+  "prior": "\"To uphold and protect the Sovereignty, Unity and Integrity of India\" is a provision made in the",
+  "entity": "directive principle policy",
+  "matched": "directive principle policy",
+  "score": 1.0,
+  "cov": 0.518,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 15,
+  "tier": "recurring",
+  "target_year": 2024,
+  "evidence": [],
+  "target": "Consider the following statements :\n\nStatement-I :\n\nRainfall is one of the reasons for weathering of rocks.\n\nStatement-II :\n\nRain water contains carbon dioxide in solution.\n\nStatement-III :\n\nRain water contains atmospheric oxygen.\n\nWhich one of the following is correct in respect of the above statements?",
+  "prior_year": 1999,
+  "prior_dataset": "GS",
+  "prior": "Consider the following temperature and rainfall data: Month Temperature °C Rainfall cm January 6.7 14.0 February 6.7 13.2 March 7.2 11.4 April 8.9 9.4 May 11.1 8.1 June 13.9 8.1 July 15.0 9.6 August 15.0 12.2 September 13.9 10.4 October 11.1 14.4 November 8.9 14.0 December 7.8 16.8 The climate to which this data pertains is",
+  "entity": "rainfall",
+  "matched": "rainfall",
+  "score": 1.0,
+  "cov": 0.068,
+  "label": null,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 20,
+  "tier": "loose",
+  "target_year": 2020,
+  "evidence": [
+   [
+    "mohandas karamchand gandhi",
+    "mohandas karamchand gandhi",
+    1.0,
+    2001,
+    "GS"
+   ]
+  ],
+  "target": "The Vital-Vidhvansak, the first monthly journal to have the untouchable people as its target audience was published by",
+  "prior_year": 2001,
+  "prior_dataset": "GS",
+  "prior": "Who among the following leaders proposed to adopt Complete Independence as the goal of the Congress in the Ahmedabad session of 1920?",
+  "entity": "mohandas karamchand gandhi",
+  "matched": "mohandas karamchand gandhi",
+  "score": 1.0,
+  "cov": 0.103,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 12,
+  "tier": "recurring",
+  "target_year": 2025,
+  "evidence": [],
+  "target": "Consider the following subjects with regard to Non-Cooperation Programme :\nI. Boycott of law-courts and foreign cloth\nII. Observance of strict non-violence\nIII. Retention of titles and honours without using them in public\nIV. Establishment of Panchayats for settling disputes\nHow many of the above were parts of Non-Cooperation Programme?",
+  "prior_year": 2015,
+  "prior_dataset": "MAINS",
+  "prior": "In absence of a well-educated and organized local level government system, 'Panchayats' and 'Samitis' have remained mainly political institutions and not effective instruments of governance. Critically discuss.",
+  "entity": "panchayat",
+  "matched": "panchayat",
+  "score": 1.0,
+  "cov": 0.084,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 10,
+  "tier": "medium",
+  "target_year": 2021,
+  "evidence": [
+   [
+    "pearl millet",
+    "pearl millet",
+    1.0,
+    2012,
+    "GS"
+   ]
+  ],
+  "target": "Among the following, which one is the least water-efficient crop?",
+  "prior_year": 2012,
+  "prior_dataset": "GS",
+  "prior": "Consider the following crops of India:\n1. Groundnut\n2. Sesamum\n3. Pearl millet\nWhich of the above is/are predominantly rainfed crop/crops?",
+  "entity": "pearl millet",
+  "matched": "pearl millet",
+  "score": 1.0,
+  "cov": 0.275,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 1,
+  "tier": "strict",
+  "target_year": 2023,
+  "evidence": [],
+  "target": "Explain the nature and role of Supermind in evolution as per Aurobindo's philosophy.",
+  "prior_year": 2019,
+  "prior_dataset": "MAINS",
+  "prior": "Explain the unique position of the Supermind in the metaphysical scheme of Aurobindo's philosophy.",
+  "entity": "supermind",
+  "matched": "supermind",
+  "score": 1.0,
+  "cov": 0.293,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 3,
+  "tier": "strict",
+  "target_year": 2015,
+  "evidence": [
+   [
+    "kingdom associated life buddha",
+    "kingdom associated life buddha",
+    1.0,
+    2014,
+    "GS"
+   ]
+  ],
+  "target": "Which of the following kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha\nSelect the correct answer using the code given below.",
+  "prior_year": 2014,
+  "prior_dataset": "GS",
+  "prior": "Which of the following Kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha\nSelect the correct answer using the code given below.",
+  "entity": "kingdom associated life buddha",
+  "matched": "kingdom associated life buddha",
+  "score": 1.0,
+  "cov": 1.0,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 19,
+  "tier": "loose",
+  "target_year": 2026,
+  "evidence": [],
+  "target": "Which of the following statements with regard to the arrival of Amur Falcons at Doyang Lake in Nagaland each year from Mongolia is/are correct ?\n1. It showcases how sustained local conservation efforts can contribute to the arrival and protection of international migratory birds.\n2. It reflects the global success of advanced tracking technologies that guide migratory birds back to their stopover s",
+  "prior_year": 2001,
+  "prior_dataset": "GS",
+  "prior": "The Mongols under Genghis Khan invaded India during the reign of",
+  "entity": "mongolia",
+  "matched": "mongol",
+  "score": 0.9,
+  "cov": 0.083,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 13,
+  "tier": "recurring",
+  "target_year": 2024,
+  "evidence": [],
+  "target": "Consider the following statements regarding World Toilet Organization :\n\n1. It is one of the agencies of the United Nations.\n\n2. World Toilet Summit, World Toilet Day and World Toilet College are the initiatives of this organization, to inspire action to tackle the global sanitation crisis.\n\n3. The main focus of its function is to grant funds to the least developed countries and developing countri",
+  "prior_year": 2015,
+  "prior_dataset": "GS",
+  "prior": "India is a member of which among the following?\n1. Asia-Pacific Economic Cooperation\n2. Association of South-East Asian Nations\n3. East Asia Summit\nSelect the correct answer using the code given below.",
+  "entity": "summit",
+  "matched": "summit",
+  "score": 1.0,
+  "cov": 0.071,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 21,
+  "tier": "novel",
+  "target_year": 2024,
+  "evidence": [],
+  "target": "Mission Karmayogi is aiming for maintaining a very high standard of conduct and behaviour to ensure efficiency for serving citizens and in turn developing oneself. How will this scheme empower the civil servants in enhancing productive efficiency and delivering the services at the grassroots level?",
+  "prior_year": null,
+  "prior_dataset": null,
+  "prior": null,
+  "entity": null,
+  "matched": null,
+  "score": 0,
+  "cov": 0.0,
+  "label": false,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 17,
+  "tier": "loose",
+  "target_year": 2016,
+  "evidence": [],
+  "target": "Consider the following statements:\n1. The Sustainable Development Goals were first proposed in 1972 by a global think tank called the 'Club of Rome'.\n2. The Sustainable Development Goals have to be achieved by 2030.\nWhich of the statements given above is/are correct?",
+  "prior_year": 2005,
+  "prior_dataset": "GS",
+  "prior": "Consider the following statements:\n1. The Headquarters of the International Organisation for Standardization are located in Rome.\n2. ISO 9000 is related to the quality management system and standards.\n3. ISO 14000 relates to environmental management system standards.\nWhich of the statements given above is/are correct?",
+  "entity": "rome",
+  "matched": "rome",
+  "score": 1.0,
+  "cov": 0.134,
+  "label": null,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 18,
+  "tier": "loose",
+  "target_year": 2021,
+  "evidence": [
+   [
+    "two world wars word",
+    "two world wars",
+    0.52,
+    2015,
+    "MAINS"
+   ]
+  ],
+  "target": "\"There arose a serious challenge to the Democratic State System between the two World Wars.” Evaluate the statement. (Answer in 250 words)",
+  "prior_year": 2015,
+  "prior_dataset": "MAINS",
+  "prior": "To what extent can Germany be held responsible for causing the two World Wars? Discuss critically.",
+  "entity": "two world wars word",
+  "matched": "two world wars",
+  "score": 0.52,
+  "cov": 0.276,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 22,
+  "tier": "novel",
+  "target_year": 2019,
+  "evidence": [],
+  "target": "What is instrumental to self-revelation: Faith or Reason? Justify your position.",
+  "prior_year": 2016,
+  "prior_dataset": "MAINS",
+  "prior": "Faith means human awareness of God; but it cannot be irrational. Analyse.",
+  "entity": "faith",
+  "matched": "faith",
+  "score": 1.0,
+  "cov": 0.148,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ },
+ {
+  "id": 7,
+  "tier": "medium",
+  "target_year": 2026,
+  "evidence": [],
+  "target": "Which of the following statements with regard to the Grand Slam Tennis Tournaments is/are correct ?\n1. The tournaments have a shared governance structure establishing the partnership among the four Grand Slam tournaments.\n2. They are open for entry to all internationally ranked tennis players above the age of 14.\n3. There is a limitation on the number of 'Wild Cards' a player may receive to compet",
+  "prior_year": 1999,
+  "prior_dataset": "GS",
+  "prior": "In order to win the Grand Slam in Tennis, a player must win which one of the following groups of tournaments?",
+  "entity": "slam",
+  "matched": "slam",
+  "score": 1.0,
+  "cov": 0.172,
+  "label": true,
+  "note": "true = studying the earlier PYQ would materially help answer this; false = not; null = question text truncated, not judged"
+ }
+]
