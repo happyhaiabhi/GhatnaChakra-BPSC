@@ -24,6 +24,11 @@ __pycache__/
 build_consolidated/figures/
 build_physics/figures/
 
+# UPSC polity/geography sprint intermediates — _prelims_records.json is re-parsed
+# from data/prelims.json by scripts/analyse_polity_geo_pyqs.py, _console.txt is its log
+build_upsc_pg/_prelims_records.json
+build_upsc_pg/_console.txt
+
 # Scratch backups from tools/split-bpsc.js
 *.bak
 _site/

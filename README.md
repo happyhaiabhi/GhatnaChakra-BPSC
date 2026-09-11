@@ -9,6 +9,7 @@ Live: **https://happyhaiabhi.github.io/GhatnaChakra-BPSC/**
 
 - `index.html` — the UPSC/BPSC exam-selection portal (with the shared Night Mode control).
 - `upsc.html` — the complete searchable UPSC application.
+- `pg-sprint/index.html` — the UPSC Polity + Geography 6-hour-a-day sprint tracker (day-wise blocks, map drills, revision piles, gates; progress saved in the browser, works offline).
 - `bpsc/index.html` — the locally integrated Ghatna Chakra BPSC application (no iframe, no redirect).
 - Both portal cards are connected, and both applications include a route back to the exam portal.
 
@@ -51,6 +52,27 @@ python scripts/pyq_backsolve.py --calibrate  # print a fresh labelling sample
 ```
 
 Findings and caveats: `PYQ_BACKSOLVE_REPORT.md`.
+
+## Polity + Geography sprint plan (UPSC 2027)
+
+`scripts/analyse_polity_geo_pyqs.py` re-tags every Prelims question in the bank
+(1995–2026) against a 24 + 24 unit taxonomy for Polity and Geography, joins the
+back-solve metadata, and scores every Mains question (2012–2025) against the same
+units. `scripts/build_pg_sprint_plan.py` turns that into a dated plan.
+
+| Output | What it is |
+|---|---|
+| `UPSC_Polity_Geo_Sprint_Plan.md` / `.pdf` | the analysis, the 3-sprint schedule, gates, day-by-day table and 48 unit cards |
+| `UPSC_Polity_Geo_Sprint_Tracker.csv` | one row per day, printable tick-off tracker with revision piles |
+| `pg-sprint/index.html` | interactive tracker (no network calls, localStorage only) |
+| `build_upsc_pg/pyq_summary.json`, `pyq_analysis.csv`, `PYQ_TOPIC_AUDIT.md` | the per-question tagging behind every number in the plan |
+
+Headline numbers: 415 polity + 704 geography core questions out of 3,200 Prelims
+records; 168 + 214 of them in the last ten papers; 536 more questions tagged as
+economy/history/science-tech whose content is really geography or polity. The
+weighted split (0.6 × Prelims core share + 0.4 × Mains marks share) comes out at
+49 % / 51 %, so the plan is 3 h Polity + 3 h Geography a day, first reading closed
+in 47 study days and the whole first cycle in 72.
 
 ## Consolidated Physics Notes (A4)
 
@@ -183,6 +205,8 @@ self-contained, searchable study copy of the whole book.
 - `python scripts/build_data_bundle.py` — rebuilds `data.js` (the `file://` fallback bundle) after a UPSC JSON update.
 - `python scripts/download_infographics.py` — downloads every infographic referenced by `data/csat.json` and `data/prelims.json` into `infographics/` (run on a machine with internet access; resumable; `--dataset csat|prelims` to limit).
 - `python scripts/add_prelims_infographics.py` — re-derives the Prelims infographic references from each question's `reference_url` (already applied; `--check` verifies).
+- `python scripts/analyse_polity_geo_pyqs.py` — re-tags every Prelims/Mains question into the 24 + 24 polity and geography units and rewrites `build_upsc_pg/`.
+- `python scripts/build_pg_sprint_plan.py` — rebuilds the sprint plan (`.md`, `.pdf`), the CSV tracker, `pg-sprint/index.html` and `build_upsc_pg/plan.json` from that tagging plus `scripts/pg_sprint_curriculum.py`.
 - `python scripts/sync_bpsc_runtime.py` — refreshes the integrated BPSC runtime from the `bpsc-source` branch (with a temporary fallback to `main` until that branch exists) and validates every book/subject data path before replacing `bpsc/`.
 
 ## Deployment
