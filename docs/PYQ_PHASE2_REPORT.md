@@ -277,5 +277,163 @@ expert-quality annotations where labeled. Top 40 (full 100: `data/pyq_phase2_cal
 | 2004_P_41 | 3 | 4 | 0 / — | 2016–2023 | pre2015 |
 | 2007_P_6 | 3 | 4 | 1 / L1 | 2019–2023 | pre2015 |
 | 2020_P_65 (G20) | 3 | 4 | 1 / L1 | 2022–2024 | Economy |
-| 
-...[truncated 11472 chars]
+| 2014_P_78 (ITPGRFA) | 3 | 3 | 0 / — | 2015–2016 | pre2015 |
+| 2012_P_84 (coal import) | 3 | 3 | 1 / **L5** | 2015–2019 | pre2015 |
+| 2013_P_95 (NDC) | 3 | 3 | 0 / — | 2016–2025 | pre2015 |
+| 2013_P_5 (recombinant DNA) | 3 | 3 | 1 / L2 | 2016–2022 | pre2015 |
+| 2010_P_45 (Stiglitz Commission) | 3 | 3 | 0 / — | 2017–2022 | pre2015 |
+| 2017_P_91 (Schedule I wildlife) | 3 | 3 | 1 / L3 | 2019–2022 | Polity |
+
+Hubs like UNFCCC/GEF/DigiLocker rank high on count but expert-best is L1–L2 — they are theme magnets, not answer keys. High-leverage quality priors are the L4–L5 ones with smaller n (H2-exhaust, 91st Amendment, coal-import/steel). Full 100: `data/pyq_phase2_calibrated_top100.json`.
+
+## §15 Ranked recurring-concept map
+
+75 concepts from 323 labeled best-links that carry engine cluster features (27 expert-found links have no engine features and are excluded from this map). **High-confidence** rule (pre-registered): ≥4 links, ≥3 distinct target-years, ≥1 L3+. **Low-confidence / thin** = the rest.
+
+| Band | n | How to read |
+|------|--:|-------------|
+| High-confidence | **35** | Recurs across years at mechanism-or-better; worth a dedicated PYQ sheet |
+| Low-confidence / thin | **40** | Either theme-only (protected-areas, judiciary) or 1–2 isolated hits (Cold concepts, §18) |
+
+Top high-confidence concepts by design weight (full timelines: Appendix B):
+
+| Concept | w | links | years | best expert tier | tag |
+|---------|--:|-----:|-------|------------------|-----|
+| international-orgs | 65 | 19 | 6 | L4 | IMMORTAL — but 14/19 are L1 theme-hubs |
+| minerals-energy | 46 | 10 | 7 | L3 | IMMORTAL |
+| soils-agrogeo | 40 | 10 | 6 | L4 | IMMORTAL |
+| biotech-health | 32 | 8 | 6 | L4 | IMMORTAL |
+| monetary-policy | 31 | 7 | 5 | L5 | IMMORTAL |
+| fundamental-rights | 30 | 12 | 7 | L5 | IMMORTAL |
+| statutory-bodies | 29 | 5 | 5 | L3 | IMMORTAL |
+| chemistry-funda | 27 | 9 | 6 | L5 | IMMORTAL |
+| rivers-drainage | 27 | 9 | 7 | L3 | IMMORTAL |
+| buddhism-jainism | 25 | 7 | 6 | L5 | IMMORTAL |
+| capital-markets | 24 | 6 | 6 | L3 | IMMORTAL |
+| parliament-structure | 23 | 11 | 8 | L4 | IMMORTAL |
+| biology-funda | 23 | 5 | 5 | L4 | IMMORTAL |
+| ecology-basics | 22 | 5 | 4 | L4 | IMMORTAL |
+| env-laws | 18 | 6 | 6 | L3 | high-conf, not immortal (span) |
+
+**Caveat:** `international-orgs` is the heaviest node and the noisiest — treat as a theme list (UNFCCC, GEF, WIPO, G20), not as a mechanism to memorise. Monetary-policy, fundamental-rights, parliament-structure, and env-laws are the high-confidence *and* high-quality set.
+
+## §16 Knowledge graph
+
+Directed graph of target → best-prior, plus 75 concept nodes.
+
+| Layer | Count | Notes |
+|-------|------:|-------|
+| Target nodes (2015–2026) | 1,200 | one per GS-I question |
+| Prior nodes with ≥1 best-link | 732 | from the full auto graph |
+| Concept nodes | 75 | shared-cluster labels |
+| Best-link edges | 1,200 | one per target (None if L0) |
+| Expert-labeled edges | 353 | census + samples; design-weighted |
+| Verified L5 edges | 15 | listed in §4 |
+| Verified L4 edges | 35 | listed in §4 |
+
+Machine-readable edges: `data/pyq_phase2_calibrated_edges.json`. Concept payloads: `data/pyq_phase2_calibrated_concepts.json`. The graph is **not** a citation network of equal-weight edges — an L5 edge and an L1 edge are different kinds of thing; always filter on expert tier.
+
+## §17 PYQ → Concept study system
+
+Do **not** read PYQs year-by-year from 1995. Use this loop:
+
+1. **Pick an Immortal concept** from §18 (start with monetary-policy, fundamental-rights, parliament-structure/procedure, env-laws, soils-agrogeo, biotech-health).
+2. **Read the concept's example pairs** in Appendix B (target × prior, with expert tier). For every L3+ pair, write one sentence: *what mechanism transferred?*
+3. **Add the high-leverage priors** in §14 that sit inside that concept (e.g. monetary-policy ← 2010_P_35 H2-exhaust, 2013_P_72, 2011_P_87).
+4. **Stop at lag80 for the subject** (§13). Extra years only for the History freedom-movement canon.
+5. **Drill L4–L5 pairs as flashcards** (answerability). Drill L3 pairs as "same Act / new provision" or "same mechanism / new domain". Ignore L1 pairs except as a theme reminder.
+
+Time budget that matches the numbers: ~80% of PYQ hours on the 35 high-confidence concepts; ~15% on subject-depth tails (Economy 16-yr, Geography 12-yr); ~5% on the History canon list. Do not farm international-orgs / DigiLocker / GEF hubs for facts.
+
+## §18 Immortal vs Dead concepts
+
+Rule (pre-registered, Appendix B): **Immortal** = span ≥ 8 years with ≥ 3 L2+ links. **Cold / Dead** = tagged when the concept has 1–2 isolated hits and does not recur.
+
+**Immortal (25):** international-orgs, minerals-energy, soils-agrogeo, biotech-health, monetary-policy, fundamental-rights, statutory-bodies, chemistry-funda, rivers-drainage, buddhism-jainism, capital-markets, biology-funda, parliament-structure, ecology-basics, indian-physiography, union-executive, banking, parliament-procedure, congress-early, dpsp-duties, climate-change, world-geo, state-executive, federalism, scheme-finclusion.
+
+These are the concepts UPSC has kept returning to across a decade. They are not "will appear next year" predictions — they are the ones where a 10–16 year PYQ file still pays.
+
+**Cold / Dead (20):** post-mauryan, harappan, mughals, gupta-harsha, india-foreign-policy, scheme-agri, awards-sports-gk, vedic-mahajanapada, national-income, transport-ports, elections, emergency, nuclear, employment-poverty, industry-services, reports-indices, scheme-food-nutrition, personalities-books, govt-programmes-misc, oceanography.
+
+Cold ≠ unimportant for GS. It means PYQ-to-PYQ transfer inside 2015–2026 is thin. A Harappan fact can still be asked; a prior Harappan PYQ is unlikely to answer it. Do not skip the static syllabus; skip the false hope that old PYQs will decode the next question.
+
+## §19 Future-paper pattern inference (not prediction)
+
+Cell-weighted block means from §6 (each year = 100 Qs; not a forecast):
+
+| Block | L4+ | L3+ | L2+ | L1+ | Reading |
+|-------|----:|----:|----:|----:|---------|
+| 2015–2018 | 5.0 | 20.1 | 35.4 | 79.1 | mechanism mass present, few verbatims |
+| 2019–2022 | 8.7 | 20.4 | 54.8 | 82.7 | 2020 spike pulls L4+ up; L2+ jumps |
+| 2023–2026 | 4.0 | 14.9 | 52.3 | 78.4 | fewer direct repeats; framework help holds |
+
+What this licenses, and what it does not:
+
+- **Expect ~5–9 L4+ and ~15–25 L3+ per paper**, not a rising "UPSC repeats more now" story. 2020 is an outlier (L4+ ≈ 20%), 2026 sits at the floor (L4+ = 0 in the cell-weighted estimate).
+- **L2+ around half the paper is the stable band** (2019–2026). Theme familiarity is the median help, not the exception.
+- **Polity will keep looking "unlinked"** (L2+ 29%): new provisions, not recycled ones. History/S&T will keep looking "linked" (L4+ ~12%).
+- **Adjacent-year verbatim repeats happen and are rare** (L5 ≈ 1%). Do not study last year's paper as an answer key; do study it as the newest prior.
+- **Mechanism-transfer (the L3 class) is the durable skill** — PFAS ← BFRs, GEAC-statute ← GEAC-ministry, capital-receipts ← capital-budget. That is the pattern to practise, not a topic list to guess from.
+
+No year, subject, or concept is a prediction of 2027 contents.
+
+## §20 Confidence labels
+
+| Claim | Confidence | Why |
+|-------|------------|-----|
+| Auto-tier precision table (§5) | **High** | Census of auto-L5/L4/L2; sample n = 80/50/50 for L3/L1/L0 |
+| Pooled L4+ ≈ 7%, L3+ ≈ 20%, L2+ ≈ 46% | **High** | Design-weighted; Wilson CIs reported |
+| Single-year L3+/L4+ (e.g. 2016 vs 2017) | **Low** | 100-Q cells; one upgrade swings the year |
+| Subject L4+/L3+ ordering (Hist/S&T dense; Polity thin) | **Moderate-high** | Cell-weighted; 3/120 cells borrowed tier means |
+| Window 5→10 yr as richest marginal band | **High** | Same weights as pooled census |
+| Advantage-type shares (§10) | **Moderate** | Constructed from tier + option-overlap; not independently labeled |
+| Taxonomy frequencies (§11) | **Moderate** | Constructed classifier; expert labels used where present |
+| Top-100 *count* ranking | **High** as a hub list; **Low** as a quality list | Count ≠ expert tier (UNFCCC is a hub, not an answer key) |
+| Immortal / Cold tags | **Moderate** | Rule-based on labeled cluster-links only (323 of 353) |
+| Block trend 2023–26 "fewer repeats" | **Moderate** | Four years, 2026 at floor; do not overfit |
+| "Next paper will look like X" | **None** | Explicitly not claimed |
+
+## §21 Limitations & caveats
+
+- **Engine is a screen, not a judge.** Auto-L4 precision for true L4 is 18%; auto-L0 is not true-L0 (54% hide at least L1). Every population number in this report is expert-calibrated, not engine-raw.
+- **27 engine-missed links** were found by active corpus search, mostly in the auto-L0 sample. The L0→L1 leak is a lower bound on missed weak links.
+- **Targeted extras (26)** are excluded from weighted estimates (upward-biased by construction) and included in verified L4+/L5 counts. Mixing the two is the usual way to over-claim.
+- **Subject tags** are the corpus tags; a few questions sit on borders (agri-env, scheme-finclusion). `Other` is 2 questions and is ignored.
+- **2026** is one paper. Its L4+ = 0 is a point estimate, not a regime change.
+- **Pre-2015 priors** are in the graph as nodes but were not themselves expert-tiered as targets. Quality annotations on old hubs exist only when a 2015–2026 labeled target pointed at them.
+- **No Mains, no CSAT, no BPSC.** This is GS Paper I Prelims only.
+
+## §22 How an aspirant should use this
+
+- Quote **1 in 5** (L3+) when someone asks "do PYQs help?", **1 in 14** (L4+) when they ask "will this question repeat?", and never quote 82% without saying "theme only".
+- Build a **10-year PYQ file as the default**, then add years 11–16 only for Economy and the History freedom-movement canon (Surat, 1813 Charter, INM chronology).
+- Study **concepts, not years**: one Immortal concept per sitting, with its L3+ pairs from Appendix B.
+- Treat auto-linked "repeats" in coaching handouts as **triage queues**. Most auto-L4s are L2. Verify before memorising.
+- Keep a **false-friend list** (red-tides ≠ ocean-tides; Krishna-river ≠ Lord-Krishna; Bitcoin ≠ Fanam; Surat-city ≠ Surat-split). Those are the engine's favourite L0 traps and a good model of how lexical PYQ tools mislead.
+
+## §23 Reproducibility
+
+| Item | Where |
+|------|-------|
+| Frozen engine | `scripts/pyq_phase2.py` (run13) |
+| Target corpus 2015–2026 | `data/pyq_phase2/GS_YYYY.json` (12 files) |
+| 349 expert overrides | `data/pyq_phase2_overrides.json` |
+| Design-labeled links | `data/pyq_phase2_calibrated_links.json` (353) |
+| Full 1,200-edge graph | `data/pyq_phase2_calibrated_edges.json` |
+| Top 100 | `data/pyq_phase2_calibrated_top100.json` |
+| 75 concepts | `data/pyq_phase2_calibrated_concepts.json` |
+| Subject estimates | `data/pyq_phase2_calibrated_subjects.json` |
+| Analysis scripts | `scripts/pyq_phase2_{analyze,cells,coverage,taxonomy,top100,appB}.py` |
+
+Lookback assertion: max observed lag = 20; every prior year < target year (machine-asserted). Uncalibrated leftovers `data/pyq_phase2_{summary,top300,concepts}.json` are **not** sources of truth.
+
+## §24 Deliverable index
+
+| # | Deliverable | File |
+|---|-------------|------|
+| 1–23 | This report | `docs/PYQ_PHASE2_REPORT.md` / `.pdf` |
+| A | All 1,200 question-level links | `docs/PYQ_PHASE2_APPENDIX_A.csv` |
+| B | 75 concept timelines | `docs/PYQ_PHASE2_APPENDIX_B.md` |
+| — | HTML viewer (UPSC section) | `preview.html` (nav: UPSC → Phase 2 Report) |
+
+Standard held: honest, traceable-to-real-questions numbers over impressive ones.

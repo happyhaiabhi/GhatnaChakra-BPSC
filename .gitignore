@@ -14,6 +14,7 @@ incoming/
 source_pdfs/
 _staging/
 *.pdf
+!docs/PYQ_PHASE2_REPORT.pdf
 
 # Python
 .venv/
