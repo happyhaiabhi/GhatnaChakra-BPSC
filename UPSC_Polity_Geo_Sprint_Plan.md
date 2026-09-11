@@ -44,14 +44,14 @@ Plus **536 questions tagged as something else** (economy 247, history 126, scien
 
 | Rank | Unit | Last 10 | Last 5 | All 32 | Mains Qs | PYQ-recurrence | Blocks |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | **P07** Parliament | 24 | 13 | 57 | 6 | 0.52 | 4 |
+| 1 | **P07** Parliament | 23 | 13 | 55 | 6 | 0.5 | 4 |
 | 2 | **P03** Fundamental Rights | 18 | 5 | 33 | 8 | 0.65 | 3 |
 | 3 | **P23** Schemes, ministries, indices & reports… | 16 | 10 | 36 | 18 | 0.5 | 2 |
-| 4 | **P12** Judiciary I | 13 | 6 | 32 | 12 | 0.46 | 2 |
+| 4 | **P12** Judiciary I | 12 | 6 | 31 | 11 | 0.5 | 2 |
 | 5 | **P24** Constitutional theory | 12 | 2 | 21 | 17 | 0.17 | 2 |
 | 6 | **P10** Union Executive | 11 | 5 | 29 | 2 | 0.54 | 2 |
 | 7 | **P14** Federalism | 10 | 2 | 22 | 4 | 0.55 | 2 |
-| 8 | **P17** Constitutional bodies | 7 | 4 | 24 | 10 | 0.56 | 3 |
+| 8 | **P17** Constitutional bodies | 7 | 4 | 23 | 10 | 0.56 | 3 |
 | 9 | **P11** Governor, State Executive & State Legislature | 7 | 3 | 19 | 3 | 0.67 | 3 |
 | 10 | **P06** President & Vice-President | 7 | 5 | 16 | 3 | 0.43 | 2 |
 | 11 | **P20** 5th & 6th Schedule, tribal and minority… | 7 | 4 | 15 | 2 | 0.5 | 1 |
@@ -62,12 +62,12 @@ Plus **536 questions tagged as something else** (economy 247, history 126, scien
 | 16 | **P19** Elections, Representation of the People Act &… | 3 | 1 | 8 | 2 | - | 1 |
 | 17 | **P15** Emergency provisions | 3 | 1 | 6 | 2 | - | 1 |
 | 18 | **P18** Non-constitutional, statutory & regulatory… | 2 | 1 | 9 | 7 | - | 2 |
-| 19 | **P08** Legislative procedure | 2 | 0 | 5 | 4 | - | 2 |
-| 20 | **P22** Public administration & governance machinery… | 2 | 1 | 3 | 10 | - | 1 |
-| 21 | **P21** New criminal & rights-era laws (BNS / BNSS /… | 2 | 1 | 2 | 2 | - | 2 |
-| 22 | **P13** Judiciary II | 1 | 0 | 9 | 4 | - | 2 |
-| 23 | **P05** Amendment of the Constitution & Basic… | 1 | 1 | 5 | 3 | - | 1 |
-| 24 | **P09** Parliamentary committees & delegated… | 0 | 0 | 5 | 3 | - | 1 |
+| 19 | **P05** Amendment of the Constitution & Basic… | 2 | 1 | 6 | 4 | - | 1 |
+| 20 | **P08** Legislative procedure | 2 | 0 | 5 | 4 | - | 2 |
+| 21 | **P22** Public administration & governance machinery… | 2 | 1 | 3 | 10 | - | 1 |
+| 22 | **P21** New criminal & rights-era laws (BNS / BNSS /… | 2 | 1 | 2 | 2 | - | 2 |
+| 23 | **P13** Judiciary II | 1 | 0 | 9 | 4 | - | 2 |
+| 24 | **P09** Parliamentary committees & delegated… | 1 | 0 | 8 | 3 | - | 1 |
 
 **Geography**
 
@@ -115,7 +115,7 @@ Read the caveat before you plan Mains prep around this table: **184 polity and 3
 ### 2.4 Anti-folklore findings
 
 - **Monsoon is not the biggest geography topic in this bank.** G06 has only 11 questions in 32 papers (1 in the last 10). It is still conceptually load-bearing (GS-1 Mains, cyclones, agriculture) so it keeps 2 blocks - but it does not get a week.
-- **Parliament is the single heaviest polity unit** (24 questions in the last ten papers, 4 blocks) - procedure, devices, motions and privileges, not just 'how a bill becomes an Act'.
+- **Parliament is the single heaviest polity unit** (23 questions in the last ten papers, 4 blocks) - procedure, devices, motions and privileges, not just 'how a bill becomes an Act'.
 - **Mapping beats theory in geography**: G22 places-in-the-news carries 21 last-ten questions and G08 seas/straits/currents 11. Hence the non-negotiable daily atlas slot.
 - **Agriculture is the bridge subject**: G15 has 32 Mains questions - more than any other geography unit - so it is studied with a GS-3 answer frame from day one.
 - **Environment spill-over is real**: 47 geography-tagged questions are actually species/biodiversity items. Budget one thin environment compilation inside G24 and the current-affairs sweep; do not buy a second geography book for them.
@@ -157,7 +157,7 @@ Outside the 6 hours: 20-30 min of newspaper for the current-affairs sweep only, 
 
 | Sprint | Study days | Dates | Hours | PYQs solved | What it is |
 |---|---:|---|---:|---:|---|
-| **Sprint 1 - first reading** | 47 | 2026-09-12 to 2026-11-05 | 282 h | 431 | First reading of all 48 units (47 + 47 blocks) with the last-ten-paper PYQs solved unit by unit. Mains answers at skeleton level only. |
+| **Sprint 1 - first reading** | 47 | 2026-09-12 to 2026-11-05 | 282 h | 429 | First reading of all 48 units (47 + 47 blocks) with the last-ten-paper PYQs solved unit by unit. Mains answers at skeleton level only. |
 | **Sprint 2 - second reading + PYQ marathon** | 15 | 2026-11-06 to 2026-11-23 | 90 h | 292 | Second reading of the eight heaviest units per subject, the 2003-2016 PYQ backlog cleared, Mains answers timed at 10-marker level. |
 | **Sprint 3 - Mains integration** | 10 | 2026-11-24 to 2026-12-04 | 60 h | 120 | Mains integration over the ten most Mains-loaded units per subject, full-length sectionals, consolidation of the error log into one cram sheet. |
 
@@ -217,7 +217,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 |---:|---|---|---|---|---:|---|---|---|
 | 22 | 2026-10-03 Sat | Sprint 1 | P07 b3/4 Parliament | G09 b2/2 Indian physiography | 14 | Straits, gulfs & seas of the world | G09 skeleton | -1d:P07/G09 -3d:P10/G08 -7d:P24/G06 |
 | 23 | 2026-10-04 Sun | **TEST** | - | - | - | - | weekly review | full week |
-| 24 | 2026-10-05 Mon | Sprint 1 | P07 b4/4 Parliament | G10 b1/2 Drainage I | 9 | Ocean currents & fog/fishing zones | P07 skeleton | -1d:P07/G09 -3d:P07/G08 -7d:P06/G06 |
+| 24 | 2026-10-05 Mon | Sprint 1 | P07 b4/4 Parliament | G10 b1/2 Drainage I | 8 | Ocean currents & fog/fishing zones | P07 skeleton | -1d:P07/G09 -3d:P07/G08 -7d:P06/G06 |
 | 25 | 2026-10-06 Tue | Sprint 1 | P08 b1/2 Legislative procedure | G10 b2/2 Drainage I | 6 | World deserts, grasslands & mountain ranges | G10 skeleton | -1d:P07/G10 -3d:P07/G09 -7d:P06/G07 |
 | 26 | 2026-10-07 Wed | Sprint 1 | P08 b2/2 Legislative procedure | G11 b1/2 Drainage II | 7 | World rivers, lakes & seas | P08 skeleton | -1d:P08/G10 -3d:P07/G09 -7d:P10/G07 -21d:P01/G23 |
 | 27 | 2026-10-08 Thu | Sprint 1 | P09 b1/1 Parliamentary committees &… | G11 b2/2 Drainage II | 8 | Places in the news (last 90 days) | G11 skeleton | -1d:P08/G11 -3d:P07/G10 -7d:P10/G08 -21d:P01/G01 |
@@ -229,7 +229,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 | 29 | 2026-10-10 Sat | Sprint 1 | P11 b2/3 Governor, State Executive & State… | G12 b2/2 Soils - formation,… | 6 | Himalayan ranges, passes & peaks | G12 skeleton | -1d:P11/G12 -3d:P08/G11 -7d:P07/G09 -21d:P02/G02 |
 | 30 | 2026-10-11 Sun | **TEST** | - | - | - | - | weekly review | full week |
 | 31 | 2026-10-12 Mon | Sprint 1 | P11 b3/3 Governor, State Executive & State… | G13 b1/2 Natural vegetation, forest types… | 8 | Peninsular plateau, Ghats & Aravalli | P11 skeleton | -1d:P11/G12 -3d:P09/G11 -7d:P07/G09 -21d:P03/G02 |
-| 32 | 2026-10-13 Tue | Sprint 1 | P12 b1/2 Judiciary I | G13 b2/2 Natural vegetation, forest types… | 11 | Himalayan rivers & tributaries | G13 skeleton | -1d:P11/G13 -3d:P11/G12 -7d:P07/G10 -21d:P03/G03 |
+| 32 | 2026-10-13 Tue | Sprint 1 | P12 b1/2 Judiciary I | G13 b2/2 Natural vegetation, forest types… | 10 | Himalayan rivers & tributaries | G13 skeleton | -1d:P11/G13 -3d:P11/G12 -7d:P07/G10 -21d:P03/G03 |
 | 33 | 2026-10-14 Wed | Sprint 1 | P12 b2/2 Judiciary I | G14 b1/2 Protected areas | 10 | Peninsular rivers & deltas | P12 skeleton | -1d:P12/G13 -3d:P11/G12 -7d:P08/G10 -21d:P03/G03 |
 | 34 | 2026-10-15 Thu | Sprint 1 | P13 b1/2 Judiciary II | G14 b2/2 Protected areas | 6 | Lakes, wetlands & Ramsar sites | G14 skeleton | -1d:P12/G14 -3d:P11/G13 -7d:P08/G11 -21d:P04/G04 |
 | 35 | 2026-10-16 Fri | Sprint 1 | P13 b2/2 Judiciary II | G15 b1/2 Agriculture I | 13 | Soil belts of India | P13 skeleton | -1d:P13/G14 -3d:P12/G13 -7d:P09/G11 -21d:P04/G04 |
@@ -344,7 +344,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 - **Mains angle:** The FR-DPSP balance; the Uniform Civil Code debate; Fundamental Duties and citizenship education.
 
 #### P05 - Amendment of the Constitution & Basic Structure doctrine
-*Blocks 1 - 25 pp first read - Prelims PYQs 1 (last 10) / 5 (all) - Mains 3 - source: Laxmikanth ch. 12 + amendment register*
+*Blocks 1 - 25 pp first read - Prelims PYQs 2 (last 10) / 6 (all) - Mains 4 - source: Laxmikanth ch. 12 + amendment register*
 
 - **Master:** Art 368 procedure - introduction in either House, special majority (a majority of total membership plus two-thirds of those present and voting), ratification by half the state legislatures for federal provisions, mandatory presidential assent after the 24th Amendment, no joint sitting; the three majority types; the basic structure line of cases - Shankari Prasad 1951, Sajjan Singh 1965, Golaknath 1967, 24th Amendment 1971, Kesavananda Bharati 1973, Indira Gandhi v Raj Narain 1975, Minerva Mills 1980, Waman Rao 1981, IR Coelho 2007.
 - **Traps:** Only Parliament can amend the Constitution; state legislatures cannot initiate amendments; the President must give assent; no joint sitting is possible for amendment bills; Ninth Schedule laws added after 24 April 1973 are open to review.
@@ -372,7 +372,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 - **Mains angle:** Coalition dharma and government stability; the growth of the PMO and groups of ministers; cabinet government in practice.
 
 #### P07 - Parliament - composition, sessions, devices, motions & privileges
-*Blocks 4 - 95 pp first read - Prelims PYQs 24 (last 10) / 57 (all) - Mains 6 - source: Laxmikanth ch. 22-23 + 25*
+*Blocks 4 - 95 pp first read - Prelims PYQs 23 (last 10) / 55 (all) - Mains 6 - source: Laxmikanth ch. 22-23 + 25*
 
 - **Master:** LS/RS composition and their exclusive powers (RS: Art 249 national-interest resolution, Art 312 All India Service; LS: money bills, no-confidence, budget); sessions and the 6-month maximum gap; Question Hour vs Zero Hour; the motion family (no-confidence, censure, adjournment, calling-attention, privilege, half-an-hour, special mention, motion of thanks); parliamentary privileges under Art 105 (individual and collective, still uncodified); joint sitting Art 108; anti-defection under the 10th Schedule; quorum of 1/10; casting vote; pro tem Speaker.
 - **Traps:** No joint sitting for Money Bills or Constitution Amendment Bills; the RS Chairman never presides over a joint sitting; a no-confidence motion lies only in the LS and needs 50 members' support; RS is not subject to dissolution (one-third retire every two years); privileges are still not codified by statute.
@@ -386,7 +386,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 - **Mains angle:** Budgetary accountability and the guillotine; passing the budget without discussion; cess and surcharge outside devolution; parliamentary scrutiny of expenditure.
 
 #### P09 - Parliamentary committees & delegated legislation
-*Blocks 1 - 30 pp first read - Prelims PYQs 0 (last 10) / 5 (all) - Mains 3 - source: Laxmikanth ch. 24 + 33*
+*Blocks 1 - 30 pp first read - Prelims PYQs 1 (last 10) / 8 (all) - Mains 3 - source: Laxmikanth ch. 24 + 33*
 
 - **Master:** Public Accounts Committee (22 members - 15 LS and 7 RS; chairperson from the Opposition by convention since 1967; examines CAG reports; cannot fix responsibility); Estimates Committee (30 members, all from the LS; chairperson from the ruling party; a post-mortem of the budget); Committee on Public Undertakings (15 members - 10 LS and 5 RS); 24 Departmentally Related Standing Committees of 45 members each (30 LS, 15 RS); Business Advisory Committee; Committee on Privileges; Committee on Subordinate Legislation; Ethics Committees; ad hoc Joint Parliamentary Committees; ministry-wise Consultative Committees; Action Taken Reports.
 - **Traps:** A minister cannot be a member of the PAC or the Estimates Committee; the Estimates Committee has no RS members; the PAC chairperson convention is not a rule; referring a bill to a DRSC is discretionary; committee recommendations do not bind the government.
@@ -400,7 +400,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 - **Mains angle:** Misuse of the Governor's office; floor tests and the Bommai standard; bills kept pending or reserved; Punchhi and Sarkaria recommendations; Delhi and Puducherry LG-CM conflict.
 
 #### P12 - Judiciary I - Supreme Court: jurisdiction, powers, judicial review
-*Blocks 2 - 45 pp first read - Prelims PYQs 13 (last 10) / 32 (all) - Mains 12 - source: Laxmikanth ch. 31*
+*Blocks 2 - 45 pp first read - Prelims PYQs 12 (last 10) / 31 (all) - Mains 11 - source: Laxmikanth ch. 31*
 
 - **Master:** Composition (maximum 34 judges); the collegium (CJI + four seniormost) and the Memorandum of Procedure; NJAC struck down in 2015; jurisdictions - original (Art 131), writ (Art 32), appellate (Arts 132-136), special leave, advisory (Art 143), court of record (Art 129), review (Art 137), curative (Rupa Hurra 2002); Art 142 complete justice; contempt powers; independence safeguards (retirement at 65, salary charged, removal by special majority after a three-member inquiry); Master of the Roster; Constitution Benches of five or more judges.
 - **Traps:** Art 32 protects only Fundamental Rights while Art 226 extends to 'any other purpose'; an advisory opinion does not bind the President; a retired SC judge cannot practise anywhere in India; the removal ground is proved misbehaviour or incapacity.
@@ -435,7 +435,7 @@ The PYQ column is the number of questions from this repository's bank to solve f
 - **Mains angle:** Devolution of funds, functions and functionaries; women's leadership in PRIs; the Gram Sabha as direct democracy; urban local bodies' fiscal capacity.
 
 #### P17 - Constitutional bodies - ECI, UPSC, CAG, AG, Finance Commission, NCs
-*Blocks 3 - 65 pp first read - Prelims PYQs 7 (last 10) / 24 (all) - Mains 10 - source: Laxmikanth ch. 42-50*
+*Blocks 3 - 65 pp first read - Prelims PYQs 7 (last 10) / 23 (all) - Mains 10 - source: Laxmikanth ch. 42-50*
 
 - **Master:** Election Commission (Art 324 - CEC plus two ECs; the CEC can be removed only like a Supreme Court judge; the Chief Election Commissioner and Other Election Commissioners Act 2023 changed the selection panel to PM + a Union Minister + Leader of Opposition); UPSC and SPSCs (Arts 315-323, advisory); CAG (Arts 148-151, six years or 65 years, reports to the President); Attorney General (Art 76); Finance Commission (Art 280, five members, constituted every fifth year); NCSC and NCST (Arts 338, 338A) and NCBC (Art 338B, made constitutional by the 102nd Amendment; the 105th restored state power over SEBC lists); Special Officer for Linguistic Minorities (Art 350B).
 - **Traps:** The ECI does not conduct panchayat or municipal elections - State Election Commissions do (Arts 243K, 243ZA); Finance Commission recommendations are not binding; UPSC and SPSC reports are advisory; ECs can be removed only on the CEC's recommendation; NCBC is constitutional while the National Commission for Minorities is statutory.

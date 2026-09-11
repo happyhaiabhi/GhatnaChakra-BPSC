@@ -7,7 +7,7 @@ in `scripts/analyse_polity_geo_pyqs.py` and re-run.
 ## Polity - core units
 
 ### P07 - Parliament - composition, sessions, devices, motions & privileges
-all 57 | last-10 24 | last-5 13 | source: Laxmikanth ch. 22-23 + 25
+all 55 | last-10 23 | last-5 13 | source: Laxmikanth ch. 22-23 + 25
 
 - [1995] Who among the following have the right to vote in the elections to both Lok Sabha and Rajya Sabha?
 - [1996] If the number of seats allocated to a state in the Lok Sabha is 42, then the number of seats reserved for the Scheduled Castes in that state will be
@@ -31,7 +31,7 @@ all 36 | last-10 16 | last-5 10 | source: Newspaper + monthly compilation
 - [2004] The Ramon Magsaysay Award winner Shanta Sinha is known as:
 
 ### P12 - Judiciary I - Supreme Court: jurisdiction, powers, judicial review
-all 32 | last-10 13 | last-5 6 | source: Laxmikanth ch. 31
+all 31 | last-10 12 | last-5 6 | source: Laxmikanth ch. 31
 
 - [1996] The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its
 - [1996] When the Chief Justice of a High Court acts in an administrative capacity, he is subject to
@@ -63,7 +63,7 @@ all 22 | last-10 10 | last-5 2 | source: Laxmikanth ch. 10, 16-17, 41
 - [2004] Consider the following statements: 1. The highest deciding body for planning in India is the Planning Commission of India. 2. The Secretary of the Planning Commission of India is a
 
 ### P17 - Constitutional bodies - ECI, UPSC, CAG, AG, Finance Commission, NCs
-all 24 | last-10 7 | last-5 4 | source: Laxmikanth ch. 42-50
+all 23 | last-10 7 | last-5 4 | source: Laxmikanth ch. 42-50
 
 - [1995] Agricultural income tax is assigned to the State Governments by
 - [1996] Assertion (A): The word ‘minority’ is not defined in the Constitution of India. Reason (R): The Minorities Commission is not a constitutional body. In the context of the above two 
@@ -150,6 +150,14 @@ all 9 | last-10 2 | last-5 1 | source: Laxmikanth ch. 51-57
 - [2003] Which one of the following statements is correct?
 - [2004] According to the National Human Rights Commission Act, 1993, who amongst the following can be its chairman?
 
+### P05 - Amendment of the Constitution & Basic Structure doctrine
+all 6 | last-10 2 | last-5 1 | source: Laxmikanth ch. 12 + amendment register
+
+- [1997] Assertion (A): The reservation of thirty-three per cent of seats for women in Parliament and State Legislatures does not require Constitutional amendment. Reason (R): Political par
+- [2000] Which one of the following statements is incorrect?
+- [2004] Which Article of the Constitution of India says, ‘No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employ
+- [2005] The Constitution (98th Amendment) Act is related to:
+
 ### P08 - Legislative procedure - Bills, budget & financial business
 all 5 | last-10 2 | last-5 0 | source: Laxmikanth ch. 23 + 35
 
@@ -179,21 +187,13 @@ all 9 | last-10 1 | last-5 0 | source: Laxmikanth ch. 32-33
 - [2002] The salaries and allowances of the Judges of the High Court are charged do the
 - [2004] Consider the following statements: 1. The highest criminal court of the district is the Court of District and Sessions Judge. 2. The District Judges are appointed by the Governor i
 
-### P05 - Amendment of the Constitution & Basic Structure doctrine
-all 5 | last-10 1 | last-5 1 | source: Laxmikanth ch. 12 + amendment register
-
-- [1997] Assertion (A): The reservation of thirty-three per cent of seats for women in Parliament and State Legislatures does not require Constitutional amendment. Reason (R): Political par
-- [2000] Which one of the following statements is incorrect?
-- [2004] Which Article of the Constitution of India says, ‘No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employ
-- [2005] The Constitution (98th Amendment) Act is related to:
-
 ### P09 - Parliamentary committees & delegated legislation
-all 5 | last-10 0 | last-5 0 | source: Laxmikanth ch. 24 + 33
+all 8 | last-10 1 | last-5 0 | source: Laxmikanth ch. 24 + 33
 
 - [2002] The Consultative Committee of members of Parliament for Railway Zones in constituted by the
 - [2002] Which one of the following authorities recommends the principles governing the grants-in-aid of the revenues to the states out of the Consolidated Fund of India?
+- [2007] Consider the following statements: 1. The Chairman of the Committee on public Accounts is appointed by the Speaker of the Lok Sabha. 2. The Committee on public Accounts comprises M
 - [2012] In India, other than ensuring that public funds are used efficiently and for intended purpose, what is the importance of the office of the Comptroller and Auditor General (CAG)? 1.
-- [2012] According to the Constitution of India, it is the duty of the President of India to cause to be laid before the Parliament which of the following? 1. The Recommendations of the Uni
 
 ## Polity - spill-over & unclassified
 
@@ -469,7 +469,7 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 | G16 | 15 | 295 | 7 |
 | G18 | 14 | 164 | 7 |
 | G17 | 13 | 161 | 7 |
-| P12 | 12 | 153 | 4 |
+| P12 | 11 | 141 | 4 |
 | P22 | 10 | 114 | 6 |
 | P17 | 10 | 117 | 5 |
 | G01 | 9 | 102 | 4 |
@@ -484,6 +484,7 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 | P16 | 5 | 55 | 4 |
 | P13 | 4 | 40 | 2 |
 | P08 | 4 | 50 | 1 |
+| P05 | 4 | 54 | 2 |
 | P14 | 4 | 54 | 1 |
 | P01 | 4 | 161 | 0 |
 | G13 | 4 | 50 | 3 |
@@ -492,7 +493,6 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 | G20 | 3 | 45 | 2 |
 | G03 | 3 | 30 | 2 |
 | P06 | 3 | 32 | 2 |
-| P05 | 3 | 42 | 2 |
 | P09 | 3 | 35 | 1 |
 | P10 | 2 | 27 | 0 |
 | P21 | 2 | 15 | 1 |
@@ -644,9 +644,9 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 
 ### P12
 - [2013 GS3 10m] Bringing out the circumstances in 2005 which forced amendment to the section 3(d) in Indian Patent Law, 1970, discuss how it has been utilized by the Supreme Court in its judgement in rejecting Novratis' patent
-- [2014 GS2 12m] Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role p
 - [2015 GS2 12m] Resorting to ordinances has always raised concern on violation of the spirit of separation of powers doctrine. While noting the rationales justifying the power to promulgate ordinances, analyze whether the deci
 - [2015 GS3 12m] Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of 
+- [2016 GS2 12m] What was held in the Coelho case? In this context, can you say that judicial review is of key importance amongst the basic features of the Constitution?
 
 ### G02
 - [2014 GS1 10m] To what extent has the urban planning and culture of the Indus Valley Civilization provided inputs to the present day urbanization? Discuss.
@@ -657,6 +657,12 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 - [2014 GS1 10m] Critically evaluate the various resources of the oceans which can be harnessed to meet the resource crisis in the world.
 - [2015 GS1 122m] Explain the factors responsible for the origin of ocean currents. How do they influence regional climates, fishing and navigation?
 - [2015 GS1 122m] What are the economic significances of discovery of oil in Arctic Sea and its possible environmental consequences?
+
+### P05
+- [2014 GS2 12m] Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role p
+- [2016 GS2 12m] Discuss the essentials of the 69th Constitutional Amendment Act and anomalies, if any, that have led to recent reported conflicts between the elected representatives and the institution of the Lieutenant Govern
+- [2019 GS2 15m] “Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power." In the light of this statement explain whether Parliament under Article 368 of the Constitution c
+- [2023 GS2 15m] Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?
 
 ### P14
 - [2014 GS2 12m] Though the federal principle is dominant in our Constitution and that principle is one of its basic features, but it is equally true that federalism under the Indian Constitution leans in favour of a strong Cen
@@ -709,11 +715,6 @@ all 11 | last-10 1 | last-5 0 | source: NCERT XI India: Physical Env ch. 4; Leon
 ### P20
 - [2016 GS1 12m] Why are the tribals in India referred to as 'the Scheduled Tribes'? Indicate the major provisions enshrined in the Constitution of India for their upliftment.
 - [2018 GS2 10m] Whether National Commission for Scheduled Castes (NCSC) can enforce the implementation of constitutional reservation for the Scheduled Castes in the religious minority institutions? Examine.
-
-### P05
-- [2016 GS2 12m] Discuss the essentials of the 69th Constitutional Amendment Act and anomalies, if any, that have led to recent reported conflicts between the elected representatives and the institution of the Lieutenant Govern
-- [2019 GS2 15m] “Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power." In the light of this statement explain whether Parliament under Article 368 of the Constitution c
-- [2023 GS2 15m] Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?
 
 ### P17
 - [2016 GS2 12m] Exercise of CAG's powers in relation to the accounts of the Union and the States is derived from Article 149 of the Indian Constitution. Discuss whether audit of the Government's policy implementation could amo

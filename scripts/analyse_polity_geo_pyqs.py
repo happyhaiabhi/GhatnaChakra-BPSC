@@ -78,7 +78,9 @@ CORE_BUCKETS = ("core", "core-weak")
 POLICY_UNITS = [
     ("P09", "Parliamentary committees & delegated legislation",
      "Laxmikanth ch. 24 + 33", [
-        (5, r"\b(public accounts committee|estimates committee|committee on public undertakings|departmentally-? ?related (parliamentary )?standing committee|departmental (parliamentary )?standing committee|business advisory committee|committee on privileges|privileges committee|committee on subordinate legislation|joint parliamentary committee|select committee|consultative committee)\b"),
+        # a named parliamentary committee is more specific than a body it merely
+        # mentions (the 2013 PAC question also names the CAG) - hence weight 7
+        (7, r"\b(public accounts committee|committee on public accounts|estimates committee|committee on public undertakings|public undertakings committee|departmentally-? ?related (parliamentary )?standing committee|departmental (parliamentary )?standing committee|business advisory committee|committee on privileges|privileges committee|committee on subordinate legislation|joint parliamentary committee|select committee|consultative committee)\b"),
         (3, r"\b(parliamentary committee|committee of parliament|jpc\b|delegated legislation)\b"),
      ]),
     ("P17", "Constitutional bodies - ECI, UPSC, CAG, AG, Finance Commission, NCs",
@@ -159,7 +161,8 @@ POLICY_UNITS = [
      ]),
     ("P05", "Amendment of the Constitution & Basic Structure doctrine",
      "Laxmikanth ch. 12 + amendment register", [
-        (5, r"\b(amendment of the constitution|constitutional amendment|article 368\b|basic structure|kesavananda|minerva mills|golak nath|special majority|ratified by (half the )?states)\b"),
+        (7, r"\b(basic structure|kesavananda|minerva mills|golak nath)\b"),
+        (5, r"\b(amendment of the constitution|constitutional amendment|article 368\b|special majority|ratified by (half the )?states)\b"),
         (3, r"\b((\d{1,3})(st|nd|rd|th) amendment|amendment act)\b"),
      ]),
     ("P03", "Fundamental Rights - classification, Articles 12-35 & enforcement",

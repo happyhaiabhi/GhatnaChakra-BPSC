@@ -220,7 +220,8 @@
       "2007": {
         "P10": 1,
         "P15": 1,
-        "P07": 3,
+        "P07": 2,
+        "P09": 1,
         "P17": 1,
         "P12": 1,
         "P22": 1
@@ -276,9 +277,10 @@
         "P14": 3,
         "P16": 2,
         "P03": 2,
-        "P17": 2,
+        "P09": 1,
         "P06": 1,
-        "P23": 1
+        "P23": 1,
+        "P17": 1
       },
       "2014": {
         "P09": 1,
@@ -327,10 +329,11 @@
         "P15": 1
       },
       "2018": {
-        "P07": 4,
+        "P07": 3,
         "P18": 1,
         "P02": 1,
         "P24": 3,
+        "P09": 1,
         "P21": 1,
         "P10": 1,
         "P08": 1,
@@ -360,7 +363,7 @@
         "P07": 2,
         "P03": 2,
         "P14": 3,
-        "P12": 1,
+        "P05": 1,
         "P01": 1,
         "P04": 1,
         "P06": 1
@@ -1167,10 +1170,10 @@
         "unit": "P07",
         "title": "Parliament - composition, sessions, devices, motions & privileges",
         "source": "Laxmikanth ch. 22-23 + 25",
-        "all": 57,
-        "last10": 24,
+        "all": 55,
+        "last10": 23,
         "last5": 13,
-        "per_year_last10": 2.4
+        "per_year_last10": 2.3
       },
       {
         "unit": "P03",
@@ -1194,10 +1197,10 @@
         "unit": "P12",
         "title": "Judiciary I - Supreme Court: jurisdiction, powers, judicial review",
         "source": "Laxmikanth ch. 31",
-        "all": 32,
-        "last10": 13,
+        "all": 31,
+        "last10": 12,
         "last5": 6,
-        "per_year_last10": 1.3
+        "per_year_last10": 1.2
       },
       {
         "unit": "P24",
@@ -1230,7 +1233,7 @@
         "unit": "P17",
         "title": "Constitutional bodies - ECI, UPSC, CAG, AG, Finance Commission, NCs",
         "source": "Laxmikanth ch. 42-50",
-        "all": 24,
+        "all": 23,
         "last10": 7,
         "last5": 4,
         "per_year_last10": 0.7
@@ -1326,6 +1329,15 @@
         "per_year_last10": 0.2
       },
       {
+        "unit": "P05",
+        "title": "Amendment of the Constitution & Basic Structure doctrine",
+        "source": "Laxmikanth ch. 12 + amendment register",
+        "all": 6,
+        "last10": 2,
+        "last5": 1,
+        "per_year_last10": 0.2
+      },
+      {
         "unit": "P08",
         "title": "Legislative procedure - Bills, budget & financial business",
         "source": "Laxmikanth ch. 23 + 35",
@@ -1362,22 +1374,13 @@
         "per_year_last10": 0.1
       },
       {
-        "unit": "P05",
-        "title": "Amendment of the Constitution & Basic Structure doctrine",
-        "source": "Laxmikanth ch. 12 + amendment register",
-        "all": 5,
-        "last10": 1,
-        "last5": 1,
-        "per_year_last10": 0.1
-      },
-      {
         "unit": "P09",
         "title": "Parliamentary committees & delegated legislation",
         "source": "Laxmikanth ch. 24 + 33",
-        "all": 5,
-        "last10": 0,
+        "all": 8,
+        "last10": 1,
         "last5": 0,
-        "per_year_last10": 0.0
+        "per_year_last10": 0.1
       }
     ],
     "Geography": [
@@ -1619,7 +1622,7 @@
         "P06": 0.134,
         "P20": 0.133,
         "P23": 0.115,
-        "P12": 0.106,
+        "P12": 0.111,
         "P04": 0.098,
         "P11": 0.087,
         "P07": 0.076,
@@ -1632,11 +1635,11 @@
         "P17": 0.56,
         "P14": 0.55,
         "P10": 0.54,
-        "P07": 0.52,
+        "P07": 0.5,
         "P20": 0.5,
         "P23": 0.5,
         "P16": 0.5,
-        "P12": 0.46,
+        "P12": 0.5,
         "P01": 0.43,
         "P06": 0.43,
         "P24": 0.17
@@ -9067,7 +9070,7 @@
         "G16": 15,
         "G18": 14,
         "G17": 13,
-        "P12": 12,
+        "P12": 11,
         "P22": 10,
         "P17": 10,
         "G01": 9,
@@ -9082,6 +9085,7 @@
         "P16": 5,
         "P13": 4,
         "P08": 4,
+        "P05": 4,
         "P14": 4,
         "P01": 4,
         "G13": 4,
@@ -9090,7 +9094,6 @@
         "G20": 3,
         "G03": 3,
         "P06": 3,
-        "P05": 3,
         "P09": 3,
         "P10": 2,
         "P21": 2,
@@ -9131,9 +9134,10 @@
         "P08": 50,
         "G18": 164,
         "G19": 69,
-        "P12": 153,
+        "P12": 141,
         "G02": 25,
         "G08": 324,
+        "P05": 54,
         "P14": 54,
         "P18": 89,
         "P22": 114,
@@ -9144,7 +9148,6 @@
         "P04": 12,
         "P06": 32,
         "P20": 22,
-        "P05": 42,
         "P17": 117,
         "G07": 10,
         "P16": 55,
@@ -9337,9 +9340,9 @@
         ],
         "P12": [
           "[2013 GS3 10m] Bringing out the circumstances in 2005 which forced amendment to the section 3(d) in Indian Patent Law, 1970, discuss how it has been utilized by the Supreme Court in its judgement in rejecting Novratis' patent",
-          "[2014 GS2 12m] Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role p",
           "[2015 GS2 12m] Resorting to ordinances has always raised concern on violation of the spirit of separation of powers doctrine. While noting the rationales justifying the power to promulgate ordinances, analyze whether the deci",
-          "[2015 GS3 12m] Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of "
+          "[2015 GS3 12m] Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of ",
+          "[2016 GS2 12m] What was held in the Coelho case? In this context, can you say that judicial review is of key importance amongst the basic features of the Constitution?"
         ],
         "G02": [
           "[2014 GS1 10m] To what extent has the urban planning and culture of the Indus Valley Civilization provided inputs to the present day urbanization? Discuss.",
@@ -9350,6 +9353,12 @@
           "[2014 GS1 10m] Critically evaluate the various resources of the oceans which can be harnessed to meet the resource crisis in the world.",
           "[2015 GS1 122m] Explain the factors responsible for the origin of ocean currents. How do they influence regional climates, fishing and navigation?",
           "[2015 GS1 122m] What are the economic significances of discovery of oil in Arctic Sea and its possible environmental consequences?"
+        ],
+        "P05": [
+          "[2014 GS2 12m] Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role p",
+          "[2016 GS2 12m] Discuss the essentials of the 69th Constitutional Amendment Act and anomalies, if any, that have led to recent reported conflicts between the elected representatives and the institution of the Lieutenant Govern",
+          "[2019 GS2 15m] “Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power.\" In the light of this statement explain whether Parliament under Article 368 of the Constitution c",
+          "[2023 GS2 15m] Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?"
         ],
         "P14": [
           "[2014 GS2 12m] Though the federal principle is dominant in our Constitution and that principle is one of its basic features, but it is equally true that federalism under the Indian Constitution leans in favour of a strong Cen",
@@ -9402,11 +9411,6 @@
         "P20": [
           "[2016 GS1 12m] Why are the tribals in India referred to as 'the Scheduled Tribes'? Indicate the major provisions enshrined in the Constitution of India for their upliftment.",
           "[2018 GS2 10m] Whether National Commission for Scheduled Castes (NCSC) can enforce the implementation of constitutional reservation for the Scheduled Castes in the religious minority institutions? Examine."
-        ],
-        "P05": [
-          "[2016 GS2 12m] Discuss the essentials of the 69th Constitutional Amendment Act and anomalies, if any, that have led to recent reported conflicts between the elected representatives and the institution of the Lieutenant Govern",
-          "[2019 GS2 15m] “Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power.\" In the light of this statement explain whether Parliament under Article 368 of the Constitution c",
-          "[2023 GS2 15m] Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?"
         ],
         "P17": [
           "[2016 GS2 12m] Exercise of CAG's powers in relation to the accounts of the Union and the States is derived from Article 149 of the Indian Constitution. Discuss whether audit of the Government's policy implementation could amo",

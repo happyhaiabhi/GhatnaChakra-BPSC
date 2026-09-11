@@ -1021,7 +1021,7 @@
     "unit": "P07",
     "block": 4,
     "of": 4,
-    "pyq": 6,
+    "pyq": 5,
     "title": "Parliament - composition, sessions, devices, motions & privileges"
    },
    "geography": {
@@ -1448,7 +1448,7 @@
     "unit": "P12",
     "block": 1,
     "of": 2,
-    "pyq": 7,
+    "pyq": 6,
     "title": "Judiciary I - Supreme Court: jurisdiction, powers, judicial review"
    },
    "geography": {
@@ -4296,11 +4296,11 @@
    "traps": "No joint sitting for Money Bills or Constitution Amendment Bills; the RS Chairman never presides over a joint sitting; a no-confidence motion lies only in the LS and needs 50 members' support; RS is not subject to dissolution (one-third retire every two years); privileges are still not codified by statute.",
    "mains": "Parliamentary productivity and disruption; privileges vs press freedom; role of the Opposition; declining sitting days; committee scrutiny of bills.",
    "blocks": 4,
-   "pyq_all": 57,
-   "pyq_last10": 24,
+   "pyq_all": 55,
+   "pyq_last10": 23,
    "pyq_last5": 13,
    "mains_qs": 6,
-   "recurring_share": 0.52
+   "recurring_share": 0.5
   },
   {
    "id": "P03",
@@ -4341,11 +4341,11 @@
    "traps": "Art 32 protects only Fundamental Rights while Art 226 extends to 'any other purpose'; an advisory opinion does not bind the President; a retired SC judge cannot practise anywhere in India; the removal ground is proved misbehaviour or incapacity.",
    "mains": "Pendency, vacancies and the AIJS demand; collegium transparency; judicial activism vs overreach; live-streaming and case-listing reform.",
    "blocks": 2,
-   "pyq_all": 32,
-   "pyq_last10": 13,
+   "pyq_all": 31,
+   "pyq_last10": 12,
    "pyq_last5": 6,
-   "mains_qs": 12,
-   "recurring_share": 0.46
+   "mains_qs": 11,
+   "recurring_share": 0.5
   },
   {
    "id": "P24",
@@ -4401,7 +4401,7 @@
    "traps": "The ECI does not conduct panchayat or municipal elections - State Election Commissions do (Arts 243K, 243ZA); Finance Commission recommendations are not binding; UPSC and SPSC reports are advisory; ECs can be removed only on the CEC's recommendation; NCBC is constitutional while the National Commission for Minorities is statutory.",
    "mains": "ECI independence and the appointment law; the Finance Commission and state finances; CAG and accountability; delimitation after the freeze ends.",
    "blocks": 3,
-   "pyq_all": 24,
+   "pyq_all": 23,
    "pyq_last10": 7,
    "pyq_last5": 4,
    "mains_qs": 10,
@@ -4626,8 +4626,8 @@
    "traps": "A minister cannot be a member of the PAC or the Estimates Committee; the Estimates Committee has no RS members; the PAC chairperson convention is not a rule; referring a bill to a DRSC is discretionary; committee recommendations do not bind the government.",
    "mains": "Fewer bills referred to committees and weak scrutiny; strengthening the PAC and Estimates Committee; committee-based budgeting.",
    "blocks": 1,
-   "pyq_all": 5,
-   "pyq_last10": 0,
+   "pyq_all": 8,
+   "pyq_last10": 1,
    "pyq_last5": 0,
    "mains_qs": 3,
    "recurring_share": 0
@@ -4641,10 +4641,10 @@
    "traps": "Only Parliament can amend the Constitution; state legislatures cannot initiate amendments; the President must give assent; no joint sitting is possible for amendment bills; Ninth Schedule laws added after 24 April 1973 are open to review.",
    "mains": "The basic structure doctrine at 50; judicial review of amendments; the NJAC verdict; federal provisions and state ratification.",
    "blocks": 1,
-   "pyq_all": 5,
-   "pyq_last10": 1,
+   "pyq_all": 6,
+   "pyq_last10": 2,
    "pyq_last5": 1,
-   "mains_qs": 3,
+   "mains_qs": 4,
    "recurring_share": 0
   },
   {
