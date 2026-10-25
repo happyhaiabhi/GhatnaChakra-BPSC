@@ -14,6 +14,7 @@ incoming/
 source_pdfs/
 _staging/
 *.pdf
+!BPSC_Prelims_PYQ_60th_to_71st.pdf
 
 # Python
 .venv/
