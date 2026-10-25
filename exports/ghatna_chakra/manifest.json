@@ -1,6 +1,6 @@
 {
   "dataset": "Ghatna Chakra — Ancient, Medieval and Modern India",
-  "generated_at": "2026-10-25T14:46:33Z",
+  "generated_at": "2026-10-25T14:48:37Z",
   "generator": "scripts/export_ghatna_chakra_ai.py",
   "counts": {
     "total": 5005,
@@ -545,50 +545,50 @@
     "ghatna_chakra_ancient_india.jsonl": {
       "description": "Ancient India — every question, one JSON object per line",
       "records": 1342,
-      "bytes": 1330811,
-      "sha256": "799bb6fe52dddaea75131946a137a00c7296edf41f0a202446f42c7b890300cb"
+      "bytes": 1330738,
+      "sha256": "bcd9eae590811dffa2c333569ef939bbbf0863c34a5ddd03361111576ea09398"
     },
     "ghatna_chakra_medieval_india.jsonl": {
       "description": "Medieval India — every question, one JSON object per line",
       "records": 931,
-      "bytes": 959943,
-      "sha256": "9ab4605a10e013fe1fa512c432d7914814ca89203a29118a1e694647ea505e30"
+      "bytes": 959924,
+      "sha256": "e93ae5e6d684de2a6d9dc0f914975b841bc482469820e9ff8d03c0e9580be097"
     },
     "ghatna_chakra_modern_india.jsonl": {
       "description": "Modern India — every question, one JSON object per line",
       "records": 2732,
-      "bytes": 2975073,
-      "sha256": "56cf76b3059ebfd85eba758cfc71263f0fdf2881c18ff917def0e25c2fe975db"
+      "bytes": 2974913,
+      "sha256": "eec7506b8dc19471458137c4ad6234e82ca842191330eb1ee00be0bcc915332d"
     },
     "ghatna_chakra_all_india.jsonl": {
       "description": "Ancient + Medieval + Modern India — all questions, flagged, one JSON object per line",
       "records": 5005,
-      "bytes": 5265827,
-      "sha256": "c3d55c5a5cb00daa8916b9a3a0dc185d25818a4c864212d7a2cacb806ed0c5a0"
+      "bytes": 5265575,
+      "sha256": "f36ff0c331dc3733c45f9ed6f3f9efdee62b429c4883ee3ba5dedd018abeb635"
     },
     "ghatna_chakra_all_india_clean.jsonl": {
       "description": "Same records with quality.clean = true only (no unknown answer keys, no malformed or duplicate rows, no image-only questions)",
       "records": 4892,
-      "bytes": 5084309,
-      "sha256": "1ecff51522919e35db322859767d8badb7f2867188181aa8fd9c7536fbc69f1d"
+      "bytes": 5084071,
+      "sha256": "1495c2afd02d6eda9685358d1c421e609dcd4beff5cb2e7fc4e16a46d11e8eb7"
     },
     "ghatna_chakra_all_india.json": {
       "description": "Single JSON document: dataset metadata, subject/chapter index and every question",
       "records": 5005,
-      "bytes": 5948503,
-      "sha256": "baa2c6fd036a1e217330f0737fbbf3010a362563bc2605a685a194b1e9d71c02"
+      "bytes": 5948251,
+      "sha256": "8c3fb8af21798b66d31426fd2e601ec7172ca81d9e18ffcb21958e3fdb92b537"
     },
     "ghatna_chakra_all_india.csv": {
       "description": "Flat spreadsheet export (option_a … option_e, answer_key, flags)",
       "records": 5005,
-      "bytes": 3353297,
-      "sha256": "7393c5b3ab19553742771c36c7f135ecec9216a75ddf554a69ecb7292f61f5e9"
+      "bytes": 3353045,
+      "sha256": "2385032f881b61deeb14cba6edd09ef86f8d7e3b626bdbefb3578ca55aa0ccdb"
     },
     "ghatna_chakra_all_india.md": {
       "description": "Human- and LLM-friendly reading copy: question, options, answer, explanation",
       "records": 5005,
-      "bytes": 3329516,
-      "sha256": "258b760bf10c1e0604442419616cf06f8059065144b99b3dcdb0e633e6685af5"
+      "bytes": 3329264,
+      "sha256": "ce2d8e9333c4544e9b6f76fd2fbef41a2844af8788212c4ea583d5c5f5596085"
     }
   }
 }

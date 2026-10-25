@@ -161,7 +161,7 @@ asked in.
 **Explanation:** There are mainly eight types of food grains consumed by modern human society, namely barley, wheat, maize, millet, sorghum, mustard, oat and rice. These plants were present in the form of weeds in different areas, which were later grown as seeds by human beings at different places, in different times. Although, barley was the first grain to be cultivated by human beings during 8000 B. C. in western Asian countries located between the northeast Mediterranean Sea and Iran. Later, in the same area, wheat was also cultivated around 8000 B. C.
 *Asked in:* U.P.P.C.S. (Pre) 1997
 
-**Q14.** The earliest evidence of agriculture in Indian sub- continent comes from -
+**Q14.** The earliest evidence of agriculture in Indian subcontinent comes from -
 
 - **A.** Koldihwa
 - **B.** Lahuradeva
@@ -172,7 +172,7 @@ asked in.
 **Explanation:** According to the latest research, the earliest evidence of agriculture in Indian sub-continent has been reported from the Lahuradeva site in Sant Kabir Nagar district, Uttar Pradesh. The evidence of human activity and beginning of rice cultivation at this site dates back to around 8000- 7000 B. C. Significantly before this research, the earlier evidence of wheat was found at Mehrgarh (located in Balochistan, Pakistan) belonging to around 7000 B. C. and the earliest evidence of rice is known to be near the bank of the river Belan, district Prayagraj, from where rice bran was found. With above reference, if Lahuradeva is one option, then it will be the correct answer, but if Lahuradeva is not an option, then Mehrgarh would be the right answer.
 *Asked in:* U.P. Lower Sub. (Pre) 2004; U.P. Lower Sub. (Pre) 2008
 
-**Q15.** The earliest evidence of agriculture in the Indian Sub- continent has been obtained from -
+**Q15.** The earliest evidence of agriculture in the Indian Subcontinent has been obtained from -
 
 - **A.** Brahmagiri
 - **B.** Burzahom
@@ -350,7 +350,7 @@ asked in.
 **Explanation:** The rock shelters of Bhimbetka are located in AbdullahganjRaisen (M. P.). UNESCO has included the shell pictures of Bhimbetka in the list of its World Heritage Site. These caves exhibit the earliest traces of human life on the Indian subcontinent and include the pictures of an elephant, sambhar, deer etc. There are 500 pictures in 750 rock shelters.
 *Asked in:* M.P.P.C.S. (Spl) (Pre) 2004
 
-**Q31.** Which one of the following places is famous for pre- historic paintings ?
+**Q31.** Which one of the following places is famous for prehistoric paintings ?
 
 - **A.** Ajanta
 - **B.** Bhimbetka
@@ -1426,7 +1426,7 @@ asked in.
 **Explanation:** Dholavira is a Harappan site located in Kachchh district of Gujarat. The town was built in a rectangular shape. It was divided into three parts- Citadel, Middle town and Lower town.
 *Asked in:* Chhattisgarh P.C.S. (Pre) 2015
 
-**Q77.** Which one of the following ancient towns is well- known for its elaborate system of water harvesting and management by building a series of dams and channelizing water into connected reservoirs?
+**Q77.** Which one of the following ancient towns is well-known for its elaborate system of water harvesting and management by building a series of dams and channelizing water into connected reservoirs?
 
 - **A.** Dholavira
 - **B.** Kalibangan
@@ -1658,7 +1658,7 @@ asked in.
 - **D.** A superior race
 
 **Answer:** D — A superior race
-**Explanation:** 'Aryan' is a term meaning 'noble' which was used as a self- designation by Indo-Iranian people. In classic Sanskrit, the word Arya means- 'A nobleman'. The word was used by the people of the Vedic period in India as an ethnic label for themselves as well as to refer noble class. Scholars point out that even in ancient times, the idea of being an 'Aryan' was religious, cultural and linguistic, not racial.
+**Explanation:** 'Aryan' is a term meaning 'noble' which was used as a self-designation by Indo-Iranian people. In classic Sanskrit, the word Arya means- 'A nobleman'. The word was used by the people of the Vedic period in India as an ethnic label for themselves as well as to refer noble class. Scholars point out that even in ancient times, the idea of being an 'Aryan' was religious, cultural and linguistic, not racial.
 *Asked in:* I.A.S. (Pre) 1999; U.P.P.C.S. (Pre) 1999
 
 **Q2.** Meaning of the term 'Arya' in classical Sanskrit is
@@ -1669,7 +1669,7 @@ asked in.
 - **D.** A Noble man
 
 **Answer:** D — A Noble man
-**Explanation:** 'Aryan' is a term meaning 'noble' which was used as a self- designation by Indo-Iranian people. In classic Sanskrit, the word Arya means- 'A nobleman'. The word was used by the people of the Vedic period in India as an ethnic label for themselves as well as to refer noble class. Scholars point out that even in ancient times, the idea of being an 'Aryan' was religious, cultural and linguistic, not racial.
+**Explanation:** 'Aryan' is a term meaning 'noble' which was used as a self-designation by Indo-Iranian people. In classic Sanskrit, the word Arya means- 'A nobleman'. The word was used by the people of the Vedic period in India as an ethnic label for themselves as well as to refer noble class. Scholars point out that even in ancient times, the idea of being an 'Aryan' was religious, cultural and linguistic, not racial.
 *Asked in:* U.P. Lower Sub. (Pre) 1998
 
 **Q3.** Which one of the following is oldest Veda :
@@ -2589,7 +2589,7 @@ asked in.
 **Explanation:** During the Upanayana ceremony of the Kshatriya caste, the Trishtubh Mantra was prescribed. It symbolized the martial and heroic qualities associated with Kshatriyas, aligning with their warrior duties and societal responsibilities in Vedic tradition.
 *Asked in:* M.P.P.C.S. (Pre) 2024
 
-**Q86.** Sarga, Pratisarga, Vansa, Manvantara and Vanshanucha- rita are the indicators of -
+**Q86.** Sarga, Pratisarga, Vansa, Manvantara and Vanshanucharita are the indicators of -
 
 - **A.** Vedas
 - **B.** Puranas
@@ -2924,7 +2924,7 @@ asked in.
 **Explanation:** Gautama Buddha, also known as Siddhartha (childhood name), was born in 563 B. C. in Shakya Kshatriya family in Lumbini near Kapilvastu (Nepal). His father's name was Shuddhodana who was the chief of the Shakya clan. His mother was Mayadevi who was from the 'Koliya clan.' At the age of 29, he left his home on his horse "Kanthaka" accompanied by Channa and this was called "Mahabhinishkramana". He died at the age of 80 years in 483 B. C. at Kushinagar (the first capital city of Malla Kingdom) which is known as "Mahaparinirvana".
 *Asked in:* M.P.P.C.S. (Spl) (Pre) 2004
 
-**Q2.** Which of the events of Buddha's life is known as 'Ma- habhinishkramana'?
+**Q2.** Which of the events of Buddha's life is known as 'Mahabhinishkramana'?
 
 - **A.** His death
 - **B.** His birth
@@ -3246,7 +3246,7 @@ asked in.
 **Explanation:** The first Buddhist Council was held soon after the Mahaparinirvana of the Buddha, under the patronage of King Ajatashatru with the monk Mahakassapa presiding at Rajgriha, in the Saptaparni Cave. The idea was to preserve Buddha's teachings (Sutta) and rules for disciples (Vinaya). Ananda, one of the great disciples of Buddha, recited Suttas and Upali; another disciple recited Vinaya. Abhidhamma Pitaka was also included.
 *Asked in:* 67th B.P.S.C. (Pre) 2022
 
-**Q31.** Who among the following conducted the first Bud- dhist Council ?
+**Q31.** Who among the following conducted the first Buddhist Council ?
 
 - **A.** Ananda
 - **B.** Mahakassapa
@@ -3546,7 +3546,7 @@ asked in.
 **Explanation:** At present, the 'Bodhi Vriksha' at the Mahabodhi temple is not the real one, where Mahatma Buddha got the enlightenment. According to the Hiuen Tsang, a Chinese traveller, king Shashank destroyed the original tree in the seventh century. The present tree that we see was planted by the orders of Alexander Cunningham and is called the fifth generation tree. It is a heritage site and only fallen leaves of this tree are allowed to touch and pick. According to another source, this tree was planted 2 times by Ashoka, 1 time by Pushyamitra Shunga, 1 time by Purvaverma and at last by Cunnighum. So, it is 6th generation tree. Bihar Tourism department termed it as the 5th generation but due to conflicting claims BPSC has delected it from answer key.
 *Asked in:* 48th to 52nd B.P.S.C. (Pre) 2008
 
-**Q58.** Which of the following Buddhist sacred place is situ- ated on the bank of River Niranjana.
+**Q58.** Which of the following Buddhist sacred place is situated on the bank of River Niranjana.
 
 - **A.** Bodhgaya
 - **B.** Kushinagar
@@ -3747,7 +3747,7 @@ asked in.
 
 **Q76.** In ancient Indian Buddhist monasteries, a ceremony called Pavarana used to be held. It was the :
 
-- **A.** Occasion to elect the Sanghparinayaka and two speak- ers one on Dhamma and the other on Vinaya.
+- **A.** Occasion to elect the Sanghparinayaka and two speakers one on Dhamma and the other on Vinaya.
 - **B.** Confession by monks of their offences committed during their stay in the monasteries during the rainy season.
 - **C.** Ceremony of initiation of new person into the Buddhist Sangha in which the head is shaved and when yellow robes are offered.
 - **D.** Gathering of Buddhist monks on the next day to the full-moon day of Ashadha when they take up a fixed abode for the next four months of rainy season.
@@ -3812,7 +3812,7 @@ asked in.
 **Explanation:** The word stupa has been used for the first time in Rig Veda. In Rig Veda texts, stupa means "tree stem." Rigveda refers to a stupa raised by the king Varuna above the forest in a place having no foundation. Anything that is raised on the ground like a heap/pile might have been known as Stupa.
 *Asked in:* Chhattisgarh P.C.S. (Pre) 2015
 
-**Q82.** The Stupa site which is not connected with any inci- dent of Lord Buddha's life, is :
+**Q82.** The Stupa site which is not connected with any incident of Lord Buddha's life, is :
 
 - **A.** Sarnath
 - **B.** Sanchi
@@ -3834,7 +3834,7 @@ asked in.
 **Explanation:** The concept of Stupa predates Buddhism. Word Stupa is mentioned in texts like Rig Veda, Atharva Veda, Vajasaneyi Samhita, Taittiriya Samhita etc. Hence statement 1 is not correct. Stupas were usually repositories in which the remains and ashes of the dead were kept. As a result of the deep faith of common people in worshipping God and things related to God for the purpose of attaining salvation, the Stupa later on acquired its votive and commemorative structure.
 *Asked in:* I.A.S. (Pre) 2023
 
-**Q84.** Which is the correct chronological order of the follow- ing stupas?
+**Q84.** Which is the correct chronological order of the following stupas?
 
 - **A.** Bharhut, Sanchi, Amaravati, Dhamekh
 - **B.** Amaravati, Sanchi, Bharhut, Dhamekh
@@ -4001,7 +4001,7 @@ asked in.
 **Explanation:** In India, Gautam Buddha was worshipped first through idols by the Mahayana sect of Buddhism.
 *Asked in:* R.A.S./R.T.S.(Pre) 2010
 
-**Q99.** Which of the following laid the foundation of idol wor- ship in the country?
+**Q99.** Which of the following laid the foundation of idol worship in the country?
 
 - **A.** Jainism
 - **B.** Buddhism
@@ -4068,7 +4068,7 @@ asked in.
 **Explanation:** The Bhumisparsha Mudra of Gautama Buddha at Sarnath belongs to the Gupta period. This mudra represents steadfastness. The "Dhyani Buddha Akshobhya" is also associated with the earth witness mudra because he was immovable in keeping a vow never to feel anger or disgust at others. The mudra also symbolizes the union of skilful means (upaya), symbolized by the right hand touching the earth and wisdom (prajna), symbolized by the left hand on the lap in a meditation posture.
 *Asked in:* U.P.P.C.S.(Mains)2009
 
-**Q105.** Sarnath Buddha image of Bhumi Sparsh mudra be- longs to -
+**Q105.** Sarnath Buddha image of Bhumi Sparsh mudra belongs to -
 
 - **A.** Kushana period
 - **B.** Gupta period
@@ -4103,7 +4103,7 @@ asked in.
 
 **Q108.** Assertion (A) : Kushinagar was the capital of Malla Republic. Reason (R) : Lord Buddha's Mahaparinirvana took place in Kushinagar. Select the correct answer using the code given below :
 
-- **A.** Both (A) and (R) are true, and (R) is the correct ex- planation of (A).
+- **A.** Both (A) and (R) are true, and (R) is the correct explanation of (A).
 - **B.** Both (A) and (R) are true, but (R) is not the correct explanation of (A).
 - **C.** (A) is true, but (R) is false.
 - **D.** (A) is false, but (R) is true.
@@ -5031,7 +5031,7 @@ asked in.
 - **D.** Prabhash
 
 **Answer:** A — Jamali
-**Explanation:** Among the early visitors to Mahavira during his wandering was Jamali, his son-in- law. Jamali met Mahavira while the latter was in Kshatriya- Kundagram, the village where Mahavira was born. He took the vow together with five hundred of the warrior caste. Jamali was the first disciple of Lord Mahavira.
+**Explanation:** Among the early visitors to Mahavira during his wandering was Jamali, his son-inlaw. Jamali met Mahavira while the latter was in Kshatriya- Kundagram, the village where Mahavira was born. He took the vow together with five hundred of the warrior caste. Jamali was the first disciple of Lord Mahavira.
 *Asked in:* 47th B.P.S.C. (Pre) 2005
 
 **Q41.** Who was the first follower of Mahavira?
@@ -5042,7 +5042,7 @@ asked in.
 - **D.** Trishala
 
 **Answer:** A — Jamali
-**Explanation:** Among the early visitors to Mahavira during his wandering was Jamali, his son-in- law. Jamali met Mahavira while the latter was in Kshatriya- Kundagram, the village where Mahavira was born. He took the vow together with five hundred of the warrior caste. Jamali was the first disciple of Lord Mahavira.
+**Explanation:** Among the early visitors to Mahavira during his wandering was Jamali, his son-inlaw. Jamali met Mahavira while the latter was in Kshatriya- Kundagram, the village where Mahavira was born. He took the vow together with five hundred of the warrior caste. Jamali was the first disciple of Lord Mahavira.
 *Asked in:* U.P.P.C.S. (Pre) 2008
 
 **Q42.** Svetambara Agama was finally edited at the Jain Council of -
@@ -5638,7 +5638,7 @@ asked in.
 
 ## 7. Sixth century B.C.E - Political Condition
 
-**Q1.** Kuru Meerut, Delhi and Indraprastha Thaneshwar 2. Panchal Bareilly, Badaun, Ahichchhatra Farrukhabad etc. (North Panchal) and Kampilya (South Panchal) 3. Shurasena Brajmandal Areas Mathura 4. Vatsa Prayagraj and Kaushambi Kaushambi 5. Koshala Awadh area (Ayodhya Saket and Shravasti division) 6. Malla Kushinagar, Deoria Kushinara and etc. area Pawa 7. Kashi Varanasi Varanasi 8. Anga Bhagalpur and Champa Munger 9. Magadha Patna, Nalanda, Girivraj or Gaya etc. Rajgrih 10. Vajji Vaishali, Muzaffarpur, Vaishali Darbhanga (Bihar) and Mithila area of Nepal 11. Chedi Eastern Bundelkhand Sotthivati/Suktimati 12.Matsya Jaipur, Alwar and Viratnagar Bharatpur 13.Ashmaka Between Godavari Potan/Potali Valley and Narmada Valley 14.Avanti West and Central Ujjayini (N. Avanti) Malwa region and Mahishmati (S. Avanti) 15.Gandhar Western part of Pakistan Taxila and eastern part of Afghanistan 16.Kamboj Some part of Jammu Rajpur/Hatak and Kashmir and Hazara district (Pakistan) *Vajji was the largest and most powerful republic of the Buddha period. According to Puranas, the first dynasty to rule Magadha was 'Brihadratha'. The son of the first king of this dynasty was Jarasandha, who made Girivraj (Rajgriha) his capital. The Rajgriha has been described as the capital of Jarasandha in the Sabha Parva of Mahabharata. According to Buddhist texts, the first great ruler of Magadha was Bimbisara. He was related to the Haryanka dynasty. *The famous historical physician Jivaka, contemporary of Lord Buddha was related to the court of Bimbisara. Bimbisara sent Jivaka to the state of Avanti's king Chandapradyota for medicinal service. *Bimbisara is said to be the first and most powerful emperor of the Haryanka dynasty who was also the real founder of Magadha Empire. *The ruler of Magadha, Ajatashatru (492-460 BC) killed his father Bimbisara, the founder of Haryanka dynasty and sat on the throne. He was also killed by his son Udayin (different from the king Udayan of Vatsa) for the same reason. *Pataliputra was founded by Ajatashatru. *Udayin shifted the capital of Magadha Empire from Rajgriha to Pataliputra. It was also the capital of Sishunaga dynasty, Nanda dynasty, and Maurya dynasty. Here Maurya Emperor Ashok organised the Third Buddhist Council (247 B.C) which was presided over by Moggaliputta Tissa. The first Jain convention was held here too. *Megasthenes in his book named 'Indica' has described the prosperity and the ruling system in the period of Chandragupta Maurya. Pataliputra became the prime centre for Buddhists during the Gupta period. But the importance of this city started declining in later Gupta Period. *Kashi was the most powerful city in the early 6th century B.C. It was one of the richest and most prosperous Mahajanapadas. Kashi had a long rivalry with Koshala, Anga and Magadha. They always struggled for supremacy. *In sixth century BC, Chedi Mahajanapada was located in modern Bundelkhand and its adjacent parts. Its capital was 'Sotthivati' which is known as 'Suktimati' of Mahabharata. *Kharvel was the most important emperor of Chedi dynasty of Kalinga. His Hathigumpha inscription is the major source of information. The engraving of canals in Kalinga by King Mahapadmananda is encrypted in this inscription. It is also the first inscription which tells about the engraving of canals. It describes the donation of villages to Jain monks. This inscription also shows that Kharvel defeated the three states Chola, Chera, and Pandyas of the South. *The town Kalpi is situated in the Jalaun district of Uttar Pradesh on the bank of river Yamuna. During the ancient period, it was famous as 'Kalpriya' which was later known as Kalpi. It was built during 4th century B.C. by King Vasudeva. *Kuru Mahajanpad was located in the areas of Meerut, Delhi and Thaneswar. Hastinapur city of Mahabharata was located in this state. *The Panchala Mahajanapada was made up of modern Ruhelkhand areas of Bareilly, Badaun and Far- rukhabad districts. Initially, there were two parts - the capital of North Panchal was Ahichchhatra and the South Panchala was Kampilya. The famous city of Kanyakubja was located in Panchala Mahajanpada. The boundaries of the Panchal range from the foothills of the Himalayas to Chambal River in the south, Koshala in the east and Kuru in the west. Panchal was originally a monarchy, but it appears that in 6th-5th century B.C. it became a republic. *Shurasena Mahajanapada was founded in the modern Braja mandal. Its capital was Mathura. Ancient Greek writers called this state 'Sourasenoi' and its capital as 'Mathora'. Ac- cording to the Buddhist text 'Anguttaranikaya' and Jain text 'Bhagvati-Sutra,' the 'Assaka' or 'Ashmaka' was located in between Godavari and Narmada Rivers during the 6th century whose capital was Paithan/Potan or Potali (Ancient name Prathisthana). *Avanti Mahajanapada was found in the area of western and central Malwa. There were two parts of this Mahajanapada - the capital of Northern Avanti was Ujjayini and the capital of Southern Avanti was Mahishmati. *Ujjayini was the capital of Avanti during the Buddha period. The legend of Udayan-Vasavadatta is related to Ujjain. Great poet Bhasa has described this story in his drama 'Svapnavasvadattam', the love story of Vatsa king Udayan and Vasavadatta, the daughter of Avanti King Pradyot. *In the northwestern part of ancient India, which was also called Uttarapatha, there were two Janapadas. These were - Gandhara and Kamboj. Gandhara Mahajanpada was extended from western part of Pakistan to eastern part of Afghanistan. It is known from Ramayana that Takshashila Nagar was founded by Taksha, the son of Bharat. *Four of the sixteen Mahajanpadas - Koshal, Magadha, Vatsa and Avanti were very powerful. Out of the sixteen Maha- janpadas, eight were present in Uttar Pradesh. These were Mahajanpadas - Kashi, Koshal, Vatsa, Malla, Kuru, Panchal, Shurasena and Chedi. *Bimbisara died in 492 BC. After the Bimbisara, his son 'Kunika' Ajatashatru (is about 492-460 BC) became the ruler of Magadha. He was an imperialist like his father. The struggle between Magadha and Koshala kingdoms started in the early years of his rule. But later, there was a treaty between the ruler of Magadha Ajatashatru and Koshal King Prasenjit. Prasenjit married his daughter, Vajira, to Ajatashatru and gave kashi as dowry/bath money. The sequence of the dynasties that ruled Magadh is as follows : Haryanka dynasty 544 BC - 412 BC Shishunaga dynasty 412 BC-344 BC Nanda dynasty 344 BC - 321 BC Mauryan dynasty 321 BC - 185 BC Shunga dynasty 185 BC - 75 BC According to Puranas, the founder of Nanda dynasty, Mahapadmananda was a born of a Shudra woman. He assumed the title of 'Ekarata' *Chandragupta Maurya had established the Mauryan empire after defeating the last Nanda ruler Dhanananda with the help of his preceptor Chanakya. *The Shunga dynasty was founded by Mauryan commander Pushyamitra Shunga after killing the last Mauryan ruler Brihadratha in 185 BC. *Nanda dynasty of Magadha was founded after ending Shishunaga dynasty. There were 9 kings in Nanda dynasty- (1) Ugrasen, called Mahapadmananda in Puranas (2) Panduk (3) Pandugati (4) Bhootpal (5) Rastrapal (6) Govishanak (7) Dashasiddhak (8) Kaivart (9) Dhanananda. During last years of Nanda dynasty, the kingdom witnessed turbulence because of extortion and imposition of heavy taxes on small items. Taking advantage of this, Chandragupta Maurya with the help of Chanakya killed Dhananand and established Maurya Empire. The ruling period of the kings from Bimbisara to Nandas according to Buddhist literature- Name of Dynasty King's Name Reign Haryanka Bimbisara 544 - 492 BCE (544 - 412 BCE) Ajatashatru 492 - 460 BCE Udayin and 460 - 412 BCE his successor Shishunaga Shishunaga 412 - 394 BCE (412 - 344 BCE) Kakavarna 394 - 366 BCE 10 sons of 366 - 344 BCE Kakavarna Nanda Dynasty Ugrasen, 344 - 321 BCE (344 - 321 BCE) (Mahapadmananda) and their 8 sons *Aahat coins or Punch marked coins were the earliest extant coins in India made of silver. The marks on them were made by the stamp, so they were called Aahat coins or Punch marked coins. These coins were found in circulation between 7th-6th centuries B.C and 1st century A.D. *Panini was known for his Sanskrit grammar. He was born at Salatura in Pushkalavati, Gandhara. The Ashtadhyayi is one of the earliest known grammars of Sanskrit. The Ashtadhyayi consist of 4000 sutras or rules distributed among (eight chapters) which are each sub-divided into four sections of padas. Panini mentioned as many as 22 different Janapadas but also mentions 3 most important provinces viz. Magadha, Ashmak and Kamboj. *Nanyadev was the founder of Karnata dynasty. He was a great warrior. The capital of Karnata dynasty was Simraon. The period of Karnata dynasty (1097 AD - 1324 AD) was known as the golden period of Mithila. *The last ruler of Karnata Dynasty was Harisimha Dev. He was a great patron of art and literature. He was the propounder of Panji system (genealogical system). The ruling period of the kings from Bimbisara to Nandas according to the Puranas - Kings Reign (in years) Shishunaga 40 Kakvarna 26 Kshemdharman 36 Kshemjit or Kshatrojas 24 Bimbisara 28 Ajatashatru 25 Darshak 35 Udayin 33 Nandivardhana 40 Mahanandin 43 Mahapadmananda 100 (40 years according to some and his eight sons scholars). 1. The earliest extant coins of India were of -
+**Q1.** Kuru Meerut, Delhi and Indraprastha Thaneshwar 2. Panchal Bareilly, Badaun, Ahichchhatra Farrukhabad etc. (North Panchal) and Kampilya (South Panchal) 3. Shurasena Brajmandal Areas Mathura 4. Vatsa Prayagraj and Kaushambi Kaushambi 5. Koshala Awadh area (Ayodhya Saket and Shravasti division) 6. Malla Kushinagar, Deoria Kushinara and etc. area Pawa 7. Kashi Varanasi Varanasi 8. Anga Bhagalpur and Champa Munger 9. Magadha Patna, Nalanda, Girivraj or Gaya etc. Rajgrih 10. Vajji Vaishali, Muzaffarpur, Vaishali Darbhanga (Bihar) and Mithila area of Nepal 11. Chedi Eastern Bundelkhand Sotthivati/Suktimati 12.Matsya Jaipur, Alwar and Viratnagar Bharatpur 13.Ashmaka Between Godavari Potan/Potali Valley and Narmada Valley 14.Avanti West and Central Ujjayini (N. Avanti) Malwa region and Mahishmati (S. Avanti) 15.Gandhar Western part of Pakistan Taxila and eastern part of Afghanistan 16.Kamboj Some part of Jammu Rajpur/Hatak and Kashmir and Hazara district (Pakistan) *Vajji was the largest and most powerful republic of the Buddha period. According to Puranas, the first dynasty to rule Magadha was 'Brihadratha'. The son of the first king of this dynasty was Jarasandha, who made Girivraj (Rajgriha) his capital. The Rajgriha has been described as the capital of Jarasandha in the Sabha Parva of Mahabharata. According to Buddhist texts, the first great ruler of Magadha was Bimbisara. He was related to the Haryanka dynasty. *The famous historical physician Jivaka, contemporary of Lord Buddha was related to the court of Bimbisara. Bimbisara sent Jivaka to the state of Avanti's king Chandapradyota for medicinal service. *Bimbisara is said to be the first and most powerful emperor of the Haryanka dynasty who was also the real founder of Magadha Empire. *The ruler of Magadha, Ajatashatru (492-460 BC) killed his father Bimbisara, the founder of Haryanka dynasty and sat on the throne. He was also killed by his son Udayin (different from the king Udayan of Vatsa) for the same reason. *Pataliputra was founded by Ajatashatru. *Udayin shifted the capital of Magadha Empire from Rajgriha to Pataliputra. It was also the capital of Sishunaga dynasty, Nanda dynasty, and Maurya dynasty. Here Maurya Emperor Ashok organised the Third Buddhist Council (247 B.C) which was presided over by Moggaliputta Tissa. The first Jain convention was held here too. *Megasthenes in his book named 'Indica' has described the prosperity and the ruling system in the period of Chandragupta Maurya. Pataliputra became the prime centre for Buddhists during the Gupta period. But the importance of this city started declining in later Gupta Period. *Kashi was the most powerful city in the early 6th century B.C. It was one of the richest and most prosperous Mahajanapadas. Kashi had a long rivalry with Koshala, Anga and Magadha. They always struggled for supremacy. *In sixth century BC, Chedi Mahajanapada was located in modern Bundelkhand and its adjacent parts. Its capital was 'Sotthivati' which is known as 'Suktimati' of Mahabharata. *Kharvel was the most important emperor of Chedi dynasty of Kalinga. His Hathigumpha inscription is the major source of information. The engraving of canals in Kalinga by King Mahapadmananda is encrypted in this inscription. It is also the first inscription which tells about the engraving of canals. It describes the donation of villages to Jain monks. This inscription also shows that Kharvel defeated the three states Chola, Chera, and Pandyas of the South. *The town Kalpi is situated in the Jalaun district of Uttar Pradesh on the bank of river Yamuna. During the ancient period, it was famous as 'Kalpriya' which was later known as Kalpi. It was built during 4th century B.C. by King Vasudeva. *Kuru Mahajanpad was located in the areas of Meerut, Delhi and Thaneswar. Hastinapur city of Mahabharata was located in this state. *The Panchala Mahajanapada was made up of modern Ruhelkhand areas of Bareilly, Badaun and Farrukhabad districts. Initially, there were two parts - the capital of North Panchal was Ahichchhatra and the South Panchala was Kampilya. The famous city of Kanyakubja was located in Panchala Mahajanpada. The boundaries of the Panchal range from the foothills of the Himalayas to Chambal River in the south, Koshala in the east and Kuru in the west. Panchal was originally a monarchy, but it appears that in 6th-5th century B.C. it became a republic. *Shurasena Mahajanapada was founded in the modern Braja mandal. Its capital was Mathura. Ancient Greek writers called this state 'Sourasenoi' and its capital as 'Mathora'. According to the Buddhist text 'Anguttaranikaya' and Jain text 'Bhagvati-Sutra,' the 'Assaka' or 'Ashmaka' was located in between Godavari and Narmada Rivers during the 6th century whose capital was Paithan/Potan or Potali (Ancient name Prathisthana). *Avanti Mahajanapada was found in the area of western and central Malwa. There were two parts of this Mahajanapada - the capital of Northern Avanti was Ujjayini and the capital of Southern Avanti was Mahishmati. *Ujjayini was the capital of Avanti during the Buddha period. The legend of Udayan-Vasavadatta is related to Ujjain. Great poet Bhasa has described this story in his drama 'Svapnavasvadattam', the love story of Vatsa king Udayan and Vasavadatta, the daughter of Avanti King Pradyot. *In the northwestern part of ancient India, which was also called Uttarapatha, there were two Janapadas. These were - Gandhara and Kamboj. Gandhara Mahajanpada was extended from western part of Pakistan to eastern part of Afghanistan. It is known from Ramayana that Takshashila Nagar was founded by Taksha, the son of Bharat. *Four of the sixteen Mahajanpadas - Koshal, Magadha, Vatsa and Avanti were very powerful. Out of the sixteen Mahajanpadas, eight were present in Uttar Pradesh. These were Mahajanpadas - Kashi, Koshal, Vatsa, Malla, Kuru, Panchal, Shurasena and Chedi. *Bimbisara died in 492 BC. After the Bimbisara, his son 'Kunika' Ajatashatru (is about 492-460 BC) became the ruler of Magadha. He was an imperialist like his father. The struggle between Magadha and Koshala kingdoms started in the early years of his rule. But later, there was a treaty between the ruler of Magadha Ajatashatru and Koshal King Prasenjit. Prasenjit married his daughter, Vajira, to Ajatashatru and gave kashi as dowry/bath money. The sequence of the dynasties that ruled Magadh is as follows : Haryanka dynasty 544 BC - 412 BC Shishunaga dynasty 412 BC-344 BC Nanda dynasty 344 BC - 321 BC Mauryan dynasty 321 BC - 185 BC Shunga dynasty 185 BC - 75 BC According to Puranas, the founder of Nanda dynasty, Mahapadmananda was a born of a Shudra woman. He assumed the title of 'Ekarata' *Chandragupta Maurya had established the Mauryan empire after defeating the last Nanda ruler Dhanananda with the help of his preceptor Chanakya. *The Shunga dynasty was founded by Mauryan commander Pushyamitra Shunga after killing the last Mauryan ruler Brihadratha in 185 BC. *Nanda dynasty of Magadha was founded after ending Shishunaga dynasty. There were 9 kings in Nanda dynasty- (1) Ugrasen, called Mahapadmananda in Puranas (2) Panduk (3) Pandugati (4) Bhootpal (5) Rastrapal (6) Govishanak (7) Dashasiddhak (8) Kaivart (9) Dhanananda. During last years of Nanda dynasty, the kingdom witnessed turbulence because of extortion and imposition of heavy taxes on small items. Taking advantage of this, Chandragupta Maurya with the help of Chanakya killed Dhananand and established Maurya Empire. The ruling period of the kings from Bimbisara to Nandas according to Buddhist literature- Name of Dynasty King's Name Reign Haryanka Bimbisara 544 - 492 BCE (544 - 412 BCE) Ajatashatru 492 - 460 BCE Udayin and 460 - 412 BCE his successor Shishunaga Shishunaga 412 - 394 BCE (412 - 344 BCE) Kakavarna 394 - 366 BCE 10 sons of 366 - 344 BCE Kakavarna Nanda Dynasty Ugrasen, 344 - 321 BCE (344 - 321 BCE) (Mahapadmananda) and their 8 sons *Aahat coins or Punch marked coins were the earliest extant coins in India made of silver. The marks on them were made by the stamp, so they were called Aahat coins or Punch marked coins. These coins were found in circulation between 7th-6th centuries B.C and 1st century A.D. *Panini was known for his Sanskrit grammar. He was born at Salatura in Pushkalavati, Gandhara. The Ashtadhyayi is one of the earliest known grammars of Sanskrit. The Ashtadhyayi consist of 4000 sutras or rules distributed among (eight chapters) which are each sub-divided into four sections of padas. Panini mentioned as many as 22 different Janapadas but also mentions 3 most important provinces viz. Magadha, Ashmak and Kamboj. *Nanyadev was the founder of Karnata dynasty. He was a great warrior. The capital of Karnata dynasty was Simraon. The period of Karnata dynasty (1097 AD - 1324 AD) was known as the golden period of Mithila. *The last ruler of Karnata Dynasty was Harisimha Dev. He was a great patron of art and literature. He was the propounder of Panji system (genealogical system). The ruling period of the kings from Bimbisara to Nandas according to the Puranas - Kings Reign (in years) Shishunaga 40 Kakvarna 26 Kshemdharman 36 Kshemjit or Kshatrojas 24 Bimbisara 28 Ajatashatru 25 Darshak 35 Udayin 33 Nandivardhana 40 Mahanandin 43 Mahapadmananda 100 (40 years according to some and his eight sons scholars). 1. The earliest extant coins of India were of -
 
 - **A.** Copper
 - **B.** Gold
@@ -6672,7 +6672,7 @@ asked in.
 **Explanation:** The unification of India had taken proper shape in the leadership of Chandragupta Maurya. Early victories of Chandragupta Maurya stretched his boundaries from Beas to Indus river. Junagadh inscription of Rudradaman proved his sovereignty over Western India. The unified Mauryan empire extended from Bengal and Assam in the east to modern-day Afghanistan in the west, to Kashmir in the north and the Deccan plateau in the south.
 *Asked in:* U.P.P.C.S. (Pre) 1991
 
-**Q26.** Which of the following is not associated with Chan- dragupta Maurya?
+**Q26.** Which of the following is not associated with Chandragupta Maurya?
 
 - **A.** Susima
 - **B.** Sanchi
@@ -7015,7 +7015,7 @@ asked in.
 **Explanation:** Ashokan inscriptions describe the history of Ashoka properly. The inscription can be divided into three classes; (1) Rock inscription/petrograph (2) Column inscription (3) Cave inscription. Rock inscription is a group of 14 inscriptions which were found at different places - Shahbazgarhi, Mansehra, Kalsi, Girnar, Dhauli, Jaugada, Yerragudi and Sopara. Most of the inscriptions of Ashoka are written in the Prakrit language and Brahmi script, and only two inscriptions, Shahbazgarhi and Mansehra are in Kharosthi script. One ruined inscription, written in Aramaic script, was found from Taxila. Shar-i-Kuna (Kandhar Inscription) is in the bilingual (Greek-Aramaic) script while one Aramaic script of Ashokan inscription was obtained from Laghman.
 *Asked in:* 44th B.P.S.C. (Pre) 2000
 
-**Q57.** Consider the following statements with reference to the inscriptions of Ashoka : 1. Mostof the inscriptions are in the Prakrit language and Brahmi script. 2. The inscriptions found at Mansehra and Shahba- zgarhi are in the Prakrit language and Kharoshthi script. Select the correct answer from the code given below :
+**Q57.** Consider the following statements with reference to the inscriptions of Ashoka : 1. Mostof the inscriptions are in the Prakrit language and Brahmi script. 2. The inscriptions found at Mansehra and Shahbazgarhi are in the Prakrit language and Kharoshthi script. Select the correct answer from the code given below :
 
 - **A.** Only 1
 - **B.** Only 2
@@ -7913,7 +7913,7 @@ asked in.
 **Explanation:** Justin and other Greek authors stated Chandragupta Maurya as "Sandrocottus." Greek authors mentioned Bindusara as Amitrachates (Amitraghat) while Ashoka was mentioned as Piyadasi in his inscriptions. Vishnugupta is another name of Chanakya, the prime minister of Chandragupta Maurya.
 *Asked in:* U.P.U.D.A./L.D.A. (Pre) 2001
 
-**Q138.** Match List I with List II List-I List-II Event/Place Connected with Person A. Chola Gangam Lake 1. Chandragupta Maurya B. Appointment of 2. Harshavardhan DharmaMahamatra C. Assembly at Prayags 3. Rajendra I D. Sudarshan Lake 4. Ashoka Select the correct answer using the codes given be- low: A B C D
+**Q138.** Match List I with List II List-I List-II Event/Place Connected with Person A. Chola Gangam Lake 1. Chandragupta Maurya B. Appointment of 2. Harshavardhan DharmaMahamatra C. Assembly at Prayags 3. Rajendra I D. Sudarshan Lake 4. Ashoka Select the correct answer using the codes given below: A B C D
 
 - **A.** 3 4 2 1
 - **B.** 1 4 2 3
@@ -8392,7 +8392,7 @@ asked in.
 **Explanation:** Taxila University was the junction where students of different countries met each other and exchanged their knowledge. Kautilya, Chandragupta Maurya and Ayurvedacharya Charak, King Prasenjit of Koshala, Ayurvedacharya Jivak of Bimbisar, Vasubandhu, etc. studied at Taxila University. Thus, options (c) and (d), both are correct.
 *Asked in:* U.P. Lower Sub. (Pre) 2015
 
-**Q32.** Consider the following dynasties of Ancient India: 1. Shunga 2. Maurya 3. Kushana 4. Kanva Which of the following is the correct chronological or- der of their rule?
+**Q32.** Consider the following dynasties of Ancient India: 1. Shunga 2. Maurya 3. Kushana 4. Kanva Which of the following is the correct chronological order of their rule?
 
 - **A.** 2-1-4-3
 - **B.** 1-2-3-4
@@ -8712,7 +8712,7 @@ asked in.
 **Explanation:** The correctly matched list is as follows: List-I List-II Shunga Pataliputra Satavahana Paithan/Pratishthan Kadamb Banvasi Chandel Mahoba
 *Asked in:* R.A.S./R.T.S. (Pre) 2018
 
-**Q61.** Match List I with List II List-I List-II Places in Ancient Presently in which India State A) Karnasuvarna 1) Maharashtra B) Pragjyotish 2) Gujarat C) Girnar 3) West Bengal D) Pratishthan 4) Assam Select the correct answer using the codes given be- low: A B C D
+**Q61.** Match List I with List II List-I List-II Places in Ancient Presently in which India State A) Karnasuvarna 1) Maharashtra B) Pragjyotish 2) Gujarat C) Girnar 3) West Bengal D) Pratishthan 4) Assam Select the correct answer using the codes given below: A B C D
 
 - **A.** 4 3 1 2
 - **B.** 3 4 2 1
@@ -9793,7 +9793,7 @@ asked in.
 **Explanation:** Warangal was famous for production of iron equipment. 'Agaria' people lived there, and iron making was their traditional occupation.
 *Asked in:* U.P. U.D.A./L.D.A. (Pre) 2001
 
-**Q79.** With reference to the period of Gupta dynasty in an- cient India, the towns Ghantasala, Kadura and Chaul were well known as
+**Q79.** With reference to the period of Gupta dynasty in ancient India, the towns Ghantasala, Kadura and Chaul were well known as
 
 - **A.** ports handling foreign trade
 - **B.** capitals of powerful kingdoms
@@ -10215,7 +10215,7 @@ asked in.
 **Explanation:** The doctrine of Apurva/Apoorv is related to Mimamsa philosophy. As per Mimamsa, Apurva is an unseen force that is a mediator between deeds performance (Karma) and their result. The deeds performed in this world create an unseen force known as Apurva i. e something that was not there before the performance of deeds.
 *Asked in:* [Chhattisgarh P.C.S. (Pre)-2018]
 
-**Q117.** Which of the following philosophies of India pro- pounded the atom theory?
+**Q117.** Which of the following philosophies of India propounded the atom theory?
 
 - **A.** Yoga
 - **B.** Nyaya
@@ -11246,7 +11246,7 @@ asked in.
 **Explanation:** Rashtrakuta rulers built most of the Ellora caves.
 *Asked in:* U.P.P.S.C. (GIC) 2010; U.P.P.C.S. (Pre) 1999
 
-**Q27.** With reference to the history of Indian rock-cut architecture, consider the following statements 1. The caves at Badami are the oldest surviving rock- cut caves in India, 2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya. 3. At Ellora, caves were made for different faiths. Which of the statements given above is /are correct?
+**Q27.** With reference to the history of Indian rock-cut architecture, consider the following statements 1. The caves at Badami are the oldest surviving rockcut caves in India, 2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya. 3. At Ellora, caves were made for different faiths. Which of the statements given above is /are correct?
 
 - **A.** Only 1
 - **B.** 2 and 3
@@ -11290,7 +11290,7 @@ asked in.
 **Explanation:** Ellora caves, locally known as 'Verul Leni' are located 30 km away from Chhatrapati Sambhaji Nagar in Maharashtra. In total, there are 4 caves. Among them, 1 to 12 belong to Buddhists, caves 13 to 29 are devoted to Hindus and caves 30 to 34 belong to Jains.
 *Asked in:* U.P.P.C.S. (Mains) 2002; U.P.P.C.S. (Mains) 2006
 
-**Q31.** Which of the following temples is an example of rock- cut architecture?
+**Q31.** Which of the following temples is an example of rockcut architecture?
 
 - **A.** Shore Temple, Mamallapuram.
 - **B.** Rajarajeshwara Temple, Thanjavur.
@@ -11457,7 +11457,7 @@ asked in.
 **Explanation:** Dashavatar temple, Deogarh (Lalitpur) near Jhansi is a temple of Gupta period and is earliest known Panchayatan temple in North India. Garhwa fort is a temple complex in Shankargarh, Prayagraj belonging to Gupta period.
 *Asked in:* 68th B.P.S.C. (Pre) 2022
 
-**Q46.** The temple at Deogarh near Jhansi and the sculptures in the temple at Garhwa near Allahabad are impor- tant remains of
+**Q46.** The temple at Deogarh near Jhansi and the sculptures in the temple at Garhwa near Allahabad are important remains of
 
 - **A.** Rashtrakuta art
 - **B.** Gupta art
@@ -12210,7 +12210,7 @@ asked in.
 **Explanation:** A special feature of the Chola dynasty was the autonomy of village administration, which was a speciality of theirs. The Chola village administration was very systematic and well-developed. In fact, the autonomous administration was implemented in the village only during the Chola era.
 *Asked in:* M.P.P.C.S. (Pre) 2014
 
-**Q14.** Which medieval Indian empire was famous for elabo- rated local self-government?
+**Q14.** Which medieval Indian empire was famous for elaborated local self-government?
 
 - **A.** Chalukya
 - **B.** Chola
@@ -12443,14 +12443,14 @@ asked in.
 **Explanation:** Vijayabahu, the Ceylon king proclaimed independent Sinhala Island during the period of Kulottunga-I but Kulottunga did not show any incivility and married his daughter with Sinhala prince Virapperumal.
 *Asked in:* U.P.P.C.S. (Pre) 2012
 
-**Q35.** Given below are two statements, one is labelled as As- sertion (A) and other as Reason (R): Assertion (A) : We have much more information about Cholas than their predecessors. Reason (R) : The Chola rulers adopted the practice of having inscriptions written on the walls of temples giving a historical narrative of their victories. Select the correct answer from the codes given below. Code :
+**Q35.** Given below are two statements, one is labelled as Assertion (A) and other as Reason (R): Assertion (A) : We have much more information about Cholas than their predecessors. Reason (R) : The Chola rulers adopted the practice of having inscriptions written on the walls of temples giving a historical narrative of their victories. Select the correct answer from the codes given below. Code :
 
-- **A.** Both (A) and (R) are true and (R) is the correct expla- nation of (A)
+- **A.** Both (A) and (R) are true and (R) is the correct explanation of (A)
 - **B.** Both (A) and (R) are true and (R) is not the correct explanation of (A)
 - **C.** (A) is true but (R) is false
 - **D.** (A) is false but (R) is true
 
-**Answer:** A — Both (A) and (R) are true and (R) is the correct expla- nation of (A)
+**Answer:** A — Both (A) and (R) are true and (R) is the correct explanation of (A)
 **Explanation:** We have much more information about Cholas rather than their predecessors. Rajaraja - I & Rajendra - I had written inscriptions on the walls of temples. Rajaraja - I started the tradition of writing & collecting the tales of victories of his ancestors through written inscriptions. Kings after him followed his suit. Hence Assertion (A) & Reason (R) both are correct. So option (a) is correct.
 *Asked in:* U.P.P.C.S. (Pre) 2020
 
@@ -12542,7 +12542,7 @@ asked in.
 **Explanation:** Aihole inscription is an authentic source for Pulakesin - II history. It is engraved in Sanskrit and southern Brahmi language and was written by Ravikirti. At the end of commendation, the author claimed that he had gained fame like Kalidasa and Bharavi by writing this. Thus, the name of poet Kalidasa is mentioned in the Aihole inscription.
 *Asked in:* U.P.P.C.S. (Mains) 2013
 
-**Q44.** Which of the following King, did send two naval expe- ditions to Ceylon in 642 AD?
+**Q44.** Which of the following King, did send two naval expeditions to Ceylon in 642 AD?
 
 - **A.** Rajaraj
 - **B.** Narasimha Verman I
@@ -12983,7 +12983,7 @@ asked in.
 **Explanation:** The Chera dynasty ruled over the southwestern part of South India (present-day Kerala and parts of Tamil Nadu). Karur/ Karuvur was their capital. According to some sources, their capital is also mentioned as Thondi. Its other name was Vanchi.
 *Asked in:* 70th B.P.S.C. (Pre) 2024
 
-**Q84.** Arrange the names of the following Pallava rulers ac- cording to their reign in correct chronological order and select the correct answer from the codes given below : 1. Parmeshvaravarman I 2. Narsinghvarman I 3. Nandivarman II 4. Mahendravarman I Codes :
+**Q84.** Arrange the names of the following Pallava rulers according to their reign in correct chronological order and select the correct answer from the codes given below : 1. Parmeshvaravarman I 2. Narsinghvarman I 3. Nandivarman II 4. Mahendravarman I Codes :
 
 - **A.** 4, 2, 1, 3
 - **B.** 4, 3, 1, 2
@@ -14871,7 +14871,7 @@ asked in.
 **Explanation:** In 1420 A. D. brother of Ali Shah, Shahi Khan, sat on the throne of Kashmir with the name of Zain-ul-Abidin. He was greatest ruler of Kashmir who ruled for nearly 50 years. On account of his liberal religious policy, promotion of learning, and interest in art and architecture he was called 'Akbar of Kashmir'.
 *Asked in:* [64th B.P.S.C.(Pre)-2018]
 
-**Q70.** What was the original name of ruler of Kashmir Zain- ul-Abidin?
+**Q70.** What was the original name of ruler of Kashmir Zainul-Abidin?
 
 - **A.** Ali Shah
 - **B.** Hasan Shah
@@ -16186,7 +16186,7 @@ asked in.
 
 ## 4. Tughluq Dynasty
 
-**Q1.** 1 to be collected was or of the yield. In case of famine, 10 11 land tax was collected with regard to capacity to pay. Tax-free jagirs were granted to the Government employees without giving any share in the revenue. *The harsh punishments of the Alauddin's time were abolished, but those who did not pay taxes, the dishonest ones with the government money and the thieves were severely punished. *Among all the sultans of Delhi Sultanate, Muhammad-Bin Tughluq (1325-1351 A.D.) was the most learned and educated ruler. *He was well versed in many disciplines including astronomy, mathematics, medicine etc. *Muhammad-Bin Tughluq established a new department, Diwan-i-Amir-i-Kohi, for the advancement of agriculture. *The main work of this department was to provide more support to the farmers and bring more land under agricultural work. *A long piece of land measuring about 30 karohs × 30 karohs was chosen for it. *One of the most important experiments of Muhammad Tughluq was to move the capital to Daulatabad (Devgiri) from Delhi. *According to Dr. K.A. Nizami, Sultan Qutbuddin Mubarak Khalji named Devgiri as Qutbabad and Muhammad Tughluq named it Daulatabad. *Muhammad-Bin Tughluq had inscribed a sentence on his coins, 'Al Sultan Zilli Allah' (Sultan is the shadow of God), 'God is the supporter of Sultan'. * Golden coins issued by Muhammad-Bin Tughluq were called 'Dinar' by Ibn Battuta. *Barani describes five major policies of Muhammad Tughluq- (1) Tax increase in Doab, (2) Making Devgiri (Daulatabad) new capital, (3) Issuing token currency, (4) Planned expedition to Khurasan and (5) Qarachil Expedition. *Ibn Battuta (1304-77 AD) was an African traveller of Moroccan origin. *He came to India during 1333-42 AD. in the reign of Muhammad-Bin Tughluq (1325-51 A.D.). *Muhammad-Bin Tughluq appointed him as the Qazi of Delhi. Later in 1342 AD, he was sent to China as an ambassador of the Sultan. *Ibn Battuta presented the details of his journey in his book Kitab-ul-Rihla. *Details of the postal system were known from Ibn Batuta's travelogue. *Muhammad-Bin Tughluq is accussed by Isami that he was the first sultan of Delhi who used to participate in the festival of Hindus, mainly on Holi. *He also appointed non-Turks and Indian Muslims to government posts. Due to this, Barani harshly criticized him for promoting low-born people/low-occupation persons like gardener, weaver, barber, cook, etc. *Muhammad-Bin Tughluq died on March 20, 1351. On his death, Badayuni wrote, "The king was freed from his people, and the people from their king" *Firuz Shah Tughluq started some welfare programmes for the benefit of common people. *After opening an office (employment office) for the appointment of the individual through investigating the qualifications and merit of each individual and giving appointments to as many people as possible - he tried to solve the problem of unemployment. *Firuz Shah Tughluq used to donate property to the saints and religious people. He had established a department 'Diwan-i-Khairat', which provided financial assistance to the poor Muslims, orphaned women and widows, and arranged marriages for poor Muslim girls. *Firuz Tughluq was the first Indian ruler to arrange Hajj at state expenditure. He also established a Khairati hospital called 'Dar-ul-Shafa/Shifa' where skilled Haqim were employed. *Firuz Shah Tughluq was very fond of the slaves. *There were approximately one lakh eighty thousand slaves working under Firuz Tughluq. *A separate department ('Diwan-i-Bandagan') was formed for caring of them. *He established a Public Work Department. *It is said that Firuz built 200 new cities. Fatehabad, Hisar, Firozpur, Jaunpur, Firozabad etc. were prominent towns established by him. According to the Firista, Firuz had constructed 40 mosques, 30 schools, 20 palaces, 100 Inns, 200 towns, 100 hospitals, 5 Makabara, 100 public bathrooms, 10 pillars and 150 bridges. *His chief architect was Malik Ghazi Shahana. *The plan and proposal of each building were presented before 'Diwan-i-Wajarat' with its expenditure estimate, and only then the required money could be released. *Firuz Tughluq's reign became famous for constructing the largest network of canals in India. *To facilitate irrigation, he constructed five major canals. *He was the first Sultan of Delhi who imposed irrigation tax named 'Haqq-i-Sharb' after seeking the opinion from the Ulemas. *The farmers who used to use the royal canals for irrigation had to give 1/10 portion of their produce to the government. *Jizya was imposed on Brahmins by Firuz Tughluq. *It is noteworthy that by that time Brahmins were kept free from this tax. *Firuz Shah Tughluq planted 1200 new gardens near Delhi due to his interest in horticulture and rehabilitated thirty old orchards of Alauddin period. He also made measures to improve the quality of fruits in his orchards. *Two Pillars (Stambh) of Ashoka were brought to Delhi from Meerut and Topra (now in Yamuna Nagar district of Haryana) by Firuz Shah Tughluq. *The Topara Pillar (Stambh) was re- established near the palace and the mosque of Firozabad. *The Pillar (Stambh) of Meerut was re-installed near the current Bara Hindu Rao Hospital of Delhi. *Sultan Firuz Tughluq of Delhi had commissioned Sanskrit scholars at his court to translate some sanskrit works into persian, often associated with translation of 300 sanskrit manuscripts collected from Jawalamukhi temple into persian. *Nasiruddin Mahmud Shah (1394 - 1412 AD) was the last ruler of the Tughluq dynasty. During his reign, Khwaja Jahan established an independent state of Jaunpur. *Another grandson of Firuz, Nusrat Shah challenged Nasiruddin. *As a result, Tughluq dynasty was divided into two parts, and both claimants ruled the shrunk kingdom of Delhi simultaneously. *Nasiruddin stayed in Delhi and Nusrat Shah in Firozabad. During the reign of Nasiruddin Mahmud Shah, Timur, the Great Turk (Turco-Mongol) General of Central Asia, invaded India (1398 AD). *This statement was famous with respect to Nasiruddin Mahmud Shah - 'The sultanate of Shahanshah extends from Delhi to Palam'. *Timur's invasion (1398 AD) destroyed the Delhi and started the fall of the Tughluq dynasty. *With the death of Nasiruddin Mahmud Shah, the Tughluq dynasty ended in 1412 AD. The warlords of Delhi elected Daulat Khan as Sultan of Delhi in 1413 AD. *But he was defeated by Khizr Khan. *Khizr Khan was the Subedar of Multan, appointed by Timur and later granted him control over Lahore and Dipalpur. *In 1414 AD, he took control of Delhi after the invasion of Timur and laid the foundations of a new lineage Sayyid Dynasty started. He did not assume the title of Sultan. 1. Who amongst the following Generals of Alauddin Khalji, ultimately became the first Sultan of Tughluq dynasty:
+**Q1.** 1 to be collected was or of the yield. In case of famine, 10 11 land tax was collected with regard to capacity to pay. Tax-free jagirs were granted to the Government employees without giving any share in the revenue. *The harsh punishments of the Alauddin's time were abolished, but those who did not pay taxes, the dishonest ones with the government money and the thieves were severely punished. *Among all the sultans of Delhi Sultanate, Muhammad-Bin Tughluq (1325-1351 A.D.) was the most learned and educated ruler. *He was well versed in many disciplines including astronomy, mathematics, medicine etc. *Muhammad-Bin Tughluq established a new department, Diwan-i-Amir-i-Kohi, for the advancement of agriculture. *The main work of this department was to provide more support to the farmers and bring more land under agricultural work. *A long piece of land measuring about 30 karohs × 30 karohs was chosen for it. *One of the most important experiments of Muhammad Tughluq was to move the capital to Daulatabad (Devgiri) from Delhi. *According to Dr. K.A. Nizami, Sultan Qutbuddin Mubarak Khalji named Devgiri as Qutbabad and Muhammad Tughluq named it Daulatabad. *Muhammad-Bin Tughluq had inscribed a sentence on his coins, 'Al Sultan Zilli Allah' (Sultan is the shadow of God), 'God is the supporter of Sultan'. * Golden coins issued by Muhammad-Bin Tughluq were called 'Dinar' by Ibn Battuta. *Barani describes five major policies of Muhammad Tughluq- (1) Tax increase in Doab, (2) Making Devgiri (Daulatabad) new capital, (3) Issuing token currency, (4) Planned expedition to Khurasan and (5) Qarachil Expedition. *Ibn Battuta (1304-77 AD) was an African traveller of Moroccan origin. *He came to India during 1333-42 AD. in the reign of Muhammad-Bin Tughluq (1325-51 A.D.). *Muhammad-Bin Tughluq appointed him as the Qazi of Delhi. Later in 1342 AD, he was sent to China as an ambassador of the Sultan. *Ibn Battuta presented the details of his journey in his book Kitab-ul-Rihla. *Details of the postal system were known from Ibn Batuta's travelogue. *Muhammad-Bin Tughluq is accussed by Isami that he was the first sultan of Delhi who used to participate in the festival of Hindus, mainly on Holi. *He also appointed non-Turks and Indian Muslims to government posts. Due to this, Barani harshly criticized him for promoting low-born people/low-occupation persons like gardener, weaver, barber, cook, etc. *Muhammad-Bin Tughluq died on March 20, 1351. On his death, Badayuni wrote, "The king was freed from his people, and the people from their king" *Firuz Shah Tughluq started some welfare programmes for the benefit of common people. *After opening an office (employment office) for the appointment of the individual through investigating the qualifications and merit of each individual and giving appointments to as many people as possible - he tried to solve the problem of unemployment. *Firuz Shah Tughluq used to donate property to the saints and religious people. He had established a department 'Diwan-i-Khairat', which provided financial assistance to the poor Muslims, orphaned women and widows, and arranged marriages for poor Muslim girls. *Firuz Tughluq was the first Indian ruler to arrange Hajj at state expenditure. He also established a Khairati hospital called 'Dar-ul-Shafa/Shifa' where skilled Haqim were employed. *Firuz Shah Tughluq was very fond of the slaves. *There were approximately one lakh eighty thousand slaves working under Firuz Tughluq. *A separate department ('Diwan-i-Bandagan') was formed for caring of them. *He established a Public Work Department. *It is said that Firuz built 200 new cities. Fatehabad, Hisar, Firozpur, Jaunpur, Firozabad etc. were prominent towns established by him. According to the Firista, Firuz had constructed 40 mosques, 30 schools, 20 palaces, 100 Inns, 200 towns, 100 hospitals, 5 Makabara, 100 public bathrooms, 10 pillars and 150 bridges. *His chief architect was Malik Ghazi Shahana. *The plan and proposal of each building were presented before 'Diwan-i-Wajarat' with its expenditure estimate, and only then the required money could be released. *Firuz Tughluq's reign became famous for constructing the largest network of canals in India. *To facilitate irrigation, he constructed five major canals. *He was the first Sultan of Delhi who imposed irrigation tax named 'Haqq-i-Sharb' after seeking the opinion from the Ulemas. *The farmers who used to use the royal canals for irrigation had to give 1/10 portion of their produce to the government. *Jizya was imposed on Brahmins by Firuz Tughluq. *It is noteworthy that by that time Brahmins were kept free from this tax. *Firuz Shah Tughluq planted 1200 new gardens near Delhi due to his interest in horticulture and rehabilitated thirty old orchards of Alauddin period. He also made measures to improve the quality of fruits in his orchards. *Two Pillars (Stambh) of Ashoka were brought to Delhi from Meerut and Topra (now in Yamuna Nagar district of Haryana) by Firuz Shah Tughluq. *The Topara Pillar (Stambh) was reestablished near the palace and the mosque of Firozabad. *The Pillar (Stambh) of Meerut was re-installed near the current Bara Hindu Rao Hospital of Delhi. *Sultan Firuz Tughluq of Delhi had commissioned Sanskrit scholars at his court to translate some sanskrit works into persian, often associated with translation of 300 sanskrit manuscripts collected from Jawalamukhi temple into persian. *Nasiruddin Mahmud Shah (1394 - 1412 AD) was the last ruler of the Tughluq dynasty. During his reign, Khwaja Jahan established an independent state of Jaunpur. *Another grandson of Firuz, Nusrat Shah challenged Nasiruddin. *As a result, Tughluq dynasty was divided into two parts, and both claimants ruled the shrunk kingdom of Delhi simultaneously. *Nasiruddin stayed in Delhi and Nusrat Shah in Firozabad. During the reign of Nasiruddin Mahmud Shah, Timur, the Great Turk (Turco-Mongol) General of Central Asia, invaded India (1398 AD). *This statement was famous with respect to Nasiruddin Mahmud Shah - 'The sultanate of Shahanshah extends from Delhi to Palam'. *Timur's invasion (1398 AD) destroyed the Delhi and started the fall of the Tughluq dynasty. *With the death of Nasiruddin Mahmud Shah, the Tughluq dynasty ended in 1412 AD. The warlords of Delhi elected Daulat Khan as Sultan of Delhi in 1413 AD. *But he was defeated by Khizr Khan. *Khizr Khan was the Subedar of Multan, appointed by Timur and later granted him control over Lahore and Dipalpur. *In 1414 AD, he took control of Delhi after the invasion of Timur and laid the foundations of a new lineage Sayyid Dynasty started. He did not assume the title of Sultan. 1. Who amongst the following Generals of Alauddin Khalji, ultimately became the first Sultan of Tughluq dynasty:
 
 - **A.** Ghazi Malik
 - **B.** Malik Kafur
@@ -16943,7 +16943,7 @@ asked in.
 **Explanation:** Devaraya I is credited with making the capital of Vijayanagara Empire one of the largest cities in the 15th century. He constructed a dam on the Tungabhadra river around 1410 AD and constructed a 24 km long canal-cum-aqueduct from Tungabhadra river to his capital.
 *Asked in:* I.A.S. (Pre) 2023
 
-**Q12.** Consider the following Statements : 1. Narasimha Saluva ended the Sangama dynasty, and seized the throne for himself and, started the Saluva dynasty 2. Vira Narasimha deposed the last Saluva ruler and seized the throne for himself 3. Vira Narasimha was succeeded by his younger brother, Krishnadeva Raya 4. Krishnadeva Raya was succeeded by his half- brother, Achyuta Raya Which of the statements given above are correct?
+**Q12.** Consider the following Statements : 1. Narasimha Saluva ended the Sangama dynasty, and seized the throne for himself and, started the Saluva dynasty 2. Vira Narasimha deposed the last Saluva ruler and seized the throne for himself 3. Vira Narasimha was succeeded by his younger brother, Krishnadeva Raya 4. Krishnadeva Raya was succeeded by his half-brother, Achyuta Raya Which of the statements given above are correct?
 
 - **A.** 1, 2 and 3
 - **B.** 2, 3 and 4
@@ -17480,7 +17480,7 @@ asked in.
 **Explanation:** Muhammad bin Tughlaq introduced the department of Diwan-i-Amir-i-Kohi for the development of Agriculture. The purpose of the department was to provide direct aid to farmers so as to bring more land under agriculture.
 *Asked in:* U.P.R.O./A.R.O. (Pre) 2017
 
-**Q12.** Match List-I and List-II and choose your answer from the codes given below: List-I List-II A. Diwan-i-Arz 1. Dealt with religious matters B. Diwan-i-Risalat 2. Dealt with state's correspon- dence C. Diwan-i-Insha 3. Dealt with Finance Dept D. Diwan-i-Wizarat4. Dealt with Military Dept Code: A B C D
+**Q12.** Match List-I and List-II and choose your answer from the codes given below: List-I List-II A. Diwan-i-Arz 1. Dealt with religious matters B. Diwan-i-Risalat 2. Dealt with state's correspondence C. Diwan-i-Insha 3. Dealt with Finance Dept D. Diwan-i-Wizarat4. Dealt with Military Dept Code: A B C D
 
 - **A.** 1 3 4 2
 - **B.** 2 4 1 3
@@ -17570,7 +17570,7 @@ asked in.
 **Explanation:** 'Muqaddam or Chaudhari' were village headman and in this capacity only was the highest revenue authority in the village and not just any revenue official or village accountant.
 *Asked in:* 68th B.P.S.C. (Pre) 2022
 
-**Q20.** During the Delhi Sultanate, the designation 'Muqad- dam or Chaudhuri' was used for
+**Q20.** During the Delhi Sultanate, the designation 'Muqaddam or Chaudhuri' was used for
 
 - **A.** Village headmen
 - **B.** Village accountant
@@ -18539,7 +18539,7 @@ asked in.
 **Explanation:** Khalji dynasty ruled Delhi Sultanate from 1290 AD to 1320 AD, which was shortest period among all those dynasties which ruled Delhi Sultanate.
 *Asked in:* M.P. P.C.S. (Pre) 2017
 
-**Q18.** Who among the following rulers, ruled for the maxi- mum period?
+**Q18.** Who among the following rulers, ruled for the maximum period?
 
 - **A.** Alauddin Khil
 - **B.** Muhammad bin Paghluq
@@ -19628,7 +19628,7 @@ asked in.
 **Explanation:** Gitavali, Kavitavali, and Vinay Patrika were written by Saint Tulsidas.
 *Asked in:* Chhattisgarh P.S.C. (Pre) 2018
 
-**Q46.** Which one of the following is not written by Tulsi- das?
+**Q46.** Which one of the following is not written by Tulsidas?
 
 - **A.** Geetavali
 - **B.** Vinay Patrika
@@ -21296,7 +21296,7 @@ asked in.
 **Explanation:** Akbar appointed Raja Todarmal and Muzaffar Khan Turbati as finance minister for re-assessment of the land revenue system. He calculated the average produce of different crops as well as average price prevailing over the last ten years from 1571 to 1580 AD. One-third of that average was fixed as land revenue for state which was also called "Dahsala System". Ain-i-Dahsala is known as Todarmal Bandobast.'
 *Asked in:* U.P.P.C.S. (Mains) 2012
 
-**Q36.** Consider the following statements related to the Mu- ghal emperor Akbar and choose the correct answer: Statement I : 'Tansen' was the title given to Rambali Pandey by the Mughal emperor Akbar Statement II : Akbar was married with the sister of Raja Man Singh Statement III : Abul Fazl was the author of 'Ain-i- Akbari' Statement IV : Raja Todarmal was the commander- in-chief of Akbar's army
+**Q36.** Consider the following statements related to the Mughal emperor Akbar and choose the correct answer: Statement I : 'Tansen' was the title given to Rambali Pandey by the Mughal emperor Akbar Statement II : Akbar was married with the sister of Raja Man Singh Statement III : Abul Fazl was the author of 'Ain-i- Akbari' Statement IV : Raja Todarmal was the commander- in-chief of Akbar's army
 
 - **A.** Only Statements I and II are correct
 - **B.** Only Statements III and IV are correct
@@ -23178,7 +23178,7 @@ asked in.
 **Explanation:** Humayun laid the foundation of Mughal painting during the years of his exile in Persia and Afghanistan. He met two distinguished Painters, Khwaja Abdus Samad and Mir Sayyid Ali. It was from these artists that Humayun and his son Akbar took lessons in drawing. An advanced atelier was set up in the palace.
 *Asked in:* U.P.P.C.S. (Mains) 2012; U.P. U.D.A./L.D.A. (Mains) 2010; U.P.P.C.S. (Mains) 2009
 
-**Q3.** Which Mughal ruler established Karkhanas for paint- ing?
+**Q3.** Which Mughal ruler established Karkhanas for painting?
 
 - **A.** Humayun
 - **B.** Akbar
@@ -24868,9 +24868,9 @@ asked in.
 **Explanation:** Shahu appointed Balaji Bajirao as Peshwa after the death of Bajirao in 1740 A. D.. Now, the designation of Peshwa became hereditary. By the Sangola agreement of 1750 A. D., the Peshwa emerged as the real and effective head of Maratha Confederacy.
 *Asked in:* U.P.P.C.S. (Mains) 2007
 
-**Q33.** Given below are two statements, one is labelled as As- sertion (A) and other as Reason (R). Assertion (A): Marathas emerged as the strongest na tive power in India after the decline of Mughal Empire. Reason (R): Marathas were the first rulers who had a clear concept of United Indian Nation. Choose the correct answer from the code given below. Code:
+**Q33.** Given below are two statements, one is labelled as Assertion (A) and other as Reason (R). Assertion (A): Marathas emerged as the strongest na tive power in India after the decline of Mughal Empire. Reason (R): Marathas were the first rulers who had a clear concept of United Indian Nation. Choose the correct answer from the code given below. Code:
 
-- **A.** Both (A) and (R) are true and (R) is the correct expla- nation of (A)
+- **A.** Both (A) and (R) are true and (R) is the correct explanation of (A)
 - **B.** Both (A) and (R) are true but (R) is not the correct explanation of (A)
 - **C.** (A) is true but (R) is false
 - **D.** (A) is false but (R) is true
@@ -25987,7 +25987,7 @@ asked in.
 **Explanation:** Austrian war of succession ended with the Treaty of "Aixla-Chapelle-1748 A. D.". With the end of Europe's war, 1st War of Carnatic also ended and Britishers got back Madras. Hence, option (c) is correct.
 *Asked in:* U.P. P.C.S (Pre) 2025
 
-**Q63.** With reference to "the causes of the success of British and failure of the French in India" which of the fol- lowing statement is/are correct? 1. Getting huge wealth and manpower from Conquest of Bengal by British. 2. Naval superiority of the British. Select the correct answer from the codes given below. Codes:
+**Q63.** With reference to "the causes of the success of British and failure of the French in India" which of the following statement is/are correct? 1. Getting huge wealth and manpower from Conquest of Bengal by British. 2. Naval superiority of the British. Select the correct answer from the codes given below. Codes:
 
 - **A.** Only 1
 - **B.** Only 2
@@ -26498,7 +26498,7 @@ asked in.
 **Explanation:** First Anglo-Mysore War (1767-69 A. D.) was fought between British and Haidar Ali. He fought bravely and captured Mangalore in 1768 and reached Madras in 1769, where English in helplessness had to sign the "Treaty of Madras' in April 1769 on the conditions of Haidar Ali.
 *Asked in:* U.P.P.C.S. (Mains) 2015
 
-**Q17.** Who among the following established a modern ar- moury in Dindigul Mysore in 1755?
+**Q17.** Who among the following established a modern armoury in Dindigul Mysore in 1755?
 
 - **A.** Nanjraj
 - **B.** Haidar Ali
@@ -27236,7 +27236,7 @@ asked in.
 **Explanation:** Sind was annexed during the tenure of Lord Ellenborough (1842-1844 AD). Awadh was annexed in 1856 AD on the ground of maladministration during Lord Dalhousie tenure. Satara was annexed in 1848 AD.
 *Asked in:* U.P.U.D.A./L.D.A. (Pre) 2013; U.P.P.C.S. (Mains) 2010
 
-**Q55.** Consider the annexation of the following States under 'Doctrine of Lapse' and arrange them into chronolog- ical order : 1. Satara 2. Jhansi 3. Baghat 4. Udaipur Select the correct answer from the codes given below: Codes:
+**Q55.** Consider the annexation of the following States under 'Doctrine of Lapse' and arrange them into chronological order : 1. Satara 2. Jhansi 3. Baghat 4. Udaipur Select the correct answer from the codes given below: Codes:
 
 - **A.** 1, 4, 3, 2
 - **B.** 3, 1, 2, 4
@@ -28421,7 +28421,7 @@ asked in.
 **Explanation:** Ryotwari system was started by Thomas Munro and Alexander Read in the Baramahal district of Tamilnadu. According to this system the Ryots were given the ownership and rights to occupy the lands and they were required to pay the revenue directly to the government. Thomas Munro said regarding this system that "The Ryotwari is a system which has always prevailed in India."
 *Asked in:* Jharkhand P.C.S. (Pre) 2023
 
-**Q28.** Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R) : Assertion (A) : The British Government introduced different land revenue system in different part of India. Reason (R) : It led to create different classes in Indi- an peasantry. Select the correct answer from the codes given below. Codes :
+**Q28.** Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R) : Assertion (A) : The British Government introduced different land revenue system in different part of India. Reason (R) : It led to create different classes in Indian peasantry. Select the correct answer from the codes given below. Codes :
 
 - **A.** Both (A) and (R) are true and (R) is the correct explanation of (A)
 - **B.** Both (A) and (R) are true but (R) is not the correct explanation of (A)
@@ -29422,7 +29422,7 @@ asked in.
 **Explanation:** Liyaqat Ali was associated with Allahabad. Rest of the options are correctly matched.
 *Asked in:* U.P.P.C.S. (Pre) 2018
 
-**Q65.** Which of the following persons had participated ac- tively in the Revolt of 1857?
+**Q65.** Which of the following persons had participated actively in the Revolt of 1857?
 
 - **A.** Nana Saheb (Kanpur)
 - **B.** Begum Hazrat Mahal (Lucknow)
@@ -30886,7 +30886,7 @@ asked in.
 **Explanation:** Sir William Jones was the first to translate Kalidasa's Abhigyan Shakuntalam into English
 *Asked in:* U.P. U.D.A./L.D.A. (Mains) 2010
 
-**Q8.** The main reason for the British Government to spread modern education in India during the pre- independence period was -
+**Q8.** The main reason for the British Government to spread modern education in India during the pre-independence period was -
 
 - **A.** The need for educated Indians in minor administrative posts
 - **B.** To promote Indian culture
@@ -31074,7 +31074,7 @@ asked in.
 **Explanation:** The foundation of the modern educational system in India was laid by Macaulay's Minutes of 1835 A. D. (Issued on 2 February, 1835) In that minute, he commented on Sanskrit or Arabic by saying that "a single shelf of a good European library was worth the whole literature of India and Arabia.". Macaulay thus suggested making English the language of higher education in India with Western literature as the subject of study. Bentinck accepted his suggestion. Accordingly, on 7th March, 1835 A. D., a resolution passed by the Government declared: "His Lordship is of the opinion that the great object of the British Government ought to be the promotion of European literature and science amongst the natives of India and that all the funds appropriated for the purpose of education would be best employed on English education alone." Bentinck's Resolution opened a new chapter in the history of Indian education. It was at that time that Western education began to spread rapidly in India.
 *Asked in:* I.A.S. (Pre) 1993
 
-**Q25.** When did Macaulay issue his famous minute on In- dian Education?
+**Q25.** When did Macaulay issue his famous minute on Indian Education?
 
 - **A.** 12 February 1835
 - **B.** 12 February 1836
@@ -31162,7 +31162,7 @@ asked in.
 **Explanation:** Sir Syed Ahmad Khan established Muhammadan AngloOriental College as Madarsatul Uloom Musalmanan-iHind in 1875 A. D. In 1877 A. D. its name was changed to Muhammadan Anglo-Oriental College which in 1920 A. D. became Aligarh Muslim University. Since Madarsatul Uloom Musalmanan-i-Hind (name changed to Muhammadan AngloOriental College in 1877 A. D.) was established in 1875 A. D. Hence, establishment year of Muhammadan Anglo-Oriental College is taken as 1875 A. D. only.
 *Asked in:* U.P.R.O. / A.R.O. (Mains) 2016
 
-**Q33.** Name the Principal of M.A.O. College, Aligarh, who encouraged Muslim Communalism in the last de- cades of the 19th Century?
+**Q33.** Name the Principal of M.A.O. College, Aligarh, who encouraged Muslim Communalism in the last decades of the 19th Century?
 
 - **A.** Dunlop Smith
 - **B.** Minto
@@ -31228,14 +31228,14 @@ asked in.
 **Explanation:** The Sanskrit College of Banaras was founded by Jonathan Duncan in 1791 AD. Warren Hastings started the Calcutta Madarsa in 1780 AD. Fort William College was founded by Richard Wellesley in 1800 AD. Thus, option (b) is the correct one.
 *Asked in:* I.A.S. (Pre) 2018
 
-**Q39.** Wellesley established the Fort William College at Cal- cutta because :
+**Q39.** Wellesley established the Fort William College at Calcutta because :
 
 - **A.** he was asked by the Board of Directors at London to do so
 - **B.** he wanted to revive interest in oriental learning in India
 - **C.** he wanted to provide William Carey and his associates with employment
-- **D.** he wanted to train and teach British civilians for ad- ministrative purpose in India
+- **D.** he wanted to train and teach British civilians for administrative purpose in India
 
-**Answer:** D — he wanted to train and teach British civilians for ad- ministrative purpose in India
+**Answer:** D — he wanted to train and teach British civilians for administrative purpose in India
 **Explanation:** Fort William College was founded on 10 July, 1800 in Kolkata by Wellesley. The purpose of establishing the college was to train and teach British civilians for administrative purposes in India.
 *Asked in:* I.A.S. (Pre) 2020
 
@@ -32116,7 +32116,7 @@ asked in.
 **Explanation:** The correctly matched list is as follows: S. A. Dange - The Socialist Muzaffar Ahmad - Navyug Gulam Hussain - Inqilab M. Singarvelu - Labour Kisan Gazette
 *Asked in:* R.A.S./R.T.S.(Pre) 2013
 
-**Q73.** Which newspaper wrote the following about the pos- sible future role of the Indian National Congress: '... is the nucleus of a future Parliament of our country... and will lead to the good of inconceivable magnitude for our countrymen'?
+**Q73.** Which newspaper wrote the following about the possible future role of the Indian National Congress: '... is the nucleus of a future Parliament of our country... and will lead to the good of inconceivable magnitude for our countrymen'?
 
 - **A.** The Indian Mirror
 - **B.** The New York Times
@@ -32149,7 +32149,7 @@ asked in.
 - **D.** Both (A) and (R) are true, but (R) is not the correct explanation of (A).
 
 **Answer:** B — Both (A) and (R) are true, and (R) is the correct explanation of (A).
-**Explanation:** In the 19th century, all socio- religious reforms whether by Hindu, Muslim, Sikh, and Parsis aimed at the spread of the modern education, fight against social evils practices and use the tool of modern education to awaken and lead to the modernization of India. The reformers wanted society to accept the rational and scientifi c approach. They laid stress on a rational understanding of social and religious ideas and encouraged scientifi c, humanitarian outlook to achieve their goal. Therefore, (A) and (R) are true, and (R) is the correct explanation of (A).
+**Explanation:** In the 19th century, all socioreligious reforms whether by Hindu, Muslim, Sikh, and Parsis aimed at the spread of the modern education, fight against social evils practices and use the tool of modern education to awaken and lead to the modernization of India. The reformers wanted society to accept the rational and scientifi c approach. They laid stress on a rational understanding of social and religious ideas and encouraged scientifi c, humanitarian outlook to achieve their goal. Therefore, (A) and (R) are true, and (R) is the correct explanation of (A).
 *Asked in:* R.A.S./R.T.S. (Pre) 2016
 
 **Q3.** Which of the following classes has been influenced by Western civilization first?
@@ -32515,7 +32515,7 @@ asked in.
 **Explanation:** In 1893 A. D., Swami Vivekananda went to Chicago, where he delivered his famous speech in 'Parliament of the World's Religions.' In his speech, Vivekananda gave a short introduction of Hinduism and spoke on "The meaning of the Hindu religion." All the given options are wrong, and M. P.P.S.C had awarded the bonus mark to all the candidates.
 *Asked in:* U.P. P.C.S. (Spl) (Pre) 2008
 
-**Q36.** Who among the following participated in the Parlia- ment of Religions held at Chicago in 1893?
+**Q36.** Who among the following participated in the Parliament of Religions held at Chicago in 1893?
 
 - **A.** Dayananda Saraswati
 - **B.** Swami Vivekananda
@@ -32783,7 +32783,7 @@ asked in.
 **Explanation:** Shuddhi Movement was started by the Arya Samaj founded by Swami Dayanand Saraswati in 1875 A. D. in Bombay to bring back the people into Hinduism who converted to other religion from Hinduism.
 *Asked in:* U.P. P.C.S (Pre) 2010
 
-**Q60.** Given below are two statements, one labelled as As- sertion (A) and the other as Reason (R). Assertion (A) : The Arya Samaj Movement gave self-confidence and self-reliance to the Hindus. Reason (R): The Arya Samaj Movement undermined the belief in superiority of White Race. Choose the correct answer from the codes given below: Codes:
+**Q60.** Given below are two statements, one labelled as Assertion (A) and the other as Reason (R). Assertion (A) : The Arya Samaj Movement gave self-confidence and self-reliance to the Hindus. Reason (R): The Arya Samaj Movement undermined the belief in superiority of White Race. Choose the correct answer from the codes given below: Codes:
 
 - **A.** Both (A) and (R) are true and (R) is the correct expla nation of (A).
 - **B.** Both (A) and (R) are true but (R) is not the correct explanation of (A).
@@ -33646,7 +33646,7 @@ asked in.
 **Explanation:** Bahishkrit Hitkarini Sabha was formed by Babasaheb Bhimrao Ambedkar. Rest of the options are correctly matched.
 *Asked in:* U.P.R.O./A.R.O. (Pre) (Re-Exam) 2016
 
-**Q138.** Match List - I with List - II and select the correct answer from the code given below the lists. List -I List-II (Persons) (Associated works/ Posts) A. D. K. Karve 1. Establishment of Girls School in Calcutta B. J. E. D. Bethune 2. Secretary, Widow Re- marriage Association C. Ishwar Chandra 3. Starting a crusade Vidyasagar against child marriage D. B. M. Malabari 4. Principal of Sanskrit College in Calcutta Code : A B C D
+**Q138.** Match List - I with List - II and select the correct answer from the code given below the lists. List -I List-II (Persons) (Associated works/ Posts) A. D. K. Karve 1. Establishment of Girls School in Calcutta B. J. E. D. Bethune 2. Secretary, Widow Remarriage Association C. Ishwar Chandra 3. Starting a crusade Vidyasagar against child marriage D. B. M. Malabari 4. Principal of Sanskrit College in Calcutta Code : A B C D
 
 - **A.** 2 1 4 3
 - **B.** 1 2 3 4
@@ -33735,7 +33735,7 @@ asked in.
 **Explanation:** Mahatma Gandhi was born on October 2, 1869 A. D., at Porbandar. Hence option (d) is incorrect. Annie Besant became the chairman of the Theosophical Society after the death of Colonel Alcott in 1907 A. D. She came into the contact with this society in 1882 A. D. and became the official member in 1889 A. D. In 1879 A. D., the principal founders, Madam H. P. Blavatsky and Col. Alcott moved to India, where the Society spread rapidly. In 1882, they established the Society's International Headquarters in Adyar, a suburb of Madras (currently Chennai). Swami Dayanand Saraswati founded Arya Samaj in 1875 A. D. in Bombay.
 *Asked in:* M.P. P.C.S. (Pre) 1995
 
-**Q146.** Consider the following pairs : Movement/Organisation Leader 1. All India Anti-Untouchability : Mahatma Gandhi League 2. All India Kisan Sabha : Swami Sahaj- anand Saraswati 3. Self-Respect Movement : E.V. Ramaswami Naicker Which of the pairs given above is/are correctly matched?
+**Q146.** Consider the following pairs : Movement/Organisation Leader 1. All India Anti-Untouchability : Mahatma Gandhi League 2. All India Kisan Sabha : Swami Sahajanand Saraswati 3. Self-Respect Movement : E.V. Ramaswami Naicker Which of the pairs given above is/are correctly matched?
 
 - **A.** 1 only
 - **B.** 1 and 2 only
@@ -34076,10 +34076,10 @@ asked in.
 
 - **A.** (A) is true but (R) is false
 - **B.** (A) is false but (R) is true
-- **C.** Both (A) and (R) are true and (R) is the correct expla- nation of (A)
+- **C.** Both (A) and (R) are true and (R) is the correct explanation of (A)
 - **D.** Both (A) and (R) are true but (R) is not the correct explanation of (A)
 
-**Answer:** C — Both (A) and (R) are true and (R) is the correct expla- nation of (A)
+**Answer:** C — Both (A) and (R) are true and (R) is the correct explanation of (A)
 **Explanation:** East India Association was established by Dadabhai Naoroji in 1866 in London. He established it to influence British public opinion on the question of India.
 *Asked in:* U.P.R.O./A.R.O. (Pre.) 2021
 
@@ -34182,7 +34182,7 @@ asked in.
 **Explanation:** Asiatic Society of Bengal, was founded on January 15, 1784, by Sir William Jones, a British lawyer and Orientalist, to encourage Oriental studies.
 *Asked in:* U.P.P.C.S. (Pre.) 2021
 
-**Q29.** Who was the first president of 'British Indian Associ- ation'?
+**Q29.** Who was the first president of 'British Indian Association'?
 
 - **A.** Surrendra Nath Banerjee
 - **B.** Gopal Krishna Gokhale
@@ -34796,7 +34796,7 @@ asked in.
 **Explanation:** Tilak proclaimed vigourously "Swaraj is my birthright, I shall have it" in the Lucknow session of INC, 1916 A. D. Extremists joined Congress again in this session and "Lucknow Pact" was signed through the efforts of Bal Gangadhar Tilak and M. A. Jinnah. It is famous as 'Congress-League Agreement' also.
 *Asked in:* 53rd to 55th B.P.S.C. (Pre) 2011
 
-**Q54.** Who among the following said, "Swaraj is our birth- right"?
+**Q54.** Who among the following said, "Swaraj is our birthright"?
 
 - **A.** M.K. Gandhi
 - **B.** G. K. Gokhale
@@ -34840,7 +34840,7 @@ asked in.
 **Explanation:** Safety valve theory was used by the extremist leader Lala Lajpat rai in 'Young India'. He considered Congress to be brainchild of Dufferin. He believed that the British would use the Congress organisation to protect the British government from threats.
 *Asked in:* 69th B.P.S.C. (Pre) 2023
 
-**Q58.** Which Indian leader for the first time used the 'safe- ty-valve theory' to attack the Moderates in the Con- gress?
+**Q58.** Which Indian leader for the first time used the 'safety-valve theory' to attack the Moderates in the Congress?
 
 - **A.** Bipin Chandra Pal
 - **B.** Lala Lajpat Rai
@@ -34950,7 +34950,7 @@ asked in.
 **Explanation:** Chittaranjan Das was the President of Gaya Session of Indian National Congress held in 1922 A. D. He was an eminent lawyer who distinguished himself by successfully defending Aurobindo Ghosh in famous Alipore Bomb Case. Along with Motilal Nehru, he formed the Swaraj Party within the INC, with the declared policy of entering the councils and disrupting their functioning. He is also known as Deshbandhu.
 *Asked in:* 56th to 59th B.P.S.C. (Pre) 2015
 
-**Q68.** Who was the President of the Indian National Con- gress at the Gaya Session of 1922 ?
+**Q68.** Who was the President of the Indian National Congress at the Gaya Session of 1922 ?
 
 - **A.** Mahatma Gandhi
 - **B.** Hakim Ajmal Khan
@@ -35072,7 +35072,7 @@ asked in.
 **Explanation:** Between 19-21 February, 1938 AD, 51st session of Congress was held at Haripura in Gujarat, under the presidentship of Subhas Chandra Bose. National Planning Committee was constituted in this session and Jawaharlal Nehru was elected as President of the Committee. Rajendra Prasad was elected as President in 1934 AD. Later on, Abul Kalam Azad was elected as President of Congress in 1940-1946 AD. While J. B. Kripalani was President of the Meerut Session which was held in 1946 AD.
 *Asked in:* U.P.P.C.S. (Spl) (Mains) 2008
 
-**Q79.** Who was appointed the Chairman of 'National Plan- ning Committee' by Indian National Congress in 1938 ?
+**Q79.** Who was appointed the Chairman of 'National Planning Committee' by Indian National Congress in 1938 ?
 
 - **A.** Sardar Vallabhbhai Patel
 - **B.** Rajendra Prasad
@@ -35198,7 +35198,7 @@ asked in.
 **Explanation:** During the Moderate Phase (1885-1905 AD) of the Indian National Movement, there was support for the rich democratic and scientifi c culture of modern Europe. The moderate leaders advocated for constitutional reforms, political participation and the expansion of modern education. They supported English education, as they believed it would help develop a modern outlook and social progress in India. However, the growing masses viewed British colonial policies with increasing resentment. Notably, Dadabhai Naoroji strongly criticized the economic aspects of British colonialism. His book, "Poverty and Un-British Rule in India," highlighted issues related to the economic drain, heavy taxation, and the decline of Indian industries. The moderates attempted to address such concerns through constitutional means rather than direct confrontation.
 *Asked in:* Rajasthan P.C.S. (Pre) 2024
 
-**Q3.** The protest method of moderate leaders of the Con- gress was ?
+**Q3.** The protest method of moderate leaders of the Congress was ?
 
 - **A.** Non-Cooperation
 - **B.** Constitutional agitation
@@ -35495,7 +35495,7 @@ asked in.
 **Explanation:** Bal Gangadhar Tilak believed in service and sacrifice. He dared to challenge the British Empire. It was the results of his efforts that the Indian National Congress became the party to criticize the British policies instead of praising British rule. Valentine Chirol termed B. G. Tilak as the father of Indian unrest. Tilak went to England to file a defamation suit against Chirol but was defeated.
 *Asked in:* U.P.P.C.S. (Mains) 2004
 
-**Q30.** After the sentence of B.G. Tilak, who among the fol- lowing had pleaded for mercy and said: "My interest in Tilak is that of a Sanskrit scholar"?
+**Q30.** After the sentence of B.G. Tilak, who among the following had pleaded for mercy and said: "My interest in Tilak is that of a Sanskrit scholar"?
 
 - **A.** Rabindranath Tagore
 - **B.** Max Muller
@@ -35584,7 +35584,7 @@ asked in.
 **Explanation:** The Assertion (A) in the question is not correct because Bal Gangadhar Tilak was actually a staunch nationalist who supported for 'Swaraj' as the birthright of every Indian and in this way he tried to make close contact with the people of India and his view was considered as a pioneer of M. K. Gandhi. He started 'Ganapati Parva' and 'Shivaji Mahotsava' in Maharashtra to enthuse Nationalist feelings among masses. On the other hand, he used religion as a political weapon but not for communal purposes.
 *Asked in:* U.P.P.C.S. (Pre) 2005; U.P.P.C.S. (Pre) 1996
 
-**Q38.** Who among the following transformed the traditional Ganapati festival of Maharashtra into a national fes- tival and gave it a political character?
+**Q38.** Who among the following transformed the traditional Ganapati festival of Maharashtra into a national festival and gave it a political character?
 
 - **A.** Ramdas
 - **B.** Shivaji
@@ -35606,7 +35606,7 @@ asked in.
 **Explanation:** The Assertion (A) in the question is not correct because Bal Gangadhar Tilak was actually a staunch nationalist who supported for 'Swaraj' as the birthright of every Indian and in this way he tried to make close contact with the people of India and his view was considered as a pioneer of M. K. Gandhi. He started 'Ganapati Parva' and 'Shivaji Mahotsava' in Maharashtra to enthuse Nationalist feelings among masses. On the other hand, he used religion as a political weapon but not for communal purposes.
 *Asked in:* M.P.P.C.S. (Pre) 2023
 
-**Q40.** Along with Mahatma Gandhi who amongst the follow- ing Muslims did lift the bier of Bal Gangadhar Tilak?
+**Q40.** Along with Mahatma Gandhi who amongst the following Muslims did lift the bier of Bal Gangadhar Tilak?
 
 - **A.** Shaukat Ali
 - **B.** Mohammad Ali
@@ -35697,7 +35697,7 @@ asked in.
 **Explanation:** V. D. Savarkar had set up an organisation called 'Mitra Mela' which in 1904 was merged into the secret society called 'Abhinav Bharat Society' in Nasik. Savarkar's views were published in his book entitled ' The Indian War of Independence 1857'.
 *Asked in:* U.P.P.C.S. (Pre) 2000
 
-**Q8.** Who founded Abhinav Bharat Society in 1906 in Lon- don?
+**Q8.** Who founded Abhinav Bharat Society in 1906 in London?
 
 - **A.** Vinayak Damodar Savarkar
 - **B.** Shyamji Krishna Varma
@@ -35709,7 +35709,7 @@ asked in.
 **Explanation:** V. D. Sararkar established branch of Abhinav Bharat Society in 1906 A. D. at India house, London.
 *Asked in:* 66th B.P.S.C. Re-Exam (Pre) 2020
 
-**Q9.** Which amongst the following statements is/are true about V.D. Savarkar? (i) He founded Abhinav Bharat - A revolutionary organization. (ii) In order to inspire Indian nationalist, he wrote the biography of Mazzini. (iii) He also authored "The Indian War of Indepen- dence - 1857" which provides a nationalist view of the revolt of 1857. (iv) He jumped into the sea from the sailing ship in order to escape British captivity? Choose the correct answer :
+**Q9.** Which amongst the following statements is/are true about V.D. Savarkar? (i) He founded Abhinav Bharat - A revolutionary organization. (ii) In order to inspire Indian nationalist, he wrote the biography of Mazzini. (iii) He also authored "The Indian War of Independence - 1857" which provides a nationalist view of the revolt of 1857. (iv) He jumped into the sea from the sailing ship in order to escape British captivity? Choose the correct answer :
 
 - **A.** (i), (ii), (iii) and (iv)
 - **B.** Only (iii) and (iv)
@@ -35955,7 +35955,7 @@ asked in.
 **Explanation:** "Sarfaroshi ki tamanna ab hamare dil me hai / Dekhna hai zor kitna baju-e-quatil me hai" is a patriotic poem written by Bismil Azimabadi. His Original name was Saiyad Shah Muhammad Hasan. He was born in 1901 A. D., Binaha village Patna, this gazal was published in "Sabah" Magzine of Qazi Abdul Gaffar in 1922 A. D.
 *Asked in:* 66th B.P.S.C. (Pre) 2020
 
-**Q31.** Who among the following hanged in Kakori con- spiracy case by English Government-
+**Q31.** Who among the following hanged in Kakori conspiracy case by English Government-
 
 - **A.** Bhagat Singh
 - **B.** Ram Prasad Bismil
@@ -36132,7 +36132,7 @@ asked in.
 **Explanation:** Vijay Kumar Singh, Shiv Verma, Jai Dev Kapoor, Bhagat Singh, Bhagwati Charan Vohra and the Sukhdev under the leadership of Chandra Shekhar Azad reorganized the HRA in September, 1928 A. D. at Feroz Shah Kotla Delhi. They changed the name of HRA and the new organization named HSRA (Hindustan Socialist Republican Association) came into existence.
 *Asked in:* 42nd B.P.S.C. (Pre) 1997
 
-**Q47.** Who among the following changed the name of Hin- dustan Republic Association established by Sachindra Nath Sanyal to Hindustan Socialist Republican As- sociation -
+**Q47.** Who among the following changed the name of Hindustan Republic Association established by Sachindra Nath Sanyal to Hindustan Socialist Republican Association -
 
 - **A.** Rasbihari Bose
 - **B.** Batukeshwar Dutt
@@ -36143,7 +36143,7 @@ asked in.
 **Explanation:** Vijay Kumar Singh, Shiv Verma, Jai Dev Kapoor, Bhagat Singh, Bhagwati Charan Vohra and the Sukhdev under the leadership of Chandra Shekhar Azad reorganized the HRA in September, 1928 A. D. at Feroz Shah Kotla Delhi. They changed the name of HRA and the new organization named HSRA (Hindustan Socialist Republican Association) came into existence.
 *Asked in:* U.P. U.D.A./L.D.A. (Pre) 2006
 
-**Q48.** In the year 1928, where Hindustan Socialist Repub- lic Association was established -
+**Q48.** In the year 1928, where Hindustan Socialist Republic Association was established -
 
 - **A.** In Kanpur
 - **B.** In Delhi
@@ -36187,7 +36187,7 @@ asked in.
 **Explanation:** The slogan of Inquilab Zindabad was written by Maulavi Hasrat Mohani. Bhagat Singh used the slogan for the first time and made it popular among the freedom fighters and the people of pre-independence India.
 *Asked in:* U.P. U.D.A. / L.D.A. (Pre) 2010; 45th B.P.S.C. (Pre) 2001
 
-**Q52.** Who given the famous slogan ''Inquilab Zind- abad'':-
+**Q52.** Who given the famous slogan ''Inquilab Zindabad'':-
 
 - **A.** Chandra Shekhar Azad
 - **B.** Sardar Bhagat Singh
@@ -36266,7 +36266,7 @@ asked in.
 **Explanation:** In the case of Lahore conspiracy, a special tribunal was constituted by Governor-General. In October 1930 A. D., capital punishment was imposed to the three revolutionaries Bhagat Singh, Rajguru, and Sukhdev. On March 23, 1931 A. D., these three brave sons of Mother India were hanged. While Batukeshwar Dutt was sent to Cellular Jail (Andaman) for Kala-Pani punishment.
 *Asked in:* Uttarakhand P.C.S. (Pre) 2010
 
-**Q59.** Bhagat Singh was executed along with two of his com- rades, on 23 March of 1931. Who were those two? rd
+**Q59.** Bhagat Singh was executed along with two of his comrades, on 23 March of 1931. Who were those two? rd
 
 - **A.** Rajguru and Sukhdev
 - **B.** Sukhdev and B.K. Dutt
@@ -36354,7 +36354,7 @@ asked in.
 **Explanation:** When Socialist ideology spread in India during the third decade of 20th century, the Government took steps for suppression. Socialist leaders were put in Jail. Shripad Amrit Dange, Muzaffar Ahmad, Shaukat Usmani and Nalini Gupta were put into jail on false accusations of involvement in Kanpur Bol Shevik conspiracy case. All were sentenced to four years imprisonment.
 *Asked in:* Uttarakhand P.C.S. (Pre) 2012
 
-**Q67.** Who among the following organized the famous Chit- tagong armoury raid?
+**Q67.** Who among the following organized the famous Chittagong armoury raid?
 
 - **A.** Laxmi Sehgal
 - **B.** Surya Sen
@@ -36411,7 +36411,7 @@ asked in.
 **Explanation:** (1) Sukhdev- Birth - 15 May, 1907, Hanged- 23 March 1931 Age when hanged was 23 years, 10 months, 8 days (2) Ashfaq Ullah Khan- Birth 22 October,1900, Hanged, 19 December 1927 Age when hanged was 27 years, 1 months, 28 days (3) Khudiram Bose- Birth 3 December, 1889 Hanged- 11 August, 1908 Age when hanged was 18 years, 8 months 8 days (4) Hemu Kalani - Birth 23 March 1923 Hanged- 21 January 1943 Age when hanged was 19 years, 9 months, 29 days So, it is manifest from the above that in the given options during the struggle for Independence, Khudiram Bose was hanged at least age, so option (c) is the correct answer.
 *Asked in:* R.A.S./R.T.S. (Pre) 1992
 
-**Q72.** Match List- I with List- II and select the correct an- swer: List- I List- II A. Abhinav Bharat Society 1. Sri Aurobindo Ghosh B. Anushilan Samiti 2. Lala Hardayal C. Gadar Party 3. C.R. Das D. Swaraj Party 4. V.D. Savarkar Code : A B C D
+**Q72.** Match List- I with List- II and select the correct answer: List- I List- II A. Abhinav Bharat Society 1. Sri Aurobindo Ghosh B. Anushilan Samiti 2. Lala Hardayal C. Gadar Party 3. C.R. Das D. Swaraj Party 4. V.D. Savarkar Code : A B C D
 
 - **A.** 4 1 3 2
 - **B.** 1 4 3 2
@@ -36838,12 +36838,12 @@ asked in.
 
 **Q18.** The Ghadr (Ghadar) was a -
 
-- **A.** Revolutionary association of Indians with headquar- ters at San Francisco
+- **A.** Revolutionary association of Indians with headquarters at San Francisco
 - **B.** Nationalist organization operating from Singapore
 - **C.** Militant organization with headquarters at Berlin
-- **D.** Communist movement for India's freedom with head- quarters at Tashkent
+- **D.** Communist movement for India's freedom with headquarters at Tashkent
 
-**Answer:** A — Revolutionary association of Indians with headquar- ters at San Francisco
+**Answer:** A — Revolutionary association of Indians with headquarters at San Francisco
 **Explanation:** Founded on 21 April 1913 A. D. 'Ghadar Party' was a revolutionary association of expatriate Indians with headquarters at San Francisco. It was started with the purpose to free India from British rule. This party was established by the Indians residing in Canada and America.
 *Asked in:* I.A.S. (Pre) 2014
 
@@ -36891,7 +36891,7 @@ asked in.
 **Explanation:** During the World War-I, Raja Mahendra Pratap established the first provisional Government of India at Kabul in Afghanistan in 1915 AD. In this Government Raja Mahendra Pratap himself became President, and his associate Maulavi Barakatullah Khan worked as Prime Minister. Germany and Russia gave recognition to this Government.
 *Asked in:* U.P.P.C.S. (Spl) (Pre) 2008
 
-**Q23.** A provisional Government of India with Raja Mahen- dra Pratap as its President was established during the first World War in?
+**Q23.** A provisional Government of India with Raja Mahendra Pratap as its President was established during the first World War in?
 
 - **A.** Afghanistan
 - **B.** Germany
@@ -36902,7 +36902,7 @@ asked in.
 **Explanation:** During the World War-I, Raja Mahendra Pratap established the first provisional Government of India at Kabul in Afghanistan in 1915 AD. In this Government Raja Mahendra Pratap himself became President, and his associate Maulavi Barakatullah Khan worked as Prime Minister. Germany and Russia gave recognition to this Government.
 *Asked in:* U.P.P.C.S. (Pre) 2012; U.P.U.D.A/L.D.A (Spl) (Mains) 2010
 
-**Q24.** Interim government under the leadership of Raja Ma- hendra Pratap Singh was founded in Kabul with the support of Germany during the :
+**Q24.** Interim government under the leadership of Raja Mahendra Pratap Singh was founded in Kabul with the support of Germany during the :
 
 - **A.** Gadar Movement
 - **B.** Swadeshi Movement
@@ -36914,7 +36914,7 @@ asked in.
 **Explanation:** During the World War-I, Raja Mahendra Pratap established the first provisional Government of India at Kabul in Afghanistan in 1915 AD. In this Government Raja Mahendra Pratap himself became President, and his associate Maulavi Barakatullah Khan worked as Prime Minister. Germany and Russia gave recognition to this Government.
 *Asked in:* 66th B.P.S.C. Re-Exam (Pre) 2020
 
-**Q25.** Who is regarded as the "Mother of Indian Revolu- tion":
+**Q25.** Who is regarded as the "Mother of Indian Revolution":
 
 - **A.** Annie Besant
 - **B.** Sarojini Naidu
@@ -36925,7 +36925,7 @@ asked in.
 **Explanation:** Bhikaiji Cama was an Indian freedom fighter and political activist. She was born to an extremely wealthy Parsi business family. She led the revolutionary movement from America and Europe for India's freedom. At the International Socialist Congress held at Stuttgart (Germany) in 1907 A. D., she was the first person to hoist Indian Flag on foreign land. She struggled with her full strength for Indian freedom and worked for it residing in Paris. In 1935 A. D. she returned to Mumbai and in August, 1936 A. D. she died. She was popularly known as ''Mother of Indian Revolution''.
 *Asked in:* U.P.P.C.S. (Pre) 2003; U.P.U.D.A./L.D.A. (Pre) 2002
 
-**Q26.** Consider the following statements about Madam Bhi- kaji Cama: 1. Madam Cama unfurled the National Flag at the International Socialist Conference in Paris in the year 1907. 2. Madam Cama served as private secretary to Dada- bhai Naoroji. 3. Madam Cama was born to Parsi. Which of the statement(s) given above is/are correct?
+**Q26.** Consider the following statements about Madam Bhikaji Cama: 1. Madam Cama unfurled the National Flag at the International Socialist Conference in Paris in the year 1907. 2. Madam Cama served as private secretary to Dadabhai Naoroji. 3. Madam Cama was born to Parsi. Which of the statement(s) given above is/are correct?
 
 - **A.** 1, 2 and 3
 - **B.** 2 and 3 only
@@ -37062,7 +37062,7 @@ asked in.
 **Explanation:** The Kamagatamaru was a Japanese steamliner chartered by an affluent Punjabi businessman, Gurdit Singh to bring Indian immigrants to Canada. The ship departed in 1914 A. D., taking 376 Indians for Canada's Vancouver port, but the Canadian police refused their entry in Canada. A Shore Committee was constituted to protect the rights of Indian travellers under the leadership of Hussain Rahim, Balwant Singh, and Sohan Lal Pathak. Indian, Bhagwan Singh, Barkatullah, Ramchand and Sohan Singh also carried out a movement in favour of Indian emigrants. When Kamagatamaru reached Budge Budge port at Calcutta, a clash occurred between angered passengers and British Police. In firing by the Police, 20 of the passenger were killed, one drowned and 202 passengers were sent to Jail.
 *Asked in:* Uttarakhand P.C.S. (Mains) 2002
 
-**Q38.** Who one of the following was associated with 'Ka- magatamaru episode'?
+**Q38.** Who one of the following was associated with 'Kamagatamaru episode'?
 
 - **A.** Sardar Ajit Singh
 - **B.** Baba Gurdip Singh
@@ -37153,7 +37153,7 @@ asked in.
 **Explanation:** On 20 July, 1905 A. D., Curzon issued an order to divide Bengal (resolution was signed on July 19, 1905). One of the main objectives of the partition of Bengal was to divide the unity among the people of Bengal. Lord Curzon divided the territories of Bengal in such a way that the western part formed the Hindu majority area and the eastern part formed the Muslim majority area. The partition of Bengal finally took place on 16th October, 1905 A. D. On 7 August, 1905 A. D., one of the first mass protests was organized in Calcutta's Town Hall, also known as Anti-partition Movement.
 *Asked in:* U.P. R.O/A.R.O (Re. Exam) (Pre) 2025
 
-**Q4.** In the context of the Indian Freedom Struggle, 16 th October, 1905 is well-known for which one of the fol- lowing reasons?
+**Q4.** In the context of the Indian Freedom Struggle, 16 th October, 1905 is well-known for which one of the following reasons?
 
 - **A.** The formal proclamation of Swadeshi Movement was made in Calcutta Town Hall
 - **B.** Partition of Bengal came into effect.
@@ -37345,7 +37345,7 @@ asked in.
 **Explanation:** Swadeshi and Boycott were adopted as the methods of struggle for the first time during the Bengal partition. After the formal proclamation of partition of Bengal on 20 July 1905 AD by Lord Curzon, Swadeshi movement was formally started on 7 August 1905 AD with the passing of the 'Boycott' resolution in a meeting at Calcutta Townhall.
 *Asked in:* 68th B.P.S.C. (Pre) 2022
 
-**Q21.** Which movement was started as a reaction to the Parti- tion of Bengal?
+**Q21.** Which movement was started as a reaction to the Partition of Bengal?
 
 - **A.** Non-Cooperation Movement
 - **B.** Civil Disobedience Movement
@@ -37413,7 +37413,7 @@ asked in.
 **Explanation:** A ceremonial welcome was organized on the arrival of King George V and Queen Mary at the Delhi Durbar in 1911 AD, where they were presented to an assembled audience of Indian dignitaries and princes as the Emperor and Empress of India on 12 December, 1911 AD. During Delhi Durbar on December 12, 1911 A. D., the King abolished the partition of Bengal and declared the transfer of the Indian capital from Calcutta to Delhi. As declared, Bengal was reorganized as the new province. Orissa and Bihar were separated from Bengal.
 *Asked in:* I.A.S. (Pre) 2014
 
-**Q27.** In which year partition of Bengal made by Lord Cur- zon was cancelled ?
+**Q27.** In which year partition of Bengal made by Lord Curzon was cancelled ?
 
 - **A.** 1911
 - **B.** 1904
@@ -37424,7 +37424,7 @@ asked in.
 **Explanation:** A ceremonial welcome was organized on the arrival of King George V and Queen Mary at the Delhi Durbar in 1911 AD, where they were presented to an assembled audience of Indian dignitaries and princes as the Emperor and Empress of India on 12 December, 1911 AD. During Delhi Durbar on December 12, 1911 A. D., the King abolished the partition of Bengal and declared the transfer of the Indian capital from Calcutta to Delhi. As declared, Bengal was reorganized as the new province. Orissa and Bihar were separated from Bengal.
 *Asked in:* 48th to 52nd B.P.S.C. (Pre) 2008; U.P. P.C.S. (Pre) 1993; U.P. P.C.S (Pre) 1991
 
-**Q28.** When was Bengal reunited due to the protests by In- dians?
+**Q28.** When was Bengal reunited due to the protests by Indians?
 
 - **A.** 1905
 - **B.** 1911
@@ -37674,7 +37674,7 @@ asked in.
 
 - **A.** He wrote a book 'Poverty and Un-British Rule in India.'
 - **B.** He worked as a Professor of Gujarati at University College, London
-- **C.** He laid the foundation of woman's education in Bom- bay
+- **C.** He laid the foundation of woman's education in Bombay
 - **D.** He was elected as a member of British Parliament on the ticket of the Conservative Party
 
 **Answer:** D — He was elected as a member of British Parliament on the ticket of the Conservative Party
@@ -37692,7 +37692,7 @@ asked in.
 **Explanation:** Dadabhai Naoroji presided over INC sessions for three times in 1886 AD, 1893 AD and in 1906 AD.
 *Asked in:* U.P.P.C.S. (Pre) 2014
 
-**Q15.** Who was first Indian to be elected to the British Parlia- ment?
+**Q15.** Who was first Indian to be elected to the British Parliament?
 
 - **A.** Ras Bihari Bose
 - **B.** Surendranath Banerjee
@@ -37703,7 +37703,7 @@ asked in.
 **Explanation:** Dadabhai Naoroji, the Grand Old Man of India, was the first Indian to become a Member of British Parliament in United Kingdom's House of Commons.
 *Asked in:* U.P.P.C.S. (Pre) 1992
 
-**Q16.** At which session was the Indian National Congress (INC) divided into two groups -'Naram Dal' and Ga- ram Dal'?
+**Q16.** At which session was the Indian National Congress (INC) divided into two groups -'Naram Dal' and Garam Dal'?
 
 - **A.** Bombay
 - **B.** Surat
@@ -37747,7 +37747,7 @@ asked in.
 **Explanation:** The Indian National Congress was formed in 1885 and was divided into two factions in 1907 A. D., namely extremists- Garam Dal led by Lala Lajpat Rai and moderates 'Naram Dal' led by Rash Behari Ghosh. Rash Behari Ghosh succeeded to become its President. Reason of this division was four Resolutions Swadeshi, Boycott, National Education and Swaraj (self-government) which passed in 1906 in Calcutta session. Extremists wanted to continue this resolution while the liberals were not in favour.
 *Asked in:* U.P. U.D.A./L.D.A. (Pre) 2010; U.P.P.C.S. (Mains) 2007
 
-**Q20.** Four resolutions were passed at the famous Calcutta Session of Indian National Congress in 1906. The question of either retention or rejection of these four resolutions became the cause of a split in Congress at the next Congress Session held in Surat in 1907. Which one of the following was not one of those resolu- tions?
+**Q20.** Four resolutions were passed at the famous Calcutta Session of Indian National Congress in 1906. The question of either retention or rejection of these four resolutions became the cause of a split in Congress at the next Congress Session held in Surat in 1907. Which one of the following was not one of those resolutions?
 
 - **A.** Annulment of the partition of Bengal
 - **B.** Boycott
@@ -37791,7 +37791,7 @@ asked in.
 **Explanation:** The Indian National Congress split into two groups, the extremists and the moderates in the Surat session in 1907.
 *Asked in:* Uttarakhand U.D.A./L.D.A. (Pre) 2003
 
-**Q24.** When was the first partition of Indian National Con- gress was held?
+**Q24.** When was the first partition of Indian National Congress was held?
 
 - **A.** 1907
 - **B.** 1906
@@ -37907,7 +37907,7 @@ asked in.
 
 **Q8.** Consider the following statements - Statement (A) : League refused to accept the Congress Muslim people rights together with the aim being to achieve. Reason (R) : Only the Muslim League has the right of such type. Code :
 
-- **A.** Both (A) and (R) are correct, and (R) is correct expla- nation of (A).
+- **A.** Both (A) and (R) are correct, and (R) is correct explanation of (A).
 - **B.** Both (A) and (R) are correct, and (R) is not correct explanation of (A).
 - **C.** (A) is correct, but (R) is wrong.
 - **D.** (A) is wrong, but (R) is right.
@@ -37921,7 +37921,7 @@ asked in.
 - **A.** Hakim Ajmal Khan was one of the leaders to start a nationalist and militant Ahrar movement
 - **B.** When the Indian National Congress was formed, Sayyed Ahmad Khan opposed it
 - **C.** The All-India Muslim League which was formed in 1906 vehemently opposed the partition of Bengal and separate electorates
-- **D.** Maulana Barkat Ullah and Maulana Obeidullah Sindhi were among those who formed a Provisional Govern- ment of India in Kabul.
+- **D.** Maulana Barkat Ullah and Maulana Obeidullah Sindhi were among those who formed a Provisional Government of India in Kabul.
 
 **Answer:** C — The All-India Muslim League which was formed in 1906 vehemently opposed the partition of Bengal and separate electorates
 **Explanation:** The All India Muslim League formed in 1906 A. D. supported the Bengal partition. They demanded a separate electorate under the leadership of Aga Khan III.
@@ -38100,7 +38100,7 @@ asked in.
 **Explanation:** The Delhi Conspiracy case, also known as the Delhi-Lahore Conspiracy, refers to a conspiracy in 1912 to assassinate the then Viceroy of India, Lord Hardinge-II, on the occasion of transferring the capital of British India from Calcutta to Delhi. Hatched by the Indian revolutionary underground in Bengal and Punjab and headed by Rash Behari Bose, the conspiracy culminated in the attempted assassination on 23 December, 1912 when a homemade bomb was thrown into the Viceroy's Howdah when the ceremonial procession moved through the Chandni Chowk suburb of Delhi.
 *Asked in:* U.P. Lower Sub. (Spl) (Pre) 2008
 
-**Q8.** At which Viceroy was a bomb thrown on the occa- sion of his state entry into Delhi?
+**Q8.** At which Viceroy was a bomb thrown on the occasion of his state entry into Delhi?
 
 - **A.** Lord Curzon
 - **B.** Lord Minto
@@ -38749,7 +38749,7 @@ asked in.
 **Explanation:** Satyagraha is a term comprising two words; Satya or truth, and Agrah or insistence. Hence, in its loose English interpretation, Satyagraha means 'insistence on truth'. The Champaran Satyagraha of 1917 A. D. was Mahatma Gandhi's first successful Satyagraha in India.
 *Asked in:* Uttarakhand P.C.S. (Pre) 2005
 
-**Q30.** Which of the following was Gandhiji's first Satyagraha Movement in India in which he used Civil Disobedi- ence?
+**Q30.** Which of the following was Gandhiji's first Satyagraha Movement in India in which he used Civil Disobedience?
 
 - **A.** Champaran
 - **B.** Kheda
@@ -39226,8 +39226,8 @@ asked in.
 
 **Q73.** Which one of the following statements is not correct about Gandhian economy?
 
-- **A.** He laid emphasis on the economy based on non- violence.
-- **B.** Centralisation lead to exploitation and inequality, hence centralisation is opponent of formation of non- violent society
+- **A.** He laid emphasis on the economy based on nonviolence.
+- **B.** Centralisation lead to exploitation and inequality, hence centralisation is opponent of formation of nonviolent society
 - **C.** He was not in favour of mechanisation in India
 - **D.** He did not favour mechanisation in U.S.A.
 
@@ -39776,7 +39776,7 @@ asked in.
 **Explanation:** Swami Sahajanand Saraswati (1889-1950 A. D.) was a Sanyasi and a prominent farmers' right activist. He was also an Indian freedom fighter. He was a forceful writer and ran the Hindi weekly Hunkar from Patna.
 *Asked in:* 63rd B.P.S.C (Pre.) 2017
 
-**Q15.** Swami Sahajananda was related to which of the fol- lowing?
+**Q15.** Swami Sahajananda was related to which of the following?
 
 - **A.** Tribal Movement in Bihar
 - **B.** Labour Movement in Bihar
@@ -39981,12 +39981,12 @@ asked in.
 
 **Q33.** The demand for the Tebhaga Peasant Movement in Bengal was for -
 
-- **A.** The reduction of the share of the landlords from one- half of the crop to one-third
+- **A.** The reduction of the share of the landlords from onehalf of the crop to one-third
 - **B.** The grant of ownership of land to peasants as they were the actual cultivators of the land
 - **C.** The uprooting of Zamindari System and the end of serfdom
 - **D.** Writing off all peasant debts
 
-**Answer:** A — The reduction of the share of the landlords from one- half of the crop to one-third
+**Answer:** A — The reduction of the share of the landlords from onehalf of the crop to one-third
 **Explanation:** The Tebhaga Peasant Movement was initiated in Bengal in 1946 A. D. by the Bengal Provincial Kisan Sabha to implement the recommendations of Flood Commission, which asked for sharecroppers to give one-third of their harvest to the landowner instead of the one-half, which they were paying at that time. In its response, the Bargadari Act was passed which provided that sharecroppers pay only onethird of their harvest to the landlords. The Movement mostly affected the districts of Northern-Bengal.
 *Asked in:* I.A.S. (Pre) 2013
 
@@ -40148,7 +40148,7 @@ asked in.
 **Explanation:** Jawaharlal Nehru presided over the All India Trade Union Congress held at Nagpur in 1929 A. D. The Nagpur session of the All India Trade Union Congress (AITUC) in 1929 A. D. displayed the trial of strength between the leftists and the rightists (or the moderates or reformists). The moderate section under the leadership of N. M. Joshi, V. V. Giri and B. Shiva Rao set up a separate organization and named 'Indian Trade Union Federation.'
 *Asked in:* U.P.P.C.S. (Mains) 2013
 
-**Q10.** Consider the following statements with reference to Trade Union Movement in India : 1. All India Trade Union Congress was founded in 1920. 2. Lala Lajpat Rai was elected its first Presi- dent. 3. All India Trade Union Federation was formed by S.A. Dange in 1929. Select the correct answer from the code given below :
+**Q10.** Consider the following statements with reference to Trade Union Movement in India : 1. All India Trade Union Congress was founded in 1920. 2. Lala Lajpat Rai was elected its first President. 3. All India Trade Union Federation was formed by S.A. Dange in 1929. Select the correct answer from the code given below :
 
 - **A.** Only 1 & 2
 - **B.** Only 1 & 3
@@ -40538,7 +40538,7 @@ asked in.
 **Explanation:** After the incident of Jallianwala Bagh (April 13, 1919 A. D.), Rabindranath Tagore returned his honour of 'Knighthood' to Indian Government on May 31, 1919 A. D. In a letter to the Governor-General, he wrote: "..... The time has come when badges of honour make our shame glaring in their incongruous context of humiliation and I for my part wish to stand shorn of all special distinctions by the side of those of my countrymen who, for their so-called insignifi cance, are liable to suffer degradations not fi t for human beings....."
 *Asked in:* 65th B.P.S.C. (Pre) 2019
 
-**Q27.** Given below are two statements, one labelled as Assertion (A) and other as Reason (R) - Assertion (A) : Rabindranath Tagore renounced Knighthood. Reason (R): He wanted to participate in the Non- cooperation Movement. Choose the correct answer from the code given below- Code -
+**Q27.** Given below are two statements, one labelled as Assertion (A) and other as Reason (R) - Assertion (A) : Rabindranath Tagore renounced Knighthood. Reason (R): He wanted to participate in the Noncooperation Movement. Choose the correct answer from the code given below- Code -
 
 - **A.** Both (A) and (R) are true and (R) is the correct explanation of (A)
 - **B.** Both (A) and (R) are true and (R) is not the correct explanation of (A)
@@ -40886,7 +40886,7 @@ asked in.
 
 ## 28. Non-Cooperation Movement
 
-**Q1.** Who among the following had moved the Non- cooperation resolution in the Nagpur session of the Indian National Congress in 1920?
+**Q1.** Who among the following had moved the Noncooperation resolution in the Nagpur session of the Indian National Congress in 1920?
 
 - **A.** C.R. Das
 - **B.** Annie Besant
@@ -41188,7 +41188,7 @@ asked in.
 **Explanation:** The infamous Chauri- Chaura incident took place in a small town by the same name near Gorakhpur in Uttar Pradesh in February, 1922 A. D.. This painful event led to the suspension of the Non-Cooperation Movement by Mahatma Gandhi.
 *Asked in:* U.P. P.C.S. (Pre) 1990
 
-**Q28.** Why did Mahatma Gandhi withdraw the Non- cooperation Movement in 1922?
+**Q28.** Why did Mahatma Gandhi withdraw the Noncooperation Movement in 1922?
 
 - **A.** Most of the leaders were arrested and they were in prison.
 - **B.** Britishers were ready to accept the demands partly.
@@ -41287,7 +41287,7 @@ asked in.
 **Explanation:** On 4th February, 1922 A. D., the angry residents of ChauriChaura village gathered in front of the police station to protest against the arrest of their leader, while campaigning against the sale of liquor. However the police opened fire on the villagers, which angered them to such an extent that they set the police station on fire killing twenty-three policemen and three civilians. Gandhi, worried about the increasing use of violence, immediately withdrew the Movement. The working committee of the Congress met in February, 1922 A. D. and decided to withdraw the Movement and urged the party workers to get involved in constructive works, such as popularizing khadi, establishing National schools and working towards Hindu-Muslim unity. Gandhi was arrested on 10th March, 1922 A. D. for six years. The Non-cooperation Movement ended. Thus, option (a) is the correct answer.
 *Asked in:* 40th B.P.S.C. (Pre) 1995
 
-**Q37.** Who led cultivators in Bihar during the Non- cooperation Movement?
+**Q37.** Who led cultivators in Bihar during the Noncooperation Movement?
 
 - **A.** Swami Vidyanand
 - **B.** Raj Kumar Shukla
@@ -41456,7 +41456,7 @@ asked in.
 **Explanation:** Born in Sitab Diyara; Saran, Bihar, freedom fighter Jayaprakash Narayan dropped out of Patna College during the Non-Cooperation Movement, with only 20 days left for his exams. After this, he took admission in congress-run Bihar Vidyapeeth.
 *Asked in:* 56th to 59th BPSC (Pre) 2016
 
-**Q52.** Who among the following established anti-non-co- operation movement assembly?
+**Q52.** Who among the following established anti-non-cooperation movement assembly?
 
 - **A.** Jamna Das Thakur Das
 - **B.** Jairam Das
@@ -41829,7 +41829,7 @@ asked in.
 **Explanation:** Montagu-Chelmsford reform (Government of India act, 1919) provided for a Constitutional Commission to review its working and operations. The Government of India Act, 1919 was passed on the basis of recommendations of Lord Chelmsford and Samuel Montagu to introduce self-governing institutions gradually to India. For this purpose, Simon Commission was appointed in November, 1927 AD by the British Conservative Government under Stanley Baldwin to report on the working of the Indian Constitution established by the Government of India Act of 1919. The Commission consisted of seven members under the chairmanship of Sir John Simon. None of the members of this Commission was Indian thus Indian leaders opposed the Commission saying it 'White Commission.' Simon Commission advocated reconstitution of Central legislature with a federal character instead of a unitary character and its members should be elected from provincial legislature indirectly. Simon Commission reached Bombay on February 3, 1928 A. D. on that day Countrywide strike was held.
 *Asked in:* U.P.P.C.S. (Mains) 2005
 
-**Q11.** With reference to Simon Commission's recommenda- tions, which one of the following statements is correct?
+**Q11.** With reference to Simon Commission's recommendations, which one of the following statements is correct?
 
 - **A.** It recommended the replacement of diarchy with responsible Government in the provinces.
 - **B.** It proposed the setting up of inter-provincial council under the Home Department
@@ -42336,7 +42336,7 @@ asked in.
 **Explanation:** Mahatma Gandhi with his volunteers, started Dandi March from Sabarmati Ashram on March 12, 1930, to violate the Salt law at sea coast of Dandi (Gujarat). The number and names of few satyagrahi with their respective states are as followsGujarat-32, Maharashtra-13, U. P.-8, Kutch-6, Kerala-4, Punjab-3, Rajputana-3, Bombay-2 (Daudbhai and Harilal Mahimtura), Sindh-1 (Anand Hingorani), Nepal-2, Tamil Nadu-1 (Tapan Nayar), Andhra-1 (Subramanyam), Utkal-1 (Motibasdas), Karnataka-1 (Mahadev Martand), Bihar-1 (Girivardhari Chaudhary), Bengal-1 (Durgesh Chandra Das).
 *Asked in:* U.P.P.C.S. (Mains) 2013
 
-**Q10.** What was the ultimate goal of Gandhiji's Salt Satya- graha?
+**Q10.** What was the ultimate goal of Gandhiji's Salt Satyagraha?
 
 - **A.** Repeal of Salt laws
 - **B.** Curtailment of the government's power
@@ -44173,7 +44173,7 @@ asked in.
 **Explanation:** When World War II broke out in 1939 A. D., Britain made India belligerent without consulting Indian elected councils and also declared the Emergency. That action angered Indian officials and prompted the Congress Party to declare that India would not support the war until it had been granted complete independence.
 *Asked in:* U.P. P.C.S. (Pre) 1993
 
-**Q2.** Statement (S) :Indian National Congress had collabo- rated/assisted British in II World War. nd Reason (R) : Because they were expecting to complete independence. Code :
+**Q2.** Statement (S) :Indian National Congress had collaborated/assisted British in II World War. nd Reason (R) : Because they were expecting to complete independence. Code :
 
 - **A.** (S) and (R) are individually true, and (R) is the correct explanation of (S).
 - **B.** Both (S) and (R) are false.
@@ -46314,7 +46314,7 @@ asked in.
 **Explanation:** Under the Cabinet Mission Plan of 1946, elections were held for the first time for Constituent Assembly. The elections for the 296 seats assigned to the British Indian provinces were completed by July, 1946 AD. Congress won 208 seats and Muslim League won 73 seats and other independent candidates won 15 seats. M. A. Jinnah was not a member of the Constituent Assembly of India. The Constituent Assembly was the first Parliament of Independent India. Dr. Sachchidananda Sinha was the first President (Temporary Chairman of the Assembly) of the Constituent Assembly when it met on December 9, 1946 AD. Dr. Rajendra Prasad then became the permanent Chairman of the Constituent Assembly, and later became the first President of India. The Constitution of India was adopted on 26th November, 1949 AD.
 *Asked in:* I.A.S. (Pre) 2004
 
-**Q9.** Which political party's National Executive called for the dissolution of the Constituent Assembly and its re- election by adult suffrage?
+**Q9.** Which political party's National Executive called for the dissolution of the Constituent Assembly and its re-election by adult suffrage?
 
 - **A.** Hindu Mahasabha
 - **B.** Socialist Party
@@ -48122,7 +48122,7 @@ asked in.
 **Explanation:** On July 10, 1806 AD, a military uprising took place at the Vellore Fort in Tamil Nadu, known as the Vellore Mutiny. The mutiny was caused by several social, religious, and political factors, particularly British policies and their disregard for Indian soldiers' sentiments. Nana Phadnavis, a prominent political leader of the Maratha society, passed away in March 1800 AD. Lord Wellesley served as Governor-General from 1798 AD to 1805 AD. Due to his aggressive expansionist policies and military campaigns, the British government faced financial difficulties and recalled him in 1805 AD. Lord Hastings (1813-1823 AD) later oversaw the AngloNepalese War (1814-1816 AD), which concluded with the Treaty of Sugauli.
 *Asked in:* U.P. P.C.S. (Pre) 2024
 
-**Q15.** Consider the following events of Modern Indian His- tory 1. Death sentence to Raja Nand Kumar 2. Treaty of Salbai 3. Battle of Wandiwash 4. Death of Tipu Sultan Which of the following is the correct chronological order of the above events?
+**Q15.** Consider the following events of Modern Indian History 1. Death sentence to Raja Nand Kumar 2. Treaty of Salbai 3. Battle of Wandiwash 4. Death of Tipu Sultan Which of the following is the correct chronological order of the above events?
 
 - **A.** 2-3-4-1
 - **B.** 3-1-2-4
@@ -48322,7 +48322,7 @@ asked in.
 **Explanation:** Both Gandhi and Tilak toured extensively in India for the cause of social development. Tilak was the first national leader who tried to establish a close relationship with the public. Hence, he was a precursor to Gandhi.
 *Asked in:* U.P.P.C.S. (Pre) 1992
 
-**Q33.** With reference to Lala Lajpat Rai which of the following statements is/are correct? 1. At first he was not in favour of the policy of Non- cooperation but later he joined in favour of Gandhi. 2. Lala Lajpat Rai also participated in the formation of Swaraj Party. Select the correct answer from the codes given below.
+**Q33.** With reference to Lala Lajpat Rai which of the following statements is/are correct? 1. At first he was not in favour of the policy of Noncooperation but later he joined in favour of Gandhi. 2. Lala Lajpat Rai also participated in the formation of Swaraj Party. Select the correct answer from the codes given below.
 
 - **A.** 1 only
 - **B.** 2 only
@@ -49726,7 +49726,7 @@ asked in.
 **Explanation:** The correct chronological order of events is as follows: Home Rule Movement - 1916 AD Champaran Satyagraha - 1917 AD Jallianwala Bagh Massacre - April 13, 1919 AD Amritsar Session of Indian - 26-30 December, 1919 AD National Congress
 *Asked in:* U.P.P.C.S. (Mains) 2003; M.P.P.C.S. (Pre) 1995
 
-**Q160.** Match List I with List II List-I List-II Event/Organisation Related Person A. Champaran 1. Jayaprakash Narayan Satyagrah B. Azad Dasta 2. Shyam Narayan Singh C. Individual 3. Sahajanand Saraswati Satyagrah in Bihar 1940 D. Kisan Sabha Bihar 4. Dr. Rajendra Prasad Select the correct answer using the codes given be- low: A B C D
+**Q160.** Match List I with List II List-I List-II Event/Organisation Related Person A. Champaran 1. Jayaprakash Narayan Satyagrah B. Azad Dasta 2. Shyam Narayan Singh C. Individual 3. Sahajanand Saraswati Satyagrah in Bihar 1940 D. Kisan Sabha Bihar 4. Dr. Rajendra Prasad Select the correct answer using the codes given below: A B C D
 
 - **A.** 4 2 3 1
 - **B.** 2 3 1 4
@@ -50796,7 +50796,7 @@ asked in.
 **Explanation:** Lahore Session of Congress was held in December, 1929 and Gandhi-Irwin Pact was signed on 5 March, 1931 while execution of Bhagat Singh, Sukhdev and Rajguru 23 March, 1931 Karachi session of Congress (29-31 March, 1931). Thus, correct answer is option (a).
 *Asked in:* U.P.P.C.S. (Mains) 2011
 
-**Q257.** Match List- I with List- II and select the correct answer from the code given below: List- I List- II A. Subhash Chandra Bose 1. Throwing the bomb in Central Assembly B. Vallabhbhai Patel 2. Haripura Session of Indian National Con- gress C. Iqbal 3. Operation Polo D. Batukeshwar Dutt 4. Allahabad Session of Muslim League, 1930 Code : A B C D
+**Q257.** Match List- I with List- II and select the correct answer from the code given below: List- I List- II A. Subhash Chandra Bose 1. Throwing the bomb in Central Assembly B. Vallabhbhai Patel 2. Haripura Session of Indian National Congress C. Iqbal 3. Operation Polo D. Batukeshwar Dutt 4. Allahabad Session of Muslim League, 1930 Code : A B C D
 
 - **A.** 2 3 4 1
 - **B.** 1 2 3 4
@@ -51504,7 +51504,7 @@ asked in.
 **Explanation:** The correctly matched list is as follows: List-I List-II (Author) (Title of the Book) V. D. Savarkar The Indian War of Independence, 1857 R. C. Majumdar The Sepoy Mutiny and the Revolt of 1857 S. B. Chaudhari Civil Rebellion in the Indian Mutinies (1857-1859) Ashok Mehta 1857: The Great Rebellion
 *Asked in:* U.P.R.O./A.R.O. (Mains) 2017
 
-**Q35.** Match the List - I of authors with List-II of the books on 1857 and choose answers from the code given be- low: List - I List - II
+**Q35.** Match the List - I of authors with List-II of the books on 1857 and choose answers from the code given below: List - I List - II
 
 - **A.** iv ii i ii
 - **B.** ii iii i iv

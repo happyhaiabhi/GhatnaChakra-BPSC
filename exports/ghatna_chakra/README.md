@@ -142,6 +142,9 @@ what is mechanically detectable and flags the rest instead of guessing:
   are never merged.
 - **Wrapped lines** — newlines inside a sentence collapse to single spaces; the
   explanation keeps its paragraph breaks.
+- **Hyphenated line breaks** — `headquar- ters` → `headquarters`, `fol- lowing` →
+  `following`; a hyphen is kept when the join is not a known word but the left
+  half is a real prefix (`Non- cooperation` → `Non-cooperation`).
 - **Option pollution** — exam labels pasted onto the last option
   ("Sikandar Lodi 44 B.P.S.C. (Pre) 2000 th") are cut off and kept in
   `quality.removed_option_text`; the exam/year is reused if the record's own

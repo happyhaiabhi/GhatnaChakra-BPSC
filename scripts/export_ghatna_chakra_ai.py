@@ -100,6 +100,7 @@ def normalize_text(text: str, keep_paragraphs: bool = False) -> str:
     text = fix_ligatures(text)
     if VOCAB:
         text = repair_split_ligatures(text, VOCAB)
+        text = repair_line_hyphens(text, VOCAB)
     text = text.replace("\u2019", "'").replace("\u2018", "'")
     text = text.replace("\u201c", '"').replace("\u201d", '"')
     text = text.replace("\u2013", "-").replace("\u2014", "-")
@@ -207,6 +208,32 @@ def repair_split_ligatures(text: str, vocab: Counter) -> str:
         return match.group(0)
 
     return _SPLIT_LIGATURE.sub(repl, text)
+
+
+# Words that keep their hyphen when a PDF line break split them:
+# "Non- cooperation" is "Non-cooperation", "in- law" is "in-law".
+_HYPHEN_PREFIXES = {
+    "non", "self", "well", "ill", "pre", "post", "sub", "super", "anti", "co",
+    "re", "mid", "over", "under", "semi", "multi", "inter", "intra", "counter",
+    "pro", "quasi", "ultra", "half", "all", "cross", "vice", "ex", "by", "off",
+    "in", "on", "out", "up", "ever", "never", "twice", "three", "one", "two",
+}
+_LINE_HYPHEN = re.compile(r"\b(?P<left>[A-Za-z]+)-(?P<space>\s+)(?P<right>[a-z]{2,})\b")
+
+
+def repair_line_hyphens(text: str, vocab: Counter) -> str:
+    """Undo hyphenation introduced by a PDF line break ("headquar- ters")."""
+
+    def repl(match: re.Match) -> str:
+        left, right = match.group("left"), match.group("right")
+        joined = (left + right)
+        if vocab.get(joined.lower(), 0) >= 2:
+            return joined
+        if left.lower() in _HYPHEN_PREFIXES:
+            return f"{left}-{right}"
+        return match.group(0)
+
+    return _LINE_HYPHEN.sub(repl, text)
 
 
 def strip_exam_tail(option_text: str) -> tuple[str, str | None]:
