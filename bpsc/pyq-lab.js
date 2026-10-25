@@ -9,6 +9,7 @@
   // Categorised PYQ suites & study material shipped in the "pyq categorised" folder.
   const PYQ_TOPIC_RESOURCES = [
     { icon: '&#x1F4C4;', kind: 'PDF', title: 'BPSC Prelims PYQ Bank (60th–71st)', meta: 'All 1,481 questions across 10 official papers (2017–2025) with verified inline answers, explanations & AI search anchors.', href: '../BPSC_Prelims_PYQ_60th_to_71st.pdf' },
+    { icon: '&#x1F4CA;', kind: 'CSV', title: 'BPSC Prelims PYQ Dataset (60th–71st)', meta: 'Single-line-per-question UTF-8 CSV (1,481 rows, 20 columns) for AI models, Pandas, RAG and spreadsheet search.', href: '../BPSC_Prelims_PYQ_60th_to_71st.csv' },
     { icon: '&#x1F4DA;', kind: 'Revision app', title: 'PYQ Book — Arena Edition', meta: 'All 1,623 categorised PYQs in a Ghatna Chakra style book with priority subjects, mistakes, bookmarks and a full study plan.', href: '../pyq categorised/bpsc_revision/index.html' },
     { icon: '&#x1F3DB;', kind: 'Revision app', title: 'Polity PYQ Revision', meta: 'The 115 polity PYQs split into 29 exam-focused topics with read and drill modes.', href: '../pyq categorised/polity_pyq_revision/index.html' },
     { icon: '&#x1F4D5;', kind: 'PDF', title: 'Complete Priority Study Book', meta: 'Subject priority order built from how often each categorised subject appears in real papers.', href: '../pyq categorised/BPSC_Complete_Priority_Study_Book.pdf' },

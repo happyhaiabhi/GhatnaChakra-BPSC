@@ -193,6 +193,7 @@ STEM_REPAIRS: dict[tuple[str, int], str] = {
         "4. Appreciation of the domestic currency leading to a reduction in export competitiveness\n"
         "Select the correct answer using the codes given below:"
     ),
+    ("66th BPSC", 53): "'Operation My Saheli' launched in September 2020 aims:",
     ("69th BPSC", 121): (
         "As per the Economic Survey, 2023, which of the following statements describe(s) the trend of Foreign Direct Investment in India?\n"
         "1. It has decreased due to the lower participation of the private sector.\n"
@@ -241,6 +242,13 @@ STEM_REPAIRS: dict[tuple[str, int], str] = {
 # fiscal years, fractions, or number pairs into 'YYYY-MM-DD 00:00:00'.
 # Preserves the exact option-letter order of bpsc_parsed.json.
 OPTION_REPAIRS: dict[tuple[str, int], dict[str, str]] = {
+    ("66th BPSC", 53): {
+        "A": "to encourage self-defence education among girls",
+        "B": "to boost the security of women passengers in trains",
+        "C": "to explore new job opportunities for women",
+        "D": "to boost awareness against girl child labour",
+        "E": "None of the above/More than one of the above",
+    },
     ("60-62nd BPSC (Combined)", 2): {
         "A": "1 February, 1900",
         "B": "2 February, 1900",
