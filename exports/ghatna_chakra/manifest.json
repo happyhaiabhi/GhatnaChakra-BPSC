@@ -1,0 +1,594 @@
+{
+  "dataset": "Ghatna Chakra — Ancient, Medieval and Modern India",
+  "generated_at": "2026-10-25T14:46:33Z",
+  "generator": "scripts/export_ghatna_chakra_ai.py",
+  "counts": {
+    "total": 5005,
+    "clean": 4892,
+    "by_subject": {
+      "Ancient India": 1342,
+      "Medieval India": 931,
+      "Modern India": 2732
+    },
+    "by_subject_clean": {
+      "Ancient India": 1318,
+      "Medieval India": 908,
+      "Modern India": 2666
+    },
+    "chapters": 95
+  },
+  "quality_flags": {
+    "five_options": 388,
+    "answer_missing": 93,
+    "option_exam_text_removed": 85,
+    "exam_recovered_from_option": 69,
+    "multi_answer": 26,
+    "exam_missing": 17,
+    "year_missing": 17,
+    "malformed_question": 8,
+    "image_dependent": 8,
+    "duplicate_question": 4
+  },
+  "distinct_exams": 929,
+  "year_range": [
+    1990,
+    2025
+  ],
+  "subjects": [
+    {
+      "book_id": "ancient_india",
+      "subject": "Ancient India",
+      "period": "Ancient India",
+      "emoji": "🏛️",
+      "id_prefix": "anc",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_name": "1. Stone Age",
+          "count": 51
+        },
+        {
+          "chapter_no": 2,
+          "chapter_name": "2. Indus Valley Civilization",
+          "count": 96
+        },
+        {
+          "chapter_no": 3,
+          "chapter_name": "3. Vedic Age",
+          "count": 114
+        },
+        {
+          "chapter_no": 4,
+          "chapter_name": "4. Buddhism",
+          "count": 151
+        },
+        {
+          "chapter_no": 5,
+          "chapter_name": "5. Jain Religion",
+          "count": 63
+        },
+        {
+          "chapter_no": 6,
+          "chapter_name": "6. Shaiva, Bhagavata Religion",
+          "count": 31
+        },
+        {
+          "chapter_no": 7,
+          "chapter_name": "7. Sixth century B.C.E - Political Condition",
+          "count": 61
+        },
+        {
+          "chapter_no": 8,
+          "chapter_name": "8. Greek Invasion",
+          "count": 7
+        },
+        {
+          "chapter_no": 9,
+          "chapter_name": "9. Maurya Empire",
+          "count": 149
+        },
+        {
+          "chapter_no": 10,
+          "chapter_name": "10. Post-Mauryan Period",
+          "count": 79
+        },
+        {
+          "chapter_no": 11,
+          "chapter_name": "11. Gupta and Post-Gupta Period",
+          "count": 183
+        },
+        {
+          "chapter_no": 12,
+          "chapter_name": "12. Architecture in Ancient India",
+          "count": 100
+        },
+        {
+          "chapter_no": 13,
+          "chapter_name": "13. South India (Chola, Chalukya, Pallava and Sangam Period)",
+          "count": 96
+        },
+        {
+          "chapter_no": 14,
+          "chapter_name": "14. Ancient Literature and Litterateur",
+          "count": 88
+        },
+        {
+          "chapter_no": 15,
+          "chapter_name": "15. Early-Medieval Period",
+          "count": 73
+        }
+      ],
+      "question_count": 1342
+    },
+    {
+      "book_id": "medieval_india",
+      "subject": "Medieval India",
+      "period": "Medieval India",
+      "emoji": "🏰",
+      "id_prefix": "med",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_name": "1. Muslim Invasion of India",
+          "count": 40
+        },
+        {
+          "chapter_no": 2,
+          "chapter_name": "2. Delhi Sultanate: Slave Dynasty",
+          "count": 39
+        },
+        {
+          "chapter_no": 3,
+          "chapter_name": "3. Khalji Dynasty",
+          "count": 34
+        },
+        {
+          "chapter_no": 4,
+          "chapter_name": "4. Tughluq Dynasty",
+          "count": 45
+        },
+        {
+          "chapter_no": 5,
+          "chapter_name": "5. Lodi Dynasty",
+          "count": 12
+        },
+        {
+          "chapter_no": 6,
+          "chapter_name": "6. Vijayanagara Empire",
+          "count": 48
+        },
+        {
+          "chapter_no": 7,
+          "chapter_name": "7. Delhi Sultanate: Administration",
+          "count": 31
+        },
+        {
+          "chapter_no": 8,
+          "chapter_name": "8. Delhi Sultanate: Art and Architecture",
+          "count": 15
+        },
+        {
+          "chapter_no": 9,
+          "chapter_name": "9. Delhi Sultanate: Literature",
+          "count": 43
+        },
+        {
+          "chapter_no": 10,
+          "chapter_name": "10. Delhi Sultanate : Miscellaneous",
+          "count": 28
+        },
+        {
+          "chapter_no": 11,
+          "chapter_name": "11. Provincial Dynasty of North India and Deccan Province",
+          "count": 42
+        },
+        {
+          "chapter_no": 12,
+          "chapter_name": "12. Bhakti and Sufi Movement",
+          "count": 99
+        },
+        {
+          "chapter_no": 13,
+          "chapter_name": "13. Mughal Dynasty : Babur",
+          "count": 28
+        },
+        {
+          "chapter_no": 14,
+          "chapter_name": "14. Humayun and Sher Shah",
+          "count": 33
+        },
+        {
+          "chapter_no": 15,
+          "chapter_name": "15. Akbar",
+          "count": 83
+        },
+        {
+          "chapter_no": 16,
+          "chapter_name": "16. Jahangir",
+          "count": 34
+        },
+        {
+          "chapter_no": 17,
+          "chapter_name": "17. Shah Jahan",
+          "count": 27
+        },
+        {
+          "chapter_no": 18,
+          "chapter_name": "18. Aurangzeb",
+          "count": 27
+        },
+        {
+          "chapter_no": 19,
+          "chapter_name": "19. Mughal Administration",
+          "count": 31
+        },
+        {
+          "chapter_no": 20,
+          "chapter_name": "20. Music and Paintings of Mughal Period",
+          "count": 25
+        },
+        {
+          "chapter_no": 21,
+          "chapter_name": "21. Mughal Literature",
+          "count": 33
+        },
+        {
+          "chapter_no": 22,
+          "chapter_name": "22. Mughal Period : Miscellaneous",
+          "count": 42
+        },
+        {
+          "chapter_no": 23,
+          "chapter_name": "23. Sikh Sect",
+          "count": 21
+        },
+        {
+          "chapter_no": 24,
+          "chapter_name": "24. Maratha State and Confederacy",
+          "count": 46
+        },
+        {
+          "chapter_no": 25,
+          "chapter_name": "25. Disintegration of the Mughal Empire",
+          "count": 25
+        }
+      ],
+      "question_count": 931
+    },
+    {
+      "book_id": "modern_india",
+      "subject": "Modern India",
+      "period": "Modern India",
+      "emoji": "📜",
+      "id_prefix": "mod",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_name": "1. Advent of European Companies",
+          "count": 63
+        },
+        {
+          "chapter_no": 2,
+          "chapter_name": "2. East India Company and Nawab of Bengal",
+          "count": 29
+        },
+        {
+          "chapter_no": 3,
+          "chapter_name": "3. Regional States: Punjab and Mysore",
+          "count": 28
+        },
+        {
+          "chapter_no": 4,
+          "chapter_name": "4. Governor/Governor General/ Viceroy",
+          "count": 134
+        },
+        {
+          "chapter_no": 5,
+          "chapter_name": "5. Economic Impact of British Rule on India",
+          "count": 53
+        },
+        {
+          "chapter_no": 6,
+          "chapter_name": "6. Revolt of 1857",
+          "count": 98
+        },
+        {
+          "chapter_no": 7,
+          "chapter_name": "7. Other Civil Uprisings",
+          "count": 90
+        },
+        {
+          "chapter_no": 8,
+          "chapter_name": "8. Development of Education in Modern India",
+          "count": 46
+        },
+        {
+          "chapter_no": 9,
+          "chapter_name": "9. Development of Press in Modern India",
+          "count": 73
+        },
+        {
+          "chapter_no": 10,
+          "chapter_name": "10. Social Religious Movement",
+          "count": 157
+        },
+        {
+          "chapter_no": 11,
+          "chapter_name": "11. Political Organisation Established before Congress",
+          "count": 30
+        },
+        {
+          "chapter_no": 12,
+          "chapter_name": "12. Indian National Congress",
+          "count": 87
+        },
+        {
+          "chapter_no": 13,
+          "chapter_name": "13. Moderates and Extremists in Congress",
+          "count": 40
+        },
+        {
+          "chapter_no": 14,
+          "chapter_name": "14. Revolutionary Movement in India",
+          "count": 92
+        },
+        {
+          "chapter_no": 15,
+          "chapter_name": "15. Revolutionary Activities Outside India",
+          "count": 42
+        },
+        {
+          "chapter_no": 16,
+          "chapter_name": "16. Partition of Bengal and Swadeshi Movement",
+          "count": 37
+        },
+        {
+          "chapter_no": 17,
+          "chapter_name": "17. Congress: Banaras, Culcutta, and Surat Session",
+          "count": 26
+        },
+        {
+          "chapter_no": 18,
+          "chapter_name": "18. Formation of Muslim League (1906)",
+          "count": 12
+        },
+        {
+          "chapter_no": 19,
+          "chapter_name": "19. Morley-Minto Reforms",
+          "count": 5
+        },
+        {
+          "chapter_no": 20,
+          "chapter_name": "20. Delhi Durbar and Change of Capital",
+          "count": 12
+        },
+        {
+          "chapter_no": 21,
+          "chapter_name": "21. Lucknow Session of Congress (The Lucknow Pact)",
+          "count": 10
+        },
+        {
+          "chapter_no": 22,
+          "chapter_name": "22. Home Rule League Movement",
+          "count": 14
+        },
+        {
+          "chapter_no": 23,
+          "chapter_name": "23. Gandhi and His Early Movement",
+          "count": 107
+        },
+        {
+          "chapter_no": 24,
+          "chapter_name": "24. Peasant Movement and Kisan Sabha",
+          "count": 38
+        },
+        {
+          "chapter_no": 25,
+          "chapter_name": "25. Trade Union and Communist Party",
+          "count": 18
+        },
+        {
+          "chapter_no": 26,
+          "chapter_name": "26. Rowlatt Act and Jallianwala Bagh Massacre (1919)",
+          "count": 40
+        },
+        {
+          "chapter_no": 27,
+          "chapter_name": "27. Khilafat Movement",
+          "count": 17
+        },
+        {
+          "chapter_no": 28,
+          "chapter_name": "28. Non-Cooperation Movement",
+          "count": 52
+        },
+        {
+          "chapter_no": 29,
+          "chapter_name": "29. Formation of Swaraj Party (1923)",
+          "count": 22
+        },
+        {
+          "chapter_no": 30,
+          "chapter_name": "30. Simon Commission (1927)",
+          "count": 23
+        },
+        {
+          "chapter_no": 31,
+          "chapter_name": "31. Lahore Session of Congress, Proposal of Complete Independence (1929)",
+          "count": 23
+        },
+        {
+          "chapter_no": 32,
+          "chapter_name": "32. Civil Disobedience Movement",
+          "count": 45
+        },
+        {
+          "chapter_no": 33,
+          "chapter_name": "33. Gandhi-Irwin Pact",
+          "count": 11
+        },
+        {
+          "chapter_no": 34,
+          "chapter_name": "34. Karachi Session of Congress (1931)",
+          "count": 8
+        },
+        {
+          "chapter_no": 35,
+          "chapter_name": "35. Round Table Conference",
+          "count": 25
+        },
+        {
+          "chapter_no": 36,
+          "chapter_name": "36. Communal Award And Poona Pact (1932)",
+          "count": 25
+        },
+        {
+          "chapter_no": 37,
+          "chapter_name": "37. Congress Socialist Party (1934)",
+          "count": 17
+        },
+        {
+          "chapter_no": 38,
+          "chapter_name": "38. Provincial Election and Formation of Cabinet (1937)",
+          "count": 17
+        },
+        {
+          "chapter_no": 39,
+          "chapter_name": "39. Tripuri Crisis of Congress (1939)",
+          "count": 13
+        },
+        {
+          "chapter_no": 40,
+          "chapter_name": "40. Indian Princely States",
+          "count": 10
+        },
+        {
+          "chapter_no": 41,
+          "chapter_name": "41. Second World War",
+          "count": 6
+        },
+        {
+          "chapter_no": 42,
+          "chapter_name": "42. Demand for Pakistan",
+          "count": 19
+        },
+        {
+          "chapter_no": 43,
+          "chapter_name": "43. Individual Satyagraha (1940)",
+          "count": 8
+        },
+        {
+          "chapter_no": 44,
+          "chapter_name": "44. Cripps Mission (1942)",
+          "count": 10
+        },
+        {
+          "chapter_no": 45,
+          "chapter_name": "45. Quit India Movement",
+          "count": 74
+        },
+        {
+          "chapter_no": 46,
+          "chapter_name": "46. Subhash Chandra Bose and Azad Hind Fauj",
+          "count": 46
+        },
+        {
+          "chapter_no": 47,
+          "chapter_name": "47. Cabinet Mission Plan (1946)",
+          "count": 21
+        },
+        {
+          "chapter_no": 48,
+          "chapter_name": "48. Constituent Assembly (1946)",
+          "count": 11
+        },
+        {
+          "chapter_no": 49,
+          "chapter_name": "49. Formation of Interim Government (1946)",
+          "count": 18
+        },
+        {
+          "chapter_no": 50,
+          "chapter_name": "50. Partition of India and Independence",
+          "count": 51
+        },
+        {
+          "chapter_no": 51,
+          "chapter_name": "51. Constitutional Development of India",
+          "count": 76
+        },
+        {
+          "chapter_no": 52,
+          "chapter_name": "52. Modern History : Miscellaneous",
+          "count": 286
+        },
+        {
+          "chapter_no": 53,
+          "chapter_name": "53. Magazines, Books And Their Authors",
+          "count": 218
+        },
+        {
+          "chapter_no": 54,
+          "chapter_name": "54. Art and Culture",
+          "count": 162
+        },
+        {
+          "chapter_no": 55,
+          "chapter_name": "55. Award",
+          "count": 37
+        }
+      ],
+      "question_count": 2732
+    }
+  ],
+  "files": {
+    "ghatna_chakra_ancient_india.jsonl": {
+      "description": "Ancient India — every question, one JSON object per line",
+      "records": 1342,
+      "bytes": 1330811,
+      "sha256": "799bb6fe52dddaea75131946a137a00c7296edf41f0a202446f42c7b890300cb"
+    },
+    "ghatna_chakra_medieval_india.jsonl": {
+      "description": "Medieval India — every question, one JSON object per line",
+      "records": 931,
+      "bytes": 959943,
+      "sha256": "9ab4605a10e013fe1fa512c432d7914814ca89203a29118a1e694647ea505e30"
+    },
+    "ghatna_chakra_modern_india.jsonl": {
+      "description": "Modern India — every question, one JSON object per line",
+      "records": 2732,
+      "bytes": 2975073,
+      "sha256": "56cf76b3059ebfd85eba758cfc71263f0fdf2881c18ff917def0e25c2fe975db"
+    },
+    "ghatna_chakra_all_india.jsonl": {
+      "description": "Ancient + Medieval + Modern India — all questions, flagged, one JSON object per line",
+      "records": 5005,
+      "bytes": 5265827,
+      "sha256": "c3d55c5a5cb00daa8916b9a3a0dc185d25818a4c864212d7a2cacb806ed0c5a0"
+    },
+    "ghatna_chakra_all_india_clean.jsonl": {
+      "description": "Same records with quality.clean = true only (no unknown answer keys, no malformed or duplicate rows, no image-only questions)",
+      "records": 4892,
+      "bytes": 5084309,
+      "sha256": "1ecff51522919e35db322859767d8badb7f2867188181aa8fd9c7536fbc69f1d"
+    },
+    "ghatna_chakra_all_india.json": {
+      "description": "Single JSON document: dataset metadata, subject/chapter index and every question",
+      "records": 5005,
+      "bytes": 5948503,
+      "sha256": "baa2c6fd036a1e217330f0737fbbf3010a362563bc2605a685a194b1e9d71c02"
+    },
+    "ghatna_chakra_all_india.csv": {
+      "description": "Flat spreadsheet export (option_a … option_e, answer_key, flags)",
+      "records": 5005,
+      "bytes": 3353297,
+      "sha256": "7393c5b3ab19553742771c36c7f135ecec9216a75ddf554a69ecb7292f61f5e9"
+    },
+    "ghatna_chakra_all_india.md": {
+      "description": "Human- and LLM-friendly reading copy: question, options, answer, explanation",
+      "records": 5005,
+      "bytes": 3329516,
+      "sha256": "258b760bf10c1e0604442419616cf06f8059065144b99b3dcdb0e633e6685af5"
+    }
+  }
+}

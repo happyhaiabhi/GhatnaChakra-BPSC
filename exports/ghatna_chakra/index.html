@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102337" />
+  <meta name="description" content="Download the Ghatna Chakra Ancient, Medieval and Modern India question bank as AI-readable JSONL, JSON, CSV and Markdown." />
+  <title>Ghatna Chakra — Ancient, Medieval &amp; Modern India datasets</title>
+  <script src="../../theme.js?v=2"></script>
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" />
+  <style>
+    :root {
+      --navy: #102337;
+      --ink: #171b35;
+      --muted: #6d7684;
+      --line: #e2e8f0;
+      --card: #ffffff;
+      --wash: #f3f6fa;
+      --gold: #c9897b;
+      --teal: #2f9e9a;
+      --code: #0f2032;
+    }
+    html[data-theme="dark"] {
+      --navy: #071522;
+      --ink: #e8eef4;
+      --muted: #9cafbb;
+      --line: #1e3448;
+      --card: #0d1f2f;
+      --wash: #08131f;
+      --code: #04101a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 11% 12%, rgba(69, 199, 195, .14), transparent 28%),
+        radial-gradient(circle at 88% 76%, rgba(121, 116, 219, .12), transparent 30%),
+        var(--wash);
+      color: var(--ink);
+      font-family: Nunito, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .topbar {
+      display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+      min-height: 68px; padding: 0 max(4vw, 18px);
+      background: linear-gradient(100deg, #0d2032, #162b42);
+      box-shadow: 0 3px 13px rgba(7, 17, 30, .18);
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+      color: #fff; font-weight: 900; font-size: 18px; letter-spacing: -.3px;
+    }
+    .brand em { color: #65cec9; font-style: normal; }
+    .topbar nav { margin-left: auto; display: flex; gap: 14px; flex-wrap: wrap; }
+    .topbar nav a {
+      color: #cfdae4; text-decoration: none; font-size: 13px; font-weight: 700;
+      padding: 6px 10px; border-radius: 999px; border: 1px solid transparent;
+    }
+    .topbar nav a:hover { border-color: rgba(101, 206, 201, .45); color: #fff; }
+    .theme-toggle {
+      display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+      border: 1px solid rgba(101, 206, 201, .28); border-radius: 999px;
+      padding: 6px 11px; background: transparent; color: #cfdae4;
+      font: 700 12px Nunito, Arial, sans-serif;
+    }
+    .theme-toggle i { font-style: normal; color: #65cec9; }
+
+    main { width: min(1080px, 100%); margin: 0 auto; padding: 44px max(4vw, 18px) 64px; }
+
+    .hero h1 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); margin: 0 0 10px; letter-spacing: -.5px; }
+    .hero p { margin: 0; color: var(--muted); max-width: 68ch; }
+    .stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .stat {
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 10px 16px; min-width: 120px;
+    }
+    .stat b { display: block; font-size: 1.3rem; letter-spacing: -.4px; }
+    .stat span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+
+    h2 { font-size: 1.05rem; margin: 40px 0 14px; letter-spacing: .01em; }
+    h2 small { font-weight: 600; color: var(--muted); font-size: .8rem; margin-left: 8px; }
+
+    .files { display: grid; gap: 10px; }
+    .file {
+      display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; align-items: center;
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .file.head { border-style: dashed; border-color: var(--gold); }
+    .file h3 { margin: 0; font-size: .95rem; }
+    .file h3 code { font-size: .95rem; background: none; padding: 0; color: inherit; }
+    .file p { margin: 3px 0 0; font-size: .82rem; color: var(--muted); }
+    .file .meta { font-size: .72rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+    .dl {
+      display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+      text-decoration: none; font-weight: 800; font-size: .82rem;
+      background: var(--navy); color: #fff; border-radius: 9px; padding: 9px 15px;
+    }
+    html[data-theme="dark"] .dl { background: #17405f; }
+    .dl:hover { background: #1b3b58; }
+
+    table { width: 100%; border-collapse: collapse; font-size: .84rem; background: var(--card); border-radius: 12px; overflow: hidden; }
+    th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    tr:last-child td { border-bottom: 0; }
+    code, pre { font-family: "SFMono-Regular", ui-monospace, Consolas, monospace; }
+    code { background: rgba(120, 140, 160, .14); padding: 1px 5px; border-radius: 4px; font-size: .86em; }
+    pre {
+      margin: 0; padding: 16px 18px; overflow: auto; border-radius: 12px;
+      background: var(--code); color: #d7e6f2; font-size: .78rem; line-height: 1.55;
+    }
+    .snippet { position: relative; }
+    .snippet button {
+      position: absolute; top: 10px; right: 10px; cursor: pointer;
+      background: rgba(255,255,255,.1); color: #d7e6f2; border: 1px solid rgba(255,255,255,.2);
+      border-radius: 6px; font: 700 11px Nunito, Arial, sans-serif; padding: 4px 9px;
+    }
+    .note {
+      border-left: 3px solid var(--gold); background: rgba(201, 137, 123, .09);
+      padding: 12px 16px; border-radius: 0 10px 10px 0; font-size: .85rem; color: var(--muted);
+      margin: 26px 0 0;
+    }
+    footer {
+      padding: 18px 22px; background: var(--navy); color: #bbc7d1;
+      font-size: 12px; text-align: center;
+    }
+    footer a { color: #8fd8d4; }
+    @media (max-width: 620px) {
+      .file { grid-template-columns: 1fr; }
+      .dl { justify-self: start; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../../index.html"><span aria-hidden="true">▰</span> Exam <em>Question Bank</em></a>
+    <nav>
+      <a href="../../index.html">Portal</a>
+      <a href="../../bpsc/index.html">BPSC app</a>
+      <a href="README.md">Dataset notes</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+        Night mode <i data-theme-state>Off</i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Ghatna Chakra — Ancient, Medieval &amp; Modern India</h1>
+      <p>
+        5,005 previous-year objective questions with options, answer keys and the book's own
+        explanations, exported in formats that a script or an LLM can read directly —
+        no PDF parsing, no OCR, no page ranges.
+      </p>
+      <div class="stats">
+        <div class="stat"><b>5,005</b><span>Questions</span></div>
+        <div class="stat"><b>4,892</b><span>Clean records</span></div>
+        <div class="stat"><b>95</b><span>Chapters</span></div>
+        <div class="stat"><b>929</b><span>Exams covered</span></div>
+        <div class="stat"><b>1990–2025</b><span>Years</span></div>
+      </div>
+    </section>
+
+    <h2>Download <small id="manifestNote">sizes from manifest.json</small></h2>
+    <div class="files" id="files">
+      <div class="file head">
+        <div>
+          <h3><code>ghatna_chakra_all_india.jsonl</code></h3>
+          <p>All three subjects · one JSON object per line · recommended starting point</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_all_india.jsonl" download>Download <span data-meta="ghatna_chakra_all_india.jsonl">5.0 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_all_india_clean.jsonl</code></h3>
+          <p>Same records, only rows safe for training: known answer key, valid options, no duplicates or image-only questions</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_all_india_clean.jsonl" download>Download <span data-meta="ghatna_chakra_all_india_clean.jsonl">4.9 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_all_india.json</code></h3>
+          <p>Single JSON document — dataset metadata, subject → chapter index, then every question</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_all_india.json" download>Download <span data-meta="ghatna_chakra_all_india.json">5.7 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_all_india.csv</code></h3>
+          <p>Spreadsheet / pandas export with option_a … option_e, answer_key and flags</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_all_india.csv" download>Download <span data-meta="ghatna_chakra_all_india.csv">3.2 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_all_india.md</code></h3>
+          <p>Reading copy — question, options, answer, explanation and exam, chapter by chapter</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_all_india.md" download>Download <span data-meta="ghatna_chakra_all_india.md">3.2 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_ancient_india.jsonl</code></h3>
+          <p>Ancient India only · 15 chapters · 1,342 questions</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_ancient_india.jsonl" download>Download <span data-meta="ghatna_chakra_ancient_india.jsonl">1.3 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_medieval_india.jsonl</code></h3>
+          <p>Medieval India only · 25 chapters · 931 questions</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_medieval_india.jsonl" download>Download <span data-meta="ghatna_chakra_medieval_india.jsonl">938 KB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>ghatna_chakra_modern_india.jsonl</code></h3>
+          <p>Modern India only · 55 chapters · 2,732 questions</p>
+        </div>
+        <a class="dl" href="ghatna_chakra_modern_india.jsonl" download>Download <span data-meta="ghatna_chakra_modern_india.jsonl">2.8 MB</span></a>
+      </div>
+
+      <div class="file">
+        <div>
+          <h3><code>manifest.json</code></h3>
+          <p>Counts, chapter index, quality-flag census, file sizes and SHA-256 hashes</p>
+        </div>
+        <a class="dl" href="manifest.json" download>Download <span data-meta="manifest.json">18 KB</span></a>
+      </div>
+    </div>
+
+    <h2>One record <small>ghatna_chakra_all_india.jsonl, line 1</small></h2>
+    <div class="snippet">
+      <button type="button" data-copy="#schema">Copy</button>
+      <pre id="schema">{
+  "id": "anc-0001",
+  "subject": "Ancient India",
+  "period": "Ancient India",
+  "chapter_no": 1,
+  "chapter": "1. Stone Age",
+  "question_no": 1,
+  "question": "Robert Bruce Foote, who discovered first Palaeolithic tool in India, was a/an -",
+  "options": { "A": "Geologist", "B": "Archaeologist", "C": "Paleobotanist", "D": "Historian" },
+  "num_options": 4,
+  "answer_key": ["A", "B"],
+  "answer_text": ["Geologist", "Archaeologist"],
+  "answer_raw": ["A", "B"],
+  "multi_correct": true,
+  "explanation": "According to Encyclopaedia Britannica, Robert Bruce Foote was ...",
+  "exam": "U.P. Lower Sub. (Pre) 2015",
+  "year": 2015,
+  "years": [2015],
+  "note": null,
+  "asset": null,
+  "quality": { "clean": true, "flags": ["multi_answer"], "removed_option_text": null }
+}</pre>
+    </div>
+
+    <h2>Load it in Python</h2>
+    <div class="snippet">
+      <button type="button" data-copy="#py">Copy</button>
+      <pre id="py">import json
+
+rows = [json.loads(line) for line in open("ghatna_chakra_all_india.jsonl", encoding="utf-8")]
+print(len(rows), "questions")
+
+# supervised prompt / answer pair
+def as_pair(q):
+    options = "\n".join(f"{k}. {v}" for k, v in q["options"].items())
+    return f"{q['question']}\n{options}\nAnswer:", ", ".join(q["answer_text"])
+
+# only BPSC-asked questions from 2015 onwards
+bp = [q for q in rows if "B.P.S.C." in q["exam"] and (q["year"] or 0) >= 2015]</pre>
+    </div>
+
+    <h2>Quality flags</h2>
+    <table>
+      <thead>
+        <tr><th>Flag</th><th>Rows</th><th>Meaning</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>five_options</code></td><td>388</td><td>A fifth option “None of the above / More than one of the above” is present — normal for BPSC.</td></tr>
+        <tr><td><code>answer_missing</code></td><td>93</td><td>The book prints <code>*</code> instead of a key. Kept, excluded from the clean file.</td></tr>
+        <tr><td><code>option_exam_text_removed</code></td><td>85</td><td>An exam label had been glued onto an option by the PDF extraction; it was cut off.</td></tr>
+        <tr><td><code>exam_recovered_from_option</code></td><td>69</td><td>The exam field was mangled (<code>rd th</code>) and rebuilt from that stripped label.</td></tr>
+        <tr><td><code>multi_answer</code></td><td>26</td><td>More than one option is correct.</td></tr>
+        <tr><td><code>exam_missing</code> / <code>year_missing</code></td><td>17 each</td><td>Not recoverable from the source page.</td></tr>
+        <tr><td><code>malformed_question</code></td><td>8</td><td>A whole note block was glued onto the stem by the extraction.</td></tr>
+        <tr><td><code>image_dependent</code></td><td>8</td><td>Needs a scanned map/figure (<code>asset</code> path) to answer.</td></tr>
+        <tr><td><code>duplicate_question</code></td><td>4</td><td>Same stem and same options appear earlier in the same book.</td></tr>
+      </tbody>
+    </table>
+
+    <p class="note">
+      Nothing is dropped from the full exports — every question in the source appears in
+      <code>ghatna_chakra_all_india.jsonl</code> and its subject file. Text repairs (split
+      ligatures such as “fi rst”, wrapped lines, exam labels inside options) are applied
+      mechanically; anything that could not be repaired safely is flagged instead of guessed.
+      This is a study aid compiled from the Ghatna Chakra series — verify facts against the
+      original book before relying on them.
+    </p>
+  </main>
+
+  <footer>
+    Exam Question Bank · <a href="../../index.html">back to the portal</a> ·
+    regenerate with <code>python scripts/export_ghatna_chakra_ai.py</code>
+  </footer>
+
+  <script>
+    // Fill real sizes/counts from manifest.json when the page is served over HTTP.
+    fetch("manifest.json", { cache: "no-cache" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((m) => {
+        if (!m) return;
+        document.querySelectorAll("[data-meta]").forEach((el) => {
+          const info = m.files && m.files[el.dataset.meta];
+          if (info) {
+            const kb = info.bytes / 1024;
+            el.textContent = kb > 1024 ? (kb / 1024).toFixed(1) + " MB" : Math.round(kb) + " KB";
+          }
+        });
+        const note = document.getElementById("manifestNote");
+        if (note && m.counts) {
+          note.textContent = m.counts.total.toLocaleString() + " records · " + m.generated_at;
+        }
+      })
+      .catch(() => {});
+
+    document.querySelectorAll("[data-copy]").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const src = document.querySelector(btn.dataset.copy);
+        if (!src) return;
+        try {
+          await navigator.clipboard.writeText(src.textContent);
+          const old = btn.textContent;
+          btn.textContent = "Copied";
+          setTimeout(() => { btn.textContent = old; }, 1400);
+        } catch (e) { /* clipboard blocked — no-op */ }
+      });
+    });
+  </script>
+</body>
+</html>

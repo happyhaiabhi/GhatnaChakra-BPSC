@@ -11,7 +11,35 @@ Live: **https://happyhaiabhi.github.io/GhatnaChakra-BPSC/**
 - `upsc.html` — the complete searchable UPSC application.
 - `pg-sprint/index.html` — the UPSC Polity + Geography 6-hour-a-day sprint tracker (day-wise blocks, map drills, revision piles, gates; progress saved in the browser, works offline).
 - `bpsc/index.html` — the locally integrated Ghatna Chakra BPSC application (no iframe, no redirect).
+- `exports/ghatna_chakra/index.html` — download page for the Ancient / Medieval / Modern India
+  question bank in AI-readable formats (see [below](#ghatna-chakra-history-datasets-ai-readable)).
 - Both portal cards are connected, and both applications include a route back to the exam portal.
+
+## Ghatna Chakra history datasets (AI-readable)
+
+The Ancient, Medieval and Modern India books of the Ghatna Chakra series are exported as
+flat, self-describing records so scripts and LLMs can consume them without parsing a PDF:
+
+| Output | Contents |
+|---|---|
+| `exports/ghatna_chakra/ghatna_chakra_all_india.jsonl` | all 5,005 questions, one JSON object per line |
+| `exports/ghatna_chakra/ghatna_chakra_all_india_clean.jsonl` | the 4,892 records safe for training/eval |
+| `exports/ghatna_chakra/ghatna_chakra_{ancient,medieval,modern}_india.jsonl` | one file per subject |
+| `exports/ghatna_chakra/ghatna_chakra_all_india.{json,csv,md}` | single document, spreadsheet and reading copy |
+| `exports/ghatna_chakra/manifest.json` | counts, chapter index, quality-flag census, sizes, SHA-256 |
+
+Every record carries `question`, `options` (A–E), `answer_key`, `answer_text`, `explanation`,
+`exam`, `year`, `chapter`, and a `quality` block with machine-detectable flags. The exporter
+repairs PDF artifacts (split ligatures, wrapped lines, exam labels glued onto options) and
+flags what it cannot repair instead of guessing.
+
+```bash
+python scripts/export_ghatna_chakra_ai.py          # rebuild every export
+python scripts/export_ghatna_chakra_ai.py --check  # counts only
+```
+
+Schema, flag meanings and loading snippets: `exports/ghatna_chakra/README.md`.
+Download page: `exports/ghatna_chakra/index.html`.
 
 The BPSC browser runtime under `bpsc/` is synced from the public source
 repository. The permanent BPSC source (tests, source documents and extraction

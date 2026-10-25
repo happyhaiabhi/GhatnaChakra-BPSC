@@ -285,3 +285,7 @@ html[data-theme="dark"] footer { background: #071522; color: #9cafbb; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
 }
+
+/* Dataset download link (exports/ghatna_chakra) */
+.portal-footer-link { color: #8fd8d4; font-weight: 700; text-decoration: none; }
+.portal-footer-link:hover { text-decoration: underline; }
