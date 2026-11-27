@@ -104,6 +104,17 @@
       "evidence": "Same: Fundamental Duties were added by the 42nd Amendment Act, 1976 (on the Swaran Singh Committee's recommendation)."
     },
     {
+      "row": 6,
+      "xlsx_row": 7,
+      "q": "Which of the following is a fundamental duty in India",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "To preserve the rich heritage of our mixed culture",
+      "status": "confirmed",
+      "source": "https://www.constitutionofindia.net/articles/article-51a-fundamental-duties/",
+      "evidence": "Art. 51A(f): duty 'to value and preserve the rich heritage of our composite culture'."
+    },
+    {
       "row": 7,
       "xlsx_row": 8,
       "q": "The legislative origins of the 73rd Constitutional Amendment Act",
@@ -258,6 +269,28 @@
       "evidence": "'Sarkaria Commission ... submitted its report in 1987' (duplicate of Q22)."
     },
     {
+      "row": 26,
+      "xlsx_row": 27,
+      "q": "Land reform is under subject",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "State list",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Seventh_Schedule_to_the_Constitution_of_India",
+      "evidence": "List II (State List) Entry 18: 'Land, that is to say, rights in or over land, land tenures ... land improvement'."
+    },
+    {
+      "row": 27,
+      "xlsx_row": 28,
+      "q": "In which list of the Indian Constitution are the formats of 'oath or affirmation' given",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Third list",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Third | Forms of oaths and affirmations' — the Third Schedule (Arts 75(4), 99, 124(6), 188, 219)."
+    },
+    {
       "row": 28,
       "xlsx_row": 29,
       "q": "Which of the following subjects is in the concurrent list",
@@ -278,6 +311,50 @@
       "status": "confirmed",
       "source": "https://parchamclasses.in/blog/panchayati-raj-system-73rd-amendment-evolution-balwant-rai-mehta-committee-structure-11th-schedule-and-key-articles",
       "evidence": "The 29 listed subjects include libraries, fuel & fodder and technical training, but there is no entry for rural sports."
+    },
+    {
+      "row": 30,
+      "xlsx_row": 31,
+      "q": "Prevention of cruelty to animals has been placed in which list",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Concurrent List",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Seventh_Schedule_to_the_Constitution_of_India",
+      "evidence": "'List III: Concurrent List — 17. Prevention of cruelty to animals'."
+    },
+    {
+      "row": 31,
+      "xlsx_row": 32,
+      "q": "Which of the following Schedules of the Indian Constitution contains provisions regarding allocation of seats in the Rajya Sabha",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "fourth",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Fourth | Allocation of Rajya Sabha seats to states and UTs' (Arts 4(1), 80(2))."
+    },
+    {
+      "row": 32,
+      "xlsx_row": 33,
+      "q": "The Fifth Schedule deals with the protection of the rights and interests of",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Scheduled Tribe",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Fifth | Administration of Scheduled Areas and Scheduled Tribes (other than NE)' — Art. 244(1)."
+    },
+    {
+      "row": 33,
+      "xlsx_row": 34,
+      "q": "The Tenth Schedule of the Indian Constitution is related to",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Anti-defection legislation",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Tenth | Anti-defection provisions' (Arts 102(2), 191(2)); added by the 52nd Amendment, 1985."
     },
     {
       "row": 34,
@@ -509,6 +586,39 @@
       "status": "confirmed",
       "source": "https://www.upscplanner.com/articles/president-of-india",
       "evidence": "A Supreme Court judge can only be removed by the Art. 124(4) process (address of both Houses) — the President has no unilateral power of removal."
+    },
+    {
+      "row": 57,
+      "xlsx_row": 58,
+      "q": "What is the order of Mrs. Pratibha Patil as the President of the Republic of India",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "12th",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Pratibha_Patil",
+      "evidence": "'on 25 July 2007, took oath as India's 12th President, the first woman to hold the position'."
+    },
+    {
+      "row": 58,
+      "xlsx_row": 59,
+      "q": "India's first President Rajendra Prasad was from which state",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Bihar",
+      "status": "confirmed",
+      "source": "https://www.getmyuni.com/articles/president-of-india-list-from-1947-to-2018",
+      "evidence": "'Rajendra Prasad ... Pioneer from Bihar and the 1st President of India' (born at Ziradei, Bihar)."
+    },
+    {
+      "row": 59,
+      "xlsx_row": 60,
+      "q": "The first President of independent India was",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "from Bihar",
+      "status": "confirmed",
+      "source": "https://www.getmyuni.com/articles/president-of-india-list-from-1947-to-2018",
+      "evidence": "Same source: Rajendra Prasad, the 1st President, was from Bihar (duplicate of Q58)."
     },
     {
       "row": 60,
@@ -929,6 +1039,17 @@
       "xlsx_row": 103
     },
     {
+      "row": 103,
+      "xlsx_row": 104,
+      "q": "In which Article of the Constitution of India was the provision for reservation of scheduled castes in the Lok Sabha made",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 330",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/in-which-article-of-the-constitution-of-india-was--5f840ad42dee13960e189853",
+      "evidence": "'Article 330- Reservation of seats for Scheduled Caste and Scheduled Tribes in the House of people'."
+    },
+    {
       "row": 104,
       "xlsx_row": 105,
       "q": "Which one of the following statements is correct regarding parliamentary form of Government",
@@ -1081,6 +1202,17 @@
       "status": "confirmed",
       "source": "https://www.defactolaw.in/post/lok-sabha-seat-allocation-article-82-delimitation-freeze",
       "evidence": "'The total number of Lok Sabha seats and the inter-State allocation ... have remained fixed at their 1971-census levels'."
+    },
+    {
+      "row": 118,
+      "xlsx_row": 119,
+      "q": "Who has the power to nominate members from the Anglo-Indian community to the Lok Sabha",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "President of India",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/in-which-article-of-the-constitution-of-india-was--5f840ad42dee13960e189853",
+      "evidence": "'Under Article 331, the President use to nominate 2 members of the Lok Sabha from the Anglo-Indians Community'."
     },
     {
       "row": 119,
@@ -1402,6 +1534,17 @@
       "evidence": "'The correct answer is Speaker of Lok Sabha' — PAC reports are laid before the House through the Speaker."
     },
     {
+      "row": 154,
+      "xlsx_row": 155,
+      "q": "Which of the following parliamentary committees is related to delegated legislation",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Committee on Subordinate Legislation",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-committee-on-subordinate-legislation-indian-polity-notes",
+      "evidence": "'Committee on Subordinate Legislation's objective is to scrutinize ... the powers to make rules, regulations, bye-laws ... delegated by Parliament'."
+    },
+    {
       "row": 155,
       "xlsx_row": 156,
       "q": "What is the purpose of 'cut motion'",
@@ -1411,6 +1554,28 @@
       "status": "confirmed",
       "source": "https://testbook.com/question-answer/what-is-the-objective-of-cut-motion--634d67927428f0c6cada8911",
       "evidence": "'The correct answer is to reduce expenditure in the Budget proposals'."
+    },
+    {
+      "row": 156,
+      "xlsx_row": 157,
+      "q": "'Equality before law' written in Article 14 of the Indian Constitution is inspired by",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Britain",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'Equality before law (Article 14) — Britain' (rule of law borrowed from the British constitution)."
+    },
+    {
+      "row": 157,
+      "xlsx_row": 158,
+      "q": "Where did the inspiration for 'Liberty, Equality and Fraternity' in the Indian Constitution come from",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "French Revolution",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'Liberty, Equality and Fraternity — France (French Revolution)' as ideals of the Preamble."
     },
     {
       "row": 158,
@@ -1545,6 +1710,28 @@
       "evidence": "Art. 120(1) proviso: 'the Chairman of the Council of States or Speaker of the House of the People ... may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue'."
     },
     {
+      "row": 171,
+      "xlsx_row": 172,
+      "q": "What is the nature of the Indian Constitution",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Federal in nature but unitary bias",
+      "status": "confirmed",
+      "source": "https://edurev.in/t/102911/Constituent-Assembly--Preamble--Federal-and-Unitar",
+      "evidence": "'The Indian Constitution establishes a federal structure but with several features that give prominence to the central government; hence ... quasi-federal or federal system with a unitary bias'."
+    },
+    {
+      "row": 172,
+      "xlsx_row": 173,
+      "q": "Who among the following is supreme in the Indian political system",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Constitution",
+      "status": "confirmed",
+      "source": "https://www.studocu.com/in/document/national-institute-of-technology-delhi/design-and-analysis-of-algo-lab/laxmikant-summary-salient-features-of-the-indian-constitution-upsc/143568237",
+      "evidence": "Federal features listed by Laxmikanth include 'division of powers, written Constitution, supremacy of Constitution' — the Constitution, not Parliament or the Court, is supreme."
+    },
+    {
       "row": 174,
       "xlsx_row": 175,
       "q": "Democracy in India is based on the fact that",
@@ -1609,6 +1796,17 @@
       "status": "confirmed",
       "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
       "evidence": "The 42nd Amendment (1976) added 'Socialist, Secular and Integrity' — the two words among the options are socialist and secular."
+    },
+    {
+      "row": 182,
+      "xlsx_row": 183,
+      "q": "How has India been declared in the Preamble of the Indian Constitution",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "A sovereign, socialist, secular, democratic republic",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "The Preamble declares India a 'Sovereign, Socialist, Secular, Democratic Republic' (words added/ordered by the 42nd Amendment)."
     },
     {
       "row": 185,
@@ -1721,6 +1919,17 @@
       "evidence": "'Jharkhand, the 28th state of India was formed on November 15, 2000'."
     },
     {
+      "row": 198,
+      "xlsx_row": 199,
+      "q": "Delhi is",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "a union territory",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/69th-constitutional-amendment-act/",
+      "evidence": "The 69th Amendment kept Delhi's 'constitutional classification as a Union Territory administered under Article 239' while renaming it NCT."
+    },
+    {
       "row": 200,
       "xlsx_row": 201,
       "q": "When was the Citizenship (Amendment) Act passed",
@@ -1752,6 +1961,17 @@
       "status": "confirmed",
       "source": "https://testbook.com/question-answer/who-highlighted-the-plight-of-the-peasants-of-cham--607d9ced5dc817d800d167bd",
       "evidence": "'Peer Mohammad Munis ... highlighted the plinth of the peasants of Champaran by writing under pseudonyms like Dukhi, Dukhi Atma, and Dukhi Hridya.'"
+    },
+    {
+      "row": 206,
+      "xlsx_row": 207,
+      "q": "The Supreme Court has held that hoisting the National Flag is a fundamental right under",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Article 19 (1) (a) of the Constitution",
+      "status": "confirmed",
+      "source": "https://lawbhoomi.com/union-of-india-v-naveen-jindal-2004/",
+      "evidence": "Union of India v Naveen Jindal (2004): flying the flag is symbolic speech 'protected under Article 19(1)(a)'."
     },
     {
       "row": 208,
@@ -1851,6 +2071,17 @@
       "status": "confirmed",
       "source": "https://www.writinglaw.com/part-iii-12-35-constitution-of-india-fundamental-rights/",
       "evidence": "Part III, 'Article 12 to 35', contains the Fundamental Rights."
+    },
+    {
+      "row": 226,
+      "xlsx_row": 227,
+      "q": "What does the right to constitutional remedies come under",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Fundamental rights",
+      "status": "confirmed",
+      "source": "https://www.constitutionofindia.net/articles/article-32-right-to-constitutional-remedies/",
+      "evidence": "Article 32, in Part III, 'guarantees the right to move the Supreme Court by appropriate proceedings' — it is itself a fundamental right."
     },
     {
       "row": 230,
@@ -2128,6 +2359,17 @@
       "evidence": "Simultaneous elections would touch the term-of-House provisions for both chambers — Art. 83 (Parliament) and Art. 172 (State Legislatures) — so no single listed article suffices, making (e) the correct code."
     },
     {
+      "row": 265,
+      "xlsx_row": 266,
+      "q": "Who has the right to give national or regional party status to a political party",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Election Commission",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/difference-between-national-party-and-state-party/",
+      "evidence": "'The Election Commission of India (ECI) grants recognition to national-level and state-level political parties' under the Election Symbols Order, 1968 (Art. 324)."
+    },
+    {
       "row": 266,
       "xlsx_row": 267,
       "q": "What is the version of VVPAT, the machine used for voting in India",
@@ -2148,6 +2390,28 @@
       "status": "confirmed",
       "source": "https://www.nextias.com/blog/national-emergency/",
       "evidence": "'Article 352 of the Indian Constitution deals with National Emergency, invoked during war, external aggression, or armed rebellion situations'."
+    },
+    {
+      "row": 269,
+      "xlsx_row": 270,
+      "q": "The President can declare a national emergency",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "All of the above (armed rebellion / external aggression / war)",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-national-emergency---emergency-provisions-article352-360-indian-polity-upsc-notes",
+      "evidence": "'Under Article 352, the President can declare a national emergency when the security of India ... is threatened by war or external aggression or armed rebellion'."
+    },
+    {
+      "row": 271,
+      "xlsx_row": 272,
+      "q": "Firstly, the declaration of emergency can be limited to how long after approval by Parliament",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "6 months",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-national-emergency---emergency-provisions-article352-360-indian-polity-upsc-notes",
+      "evidence": "'If parliament approves such a proclamation, then it will be in force for 6 months from the date on which it was approved'."
     },
     {
       "row": 272,
@@ -2203,6 +2467,28 @@
       "status": "confirmed",
       "source": "https://testbook.com/question-answer/who-was-the-governor-general-of-india-during-the-r--6ac5e13cf26a89fac5683866",
       "evidence": "'Lord Canning (Charles Canning) served as the Governor General of India from 1856 to 1862', the period of the 1857 revolt."
+    },
+    {
+      "row": 279,
+      "xlsx_row": 280,
+      "q": "Who amongst the following is the present Governor of the Reserve Bank of India (as on the exam date)",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Urjit Patel",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/who-was-the-24th-governor-of-the-reserve-bank-of-i--5fe83c3b3ccf757c8d1ffaf0",
+      "evidence": "'Urjit Patel was the 24th Governor of the Reserve Bank of India from 4 September 2016 to 10 December 2018' — correct for the exam's date."
+    },
+    {
+      "row": 280,
+      "xlsx_row": 281,
+      "q": "At present, who is the Governor of the Reserve Bank of India (as on the exam date)",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Urjit Patel",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/who-was-the-24th-governor-of-the-reserve-bank-of-i--5fe83c3b3ccf757c8d1ffaf0",
+      "evidence": "Same fact: Urjit Patel, 24th RBI Governor, Sept 2016 – Dec 2018 (duplicate of Q279)."
     },
     {
       "row": 281,
@@ -2379,6 +2665,17 @@
       "status": "confirmed",
       "source": "https://rulesera.com/constitution/part-ix/article243g.php",
       "evidence": "Article 243G read with the Eleventh Schedule: 'The Eleventh Schedule lists 29 areas in which Panchayats can exercise their responsibilities'."
+    },
+    {
+      "row": 306,
+      "xlsx_row": 307,
+      "q": "A Panchayat Samiti at the block level in India is only a/an",
+      "printed": "A",
+      "verified_key": "C",
+      "verified_text": "Co-ordinating and Supervisory Authority",
+      "status": "corrected",
+      "source": "https://www.sarthaks.com/2721225/a-panchayat-samiti-at-the-block-level-in-india-is-only-a-an",
+      "evidence": "'A Panchayat Samiti at the block level in India is only a Coordinating and Supervisory Authority' — option (c), not (a) Advisory Body."
     },
     {
       "row": 307,
@@ -2711,6 +3008,17 @@
       "evidence": "'As per Article 243F of the Constitution, the minimum age for contesting Panchayat elections is 21 years'."
     },
     {
+      "row": 345,
+      "xlsx_row": 346,
+      "q": "Panchayati Raj in India represents",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "All of these",
+      "status": "confirmed",
+      "source": "https://parchamclasses.in/blog/panchayati-raj-system-73rd-amendment-evolution-balwant-rai-mehta-committee-structure-11th-schedule-and-key-articles",
+      "evidence": "Panchayati Raj embodies decentralisation, people's participation and community development — all three listed elements."
+    },
+    {
       "row": 348,
       "xlsx_row": 349,
       "q": "Panchayati Raj system in India was first started in Rajasthan and",
@@ -2777,6 +3085,17 @@
       "evidence": "Part IX (Arts 243-243O) and the Eleventh Schedule were inserted by the 73rd Amendment, 1992."
     },
     {
+      "row": 359,
+      "xlsx_row": 360,
+      "q": "The 73rd amendment of the Constitution is related to",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "From Panchayati Raj system",
+      "status": "confirmed",
+      "source": "https://parchamclasses.in/blog/panchayati-raj-system-73rd-amendment-evolution-balwant-rai-mehta-committee-structure-11th-schedule-and-key-articles",
+      "evidence": "The 73rd Amendment Act, 1992 gave Panchayati Raj constitutional status (Part IX, Arts 243-243O, Eleventh Schedule)."
+    },
+    {
       "row": 360,
       "xlsx_row": 361,
       "q": "A Panchayat Samiti is a Panchayati Raj structure at which level operates",
@@ -2832,6 +3151,17 @@
       "evidence": "'Article 343(1) made Hindi in Devanagari script the official language of the Union'."
     },
     {
+      "row": 367,
+      "xlsx_row": 368,
+      "q": "The number of recognized official languages in the Eighth List of the Indian Constitution is",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "eighteen",
+      "status": "defect",
+      "source": "https://upsc.wiki/study-materials/eighth-schedule-list-of-22-scheduled-languages-and-amendments",
+      "evidence": "Options stop at 18, which was the count only between 1992 and 2003; the Eighth Schedule has listed 22 languages since the 92nd Amendment (2003) and 22 is not offered."
+    },
+    {
       "row": 370,
       "q": "Who decides the disqualification of members of State Legislative Assembly",
       "printed": "A",
@@ -2841,6 +3171,17 @@
       "source": "https://testbook.com/question-answer/who-decides-the-disqualification-of-members-of-sta--6579b930985f216cc5ddff41",
       "evidence": "Article 192: the Governor decides disqualification questions other than those under the Tenth Schedule.",
       "xlsx_row": 371
+    },
+    {
+      "row": 372,
+      "xlsx_row": 373,
+      "q": "The Tenth Schedule of the Indian Constitution relates to",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "From anti-defection law",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Tenth | Anti-defection provisions' (Arts 102(2), 191(2)) — duplicate of Q33."
     },
     {
       "row": 377,
@@ -2953,6 +3294,17 @@
       "evidence": "36th Amendment, 16 May 1975 — Sikkim became the 22nd State (duplicate of Q191/Q192)."
     },
     {
+      "row": 394,
+      "xlsx_row": 395,
+      "q": "Which pair is not correctly matched?",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Administration of scheduled areas - 6th schedule",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "Scheduled Areas are dealt with in the Fifth Schedule (Art. 244(1)); the Sixth Schedule covers tribal areas of Assam, Meghalaya, Tripura and Mizoram — so this pair is wrongly matched."
+    },
+    {
       "row": 395,
       "q": "What is true about the proceedings of the State Legislature",
       "printed": "A",
@@ -3052,6 +3404,17 @@
       "evidence": "'MAA (Mothers' Absolute Affection) ... a nationwide programme of the Ministry of Health and Family Welfare ... launched ... from August 2016'."
     },
     {
+      "row": 410,
+      "xlsx_row": 411,
+      "q": "Who is the highest Civil Services Officer of the Central Government",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "The Cabinet Secretary",
+      "status": "confirmed",
+      "source": "https://www.insightsonindia.com/2026/10/26/the-cabinet-secretary/",
+      "evidence": "'The Cabinet Secretary: ... ex-officio Chairman of the Civil Services Board, and the senior-most civil servant in India. Occupying Rank 11 in the Indian Order of Precedence'."
+    },
+    {
       "row": 411,
       "xlsx_row": 412,
       "q": "Which one of the following functions is not the concern of Local Self-Government",
@@ -3105,6 +3468,17 @@
       "status": "confirmed",
       "source": "https://www.opindia.com/2024/07/special-category-status-explained-bihar-denied-reasons/",
       "evidence": "The 11 SCS States were J&K, Assam, Nagaland, Tripura, Arunachal, Mizoram, Manipur, Meghalaya, Sikkim, Uttarakhand and Himachal Pradesh — 'the case for Special Category Status for Bihar is not made out'."
+    },
+    {
+      "row": 419,
+      "xlsx_row": 420,
+      "q": "Aam Aadmi party is a",
+      "printed": "E",
+      "verified_key": "B",
+      "verified_text": "national party",
+      "status": "corrected",
+      "source": "https://economictimes.indiatimes.com/news/how-to/how-election-commission-grants-national-state-status-to-political-parties/articleshow/99530433.cms",
+      "evidence": "'The poll watchdog has elevated ... Aam Aadmi Party (AAP) to national party status' — option (b), not (e)."
     },
     {
       "row": 420,
@@ -3195,6 +3569,17 @@
       "xlsx_row": 434
     },
     {
+      "row": 434,
+      "xlsx_row": 435,
+      "q": "The Fifth Schedule deals with the governance and protection of",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Scheduled Tribes",
+      "status": "confirmed",
+      "source": "https://anantamias.com/schedules-of-constitution/",
+      "evidence": "'Fifth | Administration of Scheduled Areas and Scheduled Tribes (other than NE)' — Art. 244(1)."
+    },
+    {
       "row": 435,
       "q": "Under which Article(s), the Speaker can allow any member of the House to speak in his/her mother tongue",
       "printed": "A",
@@ -3250,6 +3635,17 @@
       "evidence": "The all-British Simon Commission (arrived 3 Feb 1928) was boycotted by every major party — Congress, Muslim League, Liberals — and its rejection 'led to the launch of the Civil Disobedience Movement'."
     },
     {
+      "row": 447,
+      "xlsx_row": 448,
+      "q": "Who is the highest civil service officer in the Central Government",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Cabinet Secretary",
+      "status": "confirmed",
+      "source": "https://www.insightsonindia.com/2026/10/26/the-cabinet-secretary/",
+      "evidence": "Same source: the Cabinet Secretary is 'the highest-ranking civil servant in the country' (duplicate of Q410)."
+    },
+    {
       "row": 451,
       "xlsx_row": 452,
       "q": "When was the Planning Commission established?",
@@ -3272,6 +3668,17 @@
       "evidence": "A unitary/centralised constitution suits small countries and is 'not suitable for big countries' (duplicate of Q20/Q177)."
     },
     {
+      "row": 463,
+      "xlsx_row": 464,
+      "q": "When was the Border Security Force established",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "1965",
+      "status": "confirmed",
+      "source": "https://www.bsf.gov.in/bsf-history.html",
+      "evidence": "'On 1st December 1965, BSF was officially formed' with K.F. Rustamji as first DG."
+    },
+    {
       "row": 465,
       "xlsx_row": 466,
       "q": "Who was the Chairman of the first Law Commission of independent India",
@@ -3281,6 +3688,28 @@
       "status": "confirmed",
       "source": "https://www.wikiwand.com/en/M._C._Setalvad",
       "evidence": "Setalvad was 'Chairman of the first Law Commission of India (1955-1958)' (duplicate of Q388)."
+    },
+    {
+      "row": 466,
+      "xlsx_row": 467,
+      "q": "By whom is the Chairman of the State Public Service Commission appointed",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Governor",
+      "status": "confirmed",
+      "source": "https://www.gktoday.in/article-316/",
+      "evidence": "Article 316(1): 'in the case of a State Commission, by the Governor of the State'."
+    },
+    {
+      "row": 471,
+      "xlsx_row": 472,
+      "q": "Who was the first Chairman of the Backward Castes Commission",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Kaka Saheb Kalelkar",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/the-first-backward-classes-commission-was-chaired--605dd7b0ab53afee1556964e",
+      "evidence": "'The First Backward Classes Commission was set up by a presidential order on 29th January 1953 under the chairmanship of Kaka Kalelkar'."
     },
     {
       "row": 475,
@@ -3325,6 +3754,50 @@
       "status": "confirmed",
       "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
       "evidence": "Article 169: 'Parliament may, by law, create or abolish a Legislative Council' after the Assembly passes a special-majority resolution."
+    },
+    {
+      "row": 481,
+      "xlsx_row": 482,
+      "q": "Which of the following articles of the Indian Constitution provides for the election of state assemblies",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 170",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
+      "evidence": "Article 170 provides that 'the Legislative Assembly of each State shall consist of not more than 500 and not less than 60 members chosen by direct election from territorial constituencies'."
+    },
+    {
+      "row": 482,
+      "xlsx_row": 483,
+      "q": "If the Speaker of the Legislative Assembly of a State wishes to resign, he should submit his resignation letter to",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "The Deputy Speaker",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
+      "evidence": "Article 179: a Speaker may resign by writing to the Deputy Speaker (and a Deputy Speaker to the Speaker)."
+    },
+    {
+      "row": 483,
+      "xlsx_row": 484,
+      "q": "To whom is the Council of Ministers of the state collectively responsible",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Assembly",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
+      "evidence": "Article 164(2): 'The Council of Ministers shall be collectively responsible to the Legislative Assembly of the State'."
+    },
+    {
+      "row": 484,
+      "xlsx_row": 485,
+      "q": "By whom is the Chief Minister of a Union Territory, where such a provision exists, appointed",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "The President",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/69th-constitutional-amendment-act/",
+      "evidence": "Article 239AA(2)(a): for the NCT of Delhi 'there shall be a Council of Ministers ... in the Legislative Assembly' with the Chief Minister appointed by the President."
     },
     {
       "row": 485,
@@ -3382,6 +3855,17 @@
       "xlsx_row": 492
     },
     {
+      "row": 492,
+      "xlsx_row": 493,
+      "q": "In which case(s) did the Supreme Court of India give for the first time the principle of basic structure",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Kesavananda Bharati vs. State of Kerala",
+      "status": "confirmed",
+      "source": "https://niyam.ai/blog/kesavananda-bharati",
+      "evidence": "Kesavananda Bharati (1973) propounded the basic-structure doctrine — same source as Q511/Q513."
+    },
+    {
       "row": 495,
       "q": "Which one of the following subjects fall within the jurisdiction of both High Court",
       "printed": "C",
@@ -3393,6 +3877,17 @@
       "xlsx_row": 496
     },
     {
+      "row": 496,
+      "xlsx_row": 497,
+      "q": "Supreme Court is",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/president-of-india-powers-election-upsc",
+      "evidence": "The Supreme Court is at once a federal court, a protector of fundamental rights and the final arbiter of the Constitution — more than one option is true, so (e)."
+    },
+    {
       "row": 498,
       "q": "Sanctioned competence of judges in the Supreme Court",
       "printed": "*",
@@ -3402,6 +3897,17 @@
       "source": "https://www.tribuneindia.com/news/india/even-after-getting-five-judges-this-month-supreme-court-faces-3-vacancies/",
       "evidence": "Sanctioned strength went 18 (1977) → 26 (1986) → 31 (2009) → 34 (2019) → 38 (2026). In 1992-93 it was 26, which no printed option offers, so the option table is corrupt.",
       "xlsx_row": 499
+    },
+    {
+      "row": 499,
+      "xlsx_row": 500,
+      "q": "At present, the number of judges of the Supreme Court is",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.tribuneindia.com/news/top-headlines/president-murmu-promulgates-ordinance-to-add-4-more-judges-to-supreme-court/",
+      "evidence": "Sanctioned strength is 34 (CJI + 33) since 2019 and 38 by the 2026 ordinance — none of 15/25/31/20, so (e)."
     },
     {
       "row": 500,
@@ -3435,6 +3941,17 @@
       "status": "confirmed",
       "source": "https://vajiramandravi.com/current-affairs/article-124-of-indian-constitution/",
       "evidence": "Article 124(2) — 65 years (duplicate of Q486)."
+    },
+    {
+      "row": 503,
+      "xlsx_row": 504,
+      "q": "Who has the power to increase the number of judges of the Supreme Court",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Parliament",
+      "status": "confirmed",
+      "source": "https://iasmentorship.com/current-affairs/supreme-court-judges-increase-article-124-upsc-2026/",
+      "evidence": "'Article 124(1) — Parliament has power to change SC judge numbers' (Supreme Court (Number of Judges) Act, 1956)."
     },
     {
       "row": 511,
