@@ -4031,6 +4031,17 @@
       "evidence": "'MAA (Mothers' Absolute Affection) ... a nationwide programme of the Ministry of Health and Family Welfare ... launched ... from August 2016'."
     },
     {
+      "row": 408,
+      "xlsx_row": 409,
+      "q": "Which of the following is a bond through which Indian entities can raise money from foreign markets in rupees",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Masala Bonds",
+      "status": "confirmed",
+      "source": "https://www.marketfeed.com/read/en/what-are-masala-bonds",
+      "evidence": "'Masala Bonds are rupee-denominated bonds issued by Indian entities in foreign markets' — the investor bears the currency risk."
+    },
+    {
       "row": 410,
       "xlsx_row": 411,
       "q": "Who is the highest Civil Services Officer of the Central Government",
@@ -4161,6 +4172,17 @@
       "status": "confirmed",
       "source": "https://bharatdocs.com/73rd-amendment-panchayati-raj/",
       "evidence": "Decentralisation is designed to build participation and confidence at the grassroots; the negation of that is not one of its features (duplicate of Q385)."
+    },
+    {
+      "row": 426,
+      "xlsx_row": 427,
+      "q": "Who has started the Har Ghar Tiranga Abhiyan on the occasion of India's 75th Independence Day?",
+      "printed": "C",
+      "verified_key": "B",
+      "verified_text": "Central Government",
+      "status": "corrected",
+      "source": "https://pib.gov.in/PressReleasePage.aspx?PRID=1883396",
+      "evidence": "The campaign was launched by the Prime Minister and run by the 'Ministry of Culture' under Azadi Ka Amrit Mahotsav on 22 July 2022 — i.e. the Central Government (b), not the Election Commission (c)."
     },
     {
       "row": 429,
@@ -4306,6 +4328,17 @@
       "evidence": "Same source: the Cabinet Secretary is 'the highest-ranking civil servant in the country' (duplicate of Q410)."
     },
     {
+      "row": 450,
+      "xlsx_row": 451,
+      "q": "Arrange the following words in a logical and meaningful order. 1. Vice President 2. The President 3. Chairman 4. Prime Minister",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "2, 1, 4, 3, 5",
+      "status": "confirmed",
+      "source": "https://en.bharatpedia.org/wiki/Order_of_precedence_in_India",
+      "evidence": "Order of precedence: President (1), Vice-President (2), Prime Minister (3), then the presiding officers — so 2,1,4,3,5 (duplicate of Q63)."
+    },
+    {
       "row": 451,
       "xlsx_row": 452,
       "q": "When was the Planning Commission established?",
@@ -4405,6 +4438,17 @@
       "evidence": "'On 1st December 1965, BSF was officially formed' with K.F. Rustamji as first DG."
     },
     {
+      "row": 464,
+      "xlsx_row": 465,
+      "q": "The Chairman of the Constitution Review Commission, which was constituted in February, 2000, was",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "M. N. Venkatachelaiyya",
+      "status": "confirmed",
+      "source": "https://testbook.com/ias-preparation/national-commission-to-review-the-working-of-the-constitution-upsc",
+      "evidence": "'The NCRWC was established on 22 February 2000 ... chaired by Justice M.N. Venkatachaliah, a former Chief Justice of India'."
+    },
+    {
       "row": 465,
       "xlsx_row": 466,
       "q": "Who was the Chairman of the first Law Commission of independent India",
@@ -4460,6 +4504,17 @@
       "evidence": "'A Legislative Council (Vidhan Parishad) is the upper house of a state legislature' where a State is bicameral (Art. 168)."
     },
     {
+      "row": 476,
+      "xlsx_row": 477,
+      "q": "Which of the following Indian states has the largest number of members in its state assembly?",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Himachal Pradesh",
+      "status": "confirmed",
+      "source": "https://en.m.wikipedia.org/wiki/Government_of_Himachal_Pradesh",
+      "evidence": "'The current assembly consists of 68 elected members' — larger than Arunachal, Manipur and Meghalaya (60 each); duplicate of Q381."
+    },
+    {
       "row": 477,
       "xlsx_row": 478,
       "q": "Members of the State Legislative Council are not elected from which of the following",
@@ -4491,6 +4546,17 @@
       "status": "confirmed",
       "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
       "evidence": "Article 169: 'Parliament may, by law, create or abolish a Legislative Council' after the Assembly passes a special-majority resolution."
+    },
+    {
+      "row": 480,
+      "xlsx_row": 481,
+      "q": "Where in the following states is/are the Legislative Council? 1. Kerala 2. Himachal Pradesh 3. Delhi 4. Bihar",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "only 4",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/state-legislature-articles-168-212/",
+      "evidence": "Legislative Councils exist in six States — Andhra Pradesh, Telangana, Karnataka, Maharashtra, Bihar and Uttar Pradesh — so only Bihar (4) among the listed States."
     },
     {
       "row": 481,
@@ -4570,6 +4636,28 @@
       "evidence": "'Article 124(2) states that Supreme Court judges are appointed by the President of India through a warrant under his hand and seal'."
     },
     {
+      "row": 488,
+      "xlsx_row": 489,
+      "q": "By passing 'Triple Talaq Law' recently, the Parliament of India endorsed which year's ruling of the Supreme Court on triple talaq",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "2017",
+      "status": "confirmed",
+      "source": "https://testbook.com/ias-preparation/saira-bano-vs-union-of-india",
+      "evidence": "Shayara Bano (22 August 2017) held instant triple talaq unconstitutional; Parliament then passed the Muslim Women (Protection of Rights on Marriage) Act, 2019."
+    },
+    {
+      "row": 489,
+      "xlsx_row": 490,
+      "q": "The Supreme Court is a",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/president-of-india-powers-election-upsc",
+      "evidence": "The Supreme Court is a federal court, a guardian of fundamental rights and the final interpreter of the Constitution — more than one option, so (e) (duplicate of Q496)."
+    },
+    {
       "row": 490,
       "q": "Which of the following is concerned with the Supreme Court of India",
       "printed": "E",
@@ -4601,6 +4689,17 @@
       "status": "confirmed",
       "source": "https://niyam.ai/blog/kesavananda-bharati",
       "evidence": "Kesavananda Bharati (1973) propounded the basic-structure doctrine — same source as Q511/Q513."
+    },
+    {
+      "row": 493,
+      "xlsx_row": 494,
+      "q": "Before his appointment as a judge of the Supreme Court of India in July 2024, Justice N. Kotiswar Singh was the Chief Justice of",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Jammu and Kashmir and Ladakh High Court",
+      "status": "confirmed",
+      "source": "https://www.scconline.com/blog/post/2024/08/08/know-thy-judge-justice-n-kotiswar-singh-jandk-ladakh-hc-supreme-court-legal-news/",
+      "evidence": "'Justice N. Kotiswar Singh was serving as the Chief Justice of Jammu & Kashmir and Ladakh High Court, prior to being elevated as Judge of the Supreme Court on 18-7-2024'."
     },
     {
       "row": 495,
@@ -4689,6 +4788,17 @@
       "status": "confirmed",
       "source": "https://iasmentorship.com/current-affairs/supreme-court-judges-increase-article-124-upsc-2026/",
       "evidence": "'Article 124(1) — Parliament has power to change SC judge numbers' (Supreme Court (Number of Judges) Act, 1956)."
+    },
+    {
+      "row": 510,
+      "xlsx_row": 511,
+      "q": "Recently, the Parliament of India supported which year's judgment of the Supreme Court of India by passing the 'Triple Talaq Law'",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "2017",
+      "status": "confirmed",
+      "source": "https://testbook.com/ias-preparation/saira-bano-vs-union-of-india",
+      "evidence": "Same as Q488: the 2017 Shayara Bano judgment was given statutory effect by the 2019 Act."
     },
     {
       "row": 511,
