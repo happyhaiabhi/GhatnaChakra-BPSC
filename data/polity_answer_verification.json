@@ -258,6 +258,17 @@
       "evidence": "Sarkaria was appointed on 9 June 1983 but submitted its final report in October 1987 — the year the sheet's option (d) gives."
     },
     {
+      "row": 23,
+      "xlsx_row": 24,
+      "q": "Consider the following subjects belonging to different lists of the constitution of India. Which of the following subjects belong to concurrent list? 1) Protection of wildlife 2) Income on Agriculture 3) Tax on Electricity 4) Price control",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "1 and 4 are correct",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Seventh_Schedule_to_the_Constitution_of_India",
+      "evidence": "List III has '17-B. Protection of wild animals and birds' and '34. Price control'; income from agriculture (List II, Entry 46) and taxes on electricity (List II, Entry 53) are State subjects."
+    },
+    {
       "row": 24,
       "xlsx_row": 25,
       "q": "In which of the following years, the Sarkaria Commission gave its report",
@@ -267,6 +278,17 @@
       "status": "confirmed",
       "source": "https://digitallylearn.com/polity/centre-state-relations-sarkaria-punchhi-commission-cooperative-federalism/",
       "evidence": "'Sarkaria Commission ... submitted its report in 1987' (duplicate of Q22)."
+    },
+    {
+      "row": 25,
+      "xlsx_row": 26,
+      "q": "Match- I. Federal List A. 97 entries II. State list B. 47 entries III. concurrent list C. 66 entries",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "A C B",
+      "status": "confirmed",
+      "source": "https://studyhub.net.in/indian_constitution/7th-schedule-of-the-indian-constitution-upsc/",
+      "evidence": "'Union List | 97 subjects; State List | 66 subjects; Concurrent List | 47 subjects' → I-A, II-C, III-B."
     },
     {
       "row": 26,
@@ -489,6 +511,17 @@
       "evidence": "'Article 57: Eligible for re-election for any number of terms. Contrast with US 22nd Amendment'."
     },
     {
+      "row": 46,
+      "xlsx_row": 47,
+      "q": "Who are included in the 'Electoral College' of the President of India",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "All elected members of both the Houses of Parliament and all elected members of State Legislative Assemblies",
+      "status": "confirmed",
+      "source": "https://www.upscplanner.com/articles/president-of-india",
+      "evidence": "'Article 54 — Electoral College: Elected MPs (Lok Sabha + Rajya Sabha) + Elected MLAs of States + Delhi & Puducherry' — none of (a)-(c) alone."
+    },
+    {
       "row": 47,
       "xlsx_row": 48,
       "q": "In India, the President is elected by.",
@@ -542,6 +575,17 @@
       "status": "confirmed",
       "source": "https://www.upscplanner.com/articles/president-of-india",
       "evidence": "Article 53: the executive power of the Union is vested in the President (exercised on ministerial advice)."
+    },
+    {
+      "row": 52,
+      "xlsx_row": 53,
+      "q": "Consider the following statements regarding the President of India. 1. Article 53 mentions that the executive power of the Union shall be vested in the President. 2. The President shall hold office for five years after assuming office. 3. Article 60 mentions the process of impeachment",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "1 and 2 only",
+      "status": "confirmed",
+      "source": "https://www.upscplanner.com/articles/president-of-india",
+      "evidence": "Statements 1 (Art. 53) and 2 (Art. 56, five-year term) are right; statement 3 is wrong — Art. 60 is the oath, impeachment is Art. 61."
     },
     {
       "row": 53,
@@ -850,6 +894,17 @@
       "status": "confirmed",
       "source": "https://theiashub.com/upsc/drafting-committee/",
       "evidence": "Members were Alladi Krishnaswami Ayyar, N. Gopalaswami Ayyangar, K.M. Munshi, Mohammad Saadulla, B.L. Mitter and D.P. Khaitan — Nehru was not on the Drafting Committee."
+    },
+    {
+      "row": 83,
+      "xlsx_row": 84,
+      "q": "Consider the following statements about Central Government: 1. Ministries and Departments are formed by the Prime Minister with consultation of the Cabinet Secretary. 2. Every Minister is allocated a Ministry by the President on the advice of the Prime Minister",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Only 2 is correct",
+      "status": "confirmed",
+      "source": "https://www.ekamiasacademy.com/upsc-indian-polity-functioning-of-ministries/",
+      "evidence": "'Statement 1 is incorrect: Ministries and Departments are created ... by the President ... under the Allocation of Business Rules ... Statement 2 is correct'."
     },
     {
       "row": 84,
@@ -1479,6 +1534,17 @@
       "xlsx_row": 147
     },
     {
+      "row": 147,
+      "xlsx_row": 148,
+      "q": "A joint session of both the Houses of Parliament is held 1. For the election of the President of India 2. For the election of the Vice President of India 3. To pass a bill related to amendment in the Constitution 4. To consider and pass a bill on which there is difference of opinion between the two Houses",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "only 4",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/parliamentary-legislative-procedure-types-of-bills/",
+      "evidence": "'Joint session is only for inter-House disagreement' — constitutional amendment bills and Money Bills are expressly excluded from Art. 108; presidential elections use a different college."
+    },
+    {
       "row": 148,
       "xlsx_row": 149,
       "q": "How many members can the President nominate for the Lok Sabha and the Rajya Sabha respectively",
@@ -1732,6 +1798,17 @@
       "evidence": "Federal features listed by Laxmikanth include 'division of powers, written Constitution, supremacy of Constitution' — the Constitution, not Parliament or the Court, is supreme."
     },
     {
+      "row": 173,
+      "xlsx_row": 174,
+      "q": "Which of the following is true about the parliamentary system of government",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.nextgenpsc.com/study-materials/polity/parliamentary-system-of-government",
+      "evidence": "In a parliamentary system the executive is responsible to the legislature ('Collective Responsibility ... under Article 75(3)'), so none of (a)-(d) is right."
+    },
+    {
       "row": 174,
       "xlsx_row": 175,
       "q": "Democracy in India is based on the fact that",
@@ -1809,6 +1886,28 @@
       "evidence": "The Preamble declares India a 'Sovereign, Socialist, Secular, Democratic Republic' (words added/ordered by the 42nd Amendment)."
     },
     {
+      "row": 183,
+      "xlsx_row": 184,
+      "q": "There is temporal sovereignty in India, because the Preamble of the Constitution begins",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "We the people of India through words",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/preamble-of-the-indian-constitution/",
+      "evidence": "The Preamble 'begins with the words \"We, the people of India\", which clearly indicate that the Constitution derives its authority from the people'."
+    },
+    {
+      "row": 184,
+      "xlsx_row": 185,
+      "q": "Consider the following words. A. Socialist B.Democratic C.universal D. secular Give order the right words according to the thought",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "C, A, D and B",
+      "status": "defect",
+      "source": "https://www.legacyias.com/preamble-of-the-indian-constitution/",
+      "evidence": "The Preamble's order is Sovereign-Socialist-Secular-Democratic-Republic (A, D, B); no option gives that order and 'universal' does not occur in the Preamble at all."
+    },
+    {
       "row": 185,
       "xlsx_row": 186,
       "q": "Which of the following is mentioned in the Preamble of the Constitution of India but was not in the original Preamble",
@@ -1851,6 +1950,17 @@
       "status": "confirmed",
       "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
       "evidence": "Only the Preamble declares India 'Sovereign Socialist Secular Democratic Republic'; 'secular' was inserted there by the 42nd Amendment."
+    },
+    {
+      "row": 189,
+      "xlsx_row": 190,
+      "q": "Which of the following is called the 'Soul' of the Indian Constitution",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Preamble of the Constitution",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/preamble-of-the-indian-constitution/",
+      "evidence": "'Pandit Thakurdas Bhargava called it \"the soul of the Constitution\"'."
     },
     {
       "row": 190,
@@ -1941,6 +2051,28 @@
       "evidence": "'passed by the Lok Sabha 10 December 2019 ... passed by the Rajya Sabha 11 December 2019' — the Parliament passed it on 11 December 2019."
     },
     {
+      "row": 202,
+      "xlsx_row": 203,
+      "q": "Choose the Fundamental Rights available to Indian citizens but NOT to aliens: I. Freedom of Speech and Expression II. Equality Before the Law III. Right of Minorities IV. Protection of Life and Liberty",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "I and III",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/fundamental-rights/",
+      "evidence": "'Rights Available to Citizens Only: Articles 15, 16, 19, 29, and 30' — Art. 19 (I) and Arts 29-30 (III); Art. 14 and Art. 21 apply to all persons."
+    },
+    {
+      "row": 203,
+      "xlsx_row": 204,
+      "q": "The Constitution of India provides for reasonable restrictions on Fundamental Rights, but reasonableness must keep in mind that: 1. The interest of the general public is safeguarded 2. Prevailing social value and also social needs are not barred 3. Directive Principles can be bypassed 4. Col",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "1 and 2 are correct",
+      "status": "defect",
+      "source": "https://vajiramandravi.com/upsc-exam/fundamental-rights/",
+      "evidence": "The row's own text breaks off mid-word at statement 4 ('4. Col'), so the numbered statements cannot be assessed; only 1 and 2 survive in the sheet."
+    },
+    {
       "row": 204,
       "xlsx_row": 205,
       "q": "In which language was 'Tuzuk-i-Babari' written",
@@ -1972,6 +2104,17 @@
       "status": "confirmed",
       "source": "https://lawbhoomi.com/union-of-india-v-naveen-jindal-2004/",
       "evidence": "Union of India v Naveen Jindal (2004): flying the flag is symbolic speech 'protected under Article 19(1)(a)'."
+    },
+    {
+      "row": 207,
+      "xlsx_row": 208,
+      "q": "Choose the fundamental rights available to Indian Citizen but not to aliens",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "I and III",
+      "status": "defect",
+      "source": "https://vajiramandravi.com/upsc-exam/fundamental-rights/",
+      "evidence": "Row lists no numbered items I-IV (unlike duplicates Q202/Q229), so the letters cannot be mapped; the citizen-only rights are Arts 15, 16, 19, 29, 30."
     },
     {
       "row": 208,
@@ -2062,6 +2205,17 @@
       "xlsx_row": 223
     },
     {
+      "row": 223,
+      "xlsx_row": 224,
+      "q": "The constitution of India provides for reasonable restrictions on Fundamental Rights but reasonableness must keep in mind that",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "1 and 2 are correct",
+      "status": "defect",
+      "source": "https://vajiramandravi.com/upsc-exam/fundamental-rights/",
+      "evidence": "Duplicate of Q203 whose cell carries no numbered statements at all — the options refer to items 1-4 that are absent, so no key can be verified."
+    },
+    {
       "row": 225,
       "xlsx_row": 226,
       "q": "Under which article in the Indian Constitution, fundamental rights have been provided to the citizens",
@@ -2082,6 +2236,17 @@
       "status": "confirmed",
       "source": "https://www.constitutionofindia.net/articles/article-32-right-to-constitutional-remedies/",
       "evidence": "Article 32, in Part III, 'guarantees the right to move the Supreme Court by appropriate proceedings' — it is itself a fundamental right."
+    },
+    {
+      "row": 229,
+      "xlsx_row": 230,
+      "q": "Select the fundamental rights which Indian citizens are eligible, but not to non-citizens I. Freedom of speech and expression II. equality before law III. rights of minorities IV. protection of life and liberty",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "I and III",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/fundamental-rights/",
+      "evidence": "Citizen-only rights are Arts 15, 16, 19, 29, 30 — so I (Art. 19) and III (Arts 29-30); arts 14 and 21 protect all persons."
     },
     {
       "row": 230,
@@ -2161,6 +2326,28 @@
       "evidence": "Arts 32 and 226 vest the writ jurisdiction to enforce Fundamental Rights in the Supreme Court and the High Courts ('Types of Writs in India (Art 32 & 226)')."
     },
     {
+      "row": 240,
+      "xlsx_row": 241,
+      "q": "Which of the following is/are listed among the Directive Principles in Part-IV of the Constitution of India? I. Equal Pay for Equal Work II. Uniform Civil Code III. Small family norm IV. Education through mother tongue at primary level",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "I and II",
+      "status": "confirmed",
+      "source": "https://theindianconstitution.com/directive-principles-state-policy-part-4/",
+      "evidence": "Equal pay is Art. 39(d) and the Uniform Civil Code Art. 44 — both in Part IV; the small-family norm is not a DPSP and mother-tongue education is Art. 350A, outside Part IV."
+    },
+    {
+      "row": 241,
+      "xlsx_row": 242,
+      "q": "Which of the following Directive Principles do not follow Gandhian Principles? 1. Organisation of Village Panchayats 2. Common Civil Code 3. Promotion of cottage industry in rural areas 4. Right to work",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "2 and 4",
+      "status": "confirmed",
+      "source": "https://upscsociology.in/q-which-of-the-following-directive-principles-do-not-follow-gandhian-principles/",
+      "evidence": "'2) Common Civil Code (Article 44) — Not Gandhian ... 4) Right to work — not Gandhian. Hence 2 and 4 do not follow Gandhian principles' (Arts 40 and 43 are Gandhian)."
+    },
+    {
       "row": 243,
       "xlsx_row": 244,
       "q": "The concept of the Directive Principles of State Policy in the Indian Constitution was borrowed from",
@@ -2170,6 +2357,17 @@
       "status": "confirmed",
       "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
       "evidence": "'DPSP | Part IV (Arts. 36-51) | Ireland'."
+    },
+    {
+      "row": 244,
+      "xlsx_row": 245,
+      "q": "Which of the following Directive Principles do not follow Gandhian Principles? 1) Organisation of Village Panchayats 2) Common Civil Code 3) Promotion of cottage Industry in rural areas 4) Right to work",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "2 and 4",
+      "status": "confirmed",
+      "source": "https://upscsociology.in/q-which-of-the-following-directive-principles-do-not-follow-gandhian-principles/",
+      "evidence": "Same as Q241 (duplicate row): Arts 40 and 43 are Gandhian; UCC (Art. 44) and right to work are not."
     },
     {
       "row": 245,
@@ -2192,6 +2390,17 @@
       "status": "confirmed",
       "source": "https://unacademy.com/content/nda/study-material/general-knowledge/directive-principles-of-state-policy/",
       "evidence": "Same point as Q245: Part IV (Arts 36-51) carries the welfare-state directives."
+    },
+    {
+      "row": 247,
+      "xlsx_row": 248,
+      "q": "Directive Principles given in Part IV of the Indian Constitution Which of the following is/are listed in? I. Equal pay for equal work II. Uniform civil code III. Small family norm IV. Mother tongue education at primary level",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "I and II",
+      "status": "confirmed",
+      "source": "https://theindianconstitution.com/directive-principles-state-policy-part-4/",
+      "evidence": "Duplicate of Q240: Art. 39(d) and Art. 44 are in Part IV; III and IV are not DPSPs."
     },
     {
       "row": 248,
@@ -2236,6 +2445,17 @@
       "source": "https://www.bajajfinserv.in/attorney-general-of-india-article-76",
       "evidence": "Article 76: 'the Attorney General of India is appointed by the President'.",
       "xlsx_row": 252
+    },
+    {
+      "row": 252,
+      "xlsx_row": 253,
+      "q": "Attorney General of India",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "He gives advice to the President on legal matters",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Attorney_General_of_India",
+      "evidence": "Art. 76(2): 'It shall be the duty of the Attorney-General to give advice to the Government of India upon such legal matters' — option (b) (right of audience in all courts makes (a) wrong)."
     },
     {
       "row": 253,
@@ -2379,6 +2599,17 @@
       "status": "confirmed",
       "source": "https://testbook.com/question-answer/what-is-the-version-of-the-machine-vvpat-used-for--5f7b51da38682a559d1eb106",
       "evidence": "'The correct answer is M3 ... A VVPAT framework is included in the M3 version of EVMs'."
+    },
+    {
+      "row": 267,
+      "xlsx_row": 268,
+      "q": "Which of the following is/are the consequence(s) of invoking Article 360, declaration of a financial emergency? 1. President may order States to reduce salaries of employees 2. Money Bills of the State need not be reserved for the President 3. President can direct reduction of salaries including SC/HC judges 4. Money Bills are to be reserved for the President",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Only 1, 3 and 4",
+      "status": "confirmed",
+      "source": "https://inclusiveias.com/upsc-polity-financial-emergency-article-360/",
+      "evidence": "Effects of Art. 360: reduction of State salaries, reservation of State Money Bills for the President, and reduction of Union salaries 'including the Judges of the Supreme Court and the High Courts' — statement 2 is the opposite."
     },
     {
       "row": 268,
@@ -2821,6 +3052,28 @@
       "evidence": "Article 243K vests conduct in the State Election Commission, which the State Government sets up and funds; the notification/decision to hold the poll rests with the State Government (option b)."
     },
     {
+      "row": 322,
+      "xlsx_row": 323,
+      "q": "Panchayati Raj system is in which list",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "State list",
+      "status": "confirmed",
+      "source": "https://www.unlockias.in/mppsc-2019-prelims-question-paper/q68-panchayati-raj-subject-falls-under-list-constitution",
+      "evidence": "'Local government (which includes the constitution and powers of panchayats ...) is Entry 5 of the State List (List II)' — Panchayati Raj is a State subject."
+    },
+    {
+      "row": 323,
+      "xlsx_row": 324,
+      "q": "Panchayati Raj subject is",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "On the state list",
+      "status": "confirmed",
+      "source": "https://www.unlockias.in/mppsc-2019-prelims-question-paper/q68-panchayati-raj-subject-falls-under-list-constitution",
+      "evidence": "Same (duplicate of Q322): Entry 5, List II (State List) of the Seventh Schedule."
+    },
+    {
       "row": 324,
       "xlsx_row": 325,
       "q": "By whom is the decision taken for holding Panchayat elections",
@@ -3184,6 +3437,17 @@
       "evidence": "'Tenth | Anti-defection provisions' (Arts 102(2), 191(2)) — duplicate of Q33."
     },
     {
+      "row": 373,
+      "xlsx_row": 374,
+      "q": "Aam Aadmi Party",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Is a national party",
+      "status": "confirmed",
+      "source": "https://www.boomlive.in/explainers/aap-is-a-national-party-tmc-not-what-does-it-mean-21657",
+      "evidence": "'The Election Commission of India (ECI), on Monday, recognised the Aam Aadmi Party (AAP) as a national party'."
+    },
+    {
       "row": 377,
       "xlsx_row": 378,
       "q": "A seat of M.P. can be declared vacant if he absents himself from the house for a continuous period of",
@@ -3226,6 +3490,17 @@
       "status": "confirmed",
       "source": "https://timesofindia.indiatimes.com/india/jharkhand-foundation-day-2022-facts-about-its-history-formation-politics-etc/amp_articleshow/95532356.cms",
       "evidence": "'Jharkhand, the 28th state of India was formed on November 15, 2000'."
+    },
+    {
+      "row": 382,
+      "xlsx_row": 383,
+      "q": "Who amongst the following is a land record officer",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Patwari",
+      "status": "confirmed",
+      "source": "https://www.studyadda.com/notes/6th-class/social-science/local-government/notes-rural-administration/18652",
+      "evidence": "'The patwari is the land record officer, whose job is to visit agricultural lands and maintain record of ownership and yield'."
     },
     {
       "row": 384,
@@ -3536,6 +3811,17 @@
       "evidence": "Decentralisation is designed to build participation and confidence at the grassroots; the negation of that is not one of its features (duplicate of Q385)."
     },
     {
+      "row": 429,
+      "xlsx_row": 430,
+      "q": "Which among the following is a positively charged particle",
+      "printed": "A",
+      "verified_key": "B",
+      "verified_text": "Alpha ray",
+      "status": "corrected",
+      "source": "https://byjus.com/jee/properties-of-alpha-beta-gamma-rays/",
+      "evidence": "'Alpha rays are the positively charged particles' (charge +2e); beta rays are negatively charged — so (b), not (a)."
+    },
+    {
       "row": 430,
       "q": "The Council of Ministers in a State is collectively responsible to",
       "printed": "E",
@@ -3589,6 +3875,17 @@
       "source": "https://testbook.com/question-answer/under-which-articles-the-speaker-can-allow-any--652b853fdea2aa25056d901f",
       "evidence": "69th BPSC Q110: Article 120(1) proviso lets the Speaker permit a member to address the House in the mother tongue.",
       "xlsx_row": 436
+    },
+    {
+      "row": 440,
+      "xlsx_row": 441,
+      "q": "Which of the following is full form of PCRA",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Petroleum Conservation Research Association",
+      "status": "confirmed",
+      "source": "https://www.careers360.com/pcra-full-form",
+      "evidence": "'The full form of PCRA is Petroleum Conservation Research Association', set up under the Ministry of Petroleum & Natural Gas."
     },
     {
       "row": 442,
@@ -3666,6 +3963,28 @@
       "status": "confirmed",
       "source": "https://eduindex.org/2021/07/26/forms-of-government-2/",
       "evidence": "A unitary/centralised constitution suits small countries and is 'not suitable for big countries' (duplicate of Q20/Q177)."
+    },
+    {
+      "row": 454,
+      "xlsx_row": 455,
+      "q": "Who among the following is not a permanent member of the UN Security Council",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Germany",
+      "status": "confirmed",
+      "source": "https://legalclarity.org/un-security-council-members-permanent-and-non-permanent/",
+      "evidence": "'The five permanent members are China, France, the Russian Federation, the United Kingdom, and the United States' — Germany is not one."
+    },
+    {
+      "row": 462,
+      "xlsx_row": 463,
+      "q": "India's first law university was established in August 1987 in",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Bangalore",
+      "status": "confirmed",
+      "source": "https://pace.nls.ac.in/about/about-nlsiu/",
+      "evidence": "'The National Law School of India University, Bengaluru, is the first national law university established in India' — set up by Karnataka on 29 August 1987."
     },
     {
       "row": 463,
