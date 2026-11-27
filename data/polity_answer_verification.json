@@ -2230,12 +2230,12 @@
       "row": 226,
       "xlsx_row": 227,
       "q": "What does the right to constitutional remedies come under",
-      "printed": "A",
+      "printed": "E",
       "verified_key": "A",
       "verified_text": "Fundamental rights",
-      "status": "confirmed",
+      "status": "corrected",
       "source": "https://www.constitutionofindia.net/articles/article-32-right-to-constitutional-remedies/",
-      "evidence": "Article 32, in Part III, 'guarantees the right to move the Supreme Court by appropriate proceedings' — it is itself a fundamental right."
+      "evidence": "Article 32, in Part III, 'guarantees the right to move the Supreme Court by appropriate proceedings' — it is a fundamental right, so (a); the printed key (e) is wrong."
     },
     {
       "row": 229,
@@ -2901,12 +2901,12 @@
       "row": 306,
       "xlsx_row": 307,
       "q": "A Panchayat Samiti at the block level in India is only a/an",
-      "printed": "A",
+      "printed": "C",
       "verified_key": "C",
       "verified_text": "Co-ordinating and Supervisory Authority",
-      "status": "corrected",
+      "status": "confirmed",
       "source": "https://www.sarthaks.com/2721225/a-panchayat-samiti-at-the-block-level-in-india-is-only-a-an",
-      "evidence": "'A Panchayat Samiti at the block level in India is only a Coordinating and Supervisory Authority' — option (c), not (a) Advisory Body."
+      "evidence": "'A Panchayat Samiti at the block level in India is only a Coordinating and Supervisory Authority' — matches the printed key (c)."
     },
     {
       "row": 307,
@@ -3976,6 +3976,50 @@
       "evidence": "'The five permanent members are China, France, the Russian Federation, the United Kingdom, and the United States' — Germany is not one."
     },
     {
+      "row": 458,
+      "xlsx_row": 459,
+      "q": "Where is the headquarters of the International Court of Justice",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "The Hague",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/International_Court_of_Justice",
+      "evidence": "'The ICJ is seated in the Peace Palace in The Hague, Netherlands, making it the only principal UN organ not in New York City' — option (a) (printed 'Hung' is a garbled 'Hague')."
+    },
+    {
+      "row": 459,
+      "xlsx_row": 460,
+      "q": "Amnesty International is an organization associated with",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Protection of human rights",
+      "status": "confirmed",
+      "source": "https://www.studyiq.com/articles/amnesty-international/",
+      "evidence": "'Amnesty International is an International non-governmental organization that campaigns for human rights' (London, founded 1961)."
+    },
+    {
+      "row": 460,
+      "xlsx_row": 461,
+      "q": "What is the name of China's news agency",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "New China News Agency",
+      "status": "confirmed",
+      "source": "https://www.wikiwand.com/en/articles/Xinhua",
+      "evidence": "'Xinhua News Agency ... or New China News Agency, is the official state news agency of the People's Republic of China'."
+    },
+    {
+      "row": 461,
+      "xlsx_row": 462,
+      "q": "Which country's government report is called Yellow Book",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "France",
+      "status": "confirmed",
+      "source": "https://www.infoplease.com/dictionary/brewers/yellow-book-france",
+      "evidence": "'A report drawn up by government every year ... of the French nation' — the Yellow Book of France (cf. Blue Book of Britain, White Book of Germany)."
+    },
+    {
       "row": 462,
       "xlsx_row": 463,
       "q": "India's first law university was established in August 1987 in",
@@ -4088,7 +4132,7 @@
     {
       "row": 482,
       "xlsx_row": 483,
-      "q": "If the Speaker of the Legislative Assembly of a State wishes to resign, he should submit his resignation letter to",
+      "q": "If the Speaker (Speaker) of the Legislative Assembly of a State wishes to resign, he should submit his resignation letter to.",
       "printed": "C",
       "verified_key": "C",
       "verified_text": "The Deputy Speaker",
@@ -4198,7 +4242,7 @@
     {
       "row": 496,
       "xlsx_row": 497,
-      "q": "Supreme Court is",
+      "q": "Supreme Court one.",
       "printed": "E",
       "verified_key": "E",
       "verified_text": "None of the above / More than one of the above",
