@@ -14,6 +14,7 @@ incoming/
 source_pdfs/
 _staging/
 *.pdf
+!Polity_PYQ_Laxmikanth_Chapterwise.pdf
 
 # Python
 .venv/
