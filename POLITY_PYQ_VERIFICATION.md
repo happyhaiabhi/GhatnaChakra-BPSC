@@ -10,14 +10,14 @@ and the constitutional text. Every claim below resolves to a URL and a quoted se
 | | Rows |
 |---|---|
 | Total questions | 515 |
-| **Web-checked in this pass** | **49 (10 %)** |
-| — printed key was wrong, now corrected | 29 |
-| — printed key confirmed | 11 |
+| **Web-checked in this pass** | **90 (17.5 %)** |
+| — printed key was wrong, now corrected | 32 |
+| — printed key confirmed | 48 |
 | — ambiguous printed key (`*`, `A/C`) resolved | 5 |
 | — no answer possible (corrupt options / deleted by BPSC) | 4 |
-| Not yet web-checked | 466 |
+| Not yet web-checked | 425 |
 
-The single most important finding is not the 29 corrections. It is that **the supplied JSON
+The single most important finding is not the 32 corrections. It is that **the supplied JSON
 answer letters are not aligned with the options printed in this sheet**, so about half of the 134
 rows that inherit a JSON letter are carrying a wrong answer (28 wrong of the 38 judged, and 3 of 8
 in an unbiased random sample). Those rows are now labelled *not web-checked: source letter
@@ -52,6 +52,9 @@ now keyed.
 | 11 | `E` | **A** | 21 years | licchavilyceum.com |
 | 36 | `A` | **B** | Any number of times | licchavilyceum.com |
 | 37 | `A` | **C** | Yashwant Sinha | testbook.com |
+| 34 | `E` | **A** | either directly or through officers subordinate to him | clearias.com |
+| 35 | `B` | **C** | Zimbabwe | aljazeera.com |
+| 38 | `A` | **C** | Guwahati (IIT Guwahati) | pib.gov.in |
 | 47 | `E` | **D** | By Parliament and State Assemblies | testbook.com |
 | 91 | `*` | **D** | To the Parliament | prepp.in |
 | 102 | `E` | **C** | 25 years | examstocks.com |
@@ -88,6 +91,13 @@ Confirmed as already correct: **Q205** (Peer Muhammad Moonis), **Q212** (Nizamud
 **Q308** (Panchayati Raj is in the State List), **Q370** (Governor decides MLA disqualification,
 Article 192), **Q395** (Article 210 language of business), **Q412** (PURA — Abdul Kalam),
 **Q442** (Article 98), **Q445** (prorogation), **Q495** (Article 32/226).
+
+In the second sweep the KGS/CSV/merged block of Q7–Q96 was checked row by row; the printed key held
+in **48** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
+Amendment Bill), **Q22** (Sarkaria report submitted 1987), **Q62/Q69** (2022 Vice-Presidential
+electoral college = 788, per the ECI press note), **Q71/Q73** (Constitution Day, 26 November),
+**Q74–Q79** (Constituent Assembly, 9 December 1946; 2 years 11 months 18 days; adopted by the
+Assembly), **Q95** (Article 102(1)(a) office of profit) and **Q96** (Bihar, 40 Lok Sabha seats).
 
 Open, with the reason recorded in the sheet: **Q48** (both (b) and (c) are true under Article 55(3)
 and there is no "both" option), **Q146** (no printed option describes Zero Hour), **Q397** (question

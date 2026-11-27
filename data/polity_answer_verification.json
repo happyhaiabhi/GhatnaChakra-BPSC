@@ -60,6 +60,50 @@
       "xlsx_row": 2
     },
     {
+      "row": 7,
+      "xlsx_row": 8,
+      "q": "The legislative origins of the 73rd Constitutional Amendment Act",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "64th Constitutional Amendment Bill",
+      "status": "confirmed",
+      "source": "https://www.rostrumlegal.com/the-constitution-73rd-amendment-act-1993-and-the-status-of-rural-local-governance-in-india-in-last-two-decades/",
+      "evidence": "'The legislative origin of such Amendment dates back to the Constitution (64th Amendment) Bill introduced by Rajiv Gandhi in July 1989'."
+    },
+    {
+      "row": 8,
+      "xlsx_row": 9,
+      "q": "Size of Council of Ministers has been restricted to 15 percent",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "91st Amendment",
+      "status": "confirmed",
+      "source": "https://prepp.in/question/the-91-st-constitutional-amendment-restricted-the-642a80ea4e1177378ff40a5b",
+      "evidence": "'The 91st Constitutional Amendment Act, 2003 ... restricted the size of the council of ministers ... to 15 percent'."
+    },
+    {
+      "row": 9,
+      "xlsx_row": 10,
+      "q": "Creation of a new state requires a majority",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Simple",
+      "status": "confirmed",
+      "source": "https://www.indiastatestory.in/post/how-a-new-state-is-formed",
+      "evidence": "Article 3: 'Parliament, by a simple majority, can enact laws to form a new state'."
+    },
+    {
+      "row": 10,
+      "xlsx_row": 11,
+      "q": "The 73rd Constitutional Amendment traces back to which earlier Bill",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "64th Amendment Bill",
+      "status": "confirmed",
+      "source": "https://www.rostrumlegal.com/the-constitution-73rd-amendment-act-1993-and-the-status-of-rural-local-governance-in-india-in-last-two-decades/",
+      "evidence": "Same 64th Amendment Bill of July 1989 as Q7 (duplicate row)."
+    },
+    {
       "row": 11,
       "q": "The minimum age for contesting elections to the Panchayati Raj",
       "printed": "E",
@@ -69,6 +113,61 @@
       "source": "https://licchavilyceum.com/68th-bpsc-question-paper-2023-with-solution/",
       "evidence": "68th BPSC Q7: 'Ans: (A)'; testbook (68th Set B official paper) also gives 21 years.",
       "xlsx_row": 12
+    },
+    {
+      "row": 12,
+      "xlsx_row": 13,
+      "q": "Which Amendment to the Constitution abolished the two seats",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "104th",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/which-constitutional-amendment-act-abolished-the-p--68e3c73796334b810b0d2eea",
+      "evidence": "'The 104th Amendment Act, 2019 abolished the provision for nominating members from the Anglo-Indian community' (Article 334)."
+    },
+    {
+      "row": 20,
+      "xlsx_row": 21,
+      "q": "Which one of the following characteristics is not true for unitary form of Government",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Ideal for large countries",
+      "status": "confirmed",
+      "source": "https://eduindex.org/2021/07/26/forms-of-government-2/",
+      "evidence": "Unitary government is 'suitable for small countries' and 'not suitable for big countries' — so 'ideal for large countries' is the untrue statement."
+    },
+    {
+      "row": 21,
+      "xlsx_row": 22,
+      "q": "Match the following : I. Union List II. State list III. Concurrent list",
+      "printed": "B",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The three matching pairs and the item list were lost in extraction — the options read only 'a b c', 'a c b', 'c a b', 'c b a', so no answer can be defended from this text."
+    },
+    {
+      "row": 34,
+      "xlsx_row": 35,
+      "q": "President of India exercises his powers",
+      "printed": "E",
+      "verified_key": "A",
+      "verified_text": "either directly or through officers subordinate to him",
+      "status": "corrected",
+      "source": "https://www.clearias.com/president-of-india/",
+      "evidence": "Article 53(1): executive power 'shall be exercised by him either directly or through officers subordinate to him'."
+    },
+    {
+      "row": 35,
+      "xlsx_row": 36,
+      "q": "Emmerson Mnangagwa was elected as the President of which country",
+      "printed": "B",
+      "verified_key": "C",
+      "verified_text": "Zimbabwe",
+      "status": "corrected",
+      "source": "https://www.aljazeera.com/news/2017/11/171124062450311.html",
+      "evidence": "'Emmerson Mnangagwa has been sworn in as president of Zimbabwe' on 24 November 2017."
     },
     {
       "row": 36,
@@ -93,6 +192,28 @@
       "evidence": "'Yashwant Sinha was the candidate of the United Progressive Alliance (UPA) in the 15th Presidential Election in India' (2022)."
     },
     {
+      "row": 38,
+      "xlsx_row": 39,
+      "q": "The President of India inaugurated 'PARAM KAMRUPA' Supercomputer",
+      "printed": "A",
+      "verified_key": "C",
+      "verified_text": "Guwahati",
+      "status": "corrected",
+      "source": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1867510",
+      "evidence": "PIB: the President 'inaugurated Supercomputer facility Param-Kamrupa ... at IIT Guwahati' on 13 October 2022."
+    },
+    {
+      "row": 39,
+      "xlsx_row": 40,
+      "q": "Among the following who has been Speaker of Lok Sabha prior to his Election as President",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Neelam Sanjeeva Reddy",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Neelam_Sanjiva_Reddy",
+      "evidence": "Reddy was elected Speaker of the Sixth Lok Sabha on 26 March 1977 and resigned a few months later to contest the July 1977 presidential election."
+    },
+    {
       "row": 47,
       "xlsx_row": 48,
       "q": "In India, the President is elected by.",
@@ -115,6 +236,281 @@
       "xlsx_row": 49
     },
     {
+      "row": 61,
+      "xlsx_row": 62,
+      "q": "What is the capital of Paraguay",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Asuncion",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/what-is-the-capital-of-paraguay-to-which-the-vice--5f7d5cb792bec2a0101a0f2e",
+      "evidence": "'The correct answer is Asuncion' — the Vice President visited Paraguay on 5-7 March 2019."
+    },
+    {
+      "row": 62,
+      "xlsx_row": 63,
+      "q": "Electoral College for the 16th Vice Presidential Election",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "788",
+      "status": "confirmed",
+      "source": "https://old.eci.gov.in/files/file/14250-election-to-the-office-of-the-vice-president-of-india-2022-16th-vice-presidential-election%C2%A0/",
+      "evidence": "ECI press note: 'Electoral College comprises of a total of 788 members of both Houses of Parliament'."
+    },
+    {
+      "row": 64,
+      "xlsx_row": 65,
+      "q": "The Chairman of which assembly is not its member",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Rajya Sabha",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/presiding-officers-of-parliament/",
+      "evidence": "Article 89(1): the Vice-President is ex-officio Chairman of the Rajya Sabha and 'is not a member of the House'."
+    },
+    {
+      "row": 65,
+      "xlsx_row": 66,
+      "q": "Who is the ex-officio Chairman of the Rajya Sabha",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Vice President",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/presiding-officers-of-parliament/",
+      "evidence": "Article 89(1): the Vice-President of India is the ex-officio Chairman of the Rajya Sabha."
+    },
+    {
+      "row": 66,
+      "xlsx_row": 67,
+      "q": "Who is the Chairman of Rajya Sabha",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Vice President",
+      "status": "confirmed",
+      "source": "https://digitallylearn.com/polity/vice-president-of-india-election-rajya-sabha-chairman-removal/",
+      "evidence": "Article 89(1): the Vice-President is the ex officio Chairman of the Council of States."
+    },
+    {
+      "row": 67,
+      "xlsx_row": 68,
+      "q": "The Chairman of Rajya Sabha is",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Vice President of India",
+      "status": "confirmed",
+      "source": "https://digitallylearn.com/polity/vice-president-of-india-election-rajya-sabha-chairman-removal/",
+      "evidence": "Same provision as Q65/Q66 (Article 89(1))."
+    },
+    {
+      "row": 68,
+      "xlsx_row": 69,
+      "q": "Which statement is false",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "The Vice President is elected by the President of India",
+      "status": "confirmed",
+      "source": "https://digitallylearn.com/polity/vice-president-of-india-election-rajya-sabha-chairman-removal/",
+      "evidence": "Article 66: the Vice-President is elected by an electoral college of both Houses, not by the President — so option (c) is the false statement."
+    },
+    {
+      "row": 69,
+      "xlsx_row": 70,
+      "q": "How many members are there in the electoral college for the 16th Vice President",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "788",
+      "status": "confirmed",
+      "source": "https://old.eci.gov.in/files/file/14250-election-to-the-office-of-the-vice-president-of-india-2022-16th-vice-presidential-election%C2%A0/",
+      "evidence": "ECI: 233 + 12 Rajya Sabha + 543 Lok Sabha = 788 members."
+    },
+    {
+      "row": 70,
+      "xlsx_row": 71,
+      "q": "The number of Shri Mohammad Hamid Ansari as the Vice President",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "12th",
+      "status": "confirmed",
+      "source": "https://lotusarise.com/presidents-and-vice-presidents-of-india/",
+      "evidence": "List of Vice-Presidents: '12 — Mohammad Hamid Ansari, 2007-2017'."
+    },
+    {
+      "row": 71,
+      "xlsx_row": 72,
+      "q": "Constitution Day of India is celebrated on",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "26th November",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "The Constitution was adopted on 26 November 1949, 'a date now celebrated as Constitution Day (Samvidhan Divas)'."
+    },
+    {
+      "row": 72,
+      "xlsx_row": 73,
+      "q": "Indian National Flag was adopted by the Constituent Assembly",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "22 July, 1947",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/the-design-of-the-indian-national-flag-was-adopted--60675b8bb7bd23eb80019d5f",
+      "evidence": "'The design of the Indian National Flag was adopted by Constituent Assembly on 22nd July 1947'."
+    },
+    {
+      "row": 73,
+      "xlsx_row": 74,
+      "q": "Constitution Day of India is celebrated on",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "26 November",
+      "status": "confirmed",
+      "source": "https://www.vedantu.com/general-knowledge/the-constituent-assembly-of-india",
+      "evidence": "Same fact as Q71 (duplicate row, different year suffix in the options)."
+    },
+    {
+      "row": 74,
+      "xlsx_row": 75,
+      "q": "When did the first meeting of the Constituent Assembly take place",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "December 9, 1946",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "'The Constituent Assembly held its first sitting on 9 December 1946'."
+    },
+    {
+      "row": 75,
+      "xlsx_row": 76,
+      "q": "How much time did it take to make the Indian Constitution",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "2 years, 11 months and 18 days",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/how-long-did-the-constituent-assembly-take-to-fina--69a5717dbf4ea616d8f3bd0c",
+      "evidence": "'The Constituent Assembly of India took exactly 2 years, 11 months, and 18 days'."
+    },
+    {
+      "row": 76,
+      "xlsx_row": 77,
+      "q": "The decision to implement the Constitution on 26 January was taken because",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Congress celebrated this date as Independence Day in 1930",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/the-indian-constitution-was-adopted-by-the-constit--69b8fb2e3c54346433533f77",
+      "evidence": "26 January 1950 'was specifically chosen to commemorate the Purna Swaraj declaration of 1930'."
+    },
+    {
+      "row": 77,
+      "xlsx_row": 78,
+      "q": "By whom was the Constitution of India adopted",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Constituent Assembly",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "'The Constitution was adopted on 26 November 1949' by the Constituent Assembly."
+    },
+    {
+      "row": 78,
+      "xlsx_row": 79,
+      "q": "The Indian Constitution was adopted by the Constituent Assembly",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "On November 26, 1949",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "'The Constitution was adopted on 26 November 1949'."
+    },
+    {
+      "row": 79,
+      "xlsx_row": 80,
+      "q": "The Indian Constitution was adopted",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "By the Constituent Assembly",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "The Constitution was adopted by the Constituent Assembly, which held its first sitting on 9 December 1946."
+    },
+    {
+      "row": 80,
+      "xlsx_row": 81,
+      "q": "Indian Constitution Day is celebrated on",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "26 November",
+      "status": "confirmed",
+      "source": "https://dooitupsc.com/blog/making-of-indian-constitution-constituent-assembly-upsc",
+      "evidence": "The adoption date, 26 November 1949, 'is now celebrated as Constitution Day (Samvidhan Divas)'."
+    },
+    {
+      "row": 81,
+      "xlsx_row": 82,
+      "q": "On August 29, 1947, the Constitution Writing Committee was formed, whose chairman was Dr. B. R. Ambedkar and six others — who was not a member",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Jawaharlal Nehru",
+      "status": "confirmed",
+      "source": "https://theiashub.com/upsc/drafting-committee/",
+      "evidence": "Members were Alladi Krishnaswami Ayyar, N. Gopalaswami Ayyangar, K.M. Munshi, Mohammad Saadulla, B.L. Mitter and D.P. Khaitan — Nehru was not on the Drafting Committee."
+    },
+    {
+      "row": 84,
+      "xlsx_row": 85,
+      "q": "Who was the Prime Minister of England when the Montague-Chelmsford Act was passed in 1919",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Lloyd George",
+      "status": "confirmed",
+      "source": "https://www.gktoday.in/question/which-of-the-following-was-the-prime-minister-of-e",
+      "evidence": "'Lloyd George was the Prime Minister of England when the Montague-Chelmsford Act was passed in 1919'."
+    },
+    {
+      "row": 85,
+      "xlsx_row": 86,
+      "q": "The Prime Minister of India is responsible to whom",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "The Lok Sabha",
+      "status": "confirmed",
+      "source": "https://clarityupsc.com/polity-upsc-notes/prime-minister-council-of-ministers-appointment-powers-collective-responsibility-cabinet",
+      "evidence": "Article 75(3): 'the ministry is collectively responsible to the Lok Sabha'; the PM heads it."
+    },
+    {
+      "row": 86,
+      "xlsx_row": 87,
+      "q": "On February 20, 1947, Prime Minister Attlee announced the British Government's decision to withdraw from India latest by",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "1 June 1948",
+      "status": "confirmed",
+      "source": "https://www.upi.com/Archives/1947/02/20/British-give-date-for-Indian-independence/3317410585124/",
+      "evidence": "UPI, 20 Feb 1947: Attlee told the Commons the transfer of power would be effected 'by a date not later than June, 1948'."
+    },
+    {
+      "row": 89,
+      "xlsx_row": 90,
+      "q": "To whom is the Prime Minister of India answerable",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Lok Sabha",
+      "status": "confirmed",
+      "source": "https://prepp.in news e-492 article-75",
+      "evidence": "Article 75 note: 'the entire Council of Ministers, headed by the Prime Minister, must maintain the confidence of the Lok Sabha'."
+    },
+    {
+      "row": 90,
+      "xlsx_row": 91,
+      "q": "Ministers of the Union Council of Ministers are collectively responsible",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Only towards Lok Sabha",
+      "status": "confirmed",
+      "source": "https://lawgnan.in/llb-2nd-sem-constitutional-law-ii/collective-responsibility-article-75-3/",
+      "evidence": "Article 75(3): all ministers 'are collectively responsible to the Lok Sabha'; option (c) 'Parliament' is the looser answer, (d) names the House the Constitution names."
+    },
+    {
       "row": 91,
       "q": "The Council of Ministers is responsible",
       "printed": "*",
@@ -124,6 +520,61 @@
       "source": "https://prepp.in/news/e-492-collective-responsibility-indian-parliament-indian-polity-notes",
       "evidence": "Article 75(3): the Council of Ministers is collectively responsible to the Lok Sabha (a House of Parliament); option (d) is the only defensible choice.",
       "xlsx_row": 92
+    },
+    {
+      "row": 92,
+      "xlsx_row": 93,
+      "q": "In the Indian political system, the executive works under subordination",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "legislature",
+      "status": "confirmed",
+      "source": "https://inclusiveias.com/upsc-polity-parliamentary-system/",
+      "evidence": "Parliamentary system: 'the executive is directly accountable to the legislature'; the cabinet is drawn from and sits in the legislature."
+    },
+    {
+      "row": 93,
+      "xlsx_row": 94,
+      "q": "By which of the following Constitutional Amendment Acts, the number of Council of Ministers",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "91st Constitutional Amendment Act, 2003",
+      "status": "confirmed",
+      "source": "https://prepp.in/question/the-91-st-constitutional-amendment-restricted-the-642a80ea4e1177378ff40a5b",
+      "evidence": "'The 91st Constitutional Amendment Act, 2003 ... restricted the size of the council of ministers ... to 15 percent'."
+    },
+    {
+      "row": 94,
+      "xlsx_row": 95,
+      "q": "Who has recently been given the charge of the Ministry of Minority Affairs",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Smriti Irani",
+      "status": "confirmed",
+      "source": "https://www.thequint.com/news/india/smriti-irani-appointed-union-minister-for-minority-affairs",
+      "evidence": "Rashtrapati Bhavan, 6 July 2022: Smriti Zubin Irani 'be assigned the charge of the Ministry of Minority Affairs' after Naqvi's resignation."
+    },
+    {
+      "row": 95,
+      "xlsx_row": 96,
+      "q": "Which Article of the Constitution restrict a Member of Parliament to hold the office of profit",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Article 102 (1) (a)",
+      "status": "confirmed",
+      "source": "https://www.legalserviceindia.com/article/l465-Office-Of-Profit.html",
+      "evidence": "'Article 102(1)(a) ... makes the holding of an office of profit by a member of Parliament a ground for disqualification'."
+    },
+    {
+      "row": 96,
+      "xlsx_row": 97,
+      "q": "How many members are elected from Bihar to the Lok Sabha",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "40",
+      "status": "confirmed",
+      "source": "https://www.wionews.com/india-news/bihar-lok-sabha-elections-2024-schedule-phase-seats-and-all-you-need-to-know-703540/amp/",
+      "evidence": "'There are 40 Lok Sabha constituencies in the Indian state of Bihar'."
     },
     {
       "row": 102,

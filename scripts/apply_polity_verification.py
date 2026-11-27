@@ -138,7 +138,7 @@ def main() -> int:
                 problems.append(f"Q{qno}: ledger says confirmed but printed key is {printed}, not {vkey}")
             ws.cell(row, 9, vkey)
             ws.cell(row, 10, LABELS[status]).fill = PatternFill("solid", fgColor=FILLS[status])
-            ws.cell(row, 11, f"{entry['source']} — {entry['evidence']}")
+            ws.cell(row, 11, f"{entry['source']} — {entry['evidence']}" if entry["source"] else entry["evidence"])
             # the answer half of the boilerplate review note is settled now
             notes = ws.cell(row, 8).value or ""
             notes = notes.replace("chapter and answer require review", "chapter still requires review")
