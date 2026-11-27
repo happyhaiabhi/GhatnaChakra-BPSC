@@ -192,6 +192,17 @@
       "evidence": "'Part XX includes only Article 368. This Article grants Parliament the constituent power to amend any provision of the Constitution'."
     },
     {
+      "row": 14,
+      "xlsx_row": 15,
+      "q": "What kind of majority is required for constitutional amendment to create a new state?",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "ordinary",
+      "status": "confirmed",
+      "source": "https://www.understandupsc.com/article-3-formation-of-states/",
+      "evidence": "Art. 3 read with Art. 4(2): a bill for a new State 'is passed by a simple majority in Parliament' and is 'not a constitutional amendment'."
+    },
+    {
       "row": 15,
       "xlsx_row": 16,
       "q": "By which constitutional amendment Delhi was named National Capital Territory",
@@ -223,6 +234,28 @@
       "status": "confirmed",
       "source": "https://www.clearias.com/first-amendment-act-1951/",
       "evidence": "'The Constitution (First Amendment) Act, 1951 ... Nehru ... moved on May 10 of that year, and Parliament passed it on June 18'."
+    },
+    {
+      "row": 18,
+      "xlsx_row": 19,
+      "q": "Which of the following Constitutional Amendment Act was called Mini Constitution?",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "42th",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/42nd-constitutional-amendment-act/",
+      "evidence": "'The 42nd Constitutional Amendment Act of 1976 ... Often called the \"Mini-Constitution\"'."
+    },
+    {
+      "row": 19,
+      "xlsx_row": 20,
+      "q": "Regarding the 42nd Amendment of the Indian Constitution, consider the following statements: 1. It added three words 'socialism' in the preamble - 'Secular' and 'integrity'. 2. It added eight fundamental duties",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "2 and 3",
+      "status": "resolved",
+      "source": "https://anantamias.com/42nd-amendment-of-indian-constitution/",
+      "evidence": "Statement 1 is right (Socialist, Secular, Integrity) but 2 is wrong (ten, not eight, Fundamental Duties) and 3 is wrong (Art. 48A, not Art. 47) — the printed key (d) '2 and 3' is the only option that fits."
     },
     {
       "row": 20,
@@ -698,6 +731,17 @@
       "evidence": "ECI press note: 'Electoral College comprises of a total of 788 members of both Houses of Parliament'."
     },
     {
+      "row": 63,
+      "xlsx_row": 64,
+      "q": "Arrange the following words in logical and meaningful order : 1. Vice President, 2. President, 3. Speaker, 4. Prime Minister, 5. Members of the Parliament",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "2, 1, 4, 3, 5",
+      "status": "confirmed",
+      "source": "https://en.bharatpedia.org/wiki/Order_of_precedence_in_India",
+      "evidence": "Order of precedence: Rank 1 President, 2 Vice-President, 3 Prime Minister, 6 Speaker of the Lok Sabha, 21 Members of Parliament → 2,1,4,3,5."
+    },
+    {
       "row": 64,
       "xlsx_row": 65,
       "q": "The Chairman of which assembly is not its member",
@@ -938,6 +982,28 @@
       "status": "confirmed",
       "source": "https://www.upi.com/Archives/1947/02/20/British-give-date-for-Indian-independence/3317410585124/",
       "evidence": "UPI, 20 Feb 1947: Attlee told the Commons the transfer of power would be effected 'by a date not later than June, 1948'."
+    },
+    {
+      "row": 87,
+      "xlsx_row": 88,
+      "q": "The Prime Minister of India is",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Central Government",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/prime-minister/",
+      "evidence": "The PM is appointed by the President as 'the leader of the majority party in the Lok Sabha' and heads the Union (Central) Government — Art. 75."
+    },
+    {
+      "row": 88,
+      "xlsx_row": 89,
+      "q": "Usually the Prime Minister of India is",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Member of Lok Sabha",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/prime-minister/",
+      "evidence": "By convention the President appoints 'the leader of the majority party in the Lok Sabha as Prime Minister'; a minister must be a member of either House."
     },
     {
       "row": 89,
@@ -1391,6 +1457,17 @@
       "evidence": "Table of prematurely dissolved Houses: 12th Lok Sabha, start of term March 1998 — i.e. the general election was held in February 1998."
     },
     {
+      "row": 130,
+      "xlsx_row": 131,
+      "q": "Who is the leader of Lok Sabha?",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Prime Minister",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Leader_of_the_House_in_Lok_Sabha",
+      "evidence": "'the current prime minister Narendra Modi has been serving as the leader of the house since 2014' — the PM is the Leader of the House in the Lok Sabha."
+    },
+    {
       "row": 131,
       "xlsx_row": 132,
       "q": "The Speaker of the Lok Sabha is elected by",
@@ -1444,6 +1521,17 @@
       "status": "confirmed",
       "source": "https://sansad.in/rs/about/introduction",
       "evidence": "Rajya Sabha's own site: 'Article 80 ... lays down the maximum strength of Rajya Sabha as 250, out of which 12 members are nominated by the President and 238 are representatives of the States'."
+    },
+    {
+      "row": 138,
+      "xlsx_row": 139,
+      "q": "Representation in the Rajya Sabha includes",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.upscplanner.com/articles/president-of-india",
+      "evidence": "The Rajya Sabha combines members 'nominated by the President' (Art. 80(1)(a)) with members 'elected by the elected members of State Assemblies' (Art. 80(1)(b)) — so more than one option is right."
     },
     {
       "row": 139,
@@ -1576,6 +1664,17 @@
       "status": "confirmed",
       "source": "https://vajiramandravi.com/upsc-exam/ordinance-making-power-of-president/",
       "evidence": "Article 123(1): the President may promulgate ordinances 'when both Houses of Parliament are not in session', i.e. during recess/prorogation."
+    },
+    {
+      "row": 151,
+      "xlsx_row": 152,
+      "q": "According to Article 110 of the Indian Constitution, what is included in the definition of Money Bill?",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.gktoday.in/article-108/",
+      "evidence": "Article 110 covers imposition/abolition of taxes, borrowing, the Consolidated Fund and 'the receipt of money on account of the Consolidated Fund or the Contingency Fund' — i.e. more than one option."
     },
     {
       "row": 152,
@@ -1875,6 +1974,17 @@
       "evidence": "The 42nd Amendment (1976) added 'Socialist, Secular and Integrity' — the two words among the options are socialist and secular."
     },
     {
+      "row": 181,
+      "xlsx_row": 182,
+      "q": "Which of the following sequences is correct in relation to the Preamble of the Indian Constitution?",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Sovereign, inclusive, secular, democratic republic",
+      "status": "defect",
+      "source": "https://www.legacyias.com/preamble-of-the-indian-constitution/",
+      "evidence": "The Preamble reads 'Sovereign Socialist Secular Democratic Republic'; no option reproduces that order and 'inclusive' does not occur in it at all."
+    },
+    {
       "row": 182,
       "xlsx_row": 183,
       "q": "How has India been declared in the Preamble of the Indian Constitution",
@@ -2040,6 +2150,17 @@
       "evidence": "The 69th Amendment kept Delhi's 'constitutional classification as a Union Territory administered under Article 239' while renaming it NCT."
     },
     {
+      "row": 199,
+      "xlsx_row": 200,
+      "q": "Indian citizenship cannot be obtained by",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "By depositing money in an Indian bank",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/citizenship-act-1955/",
+      "evidence": "'It outlines five ways to become an Indian citizen: birth, descent, registration, naturalization, and incorporation of territory' — no money-deposit route."
+    },
+    {
       "row": 200,
       "xlsx_row": 201,
       "q": "When was the Citizenship (Amendment) Act passed",
@@ -2049,6 +2170,17 @@
       "status": "confirmed",
       "source": "https://en.dharmapedia.net/wiki/Citizenship_Amendment_Act_2019",
       "evidence": "'passed by the Lok Sabha 10 December 2019 ... passed by the Rajya Sabha 11 December 2019' — the Parliament passed it on 11 December 2019."
+    },
+    {
+      "row": 201,
+      "xlsx_row": 202,
+      "q": "What is the objective of the Citizenship (Amendment) Act, 2019?",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Providing citizenship to oppressed minority groups in Afghanistan, Bangladesh and Pakistan",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/The_Citizenship_(Amendment)_Bill,_2019",
+      "evidence": "CAA 2019 gives 'an accelerated pathway to Indian citizenship for persecuted refugees of religious minorities from ... Afghanistan, Bangladesh and Pakistan'."
     },
     {
       "row": 202,
@@ -2128,6 +2260,17 @@
       "xlsx_row": 209
     },
     {
+      "row": 209,
+      "xlsx_row": 210,
+      "q": "The book, The Origin of Species was written by",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Darwin",
+      "status": "confirmed",
+      "source": "https://www.ebsco.com/research-starters/history/origin-species-published/",
+      "evidence": "'On November 24, 1859, Charles Darwin's groundbreaking work, On the Origin of Species, was published'."
+    },
+    {
       "row": 210,
       "xlsx_row": 211,
       "q": "Which one of the following scripts of ancient India was written from right to left",
@@ -2194,6 +2337,17 @@
       "evidence": "'The correct answer is Kamandaka' — the Nitisara (Kamandakiya Nitisara) is by Kamandaka, a disciple of Kautilya, not by Kautilya himself."
     },
     {
+      "row": 217,
+      "xlsx_row": 218,
+      "q": "Futuhat-i-Alamgiri was written by",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Ishwardas Nagar",
+      "status": "confirmed",
+      "source": "https://www.nli.org.il/en/books/NNL_ALEPH990029993660205171/NLI",
+      "evidence": "Library record: 'Ishwardas Nagar's Futuhat-i-Alamgiri' — a chronicle of Aurangzeb's reign (1658-1707)."
+    },
+    {
       "row": 222,
       "q": "Writing in Alphabetical order, which name of the following",
       "printed": "B",
@@ -2238,6 +2392,17 @@
       "evidence": "Article 32, in Part III, 'guarantees the right to move the Supreme Court by appropriate proceedings' — it is a fundamental right, so (a); the printed key (e) is wrong."
     },
     {
+      "row": 228,
+      "xlsx_row": 229,
+      "q": "Which of the following rights provided by the Indian Constitution is also available to non-citizens?",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Right to constitutional resolution",
+      "status": "confirmed",
+      "source": "https://www.constitutionofindia.net/articles/article-32-right-to-constitutional-remedies/",
+      "evidence": "Art. 32 guarantees the right to move the Supreme Court to any person whose fundamental right is violated — unlike Art. 19 freedoms (a and b), which are for citizens only."
+    },
+    {
       "row": 229,
       "xlsx_row": 230,
       "q": "Select the fundamental rights which Indian citizens are eligible, but not to non-citizens I. Freedom of speech and expression II. equality before law III. rights of minorities IV. protection of life and liberty",
@@ -2269,6 +2434,17 @@
       "status": "confirmed",
       "source": "https://blog.ipleaders.in/right-to-property-as-a-fundamental-right/",
       "evidence": "The 44th Amendment Act of 1978 — passed by the Janata government headed by Morarji Desai — deleted Arts 19(1)(f) and 31 and inserted Art. 300A."
+    },
+    {
+      "row": 232,
+      "xlsx_row": 233,
+      "q": "According to the ruling of the Supreme Court, it is a fundamental right to hoist the national flag on private buildings",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Article 19 of the Constitution (1)(a)",
+      "status": "confirmed",
+      "source": "https://lawbhoomi.com/union-of-india-v-naveen-jindal-2004/",
+      "evidence": "Union of India v Naveen Jindal (2004): flying the flag is symbolic speech under 'Article 19(1)(a)' (duplicate of Q206)."
     },
     {
       "row": 233,
@@ -2315,6 +2491,17 @@
       "evidence": "Article 21A, the right to free and compulsory education, was inserted into Part III by the 86th Amendment (2002) — an addition to the original list."
     },
     {
+      "row": 237,
+      "xlsx_row": 238,
+      "q": "Which of the following articles of the Constitution of India is related to the freedom of the press",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 19",
+      "status": "confirmed",
+      "source": "https://lawbhoomi.com/union-of-india-v-naveen-jindal-2004/",
+      "evidence": "Press freedom is read into the freedom of expression guaranteed by Art. 19(1)(a); Arts 20-22 deal with protection in respect of conviction, life and liberty, and preventive detention."
+    },
+    {
       "row": 239,
       "xlsx_row": 240,
       "q": "Who among the following has been given the power to enforce fundamental rights by the Constitution",
@@ -2346,6 +2533,17 @@
       "status": "confirmed",
       "source": "https://upscsociology.in/q-which-of-the-following-directive-principles-do-not-follow-gandhian-principles/",
       "evidence": "'2) Common Civil Code (Article 44) — Not Gandhian ... 4) Right to work — not Gandhian. Hence 2 and 4 do not follow Gandhian principles' (Arts 40 and 43 are Gandhian)."
+    },
+    {
+      "row": 242,
+      "xlsx_row": 243,
+      "q": "Which of the following is/are listed among the Directive Principles in Part-IV of the Constitution of India?",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "I and II",
+      "status": "defect",
+      "source": "https://theindianconstitution.com/directive-principles-state-policy-part-4/",
+      "evidence": "The row carries no numbered items I-IV (unlike its duplicates Q240/Q247), so the option letters cannot be mapped to any statement."
     },
     {
       "row": 243,
@@ -2634,6 +2832,17 @@
       "evidence": "'Under Article 352, the President can declare a national emergency when the security of India ... is threatened by war or external aggression or armed rebellion'."
     },
     {
+      "row": 270,
+      "xlsx_row": 271,
+      "q": "Which of the following is/are the consequences of invoking Article 360 in case of a financial emergency? 1. The President may order the States to reduce salaries",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "1, 3 and 4 only",
+      "status": "confirmed",
+      "source": "https://inclusiveias.com/upsc-polity-financial-emergency-article-360/",
+      "evidence": "Art. 360 effects: reduction of State salaries, reservation of State Money Bills for the President, and reduction of Union salaries including SC/HC judges (duplicate of Q267)."
+    },
+    {
       "row": 271,
       "xlsx_row": 272,
       "q": "Firstly, the declaration of emergency can be limited to how long after approval by Parliament",
@@ -2843,6 +3052,17 @@
       "xlsx_row": 298
     },
     {
+      "row": 298,
+      "xlsx_row": 299,
+      "q": "The Babri Masjid Ram Janmabhoomi dispute which is before the Allahabad High Court (Lucknow Bench) is a type of",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "title suit",
+      "status": "confirmed",
+      "source": "https://www.thehindu.com/news/national/ramjanmabhoomi-babri-masjid-title-dispute-the-story-so-far/article61663855.ece",
+      "evidence": "'On September 30, 2010, the Allahabad High Court delivered its judgment in the title case' — the Ayodhya litigation is a civil title suit, not a mandamus or compensation claim."
+    },
+    {
       "row": 299,
       "xlsx_row": 300,
       "q": "The Cabinet Mission came to India in",
@@ -2876,6 +3096,17 @@
       "evidence": "'the mission consisted of three Cabinet ministers: Lord Pethick-Lawrence, Sir Stafford Cripps, and A. V. Alexander' — Ramsay MacDonald was not on it."
     },
     {
+      "row": 302,
+      "xlsx_row": 303,
+      "q": "The Cabinet Mission was sent to India for which of the following? 1. To establish a national government 2. To work out a constitutional arrangement for the transfer of power 3. To work out the details of Jinnah's demand for Pakistan",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "More than one of the above",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/cabinet-mission/",
+      "evidence": "The Mission aimed at 'transferring power to India, proposing an interim government, and establishing a constituent assembly' and it 'rejected the Muslim League's demand for a separate Pakistan' — 1 and 2 true, 3 false."
+    },
+    {
       "row": 303,
       "xlsx_row": 304,
       "q": "Who among the following was not the member of the Cabinet Mission",
@@ -2896,6 +3127,17 @@
       "status": "confirmed",
       "source": "https://rulesera.com/constitution/part-ix/article243g.php",
       "evidence": "Article 243G read with the Eleventh Schedule: 'The Eleventh Schedule lists 29 areas in which Panchayats can exercise their responsibilities'."
+    },
+    {
+      "row": 305,
+      "xlsx_row": 306,
+      "q": "What is the main purpose of Panchayati Raj?",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "To enable people to participate in development administration",
+      "status": "confirmed",
+      "source": "https://parchamclasses.in/blog/panchayati-raj-system-73rd-amendment-evolution-balwant-rai-mehta-committee-structure-11th-schedule-and-key-articles",
+      "evidence": "Panchayati Raj is 'democratic decentralisation' meant to 'empower local communities' by transferring the 29 Eleventh-Schedule subjects to elected bodies."
     },
     {
       "row": 306,
@@ -3272,6 +3514,17 @@
       "evidence": "Panchayati Raj embodies decentralisation, people's participation and community development — all three listed elements."
     },
     {
+      "row": 346,
+      "xlsx_row": 347,
+      "q": "Panchayati Raj was organized as unit of self-governance under",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "73rd amendment of the Indian Constitution",
+      "status": "confirmed",
+      "source": "https://parchamclasses.in/blog/panchayati-raj-system-73rd-amendment-evolution-balwant-rai-mehta-committee-structure-11th-schedule-and-key-articles",
+      "evidence": "'The Eleventh Schedule was added by the 73rd Amendment Act of 1992' giving Panchayats constitutional status as units of self-government (Part IX)."
+    },
+    {
       "row": 348,
       "xlsx_row": 349,
       "q": "Panchayati Raj system in India was first started in Rajasthan and",
@@ -3325,6 +3578,39 @@
       "status": "confirmed",
       "source": "https://bharatdocs.com/73rd-amendment-panchayati-raj/",
       "evidence": "Article 243D reserves at least one-third of Panchayat seats for women (many States now 50%); no such reservation exists for Lok Sabha or Assemblies."
+    },
+    {
+      "row": 355,
+      "xlsx_row": 356,
+      "q": "Which state/s have legalized 50% reservation for women in Panchayati Raj institutions? I. Bihar II. Uttarakhand III. Madhya Pradesh IV. Himachal Pradesh",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "I, II, III and IV",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/in-which-year-was-50-reservation-to-women-in-panc--627e6732086ee53bb3875e6b",
+      "evidence": "'20 States namely Andhra Pradesh, Assam, Bihar ... Himachal Pradesh ... Madhya Pradesh ... Uttarakhand ... have made provisions of 50% reservation for women in Panchayati Raj Institutions' — all four listed."
+    },
+    {
+      "row": 356,
+      "xlsx_row": 357,
+      "q": "Which state governments have made reservation for women in local bodies 50 percent by 2010",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Bihar, Madhya Pradesh, Himachal Pradesh (etc.)",
+      "status": "confirmed",
+      "source": "https://www.drishtiias.com/to-the-points/Paper2/women-reservation-act-2023-women-in-politics",
+      "evidence": "'Bihar was the first one to increase the reservation percentage to 50% (in Panchayats and ULBs) in 2006', with Madhya Pradesh and Himachal Pradesh following well before 2010."
+    },
+    {
+      "row": 357,
+      "xlsx_row": 358,
+      "q": "The statutory beginning of the 73rd Constitutional Amendment Act was given by which Constitutional Amendment Bill?",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "64th Constitution Amendment Bill",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/article-40-village-panchayats/",
+      "evidence": "'64th Amendment Bill, 1989 — Introduced by the Rajiv Gandhi government ... Passed the Lok Sabha but was defeated in the Rajya Sabha' — the precursor of the 73rd Amendment."
     },
     {
       "row": 358,
@@ -3393,6 +3679,17 @@
       "evidence": "Local bodies handle public health, sanitation and public utilities; 'maintenance of public discipline' (policing and public order) is a State function under the State List, not a Panchayat subject."
     },
     {
+      "row": 364,
+      "xlsx_row": 365,
+      "q": "Which of the following was established as the first program of community development?",
+      "printed": "A",
+      "verified_key": "B",
+      "verified_text": "National Extension Service",
+      "status": "corrected",
+      "source": "http://ecoursesonline.iasri.res.in/pluginfile.php/4914/mod_resource/content/1/Lesson_5.htm",
+      "evidence": "'The National Extension Service was inaugurated on 2nd October 1953' as the first nation-wide community-development programme; the 'Cooperation Movement' is not a CD programme — option (b), not (a)."
+    },
+    {
       "row": 366,
       "xlsx_row": 367,
       "q": "Which article of the Constitution of India recognizes Hindi in Devanagari script as the official language",
@@ -3424,6 +3721,17 @@
       "source": "https://testbook.com/question-answer/who-decides-the-disqualification-of-members-of-sta--6579b930985f216cc5ddff41",
       "evidence": "Article 192: the Governor decides disqualification questions other than those under the Tenth Schedule.",
       "xlsx_row": 371
+    },
+    {
+      "row": 371,
+      "xlsx_row": 372,
+      "q": "What is the minimum percentage of votes that a party should get in the previous elections to become a national party in India?",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.understandupsc.com/recognised-party/",
+      "evidence": "'It secures at least 6% of valid votes in four or more states ... and wins at least 4 Lok Sabha seats' — 6% is not among the options (10%, 4%)."
     },
     {
       "row": 372,
@@ -3492,6 +3800,17 @@
       "evidence": "'Jharkhand, the 28th state of India was formed on November 15, 2000'."
     },
     {
+      "row": 381,
+      "xlsx_row": 382,
+      "q": "Which one of the following Indian States has the largest number of members in its State Legislature?",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Himachal Pradesh",
+      "status": "confirmed",
+      "source": "https://en.m.wikipedia.org/wiki/Government_of_Himachal_Pradesh",
+      "evidence": "'The current assembly consists of 68 elected members' — more than Arunachal (60), Manipur (60) and Meghalaya (60)."
+    },
+    {
       "row": 382,
       "xlsx_row": 383,
       "q": "Who amongst the following is a land record officer",
@@ -3547,6 +3866,17 @@
       "evidence": "'He also remained the Chairman of the first Law Commission of India (1955-1958)'; he was simultaneously the first Attorney-General."
     },
     {
+      "row": 389,
+      "xlsx_row": 390,
+      "q": "Which one of the following was established as the first programme of community development?",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "National Extension Service",
+      "status": "confirmed",
+      "source": "http://ecoursesonline.iasri.res.in/pluginfile.php/4914/mod_resource/content/1/Lesson_5.htm",
+      "evidence": "'The National Extension Service was inaugurated on 2nd October 1953' to staff the community-development blocks."
+    },
+    {
       "row": 390,
       "xlsx_row": 391,
       "q": "What was the duration in the making of the Indian Constitution",
@@ -3567,6 +3897,17 @@
       "status": "confirmed",
       "source": "https://prepp.in/news/e-492-sikkim-indian-polity-notes",
       "evidence": "36th Amendment, 16 May 1975 — Sikkim became the 22nd State (duplicate of Q191/Q192)."
+    },
+    {
+      "row": 393,
+      "xlsx_row": 394,
+      "q": "What is the eligibility age, after the changes made in March 2024, for senior citizens to vote by postal ballot?",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "85 years",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/what-is-the-eligibility-age-after-the-changes-mad--675c0eae236dcb407e43832b",
+      "evidence": "'In March 2024 ... amended the Conduct of Election Rules, 1961, to raise the minimum age ... from 80 years to 85 years'."
     },
     {
       "row": 394,
@@ -3622,6 +3963,17 @@
       "status": "confirmed",
       "source": "https://stoptrafficking.in/article/justice-verma-committee-report-summary/",
       "evidence": "The committee (constituted 23 Dec 2012) was to 'recommend amendments to the Criminal Law so as to provide for quicker trial and enhanced punishment for criminals accused of committing sexual assault against women'; report 23 Jan 2013."
+    },
+    {
+      "row": 400,
+      "xlsx_row": 401,
+      "q": "Fill in the blanks. The Nehru Report was drafted by a committee headed by ..... and the subject was .....",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Motilal Nehru: Constitutional arrangements in India",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/nehru-report/",
+      "evidence": "'The Nehru Report was drafted ... by a subcommittee formed under Motilal Nehru ... the first significant attempt by Indians to establish a constitutional framework for the country'."
     },
     {
       "row": 401,
@@ -3899,6 +4251,17 @@
       "xlsx_row": 443
     },
     {
+      "row": 443,
+      "xlsx_row": 444,
+      "q": "Consider the following statements about Central Government: 1. Ministries and Departments are formed by the Prime Minister with consultation of the Cabinet Secretary. 2. Every Minister is allocated a Ministry by the President on the advice of the Prime Minister",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Only 2 is correct",
+      "status": "confirmed",
+      "source": "https://www.ekamiasacademy.com/upsc-indian-polity-functioning-of-ministries/",
+      "evidence": "'Statement 1 is incorrect ... created ... under the Allocation of Business Rules ... Statement 2 is correct' (duplicate of Q83)."
+    },
+    {
       "row": 444,
       "q": "What is true about the proceedings of the State Legislature",
       "printed": "C",
@@ -4062,6 +4425,17 @@
       "status": "confirmed",
       "source": "https://www.gktoday.in/article-316/",
       "evidence": "Article 316(1): 'in the case of a State Commission, by the Governor of the State'."
+    },
+    {
+      "row": 467,
+      "xlsx_row": 468,
+      "q": "Who was the first to receive 'Bharat Ratna'",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "C. Rajagopalachari (with Radhakrishnan and C.V. Raman, 1954)",
+      "status": "confirmed",
+      "source": "https://vajiramias.com/upsc/bharat-ratna-award-winners/",
+      "evidence": "'The First Bharat Ratna recipients were C. Rajagopalachari, Dr. Sarvepalli Radhakrishnan and C. V. Raman, who received the honour in 1954' — Rajagopalachari is the senior-most listed recipient."
     },
     {
       "row": 471,
