@@ -10,12 +10,12 @@ and the constitutional text. Every claim below resolves to a URL and a quoted se
 | | Rows |
 |---|---|
 | Total questions | 515 |
-| **Web-checked in this pass** | **393 (76.3 %)** |
+| **Web-checked in this pass** | **427 (82.9 %)** |
 | — printed key was wrong, now corrected | 37 |
-| — printed key confirmed | 332 |
+| — printed key confirmed | 362 |
 | — ambiguous printed key (`*`, `A/C`) resolved | 5 |
 | — no answer possible (corrupt options / deleted by BPSC) | 4 |
-| Not yet web-checked | 122 |
+| Not yet web-checked | 88 |
 
 The single most important finding is not the 37 corrections. It is that **the supplied JSON
 answer letters are not aligned with the options printed in this sheet**, so about half of the 134
