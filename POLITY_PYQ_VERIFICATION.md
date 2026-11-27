@@ -10,14 +10,14 @@ and the constitutional text. Every claim below resolves to a URL and a quoted se
 | | Rows |
 |---|---|
 | Total questions | 515 |
-| **Web-checked in this pass** | **90 (17.5 %)** |
-| — printed key was wrong, now corrected | 32 |
-| — printed key confirmed | 48 |
+| **Web-checked in this pass** | **137 (26.6 %)** |
+| — printed key was wrong, now corrected | 34 |
+| — printed key confirmed | 93 |
 | — ambiguous printed key (`*`, `A/C`) resolved | 5 |
 | — no answer possible (corrupt options / deleted by BPSC) | 4 |
-| Not yet web-checked | 425 |
+| Not yet web-checked | 378 |
 
-The single most important finding is not the 32 corrections. It is that **the supplied JSON
+The single most important finding is not the 34 corrections. It is that **the supplied JSON
 answer letters are not aligned with the options printed in this sheet**, so about half of the 134
 rows that inherit a JSON letter are carrying a wrong answer (28 wrong of the 38 judged, and 3 of 8
 in an unbiased random sample). Those rows are now labelled *not web-checked: source letter
@@ -53,6 +53,7 @@ now keyed.
 | 36 | `A` | **B** | Any number of times | licchavilyceum.com |
 | 37 | `A` | **C** | Yashwant Sinha | testbook.com |
 | 34 | `E` | **A** | either directly or through officers subordinate to him | clearias.com |
+| 101 | `C` | **D** | Canada | bbc.com |
 | 35 | `B` | **C** | Zimbabwe | aljazeera.com |
 | 38 | `A` | **C** | Guwahati (IIT Guwahati) | pib.gov.in |
 | 47 | `E` | **D** | By Parliament and State Assemblies | testbook.com |
@@ -60,6 +61,7 @@ now keyed.
 | 102 | `E` | **C** | 25 years | examstocks.com |
 | 107 | `E` | **D** | More than one of the above | cracktarget.com |
 | 166 | `*` | **B** | 444 sections (articles, as of the 2005 exam date; 448 today) | vajiramandravi.com |
+| 111 | `A` | **D** | Andaman and Nicobar | economictimes.indiatimes.com |
 | 208 | `E` | **A** | the President | examstocks.com |
 | 211 | `B` | **A** | Britain | testbook.com |
 | 233 | `*` | **C** | Right to education | examrobot.com |
@@ -92,8 +94,8 @@ Confirmed as already correct: **Q205** (Peer Muhammad Moonis), **Q212** (Nizamud
 Article 192), **Q395** (Article 210 language of business), **Q412** (PURA — Abdul Kalam),
 **Q442** (Article 98), **Q445** (prorogation), **Q495** (Article 32/226).
 
-In the second sweep the KGS/CSV/merged block of Q7–Q96 was checked row by row; the printed key held
-in **48** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
+In the second sweep the KGS/CSV/merged block of Q7–Q186 was checked row by row; the printed key held
+in **93** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
 Amendment Bill), **Q22** (Sarkaria report submitted 1987), **Q62/Q69** (2022 Vice-Presidential
 electoral college = 788, per the ECI press note), **Q71/Q73** (Constitution Day, 26 November),
 **Q74–Q79** (Constituent Assembly, 9 December 1946; 2 years 11 months 18 days; adopted by the
