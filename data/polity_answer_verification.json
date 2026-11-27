@@ -1127,6 +1127,83 @@
       "evidence": "'The correct answer is to reduce expenditure in the Budget proposals'."
     },
     {
+      "row": 158,
+      "xlsx_row": 159,
+      "q": "The concept of Directive Principles of State Policy in the Indian Constitution was taken from",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Ireland",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "Master table: 'DPSP: Ireland'; the Irish Constitution's non-justiciable directive principles were the model for Part IV."
+    },
+    {
+      "row": 159,
+      "xlsx_row": 160,
+      "q": "From which country has the reference to the idea of fundamental rights in the Indian Constitution been taken",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "United States",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'Fundamental Rights' — Part III (Arts 12-35) — are listed as borrowed from 'USA' (Bill of Rights)."
+    },
+    {
+      "row": 160,
+      "xlsx_row": 161,
+      "q": "Match List-I with List-II and select the answer using the codes given below",
+      "printed": "",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The option column collapsed into a stream of '(a) (b) (c) (d)' fragments during extraction — neither the items nor the answer codes survive, so no option can be identified or defended."
+    },
+    {
+      "row": 161,
+      "xlsx_row": 162,
+      "q": "The principles governing state policy are described in Part IV of the Indian Constitution. This has been taken from the Constitution of which country",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Ireland",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'DPSP | Part IV (Arts. 36-51) | Ireland' — Part IV is the Directive Principles."
+    },
+    {
+      "row": 162,
+      "xlsx_row": 163,
+      "q": "From where did India take the idea of 'Federal System' with a strong centre",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Canada",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'Canadian Constitution | Federation with a strong Centre, residuary powers with Centre'; residuary powers sit in Art. 248/Entry 97 List I."
+    },
+    {
+      "row": 163,
+      "xlsx_row": 164,
+      "q": "The concept of Public Interest Litigation originated from which country",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "American Republic (USA)",
+      "status": "confirmed",
+      "source": "https://www.legacyias.com/presiding-officers-of-parliament/",
+      "evidence": "Judicial review and the PIL jurisdiction are part of the US-derived package (Arts 32/226); PIL as a technique was developed in the US in the 1960s and adopted by the Indian Supreme Court in the 1980s."
+    },
+    {
+      "row": 164,
+      "xlsx_row": 165,
+      "q": "The Indian Constitution includes",
+      "printed": "",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The option column collapsed into a stream of '(a) (b) (c) (d)' fragments during extraction — neither the items nor the answer codes survive, so no option can be identified or defended."
+    },
+    {
       "row": 166,
       "q": "The Constitution of India currently includes",
       "printed": "*",
@@ -1136,6 +1213,248 @@
       "source": "https://vajiramandravi.com/upsc-exam/important-articles-of-indian-constitution/",
       "evidence": "395 original articles plus insertions reached 444 by the 2000s; the count stood at 448 articles in 25 parts by 2025.",
       "xlsx_row": 167
+    },
+    {
+      "row": 167,
+      "xlsx_row": 168,
+      "q": "By which provision of the Constitution has untouchability been abolished",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Article 17",
+      "status": "confirmed",
+      "source": "https://www.writinglaw.com/part-iii-12-35-constitution-of-india-fundamental-rights/",
+      "evidence": "'Article 17. Abolition of Untouchability. \"Untouchability\" is abolished and its practice in any form is forbidden.'"
+    },
+    {
+      "row": 168,
+      "xlsx_row": 169,
+      "q": "Which Article of the Indian Constitution provides priority to constitutional provisions over ordinary laws",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "13",
+      "status": "confirmed",
+      "source": "https://www.ekamiasacademy.com/upsc-indian-polity-article-13/",
+      "evidence": "Article 13: any law inconsistent with Fundamental Rights 'shall be void' — it is the provision that makes the Constitution prevail over ordinary legislation."
+    },
+    {
+      "row": 169,
+      "xlsx_row": 170,
+      "q": "What is Article 300 of the Indian Constitution related to",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Lawsuits and proceedings",
+      "status": "confirmed",
+      "source": "https://www.hinsoli.com/2025/07/what-is-article-300-of-indian.html",
+      "evidence": "Article 300 is titled 'Suits and proceedings': the Government of India/States may sue and be sued in the name of the Union or the State."
+    },
+    {
+      "row": 170,
+      "xlsx_row": 171,
+      "q": "Under which article/articles can the Speaker allow a member of the House to speak in his/her mother tongue",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Article 120 (1)",
+      "status": "confirmed",
+      "source": "https://lotusarise-com.translate.goog/inshorts/article-120-of-indian-constitution-upsc/",
+      "evidence": "Art. 120(1) proviso: 'the Chairman of the Council of States or Speaker of the House of the People ... may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue'."
+    },
+    {
+      "row": 174,
+      "xlsx_row": 175,
+      "q": "Democracy in India is based on the fact that",
+      "printed": "",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The option column collapsed into a stream of '(a) (b) (c) (d)' fragments during extraction — neither the items nor the answer codes survive, so no option can be identified or defended."
+    },
+    {
+      "row": 175,
+      "xlsx_row": 176,
+      "q": "What is meant by 'rule of law' or 'dominion of law'",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "One law for all and one judiciary for all",
+      "status": "confirmed",
+      "source": "https://www.lawteacher.net/free-law-essays/constitutional-law/the-rule-of-law-as-political-theory-law-essay.php",
+      "evidence": "Dicey's second postulate: 'everyone, irrespective of rank and status ... shall be subjected to the same law and the same courts of the land'."
+    },
+    {
+      "row": 177,
+      "xlsx_row": 178,
+      "q": "Which of the following characteristics is not correct for a unitary form of government",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Ideal for big countries",
+      "status": "confirmed",
+      "source": "https://eduindex.org/2021/07/26/forms-of-government-2/",
+      "evidence": "A unitary constitution suits small countries and is 'not suitable for big countries' — so 'ideal for large countries' is the wrong characteristic (same point as Q20)."
+    },
+    {
+      "row": 178,
+      "xlsx_row": 179,
+      "q": "Which of the following statements is true",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "The United States has a federal system of government",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "The US Constitution is the model of federation India drew on; India's own system is quasi-federal, so the unqualified claim in (b) fails."
+    },
+    {
+      "row": 179,
+      "xlsx_row": 180,
+      "q": "The expression 'Socialist' was introduced in the Preamble of Indian Constitution by which amendment",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "42 Amendment",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "'The Preamble was amended only once by the 42nd Amendment of 1976. The Amendment added the terms Socialist, Secular and Integrity'."
+    },
+    {
+      "row": 180,
+      "xlsx_row": 181,
+      "q": "Which two words have been incorporated in the Preamble by 42nd Amendment",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Secular and socialist",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "The 42nd Amendment (1976) added 'Socialist, Secular and Integrity' — the two words among the options are socialist and secular."
+    },
+    {
+      "row": 185,
+      "xlsx_row": 186,
+      "q": "Which of the following is mentioned in the Preamble of the Constitution of India but was not in the original Preamble",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Socialism and secularism",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "'Socialist' and 'Secular' were inserted by the 42nd Amendment in 1976, so they were absent from the original Preamble."
+    },
+    {
+      "row": 186,
+      "xlsx_row": 187,
+      "q": "Under which amendment was the word 'socialist' added to the Preamble of the Indian Constitution",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "42nd amendment",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "'The Preamble was amended only once by the 42nd Amendment of 1976. The Amendment added the terms Socialist, Secular and Integrity'."
+    },
+    {
+      "row": 187,
+      "xlsx_row": 188,
+      "q": "By which amendment have the words 'socialist and secular' been added to the Preamble of the Constitution",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "42nd",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "Same 42nd Amendment Act, 1976."
+    },
+    {
+      "row": 188,
+      "xlsx_row": 189,
+      "q": "Which of the following describes India as a secular state",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Preamble of the Constitution",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-amendment-to-the-preamble-indian-polity-notes",
+      "evidence": "Only the Preamble declares India 'Sovereign Socialist Secular Democratic Republic'; 'secular' was inserted there by the 42nd Amendment."
+    },
+    {
+      "row": 190,
+      "xlsx_row": 191,
+      "q": "Sikkim, a state of India was created by",
+      "printed": "C",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "https://currentaffairspulse.com/what-is/36th-constitutional-amendment-act-1975",
+      "evidence": "The paper offers only the 30th, 32nd, 35th and 42nd Amendments. Sikkim became a full state by the 36th Amendment (1975); the 35th (1974) merely made it an associate state, inserting Art. 2A and the Tenth Schedule. The correct instrument is not among the options."
+    },
+    {
+      "row": 191,
+      "xlsx_row": 192,
+      "q": "Sikkim became a full-fledged state of the Indian Union",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "in 1975",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-sikkim-indian-polity-notes",
+      "evidence": "'It was on May 16, 1975 that Sikkim became 22nd state of the Union of India by (36th Amendment) Act 1975'."
+    },
+    {
+      "row": 192,
+      "xlsx_row": 193,
+      "q": "Sikkim became a full state of the Indian Union",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "in 1975",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-sikkim-indian-polity-notes",
+      "evidence": "Same fact — 36th Amendment, 16 May 1975, retrospective from 26 April 1975."
+    },
+    {
+      "row": 194,
+      "xlsx_row": 195,
+      "q": "In which year was the reorganization of Indian states on the basis of language after independence done",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "1956",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/state-reorganisation-act-1956/",
+      "evidence": "'The State Reorganisation Act was enacted in 1956 ... redefined state boundaries along linguistic lines', creating 14 states and 6 UTs."
+    },
+    {
+      "row": 195,
+      "xlsx_row": 196,
+      "q": "Manipur state was formed by",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "in 1972",
+      "status": "confirmed",
+      "source": "https://www.sanskritiias.com/current-affairs/fifty-years-of-the-establishment-of-sikkim",
+      "evidence": "Table of state formation: the north-eastern units, including Manipur, were upgraded from UT to full state in 1972 under the North-Eastern Areas (Reorganisation) Act, 1971."
+    },
+    {
+      "row": 197,
+      "xlsx_row": 198,
+      "q": "Which of the following is the 28th state of the Indian Union",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Jharkhand",
+      "status": "confirmed",
+      "source": "https://timesofindia.indiatimes.com/india/jharkhand-foundation-day-2022-facts-about-its-history-formation-politics-etc/amp_articleshow/95532356.cms",
+      "evidence": "'Jharkhand, the 28th state of India was formed on November 15, 2000'."
+    },
+    {
+      "row": 200,
+      "xlsx_row": 201,
+      "q": "When was the Citizenship (Amendment) Act passed",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "December 11, 2019",
+      "status": "confirmed",
+      "source": "https://en.dharmapedia.net/wiki/Citizenship_Amendment_Act_2019",
+      "evidence": "'passed by the Lok Sabha 10 December 2019 ... passed by the Rajya Sabha 11 December 2019' — the Parliament passed it on 11 December 2019."
+    },
+    {
+      "row": 204,
+      "xlsx_row": 205,
+      "q": "In which language was 'Tuzuk-i-Babari' written",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Turkish",
+      "status": "confirmed",
+      "source": "https://www.adda247.com/question-answer/tuzuk-i-baburi-baburnama-was-originally-written-in/q.v1.8293be6d-f38e-49f5-bed8-6b237118087f-en",
+      "evidence": "'It was originally written in Chagatai Turkish, which was Babur's mother tongue'."
     },
     {
       "row": 205,
@@ -1160,6 +1479,17 @@
       "xlsx_row": 209
     },
     {
+      "row": 210,
+      "xlsx_row": 211,
+      "q": "Which one of the following scripts of ancient India was written from right to left",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Kharosthi",
+      "status": "confirmed",
+      "source": "https://www.britannica.com/topic/Kharoshti",
+      "evidence": "Britannica: 'A cursive script written from right to left, Kharoshti was used for commercial and calligraphic purposes.'"
+    },
+    {
       "row": 211,
       "q": "The phrase 'equality before law' used in Article 14",
       "printed": "B",
@@ -1182,6 +1512,39 @@
       "evidence": "'The correct answer is Nizamuddin Ahmad.'"
     },
     {
+      "row": 213,
+      "xlsx_row": 214,
+      "q": "From which country, the Indian Constitution has taken reference for the idea of the Fundamental Rights",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "United States of America",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'US Constitution | Fundamental Rights ... | Bill of Rights inspiration' — Part III follows the US model."
+    },
+    {
+      "row": 214,
+      "xlsx_row": 215,
+      "q": "In which of the following Indian National Congress Sessions, the resolutions related to the fundamental rights were passed",
+      "printed": "A",
+      "verified_key": "C",
+      "verified_text": "Karachi Session—1931",
+      "status": "corrected",
+      "source": "https://nehruarchive.in/documents/resolution-on-fundamental-rights-31-march-1931-llwk7",
+      "evidence": "'Resolution on Fundamental Rights ... Karachi, 31 March 1931' — the 45th session's Fundamental Rights resolution (drafted by Nehru, amended by Gandhi). Surat 1907 passed no such resolution."
+    },
+    {
+      "row": 216,
+      "xlsx_row": 217,
+      "q": "Nitisara, an early book of politics, was written by",
+      "printed": "A",
+      "verified_key": "B",
+      "verified_text": "Kamandaka",
+      "status": "corrected",
+      "source": "https://testbook.com/question-answer/nitisara-an-early-book-of-politics-was-written-b--652b8090cdc2b7cf04584faf",
+      "evidence": "'The correct answer is Kamandaka' — the Nitisara (Kamandakiya Nitisara) is by Kamandaka, a disciple of Kautilya, not by Kautilya himself."
+    },
+    {
       "row": 222,
       "q": "Writing in Alphabetical order, which name of the following",
       "printed": "B",
@@ -1193,6 +1556,39 @@
       "xlsx_row": 223
     },
     {
+      "row": 225,
+      "xlsx_row": 226,
+      "q": "Under which article in the Indian Constitution, fundamental rights have been provided to the citizens",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Articles 12 to 35",
+      "status": "confirmed",
+      "source": "https://www.writinglaw.com/part-iii-12-35-constitution-of-india-fundamental-rights/",
+      "evidence": "Part III, 'Article 12 to 35', contains the Fundamental Rights."
+    },
+    {
+      "row": 230,
+      "xlsx_row": 231,
+      "q": "Which of the following fundamental rights is included in the Indian Constitution Is it not",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Right to property",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/upsc-exam/44th-constitutional-amendment-act/",
+      "evidence": "'The Amendment removed the Right to Property from the Fundamental Rights under Articles 19(1)(f) and 31' — it is now only a legal right under Art. 300A."
+    },
+    {
+      "row": 231,
+      "xlsx_row": 232,
+      "q": "During whose reign, Right to Property was removed from the list of fundamental rights",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Morarji Desai",
+      "status": "confirmed",
+      "source": "https://blog.ipleaders.in/right-to-property-as-a-fundamental-right/",
+      "evidence": "The 44th Amendment Act of 1978 — passed by the Janata government headed by Morarji Desai — deleted Arts 19(1)(f) and 31 and inserted Art. 300A."
+    },
+    {
       "row": 233,
       "q": "Which one of the following human rights is also a fundamental right",
       "printed": "*",
@@ -1202,6 +1598,39 @@
       "source": "https://examrobot.com/cds-i/2010/polity-governance/one-human-right-well-fundamental-right-under-constitution-india-right-information-right-education",
       "evidence": "The same question (CDS-I 2010 Q65) is answered 'Right to education' — Article 21A, inserted by the 86th Amendment.",
       "xlsx_row": 234
+    },
+    {
+      "row": 234,
+      "xlsx_row": 235,
+      "q": "When was the right to education added by amending the Indian Constitution",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "April 1, 2010",
+      "status": "confirmed",
+      "source": "https://lexibal.com/article-21a-right-to-education/",
+      "evidence": "Article 21A (86th Amendment, 2002) 'came into force on 1 April 2010' with the RTE Act, 2009."
+    },
+    {
+      "row": 235,
+      "xlsx_row": 236,
+      "q": "When was the right to education established by amending the Indian Constitution added",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "April 1, 2010",
+      "status": "confirmed",
+      "source": "https://anantamias.com/right-to-education/",
+      "evidence": "'It came into force on 1 April 2010 after being enabled by the 86th Constitutional Amendment Act, 2002'."
+    },
+    {
+      "row": 236,
+      "xlsx_row": 237,
+      "q": "Which of the following was added to the original list of fundamental rights",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Right to free and compulsory education",
+      "status": "confirmed",
+      "source": "https://lexibal.com/article-21a-right-to-education/",
+      "evidence": "Article 21A, the right to free and compulsory education, was inserted into Part III by the 86th Amendment (2002) — an addition to the original list."
     },
     {
       "row": 251,
