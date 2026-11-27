@@ -19,15 +19,15 @@ Every row carries a `Q. No.` that matches the PDF, and three answer-audit column
 
 ## What is verified, and what is not
 
-**199 of 515 rows have been checked against a published source** (36 printed keys corrected, 147
-confirmed, 5 ambiguous keys resolved, 10 rows with no possible answer). The other 316 rows still
+**249 of 515 rows have been checked against a published source** (37 printed keys corrected, 196
+confirmed, 5 ambiguous keys resolved, 10 rows with no possible answer). The other 266 rows still
 carry the key of their source book and are labelled as such in both the workbook and the PDF. Read
 those as "the source book says so", not as fact. Details, evidence and the correction table are in
 **`POLITY_PYQ_VERIFICATION.md`** and `data/polity_answer_verification.json`.
 
 The three sources are not equally trustworthy:
 
-* **KGS book keys** — 202 rows. A twelve-question random audit found one error (Q47) and two corrupt
+* **KGS book keys** — 166 rows. A twelve-question random audit found one error (Q47) and two corrupt
   option tables, so expect roughly one wrong key in ten among the rows still carrying them.
 * **CSV keys** — 34 rows. Consistent with the verified answer on every spot-check.
 * **JSON keys** — 126 rows still carry one (of 134). The letters belong to a different booklet's

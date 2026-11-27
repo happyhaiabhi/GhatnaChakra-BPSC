@@ -10,14 +10,14 @@ and the constitutional text. Every claim below resolves to a URL and a quoted se
 | | Rows |
 |---|---|
 | Total questions | 515 |
-| **Web-checked in this pass** | **199 (38.6 %)** |
-| — printed key was wrong, now corrected | 36 |
-| — printed key confirmed | 147 |
+| **Web-checked in this pass** | **249 (48.3 %)** |
+| — printed key was wrong, now corrected | 37 |
+| — printed key confirmed | 196 |
 | — ambiguous printed key (`*`, `A/C`) resolved | 5 |
 | — no answer possible (corrupt options / deleted by BPSC) | 4 |
-| Not yet web-checked | 316 |
+| Not yet web-checked | 266 |
 
-The single most important finding is not the 36 corrections. It is that **the supplied JSON
+The single most important finding is not the 37 corrections. It is that **the supplied JSON
 answer letters are not aligned with the options printed in this sheet**, so about half of the 134
 rows that inherit a JSON letter are carrying a wrong answer (28 wrong of the 38 judged, and 3 of 8
 in an unbiased random sample). Those rows are now labelled *not web-checked: source letter
@@ -74,6 +74,7 @@ now keyed.
 | 293 | `D` | **A** | The President | geniusacademy.org.in |
 | 297 | `*` | **C** | Guwahati | en.wikipedia.org |
 | 301 | `A` | **D** | Ramsay MacDonald | wikiwand.com |
+| 303 | `A` | **C** | J. Andrew | maargxupsc.com |
 | 310 | `A` | **B** | Article 40 | examstocks.com |
 | 314 | `A` | **C** | finance commission | licchavilyceum.com |
 | 315 | `A` | **B** | 1, 2 and 4 only | cracktarget.com |
@@ -96,8 +97,8 @@ Confirmed as already correct: **Q205** (Peer Muhammad Moonis), **Q212** (Nizamud
 Article 192), **Q395** (Article 210 language of business), **Q412** (PURA — Abdul Kalam),
 **Q442** (Article 98), **Q445** (prorogation), **Q495** (Article 32/226).
 
-In the second sweep the KGS/CSV/merged block of Q7–Q284 was checked row by row; the printed key held
-in **147** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
+In the second sweep the KGS/CSV/merged block of Q7–Q380 was checked row by row; the printed key held
+in **196** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
 Amendment Bill), **Q22** (Sarkaria report submitted 1987), **Q62/Q69** (2022 Vice-Presidential
 electoral college = 788, per the ECI press note), **Q71/Q73** (Constitution Day, 26 November),
 **Q74–Q79** (Constituent Assembly, 9 December 1946; 2 years 11 months 18 days; adopted by the
