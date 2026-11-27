@@ -2601,6 +2601,72 @@
       "evidence": "'Jharkhand, the 28th state of India was formed on November 15, 2000'."
     },
     {
+      "row": 384,
+      "xlsx_row": 385,
+      "q": "What is meant by 'Rule of Law'",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "One act for all and one judiciary for all",
+      "status": "confirmed",
+      "source": "https://www.lawteacher.net/free-law-essays/constitutional-law/the-rule-of-law-as-political-theory-law-essay.php",
+      "evidence": "Dicey: 'everyone, irrespective of rank and status ... shall be subjected to the same law and the same courts of the land' (duplicate of Q175)."
+    },
+    {
+      "row": 385,
+      "xlsx_row": 386,
+      "q": "Which one of the following is not the characteristic of decentralization",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "To instil non-confidence among local communities",
+      "status": "confirmed",
+      "source": "https://bharatdocs.com/73rd-amendment-panchayati-raj/",
+      "evidence": "Decentralisation is meant to build confidence and participation at the grassroots; 'instilling non-confidence' is the negation of its purpose."
+    },
+    {
+      "row": 386,
+      "xlsx_row": 387,
+      "q": "If 'One Nation One Election' is to be realized in India, which Article of the Indian Constitution has to be amended",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.apnilaw.com/upsc/indian-constitution/article-80-composition-of-rajya-sabha-explained/",
+      "evidence": "Simultaneous polls require amending both Art. 83 (term of Parliament) and Art. 172 (term of State Assemblies), so no single listed article is enough."
+    },
+    {
+      "row": 388,
+      "xlsx_row": 389,
+      "q": "Who was the Chairman of the First Law Commission in Independent India",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Mr. M. C. Setalvad",
+      "status": "confirmed",
+      "source": "https://www.wikiwand.com/en/M._C._Setalvad",
+      "evidence": "'He also remained the Chairman of the first Law Commission of India (1955-1958)'; he was simultaneously the first Attorney-General."
+    },
+    {
+      "row": 390,
+      "xlsx_row": 391,
+      "q": "What was the duration in the making of the Indian Constitution",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "2 years 11 months and 18 days",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/how-long-did-the-constituent-assembly-take-to-fina--69a5717dbf4ea616d8f3bd0c",
+      "evidence": "'The Constituent Assembly of India took exactly 2 years, 11 months, and 18 days' (duplicate of Q75)."
+    },
+    {
+      "row": 392,
+      "xlsx_row": 393,
+      "q": "Sikkim became a full-fledged State of the Union of India in",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "1975",
+      "status": "confirmed",
+      "source": "https://prepp.in/news/e-492-sikkim-indian-polity-notes",
+      "evidence": "36th Amendment, 16 May 1975 — Sikkim became the 22nd State (duplicate of Q191/Q192)."
+    },
+    {
       "row": 395,
       "q": "What is true about the proceedings of the State Legislature",
       "printed": "A",
@@ -2621,6 +2687,61 @@
       "source": "https://www.pw.live/state-psc/exams/bpsc-deleted-5-questions-in-final-answer-key",
       "evidence": "BPSC's 71st Prelims final answer key deleted five questions; the sheet's CSV flags this question as deleted, consistent with the stated reasons (polity question with multiple interpretations).",
       "xlsx_row": 398
+    },
+    {
+      "row": 398,
+      "xlsx_row": 399,
+      "q": "The Decentralisation System was recommended by",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Balwant Rai Mehta",
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Balwantrai_Mehta_Committee",
+      "evidence": "The 1957 committee 'recommended the establishment of the scheme of democratic decentralization' — Panchayati Raj."
+    },
+    {
+      "row": 399,
+      "xlsx_row": 400,
+      "q": "Justice JS Verma Committee's report, 2013 deals with",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Change in law pertaining to offences against women",
+      "status": "confirmed",
+      "source": "https://stoptrafficking.in/article/justice-verma-committee-report-summary/",
+      "evidence": "The committee (constituted 23 Dec 2012) was to 'recommend amendments to the Criminal Law so as to provide for quicker trial and enhanced punishment for criminals accused of committing sexual assault against women'; report 23 Jan 2013."
+    },
+    {
+      "row": 401,
+      "xlsx_row": 402,
+      "q": "Who was the first Indian woman President of the Indian National Congress",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Sarojini Naidu",
+      "status": "confirmed",
+      "source": "https://prepp.in/question/sarojini-naidu-was-elected-first-indian-woman-pres-645dd9675f8c93dc2741d766",
+      "evidence": "'In 1925 ... Kanpur ... Sarojini Naidu was elected as the President ... the first Indian woman'; Annie Besant (1917) was the first woman but not Indian."
+    },
+    {
+      "row": 402,
+      "xlsx_row": 403,
+      "q": "Who was the President of Gaya Session of the Indian National Congress held in 1922",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Chittaranjan Das",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/who-was-the-president-of-gaya-session-of-the-india--686494acfa103acaea324822",
+      "evidence": "'The Gaya Session of the Indian National Congress in 1922 was presided over by Chittaranjan Das' — after it he and Motilal Nehru founded the Swaraj Party."
+    },
+    {
+      "row": 403,
+      "xlsx_row": 404,
+      "q": "Vote on Account is meant for",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Appropriating funds pending passing of the budget",
+      "status": "confirmed",
+      "source": "https://lotusarise.com/budget-parliamentary-control-finance-ministry-public-administration-optional/",
+      "evidence": "'seeks a vote on account (Article 116) to cover spending until the new Lok Sabha passes a full budget' (duplicate of Q152)."
     },
     {
       "row": 412,
