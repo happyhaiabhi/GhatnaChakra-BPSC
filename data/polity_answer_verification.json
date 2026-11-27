@@ -1633,6 +1633,83 @@
       "evidence": "Article 21A, the right to free and compulsory education, was inserted into Part III by the 86th Amendment (2002) — an addition to the original list."
     },
     {
+      "row": 239,
+      "xlsx_row": 240,
+      "q": "Who among the following has been given the power to enforce fundamental rights by the Constitution",
+      "printed": "D",
+      "verified_key": "D",
+      "verified_text": "Supreme Court and High Courts",
+      "status": "confirmed",
+      "source": "https://testbook.com/ias-preparation/types-of-writs-in-india",
+      "evidence": "Arts 32 and 226 vest the writ jurisdiction to enforce Fundamental Rights in the Supreme Court and the High Courts ('Types of Writs in India (Art 32 & 226)')."
+    },
+    {
+      "row": 243,
+      "xlsx_row": 244,
+      "q": "The concept of the Directive Principles of State Policy in the Indian Constitution was borrowed from",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Ireland",
+      "status": "confirmed",
+      "source": "https://cracktarget.com/sources-of-the-indian-constitution/",
+      "evidence": "'DPSP | Part IV (Arts. 36-51) | Ireland'."
+    },
+    {
+      "row": 245,
+      "xlsx_row": 246,
+      "q": "The concept of welfare state is included in the Constitution of India",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Among the directive principles of state policy",
+      "status": "confirmed",
+      "source": "https://unacademy.com/content/nda/study-material/general-knowledge/directive-principles-of-state-policy/",
+      "evidence": "'The main aim of [the Directive Principles] is to establish the social and democratic welfare of the state' — the welfare-state ideal sits in Part IV, not in Part III."
+    },
+    {
+      "row": 246,
+      "xlsx_row": 247,
+      "q": "The ideal of a welfare state is described by",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Among the directive principles of state policy",
+      "status": "confirmed",
+      "source": "https://unacademy.com/content/nda/study-material/general-knowledge/directive-principles-of-state-policy/",
+      "evidence": "Same point as Q245: Part IV (Arts 36-51) carries the welfare-state directives."
+    },
+    {
+      "row": 248,
+      "xlsx_row": 249,
+      "q": "How are the Directive Principles of State Policy related to fundamental rights",
+      "printed": "",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The option column collapsed into bare '(a) (b) (c) (d)' fragments; neither the match items nor the codes survive extraction, so no option can be identified."
+    },
+    {
+      "row": 249,
+      "xlsx_row": 250,
+      "q": "Which of the following articles directs state governments to constitute Panchayats",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Article 40",
+      "status": "confirmed",
+      "source": "https://modeldiplomat.com/learn/glossary/article-40-organisation-of-village-panchayats",
+      "evidence": "'Article 40 is a Directive Principle ... directing the State to organise village panchayats and endow them with powers to function as units of self-government.'"
+    },
+    {
+      "row": 250,
+      "xlsx_row": 251,
+      "q": "Match List-II with List-I and select the correct answer with the help of the code given below",
+      "printed": "",
+      "verified_key": "",
+      "verified_text": "",
+      "status": "defect",
+      "source": "",
+      "evidence": "The option column collapsed into bare '(a) (b) (c) (d)' fragments; neither the match items nor the codes survive extraction, so no option can be identified."
+    },
+    {
       "row": 251,
       "q": "The Attorney General of India is appointed by",
       "printed": "E",
@@ -1642,6 +1719,39 @@
       "source": "https://www.bajajfinserv.in/attorney-general-of-india-article-76",
       "evidence": "Article 76: 'the Attorney General of India is appointed by the President'.",
       "xlsx_row": 252
+    },
+    {
+      "row": 253,
+      "xlsx_row": 254,
+      "q": "Who advises the Government of India on legal matters",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Attorney General",
+      "status": "confirmed",
+      "source": "https://www.defactolaw.in/post/attorney-general-india-article-76-role-powers",
+      "evidence": "Article 76: the AG is 'the chief legal adviser' who tenders advice to the Government of India on legal matters."
+    },
+    {
+      "row": 254,
+      "xlsx_row": 255,
+      "q": "By whom is the Attorney General of India appointed?",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "President of India",
+      "status": "confirmed",
+      "source": "https://www.defactolaw.in/post/attorney-general-india-article-76-role-powers",
+      "evidence": "Article 76(1): 'the President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court' as Attorney-General."
+    },
+    {
+      "row": 255,
+      "xlsx_row": 256,
+      "q": "Which officer of the Government of India, despite not being a member, has the right to take part in the proceedings of Parliament",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Attorney General",
+      "status": "confirmed",
+      "source": "https://www.defactolaw.in/post/attorney-general-india-article-76-role-powers",
+      "evidence": "Article 88 gives the AG the right to speak and take part in proceedings of either House 'but shall not ... be entitled to vote'."
     },
     {
       "row": 256,
@@ -1655,6 +1765,105 @@
       "xlsx_row": 257
     },
     {
+      "row": 257,
+      "xlsx_row": 258,
+      "q": "Which Article in the Indian Constitution is related with the establishment of the Election Commission",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 324",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/article-324-of-the-constitution/",
+      "evidence": "'Article 324 of the Constitution of India establishes the constitutional framework for the Election Commission of India'."
+    },
+    {
+      "row": 258,
+      "xlsx_row": 259,
+      "q": "What is the version of the machine VVPAT used for voting in India",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "M3",
+      "status": "confirmed",
+      "source": "https://indianexpress.com/elections/lok-sabha-election-gujarat-to-use-new-evms-vvpats-old-machines-sent-to-kerala-bihar-5563850/",
+      "evidence": "'All the EVMs and VVPATs are brand new and belong to the latest M3 (Model 3) version' — the VVPAT unit attached to the M3 EVM."
+    },
+    {
+      "row": 259,
+      "xlsx_row": 260,
+      "q": "Which Article establishes the Election Commission of India",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 324",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/article-324-of-the-constitution/",
+      "evidence": "Article 324(1) vests superintendence, direction and control of elections 'in a Commission (referred to ... as the Election Commission)'."
+    },
+    {
+      "row": 260,
+      "xlsx_row": 261,
+      "q": "Which article of the Constitution of India is related to the establishment of the Election Commission",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 324",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/article-324-of-the-constitution/",
+      "evidence": "Same provision as Q257/Q259 (Article 324)."
+    },
+    {
+      "row": 261,
+      "xlsx_row": 262,
+      "q": "To fill the vacancy in the legislature Special election is called",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "By-election",
+      "status": "confirmed",
+      "source": "https://anydifferences.com/difference-between-general-elections-and-bye-elections/",
+      "evidence": "'A bye-election is a type of election that is held to fill a vacancy that occurs between regular elections'."
+    },
+    {
+      "row": 263,
+      "xlsx_row": 264,
+      "q": "The voting age in general elections was reduced from 21 years to 18 years",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "By 61st amendment",
+      "status": "confirmed",
+      "source": "https://vajiramandravi.com/current-affairs/61st-constitutional-amendment-act/",
+      "evidence": "'The 61st Constitutional Amendment Act 1988 ... lowered India's voting age from 21 to 18' by amending Article 326."
+    },
+    {
+      "row": 264,
+      "xlsx_row": 265,
+      "q": "If 'One State One Election' is implemented in India, then which article of the Indian Constitution will have to be amended",
+      "printed": "E",
+      "verified_key": "E",
+      "verified_text": "None of the above / More than one of the above",
+      "status": "confirmed",
+      "source": "https://www.apnilaw.com/upsc/indian-constitution/article-80-composition-of-rajya-sabha-explained/",
+      "evidence": "Simultaneous elections would touch the term-of-House provisions for both chambers — Art. 83 (Parliament) and Art. 172 (State Legislatures) — so no single listed article suffices, making (e) the correct code."
+    },
+    {
+      "row": 266,
+      "xlsx_row": 267,
+      "q": "What is the version of VVPAT, the machine used for voting in India",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "M3",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/what-is-the-version-of-the-machine-vvpat-used-for--5f7b51da38682a559d1eb106",
+      "evidence": "'The correct answer is M3 ... A VVPAT framework is included in the M3 version of EVMs'."
+    },
+    {
+      "row": 268,
+      "xlsx_row": 269,
+      "q": "According to which article, 'National Emergency' can be declared by the President of India",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 352",
+      "status": "confirmed",
+      "source": "https://www.nextias.com/blog/national-emergency/",
+      "evidence": "'Article 352 of the Indian Constitution deals with National Emergency, invoked during war, external aggression, or armed rebellion situations'."
+    },
+    {
       "row": 272,
       "xlsx_row": 273,
       "q": "Under which one of the following Articles is the formation of Finance Commission",
@@ -1664,6 +1873,50 @@
       "status": "confirmed",
       "source": "https://en.wikipedia.org/wiki/Sixteenth_Finance_Commission",
       "evidence": "The Finance Commission is 'constituted by the Government of India under Article 280 of Constitution'."
+    },
+    {
+      "row": 275,
+      "xlsx_row": 276,
+      "q": "Under which of the following articles, provision has been made for the formation of Finance Commission",
+      "printed": "A",
+      "verified_key": "A",
+      "verified_text": "Article 280",
+      "status": "confirmed",
+      "source": "https://testbook.com/constitutional-articles/article-280-of-indian-constitution",
+      "evidence": "'Article 280 of the Indian Constitution establishes the Finance Commission of India', constituted by the President every fifth year."
+    },
+    {
+      "row": 276,
+      "xlsx_row": 277,
+      "q": "The Federal Finance Commission in India deals with",
+      "printed": "B",
+      "verified_key": "B",
+      "verified_text": "Finance between the states and the center",
+      "status": "confirmed",
+      "source": "https://testbook.com/constitutional-articles/article-280-of-indian-constitution",
+      "evidence": "Art. 280(2)(a)-(b): the Commission recommends 'the distribution of net proceeds of taxes between the Union and the States' and the principles governing grants-in-aid — i.e. Centre-State finance."
+    },
+    {
+      "row": 277,
+      "xlsx_row": 278,
+      "q": "By which time Governor has to return an ordinary bill to the concerned State Legislature",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "No time limit",
+      "status": "confirmed",
+      "source": "https://glcmag.com/2024/08/17/state-bills-and-the-governors-guidelines-by-the-supreme-court/",
+      "evidence": "Article 200's first proviso says 'as soon as possible' and 'does not prescribe a particular time limit within which the Governor needs to exercise his powers'."
+    },
+    {
+      "row": 278,
+      "xlsx_row": 279,
+      "q": "Who was the Governor-General of India in 1857",
+      "printed": "C",
+      "verified_key": "C",
+      "verified_text": "Canning",
+      "status": "confirmed",
+      "source": "https://testbook.com/question-answer/who-was-the-governor-general-of-india-during-the-r--6ac5e13cf26a89fac5683866",
+      "evidence": "'Lord Canning (Charles Canning) served as the Governor General of India from 1856 to 1862', the period of the 1857 revolt."
     },
     {
       "row": 281,

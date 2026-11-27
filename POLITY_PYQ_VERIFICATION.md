@@ -10,14 +10,14 @@ and the constitutional text. Every claim below resolves to a URL and a quoted se
 | | Rows |
 |---|---|
 | Total questions | 515 |
-| **Web-checked in this pass** | **137 (26.6 %)** |
-| — printed key was wrong, now corrected | 34 |
-| — printed key confirmed | 93 |
+| **Web-checked in this pass** | **199 (38.6 %)** |
+| — printed key was wrong, now corrected | 36 |
+| — printed key confirmed | 147 |
 | — ambiguous printed key (`*`, `A/C`) resolved | 5 |
 | — no answer possible (corrupt options / deleted by BPSC) | 4 |
-| Not yet web-checked | 378 |
+| Not yet web-checked | 316 |
 
-The single most important finding is not the 34 corrections. It is that **the supplied JSON
+The single most important finding is not the 36 corrections. It is that **the supplied JSON
 answer letters are not aligned with the options printed in this sheet**, so about half of the 134
 rows that inherit a JSON letter are carrying a wrong answer (28 wrong of the 38 judged, and 3 of 8
 in an unbiased random sample). Those rows are now labelled *not web-checked: source letter
@@ -63,6 +63,8 @@ now keyed.
 | 166 | `*` | **B** | 444 sections (articles, as of the 2005 exam date; 448 today) | vajiramandravi.com |
 | 111 | `A` | **D** | Andaman and Nicobar | economictimes.indiatimes.com |
 | 208 | `E` | **A** | the President | examstocks.com |
+| 214 | `A` | **C** | Karachi Session—1931 | nehruarchive.in |
+| 216 | `A` | **B** | Kamandaka | testbook.com |
 | 211 | `B` | **A** | Britain | testbook.com |
 | 233 | `*` | **C** | Right to education | examrobot.com |
 | 251 | `E` | **B** | the President of India | bajajfinserv.in |
@@ -94,8 +96,8 @@ Confirmed as already correct: **Q205** (Peer Muhammad Moonis), **Q212** (Nizamud
 Article 192), **Q395** (Article 210 language of business), **Q412** (PURA — Abdul Kalam),
 **Q442** (Article 98), **Q445** (prorogation), **Q495** (Article 32/226).
 
-In the second sweep the KGS/CSV/merged block of Q7–Q186 was checked row by row; the printed key held
-in **93** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
+In the second sweep the KGS/CSV/merged block of Q7–Q284 was checked row by row; the printed key held
+in **147** of those rows. Notable confirmations: **Q7/Q10** (73rd Amendment traces to the 64th
 Amendment Bill), **Q22** (Sarkaria report submitted 1987), **Q62/Q69** (2022 Vice-Presidential
 electoral college = 788, per the ECI press note), **Q71/Q73** (Constitution Day, 26 November),
 **Q74–Q79** (Constituent Assembly, 9 December 1946; 2 years 11 months 18 days; adopted by the
